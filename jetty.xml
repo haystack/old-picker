@@ -26,7 +26,7 @@
 
         <Item>
           <New class="org.mortbay.jetty.bio.SocketConnector">
-            <Set name="port">80</Set>
+            <Set name="port">4444</Set>
             <Set name="maxIdleTime">50000</Set>
           </New>
         </Item>
@@ -62,7 +62,7 @@
         <!-- ======================================================= -->
         <Item>
           <New id="aContext" class="org.mortbay.jetty.handler.ContextHandler">
-            <Set name="contextPath">/course-picker</Set>
+            <Set name="contextPath">/</Set>
             <Set name="resourceBase">./src/webapp/</Set>
             <Set name="handler">
               <New id="javadocServletHandler" class="org.mortbay.jetty.servlet.ServletHandler">

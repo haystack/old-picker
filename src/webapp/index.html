@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>MIT Course Catalogue Pickr (beta)</title>
+        <link type="text/css" rel="stylesheet" href="styles.css" />
+        
+        <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js" type="text/javascript"></script>
+        <script src="picker.js" type="text/javascript"></script>
+    </head>
+    <body onload="onLoad();">
+        <div id="title">MIT Course Catalogue Pickr (beta)</div>
+        <div id="starting-interface">
+            <p>Pick courses in which you want to take classes:</p>
+            <table id="course-list" cellpadding="3"></table>
+            <p><button onclick="browseCourses();">Browse Courses</button></p>
+        </div>
+        
+        <div id="browsing-interface">
+            <div ex:role="collection" ex:itemTypes="Class"></div>
+            <div ex:role="exhibit-lens" class="course-lens" style="display: none;">
+                <div class="course-title">
+                    <span ex:content=".semester" class="course-semester"></span>
+                    <span ex:content=".courseNumber"></span> &bull; <span ex:content=".label"></span>
+                </div>
+                <table class="course-body">
+                    <tr>
+                        <td>
+                            <div ex:content=".topic" class="course-topic"></div>
+                            <div ex:content=".description" class="course-description"></div>
+                        </td>
+                        <td width="30%" class="course-logistics">
+                            <span ex:if="exists(.picked)">
+                                <span>
+                                    <button class="pick-button" onclick="pick(this);" ex:classID-content="value" style="display:none;">pick</button>
+                                    <button class="unpick-button" onclick="unpick(this);" ex:classID-content="value">unpick</button>
+                                </span>
+                                <span>
+                                    <button class="pick-button" onclick="pick(this);" ex:classID-content="value">pick</button>
+                                    <button class="unpick-button" onclick="unpick(this);" ex:classID-content="value" style="display:none;">unpick</button>
+                                </span>
+                            </span>
+                            
+                            <div ex:select=".offering">
+                                <div ex:case="Currently Offered"></div>
+                                <div ex:content=".offering" class="no-offering"></div>
+                            </div>
+                            <div ex:content=".units"></div>
+                            <div ex:content=".category"></div>
+                            <div ex:if-exists=".TQE">TQE: <span ex:content=".TQE"></span></div>
+                            <ul ex:content=".lecture">
+                                <li><span ex:content=".day"></span>
+                                    <span ex:content=".startHour"></span>
+                                    <span ex:if-exists=".endHour">- <span ex:content=".endHour"></span></span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr valign="bottom">
+                        <td><div ex:content=".instructor" class="course-instructors"></div></td>
+                        <td align="right"><span ex:control="copy-button"></span></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="tabs">
+                <button onclick="showAllClasses();">All Classes</button>
+                <button onclick="showPickedClasses();">Picked Classes</button>
+            </div>
+            <div id="picked-classes" style="display: none;">
+                <table width="100%" id="content" cellspacing="20">
+                    <tr valign="top">
+                        <td width="15%">
+                            <div ex:role="facet" ex:collectionID="picked-classes" ex:expression=".topic"></div>
+                            <div ex:role="facet" ex:collectionID="picked-classes" ex:expression=".category"></div>
+                        </td>
+                        <td>
+                            <div ex:role="view"
+                                ex:orders=".courseNumber"
+                                ex:collectionID="picked-classes"
+                                ex:possibleOrders=".label, .courseNumber, .semester, .offering, .topic, .level, .category, .units, .totalUnits, .instructor"
+                                >
+                            </div>
+                        </td>
+                        <td width="15%">
+                            <div ex:role="facet" ex:collectionID="picked-classes" ex:expression=".TQE"></div>
+                            <div ex:role="facet" ex:collectionID="picked-classes" ex:expression=".level"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="all-classes">
+                <table width="100%" id="content" cellspacing="20">
+                    <tr valign="top">
+                        <td width="15%">
+                            <b>Search</b>
+                            <div ex:role="facet" ex:facetClass="TextSearch"></div>
+                            <hr />
+                            <div ex:role="facet" ex:expression=".semester" ex:selection="Fall"></div>
+                            <div ex:role="facet" ex:expression=".offering" ex:selection="Currently Offered"></div>
+                            <div ex:role="facet" ex:expression=".topic"></div>
+                            <div ex:role="facet" ex:expression=".category"></div>
+                        </td>
+                        <td>
+                            <div ex:role="view"
+                                ex:orders=".courseNumber"
+                                ex:possibleOrders=".label, .courseNumber, .semester, .offering, .topic, .level, .category, .units, .totalUnits, .instructor"
+                                ex:showAll="false"
+                                ex:grouped="false">
+                            </div>
+                        </td>
+                        <td width="15%">
+                            <div ex:role="facet" ex:expression=".TQE"></div>
+                            <div ex:role="facet" ex:expression=".level"></div>
+                            <div ex:role="facet" ex:expression=".units"></div>
+                            <div ex:role="facet" ex:expression=".totalUnits"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

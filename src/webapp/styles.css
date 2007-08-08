@@ -1,0 +1,88 @@
+body {
+    font-family: Trebuchet MS, Tahoma, Helvetica, Arial, sans serif;
+    font-size:   10pt;
+    padding:     0;
+    margin:      0;
+}
+table {
+    font-size: 100%;
+}
+
+/*
+ * Big UI pieces
+ */
+#title {
+    padding:        0.75em;
+    font-size:      150%;
+    border-bottom:  1px solid #ccc;
+    background:     #eee;
+}
+#credits {
+    padding:        0.1in 0.25in;
+    font-size:      90%;
+    text-align:     center;
+}
+
+#content {
+    padding:     0.25in;
+}
+
+#starting-interface {
+    margin: 2em;
+}
+#browsing-interface {
+    display: none;
+}
+#tabs {
+    padding: 0.5em;
+    background: #ffe;
+    text-align: center;
+}
+
+/*
+ * Lenses
+ */
+div.course-lens {
+    border:         1px solid #aac;
+    margin-bottom:  2em;
+}
+div.course-title {
+    padding:        0.25em;
+    font-weight:    bold;
+    background:     #dde;
+}
+span.course-semester {
+    float: right;
+}
+button.pick-button {
+    float: right;
+}
+button.unpick-button {
+    float: right;
+    background: yellow;
+}
+
+table.course-body {
+    width: 100%;
+}
+table.course-body td {
+    padding: 0.25em;
+}
+
+div.course-topic {
+}
+div.course-description {
+    padding:        0.5em 0 0.5em 0;
+}
+div.course-instructors {
+    font-style: italic;
+}
+
+td.course-logistics {
+    background: #eee;
+}
+div.no-offering {
+    font-size: 120%;
+    font-weight: bold;
+    color: red;
+}
