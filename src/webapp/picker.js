@@ -92,7 +92,12 @@ function onLoad() {
         if (!course.hasData) {
             tr.style.color = "#888";
         }
+        // This is just to make developing a bit easier...remove for deployment
+        if (course.number == 6) {
+            td0.firstChild.checked = true;
+        }
     }
+    browseCourses(); // Ditto here.
 }
 
 function browseCourses() {
