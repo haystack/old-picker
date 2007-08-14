@@ -3,13 +3,12 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.035---Computer-Language-Engineering",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.035+-+Computer+Language+Engineering",
 			"series" :      "6.0xx",
 			"in-charge" :   "Amarasinghe, S. P.",
 			"units" :       "4-4-4",
-			"xyzid" :       "c6.035",
+			"id" :       "c6.035",
 			"type" :        "Class",
 			"label" :       "6.035 - Computer Language Engineering",
 			"prereqs" :     "6.170",
@@ -20,14 +19,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.115---Microcomputer-Project-Laboratory",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.115+-+Microcomputer+Project+Laboratory",
 			"series" :      "6.1xx",
 			"in-charge" :   "Leeb, S. B.",
 			"units" :       "3-6-3",
-			"xyzid" :       "c6.115",
+			"id" :       "c6.115",
 			"type" :        "Class",
 			"label" :       "6.115 - Microcomputer Project Laboratory",
 			"prereqs" :     "6.002",
@@ -38,8 +36,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.253---Convex-Analysis-and-Optimization",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    [
 				"Not offered next year",
 				"Currently Offered"
@@ -48,7 +45,7 @@
 			"series" :      "6.2xx",
 			"in-charge" :   "Bertsekas, D. P.",
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.253",
+			"id" :       "c6.253",
 			"type" :        "Class",
 			"label" :       "6.253 - Convex Analysis and Optimization",
 			"prereqs" :     [
@@ -62,8 +59,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.021J---Quantitative-Physiology--Cells-and-Tissues",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.021J+-+Quantitative+Physiology%3A+Cells+and+Tissues",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -71,7 +67,7 @@
 				"Han, J."
 			],
 			"units" :       "5-2-5",
-			"xyzid" :       "c6.021J",
+			"id" :       "c6.021J",
 			"type" :        "Class",
 			"label" :       "6.021J - Quantitative Physiology: Cells and Tissues",
 			"prereqs" :     [
@@ -93,13 +89,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.072J---Introduction-to-Digital-Electronics",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.072J+-+Introduction+to+Digital+Electronics",
 			"series" :      "6.0xx",
 			"in-charge" :   "Bales, J.",
 			"units" :       "0-3-3 [P/D/F]",
-			"xyzid" :       "c6.072J",
+			"id" :       "c6.072J",
 			"type" :        "Class",
 			"label" :       "6.072J - Introduction to Digital Electronics",
 			"description" : "Design your own circuits for times when off-the-shelf solutions are not available. Seminar begins with assembly of a utility board. Weekly labs cover digital logic gates, memory elements, and finite-state machine design. Seminar concludes with a team-based design project. Preference given to freshmen. Maximum of 10 students per term, lottery at the first class session if oversubscribed .",
@@ -109,8 +104,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.338J---Parallel-Computing",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.338J+-+Parallel+Computing",
 			"series" :      "6.3xx",
@@ -119,7 +113,7 @@
 				"White, J.K."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.338J",
+			"id" :       "c6.338J",
 			"type" :        "Class",
 			"label" :       "6.338J - Parallel Computing",
 			"prereqs" :     "18.06",
@@ -130,8 +124,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.450---Principles-of-Digital-Communication-I",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.450+-+Principles+of+Digital+Communication+I",
 			"series" :                    "6.4xx",
@@ -140,7 +133,7 @@
 				"Zheng, L."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.450",
+			"id" :                     "c6.450",
 			"type" :                      "Class",
 			"label" :                     "6.450 - Principles of Digital Communication I",
 			"prereqs" :                   "6.011",
@@ -167,8 +160,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.581J---Foundations-of-Algorithms-and-Computational-Techniques-in-Systems-Biology",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.581J+-+Foundations+of+Algorithms+and+Computational+Techniques+in+Systems+Biology",
 			"series" :                    "6.5xx",
@@ -177,7 +169,7 @@
 				"White, J. K."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.581J",
+			"id" :                     "c6.581J",
 			"type" :                      "Class",
 			"label" :                     "6.581J - Foundations of Algorithms and Computational Techniques in Systems Biology",
 			"prereqs" :                   [
@@ -196,7 +188,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.871",
+			"id" :                     "c6.871",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Davis, R.",
@@ -210,8 +202,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Not offered next year",
 			"hass-distribution" :         "no",
-			"id" :                        "6.871---Knowledge-Based-Applications-Systems",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               [
 				"Development of programs containing a significant amount of knowledge about their application domain. Outline: brief review of relevant AI techniques",
@@ -225,14 +216,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.161---Modern-Optics-Project-Laboratory",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.161+-+Modern+Optics+Project+Laboratory",
 			"series" :      "6.1xx",
 			"in-charge" :   "Warde, C.",
 			"units" :       "3-5-4",
-			"xyzid" :       "c6.161",
+			"id" :       "c6.161",
 			"type" :        "Class",
 			"label" :       "6.161 - Modern Optics Project Laboratory",
 			"prereqs" :     [
@@ -261,12 +251,11 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.193\u00E2\u0080\u00936.197---Special-Laboratory-Subjects-in-Electrical-Engineering-and-Computer-Science",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.193%C3%A2%C2%80%C2%936.197+-+Special+Laboratory+Subjects+in+Electrical+Engineering+and+Computer+Science",
 			"series" :      "6.1xx",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.193\u00E2\u0080\u00936.197",
+			"id" :       "c6.193\u00E2\u0080\u00936.197",
 			"type" :        "Class",
 			"label" :       "6.193\u00E2\u0080\u00936.197 - Special Laboratory Subjects in Electrical Engineering and Computer Science",
 			"description" : "No description available.",
@@ -276,13 +265,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.UR---Undergraduate-Research-in-Electrical-Engineering-and-Computer-Science",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.UR+-+Undergraduate+Research+in+Electrical+Engineering+and+Computer+Science",
 			"series" :      "6.Uxx",
 			"in-charge" :   "Smith, A. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.UR",
+			"id" :       "c6.UR",
 			"type" :        "Class",
 			"label" :       "6.UR - Undergraduate Research in Electrical Engineering and Computer Science",
 			"description" : "Extended participation in the work of a faculty member or research group, including independent study of the literature, direct involvement in the group\'s research, and project work under an individual faculty member. Research is arranged by mutual agreement between the student and a member of the faculty of the Department of Electrical Engineering and Computer Science, and may continue over several terms. Forms and instructions for the initial letter of intent and final summary report are available in the department undergraduate office.",
@@ -292,14 +280,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.828---Operating-System-Engineering",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.828+-+Operating+System+Engineering",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Kaashoek, M. F.",
 			"units" :                     "3-6-3",
-			"xyzid" :                     "c6.828",
+			"id" :                     "c6.828",
 			"type" :                      "Class",
 			"label" :                     "6.828 - Operating System Engineering",
 			"prereqs" :                   [
@@ -324,8 +311,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.013---Electromagnetics-and-Applications",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.013+-+Electromagnetics+and+Applications",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -335,7 +321,7 @@
 				"Zahn, M."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.013",
+			"id" :       "c6.013",
 			"type" :        "Class",
 			"label" :       "6.013 - Electromagnetics and Applications",
 			"prereqs" :     [
@@ -357,13 +343,12 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.522J---Quantitative-Physiology--Organ-Transport-Systems",
-			"offering" :                  "Currently Offered",
+						"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.522J+-+Quantitative+Physiology%3A+Organ+Transport+Systems",
 			"series" :                    "6.5xx",
 			"in-charge" :                 "Mark, R. G.",
 			"units" :                     "4-2-6",
-			"xyzid" :                     "c6.522J",
+			"id" :                     "c6.522J",
 			"type" :                      "Class",
 			"label" :                     "6.522J - Quantitative Physiology: Organ Transport Systems",
 			"prereqs" :                   [
@@ -378,14 +363,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.825---Techniques-in-Artificial-Intelligence",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.825+-+Techniques+in+Artificial+Intelligence",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Kaelbling, L.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.825",
+			"id" :                     "c6.825",
 			"type" :                      "Class",
 			"label" :                     "6.825 - Techniques in Artificial Intelligence",
 			"prereqs" :                   [
@@ -407,13 +391,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.910\u00E2\u0080\u00936.914---Special-Studies-in-Electrical-Engineering-and-Computer-Science",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.910%C3%A2%C2%80%C2%936.914+-+Special+Studies+in+Electrical+Engineering+and+Computer+Science",
 			"series" :      "6.9xx",
 			"in-charge" :   "Smith, A. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.910\u00E2\u0080\u00936.914",
+			"id" :       "c6.910\u00E2\u0080\u00936.914",
 			"type" :        "Class",
 			"label" :       "6.910\u00E2\u0080\u00936.914 - Special Studies in Electrical Engineering and Computer Science",
 			"description" : "Advanced subjects not offered in the regular curriculum. Consult department to learn of offerings for a particular term.",
@@ -423,14 +406,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.631---Optics-and-Photonics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.631+-+Optics+and+Photonics",
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Fujimoto, J. G.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.631",
+			"id" :                     "c6.631",
 			"type" :                      "Class",
 			"label" :                     "6.631 - Optics and Photonics",
 			"prereqs" :                   [
@@ -445,8 +427,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.946J---Classical-Mechanics--A-Computational-Approach",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.946J+-+Classical+Mechanics%3A+A+Computational+Approach",
 			"series" :      "6.9xx",
@@ -455,7 +436,7 @@
 				"Sussman, G. J."
 			],
 			"units" :       "3-3-6",
-			"xyzid" :       "c6.946J",
+			"id" :       "c6.946J",
 			"type" :        "Class",
 			"label" :       "6.946J - Classical Mechanics: A Computational Approach",
 			"prereqs" :     [
@@ -470,8 +451,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.521J---Quantitative-Physiology--Cells-and-Tissues",
-			"offering" :                  "Currently Offered",
+						"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.521J+-+Quantitative+Physiology%3A+Cells+and+Tissues",
 			"series" :                    "6.5xx",
 			"in-charge" :                 [
@@ -479,7 +459,7 @@
 				"Han, J."
 			],
 			"units" :                     "5-2-5",
-			"xyzid" :                     "c6.521J",
+			"id" :                     "c6.521J",
 			"type" :                      "Class",
 			"label" :                     "6.521J - Quantitative Physiology: Cells and Tissues",
 			"prereqs" :                   [
@@ -498,8 +478,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.02---Introduction-to-EECS-II",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.02+-+Introduction+to+EECS+II",
 			"series" :      "6.0xx",
@@ -509,7 +488,7 @@
 				"Perrott, M. H."
 			],
 			"units" :       "2-3-7",
-			"xyzid" :       "c6.02",
+			"id" :       "c6.02",
 			"type" :        "Class",
 			"label" :       "6.02 - Introduction to EECS II",
 			"prereqs" :     [
@@ -536,8 +515,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.524J---Molecular,-Cellular,-and-Tissue-Biomechanics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.524J+-+Molecular%2C+Cellular%2C+and+Tissue+Biomechanics",
 			"series" :                    "6.5xx",
@@ -546,7 +524,7 @@
 				"Doyle, P."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.524J",
+			"id" :                     "c6.524J",
 			"type" :                      "Class",
 			"label" :                     "6.524J - Molecular, Cellular, and Tissue Biomechanics",
 			"prereqs" :                   [
@@ -567,8 +545,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.282J---Quantitative-Foundations-of-Engineering-Systems",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.282J+-+Quantitative+Foundations+of+Engineering+Systems",
 			"series" :      "6.2xx",
@@ -577,7 +554,7 @@
 				"Shah, D."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.282J",
+			"id" :       "c6.282J",
 			"type" :        "Class",
 			"label" :       "6.282J - Quantitative Foundations of Engineering Systems",
 			"prereqs" :     "6.041",
@@ -588,7 +565,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.865",
+			"id" :                     "c6.865",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Durand, F. P.",
@@ -602,8 +579,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.865---Advanced-Computational-Photography",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "Requires the completion of additional advanced homework assignments and presentation of a research paper. See subject description under 6.835.",
 			"semester" :                  "Spring",
@@ -616,8 +592,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.061---Introduction-to-Electric-Power-Systems",
-			"offering" :    "Not offered this year",
+						"offering" :    "Not offered this year",
 			"uri" :         "http://127.0.0.1/6.061+-+Introduction+to+Electric+Power+Systems",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -625,7 +600,7 @@
 				"Jr."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.061",
+			"id" :       "c6.061",
 			"type" :        "Class",
 			"label" :       "6.061 - Introduction to Electric Power Systems",
 			"prereqs" :     [
@@ -639,8 +614,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.339J---Numerical-Methods-for-Partial-Differential-Equations",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.339J+-+Numerical+Methods+for+Partial+Differential+Equations",
 			"series" :      "6.3xx",
@@ -650,7 +624,7 @@
 				"White, J. K."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.339J",
+			"id" :       "c6.339J",
 			"type" :        "Class",
 			"label" :       "6.339J - Numerical Methods for Partial Differential Equations",
 			"prereqs" :     [
@@ -668,14 +642,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.621---Fundamentals-of-Photonics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.621+-+Fundamentals+of+Photonics",
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Kaertner, F.",
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.621",
+			"id" :                     "c6.621",
 			"type" :                      "Class",
 			"label" :                     "6.621 - Fundamentals of Photonics",
 			"prereqs" :                   [
@@ -692,14 +665,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.938---Engineering-Risk-Benefit-Analysis",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.938+-+Engineering+Risk-Benefit+Analysis",
 			"series" :      "6.9xx",
 			"in-charge" :   "Apostolakis, G. E.",
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.938",
+			"id" :       "c6.938",
 			"type" :        "Class",
 			"label" :       "6.938 - Engineering Risk-Benefit Analysis",
 			"prereqs" :     "18.02",
@@ -713,14 +685,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.451---Principles-of-Digital-Communications-II",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.451+-+Principles+of+Digital+Communications+II",
 			"series" :                    "6.4xx",
 			"in-charge" :                 "Forney, G. D.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.451",
+			"id" :                     "c6.451",
 			"type" :                      "Class",
 			"label" :                     "6.451 - Principles of Digital Communications II",
 			"prereqs" :                   "6.45",
@@ -741,13 +712,12 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Undergrad",
-			"id" :                        "6.803---The-Human-Intelligence-Enterprise",
-			"offering" :                  "Currently Offered",
+						"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.803+-+The+Human+Intelligence+Enterprise",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Winston, P. H.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.803",
+			"id" :                     "c6.803",
 			"type" :                      "Class",
 			"label" :                     "6.803 - The Human Intelligence Enterprise",
 			"prereqs" :                   "6.034",
@@ -759,14 +729,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.291---Seminar-in-Systems,-Communications,-and-Control-Research",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.291+-+Seminar+in+Systems%2C+Communications%2C+and+Control+Research",
 			"series" :      "6.2xx",
 			"in-charge" :   "Mitter, S. K.",
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.291",
+			"id" :       "c6.291",
 			"type" :        "Class",
 			"label" :       "6.291 - Seminar in Systems, Communications, and Control Research",
 			"prereqs" :     "Permission of Instructor",
@@ -777,14 +746,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.833---The-Human-Intelligence-Enterprise",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.833+-+The+Human+Intelligence+Enterprise",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Winston, P. H.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.833",
+			"id" :                     "c6.833",
 			"type" :                      "Class",
 			"label" :                     "6.833 - The Human Intelligence Enterprise",
 			"prereqs" :                   "6.034",
@@ -796,7 +764,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.863J",
+			"id" :                     "c6.863J",
 			"type" :                      "Class",
 			"in-charge" :                 "Berwick, R. C.",
 			"CI" :                        "no",
@@ -807,8 +775,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.863J---Natural-Language-and-the-Computer-Representation-of-Knowledge",
-			"units" :                     "3-3-6",
+						"units" :                     "3-3-6",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               [
 				"Relationship between computer representation of knowledge and the structure of natural language. Emphasizes development of the analytical skills necessary to judge the computational implications of grammatical formalisms, and uses concrete examples to illustrate particular computational issues. Efficient parsing algorithms for context-free grammars",
@@ -821,8 +788,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.876J---Advanced-Topics-in-Cryptography",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered this year",
 				"Can be repeated for credit"
@@ -831,7 +797,7 @@
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Goldwasser, S.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.876J",
+			"id" :                     "c6.876J",
 			"type" :                      "Class",
 			"label" :                     "6.876J - Advanced Topics in Cryptography",
 			"prereqs" :                   "6.875J",
@@ -843,7 +809,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.841J",
+			"id" :                     "c6.841J",
 			"type" :                      "Class",
 			"CI" :                        "no",
 			"uri" :                       "http://127.0.0.1/6.841J+-+Advanced+Complexity+Theory",
@@ -853,8 +819,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.841J---Advanced-Complexity-Theory",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "No description available.",
 			"semester" :                  "Spring",
@@ -867,13 +832,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.962\u00E2\u0080\u00936.969---Special-Studies-in-Electrical-Engineering-and-Computer-Science",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.962%C3%A2%C2%80%C2%936.969+-+Special+Studies+in+Electrical+Engineering+and+Computer+Science",
 			"series" :      "6.9xx",
 			"in-charge" :   "Smith, A. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.962\u00E2\u0080\u00936.969",
+			"id" :       "c6.962\u00E2\u0080\u00936.969",
 			"type" :        "Class",
 			"label" :       "6.962\u00E2\u0080\u00936.969 - Special Studies in Electrical Engineering and Computer Science",
 			"description" : "Opportunity for study of graduate-level topics related to electrical engineering and computer science but not included elsewhere in the curriculum. Registration under this subject normally used for situations involving individual study (under supervision of a faculty member) concerning topics of mutual interest to student and supervisor, but may, when appropriate, be used for small study groups. Normal registration is for 12 units. Registration subject to approval of professor in charge.",
@@ -883,13 +847,12 @@
 		{
 			"total-units" : "6",
 			"level" :       "Undergrad",
-			"id" :          "6.UAP---Undergraduate-Advanced-Project",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.UAP+-+Undergraduate+Advanced+Project",
 			"series" :      "6.Uxx",
 			"in-charge" :   "Smith, A. C.",
 			"units" :       "0-6-0",
-			"xyzid" :       "c6.UAP",
+			"id" :       "c6.UAP",
 			"type" :        "Class",
 			"label" :       "6.UAP - Undergraduate Advanced Project",
 			"prereqs" :     "6.UAT",
@@ -900,7 +863,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.868J",
+			"id" :                     "c6.868J",
 			"type" :                      "Class",
 			"in-charge" :                 "Minsky, M.",
 			"CI" :                        "no",
@@ -911,8 +874,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.868J---The-Society-of-Mind",
-			"units" :                     "2-0-10",
+						"units" :                     "2-0-10",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "Introduction to a theory that tries to explain how minds are made from collections of simpler processes. Treats such aspects of thinking as vision, language, learning, reasoning, memory, consciousness, ideals, emotions, and personality. Incorporates ideas from psychology, artificial intelligence, and computer science to resolve theoretical issues such as wholes vs. parts, structural vs. functional descriptions, declarative vs. procedural representations, symbolic vs. connectionist models, and logical vs. common-sense theories of learning. Enrollment limited.",
 			"semester" :                  "Spring",
@@ -922,14 +884,13 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.ThG---Graduate-Thesis",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.ThG+-+Graduate+Thesis",
 			"series" :      "6.Txx",
 			"in-charge" :   "Smith, A. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.ThG",
+			"id" :       "c6.ThG",
 			"type" :        "Class",
 			"label" :       "6.ThG - Graduate Thesis",
 			"description" : [
@@ -942,13 +903,12 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Undergrad",
-			"id" :                        "6.801---Machine-Vision",
-			"offering" :                  "Currently Offered",
+						"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.801+-+Machine+Vision",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Horn, B. K. P.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.801",
+			"id" :                     "c6.801",
 			"type" :                      "Class",
 			"label" :                     "6.801 - Machine Vision",
 			"prereqs" :                   "6.003",
@@ -963,8 +923,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.776---High-Speed-Communication-Circuits",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered next year",
 				"Currently Offered"
@@ -977,7 +936,7 @@
 				"Lee, H. S."
 			],
 			"units" :                     "3-3-6",
-			"xyzid" :                     "c6.776",
+			"id" :                     "c6.776",
 			"type" :                      "Class",
 			"label" :                     "6.776 - High Speed Communication Circuits",
 			"prereqs" :                   "6.301",
@@ -989,8 +948,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.780J---Control-of-Manufacturing-Processes",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.780J+-+Control+of+Manufacturing+Processes",
 			"series" :                    "6.7xx",
@@ -999,7 +957,7 @@
 				"Boning, D. S."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.780J",
+			"id" :                     "c6.780J",
 			"type" :                      "Class",
 			"label" :                     "6.780J - Control of Manufacturing Processes",
 			"prereqs" :                   [
@@ -1017,7 +975,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.839",
+			"id" :                     "c6.839",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Popovic, J.",
@@ -1031,8 +989,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.839---Advanced-Computer-Graphics",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "A graduate level course investigates computational problems in rendering, animation, and geometric modeling.  The course draws on advanced techniques from computational geometry, applied mathematics, statistics, scientific computing and other.  Substantial programming experience required.",
 			"semester" :                  "Spring",
@@ -1046,8 +1003,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.555J---Biomedical-Signal-and-Image-Processing",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.555J+-+Biomedical+Signal+and+Image+Processing",
 			"series" :                    "6.5xx",
@@ -1059,7 +1015,7 @@
 				"Clifford, G."
 			],
 			"units" :                     "3-6-3",
-			"xyzid" :                     "c6.555J",
+			"id" :                     "c6.555J",
 			"type" :                      "Class",
 			"label" :                     "6.555J - Biomedical Signal and Image Processing",
 			"prereqs" :                   "6.003, 2.004, 16.004, 18.085",
@@ -1071,14 +1027,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.630---Electromagnetics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.630+-+Electromagnetics",
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Kong, J. A.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.630",
+			"id" :                     "c6.630",
 			"type" :                      "Class",
 			"label" :                     "6.630 - Electromagnetics",
 			"prereqs" :                   [
@@ -1093,14 +1048,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.443J---Quantum-Information-Science",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.443J+-+Quantum+Information+Science",
 			"series" :                    "6.4xx",
 			"in-charge" :                 "Chuang, I.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.443J",
+			"id" :                     "c6.443J",
 			"type" :                      "Class",
 			"label" :                     "6.443J - Quantum Information Science",
 			"prereqs" :                   [
@@ -1115,8 +1069,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.152J---Micro/Nano-Processing-Technology",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.152J+-+Micro%2FNano+Processing+Technology",
 			"series" :      "6.1xx",
 			"in-charge" :   [
@@ -1126,7 +1079,7 @@
 				"Ross, C. A."
 			],
 			"units" :       "3-4-5",
-			"xyzid" :       "c6.152J",
+			"id" :       "c6.152J",
 			"type" :        "Class",
 			"label" :       "6.152J - Micro/Nano Processing Technology",
 			"prereqs" :     "Permission of instructor",
@@ -1137,8 +1090,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.661J---Receivers,-Antennas,-and-Signals",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered next year",
 				"Currently Offered"
@@ -1147,7 +1099,7 @@
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Staelin, D. H.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.661J",
+			"id" :                     "c6.661J",
 			"type" :                      "Class",
 			"label" :                     "6.661J - Receivers, Antennas, and Signals",
 			"prereqs" :                   [
@@ -1165,13 +1117,12 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.045J---Automata,-Computability,-and-Complexity",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.045J+-+Automata%2C+Computability%2C+and+Complexity",
 			"series" :      "6.0xx",
 			"in-charge" :   "Micali, S.",
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.045J",
+			"id" :       "c6.045J",
 			"type" :        "Class",
 			"label" :       "6.045J - Automata, Computability, and Complexity",
 			"prereqs" :     "6.042J",
@@ -1182,13 +1133,12 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Undergrad",
-			"id" :                        "6.602---Fundamentals-of-Photonics",
-			"offering" :                  "Currently Offered",
+						"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.602+-+Fundamentals+of+Photonics",
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Kaertner, F. X.",
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.602",
+			"id" :                     "c6.602",
 			"type" :                      "Class",
 			"label" :                     "6.602 - Fundamentals of Photonics",
 			"prereqs" :                   [
@@ -1207,14 +1157,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.931---Development-of-Inventions-and-Creative-Ideas",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.931+-+Development+of+Inventions+and+Creative+Ideas",
 			"series" :      "6.9xx",
 			"in-charge" :   "Rines, R. H.",
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.931",
+			"id" :       "c6.931",
 			"type" :        "Class",
 			"label" :       "6.931 - Development of Inventions and Creative Ideas",
 			"description" : [
@@ -1227,8 +1176,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.011---Introduction-to-Communication,-Control,-and-Signal-Processing",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.011+-+Introduction+to+Communication%2C+Control%2C+and+Signal+Processing",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -1236,7 +1184,7 @@
 				"Verghese, G. C."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.011",
+			"id" :       "c6.011",
 			"type" :        "Class",
 			"label" :       "6.011 - Introduction to Communication, Control, and Signal Processing",
 			"prereqs" :     [
@@ -1257,14 +1205,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.652J---Introduction-to-Plasma-Physics-II",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.652J+-+Introduction+to+Plasma+Physics+II",
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Staff",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.652J",
+			"id" :                     "c6.652J",
 			"type" :                      "Class",
 			"label" :                     "6.652J - Introduction to Plasma Physics II",
 			"prereqs" :                   [
@@ -1289,7 +1236,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.872J",
+			"id" :                     "c6.872J",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Szolovits, P.",
@@ -1304,8 +1251,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.872J---Biomedical-Computing",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               [
 				"Analyzes computational needs of clinical medicine, reviews systems and approaches that have been used to support those needs, and the relationship between clinical data and gene and protein measurements. Topics: the nature of clinical data",
@@ -1321,8 +1267,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.437---Inference-and-Information",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.437+-+Inference+and+Information",
 			"series" :                    "6.4xx",
@@ -1332,7 +1277,7 @@
 				"Wornell, G. W."
 			],
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.437",
+			"id" :                     "c6.437",
 			"type" :                      "Class",
 			"label" :                     "6.437 - Inference and Information",
 			"prereqs" :                   "6.041, 6.431, 6.436J",
@@ -1349,8 +1294,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.774---Physics-of-Microfabrication--Front-End-Processing",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.774+-+Physics+of+Microfabrication%3A+Front+End+Processing",
 			"series" :                    "6.7xx",
@@ -1359,7 +1303,7 @@
 				"Reif, L. R."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.774",
+			"id" :                     "c6.774",
 			"type" :                      "Class",
 			"label" :                     "6.774 - Physics of Microfabrication: Front End Processing",
 			"prereqs" :                   "6.152J",
@@ -1371,8 +1315,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.551J---Acoustics-of-Speech-and-Hearing",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.551J+-+Acoustics+of+Speech+and+Hearing",
 			"series" :                    "6.5xx",
@@ -1383,7 +1326,7 @@
 				"Stevens, K. N."
 			],
 			"units" :                     "4-1-7",
-			"xyzid" :                     "c6.551J",
+			"id" :                     "c6.551J",
 			"type" :                      "Class",
 			"label" :                     "6.551J - Acoustics of Speech and Hearing",
 			"prereqs" :                   [
@@ -1402,8 +1345,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.431---Applied-Probability",
-			"offering" :                  "Currently Offered",
+						"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.431+-+Applied+Probability",
 			"series" :                    "6.4xx",
 			"in-charge" :                 [
@@ -1411,7 +1353,7 @@
 				"Tsitsiklis, J. N."
 			],
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.431",
+			"id" :                     "c6.431",
 			"type" :                      "Class",
 			"label" :                     "6.431 - Applied Probability",
 			"prereqs" :                   "18.02",
@@ -1423,8 +1365,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.033---Computer-System-Engineering",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.033+-+Computer+System+Engineering",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -1432,7 +1373,7 @@
 				"Balakrishnan, H."
 			],
 			"units" :       "5-0-7",
-			"xyzid" :       "c6.033",
+			"id" :       "c6.033",
 			"type" :        "Class",
 			"label" :       "6.033 - Computer System Engineering",
 			"prereqs" :     "6.004",
@@ -1451,7 +1392,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "\"6.870\"",
-			"xyzid" :                     "c6.866",
+			"id" :                     "c6.866",
 			"type" :                      "Class",
 			"in-charge" :                 "Horn, B. K. P.",
 			"CI" :                        "no",
@@ -1462,8 +1403,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.866---Machine-Vision",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "Intensive introduction to the process of generating a symbolic description of the environment from an image. Students expected to attend the 6.801 lectures as well as occasional seminar meetings on special topics. Material presented in 6.801 is supplemented by reading from the literature. Students required to prepare a paper analyzing research in a selected area.",
 			"semester" :                  "Fall",
@@ -1473,8 +1413,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.930---Management-in-Engineering",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.930+-+Management+in+Engineering",
 			"series" :      "6.9xx",
 			"in-charge" :   [
@@ -1482,7 +1421,7 @@
 				"Chun, J.-H."
 			],
 			"units" :       "3-1-8",
-			"xyzid" :       "c6.930",
+			"id" :       "c6.930",
 			"type" :        "Class",
 			"label" :       "6.930 - Management in Engineering",
 			"description" : "Introduction and overview of engineering management. Financial principles, management of innovation, technical strategy and best management practices. Case study method of instruction emphasizes participation in class discussion. Focus is on the development of individual skills and management tools. Registrants should be juniors or seniors. Students taking graduate subject 2.961 are expected to demonstrate higher level of proficiency in term projects.",
@@ -1492,8 +1431,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.878---Advanced-Computational-Biology--Genomes,-Networks,-Evolution",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.878+-+Advanced+Computational+Biology%3A+Genomes%2C+Networks%2C+Evolution",
 			"series" :                    "6.8xx",
@@ -1502,7 +1440,7 @@
 				"Indyk, P."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.878",
+			"id" :                     "c6.878",
 			"type" :                      "Class",
 			"label" :                     "6.878 - Advanced Computational Biology: Genomes, Networks, Evolution",
 			"prereqs" :                   [
@@ -1518,7 +1456,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "6.856J",
-			"xyzid" :                     "c6.854J",
+			"id" :                     "c6.854J",
 			"type" :                      "Class",
 			"in-charge" :                 "Karger, D. R.",
 			"CI" :                        "no",
@@ -1529,8 +1467,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.854J---Advanced-Algorithms",
-			"units" :                     "5-0-7",
+						"units" :                     "5-0-7",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "First-year graduate subject in algorithms. Emphasizes fundamental algorithms and advanced methods of algorithmic design, analysis, and implementation. Surveys a variety of computational models and the algorithms for them. Data structures, network flows, linear programming, computational geometry, approximation algorithms, online algorithms, parallel algorithms, external memory, streaming algorithms.",
 			"semester" :                  "Fall",
@@ -1544,13 +1481,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.922---Advanced-VI-A-Internship",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.922+-+Advanced+VI-A+Internship",
 			"series" :      "6.9xx",
 			"in-charge" :   "Zahn, M.",
 			"units" :       "0-12-0 [P/D/F]",
-			"xyzid" :       "c6.922",
+			"id" :       "c6.922",
 			"type" :        "Class",
 			"label" :       "6.922 - Advanced VI-A Internship",
 			"prereqs" :     "6.921",
@@ -1561,14 +1497,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.829---Computer-Networks",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.829+-+Computer+Networks",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Balakrishnan, H.",
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.829",
+			"id" :                     "c6.829",
 			"type" :                      "Class",
 			"label" :                     "6.829 - Computer Networks",
 			"prereqs" :                   "6.033",
@@ -1590,8 +1525,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.441---Information-Theory",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.441+-+Information+Theory",
 			"series" :                    "6.4xx",
@@ -1600,7 +1534,7 @@
 				"Zheng, L."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.441",
+			"id" :                     "c6.441",
 			"type" :                      "Class",
 			"label" :                     "6.441 - Information Theory",
 			"prereqs" :                   "6.041",
@@ -1617,8 +1551,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.375---Complex-Digital-Systems-Design",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.375+-+Complex+Digital+Systems+Design",
 			"series" :      "6.3xx",
@@ -1627,7 +1560,7 @@
 				"Asanovic, K."
 			],
 			"units" :       "5-5-2",
-			"xyzid" :       "c6.375",
+			"id" :       "c6.375",
 			"type" :        "Class",
 			"label" :       "6.375 - Complex Digital Systems Design",
 			"prereqs" :     "6.004",
@@ -1649,7 +1582,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.844",
+			"id" :                     "c6.844",
 			"type" :                      "Class",
 			"in-charge" :                 "Meyer, A. R.",
 			"CI" :                        "no",
@@ -1660,8 +1593,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Not offered this year",
 			"hass-distribution" :         "no",
-			"id" :                        "6.844---Computability-Theory-of-and-with-Scheme",
-			"units" :                     "5-0-7",
+						"units" :                     "5-0-7",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "Theory for programmers. Introduction to programming and computability theory based on a \"substitution\" model of computation by Scheme programs with side effects. Computation as algebraic manipulation: provable and valid inequalities for multivariate polynomials. Scheme evaluation as algebraic manipulation and term rewriting. Paradoxes from self-application and introduction to formal programming semantics. Undecidability of the Halting Problem for Scheme. Properties of recursively enumerable sets, leading to Incompleteness theorems for Scheme equivalences. Introduction to logic for program specification and verification. Hilbert\'s tenth problem. Alternate years.",
 			"semester" :                  "Spring",
@@ -1674,14 +1606,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.344---Digital-Image-Processing",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.344+-+Digital+Image+Processing",
 			"series" :      "6.3xx",
 			"in-charge" :   "Lim, J. S.",
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.344",
+			"id" :       "c6.344",
 			"type" :        "Class",
 			"label" :       "6.344 - Digital Image Processing",
 			"prereqs" :     [
@@ -1695,13 +1626,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.980---Teaching-Electrical-Engineering-and-Computer-Science",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.980+-+Teaching+Electrical+Engineering+and+Computer+Science",
 			"series" :      "6.9xx",
 			"in-charge" :   "Verghese, G. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.980",
+			"id" :       "c6.980",
 			"type" :        "Class",
 			"label" :       "6.980 - Teaching Electrical Engineering and Computer Science",
 			"description" : "For qualified students interested in gaining teaching experience. Classroom, tutorial, or laboratory teaching under the supervision of a faculty member. Enrollment limited by availability of suitable teaching assignments.",
@@ -1711,8 +1641,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.005---Principles-of-Software-Development",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.005+-+Principles+of+Software+Development",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -1720,7 +1649,7 @@
 				"Miller, R. C."
 			],
 			"units" :       "3-4-5",
-			"xyzid" :       "c6.005",
+			"id" :       "c6.005",
 			"type" :        "Class",
 			"label" :       "6.005 - Principles of Software Development",
 			"prereqs" :     [
@@ -1741,8 +1670,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.336J---Introduction-to-Numerical-Simulation",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.336J+-+Introduction+to+Numerical+Simulation",
 			"series" :      "6.3xx",
@@ -1753,7 +1681,7 @@
 				"Patera, A. T."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.336J",
+			"id" :       "c6.336J",
 			"type" :        "Class",
 			"label" :       "6.336J - Introduction to Numerical Simulation",
 			"prereqs" :     [
@@ -1774,13 +1702,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.090\u00E2\u0080\u00936.099---Special-Subjects-in-Electrical-Engineering-and-Computer-Science",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.090%C3%A2%C2%80%C2%936.099+-+Special+Subjects+in+Electrical+Engineering+and+Computer+Science",
 			"series" :      "6.0xx",
 			"in-charge" :   "Verghese, G. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.090\u00E2\u0080\u00936.099",
+			"id" :       "c6.090\u00E2\u0080\u00936.099",
 			"type" :        "Class",
 			"label" :       "6.090\u00E2\u0080\u00936.099 - Special Subjects in Electrical Engineering and Computer Science",
 			"description" : "Basic undergraduate subjects not offered in the regular curriculum. Consult department to learn of offerings for a particular term. Registration by permission of instructor.",
@@ -1790,14 +1717,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.552J---Signal-Processing-by-the-Auditory-System--Perception",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered next year",
 			"uri" :                       "http://127.0.0.1/6.552J+-+Signal+Processing+by+the+Auditory+System%3A+Perception",
 			"series" :                    "6.5xx",
 			"in-charge" :                 "Braida, L. D.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.552J",
+			"id" :                     "c6.552J",
 			"type" :                      "Class",
 			"label" :                     "6.552J - Signal Processing by the Auditory System: Perception",
 			"prereqs" :                   [
@@ -1812,8 +1738,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.541J---Speech-Communication",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.541J+-+Speech+Communication",
 			"series" :                    "6.5xx",
@@ -1822,7 +1747,7 @@
 				"Shattuck-Hufnagel, S."
 			],
 			"units" :                     "3-1-8",
-			"xyzid" :                     "c6.541J",
+			"id" :                     "c6.541J",
 			"type" :                      "Class",
 			"label" :                     "6.541J - Speech Communication",
 			"prereqs" :                   "Permission of instructor",
@@ -1837,8 +1762,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.251J---Introduction-to-Mathematical-Programming",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.251J+-+Introduction+to+Mathematical+Programming",
 			"series" :      "6.2xx",
@@ -1847,7 +1771,7 @@
 				"Bertsimas, D."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.251J",
+			"id" :       "c6.251J",
 			"type" :        "Class",
 			"label" :       "6.251J - Introduction to Mathematical Programming",
 			"prereqs" :     "18.06",
@@ -1867,8 +1791,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.635---Topics-in-Electromagnetism",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered next year",
 				"Currently Offered"
@@ -1877,7 +1800,7 @@
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Kong, J. A.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.635",
+			"id" :                     "c6.635",
 			"type" :                      "Class",
 			"label" :                     "6.635 - Topics in Electromagnetism",
 			"prereqs" :                   [
@@ -1893,8 +1816,7 @@
 		{
 			"total-units" : "6",
 			"level" :       "Undergrad",
-			"id" :          "6.UAT---Preparation-for-Undergraduate-Advanced-Project",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.UAT+-+Preparation+for+Undergraduate+Advanced+Project",
 			"series" :      "6.Uxx",
 			"in-charge" :   [
@@ -1902,7 +1824,7 @@
 				"Eng, T. L."
 			],
 			"units" :       "3-0-3",
-			"xyzid" :       "c6.UAT",
+			"id" :       "c6.UAT",
 			"type" :        "Class",
 			"label" :       "6.UAT - Preparation for Undergraduate Advanced Project",
 			"description" : "Learn about different aspects of effective technical oral presentations by being exposed to different workplace communication skills. As preparation for the advanced undergraduate project (UAP), students develop research topics, identify a research supervisor, and prepare a short research proposal for written and oral presentation.",
@@ -1912,8 +1834,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.141J---Robotics--Science-and-Systems-I",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.141J+-+Robotics%3A+Science+and+Systems+I",
 			"series" :      "6.1xx",
@@ -1925,7 +1846,7 @@
 				"Teller, S."
 			],
 			"units" :       "2-6-4",
-			"xyzid" :       "c6.141J",
+			"id" :       "c6.141J",
 			"type" :        "Class",
 			"label" :       "6.141J - Robotics: Science and Systems I",
 			"prereqs" :     "Permission of instructor",
@@ -1951,8 +1872,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.777J---Design-and-Fabrication-of-MEMS",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.777J+-+Design+and+Fabrication+of+MEMS",
 			"series" :                    "6.7xx",
@@ -1962,7 +1882,7 @@
 				"Voldman, J."
 			],
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.777J",
+			"id" :                     "c6.777J",
 			"type" :                      "Class",
 			"label" :                     "6.777J - Design and Fabrication of MEMS",
 			"prereqs" :                   [
@@ -1978,7 +1898,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.857",
+			"id" :                     "c6.857",
 			"type" :                      "Class",
 			"in-charge" :                 "Rivest, R. L.",
 			"CI" :                        "no",
@@ -1989,8 +1909,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.857---Network-and-Computer-Security",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               [
 				"Techniques for achieving security in multi-user computer systems and distributed computer systems.  Topics: physical security",
@@ -2018,14 +1937,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.374---Analysis-and-Design-of-Digital-Integrated-Circuits",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.374+-+Analysis+and+Design+of+Digital+Integrated+Circuits",
 			"series" :      "6.3xx",
 			"in-charge" :   "Chandrakasan, A. P.",
 			"units" :       "3-3-6",
-			"xyzid" :       "c6.374",
+			"id" :       "c6.374",
 			"type" :        "Class",
 			"label" :       "6.374 - Analysis and Design of Digital Integrated Circuits",
 			"prereqs" :     [
@@ -2043,8 +1961,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.542J---Laboratory-on-the-Physiology,-Acoustics,-and-Perception-of-Speech",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.542J+-+Laboratory+on+the+Physiology%2C+Acoustics%2C+and+Perception+of+Speech",
 			"series" :                    "6.5xx",
@@ -2054,7 +1971,7 @@
 				"Shattuck-Hufnagel, S."
 			],
 			"units" :                     "2-2-8",
-			"xyzid" :                     "c6.542J",
+			"id" :                     "c6.542J",
 			"type" :                      "Class",
 			"label" :                     "6.542J - Laboratory on the Physiology, Acoustics, and Perception of Speech",
 			"prereqs" :                   "Permission of instructor",
@@ -2076,8 +1993,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.729---Molecular-Electronics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered next year",
 				"Currently Offered"
@@ -2086,7 +2002,7 @@
 			"series" :                    "6.7xx",
 			"in-charge" :                 "Baldo, M.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.729",
+			"id" :                     "c6.729",
 			"type" :                      "Class",
 			"label" :                     "6.729 - Molecular Electronics",
 			"prereqs" :                   "6.728",
@@ -2098,8 +2014,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.047---Computational-Biology--Genomes,-Networks,-Evolution",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.047+-+Computational+Biology%3A+Genomes%2C+Networks%2C+Evolution",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -2107,7 +2022,7 @@
 				"Indyk, P."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.047",
+			"id" :       "c6.047",
 			"type" :        "Class",
 			"label" :       "6.047 - Computational Biology: Genomes, Networks, Evolution",
 			"prereqs" :     [
@@ -2127,13 +2042,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.985-6.989---Special-Subjects-in-Electrical-Engineering",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.985-6.989+-+Special+Subjects+in+Electrical+Engineering",
 			"series" :      "6.9xx",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.985-6.989",
+			"id" :       "c6.985-6.989",
 			"type" :        "Class",
 			"label" :       "6.985-6.989 - Special Subjects in Electrical Engineering",
 			"description" : "No description available.",
@@ -2143,13 +2057,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.981---Teaching-Electrical-Engineering-and-Computer-Science",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.981+-+Teaching+Electrical+Engineering+and+Computer+Science",
 			"series" :      "6.9xx",
 			"in-charge" :   "Verghese, G. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.981",
+			"id" :       "c6.981",
 			"type" :        "Class",
 			"label" :       "6.981 - Teaching Electrical Engineering and Computer Science",
 			"description" : "For Teaching Assistants in Electrical Engineering and Computer Science, in cases where teaching assignment is approved for academic credit by the department.",
@@ -2159,8 +2072,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.301---Solid-State-Circuits",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.301+-+Solid-State+Circuits",
 			"series" :      "6.3xx",
 			"in-charge" :   [
@@ -2168,7 +2080,7 @@
 				"Lee, H. S."
 			],
 			"units" :       "4-2-6",
-			"xyzid" :       "c6.301",
+			"id" :       "c6.301",
 			"type" :        "Class",
 			"label" :       "6.301 - Solid-State Circuits",
 			"prereqs" :     "6.012, 6.003",
@@ -2179,8 +2091,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.024J---Molecular,-Cellular,-and-Tissue-Biomechanics",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.024J+-+Molecular%2C+Cellular%2C+and+Tissue+Biomechanics",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -2188,7 +2099,7 @@
 				"Kamm, R. D."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.024J",
+			"id" :       "c6.024J",
 			"type" :        "Class",
 			"label" :       "6.024J - Molecular, Cellular, and Tissue Biomechanics",
 			"prereqs" :     [
@@ -2214,8 +2125,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.730---Physics-for-Solid-State-Applications",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.730+-+Physics+for+Solid-State+Applications",
 			"series" :                    "6.7xx",
@@ -2224,7 +2134,7 @@
 				"Ram, R."
 			],
 			"units" :                     "5-0-7",
-			"xyzid" :                     "c6.730",
+			"id" :                     "c6.730",
 			"type" :                      "Class",
 			"label" :                     "6.730 - Physics for Solid-State Applications",
 			"prereqs" :                   [
@@ -2239,8 +2149,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.561J---Fields,-Forces,-and-Flows-in-Biological-Systems",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.561J+-+Fields%2C+Forces%2C+and+Flows+in+Biological+Systems",
 			"series" :                    "6.5xx",
@@ -2249,7 +2158,7 @@
 				"Kamm, R. D."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.561J",
+			"id" :                     "c6.561J",
 			"type" :                      "Class",
 			"label" :                     "6.561J - Fields, Forces, and Flows in Biological Systems",
 			"prereqs" :                   "6.013, 2.005, 10.302",
@@ -2267,8 +2176,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.673---Introduction-to-Numerical-Simulation-in-Electrical-Engineering",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered next year",
 				"Currently Offered"
@@ -2277,7 +2185,7 @@
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Hagelstein, P. L.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.673",
+			"id" :                     "c6.673",
 			"type" :                      "Class",
 			"label" :                     "6.673 - Introduction to Numerical Simulation in Electrical Engineering",
 			"prereqs" :                   [
@@ -2295,13 +2203,12 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.171---Software-Engineering-for-Web-Applications",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.171+-+Software+Engineering+for+Web+Applications",
 			"series" :      "6.1xx",
 			"in-charge" :   "Abelson, H.",
 			"units" :       "3-6-3",
-			"xyzid" :       "c6.171",
+			"id" :       "c6.171",
 			"type" :        "Class",
 			"label" :       "6.171 - Software Engineering for Web Applications",
 			"prereqs" :     [
@@ -2315,13 +2222,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.991---Research-in-Electrical-Engineering-and-Computer-Science",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.991+-+Research+in+Electrical+Engineering+and+Computer+Science",
 			"series" :      "6.9xx",
 			"in-charge" :   "Smith, A. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.991",
+			"id" :       "c6.991",
 			"type" :        "Class",
 			"label" :       "6.991 - Research in Electrical Engineering and Computer Science",
 			"description" : "For Research Assistants in Electrical Engineering and Computer Science, in cases where the assigned research is approved for academic credit by the department. Hours arranged with research supervisor.",
@@ -2331,8 +2237,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.131---Power-Electronics-Laboratory",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.131+-+Power+Electronics+Laboratory",
 			"series" :      "6.1xx",
@@ -2342,7 +2247,7 @@
 				"Jr."
 			],
 			"units" :       "3-6-3",
-			"xyzid" :       "c6.131",
+			"id" :       "c6.131",
 			"type" :        "Class",
 			"label" :       "6.131 - Power Electronics Laboratory",
 			"prereqs" :     "6.002",
@@ -2353,7 +2258,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.870",
+			"id" :                     "c6.870",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Darrell, T. J.",
@@ -2369,8 +2274,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Can be repeated for credit",
 			"hass-distribution" :         "no",
-			"id" :                        "6.870---Advanced-Topics-in-Computer-Vision",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               [
 				"Seminar exploring advanced research topics in the field of computer vision",
@@ -2387,8 +2291,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.834J---Cognitive-Robotics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered next year",
 				"Currently Offered"
@@ -2400,7 +2303,7 @@
 				"Davis, R."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.834J",
+			"id" :                     "c6.834J",
 			"type" :                      "Class",
 			"label" :                     "6.834J - Cognitive Robotics",
 			"prereqs" :                   [
@@ -2425,8 +2328,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.245---Multivariable-Control-Systems",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    [
 				"Not offered next year",
 				"Currently offered"
@@ -2435,7 +2337,7 @@
 			"series" :      "6.2xx",
 			"in-charge" :   "Megretski, A.",
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.245",
+			"id" :       "c6.245",
 			"type" :        "Class",
 			"label" :       "6.245 - Multivariable Control Systems",
 			"prereqs" :     [
@@ -2459,12 +2361,11 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.921---VI-A-Internship",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.921+-+VI-A+Internship",
 			"series" :      "6.9xx",
 			"units" :       "0-12-0 [P/D/F]",
-			"xyzid" :       "c6.921",
+			"id" :       "c6.921",
 			"type" :        "Class",
 			"label" :       "6.921 - VI-A Internship",
 			"description" : "No description available.",
@@ -2474,8 +2375,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.242---Advanced-Linear-Control-Systems",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Not offered next year",
 			"uri" :         "http://127.0.0.1/6.242+-+Advanced+Linear+Control+Systems",
 			"series" :      "6.2xx",
@@ -2484,7 +2384,7 @@
 				"Megretski, A."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.242",
+			"id" :       "c6.242",
 			"type" :        "Class",
 			"label" :       "6.242 - Advanced Linear Control Systems",
 			"prereqs" :     [
@@ -2498,13 +2398,12 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.007---Applied-Electromagnetics--From-Motors-to-Lasers",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.007+-+Applied+Electromagnetics%3A+From+Motors+to+Lasers",
 			"series" :      "6.0xx",
 			"in-charge" :   "Bulovic, V.",
 			"units" :       "4-1-7",
-			"xyzid" :       "c6.007",
+			"id" :       "c6.007",
 			"type" :        "Class",
 			"label" :       "6.007 - Applied Electromagnetics: From Motors to Lasers",
 			"prereqs" :     [
@@ -2518,8 +2417,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.763---Applied-Superconductivity",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered next year",
 				"Currently Offered"
@@ -2528,7 +2426,7 @@
 			"series" :                    "6.7xx",
 			"in-charge" :                 "Orlando, T. P.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.763",
+			"id" :                     "c6.763",
 			"type" :                      "Class",
 			"label" :                     "6.763 - Applied Superconductivity",
 			"prereqs" :                   "6.728",
@@ -2540,8 +2438,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.641---Electromagnetic-Fields,-Forces,-and-Motion",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.641+-+Electromagnetic+Fields%2C+Forces%2C+and+Motion",
 			"series" :                    "6.6xx",
@@ -2550,7 +2447,7 @@
 				"Lang, J. H."
 			],
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.641",
+			"id" :                     "c6.641",
 			"type" :                      "Class",
 			"label" :                     "6.641 - Electromagnetic Fields, Forces, and Motion",
 			"prereqs" :                   "6.013",
@@ -2568,8 +2465,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.243J---Dynamics-of-Nonlinear-Systems",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    [
 				"Not offered next year",
 				"Currently offered"
@@ -2584,7 +2480,7 @@
 				"Ramnath, R."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.243J",
+			"id" :       "c6.243J",
 			"type" :        "Class",
 			"label" :       "6.243J - Dynamics of Nonlinear Systems",
 			"prereqs" :     [
@@ -2598,7 +2494,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.855J",
+			"id" :                     "c6.855J",
 			"type" :                      "Class",
 			"in-charge" :                 "Schulz, A. S.",
 			"CI" :                        "no",
@@ -2609,8 +2505,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Not offered this year",
 			"hass-distribution" :         "no",
-			"id" :                        "6.855J---Network-Optimization",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "Network models for industrial logistics systems, transportation systems, communication systems, and other applications. Emphasizes a rigorous treatment of algorithms and their efficiency\u00E2\u0080\u0094algorithms for shortest routes, maximum flows, minimum cost flows, traffic equilibrium, and network design. Implementation issues.",
 			"semester" :                  "Spring",
@@ -2624,8 +2519,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.111---Introductory-Digital-Systems-Laboratory",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.111+-+Introductory+Digital+Systems+Laboratory",
 			"series" :      "6.1xx",
@@ -2634,7 +2528,7 @@
 				"Terman, C. J."
 			],
 			"units" :       "3-7-2",
-			"xyzid" :       "c6.111",
+			"id" :       "c6.111",
 			"type" :        "Class",
 			"label" :       "6.111 - Introductory Digital Systems Laboratory",
 			"prereqs" :     "6.002 6.071 or 16.004",
@@ -2645,7 +2539,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.851",
+			"id" :                     "c6.851",
 			"type" :                      "Class",
 			"in-charge" :                 "Demaine, E. D.",
 			"CI" :                        "no",
@@ -2656,8 +2550,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Not offered this year",
 			"hass-distribution" :         "no",
-			"id" :                        "6.851---Advanced-Data-Structures",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               [
 				"More advanced and powerful data structures for answering several queries on the same data.  Such structures are crucial in particular for designing efficient algorithms. Dictionaries",
@@ -2692,8 +2585,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.436J---Fundamentals-of-Probability",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.436J+-+Fundamentals+of+Probability",
 			"series" :                    "6.4xx",
@@ -2702,7 +2594,7 @@
 				"Bertsimas, D."
 			],
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.436J",
+			"id" :                     "c6.436J",
 			"type" :                      "Class",
 			"label" :                     "6.436J - Fundamentals of Probability",
 			"prereqs" :                   "18.02",
@@ -2714,8 +2606,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.071J---Introduction-to-Electronics",
-			"category" :    "Restricted Electives in Science and Technology",
+						"category" :    "Restricted Electives in Science and Technology",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.071J+-+Introduction+to+Electronics",
 			"series" :      "6.0xx",
@@ -2724,7 +2615,7 @@
 				"Chaniotakis, M."
 			],
 			"units" :       "3-3-6",
-			"xyzid" :       "c6.071J",
+			"id" :       "c6.071J",
 			"type" :        "Class",
 			"label" :       "6.071J - Introduction to Electronics",
 			"prereqs" :     "18.03",
@@ -2735,13 +2626,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.080-6.089---Special-Subjects-in-Electrical-Engineering-and-Computer-Science",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.080-6.089+-+Special+Subjects+in+Electrical+Engineering+and+Computer+Science",
 			"series" :      "6.0xx",
 			"in-charge" :   "F11",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.080-6.089",
+			"id" :       "c6.080-6.089",
 			"type" :        "Class",
 			"label" :       "6.080-6.089 - Special Subjects in Electrical Engineering and Computer Science",
 			"semester" :    "Spring",
@@ -2750,8 +2640,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Undergrad",
-			"id" :                        "6.805---Ethics-and-the-Law-on-the-Electronic-Frontier",
-			"offering" :                  "Currently Offered",
+						"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.805+-+Ethics+and+the+Law+on+the+Electronic+Frontier",
 			"series" :                    "6.8xx",
 			"in-charge" :                 [
@@ -2759,7 +2648,7 @@
 				"Fischer, M."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.805",
+			"id" :                     "c6.805",
 			"type" :                      "Class",
 			"label" :                     "6.805 - Ethics and the Law on the Electronic Frontier",
 			"description" :               [
@@ -2775,7 +2664,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.859J",
+			"id" :                     "c6.859J",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Bertsimas, D. J.",
@@ -2789,8 +2678,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Not offered next year",
 			"hass-distribution" :         "no",
-			"id" :                        "6.859J---Integer-Programming-and-Combinatorial-Optimization",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "In-depth treatment of the modern theory of integer programming and combinatorial optimization, emphasizing geometry, duality and algorithms. Topics include formulating problems in integer variables, enhancement of formulations, ideal formulations, integer programming duality, linear and semidefinite relaxations, lattices and their applications, the geometry of integer programming, primal methods, cutting plane methods, connections with algebraic geometry, computational complexity, approximation algorithms, heuristic and enumerative algorithms, mixed integer programming and solutions of large scale problems. Alternate years.",
 			"semester" :                  "Fall",
@@ -2800,8 +2688,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.263J---Data-Communication-Networks",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Not offered this year",
 			"uri" :         "http://127.0.0.1/6.263J+-+Data-Communication+Networks",
 			"series" :      "6.2xx",
@@ -2810,7 +2697,7 @@
 				"Modiano, E."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.263J",
+			"id" :       "c6.263J",
 			"type" :        "Class",
 			"label" :       "6.263J - Data-Communication Networks",
 			"prereqs" :     [
@@ -2824,7 +2711,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.867",
+			"id" :                     "c6.867",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Jaakkola, T.",
@@ -2839,8 +2726,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.867---Machine-Learning",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               [
 				"Principles, techniques, and algorithms in machine learning from the point of view of statistical inference",
@@ -2859,8 +2745,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.345J---Automatic-Speech-Recognition",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Not offered this year",
 			"uri" :         "http://127.0.0.1/6.345J+-+Automatic+Speech+Recognition",
 			"series" :      "6.3xx",
@@ -2869,7 +2754,7 @@
 				"Glass, J. R."
 			],
 			"units" :       "3-1-8",
-			"xyzid" :       "c6.345J",
+			"id" :       "c6.345J",
 			"type" :        "Class",
 			"label" :       "6.345J - Automatic Speech Recognition",
 			"prereqs" :     [
@@ -2883,8 +2768,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.255J---Optimization-Methods",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.255J+-+Optimization+Methods",
 			"series" :      "6.2xx",
@@ -2893,7 +2777,7 @@
 				"Parrilo, P."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.255J",
+			"id" :       "c6.255J",
 			"type" :        "Class",
 			"label" :       "6.255J - Optimization Methods",
 			"prereqs" :     "18.06",
@@ -2904,14 +2788,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.442---Optical-Networks",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.442+-+Optical+Networks",
 			"series" :                    "6.4xx",
 			"in-charge" :                 "Chan, V. W. S.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.442",
+			"id" :                     "c6.442",
 			"type" :                      "Class",
 			"label" :                     "6.442 - Optical Networks",
 			"prereqs" :                   [
@@ -2926,8 +2809,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.455J---Sonar,-Radar,-and-Seismic-Signal-Processing",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.455J+-+Sonar%2C+Radar%2C+and+Seismic+Signal+Processing",
 			"series" :                    "6.4xx",
@@ -2937,7 +2819,7 @@
 				"Staff, Woods Hole"
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.455J",
+			"id" :                     "c6.455J",
 			"type" :                      "Class",
 			"label" :                     "6.455J - Sonar, Radar, and Seismic Signal Processing",
 			"prereqs" :                   [
@@ -2953,8 +2835,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.046J---Design-and-Analysis-of-Algorithms",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.046J+-+Design+and+Analysis+of+Algorithms",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -2962,7 +2843,7 @@
 				"Goemans, M."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.046J",
+			"id" :       "c6.046J",
 			"type" :        "Class",
 			"label" :       "6.046J - Design and Analysis of Algorithms",
 			"prereqs" :     [
@@ -2993,8 +2874,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.01---Introduction-to-EECS-I",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.01+-+Introduction+to+EECS+I",
 			"series" :      "6.0xx",
@@ -3004,7 +2884,7 @@
 				"White, J. K."
 			],
 			"units" :       "2-4-6",
-			"xyzid" :       "c6.01",
+			"id" :       "c6.01",
 			"type" :        "Class",
 			"label" :       "6.01 - Introduction to EECS I",
 			"prereqs" :     "8.02",
@@ -3022,14 +2902,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.453---Quantum-Optical-Communication",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.453+-+Quantum+Optical+Communication",
 			"series" :                    "6.4xx",
 			"in-charge" :                 "Shapiro, J. H.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.453",
+			"id" :                     "c6.453",
 			"type" :                      "Class",
 			"label" :                     "6.453 - Quantum Optical Communication",
 			"prereqs" :                   [
@@ -3057,14 +2936,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.642---Continuum-Electromechanics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.642+-+Continuum+Electromechanics",
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Zahn, M.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.642",
+			"id" :                     "c6.642",
 			"type" :                      "Class",
 			"label" :                     "6.642 - Continuum Electromechanics",
 			"prereqs" :                   "6.641",
@@ -3076,7 +2954,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.850",
+			"id" :                     "c6.850",
 			"type" :                      "Class",
 			"in-charge" :                 "Indyk, P.",
 			"CI" :                        "no",
@@ -3087,8 +2965,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Not offered this year",
 			"hass-distribution" :         "no",
-			"id" :                        "6.850---Geometric-Computing",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "Introduction to the design and analysis of algorithms for geometric problems, in low and high dimensional spaces. Algorithms: convex hulls, polygon triangulation, Delaunay triangulation, motion planning, pattern matching. Geometric data structures: point location, Voronoi diagrams, Binary Space Partitions. Geometric problems in higher dimensions: linear programming, closest  pair problems. High dimensional nearest neighbor search and low-distortion embeddings between metric spaces. Geometric algorithms for massive data sets: external memory and streaming algorithms. Geometric optimization.",
 			"semester" :                  "Spring",
@@ -3098,8 +2975,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.434J---Statistics-for-Engineers-and-Scientists",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.434J+-+Statistics+for+Engineers+and+Scientists",
 			"series" :                    "6.4xx",
@@ -3108,7 +2984,7 @@
 				"Tsitsiklis, J. N."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.434J",
+			"id" :                     "c6.434J",
 			"type" :                      "Class",
 			"label" :                     "6.434J - Statistics for Engineers and Scientists",
 			"prereqs" :                   "18.02, 18.06, 6.431",
@@ -3120,8 +2996,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.543J---The-Lexicon-and-Its-Features",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.543J+-+The+Lexicon+and+Its+Features",
 			"series" :                    "6.5xx",
@@ -3132,7 +3007,7 @@
 				"Shattuck-Hufnagel, S."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.543J",
+			"id" :                     "c6.543J",
 			"type" :                      "Class",
 			"label" :                     "6.543J - The Lexicon and Its Features",
 			"prereqs" :                   "24.901",
@@ -3144,8 +3019,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.264J---Queues--Theory-and-Applications",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.264J+-+Queues%3A+Theory+and+Applications",
 			"series" :      "6.2xx",
@@ -3155,7 +3029,7 @@
 				"Tsitsiklis, J. N."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.264J",
+			"id" :       "c6.264J",
 			"type" :        "Class",
 			"label" :       "6.264J - Queues: Theory and Applications",
 			"prereqs" :     "6.262",
@@ -3166,14 +3040,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.254---Game-Theory-with-Engineering-Applications",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.254+-+Game+Theory+with+Engineering+Applications",
 			"series" :      "6.2xx",
 			"in-charge" :   "Ozdaglar, A.",
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.254",
+			"id" :       "c6.254",
 			"type" :        "Class",
 			"label" :       "6.254 - Game Theory with Engineering Applications",
 			"prereqs" :     "6.041",
@@ -3184,14 +3057,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.732---Physics-of-Solids",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.732+-+Physics+of+Solids",
 			"series" :                    "6.7xx",
 			"in-charge" :                 "Hu, Q.",
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.732",
+			"id" :                     "c6.732",
 			"type" :                      "Class",
 			"label" :                     "6.732 - Physics of Solids",
 			"prereqs" :                   [
@@ -3220,8 +3092,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.241---Dynamic-Systems-and-Control",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.241+-+Dynamic+Systems+and+Control",
 			"series" :      "6.2xx",
@@ -3231,7 +3102,7 @@
 				"Verghese, G. C."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.241",
+			"id" :       "c6.241",
 			"type" :        "Class",
 			"label" :       "6.241 - Dynamic Systems and Control",
 			"prereqs" :     [
@@ -3245,8 +3116,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.034---Artificial-Intelligence",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.034+-+Artificial+Intelligence",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -3254,7 +3124,7 @@
 				"Lozano-Perez, T."
 			],
 			"units" :       "5-3-4",
-			"xyzid" :       "c6.034",
+			"id" :       "c6.034",
 			"type" :        "Class",
 			"label" :       "6.034 - Artificial Intelligence",
 			"prereqs" :     "6.001",
@@ -3265,8 +3135,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.778J---Materials-and-Processes-for-Microelectromechanical-Devices-and-Systems",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.778J+-+Materials+and+Processes+for+Microelectromechanical+Devices+and+Systems",
 			"series" :                    "6.7xx",
@@ -3278,7 +3147,7 @@
 				"Wardle, B. L."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.778J",
+			"id" :                     "c6.778J",
 			"type" :                      "Class",
 			"label" :                     "6.778J - Materials and Processes for Microelectromechanical Devices and Systems",
 			"prereqs" :                   [
@@ -3293,8 +3162,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.042J---Mathematics-for-Computer-Science",
-			"category" :    "Restricted Electives in Science and Technology",
+						"category" :    "Restricted Electives in Science and Technology",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.042J+-+Mathematics+for+Computer+Science",
 			"series" :      "6.0xx",
@@ -3303,7 +3171,7 @@
 				"Leighton, T."
 			],
 			"units" :       "5-0-7",
-			"xyzid" :       "c6.042J",
+			"id" :       "c6.042J",
 			"type" :        "Class",
 			"label" :       "6.042J - Mathematics for Computer Science",
 			"prereqs" :     "18.01",
@@ -3326,8 +3194,7 @@
 		{
 			"total-units" : "15",
 			"level" :       "Undergrad",
-			"id" :          "6.003---Signals-and-Systems",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.003+-+Signals+and+Systems",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -3337,7 +3204,7 @@
 				"Willsky, A. S."
 			],
 			"units" :       "4-2-9",
-			"xyzid" :       "c6.003",
+			"id" :       "c6.003",
 			"type" :        "Class",
 			"label" :       "6.003 - Signals and Systems",
 			"prereqs" :     [
@@ -3351,8 +3218,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.262---Discrete-Stochastic-Processes",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.262+-+Discrete+Stochastic+Processes",
 			"series" :      "6.2xx",
@@ -3361,7 +3227,7 @@
 				"Wyatt, J. L."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.262",
+			"id" :       "c6.262",
 			"type" :        "Class",
 			"label" :       "6.262 - Discrete Stochastic Processes",
 			"prereqs" :     [
@@ -3383,8 +3249,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.281J---Logistical-and-Transportation-Planning-Methods",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.281J+-+Logistical+and+Transportation+Planning+Methods",
 			"series" :      "6.2xx",
@@ -3394,7 +3259,7 @@
 				"Barnett, A. I."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.281J",
+			"id" :       "c6.281J",
 			"type" :        "Class",
 			"label" :       "6.281J - Logistical and Transportation Planning Methods",
 			"prereqs" :     "6.431",
@@ -3405,13 +3270,12 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Undergrad",
-			"id" :                        "6.701---Introduction-to-Nano-Electronics",
-			"offering" :                  "Currently Offered",
+						"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.701+-+Introduction+to+Nano+Electronics",
 			"series" :                    "6.7xx",
 			"in-charge" :                 "Baldo, M. A.",
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.701",
+			"id" :                     "c6.701",
 			"type" :                      "Class",
 			"label" :                     "6.701 - Introduction to Nano Electronics",
 			"prereqs" :                   "6.003",
@@ -3423,7 +3287,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "6.841J",
-			"xyzid" :                     "c6.840J",
+			"id" :                     "c6.840J",
 			"type" :                      "Class",
 			"in-charge" :                 "Sipser, M.",
 			"CI" :                        "no",
@@ -3434,8 +3298,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.840J---Theory-of-Computation",
-			"units" :                     "4-0-8",
+						"units" :                     "4-0-8",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "A more extensive and theoretical treatment of the material in 6.045J/18.400J, emphasizing computability and computational complexity theory. Regular and context-free languages. Decidable and undecidable problems, reducibility, recursive function theory. Time and space measures on computation, completeness, hierarchy theorems, inherently complex problems, oracles, probabilistic computation, and interactive proof systems.",
 			"semester" :                  "Fall",
@@ -3448,14 +3311,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.719---Nano-Electronics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.719+-+Nano+Electronics",
 			"series" :                    "6.7xx",
 			"in-charge" :                 "Baldo, M. A.",
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.719",
+			"id" :                     "c6.719",
 			"type" :                      "Class",
 			"label" :                     "6.719 - Nano Electronics",
 			"prereqs" :                   "6.003",
@@ -3467,7 +3329,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.838",
+			"id" :                     "c6.838",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Durand, F. P.",
@@ -3484,8 +3346,7 @@
 				"Can be repeated for credit"
 			],
 			"hass-distribution" :         "no",
-			"id" :                        "6.838---Advanced-Topics-in-Computer-Graphics",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "In-depth study of an active research topic in computer graphics. Topics change each term. Readings from the literature, student presentations, short assignments, and a programming project.",
 			"semester" :                  "Fall",
@@ -3495,8 +3356,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.775---CMOS-Analog-and-Mixed-Signal-Circuit-Design",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.775+-+CMOS+Analog+and+Mixed-Signal+Circuit+Design",
 			"series" :                    "6.7xx",
@@ -3505,7 +3365,7 @@
 				"Sodini, C. G."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.775",
+			"id" :                     "c6.775",
 			"type" :                      "Class",
 			"label" :                     "6.775 - CMOS Analog and Mixed-Signal Circuit Design",
 			"prereqs" :                   "6.301",
@@ -3517,8 +3377,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.022J---Quantitative-Physiology--Organ-Transport-Systems",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.022J+-+Quantitative+Physiology%3A+Organ+Transport+Systems",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -3526,7 +3385,7 @@
 				"Stultz, C. M."
 			],
 			"units" :       "4-2-6",
-			"xyzid" :       "c6.022J",
+			"id" :       "c6.022J",
 			"type" :        "Class",
 			"label" :       "6.022J - Quantitative Physiology: Organ Transport Systems",
 			"prereqs" :     [
@@ -3540,8 +3399,7 @@
 		{
 			"total-units" : "9",
 			"level" :       "Undergrad",
-			"id" :          "6.050J---Information,-Entropy-and-Computation",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.050J+-+Information%2C+Entropy+and+Computation",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -3550,7 +3408,7 @@
 				"Lloyd, S."
 			],
 			"units" :       "4-0-5",
-			"xyzid" :       "c6.050J",
+			"id" :       "c6.050J",
 			"type" :        "Class",
 			"label" :       "6.050J - Information, Entropy and Computation",
 			"prereqs" :     [
@@ -3565,8 +3423,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.823---Computer-System-Architecture",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.823+-+Computer+System+Architecture",
 			"series" :                    "6.8xx",
@@ -3575,7 +3432,7 @@
 				"Asanovic, K."
 			],
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.823",
+			"id" :                     "c6.823",
 			"type" :                      "Class",
 			"label" :                     "6.823 - Computer System Architecture",
 			"prereqs" :                   "6.004",
@@ -3590,14 +3447,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.638---Ultrafast-Optics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.638+-+Ultrafast+Optics",
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Kaertner, F. X.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.638",
+			"id" :                     "c6.638",
 			"type" :                      "Class",
 			"label" :                     "6.638 - Ultrafast Optics",
 			"prereqs" :                   [
@@ -3612,14 +3468,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.101---Introductory-Analog-Electronics-Laboratory",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.101+-+Introductory+Analog+Electronics+Laboratory",
 			"series" :      "6.1xx",
 			"in-charge" :   "Roscoe, B. M.",
 			"units" :       "2-9-1",
-			"xyzid" :       "c6.101",
+			"id" :       "c6.101",
 			"type" :        "Class",
 			"label" :       "6.101 - Introductory Analog Electronics Laboratory",
 			"prereqs" :     "6.002 or 6.071",
@@ -3630,14 +3485,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.830---Database-Systems",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.830+-+Database+Systems",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Madden, S. R.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.830",
+			"id" :                     "c6.830",
 			"type" :                      "Class",
 			"label" :                     "6.830 - Database Systems",
 			"prereqs" :                   [
@@ -3668,8 +3522,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.781J---Submicrometer-and-Nanometer-Technology",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.781J+-+Submicrometer+and+Nanometer+Technology",
 			"series" :                    "6.7xx",
@@ -3679,7 +3532,7 @@
 				"Berggren, K."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.781J",
+			"id" :                     "c6.781J",
 			"type" :                      "Class",
 			"label" :                     "6.781J - Submicrometer and Nanometer Technology",
 			"description" :               "Surveys techniques to fabricate and analyze submicron and nanometer structures, with applications. Reviews optical and electron microscopy. Surface characterization, preparation, and measurement techniques. Resist technology. Optical projection, interferometric, X-ray, ion, and electron lithography. Aqueous, ion, and plasma etching techniques. Lift-off and electroplating. Ion implantation. Applications in microelectronics, microphotonics, information storage, and nanotechnology. Undergraduates with permission of instructor.",
@@ -3690,14 +3543,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.690---Introduction-to-Electric-Power-Systems",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.690+-+Introduction+to+Electric+Power+Systems",
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Kirtley, J. L. Jr.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.690",
+			"id" :                     "c6.690",
 			"type" :                      "Class",
 			"label" :                     "6.690 - Introduction to Electric Power Systems",
 			"prereqs" :                   [
@@ -3712,7 +3564,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.874J",
+			"id" :                     "c6.874J",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Gifford, D. K.",
@@ -3726,8 +3578,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.874J---Computational-Functional-Genomics",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               [
 				"Focuses on casting contemporary problems in systems biology and functional genomics in computational terms and providing appropriate tools and methods to solve them. Topics include genome structure and function, transcriptional regulation, and stem cell biology in particular",
@@ -3746,8 +3597,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.121J---Bioelectronics-Project-Laboratory",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.121J+-+Bioelectronics+Project+Laboratory",
 			"series" :      "6.1xx",
@@ -3757,7 +3607,7 @@
 				"Burns, S. K."
 			],
 			"units" :       "2-8-2",
-			"xyzid" :       "c6.121J",
+			"id" :       "c6.121J",
 			"type" :        "Class",
 			"label" :       "6.121J - Bioelectronics Project Laboratory",
 			"prereqs" :     "6.002 or 6.071",
@@ -3768,14 +3618,13 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.ThM---Master-of-Engineering-Program-Thesis",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.ThM+-+Master+of+Engineering+Program+Thesis",
 			"series" :      "6.Txx",
 			"in-charge" :   "Smith, A. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.ThM",
+			"id" :       "c6.ThM",
 			"type" :        "Class",
 			"label" :       "6.ThM - Master of Engineering Program Thesis",
 			"description" : [
@@ -3788,8 +3637,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.142J---Robotics--Science-and-Systems-II",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.142J+-+Robotics%3A+Science+and+Systems+II",
 			"series" :      "6.1xx",
 			"in-charge" :   [
@@ -3800,7 +3648,7 @@
 				"Teller, S."
 			],
 			"units" :       "2-6-4",
-			"xyzid" :       "c6.142J",
+			"id" :       "c6.142J",
 			"type" :        "Class",
 			"label" :       "6.142J - Robotics: Science and Systems II",
 			"prereqs" :     "6.141",
@@ -3811,14 +3659,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.342---Wavelets,-Approximation,-and-Compression",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Not offered this year",
 			"uri" :         "http://127.0.0.1/6.342+-+Wavelets%2C+Approximation%2C+and+Compression",
 			"series" :      "6.3xx",
 			"in-charge" :   "Goyal, V. K.",
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.342",
+			"id" :       "c6.342",
 			"type" :        "Class",
 			"label" :       "6.342 - Wavelets, Approximation, and Compression",
 			"prereqs" :     [
@@ -3841,14 +3688,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.182---Psychoacoustics-Project-Laboratory",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.182+-+Psychoacoustics+Project+Laboratory",
 			"series" :      "6.1xx",
 			"in-charge" :   "Verghese, G. C.",
 			"units" :       "3-6-3",
-			"xyzid" :       "c6.182",
+			"id" :       "c6.182",
 			"type" :        "Class",
 			"label" :       "6.182 - Psychoacoustics Project Laboratory",
 			"description" : "Laboratory subjects not offered in the regular curriculum. Consult department to learn offerings for a particular term.",
@@ -3858,8 +3704,7 @@
 		{
 			"total-units" :               "6",
 			"level" :                     "Grad",
-			"id" :                        "6.454---Graduate-Seminar-in-Area-I",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Can be repeated for credit",
 			"uri" :                       "http://127.0.0.1/6.454+-+Graduate+Seminar+in+Area+I",
 			"series" :                    "6.4xx",
@@ -3868,7 +3713,7 @@
 				"Shah, D."
 			],
 			"units" :                     "2-0-4",
-			"xyzid" :                     "c6.454",
+			"id" :                     "c6.454",
 			"type" :                      "Class",
 			"label" :                     "6.454 - Graduate Seminar in Area I",
 			"prereqs" :                   "Permission of instructor",
@@ -3880,14 +3725,13 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.891-6.899---Special-Subjects-in-Computer-Science",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.891-6.899+-+Special+Subjects+in+Computer+Science",
 			"series" :      "6.8xx",
 			"in-charge" :   "Verghese, G. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.891-6.899",
+			"id" :       "c6.891-6.899",
 			"type" :        "Class",
 			"label" :       "6.891-6.899 - Special Subjects in Computer Science",
 			"description" : "Opportunity for group study of advanced subjects related to computer science not otherwise included in curriculum. Offerings initiated by members of the EECS faculty on an ad hoc basis, subject to department approval.",
@@ -3897,8 +3741,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.691---Seminar-in-Electric-Power-Systems",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered next year",
 				"Currently Offered"
@@ -3907,7 +3750,7 @@
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Kirtley, J. L Jr.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.691",
+			"id" :                     "c6.691",
 			"type" :                      "Class",
 			"label" :                     "6.691 - Seminar in Electric Power Systems",
 			"description" :               [
@@ -3926,8 +3769,7 @@
 		{
 			"total-units" : "15",
 			"level" :       "Undergrad",
-			"id" :          "6.004---Computation-Structures",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.004+-+Computation+Structures",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -3935,7 +3777,7 @@
 				"Terman, C. J."
 			],
 			"units" :       "4-3-8",
-			"xyzid" :       "c6.004",
+			"id" :       "c6.004",
 			"type" :        "Class",
 			"label" :       "6.004 - Computation Structures",
 			"prereqs" :     [
@@ -3956,8 +3798,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.728---Applied-Quantum-and-Statistical-Physics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.728+-+Applied+Quantum+and+Statistical+Physics",
 			"series" :                    "6.7xx",
@@ -3968,7 +3809,7 @@
 				"Berggren, K."
 			],
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.728",
+			"id" :                     "c6.728",
 			"type" :                      "Class",
 			"label" :                     "6.728 - Applied Quantum and Statistical Physics",
 			"prereqs" :                   [
@@ -3986,14 +3827,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.827---Multithreaded-Parallelism--Languages-and-Compilers",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.827+-+Multithreaded+Parallelism%3A+Languages+and+Compilers",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Arvind",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.827",
+			"id" :                     "c6.827",
 			"type" :                      "Class",
 			"label" :                     "6.827 - Multithreaded Parallelism: Languages and Compilers",
 			"prereqs" :                   [
@@ -4008,7 +3848,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "\"6.870\"",
-			"xyzid" :                     "c6.869",
+			"id" :                     "c6.869",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Darrell, T.",
@@ -4022,8 +3862,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.869---Advances-in-Computer-Vision",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "Advanced topics in mid- and high-level computer vision with a focus on the use of machine learning techniques and applications in graphics and human-computer interface. Topics may include: image representations, texture models, structure-from-motion algorithms, Bayesian techniques, projective geometrey, object recognition, tracking, shape modeling, and image databases. Applications may include face recognition, multimodal interaction, interacive systems, cinematic special effects, and photorealistic rendering. Covers topics complementary to 6.801/866 and these subjects may be taken in sequence. 6.801/866 or some familiarity with low-level vision topics including image formation, stereo, and motion processing is presumed.",
 			"semester" :                  "Spring",
@@ -4033,7 +3872,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.864",
+			"id" :                     "c6.864",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Barzilay, R. A.",
@@ -4047,8 +3886,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.864---Advanced-Natural-Language-Processing",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "Graduate introduction to natural language processing, the study of human language from a computational perspective. Syntactic, semantic and discourse processing models. Emphasis on machine learning or corpus-based methods and algorithms. Use of these methods and models in applications including syntactic parsing, information extraction, statistical machine translation, dialogue systems, and summarization.",
 			"semester" :                  "Fall",
@@ -4058,8 +3896,7 @@
 		{
 			"total-units" : "15",
 			"level" :       "Undergrad",
-			"id" :          "6.002---Circuits-and-Electronics",
-			"category" :    "Restricted Electives in Science and Technology",
+						"category" :    "Restricted Electives in Science and Technology",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.002+-+Circuits+and+Electronics",
 			"series" :      "6.0xx",
@@ -4070,7 +3907,7 @@
 				"Perreault, D. J."
 			],
 			"units" :       "4-2-9",
-			"xyzid" :       "c6.002",
+			"id" :       "c6.002",
 			"type" :        "Class",
 			"label" :       "6.002 - Circuits and Electronics",
 			"prereqs" :     [
@@ -4095,8 +3932,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.341---Discrete-Time-Signal-Processing",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.341+-+Discrete-Time+Signal+Processing",
 			"series" :      "6.3xx",
@@ -4105,7 +3941,7 @@
 				"Goyal, V. K."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.341",
+			"id" :       "c6.341",
 			"type" :        "Class",
 			"label" :       "6.341 - Discrete-Time Signal Processing",
 			"prereqs" :     "6.011",
@@ -4116,14 +3952,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.231---Dynamic-Programming-and-Stochastic-Control",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.231+-+Dynamic+Programming+and+Stochastic+Control",
 			"series" :      "6.2xx",
 			"in-charge" :   "Bertsekas, D. P.",
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.231",
+			"id" :       "c6.231",
 			"type" :        "Class",
 			"label" :       "6.231 - Dynamic Programming and Stochastic Control",
 			"prereqs" :     [
@@ -4137,8 +3972,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.452---Principles-of-Wireless-Communication",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.452+-+Principles+of+Wireless+Communication",
 			"series" :                    "6.4xx",
@@ -4147,7 +3981,7 @@
 				"Zheng, L."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.452",
+			"id" :                     "c6.452",
 			"type" :                      "Class",
 			"label" :                     "6.452 - Principles of Wireless Communication",
 			"prereqs" :                   [
@@ -4173,8 +4007,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.041---Probabilistic-Systems-Analysis",
-			"category" :    "Restricted Electives in Science and Technology",
+						"category" :    "Restricted Electives in Science and Technology",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.041+-+Probabilistic+Systems+Analysis",
 			"series" :      "6.0xx",
@@ -4183,7 +4016,7 @@
 				"Tsitsiklis, J. N."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.041",
+			"id" :       "c6.041",
 			"type" :        "Class",
 			"label" :       "6.041 - Probabilistic Systems Analysis",
 			"prereqs" :     "18.02",
@@ -4194,8 +4027,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.634J---Nonlinear-Optics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.634J+-+Nonlinear+Optics",
 			"series" :                    "6.6xx",
@@ -4204,7 +4036,7 @@
 				"Fujimoto, J. G."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.634J",
+			"id" :                     "c6.634J",
 			"type" :                      "Class",
 			"label" :                     "6.634J - Nonlinear Optics",
 			"prereqs" :                   [
@@ -4219,13 +4051,12 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.302---Feedback-Systems",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.302+-+Feedback+Systems",
 			"series" :      "6.3xx",
 			"in-charge" :   "Roberge, J. K.",
 			"units" :       "4-2-6",
-			"xyzid" :       "c6.302",
+			"id" :       "c6.302",
 			"type" :        "Class",
 			"label" :       "6.302 - Feedback Systems",
 			"prereqs" :     [
@@ -4240,7 +4071,7 @@
 		{
 			"level" :                     "Undergrad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.835",
+			"id" :                     "c6.835",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Durand, F. P.",
@@ -4254,8 +4085,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.835---Digital-and-Computational-Photography",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"description" :               "Computational photography is a new field at the convergence of photography, computer vision, image processing, and computer graphics. Fundamentals and applications of hardware and software techniques, with an emphasis on software methods. Provides sufficient background to implement new solutions to photography challenges and opportunities. Topics include cameras and image formation, image processing and image representations, high-dynamic-range-imaging, human visual perception and color, single view 3-D model reconstruction, morphing, data-rich photography, Super-resolution, image-based rendering.  6 Engineering Design Points.",
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
@@ -4267,14 +4097,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.831---User-Interface-Design-and-Implementation",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.831+-+User+Interface+Design+and+Implementation",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Miller, R. C.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.831",
+			"id" :                     "c6.831",
 			"type" :                      "Class",
 			"label" :                     "6.831 - User Interface Design and Implementation",
 			"prereqs" :                   "6.170",
@@ -4292,14 +4121,13 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.881-6.885---Special-Subjects-in-Computer-Science",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.881-6.885+-+Special+Subjects+in+Computer+Science",
 			"series" :      "6.8xx",
 			"in-charge" :   "Verghese, G. V.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.881-6.885",
+			"id" :       "c6.881-6.885",
 			"type" :        "Class",
 			"label" :       "6.881-6.885 - Special Subjects in Computer Science",
 			"description" : "Opportunity for group study of advanced subjects related to Computer Science not otherwise included in curriculum.  Offerings initiated by members of the EECS faculty on an ad hoc basis, subject to department approval.",
@@ -4309,14 +4137,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.556J---Data-Acquisition-and-Image-Reconstruction-in-MRI",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.556J+-+Data+Acquisition+and+Image+Reconstruction+in+MRI",
 			"series" :                    "6.5xx",
 			"in-charge" :                 "Adalsteinsson, E.",
 			"units" :                     "3-6-3",
-			"xyzid" :                     "c6.556J",
+			"id" :                     "c6.556J",
 			"type" :                      "Class",
 			"label" :                     "6.556J - Data Acquisition and Image Reconstruction in MRI",
 			"prereqs" :                   "6.011",
@@ -4328,7 +4155,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.856J",
+			"id" :                     "c6.856J",
 			"type" :                      "Class",
 			"in-charge" :                 "Karger, D. R.",
 			"CI" :                        "no",
@@ -4339,8 +4166,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Not offered this year",
 			"hass-distribution" :         "no",
-			"id" :                        "6.856J---Randomized-Algorithms",
-			"units" :                     "5-0-7",
+						"units" :                     "5-0-7",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               [
 				"Studies how randomization can be used to make algorithms simpler and more efficient via random sampling, random selection of witnesses, symmetry breaking, and Markov chains. Models of randomized computation. Data structures: hash tables, and skip lists. Graph algorithms: minimum spanning trees, shortest paths, and minimum cuts. Geometric algorithms: convex hulls, linear programming in fixed or arbitrary dimension. Approximate counting",
@@ -4360,8 +4186,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.438---Algorithms-for-Estimation-and-Inference",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.438+-+Algorithms+for+Estimation+and+Inference",
 			"series" :                    "6.4xx",
@@ -4371,7 +4196,7 @@
 				"Wornell, G. W."
 			],
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.438",
+			"id" :                     "c6.438",
 			"type" :                      "Class",
 			"label" :                     "6.438 - Algorithms for Estimation and Inference",
 			"prereqs" :                   [
@@ -4391,8 +4216,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.163---Strobe-Project-Laboratory",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.163+-+Strobe+Project+Laboratory",
 			"series" :      "6.1xx",
@@ -4401,7 +4225,7 @@
 				"Bales, J. W."
 			],
 			"units" :       "2-8-2",
-			"xyzid" :       "c6.163",
+			"id" :       "c6.163",
 			"type" :        "Class",
 			"label" :       "6.163 - Strobe Project Laboratory",
 			"prereqs" :     "8.02",
@@ -4412,13 +4236,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.EPW---UPOP-IAP-Workshop",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.EPW+-+UPOP+IAP+Workshop",
 			"series" :      "6.Exx",
 			"in-charge" :   "Yue, D. K. P.",
 			"units" :       "3-0-0 [P/D/F]",
-			"xyzid" :       "c6.EPW",
+			"id" :       "c6.EPW",
 			"type" :        "Class",
 			"label" :       "6.EPW - UPOP IAP Workshop",
 			"description" : "Provides engineering sophomores the opportunity to build the core foundation of skills necessary to succeed in and prepare for a summer practice experience. Introduces concepts in product development, system dynamics, organizational dynamics, and effective communication. Also introduces concepts in ethics and character, and leadership and teamwork to ensure that students acquire an appreciation of the social, environmental, and ethical implications of organizational decision making. Subject is an interactive experience integrating lectures with role-playing, simulations, and group projects, where students apply these concepts in a case study context. Students are provided with a journal to be used during their summer training practice. Limited enrollment.",
@@ -4428,7 +4251,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.846",
+			"id" :                     "c6.846",
 			"type" :                      "Class",
 			"in-charge" :                 "Agarwal, A.",
 			"CI" :                        "no",
@@ -4439,8 +4262,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.846---Parallel-Processing--Architecture-and-Applications",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "Principles in the design and programming of parallel machines. Continuum, particle, and graph applications. Communication and synchronization. Locality in parallel computations. Computational models and parallel computers: dataflow, shared memory, data parallel, and message passing. Parallel machine mechanisms such as full-empty synchronization bits, cache coherence, and multithreading. Design and performance evaluation of multiprocessor systems. Compilation and runtime technologies: partitioning, placement, and scheduling. Substantial project required.  4 Engineering Design Points.",
 			"semester" :                  "Spring",
@@ -4450,8 +4272,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.945---Large-scale-Symbolic-Systems",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.945+-+Large-scale+Symbolic+Systems",
 			"series" :      "6.9xx",
@@ -4460,7 +4281,7 @@
 				"Hanson, C. P."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.945",
+			"id" :       "c6.945",
 			"type" :        "Class",
 			"label" :       "6.945 - Large-scale Symbolic Systems",
 			"prereqs" :     [
@@ -4474,8 +4295,7 @@
 		{
 			"total-units" : "9",
 			"level" :       "Undergrad",
-			"id" :          "6.07J---Projects-in-Microscale-Engineering-for-the-Life-Sciences",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.07J+-+Projects+in+Microscale+Engineering+for+the+Life+Sciences",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -4484,7 +4304,7 @@
 				"Aranyosi, A."
 			],
 			"units" :       "2-4-3",
-			"xyzid" :       "c6.07J",
+			"id" :       "c6.07J",
 			"type" :        "Class",
 			"label" :       "6.07J - Projects in Microscale Engineering for the Life Sciences",
 			"description" : [
@@ -4498,8 +4318,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.772---Compound-Semiconductor-and-Heterostructure-Devices",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.772+-+Compound+Semiconductor+and+Heterostructure+Devices",
 			"series" :                    "6.7xx",
@@ -4508,7 +4327,7 @@
 				"Jr."
 			],
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.772",
+			"id" :                     "c6.772",
 			"type" :                      "Class",
 			"label" :                     "6.772 - Compound Semiconductor and Heterostructure Devices",
 			"prereqs" :                   "6.012",
@@ -4529,8 +4348,7 @@
 		{
 			"total-units" :  "15",
 			"level" :        "Undergrad",
-			"id" :           "6.001---Structure-and-Interpretation-of-Computer-Programs",
-			"category" :     "Restricted Electives in Science and Technology",
+						"category" :     "Restricted Electives in Science and Technology",
 			"offering" :     "Currently Offered",
 			"uri" :          "http://127.0.0.1/6.001+-+Structure+and+Interpretation+of+Computer+Programs",
 			"series" :       "6.0xx",
@@ -4539,7 +4357,7 @@
 				"Boning, D. S."
 			],
 			"units" :        "5-3-7",
-			"xyzid" :        "c6.001",
+			"id" :        "c6.001",
 			"type" :         "Class",
 			"required-for" : "6",
 			"label" :        "6.001 - Structure and Interpretation of Computer Programs",
@@ -4565,14 +4383,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.875J---Cryptography-and-Cryptanalysis",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.875J+-+Cryptography+and+Cryptanalysis",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Goldwasser, S.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.875J",
+			"id" :                     "c6.875J",
 			"type" :                      "Class",
 			"label" :                     "6.875J - Cryptography and Cryptanalysis",
 			"prereqs" :                   "6.046J",
@@ -4584,13 +4401,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.952---Graduate-VI-A-Internship",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.952+-+Graduate+VI-A+Internship",
 			"series" :      "6.9xx",
 			"in-charge" :   "Zahn, M.",
 			"units" :       "0-12-0 [P/D/F]",
-			"xyzid" :       "c6.952",
+			"id" :       "c6.952",
 			"type" :        "Class",
 			"label" :       "6.952 - Graduate VI-A Internship",
 			"prereqs" :     "6.951",
@@ -4601,8 +4417,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.566J---Biosensors,-Signal-Processing,-and-Biomedical-Applications",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered next year",
 				"Currently Offered"
@@ -4614,7 +4429,7 @@
 				"Burns, S. K."
 			],
 			"units" :                     "3-3-6",
-			"xyzid" :                     "c6.566J",
+			"id" :                     "c6.566J",
 			"type" :                      "Class",
 			"label" :                     "6.566J - Biosensors, Signal Processing, and Biomedical Applications",
 			"description" :               "Principles of measurements and instrumentation, emphasizing quantitative modelling of basic transduction (sensing) processes, interaction of sensors with biological systems (e.g. human body, clinical specimens), and both fundamental and practical limitations on the signal-to-noise ratio. Emphasis on modern signal processing strategies involving intensive real-time computation as an integral part of the measurement process. Some background in life sciences and electronics assumed.",
@@ -4625,13 +4440,12 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.789---Organic-Optoelectronics",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.789+-+Organic+Optoelectronics",
 			"series" :                    "6.7xx",
 			"units" :                     "4-1-7",
-			"xyzid" :                     "c6.789",
+			"id" :                     "c6.789",
 			"type" :                      "Class",
 			"label" :                     "6.789 - Organic Optoelectronics",
 			"description" :               "No description available.",
@@ -4642,14 +4456,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.376---Low-Power-Analog-VLSI",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.376+-+Low+Power+Analog+VLSI",
 			"series" :                    "6.3xx",
 			"in-charge" :                 "Sarpeshkar, R.",
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.376",
+			"id" :                     "c6.376",
 			"type" :                      "Class",
 			"label" :                     "6.376 - Low Power Analog VLSI",
 			"prereqs" :                   "6.301",
@@ -4661,14 +4474,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.877J---Computational-Evolutionary-Biology",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered next year",
 			"uri" :                       "http://127.0.0.1/6.877J+-+Computational+Evolutionary+Biology",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Berwick, R. C.",
 			"units" :                     "3-3-6",
-			"xyzid" :                     "c6.877J",
+			"id" :                     "c6.877J",
 			"type" :                      "Class",
 			"label" :                     "6.877J - Computational Evolutionary Biology",
 			"prereqs" :                   [
@@ -4687,14 +4499,13 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.971\u00E2\u0080\u00936.979---Special-Subjects-in-Electrical-Engineering-and-Computer-Science",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.971%C3%A2%C2%80%C2%936.979+-+Special+Subjects+in+Electrical+Engineering+and+Computer+Science",
 			"series" :      "6.9xx",
 			"in-charge" :   "Verghese, G. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.971\u00E2\u0080\u00936.979",
+			"id" :       "c6.971\u00E2\u0080\u00936.979",
 			"type" :        "Class",
 			"label" :       "6.971\u00E2\u0080\u00936.979 - Special Subjects in Electrical Engineering and Computer Science",
 			"description" : "Opportunity for group study of advanced subjects related to Electrical Engineering and Computer Science not otherwise included in curriculum. Offerings initiated by members of EECS faculty on an ad hoc basis, subject to departmental approval.",
@@ -4704,8 +4515,7 @@
 		{
 			"total-units" : "15",
 			"level" :       "Undergrad",
-			"id" :          "6.170---Laboratory-in-Software-Engineering",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.170+-+Laboratory+in+Software+Engineering",
 			"series" :      "6.1xx",
 			"in-charge" :   [
@@ -4713,7 +4523,7 @@
 				"Jackson, D. N."
 			],
 			"units" :       "3-9-3",
-			"xyzid" :       "c6.170",
+			"id" :       "c6.170",
 			"type" :        "Class",
 			"label" :       "6.170 - Laboratory in Software Engineering",
 			"prereqs" :     "6.001 or 6.005",
@@ -4731,7 +4541,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.873J",
+			"id" :                     "c6.873J",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Ohno-Machado, L.",
@@ -4746,8 +4556,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.873J---Biomedical-Decision-Support",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "Presents the main concepts of decision analysis, artificial intelligence, and predictive model construction and evaluation in the specific context of medical applications. Emphasizes the advantages and disadvantages of using these methods in real-world systems. Technical focus on decision analysis, knowledge-based systems (qualitative and quantitative), learning systems (including logistic regression, classification trees, neural networks), and techniques to evaluate the performance of such systems. Students produce a final project using the methods learned in the subject, based on actual clinical data. Required for students in the master\'s program in medical informatics, but open to other graduate students and advanced undergraduates.",
 			"semester" :                  "Fall",
@@ -4760,14 +4569,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.102---Introductory-RF-Design-Laboratory",
-			"category" :    "Institute LAB",
+						"category" :    "Institute LAB",
 			"offering" :    "Not offered next year",
 			"uri" :         "http://127.0.0.1/6.102+-+Introductory+RF+Design+Laboratory",
 			"series" :      "6.1xx",
 			"in-charge" :   "Roscoe, B. M.",
 			"units" :       "2-9-1",
-			"xyzid" :       "c6.102",
+			"id" :       "c6.102",
 			"type" :        "Class",
 			"label" :       "6.102 - Introductory RF Design Laboratory",
 			"prereqs" :     "6.002 or 6.071",
@@ -4783,14 +4591,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.632---Electromagnetic-Wave-Theory",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.632+-+Electromagnetic+Wave+Theory",
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Kong, J. A.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.632",
+			"id" :                     "c6.632",
 			"type" :                      "Class",
 			"label" :                     "6.632 - Electromagnetic Wave Theory",
 			"prereqs" :                   [
@@ -4806,7 +4613,7 @@
 		{
 			"level" :                     "Undergrad",
 			"required-for" :              "6.838, 6.839",
-			"xyzid" :                     "c6.837",
+			"id" :                     "c6.837",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Durand, F.",
@@ -4820,8 +4627,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Currently Offered",
 			"hass-distribution" :         "no",
-			"id" :                        "6.837---Computer-Graphics",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"description" :               "Introduction to computer graphics algorithms, software and hardware.  Topics include ray tracing, the graphics pipeline, transformations,  texture mapping, shadows, sampling, global illumination, splines,  animation and color.  6 Engineering Design Points.",
 			"semester" :                  "Fall",
 			"has-final" :                 "FALSE",
@@ -4833,12 +4639,11 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.CME---Study-at-Cambridge-University",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.CME+-+Study+at+Cambridge+University",
 			"series" :      "6.Cxx",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.CME",
+			"id" :       "c6.CME",
 			"type" :        "Class",
 			"label" :       "6.CME - Study at Cambridge University",
 			"description" : "No description available.",
@@ -4848,14 +4653,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.731---Semiconductor-Optoelectronics--Theory-and-Design",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.731+-+Semiconductor+Optoelectronics%3A+Theory+and+Design",
 			"series" :                    "6.7xx",
 			"in-charge" :                 "Ram, R. J.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.731",
+			"id" :                     "c6.731",
 			"type" :                      "Class",
 			"label" :                     "6.731 - Semiconductor Optoelectronics: Theory and Design",
 			"prereqs" :                   [
@@ -4870,13 +4674,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.951---Graduate-VI-A-Internship",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.951+-+Graduate+VI-A+Internship",
 			"series" :      "6.9xx",
 			"in-charge" :   "Zahn, M.",
 			"units" :       "0-12-0 [P/D/F]",
-			"xyzid" :       "c6.951",
+			"id" :       "c6.951",
 			"type" :        "Class",
 			"label" :       "6.951 - Graduate VI-A Internship",
 			"prereqs" :     [
@@ -4891,8 +4694,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.012---Microelectronic-Devices-and-Circuits",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.012+-+Microelectronic+Devices+and+Circuits",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -4903,7 +4705,7 @@
 				"Sodini, C. G."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.012",
+			"id" :       "c6.012",
 			"type" :        "Class",
 			"label" :       "6.012 - Microelectronic Devices and Circuits",
 			"prereqs" :     "6.002",
@@ -4918,13 +4720,12 @@
 		{
 			"total-units" : "6",
 			"level" :       "Undergrad",
-			"id" :          "6.070J---Electronics-Project-Laboratory",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.070J+-+Electronics+Project+Laboratory",
 			"series" :      "6.0xx",
 			"in-charge" :   "Moriarty, E. J.",
 			"units" :       "2-2-2",
-			"xyzid" :       "c6.070J",
+			"id" :       "c6.070J",
 			"type" :        "Class",
 			"label" :       "6.070J - Electronics Project Laboratory",
 			"description" : "Introduction to electronics test equipment such as oscilloscopes, meters (voltage, resistance inductance, capacitance, etc.), and signal generators. Emphasizes individual instruction and development of skills, such as soldering, assembly, and troubleshooting. Students build and keep an electronics kit, such as a radio, to serve as the vehicle for learning about electronics test and measurement equipment. Intended for students without a previous background in electronics. Enrollment may be limited.",
@@ -4934,8 +4735,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.651J---Introduction-to-Plasma-Physics-I",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.651J+-+Introduction+to+Plasma+Physics+I",
 			"series" :                    "6.6xx",
@@ -4945,7 +4745,7 @@
 				"Freidberg, J."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.651J",
+			"id" :                     "c6.651J",
 			"type" :                      "Class",
 			"label" :                     "6.651J - Introduction to Plasma Physics I",
 			"prereqs" :                   [
@@ -4968,8 +4768,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Undergrad",
-			"id" :                        "6.807---Computational-Functional-Genomics",
-			"offering" :                  "Currently Offered",
+						"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.807+-+Computational+Functional+Genomics",
 			"series" :                    "6.8xx",
 			"in-charge" :                 [
@@ -4977,7 +4776,7 @@
 				"Jaakkola, T. S."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.807",
+			"id" :                     "c6.807",
 			"type" :                      "Class",
 			"label" :                     "6.807 - Computational Functional Genomics",
 			"prereqs" :                   [
@@ -4994,8 +4793,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.252J---Nonlinear-Programming",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.252J+-+Nonlinear+Programming",
 			"series" :      "6.2xx",
@@ -5005,7 +4803,7 @@
 				"Perakis, G."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.252J",
+			"id" :       "c6.252J",
 			"type" :        "Class",
 			"label" :       "6.252J - Nonlinear Programming",
 			"prereqs" :     [
@@ -5019,8 +4817,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.334---Power-Electronics",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.334+-+Power+Electronics",
 			"series" :      "6.3xx",
@@ -5029,7 +4826,7 @@
 				"Perreault, D."
 			],
 			"units" :       "3-0-9",
-			"xyzid" :       "c6.334",
+			"id" :       "c6.334",
 			"type" :        "Class",
 			"label" :       "6.334 - Power Electronics",
 			"prereqs" :     "6.012",
@@ -5040,8 +4837,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Grad",
-			"id" :          "6.331---Advanced-Circuit-Techniques",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    [
 				"Not offered next year",
 				"Currently Offered"
@@ -5050,7 +4846,7 @@
 			"series" :      "6.3xx",
 			"in-charge" :   "Roberge, J. K.",
 			"units" :       "4-2-6",
-			"xyzid" :       "c6.331",
+			"id" :       "c6.331",
 			"type" :        "Class",
 			"label" :       "6.331 - Advanced Circuit Techniques",
 			"prereqs" :     [
@@ -5064,8 +4860,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.826---Principles-of-Computer-Systems",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered next year",
 				"Currently Offered"
@@ -5074,7 +4869,7 @@
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Lampson, B. W.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.826",
+			"id" :                     "c6.826",
 			"type" :                      "Class",
 			"label" :                     "6.826 - Principles of Computer Systems",
 			"description" :               "An introduction to the basic principles of computer systems with emphasis on the use of rigorous techniques as an aid to understanding and building modern computing systems. Particular attention paid to concurrent and distributed systems. Topics include: specification and verification, concurrent algorithms, synchronization, naming, Networking, replication techniques (including distributed cache management), and principles and algorithms for achieving reliability. Alternate years.",
@@ -5085,7 +4880,7 @@
 		{
 			"level" :                     "Grad",
 			"required-for" :              "none",
-			"xyzid" :                     "c6.852J",
+			"id" :                     "c6.852J",
 			"type" :                      "Class",
 			"in-charge" :                 "Lynch, N. A.",
 			"CI" :                        "no",
@@ -5096,8 +4891,7 @@
 			"series" :                    "6.8xx",
 			"offering" :                  "Not offered next year",
 			"hass-distribution" :         "no",
-			"id" :                        "6.852J---Distributed-Algorithms",
-			"units" :                     "3-0-9",
+						"units" :                     "3-0-9",
 			"category" :                  "H-LEVEL Grad Credit",
 			"description" :               "Design and analysis of concurrent algorithms, emphasizing those suitable for use in distributed networks. Process synchronization, allocation of computational resources, distributed consensus, distributed graph algorithms, election of a leader in a network, distributed termination, deadlock detection, concurrency control, communication, and clock synchronization. Special consideration given to issues of efficiency and fault tolerance. Formal models and proof methods for distributed computation. Alternate years.",
 			"semester" :                  "Spring",
@@ -5107,8 +4901,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.824---Distributed-Computer-Systems-Engineering",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.824+-+Distributed+Computer+Systems+Engineering",
 			"series" :                    "6.8xx",
@@ -5117,7 +4910,7 @@
 				"Kaashoek, M. F."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.824",
+			"id" :                     "c6.824",
 			"type" :                      "Class",
 			"label" :                     "6.824 - Distributed Computer Systems Engineering",
 			"prereqs" :                   "6.033",
@@ -5132,8 +4925,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.435---System-Identification",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.435+-+System+Identification",
 			"series" :                    "6.4xx",
@@ -5142,7 +4934,7 @@
 				"Mitter, S. K."
 			],
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.435",
+			"id" :                     "c6.435",
 			"type" :                      "Class",
 			"label" :                     "6.435 - System Identification",
 			"prereqs" :                   [
@@ -5164,8 +4956,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.685---Electric-Machines",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  [
 				"Not offered next year",
 				"Currently Offered"
@@ -5174,7 +4965,7 @@
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Kirtley, J. L. Jr.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.685",
+			"id" :                     "c6.685",
 			"type" :                      "Class",
 			"label" :                     "6.685 - Electric Machines",
 			"description" :               [
@@ -5188,13 +4979,12 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Undergrad",
-			"id" :                        "6.804J---Computational-Cognitive-Science",
-			"offering" :                  "Currently Offered",
+						"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.804J+-+Computational+Cognitive+Science",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Tenenbaum, J. B.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.804J",
+			"id" :                     "c6.804J",
 			"type" :                      "Class",
 			"label" :                     "6.804J - Computational Cognitive Science",
 			"prereqs" :                   [
@@ -5216,13 +5006,12 @@
 		{
 			"total-units" : "9",
 			"level" :       "Undergrad",
-			"id" :          "6.901---Inventions-and-Patents",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.901+-+Inventions+and+Patents",
 			"series" :      "6.9xx",
 			"in-charge" :   "Rines, R. H.",
 			"units" :       "3-0-6",
-			"xyzid" :       "c6.901",
+			"id" :       "c6.901",
 			"type" :        "Class",
 			"label" :       "6.901 - Inventions and Patents",
 			"prereqs" :     "14.02",
@@ -5238,8 +5027,7 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.720J---Integrated-Microelectronic-Devices",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.720J+-+Integrated+Microelectronic+Devices",
 			"series" :                    "6.7xx",
@@ -5248,7 +5036,7 @@
 				"Tuller, H. L."
 			],
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.720J",
+			"id" :                     "c6.720J",
 			"type" :                      "Class",
 			"label" :                     "6.720J - Integrated Microelectronic Devices",
 			"prereqs" :                   [
@@ -5263,13 +5051,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.923---Pre-Graduate-VI-A-Internship",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.923+-+Pre-Graduate+VI-A+Internship",
 			"series" :      "6.9xx",
 			"in-charge" :   "Zahn, M.",
 			"units" :       "0-12-0 [P/D/F]",
-			"xyzid" :       "c6.923",
+			"id" :       "c6.923",
 			"type" :        "Class",
 			"label" :       "6.923 - Pre-Graduate VI-A Internship",
 			"prereqs" :     "6.922",
@@ -5280,13 +5067,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Grad",
-			"id" :          "6.961---Introduction-to-Research-in-Electrical-Engineering-and-Computer-Science",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.961+-+Introduction+to+Research+in+Electrical+Engineering+and+Computer+Science",
 			"series" :      "6.9xx",
 			"in-charge" :   "Orlando, T. P.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.961",
+			"id" :       "c6.961",
 			"type" :        "Class",
 			"label" :       "6.961 - Introduction to Research in Electrical Engineering and Computer Science",
 			"description" : "Opportunity to become involved in graduate research, under guidance of a staff member, on a problem of mutual interest to student and supervisor. Recommended for all full-time graduate students entering the Department of Electrical Engineering and Computer Science. Individual programs subject to approval of professor in charge. Enrollment restricted to regular graduate students in Electrical Engineering and Computer Science. Normal registration is for 12 units.",
@@ -5296,8 +5082,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.023J---Fields,-Forces-and-Flows-in-Biological-Systems",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.023J+-+Fields%2C+Forces+and+Flows+in+Biological+Systems",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -5305,7 +5090,7 @@
 				"Manalis, S."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.023J",
+			"id" :       "c6.023J",
 			"type" :        "Class",
 			"label" :       "6.023J - Fields, Forces and Flows in Biological Systems",
 			"prereqs" :     [
@@ -5320,14 +5105,13 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.00---Introduction-to-Computer-Science-and-Programming",
-			"category" :    "Restricted Electives in Science and Technology",
+						"category" :    "Restricted Electives in Science and Technology",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.00+-+Introduction+to+Computer+Science+and+Programming",
 			"series" :      "6.0xx",
 			"in-charge" :   "Guttag, J. V.",
 			"units" :       "3-7-2",
-			"xyzid" :       "c6.00",
+			"id" :       "c6.00",
 			"type" :        "Class",
 			"label" :       "6.00 - Introduction to Computer Science and Programming",
 			"description" : "Introduction to computer science and programming for students with little or no programming experience.  Students learn how to program and how to use computational techniques to solve problems.  Topics include algorithms, simulation techniques, and use of software libraries.  Assignments are done using the Python programming language.",
@@ -5336,8 +5120,7 @@
 		},
 		{
 			"level" :       "Grad",
-			"id" :          "6.337J---Introduction-to-Numerical-Methods",
-			"category" :    "H-LEVEL Grad Credit",
+						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.337J+-+Introduction+to+Numerical+Methods",
 			"series" :      "6.3xx",
@@ -5346,7 +5129,7 @@
 				"White. J.",
 				"Persson P.O."
 			],
-			"xyzid" :       "c6.337J",
+			"id" :       "c6.337J",
 			"type" :        "Class",
 			"label" :       "6.337J - Introduction to Numerical Methods",
 			"prereqs" :     [
@@ -5363,13 +5146,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.100---Electrical-Engineering-and-Computer-Science-Laboratory",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.100+-+Electrical+Engineering+and+Computer+Science+Laboratory",
 			"series" :      "6.1xx",
 			"in-charge" :   "Smith, A. C.",
 			"units" :       "Unknown",
-			"xyzid" :       "c6.100",
+			"id" :       "c6.100",
 			"type" :        "Class",
 			"label" :       "6.100 - Electrical Engineering and Computer Science Laboratory",
 			"description" : "Individual experimental work related to electrical engineering and computer science not covered by other subjects. Student must make arrangements with a project supervisor and file a proposal endorsed by the supervisor. Departmental approval required. Written report to be submitted upon completion of work. If 6.100 is used to satisfy departmental laboratory requirement, student must register for 12 units of laboratory credit in the term the work is done. Consult department undergraduate office early in the term.",
@@ -5379,13 +5161,12 @@
 		{
 			"total-units" : "Unknown",
 			"level" :       "Undergrad",
-			"id" :          "6.920---Practical-Work-Experience",
-			"offering" :    "Can be repeated for credit",
+						"offering" :    "Can be repeated for credit",
 			"uri" :         "http://127.0.0.1/6.920+-+Practical+Work+Experience",
 			"series" :      "6.9xx",
 			"in-charge" :   "Smith, A. C.",
 			"units" :       "0-1-0 [P/D/F]",
-			"xyzid" :       "c6.920",
+			"id" :       "c6.920",
 			"type" :        "Class",
 			"label" :       "6.920 - Practical Work Experience",
 			"description" : "For Course 6 students participating in off-campus work experiences in electrical engineering or computer science. Before enrolling, students must have an employment offer from a company or organization and must find an EECS supervisor. Upon completion of the work, student must submit a letter from the employer describing the work accomplished, along with a substantive final report from the student approved by the MIT supervisor. Subject to departmental approval. Consult departmental undergraduate office.",
@@ -5395,14 +5176,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.821---Programming-Languages",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.821+-+Programming+Languages",
 			"series" :                    "6.8xx",
 			"in-charge" :                 "Gifford, D. K.",
 			"units" :                     "4-0-8",
-			"xyzid" :                     "c6.821",
+			"id" :                     "c6.821",
 			"type" :                      "Class",
 			"label" :                     "6.821 - Programming Languages",
 			"description" :               "Principles of functional, imperative, and logic programming languages. Meta-circular interpreters, semantics (operational and denotational), type systems (polymorphism, inference, and abstract types), object oriented programming, modules, and multiprocessing. Case studies of contemporary programming languages. Programming experience and background in language implementation required.",
@@ -5413,14 +5193,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.582J---Introduction-to-Molecular-Simulations",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Not offered this year",
 			"uri" :                       "http://127.0.0.1/6.582J+-+Introduction+to+Molecular+Simulations",
 			"series" :                    "6.5xx",
 			"in-charge" :                 "Stultz, C. M.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.582J",
+			"id" :                     "c6.582J",
 			"type" :                      "Class",
 			"label" :                     "6.582J - Introduction to Molecular Simulations",
 			"prereqs" :                   [
@@ -5436,14 +5215,13 @@
 		{
 			"total-units" :               "12",
 			"level" :                     "Grad",
-			"id" :                        "6.637---Optical-Signals,-Devices,-and-Systems",
-			"category" :                  "H-LEVEL Grad Credit",
+						"category" :                  "H-LEVEL Grad Credit",
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.637+-+Optical+Signals%2C+Devices%2C+and+Systems",
 			"series" :                    "6.6xx",
 			"in-charge" :                 "Warde, C.",
 			"units" :                     "3-0-9",
-			"xyzid" :                     "c6.637",
+			"id" :                     "c6.637",
 			"type" :                      "Class",
 			"label" :                     "6.637 - Optical Signals, Devices, and Systems",
 			"prereqs" :                   [
@@ -5475,8 +5253,7 @@
 		{
 			"total-units" : "12",
 			"level" :       "Undergrad",
-			"id" :          "6.006---Introduction-to-Algorithms",
-			"offering" :    "Currently Offered",
+						"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/6.006+-+Introduction+to+Algorithms",
 			"series" :      "6.0xx",
 			"in-charge" :   [
@@ -5485,7 +5262,7 @@
 				"Sudan, M."
 			],
 			"units" :       "4-0-8",
-			"xyzid" :       "c6.006",
+			"id" :       "c6.006",
 			"type" :        "Class",
 			"label" :       "6.006 - Introduction to Algorithms",
 			"prereqs" :     [
@@ -5530,8 +5307,8 @@
 		"units" :                     {
 			"uri" : "http://127.0.0.1/units"
 		},
-		"xyzid" :                     {
-			"uri" : "http://127.0.0.1/xyzid"
+		"id" :                     {
+			"uri" : "http://127.0.0.1/id"
 		},
 		"required-for" :              {
 			"uri" : "http://127.0.0.1/required-for"
