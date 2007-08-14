@@ -75,29 +75,148 @@ function onLoad() {
         {   number: "24",
             name:   "Linguistics and Philosophy",
             hasData: false
-        }
+        },
+		{	number:	"21L",
+			name:	"Literature",
+			hasData: false
+		},
+		{	number:	"15",
+			name:	"Management",
+			hasData: false
+		},
+		{	number:	"3",
+			name:	"Materials Science and Engineering",
+			hasData: false
+		},
+		{	number:	"18",
+			name:	"Mathematics",
+			hasData: false
+		},
+		{	number:	"2",
+			name:	"Mechanical Engineering",
+			hasData: false
+		},
+		{	number:	"MAS",
+			name:	"Media Arts and Sciences (Media Lab)",
+			hasData: false
+		},
+		{	number:	"21M",
+			name:	"Music and Theater Arts",
+			hasData: false
+		},
+		{	number:	"22",
+			name:	"Nuclear Science and Engineering",
+			hasData: false
+		},
+		{	number:	"8",
+			name:	"Physics",
+			hasData: false
+		},
+		{	number:	"17",
+			name:	"Political Science",
+			hasData: false
+		},
+		{	number:	"STS",
+			name:	"Science, Technology, and Society",
+			hasData: false
+		},
+		{	number:	"11",
+			name:	"Urban Studies and Planning",
+			hasData: false
+		},
+		{	number:	"21W",
+			name:	"Writing and Humanistic Studies",
+			hasData: false
+		}
     ];
-    
+	
+	var installHandlers = function(td, num) {
+        td.onclick = function() {
+			console.log(num);
+            document.getElementById(num).click();
+        };
+    };
+	
     var table = document.getElementById("course-list");
-    for (var i = 0; i < courses.length; i++) {
+    for (var i = 0; i < 11; i++) {
         var course = courses[i];
         var tr = table.insertRow(i);
         
         var td0 = tr.insertCell(0);
-        td0.innerHTML = "<input type='checkbox' " + (course.hasData ? "" : "disabled ") + "name='course' value='" + course.number + "'>" + course.number + "</input>";
-        
+        td0.innerHTML = "<input type='checkbox' " + (course.hasData ? "" : "disable") + "name='course' id='" + course.number + "'value='" + course.number + "'>" + course.number + "</input>";
+		
         var td1 = tr.insertCell(1);
         td1.innerHTML = course.name;
-        
+		
+		if (course.hasData) {
+			installHandlers(td1, course.number);
+		};
+		
         if (!course.hasData) {
-            tr.style.color = "#888";
+			td0.style.color = "#888";
+            td1.style.color = "#888";
         }
-        // This is just to make developing a bit easier...remove for deployment
+    };
+	for (var j = 0; j < 11; j++) {
+		var course = courses[j+11];
+		var td2 = table.rows[j].insertCell(2);
+		td2.innerHTML = "<input type='checkbox' " + (course.hasData ? "" : "disabled") + "name='course' id='" + course.number + "'value='" + course.number + "'>" + course.number + "</input>";
+		
+		var td3 = table.rows[j].insertCell(3);
+		td3.innerHTML = course.name;
+		
+		if (course.hasData) {
+			installHandlers(td3, course.number);
+		};
+		
+		if (!course.hasData) {
+            td2.style.color = "#888";
+            td3.style.color = "#888";
+        }
+		
+		// This is just to make developing a bit easier...remove for deployment
         if (course.number == 6) {
-            td0.firstChild.checked = true;
+           td2.firstChild.checked = true;
         }
-    }
-    browseCourses(); // Ditto here.
+	};
+	for (var k = 0; k < 10; k++) {
+		var course = courses[k+22];
+		var td4 = table.rows[k].insertCell(4);
+		td4.innerHTML = "<input type='checkbox' " + (course.hasData ? "" : "disabled") + "name='course' id='" + course.number + "'value='" + course.number + "'>" + course.number + "</input>";
+		
+		var td5 = table.rows[k].insertCell(5);
+		td5.innerHTML = course.name;
+		
+		if (course.hasData) {
+			installHandlers(td5, course.number);
+		};
+		
+		if (!course.hasData) {
+            td4.style.color = "#888";
+            td5.style.color = "#888";
+        }
+	};
+	
+	var div = document.getElementById("course-table");
+	var hassTable = document.createElement("table");
+	hassTable.id = "hass-d-table";
+	hassTable.cellPadding = "3";
+	hassTable.style.paddingTop="15px";
+	
+	var tr = hassTable.insertRow(0);
+	var td0 = tr.insertCell(0);
+	td0.innerHTML = "<input type='checkbox' name='course' id='hass-d' value='Hass-D Courses'></input>"
+	var td1 = tr.insertCell(1);
+	td1.innerHTML = "Hass-D Courses";
+	
+	//add in when hass-d data has been loaded
+	//installHandlers(td1, "hass-d"); 
+	
+	td1.style.color = "#888"; //remove when hass-d data has been loaded
+	
+	div.appendChild(hassTable);
+	
+	browseCourses(); // Ditto here.
 }
 
 function browseCourses() {
@@ -128,8 +247,6 @@ function browseCourses() {
         window.exhibit = Exhibit.create();
         window.exhibit.setCollection("picked-classes", pickedClasses);
         window.exhibit.configureFromDOM();
-        
-        enableUnitAdder();
     };
     var fNext = function() {
         if (urls.length > 0) {
