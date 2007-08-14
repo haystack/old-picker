@@ -112,6 +112,8 @@ function browseCourses() {
     
     var fDone = function() {
         document.getElementById("browsing-interface").style.display = "block";
+        document.getElementById("picked-interface").style.display = "block";
+
         
         var pickedClasses = new Exhibit.Collection("picked-classes", window.database);
         pickedClasses._update = pickedClassUpdate;

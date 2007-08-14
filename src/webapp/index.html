@@ -107,14 +107,23 @@
                                 ex:grouped="false">
                             </div>
                         </td>
-                        <td width="15%">
-                            <div ex:role="facet" ex:expression=".TQE"></div>
-                            <div ex:role="facet" ex:expression=".level"></div>
-                            <div ex:role="facet" ex:expression=".units"></div>
-                            <div ex:role="facet" ex:expression=".totalUnits"></div>
-                        </td>
                     </tr>
                 </table>
+            </div>
+        </div>
+        <div id="picked-interface">
+            <div id="mini-timegrid" tg:role="grid"></div>
+            <div ex:role="viewPanel">
+                <div ex:role="lens">
+                    <span ex:content=".label"></span>
+                </div>
+                <div ex:role="view"
+                    ex:orders=".courseNumber"
+                    ex:showHeader="false"
+                    ex:showAll="false"
+                    ex:grouped="false"
+                    ex:collectionID="picked-classes">
+                </div>
             </div>
         </div>
     </body>

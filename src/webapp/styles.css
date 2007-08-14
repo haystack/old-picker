@@ -32,6 +32,15 @@ table {
 }
 #browsing-interface {
     display: none;
+    position: absolute;
+    left: 0px;
+    width: 75%;
+}
+#picked-interface {
+    display: none;
+    position: fixed;
+    width: 23%;
+    right: 20px;
 }
 #tabs {
     padding: 0.5em;
