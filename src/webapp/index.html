@@ -32,7 +32,7 @@
                             <div ex:content=".topic" class="course-topic"></div>
                             <div ex:content=".description" class="course-description"></div>
                         </td>
-                        <td width="30%" class="course-logistics">
+                        <td width="30%" class="course-logistics" rowspan="2">
                             <span ex:if="exists(.picked)">
                                 <span>
                                     <button class="pick-button" onclick="pick(this);" ex:classID-content="value" style="display:none;">pick</button>
@@ -51,6 +51,17 @@
                             <div ex:content=".units"></div>
                             <div ex:content=".category"></div>
                             <div ex:if-exists=".TQE">TQE: <span ex:content=".TQE"></span></div>
+							<div class="hkn-statistics">
+								<div class="hkn-stats-header">HKN Statistics</div>
+								<div ex:content="!class">
+									<div ex:if-exists=".last-taught">Last time taught by this instructor: <span ex:content=".last-taught"></span></div>
+									<div>Instructor: <span ex:content=".irating"></span>/7.0</div>
+									<div>Overall: <span ex:content=".orating"></span>/7.0</div>
+									<div>Difficulty: <span ex:content=".odifficulty"></span>/7.0</div>
+									<div>Hours: <span ex:content=".reported-hours"></span></div>
+									<div><a ex:href-content=".evaluation">More info</a></div>
+								</div>
+							</div>
                             <ul ex:content=".lecture">
                                 <li><span ex:content=".day"></span>
                                     <span ex:content=".startHour"></span>
