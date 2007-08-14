@@ -108,6 +108,7 @@ function browseCourses() {
         if (input.checked) {
             urls.push("data/course-" + input.value + "-classes.js");
             urls.push("data/course-" + input.value + "-lectures.js");
+			urls.push("data/course-" + input.value + "-sections.js");
         }
     }
     

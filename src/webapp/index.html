@@ -15,8 +15,8 @@
         </div>
         
         <div id="browsing-interface">
-            <div ex:role="collection" ex:itemTypes="Class"></div>
-            <div ex:role="exhibit-lens" class="course-lens" style="display: none;">
+            
+            <div ex:xrole="exhibit-lens" class="course-lens" style="display: none;">
                 <div class="course-title">
                     <span ex:content=".semester" class="course-semester"></span>
                     <span ex:content=".courseNumber"></span> &bull; <span ex:content=".label"></span>
@@ -55,7 +55,7 @@
                         </td>
                     </tr>
                     <tr valign="bottom">
-                        <td><div ex:content=".instructor" class="course-instructors"></div></td>
+                        <td><div ex:content="!class" class="course-instructors"></div></td>
                         <td align="right"><span ex:control="copy-button"></span></td>
                     </tr>
                 </table>
@@ -94,6 +94,7 @@
                             <b>Search</b>
                             <div ex:role="facet" ex:facetClass="TextSearch"></div>
                             <hr />
+							<div ex:role="facet" ex:expression=".type"></div>
                             <div ex:role="facet" ex:expression=".semester" ex:selection="Fall"></div>
                             <div ex:role="facet" ex:expression=".offering" ex:selection="Currently Offered"></div>
                             <div ex:role="facet" ex:expression=".topic"></div>
