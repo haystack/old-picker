@@ -63,6 +63,16 @@ div.course-title {
 span.course-semester {
     float: right;
 }
+span.lecture-day {
+	font-weight: bold
+}
+td.each-section {
+	border-left: 1px black solid;
+	border-top: 1px black solid;
+	border-right: 1px black solid;
+	background: yellow;
+	cursor:default;
+}
 button.pick-button {
     float: right;
 }

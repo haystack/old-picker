@@ -58,7 +58,18 @@
                         </td>
                     </tr>
                     <tr valign="bottom">
-                        <td><div ex:content="!class.instructor" class="course-instructors"></div></td>
+                        <td><table> 
+								<tr ex:content="!class">
+									<td class="each-section"><div><span ex:content=".instructor"></span></div>
+										<div>
+											<div ex:content="!section" class="each-lecture">
+												<div><span class="lecture-day" ex:content=".day"></span> <span ex:content=".start"></span><b>-</b><span ex:content=".end"></span></div>
+											</div>
+										</div>
+									</td>
+								</tr>
+                        	</table>
+                        </td>
                         <td align="right"><span ex:control="copy-button"></span></td>
                     </tr>
                 </table>
