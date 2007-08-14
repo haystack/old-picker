@@ -25,6 +25,13 @@ function enableUnitAdder() {
 				div.innerHTML = 'Units: '+unitsString+
 								'<br>Total Units: '+unitsTotal+
 								'<br>Reported Total Hours: '+reportedHours+'<br>';
+								
+			    document.getElementById('no-picked-classes').style.display = "none";
+			} else {
+				var div = document.getElementById('total-units');
+				div.innerHTML = "";
+				
+			    document.getElementById('no-picked-classes').style.display = "block";
 			}
  		} 
  	});

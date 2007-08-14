@@ -115,9 +115,9 @@
                 </table>
             </div>
             <div id="all-classes">
-                <table width="100%" id="content" cellspacing="20">
+                <table width="100%" id="content" cellspacing="10">
                     <tr valign="top">
-                        <td width="15%">
+                        <td width="20%">
                             <b>Search</b>
                             <div ex:role="facet" ex:facetClass="TextSearch"></div>
                             <hr />
@@ -140,9 +140,11 @@
             </div>
         </div>
         <div id="picked-interface">
-            <div id="mini-timegrid" tg:role="grid" tg:views="week" tg:eventSource="miniEventSource"
-                                    tg:mini="true" style="height:200px">
-            </div>
+            <h1>Picked Classes</h1>
+            <div id="no-picked-classes">No Classes Picked</div>
+            <div id="mini-timegrid" tg:role="grid" 
+                tg:views="week" tg:eventSource="miniEventSource"
+                tg:mini="true" style="height:200px"></div>
             <div id="total-units"></div>
             <div ex:role="viewPanel">
                 <div ex:role="lens">

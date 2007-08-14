@@ -247,6 +247,8 @@ function browseCourses() {
         window.exhibit = Exhibit.create();
         window.exhibit.setCollection("picked-classes", pickedClasses);
         window.exhibit.configureFromDOM();
+        
+        enableUnitAdder();
     };
     var fNext = function() {
         if (urls.length > 0) {

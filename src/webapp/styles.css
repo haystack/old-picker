@@ -32,16 +32,36 @@ table {
 }
 #browsing-interface {
     display: none;
-   position: absolute;
+    position: absolute;
     left: 0px;
     width: 75%;
 }
 #picked-interface {
-    display: none;
-    position: fixed;
-    width: 23%;
-    right: 20px;
+    display:    none;
+    position:   fixed;
+    width:      23%;
+    top:        10px;
+    right:      -1px;
+    background: #eee;
+    border:     1px solid #aaa;
 }
+#picked-interface > div {
+    padding:    10px;
+}
+#picked-interface > h1 {
+    margin:         0;
+    padding:        0.25em;
+    font-size:      120%;
+    font-weight:    bold;
+    background:     #ccc;
+    text-align:     center;
+}
+
+#no-picked-classes {
+    padding:    2em;
+    text-align: center;
+}
+
 #tabs {
     padding: 0.5em;
     background: #ffe;
@@ -61,7 +81,7 @@ div.course-title {
     background:     #dde;
 }
 div.hkn-statistics {
-	border: 1px solid black;
+	border: 1px solid #aaa;
 	clear: right;
 	padding: .5em 1em .5em 1em;
 	margin-top: 1em;
@@ -79,11 +99,11 @@ span.lecture-day {
 	font-weight: bold
 }
 td.each-section {
-	border-left: 1px black solid;
-	border-top: 1px black solid;
-	border-right: 1px black solid;
-	background: yellow;
-	cursor:default;
+	border-left:    1px #884 solid;
+	border-top:     1px #884 solid;
+	border-right:   1px #884 solid;
+	background:     #ffd;
+	cursor:         pointer;
 }
 button.pick-button {
     float: right;
