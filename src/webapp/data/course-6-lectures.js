@@ -1,1454 +1,2185 @@
 {
-    "items" :      [
-        {
-            "day" :       "F",
-            "label" :     "l30137",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l30137",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l39998",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l39998",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l93511",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l93511",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l85791",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l85791",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l83524",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l83524",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l60335",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l60335",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l82278",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l82278",
-            "startHour" : "10"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l71044",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l71044",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l93175",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l93175",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l82379",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l82379",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l45606",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l45606",
-            "startHour" : "10"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l51778",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l51778",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l60101",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l60101",
-            "endHour" :   "9:30",
-            "startHour" : "8"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l86514",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l86514",
-            "startHour" : "14"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l94812",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l94812",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l11953",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l11953",
-            "startHour" : "12"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l63776",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l63776",
-            "startHour" : "16"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l50093",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l50093",
-            "endHour" :   "22",
-            "startHour" : "19"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l84804",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l84804",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l21467",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l21467",
-            "endHour" :   "14",
-            "startHour" : "12"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l81334",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l81334",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l25279",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l25279",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l2011",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l2011",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l64779",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l64779",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l60293",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l60293",
-            "startHour" : "12"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l83134",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l83134",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l19511",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l19511",
-            "startHour" : "14"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l66151",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l66151",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l75178",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l75178",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l9149",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l9149",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l17099",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l17099",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l38306",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l38306",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l40218",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l40218",
-            "startHour" : "12"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l12043",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l12043",
-            "endHour" :   "9:30",
-            "startHour" : "8"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l99437",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l99437",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l9569",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l9569",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l79185",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l79185",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l54109",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l54109",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l36230",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l36230",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l81186",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l81186",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l37390",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l37390",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l90142",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l90142",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l19611",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l19611",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l55693",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l55693",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l44340",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l44340",
-            "endHour" :   "9:30",
-            "startHour" : "8"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l90129",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l90129",
-            "startHour" : "10"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l41910",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l41910",
-            "endHour" :   "16:30",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l20554",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l20554",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l96977",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l96977",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l2526",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l2526",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l61579",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l61579",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l27679",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l27679",
-            "endHour" :   "11",
-            "startHour" : "9"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l69090",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l69090",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l50920",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l50920",
-            "endHour" :   "18",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l8684",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l8684",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l16045",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l16045",
-            "startHour" : "10"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l58991",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l58991",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l60147",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l60147",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l93540",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l93540",
-            "startHour" : "14"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l29606",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l29606",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l42729",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l42729",
-            "startHour" : "10"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l53169",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l53169",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l45435",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l45435",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l15875",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l15875",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l43897",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l43897",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l19761",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l19761",
-            "startHour" : "14"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l13521",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l13521",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l56930",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l56930",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l88873",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l88873",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l13791",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l13791",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l83552",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l83552",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l9620",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l9620",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l54089",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l54089",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l61063",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l61063",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l39440",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l39440",
-            "endHour" :   "11",
-            "startHour" : "9"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l38193",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l38193",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l13656",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l13656",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l69519",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l69519",
-            "endHour" :   "21",
-            "startHour" : "19"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l2946",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l2946",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l45560",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l45560",
-            "startHour" : "10"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l58053",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l58053",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l45335",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l45335",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l11078",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l11078",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l59237",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l59237",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l35270",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l35270",
-            "startHour" : "12"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l52965",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l52965",
-            "startHour" : "10"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l44707",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l44707",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l54989",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l54989",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l26862",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l26862",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l23778",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l23778",
-            "startHour" : "14"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l71767",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l71767",
-            "endHour" :   "16:30",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l14903",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l14903",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l45655",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l45655",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l47591",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l47591",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l42584",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l42584",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l62586",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l62586",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l47566",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l47566",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l1964",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l1964",
-            "endHour" :   "16:30",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l54275",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l54275",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l73772",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l73772",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l84487",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l84487",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l14154",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l14154",
-            "startHour" : "12"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l13492",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l13492",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l17307",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l17307",
-            "startHour" : "12"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l61923",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l61923",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l71593",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l71593",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l1977",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l1977",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l69781",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l69781",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l57932",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l57932",
-            "startHour" : "12"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l53560",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l53560",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l26337",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l26337",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l46782",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l46782",
-            "endHour" :   "17",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l70180",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l70180",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l44328",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l44328",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l16685",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l16685",
-            "endHour" :   "16:30",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l95429",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l95429",
-            "startHour" : "12"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l40621",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l40621",
-            "startHour" : "12"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l34752",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l34752",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l75838",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l75838",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l91907",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l91907",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l86367",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l86367",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l93303",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l93303",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l64006",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l64006",
-            "endHour" :   "16:30",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l82193",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l82193",
-            "startHour" : "16"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l11856",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l11856",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l30765",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l30765",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l28222",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l28222",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l89354",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l89354",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l59655",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l59655",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l75847",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l75847",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l41814",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l41814",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l51842",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l51842",
-            "endHour" :   "9:30",
-            "startHour" : "8"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l43532",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l43532",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l49367",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l49367",
-            "endHour" :   "17",
-            "startHour" : "14"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l70639",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l70639",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l36445",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l36445",
-            "startHour" : "14"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l25165",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l25165",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l39407",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l39407",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l91379",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l91379",
-            "startHour" : "14"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l41573",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l41573",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l81314",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l81314",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l69871",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l69871",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l86089",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l86089",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l63969",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l63969",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l4648",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l4648",
-            "endHour" :   "16:30",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l91995",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l91995",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l20409",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l20409",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l5388",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l5388",
-            "startHour" : "10"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l2073",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l2073",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l93057",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l93057",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l86318",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l86318",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l24237",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l24237",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l39610",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l39610",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l18883",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l18883",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l93609",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l93609",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l93642",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l93642",
-            "startHour" : "10"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l79681",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l79681",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l66031",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l66031",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l73553",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l73553",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l43317",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l43317",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l12591",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l12591",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l19374",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l19374",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l23589",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l23589",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l77976",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l77976",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l13006",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l13006",
-            "startHour" : "10"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l5392",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l5392",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l34731",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l34731",
-            "startHour" : "12"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l32769",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l32769",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l95073",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l95073",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l10193",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l10193",
-            "endHour" :   "16",
-            "startHour" : "14:30"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l44298",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l44298",
-            "endHour" :   "20",
-            "startHour" : "17"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l43600",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l43600",
-            "endHour" :   "16:30",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l36171",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l36171",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "F",
-            "label" :     "l38777",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l38777",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l97383",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l97383",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l91922",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l91922",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l39090",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l39090",
-            "endHour" :   "17",
-            "startHour" : "14"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l30614",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l30614",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l19179",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l19179",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l82209",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l82209",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l38058",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l38058",
-            "startHour" : "14"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l94552",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l94552",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l322",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l322",
-            "endHour" :   "15",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "R",
-            "label" :     "l10594",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l10594",
-            "endHour" :   "17",
-            "startHour" : "15"
-        },
-        {
-            "day" :       "M",
-            "label" :     "l94278",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l94278",
-            "endHour" :   "11",
-            "startHour" : "9"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l6716",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l6716",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l82381",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l82381",
-            "endHour" :   "12:30",
-            "startHour" : "11"
-        },
-        {
-            "day" :       "W",
-            "label" :     "l51265",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l51265",
-            "endHour" :   "14:30",
-            "startHour" : "13"
-        },
-        {
-            "day" :       "T",
-            "label" :     "l55242",
-            "type" :      "Lecture",
-            "uri" :       "http://127.0.0.1/l55242",
-            "endHour" :   "11",
-            "startHour" : "9:30"
-        }
-    ]
+	"items" :      [
+		{
+			"room" :    "34-304",
+			"id" :      "L-s6.637-T14-00-34-304",
+			"start" :   "14:00",
+			"uri" :     "http://127.0.0.1/L-s6.637-T14%3A00-34-304",
+			"end" :     "15:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.637-T14:00-34-304",
+			"section" : "s6.637"
+		},
+		{
+			"day" :   "T",
+			"label" : "L-6.070J-T15:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.070J-T15%3A00",
+			"id" :    "L-6.070J-T15-00",
+			"start" : "15:00"
+		},
+		{
+			"room" :    "36-372",
+			"id" :      "L-s6.631-M15-00-36-372",
+			"start" :   "15:00",
+			"uri" :     "http://127.0.0.1/L-s6.631-M15%3A00-36-372",
+			"end" :     "16:30",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.631-M15:00-36-372",
+			"section" : "s6.631"
+		},
+		{
+			"room" :    "3-270",
+			"id" :      "L-6.930-W9-30",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-6.930-W9%3A30",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-6.930-W9:30",
+			"section" : "s6.930"
+		},
+		{
+			"room" :    "32-155",
+			"id" :      "L-s6.824-R11-00-32-155",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.824-R11%3A00-32-155",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.824-R11:00-32-155",
+			"section" : "s6.824"
+		},
+		{
+			"end" :   "14:30",
+			"day" :   "T",
+			"label" : "L-6.864-T13:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.864-T13%3A00",
+			"id" :    "L-6.864-T13-00",
+			"start" : "13:00"
+		},
+		{
+			"room" :    "34-304",
+			"id" :      "L-s6.763-R9-30-34-304",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-s6.763-R9%3A30-34-304",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.763-R9:30-34-304",
+			"section" : "s6.763"
+		},
+		{
+			"room" :    "34-302",
+			"id" :      "L-6.877J-M14-00",
+			"start" :   "14:00",
+			"uri" :     "http://127.0.0.1/L-6.877J-M14%3A00",
+			"end" :     "17:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-6.877J-M14:00",
+			"section" : "s6.877J"
+		},
+		{
+			"room" :    "26-142",
+			"id" :      "L-s6.376-W14-30-26-142",
+			"start" :   "14:30",
+			"uri" :     "http://127.0.0.1/L-s6.376-W14%3A30-26-142",
+			"end" :     "16:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.376-W14:30-26-142",
+			"section" : "s6.376a"
+		},
+		{
+			"room" :    "32-141",
+			"id" :      "L-s6.561J-W13-00-32-141",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.561J-W13%3A00-32-141",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.561J-W13:00-32-141",
+			"section" : "s6.561Ja"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "W",
+			"label" : "L-6.854J-W14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.854J-W14%3A30",
+			"id" :    "L-6.854J-W14-30",
+			"start" : "14:30"
+		},
+		{
+			"room" :    "1-390",
+			"id" :      "L-s6.336Ja-R9-30-1-390",
+			"start" :   "9:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.336Ja-R9%3A30-1-390",
+			"end" :     "11:00:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.336Ja-R9:30-1-390",
+			"section" : "s6.336Ja"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-6.163-W12:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.163-W12%3A00",
+			"section" : "s6.163",
+			"room" :    "1-150",
+			"id" :      "L-6.163-W12-00",
+			"start" :   "12:00"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-s6.034-M11:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.034-M11%3A00-32-123",
+			"section" : "s6.034",
+			"room" :    "32-123",
+			"id" :      "L-s6.034-M11-00-32-123",
+			"start" :   "11:00"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-s6.001a-T10:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.001a-T10%3A00-32-123",
+			"section" : "s6.001a",
+			"room" :    "32-123",
+			"id" :      "L-s6.001a-T10-00-32-123",
+			"start" :   "10:00"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-s6.042J-W13:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.042J-W13%3A00-32-123",
+			"section" : "s6.042J",
+			"room" :    "32-123",
+			"id" :      "L-s6.042J-W13-00-32-123",
+			"start" :   "13:00"
+		},
+		{
+			"day" :     "F",
+			"label" :   "L-s6.042J-F13:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.042J-F13%3A00-32-123",
+			"section" : "s6.042J",
+			"room" :    "32-123",
+			"id" :      "L-s6.042J-F13-00-32-123",
+			"start" :   "13:00"
+		},
+		{
+			"room" :    "37-212",
+			"id" :      "L-6.891-6.899-M13-00",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-6.891-6.899-M13%3A00",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-6.891-6.899-M13:00",
+			"section" : "s6.895"
+		},
+		{
+			"room" :    "24-121",
+			"id" :      "L-6.891-6.899-T13-00",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-6.891-6.899-T13%3A00",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-6.891-6.899-T13:00",
+			"section" : "s6.897"
+		},
+		{
+			"room" :    "4-149",
+			"id" :      "L-6.231-R13-00",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-6.231-R13%3A00",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-6.231-R13:00",
+			"section" : "s6.231"
+		},
+		{
+			"room" :    "4-270",
+			"id" :      "L-s6.046J-M9-30-4-270",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-s6.046J-M9%3A30-4-270",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.046J-M9:30-4-270",
+			"section" : "s6.046J"
+		},
+		{
+			"room" :    "36-153",
+			"id" :      "L-6.971\u00E2\u0080\u00936.979-M11-00",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-6.971%C3%A2%C2%80%C2%936.979-M11%3A00",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-6.971\u00E2\u0080\u00936.979-M11:00",
+			"section" : "s6.973"
+		},
+		{
+			"room" :    "34-101",
+			"id" :      "L-s6.431-M12-00-34-101",
+			"start" :   "12:00",
+			"uri" :     "http://127.0.0.1/L-s6.431-M12%3A00-34-101",
+			"end" :     "13:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.431-M12:00-34-101",
+			"section" : "s6.431a"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "T",
+			"label" : "L-6.837-T14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.837-T14%3A30",
+			"id" :    "L-6.837-T14-30",
+			"start" : "14:30"
+		},
+		{
+			"room" :    "2-105",
+			"id" :      "L-6.878-R11-00",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-6.878-R11%3A00",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-6.878-R11:00",
+			"section" : "s6.878"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-s6.00-R11:00-32-141",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.00-R11%3A00-32-141",
+			"section" : "s6.00",
+			"room" :    "32-141",
+			"id" :      "L-s6.00-R11-00-32-141",
+			"start" :   "11:00"
+		},
+		{
+			"room" :    "34-101",
+			"id" :      "L-s6.431-W12-00-34-101",
+			"start" :   "12:00",
+			"uri" :     "http://127.0.0.1/L-s6.431-W12%3A00-34-101",
+			"end" :     "13:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.431-W12:00-34-101",
+			"section" : "s6.431a"
+		},
+		{
+			"day" :     "F",
+			"label" :   "L-s6.034-F11:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.034-F11%3A00-32-123",
+			"section" : "s6.034",
+			"room" :    "32-123",
+			"id" :      "L-s6.034-F11-00-32-123",
+			"start" :   "11:00"
+		},
+		{
+			"room" :    "1-390",
+			"id" :      "L-s6.336Ja-T9-30-1-390",
+			"start" :   "9:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.336Ja-T9%3A30-1-390",
+			"end" :     "11:00:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.336Ja-T9:30-1-390",
+			"section" : "s6.336Ja"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-s6.034-W11:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.034-W11%3A00-32-123",
+			"section" : "s6.034",
+			"room" :    "32-123",
+			"id" :      "L-s6.034-W11-00-32-123",
+			"start" :   "11:00"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-s6.035-M11:00-32-124",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.035-M11%3A00-32-124",
+			"section" : "s6.035",
+			"room" :    "32-124",
+			"id" :      "L-s6.035-M11-00-32-124",
+			"start" :   "11:00"
+		},
+		{
+			"room" :    "24-121",
+			"id" :      "L-6.891-6.899-R13-00",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-6.891-6.899-R13%3A00",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-6.891-6.899-R13:00",
+			"section" : "s6.897"
+		},
+		{
+			"room" :    "34-304",
+			"id" :      "L-s6.301a-R13-00-34-304",
+			"start" :   "13:00:00",
+			"uri" :     "http://127.0.0.1/L-s6.301a-R13%3A00-34-304",
+			"end" :     "14:00:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.301a-R13:00-34-304",
+			"section" : "s6.301a"
+		},
+		{
+			"end" :   "12:30",
+			"day" :   "T",
+			"label" : "L-6.331-T11:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.331-T11%3A00",
+			"id" :    "L-6.331-T11-00",
+			"start" : "11:00"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-s6.003-T12:00-34-101",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.003-T12%3A00-34-101",
+			"section" : "s6.003",
+			"room" :    "34-101",
+			"id" :      "L-s6.003-T12-00-34-101",
+			"start" :   "12:00"
+		},
+		{
+			"end" :   "12:30",
+			"day" :   "R",
+			"label" : "L-6.341-R11:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.341-R11%3A00",
+			"id" :    "L-6.341-R11-00",
+			"start" : "11:00"
+		},
+		{
+			"end" :   "12:30",
+			"day" :   "R",
+			"label" : "L-6.331-R11:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.331-R11%3A00",
+			"id" :    "L-6.331-R11-00",
+			"start" : "11:00"
+		},
+		{
+			"end" :   "14:30",
+			"day" :   "W",
+			"label" : "L-6.867-W13:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.867-W13%3A00",
+			"id" :    "L-6.867-W13-00",
+			"start" : "13:00"
+		},
+		{
+			"room" :    "32-124",
+			"id" :      "L-6.152J-W14-30",
+			"start" :   "14:30",
+			"uri" :     "http://127.0.0.1/L-6.152J-W14%3A30",
+			"end" :     "16:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-6.152J-W14:30",
+			"section" : "s6.152J"
+		},
+		{
+			"end" :   "11:00",
+			"day" :   "T",
+			"label" : "L-6.872J-T9:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.872J-T9%3A30",
+			"id" :    "L-6.872J-T9-30",
+			"start" : "9:30"
+		},
+		{
+			"day" :     "F",
+			"label" :   "L-6.101-F14:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.101-F14%3A00",
+			"section" : "s6.101",
+			"room" :    "34-101",
+			"id" :      "L-6.101-F14-00",
+			"start" :   "14:00"
+		},
+		{
+			"room" :    "34-304",
+			"id" :      "L-s6.331a-T11-00-34-304",
+			"start" :   "11:00:00",
+			"uri" :     "http://127.0.0.1/L-s6.331a-T11%3A00-34-304",
+			"end" :     "12:30:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.331a-T11:00-34-304",
+			"section" : "s6.331a"
+		},
+		{
+			"room" :    "34-101",
+			"id" :      "L-s6.521J-M10-00-34-101",
+			"start" :   "10:00",
+			"uri" :     "http://127.0.0.1/L-s6.521J-M10%3A00-34-101",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.521J-M10:00-34-101",
+			"section" : "s6.521Ja"
+		},
+		{
+			"end" :   "14:30",
+			"day" :   "R",
+			"label" : "L-6.859J-R13:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.859J-R13%3A00",
+			"id" :    "L-6.859J-R13-00",
+			"start" : "13:00"
+		},
+		{
+			"end" :   "9:30",
+			"day" :   "W",
+			"label" : "L-6.339J-W8:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.339J-W8%3A00",
+			"id" :    "L-6.339J-W8-00",
+			"start" : "8:00"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-s6.035-T11:00-32-124",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.035-T11%3A00-32-124",
+			"section" : "s6.035",
+			"room" :    "32-124",
+			"id" :      "L-s6.035-T11-00-32-124",
+			"start" :   "11:00"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-6.UAT-M16:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.UAT-M16%3A00",
+			"section" : "s6.UAT",
+			"room" :    "32-123",
+			"id" :      "L-6.UAT-M16-00",
+			"start" :   "16:00"
+		},
+		{
+			"day" :     "F",
+			"label" :   "L-s6.021J-F10:00-34-101",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.021J-F10%3A00-34-101",
+			"section" : "s6.021J",
+			"room" :    "34-101",
+			"id" :      "L-s6.021J-F10-00-34-101",
+			"start" :   "10:00"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-s6.013-R13:00-32-141",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.013-R13%3A00-32-141",
+			"section" : "s6.013",
+			"room" :    "32-141",
+			"id" :      "L-s6.013-R13-00-32-141",
+			"start" :   "13:00"
+		},
+		{
+			"room" :    "34-101",
+			"id" :      "L-s6.521J-F10-00-34-101",
+			"start" :   "10:00",
+			"uri" :     "http://127.0.0.1/L-s6.521J-F10%3A00-34-101",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "F",
+			"label" :   "L-s6.521J-F10:00-34-101",
+			"section" : "s6.521Ja"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-s6.013-T13:00-32-141",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.013-T13%3A00-32-141",
+			"section" : "s6.013",
+			"room" :    "32-141",
+			"id" :      "L-s6.013-T13-00-32-141",
+			"start" :   "13:00"
+		},
+		{
+			"room" :    "4-231",
+			"id" :      "L-6.241-W11-00",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-6.241-W11%3A00",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-6.241-W11:00",
+			"section" : "s6.241"
+		},
+		{
+			"room" :    "2-139",
+			"id" :      "L-6.881-6.885-M11-00",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-6.881-6.885-M11%3A00",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-6.881-6.885-M11:00",
+			"section" : "s6.885"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-s6.002-T11:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.002-T11%3A00-32-123",
+			"section" : "s6.002",
+			"room" :    "32-123",
+			"id" :      "L-s6.002-T11-00-32-123",
+			"start" :   "11:00"
+		},
+		{
+			"room" :    "34-301",
+			"id" :      "L-s6.253a-W14-30-34-301",
+			"start" :   "14:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.253a-W14%3A30-34-301",
+			"end" :     "16:00:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.253a-W14:30-34-301",
+			"section" : "s6.253a"
+		},
+		{
+			"room" :    "32-124",
+			"id" :      "L-s6.438-W9-30-32-124",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-s6.438-W9%3A30-32-124",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.438-W9:30-32-124",
+			"section" : "s6.438a"
+		},
+		{
+			"room" :    "2-139",
+			"id" :      "L-6.881-6.885-W11-00",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-6.881-6.885-W11%3A00",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-6.881-6.885-W11:00",
+			"section" : "s6.885"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-6.170-M14:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.170-M14%3A00",
+			"section" : "s6.170",
+			"room" :    "32-123",
+			"id" :      "L-6.170-M14-00",
+			"start" :   "14:00"
+		},
+		{
+			"room" :    "26-142",
+			"id" :      "L-s6.376-F14-30-26-142",
+			"start" :   "14:30",
+			"uri" :     "http://127.0.0.1/L-s6.376-F14%3A30-26-142",
+			"end" :     "16:00",
+			"type" :    "Lecture",
+			"day" :     "F",
+			"label" :   "L-s6.376-F14:30-26-142",
+			"section" : "s6.376a"
+		},
+		{
+			"room" :    "36-156",
+			"id" :      "L-s6.551J-T13-00-36-156",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.551J-T13%3A00-36-156",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.551J-T13:00-36-156",
+			"section" : "s6.551Ja"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-s6.041-M12:00-34-101",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.041-M12%3A00-34-101",
+			"section" : "s6.041",
+			"room" :    "34-101",
+			"id" :      "L-s6.041-M12-00-34-101",
+			"start" :   "12:00"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "M",
+			"label" : "L-6.854J-M14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.854J-M14%3A30",
+			"id" :    "L-6.854J-M14-30",
+			"start" : "14:30"
+		},
+		{
+			"room" :    "37-212",
+			"id" :      "L-6.901-M19-00",
+			"start" :   "19:00",
+			"uri" :     "http://127.0.0.1/L-6.901-M19%3A00",
+			"end" :     "10:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-6.901-M19:00",
+			"section" : "s6.901"
+		},
+		{
+			"room" :    "4-149",
+			"id" :      "L-6.231-T13-00",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-6.231-T13%3A00",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-6.231-T13:00",
+			"section" : "s6.231"
+		},
+		{
+			"room" :    "4-231",
+			"id" :      "L-6.241-M11-00",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-6.241-M11%3A00",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-6.241-M11:00",
+			"section" : "s6.241"
+		},
+		{
+			"room" :    "32-144",
+			"id" :      "L-s6.341a-T11-00-32-144",
+			"start" :   "11:00:00",
+			"uri" :     "http://127.0.0.1/L-s6.341a-T11%3A00-32-144",
+			"end" :     "12:30:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.341a-T11:00-32-144",
+			"section" : "s6.341a"
+		},
+		{
+			"end" :   "11:00",
+			"day" :   "M",
+			"label" : "L-6.337J-M9:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.337J-M9%3A30",
+			"id" :    "L-6.337J-M9-30",
+			"start" : "9:30"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-s6.003-R12:00-34-101",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.003-R12%3A00-34-101",
+			"section" : "s6.003",
+			"room" :    "34-101",
+			"id" :      "L-s6.003-R12-00-34-101",
+			"start" :   "12:00"
+		},
+		{
+			"room" :    "37-212",
+			"id" :      "L-6.891-6.899-W13-00",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-6.891-6.899-W13%3A00",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-6.891-6.899-W13:00",
+			"section" : "s6.895"
+		},
+		{
+			"room" :    "36-372",
+			"id" :      "L-s6.556J-T11-00-36-372",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.556J-T11%3A00-36-372",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.556J-T11:00-36-372",
+			"section" : "s6.556Ja"
+		},
+		{
+			"room" :    "36-156",
+			"id" :      "L-s6.685-M13-00-36-156",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.685-M13%3A00-36-156",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.685-M13:00-36-156",
+			"section" : "s6.685"
+		},
+		{
+			"room" :    "1-390",
+			"id" :      "L-s6.339Ja-M8-00-1-390",
+			"start" :   "8:00:00",
+			"uri" :     "http://127.0.0.1/L-s6.339Ja-M8%3A00-1-390",
+			"end" :     "9:30:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.339Ja-M8:00-1-390",
+			"section" : "s6.339Ja"
+		},
+		{
+			"end" :   "12:30",
+			"day" :   "T",
+			"label" : "L-6.840J-T11:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.840J-T11%3A00",
+			"id" :    "L-6.840J-T11-00",
+			"start" : "11:00"
+		},
+		{
+			"room" :    "32-155",
+			"id" :      "L-s6.824-T11-00-32-155",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.824-T11%3A00-32-155",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.824-T11:00-32-155",
+			"section" : "s6.824"
+		},
+		{
+			"room" :    "4-270",
+			"id" :      "L-s6.251Ja-R10-00-4-270",
+			"start" :   "10:00:00",
+			"uri" :     "http://127.0.0.1/L-s6.251Ja-R10%3A00-4-270",
+			"end" :     "11:30:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.251Ja-R10:00-4-270",
+			"section" : "s6.251Ja"
+		},
+		{
+			"room" :    "NW16-213",
+			"id" :      "L-s6.651J-T11-00-NW16-213",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.651J-T11%3A00-NW16-213",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.651J-T11:00-NW16-213",
+			"section" : "s6.651J"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "W",
+			"label" : "L-6.243J-W14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.243J-W14%3A30",
+			"id" :    "L-6.243J-W14-30",
+			"start" : "14:30"
+		},
+		{
+			"end" :   "12:30",
+			"day" :   "T",
+			"label" : "L-6.374-T11:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.374-T11%3A00",
+			"id" :    "L-6.374-T11-00",
+			"start" : "11:00"
+		},
+		{
+			"room" :    "36-156",
+			"id" :      "L-s6.552J-R10-30-36-156",
+			"start" :   "10:30",
+			"uri" :     "http://127.0.0.1/L-s6.552J-R10%3A30-36-156",
+			"end" :     "12:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.552J-R10:30-36-156",
+			"section" : "s6.552Ja"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-6.170-T14:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.170-T14%3A00",
+			"section" : "s6.170",
+			"room" :    "32-123",
+			"id" :      "L-6.170-T14-00",
+			"start" :   "14:00"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "T",
+			"label" : "L-6.866-T14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.866-T14%3A30",
+			"id" :    "L-6.866-T14-30",
+			"start" : "14:30"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-6.891-6.899-W15:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.891-6.899-W15%3A00",
+			"section" : "s6.898",
+			"room" :    "36-153",
+			"id" :      "L-6.891-6.899-W15-00",
+			"start" :   "15:00"
+		},
+		{
+			"end" :   "11:00",
+			"day" :   "W",
+			"label" : "L-6.873J-W9:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.873J-W9%3A30",
+			"id" :    "L-6.873J-W9-30",
+			"start" : "9:30"
+		},
+		{
+			"room" :    "3-270",
+			"id" :      "L-s6.255Ja-T14-30-3-270",
+			"start" :   "14:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.255Ja-T14%3A30-3-270",
+			"end" :     "16:00:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.255Ja-T14:30-3-270",
+			"section" : "s6.255Ja"
+		},
+		{
+			"room" :    "36-372",
+			"id" :      "L-s6.556J-R11-00-36-372",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.556J-R11%3A00-36-372",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.556J-R11:00-36-372",
+			"section" : "s6.556Ja"
+		},
+		{
+			"day" :   "R",
+			"label" : "L-6.301-R13:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.301-R13%3A00",
+			"id" :    "L-6.301-R13-00",
+			"start" : "13:00"
+		},
+		{
+			"room" :    "26-328",
+			"id" :      "L-s6.728-W11-00-26-328",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.728-W11%3A00-26-328",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.728-W11:00-26-328",
+			"section" : "s6.728"
+		},
+		{
+			"room" :    "34-304",
+			"id" :      "L-s6.301a-T13-00-34-304",
+			"start" :   "13:00:00",
+			"uri" :     "http://127.0.0.1/L-s6.301a-T13%3A00-34-304",
+			"end" :     "14:00:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.301a-T13:00-34-304",
+			"section" : "s6.301a"
+		},
+		{
+			"end" :   "9:30",
+			"day" :   "M",
+			"label" : "L-6.339J-M8:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.339J-M8%3A00",
+			"id" :    "L-6.339J-M8-00",
+			"start" : "8:00"
+		},
+		{
+			"room" :    "10-250",
+			"id" :      "L-s6.01-T10-00-10-250",
+			"start" :   "10:00",
+			"uri" :     "http://127.0.0.1/L-s6.01-T10%3A00-10-250",
+			"end" :     "11:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.01-T10:00-10-250",
+			"section" : "s6.01"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "T",
+			"label" : "L-6.255J-T14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.255J-T14%3A30",
+			"id" :    "L-6.255J-T14-30",
+			"start" : "14:30"
+		},
+		{
+			"room" :    "36-156",
+			"id" :      "L-s6.436J-W14-30-36-156",
+			"start" :   "14:30",
+			"uri" :     "http://127.0.0.1/L-s6.436J-W14%3A30-36-156",
+			"end" :     "16:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.436J-W14:30-36-156",
+			"section" : "s6.436a"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-s6.011-W11:00-32-155",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.011-W11%3A00-32-155",
+			"section" : "s6.011",
+			"room" :    "32-155",
+			"id" :      "L-s6.011-W11-00-32-155",
+			"start" :   "11:00"
+		},
+		{
+			"room" :    "2-105",
+			"id" :      "L-6.878-T11-00",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-6.878-T11%3A00",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-6.878-T11:00",
+			"section" : "s6.878"
+		},
+		{
+			"day" :     "F",
+			"label" :   "L-6.111-F13:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.111-F13%3A00",
+			"section" : "s6.111",
+			"room" :    "34-101",
+			"id" :      "L-6.111-F13-00",
+			"start" :   "13:00"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-s6.02-M14:00-32-155",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.02-M14%3A00-32-155",
+			"section" : "s6.02",
+			"room" :    "32-155",
+			"id" :      "L-s6.02-M14-00-32-155",
+			"start" :   "14:00"
+		},
+		{
+			"room" :    "1-273",
+			"id" :      "L-s6.281Ja-F10-30-1-273",
+			"start" :   "10:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.281Ja-F10%3A30-1-273",
+			"end" :     "12:00:00",
+			"type" :    "Lecture",
+			"day" :     "F",
+			"label" :   "L-s6.281Ja-F10:30-1-273",
+			"section" : "s6.281Ja"
+		},
+		{
+			"room" :    "37-212",
+			"id" :      "L-s6.630-T15-00-37-212",
+			"start" :   "15:00",
+			"uri" :     "http://127.0.0.1/L-s6.630-T15%3A00-37-212",
+			"end" :     "17:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.630-T15:00-37-212",
+			"section" : "s6.630"
+		},
+		{
+			"room" :    "32-124",
+			"id" :      "L-s6.823-M13-00-32-124",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.823-M13%3A00-32-124",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.823-M13:00-32-124",
+			"section" : "s6.823"
+		},
+		{
+			"room" :    "1-390",
+			"id" :      "L-s6.337Ja-W9-30-1-390",
+			"start" :   "9:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.337Ja-W9%3A30-1-390",
+			"end" :     "11:00:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.337Ja-W9:30-1-390",
+			"section" : "s6.337Ja"
+		},
+		{
+			"room" :    "36-156",
+			"id" :      "L-s6.436J-M14-30-36-156",
+			"start" :   "14:30",
+			"uri" :     "http://127.0.0.1/L-s6.436J-M14%3A30-36-156",
+			"end" :     "16:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.436J-M14:30-36-156",
+			"section" : "s6.436a"
+		},
+		{
+			"room" :    "36-156",
+			"id" :      "L-s6.551J-R13-00-36-156",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.551J-R13%3A00-36-156",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.551J-R13:00-36-156",
+			"section" : "s6.551Ja"
+		},
+		{
+			"room" :    "32-144",
+			"id" :      "L-s6.828-M12-30-32-144",
+			"start" :   "12:30",
+			"uri" :     "http://127.0.0.1/L-s6.828-M12%3A30-32-144",
+			"end" :     "14:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.828-M12:30-32-144",
+			"section" : "s6.828"
+		},
+		{
+			"room" :    "34-304",
+			"id" :      "L-6.161-R14-00",
+			"start" :   "14:00",
+			"uri" :     "http://127.0.0.1/L-6.161-R14%3A00",
+			"end" :     "15:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-6.161-R14:00",
+			"section" : "s6.161"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-s6.002-R11:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.002-R11%3A00-32-123",
+			"section" : "s6.002",
+			"room" :    "32-123",
+			"id" :      "L-s6.002-R11-00-32-123",
+			"start" :   "11:00"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-s6.006-R11:00-1-190",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.006-R11%3A00-1-190",
+			"section" : "s6.006",
+			"room" :    "1-190",
+			"id" :      "L-s6.006-R11-00-1-190",
+			"start" :   "11:00"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-s6.035-W11:00-32-124",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.035-W11%3A00-32-124",
+			"section" : "s6.035",
+			"room" :    "32-124",
+			"id" :      "L-s6.035-W11-00-32-124",
+			"start" :   "11:00"
+		},
+		{
+			"room" :    "4-149",
+			"id" :      "L-s6.801-T14-30-4-149",
+			"start" :   "14:30",
+			"uri" :     "http://127.0.0.1/L-s6.801-T14%3A30-4-149",
+			"end" :     "16:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.801-T14:30-4-149",
+			"section" : "s6.801"
+		},
+		{
+			"end" :   "11:00",
+			"day" :   "R",
+			"label" : "L-6.336J-R9:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.336J-R9%3A30",
+			"id" :    "L-6.336J-R9-30",
+			"start" : "9:30"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "F",
+			"label" : "L-6.243J-F14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.243J-F14%3A30",
+			"id" :    "L-6.243J-F14-30",
+			"start" : "14:30"
+		},
+		{
+			"room" :    "36-156",
+			"id" :      "L-s6.552J-T10-30-36-156",
+			"start" :   "10:30",
+			"uri" :     "http://127.0.0.1/L-s6.552J-T10%3A30-36-156",
+			"end" :     "12:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.552J-T10:30-36-156",
+			"section" : "s6.552Ja"
+		},
+		{
+			"room" :    "2-105",
+			"id" :      "L-s6.047-R11-00-2-105",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.047-R11%3A00-2-105",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.047-R11:00-2-105",
+			"section" : "s6.047"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "R",
+			"label" : "L-6.866-R14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.866-R14%3A30",
+			"id" :    "L-6.866-R14-30",
+			"start" : "14:30"
+		},
+		{
+			"end" :   "12:30",
+			"day" :   "M",
+			"label" : "L-6.080-6.089-M11:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.080-6.089-M11%3A00",
+			"id" :    "L-6.080-6.089-M11-00",
+			"start" : "11:00"
+		},
+		{
+			"room" :    "34-301",
+			"id" :      "L-s6.253a-M14-30-34-301",
+			"start" :   "14:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.253a-M14%3A30-34-301",
+			"end" :     "16:00:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.253a-M14:30-34-301",
+			"section" : "s6.253a"
+		},
+		{
+			"end" :   "11:00",
+			"day" :   "M",
+			"label" : "L-6.873J-M9:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.873J-M9%3A30",
+			"id" :    "L-6.873J-M9-30",
+			"start" : "9:30"
+		},
+		{
+			"day" :   "T",
+			"label" : "L-6.301-T13:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.301-T13%3A00",
+			"id" :    "L-6.301-T13-00",
+			"start" : "13:00"
+		},
+		{
+			"end" :   "11:00",
+			"day" :   "T",
+			"label" : "L-6.336J-T9:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.336J-T9%3A30",
+			"id" :    "L-6.336J-T9-30",
+			"start" : "9:30"
+		},
+		{
+			"room" :    "8-205",
+			"id" :      "L-s6.774-R9-30-8-205",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-s6.774-R9%3A30-8-205",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.774-R9:30-8-205",
+			"section" : "s6.774"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-s6.007-R14:00-4-270",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.007-R14%3A00-4-270",
+			"section" : "s6.007",
+			"room" :    "4-270",
+			"id" :      "L-s6.007-R14-00-4-270",
+			"start" :   "14:00"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-s6.021J-W10:00-34-101",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.021J-W10%3A00-34-101",
+			"section" : "s6.021J",
+			"room" :    "34-101",
+			"id" :      "L-s6.021J-W10-00-34-101",
+			"start" :   "10:00"
+		},
+		{
+			"room" :    "32-124",
+			"id" :      "L-s6.821-R13-00-32-124",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.821-R13%3A00-32-124",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.821-R13:00-32-124",
+			"section" : "s6.821"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-s6.007-T14:00-4-270",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.007-T14%3A00-4-270",
+			"section" : "s6.007",
+			"room" :    "4-270",
+			"id" :      "L-s6.007-T14-00-4-270",
+			"start" :   "14:00"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-6.111-M13:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.111-M13%3A00",
+			"section" : "s6.111",
+			"room" :    "34-101",
+			"id" :      "L-6.111-M13-00",
+			"start" :   "13:00"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-6.170-W14:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.170-W14%3A00",
+			"section" : "s6.170",
+			"room" :    "32-123",
+			"id" :      "L-6.170-W14-00",
+			"start" :   "14:00"
+		},
+		{
+			"end" :   "12:30",
+			"day" :   "W",
+			"label" : "L-6.080-6.089-W11:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.080-6.089-W11%3A00",
+			"id" :    "L-6.080-6.089-W11-00",
+			"start" : "11:00"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-s6.001a-R10:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.001a-R10%3A00-32-123",
+			"section" : "s6.001a",
+			"room" :    "32-123",
+			"id" :      "L-s6.001a-R10-00-32-123",
+			"start" :   "10:00"
+		},
+		{
+			"room" :    "46-3310",
+			"id" :      "L-s6.804J-R15-30-46-3310",
+			"start" :   "15:30",
+			"uri" :     "http://127.0.0.1/L-s6.804J-R15%3A30-46-3310",
+			"end" :     "17:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.804J-R15:30-46-3310",
+			"section" : "s6.804J"
+		},
+		{
+			"room" :    "34-303",
+			"id" :      "L-s6.830-T13-00-34-303",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.830-T13%3A00-34-303",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.830-T13:00-34-303",
+			"section" : "s6.830"
+		},
+		{
+			"room" :    "4-149",
+			"id" :      "L-s6.801-R14-30-4-149",
+			"start" :   "14:30",
+			"uri" :     "http://127.0.0.1/L-s6.801-R14%3A30-4-149",
+			"end" :     "16:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.801-R14:30-4-149",
+			"section" : "s6.801"
+		},
+		{
+			"room" :    "34-101",
+			"id" :      "L-s6.521J-W10-00-34-101",
+			"start" :   "10:00",
+			"uri" :     "http://127.0.0.1/L-s6.521J-W10%3A00-34-101",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.521J-W10:00-34-101",
+			"section" : "s6.521Ja"
+		},
+		{
+			"end" :   "14:30",
+			"day" :   "R",
+			"label" : "L-6.864-R13:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.864-R13%3A00",
+			"id" :    "L-6.864-R13-00",
+			"start" : "13:00"
+		},
+		{
+			"room" :    "32-124",
+			"id" :      "L-s6.821-T13-00-32-124",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.821-T13%3A00-32-124",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.821-T13:00-32-124",
+			"section" : "s6.821"
+		},
+		{
+			"room" :    "26-328",
+			"id" :      "L-s6.728-F11-00-26-328",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.728-F11%3A00-26-328",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "F",
+			"label" :   "L-s6.728-F11:00-26-328",
+			"section" : "s6.728"
+		},
+		{
+			"end" :   "12:30",
+			"day" :   "T",
+			"label" : "L-6.341-T11:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.341-T11%3A00",
+			"id" :    "L-6.341-T11-00",
+			"start" : "11:00"
+		},
+		{
+			"day" :     "F",
+			"label" :   "L-s6.02-F14:00-32-155",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.02-F14%3A00-32-155",
+			"section" : "s6.02",
+			"room" :    "32-155",
+			"id" :      "L-s6.02-F14-00-32-155",
+			"start" :   "14:00"
+		},
+		{
+			"room" :    "NW16-213",
+			"id" :      "L-s6.651J-R11-00-NW16-213",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.651J-R11%3A00-NW16-213",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.651J-R11:00-NW16-213",
+			"section" : "s6.651J"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "F",
+			"label" : "L-6.854J-F14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.854J-F14%3A30",
+			"id" :    "L-6.854J-F14-30",
+			"start" : "14:30"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-s6.021J-M10:00-34-101",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.021J-M10%3A00-34-101",
+			"section" : "s6.021J",
+			"room" :    "34-101",
+			"id" :      "L-s6.021J-M10-00-34-101",
+			"start" :   "10:00"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-6.101-M14:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.101-M14%3A00",
+			"section" : "s6.101",
+			"room" :    "34-101",
+			"id" :      "L-6.101-M14-00",
+			"start" :   "14:00"
+		},
+		{
+			"end" :   "12:30",
+			"day" :   "R",
+			"label" : "L-6.840J-R11:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.840J-R11%3A00",
+			"id" :    "L-6.840J-R11-00",
+			"start" : "11:00"
+		},
+		{
+			"room" :    "26-310",
+			"id" :      "L-s6.454-W13-00-26-310",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.454-W13%3A00-26-310",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.454-W13:00-26-310",
+			"section" : "s6.454a"
+		},
+		{
+			"room" :    "8-205",
+			"id" :      "L-s6.774-T9-30-8-205",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-s6.774-T9%3A30-8-205",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.774-T9:30-8-205",
+			"section" : "s6.774"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-s6.012-T11:00-34-101",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.012-T11%3A00-34-101",
+			"section" : "s6.012",
+			"room" :    "34-101",
+			"id" :      "L-s6.012-T11-00-34-101",
+			"start" :   "11:00"
+		},
+		{
+			"room" :    "36-156",
+			"id" :      "L-s6.729-T14-30-36-156",
+			"start" :   "14:30",
+			"uri" :     "http://127.0.0.1/L-s6.729-T14%3A30-36-156",
+			"end" :     "16:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.729-T14:30-36-156",
+			"section" : "s6.729"
+		},
+		{
+			"room" :    "26-310",
+			"id" :      "L-s6.243Ja-W14-30-26-310",
+			"start" :   "14:30",
+			"uri" :     "http://127.0.0.1/L-s6.243Ja-W14%3A30-26-310",
+			"end" :     "16:00:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.243Ja-W14:30-26-310",
+			"section" : "s6.243Ja"
+		},
+		{
+			"room" :    "4-270",
+			"id" :      "L-s6.251Ja-T10-00-4-270",
+			"start" :   "10:00:00",
+			"uri" :     "http://127.0.0.1/L-s6.251Ja-T10%3A00-4-270",
+			"end" :     "11:30:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.251Ja-T10:00-4-270",
+			"section" : "s6.251Ja"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-6.131-R13:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.131-R13%3A00",
+			"section" : "s6.131",
+			"room" :    "34-101",
+			"id" :      "L-6.131-R13-00",
+			"start" :   "13:00"
+		},
+		{
+			"end" :   "14:30",
+			"day" :   "M",
+			"label" : "L-6.867-M13:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.867-M13%3A00",
+			"id" :    "L-6.867-M13-00",
+			"start" : "13:00"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-s6.012-R11:00-34-101",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.012-R11%3A00-34-101",
+			"section" : "s6.012",
+			"room" :    "34-101",
+			"id" :      "L-s6.012-R11-00-34-101",
+			"start" :   "11:00"
+		},
+		{
+			"room" :    "32-144",
+			"id" :      "L-s6.341a-R11-00-32-144",
+			"start" :   "11:00:00",
+			"uri" :     "http://127.0.0.1/L-s6.341a-R11%3A00-32-144",
+			"end" :     "12:30:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.341a-R11:00-32-144",
+			"section" : "s6.341a"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-6.182-T14:30",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.182-T14%3A30",
+			"section" : "s6.182",
+			"id" :      "L-6.182-T14-30",
+			"start" :   "14:30"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-s6.042J-M13:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.042J-M13%3A00-32-123",
+			"section" : "s6.042J",
+			"room" :    "32-123",
+			"id" :      "L-s6.042J-M13-00-32-123",
+			"start" :   "13:00"
+		},
+		{
+			"end" :   "11:00",
+			"day" :   "W",
+			"label" : "L-6.337J-W9:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.337J-W9%3A30",
+			"id" :    "L-6.337J-W9-30",
+			"start" : "9:30"
+		},
+		{
+			"room" :    "32-141",
+			"id" :      "L-s6.005-M11-00-32-141",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.005-M11%3A00-32-141",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.005-M11:00-32-141",
+			"section" : "s6.005"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-6.101-W14:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.101-W14%3A00",
+			"section" : "s6.101",
+			"room" :    "34-101",
+			"id" :      "L-6.101-W14-00",
+			"start" :   "14:00"
+		},
+		{
+			"room" :    "1-273",
+			"id" :      "L-s6.281Ja-M10-30-1-273",
+			"start" :   "10:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.281Ja-M10%3A30-1-273",
+			"end" :     "12:00:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.281Ja-M10:30-1-273",
+			"section" : "s6.281Ja"
+		},
+		{
+			"end" :   "12:00",
+			"day" :   "M",
+			"label" : "L-6.281J-M10:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.281J-M10%3A30",
+			"id" :    "L-6.281J-M10-30",
+			"start" : "10:30"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-6.170-R14:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.170-R14%3A00",
+			"section" : "s6.170",
+			"room" :    "32-123",
+			"id" :      "L-6.170-R14-00",
+			"start" :   "14:00"
+		},
+		{
+			"room" :    "34-304",
+			"id" :      "L-s6.637-R14-00-34-304",
+			"start" :   "14:00",
+			"uri" :     "http://127.0.0.1/L-s6.637-R14%3A00-34-304",
+			"end" :     "15:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.637-R14:00-34-304",
+			"section" : "s6.637"
+		},
+		{
+			"end" :   "11:00",
+			"day" :   "R",
+			"label" : "L-6.872J-R9:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.872J-R9%3A30",
+			"id" :    "L-6.872J-R9-30",
+			"start" : "9:30"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-6.131-T13:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.131-T13%3A00",
+			"section" : "s6.131",
+			"room" :    "34-101",
+			"id" :      "L-6.131-T13-00",
+			"start" :   "13:00"
+		},
+		{
+			"room" :    "36-156",
+			"id" :      "L-s6.685-W13-00-36-156",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.685-W13%3A00-36-156",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.685-W13:00-36-156",
+			"section" : "s6.685"
+		},
+		{
+			"end" :   "12:30",
+			"day" :   "R",
+			"label" : "L-6.374-R11:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.374-R11%3A00",
+			"id" :    "L-6.374-R11-00",
+			"start" : "11:00"
+		},
+		{
+			"room" :    "4-270",
+			"id" :      "L-s6.046J-W9-30-4-270",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-s6.046J-W9%3A30-4-270",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.046J-W9:30-4-270",
+			"section" : "s6.046J"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "R",
+			"label" : "L-6.837-R14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.837-R14%3A30",
+			"id" :    "L-6.837-R14-30",
+			"start" : "14:30"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-6.163-M12:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.163-M12%3A00",
+			"section" : "s6.163",
+			"room" :    "1-150",
+			"id" :      "L-6.163-M12-00",
+			"start" :   "12:00"
+		},
+		{
+			"room" :    "3-270",
+			"id" :      "L-6.930-M9-30",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-6.930-M9%3A30",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-6.930-M9:30",
+			"section" : "s6.930"
+		},
+		{
+			"end" :   "14:30",
+			"day" :   "T",
+			"label" : "L-6.859J-T13:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.859J-T13%3A00",
+			"id" :    "L-6.859J-T13-00",
+			"start" : "13:00"
+		},
+		{
+			"room" :    "1-390",
+			"id" :      "L-s6.337Ja-M9-30-1-390",
+			"start" :   "9:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.337Ja-M9%3A30-1-390",
+			"end" :     "11:00:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.337Ja-M9:30-1-390",
+			"section" : "s6.337Ja"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "R",
+			"label" : "L-6.255J-R14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.255J-R14%3A30",
+			"id" :    "L-6.255J-R14-30",
+			"start" : "14:30"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-s6.00-T11:00-32-141",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.00-T11%3A00-32-141",
+			"section" : "s6.00",
+			"room" :    "32-141",
+			"id" :      "L-s6.00-T11-00-32-141",
+			"start" :   "11:00"
+		},
+		{
+			"room" :    "1-273",
+			"id" :      "L-s6.281Ja-W10-30-1-273",
+			"start" :   "10:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.281Ja-W10%3A30-1-273",
+			"end" :     "12:00:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.281Ja-W10:30-1-273",
+			"section" : "s6.281Ja"
+		},
+		{
+			"room" :    "32-141",
+			"id" :      "L-s6.005-W11-00-32-141",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.005-W11%3A00-32-141",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.005-W11:00-32-141",
+			"section" : "s6.005"
+		},
+		{
+			"end" :   "12:00",
+			"day" :   "W",
+			"label" : "L-6.281J-W10:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.281J-W10%3A30",
+			"id" :    "L-6.281J-W10-30",
+			"start" : "10:30"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-s6.006-T11:00-1-190",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.006-T11%3A00-1-190",
+			"section" : "s6.006",
+			"room" :    "1-190",
+			"id" :      "L-s6.006-T11-00-1-190",
+			"start" :   "11:00"
+		},
+		{
+			"day" :     "M",
+			"label" :   "L-s6.011-M11:00-32-155",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.011-M11%3A00-32-155",
+			"section" : "s6.011",
+			"room" :    "32-155",
+			"id" :      "L-s6.011-M11-00-32-155",
+			"start" :   "11:00"
+		},
+		{
+			"room" :    "34-303",
+			"id" :      "L-s6.830-R13-00-34-303",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.830-R13%3A00-34-303",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.830-R13:00-34-303",
+			"section" : "s6.830"
+		},
+		{
+			"room" :    "37-212",
+			"id" :      "L-s6.630-R15-00-37-212",
+			"start" :   "15:00",
+			"uri" :     "http://127.0.0.1/L-s6.630-R15%3A00-37-212",
+			"end" :     "17:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.630-R15:00-37-212",
+			"section" : "s6.630"
+		},
+		{
+			"day" :     "T",
+			"label" :   "L-s6.004-T13:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.004-T13%3A00-32-123",
+			"section" : "s6.004",
+			"room" :    "32-123",
+			"id" :      "L-s6.004-T13-00-32-123",
+			"start" :   "13:00"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-6.UAT-W16:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.UAT-W16%3A00",
+			"section" : "s6.UAT",
+			"room" :    "32-123",
+			"id" :      "L-6.UAT-W16-00",
+			"start" :   "16:00"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-s6.041-W12:00-34-101",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.041-W12%3A00-34-101",
+			"section" : "s6.041",
+			"room" :    "34-101",
+			"id" :      "L-s6.041-W12-00-34-101",
+			"start" :   "12:00"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-s6.035-R11:00-32-124",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.035-R11%3A00-32-124",
+			"section" : "s6.035",
+			"room" :    "32-124",
+			"id" :      "L-s6.035-R11-00-32-124",
+			"start" :   "11:00"
+		},
+		{
+			"room" :    "3-270",
+			"id" :      "L-s6.255Ja-R14-30-3-270",
+			"start" :   "14:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.255Ja-R14%3A30-3-270",
+			"end" :     "16:00:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.255Ja-R14:30-3-270",
+			"section" : "s6.255Ja"
+		},
+		{
+			"room" :    "34-304",
+			"id" :      "L-s6.763-T9-30-34-304",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-s6.763-T9%3A30-34-304",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.763-T9:30-34-304",
+			"section" : "s6.763"
+		},
+		{
+			"room" :    "34-304",
+			"id" :      "L-6.161-T14-00",
+			"start" :   "14:00",
+			"uri" :     "http://127.0.0.1/L-6.161-T14%3A00",
+			"end" :     "15:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-6.161-T14:00",
+			"section" : "s6.161"
+		},
+		{
+			"room" :    "4-231",
+			"id" :      "L-s6.805-R14-00-4-231",
+			"start" :   "14:00",
+			"uri" :     "http://127.0.0.1/L-s6.805-R14%3A00-4-231",
+			"end" :     "17:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.805-R14:00-4-231",
+			"section" : "s6.805"
+		},
+		{
+			"room" :    "26-310",
+			"id" :      "L-s6.374a-T11-00-26-310",
+			"start" :   "11:00:00",
+			"uri" :     "http://127.0.0.1/L-s6.374a-T11%3A00-26-310",
+			"end" :     "12:30:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.374a-T11:00-26-310",
+			"section" : "s6.374a"
+		},
+		{
+			"room" :    "36-153",
+			"id" :      "L-s6.450-W9-30-36-153",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-s6.450-W9%3A30-36-153",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.450-W9:30-36-153",
+			"section" : "s6.450a"
+		},
+		{
+			"day" :     "W",
+			"label" :   "L-6.111-W13:00",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-6.111-W13%3A00",
+			"section" : "s6.111",
+			"room" :    "34-101",
+			"id" :      "L-6.111-W13-00",
+			"start" :   "13:00"
+		},
+		{
+			"room" :    "36-372",
+			"id" :      "L-s6.631-W15-00-36-372",
+			"start" :   "15:00",
+			"uri" :     "http://127.0.0.1/L-s6.631-W15%3A00-36-372",
+			"end" :     "16:30",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.631-W15:00-36-372",
+			"section" : "s6.631"
+		},
+		{
+			"room" :    "32-124",
+			"id" :      "L-6.152J-M14-30",
+			"start" :   "14:30",
+			"uri" :     "http://127.0.0.1/L-6.152J-M14%3A30",
+			"end" :     "16:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-6.152J-M14:30",
+			"section" : "s6.152J"
+		},
+		{
+			"room" :    "36-156",
+			"id" :      "L-s6.729-R14-30-36-156",
+			"start" :   "14:30",
+			"uri" :     "http://127.0.0.1/L-s6.729-R14%3A30-36-156",
+			"end" :     "16:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.729-R14:30-36-156",
+			"section" : "s6.729"
+		},
+		{
+			"day" :     "R",
+			"label" :   "L-s6.004-R13:00-32-123",
+			"type" :    "Lecture",
+			"uri" :     "http://127.0.0.1/L-s6.004-R13%3A00-32-123",
+			"section" : "s6.004",
+			"room" :    "32-123",
+			"id" :      "L-s6.004-R13-00-32-123",
+			"start" :   "13:00"
+		},
+		{
+			"room" :    "26-322",
+			"id" :      "L-s6.635-M14-00-26-322",
+			"start" :   "14:00",
+			"uri" :     "http://127.0.0.1/L-s6.635-M14%3A00-26-322",
+			"end" :     "17:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.635-M14:00-26-322",
+			"section" : "s6.635"
+		},
+		{
+			"end" :   "11:30",
+			"day" :   "T",
+			"label" : "L-6.251J-T10:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.251J-T10%3A00",
+			"id" :    "L-6.251J-T10-00",
+			"start" : "10:00"
+		},
+		{
+			"room" :    "34-304",
+			"id" :      "L-s6.331a-R11-00-34-304",
+			"start" :   "11:00:00",
+			"uri" :     "http://127.0.0.1/L-s6.331a-R11%3A00-34-304",
+			"end" :     "12:30:00",
+			"type" :    "Lecture",
+			"day" :     "R",
+			"label" :   "L-s6.331a-R11:00-34-304",
+			"section" : "s6.331a"
+		},
+		{
+			"room" :    "46-3310",
+			"id" :      "L-s6.804J-T15-30-46-3310",
+			"start" :   "15:30",
+			"uri" :     "http://127.0.0.1/L-s6.804J-T15%3A30-46-3310",
+			"end" :     "17:00",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.804J-T15:30-46-3310",
+			"section" : "s6.804J"
+		},
+		{
+			"room" :    "1-390",
+			"id" :      "L-s6.339Ja-W8-00-1-390",
+			"start" :   "8:00:00",
+			"uri" :     "http://127.0.0.1/L-s6.339Ja-W8%3A00-1-390",
+			"end" :     "9:30:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.339Ja-W8:00-1-390",
+			"section" : "s6.339Ja"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "M",
+			"label" : "L-6.253-M14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.253-M14%3A30",
+			"id" :    "L-6.253-M14-30",
+			"start" : "14:30"
+		},
+		{
+			"room" :    "32-124",
+			"id" :      "L-s6.823-W13-00-32-124",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.823-W13%3A00-32-124",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.823-W13:00-32-124",
+			"section" : "s6.823"
+		},
+		{
+			"end" :   "11:30",
+			"day" :   "R",
+			"label" : "L-6.251J-R10:00",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.251J-R10%3A00",
+			"id" :    "L-6.251J-R10-00",
+			"start" : "10:00"
+		},
+		{
+			"room" :    "32-141",
+			"id" :      "L-s6.561J-M13-00-32-141",
+			"start" :   "13:00",
+			"uri" :     "http://127.0.0.1/L-s6.561J-M13%3A00-32-141",
+			"end" :     "14:30",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.561J-M13:00-32-141",
+			"section" : "s6.561Ja"
+		},
+		{
+			"room" :    "32-124",
+			"id" :      "L-s6.438-M9-30-32-124",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-s6.438-M9%3A30-32-124",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.438-M9:30-32-124",
+			"section" : "s6.438a"
+		},
+		{
+			"end" :   "16:00",
+			"day" :   "W",
+			"label" : "L-6.253-W14:30",
+			"type" :  "Lecture",
+			"uri" :   "http://127.0.0.1/L-6.253-W14%3A30",
+			"id" :    "L-6.253-W14-30",
+			"start" : "14:30"
+		},
+		{
+			"room" :    "2-105",
+			"id" :      "L-s6.047-T11-00-2-105",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-s6.047-T11%3A00-2-105",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "T",
+			"label" :   "L-s6.047-T11:00-2-105",
+			"section" : "s6.047"
+		},
+		{
+			"room" :    "32-144",
+			"id" :      "L-s6.828-W12-30-32-144",
+			"start" :   "12:30",
+			"uri" :     "http://127.0.0.1/L-s6.828-W12%3A30-32-144",
+			"end" :     "14:00",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-s6.828-W12:30-32-144",
+			"section" : "s6.828"
+		},
+		{
+			"room" :    "26-310",
+			"id" :      "L-s6.243Ja-F14-30-26-310",
+			"start" :   "14:30:00",
+			"uri" :     "http://127.0.0.1/L-s6.243Ja-F14%3A30-26-310",
+			"end" :     "16:00:00",
+			"type" :    "Lecture",
+			"day" :     "F",
+			"label" :   "L-s6.243Ja-F14:30-26-310",
+			"section" : "s6.243Ja"
+		},
+		{
+			"room" :    "36-153",
+			"id" :      "L-s6.450-M9-30-36-153",
+			"start" :   "9:30",
+			"uri" :     "http://127.0.0.1/L-s6.450-M9%3A30-36-153",
+			"end" :     "11:00",
+			"type" :    "Lecture",
+			"day" :     "M",
+			"label" :   "L-s6.450-M9:30-36-153",
+			"section" : "s6.450a"
+		},
+		{
+			"room" :    "36-153",
+			"id" :      "L-6.971\u00E2\u0080\u00936.979-W11-00",
+			"start" :   "11:00",
+			"uri" :     "http://127.0.0.1/L-6.971%C3%A2%C2%80%C2%936.979-W11%3A00",
+			"end" :     "12:30",
+			"type" :    "Lecture",
+			"day" :     "W",
+			"label" :   "L-6.971\u00E2\u0080\u00936.979-W11:00",
+			"section" : "s6.973"
+		}
+	],
+	"types" :      {
+		"Lecture" : {
+			"uri" : "http://127.0.0.1/Lecture"
+		}
+	},
+	"properties" : {
+		"end" :     {
+			"uri" : "http://127.0.0.1/end"
+		},
+		"day" :     {
+			"uri" : "http://127.0.0.1/day"
+		},
+		"section" : {
+			"uri" : "http://127.0.0.1/section"
+		},
+		"room" :    {
+			"uri" : "http://127.0.0.1/room"
+		},
+		"start" :   {
+			"uri" : "http://127.0.0.1/start"
+		}
+	}
 }
