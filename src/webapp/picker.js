@@ -244,12 +244,12 @@ function browseCourses() {
         document.getElementById("picked-interface").style.display = "block";
 
         
-        var pickedClasses = new Exhibit.Collection("picked-sections", window.database);
-        pickedClasses._update = pickedClassUpdate;
-        pickedClasses._update();
+        var pickedSections = new Exhibit.Collection("picked-sections", window.database);
+        pickedSections._update = pickedSectionUpdate;
+        pickedSections._update();
         
         window.exhibit = Exhibit.create();
-        window.exhibit.setCollection("picked-sections", pickedClasses);
+        window.exhibit.setCollection("picked-sections", pickedSections);
         window.exhibit.configureFromDOM();
         
         enableMiniTimegrid();
@@ -267,7 +267,7 @@ function browseCourses() {
     fNext();
 }
 
-function pickedClassUpdate() {
+function pickedSectionUpdate() {
     this._items = this._database.getSubjects("true", "picked");
     this._onRootItemsChanged();
 }
@@ -290,13 +290,13 @@ function unpick(button) {
     );
 }
 
-function doPick(button, classID) {
-    window.database.addStatement(classID, "picked", "true");
+function doPick(button, sectionID) {
+    window.database.addStatement(sectionID, "picked", "true");
     window.exhibit.getCollection("picked-sections")._update();
     showHidePickButtons(button.parentNode, true);
 }
-function doUnpick(button, classID) {
-    window.database.removeStatement(classID, "picked", "true");
+function doUnpick(button, sectionID) {
+    window.database.removeStatement(sectionID, "picked", "true");
     window.exhibit.getCollection("picked-sections")._update();
     showHidePickButtons(button.parentNode, false);
 }
@@ -308,10 +308,10 @@ function showHidePickButtons(parentNode, picked) {
 }
 
 function showAllClasses() {
-    document.getElementById("picked-sessions").style.display = "none";
+    document.getElementById("picked-sections").style.display = "none";
     document.getElementById("all-classes").style.display = "block";
 }
-function showPickedSessions() {
+function showPickedSections() {
     document.getElementById("all-classes").style.display = "none";
     document.getElementById("picked-sections").style.display = "block";
 }
