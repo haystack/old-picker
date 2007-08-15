@@ -144,8 +144,8 @@
 			"evaluation" :     "https://sixweb.mit.edu/search/show_eval/6.341-f2006",
 			"instructor" :     "Rohrs, C.",
 			"orating" :        "5",
-			"type" :           "Class",
-			"label" :          "Class",
+			"type" :           "Section",
+			"label" :          "Section",
 			"reported-hours" : "12"
 		},
 		{
@@ -312,8 +312,8 @@
 			"evaluation" :     "https://hkn.mit.edu/6guide/src/fall05/6253.html",
 			"instructor" :     "Bertsekas, D.P.",
 			"orating" :        "5.8",
-			"type" :           "Class",
-			"label" :          "Class",
+			"type" :           "Section",
+			"label" :          "Section",
 			"last-taught" :    "F05",
 			"reported-hours" : "12.6"
 		},
@@ -354,8 +354,8 @@
 			"evaluation" :     "https://hkn.mit.edu/6guide/src/spring06/6301.html",
 			"instructor" :     "Lee, H.S.",
 			"orating" :        "5.6",
-			"type" :           "Class",
-			"label" :          "Class",
+			"type" :           "Section",
+			"label" :          "Section",
 			"last-taught" :    "S06",
 			"reported-hours" : "18.5"
 		},
@@ -405,8 +405,8 @@
 		},
 		{
 			"instructor" : "Larson, R.C.",
-			"label" :      "Class",
-			"type" :       "Class",
+			"label" :      "Section",
+			"type" :       "Section",
 			"uri" :        "http://127.0.0.1/s6.281Ja",
 			"class" :      "c6.281J",
 			"id" :         "s6.281Ja"
@@ -494,8 +494,8 @@
 			"evaluation" :     "https://hkn.mit.edu/6guide/src/fall03/6243.html",
 			"instructor" :     "Megretski, A.",
 			"orating" :        "6.1",
-			"type" :           "Class",
-			"label" :          "Class",
+			"type" :           "Section",
+			"label" :          "Section",
 			"last-taught" :    "F03",
 			"reported-hours" : "6"
 		},
@@ -549,8 +549,8 @@
 			"evaluation" :     "https://sixweb.mit.edu/search/show_eval/6.339-f2006",
 			"instructor" :     "Darmofal, D.L.",
 			"orating" :        "5.4",
-			"type" :           "Class",
-			"label" :          "Class",
+			"type" :           "Section",
+			"label" :          "Section",
 			"reported-hours" : "15"
 		},
 		{
@@ -634,8 +634,8 @@
 			"evaluation" :     "https://hkn.mit.edu/6guide/src/fall05/6374.html",
 			"instructor" :     "Chandrakasan, A.P.",
 			"orating" :        "6.4",
-			"type" :           "Class",
-			"label" :          "Class",
+			"type" :           "Section",
+			"label" :          "Section",
 			"last-taught" :    "F05",
 			"reported-hours" : "21"
 		},
@@ -763,8 +763,8 @@
 			"evaluation" :     "https://sixweb.mit.edu/search/show_eval/6.337-f2006",
 			"instructor" :     "Persson, P-O.",
 			"orating" :        "5.7",
-			"type" :           "Class",
-			"label" :          "Class",
+			"type" :           "Section",
+			"label" :          "Section",
 			"last-taught" :    "F06",
 			"reported-hours" : "14.3"
 		},
@@ -900,8 +900,8 @@
 			"evaluation" :     "https://hkn.mit.edu/6guide/src/fall05/6251.html",
 			"instructor" :     "Perakis, G.",
 			"orating" :        "5.6",
-			"type" :           "Class",
-			"label" :          "Class",
+			"type" :           "Section",
+			"label" :          "Section",
 			"reported-hours" : "14.5"
 		},
 		{
@@ -913,8 +913,8 @@
 			"evaluation" :     "https://sixweb.mit.edu/search/show_eval/6.336-f2006",
 			"instructor" :     "Daniel, L.",
 			"orating" :        "4.9",
-			"type" :           "Class",
-			"label" :          "Class",
+			"type" :           "Section",
+			"label" :          "Section",
 			"last-taught" :    "F06",
 			"reported-hours" : "14.1"
 		},
@@ -927,8 +927,8 @@
 			"evaluation" :     "https://hkn.mit.edu/6guide/src/spring04/6331.html",
 			"instructor" :     "Roberge, J.K.",
 			"orating" :        "6.7",
-			"type" :           "Class",
-			"label" :          "Class",
+			"type" :           "Section",
+			"label" :          "Section",
 			"last-taught" :    "S04",
 			"reported-hours" : "31.1"
 		},
@@ -976,8 +976,8 @@
 			"evaluation" :     "https://sixweb.mit.edu/search/show_eval/6.255-f2006",
 			"instructor" :     "Vera, J.",
 			"orating" :        "5.5",
-			"type" :           "Class",
-			"label" :          "Class",
+			"type" :           "Section",
+			"label" :          "Section",
 			"reported-hours" : "12.9"
 		},
 		{
