@@ -1,4 +1,24 @@
 var debug = (document.location.search == "?debug");
+var colorTable = [
+    {   color:      "#F01E4F",
+        used:       false
+    },
+    {   color:      "#41607F",
+        used:       false
+    },
+    {   color:      "#C69EE4",
+        used:       false
+    },
+    {   color:      "#C28F0E",
+        used:       false
+    },
+    {   color:      "#79CE9D",
+        used:       false
+    },
+    {   color:      "#7A652F",
+        used:       false
+    }
+];
 
 function onLoad() {
     var courses = [
@@ -292,11 +312,18 @@ function unpick(button) {
 
 function doPick(button, sectionID) {
     window.database.addStatement(sectionID, "picked", "true");
+    window.database.addStatement(sectionID, "color", getNewColor());
+    
     window.exhibit.getCollection("picked-sections")._update();
     showHidePickButtons(button.parentNode, true);
 }
 function doUnpick(button, sectionID) {
+    var color = window.database.getObject(sectionID, "color");
+    releaseColor(color);
+    
     window.database.removeStatement(sectionID, "picked", "true");
+    window.database.removeStatement(sectionID, "color", color);
+    
     window.exhibit.getCollection("picked-sections")._update();
     showHidePickButtons(button.parentNode, false);
 }
@@ -305,6 +332,25 @@ function showHidePickButtons(parentNode, picked) {
     var buttons = parentNode.getElementsByTagName("button");
     buttons[0].style.display = picked ? "none" : "inline";
     buttons[1].style.display = picked ? "inline" : "none";
+}
+
+function getNewColor() {
+    for (var i = 0; i < colorTable.length; i++) {
+        var entry = colorTable[i];
+        if (!entry.used) {
+            entry.used = true;
+            return entry.color;
+        }
+    }
+    return "black";
+}
+function releaseColor(c) {
+    for (var i = 0; i < colorTable.length; i++) {
+        var entry = colorTable[i];
+        if (c == entry.color) {
+            entry.used = false;
+        }
+    }
 }
 
 function showAllClasses() {
