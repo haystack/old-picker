@@ -1,3 +1,5 @@
+var debug = (document.location.search == "?debug");
+
 function onLoad() {
     var courses = [
         {   number: "16",
@@ -175,7 +177,7 @@ function onLoad() {
         }
 		
 		// This is just to make developing a bit easier...remove for deployment
-        if (course.number == 6) {
+        if (debug && course.number == 6) {
            td2.firstChild.checked = true;
         }
 	};
@@ -216,7 +218,9 @@ function onLoad() {
 	
 	div.appendChild(hassTable);
 	
-	browseCourses(); // Ditto here.
+	if (debug) {
+    	browseCourses(); // Ditto here.
+    }
 }
 
 function browseCourses() {
