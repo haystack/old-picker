@@ -61,21 +61,22 @@
                     <tr valign="bottom">
                         <td><table> 
 								<tr ex:content="!class">
-									<td class="each-section"><div><span ex:content=".instructor"></span></div>
-										<div>
+									<td ex:if="exists(.picked)">
+										<div class="each-section-picked" ex:sectionID-content="value" onclick="unpick(this);">
+											<div class="add-remove"><img src="images/add.png" onclick="pick(this.parentNode.parentNode);" style="display:none">
+											<img src="images/remove.png" class="add-remove-icon" onclick="unpick(this.parentNode.parentNode);"></div>						
+											<div><span ex:content=".instructor" class="section-instructor"></span></div>
 											<div ex:content="!section" class="each-lecture">
 												<div><span class="lecture-day" ex:content=".day"></span> <span ex:content=".start"></span><b>-</b><span ex:content=".end"></span></div>
 											</div>
-											<span ex:if="exists(.picked)">
-											<span>
-												<button class="pick-button" onclick="pick(this);" ex:sectionID-content="value" style="display:none;">pick</button>
-												<button class="unpick-button" onclick="unpick(this);" ex:sectionID-content="value">unpick</button>
-											</span>
-											<span>
-												<button class="pick-button" onclick="pick(this);" ex:sectionID-content="value">pick</button>
-												<button class="unpick-button" onclick="unpick(this);" ex:sectionID-content="value" style="display:none;">unpick</button>
-											</span>
-										</span>
+										</div>
+										<div class="each-section-unpicked" ex:sectionID-content="value" onclick="pick(this);">
+											<div class="add-remove"><img src="images/add.png" class="add-remove-icon" onclick="pick(this.parentNode.parentNode);">
+											<img src="images/remove.png" class="add-remove-icon" onclick="unpick(this.parentNode.parentNode);" style="display:none"></div>
+											<div><span ex:content=".instructor" class="section-instructor"></span></div>
+											<div ex:content="!section" class="each-lecture">
+												<div><span class="lecture-day" ex:content=".day"></span> <span ex:content=".start"></span><b>-</b><span ex:content=".end"></span></div>
+											</div>
 										</div>
 									</td>
 								</tr>

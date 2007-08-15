@@ -98,10 +98,30 @@ span.course-semester {
 span.lecture-day {
 	font-weight: bold
 }
-td.each-section {
+div.each-section-unpicked {
 	border:   		1px #884 solid;
 	background:     #ffd;
 	cursor:         pointer;
+	padding:		.5em;
+	position:		relative;
+}
+div.each-section-picked {
+	border:   		1px #0f0 solid;
+	background:     #ddb;
+	cursor:         pointer;
+	padding:		.5em;
+	position:		relative;
+}
+div.add-remove {
+	float:		right;
+	position:	absolute;
+	top:		0px;
+	right:		0px;
+	background:	#ffd;
+	border:		1px #884 solid collapse;
+}
+span.section-instructor {
+	font-style:		italic;
 }
 button.pick-button {
     float: right;

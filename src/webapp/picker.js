@@ -303,32 +303,32 @@ function pickedSectionUpdate() {
     this._onRootItemsChanged();
 }
 
-function pick(button) {
-    var sectionID = button.getAttribute("sectionID");
+function pick(thediv) {
+    var sectionID = thediv.getAttribute("sectionID");
     SimileAjax.History.addLengthyAction(
-        function() { doPick(button, sectionID) },
-        function() { doUnpick(button, sectionID) },
+        function() { doPick(thediv, sectionID) },
+        function() { doUnpick(thediv, sectionID) },
         "Picked " + sectionID
     );
 }
 
-function unpick(button) {
-    var sectionID = button.getAttribute("sectionID");
+function unpick(thediv) {
+    var sectionID = thediv.getAttribute("sectionID");
     SimileAjax.History.addLengthyAction(
-        function() { doUnpick(button, sectionID) },
-        function() { doPick(button, sectionID) },
+        function() { doUnpick(thediv, sectionID) },
+        function() { doPick(thediv, sectionID) },
         "Unpicked " + sectionID
     );
 }
 
-function doPick(button, sectionID) {
+function doPick(thediv, sectionID) {
     window.database.addStatement(sectionID, "picked", "true");
     window.database.addStatement(sectionID, "color", getNewColor());
     
     window.exhibit.getCollection("picked-sections")._update();
-    showHidePickButtons(button.parentNode, true);
+    showHidePickDiv(thediv, false);
 }
-function doUnpick(button, sectionID) {
+function doUnpick(thediv, sectionID) {
     var color = window.database.getObject(sectionID, "color");
     releaseColor(color);
     
@@ -336,13 +336,17 @@ function doUnpick(button, sectionID) {
     window.database.removeStatement(sectionID, "color", color);
     
     window.exhibit.getCollection("picked-sections")._update();
-    showHidePickButtons(button.parentNode, false);
+    showHidePickDiv(thediv, true);
 }
 
-function showHidePickButtons(parentNode, picked) {
-    var buttons = parentNode.getElementsByTagName("button");
-    buttons[0].style.display = picked ? "none" : "inline";
-    buttons[1].style.display = picked ? "inline" : "none";
+function showHidePickDiv(thediv, picked) {
+	thediv.className = picked ? "each-section-unpicked" : "each-section-picked" ;
+	var imgs = thediv.getElementsByTagName("img");
+
+	imgs[0].style.display = picked ? "block" : "none";
+	imgs[1].style.display = picked ? "none" : "block";	
+	
+	thediv.onclick = picked ? function() {pick(this);} : function() {unpick(this);};
 }
 
 function getNewColor() {
