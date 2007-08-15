@@ -13,13 +13,9 @@ function enableMiniTimegrid() {
         'R' : 4,
         'F' : 5
     };
-    var getNextColor = function() {
-        var rand255 = function() { return Math.floor(Math.random() * 255); };
-        return "rgb(" + rand255() + "," + rand255() + "," + rand255() + ")";
-    };
     var addSection = function(sectionID) {
         var db = window.exhibit.getDatabase();
-        var color = getNextColor();
+        var color = db.getObject(sectionID, "color");
         db.getSubjects(sectionID, "section").visit(function(lecID) {
             var parseTime = function(s) {
                 return s ? Date.parseString(s, "H:mm") ||
