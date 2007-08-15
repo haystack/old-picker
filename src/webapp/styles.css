@@ -34,10 +34,11 @@ table {
     display: none;
     position: absolute;
     left: 0px;
-    width: 75%;
+    width: 78%;
 }
 #picked-interface {
     display:    none;
+    z-index:    1;
     position:   fixed;
     width:      23%;
     top:        10px;
@@ -66,6 +67,11 @@ table {
     padding: 0.5em;
     background: #ffe;
     text-align: center;
+}
+
+#mini-timegrid {
+    margin: 5px;
+    border: none;
 }
 
 /*
