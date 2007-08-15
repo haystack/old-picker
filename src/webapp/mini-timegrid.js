@@ -4,7 +4,7 @@
  */
 
 function enableMiniTimegrid() {
-    var collection = window.exhibit.getCollection("picked-classes");
+    var collection = window.exhibit.getCollection("picked-sections");
     miniEventSource = new Timegrid.RecurringEventSource();
     var dayMap = {
         'M' : 1,
@@ -28,9 +28,9 @@ function enableMiniTimegrid() {
             var end   = parseTime(db.getObject(lecID, "end")) || 
                         start.clone().add('h', 1);
             var day   = dayMap[dayLetter];
-            miniEventSource.addEventPrototype(
-                new Timegrid.RecurringEventSource.EventPrototype(
-                    [day], start, end, "", "", "", "", "", color, ""));
+            var eProto = new Timegrid.RecurringEventSource.EventPrototype(
+                [day], start, end, "", "", "", "", "", color, "");
+            miniEventSource.addEventPrototype(eProto);
         });
     };
     var syncCollectionWithSource = function() {
