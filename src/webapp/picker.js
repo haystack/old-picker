@@ -244,12 +244,12 @@ function browseCourses() {
         document.getElementById("picked-interface").style.display = "block";
 
         
-        var pickedClasses = new Exhibit.Collection("picked-classes", window.database);
+        var pickedClasses = new Exhibit.Collection("picked-sections", window.database);
         pickedClasses._update = pickedClassUpdate;
         pickedClasses._update();
         
         window.exhibit = Exhibit.create();
-        window.exhibit.setCollection("picked-classes", pickedClasses);
+        window.exhibit.setCollection("picked-sections", pickedClasses);
         window.exhibit.configureFromDOM();
         
         enableMiniTimegrid();
@@ -273,31 +273,31 @@ function pickedClassUpdate() {
 }
 
 function pick(button) {
-    var classID = button.getAttribute("classID");
+    var sectionID = button.getAttribute("sectionID");
     SimileAjax.History.addLengthyAction(
-        function() { doPick(button, classID) },
-        function() { doUnpick(button, classID) },
-        "Picked " + classID
+        function() { doPick(button, sectionID) },
+        function() { doUnpick(button, sectionID) },
+        "Picked " + sectionID
     );
 }
 
 function unpick(button) {
-    var classID = button.getAttribute("classID");
+    var sectionID = button.getAttribute("sectionID");
     SimileAjax.History.addLengthyAction(
-        function() { doUnpick(button, classID) },
-        function() { doPick(button, classID) },
-        "Unpicked " + classID
+        function() { doUnpick(button, sectionID) },
+        function() { doPick(button, sectionID) },
+        "Unpicked " + sectionID
     );
 }
 
 function doPick(button, classID) {
     window.database.addStatement(classID, "picked", "true");
-    window.exhibit.getCollection("picked-classes")._update();
+    window.exhibit.getCollection("picked-sections")._update();
     showHidePickButtons(button.parentNode, true);
 }
 function doUnpick(button, classID) {
     window.database.removeStatement(classID, "picked", "true");
-    window.exhibit.getCollection("picked-classes")._update();
+    window.exhibit.getCollection("picked-sections")._update();
     showHidePickButtons(button.parentNode, false);
 }
 
@@ -308,10 +308,10 @@ function showHidePickButtons(parentNode, picked) {
 }
 
 function showAllClasses() {
-    document.getElementById("picked-classes").style.display = "none";
+    document.getElementById("picked-sessions").style.display = "none";
     document.getElementById("all-classes").style.display = "block";
 }
-function showPickedClasses() {
+function showPickedSessions() {
     document.getElementById("all-classes").style.display = "none";
-    document.getElementById("picked-classes").style.display = "block";
+    document.getElementById("picked-sections").style.display = "block";
 }
