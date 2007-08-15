@@ -14,14 +14,16 @@ function enableMiniTimegrid() {
         'F' : 5
     };
     var getNextColor = function() {
-        return '#00f';
+        var rand255 = function() { return Math.floor(Math.random() * 255); };
+        return "rgb(" + rand255() + "," + rand255() + "," + rand255() + ")";
     };
     var addSection = function(sectionID) {
         var db = window.exhibit.getDatabase();
         var color = getNextColor();
         db.getSubjects(sectionID, "section").visit(function(lecID) {
             var parseTime = function(s) {
-                return s ? Date.parseString(s, "HH:mm") : null;
+                return s ? Date.parseString(s, "H:mm") ||
+                           Date.parseString(s, 'H:mm:ss') : null;
             };
             var dayLetter = db.getObject(lecID, "day");
             var start = parseTime(db.getObject(lecID, "start"));
@@ -35,6 +37,7 @@ function enableMiniTimegrid() {
     };
     var syncCollectionWithSource = function() {
         var itemSet = collection.getRestrictedItems();
+        miniEventSource.clearEventPrototypes();
         itemSet.visit(addSection);
     };
     collection.addListener({ onItemsChanged: syncCollectionWithSource });
