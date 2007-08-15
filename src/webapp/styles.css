@@ -126,6 +126,14 @@ div.add-remove {
 	background:	#ffd;
 	border:		1px #884 solid collapse;
 }
+div.picked-interface-list {
+	position:	relative;
+}
+img.picked-interface-icon {
+	position:	absolute;
+	left:		-40px;
+	cursor:		pointer;	
+}
 span.section-instructor {
 	font-style:		italic;
 }

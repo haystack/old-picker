@@ -338,7 +338,14 @@ function doUnpick(thediv, sectionID) {
     window.exhibit.getCollection("picked-sections")._update();
     showHidePickDiv(thediv, true);
 }
-
+function removeItem(img) {
+	var color = window.database.getObject(sectionID, "color");
+	var sectionID = img.getAttribute("sectionID");
+	window.database.removeStatement(sectionID, "picked", "true");
+	window.database.removeStatement(sectionID, "color", color);
+	
+	window.exhibit.getCollection("picked-sections")._update();
+}
 function showHidePickDiv(thediv, picked) {
 	thediv.className = picked ? "each-section-unpicked" : "each-section-picked" ;
 	var imgs = thediv.getElementsByTagName("img");
