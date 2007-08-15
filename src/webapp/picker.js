@@ -287,6 +287,17 @@ function browseCourses() {
     fNext();
 }
 
+function makeFacet(div, expression) {
+	var configuration = { expression: expression }
+	if (expression == '.level') {
+		configuration = { expression: expression, height: "45px" }
+	}
+	if (expression == '.total-units') {
+		configuration = { expression: expression, height: "60px" }
+	}
+	Exhibit.UI.createFacet( configuration, div, window.exhibit.getUIContext());
+};
+
 function pickedSectionUpdate() {
     this._items = this._database.getSubjects("true", "picked");
     this._onRootItemsChanged();
