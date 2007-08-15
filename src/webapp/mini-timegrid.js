@@ -3,10 +3,9 @@
  *   picked classes
  */
 
-var collection = window.exhibit.getCollection("picked-classes");
-var miniEventSource = new Timegrid.RecurringEventSource();
-
-(function() {
+function enableMiniTimegrid() {
+    var collection = window.exhibit.getCollection("picked-classes");
+    miniEventSource = new Timegrid.RecurringEventSource();
     var dayMap = {
         'M' : 1,
         'T' : 2,
@@ -14,8 +13,11 @@ var miniEventSource = new Timegrid.RecurringEventSource();
         'R' : 4,
         'F' : 5
     };
+    var getNextColor = function() {
+        return '#00f';
+    };
     var addSection = function(sectionID) {
-        var db = collection.getDatabase();
+        var db = window.exhibit.getDatabase();
         var color = getNextColor();
         db.getSubjects(sectionID, "section").visit(function(lecID) {
             var parseTime = function(s) {
@@ -36,4 +38,6 @@ var miniEventSource = new Timegrid.RecurringEventSource();
         itemSet.visit(addSection);
     };
     collection.addListener({ onItemsChanged: syncCollectionWithSource });
-})();
+    syncCollectionWithSource();
+    window.timegrids = [Timegrid.createFromDOM($('#mini-timegrid').get(0))];
+};

@@ -252,6 +252,7 @@ function browseCourses() {
         window.exhibit.setCollection("picked-classes", pickedClasses);
         window.exhibit.configureFromDOM();
         
+        enableMiniTimegrid();
         enableUnitAdder();
     };
     var fNext = function() {
