@@ -49,7 +49,7 @@ for (var i = 0; i < elements.length; i++) {
     continue;
   }
   
-  var semester = 'Unknown';
+  var semesters = [];
   var type = 'Unknown';
   var offerings = [];
   var categories = [];
@@ -58,13 +58,13 @@ for (var i = 0; i < elements.length; i++) {
   for each (var img in images) {
     var src = img.src;
     if (src.indexOf('/fall.gif') > 0) {
-      semester = 'Fall';
+      semesters.push('Fall');
     } else if (src.indexOf('/spring.gif') > 0) {
-      semester = 'Spring';
+      semesters.push('Spring');
     } else if (src.indexOf('/iap.gif') > 0) {
-      semester = 'IAP';
+      semesters.push('IAP');
     } else if (src.indexOf('/summer.gif') > 0) {
-      semester = 'Summer';
+      semesters.push('Summer');
       
     } else if (src.indexOf('/under.gif') > 0) {
       type = 'Undergrad';
@@ -217,7 +217,7 @@ for (var i = 0; i < elements.length; i++) {
     "\t" + classSeries + 
     "\t" + classNumber + " - " + courseName + 
     "\t" + type +
-    "\t" + semester +
+    "\t" + semesters.join("; ") +
     "\t" + offerings.join("; ") +
     "\t" + categories.join("; ") +
     "\t" + instructors.join("; ") +
