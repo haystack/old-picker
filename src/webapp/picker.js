@@ -275,20 +275,24 @@ function browseCourses() {
 }
 
 function makeFacet(div, expression) {
-	var configuration = { expression: expression, facetLabel: div.innerHTML };
+	var facetLabel = div.innerHTML;
+	var configuration = { expression: expression, facetLabel: facetLabel };
 	if (expression == '.level') {
 		configuration.height = "45px";
 	}
 	if (expression == '.total-units') {
 		configuration.height = "60px";
 	}
-	div.className = "";
-	
-	Exhibit.UI.createFacet( configuration, div, window.exhibit.getUIContext());
-	
-	div.onclick = function() {};
-	
+	div.className = "";	
+	Exhibit.UI.createFacet( configuration, div, window.exhibit.getUIContext());	
+	div.onclick = function() { unmakeFacet(this, facetLabel, expression); }
 };
+
+function unmakeFacet(div, facetLabel, expression) {
+	div.innerHTML = facetLabel;
+	div.className = "collapsed-facet";
+	div.onclick = function() { makeFacet(this, expression); }
+}
 
 function pickedSectionUpdate() {
     this._items = this._database.getSubjects("true", "picked");
