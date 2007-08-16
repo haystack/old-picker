@@ -283,15 +283,20 @@ function makeFacet(div, expression) {
 	if (expression == '.total-units') {
 		configuration.height = "60px";
 	}
-	div.className = "";	
-	Exhibit.UI.createFacet( configuration, div, window.exhibit.getUIContext());	
-	div.onclick = function() { unmakeFacet(this, facetLabel, expression); }
+	div.className = "";
+	
+	var facet = Exhibit.UI.createFacet(configuration, div, window.exhibit.getUIContext());	
+	window.exhibit.setComponent(div.id, facet);
+	
+	div.onclick = function() { unmakeFacet(div, facetLabel, expression); }
 };
 
 function unmakeFacet(div, facetLabel, expression) {
+try {    window.exhibit.disposeComponent(div.id);
+} catch (e) { console.log(e); }
 	div.innerHTML = facetLabel;
 	div.className = "collapsed-facet";
-	div.onclick = function() { makeFacet(this, expression); }
+	div.onclick = function() { makeFacet(div, expression); }
 }
 
 function pickedSectionUpdate() {

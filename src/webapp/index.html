@@ -53,14 +53,14 @@
                             <b>Search</b>
                             <div ex:role="facet" ex:facetClass="TextSearch"></div>
                             <hr />
-                            <div class="collapsed-facet" onclick="makeFacet(this, '.level')">level &raquo;</div>
-                            <div class="collapsed-facet" onclick="makeFacet(this, '.units')">units &raquo;</div>
-                            <div class="collapsed-facet" onclick="makeFacet(this, '.total-units')">total units &raquo;</div>
-                            <div class="collapsed-facet" onclick="makeFacet(this, '.category')">category &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this, '.level')" id='level-facet'>level &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this, '.units')" id='units-facet'>units &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this, '.total-units')" id='total-units-facet'>total units &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this, '.category')" id='category-facet'>category &raquo;</div>
                             <div class="collapsed-facet" onclick="makeFacet(this, '!class!section.day')">day &raquo;</div>
                             
-                            <div ex:role="facet" ex:expression=".semester" ex:selection="Fall" ex:height="90px" ex:facetLabel="semester &raquo;" onclick="unmakeFacet(this, 'semester &raquo;', '.semester')"></div>
-                            <div ex:role="facet" ex:expression=".offering" ex:selection="Currently Offered" ex:facetLabel="offering &raquo;" onclick="unmakeFacet(this, 'offering &raquo;', '.offering')"></div>
+                            <div ex:role="facet" ex:expression=".semester" ex:selection="Fall" ex:height="90px" ex:facetLabel="semester &raquo;" id='semester-facet' onclick="unmakeFacet(this, 'semester &raquo;', '.semester')"></div>
+                            <div ex:role="facet" ex:expression=".offering" ex:selection="Currently Offered" ex:facetLabel="offering &raquo;" id='offering-facet' onclick="unmakeFacet(this, 'offering &raquo;', '.offering')"></div>
                         </td>
                         <td>
                             <div ex:role="view"
