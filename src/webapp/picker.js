@@ -288,13 +288,15 @@ function browseCourses() {
 }
 
 function makeFacet(div, expression) {
-	var configuration = { expression: expression }
+	var configuration = { expression: expression, facetLabel: div.innerHTML };
 	if (expression == '.level') {
-		configuration = { expression: expression, height: "45px" }
+		configuration.height = "45px";
 	}
 	if (expression == '.total-units') {
-		configuration = { expression: expression, height: "60px" }
+		configuration.height = "60px";
 	}
+	div.className = "";
+	
 	Exhibit.UI.createFacet( configuration, div, window.exhibit.getUIContext());
 };
 
