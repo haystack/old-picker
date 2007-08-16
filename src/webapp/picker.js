@@ -296,30 +296,33 @@ function pickedSectionUpdate() {
 }
 
 function pick(thediv) {
+
     var sectionID = thediv.getAttribute("sectionID");
-    SimileAjax.History.addLengthyAction(
-        function() { doPick(thediv, sectionID) },
-        function() { doUnpick(thediv, sectionID) },
-        "Picked " + sectionID
-    );
+	SimileAjax.History.addLengthyAction(
+		function() { doPick(thediv, sectionID) },
+		function() { doUnpick(thediv, sectionID) },
+		"Picked " + sectionID
+	);
 }
 
 function unpick(thediv) {
+	
     var sectionID = thediv.getAttribute("sectionID");
-    SimileAjax.History.addLengthyAction(
-        function() { doUnpick(thediv, sectionID) },
-        function() { doPick(thediv, sectionID) },
-        "Unpicked " + sectionID
-    );
+	SimileAjax.History.addLengthyAction(
+		function() { doUnpick(thediv, sectionID) },
+		function() { doPick(thediv, sectionID) },
+		"Unpicked " + sectionID
+	);
 }
 
 function doPick(thediv, sectionID) {
-    window.database.addStatement(sectionID, "picked", "true");
-    window.database.addStatement(sectionID, "color", getNewColor());
-    window.database.addStatement(sectionID, "thediv", thediv);
-    
-    window.exhibit.getCollection("picked-sections")._update();
-    showHidePickDiv(thediv, false);
+		window.database.addStatement(sectionID, "picked", "true");
+		window.database.addStatement(sectionID, "color", getNewColor());
+		window.database.removeStatement(sectionID, "temppick", "true");
+		
+		window.exhibit.getCollection("picked-sections")._update();
+
+		showHidePickDiv(thediv, false); 
 }
 function doUnpick(thediv, sectionID) {
     var color = window.database.getObject(sectionID, "color");
@@ -329,17 +332,29 @@ function doUnpick(thediv, sectionID) {
     window.database.removeStatement(sectionID, "color", color);
     
     window.exhibit.getCollection("picked-sections")._update();
-    showHidePickDiv(thediv, true);
+    
+	showHidePickDiv(thediv, true);
+}
+function mouseOverPick(thediv) {
+	var sectionID = thediv.getAttribute("sectionID");
+	if (!window.database.getObject(sectionID, "picked")) {
+		window.database.addStatement(sectionID, "picked", "true");
+		window.database.addStatement(sectionID, "color", getNewColor());
+		window.database.addStatement(sectionID, "temppick", "true");
+		window.exhibit.getCollection("picked-sections")._update();
+	}
+}
+function mouseOutPick(thediv) {
+
 }
 function removeItem(img) {
 	var color = window.database.getObject(sectionID, "color");
 	var sectionID = img.getAttribute("sectionID");
-	var thediv = window.database.getObject(sectionID, "thediv");
+	var thediv = document.getElementById("divid-" + sectionID);
 	
 	showHidePickDiv(thediv, true);
 	window.database.removeStatement(sectionID, "picked", "true");
 	window.database.removeStatement(sectionID, "color", color);
-	window.database.removeStatement(sectionID, "thediv", thediv);
 	
 	window.exhibit.getCollection("picked-sections")._update();
 }
