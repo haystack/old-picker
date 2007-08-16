@@ -285,6 +285,9 @@ function makeFacet(div, expression) {
 	div.className = "";
 	
 	Exhibit.UI.createFacet( configuration, div, window.exhibit.getUIContext());
+	
+	div.onclick = function() {};
+	
 };
 
 function pickedSectionUpdate() {
