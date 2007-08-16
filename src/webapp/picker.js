@@ -397,14 +397,14 @@ function releaseColor(c) {
 }
 
 function showScheduleDetails() {
-    document.getElementById("classes-layer").style.visibility = "hidden";
+    document.getElementById("classes-layer").style.display = "none";
     document.getElementById("schedule-preview-pane").style.visibility = "hidden";
     
-    document.getElementById("schedule-details-layer").style.visibility = "visible";
+    document.getElementById("schedule-details-layer").style.display = "block";
 }
 function showSchedulePreview() {
-    document.getElementById("schedule-details-layer").style.visibility = "hidden";
+    document.getElementById("schedule-details-layer").style.display = "none";
     
-    document.getElementById("classes-layer").style.visibility = "visible";
+    document.getElementById("classes-layer").style.display = "block";
     document.getElementById("schedule-preview-pane").style.visibility = "visible";
 }

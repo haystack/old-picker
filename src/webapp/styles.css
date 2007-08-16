@@ -71,7 +71,7 @@ table {
     top:            0px;
     left:           0px;
     width:          100%;
-    visibility:     hidden;
+    display:        none;
 }
 #schedule-details-layer div.title {
     margin:         0;
@@ -110,7 +110,7 @@ div.collapsed-facet {
     background: #eee;
     padding:    0.25em;
     cursor:     pointer;
-    margin-bottom:  1em;
+    margin-bottom:  0.5em;
 }
 
 div.exhibit-facet-header {
@@ -118,6 +118,9 @@ div.exhibit-facet-header {
     background: #eee;
     padding:    0.25em;
     cursor:     pointer;
+}
+div.timegrid-week-highlight {
+    background: none;
 }
 
 /*
