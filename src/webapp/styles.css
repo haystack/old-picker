@@ -13,50 +13,81 @@ table {
  */
 #title {
     padding:        0.75em;
-    font-size:      150%;
     border-bottom:  1px solid #ccc;
     background:     #eee;
 }
-#credits {
-    padding:        0.1in 0.25in;
-    font-size:      90%;
-    text-align:     center;
-}
-
-#content {
-    padding:     0.25in;
+#title h1 {
+    margin:         0px;
+    padding:        0px;
+    font-size:      150%;
 }
 
 #starting-interface {
-    margin: 2em;
+    padding: 2em;
 }
+
 #browsing-interface {
-    display: none;
-    position: absolute;
-    left: 0px;
-    width: 78%;
+    position:   relative;
+    display:    none;
+    width:      100%;
 }
-#picked-interface {
+
+#schedule-preview-pane {
     display:    none;
     z-index:    1;
     position:   fixed;
-    width:      23%;
-    top:        10px;
+    top:        1em;
     right:      -1px;
+    width:      20em;
     background: #eee;
-    border:     1px solid #aaa;
+    border:     1px solid #2080D0;
 }
-#picked-interface > div {
+
+#schedule-preview-pane > div {
     padding:    10px;
 }
-#picked-interface > h1 {
+#schedule-preview-pane div.title {
     margin:         0;
-    padding:        0.25em;
+    padding:        0.25em 0.5em;
+    background:     #4292D8;
+    color:          white;
+}
+#schedule-preview-pane div.title span {
     font-size:      120%;
     font-weight:    bold;
-    background:     #ccc;
-    text-align:     center;
 }
+#schedule-preview-pane div.title a {
+    color:              white;
+    text-decoration:    none;
+}
+
+#classes-layer {
+    margin:         1em;
+    margin-right:   21em;
+}
+
+#schedule-details-layer {
+    position:       absolute;
+    top:            0px;
+    left:           0px;
+    width:          100%;
+    visibility:     hidden;
+}
+#schedule-details-layer div.title {
+    margin:         0;
+    padding:        0.25em 0.5em;
+    background:     #4292D8;
+    color:          white;
+}
+#schedule-details-layer div.title span {
+    font-size:      120%;
+    font-weight:    bold;
+}
+#schedule-details-layer div.title a {
+    color:              white;
+    text-decoration:    none;
+}
+
 
 #no-picked-classes {
     padding:    2em;
@@ -64,14 +95,14 @@ table {
 }
 
 #tabs {
-    padding: 0.5em;
+    padding:    0.5em;
     background: #ffe;
     text-align: center;
 }
 
 #mini-timegrid {
     margin: 5px;
-    border: none;
+    border: 1px solid #888;
 }
 
 div.collapsed-facet {

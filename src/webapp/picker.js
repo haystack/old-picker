@@ -153,8 +153,8 @@ function onLoad() {
     ];
 	
 	var installHandlers = function(td, num) {
+        td.style.cursor = "pointer";
         td.onclick = function() {
-			console.log(num);
             document.getElementById(num).click();
         };
     };
@@ -219,25 +219,6 @@ function onLoad() {
         }
 	};
 	
-	var div = document.getElementById("course-table");
-	var hassTable = document.createElement("table");
-	hassTable.id = "hass-d-table";
-	hassTable.cellPadding = "3";
-	hassTable.style.paddingTop="15px";
-	
-	var tr = hassTable.insertRow(0);
-	var td0 = tr.insertCell(0);
-	td0.innerHTML = "<input type='checkbox' name='course' id='hass-d' value='Hass-D Courses'></input>"
-	var td1 = tr.insertCell(1);
-	td1.innerHTML = "Hass-D Courses";
-	
-	//add in when hass-d data has been loaded
-	//installHandlers(td1, "hass-d"); 
-	
-	td1.style.color = "#888"; //remove when hass-d data has been loaded
-	
-	div.appendChild(hassTable);
-	
 	if (debug) {
     	browseCourses(); // Ditto here.
     }
@@ -260,9 +241,8 @@ function browseCourses() {
     window.database = Exhibit.Database.create();
     
     var fDone = function() {
+        document.getElementById("schedule-preview-pane").style.display = "block";
         document.getElementById("browsing-interface").style.display = "block";
-        document.getElementById("picked-interface").style.display = "block";
-
         
         var pickedSections = new Exhibit.Collection("picked-sections", window.database);
         pickedSections._update = pickedSectionUpdate;
@@ -377,11 +357,15 @@ function releaseColor(c) {
     }
 }
 
-function showAllClasses() {
-    document.getElementById("picked-sections").style.display = "none";
-    document.getElementById("all-classes").style.display = "block";
+function showScheduleDetails() {
+    document.getElementById("classes-layer").style.visibility = "hidden";
+    document.getElementById("schedule-preview-pane").style.visibility = "hidden";
+    
+    document.getElementById("schedule-details-layer").style.visibility = "visible";
 }
-function showPickedSections() {
-    document.getElementById("all-classes").style.display = "none";
-    document.getElementById("picked-sections").style.display = "block";
+function showSchedulePreview() {
+    document.getElementById("schedule-details-layer").style.visibility = "hidden";
+    
+    document.getElementById("classes-layer").style.visibility = "visible";
+    document.getElementById("schedule-preview-pane").style.visibility = "visible";
 }
