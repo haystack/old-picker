@@ -62,8 +62,7 @@ table {
 }
 
 #classes-layer {
-    margin:         1em;
-    margin-right:   21em;
+    margin-right:   20em;
 }
 
 #schedule-details-layer {
@@ -119,6 +118,11 @@ div.exhibit-facet-header {
     padding:    0.25em;
     cursor:     pointer;
 }
+div.exhibit-facet-body {
+    background: white;
+    border:     1px solid #aaa;
+}
+
 div.timegrid-week-highlight {
     background: none;
 }
