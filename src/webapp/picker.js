@@ -306,6 +306,7 @@ function unpick(thediv) {
 function doPick(thediv, sectionID) {
     window.database.addStatement(sectionID, "picked", "true");
     window.database.addStatement(sectionID, "color", getNewColor());
+    window.database.addStatement(sectionID, "thediv", thediv);
     
     window.exhibit.getCollection("picked-sections")._update();
     showHidePickDiv(thediv, false);
@@ -323,8 +324,12 @@ function doUnpick(thediv, sectionID) {
 function removeItem(img) {
 	var color = window.database.getObject(sectionID, "color");
 	var sectionID = img.getAttribute("sectionID");
+	var thediv = window.database.getObject(sectionID, "thediv");
+	
+	showHidePickDiv(thediv, true);
 	window.database.removeStatement(sectionID, "picked", "true");
 	window.database.removeStatement(sectionID, "color", color);
+	window.database.removeStatement(sectionID, "thediv", thediv);
 	
 	window.exhibit.getCollection("picked-sections")._update();
 }
