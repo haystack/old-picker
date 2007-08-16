@@ -230,9 +230,15 @@ function browseCourses() {
     for (var i = 0; i < inputs.length; i++) {
         var input = inputs[i];
         if (input.checked) {
-            urls.push("data/course-" + input.value + "-classes.js");
-            urls.push("data/course-" + input.value + "-lectures.js");
-			urls.push("data/course-" + input.value + "-sections.js");
+        	if (input.value == "Hass-D Courses") {
+        		urls.push("data/hass-d-classes.js");
+            	urls.push("data/hass-d-lectures.js");
+				urls.push("data/hass-d-sections.js");
+			} else {
+            	urls.push("data/course-" + input.value + "-classes.js");
+            	urls.push("data/course-" + input.value + "-lectures.js");
+				urls.push("data/course-" + input.value + "-sections.js");
+			}
         }
     }
     
