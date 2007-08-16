@@ -123,7 +123,7 @@
                         <div ex:content=".units"></div>
                         <div ex:content=".category"></div>
                         <div ex:if-exists=".TQE">TQE: <span ex:content=".TQE"></span></div>
-                        <div class="hkn-statistics">
+                        <div ex:if-exists="!class.orating" class="hkn-statistics">
                             <div class="hkn-stats-header">HKN Statistics</div>
                             <div ex:content="!class">
                                 <div ex:if-exists=".last-taught">Last time taught by this instructor: <span ex:content=".last-taught"></span></div>
@@ -133,6 +133,65 @@
                                 <div>Hours: <span ex:content=".reported-hours"></span></div>
                                 <div><a ex:href-content=".evaluation">More info</a></div>
                             </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr valign="bottom">
+                    <td><table> 
+                            <tr ex:content="!class">
+                                <td ex:if="exists(.picked)">
+                                    <div class="each-section-picked" ex:sectionID-content="value" onclick="unpick(this);">
+                                        <div class="add-remove"><img src="images/add.png" onclick="pick(this.parentNode.parentNode);" style="display:none">
+                                        <img src="images/remove.png" class="add-remove-icon" onclick="unpick(this.parentNode.parentNode);"></div>                        
+                                        <div><span ex:content=".instructor" class="section-instructor"></span></div>
+                                        <div ex:content="!section" class="each-lecture">
+                                            <div><span class="lecture-day" ex:content=".day"></span> <span ex:content=".start"></span><b>-</b><span ex:content=".end"></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="each-section-unpicked" ex:sectionID-content="value" onclick="pick(this);">
+                                        <div class="add-remove"><img src="images/add.png" class="add-remove-icon" onclick="pick(this.parentNode.parentNode);">
+                                        <img src="images/remove.png" class="add-remove-icon" onclick="unpick(this.parentNode.parentNode);" style="display:none"></div>
+                                        <div><span ex:content=".instructor" class="section-instructor"></span></div>
+                                        <div ex:content="!section" class="each-lecture">
+                                            <div><span class="lecture-day" ex:content=".day"></span> <span ex:content=".start"></span><b>-</b><span ex:content=".end"></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td align="right"><span ex:control="copy-button"></span></td>
+                </tr>
+            </table>
+        </div>
+        <!-- ==================== Section Lens ==================== -->
+        <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Section">
+            <div class="course-title">
+                <span ex:content=".class.semester" class="course-semester"></span>
+                <span ex:content=".class.courseNumber"></span> &bull; <span ex:content=".class.label"></span>
+            </div>
+            <table class="course-body">
+                <tr>
+                    <td>
+                        <div ex:content=".class.topic" class="course-topic"></div>
+                        <div ex:content=".class.description" class="course-description"></div>
+                    </td>
+                    <td width="30%" class="course-logistics" rowspan="2">
+                        <div ex:select=".class.offering">
+                            <div ex:case="Currently Offered"></div>
+                            <div ex:content=".class.offering" class="no-offering"></div>
+                        </div>
+                        <div ex:content=".class.units"></div>
+                        <div ex:content=".class.category"></div>
+                        <div ex:if-exists=".class.TQE">TQE: <span ex:content=".class.TQE"></span></div>
+                        <div ex:if-exists=".orating" class="hkn-statistics">
+                            <div class="hkn-stats-header">HKN Statistics</div>
+							<div ex:if-exists=".last-taught">Last time taught by this instructor: <span ex:content=".last-taught"></span></div>
+							<div>Instructor: <span ex:content=".irating"></span>/7.0</div>
+							<div>Overall: <span ex:content=".orating"></span>/7.0</div>
+							<div>Difficulty: <span ex:content=".odifficulty"></span>/7.0</div>
+							<div>Hours: <span ex:content=".reported-hours"></span></div>
+							<div><a ex:href-content=".evaluation">More info</a></div>
                         </div>
                         <ul ex:content=".lecture">
                             <li><span ex:content=".day"></span>
@@ -144,7 +203,7 @@
                 </tr>
                 <tr valign="bottom">
                     <td><table> 
-                            <tr ex:content="!class">
+                            <tr>
                                 <td ex:if="exists(.picked)">
                                     <div class="each-section-picked" ex:sectionID-content="value" onclick="unpick(this);">
                                         <div class="add-remove"><img src="images/add.png" onclick="pick(this.parentNode.parentNode);" style="display:none">
