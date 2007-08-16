@@ -199,6 +199,7 @@ function onLoad() {
 		// This is just to make developing a bit easier...remove for deployment
         if (debug && course.number == 6) {
            td2.firstChild.checked = true;
+           document.getElementById('hass-d').checked = true;
         }
 	};
 	for (var k = 0; k < 10; k++) {
