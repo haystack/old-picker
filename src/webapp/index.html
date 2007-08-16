@@ -58,8 +58,8 @@
                             <div class="collapsed-facet" onclick="makeFacet(this, '.total-units')">total units &raquo;</div>
                             <div class="collapsed-facet" onclick="makeFacet(this, '.category')">category &raquo;</div>
                             
-                            <div ex:role="facet" ex:expression=".semester" ex:selection="Fall" ex:height="90px"></div>
-                            <div ex:role="facet" ex:expression=".offering" ex:selection="Currently Offered"></div>
+                            <div ex:role="facet" ex:expression=".semester" ex:selection="Fall" ex:height="90px" ex:facetLabel="semester &raquo;" onclick="unmakeFacet(this, 'semester &raquo;', '.semester')"></div>
+                            <div ex:role="facet" ex:expression=".offering" ex:selection="Currently Offered" ex:facetLabel="offering &raquo;" onclick="unmakeFacet(this, 'offering &raquo;', '.offering')"></div>
                         </td>
                         <td>
                             <div ex:role="view"
