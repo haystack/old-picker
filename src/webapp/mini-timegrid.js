@@ -15,7 +15,6 @@ function enableMiniTimegrid() {
     };
     var syncCollectionWithSource = function() {
         var itemSet = collection.getRestrictedItems();
-        miniEventSource.clearEventPrototypes();
         var eProtos = [];
         var addSection = function(sectionID) {
             var db = window.exhibit.getDatabase();
@@ -36,7 +35,7 @@ function enableMiniTimegrid() {
             });
         };
         itemSet.visit(addSection);
-        miniEventSource.addAllEventPrototypes(eProtos);
+        miniEventSource.setEventPrototypes(eProtos);
     };
     collection.addListener({ onItemsChanged: syncCollectionWithSource });
     syncCollectionWithSource();
