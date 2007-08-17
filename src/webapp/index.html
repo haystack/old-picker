@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>MIT Course Catalogue Pickr (beta)</title>
-        <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js" type="text/javascript"></script>
+        <script src="http://127.0.0.1:8888/exhibit/api/exhibit-api.js" type="text/javascript"></script>
         <script src="http://static.simile.mit.edu/timegrid/api/timegrid-api.js?autoCreate=false" type="text/javascript"></script>
         <script src="picker.js" type="text/javascript"></script>
         <script src="unit-adder.js" type="text/javascript"></script>
@@ -53,14 +53,14 @@
                             <b>Search</b>
                             <div ex:role="facet" ex:facetClass="TextSearch"></div>
                             <hr />
-                            <div class="collapsed-facet" onclick="makeFacet(this, '.level')" id='level-facet'>level &raquo;</div>
-                            <div class="collapsed-facet" onclick="makeFacet(this, '.units')" id='units-facet'>units &raquo;</div>
-                            <div class="collapsed-facet" onclick="makeFacet(this, '.total-units')" id='total-units-facet'>total units &raquo;</div>
-                            <div class="collapsed-facet" onclick="makeFacet(this, '!class!section.day')">day &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this)" id='level-facet'>level &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this)" id='total-units-facet'>total units &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
                             
-                            <div ex:role="facet" ex:expression=".category" ex:height="90px" ex:facetLabel="category &raquo;" id='category-facet' onclick="unmakeFacet(this, 'category &raquo;', '.category')"></div>
-                            <div ex:role="facet" ex:expression=".semester" ex:selection="Fall" ex:height="90px" ex:facetLabel="semester &raquo;" id='semester-facet' onclick="unmakeFacet(this, 'semester &raquo;', '.semester')"></div>
-                            <div ex:role="facet" ex:expression=".offering" ex:selection="Currently Offered" ex:facetLabel="offering &raquo;" id='offering-facet' onclick="unmakeFacet(this, 'offering &raquo;', '.offering')"></div>
+                            <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' onclick="unmakeFacet(this)" ex:height="17em"></div>
+                            <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' onclick="unmakeFacet(this)" ex:height="7em" ex:selection="Fall"></div>
+                            <div ex:role="facet" ex:expression=".offering" ex:facetLabel="offering &raquo;" id='offering-facet' onclick="unmakeFacet(this)" ex:height="8em" ex:selection="Currently Offered"></div>
                         </td>
                         <td>
                             <div ex:role="view"

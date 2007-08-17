@@ -274,29 +274,58 @@ function browseCourses() {
     fNext();
 }
 
-function makeFacet(div, expression) {
-    var facetLabel = div.innerHTML;
-    var configuration = { expression: expression, facetLabel: facetLabel };
-    if (expression == '.level') {
-        configuration.height = "45px";
+var facetData = {
+    'level-facet': {
+        expression: '.level',
+        facetLabel: 'level &raquo;',
+        height:     '4em'
+    },
+    'units-facet': {
+        expression: '.units',
+        facetLabel: 'units &raquo;'
+    },
+    'total-units-facet': {
+        expression: '.total-units',
+        facetLabel: 'total units &raquo;',
+        height:     '8em'
+    },
+    'day-facet': {
+        expression: '!class!section.day',
+        facetLabel: 'day of week &raquo;',
+        fixedOrder: 'M; T; W; R; F'
+    },
+    'category-facet': {
+        expression: '.category',
+        facetLabel: 'category &raquo;',
+        height:     '20em'
+    },
+    'semester-facet': {
+        expression: '.semester',
+        facetLabel: 'semester &raquo;',
+        height:     '7em'
+    },
+    'offering-facet': {
+        expression: '.offering',
+        facetLabel: 'offering &raquo;',
+        height:     '8em'
     }
-    if (expression == '.total-units') {
-        configuration.height = "60px";
-    }
-    div.className = "";
-    
-    var facet = Exhibit.UI.createFacet(configuration, div, window.exhibit.getUIContext());    
-    window.exhibit.setComponent(div.id, facet);
-    
-    div.onclick = function() { unmakeFacet(div, facetLabel, expression); }
 };
 
-function unmakeFacet(div, facetLabel, expression) {
-try {    window.exhibit.disposeComponent(div.id);
-} catch (e) { console.log(e); }
-    div.innerHTML = facetLabel;
+function makeFacet(div) {
+    div.className = "";
+    
+    var facet = Exhibit.UI.createFacet(facetData[div.id], div, window.exhibit.getUIContext());    
+    window.exhibit.setComponent(div.id, facet);
+    
+    div.onclick = function() { unmakeFacet(div); }
+};
+
+function unmakeFacet(div) {
+    window.exhibit.disposeComponent(div.id);
+    
+    div.innerHTML = facetData[div.id].facetLabel;
     div.className = "collapsed-facet";
-    div.onclick = function() { makeFacet(div, expression); }
+    div.onclick = function() { makeFacet(div); };
 }
 
 function pickedSectionUpdate() {
@@ -305,7 +334,6 @@ function pickedSectionUpdate() {
 }
 
 function pick(thediv) {
-
     var sectionID = thediv.getAttribute("sectionID");
     SimileAjax.History.addLengthyAction(
         function() { doPick(thediv, sectionID) },
@@ -315,7 +343,6 @@ function pick(thediv) {
 }
 
 function unpick(thediv) {
-    
     var sectionID = thediv.getAttribute("sectionID");
     SimileAjax.History.addLengthyAction(
         function() { doUnpick(thediv, sectionID) },
@@ -325,13 +352,13 @@ function unpick(thediv) {
 }
 
 function doPick(thediv, sectionID) {
-        window.database.addStatement(sectionID, "picked", "true");
-        window.database.addStatement(sectionID, "color", getNewColor());
-        window.database.removeStatement(sectionID, "temppick", "true");
-        
-        window.exhibit.getCollection("picked-sections")._update();
+    window.database.addStatement(sectionID, "picked", "true");
+    window.database.addStatement(sectionID, "color", getNewColor());
+    window.database.removeStatement(sectionID, "temppick", "true");
+    
+    window.exhibit.getCollection("picked-sections")._update();
 
-        showHidePickDiv(thediv, false); 
+    showHidePickDiv(thediv, false); 
 }
 function doUnpick(thediv, sectionID) {
     var color = window.database.getObject(sectionID, "color");
