@@ -138,9 +138,9 @@
                     </td>
                 </tr>
                 <tr valign="bottom">
-                    <td><table> 
+                    <td><table>
                             <tr ex:content="!class">
-                                <td ex:if="exists(.picked)">
+                                <td><div ex:if="exists(.picked)">
                                     <div class="each-section-picked" ex:id-subcontent="divid-{{value}}" ex:sectionID-content="value" onclick="unpick(this);">
                                         <div class="add-remove"><img src="images/add.png" onclick="pick(this.parentNode.parentNode);" style="display:none">
                                         <img src="images/remove.png" class="add-remove-icon" onclick="unpick(this.parentNode.parentNode);"></div>                        
@@ -157,7 +157,7 @@
                                             <div><span class="lecture-day" ex:content=".day"></span> <span ex:content=".start"></span><b>-</b><span ex:content=".end"></span></div>
                                         </div>
                                     </div>
-                                </td>
+                                </div></td>
                             </tr>
                         </table>
                     </td>
@@ -205,7 +205,7 @@
                 <tr valign="bottom">
                     <td><table> 
                             <tr>
-                                <td ex:if="exists(.picked)">
+                                <td><div ex:if="exists(.picked)">
                                     <div class="each-section-picked" ex:sectionID-content="value" onclick="unpick(this);">
                                         <div class="add-remove"><img src="images/add.png" onclick="pick(this.parentNode.parentNode);" style="display:none">
                                         <img src="images/remove.png" class="add-remove-icon" onclick="unpick(this.parentNode.parentNode);"></div>                        
@@ -222,7 +222,7 @@
                                             <div><span class="lecture-day" ex:content=".day"></span> <span ex:content=".start"></span><b>-</b><span ex:content=".end"></span></div>
                                         </div>
                                     </div>
-                                </td>
+                                </div></td>
                             </tr>
                         </table>
                     </td>
