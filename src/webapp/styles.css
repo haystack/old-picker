@@ -7,6 +7,9 @@ body {
 table {
     font-size: 100%;
 }
+tr {
+    vertical-align: top;
+}
 
 /*
  * Big UI pieces
@@ -168,28 +171,20 @@ span.course-semester {
 span.lecture-day {
 	font-weight: bold
 }
+
 div.each-section-unpicked {
-	border:   		1px #884 solid;
-	background:     #ffd;
-	cursor:         pointer;
-	padding:		.5em;
-	position:		relative;
+    background:     #FFFCE6;
+	padding:		.25em;
 }
 div.each-section-picked {
-	border:   		1px #0f0 solid;
 	background:     #ddb;
-	cursor:         pointer;
-	padding:		.5em;
-	position:		relative;
+	padding:		.25em;
 }
-div.add-remove {
-	float:		right;
-	position:	absolute;
-	top:		0px;
-	right:		-19px;
-	background:	#ffd;
-	border:		1px #884 solid;
+div.each-section-picked button, div.each-section-unpicked button {
+    width:          7em;
+    float:          right;
 }
+
 div.picked-interface-list {
 	position:	relative;
 }
@@ -201,12 +196,8 @@ img.picked-interface-icon {
 span.section-instructor {
 	font-style:		italic;
 }
-button.pick-button {
-    float: right;
-}
-button.unpick-button {
-    float: right;
-    background: yellow;
+span.section-schedule {
+	font-style:		italic;
 }
 
 table.course-body {
