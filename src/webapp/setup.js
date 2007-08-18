@@ -2,70 +2,44 @@ function onLoad() {
     var installHandlers = function(td, num) {
         td.style.cursor = "pointer";
         td.onclick = function() {
-            document.getElementById(num).click();
+            document.getElementById('c' + num).click();
         };
     };
     
     var table = document.getElementById("course-list");
-    for (var i = 0; i < 11; i++) {
-        var course = courses[i];
-        var tr = table.insertRow(i);
+    var rowCount = Math.ceil(courses.length / 3);
+    for (var r = 0; r < rowCount; r++) {
+        var tr = table.insertRow(r);
         
-        var td0 = tr.insertCell(0);
-        td0.innerHTML = "<input type='checkbox' " + (course.hasData ? "" : "disable") + "name='course' id='" + course.number + "'value='" + course.number + "'>" + course.number + "</input>";
-        
-        var td1 = tr.insertCell(1);
-        td1.innerHTML = course.name;
-        
-        if (course.hasData) {
-            installHandlers(td1, course.number);
-        };
-        
-        if (!course.hasData) {
-            td0.style.color = "#888";
-            td1.style.color = "#888";
+        for (var c = 0; c < 3; c++) {
+            var i = r * 3 + c;
+            if (i >= courses.length) {
+                break;
+            }
+            
+            var course = courses[i];
+            var td0 = tr.insertCell(c * 3);
+            td0.innerHTML = course.number;
+            td0.align = "right";
+            
+            var td1 = tr.insertCell(c * 3 + 1);
+            td1.innerHTML = "<input type='checkbox' " + (course.hasData ? "" : "disabled") + " name='course' id='c" + course.number + "'value='" + course.number + "' />";
+            
+            var td2 = tr.insertCell(c * 3 + 2);
+            td2.innerHTML = course.name;
+            
+            if (course.hasData) {
+                installHandlers(td0, course.number);
+                installHandlers(td2, course.number);
+            };
+            
+            if (!course.hasData) {
+                td0.style.color = "#888";
+                td1.style.color = "#888";
+                td2.style.color = "#888";
+            }
         }
-    };
-    for (var j = 0; j < 11; j++) {
-        var course = courses[j+11];
-        var td2 = table.rows[j].insertCell(2);
-        td2.innerHTML = "<input type='checkbox' " + (course.hasData ? "" : "disabled") + "name='course' id='" + course.number + "'value='" + course.number + "'>" + course.number + "</input>";
-        
-        var td3 = table.rows[j].insertCell(3);
-        td3.innerHTML = course.name;
-        
-        if (course.hasData) {
-            installHandlers(td3, course.number);
-        };
-        
-        if (!course.hasData) {
-            td2.style.color = "#888";
-            td3.style.color = "#888";
-        }
-        
-        // This is just to make developing a bit easier...remove for deployment
-        if (debug && course.number == 6) {
-           td2.firstChild.checked = true;
-           document.getElementById('hass-d').checked = true;
-        }
-    };
-    for (var k = 0; k < 10; k++) {
-        var course = courses[k+22];
-        var td4 = table.rows[k].insertCell(4);
-        td4.innerHTML = "<input type='checkbox' " + (course.hasData ? "" : "disabled") + "name='course' id='" + course.number + "'value='" + course.number + "'>" + course.number + "</input>";
-        
-        var td5 = table.rows[k].insertCell(5);
-        td5.innerHTML = course.name;
-        
-        if (course.hasData) {
-            installHandlers(td5, course.number);
-        };
-        
-        if (!course.hasData) {
-            td4.style.color = "#888";
-            td5.style.color = "#888";
-        }
-    };
+    }
     
     if (debug) {
         browseCourses(); // Ditto here.
