@@ -12,7 +12,7 @@ function onLoad() {
         var tr = table.insertRow(r);
         
         for (var c = 0; c < 3; c++) {
-            var i = r * 3 + c;
+            var i = c * rowCount + r;
             if (i >= courses.length) {
                 break;
             }
