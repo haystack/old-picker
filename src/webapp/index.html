@@ -95,9 +95,8 @@
                 style="height:250px"></div>
             <div id="total-units"></div>
             <div ex:role="viewPanel">
-                <div ex:role="lens" class="picked-interface-list">
-                    <img src="images/remove.png" class="picked-interface-icon" ex:sectionID-content="value" onclick="onUnpick(this);" />
-                    <span ex:background-style-content=".color">&nbsp;&nbsp;</span> 
+                <div ex:role="lens" class="preview-class-lens" ex:background-style-content=".color">
+                    <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
                     <span ex:content=".class.label"></span>
                 </div>
                 <div ex:role="view"

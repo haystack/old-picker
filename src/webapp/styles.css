@@ -50,7 +50,7 @@ tr {
 }
 
 #schedule-preview-pane > div {
-    padding:    10px;
+    padding:    8px;
 }
 #schedule-preview-pane #mini-timegrid {
     padding:    0px;
@@ -180,13 +180,19 @@ span.section-schedule {
 	font-style:		italic;
 }
 
-div.picked-interface-list {
-	position:	relative;
+#schedule-preview-pane ol.exhibit-tileView-body {
+    padding-left:   1.75em;
 }
-img.picked-interface-icon {
-	position:	absolute;
-	left:		-40px;
-	cursor:		pointer;	
+#schedule-preview-pane .exhibit-tileView-body li {
+    clear: both;
+}
+div.preview-class-lens {
+	padding:        2px;
+    color:          white;
+    margin-bottom:  1px;
+}
+button.remove-preview {
+    float: right;
 }
 
 div.course-topic {
