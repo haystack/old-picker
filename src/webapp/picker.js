@@ -103,16 +103,20 @@ function doUnpick(sectionID) {
 }
 
 function onMouseOverSection(div) {
-    var sectionID = div.getAttribute("sectionID");
-    if (window.database.getObject(sectionID, "picked") == null) {
-        updateMiniTimegrid(sectionID);
+    if (!SimileAjax.Platform.browser.isIE) {
+        var sectionID = div.getAttribute("sectionID");
+        if (window.database.getObject(sectionID, "picked") == null) {
+            updateMiniTimegrid(sectionID);
+        }
     }
 }
 
 function onMouseOutSection(div) {
-    var sectionID = div.getAttribute("sectionID");
-    if (window.database.getObject(sectionID, "picked") == null) {
-        updateMiniTimegrid();
+    if (!SimileAjax.Platform.browser.isIE) {
+        var sectionID = div.getAttribute("sectionID");
+        if (window.database.getObject(sectionID, "picked") == null) {
+            updateMiniTimegrid();
+        }
     }
 }
 
