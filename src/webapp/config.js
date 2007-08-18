@@ -151,6 +151,11 @@ var facetData = {
         facetLabel: 'day of week &raquo;',
         fixedOrder: 'M; T; W; R; F'
     },
+    'eng-conc-facet': {
+        expression: '.engineering-concentration',
+        facetLabel: 'eng. conc. &raquo;',
+        height:     '20em'
+    },
     'category-facet': {
         expression: '.category',
         facetLabel: 'category &raquo;',
