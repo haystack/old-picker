@@ -13,13 +13,16 @@ table {
  */
 #title {
     padding:        0.75em;
-    border-bottom:  1px solid #ccc;
-    background:     #eee;
+    background:     #9996C5;
+    color:          #15243B;
 }
 #title h1 {
     margin:         0px;
     padding:        0px;
     font-size:      150%;
+}
+#title a {
+    color:          white;
 }
 
 #starting-interface {
@@ -39,8 +42,8 @@ table {
     top:        1em;
     right:      -1px;
     width:      20em;
-    background: #eee;
-    border:     1px solid #2080D0;
+    background: #FFFCE6;
+    border:     1px solid #fcd1ac;
 }
 
 #schedule-preview-pane > div {
@@ -52,15 +55,15 @@ table {
 #schedule-preview-pane div.title {
     margin:         0;
     padding:        0.25em 0.5em;
-    background:     #4292D8;
-    color:          white;
+    background:     #fcd1ac;
+    color:          #15243B;
 }
 #schedule-preview-pane div.title span {
     font-size:      120%;
     font-weight:    bold;
 }
 #schedule-preview-pane div.title a {
-    color:              white;
+    color:              #15243B;
     text-decoration:    none;
 }
 
@@ -78,15 +81,15 @@ table {
 #schedule-details-layer div.title {
     margin:         0;
     padding:        0.25em 0.5em;
-    background:     #4292D8;
-    color:          white;
+    background:     #fcd1ac;
+    color:          #15243B;
 }
 #schedule-details-layer div.title span {
     font-size:      120%;
     font-weight:    bold;
 }
 #schedule-details-layer div.title a {
-    color:              white;
+    color:              #15243B;
     text-decoration:    none;
 }
 
@@ -104,26 +107,30 @@ table {
 
 #mini-timegrid {
     margin: 5px;
-    border: 1px solid #888;
+    font-size: 80%;
+    border: 0px;
+}
+#mini-timegrid .timegrid-ylabels div.timegrid-label {
+    padding-top: 0px;
 }
 
 div.collapsed-facet {
-    border:     1px solid #aaa;
-    background: #eee;
-    padding:    0.25em;
+    border:     none;
+    background: #FCD1AC;
+    padding:    1px 2px;
     cursor:     pointer;
     margin-bottom:  0.5em;
 }
 
 div.exhibit-facet-header {
-    border:     1px solid #aaa;
-    background: #eee;
-    padding:    0.25em;
+    border:     none;
+    background: #FCD1AC;
+    padding:    1px 2px;
     cursor:     pointer;
 }
 div.exhibit-facet-body {
     background: white;
-    border:     1px solid #aaa;
+    border:     none;
 }
 
 div.timegrid-week-highlight {
@@ -140,7 +147,8 @@ div.course-lens {
 div.course-title {
     padding:        0.25em;
     font-weight:    bold;
-    background:     #dde;
+    background:     #9996c5;
+    color:          #FFFCE6;
 }
 div.hkn-statistics {
 	border: 1px solid #aaa;

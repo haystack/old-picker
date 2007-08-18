@@ -47,18 +47,18 @@
             <!-- ==================== Classes Layer ==================== -->
             <div id="classes-layer">
                 <div ex:role="collection" ex:itemTypes="Class"></div>
-                <table cellpadding="20">
+                <table cellpadding="10" border="0" cellspacing="0">
                     <tr valign="top">
-                        <td width="25%" style="background: #EFECCA">
+                        <td width="20%" style="background: #C6AAB6">
                             <b>Search</b>
                             <div ex:role="facet" ex:facetClass="TextSearch"></div>
-                            <hr />
+                            <hr/>
                             <div class="collapsed-facet" onclick="makeFacet(this)" id='level-facet'>level &raquo;</div>
                             <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
                             <div class="collapsed-facet" onclick="makeFacet(this)" id='total-units-facet'>total units &raquo;</div>
                             <div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
                             
-                            <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' onclick="unmakeFacet(this)" ex:height="17em"></div>
+                            <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' onclick="unmakeFacet(this)" ex:height="20em"></div>
                             <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' onclick="unmakeFacet(this)" ex:height="7em" ex:selection="Fall"></div>
                             <div ex:role="facet" ex:expression=".offering" ex:facetLabel="offering &raquo;" id='offering-facet' onclick="unmakeFacet(this)" ex:height="8em" ex:selection="Currently Offered"></div>
                         </td>
@@ -108,7 +108,7 @@
         <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class">
             <div class="course-title">
                 <span ex:content=".semester" class="course-semester"></span>
-                <span ex:content=".courseNumber"></span> &bull; <span ex:content=".label"></span>
+                <span ex:content=".label"></span>
             </div>
             <table class="course-body">
                 <tr>
