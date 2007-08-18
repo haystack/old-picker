@@ -122,7 +122,10 @@
                     
                     <div ex:content="!class">
                         <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
-                            ex:id-subcontent="divid-{{value}}">
+                            ex:id-subcontent="divid-{{value}}"
+                            ex:sectionID-content="value"
+                            onmouseover="onMouseOverSection(this);"
+                            onmouseout="onMouseOutSection(this);">
                             <button
                                 ex:sectionID-content="value" 
                                 ex:content="if(exists(.picked), 'Remove', 'Add')"

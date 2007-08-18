@@ -102,16 +102,18 @@ function doUnpick(sectionID) {
     showHidePickDiv(sectionID, false);
 }
 
-function mouseOverPick(thediv) {
-    var sectionID = thediv.getAttribute("sectionID");
-    if (!window.database.getObject(sectionID, "picked")) {
-        window.database.addStatement(sectionID, "picked", "true");
-        window.database.addStatement(sectionID, "color", getNewColor());
-        window.database.addStatement(sectionID, "temppick", "true");
-        window.exhibit.getCollection("picked-sections")._update();
+function onMouseOverSection(div) {
+    var sectionID = div.getAttribute("sectionID");
+    if (window.database.getObject(sectionID, "picked") == null) {
+        updateMiniTimegrid(sectionID);
     }
 }
-function mouseOutPick(thediv) {
+
+function onMouseOutSection(div) {
+    var sectionID = div.getAttribute("sectionID");
+    if (window.database.getObject(sectionID, "picked") == null) {
+        updateMiniTimegrid();
+    }
 }
 
 function showHidePickDiv(sectionID, picked) {
