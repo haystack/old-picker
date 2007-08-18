@@ -65,10 +65,6 @@ tr {
     font-size:      120%;
     font-weight:    bold;
 }
-#schedule-preview-pane div.title a {
-    color:              #15243B;
-    text-decoration:    none;
-}
 
 #classes-layer {
     margin-right:   20em;
@@ -91,11 +87,6 @@ tr {
     font-size:      120%;
     font-weight:    bold;
 }
-#schedule-details-layer div.title a {
-    color:              #15243B;
-    text-decoration:    none;
-}
-
 
 #no-picked-classes {
     padding:    2em;
@@ -108,14 +99,6 @@ tr {
     text-align: center;
 }
 
-#mini-timegrid {
-    margin: 5px;
-    font-size: 80%;
-    border: 0px;
-}
-#mini-timegrid .timegrid-ylabels div.timegrid-label {
-    padding-top: 0px;
-}
 
 div.collapsed-facet {
     border:     none;
@@ -136,6 +119,14 @@ div.exhibit-facet-body {
     border:     none;
 }
 
+#mini-timegrid {
+    margin: 5px;
+    font-size: 80%;
+    border: 0px;
+}
+#mini-timegrid .timegrid-ylabels div.timegrid-label {
+    padding-top: 0px;
+}
 div.timegrid-week-highlight {
     background: none;
 }
@@ -153,25 +144,23 @@ div.course-title {
     background:     #9996c5;
     color:          #FFFCE6;
 }
-div.hkn-statistics {
-	border: 1px solid #aaa;
-	clear: right;
-	padding: .5em 1em .5em 1em;
-	margin-top: 1em;
-}
-div.hkn-stats-header {
-	border-bottom: 1px black dashed;
-	margin-bottom: .5em;
-	font-weight: bold;
-
-}
 span.course-semester {
     float: right;
 }
-span.lecture-day {
-	font-weight: bold
+table.course-body {
+    width: 100%;
 }
 
+div.hkn-statistics {
+	border:     1px solid #aaa;
+}
+div.hkn-stats-header {
+	border-bottom:  1px #aaa solid;
+    background:     #ccc;
+	padding:        1px 3px;
+	font-weight:    bold;
+
+}
 div.each-section-unpicked {
     background:     #FFFCE6;
 	padding:		.25em;
@@ -184,6 +173,12 @@ div.each-section-picked button, div.each-section-unpicked button {
     width:          7em;
     float:          right;
 }
+span.section-instructor {
+	font-style:		italic;
+}
+span.section-schedule {
+	font-style:		italic;
+}
 
 div.picked-interface-list {
 	position:	relative;
@@ -193,31 +188,13 @@ img.picked-interface-icon {
 	left:		-40px;
 	cursor:		pointer;	
 }
-span.section-instructor {
-	font-style:		italic;
-}
-span.section-schedule {
-	font-style:		italic;
-}
-
-table.course-body {
-    width: 100%;
-}
-table.course-body td {
-    padding: 0.25em;
-}
 
 div.course-topic {
 }
 div.course-description {
     padding:        0.5em 0 0.5em 0;
 }
-div.course-instructors {
-    font-style: italic;
-}
-
 td.course-logistics {
-    background: #eee;
 }
 div.no-offering {
     font-size: 120%;

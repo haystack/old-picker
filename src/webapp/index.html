@@ -15,7 +15,9 @@
     <body onload="onLoad();">
         <div id="title">
             <h1>MIT Course Catalogue Pickr (beta)</h1>
-            <div><a href="mailto:course-picker@lists.csail.mit.edu">contact us</a> for questions, comments, etc.</div>
+            <div>Powered by <a href="http://simile.mit.edu/exhibit/">Exhibit</a>.
+                <a href="mailto:course-picker@lists.csail.mit.edu">Contact us</a> for questions, comments, etc.
+            </div>
         </div>
         
         <!-- ==================== Starting Interface ==================== -->
@@ -35,7 +37,7 @@
         <div id="browsing-interface">
             <!-- ==================== Schedule Details Layer ==================== -->
             <div id="schedule-details-layer">
-                <div class="title"><a style="float: right;" href="javascript:onShowSchedulePreview();">back to browsing classes &raquo;</a>
+                <div class="title"><button style="float: right;" onclick="onShowSchedulePreview();">back to all classes &raquo;</button>
                     <span>Weekly Schedule</span>
                 </div>
                 <div style="margin: 2em">
@@ -52,7 +54,7 @@
                 <div ex:role="collection" ex:itemTypes="Class"></div>
                 <table cellpadding="10" border="0" cellspacing="0">
                     <tr valign="top">
-                        <td width="20%" style="background: #C6AAB6">
+                        <td width="23%" style="background: #C6AAB6">
                             <b>Search</b>
                             <div ex:role="facet" ex:facetClass="TextSearch"></div>
                             <hr/>
@@ -67,8 +69,8 @@
                         </td>
                         <td>
                             <div ex:role="view"
-                                ex:orders=".courseNumber"
-                                ex:possibleOrders=".label, .courseNumber, .semester, .offering, .topic, .level, .category, .units, .total-units, .instructor"
+                                ex:orders=".label"
+                                ex:possibleOrders=".label, .semester, .offering, .topic, .level, .category, .units, .total-units"
                                 ex:showAll="false"
                                 ex:grouped="false">
                             </div>
@@ -81,7 +83,7 @@
         
         <!-- ==================== Schedule Preview Pane ==================== -->
         <div id="schedule-preview-pane">
-            <div class="title"><a style="float: right;" href="javascript:onShowScheduleDetails();">show details &raquo;</a>
+            <div class="title"><button style="float: right;" onclick="onShowScheduleDetails();">show details &raquo;</button>
                 <span>Weekly Schedule</span>
             </div>
             
@@ -113,7 +115,7 @@
                 <span ex:content=".semester" class="course-semester"></span>
                 <span ex:content=".label"></span>
             </div>
-            <table class="course-body"><tr>
+            <table class="course-body" cellspacing="10"><tr>
                 <td>
                     <div ex:content=".topic" class="course-topic"></div>
                     <div ex:content=".description" class="course-description"></div>
@@ -136,18 +138,24 @@
                         <div ex:case="Currently Offered"></div>
                         <div ex:content=".offering" class="no-offering"></div>
                     </div>
-                    <div ex:content=".units"></div>
+                    <div>Units: <span ex:content=".units"></span></div>
                     <div ex:content=".category"></div>
-                    <div ex:if-exists=".TQE">TQE: <span ex:content=".TQE"></span></div>
                     <div ex:if-exists="!class.orating" class="hkn-statistics">
                         <div class="hkn-stats-header">HKN Statistics</div>
                         <div ex:content="!class">
-                            <div ex:if-exists=".last-taught">Last time taught by this instructor: <span ex:content=".last-taught"></span></div>
-                            <div>Instructor: <span ex:content=".irating"></span>/7.0</div>
-                            <div>Overall: <span ex:content=".orating"></span>/7.0</div>
-                            <div>Difficulty: <span ex:content=".odifficulty"></span>/7.0</div>
-                            <div>Hours: <span ex:content=".reported-hours"></span></div>
-                            <div><a ex:href-content=".evaluation">More info</a></div>
+                            <table cellspacing="5" cellpadding="0">
+                                <tr><td>Instructor:</td>
+                                    <td><span ex:content=".irating"></span>/7.0</td></tr>
+                                <tr ex:if-exists=".last-taught"><td>Last taught:</td>
+                                    <td ex:content=".last-taught"></td></tr>
+                                <tr><td>Overall:</td>
+                                    <td><span ex:content=".orating"></span>/7.0</td></tr>
+                                <tr><td>Difficulty:</td>
+                                    <td><span ex:content=".odifficulty"></span>/7.0</td></tr>
+                                <tr><td>Hours:</td>
+                                    <td><span ex:content=".reported-hours"></span></td></tr>
+                                <tr><td><a ex:href-content=".evaluation">More info</a></td></tr>
+                            </table>
                         </div>
                     </div>
                 </td>
@@ -160,7 +168,7 @@
                 <span ex:content=".class.semester" class="course-semester"></span>
                 <span ex:content=".class.courseNumber"></span> &bull; <span ex:content=".class.label"></span>
             </div>
-            <table class="course-body"><tr>
+            <table class="course-body" cellspacing="10"><tr>
                 <td>
                     <div ex:content=".class.topic" class="course-topic"></div>
                     <div ex:content=".class.description" class="course-description"></div>
@@ -172,22 +180,30 @@
                         <span class="section-schedule" ex:content="foreach(!section, concat(.day, ' ', .start, '-', .end))"></span>
                     </div>
                 </td>
-                <td width="30%" class="course-logistics" rowspan="2">
-                    <div ex:select=".class.offering">
+                <td width="30%" class="course-logistics" ex:content=".class">
+                    <div ex:select=".offering">
                         <div ex:case="Currently Offered"></div>
-                        <div ex:content=".class.offering" class="no-offering"></div>
+                        <div ex:content=".offering" class="no-offering"></div>
                     </div>
-                    <div ex:content=".class.units"></div>
-                    <div ex:content=".class.category"></div>
-                    <div ex:if-exists=".class.TQE">TQE: <span ex:content=".class.TQE"></span></div>
-                    <div ex:if-exists=".orating" class="hkn-statistics">
+                    <div>Units: <span ex:content=".units"></span></div>
+                    <div ex:content=".category"></div>
+                    <div ex:if-exists="!class.orating" class="hkn-statistics">
                         <div class="hkn-stats-header">HKN Statistics</div>
-                        <div ex:if-exists=".last-taught">Last time taught by this instructor: <span ex:content=".last-taught"></span></div>
-                        <div>Instructor: <span ex:content=".irating"></span>/7.0</div>
-                        <div>Overall: <span ex:content=".orating"></span>/7.0</div>
-                        <div>Difficulty: <span ex:content=".odifficulty"></span>/7.0</div>
-                        <div>Hours: <span ex:content=".reported-hours"></span></div>
-                        <div><a ex:href-content=".evaluation">More info</a></div>
+                        <div ex:content="!class">
+                            <table cellspacing="5" cellpadding="0">
+                                <tr><td>Instructor:</td>
+                                    <td><span ex:content=".irating"></span>/7.0</td></tr>
+                                <tr ex:if-exists=".last-taught"><td>Last taught:</td>
+                                    <td ex:content=".last-taught"></td></tr>
+                                <tr><td>Overall:</td>
+                                    <td><span ex:content=".orating"></span>/7.0</td></tr>
+                                <tr><td>Difficulty:</td>
+                                    <td><span ex:content=".odifficulty"></span>/7.0</td></tr>
+                                <tr><td>Hours:</td>
+                                    <td><span ex:content=".reported-hours"></span></td></tr>
+                                <tr><td><a ex:href-content=".evaluation">More info</a></td></tr>
+                            </table>
+                        </div>
                     </div>
                 </td>
             </tr></table>
