@@ -4,8 +4,9 @@
  */
 
 var miniEventSource = new Timegrid.RecurringEventSource();
+var timegridEventSource = new Timegrid.RecurringEventSource();
 
-function updateMiniTimegrid(previewSectionID) {
+function updateMiniTimegrid(preview, previewSectionID) {
     var collection = window.exhibit.getCollection("picked-sections");
     var dayMap = {
         'M' : 1,
@@ -19,7 +20,9 @@ function updateMiniTimegrid(previewSectionID) {
     var eProtos = [];
     var addSection = function(sectionID) {
         var db = window.exhibit.getDatabase();
+        var classID = db.getObject(sectionID, "class");
         var color = db.getObject(sectionID, "color");
+        
         db.getSubjects(sectionID, "section").visit(function(lecID) {
             var parseTime = function(s) {
                 return s ? Date.parseString(s, "H:mm") ||
@@ -31,23 +34,45 @@ function updateMiniTimegrid(previewSectionID) {
                     start.clone().add('h', 1);
             var day   = dayMap[dayLetter];
             var eProto = new Timegrid.RecurringEventSource.EventPrototype(
-                [day], start, end, "", "", "", "", "", color, "");
+                [ day ], 
+                start, 
+                end, 
+                db.getObject(classID, "label"), 
+                "", 
+                "", 
+                "", 
+                "", 
+                color, 
+                "white"
+            );
             eProtos.push(eProto);
         });
     };
+    
     itemSet.visit(addSection);
-    if (previewSectionID) {
-        addSection(previewSectionID);
+    if (preview) {
+        if (previewSectionID) {
+            addSection(previewSectionID);
+        }
+        miniEventSource.setEventPrototypes(eProtos);
+    } else {
+        console.profile();
+        miniEventSource.setEventPrototypes(eProtos);
+        timegridEventSource.setEventPrototypes(eProtos);
+        console.profileEnd();
     }
-    
-    miniEventSource.setEventPrototypes(eProtos);
 };
-    
+
 function enableMiniTimegrid() {
     var collection = window.exhibit.getCollection("picked-sections");
     
-    collection.addListener({ onItemsChanged: function() { updateMiniTimegrid(); } });
+    collection.addListener({ onItemsChanged: function() { updateMiniTimegrid(false); } });
     updateMiniTimegrid();
     
-    window.timegrids = [Timegrid.createFromDOM($('#mini-timegrid').get(0))];
+    window.timegrids = [
+        Timegrid.createFromDOM($('#mini-timegrid').get(0)),
+        Timegrid.createFromDOM($('#timegrid').get(0))
+    ];
+    
+    window.onresize = function() { Timegrid.resize(); };
 };

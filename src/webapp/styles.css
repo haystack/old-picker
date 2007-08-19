@@ -75,8 +75,28 @@ tr {
     top:            0px;
     left:           0px;
     width:          100%;
-    display:        none;
+    visibility:     hidden;
 }
+#schedule-details-layer-inner {
+    margin:       1em; 
+    margin-right: 21em;
+}
+@media print {
+    #classes-layer {
+        display:    none;
+    }
+    #schedule-preview-pane {
+        display:    none;
+    }
+    #schedule-details-layer {
+        position:   static;
+        width:      100%;
+    }
+    #schedule-details-layer-inner {
+        margin-right: 1em;
+    }
+}
+
 #schedule-details-layer div.title {
     margin:         0;
     padding:        0.25em 0.5em;

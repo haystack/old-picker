@@ -43,12 +43,15 @@
                 <div class="title"><button style="float: right;" onclick="onShowSchedulePreview();">back to all classes &raquo;</button>
                     <span>Weekly Schedule</span>
                 </div>
-                <div style="margin: 2em">
-                    <div ex:role="view"
+                <div id="schedule-details-layer-inner">
+                    <!-- <div ex:role="view"
                         ex:collectionID="picked-sections"
                         ex:showAll="true"
                         ex:grouped="false">
-                    </div>
+                    </div> -->
+                    <div id="timegrid" tg:role="grid" 
+                        tg:views="week" tg:eventSource="timegridEventSource"
+                        tg:dayStart="8" tg:dayEnd="22" tg:yCell="100"></div>
                 </div>
             </div>
         

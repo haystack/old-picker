@@ -19,17 +19,21 @@ function onShowSchedulePreview() {
 }
 
 function showScheduleDetails() {
-    document.getElementById("classes-layer").style.display = "none";
+    document.getElementById("classes-layer").style.visibility = "hidden";
     document.getElementById("schedule-preview-pane").style.visibility = "hidden";
     
-    document.getElementById("schedule-details-layer").style.display = "block";
+    document.getElementById("schedule-details-layer").style.visibility = "visible";
+    
+    document.body.scrollTop = 0;
 }
 
 function showSchedulePreview() {
-    document.getElementById("schedule-details-layer").style.display = "none";
+    document.getElementById("schedule-details-layer").style.visibility = "hidden";
     
-    document.getElementById("classes-layer").style.display = "block";
+    document.getElementById("classes-layer").style.visibility = "visible";
     document.getElementById("schedule-preview-pane").style.visibility = "visible";
+    
+    document.body.scrollTop = 0;
 }
 
 function makeFacet(div) {
@@ -106,7 +110,7 @@ function onMouseOverSection(div) {
     if (!SimileAjax.Platform.browser.isIE) {
         var sectionID = div.getAttribute("sectionID");
         if (window.database.getObject(sectionID, "picked") == null) {
-            updateMiniTimegrid(sectionID);
+            updateMiniTimegrid(true, sectionID);
         }
     }
 }
@@ -115,7 +119,7 @@ function onMouseOutSection(div) {
     if (!SimileAjax.Platform.browser.isIE) {
         var sectionID = div.getAttribute("sectionID");
         if (window.database.getObject(sectionID, "picked") == null) {
-            updateMiniTimegrid();
+            updateMiniTimegrid(true, null);
         }
     }
 }
