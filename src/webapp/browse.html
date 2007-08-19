@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>MIT Course Catalogue Pickr (beta)</title>
-        <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js" type="text/javascript"></script>
+        <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js?autoCreate=false" type="text/javascript"></script>
         <script src="http://static.simile.mit.edu/timegrid/api/timegrid-api.js?autoCreate=false" type="text/javascript"></script>
         
         <script src="config.js" type="text/javascript"></script>
@@ -99,7 +99,7 @@
                 style="height:250px"></div>
             <div id="total-units"></div>
             <div ex:role="viewPanel">
-                <div ex:role="lens" class="preview-class-lens" ex:background-style-content=".color">
+                <div ex:role="lens" class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
                     <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
                     <span ex:content=".class.label"></span>
                 </div>
@@ -146,53 +146,6 @@
                     </div>
                 </td>
                 <td width="30%" class="course-logistics">
-                    <div ex:select=".offering">
-                        <div ex:case="Currently Offered"></div>
-                        <div ex:content=".offering" class="no-offering"></div>
-                    </div>
-                    <div>Units: <span ex:content=".units"></span></div>
-                    <div ex:content=".category"></div>
-                    <div ex:if-exists="!class.orating" class="hkn-statistics">
-                        <div class="hkn-stats-header">HKN Statistics</div>
-                        <div ex:content="!class">
-                            <table cellspacing="5" cellpadding="0">
-                                <tr><td>Instructor:</td>
-                                    <td><span ex:content=".irating"></span>/7.0</td></tr>
-                                <tr ex:if-exists=".last-taught"><td>Last taught:</td>
-                                    <td ex:content=".last-taught"></td></tr>
-                                <tr><td>Overall:</td>
-                                    <td><span ex:content=".orating"></span>/7.0</td></tr>
-                                <tr><td>Difficulty:</td>
-                                    <td><span ex:content=".odifficulty"></span>/7.0</td></tr>
-                                <tr><td>Hours:</td>
-                                    <td><span ex:content=".reported-hours"></span></td></tr>
-                                <tr><td><a ex:href-content=".evaluation">More info</a></td></tr>
-                            </table>
-                        </div>
-                    </div>
-                </td>
-            </tr></table>
-        </div>
-        
-        <!-- ==================== Section Lens ==================== -->
-        <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Section">
-            <div class="course-title">
-                <span ex:content=".class.semester" class="course-semester"></span>
-                <span ex:content=".class.courseNumber"></span> &bull; <span ex:content=".class.label"></span>
-            </div>
-            <table class="course-body" cellspacing="10"><tr>
-                <td>
-                    <div ex:content=".class.topic" class="course-topic"></div>
-                    <div ex:content=".class.description" class="course-description"></div>
-                    
-                    <div ex:class-subcontent="each-section-picked">
-                        <button ex:sectionID-content="value" onclick="onUnpick(this);">Remove</button>
-                        
-                        <span class="section-instructor" ex:content=".instructor"></span><br />
-                        <span class="section-schedule" ex:content="foreach(!section, concat(.day, ' ', .start, '-', .end))"></span>
-                    </div>
-                </td>
-                <td width="30%" class="course-logistics" ex:content=".class">
                     <div ex:select=".offering">
                         <div ex:case="Currently Offered"></div>
                         <div ex:content=".offering" class="no-offering"></div>
