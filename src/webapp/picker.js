@@ -36,16 +36,26 @@ function showSchedulePreview() {
     document.body.scrollTop = 0;
 }
 
+function setupExistingFacet(div) {
+    div.firstChild.onclick = function() { unmakeFacet(div); }
+}
+
 function makeFacet(div) {
     div.className = "";
     
     var facet = Exhibit.UI.createFacet(facetData[div.id], div, window.exhibit.getUIContext());    
     window.exhibit.setComponent(div.id, facet);
     
-    div.onclick = function() { unmakeFacet(div); }
+    div.firstChild.onclick = function() { unmakeFacet(div); }
+    div.onclick = null;
 };
 
 function unmakeFacet(div) {
+    var facet = window.exhibit.getComponent(div.id);
+    if (facet.hasRestrictions() && !window.confirm("You have something selected in this facet. OK to clear your selection?")) {
+        return;
+    }
+    
     window.exhibit.disposeComponent(div.id);
     
     div.innerHTML = facetData[div.id].facetLabel;

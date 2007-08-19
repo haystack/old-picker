@@ -44,6 +44,16 @@
                     <span>Weekly Schedule</span>
                 </div>
                 <div id="schedule-details-layer-inner">
+                    <p><b>To print, in Firefox 2.0:</b>
+                        <ol>
+                            <li>Select the browser's menu File &rarr; Print Preview.</li>
+                            <li>Select "Portrait" in the print preview dialog's toolbar, and set "Scale" to about 70%.</li>
+                            <li>Click "Page Setup" and check "Print Background (colors &amp; images)".</li>
+                            <li>Click OK.</li>
+                            <li>Then click "Print...".</li>
+                        </ol>
+                    </p>
+                    
                     <!-- <div ex:role="view"
                         ex:collectionID="picked-sections"
                         ex:showAll="true"
@@ -70,9 +80,9 @@
                             <div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
                             <div class="collapsed-facet" onclick="makeFacet(this)" id='eng-conc-facet'>engineering concentration &raquo;</div>
                             
-                            <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' onclick="unmakeFacet(this)" ex:height="20em"></div>
-                            <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' onclick="unmakeFacet(this)" ex:height="7em" ex:selection="Fall"></div>
-                            <div ex:role="facet" ex:expression=".offering" ex:facetLabel="offering &raquo;" id='offering-facet' onclick="unmakeFacet(this)" ex:height="8em" ex:selection="Currently Offered"></div>
+                            <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' ex:height="20em"></div>
+                            <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' ex:height="7em" ex:selection="Fall"></div>
+                            <div ex:role="facet" ex:expression=".offering" ex:facetLabel="offering &raquo;" id='offering-facet' ex:height="8em" ex:selection="Currently Offered"></div>
                         </td>
                         <td>
                             <div ex:role="view"

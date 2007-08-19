@@ -38,6 +38,10 @@ function onLoad() {
                 td1.style.color = "#888";
                 td2.style.color = "#888";
             }
+            
+            if (debug && course.number == "6") {
+                td1.firstChild.checked = true;
+            }
         }
     }
     
@@ -82,6 +86,10 @@ function browseCourses() {
         window.exhibit = Exhibit.create();
         window.exhibit.setCollection("picked-sections", pickedSections);
         window.exhibit.configureFromDOM();
+        
+        setupExistingFacet(document.getElementById("category-facet"));
+        setupExistingFacet(document.getElementById("semester-facet"));
+        setupExistingFacet(document.getElementById("offering-facet"));
         
         enableMiniTimegrid();
         enableUnitAdder();
