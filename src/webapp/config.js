@@ -211,14 +211,3 @@ function releaseColor(c) {
         }
     }
 }
-
-Exhibit.Functions["building"] = {
-    f: function(args) {
-        var building = "";
-        args[0].forEachValue(function(v) {
-            building = v.split("-")[0];
-            return true;
-        });
-        return new Exhibit.Expression._Collection([ building ],  "text");
-    }
-};
