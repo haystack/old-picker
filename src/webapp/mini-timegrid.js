@@ -56,10 +56,8 @@ function updateMiniTimegrid(preview, previewSectionID) {
         }
         miniEventSource.setEventPrototypes(eProtos);
     } else {
-        console.profile();
         miniEventSource.setEventPrototypes(eProtos);
         timegridEventSource.setEventPrototypes(eProtos);
-        console.profileEnd();
     }
 };
 
