@@ -15,8 +15,8 @@
     <body onload="onLoad();">
         <div id="title">
             <h1>MIT Course Catalogue Pickr (beta)</h1>
-            <div>
-                <a href="help.html" target="_blank">HELP!</a> &bull;
+            <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
+                <a href="help.html" target="_blank"><img src="images/question.png" style="position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
                 <a href="mailto:course-picker@lists.csail.mit.edu">Contact Us</a> &bull;
                 This page is powered by <a href="http://simile.mit.edu/exhibit/">Exhibit</a> and
                 <a href="http://simile.mit.edu/timegrid/">Timegrid</a>.
@@ -68,7 +68,7 @@
                             <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
                             <div class="collapsed-facet" onclick="makeFacet(this)" id='total-units-facet'>total units &raquo;</div>
                             <div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
-                            <div class="collapsed-facet" onclick="makeFacet(this)" id='eng-conc-facet'>eng. conc. &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this)" id='eng-conc-facet'>engineering concentration &raquo;</div>
                             
                             <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' onclick="unmakeFacet(this)" ex:height="20em"></div>
                             <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' onclick="unmakeFacet(this)" ex:height="7em" ex:selection="Fall"></div>
@@ -138,7 +138,10 @@
                                 onclick="onPickUnpick(this);"></button>
                             
                             <span class="section-instructor" ex:content=".instructor"></span><br />
-                            <span class="section-schedule" ex:content="foreach(!section, concat(.day, ' ', .start, '-', .end))"></span>
+                            <span class="section-schedule" ex:content="!section"> &bull; 
+                                <span ex:content=".day"></span>
+                                <span ex:content=".start"></span>-<span ex:content=".end"></span> in 
+                                <a ex:href-subcontent="http://whereis.mit.edu/map-jpg?selection={{building(.room)}}&Buildings=go" target="_blank" ex:content=".room"></a></span>
                         </div>
                     </div>
                 </td>

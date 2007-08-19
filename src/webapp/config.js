@@ -153,7 +153,7 @@ var facetData = {
     },
     'eng-conc-facet': {
         expression: '.engineering-concentration',
-        facetLabel: 'eng. conc. &raquo;',
+        facetLabel: 'engineering concentration &raquo;',
         height:     '20em'
     },
     'category-facet': {
@@ -211,3 +211,14 @@ function releaseColor(c) {
         }
     }
 }
+
+Exhibit.Functions["building"] = {
+    f: function(args) {
+        var building = "";
+        args[0].forEachValue(function(v) {
+            building = v.split("-")[0];
+            return true;
+        });
+        return new Exhibit.Expression._Collection([ building ],  "text");
+    }
+};

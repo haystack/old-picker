@@ -37,7 +37,7 @@ function updateMiniTimegrid(preview, previewSectionID) {
                 [ day ], 
                 start, 
                 end, 
-                db.getObject(classID, "label"), 
+                db.getObject(classID, "label") + " (" + db.getObject(lecID, "room") + ")", 
                 "", 
                 "", 
                 "", 
