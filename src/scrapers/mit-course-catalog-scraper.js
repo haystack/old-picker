@@ -115,8 +115,8 @@ for (var i = 0; i < elements.length; i++) {
     } else if (src.indexOf('/rest.gif') > 0) {
       categories.push('Restricted Electives in Science and Technology');
     } else if (src.indexOf('/hlevel.gif') > 0) {
-      categories.push('H-LEVEL Grad Credit');
-    }
+      categories.push('H-LEVEL Grad Credit');  
+    } 
   }
   if (offerings.length == 0) {
     offerings.push('Currently Offered');
@@ -141,9 +141,14 @@ for (var i = 0; i < elements.length; i++) {
     }
   }
   
-  var instructors = [];
-  var description = 'No description available.';
+  var hasFinal = false;
+  	try {
+  	  var fin = getText(element, './I/B/text()');
+  	  if (fin == "+final") { hasFinal = true; }
+  } catch (e) { }
   
+  var description = 'No description available.';
+  var instructors = [];
   var italics = utilities.gatherElementsOnXPath(document, element, './I', nsResolver);
   if (italics.length > 0) {
     var italic = italics[italics.length - 1];
@@ -159,16 +164,19 @@ for (var i = 0; i < elements.length; i++) {
     
     var node = italic.previousSibling;
     while (node != null) {
-      if (node.nodeType == 3) {
-        description = cleanString(node.nodeValue);
-        break;
-      }
+	  if (node.nodeType == 3) {
+	  	var string = cleanString(node.nodeValue);
+		if (string !== "..." && string !== "Spring:" && string !== "Fall:") { 
+		  description = string
+		  break;
+		}
+	  }
       node = node.previousSibling;
     }
+    
   }
   
   var bolds = utilities.gatherElementsOnXPath(document, element, './B', nsResolver);
-  var hasFinal = false;
   var lectures = [];
   for (var b = 0; b < bolds.length; b++) {
     var bold = bolds[b];
@@ -193,16 +201,25 @@ for (var i = 0; i < elements.length; i++) {
             if (hours.length > 1) {
               hours[1] = cleanHours(hours[1]);
             }
+            if (node.nextSibling.nextSibling.nodeName.toLowerCase() == "a") {
+              var room = cleanString(node.nextSibling.nextSibling.firstChild.nodeValue);
+            } else { var room = "Unknown"; }
             
             for (var d = 0; d < days.length; d++) {
               var day = days.substr(d,1);
-              var lecture = "L-" + classNumber + "-" + day + hours[0];
-              log("\tLecture" +
+              var lecture = "L-" + classNumber + "-" + day + hours[0] + "-" + room;
+              log("Lecture" +
                 "\t" + lecture +
                 "\t" + day +
                 "\t" + hours[0] +
-                "\t" + (hours.length > 1 ? hours[1] : "")
+                "\t" + (hours.length > 1 ? hours[1] : "") +
+                "\t" + room
               );
+              log("Section" + 
+				"\ts" + classNumber + 'a' +
+				"\tc" + classNumber + 
+				"\t" + instructors.join("; ")
+			  );
               lectures.push(lecture);
             }
           }
@@ -212,7 +229,7 @@ for (var i = 0; i < elements.length; i++) {
     }
   }
   
-  log((i+1) + "\tClass" + 
+  log("Class" + 
     "\tc" + classNumber + 
     "\t" + classSeries + 
     "\t" + classNumber + " - " + courseName + 
@@ -221,10 +238,10 @@ for (var i = 0; i < elements.length; i++) {
     "\t" + offerings.join("; ") +
     "\t" + categories.join("; ") +
     "\t" + instructors.join("; ") +
-    "\t" + lectures.join("; ") +
     "\t" + units +
     "\t" + totalUnits +
     "\t" + hasFinal +
     "\t" + description
   );
+  
 }
