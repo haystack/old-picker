@@ -60,6 +60,9 @@
                 <table cellpadding="10" border="0" cellspacing="0">
                     <tr valign="top">
                         <td width="23%" style="background: #BFBDAC">
+                            <p><input type="checkbox" onclick="processShowOnlyFavoriteClass(this);" /> show only favorites <img style="vertical-align: middle" src="images/yellow-star.png" />
+                            </p>
+                            
                             <b>Search</b>
                             <div ex:role="facet" ex:facetClass="TextSearch"></div>
                             <hr/>
@@ -118,6 +121,7 @@
         <!-- ==================== Class Lens ==================== -->
         <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class">
             <div class="course-title">
+                <img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />
                 <span ex:content=".semester" class="course-semester"></span>
                 <span ex:content=".label"></span>
             </div>
