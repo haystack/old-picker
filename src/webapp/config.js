@@ -119,7 +119,7 @@ var courses = [
     },
     {    number:    "STS",
         name:    "Science, Technology, and Society",
-        hasData: false
+        hasData: true
     },
     {    number:    "11",
         name:    "Urban Studies and Planning",
