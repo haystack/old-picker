@@ -7,7 +7,7 @@ var courses = [
     },
     {   number: "21A",
         name:   "Anthropology",
-        hasData: false
+        hasData: true
     },
     {   number: "4",
         name:   "Architecture",
@@ -63,7 +63,7 @@ var courses = [
     },
     {   number: "21F",
         name:   "Foreign Languages and Literatures",
-        hasData: false
+        hasData: true
     },
     {   number: "HST",
         name:   "Health Sciences and Technology",
@@ -71,7 +71,7 @@ var courses = [
     },
     {   number: "21H",
         name:   "History",
-        hasData: false
+        hasData: true
     },
     {   number: "24",
         name:   "Linguistics and Philosophy",
@@ -79,7 +79,7 @@ var courses = [
     },
     {    number:    "21L",
         name:    "Literature",
-        hasData: false
+        hasData: true
     },
     {    number:    "15",
         name:    "Management",
@@ -103,7 +103,7 @@ var courses = [
     },
     {    number:    "21M",
         name:    "Music and Theater Arts",
-        hasData: false
+        hasData: true
     },
     {    number:    "22",
         name:    "Nuclear Science and Engineering",
@@ -127,7 +127,7 @@ var courses = [
     },
     {    number:    "21W",
         name:    "Writing and Humanistic Studies",
-        hasData: false
+        hasData: true
     }
 ];
     
