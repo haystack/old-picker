@@ -140,9 +140,17 @@ for (var i = 0; i < elements.length; i++) {
       categories.push('H-LEVEL Grad Credit');  
     } 
   }
-  if (offerings.length == 0) {
-    offerings.push('Currently Offered');
-  }
+
+    var o = 0;
+    for (; o < offerings.length; o++) {
+        if (offerings[o] == "Not offered this year") {
+            break;
+        }
+    }
+    if (o == offerings.length) {
+        offerings.push('Currently Offered');
+    }
+  
 
   var fields = utilities.gatherElementsOnXPath(document, element, './/text()', nsResolver);
   var units = 'Unknown';
@@ -285,7 +293,7 @@ for (var i = 0; i < elements.length; i++) {
 
 log("type \tid \tcourse \tseries \tlabel \tlevel \tsemester \toffering \tcategory \tin-charge \tunits \ttotal-units \thas-final \tdescription:single \tprereqs:item \turl:url");
 for (var i = 0; i < classOutput.length; i++) { log(classOutput[i]); }
-log("type \tsection \tclass \tinstructor");
+log("type \tlabel \tclass \tinstructor");
 for (var i = 0; i < sectionOutput.length; i++) { log(sectionOutput[i]); }
-log("type \tsection \tlecture \tday \tstart \tend \troom");
+log("type \tsection \tlabel \tday \tstart \tend \troom");
 for (var i = 0; i < lectureOutput.length; i++) { log(lectureOutput[i]); }
