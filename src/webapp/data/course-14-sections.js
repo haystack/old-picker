@@ -18,6 +18,20 @@
 			"id" :         "s14.32a"
 		},
 		{
+			"instructor" : "Recitation Only",
+			"label" :      "s14.02c",
+			"type" :       "Section",
+			"class" :      "c14.02",
+			"id" :         "s14.02c"
+		},
+		{
+			"instructor" : "Recitation Only",
+			"label" :      "s14.01b",
+			"type" :       "Section",
+			"class" :      "c14.01",
+			"id" :         "s14.01b"
+		},
+		{
 			"instructor" : "Mikusheva, A.",
 			"label" :      "s14.384a",
 			"type" :       "Section",
@@ -25,11 +39,25 @@
 			"id" :         "s14.384a"
 		},
 		{
+			"instructor" : "Recitation Only",
+			"label" :      "s14.01e",
+			"type" :       "Section",
+			"class" :      "c14.01",
+			"id" :         "s14.01e"
+		},
+		{
 			"instructor" : "Yildiz, M.",
 			"label" :      "s14.12a",
 			"type" :       "Section",
 			"class" :      "c14.12",
 			"id" :         "s14.12a"
+		},
+		{
+			"instructor" : "Recitation Only",
+			"label" :      "s14.01c",
+			"type" :       "Section",
+			"class" :      "c14.01",
+			"id" :         "s14.01c"
 		},
 		{
 			"instructor" : [
@@ -69,6 +97,13 @@
 			"id" :         "s14.442Ja"
 		},
 		{
+			"instructor" : "Recitation Only",
+			"label" :      "s14.01d",
+			"type" :       "Section",
+			"class" :      "c14.01",
+			"id" :         "s14.01d"
+		},
+		{
 			"instructor" : [
 				"Holden, R.",
 				"Holmstrom, B."
@@ -77,6 +112,13 @@
 			"type" :       "Section",
 			"class" :      "c14.281",
 			"id" :         "s14.281a"
+		},
+		{
+			"instructor" : "Recitation Only",
+			"label" :      "s14.02b",
+			"type" :       "Section",
+			"class" :      "c14.02",
+			"id" :         "s14.02b"
 		},
 		{
 			"instructor" : "Harris, J.",
@@ -103,18 +145,18 @@
 			"id" :         "s14.193, 14.194a"
 		},
 		{
-			"instructor" : "F2.30-4",
-			"label" :      "s14.102a",
-			"type" :       "Section",
-			"class" :      "c14.102",
-			"id" :         "s14.102a"
-		},
-		{
 			"instructor" : "Giavazzi, F.",
 			"label" :      "s14.02a",
 			"type" :       "Section",
 			"class" :      "c14.02",
 			"id" :         "s14.02a"
+		},
+		{
+			"instructor" : "F2.30-4",
+			"label" :      "s14.102a",
+			"type" :       "Section",
+			"class" :      "c14.102",
+			"id" :         "s14.102a"
 		},
 		{
 			"instructor" : "Ellison, G.",
@@ -162,6 +204,13 @@
 			"id" :         "s14.454a"
 		},
 		{
+			"instructor" : "Recitation Only",
+			"label" :      "s14.02f",
+			"type" :       "Section",
+			"class" :      "c14.02",
+			"id" :         "s14.02f"
+		},
+		{
 			"instructor" : "Jia, P.",
 			"label" :      "s14.03a",
 			"type" :       "Section",
@@ -193,18 +242,25 @@
 			"id" :         "s14.04a"
 		},
 		{
-			"instructor" : "Goette, L.",
-			"label" :      "s14.13a",
-			"type" :       "Section",
-			"class" :      "c14.13",
-			"id" :         "s14.13a"
-		},
-		{
 			"instructor" : "Gruber, J.",
 			"label" :      "s14.41a",
 			"type" :       "Section",
 			"class" :      "c14.41",
 			"id" :         "s14.41a"
+		},
+		{
+			"instructor" : "Recitation Only",
+			"label" :      "s14.02d",
+			"type" :       "Section",
+			"class" :      "c14.02",
+			"id" :         "s14.02d"
+		},
+		{
+			"instructor" : "Goette, L.",
+			"label" :      "s14.13a",
+			"type" :       "Section",
+			"class" :      "c14.13",
+			"id" :         "s14.13a"
 		},
 		{
 			"instructor" : [
@@ -229,6 +285,13 @@
 			"type" :       "Section",
 			"class" :      "c14.160",
 			"id" :         "s14.160a"
+		},
+		{
+			"instructor" : "Recitation Only",
+			"label" :      "s14.02e",
+			"type" :       "Section",
+			"class" :      "c14.02",
+			"id" :         "s14.02e"
 		},
 		{
 			"instructor" : "F3",
@@ -282,18 +345,18 @@
 			"id" :         "s14.582a"
 		},
 		{
-			"instructor" : "Ellison, G.",
-			"label" :      "s14.122a",
-			"type" :       "Section",
-			"class" :      "c14.122",
-			"id" :         "s14.122a"
-		},
-		{
 			"instructor" : "Jia, P.",
 			"label" :      "s14.003a",
 			"type" :       "Section",
 			"class" :      "c14.003",
 			"id" :         "s14.003a"
+		},
+		{
+			"instructor" : "Ellison, G.",
+			"label" :      "s14.122a",
+			"type" :       "Section",
+			"class" :      "c14.122",
+			"id" :         "s14.122a"
 		}
 	],
 	"types" :      {

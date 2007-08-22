@@ -2,23 +2,13 @@
 	"items" :      [
 		{
 			"end" :     "12:00",
-			"day" :     "N",
-			"label" :   "L-14.02-N19:00-Unknown",
+			"day" :     "W",
+			"label" :   "L-14.01-W11:00-5-233",
 			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.02a",
-			"id" :      "L-14.02-N19:00-Unknown",
-			"start" :   "19:00"
-		},
-		{
-			"end" :     "12:00",
-			"day" :     "T",
-			"label" :   "L-14.02-T19:00-Unknown",
-			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.02a",
-			"id" :      "L-14.02-T19:00-Unknown",
-			"start" :   "19:00"
+			"room" :    "5-233",
+			"section" : "s14.01d",
+			"id" :      "L-14.01-W11:00-5-233",
+			"start" :   "11:00"
 		},
 		{
 			"end" :     "14:30",
@@ -61,14 +51,24 @@
 			"start" :   "10:30"
 		},
 		{
-			"end" :     "10:00",
-			"day" :     "N",
-			"label" :   "L-14.01-N19:00-Unknown",
+			"end" :     "15:00",
+			"day" :     "M",
+			"label" :   "L-14.02-M14:00-12-122",
 			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.01a",
-			"id" :      "L-14.01-N19:00-Unknown",
-			"start" :   "19:00"
+			"room" :    "12-122",
+			"section" : "s14.02e",
+			"id" :      "L-14.02-M14:00-12-122",
+			"start" :   "14:00"
+		},
+		{
+			"end" :     "15:00",
+			"day" :     "W",
+			"label" :   "L-14.02-W14:00-12-122",
+			"type" :    "Lecture",
+			"room" :    "12-122",
+			"section" : "s14.02e",
+			"id" :      "L-14.02-W14:00-12-122",
+			"start" :   "14:00"
 		},
 		{
 			"end" :     "10:30",
@@ -79,16 +79,6 @@
 			"section" : "s14.453a",
 			"id" :      "L-14.453-R9:00-E51-372",
 			"start" :   "9:00"
-		},
-		{
-			"end" :     "10:00",
-			"day" :     "F",
-			"label" :   "L-14.01-F19:00-Unknown",
-			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.01a",
-			"id" :      "L-14.01-F19:00-Unknown",
-			"start" :   "19:00"
 		},
 		{
 			"end" :     "12:00",
@@ -111,16 +101,6 @@
 			"start" :   "10:30"
 		},
 		{
-			"end" :     "10:00",
-			"day" :     "S",
-			"label" :   "L-14.01-S19:00-Unknown",
-			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.01a",
-			"id" :      "L-14.01-S19:00-Unknown",
-			"start" :   "19:00"
-		},
-		{
 			"end" :     "16:00",
 			"day" :     "T",
 			"label" :   "L-14.102-T14:30-E51-063",
@@ -141,14 +121,14 @@
 			"start" :   "14:30"
 		},
 		{
-			"end" :     "19:30",
+			"end" :     "12:00",
 			"day" :     "W",
-			"label" :   "L-14.160-W16:00-E51-372",
+			"label" :   "L-14.281-W10:30-E51-361",
 			"type" :    "Lecture",
-			"room" :    "E51-372",
-			"section" : "s14.160a",
-			"id" :      "L-14.160-W16:00-E51-372",
-			"start" :   "16:00"
+			"room" :    "E51-361",
+			"section" : "s14.281a",
+			"id" :      "L-14.281-W10:30-E51-361",
+			"start" :   "10:30"
 		},
 		{
 			"end" :     "13:00",
@@ -161,14 +141,14 @@
 			"start" :   "10:00"
 		},
 		{
-			"end" :     "12:00",
+			"end" :     "19:30",
 			"day" :     "W",
-			"label" :   "L-14.281-W10:30-E51-361",
+			"label" :   "L-14.160-W16:00-E51-372",
 			"type" :    "Lecture",
-			"room" :    "E51-361",
-			"section" : "s14.281a",
-			"id" :      "L-14.281-W10:30-E51-361",
-			"start" :   "10:30"
+			"room" :    "E51-372",
+			"section" : "s14.160a",
+			"id" :      "L-14.160-W16:00-E51-372",
+			"start" :   "16:00"
 		},
 		{
 			"end" :     "12:00",
@@ -193,6 +173,16 @@
 		{
 			"end" :     "12:00",
 			"day" :     "W",
+			"label" :   "L-14.02-W11:00-12-122",
+			"type" :    "Lecture",
+			"room" :    "12-122",
+			"section" : "s14.02d",
+			"id" :      "L-14.02-W11:00-12-122",
+			"start" :   "11:00"
+		},
+		{
+			"end" :     "12:00",
+			"day" :     "W",
 			"label" :   "L-14.771-W10:30-E52-175",
 			"type" :    "Lecture",
 			"room" :    "E52-175",
@@ -211,14 +201,14 @@
 			"start" :   "14:30"
 		},
 		{
-			"end" :     "12:00",
-			"day" :     "L",
-			"label" :   "L-14.02-L19:00-Unknown",
+			"end" :     "10:00",
+			"day" :     "W",
+			"label" :   "L-14.02-W9:00-12-122",
 			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.02a",
-			"id" :      "L-14.02-L19:00-Unknown",
-			"start" :   "19:00"
+			"room" :    "12-122",
+			"section" : "s14.02b",
+			"id" :      "L-14.02-W9:00-12-122",
+			"start" :   "9:00"
 		},
 		{
 			"end" :     "16:00",
@@ -241,16 +231,6 @@
 			"start" :   "9:00"
 		},
 		{
-			"end" :     "12:00",
-			"day" :     "W",
-			"label" :   "L-14.21J-W10:30-E25-117",
-			"type" :    "Lecture",
-			"room" :    "E25-117",
-			"section" : "s14.21Ja",
-			"id" :      "L-14.21J-W10:30-E25-117",
-			"start" :   "10:30"
-		},
-		{
 			"end" :     "10:30",
 			"day" :     "M",
 			"label" :   "L-14.296J-M9:00-E51-390",
@@ -259,6 +239,16 @@
 			"section" : "s14.296Ja",
 			"id" :      "L-14.296J-M9:00-E51-390",
 			"start" :   "9:00"
+		},
+		{
+			"end" :     "12:00",
+			"day" :     "W",
+			"label" :   "L-14.21J-W10:30-E25-117",
+			"type" :    "Lecture",
+			"room" :    "E25-117",
+			"section" : "s14.21Ja",
+			"id" :      "L-14.21J-W10:30-E25-117",
+			"start" :   "10:30"
 		},
 		{
 			"end" :     "12:00",
@@ -281,24 +271,24 @@
 			"start" :   "13:00"
 		},
 		{
-			"end" :     "10:00",
-			"day" :     "T",
-			"label" :   "L-14.01-T19:00-Unknown",
+			"end" :     "16:00",
+			"day" :     "W",
+			"label" :   "L-14.02-W15:00-12-122",
 			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.01a",
-			"id" :      "L-14.01-T19:00-Unknown",
-			"start" :   "19:00"
+			"room" :    "12-122",
+			"section" : "s14.02f",
+			"id" :      "L-14.02-W15:00-12-122",
+			"start" :   "15:00"
 		},
 		{
-			"end" :     "10:00",
-			"day" :     "O",
-			"label" :   "L-14.01-O19:00-Unknown",
+			"end" :     "11:00",
+			"day" :     "M",
+			"label" :   "L-14.02-M10:00-12-122",
 			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.01a",
-			"id" :      "L-14.01-O19:00-Unknown",
-			"start" :   "19:00"
+			"room" :    "12-122",
+			"section" : "s14.02c",
+			"id" :      "L-14.02-M10:00-12-122",
+			"start" :   "10:00"
 		},
 		{
 			"end" :     "19:00",
@@ -342,33 +332,23 @@
 		},
 		{
 			"end" :     "10:00",
-			"day" :     "R",
-			"label" :   "L-14.01-R19:00-Unknown",
+			"day" :     "W",
+			"label" :   "L-14.01-W9:00-5-233",
 			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.01a",
-			"id" :      "L-14.01-R19:00-Unknown",
-			"start" :   "19:00"
+			"room" :    "5-233",
+			"section" : "s14.01b",
+			"id" :      "L-14.01-W9:00-5-233",
+			"start" :   "9:00"
 		},
 		{
-			"end" :     "10:00",
-			"day" :     "U",
-			"label" :   "L-14.01-U19:00-Unknown",
+			"end" :     "14:00",
+			"day" :     "M",
+			"label" :   "L-14.01-M13:00-5-233",
 			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.01a",
-			"id" :      "L-14.01-U19:00-Unknown",
-			"start" :   "19:00"
-		},
-		{
-			"end" :     "12:00",
-			"day" :     "F",
-			"label" :   "L-14.02-F19:00-Unknown",
-			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.02a",
-			"id" :      "L-14.02-F19:00-Unknown",
-			"start" :   "19:00"
+			"room" :    "5-233",
+			"section" : "s14.01e",
+			"id" :      "L-14.01-M13:00-5-233",
+			"start" :   "13:00"
 		},
 		{
 			"end" :     "14:30",
@@ -381,6 +361,16 @@
 			"start" :   "13:00"
 		},
 		{
+			"end" :     "10:00",
+			"day" :     "M",
+			"label" :   "L-14.02-M9:00-12-122",
+			"type" :    "Lecture",
+			"room" :    "12-122",
+			"section" : "s14.02b",
+			"id" :      "L-14.02-M9:00-12-122",
+			"start" :   "9:00"
+		},
+		{
 			"end" :     "10:30",
 			"day" :     "T",
 			"label" :   "L-14.381-T9:00-E51-151",
@@ -388,6 +378,16 @@
 			"room" :    "E51-151",
 			"section" : "s14.381a",
 			"id" :      "L-14.381-T9:00-E51-151",
+			"start" :   "9:00"
+		},
+		{
+			"end" :     "10:00",
+			"day" :     "F",
+			"label" :   "L-14.01-F9:00-5-233",
+			"type" :    "Lecture",
+			"room" :    "5-233",
+			"section" : "s14.01b",
+			"id" :      "L-14.01-F9:00-5-233",
 			"start" :   "9:00"
 		},
 		{
@@ -411,6 +411,26 @@
 			"start" :   "13:00"
 		},
 		{
+			"end" :     "11:00",
+			"day" :     "F",
+			"label" :   "L-14.02-F10:00-12-122",
+			"type" :    "Lecture",
+			"room" :    "12-122",
+			"section" : "s14.02c",
+			"id" :      "L-14.02-F10:00-12-122",
+			"start" :   "10:00"
+		},
+		{
+			"end" :     "10:00",
+			"day" :     "M",
+			"label" :   "L-14.01-M9:00-5-233",
+			"type" :    "Lecture",
+			"room" :    "5-233",
+			"section" : "s14.01b",
+			"id" :      "L-14.01-M9:00-5-233",
+			"start" :   "9:00"
+		},
+		{
 			"end" :     "14:30",
 			"day" :     "R",
 			"label" :   "L-14.13-R13:00-E51-395",
@@ -419,16 +439,6 @@
 			"section" : "s14.13a",
 			"id" :      "L-14.13-R13:00-E51-395",
 			"start" :   "13:00"
-		},
-		{
-			"end" :     "12:00",
-			"day" :     "C",
-			"label" :   "L-14.02-C19:00-Unknown",
-			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.02a",
-			"id" :      "L-14.02-C19:00-Unknown",
-			"start" :   "19:00"
 		},
 		{
 			"end" :     "15:00",
@@ -462,6 +472,16 @@
 		},
 		{
 			"end" :     "16:00",
+			"day" :     "F",
+			"label" :   "L-14.02-F15:00-12-122",
+			"type" :    "Lecture",
+			"room" :    "12-122",
+			"section" : "s14.02f",
+			"id" :      "L-14.02-F15:00-12-122",
+			"start" :   "15:00"
+		},
+		{
+			"end" :     "16:00",
 			"day" :     "W",
 			"label" :   "L-14.471-W14:30-E51-361",
 			"type" :    "Lecture",
@@ -469,6 +489,16 @@
 			"section" : "s14.471a",
 			"id" :      "L-14.471-W14:30-E51-361",
 			"start" :   "14:30"
+		},
+		{
+			"end" :     "14:00",
+			"day" :     "F",
+			"label" :   "L-14.01-F13:00-5-233",
+			"type" :    "Lecture",
+			"room" :    "5-233",
+			"section" : "s14.01e",
+			"id" :      "L-14.01-F13:00-5-233",
+			"start" :   "13:00"
 		},
 		{
 			"end" :     "17:00",
@@ -532,6 +562,26 @@
 		},
 		{
 			"end" :     "12:00",
+			"day" :     "M",
+			"label" :   "L-14.02-M11:00-12-122",
+			"type" :    "Lecture",
+			"room" :    "12-122",
+			"section" : "s14.02d",
+			"id" :      "L-14.02-M11:00-12-122",
+			"start" :   "11:00"
+		},
+		{
+			"end" :     "11:00",
+			"day" :     "W",
+			"label" :   "L-14.02-W10:00-12-122",
+			"type" :    "Lecture",
+			"room" :    "12-122",
+			"section" : "s14.02c",
+			"id" :      "L-14.02-W10:00-12-122",
+			"start" :   "10:00"
+		},
+		{
+			"end" :     "12:00",
 			"day" :     "R",
 			"label" :   "L-14.30-R10:30-E51-372",
 			"type" :    "Lecture",
@@ -581,16 +631,6 @@
 			"start" :   "13:00"
 		},
 		{
-			"end" :     "10:00",
-			"day" :     "L",
-			"label" :   "L-14.01-L19:00-Unknown",
-			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.01a",
-			"id" :      "L-14.01-L19:00-Unknown",
-			"start" :   "19:00"
-		},
-		{
 			"end" :     "14:30",
 			"day" :     "T",
 			"label" :   "L-14.13-T13:00-E51-395",
@@ -623,16 +663,6 @@
 		{
 			"end" :     "12:00",
 			"day" :     "R",
-			"label" :   "L-14.02-R19:00-Unknown",
-			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.02a",
-			"id" :      "L-14.02-R19:00-Unknown",
-			"start" :   "19:00"
-		},
-		{
-			"end" :     "12:00",
-			"day" :     "R",
 			"label" :   "L-14.661-R10:30-E51-385",
 			"type" :    "Lecture",
 			"room" :    "E51-385",
@@ -651,14 +681,24 @@
 			"start" :   "13:00"
 		},
 		{
-			"end" :     "12:00",
-			"day" :     "O",
-			"label" :   "L-14.02-O19:00-Unknown",
+			"end" :     "11:00",
+			"day" :     "W",
+			"label" :   "L-14.01-W10:00-5-233",
 			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.02a",
-			"id" :      "L-14.02-O19:00-Unknown",
-			"start" :   "19:00"
+			"room" :    "5-233",
+			"section" : "s14.01c",
+			"id" :      "L-14.01-W10:00-5-233",
+			"start" :   "10:00"
+		},
+		{
+			"end" :     "11:00",
+			"day" :     "F",
+			"label" :   "L-14.01-F10:00-5-233",
+			"type" :    "Lecture",
+			"room" :    "5-233",
+			"section" : "s14.01c",
+			"id" :      "L-14.01-F10:00-5-233",
+			"start" :   "10:00"
 		},
 		{
 			"end" :     "10:30",
@@ -712,6 +752,16 @@
 		},
 		{
 			"end" :     "16:00",
+			"day" :     "M",
+			"label" :   "L-14.02-M15:00-12-122",
+			"type" :    "Lecture",
+			"room" :    "12-122",
+			"section" : "s14.02f",
+			"id" :      "L-14.02-M15:00-12-122",
+			"start" :   "15:00"
+		},
+		{
+			"end" :     "16:00",
 			"day" :     "R",
 			"label" :   "L-14.102-R14:30-E51-063",
 			"type" :    "Lecture",
@@ -741,16 +791,6 @@
 			"start" :   "9:00"
 		},
 		{
-			"end" :     "10:00",
-			"day" :     "C",
-			"label" :   "L-14.01-C19:00-Unknown",
-			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.01a",
-			"id" :      "L-14.01-C19:00-Unknown",
-			"start" :   "19:00"
-		},
-		{
 			"end" :     "12:00",
 			"day" :     "R",
 			"label" :   "L-14.33-R10:30-E52-232",
@@ -769,6 +809,26 @@
 			"section" : "s14.281a",
 			"id" :      "L-14.281-M10:30-E51-361",
 			"start" :   "10:30"
+		},
+		{
+			"end" :     "15:00",
+			"day" :     "F",
+			"label" :   "L-14.02-F14:00-12-122",
+			"type" :    "Lecture",
+			"room" :    "12-122",
+			"section" : "s14.02e",
+			"id" :      "L-14.02-F14:00-12-122",
+			"start" :   "14:00"
+		},
+		{
+			"end" :     "11:00",
+			"day" :     "M",
+			"label" :   "L-14.01-M10:00-5-233",
+			"type" :    "Lecture",
+			"room" :    "5-233",
+			"section" : "s14.01c",
+			"id" :      "L-14.01-M10:00-5-233",
+			"start" :   "10:00"
 		},
 		{
 			"end" :     "14:30",
@@ -792,13 +852,33 @@
 		},
 		{
 			"end" :     "12:00",
-			"day" :     "S",
-			"label" :   "L-14.02-S19:00-Unknown",
+			"day" :     "M",
+			"label" :   "L-14.01-M11:00-5-233",
 			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.02a",
-			"id" :      "L-14.02-S19:00-Unknown",
-			"start" :   "19:00"
+			"room" :    "5-233",
+			"section" : "s14.01d",
+			"id" :      "L-14.01-M11:00-5-233",
+			"start" :   "11:00"
+		},
+		{
+			"end" :     "10:00",
+			"day" :     "F",
+			"label" :   "L-14.02-F9:00-12-122",
+			"type" :    "Lecture",
+			"room" :    "12-122",
+			"section" : "s14.02b",
+			"id" :      "L-14.02-F9:00-12-122",
+			"start" :   "9:00"
+		},
+		{
+			"end" :     "12:00",
+			"day" :     "F",
+			"label" :   "L-14.01-F11:00-5-233",
+			"type" :    "Lecture",
+			"room" :    "5-233",
+			"section" : "s14.01d",
+			"id" :      "L-14.01-F11:00-5-233",
+			"start" :   "11:00"
 		},
 		{
 			"end" :     "10:30",
@@ -811,6 +891,16 @@
 			"start" :   "9:00"
 		},
 		{
+			"end" :     "14:00",
+			"day" :     "W",
+			"label" :   "L-14.01-W13:00-5-233",
+			"type" :    "Lecture",
+			"room" :    "5-233",
+			"section" : "s14.01e",
+			"id" :      "L-14.01-W13:00-5-233",
+			"start" :   "13:00"
+		},
+		{
 			"end" :     "16:00",
 			"day" :     "M",
 			"label" :   "L-14.463-M14:30-E52-232",
@@ -819,6 +909,16 @@
 			"section" : "s14.463a",
 			"id" :      "L-14.463-M14:30-E52-232",
 			"start" :   "14:30"
+		},
+		{
+			"end" :     "12:00",
+			"day" :     "F",
+			"label" :   "L-14.02-F11:00-12-122",
+			"type" :    "Lecture",
+			"room" :    "12-122",
+			"section" : "s14.02d",
+			"id" :      "L-14.02-F11:00-12-122",
+			"start" :   "11:00"
 		},
 		{
 			"end" :     "19:00",
@@ -849,16 +949,6 @@
 			"section" : "s14.30a",
 			"id" :      "L-14.30-T10:30-E51-372",
 			"start" :   "10:30"
-		},
-		{
-			"end" :     "12:00",
-			"day" :     "U",
-			"label" :   "L-14.02-U19:00-Unknown",
-			"type" :    "Lecture",
-			"room" :    "Unknown",
-			"section" : "s14.02a",
-			"id" :      "L-14.02-U19:00-Unknown",
-			"start" :   "19:00"
 		},
 		{
 			"end" :     "16:00",
