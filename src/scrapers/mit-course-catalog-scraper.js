@@ -29,6 +29,16 @@ var cleanHours = function(s) {
   }
   if (a.length < 2) {
     a[1] = "00";
+  } else {
+    a[1] = a[1].substr(0,2);
+  }
+  return a.join(":");
+}
+var addOneHour = function(s) {
+  var a = s.split(":");
+  a[0] = parseInt(a[0]) + 1;
+  if (a[0] < 8) {
+    a[0] += 12;
   }
   return a.join(":");
 }
@@ -42,14 +52,23 @@ for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
   try {
     var classNumber = getText(element, './A[1]/B[1]/text()[1]');
-    var classSeries = classNumber.substr(0,3) + "xx";
+    var dot = classNumber.indexOf(".");
+    var classSeries = classNumber.substr(0, dot + 2) + "xx";
+    var course = classNumber.substr(0, dot);
   } catch (e) { 
     continue;
   }
-   try {
+  
+  try {
     var courseName = getText(element, './A[1]/B[2]/text()[1]');
   } catch (e) { 
     continue;
+  }
+  
+  var url = "";
+  try {
+    url = document.location.href + "#" + getNode(document, element, './A[1]', nsResolver).name;
+  } catch (e) {
   }
   
   var semesters = [];
@@ -126,22 +145,29 @@ for (var i = 0; i < elements.length; i++) {
   }
 
   var fields = utilities.gatherElementsOnXPath(document, element, './/text()', nsResolver);
-  var hasPrerequisites = false;
   var units = 'Unknown';
   var totalUnits = 'Unknown';
   for each (var node in fields) {
     var field = cleanString(node.nodeValue);
-    if (field.indexOf('Prereq:') == 0) {
-      var t = cleanString(field.substr(7));
-      if (t != "--") {
-        hasPrerequisites = true;
-      }
-    } else if (field.indexOf('Units:') == 0) {
+    if (field.indexOf('Units:') == 0) {
       units = cleanString(field.substr(6));
       try {
         totalUnits = eval(units.split("-").join("+"));
       } catch (e) {}
     }
+  }
+  
+  var prereqs = [];
+  var elmts = utilities.gatherElementsOnXPath(document, element, './A', nsResolver);
+  for each (var a in elmts) {
+    try {
+        if (a.childNodes.length == 1 && a.firstChild.nodeType == 3) {
+            var t = cleanString(a.innerHTML);
+            if (t.indexOf(".") > 0 && t.substr(0, 5) != "http:") {
+              prereqs.push("c" + t);
+            }
+        }
+    } catch (e) {}
   }
   
   var hasFinal = false;
@@ -203,23 +229,28 @@ for (var i = 0; i < elements.length; i++) {
             hours[0] = cleanHours(hours[0]);
             if (hours.length > 1) {
               hours[1] = cleanHours(hours[1]);
+            } else {
+              hours[1] = addOneHour(hours[0]);
             }
+            
             if (node.nextSibling.nextSibling.nodeName.toLowerCase() == "a") {
               var room = cleanString(node.nextSibling.nextSibling.firstChild.nodeValue);
             } else { var room = "Unknown"; }
             
             for (var d = 0; d < days.length; d++) {
               var day = days.substr(d,1);
-              var lecture = "L-" + classNumber + "-" + day + hours[0] + "-" + room;
-              var lectureString = "Lecture" +
-                "\ts" + classNumber + 'a' +
-                "\t" + lecture +
-                "\t" + day +
-                "\t" + hours[0] +
-                "\t" + (hours.length > 1 ? hours[1] : "") +
-                "\t" + room;
-              lectures.push(lecture);
-              lectureOutput.push(lectureString);
+              if (" EVE(".indexOf(day) < 0) {
+                  var lecture = "L-" + classNumber + "-" + day + hours[0] + "-" + room;
+                  var lectureString = "Lecture" +
+                    "\ts" + classNumber + 'a' +
+                    "\t" + lecture +
+                    "\t" + day +
+                    "\t" + hours[0] +
+                    "\t" + (hours.length > 1 ? hours[1] : "") +
+                    "\t" + room;
+                  lectures.push(lecture);
+                  lectureOutput.push(lectureString);
+              }
             }
           }
         }
@@ -235,6 +266,7 @@ for (var i = 0; i < elements.length; i++) {
   
   var classString = "Class" + 
     "\tc" + classNumber + 
+    "\t" + course +
     "\t" + classSeries + 
     "\t" + classNumber + " - " + courseName + 
     "\t" + type +
@@ -245,11 +277,13 @@ for (var i = 0; i < elements.length; i++) {
     "\t" + units +
     "\t" + totalUnits +
     "\t" + hasFinal +
-    "\t" + description;
+    "\t" + description +
+    "\t" + prereqs.join("; ") + 
+    "\t" + url;
   classOutput.push(classString);
 }
 
-log("type \tid \tseries \tlabel \tlevel \tsemester \toffering \tcategory \tin-charge \tunits \ttotal-units \thas-final \tdescription");
+log("type \tid \tcourse \tseries \tlabel \tlevel \tsemester \toffering \tcategory \tin-charge \tunits \ttotal-units \thas-final \tdescription:single \tprereqs:item \turl:url");
 for (var i = 0; i < classOutput.length; i++) { log(classOutput[i]); }
 log("type \tsection \tclass \tinstructor");
 for (var i = 0; i < sectionOutput.length; i++) { log(sectionOutput[i]); }
