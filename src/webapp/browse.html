@@ -136,7 +136,7 @@
             <div class="course-title">
                 <img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />
                 <span ex:content=".semester" class="course-semester"></span>
-                <span ex:content=".label"></span>
+                <span ex:content=".label"></span> <a ex:if-exists=".url" ex:href-content=".url" target="_blank">link</a>
             </div>
             <table class="course-body" cellspacing="10"><tr>
                 <td>
