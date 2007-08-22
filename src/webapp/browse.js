@@ -287,23 +287,21 @@ function doUnpick(sectionID) {
 }
 
 function onMouseOverSection(div) {
-    if (!SimileAjax.Platform.browser.isIE) {
+    //if (!SimileAjax.Platform.browser.isIE) {
         var sectionID = div.getAttribute("sectionID");
         if (window.database.getObject(sectionID, "picked") == null) {
             updateMiniTimegrid(true, sectionID);
         }
-    }
+    //}
 }
-
 function onMouseOutSection(div) {
-    if (!SimileAjax.Platform.browser.isIE) {
+    //if (!SimileAjax.Platform.browser.isIE) {
         var sectionID = div.getAttribute("sectionID");
         if (window.database.getObject(sectionID, "picked") == null) {
             updateMiniTimegrid(true, null);
         }
-    }
+    //}
 }
-
 function showHidePickDiv(sectionID, picked) {
     var thediv = document.getElementById("divid-" + sectionID);
     if (thediv != null) {
