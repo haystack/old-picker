@@ -18,7 +18,7 @@ Exhibit.Functions["building"] = {
  *==================================================
  */
 function onLoad() {
-    var urls = [ "data/schema.js" ];
+    var urls = [ ];
     
     var query = document.location.search;
     if (query.length > 1) {
@@ -44,6 +44,7 @@ function onLoad() {
             }
         }
     }
+    urls.push("data/schema.js");
 
     window.database = Exhibit.Database.create();
     
@@ -69,6 +70,32 @@ function onLoad() {
         enableMiniTimegrid();
         enableUnitAdder();
     };
+    loadURLs(urls, fDone);
+}
+
+function loadMoreClass(button) {
+    var classID = button.getAttribute("classID");
+    var course = classID.substr(1).split(".")[0];
+    var urls = [];
+    for (var i = 0; i < courses.length; i++) {
+        var course2 = courses[i];
+        if (course == course2.number) {
+            if (!course2.hasData) {
+                alert("Oops! We actually don't have the data for this course.");
+                return;
+            }
+            urls.push("data/course-" + course + "-classes.js");
+            urls.push("data/course-" + course + "-lectures.js");
+            urls.push("data/course-" + course + "-sections.js");
+            break;
+        }
+    }
+    
+    SimileAjax.WindowManager.cancelPopups();
+    loadURLs(urls, function(){});
+}
+
+function loadURLs(urls, fDone) {
     var fNext = function() {
         if (urls.length > 0) {
             var url = urls.shift();

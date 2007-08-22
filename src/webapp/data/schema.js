@@ -19,6 +19,9 @@
         },
         "startHour" : {
             label: "start hour"
+        },
+        "prereqs" : {
+            valueType: "item"
         }
     }
 }

@@ -11,7 +11,7 @@
 			"id" :       "c6.035",
 			"type" :        "Class",
 			"label" :       "6.035 - Computer Language Engineering",
-			"prereqs" :     "6.170",
+			"prereqs" :     "c6.170",
 			"description" : "Analyzes issues associated with the implementation of higher-level programming languages. Fundamental concepts, functions, and structures of compilers. The interaction of theory and practice. Using tools in building software. Includes a multi-person project on compiler design and implementation.  8 Engineering Design Points.",
 			"semester" :    "Fall",
 			"has-final" :   "FALSE"
@@ -28,7 +28,7 @@
 			"id" :       "c6.115",
 			"type" :        "Class",
 			"label" :       "6.115 - Microcomputer Project Laboratory",
-			"prereqs" :     "6.002",
+			"prereqs" :     "c6.002",
 			"description" : "Introduces the analysis and design of embedded systems. Microcontrollers  provide adaptation, flexibility, and real-time control. Emphasis placed on the construction of complete systems, including a five-axis robot arm, a fluorescent lamp ballast, a tomographic imaging station (e.g. a CAT scan), and a simple calculator. A wide range of basic tools are introduced, including software and development tools, peripheral components such as A/D converters, communication schemes, signal processing  techniques, closed-loop digital feedback control, interface and power electronics, and modeling of electromechanical systems. Students complete a sequence of assigned projects, followed by a final project of the student\'s choice, emphasizing creativity and uniqueness. Final project may be expanded to satisfy a 6.UAP project. 12 Engineering Design Points.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -49,8 +49,8 @@
 			"type" :        "Class",
 			"label" :       "6.253 - Convex Analysis and Optimization",
 			"prereqs" :     [
-				"18.06",
-				"18.100"
+				"c18.06",
+				"c18.100"
 			],
 			"description" : "Core analytical issues of continuous optimization, duality, and saddle point theory, and development using a handful of unifying principles that can be easily visualized and readily understood. The mathematical theory of convex sets and functions is discussed in detail, and is the basis for an intuitive, highly visual, geometrical approach to the subject. Alternate years.",
 			"semester" :    "Fall",
@@ -71,13 +71,13 @@
 			"type" :        "Class",
 			"label" :       "6.021J - Quantitative Physiology: Cells and Tissues",
 			"prereqs" :     [
-				"8.02",
-				"18.03",
-				"2.005",
-				"6.002",
-				"6.003",
-				"6.071",
-				"10.301"
+				"c8.02",
+				"c18.03",
+				"c2.005",
+				"c6.002",
+				"c6.003",
+				"c6.071",
+				"c10.301"
 			],
 			"description" : [
 				"Principles of mass transport and electrical signal generation for biological membranes, cells, and tissues. Mass transport through membranes: diffusion, osmosis, chemically mediated, and active transport. Electric properties of cells: ion transport",
@@ -116,7 +116,7 @@
 			"id" :       "c6.338J",
 			"type" :        "Class",
 			"label" :       "6.338J - Parallel Computing",
-			"prereqs" :     "18.06",
+			"prereqs" :     "c18.06",
 			"description" : "Advanced interdisciplinary introduction to modern scientific computing on parallel supercomputers. Numerical topics include dense and sparse linear algebra, N-body problems, and Fourier transforms. Geometrical topics include partitioning and mesh generation. Other topics include architectures and software systems with emphasis on understanding the realities and myths of what is possible on the world\'s fastest machines. Programming languages include MPI and Star-P with MATLAB.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -136,7 +136,7 @@
 			"id" :                     "c6.450",
 			"type" :                      "Class",
 			"label" :                     "6.450 - Principles of Digital Communication I",
-			"prereqs" :                   "6.011",
+			"prereqs" :                   "c6.011",
 			"description" :               [
 				"Communication sources and channels",
 				"data compression",
@@ -173,12 +173,12 @@
 			"type" :                      "Class",
 			"label" :                     "6.581J - Foundations of Algorithms and Computational Techniques in Systems Biology",
 			"prereqs" :                   [
-				"6.021J",
-				"6.034",
-				"6.046",
-				"6.336J",
-				"7.91J",
-				"18.417"
+				"c6.021J",
+				"c6.034",
+				"c6.046",
+				"c6.336J",
+				"c7.91J",
+				"c18.417"
 			],
 			"description" :               "Describes and illustrates computational approaches to solving problems in systems biology. A series of case studies demonstrates how an effective match between the statement of a biological problem and the selection of an appropriate algorithm or computational technique can lead to fundamental advances. Covers several discrete and numerical algorithms used in simulation, feature extraction and optimization for molecular, network, and systems models in biology.",
 			"engineering-concentration" : "Bioelectrical Engineering",
@@ -211,7 +211,7 @@
 			],
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "6.034"
+			"prereqs" :                   "c6.034"
 		},
 		{
 			"total-units" : "12",
@@ -226,8 +226,8 @@
 			"type" :        "Class",
 			"label" :       "6.161 - Modern Optics Project Laboratory",
 			"prereqs" :     [
-				"6.003",
-				"6.013 or 8.03"
+				"c6.003",
+				"c6.013 or 8.03"
 			],
 			"description" : [
 				"Lectures, laboratory exercises and projects on optical signal generation, transmission, detection, storage, processing and display. Topics include polarization properties of light",
@@ -290,8 +290,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.828 - Operating System Engineering",
 			"prereqs" :                   [
-				"6.033",
-				"6.170"
+				"c6.033",
+				"c6.170"
 			],
 			"description" :               [
 				"Fundamental design and implementation issues in the engineering of operating systems.  Lectures based on the study of a symmetric multiprocessor version of UNIX version 6 and research papers. Topics include virtual memory",
@@ -325,9 +325,9 @@
 			"type" :        "Class",
 			"label" :       "6.013 - Electromagnetics and Applications",
 			"prereqs" :     [
-				"6.003",
-				"6.02",
-				"6.007"
+				"c6.003",
+				"c6.02",
+				"c6.007"
 			],
 			"description" : [
 				"Electromagnetic phenomena are explored in modern applications including wireless communications, circuits, computer interconnects and peripherals, optical fiber links and components, microwave communications and radar, antennas, sensors, micro-electromechanical systems, and power generation and transmission. Fundamentals include quasistatic and dynamic solutions to Maxwell\'s equations",
@@ -352,8 +352,9 @@
 			"type" :                      "Class",
 			"label" :                     "6.522J - Quantitative Physiology: Organ Transport Systems",
 			"prereqs" :                   [
-				"2.006, 6.013",
-				"6.021J"
+				"c2.006",
+				"c6.013",
+				"c6.021J"
 			],
 			"description" :               "Application of the principles of energy and mass flow to major human organ systems. Mechanisms of regulation and homeostasis. Anatomical, physiological and pathophysiological features of the cardiovascular, respiratory and renal systems. Systems, features and devices that are most illuminated by the methods of physical sciences. Laboratory work includes some animal studies.",
 			"engineering-concentration" : "Bioelectrical Engineering",
@@ -373,10 +374,10 @@
 			"type" :                      "Class",
 			"label" :                     "6.825 - Techniques in Artificial Intelligence",
 			"prereqs" :                   [
-				"6.041",
-				"6.042J",
-				"6.046J",
-				"6.034"
+				"c6.041",
+				"c6.042J",
+				"c6.046J",
+				"c6.034"
 			],
 			"description" :               [
 				"A graduate-level introduction to artificial intelligence. Topics include representation and inference in first-order logic",
@@ -416,8 +417,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.631 - Optics and Photonics",
 			"prereqs" :                   [
-				"6.013",
-				"8.07"
+				"c6.013",
+				"c8.07"
 			],
 			"description" :               "Introduction to fundamental concepts and techniques of optics, photonics, and fiber optics. Review of Maxwell\'s equations, light propagation, and reflection from dielectrics mirrors and filters. Interferometers, filters, and optical imaging systems.  Fresnel and Fraunhoffer diffraction theory. Propagation of Gaussian beams and laser resonator design. Optical waveguides and optical fibers. Optical waveguide and photonic devices.",
 			"engineering-concentration" : "Electrodynamics",
@@ -440,9 +441,9 @@
 			"type" :        "Class",
 			"label" :       "6.946J - Classical Mechanics: A Computational Approach",
 			"prereqs" :     [
-				"8.01",
-				"18.03",
-				"6.001"
+				"c8.01",
+				"c18.03",
+				"c6.001"
 			],
 			"description" : "Classical mechanics in a computational framework. Lagrangian formulation. Action, variational principles. Hamilton\'s principle. Conserved quantities. Hamiltonian formulation. Surfaces of section. Chaos. Liouville\'s theorem and Poincar\u00E2\u0080\u009A integral invariants. Poincar\u00E2\u0080\u009A-Birkhoff and KAM theorems. Invariant curves. Cantori. Nonlinear resonances. Resonance overlap and transition to chaos. Properties of chaotic motion. Transport, diffusion, mixing. Symplectic integration. Adiabatic invariants. Many-dimensional systems, Arnold diffusion. Extensive use of computation to capture methods, for simulation, and for symbolic analysis.",
 			"semester" :    "Fall",
@@ -463,9 +464,12 @@
 			"type" :                      "Class",
 			"label" :                     "6.521J - Quantitative Physiology: Cells and Tissues",
 			"prereqs" :                   [
-				"2.003, 6.002, 6.071, 10.301",
-				"8.02",
-				"18.03"
+				"c2.003", 
+				"c6.002", 
+				"c6.071", 
+				"c10.301",
+				"c8.02",
+				"c18.03"
 			],
 			"description" :               [
 				"Principles of mass transport and electrical signal generation for biological membranes, cells, and tissues. Mass transport through membranes: diffusion, osmosis, chemically mediated, and active transport. Electric properties of cells: ion transport",
@@ -492,9 +496,9 @@
 			"type" :        "Class",
 			"label" :       "6.02 - Introduction to EECS II",
 			"prereqs" :     [
-				"6.01",
-				"18.03",
-				"18.06"
+				"c6.01",
+				"c18.03",
+				"c18.06"
 			],
 			"description" : [
 				"An integrated introduction to electrical engineering and computer science, taught using substantial laboratory experiments that explore communication signals, systems and networks. Physical characterization and modeling of transmission systems in the time and frequency domains",
@@ -528,8 +532,13 @@
 			"type" :                      "Class",
 			"label" :                     "6.524J - Molecular, Cellular, and Tissue Biomechanics",
 			"prereqs" :                   [
-				"7.012",
-				"2.002, 2.006, 6.013, 6.014, 10.301, 10.302"
+				"c7.012",
+				"c2.002", 
+				"c2.006", 
+				"c6.013", 
+				"c6.014", 
+				"c10.301", 
+				"c10.302"
 			],
 			"description" :               [
 				"Develops and applies scaling laws and the methods of continuum mechanics to biomechanical phenomena over a range of length scales. Topics include structure of tissues and the molecular basis for macroscopic properties",
@@ -557,7 +566,7 @@
 			"id" :       "c6.282J",
 			"type" :        "Class",
 			"label" :       "6.282J - Quantitative Foundations of Engineering Systems",
-			"prereqs" :     "6.041",
+			"prereqs" :     "c6.041",
 			"description" : "This interdisciplinary subject aims to teach quantitative principles of design and analysis of large complex engineering systems at the beginning graduate level. Topics include principles of modeling, systems design, control and performance analysis using ideas from control, optimization, algorithms and stochastic processes. Designed as more conceptual and less technical (mathematical). That is, use of mathematics (sometimes sophisticated) is taught but the detailed proofs are usually omitted. Concepts supported and explained with examples drawn from the Internet. Provides the necessary background for advanced subjects on foundations of engineering systems.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -585,8 +594,8 @@
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"6.003",
-				"18.06"
+				"c6.003",
+				"c18.06"
 			]
 		},
 		{
@@ -604,8 +613,8 @@
 			"type" :        "Class",
 			"label" :       "6.061 - Introduction to Electric Power Systems",
 			"prereqs" :     [
-				"6.002",
-				"6.013"
+				"c6.002",
+				"c6.013"
 			],
 			"description" : "Fundamentals of energy-handling electric circuits and electromechanical apparatus. Modeling and behavior of magnetic field devices. Simplifications using transformation techniques. Power electric circuits, magnetic circuits, lumped parameter electromechanics, and elements of linear and rotating electric machinery. Modeling of synchronous, induction, and dc machinery. Interconnection of electric power apparatus, and operation of power systems.  6 Engineering Design Points.",
 			"semester" :    "Spring",
@@ -628,8 +637,8 @@
 			"type" :        "Class",
 			"label" :       "6.339J - Numerical Methods for Partial Differential Equations",
 			"prereqs" :     [
-				"18.03",
-				"18.06"
+				"c18.03",
+				"c18.06"
 			],
 			"description" : [
 				"Covers the fundamentals of modern numerical techniques for a wide range of linear and nonlinear elliptic, parabolic, and hyperbolic partial differential and integral equations. Topics include mathematical formulations",
@@ -652,10 +661,10 @@
 			"type" :                      "Class",
 			"label" :                     "6.621 - Fundamentals of Photonics",
 			"prereqs" :                   [
-				"6.003",
-				"6.013",
-				"8.07",
-				"6.630"
+				"c6.003",
+				"c6.013",
+				"c8.07",
+				"c6.630"
 			],
 			"description" :               "Meets with undergraduate subject 6.602, but requires the completion of additional homework assignments. See subject description under 6.602.",
 			"engineering-concentration" : "Electrodynamics",
@@ -674,7 +683,7 @@
 			"id" :       "c6.938",
 			"type" :        "Class",
 			"label" :       "6.938 - Engineering Risk-Benefit Analysis",
-			"prereqs" :     "18.02",
+			"prereqs" :     "c18.02",
 			"description" : [
 				"Emphasis on three methodologies pertaining to decision making in the presence of uncertainty: reliability and probabilistic risk assessment (RPRA), decision analysis (DA), and cost-benefit analysis (CBA). Risks of particular interest are those associated with large engineering projects such as the development of new products",
 				"the building, maintenance and operation of nuclear reactors and space systems. Presents and interprets some of the frameworks helpful for balancing risks and benefits in the situations that typically involve human safety, potential environmental effects, and large financial and technological uncertainties. Review of elementary probability theory and statistics included."
@@ -694,7 +703,7 @@
 			"id" :                     "c6.451",
 			"type" :                      "Class",
 			"label" :                     "6.451 - Principles of Digital Communications II",
-			"prereqs" :                   "6.45",
+			"prereqs" :                   "c6.45",
 			"description" :               [
 				"Coding for the AWGN channel",
 				"the gap to capacity",
@@ -720,7 +729,7 @@
 			"id" :                     "c6.803",
 			"type" :                      "Class",
 			"label" :                     "6.803 - The Human Intelligence Enterprise",
-			"prereqs" :                   "6.034",
+			"prereqs" :                   "c6.034",
 			"description" :               "Analyzes seminal work directed at the development of a computational understanding of human intelligence, such as work on object tracking, object recognition, change representation, language evolution, and the role of symbols in learning and communication.  Reviews visionary ideas of Turing, Minsky, and other influential thinkers.  Examines the role of brain scanning, systems neuroscience, and cognitive psychology.  Emphasis on discussion and analysis of original papers.  Meets with 6.833 but assignments differ. Enrollment limited.",
 			"engineering-concentration" : "Computer Science",
 			"semester" :                  "Spring",
@@ -755,7 +764,7 @@
 			"id" :                     "c6.833",
 			"type" :                      "Class",
 			"label" :                     "6.833 - The Human Intelligence Enterprise",
-			"prereqs" :                   "6.034",
+			"prereqs" :                   "c6.034",
 			"description" :               "Meets with undergraduate subject 6.803. Intended, in part, to prepare students for MEng thesis work in the Artificial Intelligence concentration. Requires completion of supplementary exercises and a substantial term project. Enrollment limited.",
 			"engineering-concentration" : "Computer Science",
 			"semester" :                  "Spring",
@@ -783,7 +792,7 @@
 			],
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "6.034"
+			"prereqs" :                   "c6.034"
 		},
 		{
 			"total-units" :               "12",
@@ -800,7 +809,7 @@
 			"id" :                     "c6.876J",
 			"type" :                      "Class",
 			"label" :                     "6.876J - Advanced Topics in Cryptography",
-			"prereqs" :                   "6.875J",
+			"prereqs" :                   "c6.875J",
 			"description" :               "Recent results in cryptography and interactive proofs. Lectures by instructor, invited speakers, and students. Alternate years.",
 			"engineering-concentration" : "Theoretical Computer Science",
 			"semester" :                  "Fall",
@@ -825,8 +834,8 @@
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"6.840J",
-				"18.404J"
+				"c6.840J",
+				"c18.404J"
 			]
 		},
 		{
@@ -855,7 +864,7 @@
 			"id" :       "c6.UAP",
 			"type" :        "Class",
 			"label" :       "6.UAP - Undergraduate Advanced Project",
-			"prereqs" :     "6.UAT",
+			"prereqs" :     "c6.UAT",
 			"description" : "Research project for those students completing the SB degree, to be arranged by the student and an appropriate MIT faculty member.  Students who register for this subject must consult the department undergraduate office. Students engage in extensive written communications exercises.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -911,7 +920,7 @@
 			"id" :                     "c6.801",
 			"type" :                      "Class",
 			"label" :                     "6.801 - Machine Vision",
-			"prereqs" :                   "6.003",
+			"prereqs" :                   "c6.003",
 			"description" :               [
 				"Deriving a symbolic description of the environment from an image. Understanding physics of image formation. Image analysis as an inversion problem. Binary image processing and filtering of images as preprocessing steps. Recovering shape, lightness, orientation, and motion. Using constraints to reduce the ambiguity. Photometric stereo and extended Gaussian sphere. Applications to robotics",
 				"intelligent interaction of machines with their environment."
@@ -939,7 +948,7 @@
 			"id" :                     "c6.776",
 			"type" :                      "Class",
 			"label" :                     "6.776 - High Speed Communication Circuits",
-			"prereqs" :                   "6.301",
+			"prereqs" :                   "c6.301",
 			"description" :               "Principles and techniques for integrated circuit design within communication systems such as wireless and broadband data links. Circuit blocks for communication transceivers and phase-locked loops, which include broadband, narrowband, and low-noise amplifiers, mixers, voltage-controlled oscillators, power amplifiers, and high speed frequency dividers. Passive component design of on-chip inductors and capacitors. Analysis of distributed effects using transmission line modeling, S-parameters, Smith chart. Significant laboratory component. Alternate years.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
 			"semester" :                  "Spring",
@@ -961,11 +970,11 @@
 			"type" :                      "Class",
 			"label" :                     "6.780J - Control of Manufacturing Processes",
 			"prereqs" :                   [
-				"2.008",
-				"2.810",
-				"6.041",
-				"6.152J",
-				"15.064J"
+				"c2.008",
+				"c2.810",
+				"c6.041",
+				"c6.152J",
+				"c15.064J"
 			],
 			"description" :               "Statistical modeling and control in manufacturing processes. Use of experimental design and response surface modeling to understand manufacturing process physics. Defect and parametric yield modeling and optimization. Forms of process control, including statistical process control, run by run and adaptive control, and real-time feedback control. Application contexts include semiconductor manufacturing, conventional metal and polymer processing, and emerging micro-nano manufacturing processes.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
@@ -995,9 +1004,9 @@
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"18.06",
-				"6.046J",
-				"6.837"
+				"c18.06",
+				"c6.046J",
+				"c6.837"
 			]
 		},
 		{
@@ -1018,7 +1027,7 @@
 			"id" :                     "c6.555J",
 			"type" :                      "Class",
 			"label" :                     "6.555J - Biomedical Signal and Image Processing",
-			"prereqs" :                   "6.003, 2.004, 16.004, 18.085",
+			"prereqs" :                   [ "c6.003", "c2.004", "c16.004", "c18.085" ],
 			"description" :               "Fundamentals of digital signal processing with particular emphasis on problems in biomedical research and clinical medicine. Basic principles and algorithms for data acquisition, imaging, filtering, and feature extraction. Laboratory projects provide practical experience in processing physiological data, with examples from cardiology, speech processing, and medical imaging. 6 Engineering Design Points.",
 			"engineering-concentration" : "Bioelectrical Engineering",
 			"semester" :                  "Spring",
@@ -1037,8 +1046,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.630 - Electromagnetics",
 			"prereqs" :                   [
-				"18.03",
-				"8.02"
+				"c18.03",
+				"c8.02"
 			],
 			"description" :               "Introduction to electromagnetics, emphasizing fundamental concepts and applications of Maxwell equations. Topics include polarization, dipole antennas, wireless communications, forces and energy, phase matching, dielectric waveguides and optical fibers, transmission line theory and circuit concepts, antennas, and equivalence principle. Examples deal with electrodyanmics, propagation, guidance, and radiation of electromagnetic waves.",
 			"engineering-concentration" : "Electrodynamics",
@@ -1058,8 +1067,10 @@
 			"type" :                      "Class",
 			"label" :                     "6.443J - Quantum Information Science",
 			"prereqs" :                   [
-				"2.11, 8.05",
-				"6.050J, 18.06"
+				"c2.11",
+				"c8.05",
+				"c6.050J", 
+				"c18.06"
 			],
 			"description" :               "Subject examines quantum computation and quantum information. Topics include quantum circuits, quantum Fourier transform and search algorithms, physical implementations, the quantum operations formalism, quantum error correction, stabilizer and Calderbank-Shor-Steans codes, fault tolerant quantum computation, quantum data compression, entanglement, and proof of the security of quantum cryptography. Prior knowledge of quantum mechanics and basic information theory is required.",
 			"engineering-concentration" : "Probabilistic Systems and Communication",
@@ -1103,11 +1114,11 @@
 			"type" :                      "Class",
 			"label" :                     "6.661J - Receivers, Antennas, and Signals",
 			"prereqs" :                   [
-				"6.013",
-				"8.03",
-				"6.003",
-				"16.04",
-				"2.004"
+				"c6.013",
+				"c8.03",
+				"c6.003",
+				"c16.04",
+				"c2.004"
 			],
 			"description" :               "Detection and measurement of radio and optical signals encountered in communications, astronomy, remote sensing, instrumentation, and radar. Statistical analysis of signal processing systems, including radiometers, spectrometers, interferometers, and digital correlation systems. Matched filters and ambiguity functions. Communications channel performance. Measurement of random electromagnetic fields. Angular filtering properties of antennas, interferometers, and aperture synthesis systems. Radiative transfer and parameter estimation. Alternate years.",
 			"engineering-concentration" : "Electrodynamics",
@@ -1125,7 +1136,7 @@
 			"id" :       "c6.045J",
 			"type" :        "Class",
 			"label" :       "6.045J - Automata, Computability, and Complexity",
-			"prereqs" :     "6.042J",
+			"prereqs" :     "c6.042J",
 			"description" : "Slower paced than 6.840J/18.404J. Introduces basic mathematical models of computation and the finite representation of infinite objects. Context-free languages. Turing machines. Partial recursive functions. Church\'s Thesis. Undecidability. Reducibility and completeness. Time complexity and NP-completeness. Probabilistic computation. Interactive proof systems.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -1142,9 +1153,9 @@
 			"type" :                      "Class",
 			"label" :                     "6.602 - Fundamentals of Photonics",
 			"prereqs" :                   [
-				"6.003",
-				"6.013",
-				"8.07"
+				"c6.003",
+				"c6.013",
+				"c8.07"
 			],
 			"description" :               [
 				"Fundamentals of optical and optoelectronic phenomena and devices based on classical and quantum properties of radiation and matter, culminating in lasers and applications. Fundamentals include Maxwell\u00E2\u0080\u0099s electromagnetic waves, resonators and beams, classical ray optics and optical systems, quantum theory of light, matter and its interaction, classical and quantum noise, lasers and laser dynamics, continuous wave and short pulse generation, light modulation",
@@ -1188,9 +1199,9 @@
 			"type" :        "Class",
 			"label" :       "6.011 - Introduction to Communication, Control, and Signal Processing",
 			"prereqs" :     [
-				"6.003",
-				"6.041",
-				"18.440"
+				"c6.003",
+				"c6.041",
+				"c18.440"
 			],
 			"description" : [
 				"Input-output and state-space models of linear systems driven by deterministic and random signals",
@@ -1215,9 +1226,9 @@
 			"type" :                      "Class",
 			"label" :                     "6.652J - Introduction to Plasma Physics II",
 			"prereqs" :                   [
-				"6.615J",
-				"8.613J",
-				"22.611J"
+				"c6.615J",
+				"c8.613J",
+				"c22.611J"
 			],
 			"description" :               [
 				"Linear waves and instabilities in magnetized plasma",
@@ -1262,7 +1273,7 @@
 			],
 			"semester" :                  "Fall",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "6.034"
+			"prereqs" :                   "c6.034"
 		},
 		{
 			"total-units" :               "12",
@@ -1280,7 +1291,7 @@
 			"id" :                     "c6.437",
 			"type" :                      "Class",
 			"label" :                     "6.437 - Inference and Information",
-			"prereqs" :                   "6.041, 6.431, 6.436J",
+			"prereqs" :                   [ "c6.041", "c6.431", "c6.436J" ],
 			"description" :               [
 				"Introduction to principles of Bayesian and non-Bayesian statistical inference. Hypothesis testing and parameter estimation, sufficient statistics",
 				"exponential families. Log-loss inference criterion, entropy and model capacity.  Kullback-Leibler distance and information geometry. Asymptotic analysis and large deviations theory.  Model  order estimation",
@@ -1306,7 +1317,7 @@
 			"id" :                     "c6.774",
 			"type" :                      "Class",
 			"label" :                     "6.774 - Physics of Microfabrication: Front End Processing",
-			"prereqs" :                   "6.152J",
+			"prereqs" :                   "c6.152J",
 			"description" :               "Advanced physical models and practical aspects of front-end microfabrication processes, particularly oxidation, diffusion, ion implantation, and epitaxy. Topics relevant to high performance MOS and bipolar devices, including ultra-thin gate oxides, gate etching, implant-damage enhanced diffusion, advanced metrology, stress effects on oxidation, process induced strain techniques, and strained Si/SiGe materials. CMOS process integration concepts, and impacts of processing on device characteristics. Students use modern process simulation tools.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
 			"semester" :                  "Fall",
@@ -1330,8 +1341,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.551J - Acoustics of Speech and Hearing",
 			"prereqs" :                   [
-				"8.03",
-				"6.003"
+				"c8.03",
+				"c6.003"
 			],
 			"description" :               [
 				"Provides acoustical background necessary to understand the role of sound in speech communication. Analyzes constraints imposed by the properties of sound and human anatomy on speech production (sound production from airflow and filtering by the vocal tract)",
@@ -1356,7 +1367,7 @@
 			"id" :                     "c6.431",
 			"type" :                      "Class",
 			"label" :                     "6.431 - Applied Probability",
-			"prereqs" :                   "18.02",
+			"prereqs" :                   "c18.02",
 			"description" :               "An introduction to probability theory, and the modeling and analysis of probabilistic systems. Sample space, probabilistic models, conditional probability. Discrete and continuous random variables. Transform techniques. Bernoulli and Poisson processes. Markov processes. Limit theorems and elements of statistical inference. Meets with graduate subject 6.431, but assignments differ.",
 			"engineering-concentration" : "Probabilistic Systems and Communication",
 			"semester" :                  "Spring",
@@ -1376,7 +1387,7 @@
 			"id" :       "c6.033",
 			"type" :        "Class",
 			"label" :       "6.033 - Computer System Engineering",
-			"prereqs" :     "6.004",
+			"prereqs" :     "c6.004",
 			"description" : [
 				"Topics on the engineering of computer software and hardware systems: techniques for controlling complexity",
 				"strong modularity using client-server design, operating systems",
@@ -1408,7 +1419,7 @@
 			"description" :               "Intensive introduction to the process of generating a symbolic description of the environment from an image. Students expected to attend the 6.801 lectures as well as occasional seminar meetings on special topics. Material presented in 6.801 is supplemented by reading from the literature. Students required to prepare a paper analyzing research in a selected area.",
 			"semester" :                  "Fall",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "6.003"
+			"prereqs" :                   "c6.003"
 		},
 		{
 			"total-units" : "12",
@@ -1444,9 +1455,10 @@
 			"type" :                      "Class",
 			"label" :                     "6.878 - Advanced Computational Biology: Genomes, Networks, Evolution",
 			"prereqs" :                   [
-				"6.001",
-				"7.012",
-				"18.440 or 6.041"
+				"c6.001",
+				"c7.012",
+				"c18.440",
+				"c6.041"
 			],
 			"description" :               "See description for 6.047.  Additionally examines recent publications in the areas covered, with research-style assignments. A more substantial final project is expected, which can lead to a thesis and publication.",
 			"engineering-concentration" : "Theoretical Computer Science",
@@ -1473,9 +1485,9 @@
 			"semester" :                  "Fall",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"6.041",
-				"6.042J",
-				"6.046J"
+				"c6.041",
+				"c6.042J",
+				"c6.046J"
 			]
 		},
 		{
@@ -1489,7 +1501,7 @@
 			"id" :       "c6.922",
 			"type" :        "Class",
 			"label" :       "6.922 - Advanced VI-A Internship",
-			"prereqs" :     "6.921",
+			"prereqs" :     "c6.921",
 			"description" : "Provides academic credit for the second assignment of VI-A undergraduate students at companies affiliated with the department\'s VI-A internship program. Enrollment limited to students participating in the VI-A internship program.",
 			"semester" :    "Summer",
 			"has-final" :   "FALSE"
@@ -1506,7 +1518,7 @@
 			"id" :                     "c6.829",
 			"type" :                      "Class",
 			"label" :                     "6.829 - Computer Networks",
-			"prereqs" :                   "6.033",
+			"prereqs" :                   "c6.033",
 			"description" :               [
 				"Topics on the engineering and analysis of network protocols and architecture, including architectural principles for designing heterogeneous networks",
 				"transport protocols",
@@ -1537,7 +1549,7 @@
 			"id" :                     "c6.441",
 			"type" :                      "Class",
 			"label" :                     "6.441 - Information Theory",
-			"prereqs" :                   "6.041",
+			"prereqs" :                   "c6.041",
 			"description" :               [
 				"Introduction to the quantitative theory of information and its applications to reliable, efficient communication systems. Mathematical definition and properties of information and its operational meanings. Basics of large deviations and its use in information theory, coding theory, and statistics. Source coding theorem and noisy channel coding theorem",
 				"error exponents",
@@ -1563,7 +1575,7 @@
 			"id" :       "c6.375",
 			"type" :        "Class",
 			"label" :       "6.375 - Complex Digital Systems Design",
-			"prereqs" :     "6.004",
+			"prereqs" :     "c6.004",
 			"description" : [
 				"Introduction to the design and implementation of large-scale digital systems using CMOS VLSI: technology and scaling",
 				"VLSI implementation styles- full custom to FPGAs",
@@ -1599,8 +1611,8 @@
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"6.001",
-				"6.042J"
+				"c6.001",
+				"c6.042J"
 			]
 		},
 		{
@@ -1616,8 +1628,8 @@
 			"type" :        "Class",
 			"label" :       "6.344 - Digital Image Processing",
 			"prereqs" :     [
-				"6.003",
-				"6.041"
+				"c6.003",
+				"c6.041"
 			],
 			"description" : "Digital images as two-dimensional signals. Digital signal processing theories used for digital image processing, including one-dimensional and two-dimensional convolution, Fourier transform, discrete Fourier transform, and discrete cosine transform. Image processing basics. Image enhancement. Image restoration. Image coding and compression. Video processing including video coding and compression. Additional topics including digital high-definition television systems.",
 			"semester" :    "Spring",
@@ -1653,8 +1665,8 @@
 			"type" :        "Class",
 			"label" :       "6.005 - Principles of Software Development",
 			"prereqs" :     [
-				"6.01",
-				"6.042J"
+				"c6.01",
+				"c6.042J"
 			],
 			"description" : [
 				"Introduction to the fundamental principles and techniques of software development that have greatest impact on practice. Topics include capturing the essence of a problem by recognizing and inventing suitable abstractions",
@@ -1685,8 +1697,8 @@
 			"type" :        "Class",
 			"label" :       "6.336J - Introduction to Numerical Simulation",
 			"prereqs" :     [
-				"18.03",
-				"18.06"
+				"c18.03",
+				"c18.06"
 			],
 			"description" : [
 				"Introduction to computational techniques for the simulation of a large variety of engineering and engineered systems. Applications drawn from aerospace, mechanical, electrical, and chemical engineering, biology, and materials science. Topics: mathematical formulations",
@@ -1727,8 +1739,9 @@
 			"type" :                      "Class",
 			"label" :                     "6.552J - Signal Processing by the Auditory System: Perception",
 			"prereqs" :                   [
-				"6.003",
-				"6.041, 6.431"
+				"c6.003",
+				"c6.041", 
+				"c6.431"
 			],
 			"description" :               "Studies behavioral aspects of human hearing in relation to current physiological knowledge. Examines performance in processing information from acoustic stimuli. Correlations between behavior and physiology, reflecting the tono-topic organization and stochastic responses of the auditory system. Mathematical models of psychophysical relations, incorporating quantitative knowledge of physiological transformations by the peripheral auditory system. Discusses related research on diagnosis and aids for the partially deaf. Alternate years.",
 			"engineering-concentration" : "Bioelectrical Engineering",
@@ -1774,7 +1787,7 @@
 			"id" :       "c6.251J",
 			"type" :        "Class",
 			"label" :       "6.251J - Introduction to Mathematical Programming",
-			"prereqs" :     "18.06",
+			"prereqs" :     "c18.06",
 			"description" : [
 				"Introduction to linear optimization and its extensions emphasizing both methodology and the underlying mathematical structures and geometrical ideas. Covers classical theory of linear programming as well as some recent advances in the field. Topics: simplex method",
 				"duality theory",
@@ -1804,9 +1817,9 @@
 			"type" :                      "Class",
 			"label" :                     "6.635 - Topics in Electromagnetism",
 			"prereqs" :                   [
-				"6.013",
-				"6.630",
-				"6.632"
+				"c6.013",
+				"c6.630",
+				"c6.632"
 			],
 			"description" :               "Topics covered include special relativity, electrodynamics of moving media, waves in dispersive media, microstrip integrated circuits, quantum optics, remote sensing, radiative transfer theory, scattering by rough surfaces, effective permittivities, and random media. Alternate years.",
 			"engineering-concentration" : "Electrodynamics",
@@ -1886,9 +1899,9 @@
 			"type" :                      "Class",
 			"label" :                     "6.777J - Design and Fabrication of MEMS",
 			"prereqs" :                   [
-				"6.003",
-				"2.004",
-				"8.02"
+				"c6.003",
+				"c2.004",
+				"c8.02"
 			],
 			"description" :               "Introduction to microsystem design. Material properties, microfabrication technologies, structural behavior, sensing methods, fluid flow, microscale transport, noise, and amplifiers feedback systems. Student teams design microsystems (sensors, actuators, and sensing/control systems) of a variety of types, (e.g., optical MEMS, bioMEMS, inertial sensors) to meet a set of performance specifications (e.g., sensitivity, signal-to-noise) using a realistic microfabrication process. Emphasis on modeling and simulation in the design process. Prior fabrication experience is desirable.  4 Engineering Design Points.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
@@ -1930,8 +1943,8 @@
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"6.033",
-				"6.042J"
+				"c6.033",
+				"c6.042J"
 			]
 		},
 		{
@@ -1947,8 +1960,8 @@
 			"type" :        "Class",
 			"label" :       "6.374 - Analysis and Design of Digital Integrated Circuits",
 			"prereqs" :     [
-				"6.012",
-				"6.004"
+				"c6.012",
+				"c6.004"
 			],
 			"description" : [
 				"Device and circuit level optimization of digital building blocks. MOS device models including Deep Sub-Micron effects. Circuit design styles for logic, arithmetic and sequential blocks. Estimation and minimization of energy consumption. Interconnect models and parasitics",
@@ -2005,7 +2018,7 @@
 			"id" :                     "c6.729",
 			"type" :                      "Class",
 			"label" :                     "6.729 - Molecular Electronics",
-			"prereqs" :                   "6.728",
+			"prereqs" :                   "c6.728",
 			"description" :               "Applications and aspects of the theory of molecular-scale electronics. Molecular circuit architectures and devices. Optical and electronic properties of molecules are discussed, including radiationless transitions and energy transfer, the ramifications of molecular conformation changes, charge transport in organic molecular crystals and disordered films, metal/organic interfaces, and charge conduction through single molecules. Discussion of molecular circuits in biology. This is an advanced topics subject. A text, supplementary material, and references are provided. Alternate years.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
 			"semester" :                  "Fall",
@@ -2026,10 +2039,10 @@
 			"type" :        "Class",
 			"label" :       "6.047 - Computational Biology: Genomes, Networks, Evolution",
 			"prereqs" :     [
-				"6.001",
-				"7.012",
-				"18.440",
-				"6.041"
+				"c6.001",
+				"c7.012",
+				"c18.440",
+				"c6.041"
 			],
 			"description" : [
 				"Covers the algorithmic and machine learning foundations of computational biology, combining theory with practice. Principles of algorithm design, influential problems and techniques, and analysis of large-scale biological datasets. Topics include (a) genomes: sequence analysis, gene finding, RNA folding, genome alignment and assembly, database search",
@@ -2083,7 +2096,7 @@
 			"id" :       "c6.301",
 			"type" :        "Class",
 			"label" :       "6.301 - Solid-State Circuits",
-			"prereqs" :     "6.012, 6.003",
+			"prereqs" :     [ "c6.012", "c6.003" ],
 			"description" : "Analysis and design of transistor circuits, based directly on the semiconductor physics and transistor circuit models developed in 6.012. High-frequency and low-frequency design calculations and simulation of multistage transistor circuits. Trans-linear circuits. The charge-control model. Introduction to operational-amplifier design and application. Some previous laboratory experience assumed.  4 Engineering Design Points.",
 			"semester" :    "Fall",
 			"has-final" :   "TRUE"
@@ -2103,14 +2116,14 @@
 			"type" :        "Class",
 			"label" :       "6.024J - Molecular, Cellular, and Tissue Biomechanics",
 			"prereqs" :     [
-				"18.03",
-				"3.016",
-				"7.012",
-				"7.013",
-				"7.014",
-				"7.015",
-				"2.370",
-				"2.772J"
+				"c18.03",
+				"c3.016",
+				"c7.012",
+				"c7.013",
+				"c7.014",
+				"c7.015",
+				"c2.370",
+				"c2.772J"
 			],
 			"description" : [
 				"Develops and applies scaling laws and the methods of continuum mechanics to biomechanical phenomena over a range of length scales. Topics include structure of tissues and the molecular basis for macroscopic properties",
@@ -2138,8 +2151,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.730 - Physics for Solid-State Applications",
 			"prereqs" :                   [
-				"6.013",
-				"6.728"
+				"c6.013",
+				"c6.728"
 			],
 			"description" :               "Classical and quantum models of electrons and lattice vibrations in solids, emphasizing physical models for elastic properties, electronic transport, and heat capacity. Crystal lattices, electronic energy band structures, phonon dispersion relatons, effective mass theorem, semiclassical equations of motion, electron scattering and semiconductor optical properties. Band structure and transport properties of selected semiconductors. Connection of quantum theory of solids with quasi-Fermi levels and Boltzmann transport used in device modeling.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
@@ -2161,7 +2174,7 @@
 			"id" :                     "c6.561J",
 			"type" :                      "Class",
 			"label" :                     "6.561J - Fields, Forces, and Flows in Biological Systems",
-			"prereqs" :                   "6.013, 2.005, 10.302",
+			"prereqs" :                   [ "c6.013", "c2.005", "c10.302" ],
 			"description" :               [
 				"Molecular diffusion, diffusion-reaction, conduction, convection in biological systems",
 				"fields in heterogeneous media",
@@ -2189,8 +2202,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.673 - Introduction to Numerical Simulation in Electrical Engineering",
 			"prereqs" :                   [
-				"6.012",
-				"6.013"
+				"c6.012",
+				"c6.013"
 			],
 			"description" :               [
 				"Selection of a simulation model and physical approximations. Solution of nonlinear coupled PDEs in 1-D through finite difference and finite element methods, Newton\'s method, and variants. Finite difference and finite element methods in 2-D and sparse matrix methods emphasizing conjugate gradient algorithms. Semiconductor devices used as primary examples",
@@ -2212,8 +2225,8 @@
 			"type" :        "Class",
 			"label" :       "6.171 - Software Engineering for Web Applications",
 			"prereqs" :     [
-				"6.001",
-				"6.170"
+				"c6.001",
+				"c6.170"
 			],
 			"description" : "Computation over unreliable and anonymous protocols such as tht of the web. Problems of persistence, concurrency control, transactions, and transactions across multiple servers. The relational database management system as a tool for attacking these problems. Students work in small mentored teams on diverse projects. Enrollment limited. 12 Engineering Design Points.",
 			"semester" :    "Spring",
@@ -2250,7 +2263,7 @@
 			"id" :       "c6.131",
 			"type" :        "Class",
 			"label" :       "6.131 - Power Electronics Laboratory",
-			"prereqs" :     "6.002",
+			"prereqs" :     "c6.002",
 			"description" : "Introduces the design and construction of power electronic circuits and motor drives.  Laboratory exercises include the construction of drive circuitry for an electric go-cart, flash strobes, computer power supplies, three-phase inverters for AC motors, and resonant drives for lamp ballasts and induction heating. Basic electric machines introduced include DC, induction, and permanent magnet motors, with drive considerations. Final project may be expanded to serve as a 6.UAP project, with instructor permission. 12 Engineering Design Points.",
 			"semester" :    "Fall",
 			"has-final" :   "FALSE"
@@ -2283,9 +2296,9 @@
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"6.801",
-				"6.866",
-				"6.869"
+				"c6.801",
+				"c6.866",
+				"c6.869"
 			]
 		},
 		{
@@ -2307,12 +2320,12 @@
 			"type" :                      "Class",
 			"label" :                     "6.834J - Cognitive Robotics",
 			"prereqs" :                   [
-				"6.041",
-				"6.042",
-				"16.410",
-				"16.413",
-				"6.034",
-				"6.825"
+				"c6.041",
+				"c6.042",
+				"c16.410",
+				"c16.413",
+				"c6.034",
+				"c6.825"
 			],
 			"description" :               [
 				"Algorithms and paradigms for creating a wide range of robotic systems that act intelligently and robustly, by reasoning extensively from models of themselves and their world.  Examples range from autonomous Mars explorers and cooperative air vehicles, to everyday embedded devices.  Topics include deduction and search in real-time",
@@ -2341,8 +2354,8 @@
 			"type" :        "Class",
 			"label" :       "6.245 - Multivariable Control Systems",
 			"prereqs" :     [
-				"6.241",
-				"16.31"
+				"c6.241",
+				"c16.31"
 			],
 			"description" : [
 				"Computer-aided design methodologies for synthesis of multivariable feedback control systems. Performance and robustness trade-offs. Model-based compensators",
@@ -2388,8 +2401,8 @@
 			"type" :        "Class",
 			"label" :       "6.242 - Advanced Linear Control Systems",
 			"prereqs" :     [
-				"18.06",
-				"6.241"
+				"c18.06",
+				"c6.241"
 			],
 			"description" : "Introduction to uncertain multivariable control systems, plus modeling assumptions and objectives. Stability of linear time invariant systems, coprime factorization, parametrization of all stabilizing compensators. Design using H2, H\u00E2\u0088\u009E L1 -optimization. Stability and performance robustness in the presence of structured uncertainty. Special topics. Alternate years.",
 			"semester" :    "Fall",
@@ -2407,8 +2420,8 @@
 			"type" :        "Class",
 			"label" :       "6.007 - Applied Electromagnetics: From Motors to Lasers",
 			"prereqs" :     [
-				"6.01",
-				"18.03"
+				"c6.01",
+				"c18.03"
 			],
 			"description" : "Applications of electromagnetic principles to classical and modern devices.  Basic electrical components, electric motors and generators, power flow, and energy conversion in macroscopic to quantum-scale electrical and electromechanical systems. Photons and their interaction with matter in detectors, sources, optical fibers, and other devices and communication systems.",
 			"semester" :    "Spring",
@@ -2429,7 +2442,7 @@
 			"id" :                     "c6.763",
 			"type" :                      "Class",
 			"label" :                     "6.763 - Applied Superconductivity",
-			"prereqs" :                   "6.728",
+			"prereqs" :                   "c6.728",
 			"description" :               "Phenomenological approach to superconductivity, with emphasis on superconducting electronics. Electrodynamics of superconductors, London\'s model, and flux quantization. Josephson junctions and superconducting quantum devices and detectors.Quantized circuits for quantum computing. Overview of type-II superconductors, critical magnetic fields, pinning, and microscopic theory of superconductivity. Alternate years.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
 			"semester" :                  "Fall",
@@ -2450,7 +2463,7 @@
 			"id" :                     "c6.641",
 			"type" :                      "Class",
 			"label" :                     "6.641 - Electromagnetic Fields, Forces, and Motion",
-			"prereqs" :                   "6.013",
+			"prereqs" :                   "c6.013",
 			"description" :               [
 				"Electric and magnetic quasistatic forms of Maxwell\'s equations applied to dielectric, conduction, and magnetization boundary value problems. Electromagnetic forces, force densities, and stress tensors, including magnetization and polarization. Thermodynamics of electromagnetic fields, equations of motion, and energy conservation. Applications to synchronous, induction, and commutator machines",
 				"sensors and transducers",
@@ -2484,8 +2497,8 @@
 			"type" :        "Class",
 			"label" :       "6.243J - Dynamics of Nonlinear Systems",
 			"prereqs" :     [
-				"18.100",
-				"6.241"
+				"c18.100",
+				"c6.241"
 			],
 			"description" : "Introduction to nonlinear deterministic dynamical systems. Nonlinear ordinary differential equations. Planar autonomous systems. Fundamental theory: Picard iteration, contraction mapping theorem, and Bellman-Gronwall lemma. Stability of equilibria by Lyapunov\'s first and second methods. Feedback linearization. Application to nonlinear circuits and control systems. Alternate years.",
 			"semester" :    "Fall",
@@ -2511,9 +2524,9 @@
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"6.046J",
-				"6.251J",
-				"15.081J"
+				"c6.046J",
+				"c6.251J",
+				"c15.081J"
 			]
 		},
 		{
@@ -2531,7 +2544,7 @@
 			"id" :       "c6.111",
 			"type" :        "Class",
 			"label" :       "6.111 - Introductory Digital Systems Laboratory",
-			"prereqs" :     "6.002 6.071 or 16.004",
+			"prereqs" :     [ "c6.002", "c6.071", "c16.004" ],
 			"description" : "Lectures and labs on digital logic, flip flops, PALs, FPGAs, counters, timing, synchronization, and finite-state machines prepare students for the design and implementation of a final project of their choice: games, music, digital filters, wireless communications, video, or graphics. Extensive use of Verilog  for describing and implementating digital logic designs. Students engage in extensive written and oral communication exercises. 12 Engineering Design Points.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -2580,7 +2593,7 @@
 			],
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "6.046J"
+			"prereqs" :                   "c6.046J"
 		},
 		{
 			"total-units" :               "12",
@@ -2597,7 +2610,7 @@
 			"id" :                     "c6.436J",
 			"type" :                      "Class",
 			"label" :                     "6.436J - Fundamentals of Probability",
-			"prereqs" :                   "18.02",
+			"prereqs" :                   "c18.02",
 			"description" :               "Introduction to probability theory. Probability spaces and measures. Discrete and continuous random variables. Conditioning and independence. Multivariate normal distribution. Abstract integration, expectation, and related convergence results. Moment generating and  characteristic functions. Bernoulli and Poisson process. Finite-state  Markov chains. Convergence notions and their relations. Limit theorems. Familiarity with elementary notions in probability and real analysis is desirable.",
 			"engineering-concentration" : "Probabilistic Systems and Communication",
 			"semester" :                  "Fall",
@@ -2618,7 +2631,7 @@
 			"id" :       "c6.071J",
 			"type" :        "Class",
 			"label" :       "6.071J - Introduction to Electronics",
-			"prereqs" :     "18.03",
+			"prereqs" :     "c18.03",
 			"description" : "Introductory subject suitable for students with little or no previous background in electronics. Provides the knowledge necessary for reading schematics and designing, building, analyzing, and testing fundamental analog and digital circuits. The class has a strong hands-on component. Students construct interactive examples and explore the practical uses of electronics in engineering and experimental science, including signals and measurement fundamentals. Students have the use of state-of-the-art hardware and software for data acquisition, analysis, and control.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -2683,7 +2696,7 @@
 			"description" :               "In-depth treatment of the modern theory of integer programming and combinatorial optimization, emphasizing geometry, duality and algorithms. Topics include formulating problems in integer variables, enhancement of formulations, ideal formulations, integer programming duality, linear and semidefinite relaxations, lattices and their applications, the geometry of integer programming, primal methods, cutting plane methods, connections with algebraic geometry, computational complexity, approximation algorithms, heuristic and enumerative algorithms, mixed integer programming and solutions of large scale problems. Alternate years.",
 			"semester" :                  "Fall",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "15.081J"
+			"prereqs" :                   "c15.081J"
 		},
 		{
 			"total-units" : "12",
@@ -2701,8 +2714,8 @@
 			"type" :        "Class",
 			"label" :       "6.263J - Data-Communication Networks",
 			"prereqs" :     [
-				"6.041",
-				"18.313"
+				"c6.041",
+				"c18.313"
 			],
 			"description" : "Modeling of the control processes in conventional and high-speed data communication networks. Develops and utilizes elementary concepts from queueing theory, algorithms, linear and nonlinear programming to study the problems of line and network protocols, distributed algorithms, quasi-static and dynamic routing, congestion control, deadlock prevention. Treats local and wide-area networks, and high-speed electronic and optical networks.",
 			"semester" :    "Fall",
@@ -2736,10 +2749,10 @@
 			"semester" :                  "Fall",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"6.034",
-				"18.06",
-				"6.041",
-				"18.05"
+				"c6.034",
+				"c18.06",
+				"c6.041",
+				"c18.05"
 			]
 		},
 		{
@@ -2758,8 +2771,8 @@
 			"type" :        "Class",
 			"label" :       "6.345J - Automatic Speech Recognition",
 			"prereqs" :     [
-				"6.003",
-				"6.041"
+				"c6.003",
+				"c6.041"
 			],
 			"description" : "Graduate-level introduction to automatic speech recognition. Provide fundamental background in acoustic theory of speech production, properties of speech sounds, signal representation, acoustic modeling, pattern classification, search algorithms, stochastic modeling techniques (including hidden Markov modeling), and language modeling.  Advanced topics include finite-state transducer formulation for speech recognition, system robustness and adaptation, audio-visual integration for speech processing, and speech understanding.  Hands-on experience gained through laboratory exercises and a term project. Alternate years.  4 Engineering Design Points.",
 			"semester" :    "Spring",
@@ -2780,7 +2793,7 @@
 			"id" :       "c6.255J",
 			"type" :        "Class",
 			"label" :       "6.255J - Optimization Methods",
-			"prereqs" :     "18.06",
+			"prereqs" :     "c18.06",
 			"description" : "Introduces the principal algorithms for linear, network, discrete, nonlinear, dynamic optimization and optimal control. Emphasis on methodology and the underlying mathematical structures. Topics include the simplex method, network flow methods, branch and bound and cutting plane methods for discrete optimization, optimality conditions for nonlinear optimization, interior point methods for convex optimization, Newton\'s method, heuristic methods, and dynamic programming and optimal control methods.",
 			"semester" :    "Fall",
 			"has-final" :   "TRUE"
@@ -2798,8 +2811,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.442 - Optical Networks",
 			"prereqs" :                   [
-				"6.041",
-				"6.042"
+				"c6.041",
+				"c6.042"
 			],
 			"description" :               "Introduces the fundamental and practical aspects of optical network technology, architecture, design and analysis tools and techniques.  The treatment of optical networks are from the architecture and system design points of view. Optical hardware technologies introduced and characterized as fundamental network building blocks on which optical transmission systems and network architectures are based.  In addition to the Physical Layer, the higher network layers (Media Access Control, Network and Transport Layers) are considered together as integral parts of network design. Performance metrics, analysis and optimization techniques are developed to help guide the creation of high performance complex optical networks.",
 			"engineering-concentration" : "Probabilistic Systems and Communication",
@@ -2823,9 +2836,11 @@
 			"type" :                      "Class",
 			"label" :                     "6.455J - Sonar, Radar, and Seismic Signal Processing",
 			"prereqs" :                   [
-				"2.004, 6.003",
-				"6.041",
-				"18.075, 18.085"
+				"c2.004", 
+				"c6.003",
+				"c6.041",
+				"c18.075", 
+				"c18.085"
 			],
 			"description" :               "Signal processing used in sonar, radar, and geophysical data analysis. Active sonar and radar systems: matched filters and ambiguity functions, signal design of range/doppler resolution, second moment characterizations of random processes with correlation functions and power density spectra, deconvolution, spectral estimation by Fourier techniques and adaptive methods, beam forming.",
 			"engineering-concentration" : "Probabilistic Systems and Communication",
@@ -2847,11 +2862,11 @@
 			"type" :        "Class",
 			"label" :       "6.046J - Design and Analysis of Algorithms",
 			"prereqs" :     [
-				"6.006",
-				"6.001",
-				"6.042",
-				"18.062",
-				"18.310"
+				"c6.006",
+				"c6.001",
+				"c6.042",
+				"c18.062",
+				"c18.310"
 			],
 			"description" : [
 				"Techniques for the design and analysis of efficient algorithms, emphasizing methods useful in practice. Topics include sorting",
@@ -2887,7 +2902,7 @@
 			"id" :       "c6.01",
 			"type" :        "Class",
 			"label" :       "6.01 - Introduction to EECS I",
-			"prereqs" :     "8.02",
+			"prereqs" :     "c8.02",
 			"description" : [
 				"An integrated introduction to electrical engineering and computer science, taught using substantial laboratory experiments with mobile robots. Key issues in the design of engineered artifacts operating in the natural world: measuring and modeling system behaviors",
 				"assessing errors in sensors and effectors",
@@ -2912,8 +2927,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.453 - Quantum Optical Communication",
 			"prereqs" :                   [
-				"6.011",
-				"18.06"
+				"c6.011",
+				"c18.06"
 			],
 			"description" :               [
 				"Quantum optics: Dirac notation quantum mechanics",
@@ -2945,7 +2960,7 @@
 			"id" :                     "c6.642",
 			"type" :                      "Class",
 			"label" :                     "6.642 - Continuum Electromechanics",
-			"prereqs" :                   "6.641",
+			"prereqs" :                   "c6.641",
 			"description" :               "Laws, approximations, and relations of continuum mechanics.  Mechanical and electromechanical transfer relations. Statics and dynamics of electromechanical systems having a static equililbrium. Electromechanical flows. Field coupling with thermal and molecular diffusion.  Electrokinetics. Streaming interactions. Application to materials processing, magnetohydrodynamic and electrohydrodynamic pumps and generators, ferrohydrodynamics, physiochemical systems, heat transfer, continuum feedback control, electron beam devices, and plasma dynamics.  Alternate years.",
 			"engineering-concentration" : "Electrodynamics",
 			"semester" :                  "Fall",
@@ -2970,7 +2985,7 @@
 			"description" :               "Introduction to the design and analysis of algorithms for geometric problems, in low and high dimensional spaces. Algorithms: convex hulls, polygon triangulation, Delaunay triangulation, motion planning, pattern matching. Geometric data structures: point location, Voronoi diagrams, Binary Space Partitions. Geometric problems in higher dimensions: linear programming, closest  pair problems. High dimensional nearest neighbor search and low-distortion embeddings between metric spaces. Geometric algorithms for massive data sets: external memory and streaming algorithms. Geometric optimization.",
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "6.046J"
+			"prereqs" :                   "c6.046J"
 		},
 		{
 			"total-units" :               "12",
@@ -2987,7 +3002,7 @@
 			"id" :                     "c6.434J",
 			"type" :                      "Class",
 			"label" :                     "6.434J - Statistics for Engineers and Scientists",
-			"prereqs" :                   "18.02, 18.06, 6.431",
+			"prereqs" :                   [ "c18.02", "c18.06", "c6.431" ],
 			"description" :               "Provides a rigorous introduction to fundamentals of statistics motivated by engineering applications and emphasizing the informed use of modern statistical software.  Topics include sufficient statistics, exponential families, estimation, hypothesis testing, measures of performance, and notion of optimality. Alternate years.",
 			"engineering-concentration" : "Probabilistic Systems and Communication",
 			"semester" :                  "Fall",
@@ -3010,7 +3025,7 @@
 			"id" :                     "c6.543J",
 			"type" :                      "Class",
 			"label" :                     "6.543J - The Lexicon and Its Features",
-			"prereqs" :                   "24.901",
+			"prereqs" :                   "c24.901",
 			"description" :               "Overview of features that distinguish sound categories in languages of the world. Theories that relate these categories to their acoustic and articulatory correlates, both universally and in particular languages. Models of word recognition by listeners. A variety of perspectives on these issues, drawn from electrical engineering and computer science, linguistics and cognitive science.",
 			"engineering-concentration" : "Bioelectrical Engineering",
 			"semester" :                  "Spring",
@@ -3032,7 +3047,7 @@
 			"id" :       "c6.264J",
 			"type" :        "Class",
 			"label" :       "6.264J - Queues: Theory and Applications",
-			"prereqs" :     "6.262",
+			"prereqs" :     "c6.262",
 			"description" : "Modeling and analysis of queueing systems, with applications in communications, manufacturing, computers, call centers, service industries and transportation. Topics include birth-death processes and simple Markovian queues, networks of queues and product form networks, single and multi-server queues, multi-class queueing networks, fluid models, adversarial queueing networks, heavy-traffic theory and diffusion approximations. Covers state of the art results which lead to research opportunities.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -3049,7 +3064,7 @@
 			"id" :       "c6.254",
 			"type" :        "Class",
 			"label" :       "6.254 - Game Theory with Engineering Applications",
-			"prereqs" :     "6.041",
+			"prereqs" :     "c6.041",
 			"description" : "Introduction to fundamentals of game theory and mechanism design with motivations for each topic drawn from engineering applications (including distributed control of wireline/wireless communication networks, transportation networks, pricing). Emphasis on the foundations of the theory, mathematical tools, as well as modeling and the equilibrium notion in different environments. Topics include normal form games, supermodular games, dynamic games, repeated games, games with incomplete/imperfect information, mechanism design, cooperative game theory, and network games.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -3067,8 +3082,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.732 - Physics of Solids",
 			"prereqs" :                   [
-				"6.730",
-				"8.231"
+				"c6.730",
+				"c8.231"
 			],
 			"description" :               [
 				"Continuation of 6.730 emphasizing applications-related physical issues in solids. Topics: electronic structure and energy band diagrams of semiconductors, metals, and insulators",
@@ -3106,8 +3121,8 @@
 			"type" :        "Class",
 			"label" :       "6.241 - Dynamic Systems and Control",
 			"prereqs" :     [
-				"6.003",
-				"18.06"
+				"c6.003",
+				"c18.06"
 			],
 			"description" : "Linear, discrete- and continuous-time, multi-input-output systems in control, related areas. Least squares and matrix perturbation problems. State-space models, modes, stability, controllability, observability, transfer function matrices, poles and zeros, and minimality. Internal stability of interconnected systems, feedback compensators, state feedback, optimal regulation, observers, and observer-based compensators. Measures of control performance, robustness issues using singular values of transfer functions. Introductory ideas on nonlinear systems. Recommended prerequisite: 6.302.",
 			"semester" :    "Fall",
@@ -3127,7 +3142,7 @@
 			"id" :       "c6.034",
 			"type" :        "Class",
 			"label" :       "6.034 - Artificial Intelligence",
-			"prereqs" :     "6.001",
+			"prereqs" :     "c6.001",
 			"description" : "Introduces representations, techniques, and architectures used to build applied systems and to account for intelligence from a computational point of view. Applications of rule chaining, heuristic search, constraint propagation, constrained search, inheritance, and other problem-solving paradigms. Applications of identification trees, neural nets, genetic algorithms, and other learning paradigms. Speculations on the contributions of human vision and language systems to human intelligence. Meets with HST.947 spring only.  4 Engineering Design Points.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -3151,8 +3166,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.778J - Materials and Processes for Microelectromechanical Devices and Systems",
 			"prereqs" :                   [
-				"6.152J",
-				"3.155J"
+				"c6.152J",
+				"c3.155J"
 			],
 			"description" :               "Unified treatment of key principles in materials and processing for design and manufacture of microelectromechanical systems (MEMS). Emphasis on materials and processes commonly used for fabrication for MEMS and not microelectronic systems. Discussion of the processing and properties of both thin and thick polycrystalline and amorphous films, wafer and thin film bonding, bulk micromachining techniques, and the relationships between processing and properties of active materials such as piezoelectrics, ferroelectrics and phase-transition materials. Key material properties and parameters and their relationships with microfabrication processes and applications are discussed, including elastic and inelastic deformation, fracture, residual stress, fatigue, creep, adhesion, stiction, and coupled-field constitutive behavior. Materials and process selection and case studies of applications provide a unifying theme.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
@@ -3174,7 +3189,7 @@
 			"id" :       "c6.042J",
 			"type" :        "Class",
 			"label" :       "6.042J - Mathematics for Computer Science",
-			"prereqs" :     "18.01",
+			"prereqs" :     "c18.01",
 			"description" : [
 				"Elementary discrete mathematics for computer science and engineering. Emphasis on mathematical definitions and proofs as well as on applicable methods.  Topics: formal logic notation, proof methods",
 				"induction, well-ordering",
@@ -3208,8 +3223,8 @@
 			"type" :        "Class",
 			"label" :       "6.003 - Signals and Systems",
 			"prereqs" :     [
-				"6.002",
-				"6.02"
+				"c6.002",
+				"c6.02"
 			],
 			"description" : "Fundamentals of signal and system analysis, with applications drawn from filtering, audio and image processing, communications, and automatic control. Topics include convolution, Fourier series and transforms, sampling and discrete-time processing of continuous-time signals, modulation, Laplace and Z-transforms, and feedback systems.  4 Engineering Design Points.",
 			"semester" :    "Spring",
@@ -3231,9 +3246,9 @@
 			"type" :        "Class",
 			"label" :       "6.262 - Discrete Stochastic Processes",
 			"prereqs" :     [
-				"6.041",
-				"6.431",
-				"18.313"
+				"c6.041",
+				"c6.431",
+				"c18.313"
 			],
 			"description" : [
 				"Review of probability and laws of large numbers",
@@ -3262,7 +3277,7 @@
 			"id" :       "c6.281J",
 			"type" :        "Class",
 			"label" :       "6.281J - Logistical and Transportation Planning Methods",
-			"prereqs" :     "6.431",
+			"prereqs" :     "c6.431",
 			"description" : "Quantitative techniques of operations research with emphasis on applications in transportation systems analysis (urban, air, ocean, highway, and pickup and delivery systems) and in the planning and design of logistically oriented urban service systems (e.g., fire and police departments, emergency medical services, and emergency repair services). Unified study of functions of random variables, geometrical probability, multi-server queuing theory, spatial location theory, network analysis and graph theory, and relevant methods of simulation. Computer exercises and discussions of implementation difficulties.",
 			"semester" :    "Fall",
 			"has-final" :   "FALSE"
@@ -3278,7 +3293,7 @@
 			"id" :                     "c6.701",
 			"type" :                      "Class",
 			"label" :                     "6.701 - Introduction to Nano Electronics",
-			"prereqs" :                   "6.003",
+			"prereqs" :                   "c6.003",
 			"description" :               "Quantization, wavefunctions and Schr\u00C3\u00B6dinger\u00E2\u0080\u0099s equation. Introduction to electronic properties of molecules, carbon nanotubes and crystals. Energy band formation and the origin of metals, insulators and semiconductors. Ballistic transport, Ohm\u00E2\u0080\u0099s law, ballistic versus traditional MOSFETs, fundamental limits to computation.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
 			"semester" :                  "Spring",
@@ -3304,8 +3319,8 @@
 			"semester" :                  "Fall",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"18.310",
-				"18.062J"
+				"c18.310",
+				"c18.062J"
 			]
 		},
 		{
@@ -3320,7 +3335,7 @@
 			"id" :                     "c6.719",
 			"type" :                      "Class",
 			"label" :                     "6.719 - Nano Electronics",
-			"prereqs" :                   "6.003",
+			"prereqs" :                   "c6.003",
 			"description" :               "Meets with undergraduate subject 6.701, but requires the completion of additional/different homework assignments and or projects. See subject description under 6.701.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
 			"semester" :                  "Spring",
@@ -3351,7 +3366,7 @@
 			"description" :               "In-depth study of an active research topic in computer graphics. Topics change each term. Readings from the literature, student presentations, short assignments, and a programming project.",
 			"semester" :                  "Fall",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "6.837"
+			"prereqs" :                   "c6.837"
 		},
 		{
 			"total-units" :               "12",
@@ -3368,7 +3383,7 @@
 			"id" :                     "c6.775",
 			"type" :                      "Class",
 			"label" :                     "6.775 - CMOS Analog and Mixed-Signal Circuit Design",
-			"prereqs" :                   "6.301",
+			"prereqs" :                   "c6.301",
 			"description" :               "A detailed exposition of the principles involved in designing and optimizing analog and mixed-signal circuits in CMOS technologies. Small-signal and large-signal models. Systemic methodology for device sizing and biasing. Basic circuit building blocks. Operational amplifier design. Large signal considerations. Principles of switched capacitor networks including switched-capacitor and continuous-time integrated filters. Basic and advanced A/D and D/A converters, delta-sigma modulators, RF and other signal processing circuits. Design projects on op amps and subsystems are a required part of the subject.  4 Engineering Design Points.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
 			"semester" :                  "Spring",
@@ -3389,8 +3404,8 @@
 			"type" :        "Class",
 			"label" :       "6.022J - Quantitative Physiology: Organ Transport Systems",
 			"prereqs" :     [
-				"18.03",
-				"8.02"
+				"c18.03",
+				"c8.02"
 			],
 			"description" : "Application of the principles of energy and mass flow to major human organ systems. Mechanisms of regulation and homeostasis. Anatomical, physiological and pathophysiological features of the cardiovascular, respiratory and renal systems. Systems, features and devices that are most illuminated by the methods of physical sciences. Laboratory work includes some animal studies.  2 Engineering Design Points.",
 			"semester" :    "Spring",
@@ -3412,9 +3427,10 @@
 			"type" :        "Class",
 			"label" :       "6.050J - Information, Entropy and Computation",
 			"prereqs" :     [
-				"8.01",
-				"8.012",
-				"8.01L or 8.01T"
+				"c8.01",
+				"c8.012",
+				"c8.01L",
+				"c8.01T"
 			],
 			"description" : "Explores the ultimate limits to communication and computation, with an emphasis on the physical nature of information and information processing. Topics include information and computation, digital signals, codes, and compression. Biological representations of information. Logic circuits, computer architectures, and algorithmic information. Noise, probability, and error correction. The concept of entropy applied to channel capacity and to the second law of thermodynamics. Reversible and irreversible operations and the physics of computation. Quantum computation.",
 			"semester" :    "Spring",
@@ -3435,7 +3451,7 @@
 			"id" :                     "c6.823",
 			"type" :                      "Class",
 			"label" :                     "6.823 - Computer System Architecture",
-			"prereqs" :                   "6.004",
+			"prereqs" :                   "c6.004",
 			"description" :               [
 				"Emphasizes the relationship among technology, hardware organization, and programming systems in the evolution of computer architecture. Pipelined, out-of-order, and speculative execution. Superscalar, VLIW, vector, and multithreaded processors. Virtual memory and exception handling. I/O and memory systems. Parallel computers",
 				"message passing and shared memory systems. Memory models, synchronization, and cache coherence protocols. Embedded computers. Assumes an undergraduate knowledge of computer systems.  4 Engineering Design Points."
@@ -3457,8 +3473,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.638 - Ultrafast Optics",
 			"prereqs" :                   [
-				"6.630",
-				"6.631"
+				"c6.630",
+				"c6.631"
 			],
 			"description" :               "Detailed exposition of the principles involved in ultrashort pulse generation, propagation, and characterization. Linear and nonlinear pulse shaping processes discussed. Optical solitons, pulse compression. Laser principles:  Single- and multimode-laser dynamics, Q-switching and mode-locking: active and passive model-locking mechanisms. Pulse characterization. Noise in mode-locked lasers and its limitations imposed on measurements. Laser amplifiers. Optical parametric amplifiers and oscillators. Applications in research and industry, such as various pump-probe techniques, optical imaging, frequency metrology, laser ablation and EUV-XUV generation are discussed.  Alternate years.",
 			"engineering-concentration" : "Electrodynamics",
@@ -3477,7 +3493,7 @@
 			"id" :       "c6.101",
 			"type" :        "Class",
 			"label" :       "6.101 - Introductory Analog Electronics Laboratory",
-			"prereqs" :     "6.002 or 6.071",
+			"prereqs" :     [ "c6.002", "c6.071" ],
 			"description" : "Introductory experimental laboratory explores the design, construction, and debugging of analog electronic circuits. Lectures and six laboratory projects investigate the performance characteristics of diodes, transistors, JFETs, and op-amps, including the construction of a small audio amplifier and preamplifier. Seven weeks are devoted to the design and implementation, and written and oral presentation of a project in an environment similar to that of engineering design teams in industry. Provides opportunity to simulate real-world problems and solutions that involve trade offs and the use of engineering judgment. Engineers from local analog engineering companies come to campus to help students with their design projects. 12 Engineering Design Points.",
 			"semester" :    "Fall",
 			"has-final" :   "FALSE"
@@ -3495,9 +3511,9 @@
 			"type" :                      "Class",
 			"label" :                     "6.830 - Database Systems",
 			"prereqs" :                   [
-				"6.033",
-				"6.046J",
-				"6.006"
+				"c6.033",
+				"c6.046J",
+				"c6.006"
 			],
 			"description" :               [
 				"Topics related to the engineering and design of database systems, including:  data models",
@@ -3553,8 +3569,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.690 - Introduction to Electric Power Systems",
 			"prereqs" :                   [
-				"6.002",
-				"6.013"
+				"c6.002",
+				"c6.013"
 			],
 			"description" :               "Meets with undergraduate subject 6.061. Requires the completion of additional advanced home problems.  See description under subject 6.061.",
 			"engineering-concentration" : "Electrodynamics",
@@ -3588,10 +3604,10 @@
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"7.012",
-				"7.013",
-				"7.014",
-				"7.015"
+				"c7.012",
+				"c7.013",
+				"c7.014",
+				"c7.015"
 			]
 		},
 		{
@@ -3610,7 +3626,7 @@
 			"id" :       "c6.121J",
 			"type" :        "Class",
 			"label" :       "6.121J - Bioelectronics Project Laboratory",
-			"prereqs" :     "6.002 or 6.071",
+			"prereqs" :     [ "c6.002", "c6.071" ],
 			"description" : "Project Laboratory in electronic instrumentation, interfacing the analog and digital world. Students specify design, implement, and evaluate biomedical instruments, including several interrelated analog and digital subsystems. Extensive use of integrated analog circuits and a microprocessor. Classroom development of analytic models for complex functional components and the measurement process in the context of a longitudinal laboratory project. Students engage in extensive written and oral communication exercises. 12 Engineering Design Points.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -3651,7 +3667,7 @@
 			"id" :       "c6.142J",
 			"type" :        "Class",
 			"label" :       "6.142J - Robotics: Science and Systems II",
-			"prereqs" :     "6.141",
+			"prereqs" :     "c6.141",
 			"description" : "Implementation and operation of the embedded system designed in 6.141. Addresses open research issues such as sustained autonomy, situational awareness, and human interaction. Students carry out experiments to assess their design and deliver a final written report. Prior knowledge of one or more of the following areas would be useful: control (2.004 or 16.30), software (1.00, 6.170 or 16.35), electronics (6.002, 6.070, 6.111 or 6.115), mechanical engineering (2.007), independent experience (MasLAB, 6.270 or a UROP). 12 Engineering Design Points.",
 			"semester" :    "Fall",
 			"has-final" :   "FALSE"
@@ -3669,9 +3685,9 @@
 			"type" :        "Class",
 			"label" :       "6.342 - Wavelets, Approximation, and Compression",
 			"prereqs" :     [
-				"18.06",
-				"6.341",
-				"6.450"
+				"c18.06",
+				"c6.341",
+				"c6.450"
 			],
 			"description" : [
 				"Study topics including Hilbert space formulation of continuous-time and discrete-time signals",
@@ -3781,9 +3797,9 @@
 			"type" :        "Class",
 			"label" :       "6.004 - Computation Structures",
 			"prereqs" :     [
-				"6.001",
-				"6.002",
-				"6.02"
+				"c6.001",
+				"c6.002",
+				"c6.02"
 			],
 			"description" : [
 				"Introduces architecture of digital systems, emphasizing structural principles common to a wide range of technologies. Multilevel implementation strategies",
@@ -3813,8 +3829,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.728 - Applied Quantum and Statistical Physics",
 			"prereqs" :                   [
-				"6.003",
-				"18.06"
+				"c6.003",
+				"c18.06"
 			],
 			"description" :               [
 				"Elementary quantum mechanics and statistical physics. Introduces applied quantum physics. Emphasizes experimental basis for quantum mechanics. Applies Schrodinger\'s equation to the free particle, tunneling, the harmonic oscillator, and hydrogen atom. Variational methods. Elementary statistical physics",
@@ -3837,8 +3853,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.827 - Multithreaded Parallelism: Languages and Compilers",
 			"prereqs" :                   [
-				"6.001",
-				"6.042J"
+				"c6.001",
+				"c6.042J"
 			],
 			"description" :               "Languages and compilers to exploit multithreaded parallelism. Implicit parallel programming using functional languages and their extensions. Higher-order functions, non-strictness, and polymorphism. Explicit parallel programming and nondeterminism. The lambda calculus and its variants. Term rewriting and operational semantics. Compiling multithreaded code for symmetric multiprocessors and clusters. Static analysis and compiler optimizations. Alternate years.  4 Engineering Design Points.",
 			"engineering-concentration" : "Computer Science",
@@ -3867,7 +3883,7 @@
 			"description" :               "Advanced topics in mid- and high-level computer vision with a focus on the use of machine learning techniques and applications in graphics and human-computer interface. Topics may include: image representations, texture models, structure-from-motion algorithms, Bayesian techniques, projective geometrey, object recognition, tracking, shape modeling, and image databases. Applications may include face recognition, multimodal interaction, interacive systems, cinematic special effects, and photorealistic rendering. Covers topics complementary to 6.801/866 and these subjects may be taken in sequence. 6.801/866 or some familiarity with low-level vision topics including image formation, stereo, and motion processing is presumed.",
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "6.801"
+			"prereqs" :                   "c6.801"
 		},
 		{
 			"level" :                     "Grad",
@@ -3891,7 +3907,7 @@
 			"description" :               "Graduate introduction to natural language processing, the study of human language from a computational perspective. Syntactic, semantic and discourse processing models. Emphasis on machine learning or corpus-based methods and algorithms. Use of these methods and models in applications including syntactic parsing, information extraction, statistical machine translation, dialogue systems, and summarization.",
 			"semester" :                  "Fall",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "6.046J"
+			"prereqs" :                   "c6.046J"
 		},
 		{
 			"total-units" : "15",
@@ -3911,10 +3927,10 @@
 			"type" :        "Class",
 			"label" :       "6.002 - Circuits and Electronics",
 			"prereqs" :     [
-				"18.03",
-				"8.02",
-				"8.022",
-				"6.01"
+				"c18.03",
+				"c8.02",
+				"c8.022",
+				"c6.01"
 			],
 			"description" : [
 				"Fundamentals of the lumped circuit abstraction. Resistive elements and networks",
@@ -3944,7 +3960,7 @@
 			"id" :       "c6.341",
 			"type" :        "Class",
 			"label" :       "6.341 - Discrete-Time Signal Processing",
-			"prereqs" :     "6.011",
+			"prereqs" :     "c6.011",
 			"description" : "Representation, analysis, and design of discrete time signals and systems. Discrete-time processing of continuous-time signals. Decimation, interpolation, and sampling rate conversion. Flowgraph structures for DT systems. Time- and frequency-domain design techniques for recursive (IIR) and non-recursive (FIR) filters. Linear prediction. Discrete Fourier transform, FFT algorithm. Short-time Fourier analysis and filter banks. Multirate techniques. Hilbert transforms, Cepstral analysis, various applications.",
 			"semester" :    "Fall",
 			"has-final" :   "TRUE"
@@ -3962,8 +3978,9 @@
 			"type" :        "Class",
 			"label" :       "6.231 - Dynamic Programming and Stochastic Control",
 			"prereqs" :     [
-				"6.041 or 18.313",
-				"18.100"
+				"c6.041",
+				"c18.313",
+				"c18.100"
 			],
 			"description" : "Sequential decision-making via dynamic programming. Unified approach to optimal control of stochastic dynamic systems and Markovian decision problems. Applications in linear-quadratic control, inventory control, resource allocation, scheduling, and control of queues. Optimal decision making under perfect and imperfect state information. Certainty equivalent, open loop-feedback control, rollout, and other suboptimal control methods. Infinite horizon problems: discounted, stochastic shortest path, average cost, and semi-Markov models. Value and policy iteration. Approximations and neurodynamic programming.",
 			"semester" :    "Fall",
@@ -3985,8 +4002,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.452 - Principles of Wireless Communication",
 			"prereqs" :                   [
-				"6.011",
-				"18.06"
+				"c6.011",
+				"c18.06"
 			],
 			"description" :               [
 				"Introduction to design, analysis, and fundamental limits of wireless transmission systems.  Wireless channel and system models",
@@ -4019,7 +4036,7 @@
 			"id" :       "c6.041",
 			"type" :        "Class",
 			"label" :       "6.041 - Probabilistic Systems Analysis",
-			"prereqs" :     "18.02",
+			"prereqs" :     "c18.02",
 			"description" : "An introduction to probability theory, and the modeling and analysis of probabilistic systems. Sample space, probabilistic models, conditional probability. Discrete and continuous random variables. Transform techniques. Bernoulli and Poisson processes. Markov processes. Limit theorems and elements of statistical inference. Meets with graduate subject 6.431, but assignments differ.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -4040,8 +4057,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.634J - Nonlinear Optics",
 			"prereqs" :                   [
-				"6.013",
-				"8.07"
+				"c6.013",
+				"c8.07"
 			],
 			"description" :               "Techniques of nonlinear optics with emphasis on fundamentals for optics and photonics research and engineering. Electro optic modulators, harmonic generation, and frequency conversion devices. Nonlinear effects in optical fibers including self phase modulation, nonlinear wave propagation, and solitons. Interaction of light with matter, density matrix techniques, nonlinear spectroscopies and femtosecond optics.",
 			"engineering-concentration" : "Electrodynamics",
@@ -4060,9 +4077,9 @@
 			"type" :        "Class",
 			"label" :       "6.302 - Feedback Systems",
 			"prereqs" :     [
-				"6.003",
-				"2.003",
-				"16.04"
+				"c6.003",
+				"c2.003",
+				"c16.04"
 			],
 			"description" : "Introduction to design of feedback systems. Properties and advantages of feedback systems. Time-domain and frequency-domain performance measures. Stability and degree of stability. Nyquist criterion. Frequency-domain design. Root locus method. Compensation techniques. Application to a wide variety of physical systems. Some previous laboratory experience with electronic systems is assumed (6.002, 6.071, or 16.04).  4 Engineering Design Points.",
 			"semester" :    "Spring",
@@ -4090,8 +4107,8 @@
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"18.06",
-				"6.003"
+				"c18.06",
+				"c6.003"
 			]
 		},
 		{
@@ -4106,7 +4123,7 @@
 			"id" :                     "c6.831",
 			"type" :                      "Class",
 			"label" :                     "6.831 - User Interface Design and Implementation",
-			"prereqs" :                   "6.170",
+			"prereqs" :                   "c6.170",
 			"description" :               [
 				"Design, implementation, and evaluation of human-computer interfaces.  Human capabilities, including the human information processing model, perception, Fitts\'s Law, memory, attention, and color vision",
 				"task analysis, user-centered design,  design principles",
@@ -4146,7 +4163,7 @@
 			"id" :                     "c6.556J",
 			"type" :                      "Class",
 			"label" :                     "6.556J - Data Acquisition and Image Reconstruction in MRI",
-			"prereqs" :                   "6.011",
+			"prereqs" :                   "c6.011",
 			"description" :               "Applies analysis of signals and noise in linear systems, sampling, and Fourier properties to magnetic resonance (MR) imaging acquisition and reconstruction. Provides adequate foundation for MR physics to enable study of RF excitation design, efficient Fourier sampling, parallel encoding, reconstruction of non-uniformly sampled data, and the impact of hardware imperfections on reconstruction performance. Surveys active areas of MR research. Assignments include Matlab-based work with real data. Includes visit to a scan site for human MR studies.",
 			"engineering-concentration" : "Bioelectrical Engineering",
 			"semester" :                  "Fall",
@@ -4178,9 +4195,9 @@
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"6.854J",
-				"6.041",
-				"6.042J"
+				"c6.854J",
+				"c6.041",
+				"c6.042J"
 			]
 		},
 		{
@@ -4200,8 +4217,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.438 - Algorithms for Estimation and Inference",
 			"prereqs" :                   [
-				"6.011",
-				"18.06"
+				"c6.011",
+				"c18.06"
 			],
 			"description" :               [
 				"Estimation and inference problems arising in signal processing, optimization and control, and machine learning. Second-order characterizations of random phenomena. Least squares estimation: Orthogonality, and whitening",
@@ -4228,7 +4245,7 @@
 			"id" :       "c6.163",
 			"type" :        "Class",
 			"label" :       "6.163 - Strobe Project Laboratory",
-			"prereqs" :     "8.02",
+			"prereqs" :     "c8.02",
 			"description" : "Application of electronic flash sources to measurement and   photography. First half covers fundamentals of photography and   electronic flashes, including experiments on application of electronic   flash to photography, stroboscopy, motion analysis, and high-speed   videography. Students write five extensive lab reports.  In the second half, students work in small groups to select, design,   and execute independent projects in measurement or photography that apply learned techniques. Project planning and execution skills are discussed and developed over the term. Enrollment limited. 12 Engineering Design Points.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -4267,7 +4284,7 @@
 			"description" :               "Principles in the design and programming of parallel machines. Continuum, particle, and graph applications. Communication and synchronization. Locality in parallel computations. Computational models and parallel computers: dataflow, shared memory, data parallel, and message passing. Parallel machine mechanisms such as full-empty synchronization bits, cache coherence, and multithreading. Design and performance evaluation of multiprocessor systems. Compilation and runtime technologies: partitioning, placement, and scheduling. Substantial project required.  4 Engineering Design Points.",
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "6.823"
+			"prereqs" :                   "c6.823"
 		},
 		{
 			"total-units" : "12",
@@ -4285,8 +4302,8 @@
 			"type" :        "Class",
 			"label" :       "6.945 - Large-scale Symbolic Systems",
 			"prereqs" :     [
-				"6.001",
-				"6.034"
+				"c6.001",
+				"c6.034"
 			],
 			"description" : "Concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications. Means for decoupling goals from strategy. Mechanisms for implementing additive data-directed invocation. Work with partially-specified entities. Manage multiple viewpoints.  Topics include combinators, generic operations, pattern matching, pattern-directed invocation, rule systems, backtracking, dependencies, indeterminacy, memoization, constraint propagation, and incremental refinement.",
 			"semester" :    "Spring",
@@ -4330,7 +4347,7 @@
 			"id" :                     "c6.772",
 			"type" :                      "Class",
 			"label" :                     "6.772 - Compound Semiconductor and Heterostructure Devices",
-			"prereqs" :                   "6.012",
+			"prereqs" :                   "c6.012",
 			"description" :               [
 				"Physics, modeling, and application of compound semiconductors (primarily III-Vs and Si-Ge) in high speed electronic, optoelectronic, and photonic devices and ICs.  The materials palette",
 				"energy band and effective mass concepts",
@@ -4392,7 +4409,7 @@
 			"id" :                     "c6.875J",
 			"type" :                      "Class",
 			"label" :                     "6.875J - Cryptography and Cryptanalysis",
-			"prereqs" :                   "6.046J",
+			"prereqs" :                   "c6.046J",
 			"description" :               "A rigorous introduction to modern cryptography. Emphasis on the fundamental cryptographic primitives of public-key encryption, digital signatures, pseudo-random number generation, and basic protocols and their computational complexity requirements.",
 			"engineering-concentration" : "Theoretical Computer Science",
 			"semester" :                  "Spring",
@@ -4409,7 +4426,7 @@
 			"id" :       "c6.952",
 			"type" :        "Class",
 			"label" :       "6.952 - Graduate VI-A Internship",
-			"prereqs" :     "6.951",
+			"prereqs" :     "c6.951",
 			"description" : "Provides academic credit for graduate students who require an additional term at the company to complete the graduate assignment of the department\'s VI-A internship program. This academic credit is for registration purposes only and cannot be used toward fulfilling the requirements of any degree program. Enrollment limited to graduate students participating in the VI-A internship program.",
 			"semester" :    "Summer",
 			"has-final" :   "FALSE"
@@ -4465,7 +4482,7 @@
 			"id" :                     "c6.376",
 			"type" :                      "Class",
 			"label" :                     "6.376 - Low Power Analog VLSI",
-			"prereqs" :                   "6.301",
+			"prereqs" :                   "c6.301",
 			"description" :               "A comprehensive introduction to analog VLSI including ultra low power design, low-noise design, and feedback circuit design. Device physics of the MOS transistor including subthreshold operation. Basics of VLSI layout. Transconductance Amplifiers and Filters. Mixed-Signal State Machines and Switching Systems. Biologically Inspired Ultra-Low-Power Circuits and Systems. Applications vary from year to year. Examples include biomedical systems, MEMS electronics, sensory systems in audition and vision, RF circuits and systems, low-power analog-to-digital conversion, and learning in neural systems.  8 Engineering Design Points.",
 			"engineering-concentration" : "Electronics, Computers, and Systems",
 			"semester" :                  "Fall",
@@ -4484,12 +4501,11 @@
 			"type" :                      "Class",
 			"label" :                     "6.877J - Computational Evolutionary Biology",
 			"prereqs" :                   [
-				"6.046J",
-				"6.047",
-				"7.36",
-				"6.807",
-				"HST.508",
-				""
+				"c6.046J",
+				"c6.047",
+				"c7.36",
+				"c6.807",
+				"cHST.508"
 			],
 			"description" :               "Explores and illustrates theory underlying computational approaches to solving problems in evolutionary biology. Begins with components of evolutionary theory and inferential logic of evolution by natural selection. Emphasizes development of analytical skills needed to judge the computational and algorithmic implications and requirements of evolutionary models. Examples drawn from current research in evolutionary biology: whole-genome species comparison, phylogenetic tree construction, molecular evolution, homology and development, optimization and evolvability, heritability, disease evolution,  detecting selection in human populations, and evolution of language. Extensive laboratory exercises in model-building and analyzing evolutionary data. Alternate years.  4 Engineering Design Points.",
 			"engineering-concentration" : "Artificial Intelligence and Applications",
@@ -4526,7 +4542,7 @@
 			"id" :       "c6.170",
 			"type" :        "Class",
 			"label" :       "6.170 - Laboratory in Software Engineering",
-			"prereqs" :     "6.001 or 6.005",
+			"prereqs" :     [ "c6.001", "c6.005" ],
 			"description" : [
 				"Introduces concepts and techniques relevant to the production of large software systems. Students taught a programming method based on the recognition and description of useful abstractions. Topics: modularity",
 				"specification",
@@ -4562,8 +4578,8 @@
 			"semester" :                  "Fall",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"6.034",
-				"HST.947"
+				"c6.034",
+				"cHST.947"
 			]
 		},
 		{
@@ -4578,7 +4594,7 @@
 			"id" :       "c6.102",
 			"type" :        "Class",
 			"label" :       "6.102 - Introductory RF Design Laboratory",
-			"prereqs" :     "6.002 or 6.071",
+			"prereqs" :     [ "c6.002", "c6.071" ],
 			"description" : [
 				"Introductory experimental laboratory focuses on the fundamentals of radio frequency design through the study of radio receiver circuits from 1920 to 1960. Five labs using JFETs (arranged to behave like triodes and pentodes) investigate the behavior of series and parallel tuned circuits, bandwidth control, RF amplifiers, local oscillators, mixers, IF amplifiers, AM and FM detectors, audio stages, and RF measurements. Lecture topics include regenerative receivers and detectors",
 				"tuned RF, neutrodyne, superheterodyne and FM receivers",
@@ -4601,9 +4617,9 @@
 			"type" :                      "Class",
 			"label" :                     "6.632 - Electromagnetic Wave Theory",
 			"prereqs" :                   [
-				"6.013",
-				"6.630",
-				"8.07"
+				"c6.013",
+				"c6.630",
+				"c8.07"
 			],
 			"description" :               "Emphasis on mathematical approaches, problem solving, and physical interpretation. Topics include: waves in media, equivalence principle, duality and complementarity, Huygens\' principle, Fresnel and Fraunhofer diffraction, dyadic Green\'s functions, Lorentz transformation, and Maxwell-Minkowski theory. Examples deal with limiting cases of Maxwell\'s theory and diffraction and scattering of electromagnetic waves.",
 			"engineering-concentration" : "Electrodynamics",
@@ -4632,8 +4648,8 @@
 			"semester" :                  "Fall",
 			"has-final" :                 "FALSE",
 			"prereqs" :                   [
-				"18.02",
-				"6.170"
+				"c18.02",
+				"c6.170"
 			]
 		},
 		{
@@ -4663,8 +4679,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.731 - Semiconductor Optoelectronics: Theory and Design",
 			"prereqs" :                   [
-				"6.728",
-				"6.012"
+				"c6.728",
+				"c6.012"
 			],
 			"description" :               "Focuses on the physics of the interaction of photons with semiconductor materials. The band theory of solids is used to calculate the absorption and gain of semiconductor media. The rate equation formalism is used to develop the concepts of laser threshold, population inversion and modulation response. Matrix methods and coupled mode theory are applied to resonator structures such as distributed feedback lasers, tunable lasers and microring devices. The course is also intended to introduce students to noise models for semiconductor devices and to applications of optoelectronic devices to fiber optic communications. Alternate years.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
@@ -4683,9 +4699,9 @@
 			"type" :        "Class",
 			"label" :       "6.951 - Graduate VI-A Internship",
 			"prereqs" :     [
-				"6.921",
-				"6.922",
-				"6.923"
+				"c6.921",
+				"c6.922",
+				"c6.923"
 			],
 			"description" : "Provides academic credit for a graduate assignment of graduate VI-A students at companies affiliated with the department\'s VI-A internship program. Enrollment limited to graduate students participating in the VI-A internship program.",
 			"semester" :    "Summer",
@@ -4708,7 +4724,7 @@
 			"id" :       "c6.012",
 			"type" :        "Class",
 			"label" :       "6.012 - Microelectronic Devices and Circuits",
-			"prereqs" :     "6.002",
+			"prereqs" :     "c6.002",
 			"description" : [
 				"Microelectronic devices modeling, and basic microelectronic circuit analysis and design. Physical electronics of semiconductor junction and MOS devices. Relating terminal behavior to internal physical processes",
 				"developing circuit models",
@@ -4749,11 +4765,11 @@
 			"type" :                      "Class",
 			"label" :                     "6.651J - Introduction to Plasma Physics I",
 			"prereqs" :                   [
-				"6.013",
-				"8.07",
-				"22.105",
-				"18.04",
-				"18.075"
+				"c6.013",
+				"c8.07",
+				"c22.105",
+				"c18.04",
+				"c18.075"
 			],
 			"description" :               [
 				"Introduces plasma phenomena relevant to energy generation by controlled thermonuclear fusion and to astrophysics. Elementary plasma concepts, plasma characterization.  Motion of charged particles in magnetic fields. Coulomb collisions, relaxation times, transport processes. Two-fluid hydrodynamic and MHD descriptions. Plasma confinement by magnetic fields, simple equilibrium and stability analysis. Wave propagation in a magnetic field",
@@ -4780,10 +4796,10 @@
 			"type" :                      "Class",
 			"label" :                     "6.807 - Computational Functional Genomics",
 			"prereqs" :                   [
-				"7.012",
-				"7.013",
-				"7.014",
-				"7.015"
+				"c7.012",
+				"c7.013",
+				"c7.014",
+				"c7.015"
 			],
 			"description" :               "Study and discussion of computational approaches and algorithms for contemporary problems in functional genomics. Topics include biological complexity, genome structure and function, high-throughput experimental data, data normalization, data representation, gene clustering, statistical network models, continuous dynamic models, statistical metrics for model validation, model elaboration, experiment planning, and the computational complexity of functional genomics problems.  Meets with 6.874J, but assignments differ.",
 			"engineering-concentration" : "Computer Science",
@@ -4807,8 +4823,8 @@
 			"type" :        "Class",
 			"label" :       "6.252J - Nonlinear Programming",
 			"prereqs" :     [
-				"18.06",
-				"18.100"
+				"c18.06",
+				"c18.100"
 			],
 			"description" : "A unified analytical and computational approach to nonlinear optimization problems. Unconstrained optimization methods include gradient, conjugate direction, Newton, and quasi-Newton methods. Constrained optimization methods include feasible directions, projection, interior point, and Lagrange multiplier methods. Convex analysis, Lagrangian relaxation, nondifferentiable optimization, and applications in integer programming. Comprehensive treatment of optimality conditions, Lagrange multiplier theory, and duality theory. Applications drawn from control, communications, power systems, and resource allocation problems.",
 			"semester" :    "Spring",
@@ -4829,7 +4845,7 @@
 			"id" :       "c6.334",
 			"type" :        "Class",
 			"label" :       "6.334 - Power Electronics",
-			"prereqs" :     "6.012",
+			"prereqs" :     "c6.012",
 			"description" : "The application of electronics to energy conversion and control.  Modeling, analysis, and control techniques.  Design of power circuits including inverters, rectifiers, and dc-dc converters.  Analysis and design of magnetic components and filters.  Characteristics of power semiconductor devices.  Numerous application examples, such as motion control systems, power supplies, and radio-frequency power amplifiers.  6 Engineering Design Points.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -4850,8 +4866,8 @@
 			"type" :        "Class",
 			"label" :       "6.331 - Advanced Circuit Techniques",
 			"prereqs" :     [
-				"6.301",
-				"6.302"
+				"c6.301",
+				"c6.302"
 			],
 			"description" : "Following a brief classroom discussion of relevant principles, each student completes the paper design of several advanced circuits such as multiplexers, sample-and-holds, gain-controlled amplifiers, analog multipliers, digital-to-analog or analog-to-digital converters, and power amplifiers. One of each student\'s designs is presented to the class, and one may be built and evaluated. Associated laboratory emphasizing the use of modern analog building blocks. Alternate years. Enrollment limited. 12 Engineering Design Points.",
 			"semester" :    "Fall",
@@ -4896,7 +4912,7 @@
 			"description" :               "Design and analysis of concurrent algorithms, emphasizing those suitable for use in distributed networks. Process synchronization, allocation of computational resources, distributed consensus, distributed graph algorithms, election of a leader in a network, distributed termination, deadlock detection, concurrency control, communication, and clock synchronization. Special consideration given to issues of efficiency and fault tolerance. Formal models and proof methods for distributed computation. Alternate years.",
 			"semester" :                  "Spring",
 			"has-final" :                 "FALSE",
-			"prereqs" :                   "6.046J"
+			"prereqs" :                   "c6.046J"
 		},
 		{
 			"total-units" :               "12",
@@ -4913,7 +4929,7 @@
 			"id" :                     "c6.824",
 			"type" :                      "Class",
 			"label" :                     "6.824 - Distributed Computer Systems Engineering",
-			"prereqs" :                   "6.033",
+			"prereqs" :                   "c6.033",
 			"description" :               [
 				"Abstractions and implementation techniques for design of distributed systems",
 				"server design, network programming, naming, storage systems, security, and fault tolerance. Readings from current literature. 6 Engineering Design Points. Enrollment limited."
@@ -4938,8 +4954,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.435 - System Identification",
 			"prereqs" :                   [
-				"6.241",
-				"6.432"
+				"c6.241",
+				"c6.432"
 			],
 			"description" :               [
 				"Mathematical models of systems from observations of their behavior. Time series, state-space, and input-output models. Model structures, parametrization, and identifiability. Non-parametric methods. Prediction error methods for parameter estimation, convergence, consistency, andasymptotic distribution. Relations to maximum likelihood estimation. Recursive estimation",
@@ -4988,9 +5004,9 @@
 			"type" :                      "Class",
 			"label" :                     "6.804J - Computational Cognitive Science",
 			"prereqs" :                   [
-				"9.07",
-				"18.05",
-				"6.041"
+				"c9.07",
+				"c18.05",
+				"c6.041"
 			],
 			"description" :               [
 				"Introduction to computational theories of human cognition. Focus on principles of inductive learning and inference, and the representation of knowledge. Computational frameworks covered include Bayesian and hierarchical Bayesian models",
@@ -5014,7 +5030,7 @@
 			"id" :       "c6.901",
 			"type" :        "Class",
 			"label" :       "6.901 - Inventions and Patents",
-			"prereqs" :     "14.02",
+			"prereqs" :     "c14.02",
 			"description" : [
 				"History of private and public rights in scientific discoveries and applied engineering, leading to the development of worldwide patent systems. The classes of invention protectable under the patent laws of the US, including the procedures in protecting inventions in the Patent Office and the courts. Reviews of past cases involving inventions and patents in a) the chemical process industry and medical pharmaceutical, biological, and genetic-engineering fields",
 				"b) devices in the mechanical, ocean exploration, civil, and/or aeronautical fields",
@@ -5040,8 +5056,8 @@
 			"type" :                      "Class",
 			"label" :                     "6.720J - Integrated Microelectronic Devices",
 			"prereqs" :                   [
-				"6.012",
-				"3.42"
+				"c6.012",
+				"c3.42"
 			],
 			"description" :               "The physics of microelectronic semiconductor devices for silicon integrated circuit applications. Topics: semiconductor fundamentals, p-n junction, metal-oxide semiconductor structure, metal-semiconductor junction, MOS field-effect transistor, and bipolar junction transistor. Emphasis on physical understanding of device operation through energy band diagrams and short-channel MOSFET device design. Issues in modern device scaling outlined. Includes device characterization projects and device design project.  2 Engineering Design Points.",
 			"engineering-concentration" : "Solid-State Materials and Devices",
@@ -5059,7 +5075,7 @@
 			"id" :       "c6.923",
 			"type" :        "Class",
 			"label" :       "6.923 - Pre-Graduate VI-A Internship",
-			"prereqs" :     "6.922",
+			"prereqs" :     "c6.922",
 			"description" : "Provides academic credit for the third assignment of VI-A undergraduate students at companies affiliated with the department\'s VI-A internship program. Enrollment limited to students participating in the VI-A internship program.",
 			"semester" :    "Summer",
 			"has-final" :   "FALSE"
@@ -5094,9 +5110,9 @@
 			"type" :        "Class",
 			"label" :       "6.023J - Fields, Forces and Flows in Biological Systems",
 			"prereqs" :     [
-				"2.005",
-				"6.021",
-				"20.320"
+				"c2.005",
+				"c6.021",
+				"c20.320"
 			],
 			"description" : "Introduction to electric fields, fluid flows, transport phenomena and their application to biological systems. Flux and continuity laws, Maxwell\'s equations, electro-quasistatics, electro-chemical-mechanical driving forces, conservation of mass and momentum, Navier-Stokes flows, and electrokinetics. Applications include biomolecular transport in tissues, electrophoresis, and microfluidics.",
 			"semester" :    "Spring",
@@ -5133,8 +5149,8 @@
 			"type" :        "Class",
 			"label" :       "6.337J - Introduction to Numerical Methods",
 			"prereqs" :     [
-				"18.03",
-				"18.06"
+				"c18.03",
+				"c18.06"
 			],
 			"description" : "Advanced introduction to numerical linear algebra. Topics include direct and iterative methods for linear systems, eigenvalue decompositions and QR/SVD factorizations, stability and accuracy of numerical algorithms, the IEEE floating point standard, sparse and structured matrices, preconditioning, linear algebra software. Problem sets require some knowledge of Matlab.",
 			"semester" :    [
@@ -5203,9 +5219,9 @@
 			"type" :                      "Class",
 			"label" :                     "6.582J - Introduction to Molecular Simulations",
 			"prereqs" :                   [
-				"6.581J",
-				"7.91J",
-				"18.417J"
+				"c6.581J",
+				"c7.91J",
+				"c18.417J"
 			],
 			"description" :               "Introduction to the basic concepts underlying dynamical simulations of proteins and nucleic acids. Topics include classical statistical thermodynamics for calculation of macroscopic observables, normal-mode analyses of protein dynamics, and thermodynamic perturbation theory. Emphasizes actual techniques and algorithms used for such calculations. Final project integrates these concepts in addressing a problem of biological importance using existing molecular mechanics software packages.",
 			"engineering-concentration" : "Bioelectrical Engineering",
@@ -5225,9 +5241,9 @@
 			"type" :                      "Class",
 			"label" :                     "6.637 - Optical Signals, Devices, and Systems",
 			"prereqs" :                   [
-				"6.003",
-				"6.013",
-				"8.03"
+				"c6.003",
+				"c6.013",
+				"c8.03"
 			],
 			"description" :               [
 				"Principles of operation and applications of devices and systems for optical signal generation, transmission, detection, storage, processing and display. Topics include review of the basic properties of electromagnetic waves",
@@ -5266,67 +5282,12 @@
 			"type" :        "Class",
 			"label" :       "6.006 - Introduction to Algorithms",
 			"prereqs" :     [
-				"6.01",
-				"6.042J"
+				"c6.01",
+				"c6.042J"
 			],
 			"description" : "Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
 		}
-	],
-	"types" :      {
-		"Class" : {
-			"uri" : "http://127.0.0.1/Class"
-		}
-	},
-	"properties" : {
-		"total-units" :               {
-			"uri" : "http://127.0.0.1/total-units"
-		},
-		"level" :                     {
-			"uri" : "http://127.0.0.1/level"
-		},
-		"category" :                  {
-			"uri" : "http://127.0.0.1/category"
-		},
-		"offering" :                  {
-			"uri" : "http://127.0.0.1/offering"
-		},
-		"hass-distribution" :         {
-			"uri" : "http://127.0.0.1/hass-distribution"
-		},
-		"series" :                    {
-			"uri" : "http://127.0.0.1/series"
-		},
-		"CI" :                        {
-			"uri" : "http://127.0.0.1/CI"
-		},
-		"in-charge" :                 {
-			"uri" : "http://127.0.0.1/in-charge"
-		},
-		"units" :                     {
-			"uri" : "http://127.0.0.1/units"
-		},
-		"id" :                     {
-			"uri" : "http://127.0.0.1/id"
-		},
-		"required-for" :              {
-			"uri" : "http://127.0.0.1/required-for"
-		},
-		"prereqs" :                   {
-			"uri" : "http://127.0.0.1/prereqs"
-		},
-		"engineering-concentration" : {
-			"uri" : "http://127.0.0.1/engineering-concentration"
-		},
-		"description" :               {
-			"uri" : "http://127.0.0.1/description"
-		},
-		"semester" :                  {
-			"uri" : "http://127.0.0.1/semester"
-		},
-		"has-final" :                 {
-			"uri" : "http://127.0.0.1/has-final"
-		}
-	}
+	]
 }

@@ -2242,48 +2242,5 @@
 			"hass" :        "HASS-D1",
 			"has-final" :   "FALSE"
 		}
-	],
-	"types" :      {
-		"Class" : {
-			"uri" : "http://127.0.0.1/Class"
-		}
-	},
-	"properties" : {
-		"total-units" : {
-			"uri" : "http://127.0.0.1/total-units"
-		},
-		"level" :       {
-			"uri" : "http://127.0.0.1/level"
-		},
-		"id" :          {
-			"uri" : "http://simile.mit.edu/2006/11/exhibit#id"
-		},
-		"category" :    {
-			"uri" : "http://127.0.0.1/category"
-		},
-		"offering" :    {
-			"uri" : "http://127.0.0.1/offering"
-		},
-		"series" :      {
-			"uri" : "http://127.0.0.1/series"
-		},
-		"in-charge" :   {
-			"uri" : "http://127.0.0.1/in-charge"
-		},
-		"units" :       {
-			"uri" : "http://127.0.0.1/units"
-		},
-		"description" : {
-			"uri" : "http://127.0.0.1/description"
-		},
-		"semester" :    {
-			"uri" : "http://127.0.0.1/semester"
-		},
-		"has-final" :   {
-			"uri" : "http://127.0.0.1/has-final"
-		},
-		"hass" :        {
-			"uri" : "http://127.0.0.1/hass"
-		}
-	}
+	]
 }
