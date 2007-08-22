@@ -3,7 +3,7 @@ var debug = (document.location.search == "?debug");
 var courses = [
     {   number: "16",
         name:   "Aeronautics and Astronautics",
-        hasData: false
+        hasData: true
     },
     {   number: "21A",
         name:   "Anthropology",
@@ -11,47 +11,47 @@ var courses = [
     },
     {   number: "4",
         name:   "Architecture",
-        hasData: false
+        hasData: true
     },
     {   number: "20",
         name:   "Biological Engineering",
-        hasData: false
+        hasData: true
     },
     {   number: "7",
         name:   "Biology",
-        hasData: false
+        hasData: true
     },
     {   number: "9",
         name:   "Brain and Cognitive Sciences",
-        hasData: false
+        hasData: true
     },
     {   number: "15",
         name:   "Business (see Sloan School of Management)",
-        hasData: false
+        hasData: true
     },
     {   number: "10",
         name:   "Chemical Engineering",
-        hasData: false
+        hasData: true
     },
     {   number: "5",
         name:   "Chemistry",
-        hasData: false
+        hasData: true
     },
     {   number: "1",
         name:   "Civil and Environmental Engineering",
-        hasData: false
+        hasData: true
     },
     {   number: "CMS",
         name:   "Comparative Media Studies",
-        hasData: false
+        hasData: true
     },
     {   number: "12",
         name:   "Earth, Atmospheric, and Planetary Sciences",
-        hasData: false
+        hasData: true
     },
     {   number: "14",
         name:   "Economics",
-        hasData: false
+        hasData: true
     },
     {   number: "6",
         name:   "Electrical Engineering and Computer Science",
@@ -59,7 +59,7 @@ var courses = [
     },
     {   number: "ESD",
         name:   "Engineering Systems Division",
-        hasData: false
+        hasData: true
     },
     {   number: "21F",
         name:   "Foreign Languages and Literatures",
@@ -67,7 +67,7 @@ var courses = [
     },
     {   number: "HST",
         name:   "Health Sciences and Technology",
-        hasData: false
+        hasData: true
     },
     {   number: "21H",
         name:   "History",
@@ -75,7 +75,7 @@ var courses = [
     },
     {   number: "24",
         name:   "Linguistics and Philosophy",
-        hasData: false
+        hasData: true
     },
     {    number:    "21L",
         name:    "Literature",
@@ -83,19 +83,19 @@ var courses = [
     },
     {    number:    "15",
         name:    "Management",
-        hasData: false
+        hasData: true
     },
     {    number:    "3",
         name:    "Materials Science and Engineering",
-        hasData: false
+        hasData: true
     },
     {    number:    "18",
         name:    "Mathematics",
-        hasData: false
+        hasData: true
     },
     {    number:    "2",
         name:    "Mechanical Engineering",
-        hasData: false
+        hasData: true
     },
     {    number:    "MAS",
         name:    "Media Arts and Sciences (Media Lab)",
@@ -107,15 +107,15 @@ var courses = [
     },
     {    number:    "22",
         name:    "Nuclear Science and Engineering",
-        hasData: false
+        hasData: true
     },
     {    number:    "8",
         name:    "Physics",
-        hasData: false
+        hasData: true
     },
     {    number:    "17",
         name:    "Political Science",
-        hasData: false
+        hasData: true
     },
     {    number:    "STS",
         name:    "Science, Technology, and Society",
@@ -123,7 +123,7 @@ var courses = [
     },
     {    number:    "11",
         name:    "Urban Studies and Planning",
-        hasData: false
+        hasData: true
     },
     {    number:    "21W",
         name:    "Writing and Humanistic Studies",
