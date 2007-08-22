@@ -1,48 +1,48 @@
 var debug = (document.location.search == "?debug");
 
 var courses = [
-    {   number: "16",
-        name:   "Aeronautics and Astronautics",
+    {   number: "1",
+        name:   "Civil and Environmental Engineering",
         hasData: true
     },
-    {   number: "21A",
-        name:   "Anthropology",
+    {    number:    "2",
+        name:    "Mechanical Engineering",
+        hasData: true
+    },
+    {    number:    "3",
+        name:    "Materials Science and Engineering",
         hasData: true
     },
     {   number: "4",
         name:   "Architecture",
         hasData: true
     },
-    {   number: "20",
-        name:   "Biological Engineering",
+    {   number: "5",
+        name:   "Chemistry",
+        hasData: true
+    },
+    {   number: "6",
+        name:   "Electrical Engineering and Computer Science",
         hasData: true
     },
     {   number: "7",
         name:   "Biology",
         hasData: true
     },
-    {   number: "9",
-        name:   "Brain and Cognitive Sciences",
+    {    number:    "8",
+        name:    "Physics",
         hasData: true
     },
-    {   number: "15",
-        name:   "Business (see Sloan School of Management)",
+    {   number: "9",
+        name:   "Brain and Cognitive Sciences",
         hasData: true
     },
     {   number: "10",
         name:   "Chemical Engineering",
         hasData: true
     },
-    {   number: "5",
-        name:   "Chemistry",
-        hasData: true
-    },
-    {   number: "1",
-        name:   "Civil and Environmental Engineering",
-        hasData: true
-    },
-    {   number: "CMS",
-        name:   "Comparative Media Studies",
+    {    number:    "11",
+        name:    "Urban Studies and Planning",
         hasData: true
     },
     {   number: "12",
@@ -53,80 +53,76 @@ var courses = [
         name:   "Economics",
         hasData: true
     },
-    {   number: "6",
-        name:   "Electrical Engineering and Computer Science",
+    {   number: "15",
+        name:   "Business (see Sloan School of Management)",
         hasData: true
     },
-    {   number: "ESD",
-        name:   "Engineering Systems Division",
-        hasData: true
-    },
-    {   number: "21F",
-        name:   "Foreign Languages and Literatures",
-        hasData: true
-    },
-    {   number: "HST",
-        name:   "Health Sciences and Technology",
-        hasData: true
-    },
-    {   number: "21H",
-        name:   "History",
-        hasData: true
-    },
-    {   number: "24",
-        name:   "Linguistics and Philosophy",
-        hasData: true
-    },
-    {    number:    "21L",
-        name:    "Literature",
-        hasData: true
-    },
-    {    number:    "15",
-        name:    "Management",
-        hasData: true
-    },
-    {    number:    "3",
-        name:    "Materials Science and Engineering",
-        hasData: true
-    },
-    {    number:    "18",
-        name:    "Mathematics",
-        hasData: true
-    },
-    {    number:    "2",
-        name:    "Mechanical Engineering",
-        hasData: true
-    },
-    {    number:    "MAS",
-        name:    "Media Arts and Sciences (Media Lab)",
-        hasData: true
-    },
-    {    number:    "21M",
-        name:    "Music and Theater Arts",
-        hasData: true
-    },
-    {    number:    "22",
-        name:    "Nuclear Science and Engineering",
-        hasData: true
-    },
-    {    number:    "8",
-        name:    "Physics",
+    {   number: "16",
+        name:   "Aeronautics and Astronautics",
         hasData: true
     },
     {    number:    "17",
         name:    "Political Science",
         hasData: true
     },
-    {    number:    "STS",
-        name:    "Science, Technology, and Society",
+    {    number:    "18",
+        name:    "Mathematics",
         hasData: true
     },
-    {    number:    "11",
-        name:    "Urban Studies and Planning",
+    {   number: "20",
+        name:   "Biological Engineering",
+        hasData: true
+    },
+    {   number: "21A",
+        name:   "Anthropology",
+        hasData: true
+    },
+    {   number: "21F",
+        name:   "Foreign Languages and Literatures",
+        hasData: true
+    },
+    {   number: "21H",
+        name:   "History",
+        hasData: true
+    },
+    {    number:    "21L",
+        name:    "Literature",
+        hasData: true
+    },
+    {    number:    "21M",
+        name:    "Music and Theater Arts",
         hasData: true
     },
     {    number:    "21W",
         name:    "Writing and Humanistic Studies",
+        hasData: true
+    },
+    {    number:    "22",
+        name:    "Nuclear Science and Engineering",
+        hasData: true
+    },
+    {   number: "24",
+        name:   "Linguistics and Philosophy",
+        hasData: true
+    },
+    {   number: "CMS",
+        name:   "Comparative Media Studies",
+        hasData: true
+    },
+    {   number: "ESD",
+        name:   "Engineering Systems Division",
+        hasData: true
+    },
+    {   number: "HST",
+        name:   "Health Sciences and Technology",
+        hasData: true
+    },
+    {    number:    "MAS",
+        name:    "Media Arts and Sciences (Media Lab)",
+        hasData: true
+    },
+    {    number:    "STS",
+        name:    "Science, Technology, and Society",
         hasData: true
     }
 ];
