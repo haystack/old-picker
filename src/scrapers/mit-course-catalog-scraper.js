@@ -35,6 +35,9 @@ var cleanHours = function(s) {
 
 var xpath = '/html/body/table/tbody/tr/td/p';
 var elements = utilities.gatherElementsOnXPath(document, document, xpath, nsResolver);
+var classOutput = [];
+var sectionOutput = [];
+var lectureOutput = [];
 for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
   try {
@@ -208,28 +211,29 @@ for (var i = 0; i < elements.length; i++) {
             for (var d = 0; d < days.length; d++) {
               var day = days.substr(d,1);
               var lecture = "L-" + classNumber + "-" + day + hours[0] + "-" + room;
-              log("Lecture" +
+              var lectureString = "Lecture" +
+                "\ts" + classNumber + 'a' +
                 "\t" + lecture +
                 "\t" + day +
                 "\t" + hours[0] +
                 "\t" + (hours.length > 1 ? hours[1] : "") +
-                "\t" + room
-              );
-              log("Section" + 
-				"\ts" + classNumber + 'a' +
-				"\tc" + classNumber + 
-				"\t" + instructors.join("; ")
-			  );
+                "\t" + room;
               lectures.push(lecture);
+              lectureOutput.push(lectureString);
             }
           }
         }
         node = node.nextSibling;
       }
+      var sectionString = "Section" + 
+				"\ts" + classNumber + 'a' +
+				"\tc" + classNumber + 
+				"\t" + instructors.join("; ");
+			sectionOutput.push(sectionString);
     }
   }
   
-  log("Class" + 
+  var classString = "Class" + 
     "\tc" + classNumber + 
     "\t" + classSeries + 
     "\t" + classNumber + " - " + courseName + 
@@ -241,7 +245,13 @@ for (var i = 0; i < elements.length; i++) {
     "\t" + units +
     "\t" + totalUnits +
     "\t" + hasFinal +
-    "\t" + description
-  );
-  
+    "\t" + description;
+  classOutput.push(classString);
 }
+
+log("type \tid \tseries \tlabel \tlevel \tsemester \toffering \tcategory \tin-charge \tunits \ttotal-units \thas-final \tdescription");
+for (var i = 0; i < classOutput.length; i++) { log(classOutput[i]); }
+log("type \tsection \tclass \tinstructor");
+for (var i = 0; i < sectionOutput.length; i++) { log(sectionOutput[i]); }
+log("type \tsection \tlecture \tday \tstart \tend \troom");
+for (var i = 0; i < lectureOutput.length; i++) { log(lectureOutput[i]); }
