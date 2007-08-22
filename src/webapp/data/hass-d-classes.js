@@ -4,6 +4,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.007",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -27,6 +28,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.50",
+			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -51,6 +53,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.002",
+			"course" :      "STS",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -71,6 +74,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.616",
+			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -91,6 +95,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.621J",
+			"course" :      "21M",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21M.621J",
@@ -108,6 +113,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.001",
+			"course" :      "STS",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -134,6 +140,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.005",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -154,6 +161,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.015",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -174,6 +182,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.40",
+			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -194,6 +203,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.011",
+			"course" :      "STS",
 			"category" :    "HASS-D 2",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/cSTS.011",
@@ -211,6 +221,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c4.602",
+			"course" :      "4",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -231,6 +242,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.001",
+			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -255,6 +267,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.022J",
+			"course" :      "21F",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -275,6 +288,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.006",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -298,6 +312,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.416J",
+			"course" :      "21H",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21H.416J",
@@ -315,6 +330,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.301",
+			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -341,6 +357,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.104J",
+			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -366,6 +383,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.775",
+			"course" :      "21W",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -386,6 +404,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c14.70J",
+			"course" :      "14",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c14.70J",
@@ -403,6 +422,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.322",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -426,6 +446,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c11.002J",
+			"course" :      "11",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -449,6 +470,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.01",
+			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -469,6 +491,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.912",
+			"course" :      "21H",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21H.912",
@@ -494,6 +517,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.421",
+			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -514,6 +538,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.20",
+			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -537,6 +562,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.504",
+			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -557,6 +583,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.105",
+			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -581,6 +608,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.102",
+			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -601,6 +629,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c3.986",
+			"course" :      "3",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c3.986",
@@ -618,6 +647,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21A.100",
+			"course" :      "21A",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21A.100",
@@ -635,6 +665,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.55J",
+			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -655,6 +686,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.900",
+			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -684,6 +716,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.595J",
+			"course" :      "SP",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/cSP.595J",
@@ -701,6 +734,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.003",
+			"course" :      "STS",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/cSTS.003",
@@ -718,6 +752,7 @@
 			"total-units" : "13",
 			"level" :       "Undergrad",
 			"id" :          "c21F.592",
+			"course" :      "21F",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -738,6 +773,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c4.605",
+			"course" :      "4",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c4.605",
@@ -755,6 +791,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.330",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -775,6 +812,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.523",
+			"course" :      "21H",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21H.523",
@@ -792,6 +830,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.401",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -812,6 +851,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.611",
+			"course" :      "21M",
 			"category" :    "HASS-D 3",
 			"offering" :    "Not offered this year",
 			"uri" :         "http://127.0.0.1/c21M.611",
@@ -829,6 +869,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.09",
+			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -849,6 +890,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.317",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -869,6 +911,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.321",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -892,6 +935,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.011",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -915,6 +959,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.00",
+			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -935,6 +980,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.670J",
+			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -955,6 +1001,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.32",
+			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -975,6 +1022,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.461J",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -995,6 +1043,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.012",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -1019,6 +1068,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21A.113J",
+			"course" :      "21A",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -1043,6 +1093,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.002",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1063,6 +1114,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.314",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -1089,6 +1141,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.747",
+			"course" :      "21W",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1116,6 +1169,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.005",
+			"course" :      "STS",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -1136,6 +1190,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.030",
+			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -1159,6 +1214,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.084J",
+			"course" :      "21F",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -1179,6 +1235,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c14.63",
+			"course" :      "14",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c14.63",
@@ -1196,6 +1253,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.013J",
+			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -1220,6 +1278,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.30J",
+			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -1243,6 +1302,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.302",
+			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -1270,6 +1330,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.059",
+			"course" :      "21F",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1298,6 +1359,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.04J",
+			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1318,6 +1380,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.2H3",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1338,6 +1401,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.716",
+			"course" :      "21F",
 			"category" :    "HASS-D 1",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21F.716",
@@ -1355,6 +1419,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.423J",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -1378,6 +1443,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.017",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1402,6 +1468,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.311",
+			"course" :      "21F",
 			"category" :    "HASS-D 1",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21F.311",
@@ -1419,6 +1486,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c11.015J",
+			"course" :      "11",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -1439,6 +1507,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.001",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1459,6 +1528,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.065",
+			"course" :      "21M",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21M.065",
@@ -1476,6 +1546,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.739J",
+			"course" :      "21W",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1499,6 +1570,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c4.614",
+			"course" :      "4",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c4.614",
@@ -1516,6 +1588,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.06J",
+			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1539,6 +1612,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.301",
+			"course" :      "21M",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21M.301",
@@ -1564,6 +1638,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c14.72",
+			"course" :      "14",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c14.72",
@@ -1581,6 +1656,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c4.301",
+			"course" :      "4",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c4.301",
@@ -1601,6 +1677,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.448J",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1624,6 +1701,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.011",
+			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -1650,6 +1728,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21A.109",
+			"course" :      "21A",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21A.109",
@@ -1667,6 +1746,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.42",
+			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -1693,6 +1773,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.57J",
+			"course" :      "17",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c17.57J",
@@ -1715,6 +1796,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.02",
+			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1735,6 +1817,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.01J",
+			"course" :      "17",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1755,6 +1838,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.467J",
+			"course" :      "21H",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21H.467J",
@@ -1777,6 +1861,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.746",
+			"course" :      "21W",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -1797,6 +1882,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.409",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -1817,6 +1903,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.010",
+			"course" :      "21F",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -1837,6 +1924,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21A.430J",
+			"course" :      "21A",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -1857,6 +1945,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.601",
+			"course" :      "21H",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21H.601",
@@ -1879,6 +1968,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21A.441",
+			"course" :      "21A",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21A.441",
@@ -1896,6 +1986,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.026",
+			"course" :      "21M",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c21M.026",
@@ -1916,6 +2007,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.223J",
+			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -1939,6 +2031,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.006J",
+			"course" :      "STS",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -1962,6 +2055,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.433",
+			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
 				"HASS Communication-Intensive"
@@ -1982,6 +2076,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.575J",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -2002,6 +2097,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.735",
+			"course" :      "21W",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -2025,6 +2121,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.016",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -2045,6 +2142,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.591J",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 3",
 				"HASS Communication-Intensive"
@@ -2065,6 +2163,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.742J",
+			"course" :      "SP",
 			"category" :    [
 				"HASS-D 2",
 				"HASS Communication-Intensive"
@@ -2085,6 +2184,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.004",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -2111,6 +2211,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.421",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -2134,6 +2235,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.784",
+			"course" :      "21W",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -2154,6 +2256,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.064",
+			"course" :      "21F",
 			"category" :    [
 				"HASS-D 4",
 				"HASS Communication-Intensive"
@@ -2177,6 +2280,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.009",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"
@@ -2203,6 +2307,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c4.601",
+			"course" :      "4",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
 			"uri" :         "http://127.0.0.1/c4.601",
@@ -2220,6 +2325,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.003",
+			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
 				"HASS Communication-Intensive"

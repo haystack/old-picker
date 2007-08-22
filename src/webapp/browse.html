@@ -20,8 +20,7 @@
                 <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
                 <a href="index.html">Start Over</a> &bull;
                 <a href="mailto:course-picker@lists.csail.mit.edu">Contact Us</a> &bull;
-                This page is powered by <a href="http://simile.mit.edu/exhibit/">Exhibit</a> and
-                <a href="http://simile.mit.edu/timegrid/">Timegrid</a>.
+                <a href="report.html">Report Errors</a>
             </div>
         </div>
         
@@ -66,15 +65,23 @@
                             <b>Search</b>
                             <div ex:role="facet" ex:facetClass="TextSearch"></div>
                             <hr/>
+                            <div class="collapsed-facet" onclick="makeFacet(this)" id='course-facet'>course &raquo;</div>
                             <div class="collapsed-facet" onclick="makeFacet(this)" id='level-facet'>level &raquo;</div>
-                            <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
-                            <div class="collapsed-facet" onclick="makeFacet(this)" id='total-units-facet'>total units &raquo;</div>
-                            <div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
-                            <div class="collapsed-facet" onclick="makeFacet(this)" id='eng-conc-facet'>engineering concentration &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this)" id='topic-facet'>topic &raquo;</div>
                             
                             <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' ex:height="20em"></div>
                             <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' ex:height="7em" ex:selection="Fall"></div>
                             <div ex:role="facet" ex:expression=".offering" ex:facetLabel="offering &raquo;" id='offering-facet' ex:height="8em" ex:selection="Currently Offered"></div>
+                            
+                            <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this)" id='total-units-facet'>total units &raquo;</div>
+                            <div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
+                            
+                            <p style="margin-top: 3em; text-align: center;">
+                                powered by<br/>
+                                <a href="http://simile.mit.edu/exhibit/">Exhibit</a> and
+                                <a href="http://simile.mit.edu/timegrid/">Timegrid</a>
+                            </p>
                         </td>
                         <td>
                             <div ex:role="view"

@@ -99,7 +99,7 @@ var courses = [
     },
     {    number:    "MAS",
         name:    "Media Arts and Sciences (Media Lab)",
-        hasData: false
+        hasData: true
     },
     {    number:    "21M",
         name:    "Music and Theater Arts",
@@ -132,6 +132,11 @@ var courses = [
 ];
     
 var facetData = {
+    'course-facet': {
+        expression: '.course',
+        facetLabel: 'course &raquo;',
+        height:     '10em'
+    },
     'level-facet': {
         expression: '.level',
         facetLabel: 'level &raquo;',
@@ -151,9 +156,9 @@ var facetData = {
         facetLabel: 'day of week &raquo;',
         fixedOrder: 'M; T; W; R; F'
     },
-    'eng-conc-facet': {
-        expression: '.engineering-concentration',
-        facetLabel: 'engineering concentration &raquo;',
+    'topic-facet': {
+        expression: '.topic',
+        facetLabel: 'topic &raquo;',
         height:     '20em'
     },
     'category-facet': {
