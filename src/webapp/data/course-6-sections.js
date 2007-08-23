@@ -13,6 +13,103 @@
 			"reported-hours" : "19"
 		},
 		{
+			"instructor" :		"Sipser, M.",
+			"class":			"c6.840J",
+			"odifficulty":		"4.6",
+			"evaluation":		"https://sixweb.mit.edu/search/show_eval/6.840-f2006",
+			"orating":			"6.1",
+			"type" :			"Section",
+			"label":			"Section",
+			"id":				"s6.840J",
+			"last-taught":		"F06",
+			"reported-hours":	"11",
+			"irating":			"6.3"
+		},
+		{
+			"id":				"s6.854J",
+			"class":			"c6.854J",
+			"instructor":		"Karger",
+			"label":			"Section",
+			"type" :			"Section",
+			"evaluation":		"https://sixweb.mit.edu/search/show_eval/6.854-f2006",
+			"orating":			"6.1",
+			"odifficulty":		"6.1",
+			"reported-hours":	"26.8",
+			"last-taught":		"F06",
+			"irating":			"6.3"
+		},
+		{
+			"id":				"s6.864",
+			"class":			"c6.864",
+			"instructor":		"Collins, M. J.",
+			"label":			"Section",
+			"type":				"Section",
+			"evaluation":		"https://hkn.mit.edu/6guide/src/fall05/6864.html",
+			"orating":			"5.8",
+			"odifficulty":		"4.5",
+			"reported-hours":	"18.9",
+			"last-taught":		"F05",
+			"irating":			"6.5"
+		},
+		{
+			"id":				"s6.866",
+			"class":			"c6.866",
+			"instructor":		"Horn B.K.P.",
+			"label":			"Section",
+			"type":				"Section",
+			"evaluation":		"https://sixweb.mit.edu/search/show_eval/6.866-f2006",
+			"orating":			"5.4",
+			"odifficulty":		"5.0",
+			"reported-hours":	"16.4",
+			"last-taught":		"F06",
+			"irating":			"6.0"
+		},
+		{
+			"id":				"s6.867",
+			"class":			"c6.867",
+			"instructor":		"Jaakola, T.S.",
+			"label":			"Section",
+			"type":				"Section",
+			"evaluation":		"https://sixweb.mit.edu/search/show_eval/6.867-f2006",
+			"orating":			"5.0",
+			"odifficulty":		"5.2",
+			"reported-hours":	"18",
+			"last-taught":		"F06",
+			"irating":			"5.3"
+		},
+		{
+			"id":				"s6.872J",
+			"class":			"c6.872J",
+			"instructor":		"Szolovits, P.",
+			"label":			"Section",
+			"type":				"Section",
+			"evaluation":		"https://sixweb.mit.edu/search/show_eval/6.872-f2006",
+			"orating":			"5.0",
+			"odifficulty":		"4.0",
+			"reported-hours":	"12.3",
+			"last-taught":		"F06",
+			"irating":			"5.8"
+		},
+		{
+			"id":				"s6.873J",
+			"class":			"c6.873J",
+			"instructor":		"Ohno-Machado, L.",
+			"label":			"Section",
+			"type":				"Section",
+			"evaluation":		"https://sixweb.mit.edu/search/show_eval/6.873-f2006",
+			"orating":			"3.5",
+			"odifficulty":		"3.5",
+			"reported-hours":	"11.8",
+			"last-taught":		"F06",
+			"irating":			"4.0"
+		},
+		{
+			"id":				"s6.859J",
+			"class":			"c6.859J",
+			"label":			"Section",
+			"type":				"Section"
+		},
+		{
 			"instructor" : [
 				"Kellis, M.",
 				"Indyk, P."
@@ -24,12 +121,12 @@
 			"id" :         "s6.878"
 		},
 		{
-			"instructor" : "Verghese, G.V.",
+			"instructor" : "Demaine, E.",
 			"label" :      "Section",
 			"type" :       "Section",
 			"uri" :        "http://127.0.0.1/s6.885",
-			"class" :      "c6.881-885",
-			"id" :         "s6.885"
+			"class" :      "c6.881-6.885",
+			"id" :         "s6.881-6.885"
 		},
 		{
 			"id" :             "s6.011",
@@ -382,6 +479,22 @@
 			"id" :         "s6.973"
 		},
 		{
+			"instructor" : "Verghese, G.C.",
+			"label" :      "Section",
+			"type" :       "Section",
+			"uri" :        "http://127.0.0.1/s6.973",
+			"class" :      "c6.971-6.979",
+			"id" :         "s6.975"
+		},
+		{
+			"instructor" : "Verghese, G.C.",
+			"label" :      "Section",
+			"type" :       "Section",
+			"uri" :        "http://127.0.0.1/s6.973",
+			"class" :      "c6.971-6.979",
+			"id" :         "s6.976"
+		},
+		{
 			"id" :             "s6.824",
 			"uri" :            "http://127.0.0.1/s6.824",
 			"irating" :        "NEW",
@@ -416,8 +529,16 @@
 			"label" :      "Section",
 			"type" :       "Section",
 			"uri" :        "http://127.0.0.1/s6.897",
-			"class" :      "c6.891-899",
+			"class" :      "c6.891-6.899",
 			"id" :         "s6.897"
+		},
+		{
+			"instructor" : "Verghese, G.C.",
+			"label" :      "Section",
+			"type" :       "Section",
+			"uri" :        "http://127.0.0.1/s6.897",
+			"class" :      "c6.891-6.899",
+			"id" :         "s6.899"
 		},
 		{
 			"instructor" : "Horn, B.K.P.",
@@ -839,7 +960,7 @@
 			"label" :      "Section",
 			"type" :       "Section",
 			"uri" :        "http://127.0.0.1/s6.898",
-			"class" :      "c6.891-899",
+			"class" :      "c6.891-6.899",
 			"id" :         "s6.898"
 		},
 		{
@@ -847,7 +968,7 @@
 			"label" :      "Section",
 			"type" :       "Section",
 			"uri" :        "http://127.0.0.1/s6.895",
-			"class" :      "c6.891-899",
+			"class" :      "c6.891-6.899",
 			"id" :         "s6.895"
 		},
 		{
@@ -937,7 +1058,7 @@
 			"label" :      "Section",
 			"type" :       "Section",
 			"uri" :        "http://127.0.0.1/s6.877J",
-			"class" :      "c6.837J",
+			"class" :      "c6.877J",
 			"id" :         "s6.877J"
 		},
 		{
