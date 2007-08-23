@@ -103,7 +103,9 @@
 			"type" :        "Class",
 			"label" :       "6.072J - Introduction to Digital Electronics",
 			"description" : "Design your own circuits for times when off-the-shelf solutions are not available. Seminar begins with assembly of a utility board. Weekly labs cover digital logic gates, memory elements, and finite-state machine design. Seminar concludes with a team-based design project. Preference given to freshmen. Maximum of 10 students per term, lottery at the first class session if oversubscribed .",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "IAP", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -270,7 +272,9 @@
 			"type" :        "Class",
 			"label" :       "6.193\u00E2\u0080\u00936.197 - Special Laboratory Subjects in Electrical Engineering and Computer Science",
 			"description" : "No description available.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "IAP", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -286,7 +290,7 @@
 			"type" :        "Class",
 			"label" :       "6.UR - Undergraduate Research in Electrical Engineering and Computer Science",
 			"description" : "Extended participation in the work of a faculty member or research group, including independent study of the literature, direct involvement in the group\'s research, and project work under an individual faculty member. Research is arranged by mutual agreement between the student and a member of the faculty of the Department of Electrical Engineering and Computer Science, and may continue over several terms. Forms and instructions for the initial letter of intent and final summary report are available in the department undergraduate office.",
-			"semester" :    "Summer",
+			"semester" :    [ "Fall", "Spring", "Summer" ],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -351,7 +355,9 @@
 				"resonance",
 				"and forces, power, and energy."
 			],
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -419,7 +425,9 @@
 			"type" :        "Class",
 			"label" :       "6.910\u00E2\u0080\u00936.914 - Special Studies in Electrical Engineering and Computer Science",
 			"description" : "Advanced subjects not offered in the regular curriculum. Consult department to learn of offerings for a particular term.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "IAP", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -535,7 +543,9 @@
 				"analyzing the performance and correctness of algorithms",
 				"and tradeoffs in complex systems.  6 Engineering Design Points."
 			],
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -781,7 +791,9 @@
 			"label" :       "6.291 - Seminar in Systems, Communications, and Control Research",
 			"prereqs" :     "Permission of Instructor",
 			"description" : "Advanced topics in systems, communications, control, and signal processing. Selected topics according to student and instructor interest. See instructor for specific topics to be offered in a particular term.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -888,7 +900,9 @@
 			"type" :        "Class",
 			"label" :       "6.962\u00E2\u0080\u00936.969 - Special Studies in Electrical Engineering and Computer Science",
 			"description" : "Opportunity for study of graduate-level topics related to electrical engineering and computer science but not included elsewhere in the curriculum. Registration under this subject normally used for situations involving individual study (under supervision of a faculty member) concerning topics of mutual interest to student and supervisor, but may, when appropriate, be used for small study groups. Normal registration is for 12 units. Registration subject to approval of professor in charge.",
-			"semester" :    "Summer",
+			"semester" :    [
+				"Fall", "Spring", "Summer"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -905,7 +919,9 @@
 			"label" :       "6.UAP - Undergraduate Advanced Project",
 			"prereqs" :     "c6.UAT",
 			"description" : "Research project for those students completing the SB degree, to be arranged by the student and an appropriate MIT faculty member.  Students who register for this subject must consult the department undergraduate office. Students engage in extensive written communications exercises.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -947,7 +963,7 @@
 				"Program of research leading to the writing of an  SM, EE, ECS, PhD, or ScD thesis",
 				"to be arranged by the student and an appropriate MIT faculty member."
 			],
-			"semester" :    "Summer",
+			"semester" :    [ "Fall", "Spring", "Summer" ],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -1144,7 +1160,9 @@
 			"label" :       "6.152J - Micro/Nano Processing Technology",
 			"prereqs" :     "Permission of instructor",
 			"description" : "Introduces the theory and technology of micro/nano fabrication. Lectures and laboratory sessions on basic processing techniques such as vacuum processes, lithography, diffusion, oxidation, and pattern transfer. Students fabricate MOS capacitors, nanomechanical cantilevers, and microfluidic mixers. Emphasis on the interrelationships between material properties and processing, device structure, and the electrical, mechanical, optical, chemical  or biological behavior of devices. Provides background for thesis work in micro/nano fabrication or for 6.151. Students engage in extensive written and oral communication exercises.  6 Engineering Design Points.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -1264,7 +1282,9 @@
 				"matched filters. Least-mean square error estimation",
 				"Wiener filtering."
 			],
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -1431,7 +1451,9 @@
 			"prereqs" :                   "c18.02",
 			"description" :               "An introduction to probability theory, and the modeling and analysis of probabilistic systems. Sample space, probabilistic models, conditional probability. Discrete and continuous random variables. Transform techniques. Bernoulli and Poisson processes. Markov processes. Limit theorems and elements of statistical inference. Meets with graduate subject 6.431, but assignments differ.",
 			"topic" :                     "Probabilistic Systems and Communication",
-			"semester" :                  "Spring",
+			"semester" :                  [
+				"Fall", "Spring"
+			],
 			"has-final" :                 "TRUE"
 		},
 		{
@@ -1573,7 +1595,9 @@
 			"label" :       "6.922 - Advanced VI-A Internship",
 			"prereqs" :     "c6.921",
 			"description" : "Provides academic credit for the second assignment of VI-A undergraduate students at companies affiliated with the department\'s VI-A internship program. Enrollment limited to students participating in the VI-A internship program.",
-			"semester" :    "Summer",
+			"semester" :    [
+				"Spring", "Summer"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -1725,7 +1749,7 @@
 			"type" :        "Class",
 			"label" :       "6.980 - Teaching Electrical Engineering and Computer Science",
 			"description" : "For qualified students interested in gaining teaching experience. Classroom, tutorial, or laboratory teaching under the supervision of a faculty member. Enrollment limited by availability of suitable teaching assignments.",
-			"semester" :    "Spring",
+			"semester" :    [ "Fall", "Spring" ],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -1755,7 +1779,9 @@
 				"testing, test-case generation and coverage",
 				"essentials of programming with objects, functions and abstract types. Student work includes exercises in modeling, design, implementation and reasoning.  4 Engineering Design Points."
 			],
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -1804,7 +1830,9 @@
 			"type" :        "Class",
 			"label" :       "6.090\u00E2\u0080\u00936.099 - Special Subjects in Electrical Engineering and Computer Science",
 			"description" : "Basic undergraduate subjects not offered in the regular curriculum. Consult department to learn of offerings for a particular term. Registration by permission of instructor.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "IAP", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -1927,7 +1955,9 @@
 			"type" :        "Class",
 			"label" :       "6.UAT - Preparation for Undergraduate Advanced Project",
 			"description" : "Learn about different aspects of effective technical oral presentations by being exposed to different workplace communication skills. As preparation for the advanced undergraduate project (UAP), students develop research topics, identify a research supervisor, and prepare a short research proposal for written and oral presentation.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -2158,7 +2188,7 @@
 			"type" :        "Class",
 			"label" :       "6.985-6.989 - Special Subjects in Electrical Engineering",
 			"description" : "No description available.",
-			"semester" :    "Spring",
+			"semester" :    [ "Fall", "Spring" ],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -2174,7 +2204,7 @@
 			"type" :        "Class",
 			"label" :       "6.981 - Teaching Electrical Engineering and Computer Science",
 			"description" : "For Teaching Assistants in Electrical Engineering and Computer Science, in cases where teaching assignment is approved for academic credit by the department.",
-			"semester" :    "Spring",
+			"semester" :    [ "Fall", "Spring" ],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -2346,7 +2376,7 @@
 			"type" :        "Class",
 			"label" :       "6.991 - Research in Electrical Engineering and Computer Science",
 			"description" : "For Research Assistants in Electrical Engineering and Computer Science, in cases where the assigned research is approved for academic credit by the department. Hours arranged with research supervisor.",
-			"semester" :    "Summer",
+			"semester" :    [ "Fall", "Spring", "Summer" ],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -2533,7 +2563,9 @@
 				"c18.03"
 			],
 			"description" : "Applications of electromagnetic principles to classical and modern devices.  Basic electrical components, electric motors and generators, power flow, and energy conversion in macroscopic to quantum-scale electrical and electromechanical systems. Photons and their interaction with matter in detectors, sources, optical fibers, and other devices and communication systems.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -2765,7 +2797,9 @@
 			"course" : "6",
 			"type" :        "Class",
 			"label" :       "6.080-6.089 - Special Subjects in Electrical Engineering and Computer Science",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "IAP", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -3012,7 +3046,9 @@
 				"caching",
 				"and parallel computing."
 			],
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -3041,7 +3077,9 @@
 				"planning, executing, and evaluating experimental tests of performance",
 				"refining models and designs. Issues addressed in the context of computer programs, control systems, probabilistic inference problems, circuits and transducers, which all play important roles in achieving robust operation of a large variety of engineered systems.  6 Engineering Design Points."
 			],
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -3284,7 +3322,9 @@
 			"label" :       "6.034 - Artificial Intelligence",
 			"prereqs" :     "c6.001",
 			"description" : "Introduces representations, techniques, and architectures used to build applied systems and to account for intelligence from a computational point of view. Applications of rule chaining, heuristic search, constraint propagation, constrained search, inheritance, and other problem-solving paradigms. Applications of identification trees, neural nets, genetic algorithms, and other learning paradigms. Speculations on the contributions of human vision and language systems to human intelligence. Meets with HST.947 spring only.  4 Engineering Design Points.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -3345,7 +3385,9 @@
 				"recurrences",
 				"generating functions."
 			],
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -3370,7 +3412,9 @@
 				"c6.02"
 			],
 			"description" : "Fundamentals of signal and system analysis, with applications drawn from filtering, audio and image processing, communications, and automatic control. Topics include convolution, Fourier series and transforms, sampling and discrete-time processing of continuous-time signals, modulation, Laplace and Z-transforms, and feedback systems.  4 Engineering Design Points.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -3811,7 +3855,7 @@
 				"Program of research leading to the writing of an MEng thesis",
 				"to be arranged by the student and an appropriate MIT faculty member. Restricted to MEng students who have been admitted to the MEng program."
 			],
-			"semester" :    "Summer",
+			"semester" :    [ "Fall", "Spring", "Summer" ],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -3920,7 +3964,9 @@
 			"type" :        "Class",
 			"label" :       "6.891-6.899 - Special Subjects in Computer Science",
 			"description" : "Opportunity for group study of advanced subjects related to computer science not otherwise included in curriculum. Offerings initiated by members of the EECS faculty on an ad hoc basis, subject to department approval.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -3979,7 +4025,9 @@
 				"pipelined and multidimensional systems. Instruction set design issues",
 				"architectural support for contemporary software structures.  4 Engineering Design Points."
 			],
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -4121,7 +4169,9 @@
 				"design in the time and frequency domains",
 				"analog and digital circuits and applications. Design exercises. Alternate week laboratory.  4 Engineering Design Points."
 			],
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -4221,7 +4271,9 @@
 			"label" :       "6.041 - Probabilistic Systems Analysis",
 			"prereqs" :     "c18.02",
 			"description" : "An introduction to probability theory, and the modeling and analysis of probabilistic systems. Sample space, probabilistic models, conditional probability. Discrete and continuous random variables. Transform techniques. Bernoulli and Poisson processes. Markov processes. Limit theorems and elements of statistical inference. Meets with graduate subject 6.431, but assignments differ.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -4336,7 +4388,9 @@
 			"type" :        "Class",
 			"label" :       "6.881-6.885 - Special Subjects in Computer Science",
 			"description" : "Opportunity for group study of advanced subjects related to Computer Science not otherwise included in curriculum.  Offerings initiated by members of the EECS faculty on an ad hoc basis, subject to department approval.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -4439,7 +4493,9 @@
 			"label" :       "6.163 - Strobe Project Laboratory",
 			"prereqs" :     "c8.02",
 			"description" : "Application of electronic flash sources to measurement and   photography. First half covers fundamentals of photography and   electronic flashes, including experiments on application of electronic   flash to photography, stroboscopy, motion analysis, and high-speed   videography. Students write five extensive lab reports.  In the second half, students work in small groups to select, design,   and execute independent projects in measurement or photography that apply learned techniques. Project planning and execution skills are discussed and developed over the term. Enrollment limited. 12 Engineering Design Points.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -4629,7 +4685,9 @@
 			"label" :       "6.952 - Graduate VI-A Internship",
 			"prereqs" :     "c6.951",
 			"description" : "Provides academic credit for graduate students who require an additional term at the company to complete the graduate assignment of the department\'s VI-A internship program. This academic credit is for registration purposes only and cannot be used toward fulfilling the requirements of any degree program. Enrollment limited to graduate students participating in the VI-A internship program.",
-			"semester" :    "Summer",
+			"semester" :    [
+				"Fall", "Summer", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -4731,7 +4789,9 @@
 			"type" :        "Class",
 			"label" :       "6.971\u00E2\u0080\u00936.979 - Special Subjects in Electrical Engineering and Computer Science",
 			"description" : "Opportunity for group study of advanced subjects related to Electrical Engineering and Computer Science not otherwise included in curriculum. Offerings initiated by members of EECS faculty on an ad hoc basis, subject to departmental approval.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -4758,7 +4818,9 @@
 				"design patterns",
 				"and testing. Several programming projects of varying size undertaken by students working individually and in groups. Enrollment may be limited. 12 Engineering Design Points."
 			],
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -4875,7 +4937,7 @@
 			"type" :        "Class",
 			"label" :       "6.CME - Study at Cambridge University",
 			"description" : "No description available.",
-			"semester" :    "Spring",
+			"semester" :    [ "Fall", "Spring" ],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -4945,7 +5007,9 @@
 				"developing circuit models",
 				"and understanding the uses and limitations of different models. Use of incremental and large-signal techniques to analyze and design bipolar and field effect transistor circuits, with examples chosen from digital circuits, single-ended and differential linear amplifiers, and other integrated circuits. Design project.  4 Engineering Design Points."
 			],
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -4961,7 +5025,9 @@
 			"type" :        "Class",
 			"label" :       "6.070J - Electronics Project Laboratory",
 			"description" : "Introduction to electronics test equipment such as oscilloscopes, meters (voltage, resistance inductance, capacitance, etc.), and signal generators. Emphasizes individual instruction and development of skills, such as soldering, assembly, and troubleshooting. Students build and keep an electronics kit, such as a radio, to serve as the vehicle for learning about electronics test and measurement equipment. Intended for students without a previous background in electronics. Enrollment may be limited.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "IAP", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -5309,7 +5375,9 @@
 			"label" :       "6.923 - Pre-Graduate VI-A Internship",
 			"prereqs" :     "c6.922",
 			"description" : "Provides academic credit for the third assignment of VI-A undergraduate students at companies affiliated with the department\'s VI-A internship program. Enrollment limited to students participating in the VI-A internship program.",
-			"semester" :    "Summer",
+			"semester" :    [
+				"Spring", "Summer"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -5325,7 +5393,9 @@
 			"type" :        "Class",
 			"label" :       "6.961 - Introduction to Research in Electrical Engineering and Computer Science",
 			"description" : "Opportunity to become involved in graduate research, under guidance of a staff member, on a problem of mutual interest to student and supervisor. Recommended for all full-time graduate students entering the Department of Electrical Engineering and Computer Science. Individual programs subject to approval of professor in charge. Enrollment restricted to regular graduate students in Electrical Engineering and Computer Science. Normal registration is for 12 units.",
-			"semester" :    "Summer",
+			"semester" :    [
+				"Fall", "Spring", "Summer"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -5366,7 +5436,9 @@
 			"type" :        "Class",
 			"label" :       "6.00 - Introduction to Computer Science and Programming",
 			"description" : "Introduction to computer science and programming for students with little or no programming experience.  Students learn how to program and how to use computational techniques to solve problems.  Topics include algorithms, simulation techniques, and use of software libraries.  Assignments are done using the Python programming language.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -5408,7 +5480,9 @@
 			"type" :        "Class",
 			"label" :       "6.100 - Electrical Engineering and Computer Science Laboratory",
 			"description" : "Individual experimental work related to electrical engineering and computer science not covered by other subjects. Student must make arrangements with a project supervisor and file a proposal endorsed by the supervisor. Departmental approval required. Written report to be submitted upon completion of work. If 6.100 is used to satisfy departmental laboratory requirement, student must register for 12 units of laboratory credit in the term the work is done. Consult department undergraduate office early in the term.",
-			"semester" :    "Summer",
+			"semester" :    [
+				"Fall", "Spring", "Summer"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -5424,7 +5498,9 @@
 			"type" :        "Class",
 			"label" :       "6.920 - Practical Work Experience",
 			"description" : "For Course 6 students participating in off-campus work experiences in electrical engineering or computer science. Before enrolling, students must have an employment offer from a company or organization and must find an EECS supervisor. Upon completion of the work, student must submit a letter from the employer describing the work accomplished, along with a substantive final report from the student approved by the MIT supervisor. Subject to departmental approval. Consult departmental undergraduate office.",
-			"semester" :    "Summer",
+			"semester" :    [
+				"Fall", "IAP", "Spring", "Summer"
+			],
 			"has-final" :   "FALSE"
 		},
 		{
@@ -5529,7 +5605,45 @@
 				"c6.042J"
 			],
 			"description" : "Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.",
-			"semester" :    "Spring",
+			"semester" :    [
+				"Fall", "Spring"
+			],
+			"has-final" :   "FALSE"
+		},
+		{
+			"total-units" : "Unknown",
+			"level" :       "Undergrad",
+			"offering" :    "Can be repeated for credit",
+			"uri" :         "http://127.0.0.1/6.185%C3%A2%C2%80%C2%936.190+-+Special+Laboratory+Subjects+in+Electrical+Engineering+and+Computer+Science",
+			"series" :      "6.1xx",
+			"in-charge" :   "Verghese, G. C.",
+			"units" :       "Unknown",
+			"id" :       "c6.185\u00E2\u0080\u00936.190",
+			"course" : "6",
+			"type" :        "Class",
+			"label" :       "6.185\u00E2\u0080\u00936.190 - Special Laboratory Subjects in Electrical Engineering and Computer Science",
+			"description" : "Laboratory subjects not offered in the regular curriculum. Consult department to learn offerings for a particular term.",
+			"semester" :    [
+				"Fall", "IAP", "Spring"
+			],
+			"has-final" :   "FALSE"
+		},
+		{
+			"total-units" : "Unknown",
+			"level" :       "Undergrad",
+			"offering" :    "Can be repeated for credit",
+			"uri" :         "http://127.0.0.1/6.915%C3%A2%C2%80%C2%936.919+-+Special+Advanced+Undergraduate+Subjects+in+Electrical+Engineering+and+Computer+Science",
+			"series" :      "6.9xx",
+			"in-charge" :   "Smith, A. C.",
+			"units" :       "Unknown",
+			"id" :       "c6.915\u00E2\u0080\u00936.919",
+			"course" : "6",
+			"type" :        "Class",
+			"label" :       "6.915\u00E2\u0080\u00936.919 - Special Advanced Undergraduate Subjects in Electrical Engineering and Computer Science",
+			"description" : "Advanced subjects not offered in the regular curriculum. Consult department to learn of offerings for a particular term.",
+			"semester" :    [
+				"Fall", "IAP", "Spring"
+			],
 			"has-final" :   "FALSE"
 		}
 	]
