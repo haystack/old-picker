@@ -67,7 +67,7 @@ function onLoad() {
         setupExistingFacet(document.getElementById("semester-facet"));
         setupExistingFacet(document.getElementById("offering-facet"));
         
-        //enableMiniTimegrid();
+        enableMiniTimegrid();
         enableUnitAdder();
     };
     loadURLs(urls, fDone);
