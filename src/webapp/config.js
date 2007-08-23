@@ -171,6 +171,10 @@ var facetData = {
         expression: '.offering',
         facetLabel: 'offering &raquo;',
         height:     '8em'
+    },
+    'tqe-facet': {
+        expression: '.TQE',
+        facetLabel: 'TQE &raquo;'
     }
 };
 

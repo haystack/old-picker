@@ -19,6 +19,7 @@ Exhibit.Functions["building"] = {
  */
 function onLoad() {
     var urls = [ ];
+    var hasTQE = false;
     
     var query = document.location.search;
     if (query.length > 1) {
@@ -39,6 +40,10 @@ function onLoad() {
                         urls.push("data/course-" + course + "-classes.js");
                         urls.push("data/course-" + course + "-lectures.js");
                         urls.push("data/course-" + course + "-sections.js");
+                        
+                        if (course == "6") {
+                            hasTQE = true;
+                        }
                     }
                 }
             }
@@ -59,6 +64,14 @@ function onLoad() {
         };
         pickedSections._update();
         
+        if (hasTQE) {
+            var tqeDiv = document.getElementById("tqe-facet");
+            tqeDiv.onclick = function() { makeFacet(this); };
+            tqeDiv.setAttribute("ex:role", "facet");
+            tqeDiv.setAttribute("ex:expression", ".TQE");
+            tqeDiv.setAttribute("ex:facetLabel", "TQE &raquo;");
+        }
+        
         window.exhibit = Exhibit.create();
         window.exhibit.setCollection("picked-sections", pickedSections);
         window.exhibit.configureFromDOM();
@@ -66,6 +79,9 @@ function onLoad() {
         setupExistingFacet(document.getElementById("category-facet"));
         setupExistingFacet(document.getElementById("semester-facet"));
         setupExistingFacet(document.getElementById("offering-facet"));
+        if (hasTQE) {
+            setupExistingFacet(document.getElementById("tqe-facet"));
+        }
         
         enableMiniTimegrid();
         enableUnitAdder();
