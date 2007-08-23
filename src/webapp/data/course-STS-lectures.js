@@ -291,7 +291,7 @@
 			"start" :   "19:00",
 			"id" :      "L-STS.051-T19:00",
 			"uri" :     "http://127.0.0.1/L-STS.051-T19%3A00",
-			"end" :     "10:00",
+			"end" :     "22:00",
 			"type" :    "Lecture",
 			"day" :     "T",
 			"label" :   "L-STS.051-T19:00",
