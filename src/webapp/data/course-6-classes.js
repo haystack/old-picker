@@ -2482,7 +2482,7 @@
 						"category" :    "H-LEVEL Grad Credit",
 			"offering" :    [
 				"Not offered next year",
-				"Currently offered"
+				"Currently Offered"
 			],
 			"uri" :         "http://127.0.0.1/6.245+-+Multivariable+Control+Systems",
 			"series" :      "6.2xx",
