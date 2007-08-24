@@ -4451,6 +4451,7 @@
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.438+-+Algorithms+for+Estimation+and+Inference",
 			"series" :                    "6.4xx",
+			"TQE" :          "Group III: Artificial Intelligence",
 			"in-charge" :                 [
 				"Golland, P.",
 				"Willsky, A. S.",
