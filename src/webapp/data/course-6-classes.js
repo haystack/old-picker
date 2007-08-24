@@ -1046,6 +1046,7 @@
 			"course" :      "6",
 			"required-for" :              "none",
 			"id" :                     "c6.839",
+			"TQE" :          "Group III: Artificial Intelligence",
 			"type" :                      "Class",
 			"in-charge" :                 [
 				"Popovic, J.",
@@ -1534,6 +1535,7 @@
 			"offering" :                  "Currently Offered",
 			"uri" :                       "http://127.0.0.1/6.878+-+Advanced+Computational+Biology%3A+Genomes%2C+Networks%2C+Evolution",
 			"series" :                    "6.8xx",
+			"TQE" :          "Group III: Artificial Intelligence",
 			"in-charge" :                 [
 				"Kellis, M.",
 				"Indyk, P."
