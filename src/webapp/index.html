@@ -137,8 +137,11 @@
 
                 }
                 
-                document.location = "browse.html?courses=" + encodeURIComponent(courses.join(";"));
-
+                if (courses.length > 0) {
+                    document.location = "browse.html?courses=" + encodeURIComponent(courses.join(";"));
+                } else {
+                    alert("You didn't select any course.");
+                }
             }
 
         </script>
@@ -159,7 +162,7 @@
             </div>
             <hr />
             <p>
-                <span>Also include HASS-D classes from all courses <input type='checkbox' name='course' id='hass-d' value='Hass-D Courses' checked></input></span>
+                <span style="color: #a00; font-weight: bold;"><input type='checkbox' name='course' id='hass-d' value='Hass-D Courses'></input> Also include HASS-D classes from all courses</span>
             </p>
             <p><button onclick="browseCourses();">Browse Courses</button></p>
             <p style="color: gray; width: 3in;">
