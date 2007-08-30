@@ -563,22 +563,6 @@
 			"reported-hours" : "NEW"
 		},
 		{
-			"id" :             "s6.001a",
-			"uri" :            "http://127.0.0.1/s6.001a",
-			"irating" :        "5.7",
-			"class" :          "c6.001",
-			"evaluation" :     "https://sixweb.mit.edu/search/show_eval/6.001-f2006",
-			"instructor" :     [
-				"Grimson, W. E. L.",
-				"Boning, D. S."
-			],
-			"orating" :        "5.4",
-			"type" :           "Section",
-			"label" :          "Section",
-			"last-taught" :    "F06",
-			"reported-hours" : "14.8"
-		},
-		{
 			"id" :             "s6.035",
 			"uri" :            "http://127.0.0.1/s6.035",
 			"irating" :        "5",

@@ -1294,10 +1294,6 @@
 			"course" :      "18",
 			"type" :        "Class",
 			"label" :       "18.01A - Calculus",
-			"prereqs" :     [
-				"c18.01",
-				"c18.014"
-			],
 			"description" : "Six-week review of one-variable calculus, emphasizing material not on the high-school AB syllabus: integration techniques and applications, polar coordinates, improper integrals, infinite series. Prerequisites: one year of high-school calculus or the equivalent, with a score of 4 or 5 on the AB Calculus test (or the AB portion of the BC test, or an equivalent score on a standard international exam), or equivalent college transfer credit, or a passing grade on the first half of the 18.01 advanced standing exam.",
 			"semester" :    "Fall",
 			"has-final" :   "FALSE"
@@ -1466,10 +1462,6 @@
 			"prereqs" :     [
 				"c18.01A",
 				"c18.01",
-				"c18.02",
-				"c18.022",
-				"c18.023",
-				"c18.024"
 			],
 			"description" : "First half is taught during the last six weeks of the  Fall term; covers material in the first half of 18.02 (through double integrals). Second half of 18.02A can be taken either during IAP (daily lectures) or during the first half of the Spring term; it covers the remaining material in 18.02.",
 			"semester" :    [
@@ -1513,13 +1505,7 @@
 			"course" :      "18",
 			"type" :        "Class",
 			"label" :       "18.024 - Calculus with Theory",
-			"prereqs" :     [
-				"c18.014",
-				"c18.02",
-				"c18.022",
-				"c18.023",
-				"c18.02A"
-			],
+			"prereqs" :     "c18.014",
 			"description" : "Continues 18.014. Parallel to 18.02, but at a deeper level, emphasizing careful reasoning and understanding of proofs. Considerable emphasis on linear algebra and vector integral calculus.",
 			"semester" :    "Spring",
 			"has-final" :   "FALSE"
@@ -1669,13 +1655,7 @@
 			"course" :      "18",
 			"type" :        "Class",
 			"label" :       "18.023 - Calculus with Applications",
-			"prereqs" :     [
-				"c18.01",
-				"c18.02",
-				"c18.022",
-				"c18.024",
-				"c18.02A"
-			],
+			"prereqs" :     "c18.01",
 			"description" : "Calculus of several variables, emphasizing applications. Vector algebra, partial differentiation, multiple integrals, and vector calculus. Asymptotic and numerical methods.",
 			"semester" :    "Fall",
 			"has-final" :   "FALSE"
@@ -2597,13 +2577,7 @@
 			"course" :      "18",
 			"type" :        "Class",
 			"label" :       "18.022 - Calculus",
-			"prereqs" :     [
-				"c18.01",
-				"c18.02",
-				"c18.023",
-				"c18.024",
-				"c18.02A"
-			],
+			"prereqs" :     "c18.01",
 			"description" : "Calculus of several variables. Topics as in 18.02 but with more focus on mathematical concepts. Vector algebra, dot product, matrices, determinant. Functions of several variables, continuity, differentiability, derivative. Parametrized curves, arc length, curvature, torsion. Vector fields, gradient, curl, divergence. Multiple integrals, change of variables, line integrals, surface integrals. Manifolds with boundary, Stokes\' theorem in one, two, and three dimensions.",
 			"semester" :    "Fall",
 			"has-final" :   "TRUE"
@@ -2701,10 +2675,6 @@
 			"course" :      "18",
 			"type" :        "Class",
 			"label" :       "18.014 - Calculus with Theory",
-			"prereqs" :     [
-				"c18.01",
-				"c18.01A"
-			],
 			"description" : "Covers the same material as 18.01, but at a deeper and more rigorous level. Emphasizes careful reasoning and understanding of proofs. Assumes knowledge of elementary calculus. Topics: axioms for the real numbers; the Riemann integral; limits, theorems on continuous functions; derivatives of functions of one variable; the fundamental theorems of calculus; Taylor\'s theorem; infinite series, power series, rigorous treatment of the elementary functions.",
 			"semester" :    "Fall",
 			"has-final" :   "TRUE"
@@ -2723,10 +2693,6 @@
 			"course" :      "18",
 			"type" :        "Class",
 			"label" :       "18.01 - Calculus",
-			"prereqs" :     [
-				"c18.014",
-				"c18.01A"
-			],
 			"description" : "Differentiation and integration of functions of one variable, with applications.  Informal treatment of limits and continuity.  Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations.  Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science.  Elementary functions.  Techniques of integration.  Polar coordinates. L\'Hopital\'s rule.  Improper integrals.  Infinite series: geometric, p-harmonic, simple comparison tests, formal power series for some elementary functions.",
 			"semester" :    [
 				"Fall",
@@ -2914,13 +2880,7 @@
 			"course" :      "18",
 			"type" :        "Class",
 			"label" :       "18.02 - Calculus",
-			"prereqs" :     [
-				"c18.01",
-				"c18.022",
-				"c18.023",
-				"c18.024",
-				"c18.02A"
-			],
+			"prereqs" :     "c18.01",
 			"description" : "Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green\'s theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes\' theorem; applications.",
 			"semester" :    [
 				"Fall",

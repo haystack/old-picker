@@ -1290,7 +1290,6 @@
 			"course" :      "5",
 			"type" :        "Class",
 			"label" :       "5.112 - Principles of Chemical Science",
-			"prereqs" :     "c5.111",
 			"description" : "Introduction to chemistry for students with an unusually strong background in chemistry. Knowledge of calculus equivalent to 18.01 is recommended. Emphasis on basic principles of atomic and molecular electronic structure, thermodynamics, acid-base and redox equilibria, chemical kinetics, and catalysis. Applications of basic principles to problems in metal coordination chemistry, organic chemistry, and biological chemistry.",
 			"semester" :    "Fall",
 			"has-final" :   "TRUE"
@@ -1491,7 +1490,6 @@
 			"course" :      "5",
 			"type" :        "Class",
 			"label" :       "5.111 - Principles of Chemical Science",
-			"prereqs" :     "c5.112",
 			"description" : "Introduction to chemistry, with emphasis on basic principles of atomic and molecular electronic structure, thermodynamics, acid-base and redox equilibria, chemical kinetics, and catalysis. Introduction to the chemistry of biological, inorganic, and organic molecules.",
 			"semester" :    [
 				"Fall",

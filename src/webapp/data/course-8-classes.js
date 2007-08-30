@@ -1342,12 +1342,6 @@
 			"course" :      "8",
 			"type" :        "Class",
 			"label" :       "8.01 - Physics I",
-			"prereqs" :     [
-				"c8.011",
-				"c8.012",
-				"c8.01L",
-				"c8.01T"
-			],
 			"description" : "Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics.  Subject taught using the TEAL (Technology-Enabled Active Learning) format which features small group interaction via table-top experiments utilizing laptops for data acquisition and problem solving workshops.",
 			"semester" :    "Fall",
 			"has-final" :   "TRUE"
