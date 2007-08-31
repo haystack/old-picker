@@ -29,22 +29,23 @@ function onLoad() {
             var name = a[0];
             var value = a.length > 1 ? decodeURIComponent(a[1]) : "";
             if (name == "courses") {
-                var courses = value.split(";");
-                for (var c = 0; c < courses.length; c++) {
-                    var course = courses[c];
-                    if (course == "hass-d") {
+                var courseIDs = value.split(";");
+                for (var c = 0; c < courseIDs.length; c++) {
+                    var courseID = courseIDs[c];
+                    if (courseID == "hass-d") {
                         urls.push("data/hass-d-classes.js");
                         urls.push("data/hass-d-lectures.js");
                         urls.push("data/hass-d-sections.js");
                     } else {
-                        urls.push("data/course-" + course + "-classes.js");
-                        urls.push("data/course-" + course + "-lectures.js");
-                        urls.push("data/course-" + course + "-sections.js");
+                        urls.push("data/course-" + courseID + "-classes.js");
+                        urls.push("data/course-" + courseID + "-lectures.js");
+                        urls.push("data/course-" + courseID + "-sections.js");
                         
-                        if (course == "6") {
+                        if (courseID == "6") {
                             hasTQE = true;
                         }
                     }
+                    markLoaded(courseID);
                 }
             }
         }
@@ -85,6 +86,7 @@ function onLoad() {
         
         enableMiniTimegrid();
         enableUnitAdder();
+        fillAddMoreSelect();
     };
     loadURLs(urls, fDone);
 }
@@ -103,12 +105,66 @@ function loadMoreClass(button) {
             urls.push("data/course-" + course + "-classes.js");
             urls.push("data/course-" + course + "-lectures.js");
             urls.push("data/course-" + course + "-sections.js");
+            course2.loaded = true;
             break;
         }
     }
     
     SimileAjax.WindowManager.cancelPopups();
     loadURLs(urls, function(){});
+}
+
+function markLoaded(courseID) {
+    for (var i = 0; i < courses.length; i++) {
+        var course = courses[i];
+        if (courseID == course.number) {
+            course.loaded = true;
+            return;
+        }
+    }
+}
+
+function fillAddMoreSelect() {
+    var select = document.getElementById("add-more-select");
+    select.innerHTML = "";
+    
+    var option = document.createElement("option");
+    option.value = "";
+    option.label = "add more courses";
+    option.text = "add more courses";
+    select.appendChild(option);
+    
+    for (var i = 0; i < courses.length; i++) {
+        var course = courses[i];
+        if (course.hasData && !(course.loaded)) {
+            var label = course.number + " " + course.name;
+            option = document.createElement("option");
+            option.value = course.number;
+            option.label = label;
+            option.text = label;
+            select.appendChild(option);
+        }
+    }
+}
+
+function onAddMoreSelectChange() {
+    var select = document.getElementById("add-more-select");
+    var course = select.value;
+    if (course.length > 0) {
+        var urls = [];
+        urls.push("data/course-" + course + "-classes.js");
+        urls.push("data/course-" + course + "-lectures.js");
+        urls.push("data/course-" + course + "-sections.js");
+        markLoaded(course);
+        
+        SimileAjax.WindowManager.cancelPopups();
+        
+        Exhibit.UI.showBusyIndicator();
+        loadURLs(urls, function(){ 
+            Exhibit.UI.hideBusyIndicator();
+            fillAddMoreSelect(); 
+        });
+    }
 }
 
 function loadURLs(urls, fDone) {
