@@ -4,6 +4,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.007",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.007",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
@@ -28,6 +29,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.50",
+			"url" : "http://student.mit.edu/catalog/m17b.html#17.50",
 			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
@@ -53,6 +55,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.002",
+			"url" : "http://student.mit.edu/catalog/mSTSa.html#STS.002",
 			"course" :      "STS",
 			"category" :    [
 				"HASS-D 5",
@@ -74,6 +77,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.616",
+			"url" : "http://student.mit.edu/catalog/m21Mb.html#21M.616",
 			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
@@ -95,6 +99,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.621J",
+			"url" : "http://student.mit.edu/catalog/m21Mb.html#21M.621",
 			"course" :      "21M",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
@@ -113,6 +118,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.001",
+			"url" : "http://student.mit.edu/catalog/mSTSa.html#STS.001",
 			"course" :      "STS",
 			"category" :    [
 				"HASS-D 5",
@@ -140,6 +146,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.005",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.005",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 3",
@@ -161,6 +168,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.015",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.015",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 4",
@@ -182,6 +190,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.40",
+			"url" : "http://student.mit.edu/catalog/m17b.html#17.40",
 			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
@@ -203,6 +212,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.011",
+			"url" : "http://student.mit.edu/catalog/mSTSa.html#STS.011",
 			"course" :      "STS",
 			"category" :    "HASS-D 2",
 			"offering" :    "Currently Offered",
@@ -221,6 +231,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c4.602",
+			"url" : "http://student.mit.edu/catalog/m4c.html#4.602",
 			"course" :      "4",
 			"category" :    [
 				"HASS-D 3",
@@ -242,6 +253,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.001",
+			"url" : "http://student.mit.edu/catalog/m21Ha.html#21H.001",
 			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
@@ -267,6 +279,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.022J",
+			"url" : "http://student.mit.edu/catalog/m21Fa.html#21F.022",
 			"course" :      "21F",
 			"category" :    [
 				"HASS-D 1",
@@ -288,6 +301,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.006",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.006",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
@@ -312,6 +326,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.416J",
+			"url" : "http://student.mit.edu/catalog/m21Ha.html#21H.416",
 			"course" :      "21H",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
@@ -330,6 +345,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.301",
+			"url" : "http://student.mit.edu/catalog/m21Ha.html#21H.301",
 			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
@@ -357,6 +373,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.104J",
+			"url" : "http://student.mit.edu/catalog/m21Ha.html#21H.104",
 			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
@@ -383,6 +400,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.775",
+			"url" : "http://student.mit.edu/catalog/m21Wa.html#21W.775",
 			"course" :      "21W",
 			"category" :    [
 				"HASS-D 1",
@@ -404,6 +422,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c14.70J",
+            "url" :  "http://student.mit.edu/catalog/m14b.html#14.70",
 			"course" :      "14",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
@@ -422,6 +441,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.322",
+			"url" : "http://student.mit.edu/catalog/mSPa.html#SP.322",
 			"course" :      "SP",
 			"category" :    [
 				"HASS-D 1",
@@ -446,6 +466,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c11.002J",
+            "url" : "http://student.mit.edu/catalog/m11a.html#11.002",
 			"course" :      "11",
 			"category" :    [
 				"HASS-D 4",
@@ -470,6 +491,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.01",
+			"url" : "http://student.mit.edu/catalog/m24a.html#24.01",
 			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
@@ -491,6 +513,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.912",
+			"url" : "http://student.mit.edu/catalog/m21Hb.html#21H.912",
 			"course" :      "21H",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
@@ -517,6 +540,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.421",
+			"url" : "http://student.mit.edu/catalog/m21Ha.html#21H.421",
 			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
@@ -538,6 +562,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.20",
+			"url" : "http://student.mit.edu/catalog/m17a.html#17.20",
 			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
@@ -562,6 +587,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.504",
+			"url" : "http://student.mit.edu/catalog/m21Hb.html#21H.504",
 			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
@@ -583,6 +609,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.105",
+			"url" : "http://student.mit.edu/catalog/m21Ha.html#21H.105",
 			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
@@ -608,6 +635,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.102",
+			"url" : "http://student.mit.edu/catalog/m21Ha.html#21H.102",
 			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
@@ -629,6 +657,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c3.986",
+            "url" :  "http://student.mit.edu/catalog/m3b.html#3.986",
 			"course" :      "3",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
@@ -647,6 +676,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21A.100",
+			"url" : "http://student.mit.edu/catalog/m21Aa.html#21A.100",
 			"course" :      "21A",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
@@ -665,6 +695,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.55J",
+			"url" : "http://student.mit.edu/catalog/m17b.html#17.55",
 			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
@@ -686,6 +717,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.900",
+			"url" : "http://student.mit.edu/catalog/m24a.html#24.900",
 			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
@@ -716,6 +748,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.595J",
+			"url" : "http://student.mit.edu/catalog/mSPb.html#SP.595",
 			"course" :      "SP",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
@@ -734,6 +767,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.003",
+			"url" : "http://student.mit.edu/catalog/mSTSa.html#STS.003",
 			"course" :      "STS",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
@@ -752,6 +786,7 @@
 			"total-units" : "13",
 			"level" :       "Undergrad",
 			"id" :          "c21F.592",
+			"url" : "http://student.mit.edu/catalog/m21Fb.html#21F.592",
 			"course" :      "21F",
 			"category" :    [
 				"HASS-D 4",
@@ -773,6 +808,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c4.605",
+			"url" : "http://student.mit.edu/catalog/m4c.html#4.605",
 			"course" :      "4",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
@@ -791,6 +827,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.330",
+			"url" : "http://student.mit.edu/catalog/mSPa.html#SP.330",
 			"course" :      "SP",
 			"category" :    [
 				"HASS-D 4",
@@ -812,6 +849,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.523",
+			"url" : "http://student.mit.edu/catalog/m21Hb.html#21H.523",
 			"course" :      "21H",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
@@ -830,6 +868,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.401",
+			"url" : "http://student.mit.edu/catalog/mSPb.html#SP.401",
 			"course" :      "SP",
 			"category" :    [
 				"HASS-D 4",
@@ -851,6 +890,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.611",
+			"url" : "http://student.mit.edu/catalog/m21Mb.html#21M.611",
 			"course" :      "21M",
 			"category" :    "HASS-D 3",
 			"offering" :    "Not offered this year",
@@ -869,6 +909,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.09",
+			"url" : "http://student.mit.edu/catalog/m24a.html#24.09",
 			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
@@ -890,6 +931,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.317",
+			"url" : "http://student.mit.edu/catalog/mSPa.html#SP.317",
 			"course" :      "SP",
 			"category" :    [
 				"HASS-D 1",
@@ -911,6 +953,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.321",
+			"url" : "http://student.mit.edu/catalog/mSPa.html#SP.321",
 			"course" :      "SP",
 			"category" :    [
 				"HASS-D 1",
@@ -935,6 +978,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.011",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.011",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 3",
@@ -959,6 +1003,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.00",
+			"url" : "http://student.mit.edu/catalog/m24a.html#24.00",
 			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
@@ -980,6 +1025,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.670J",
+			"url" : "http://student.mit.edu/catalog/m21Mb.html#21M.670",
 			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
@@ -1001,6 +1047,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.32",
+			"url" : "http://student.mit.edu/catalog/m17a.html#17.32",
 			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
@@ -1022,6 +1069,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.461J",
+			"url" : "http://student.mit.edu/catalog/mSPb.html#SP.461",
 			"course" :      "SP",
 			"category" :    [
 				"HASS-D 1",
@@ -1043,6 +1091,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.012",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.012",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
@@ -1068,6 +1117,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21A.113J",
+			"url" : "http://student.mit.edu/catalog/m21Aa.html#21A.113",
 			"course" :      "21A",
 			"category" :    [
 				"HASS-D 3",
@@ -1093,6 +1143,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.002",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.002",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 2",
@@ -1114,6 +1165,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.314",
+			"url" : "http://student.mit.edu/catalog/mSPa.html#SP.314",
 			"course" :      "SP",
 			"category" :    [
 				"HASS-D 1",
@@ -1141,6 +1193,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.747",
+			"url" : "http://student.mit.edu/catalog/m21Wa.html#21W.747",
 			"course" :      "21W",
 			"category" :    [
 				"HASS-D 2",
@@ -1169,6 +1222,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.005",
+			"url" : "http://student.mit.edu/catalog/mSTSa.html#STS.005",
 			"course" :      "STS",
 			"category" :    [
 				"HASS-D 5",
@@ -1190,6 +1244,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.030",
+			"url" : "http://student.mit.edu/catalog/m21Ma.html#21M.030",
 			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
@@ -1214,6 +1269,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.084J",
+			"url" : "http://student.mit.edu/catalog/m21Fa.html#21F.084",
 			"course" :      "21F",
 			"category" :    [
 				"HASS-D 4",
@@ -1235,6 +1291,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c14.63",
+            "url" :  "http://student.mit.edu/catalog/m14b.html#14.63",
 			"course" :      "14",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
@@ -1253,6 +1310,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.013J",
+			"url" : "http://student.mit.edu/catalog/m21Ma.html#21M.013",
 			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
@@ -1278,6 +1336,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.30J",
+			"url" : "http://student.mit.edu/catalog/m17a.html#17.30",
 			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
@@ -1302,6 +1361,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.302",
+			"url" : "http://student.mit.edu/catalog/m21Ha.html#21H.302",
 			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
@@ -1330,6 +1390,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.059",
+			"url" : "http://student.mit.edu/catalog/m21Fa.html#21F.059",
 			"course" :      "21F",
 			"category" :    [
 				"HASS-D 2",
@@ -1359,6 +1420,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.04J",
+			"url" : "http://student.mit.edu/catalog/m24a.html#24.04",
 			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
@@ -1401,6 +1463,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.716",
+			"url" : "http://student.mit.edu/catalog/m21Fb.html#21F.716",
 			"course" :      "21F",
 			"category" :    "HASS-D 1",
 			"offering" :    "Currently Offered",
@@ -1419,6 +1482,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.423J",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.423",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 3",
@@ -1443,6 +1507,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.017",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.017",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 2",
@@ -1468,6 +1533,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.311",
+			"url" : "http://student.mit.edu/catalog/m21Fb.html#21F.311",
 			"course" :      "21F",
 			"category" :    "HASS-D 1",
 			"offering" :    "Currently Offered",
@@ -1486,6 +1552,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c11.015J",
+            "url" : "http://student.mit.edu/catalog/m11a.html#11.015",
 			"course" :      "11",
 			"category" :    [
 				"HASS-D 5",
@@ -1507,6 +1574,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.001",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.001",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 2",
@@ -1528,6 +1596,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.065",
+			"url" : "http://student.mit.edu/catalog/m21Ma.html#21M.065",
 			"course" :      "21M",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
@@ -1546,6 +1615,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.739J",
+			"url" : "http://student.mit.edu/catalog/m21Wa.html#21W.739",
 			"course" :      "21W",
 			"category" :    [
 				"HASS-D 2",
@@ -1570,6 +1640,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c4.614",
+			"url" : "http://student.mit.edu/catalog/m4c.html#4.614",
 			"course" :      "4",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
@@ -1588,6 +1659,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.06J",
+			"url" : "http://student.mit.edu/catalog/m24a.html#24.06",
 			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
@@ -1612,6 +1684,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.301",
+			"url" : "http://student.mit.edu/catalog/m21Ma.html#21M.301",
 			"course" :      "21M",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
@@ -1638,6 +1711,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c14.72",
+            "url" :  "http://student.mit.edu/catalog/m14b.html#14.72",
 			"course" :      "14",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
@@ -1656,6 +1730,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c4.301",
+			"url" : "http://student.mit.edu/catalog/m4b.html#4.301",
 			"course" :      "4",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
@@ -1677,6 +1752,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.448J",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.448",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 2",
@@ -1701,6 +1777,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.011",
+			"url" : "http://student.mit.edu/catalog/m21Ma.html#21M.011",
 			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
@@ -1728,6 +1805,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21A.109",
+			"url" : "http://student.mit.edu/catalog/m21Aa.html#21A.109",
 			"course" :      "21A",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
@@ -1746,6 +1824,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.42",
+			"url" : "http://student.mit.edu/catalog/m17b.html#17.42",
 			"course" :      "17",
 			"category" :    [
 				"HASS-D 4",
@@ -1773,6 +1852,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.57J",
+			"url" : "http://student.mit.edu/catalog/m17b.html#17.57",
 			"course" :      "17",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
@@ -1796,6 +1876,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c24.02",
+			"url" : "http://student.mit.edu/catalog/m24a.html#24.02",
 			"course" :      "24",
 			"category" :    [
 				"HASS-D 2",
@@ -1817,6 +1898,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c17.01J",
+			"url" : "http://student.mit.edu/catalog/m17a.html#17.01",
 			"course" :      "17",
 			"category" :    [
 				"HASS-D 2",
@@ -1838,6 +1920,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.467J",
+			"url" : "http://student.mit.edu/catalog/m21Ha.html#21H.467",
 			"course" :      "21H",
 			"category" :    "HASS-D 4",
 			"offering" :    "Currently Offered",
@@ -1861,6 +1944,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.746",
+			"url" : "http://student.mit.edu/catalog/m21Wa.html#21W.746",
 			"course" :      "21W",
 			"category" :    [
 				"HASS-D 5",
@@ -1882,6 +1966,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.409",
+			"url" : "http://student.mit.edu/catalog/mSPb.html#SP.409",
 			"course" :      "SP",
 			"category" :    [
 				"HASS-D 4",
@@ -1903,6 +1988,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.010",
+			"url" : "http://student.mit.edu/catalog/m21Fa.html#21F.010",
 			"course" :      "21F",
 			"category" :    [
 				"HASS-D 1",
@@ -1924,6 +2010,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21A.430J",
+			"url" : "http://student.mit.edu/catalog/m21Aa.html#21A.430",
 			"course" :      "21A",
 			"category" :    [
 				"HASS-D 4",
@@ -1945,6 +2032,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.601",
+			"url" : "http://student.mit.edu/catalog/m21Hb.html#21H.601",
 			"course" :      "21H",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
@@ -1968,6 +2056,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21A.441",
+			"url" : "http://student.mit.edu/catalog/m21Aa.html#21A.441",
 			"course" :      "21A",
 			"category" :    "HASS-D 5",
 			"offering" :    "Currently Offered",
@@ -1986,6 +2075,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.026",
+			"url" : "http://student.mit.edu/catalog/m21Ma.html#21M.026",
 			"course" :      "21M",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
@@ -2007,6 +2097,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21M.223J",
+			"url" : "http://student.mit.edu/catalog/m21Ma.html#21M.223",
 			"course" :      "21M",
 			"category" :    [
 				"HASS-D 3",
@@ -2031,6 +2122,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSTS.006J",
+			"url" : "http://student.mit.edu/catalog/mSTSa.html#STS.006",
 			"course" :      "STS",
 			"category" :    [
 				"HASS-D 2",
@@ -2055,6 +2147,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21H.433",
+			"url" : "http://student.mit.edu/catalog/m21Ha.html#21H.433",
 			"course" :      "21H",
 			"category" :    [
 				"HASS-D 5",
@@ -2076,6 +2169,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.575J",
+			"url" : "http://student.mit.edu/catalog/mSPb.html#SP.575",
 			"course" :      "SP",
 			"category" :    [
 				"HASS-D 2",
@@ -2097,6 +2191,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.735",
+			"url" : "http://student.mit.edu/catalog/m21Wa.html#21W.735",
 			"course" :      "21W",
 			"category" :    [
 				"HASS-D 1",
@@ -2121,6 +2216,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.016",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.016",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 3",
@@ -2142,6 +2238,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "cSP.591J",
+			"url" : "http://student.mit.edu/catalog/mSPb.html#SP.591",
 			"course" :      "SP",
 			"category" :    [
 				"HASS-D 3",
@@ -2163,6 +2260,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.742J",
+			"url" : "http://student.mit.edu/catalog/m21Wa.html#21W.742",
 			"course" :      "SP",
 			"category" :    [
 				"HASS-D 2",
@@ -2184,6 +2282,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.004",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.004",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
@@ -2211,6 +2310,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.421",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.421",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
@@ -2235,6 +2335,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21W.784",
+			"url" : "http://student.mit.edu/catalog/m21Wb.html#21W.784",
 			"course" :      "21W",
 			"category" :    [
 				"HASS-D 4",
@@ -2256,6 +2357,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21F.064",
+			"url" : "http://student.mit.edu/catalog/m21Fa.html#21F.064",
 			"course" :      "21F",
 			"category" :    [
 				"HASS-D 4",
@@ -2280,6 +2382,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.009",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.009",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
@@ -2307,6 +2410,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c4.601",
+			"url" : "http://student.mit.edu/catalog/m4c.html#4.601",
 			"course" :      "4",
 			"category" :    "HASS-D 3",
 			"offering" :    "Currently Offered",
@@ -2325,6 +2429,7 @@
 			"total-units" : "12",
 			"level" :       "Undergrad",
 			"id" :          "c21L.003",
+			"url" : "http://student.mit.edu/catalog/m21La.html#21L.003",
 			"course" :      "21L",
 			"category" :    [
 				"HASS-D 1",
