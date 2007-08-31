@@ -40,6 +40,7 @@ function onLoad() {
                         urls.push("data/course-" + courseID + "-classes.js");
                         urls.push("data/course-" + courseID + "-lectures.js");
                         urls.push("data/course-" + courseID + "-sections.js");
+                        urls.push("data/course-" + courseID + "-finals.js");
                         
                         if (courseID == "6") {
                             hasTQE = true;

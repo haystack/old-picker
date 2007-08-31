@@ -175,7 +175,15 @@
                         <div ex:case="Currently Offered"></div>
                         <div ex:content=".offering" class="no-offering"></div>
                     </div>
-                    <div>Units: <span ex:content=".units"></span></div>
+                    <div>Units: <span ex:content=".units"></span>
+                                <span ex:if="exists(.hass)">
+                                    <span class="hasfinal"> final? </span>
+                                    <span ex:if="contains(.hasfinal, 'true')">
+                                        <span class="hasfinal"> +final</span>
+                                        <span></span>
+                                    </span>
+                                </span>
+                    </div>
                     <div ex:content=".category"></div>
                     <div ex:if-exists="!class.orating" class="hkn-statistics">
                         <div class="hkn-stats-header">HKN Statistics</div>
