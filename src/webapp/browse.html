@@ -82,6 +82,7 @@
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='total-units-facet'>total units &raquo;</div>
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='hasfinal-facet'>has final? &raquo;</div>
                             </div>
                             
                             <p style="margin-top: 3em; text-align: center;">
@@ -176,12 +177,9 @@
                         <div ex:content=".offering" class="no-offering"></div>
                     </div>
                     <div>Units: <span ex:content=".units"></span>
-                                <span ex:if="exists(.hass)">
-                                    <span class="hasfinal"> final? </span>
-                                    <span ex:if="contains(.hasfinal, 'true')">
-                                        <span class="hasfinal"> +final</span>
-                                        <span></span>
-                                    </span>
+                                <span ex:if="contains(.hasfinal, 'true')">
+                                    <span class="hasfinal"> +final</span>
+                                    <span></span>
                                 </span>
                     </div>
                     <div ex:content=".category"></div>

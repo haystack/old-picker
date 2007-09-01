@@ -23,7 +23,7 @@
 			"description" : "Introduces students to a coherent set of textual and visual materials drawn from different geographical regions, languages, artistic genres, and historical periods. The focus may vary but usually cuts across national boundaries. Includes non-English works read in translation and examines different kinds of writing, both fiction and nonfiction. Pays special attention to such issues as identity formation, cultural contact, exploration, and exile. Previously taught topics include contemporary writing from Africa and South Asia, the impact of the discovery of the New World, and Caribbean literature.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -49,7 +49,7 @@
 			],
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -71,7 +71,7 @@
 			"description" : "Traces the evolution of Western ideas about nature, and the best way to study and explain natural phenomena, from ancient times through the Renaissance. Examines scientific concepts in their historical and cultural contexts, ranging from natural history to physics, mathematics, and medicine.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -93,7 +93,7 @@
 			"description" : "Explores the creation (and creativity) of the modern scientific and cultural world through study of western Europe in the 17th century, the age of Descartes and Newton, Shakespeare, Rembrandt and Moliere. Compares period thinking to present-day debates about the scientific method, art, religion, and society. This team-taught, interdisciplinary subject draws on a wide range of literary, dramatic, historical, and scientific texts and images, and involves theatrical experimentation as well as reading, writing, researching and conversing. Meets most of the time with 21L.016, but differs from it by analyzing theatrical texts.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -112,7 +112,7 @@
 			"description" : "Explores contemporary American theatrical expression around issues of gender, ethnic, and cultural identities. Analyzes performances, scripts, video documentation,and invention of original documents of theatrical expression, and construction of gender within particular formations of American culture. Class lectures and discussions analyze samples of Native American, Chicano, African American, and Asian American theater, considering the historical and political context for the creation of these works. Performance exercises help identify theatrical forms used by these theaters and consider how these techniques contribute to the overall goals of specific theatrical expressions.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -140,7 +140,7 @@
 			],
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -162,7 +162,7 @@
 			"description" : "A study of the history of theater art and practice from its origins to the modern period, including its roles in non-Western cultures. Special attention to the relationship between the literary and performative dimensions of drama, and the relationship between drama and its cultural context. Enrollment limited.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -184,7 +184,7 @@
 			"description" : "Offers an overview of the social, cultural, political, and economic impact of mediated communication on modern culture. Combines critical discussions with experiments working with different media. Media covered include radio, television, film, the printed word, and digital technologies. Topics include the nature and function of media, core media institutions, and media in transition.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -206,7 +206,7 @@
 			"description" : "Reasons for America\'s past wars and interventions. Consequences of American policies. Evaluation of these consequences for the US and the world. History covered includes World Wars I and II, the Korean and Indochina wars, and the Cuban Missile Crisis and current conflicts such as against al Qaeda.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D4",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -225,7 +225,7 @@
 			"description" : "Explores the changing roles, ethical conflicts, and public perceptions of science and scientists in American society from World War II to the present. Studies specific historical episodes focusing on debates between scientists and the contextual factors influencing their opinions and decisions. Topics include the atomic bomb project, environmental controversies, the Challenger disaster, biomedical research, genetic engineering, (mis)use of human subjects, scientific misconduct and whistleblowing.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -247,7 +247,7 @@
 			"description" : "Introduction to modern art and theories of modernism and postmodernism. Focuses on the way artists use the tension between fine art and mass culture to mobilize a critique of both. Examines objects of visual art, including painting, sculpture, architecture, photography, and video. These objects are viewed in their interaction with advertising, caricature, comics, graffiti, television, fashion, folk art, and \"primitive\" art.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -273,7 +273,7 @@
 			"description" : "Explores fundamental questions about the causes and nature of revolutions by looking at how people overthrow their rulers and establish new governments. Considers a set of major political transformations throughout the world and across centuries to understand the meaning of revolution and evaluate its impact. Examines how revolutionaries have attempted to establish their ideals and realize their goals. Asks whether radical upheavals require bloodshed, violence, or even terror. Goal is to explain why some revolutions succeed and others fail. Materials include the writings of revolutionaries, declarations and constitutions, music, films, art, novels, memoirs, and newspapers.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -295,7 +295,7 @@
 			"description" : "Introduces students to a variety of fictional works by contemporary women writers. Subject\'s international perspective emphasizes the extent to which each author\'s work reflects her distinct cultural heritage and to what extent, if any, we can identify a female voice that transcends national boundaries. A variety of interpretive perspectives, including sociohistorical, psychoanalytic, and feminist criticism is used to examine the texts. Authors include: Mariama Ba, Isabel Allende, Anita Desai, Maxine Hong Kingston, Toni Morrison, Doris Lessing, Alifa Riyaat, Yang Jiang, Nawal Al-Saadawi, and Sawako Ariyoshi. Taught in English.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -320,7 +320,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -339,7 +339,7 @@
 			"description" : "Surveys the conditions of material life and changing social and economic relations in medieval Europe using the comparative context of contemporary Islamic, Chinese, and Japanese experiences. Covers the emergence and decline of feudal institutions, the transformation of peasant agriculture, living standards and the course of epidemic disease, and the ebb and flow of long-distance trade across the Eurasian system. Particular emphasis placed on the study of those factors, both institutional and technological, which contributed to the emergence of capitalist organization and economic growth in western Europe in contrast to the trajectories followed by the other major medieval economies.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -367,7 +367,7 @@
 			],
 			"semester" :    "Fall",
 			"hass" :        "HASS-D5",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -394,7 +394,7 @@
 			],
 			"semester" :    "Fall",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -416,7 +416,7 @@
 			"description" : "Focuses on traditional nature writing and the environmentalist essay. Students keep a web log as a journal. Writings are drawn from the tradition of nature writing and from contemporary forms of the environmentalist essay. Authors include Henry Thoreau, Loren Eiseley, Annie Dillard, Chet Raymo, Sue Hubbel, Rachel Carson, Bill McKibben, and Terry Tempest Williams.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -435,7 +435,7 @@
 			"description" : "See description under subject 21H.416J.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -460,7 +460,7 @@
 			"description" : "Explore where the prohibitions and permissions that occur in every day life come from, why they exist, and what gives them force. For example: food- you are only willing and able to eat a subset of the world\'s edible substances. Marriage- some marriages are prohibited by law or by custom. Addresses questions of prohibition and permission using psychological sources and literary works from ancient to modern. Includes texts by Shakespeare, Melville, Mary Rowlandson, & Anita Desai. Students give group and individual oral presentations. Enrollment is restricted to Concourse students and limited to 18 students per section.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -485,7 +485,7 @@
 			"description" : "Examines how the struggle among competing advocates shapes the outputs of government. Considers how conditions become problems for government to solve, why some political arguments are more persuasive than others, why some policy tools are preferred over others, and whether policies achieve their goals. Investigates the interactions among elected officials, think tanks, interest groups, the media, and the public in controversies over global warming, urban sprawl, Social Security, health care, education, and other issues.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D4",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -507,7 +507,7 @@
 			"description" : "Introduction to Western philosophical tradition through the study of selected major thinkers such as Plato, Aristotle, Lucretius, Descartes, Hobbes, Leibniz, Locke, Berkeley, Hume, Kant, Nietzsche and Marx. Emphasis on changes of intellectual outlook over time, and the complex interplay of scientific, religious and political concerns that influence the development of philosophical ideas.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D2",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -534,7 +534,7 @@
 			],
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -556,7 +556,7 @@
 			"description" : "Focusing primarily on the period since 1500, explores the influence of climate, topography, plants, animals, and microorganisms on human history and the reciprocal influence of people on the environment. Topics include the European encounter with the Americas, the impact of modern technology, and the historical roots of the current environmental crisis.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -581,7 +581,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -603,7 +603,7 @@
 			"description" : "Subject examines the interactions of East Asia with the rest of the world and the relationships of each of the East Asian countries with each other, from ca. 1500 to 2000 A.D. Primary focus on China and Japan, with some reference to Korea, Vietnam, and Central Asia. Asks how international diplomatic, commercial, military, religious, and cultural relationships joined with internal processes to direct the development of East Asian societies. Subject addresses perceptions and misperceptions among East Asians and foreigners.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -629,7 +629,7 @@
 			],
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -651,7 +651,7 @@
 			"description" : "Examines the history of American politics, economics, and society from the Civil War to the present. Use of secondary accounts and primary documents such as court cases, letters and diaries, photographs, and films to examine some of the key issues in the development of modern America: industrialization and urbanization, US emergence as a global power, growth of consumer culture, and the development of the civil rights movement.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -670,7 +670,7 @@
 			"description" : "Archaeology reconstructs ancient human activities and their environmental contexts. Examines these activities and the forces that shaped them, drawing on case studies in contrasting environmental settings from the Near East and Mesoamerica. In laboratory sessions, students learn to manage various classes of archaeological data and analyze archaeological artifacts made from materials such as stone, bone, and ceramics. These analyses help reconstruct the past.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D4",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -689,7 +689,7 @@
 			"description" : "What kinds of wisdom do other ways of life offer our own? How do other perspectives on the world challenge our assumptions about life? These questions are addressed through the four fields of anthropology: biological, cultural, and linguistic anthropology, and archaeology. We examine family and kinship, religion, economics, politics, survival of indigenous groups, and Western influences from an anthropological perspective to gain appreciation for cultural and ethnic diversity.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D4",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -711,7 +711,7 @@
 			"description" : "Interdisciplinary introduction to contemporary Latin America, drawing on films, literature, popular press accounts, and scholarly research. Topics include economic development, ethnic and racial identity, religion, revolution, democracy, transitional justice, and the rule of law. Examples draw on a range of countries in the region, especially Mexico, Chile, and Brazil. Includes a heavy oral participation component, with regular breakout groups, formal class presentations on pressing social issues (such as criminal justice and land tenure), and a structured class debate.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -742,7 +742,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -761,7 +761,7 @@
 			"description" : "Explores contemporary American theatrical expression around issues of gender, ethnic, and cultural identities. Analyzes performances, scripts, video documentation,and invention of original documents of theatrical expression, and construction of gender within particular formations of American culture. Class lectures and discussions analyze samples of Native American, Chicano, African American, and Asian American theater, considering the historical and political context for the creation of these works. Performance exercises help identify theatrical forms used by these theaters and consider how these techniques contribute to the overall goals of specific theatrical expressions.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -780,7 +780,7 @@
 			"description" : "The development of major fields in the physical and life sciences, beginning with 18th-century Europe and ending with 20th-century America. Examines ideas, institutions, and the social settings of the sciences, with emphasis on how cultural contexts influence scientific concepts and practices.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "13",
@@ -802,7 +802,7 @@
 			"description" : "Examines the major aesthetic, social, and political elements which have shaped modern Japanese culture and society. Readings on contemporary Japan and historical evolution of the culture. Study of literary texts, film, and art, along with the analysis of everyday life and leisure activities. Taught in English. Students complete some assignments in Japanese. Students not pursuing a minor in Japanese should register for 21F.064.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -821,7 +821,7 @@
 			"description" : "Provides an outline of the history of architecture and urbanism from Ancient Egypt to the present. Analyzes buildings as the products of culture and in relation to the special problems of architectural design. History of architecture with an urbanist perspective that stresses the cultural and political context from which building arises. Designed to develop critical tools used in the analysis and appreciation of architecture for its role in creating the intellectual environment in which we conduct our lives. Instruction and practice in oral and written communication provided. Required of Course 4 majors.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D3",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -843,7 +843,7 @@
 			"description" : "Examines the question of human freedom and its role in fields from philosophy and religion to politics and law. Explores whether a behavior is a matter of choice or is predetermined. Examines why people do evil things, why they perform noble acts, and why they perform voluntary acts, such as moving a leg or reading this subject description. Studies human behavior and human mental life through the lens of psychology. Asks whether the facts and theories of modern psychology leave room for human freedom. Enrollment limited and restricted to students enrolled in Concourse.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -862,7 +862,7 @@
 			"description" : "Interdisciplinary and global perspectives on Japan\'s emergence as a powerful modern state. Begins in the period of national seclusion which ended in 1853, then addresses the creation of the Meiji state (1868\u00E2\u0080\u00931912), Japan\'s emergence as an imperialist power, the accomplishments and costs of rapid Westernization and \"modernization,\" and the road to war and defeat in World War II. Concludes with the postwar US occupation of Japan (1945\u00E2\u0080\u00931952). Translated materials, graphics, and films help provide both elite and popular Japanese perspectives.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D5",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -884,7 +884,7 @@
 			"description" : "Drawing on multiple disciplines ? such as literature, history, economics, psychology, philosophy, political science, anthropology, media studies and the arts ? to examine cultural assumptions about sex, gender, and sexuality. Integrates analysis of current events through student presentations, aiming to increase awareness of contemporary and historical experiences of women, and of the ways sex and gender interact with race, class, nationality, and other social identities. Students are introduced to recent scholarship on gender and its implications for traditional disciplines.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -903,7 +903,7 @@
 			"description" : "Introduces the ideas, skills, and aesthetic issues which comprise the creation of the theatrical event. Guest artists and faculty members introduce the work of different disciplines such as directing, stagecraft, design, acting, dramaturgy, and criticism. Readings, in-class exercises, and scheduled work in design and/or performance studios help students understand and experience the basic creative impulse in each area. Each student develops a portfolio of analysis and research.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -925,7 +925,7 @@
 			"description" : "Introduction to philosophy of mind. Can computers think? Is the mind an immaterial thing? Alternatively, is the mind the brain? How can creatures like ourselves think thoughts that are about things? Can I know whether your experiences are the same as mine when we both look at raspberries, fire trucks, and stoplights? Can consciousness be given a scientific explanation?",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -947,7 +947,7 @@
 			"description" : "There are many forms of memory. Memories can be explicit or implicit, hidden from conscious awareness. They can be long lasting or fleeting, individual or held by a group. Examines this diversity of memory through works of literature. Specific topics include the nature of historical memory: how it changes over time and place, the connection between memory and art, and repressed or hidden memories. Illustrated with readings from psychological sources as well as ancient and modern literature. Group and individual oral presentations. Restricted to students enrolled in Concourse. Limited enrollment.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -972,7 +972,7 @@
 			],
 			"semester" :    "Spring",
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -997,7 +997,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D3",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -1019,7 +1019,7 @@
 			"description" : "ntroduction to the problems of philosophy- in particular, to problems in ethics, metaphysics, theory of knowledge, and philosophy of logic, language, and science. A systematic rather than historical approach. Readings from classical and contemporary sources, but emphasis is on examination and evaluation of proposed solutions to the problems.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1041,7 +1041,7 @@
 			"description" : "Explores forms, content, and contexts of world traditions in dance that played a crucial role in shaping American concert dance with attention to issues of gender and autobiography. Explores artistic lives of dance artists Katherine Dunham, Alvin Ailey, Isadora Duncan, Martha Graham, and George Balanchine as American dance innovators. Lectures and discussions analyze these artists\' works, taking into consideration historical and political contexts. Viewing assignments and attendance of Boston-area dance performances help students identify visual, musical, and kinesthetic underpinnings of choreographic structure.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1063,7 +1063,7 @@
 			"description" : "Examines the collision of politics, economics, values, and science in making and carrying out environmental policy at national, state, and local levels. Case studies of environmental policymaking explore the roles of governmental institutions, business, interest groups, the public, and the media in areas of air and water pollution, hazardous waste disposal, public lands management, and wildlife protection.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1085,7 +1085,7 @@
 			"description" : "See description under subject 21F.022J.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1111,7 +1111,7 @@
 			],
 			"semester" :    "Fall",
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -1137,7 +1137,7 @@
 			"description" : "Explores the relationship between music and the supernatural, focusing on the social history and context of supernatural beliefs as reflected in key literary and musical works from 1600 to the present. Provides a better understanding of the place of ambiguity and the role of interpretation in culture, science and art. Explores great works of art by Shakespeare, Verdi, Goethe (in translation), Gounod, Henry James and Benjamin Britten. Readings will also include selections from the most recent scholarship on magic and the supernatural. Writing assignments will range from web-based projects to analytic essays. No previous experience in music is necessary. Projected guest lectures, musical performances, field trips.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1159,7 +1159,7 @@
 			"description" : "Complementary to 21L.001. A broad survey of texts, literary, philosophical, and sociological, studied to trace the growth of secular humanism, the loss of a supernatural perspective upon human events, and changing conceptions of individual, social, and communal purpose. Stresses appreciation and analysis of texts that came to represent the common cultural possession of our time. Enrollment limited.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1187,7 +1187,7 @@
 			"description" : "Subject explores the interrelated topics of love and aggression from the vantage points of literature and psychology. Students read a series of texts from Biblical excerpts to the modern novel. Lectures, classroom discussions, and writing assignments consider whether the text deliberately or unintentionally borrows from psychological theory. Enrollment limited and restricted to students enrolled in Concourse.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1216,7 +1216,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1238,7 +1238,7 @@
 			"description" : "Examines the growing importance of medicine in culture, economics and politics. Uses a historical approach to examine changing patterns of disease, the causes of morbidity and mortality, evolution of medical theory and practice, development of hospitals and the medical profession, the rise of the biomedical research industry, and the ethics of health care in America.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1263,7 +1263,7 @@
 			"description" : "An introduction to diverse musical traditions of the world. Music from a wide range of geographical areas is studied in terms of structure, performance practice, social use, aesthetics, and cross-cultural contact. Includes hands-on music making, live demonstrations by guest artists, and ethnographic research projects.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D3",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -1285,7 +1285,7 @@
 			"description" : "See description under subject 17.55J.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1304,7 +1304,7 @@
 			"description" : "Examines the role of technology, class, gender, race, and age through a historical discussion of important changes in the US economy over the last two centuries: the entrance of women into the paid labor force, the exit of older men out of paid labor, immigration, and the end of segregation.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1330,7 +1330,7 @@
 			"description" : "Explores the relationship between music and the supernatural, focusing on the social history and context of supernatural beliefs as reflected in key literary and musical works from 1600 to the present. Provides a better understanding of the place of ambiguity and the role of interpretation in culture, science and art. Explores great works of art by Shakespeare, Verdi, Goethe (in translation), Gounod, Henry James and Benjamin Britten. Readings will also include selections from the most recent scholarship on magic and the supernatural. Writing assignments will range from web-based projects to analytic essays. No previous experience in music is necessary. Projected guest lectures, musical performances, field trips.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1355,7 +1355,7 @@
 			"description" : "See description under subject 11.002J.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D4",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1384,7 +1384,7 @@
 			],
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1414,7 +1414,7 @@
 			],
 			"semester" :    "Spring",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1436,7 +1436,7 @@
 			"description" : "An examination of alternative theories of justice\u00E2\u0080\u0094utilitarianism, rights theories, social contract theory, and communitarianism\u00E2\u0080\u0094and the implications of those theories for problems of liberty, equality, and community. Readings drawn principally from the work of contemporary political philosophers, including Rawls, Nozick, Dworkin, Walzer, MacIntyre, and Buchanan.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1457,7 +1457,7 @@
 			"description" : "Explores the relationship between ancient Greek philosophy and mathematics. Investigates how ideas of definition, reason, argument and proof, rationality/irrationality, number, quality and quantity, truth, and even the idea of an idea were shaped by the interplay of philosophic and mathematical inquiry. Examines how discovery of the incommensurability of magnitudes challenged the Greek presumption that the kosmos is fully understandable. Explores the influence of mathematics on ancient Greek ethical theories. Authors: Euclid, Plato, Aristotle, Nicomachus, Theon of Smyrna, Bacon, Descartes, Dedekind, and Newton. Priority given to students in the Experimental Study Group.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1476,7 +1476,7 @@
 			"description" : "Studies important 20th century texts from Spain and Latin America that represent the fictional genres: poetry, theater, short story, and the novel. Includes works by Bombal, Lorca, Neruda, Vallejo, Machado, and Garcia Marquez. Taught in Spanish.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D1",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -1501,7 +1501,7 @@
 			"description" : "See description under subject 21M.223J.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1527,7 +1527,7 @@
 			"description" : "Examines literary texts and films in relation to the history of the idea of probability. Traces the growing importance of probability both as a measure of the reliability of ideas or beliefs and also as a basic property of things and the world. Connects the development and use of probabilistic reasoning (e.g., in the lottery, the insurance industry, and the stock market) with literary and cultural concerns regarding the rationality of belief, risk and uncertainty, free will and determinism, chance and fate. Discussion of the work of scientific and philosophical pioneers of probabilistic thought (e.g., Pascal, Leibniz, Bernoulli, Laplace, and Einstein) in conjunction with a variety of literary texts and films, including works of Shakespeare, Jane Austen, H. G. Wells, and classic Hollywood cinema.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1546,7 +1546,7 @@
 			"description" : "Examines major social and political trends, events, debates and personalities which help place various aspects of contemporary French culture in their historical perspective. Topics include the heritage of the French Revolution, the growth and consequences of colonialism, the role of intellectuals in public debates, the impact of the Occupation, the modernization of the economy and of social structures. Also studied are the sources and meanings of national symbols, monuments, myths and manifestoes. Documents include fiction, films, essays, newspaper articles, and television shows. Recommended for students planning to study abroad. Taught in French.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D1",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -1568,7 +1568,7 @@
 			"description" : "See description under subject 21H.104J.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1590,7 +1590,7 @@
 			"description" : "Studies a broad range of texts essential to understanding the two great sources of Western conceptions of the world and humanity\'s place within it: the ancient world of Greece and Rome and the Judeo-Christian world that challenged and absorbed it. Readings vary but usually include works by Homer, Sophocles, Aristotle, Plato, Virgil, St. Augustine, and Dante. Enrollment limited.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1609,7 +1609,7 @@
 			"description" : "Through a progressive series of composition projects, students investigate the sonic organization of musical works and performances, focusing on fundamental questions of unity and variety. Aesthetic issues are considered in the pragmatic context of the instructions that composers provide to achieve a desired musical result, whether these instructions are notated in prose, as graphic images, or in symbolic notation. No formal training is required. Weekly listening, reading, and composition assignments draw on a broad range of musical styles and intellectual traditions, from various cultures and historical periods.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D3",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -1634,7 +1634,7 @@
 			"description" : "See description under subject 21L.448J.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1653,7 +1653,7 @@
 			"description" : "Introduces the history of Islamic cultures through their most vibrant material signs: the religious architecture that spans fourteen centuries and three continents \u00E2\u0080\u0094 Asia, Africa, and Europe. Studies a number of representative examples from the House of the Prophet to the present in conjunction with their social, political, and intellectual environments. Presents Islamic architecture both as a full-fledged historical tradition and as a dynamic and interactive cultural catalyst that influenced and was influenced by the civilizations with which it came in contact.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D3",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -1678,7 +1678,7 @@
 			"description" : "Considers ethical questions that have arisen from the growth of biomedical research and the health-care industry since World War II. Should doctors be allowed to help patients end their lives? If so, when and how? Should embryos be cloned for research and/or reproduction? Should parents be given control over the genetic make-up of their children? What types of living things are appropriate to use as research subjects? How should we distribute scarce and expensive medical resources? Draws on philosophy, history, and anthropology to show how problems in bioethics can be approached from a variety of perspectives.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1705,7 +1705,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1724,7 +1724,7 @@
 			"description" : "Addresses the evolution of the modern capitalist economy and evaluates its current structure and performance. Various paradigms of economics are contrasted and compared (neoclassical, Marxist, socioeconomic, and neocorporate) in order to understand how modern capitalism has been shaped and how it functions in today\'s economy. Readings include classics in economic thought as well as contemporary analyses. Stresses general analytic reasoning and problem formulation rather than specific analytic techniques. May not be used for economics concentration. One economics HASS-D subject may be used as an economics elective for the economics major and minor.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D4",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -1746,7 +1746,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1771,7 +1771,7 @@
 			"description" : "In The Origin of Species, Darwin provided a model for understanding the existence of objects and systems manifesting evidence of design without positing a designer, and of purpose and mechanism without intelligent agency. Texts deal with pre-Darwinian and later treatment of this topic within literature and speculative thought since the 18th century, with some attention to the modern study of feedback mechanism in artificial intelligence. Readings in Hume, Voltaire, Malthus, Darwin, Butler, Hardy, H. G. Wells, and Freud.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1799,7 +1799,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D3",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -1818,7 +1818,7 @@
 			"description" : "Students are introduced to anthropological fieldwork and the concept of culture from readings, films, and their own research projects in the Boston area. A practice-focused approach to understanding cultural differences and what produces them. Students discover the excitement and challenges of systematically observing human interaction and convincing others of the accuracy of their findings.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1846,7 +1846,7 @@
 			],
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1870,7 +1870,7 @@
 			],
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1892,7 +1892,7 @@
 			"description" : "Introduction to important philosophical debates about moral issues and what constitutes a good life: What is right, what is wrong, and why? How important are personal happiness, longevity, and success if one is to live a good life? When is it good for you to get what you want? To what extent are we morally obliged to respect the rights and needs of others? What do we owe the poor, the discriminated, our loved ones, animals and fetuses?",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D2",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -1914,7 +1914,7 @@
 			"description" : "See description under subject 24.04J.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1938,7 +1938,7 @@
 			],
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1960,7 +1960,7 @@
 			"description" : "For students with experience in nonfiction prose and interest in the non-science side of medicine. Advanced study of the art of essay (form, style, techniques of persuasion) and practice of that form. Students required to write substantial essays and revise their work. Students read and discuss the writings of distinguished physicians from antiquity to the late 20th century.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -1982,7 +1982,7 @@
 			"description" : "An interdisciplinary subject that examines questions of feminism, international women?s issues, and globalization through the study of novels, films, critical essays, painting and music. Considers how women redefine the notions of community and nation, how development affects their lives, and how access to the internet and to the production industry impacts women?s lives. Primary topics of interest include transformations of traditional values, social change, gender role distribution, identity formation, migration flows, globalization and development, popular culture, urban life, cyber-culture, activism, and human rights. Enrollment limited to 25 when Writing Tutor is assigned to the class. Otherwise, 18.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2004,7 +2004,7 @@
 			"description" : "Studies great works of European and Latin American fiction. Attention to a variety of forms including: the picaresque, epistolary, realist, naturalist, and magical realist fiction. Emphasizes ways in which the unique history of each country shaped the imaginative responses of its writers. Authors include Cervantes, Laclos, Goethe, Mann, Dostoevsky, Flaubert, Zola, Unamuno, Wolf, Garcia Marquez, and Allende. Taught in English.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2026,7 +2026,7 @@
 			"description" : "Interdisciplinary introduction to contemporary Latin America, drawing on films, literature, popular press accounts, and scholarly research. Topics include economic development, ethnic and racial identity, religion, revolution, democracy, transitional justice, and the rule of law. Examples draw on a range of countries in the region, especially Mexico, Chile, and Brazil. Includes a heavy oral participation component, with regular breakout groups, formal class presentations on pressing social issues (such as criminal justice and land tenure), and a structured class debate.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2050,7 +2050,7 @@
 			],
 			"semester" :    "Fall",
 			"hass" :        "HASS-D5",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -2069,7 +2069,7 @@
 			"description" : "The five-hundred-year encounter between native peoples of the Americas and European power and culture. Exploration and conquest. European ideology and fantasies about \"savages.\" Colonialism, resistance, and adaptation. Missionizing and culture contact. Cases include struggles of Maya, Iroquois, and native New Englanders. Students learn to use primary documents.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2091,7 +2091,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D3",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -2116,7 +2116,7 @@
 			"description" : "Examines the production, transmission, preservation and the qualities of folk music in the British Isles and North America from the 18th century to the folk revival of the 1960s and the present. Special emphasis on balladry, fiddle styles, and African-American influences.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2141,7 +2141,7 @@
 			"description" : "Considers ethical questions that have arisen from the growth of biomedical research and the health-care industry since World War II. Should doctors be allowed to help patients end their lives? If so, when and how? Should embryos be cloned for research and/or reproduction? Should parents be given control over the genetic make-up of their children? What types of living things are appropriate to use as research subjects? How should we distribute scarce and expensive medical resources? Draws on philosophy, history, and anthropology to show how problems in bioethics can be approached from a variety of perspectives.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2163,7 +2163,7 @@
 			"description" : "A study of the evolution of European society from the end of the seventeenth to mid-nineteenth century: its politics, the nature of its social system, the workings of its economy, and its intellectual accomplishments. Particular attention given to the analyses made by critics and contemporary thinkers to the matters treated in the subject, such as Descartes, Spinoza, Voltaire, Locke, Rousseau, Hegel, and Marx.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D5",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2185,7 +2185,7 @@
 			"description" : "See description under subject 21W.742J.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2210,7 +2210,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2232,7 +2232,7 @@
 			"description" : "Explores the creation (and creativity) of the modern scientific and cultural world through study of western Europe in the 17th century, the age of Descartes and Newton, Shakespeare, Rembrandt and Moliere. Compares period thinking to present-day debates about the scientific method, art, religion, and society. This team-taught, interdisciplinary subject draws on a wide range of literary, dramatic, historical, and scientific texts and images, and involves theatrical experimentation as well as reading, writing, researching and conversing. Meets most of the time with 21M.616, but differs from it in emphasizing cultural and literary analysis.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2254,7 +2254,7 @@
 			"description" : "See description under subject 21M.670J.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D3",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2276,7 +2276,7 @@
 			"description" : "The issue of race and racial identity have preoccupied many writers throughout the history of the US. Students read Toni Morrison, James Baldwin, Louise Erdrich, William Faulkner, Maxine Hong Kingston, Sandra Cisneros, and Judson Mitcham, and consider the story of race in its peculiarly American dimensions. The reading, along with the writing of members of the class, is the focus of class discussions. Oral presentations on subjects of individual interest are also part of the class activities. Students explore race and ethnicity in personal essays, pieces of cultural criticism or analysis, or (with permission of instructor) fiction. All written work is read and responded to in class workshops and subsequently revised. Enrollment limited.",
 			"semester" :    "Spring",
 			"hass" :        "HASS-D2",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2304,7 +2304,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2329,7 +2329,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2351,7 +2351,7 @@
 			"description" : "Compares pre-digital to digital media to explore the unique problems that arise in this transition, including the manipulability of digital images, the ethics of anonymity on the Internet, the social repercussions of the computer, and the allure of computer gaming. Readings include subject-specific texts, augmented by philosophical articles relevant to the course themes, and some film. Frequent writing and revision, an oral presentation, and intensive class participation are required. Enrollment limited to 18.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2376,7 +2376,7 @@
 			],
 			"semester" :    "Fall",
 			"hass" :        "HASS-D4",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		},
 		{
 			"total-units" : "12",
@@ -2404,7 +2404,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D1",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -2423,7 +2423,7 @@
 			"description" : "An introduction to the history of western art that explores the wide range of works constituting the canonical core of painting and sculpture from the Renaissance to the present. Engages diverse methodological perspectives on the symbolic meanings and contextual functions of works of art, and considers culture\'s place in the social world. Subject includes trips to local museums.",
 			"semester" :    "Fall",
 			"hass" :        "HASS-D3",
-			"has-final" :   "TRUE"
+			"hasfinal" :   "true"
 		},
 		{
 			"total-units" : "12",
@@ -2451,7 +2451,7 @@
 				"Spring"
 			],
 			"hass" :        "HASS-D1",
-			"has-final" :   "FALSE"
+			"hasfinal" :   "false"
 		}
 	]
 }

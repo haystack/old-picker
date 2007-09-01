@@ -133,6 +133,11 @@ var facetData = {
         facetLabel: 'course &raquo;',
         height:     '10em'
     },
+    'hasfinal-facet' : {
+        expression: '.hasfinal',
+        facetLabel: 'has final &raquo;',
+        height:     '4em'
+    },
     'level-facet': {
         expression: '.level',
         facetLabel: 'level &raquo;',
