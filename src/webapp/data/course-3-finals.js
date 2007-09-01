@@ -126,9 +126,6 @@
 {id: "c3.271",
  hasfinal: "false"
 },
-{id: "c3.291",
- hasfinal: "false"
-},
 {id: "c3.320",
  hasfinal: "false"
 },
@@ -168,9 +165,6 @@
 {id: "c3.48J",
  hasfinal: "false"
 },
-{id: "c3.491",
- hasfinal: "false"
-},
 {id: "c3.52J",
  hasfinal: "false"
 },
@@ -195,16 +189,10 @@
 {id: "c3.577",
  hasfinal: "false"
 },
-{id: "c3.596",
- hasfinal: "false"
-},
 {id: "c3.60",
  hasfinal: "false"
 },
 {id: "c3.80J",
- hasfinal: "false"
-},
-{id: "c3.902",
  hasfinal: "false"
 },
 {id: "c3.903J",
@@ -286,15 +274,6 @@
  hasfinal: "false"
 },
 {id: "c3.EPW",
- hasfinal: "false"
-},
-{id: "c3.THG",
- hasfinal: "false"
-},
-{id: "c3.THU",
- hasfinal: "false"
-},
-{id: "c3.URG",
  hasfinal: "false"
 },
 ]

@@ -3,9 +3,6 @@
 {id: "c15.002",
  hasfinal: "false"
 },
-{id: "c15.011",
- hasfinal: "false"
-},
 {id: "c15.012",
  hasfinal: "false"
 },
@@ -220,9 +217,6 @@
  hasfinal: "false"
 },
 {id: "c15.326",
- hasfinal: "false"
-},
-{id: "c15.329",
  hasfinal: "false"
 },
 {id: "c15.341",
@@ -495,9 +489,6 @@
 {id: "c15.698",
  hasfinal: "false"
 },
-{id: "c15.761",
- hasfinal: "false"
-},
 {id: "c15.762J",
  hasfinal: "false"
 },
@@ -594,9 +585,6 @@
 {id: "c15.848",
  hasfinal: "false"
 },
-{id: "c15.874",
- hasfinal: "false"
-},
 {id: "c15.875",
  hasfinal: "false"
 },
@@ -633,15 +621,6 @@
 {id: "c15.949",
  hasfinal: "false"
 },
-{id: "c15.URG",
- hasfinal: "false"
-},
-{id: "c15.951",
- hasfinal: "false"
-},
-{id: "c15.961",
- hasfinal: "false"
-},
 {id: "c15.977",
  hasfinal: "false"
 },
@@ -652,9 +631,6 @@
  hasfinal: "false"
 },
 {id: "c15.999",
- hasfinal: "false"
-},
-{id: "c15.THG",
  hasfinal: "false"
 },
     ]

@@ -48,16 +48,10 @@
 {id: "c4.166",
  hasfinal: "false"
 },
-{id: "c4.171",
- hasfinal: "false"
-},
 {id: "c4.175",
  hasfinal: "false"
 },
 {id: "c4.189",
- hasfinal: "false"
-},
-{id: "c4.199",
  hasfinal: "false"
 },
 {id: "c4.211J",
@@ -282,9 +276,6 @@
 {id: "c4.489",
  hasfinal: "false"
 },
-{id: "c4.499",
- hasfinal: "false"
-},
 {id: "c4.500",
  hasfinal: "false"
 },
@@ -414,9 +405,6 @@
 {id: "c4.621",
  hasfinal: "false"
 },
-{id: "c4.635",
- hasfinal: "false"
-},
 {id: "c4.638",
  hasfinal: "false"
 },
@@ -453,28 +441,10 @@
 {id: "c4.665",
  hasfinal: "false"
 },
-{id: "c4.671",
- hasfinal: "false"
-},
-{id: "c4.673",
- hasfinal: "false"
-},
 {id: "c4.689",
  hasfinal: "false"
 },
-{id: "c4.699",
- hasfinal: "false"
-},
-{id: "c4.THG",
- hasfinal: "false"
-},
 {id: "c4.THTJ",
- hasfinal: "false"
-},
-{id: "c4.THU",
- hasfinal: "false"
-},
-{id: "c4.URG",
  hasfinal: "false"
 },
     ]

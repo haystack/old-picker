@@ -3,9 +3,6 @@
 {id: "c17.000J",
  hasfinal: "false"
 },
-{id: "c17.007J",
- hasfinal: "false"
-},
 {id: "c17.01J",
  hasfinal: "false"
 },
@@ -42,9 +39,6 @@
 {id: "c17.176J",
  hasfinal: "false"
 },
-{id: "c17.182",
- hasfinal: "false"
-},
 {id: "c17.184J",
  hasfinal: "false"
 },
@@ -52,9 +46,6 @@
  hasfinal: "false"
 },
 {id: "c17.190J",
- hasfinal: "false"
-},
-{id: "c17.196",
  hasfinal: "false"
 },
 {id: "c17.199J",
@@ -76,15 +67,6 @@
  hasfinal: "false"
 },
 {id: "c17.249J",
- hasfinal: "false"
-},
-{id: "c17.252",
- hasfinal: "false"
-},
-{id: "c17.254",
- hasfinal: "false"
-},
-{id: "c17.262",
  hasfinal: "false"
 },
 {id: "c17.263",
@@ -156,15 +138,6 @@
 {id: "c17.40",
  hasfinal: "true"
 },
-{id: "c17.406",
- hasfinal: "false"
-},
-{id: "c17.408",
- hasfinal: "false"
-},
-{id: "c17.411",
- hasfinal: "false"
-},
 {id: "c17.418",
  hasfinal: "false"
 },
@@ -187,9 +160,6 @@
  hasfinal: "false"
 },
 {id: "c17.432",
- hasfinal: "false"
-},
-{id: "c17.434",
  hasfinal: "false"
 },
 {id: "c17.436",
@@ -222,9 +192,6 @@
 {id: "c17.478",
  hasfinal: "false"
 },
-{id: "c17.483",
- hasfinal: "false"
-},
 {id: "c17.484",
  hasfinal: "false"
 },
@@ -232,12 +199,6 @@
  hasfinal: "false"
 },
 {id: "c17.50",
- hasfinal: "false"
-},
-{id: "c17.506",
- hasfinal: "false"
-},
-{id: "c17.508",
  hasfinal: "false"
 },
 {id: "c17.509",
@@ -273,9 +234,6 @@
 {id: "c17.534",
  hasfinal: "false"
 },
-{id: "c17.538",
- hasfinal: "false"
-},
 {id: "c17.541",
  hasfinal: "false"
 },
@@ -285,19 +243,10 @@
 {id: "c17.544",
  hasfinal: "false"
 },
-{id: "c17.546",
- hasfinal: "false"
-},
-{id: "c17.548",
- hasfinal: "false"
-},
 {id: "c17.55J",
  hasfinal: "false"
 },
 {id: "c17.550J",
- hasfinal: "false"
-},
-{id: "c17.552",
  hasfinal: "false"
 },
 {id: "c17.554",
@@ -307,9 +256,6 @@
  hasfinal: "false"
 },
 {id: "c17.558",
- hasfinal: "false"
-},
-{id: "c17.560",
  hasfinal: "false"
 },
 {id: "c17.57J",
@@ -339,9 +285,6 @@
 {id: "c17.878",
  hasfinal: "false"
 },
-{id: "c17.882",
- hasfinal: "true"
-},
 {id: "c17.884J",
  hasfinal: "false"
 },
@@ -354,13 +297,7 @@
 {id: "c17.892",
  hasfinal: "false"
 },
-{id: "c17.URG",
- hasfinal: "false"
-},
 {id: "c17.900",
- hasfinal: "false"
-},
-{id: "c17.902",
  hasfinal: "false"
 },
 {id: "c17.903",
@@ -369,22 +306,10 @@
 {id: "c17.907",
  hasfinal: "false"
 },
-{id: "c17.920",
- hasfinal: "false"
-},
 {id: "c17.921J",
  hasfinal: "false"
 },
 {id: "c17.962",
- hasfinal: "false"
-},
-{id: "c17.THG",
- hasfinal: "false"
-},
-{id: "c17.THT",
- hasfinal: "false"
-},
-{id: "c17.THU",
  hasfinal: "false"
 },
     ]

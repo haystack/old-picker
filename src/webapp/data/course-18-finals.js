@@ -99,9 +99,6 @@
 {id: "c18.152",
  hasfinal: "true"
 },
-{id: "c18.156",
- hasfinal: "false"
-},
 {id: "c18.157",
  hasfinal: "false"
 },
@@ -327,9 +324,6 @@
 {id: "c18.700",
  hasfinal: "true"
 },
-{id: "c18.702",
- hasfinal: "false"
-},
 {id: "c18.703",
  hasfinal: "false"
 },
@@ -340,9 +334,6 @@
  hasfinal: "false"
 },
 {id: "c18.706",
- hasfinal: "false"
-},
-{id: "c18.726",
  hasfinal: "false"
 },
 {id: "c18.727",
@@ -417,9 +408,6 @@
 {id: "c18.952",
  hasfinal: "false"
 },
-{id: "c18.966",
- hasfinal: "false"
-},
 {id: "c18.969",
  hasfinal: "false"
 },
@@ -433,9 +421,6 @@
  hasfinal: "false"
 },
 {id: "c18.UR",
- hasfinal: "false"
-},
-{id: "c18.THG",
  hasfinal: "false"
 },
 {id: "c18.CME",

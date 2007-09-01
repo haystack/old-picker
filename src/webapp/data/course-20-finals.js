@@ -174,13 +174,7 @@
 {id: "c20.960",
  hasfinal: "false"
 },
-{id: "c20.THG",
- hasfinal: "false"
-},
 {id: "c20.UR",
- hasfinal: "false"
-},
-{id: "c20.URG",
  hasfinal: "false"
 },
     ]

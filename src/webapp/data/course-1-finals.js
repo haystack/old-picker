@@ -474,14 +474,5 @@
 {id: "c1.EPW",
  hasfinal: "false"
 },
-{id: "c1.THG",
- hasfinal: "false"
-},
-{id: "c1.THU",
- hasfinal: "false"
-},
-{id: "c1.URG",
- hasfinal: "false"
-},
     ]
 }

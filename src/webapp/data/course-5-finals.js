@@ -171,40 +171,16 @@
 {id: "c5.80",
  hasfinal: "false"
 },
-{id: "c5.892",
- hasfinal: "false"
-},
 {id: "c5.90",
  hasfinal: "false"
 },
-{id: "c5.914",
- hasfinal: "false"
-},
 {id: "c5.92",
- hasfinal: "false"
-},
-{id: "c5.922",
- hasfinal: "false"
-},
-{id: "c5.932",
- hasfinal: "false"
-},
-{id: "c5.942",
  hasfinal: "false"
 },
 {id: "c5.95J",
  hasfinal: "false"
 },
 {id: "c5.CME",
- hasfinal: "false"
-},
-{id: "c5.THG",
- hasfinal: "false"
-},
-{id: "c5.THU",
- hasfinal: "false"
-},
-{id: "c5.URG",
  hasfinal: "false"
 },
     ]

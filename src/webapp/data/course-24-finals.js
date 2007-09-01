@@ -102,9 +102,6 @@
 {id: "c24.293",
  hasfinal: "false"
 },
-{id: "c24.401",
- hasfinal: "false"
-},
 {id: "c24.410",
  hasfinal: "false"
 },
@@ -136,9 +133,6 @@
  hasfinal: "false"
 },
 {id: "c24.810",
- hasfinal: "false"
-},
-{id: "c24.892",
  hasfinal: "false"
 },
 {id: "c24.899",
@@ -292,9 +286,6 @@
  hasfinal: "false"
 },
 {id: "c24.993",
- hasfinal: "false"
-},
-{id: "c24.THG",
  hasfinal: "false"
 },
 {id: "c24.UR",

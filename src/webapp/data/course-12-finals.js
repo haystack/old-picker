@@ -1,15 +1,9 @@
 {
     "items" : [
-{id: "c12.URG",
- hasfinal: "false"
-},
 {id: "c12.TIP",
  hasfinal: "false"
 },
 {id: "c12.IND",
- hasfinal: "false"
-},
-{id: "c12.THU",
  hasfinal: "false"
 },
 {id: "c12.000",
@@ -46,21 +40,6 @@
  hasfinal: "false"
 },
 {id: "c12.085",
- hasfinal: "false"
-},
-{id: "c12.091",
- hasfinal: "false"
-},
-{id: "c12.093",
- hasfinal: "false"
-},
-{id: "c12.095",
- hasfinal: "false"
-},
-{id: "c12.097",
- hasfinal: "false"
-},
-{id: "c12.099",
  hasfinal: "false"
 },
 {id: "c12.102",
@@ -106,9 +85,6 @@
  hasfinal: "false"
 },
 {id: "c12.159",
- hasfinal: "false"
-},
-{id: "c12.162J",
  hasfinal: "false"
 },
 {id: "c12.163",
@@ -191,9 +167,6 @@
 },
 {id: "c12.425",
  hasfinal: "true"
-},
-{id: "c12.THG",
- hasfinal: "false"
 },
 {id: "c12.445",
  hasfinal: "false"

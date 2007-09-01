@@ -351,11 +351,5 @@
 {id: "cHST.979J",
  hasfinal: "false"
 },
-{id: "cHST.THG",
- hasfinal: "false"
-},
-{id: "cHST.URG",
- hasfinal: "false"
-},
 ]
 }

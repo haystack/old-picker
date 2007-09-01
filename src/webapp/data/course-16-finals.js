@@ -39,9 +39,6 @@
 {id: "c16.13",
  hasfinal: "false"
 },
-{id: "c16.199",
- hasfinal: "false"
-},
 {id: "c16.20",
  hasfinal: "true"
 },
@@ -64,9 +61,6 @@
  hasfinal: "false"
 },
 {id: "c16.288J",
- hasfinal: "false"
-},
-{id: "c16.299",
  hasfinal: "false"
 },
 {id: "c16.30",
@@ -120,9 +114,6 @@
 {id: "c16.395",
  hasfinal: "false"
 },
-{id: "c16.399",
- hasfinal: "false"
-},
 {id: "c16.400",
  hasfinal: "false"
 },
@@ -156,9 +147,6 @@
 {id: "c16.431",
  hasfinal: "false"
 },
-{id: "c16.453J",
- hasfinal: "false"
-},
 {id: "c16.456J",
  hasfinal: "false"
 },
@@ -166,9 +154,6 @@
  hasfinal: "false"
 },
 {id: "c16.470J",
- hasfinal: "false"
-},
-{id: "c16.499",
  hasfinal: "false"
 },
 {id: "c16.50",
@@ -193,12 +178,6 @@
  hasfinal: "false"
 },
 {id: "c16.58",
- hasfinal: "false"
-},
-{id: "c16.599",
- hasfinal: "false"
-},
-{id: "c16.URG",
  hasfinal: "false"
 },
 {id: "c16.EPE",
@@ -256,9 +235,6 @@
  hasfinal: "false"
 },
 {id: "c16.781J",
- hasfinal: "false"
-},
-{id: "c16.799",
  hasfinal: "false"
 },
 {id: "c16.810J",
@@ -321,9 +297,6 @@
 {id: "c16.895J",
  hasfinal: "false"
 },
-{id: "c16.899",
- hasfinal: "false"
-},
 {id: "c16.90",
  hasfinal: "false"
 },
@@ -337,18 +310,6 @@
  hasfinal: "false"
 },
 {id: "c16.940J",
- hasfinal: "false"
-},
-{id: "c16.949",
- hasfinal: "false"
-},
-{id: "c16.THG",
- hasfinal: "false"
-},
-{id: "c16.981",
- hasfinal: "false"
-},
-{id: "c16.983",
  hasfinal: "false"
 },
 {id: "c16.984",

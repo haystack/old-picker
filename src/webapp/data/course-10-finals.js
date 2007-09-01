@@ -90,12 +90,6 @@
 {id: "c10.467",
  hasfinal: "false"
 },
-{id: "c10.491",
- hasfinal: "false"
-},
-{id: "c10.494",
- hasfinal: "false"
-},
 {id: "c10.499J",
  hasfinal: "false"
 },
@@ -237,16 +231,10 @@
 {id: "c10.90",
  hasfinal: "false"
 },
-{id: "c10.911",
- hasfinal: "false"
-},
 {id: "c10.94",
  hasfinal: "false"
 },
 {id: "c10.95",
- hasfinal: "false"
-},
-{id: "c10.96",
  hasfinal: "false"
 },
 {id: "c10.960J",
@@ -309,16 +297,10 @@
 {id: "c10.990",
  hasfinal: "false"
 },
-{id: "c10.992",
- hasfinal: "false"
-},
 {id: "c10.994",
  hasfinal: "false"
 },
 {id: "c10.995",
- hasfinal: "false"
-},
-{id: "c10.996",
  hasfinal: "false"
 },
 {id: "c10.CME",
@@ -331,15 +313,6 @@
  hasfinal: "false"
 },
 {id: "c10.EPW",
- hasfinal: "false"
-},
-{id: "c10.THG",
- hasfinal: "false"
-},
-{id: "c10.THU",
- hasfinal: "false"
-},
-{id: "c10.URG",
  hasfinal: "false"
 },
     ]

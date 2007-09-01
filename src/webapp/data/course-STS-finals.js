@@ -99,15 +99,6 @@
 {id: "cSTS.092",
  hasfinal: "false"
 },
-{id: "cSTS.URG",
- hasfinal: "false"
-},
-{id: "cSTS.THT",
- hasfinal: "false"
-},
-{id: "cSTS.THU",
- hasfinal: "false"
-},
 {id: "cSTS.210J",
  hasfinal: "false"
 },
@@ -171,9 +162,6 @@
 {id: "cSTS.436",
  hasfinal: "false"
 },
-{id: "cSTS.444",
- hasfinal: "false"
-},
 {id: "cSTS.445J",
  hasfinal: "false"
 },
@@ -195,9 +183,6 @@
 {id: "cSTS.464",
  hasfinal: "false"
 },
-{id: "cSTS.466",
- hasfinal: "false"
-},
 {id: "cSTS.471J",
  hasfinal: "false"
 },
@@ -214,9 +199,6 @@
  hasfinal: "false"
 },
 {id: "cSTS.488",
- hasfinal: "false"
-},
-{id: "cSTS.THG",
  hasfinal: "false"
 },
 ]

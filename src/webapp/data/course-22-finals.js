@@ -57,15 +57,6 @@
 {id: "c22.EPW",
  hasfinal: "false"
 },
-{id: "c22.THT",
- hasfinal: "false"
-},
-{id: "c22.THU",
- hasfinal: "false"
-},
-{id: "c22.URG",
- hasfinal: "false"
-},
 {id: "c22.101",
  hasfinal: "false"
 },
@@ -177,9 +168,6 @@
 {id: "c22.905",
  hasfinal: "false"
 },
-{id: "c22.912",
- hasfinal: "false"
-},
 {id: "c22.915",
  hasfinal: "false"
 },
@@ -196,9 +184,6 @@
  hasfinal: "false"
 },
 {id: "c22.96",
- hasfinal: "false"
-},
-{id: "c22.THG",
  hasfinal: "false"
 },
 ]

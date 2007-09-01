@@ -21,12 +21,6 @@
 {id: "cMAS.479",
  hasfinal: "false"
 },
-{id: "cMAS.491",
- hasfinal: "false"
-},
-{id: "cMAS.URG",
- hasfinal: "false"
-},
 {id: "cMAS.510",
  hasfinal: "false"
 },
@@ -163,9 +157,6 @@
  hasfinal: "false"
 },
 {id: "cMAS.969",
- hasfinal: "false"
-},
-{id: "cMAS.THG",
  hasfinal: "false"
 },
 ]

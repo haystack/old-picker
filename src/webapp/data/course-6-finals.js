@@ -633,12 +633,6 @@
 {id: "c6.EPW",
  hasfinal: "false"
 },
-{id: "c6.THG",
- hasfinal: "false"
-},
-{id: "c6.THM",
- hasfinal: "false"
-},
 {id: "c6.UR",
  hasfinal: "false"
 },

@@ -123,9 +123,6 @@
 {id: "cESD.262J",
  hasfinal: "false"
 },
-{id: "cESD.263J",
- hasfinal: "false"
-},
 {id: "cESD.264J",
  hasfinal: "false"
 },
@@ -367,9 +364,6 @@
  hasfinal: "false"
 },
 {id: "cESD.949",
- hasfinal: "false"
-},
-{id: "cESD.THG",
  hasfinal: "false"
 },
 ]

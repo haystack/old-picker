@@ -138,9 +138,6 @@
 {id: "c14.389",
  hasfinal: "false"
 },
-{id: "c14.392",
- hasfinal: "false"
-},
 {id: "c14.41",
  hasfinal: "true"
 },
@@ -274,15 +271,6 @@
  hasfinal: "false"
 },
 {id: "c14.781J",
- hasfinal: "false"
-},
-{id: "c14.THG",
- hasfinal: "false"
-},
-{id: "c14.THU",
- hasfinal: "false"
-},
-{id: "c14.URG",
  hasfinal: "false"
 },
     ]

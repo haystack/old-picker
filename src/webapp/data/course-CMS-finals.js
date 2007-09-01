@@ -27,9 +27,6 @@
 {id: "cCMS.UR",
  hasfinal: "false"
 },
-{id: "cCMS.URG",
- hasfinal: "false"
-},
 {id: "cCMS.790",
  hasfinal: "false"
 },

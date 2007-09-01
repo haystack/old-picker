@@ -117,9 +117,6 @@
 {id: "c2.091J",
  hasfinal: "false"
 },
-{id: "c2.093",
- hasfinal: "false"
-},
 {id: "c2.094",
  hasfinal: "false"
 },
@@ -145,9 +142,6 @@
  hasfinal: "true"
 },
 {id: "c2.131",
- hasfinal: "false"
-},
-{id: "c2.140",
  hasfinal: "false"
 },
 {id: "c2.141",
@@ -270,9 +264,6 @@
 {id: "c2.61",
  hasfinal: "false"
 },
-{id: "c2.612",
- hasfinal: "false"
-},
 {id: "c2.62J",
  hasfinal: "false"
 },
@@ -360,9 +351,6 @@
 {id: "c2.707",
  hasfinal: "false"
 },
-{id: "c2.710",
- hasfinal: "false"
-},
 {id: "c2.715J",
  hasfinal: "true"
 },
@@ -388,9 +376,6 @@
  hasfinal: "false"
 },
 {id: "c2.75",
- hasfinal: "false"
-},
-{id: "c2.760",
  hasfinal: "false"
 },
 {id: "c2.771J",
@@ -456,9 +441,6 @@
 {id: "c2.852",
  hasfinal: "false"
 },
-{id: "c2.854",
- hasfinal: "true"
-},
 {id: "c2.875J",
  hasfinal: "false"
 },
@@ -505,18 +487,6 @@
  hasfinal: "false"
 },
 {id: "c2.EPW",
- hasfinal: "false"
-},
-{id: "c2.THA",
- hasfinal: "false"
-},
-{id: "c2.THG",
- hasfinal: "false"
-},
-{id: "c2.THU",
- hasfinal: "false"
-},
-{id: "c2.URG",
  hasfinal: "false"
 },
     ]

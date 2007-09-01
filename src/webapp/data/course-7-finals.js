@@ -81,13 +81,7 @@
 {id: "c7.39",
  hasfinal: "false"
 },
-{id: "c7.392",
- hasfinal: "false"
-},
 {id: "c7.40",
- hasfinal: "false"
-},
-{id: "c7.URG",
  hasfinal: "false"
 },
 {id: "c7.410",
@@ -231,19 +225,10 @@
 {id: "c7.93",
  hasfinal: "false"
 },
-{id: "c7.932",
- hasfinal: "false"
-},
-{id: "c7.942",
- hasfinal: "false"
-},
 {id: "c7.95",
  hasfinal: "false"
 },
 {id: "c7.98J",
- hasfinal: "false"
-},
-{id: "c7.THG",
  hasfinal: "false"
 },
     ]

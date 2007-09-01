@@ -54,16 +54,10 @@
 {id: "c9.14",
  hasfinal: "false"
 },
-{id: "c9.150",
- hasfinal: "false"
-},
 {id: "c9.161",
  hasfinal: "true"
 },
 {id: "c9.173J",
- hasfinal: "false"
-},
-{id: "c9.181J",
  hasfinal: "false"
 },
 {id: "c9.20",
@@ -162,9 +156,6 @@
 {id: "c9.65",
  hasfinal: "false"
 },
-{id: "c9.660",
- hasfinal: "false"
-},
 {id: "c9.675",
  hasfinal: "false"
 },
@@ -202,12 +193,6 @@
  hasfinal: "false"
 },
 {id: "c9.941",
- hasfinal: "false"
-},
-{id: "c9.THG",
- hasfinal: "false"
-},
-{id: "c9.URG",
  hasfinal: "false"
 },
     ]
