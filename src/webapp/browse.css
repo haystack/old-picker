@@ -136,6 +136,7 @@ div.generic-lens {
 div.course-lens {
     border:         1px solid #aac;
     margin-bottom:  2em;
+    position: relative;
 }
 div.course-title {
     padding:        0.25em;
@@ -216,4 +217,11 @@ div.no-offering {
     font-size: 120%;
     font-weight: bold;
     color: red;
+}
+div.report-errors a {
+    font-size: 80%;
+    text-decoration: none;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
 }
