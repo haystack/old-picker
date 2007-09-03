@@ -1392,7 +1392,6 @@
 			"prereqs" :     [
 				"c18.02",
 				"c18.03",
-				"c18.04"
 			],
 			"description" : "Functions of a complex variable; calculus of residues. Ordinary differential equations; Bessel and Legendre functions; Sturm-Liouville theory; partial differential equations.",
 			"semester" :    [

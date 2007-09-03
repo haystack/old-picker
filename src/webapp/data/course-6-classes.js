@@ -2792,7 +2792,7 @@
 			"label" :       "6.111 - Introductory Digital Systems Laboratory",
 			"prereqs" :     [ "c6.002", "c6.071", "c16.004" ],
 			"description" : "Lectures and labs on digital logic, flip flops, PALs, FPGAs, counters, timing, synchronization, and finite-state machines prepare students for the design and implementation of a final project of their choice: games, music, digital filters, wireless communications, video, or graphics. Extensive use of Verilog  for describing and implementating digital logic designs. Students engage in extensive written and oral communication exercises. 12 Engineering Design Points.",
-			"semester" :    "Spring",
+			"semester" :    ["Spring","Fall"],
 			"has-final" :   "FALSE"
 		},
 		{

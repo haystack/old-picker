@@ -388,7 +388,7 @@
 			"id" :         "s18.102a"
 		},
 		{
-			"instructor" : "Benney, D. J.",
+			"instructor" : "Hancock, M.",
 			"label" :      "s18.075a",
 			"type" :       "Section",
 			"class" :      "c18.075",
