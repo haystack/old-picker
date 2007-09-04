@@ -25,6 +25,13 @@
 			"reported-hours":	"11",
 			"irating":			"6.3"
 		},
+        {
+            "instructor" :      "Eng, T.L.",
+            "class" :           "c6.UAT",
+            "type" :            "Section",
+            "label":            "Section",
+            "id":               "s6.UAT",
+        },
 		{
 			"id":				"s6.854J",
 			"class":			"c6.854J",
