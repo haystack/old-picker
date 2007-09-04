@@ -12,6 +12,13 @@
 			"last-taught" :    "F06",
 			"reported-hours" : "19"
 		},
+        {
+            "instructor":       "Popovic, J.",
+            "class":            "c6.837",
+            "type":             "Section",
+            "label":            "Section",
+            "id":               "s6.837"
+        },
 		{
 			"instructor" :		"Sipser, M.",
 			"class":			"c6.840J",
