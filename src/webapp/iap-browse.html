@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>MIT Course Catalogue Pickr (beta)</title>
+        <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js?autoCreate=false" type="text/javascript"></script>
+        <script src="http://static.simile.mit.edu/timegrid/api-1.0-alpha2/timegrid-api.js?autoCreate=false" type="text/javascript"></script>
+        
+        <script src="config.js" type="text/javascript"></script>
+        <script src="iap-browse.js" type="text/javascript"></script>
+        <script src="unit-adder.js" type="text/javascript"></script>
+        <script src="iap-timegrid.js" type="text/javascript"></script>
+        
+        <link type="text/css" rel="stylesheet" href="styles.css" />
+        <link type="text/css" rel="stylesheet" href="browse.css" />
+    </head>
+    <body onload="onLoad();">
+        <div id="title">
+            <h1>MIT Course Catalogue Pickr (beta)</h1>
+            <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
+                <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
+                <a href="index.html">Start Over</a> &bull;
+                <a href="mailto:course-picker@lists.csail.mit.edu">Contact Us</a> &bull;
+                <a href="report.html">Report Errors</a>
+            </div>
+        </div>
+        
+        <!-- ==================== Browsing Interface ==================== -->
+        <div id="browsing-interface">
+            <!-- ==================== Schedule Details Layer ==================== -->
+            <div id="schedule-details-layer">
+                <div class="title"><button style="float: right;" onclick="onShowSchedulePreview();">back to all classes &raquo;</button>
+                    <span>Weekly Schedule</span>
+                </div>
+                <div id="schedule-details-layer-inner">
+                    <p><b>To print, in Firefox 2.0:</b>
+                        <ol>
+                            <li>Select the browser's menu File &rarr; Print Preview.</li>
+                            <li>Select "Portrait" in the print preview dialog's toolbar, and set "Scale" to about 70%.</li>
+                            <li>Click "Page Setup" and check "Print Background (colors &amp; images)".</li>
+                            <li>Click OK.</li>
+                            <li>Then click "Print...".</li>
+                        </ol>
+                    </p>
+                    
+                    <!-- <div ex:role="view"
+                        ex:collectionID="picked-sections"
+                        ex:showAll="true"
+                        ex:grouped="false">
+                    </div> -->
+                    <div id="timegrid" tg:role="grid" 
+                        tg:views="week" tg:eventSource="timegridEventSource"
+                        tg:dayStart="8" tg:dayEnd="22" tg:yCell="100"></div>
+                </div>
+            </div>
+        
+            <!-- ==================== Classes Layer ==================== -->
+            <div id="classes-layer">
+                <div ex:role="collection" ex:itemTypes="Class"></div>
+                <table cellpadding="10" border="0" cellspacing="0">
+                    <tr valign="top">
+                        <td width="23%" style="background: #BFBDAC">
+                            <p><select id="add-more-select" onchange="onAddMoreSelectChange();">add more courses</select>
+                            </p>
+                            
+                            <p><input type="checkbox" onclick="processShowOnlyFavoriteClass(this);" /> show only favorites <img style="vertical-align: middle" src="images/yellow-star.png" />
+                            </p>
+                            
+                            <b>Search</b>
+                            <div ex:role="facet" ex:facetClass="TextSearch"></div>
+                            <hr/>
+                            <div id="facets">
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='course-facet'>course &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='level-facet'>level &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='topic-facet'>topic &raquo;</div>
+                                
+                                <div id="tqe-facet"></div>
+                                
+                                <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' ex:height="20em"></div>
+                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' ex:height="7em"></div>
+                                <div ex:role="facet" ex:expression=".offering" ex:facetLabel="offering &raquo;" id='offering-facet' ex:height="8em"></div>
+                                
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='total-units-facet'>total units &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='hasfinal-facet'>has final? &raquo;</div>
+                            </div>
+                            
+                            <p style="margin-top: 3em; text-align: center;">
+                                powered by<br/>
+                                <a href="http://simile.mit.edu/exhibit/">Exhibit</a> and
+                                <a href="http://simile.mit.edu/timegrid/">Timegrid</a>
+                            </p>
+                        </td>
+                        <td>
+                            <div ex:role="view"
+                                ex:orders=".label"
+                                ex:possibleOrders=".label, .semester, .offering, .level, .category, .units, .total-units"
+                                ex:showAll="false"
+                                ex:grouped="false">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        
+        <!-- ==================== Schedule Preview Pane ==================== -->
+        <div id="schedule-preview-pane">
+            <div class="title"><button onclick="onShowScheduleDetails();">&laquo; full view</button>
+                <span>Weekly Schedule</span>
+            </div>
+            
+            <div id="mini-timegrid" tg:role="grid" 
+                tg:views="week" tg:eventSource="miniEventSource"
+                tg:mini="true" tg:dayStart="8" tg:dayEnd="22"
+                style="height:250px"></div>
+            <div id="total-units"></div>
+            <div ex:role="viewPanel">
+                <div ex:role="lens" class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
+                    <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
+                    <span ex:content=".class.label"></span>
+                </div>
+                <div ex:role="view"
+                    ex:orders=".class.courseNumber"
+                    ex:showHeader="false"
+                    ex:showAll="false"
+                    ex:grouped="false"
+                    ex:collectionID="picked-sections"
+                    ex:showToolbox="false">
+                </div>
+            </div>
+            <div id="no-picked-classes">No Classes Picked.</div>
+        </div>
+        
+        <!-- ==================== Generic Lens ==================== -->
+        <div ex:role="exhibit-lens" class="generic-lens" style="display: none;">
+            The data for this class hasn't been loaded. We can load the data of the course containing this class.<br/>
+            <button ex:classID-content="value" onclick="loadMoreClass(this);">Load Data Now</button>
+        </div>
+        
+        <!-- ==================== Class Lens ==================== -->
+        <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class">
+            <div class="course-title">
+                <img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />
+                <span ex:content=".semester" class="course-semester"></span>
+                <span ex:content=".label"></span> <a ex:if-exists=".url" ex:href-content=".url" target="_blank">catalogue</a>
+            </div>
+            <table class="course-body" cellspacing="10"><tr>
+                <td>
+                    <div ex:content=".topic" class="course-topic"></div>
+                    <div ex:content=".description" class="course-description"></div>
+                    <div ex:if-exists=".prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
+                    
+                    <div ex:content="!class">
+                        <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
+                            ex:id-subcontent="divid-{{value}}"
+                            ex:sectionID-content="value"
+                            onmouseover="onMouseOverSection(this);"
+                            onmouseout="onMouseOutSection(this);">
+                            <button
+                                ex:sectionID-content="value" 
+                                ex:content="if(exists(.picked), 'Remove', 'Add')"
+                                onclick="onPickUnpick(this);"></button>
+                            
+                            <span class="section-instructor" ex:content=".instructor"></span><br />
+                            <span class="section-schedule" ex:content="!section"> &bull; 
+                                <span ex:content=".day"></span>
+                                <span ex:content=".start"></span>-<span ex:content=".end"></span> in 
+                                <a ex:href-subcontent="http://whereis.mit.edu/map-jpg?selection={{building(.room)}}&Buildings=go" target="_blank" ex:content=".room"></a></span>
+                        </div>
+                    </div>
+                </td>
+                <td width="30%" class="course-logistics">
+                    <div ex:select=".offering">
+                        <div ex:case="Currently Offered"></div>
+                        <div ex:content=".offering" class="no-offering"></div>
+                    </div>
+                    <div>Units: <span ex:content=".units"></span>
+                                <span ex:if="contains(.hasfinal, 'true')">
+                                    <span class="hasfinal"> +final</span>
+                                    <span></span>
+                                </span>
+                    </div>
+                    <div ex:content=".category"></div>
+                    <div ex:if-exists="!class.orating" class="hkn-statistics">
+                        <div class="hkn-stats-header">HKN Statistics</div>
+                        <div ex:content="!class">
+                            <table cellspacing="5" cellpadding="0">
+                                <tr><td>Instructor:</td>
+                                    <td><span ex:content=".irating"></span>/7.0</td></tr>
+                                <tr ex:if-exists=".last-taught"><td>Last taught:</td>
+                                    <td ex:content=".last-taught"></td></tr>
+                                <tr><td>Overall:</td>
+                                    <td><span ex:content=".orating"></span>/7.0</td></tr>
+                                <tr><td>Difficulty:</td>
+                                    <td><span ex:content=".odifficulty"></span>/7.0</td></tr>
+                                <tr><td>Hours:</td>
+                                    <td><span ex:content=".reported-hours"></span></td></tr>
+                                <tr><td><a ex:href-content=".evaluation">More info</a></td></tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="report-errors">
+                        <a ex:href-subcontent="mailto:course-picker@lists.csail.mit.edu?subject=Data Error in course {{value}}">Report Error</a>
+                </td>
+            </tr></table>
+        </div>
+        
+        <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+        </script>
+        <script type="text/javascript">
+            //_uacct = "UA-355145-1";  Old account
+            uacct = "UA-2506456-4"; // this one is for picker.mit.edu
+            urchinTracker();
+        </script>
+    </body>
+</html>

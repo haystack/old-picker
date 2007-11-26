@@ -131,9 +131,9 @@ for (var i = 0; i < elements.length; i++) {
   classOutput.push(classString);
 }
 
-log("type \tid \tcourse \tcategory \tlabel \tin-charge \tdescription:single \tcourseInfo \turl:url \tcontact");
+//log("type \tid \tcourse \tcategory \tlabel \tin-charge \tdescription:single \tcourseInfo \turl:url \tcontact");
 for (var i = 0; i < classOutput.length; i++) { log(classOutput[i]); }
-log("type \tlabel \tclass \tinstructor");
+//log("type \tlabel \tclass \tinstructor");
 for (var i = 0; i < sectionOutput.length; i++) { log(sectionOutput[i]); }
-log("type \tsection \tdateTime \troom");
+//log("type \tsection \tdateTime \troom");
 for (var i = 0; i < lectureOutput.length; i++) { log(lectureOutput[i]); }

@@ -21,19 +21,25 @@ function enableUnitAdder() {
 				var units = { lecture: 0, lab: 0, prep: 0, total: 0, string: "" };
 				sections.visit(function(sectionID) {
 					var classID = database.getObject(sectionID, "class");
-					var unit = database.getObject(classID, "units").split('-');
-					units.lecture = units.lecture + parseInt(unit[0]);
-					units.lab = units.lab + parseInt(unit[1]);
-					units.prep = units.prep + parseInt(unit[2]);
+					if (database.getObject(classID, "units") !== null) {
+						unit = database.getObject(classID, "units").split('-');
+						units.lecture = units.lecture + parseInt(unit[0]);
+						units.lab = units.lab + parseInt(unit[1]);
+						units.prep = units.prep + parseInt(unit[2]);
+					} 
+					units.total = units.total + parseInt(database.getObject(classID, "total-units"));
 				});
+				
 				units.string = units.lecture+"-"+units.lab+"-"+units.prep;
-				units.total = units.lecture + units.lab + units.prep;
 				
 				var div = document.getElementById('total-units');
-				div.innerHTML = 'Total Units: '+units.string+' ('+units.total+')'+
-								'<br>Reported Hours: '+reported.hours+' ('+
-								reported.courses+courseWord+')<br>';
-								
+				if (units.lecture + units.lab + units.prep > 0) {
+					div.innerHTML = 'Total Units: '+units.string+' ('+units.total+')'+
+									'<br>Reported Hours: '+reported.hours+' ('+
+									reported.courses+courseWord+')<br>';
+				} else {
+					div.innerHTML = 'Total Units: '+units.total;	
+				}
 			    document.getElementById('no-picked-classes').style.display = "none";
 			} else {
 				var div = document.getElementById('total-units');
