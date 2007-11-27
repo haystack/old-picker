@@ -143,6 +143,12 @@
                     alert("You didn't select any course.");
                 }
             }
+            
+            function browseIAPCourses() {
+					var courses = [];
+					courses.push("iap");
+					document.location = "iap-browse.html?courses=" + encodeURIComponent(courses.join(";"));
+				}
 
         </script>
     </head>
@@ -156,6 +162,11 @@
         </div>
         
         <div id="starting-interface">
+        		<p>
+            	<span style="color: #a00; font-weight: bold;">NEW! IAP Course Pickr</span>
+            	<button onclick="browseIAPCourses();">Browse IAP Courses</button>
+            </p>
+            <hr />
             <p>Pick courses in which you want to take classes:</p>
             <div id="course-table">
                 <table id="course-list" cellpadding="2"></table>
