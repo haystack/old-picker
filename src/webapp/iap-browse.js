@@ -37,6 +37,10 @@ function onLoad() {
         window.exhibit = Exhibit.create();
         window.exhibit.setCollection("picked-sections", pickedSections);
         window.exhibit.configureFromDOM();
+        
+        enableIAPTimegrid();
+        
+        document.getElementById("left-column").style.display = "block";
     };
     loadURLs(urls, fDone);
 }

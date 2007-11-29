@@ -94,8 +94,6 @@ div.report-errors a {
 
 #calendar {
     font-size:  9pt;
-    border:     1px solid #9996C5;
-    padding:    3px;
 }
 .calendar-row {
     padding-top: 2px;
@@ -118,4 +116,7 @@ div.report-errors a {
 .conflict-day {
     background: red;
     color:      white;
+}
+.preview-day {
+    text-decoration: underline;
 }

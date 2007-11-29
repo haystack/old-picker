@@ -12,76 +12,43 @@
     </head>
     <body onload="onLoad();">
         <div ex:role="collection" ex:itemTypes="Class"></div>
+        <div style="position: fixed; z-index: 10; right: 0; top: 0; width: 25em; background: #E0F0FF; border-left: 1px solid #B2B0D4; border-bottom: 1px solid #B2B0D4;">
+            <table width="100%" cellspacing="5"><tr>
+                <td width="50%">
+                    <table id="calendar" cellspacing="2">
+                        <tr class="calendar-row">
+                            <td class="calendar-cell weekday">S</td>
+                            <td class="calendar-cell weekday">M</td>
+                            <td class="calendar-cell weekday">T</td>
+                            <td class="calendar-cell weekday">W</td>
+                            <td class="calendar-cell weekday">R</td>
+                            <td class="calendar-cell weekday">F</td>
+                            <td class="calendar-cell weekday">S</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <div><span style="color: #B2B0D4; font-size: 150%;">&diams;</span> days with classes</div>
+                    <div><span style="color: red; font-size: 150%;">&diams;</span> days with conflicts</div>
+                    <p>
+                        <button>Detailed Schedule</button>
+                    </p>
+                </td>
+            </tr></table>
+        </div>
+        
+        <div id="title">
+            <h1>MIT Course Catalogue Pickr (beta)</h1>
+            <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
+                <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
+                <a href="mailto:course-picker@lists.csail.mit.edu">Contact Us</a> &bull;
+                <a href="report.html">Report Errors</a>
+            </div>
+        </div>
         <table cellpadding="0" border="0" cellspacing="0" width="100%">
             <tr valign="top">
-                <td style="background: #E0F0FF; width: 30em; padding: 10px;">
-                    <table width="100%"><tr>
-                        <td width="50%">
-                            <table id="calendar" cellspacing="2">
-                                <tr class="calendar-row">
-                                    <td class="calendar-cell weekday">S</td>
-                                    <td class="calendar-cell weekday">M</td>
-                                    <td class="calendar-cell weekday">T</td>
-                                    <td class="calendar-cell weekday">W</td>
-                                    <td class="calendar-cell weekday">R</td>
-                                    <td class="calendar-cell weekday">F</td>
-                                    <td class="calendar-cell weekday">S</td>
-                                </tr>
-                                <tr class="calendar-row">
-                                    <td class="calendar-cell">&nbsp;</td>
-                                    <td class="calendar-cell">&nbsp;</td>
-                                    <td class="calendar-cell free-day">1</td>
-                                    <td class="calendar-cell free-day">2</td>
-                                    <td class="calendar-cell free-day">3</td>
-                                    <td class="calendar-cell free-day">4</td>
-                                    <td class="calendar-cell free-day">5</td>
-                                </tr>
-                                <tr class="calendar-row">
-                                    <td class="calendar-cell free-day">6</td>
-                                    <td class="calendar-cell free-day">7</td>
-                                    <td class="calendar-cell free-day">8</td>
-                                    <td class="calendar-cell free-day">9</td>
-                                    <td class="calendar-cell free-day">10</td>
-                                    <td class="calendar-cell free-day">11</td>
-                                    <td class="calendar-cell free-day">12</td>
-                                </tr>
-                                <tr class="calendar-row">
-                                    <td class="calendar-cell free-day">13</td>
-                                    <td class="calendar-cell free-day">14</td>
-                                    <td class="calendar-cell free-day">15</td>
-                                    <td class="calendar-cell free-day">16</td>
-                                    <td class="calendar-cell free-day">17</td>
-                                    <td class="calendar-cell free-day">18</td>
-                                    <td class="calendar-cell free-day">19</td>
-                                </tr>
-                                <tr class="calendar-row">
-                                    <td class="calendar-cell free-day">20</td>
-                                    <td class="calendar-cell free-day">21</td>
-                                    <td class="calendar-cell free-day">22</td>
-                                    <td class="calendar-cell free-day">23</td>
-                                    <td class="calendar-cell free-day">24</td>
-                                    <td class="calendar-cell free-day">25</td>
-                                    <td class="calendar-cell free-day">26</td>
-                                </tr>
-                                <tr class="calendar-row">
-                                    <td class="calendar-cell free-day">27</td>
-                                    <td class="calendar-cell free-day">28</td>
-                                    <td class="calendar-cell free-day">29</td>
-                                    <td class="calendar-cell free-day">30</td>
-                                    <td class="calendar-cell free-day">31</td>
-                                </tr>
-                            </table>
-                        </td>
-                        <td>
-                            <div><span style="color: #B2B0D4; font-size: 150%;">&diams;</span> days with classes</div>
-                            <div><span style="color: red; font-size: 150%;">&diams;</span> days with conflicts</div>
-                            <p>
-                                <button>Detailed Schedule</button>
-                            </p>
-                        </td>
-                    </tr></table>
-                    
-                    <div style="clear: both; margin-top: 1em;"><b>Text Search</b></div>
+                <td style="background: #E0F0FF; width: 30em; padding: 10px; display: none; border-right: 1px solid #B2B0D4" id="left-column">
+                    <div><b>Text Search</b></div>
                     <div ex:role="facet" ex:facetClass="TextSearch"></div>
                     <hr />
                     <table width="100%">
@@ -115,20 +82,12 @@
                     </p>
                 </td>
                 <td>
-                    <div id="title">
-                        <h1>MIT Course Catalogue Pickr (beta)</h1>
-                        <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
-                            <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
-                            <a href="mailto:course-picker@lists.csail.mit.edu">Contact Us</a> &bull;
-                            <a href="report.html">Report Errors</a>
-                        </div>
-                    </div>
                     <div ex:role="view"
                         ex:orders=".label"
                         ex:possibleOrders=".label, .semester, .offering, .level, .category, .units, .total-units"
                         ex:showAll="false"
                         ex:grouped="false"
-                        style="margin: 2em;">
+                        style="margin: 5em 2em;">
                     </div>
                 </td>
             </tr>
@@ -141,7 +100,7 @@
         </div>
         
         <!-- ==================== Class Lens ==================== -->
-        <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class">
+        <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class" ex:formats="date { template: 'MMM dd, hh:mm'; }">
             <div class="course-title">
                 <img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />
                 <span ex:content=".semester" class="course-semester"></span>
@@ -166,7 +125,7 @@
                         <span class="section-instructor" ex:content=".instructor"></span><br />
                         <span class="section-schedule" ex:content="!section"> &bull; 
                             <span ex:content=".day"></span>
-                            <span ex:content=".start"></span>-<span ex:content=".end"></span> in 
+                            <span ex:content=".start" ex:formats="date { template: 'MMM dd, hh:mm'; }"></span>-<span ex:content=".end" ex:formats="date { template: 'hh:mm'; }"></span> in 
                             <a ex:href-subcontent="http://whereis.mit.edu/map-jpg?selection={{building(.room)}}&Buildings=go" target="_blank" ex:content=".room"></a></span>
                     </div>
                 </div>

@@ -22,6 +22,12 @@
         },
         "prereqs" : {
             valueType: "item"
+        },
+        "start" : {
+            valueType: "date"
+        },
+        "end" : {
+            valueType: "date"
         }
     }
 }
