@@ -3,9 +3,8 @@
  *   picked classes
  */
 
-var timegridEventSource = new Timegrid.DefaultEventSource();
-
 function updateIAPTimegrid(preview, previewSectionID) {
+    /*
     var collection = window.exhibit.getCollection("picked-sections");
     
     var itemSet = collection.getRestrictedItems();
@@ -45,6 +44,7 @@ function updateIAPTimegrid(preview, previewSectionID) {
     } else {
         timegridEventSource.addMany(events); 
     }
+    */
 };
 
 function enableIAPTimegrid() {
