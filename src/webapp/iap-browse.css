@@ -102,21 +102,50 @@ div.report-errors a {
 .calendar-cell {
     width:          2em;
     text-align:     center;
-}
-.free-day {
-    background: white;
-    color:      #aaa;
+    cursor:         pointer;
 }
 .weekday {
     font-weight: bold;
 }
+.free-day {
+    background-color:   white;
+    color:              #888;
+}
 .busy-day {
-    background: #B2B0D4;
+    background-color:   #B2B0D4;
+    color:              white;
 }
 .conflict-day {
-    background: red;
+    background: #B2B0D4 url(images/x.gif) center center no-repeat;
     color:      white;
 }
+.preview-free-day {
+    background-color:   #C5C4DF;
+    text-decoration:    underline;
+    color:              black;
+}
+.preview-busy-day {
+    background-color:   #C5C4DF;
+    text-decoration:    underline;
+    color:              black;
+}
+.preview-conflict-day {
+    background: #B2B0D4 url(images/x.gif) center center no-repeat;
+    text-decoration:    underline;
+    color:              black;
+}
+
 .preview-day {
-    text-decoration: underline;
+    background-color:   #C5C4DF;
+    text-decoration:    underline;
+    color:              black;
+}
+
+#balloon {
+    position:   absolute;
+    width:      300px;
+    padding:    5px;
+    background: #FFFCE6;
+    border:     1px solid #aaa;
+    z-index:    100;
 }

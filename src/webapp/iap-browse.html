@@ -12,29 +12,21 @@
     </head>
     <body onload="onLoad();">
         <div ex:role="collection" ex:itemTypes="Class"></div>
-        <div style="position: fixed; z-index: 10; right: 0; top: 0; width: 25em; background: #E0F0FF; border-left: 1px solid #B2B0D4; border-bottom: 1px solid #B2B0D4;">
-            <table width="100%" cellspacing="5"><tr>
-                <td width="50%">
-                    <table id="calendar" cellspacing="2">
-                        <tr class="calendar-row">
-                            <td class="calendar-cell weekday">S</td>
-                            <td class="calendar-cell weekday">M</td>
-                            <td class="calendar-cell weekday">T</td>
-                            <td class="calendar-cell weekday">W</td>
-                            <td class="calendar-cell weekday">R</td>
-                            <td class="calendar-cell weekday">F</td>
-                            <td class="calendar-cell weekday">S</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <div><span style="color: #B2B0D4; font-size: 150%;">&diams;</span> days with classes</div>
-                    <div><span style="color: red; font-size: 150%;">&diams;</span> days with conflicts</div>
-                    <p>
-                        <button>Detailed Schedule</button>
-                    </p>
-                </td>
-            </tr></table>
+        <div style="position: fixed; z-index: 10; right: 0; top: 0; background: #E0F0FF; border-left: 1px solid #B2B0D4; border-bottom: 1px solid #B2B0D4; padding: 10px;">
+            <table id="calendar" cellspacing="2" onmouseout="onCalendarMouseOut();">
+                <tr class="calendar-row">
+                    <td class="calendar-cell weekday">S</td>
+                    <td class="calendar-cell weekday">M</td>
+                    <td class="calendar-cell weekday">T</td>
+                    <td class="calendar-cell weekday">W</td>
+                    <td class="calendar-cell weekday">R</td>
+                    <td class="calendar-cell weekday">F</td>
+                    <td class="calendar-cell weekday">S</td>
+                </tr>
+            </table>
+            <div style="text-align: center;">
+                <button>Detailed Schedule</button>
+            </div>
         </div>
         
         <div id="title">
@@ -103,7 +95,6 @@
         <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class" ex:formats="date { template: 'MMM dd, hh:mm'; }">
             <div class="course-title">
                 <img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />
-                <span ex:content=".semester" class="course-semester"></span>
                 <span ex:content=".label"></span> <a ex:if-exists=".url" ex:href-content=".url" target="_blank">catalogue</a>
             </div>
             <div class="course-body">
