@@ -180,6 +180,22 @@ var facetData = {
     'tqe-facet': {
         expression: '.TQE',
         facetLabel: 'TQE &raquo;'
+    },
+    'registration-facet': {
+        expression: '.registration',
+        facetLabel: 'registration &raquo;'
+    },
+    'listeners-facet': {
+        expression: '.listeners',
+        facetLabel: 'listeners &raquo;'
+    },
+    'lottery-facet': {
+        expression: '.lottery',
+        facetLabel: 'lottery &raquo;'
+    },
+    'grading-facet': {
+        expression: '.grading',
+        facetLabel: 'grading &raquo;'
     }
 };
 

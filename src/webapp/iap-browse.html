@@ -15,14 +15,23 @@
         <div style="position: fixed; z-index: 10; right: 0; top: 0; background: #E0F0FF; border-left: 1px solid #B2B0D4; border-bottom: 1px solid #B2B0D4; padding: 10px;">
             <table id="calendar" cellspacing="2" onmouseout="onCalendarMouseOut();">
                 <tr class="calendar-row">
+
                     <td class="calendar-cell weekday">S</td>
+
                     <td class="calendar-cell weekday">M</td>
+
                     <td class="calendar-cell weekday">T</td>
+
                     <td class="calendar-cell weekday">W</td>
+
                     <td class="calendar-cell weekday">R</td>
+
                     <td class="calendar-cell weekday">F</td>
+
                     <td class="calendar-cell weekday">S</td>
+
                 </tr>
+
             </table>
             <div style="text-align: center;">
                 <button onclick="showDetailedSchedule();">Detailed Schedule</button>
@@ -31,12 +40,14 @@
         
         <div id="title">
             <h1>MIT Course Catalogue Pickr (beta)</h1>
+            <div style="font-style: italic" >IAP Edition</div>
             <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
                 <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
                 <a href="mailto:course-picker@lists.csail.mit.edu">Contact Us</a> &bull;
                 <a href="report.html">Report Errors</a>
             </div>
         </div>
+
         <table cellpadding="0" border="0" cellspacing="0" width="100%">
             <tr valign="top">
                 <td style="background: #E0F0FF; width: 30em; padding: 10px; display: none; border-right: 1px solid #B2B0D4" id="left-column">
@@ -56,6 +67,14 @@
                             <td style="width: 8em;">
                                 <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".level" id='level-facet'></div>
                                 <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".course" id='course-facet'></div>
+                                <!-- Facets to add (are we making them collapsable?)
+                                <div ex:role="facet" ex:expression=".grading" ex:facetLabel="grading &raquo;" id='grading-facet' ex:height="4em"></div>
+                                <div ex:role="facet" ex:expression=".total-units" ex:facetLabel="total units &raquo;" id='total-units-facet' ex:height="10em"></div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='topic-facet'>topic &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='registration-facet'>registration &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='lottery-facet'>lottery &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='listeners-facet'>listeners &raquo;</div>
+                                -->
                             </td>
                                 <td>
                                     <div class="collapsed-facet" 
@@ -97,6 +116,7 @@
                 <img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />
                 <span ex:content=".label"></span> <a ex:if-exists=".url" ex:href-content=".url" target="_blank">catalogue</a>
             </div>
+
             <div class="course-body">
                 <div ex:content=".topic" class="course-topic"></div>
                 <div ex:content=".description" class="course-description"></div>

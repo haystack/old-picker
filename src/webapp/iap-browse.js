@@ -38,6 +38,12 @@ function onLoad() {
         window.exhibit.setCollection("picked-sections", pickedSections);
         window.exhibit.configureFromDOM();
         
+        /* For collapsable facets -- I don't know if we're going to need these
+        setupExistingFacet(document.getElementById("course-facet"));
+        setupExistingFacet(document.getElementById("grading-facet"));
+        setupExistingFacet(document.getElementById("total-units-facet"));
+        */
+
         enableIAPTimegrid();
         
         document.getElementById("left-column").style.display = "block";
