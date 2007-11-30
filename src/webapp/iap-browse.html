@@ -133,11 +133,8 @@
                             ex:content="if(exists(.picked), 'Remove', 'Add')"
                             onclick="onPickUnpick(this);"></button>
                         
-                        <span class="section-instructor" ex:content=".instructor"></span><br />
-                        <span class="section-schedule" ex:content="!section"> &bull; 
-                            <span ex:content=".day"></span>
-                            <span ex:content=".start" ex:formats="date { template: 'MMM dd, hh:mm'; }"></span>-<span ex:content=".end" ex:formats="date { template: 'hh:mm'; }"></span> in 
-                            <a ex:href-subcontent="http://whereis.mit.edu/map-jpg?selection={{building(.room)}}&Buildings=go" target="_blank" ex:content=".room"></a></span>
+                        <span class="section-instructor" ex:content=".instructor"></span> &mdash;
+                        <span class="section-schedule" ex:content=".timeAndPlace"></span>
                     </div>
                 </div>
             </div>
