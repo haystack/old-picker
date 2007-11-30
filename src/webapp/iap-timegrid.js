@@ -212,3 +212,14 @@ function enableIAPTimegrid() {
     var collection = window.exhibit.getCollection("picked-sections");
     collection.addListener({ onItemsChanged: function() { updateIAPTimegrid(false); } });
 };
+
+function showDetailedSchedule() {
+    var db = window.exhibit.getDatabase();
+    var collection = window.exhibit.getCollection("picked-sections");
+    var itemSet = collection.getRestrictedItems();
+    if (itemSet.size() == 0) {
+        alert("There's nothing on your schedule. Add some classes first!");
+    } else {
+        window.open("iap-calendar.html?sections=" + itemSet.toArray().join(";"), "picker-calendar");
+    }
+};
