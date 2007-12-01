@@ -65,26 +65,26 @@
                         </tr>
                         <tr>
                             <td style="width: 8em;">
-                                <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".level" id='level-facet'></div>
                                 <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".course" id='course-facet'></div>
-                                <!-- Facets to add (are we making them collapsable?)
-                                <div ex:role="facet" ex:expression=".grading" ex:facetLabel="grading &raquo;" id='grading-facet' ex:height="4em"></div>
-                                <div ex:role="facet" ex:expression=".total-units" ex:facetLabel="total units &raquo;" id='total-units-facet' ex:height="10em"></div>
-                                <div class="collapsed-facet" onclick="makeFacet(this)" id='topic-facet'>topic &raquo;</div>
-                                <div class="collapsed-facet" onclick="makeFacet(this)" id='registration-facet'>registration &raquo;</div>
-                                <div class="collapsed-facet" onclick="makeFacet(this)" id='lottery-facet'>lottery &raquo;</div>
-                                <div class="collapsed-facet" onclick="makeFacet(this)" id='listeners-facet'>listeners &raquo;</div>
-                                -->
+                                <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:facetLabel="total units" ex:expression=".total-units" id='total-units-facet'></div>
                             </td>
-                                <td>
-                                    <div class="collapsed-facet" 
-                                        ex:scroll="false" 
-                                        ex:role="facet" 
-                                        ex:expression=".topic" 
-                                        ex:facetLabel="topics"
-                                        ex:missingLabel="no topic information"
-                                        id='topic-facet'></div>
-                                </td>
+									  <td>
+									  	  <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".grading" id='grading-facet'></div>
+                                <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".level" id='level-facet'></div>
+                                <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".lottery" id='lottery-facet'></div>
+                                <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".listeners" id='listeners-facet' ex:missingLabel="no listener information"></div>
+									  </td>
+                        </tr>
+                        <tr>
+                        	<td colspan="2">
+                        		<div class="collapsed-facet" 
+												 ex:scroll="false" 
+												 ex:role="facet" 
+												 ex:expression=".topic" 
+												 ex:facetLabel="topics"
+												 ex:missingLabel="no topic information"
+												 id='topic-facet'></div>
+                        	</td>
                         </tr>
                     </table>
                     
