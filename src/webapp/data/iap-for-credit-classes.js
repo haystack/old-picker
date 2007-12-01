@@ -16,7 +16,7 @@
 				"Frenchman, Dennis"
 			],
 			"course" :      "4",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "4.199 - Taipei International Workshop: Retrofitting Central Xizhi for Livability",
 			"prereqs" :     "Permission of instructor Open to MArch level 2 & 3, SMArchS & DUSP MCP or PhD w/desig",
@@ -33,7 +33,7 @@
 			"contact" :     "Shalom Saar, ssaar@MIT.EDU",
 			"in-charge" :   "Saar, Shalom",
 			"course" :      "ESD",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "ESD.930 - Know Thy Team: Leadership Skill Building Seminar",
 			"prereqs" :     "Permission of instructor",
@@ -44,7 +44,7 @@
 			"id" :   "c21M.851",
 			"level" :       "U",
 			"url" :         "http://web.mit.edu/iap",
-			"limit" :       "No listeners",
+			"limit" :       "No listeners.",
 			"lottery" :     "Pre-register on WebSIS and attend first class.",
 			"grading" :     "A - F",
 			"contact" :     "Janet Sonenberg, 10-274, x3-1131, json@mit.edu",
@@ -66,7 +66,7 @@
 			"contact" :     "Dave Custer, 24-611, custer@mit.edu",
 			"in-charge" :   "Custer, Dave",
 			"course" :      "2",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "2.THA - 2A Thesis CI-M Subject",
 			"prereqs" :     "Current thesis work",
@@ -83,7 +83,7 @@
 			"contact" :     "Jerilyn Hill, 4-134, x8-5793, jhill@mit.edu",
 			"course" :      "3",
 			"type" :        "Class",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"label" :       "3.37/3.371 - Welding and Joining Processes",
 			"prereqs" :     "Permission of instructor",
 			"description" : "Discusses a wide variety of processes and materials from the viewpoint of their fundamental physical and chemical properties. Specific topics: cold welding, adhesive bonding, diffusion bonding, soldering, brazing, flames, arcs, high-energy density heat sources, solidification, cracking resistance, shielding methods, and electric contacts. Emphasis on underlying science of a given process rather than a detailed description of the technique or equipment. Meets with first half of subject 3.371J in Fall Term; videotaped instruction. Videotaped instruction (via website: http://eagar.mit.edu/ or DVD, contact Jeri Hill) with individual meetings to be scheduled with the instructor."
@@ -93,7 +93,7 @@
 			"id" :   "c22.921",
 			"level" :       "G",
 			"url" :         "http://web.mit.edu/iap",
-			"limit" :       "Listeners allowed, space permitting",
+			"limit" :       "Listeners allowed, space permitting.",
 			"lottery" :     "Pre-register on WebSIS and attend first class.",
 			"grading" :     "A - F",
 			"contact" :     "Kathleen O\'Connell, NW12-208, 253-4220, katieo@mit.edu",
@@ -101,7 +101,7 @@
 			"course" :      "22",
 			"type" :        "Class",
 			"label" :       "22.921 - Nuclear Power Plant Dynamics and Control",
-			"prereqs" :     "none",
+			
 			"description" : "Introduction to reactor dynamics including subcritical multiplication, critical operation in absence of thermal feedback effects and effects of xenon, fuel and moderator temperature, etc. Derivation of point kinetics and dynamic period equations. Techniques for reactor control including signal validation, supervisory algorithms, model-based trajectory tracking, and rule-based control. Overview of light-water reactor startup. Lectures and demonstrations with use of the MIT Research Reactor.  Open to undergraduates with permission of instructor."
 		},
 		{
@@ -121,10 +121,9 @@
 				"Machon, Michelle"
 			],
 			"course" :      "9",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "9.93 - Intorduction to MATLAB for Brain and Cognitive Sciences",
-			"prereqs" :     "none",
 			"description" : "For undergraduates taking Course 9 IAP subjects for credit. See IAP Guide for details. This week-long intro to MATLAB will cover the basics of the MATLAB user interface and programming language. Through instructor presentations and daily problem sets you will learn about MATLAB syntax, general programming concepts such as functions, loops, and conditional statements, and how to analyze and visualize data in MATLAB. By no means is the class comprehensive; however we do hope that you will build skills and confidence with the programming enough to learn more on your own as necessary for other classes at MIT or lab work as a UROP."
 		},
 		{
@@ -139,7 +138,7 @@
 			"contact" :     "Olivier Chatot, robo-one@mit.edu",
 			"in-charge" :   "Tedrake, Russ",
 			"course" :      "6",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "6.095 - Humanoid Robotics Competition",
 			"prereqs" :     "C/C++ or other programming experience",
@@ -171,7 +170,7 @@
 			"contact" :     "Jerilyn Hill, 4-134, x8-5793, jhill@mit.edu",
 			"course" :      "3",
 			"type" :        "Class",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"label" :       "3.371/2.821/3.37 - Fabrication Technology",
 			"prereqs" :     "Permission of instructor",
 			"description" : "Discusses a wide variety of technologies including welding, brazing, soldering, casting, forging and non-destructive testing, especially as related to ship building and heavy fabrication. Emphasis on the underlying science of a given process rather than a detailed description of the technique or equipment. First half of subject meets with subject 3.37 in Fall Term; videotaped instruction in other terms."
@@ -188,7 +187,7 @@
 			"contact" :     "Sanjoy Mahajan, sanjoy@mit.edu",
 			"in-charge" :   "Mahajan, Sanjoy",
 			"course" :      "6",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "6.099 - Street-Fighting Mathematics",
 			"prereqs" :     "18.01 or equivalent",
@@ -206,10 +205,9 @@
 			"contact" :     "Gim Hom, g i m@mit.edu",
 			"in-charge" :   "Hom, Gim",
 			"course" :      "6",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "6.091 - Hands-On Introduction to EE Lab Skills",
-			"prereqs" :     "none",
 			"description" : "Introduction to basic electrical engineering concepts, components and laboratory techniques, covering resistors, capacitors, inductors, analog integrated circuits, power supplies and digital circuits. Five lab exercises with heavy emphasis on hands-on experience constructing projects using multi-meters, oscilloscopes, logic analyzers and other tools. Geared to freshmen and non-Course VI majors. Day 1: Intro to Safety; Electronic Components and Theory. Day 2: Use of Measurement Equipment: Multi-Meters & Oscilloscopes; Construction & Debugging of Simple Electronic Circuits. Day 3: Integrated Circuits: Timers, voltage Regulators, Digital ICs & Op Amps. Day 4: Digital Circuits. Day 5: Video, AD & DA conversion, motors."
 		},
 		{
@@ -228,7 +226,7 @@
 				"Brugos, Alejna"
 			],
 			"course" :      "6",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "6.911 - Transcribing Prosodic Structure of Spoken Utterances with ToBI",
 			"prereqs" :     "Permission of instructor Linguistics, phonology, phonetics, cognitive psychology, spe",
@@ -248,10 +246,9 @@
 				"Talbot, Jennifer"
 			],
 			"course" :      "21F",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21F.601/21F.651 - Italian I",
-			"prereqs" :     "none",
 			"description" : "Focus on basic oral expression, listening comprehension, and elementary reading and writing. Emphasis on the acquisition of vocabulary and grammatical concepts through active communication. Designed for students with no knowledge of Italian. Audio, video, and printed materials provide direct exposure to authentic Italian language and culture. For graduate credit, see 21F.651. This subject is by lottery only. Priority will be given to MISTI-Italy students with no prior knowledge of Italian. Lottery signup begins November 13, 2007 and runs through December 3, 2007. You must sign up on the FL&L Web Page! You will be notified via email of lottery results"
 		},
 		{
@@ -265,7 +262,7 @@
 			"contact" :     "Bruce Knuteson, 24-514, 452-2705, knuteson@mit.edu",
 			"course" :      "8",
 			"type" :        "Class",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"label" :       "8.20 - Introduction to Special Relativity",
 			"prereqs" :     "8.01, 18.01",
 			"description" : "Introduces the basic ideas and equations of Einstein\'s special theory of relativity. Topics include Lorentz transformations, length contraction and time dilation, four vectors, Lorentz invariants, relativistic energy and momentum, relativistic kinematics, Doppler shift, space-time diagrams, relativity paradoxes, and some concepts of general relativity. Intended for freshmen and sophomores. Not usable as a restricted elective by Physics majors. Credit cannot be received for 8.20 if credit for 8.033 is or has been received in the same or prior terms."
@@ -280,8 +277,8 @@
 			"in-charge" :   "Bowring, Sam",
 			"contact" :     "Sam Bowring, 54-1124, x3-3775, sbowring@mit.edu",
 			"course" :      "12",
-			"fee" :         "200.00 for Travel, food, lodging",
-			"listeners" :   "No listeners",
+			"fee" :         "200.00",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "12.120 - Environmental Earth Science Field Course",
 			"prereqs" :     "12.001, 12.102, or permission of instructor",
@@ -299,10 +296,9 @@
 			"contact" :     "Karen Gardner, E51-185, (617) 253-9759, kgardner@mit.edu",
 			"in-charge" :   "Keller, Evelyn Fox",
 			"course" :      "STS",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
-			"label" :       "STS.909 - Historical, Philosophical, and Sociological Aspects of \u00E2\u0080\u009CSynthetic Biology\u00E2\u0080\u009D",
-			"prereqs" :     "none",
+			"label" :       "STS.909 - Historical, Philosophical, and Sociological Aspects of 'Synthetic Biology'",
 			"description" : "This two-week intensive course geared towards graduate students and upper level undergraduates will begin with a brief overview of the history of efforts to synthesize life.  After identifying the different forms this ambition takes in the current renaissance of Synthetic Biology, we will then turn to an examination of some of the critical questions raised by these efforts.  Topics to be covered include the question of \"What is Life?\", debates about the Origin of Life, and conceptual, economic, and political implications of various kinds of success in Synthetic Biology.  Students will be expected to engage in individual projects (of a historical, philosophical, sociological, or ethnographic nature), and to report on these projects at the end of the course."
 		},
 		{
@@ -320,10 +316,9 @@
 				"Gill, Jack"
 			],
 			"course" :      "15",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "15.962 - High-Tech Start-ups",
-			"prereqs" :     "none",
 			"description" : "A pragmatic, fast-paced primer course on the dynamics of high-tech entrepreneurship designed for science and entrepreneurial faculty, graduate students in science, engineering, medicine, and entrepreneurship, upper-class science, engineering and entrepreneurial majors, and post-docs and interns with entrepreneurial interests. Features prestigious, industry guest speakers. Topics: VCs, Entrepreneurs, VC Firms, Startup Company Dynamics, stock options, compensations, financings, cap schemes, photonics case study, telecom case study, and high-tech career planning."
 		},
 		{
@@ -337,7 +332,7 @@
 			"contact" :     "Dr. Dwight Robinson, robinson.dwight@mgh.harvard.edu",
 			"course" :      "HST",
 			"type" :        "Class",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"label" :       "HST.021/HST.020 - Musculoskeletal Pathophysiology",
 			"prereqs" :     "Permission of Instructor",
 			"description" : "Growth and development of normal bone and joints, the process of mineralization, the biophysics of bone and response to stress and fracture, calcium and phosphate homeostasis and regulation by parathyroid hormone and vitamin D, and the pathogenesis of metabolic bone diseases and disease of connective tissue, joints, and muscles, with consideration of possible mechanisms and underlying metabolic derangements. (Only HST students may register under HST.020, graded P/D/F.) Enrollment is limited and only open to medical and graduate students."
@@ -347,7 +342,7 @@
 			"id" :   "c11.956",
 			"level" :       "H",
 			"url" :         "http://web.mit.edu/iap",
-			"limit" :       "Listeners allowed, space permitting",
+			"limit" :       "Listeners allowed, space permitting.",
 			"lottery" :     "Pre-register on WebSIS and attend first class.",
 			"topic" :       "Special Studies in Urban Studies and Planning",
 			"grading" :     "P/D/F",
@@ -360,7 +355,6 @@
 			"course" :      "11",
 			"type" :        "Class",
 			"label" :       "11.956 - Progressive Planning at DUSP and Beyond",
-			"prereqs" :     "none",
 			"description" : "In this discussion-based community building course, MCP students will reflect on radical planning perspectives and how they relate to a DUSP education. The course will draw on readings and will incorporate daily writing exercises. We will address issues of leadership and how planning and community organizing are interconnected. Within this framework, we will explore how students can shape their MCP experience in a meaningful way.  Additionally, students will receive support in identifying opportunities\u00E2\u0080\u0094at MIT and beyond\u00E2\u0080\u0094to explore and address social justice goals. The course will be held over dinner, brown bag or potluck-style"
 		},
 		{
@@ -374,7 +368,7 @@
 			"contact" :     "Lodovica Illari, 54-1612, x3-2286, illari@mit.edu",
 			"in-charge" :   "Illari, Lodovica",
 			"course" :      "12",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "12.310 - An Introduction to Weather Forecasting",
 			"prereqs" :     "8.01, 18.01",
@@ -391,7 +385,7 @@
 			"contact" :     "Ren\u00C3\u00A9e Caso, 7-337, 253-7792, yammie@mit.edu",
 			"in-charge" :   "Watson, Angela",
 			"course" :      "4",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "4.12A - Integrated Architecture Design Intensive Studio",
 			"prereqs" :     "4.111",
@@ -409,10 +403,10 @@
 			"contact" :     "Nick Altenbernd, 14E-303, x3-7894, altenb@mit.edu",
 			"in-charge" :   "Corbett, William",
 			"course" :      "21W",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21W.798 - Letter Writing",
-			"prereqs" :     "none",
+			
 			"description" : "The letter is perhaps our most ubiquitous yet least studied form of writing. Letters can be intimate or business-like, treasured or tossed out, paper-based or digital. Letters permit us to write in a range of voices and styles, and can give us a privileged insight into another person\'s view of life. We will read and discuss some published letters by several well known authors, and we will practice this supple art form by writing letters of different kinds."
 		},
 		{
@@ -430,8 +424,8 @@
 				"Ni, Bin"
 			],
 			"course" :      "6",
-			"fee" :         "150.00 for each  team to reserve place and  defray cost of kit",
-			"listeners" :   "No listeners",
+			"fee" :         "150.00 per team",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "6.185 - \"6.270 Autonomous Robot Design Competition\"",
 			"prereqs" :     "Permission of instructor readiness to work hard and have fun",
@@ -449,10 +443,9 @@
 			"contact" :     "Tobie Weiner, E53-484, x3-3649, iguanatw@mit.edu",
 			"in-charge" :   "Weiner, Tobie",
 			"course" :      "17",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "17.920 - Martin Luther King Jr. Design Seminar",
-			"prereqs" :     "none",
 			"description" : "Reading and discussion of special topics in the field of social science. Create and design an installation in Lobby 10 or develop a group project to benefit the MIT or Boston/Cambridge community for MIT\'s annual Martin Luther King, Jr. celebration in 2008. The first two weeks we\'ll discuss the ideas and goals of Dr. Martin Luther King, Jr., as well as themes surrounding all struggles against oppression and for equality, in order to create a design to connect people, in a figurative way, to such struggles. Students will work together and with faculty and staff in the MIT community to design the installation or collaborate on a project. The second two weeks of IAP we will break up into work groups to build the installation and/or develop and produce specific group projects."
 		},
 		{
@@ -472,10 +465,9 @@
 				"Hosseini, Paymon"
 			],
 			"course" :      "9",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "9.94 - Introduction to MATLAB for Brain and Cognitive Sciences (Sect II)",
-			"prereqs" :     "none",
 			"description" : "For undergraduates taking Course 9 IAP subjects for credit. See IAP Guide for details. May be repeated for credit. This week-long intro to MATLAB will cover the basics of the MATLAB user interface and programming language. Through instructor presentations and daily problem sets you will learn about MATLAB syntax, general programming concepts such as functions, loops, and conditional statements, and how to analyze and visualize data in MATLAB. By no means is the class comprehensive; however we do hope that you will build skills and confidence with the programming enough to learn more on your own as necessary for other classes at MIT or lab work as a UROP."
 		},
 		{
@@ -490,7 +482,7 @@
 			"contact" :     "Simi Hoque, 9-222, 324-5644, similar@mit.edu",
 			"in-charge" :   "Hoque, Simi",
 			"course" :      "4",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "4.185 - Floodspace",
 			"prereqs" :     "4.115, 4.143 or permission of instructor submit portfolio for review by Dec. 19",
@@ -508,7 +500,7 @@
 			"contact" :     "Teaching Assistant, 15976-ta@mit.edu",
 			"in-charge" :   "Grandinetti, Michael",
 			"course" :      "15",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "15.976 - Starting and Building a Successful High-Tech Venture",
 			"prereqs" :     "Permission of instructor Open to undergrads as well as grad students",
@@ -525,7 +517,7 @@
 			"contact" :     "Stephanie (Stevie) Gallarelli, 2-108, x3-4977, nonna@math.mit.edu",
 			"course" :      "18",
 			"type" :        "Class",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"label" :       "18.02A - Calculus",
 			"prereqs" :     "18.01A or 18.01",
 			"description" : "First half is taught during the last six weeks of the  Fall term; covers material in the first half of 18.02 (through double integrals). Second half of 18.02A can be taken either during IAP (daily lectures) or during the first half of the Spring term; it covers the remaining material in 18.02."
@@ -535,7 +527,7 @@
 			"id" :   "c21M.852",
 			"level" :       "U",
 			"url" :         "http://web.mit.edu/iap",
-			"limit" :       "No listeners",
+			"limit" :       "No listeners.",
 			"lottery" :     "Pre-register on WebSIS and attend first class.",
 			"grading" :     "P/D/F",
 			"contact" :     "Janet Sonenberg, 10-274, x3-1131, json@mit.edu",
@@ -558,7 +550,7 @@
 			"contact" :     "Sanjoy Mahajan, 5-122, x3-0602, sanjoy@mit.edu",
 			"in-charge" :   "Mahajan, Sanjoy",
 			"course" :      "18",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "18.098 - Street-Fighting Mathematics",
 			"prereqs" :     "18.01 or equivalent",
@@ -578,10 +570,9 @@
 				"Cohen, Miyuki Hatano"
 			],
 			"course" :      "21F",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21F.501/21F.551 - Beginning Japanese I",
-			"prereqs" :     "none",
 			"description" : "Introduction to modern standard Japanese. Emphasis on developing proficiency in speaking and listening, using basic grammar and vocabulary. Basic skills in reading and writing are also taught. Lab work required. For graduate credit see 21F.551. This is an intensive course. Student must attend all three sessions per day. One hour break for self-study between sessions. Absolutely no listeners allowed. This subject is by lottery only. Lottery signup begins November 13, 2007 and runs through December 3, 2007. You will be notified via email of lottery results. You must sign up on the FL&L Web Page!"
 		},
 		{
@@ -601,7 +592,7 @@
 				"International, Shell"
 			],
 			"course" :      "12",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "12.093 - Delivering Energy at Scale: Science, Technology, and Sustainable Development",
 			"prereqs" :     "Permission of instructor",
@@ -622,10 +613,9 @@
 				"Jhaveri, Sonal"
 			],
 			"course" :      "9",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "9.97 - Introduction to Neuroanatomy",
-			"prereqs" :     "none",
 			"description" : "This subject will be an intensive introduction to neuroanatomy, involving lectures, demonstrations, and hands-on laboratories, including a brain dissection. The course will not assume any prior knowledge of neuroanatomy, though some general knowledge of brain structures will be helpful. To register, email sdl@mit.edu between December 3rd and 21st. Do not email before December 3rd. Include your name, ID#, year at MIT, and major. Year at MIT will be a determining factor in the lottery, with preference given to upperclass students."
 		},
 		{
@@ -639,7 +629,7 @@
 			"contact" :     "John Fernandez, 5-418, 253-5366, fernande@mit.edu",
 			"course" :      "4",
 			"type" :        "Class",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"label" :       "4.287 - Graduate Architecture Internship",
 			"prereqs" :     "4.123",
 			"description" : "Work in an architect\'s office to gain experience, improve skills, and see the inner workings of an everyday architectural practice. Internships in all sizes of firms and in public and nonprofit agencies. Internships require full-time work for the entire IAP."
@@ -655,8 +645,8 @@
 			"contact" :     "Allison Cocuzzo, 3-9317, cocuzzo@mit.edu or Jim Elliot, 54-422, x3-6308, jle@mit.edu",
 			"in-charge" :   "Elliot, Jim",
 			"course" :      "12",
-			"fee" :         "200.00 for partial cost of transportation, food, and lodging",
-			"listeners" :   "No listeners",
+			"fee" :         "200.00",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "12.411 - Astronomy Field Camp",
 			"prereqs" :     "12.410J or 8.287J",
@@ -673,7 +663,7 @@
 			"contact" :     "John Bush, 2-392, x3-4387, bush@math.mit.edu",
 			"course" :      "18",
 			"type" :        "Class",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"label" :       "18.095 - Mathematics Lecture Series",
 			"prereqs" :     "18.01",
 			"description" : "Ten lectures by mathematics faculty members on interesting topics from both classical and modern mathematics. All lectures accessible to students with calculus background and an interest in mathematics. At each lecture, reading and exercises are assigned. Students prepare these for discussion in a weekly problem session. Students taking 18.095 for credit are expected to attend regularly and to do problem sets. Recitation Thursday at 10:30 or 1:00."
@@ -689,10 +679,9 @@
 			"contact" :     "Jeffrey Pearlin, 14N-305, x3-9776, pearlin@mit.edu",
 			"in-charge" :   "Rezvani, Leanna",
 			"course" :      "21F",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21F.301/21F.351 - French I",
-			"prereqs" :     "none",
 			"description" : "Introduction to the French language and culture with emphasis on the acquisition of vocabulary and grammatical concepts through active communication. Conducted entirely in French. Exposure to the language via a variety of authentic sources such as the Internet, audio, video and printed materials which help develop cultural awareness as well as linguistic proficiency. Coordinated language lab program. For graduate credit see 21F.351. This subject is by lottery only. Lottery signup begins November 13, 2007 and runs through December 3, 2007. You will be notified via email of lottery results. You must sign up on the FL&L Web Page!"
 		},
 		{
@@ -700,7 +689,7 @@
 			"id" :   "c11.959",
 			"level" :       "H",
 			"url" :         "http://web.mit.edu/iap",
-			"limit" :       "No listeners",
+			"limit" :       "No listeners.",
 			"lottery" :     "Pre-register on WebSIS and attend first class.",
 			"topic" :       "IAP Special Studies in Urban Studies and Planning",
 			"grading" :     "P/D/F",
@@ -723,10 +712,9 @@
 			"contact" :     "Jeffrey Pearlin, 14N-305, x3-9776, pearlin@mit.edu",
 			"in-charge" :   "Reyes-Cubides, William",
 			"course" :      "21F",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21F.701/21F.751 - Spanish I",
-			"prereqs" :     "none",
 			"description" : "Introduction to understanding, speaking, reading, and writing Spanish. Maximal use of fundamentals of grammar in active communication. Audio- and video-based language laboratory program coordinated with and supplemented to class work. For graduate credit see 21F.751. This subject is by lottery only. Lottery sign up begins November 13, 2007 and runs through December 3, 2007. You will be notified via email of lottery results. You must sign up on the FL&L Web Page!"
 		},
 		{
@@ -747,7 +735,7 @@
 				"Yang, Yang"
 			],
 			"course" :      "6",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "6.187 - 6.370: The BattleCode Programming Competition",
 			"prereqs" :     "Permission of instructor Programming Experience",
@@ -764,7 +752,7 @@
 			"contact" :     "John Fernandez, 5-418, 253-5366, fernande@mit.edu",
 			"course" :      "4",
 			"type" :        "Class",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"label" :       "4.280 - Undergraduate Architecture Internship",
 			"prereqs" :     "4.125",
 			"description" : "Work in an architect\'s office to gain experience, improve skills, and see the inner workings of an everyday architectural practice. Internships in all sizes of firms and in public and nonprofit agencies. Internships require full-time work for the entire IAP."
@@ -784,7 +772,7 @@
 				"Department, Physics"
 			],
 			"course" :      "22",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "22.920/8.22 - Interactive Introduction to Nuclear Magnetic Resonance",
 			"prereqs" :     "18.02",
@@ -805,7 +793,7 @@
 				"Jr."
 			],
 			"course" :      "15",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "15.975 - The Nuts and Bolts of Business Plans",
 			"prereqs" :     "Permission of instructor Open to all departments and schools",
@@ -822,8 +810,8 @@
 			"contact" :     "Jeffrey Pearlin, 14N-305, x3-9776, pearlin@mit.edu",
 			"in-charge" :   "Gessa, Ricardo",
 			"course" :      "21F",
-			"fee" :         "2000.00 for Travel and lodging (estimated)",
-			"listeners" :   "No listeners",
+			"fee" :         "2000.00",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21F.782 - Spanish II (Study Abroad)",
 			"prereqs" :     "21F.701",
@@ -834,7 +822,7 @@
 			"id" :   "c21M.820",
 			"level" :       "U",
 			"url" :         "http://web.mit.edu/iap",
-			"limit" :       "No listeners",
+			"limit" :       "No listeners.",
 			"lottery" :     "Pre-register on WebSIS and attend first class.",
 			"topic" :       "Technical Theater Special Topics",
 			"grading" :     "A - F",
@@ -855,7 +843,7 @@
 			"id" :   "c11.963",
 			"level" :       "H",
 			"url" :         "http://web.mit.edu/iap",
-			"limit" :       "No listeners",
+			"limit" :       "No listeners.",
 			"lottery" :     "Pre-register on WebSIS and attend first class.",
 			"topic" :       "Special Studies in Urban Studies and Planning",
 			"grading" :     "P/D/F",
@@ -887,7 +875,7 @@
 				"Perlow, Karen"
 			],
 			"course" :      "21M",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21M.805 - \"SubUrbia\"",
 			"prereqs" :     "At least one studio subject or permission of instructor",
@@ -898,7 +886,7 @@
 			"id" :   "c11.958",
 			"level" :       "H",
 			"url" :         "http://web.mit.edu/iap",
-			"limit" :       "Listeners allowed, space permitting",
+			"limit" :       "Listeners allowed, space permitting.",
 			"lottery" :     "Pre-register on WebSIS and attend first class.",
 			"topic" :       "IAP Special Studies in Urban Studies and Planning",
 			"grading" :     "P/D/F",
@@ -907,7 +895,6 @@
 			"course" :      "11",
 			"type" :        "Class",
 			"label" :       "11.958 - Getting Things Implemented: Strategy, People, Performance and Leadership",
-			"prereqs" :     "none",
 			"description" : "Developed with the needs and interests of planners in mind, this course is a fast-paced, case-driven introduction to developing strategy for organizations and projects, managing operations, recruiting and developing talent, taking calculated risks, measuring results (performance), and leading adaptive change, for example where new mental models and habits are required but also challenging to promote. We will use real-world decision problems and opportunities\u00E2\u0080\u0094from the public, private, and nongovernmental/nonprofit sectors\u00E2\u0080\u0094to cover a range of leading concepts and implementation tools.  Note: There will be a reading assignment (on Stellar) for the first class. Written assignments include brief exercises during the week plus a take-home final exam due 1/23/08."
 		},
 		{
@@ -922,7 +909,7 @@
 			"contact" :     "Lydia Chilton, 6.470-chair@mit.edu",
 			"in-charge" :   "Miller, Robert",
 			"course" :      "6",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "6.188 - 6.470   Web Programming Competition",
 			"prereqs" :     "Permission of instructor some programming",
@@ -957,7 +944,7 @@
 			"contact" :     "Barbara C. Fullerton, Barbara_Fullerton@meei.harvard.edu",
 			"in-charge" :   "Fullerton, Barbara C.",
 			"course" :      "HST",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "HST.718 - Anatomy of Speech and Hearing",
 			"prereqs" :     "7.012 or 7.013 or 7.014, permission of instructor",
@@ -977,7 +964,7 @@
 				"Gammons, David"
 			],
 			"course" :      "21M",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21M.873 - Production of Original Theater Piece",
 			"prereqs" :     "Permission of instructor",
@@ -988,7 +975,7 @@
 			"id" :   "c11.130",
 			"level" :       "U",
 			"url" :         "http://web.mit.edu/iap",
-			"limit" :       "No listeners",
+			"limit" :       "No listeners.",
 			"lottery" :     "Pre-register on WebSIS and attend first class.",
 			"grading" :     "A - F",
 			"contact" :     "Eric Klopfer, 10-337, x3-2025, klopfer@mit.edu",
@@ -1010,10 +997,9 @@
 			"contact" :     "Jeffrey Pearlin, 14N-305, x3-9776, pearlin@mit.edu",
 			"in-charge" :   "Steinberg, Roberta",
 			"course" :      "21F",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21F.217/21F.218 - Workshop in Strategies for Effective Teaching (ELS)",
-			"prereqs" :     "none",
 			"description" : "A mini-module for international teaching assistants. Covers special problems in teaching when English is a second language and the USA a second culture. Videotaping of practice sessions for feedback. Individualized programs to meet different needs. Graduate TA\'s have priority. This subject is by lottery only. Lottery signup begins November 13, 2007 and runs through December 3, 2007. You will be notified via email of lottery results. You must sign up on the FL&L Web Page!"
 		},
 		{
@@ -1028,8 +1014,8 @@
 			"contact" :     "Benjamin Charrow, maslab-2008-staff@mit.edu",
 			"in-charge" :   "Kaelbling, Prof.  Leslie",
 			"course" :      "6",
-			"fee" :         "200.00 for team fee to defray the cost of materials",
-			"listeners" :   "No listeners",
+			"fee" :         "200.00 per team",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "6.186 - MASLab - Mobile Autonomous Systems Laboratory:",
 			"prereqs" :     "Permission of instructor Programming Experience",
@@ -1046,9 +1032,8 @@
 			"contact" :     "Nafi Toksoz, E34-440, x3-7852, toksoz@mit.edu",
 			"course" :      "12",
 			"type" :        "Class",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"label" :       "12.213 - Alternate Energy Sources",
-			"prereqs" :     "none",
 			"description" : "Explores a number of alternative energy sources such as geothermal energy (heat from the Earth\'s interior), wind, natural gas, and solar energy. Includes a field trip to visit sites where alternative energy is being harvested or generated. Content and focus of subject varies from year to year. This January, the course outline will include: a general energy summary, discussion of traditional fossil fuels, nuclear energy, geothermal energy, and biofuels. There will also be local field trips during the January term to visit energy-related sites. Additionally, there will be an optional for-credit field trip during spring break (24-28 March 08) to sites (either in California or the Caribbean) where geothermal and wind energy are being produced on a large scale."
 		},
 		{
@@ -1080,10 +1065,9 @@
 				"Chatterjee, Dr.Nilanjan"
 			],
 			"course" :      "12",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "12.141 - Electron Microprobe Analysis",
-			"prereqs" :     "none",
 			"description" : "Introduction to the theory of x-ray microanalysis through the electron microprobe including ZAF matrix corrections. Techniques to be discussed are wavelength and energy dispersive spectrometry, scanning backscattered electron, secondary electron, cathodoluminescence, and x-ray imaging. Lab sessions involve use of the electron microprobe. Offered for undergraduate credit, but persons interested in an in-depth discussion of quantitative x-ray analysis are invited to participate. Students will be required to complete lab exercises to obtain credit. Find required reading at URL."
 		},
 		{
@@ -1097,7 +1081,7 @@
 			"contact" :     "Jeffrey Pearlin, 14N-305, x3-9776, pearlin@mit.edu",
 			"in-charge" :   "Crocker, Ellen",
 			"course" :      "21F",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21F.405 - Germany Today: Intensive Study of German Language and Culture",
 			"prereqs" :     "21F.403 or 21F.404",
@@ -1118,7 +1102,7 @@
 				"Scepanovic, Danilo"
 			],
 			"course" :      "6",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"type" :        "Class",
 			"label" :       "6.094 - Introduction to MATLAB",
 			"prereqs" :     "ability to program in any language, 18.03, linear algebra",
@@ -1135,7 +1119,7 @@
 			"contact" :     "Professor Herbert H. Sawin, 66-568, x3-4570, hhsawin@mit.edu",
 			"course" :      "10",
 			"type" :        "Class",
-			"listeners" :   "Listeners allowed, space permitting",
+			"listeners" :   "Listeners allowed, space permitting.",
 			"label" :       "10.493 - Integrated Chemical Engineering Topics II",
 			"prereqs" :     "10.490 or 10.491",
 			"description" : "Chemical engineering problems presented and analyzed in an industrial context. Emphasis on the integration of fundamentals with material property estimation, process control, product development, and computer simulation. Integration of societal issues, such as engineering ethics, environmental and safety considerations, and impact of technology on society are addressed in the context of case studies. Many processes are sufficiently complex and involve so many parameters that physically based models cannot be readily constructed. Statistical approaches for their analysis will be demonstrated to characterize such systems. Concepts such as experimental error, design of experiments, and goodness of fit will be discussed. Lab experiments will be performed and analyzed to optimize a system using statistical design of experiments."
@@ -1151,16 +1135,16 @@
 			"grading" :     "P/D/F",
 			"contact" :     "Peggy Cain, 7-231, 253-0241, peggym@MIT.EDU",
 			"in-charge" :   [
-				"Santos, Ad\u00C3\u00A8le Naud\u00C3\u00A9",
+				"Santos, Adele Naude",
 				"Yoon, Meejin",
 				"Frenchman, Dennis"
 			],
 			"course" :      "11",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "11.957 - Special Problems in Architectural Design, Taipei International Workshop: Retrofitting Central Xizhi for Livability",
 			"prereqs" :     "Permission of instructor Permission of instructor Open to MArch level 2 & 3, SMArchS",
-			"description" : "During the bubble economy of the 60s and 70s, Xizhi, a satellite city to Taipei, was densely over built. The uncontrolled growth resulted in an environment lacking in the qualities that define urban \u00E2\u0080\u0098livability.\u00E2\u0080\u0099 Minimal public facilities or open space and chaotic roadways severing the urban fabric resulted in a pedestrian unfriendly environment. The central area, housing 40,000 people in an area of 4 km X 2 km, will be the focus of the workshop. The purpose is to make Xizhi a livable and physically reconnected environment employing both temporal and permanent strategies. The challenge is to \u00E2\u0080\u009Cretrofit\u00E2\u0080\u009D this area, inserting spaces and functions into the existing urban fabric without massive clearing. Students submit a 1-page statement of interest and abbreviated portfolio featuring one or two design projects. May also register under 4.199."
+			"description" : "During the bubble economy of the 60s and 70s, Xizhi, a satellite city to Taipei, was densely over built. The uncontrolled growth resulted in an environment lacking in the qualities that define urban 'livability.' Minimal public facilities or open space and chaotic roadways severing the urban fabric resulted in a pedestrian unfriendly environment. The central area, housing 40,000 people in an area of 4 km X 2 km, will be the focus of the workshop. The purpose is to make Xizhi a livable and physically reconnected environment employing both temporal and permanent strategies. The challenge is to 'retrofit' this area, inserting spaces and functions into the existing urban fabric without massive clearing. Students submit a 1-page statement of interest and abbreviated portfolio featuring one or two design projects. May also register under 4.199."
 		},
 		{
 			"total-units" : "4",
@@ -1174,7 +1158,6 @@
 			"course" :      "HST",
 			"type" :        "Class",
 			"label" :       "HST.960 - At the Limits of Medicine: Philosophy, Religion, Literature",
-			"prereqs" :     "none",
 			"description" : "Critical examination of modern culture\u00E2\u0080\u0099s view of human beings (and God) and what it reveals about its attitude toward death. Students explore two descriptions of modern deaths, two essays contemplating the egocentric nature of man, the radical secularization of the concept of man in the 19th century, and two alternative views that restitute human goodness without religion or sentimentality."
 		},
 		{
@@ -1192,11 +1175,10 @@
 				"Berka, Sigrid"
 			],
 			"course" :      "21F",
-			"fee" :         "2000.00 for Travel and Lodging (Estimated cost)",
-			"listeners" :   "No listeners",
+			"fee" :         "2000.00",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21F.400/21F.450 - German I (Study Abroad)",
-			"prereqs" :     "none",
 			"description" : "Introduction to German language and culture. Class conducted in Germany with MIT instructors. Acquisition of vocabulary and grammatical concepts through active communication. Audio, video, and printed materials provide direct exposure to authentic German language and culture. Self-paced language lab program is fully coordinated with textbook/workbook. Development of effective basic communication skills. Students responsible for travel and lodging fees. Field trips introduce students to Germany as a site of science and technology, culture and history. Limited enrollment. Lotteried subject. Lottery signup begins October 1, 2007 and runs through Noon on November 1, 2007. A deposit of $500 will be required by December 1. You must sign up on the FL&L Web Page!"
 		},
 		{
@@ -1210,10 +1192,9 @@
 			"contact" :     "Jeffrey Pearlin, 14N-305, x3-9776, pearlin@mit.edu",
 			"in-charge" :   "Rieger, Sylvia",
 			"course" :      "21F",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "21F.401/21F.451 - German I",
-			"prereqs" :     "none",
 			"description" : "Introduction to German language and culture. Acquisition of vocabulary and grammatical concepts through active communication. Audio, video, and printed materials provide direct exposure to authentic German language and culture. Self-paced language lab program is fully coordinated with textbook/workbook. Development of effective basic communication skills. For graduate credit see 21F.451. This subject is by lottery only. Lottery signup begins November 13, 2007 and runs through December 3, 2007. You will be notified via email of lottery results. You must sign up on the FL&L Web Page!"
 		},
 		{
@@ -1230,7 +1211,7 @@
 			"contact" :     "Dr. Rebecca Betensky, betensky@hsph.harvard.edu",
 			"course" :      "HST",
 			"type" :        "Class",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"label" :       "HST.190/HST.191 - Introduction to Biostatistics and Epidemiology",
 			"prereqs" :     "18.02",
 			"description" : "Fundamentals of biostatistics and epidemiology. Trains students how to comprehend, critique and communicate findings from biomedical literature. How to assess the importance of chance in the interpretation of experimental data. Topics include probability theory, normal sampling, chi-squared and t-tests, analysis of variance, linear regression and survival analysis, as well has how to perform elementary calculations using the statistical package STATA. How to identify and prevent bias in observational studies. Causal inference, types of bias (confounding, selection and information bias), key study designs (randomized trials, cohort and case-control studies, and screening programs). Only HST students may register under HST.190, graded P/D/F. Enrollment is limited and is only open to medical and graduate students."
@@ -1246,7 +1227,7 @@
 			"contact" :     "Annette Horne-Williams, 7-337, 253-7387, ahwill@mit.edu",
 			"in-charge" :   "Paturzo, Paul",
 			"course" :      "4",
-			"listeners" :   "No listeners",
+			"listeners" :   "No listeners.",
 			"type" :        "Class",
 			"label" :       "4.102 - Drawing for Architects",
 			"prereqs" :     "4.111 (formerly 4.101)",

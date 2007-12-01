@@ -407,7 +407,7 @@
             "id":           "s11.957a",
             "timeAndPlace": "Jan 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, 31 @ 9:00 - 17:00 (TBA)",
             "instructor":   [
-                "Santos, AdÃ¨le NaudÃ©",
+                "Santos, Adele Naude",
                 "Yoon, Meejin",
                 "Frenchman, Dennis"
             ],

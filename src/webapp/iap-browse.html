@@ -64,7 +64,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="width: 8em;">
+                            <td style="width: 5em;">
                                 <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".course" id='course-facet'></div>
                                 <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:facetLabel="total units" ex:expression=".total-units" id='total-units-facet'></div>
                             </td>
@@ -119,9 +119,37 @@
             </div>
 
             <div class="course-body">
-                <div ex:content=".topic" class="course-topic"></div>
-                <div ex:content=".description" class="course-description"></div>
-                <div ex:if-exists=".prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
+            	<table>
+               	<tr>
+                		<td colspan="2" style="padding-bottom: 0.5em">
+                			<div ex:content=".topic" class="course-topic"></div>
+                		</td>
+                	</tr>
+                	<tr>
+                		<td colspan="2">
+                			<div ex:content=".description"></div>
+                		</td>
+                	</tr>
+                	<tr>
+                		<td style="padding: 0.8em">
+								<div ex:if-exists=".prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
+								<div ex:content=".lottery" ></div>
+								<div ex:content=".listeners"></div>
+								<div ex:content=".limit"></div>
+                		</td>
+                		<td width ="30%" style="padding: 0.8em">
+                			<div ex:if-exists=".level">Level: <span ex:content=".level"></span></div>
+                			<div ex:if-exists=".total-units">Total Units: <span ex:content=".total-units"></span></div>
+                			<div ex:if-exists=".grading">Grading: <span ex:content=".grading"></span></div>
+                			<div ex:if-exists=".fee">Fee: $<span ex:content=".fee"></span></div>
+                		</td>
+                	</tr>
+                	<tr>
+                		<td colspan="2">
+                			<div ex:if-exists=".contact">For more information, contact <span ex:content=".contact"></span></div>
+                		</td>
+                	</tr>
+                </table>
                 
                 <div ex:content="!class">
                     <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
