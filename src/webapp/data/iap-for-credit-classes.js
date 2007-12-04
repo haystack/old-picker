@@ -1232,6 +1232,23 @@
 			"label" :       "4.102 - Drawing for Architects",
 			"prereqs" :     "4.111 (formerly 4.101)",
 			"description" : "Focuses on drawing from observation and explores a range of non-digital media. Exercises use still life arrangements as well as the human figure, and includes gesture drawing, composition and interior perspective. Charcoal, oil pastel, India ink and acrylic paint used to develop a broad range of drawing techniques that can be applied to design studio work. Enrollment limited to 15 students. Intended for undergraduate Course 4 majors and minors intending to take 4.113 this spring. If there is room, others will be considered. Submit your name, email address, major and minor, and whether you have preregistered for 4.113 to Annette Horne-Williams by December 7."
+		},
+		{
+			"total-units" : "6",
+			"level" :       "U",
+			"id" :          "c6.090",
+			"url" :         "http://web.mit.edu/6.090/www/",
+			"lottery" :     "Pre-register on WebSIS and attend first class.",
+			"topic" :       "Special Subjects in Electrical Engineering and Computer Science",
+			"grading" :     "P/D/F",
+			"in-charge" :   "Kaelbling, Leslie",
+			"contact" :     "Waseem Daher, 6.090@mit.edu",
+			"course" :      "6",
+			"listeners" :   "No listeners",
+			"type" :        "Class",
+			"label" :       "6.090 - Building Programming Experience in Python: A Lead-In to 6.01",
+			"prereqs" :     "Permission of instructor",
+			"description" : "Intended for students with some elementary programming background (e.g., at the level of IAP 6.189, but in any programming language), and who feel they would benefit from additional practice in program design, implementation, and debugging. The course is programming-intensive, conducted primarily in the form of supervised programming labs with a few lectures. Prior to enrolling, students must submit the self-diagnostic test at http://courses.csail.mit.edu/6.01/spring08/diagnostic/test.html."
 		}
 	]
 }

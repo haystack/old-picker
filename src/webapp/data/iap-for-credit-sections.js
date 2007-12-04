@@ -100,10 +100,6 @@
             "class":        "c21F.301/21F.351"
         },
         {
-            "id":           "s11.965a",
-            "timeAndPlace": "Jan 1, 28, 29, 30, 31 @ 17:00 - 19:30 (TBA)"
-        },
-        {
             "id":           "s11.959a",
             "timeAndPlace": [
                 "Jan 7, 8, 9, 10, 11, 14, 15, 16, 17, 18 @ 13:00 - 15:00 (TBA)",
@@ -653,7 +649,15 @@
             "type":       "Section",
             "class":      "c11.963",
             "id":         "s11.963a"
-        }
+        },
+        {
+			"instructor" : "Kaelbling, Leslie",
+			"timeAndPlace": "Jan 22, 23, 24, 25, 28, 29, 30, 31 @ 14:00 - 15:30 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=32&Buildings=go'>32-044</a>)",
+			"label" :      "s6.090a",
+			"type" :       "Section",
+			"class" :      "c6.090",
+			"id" :      "s6.090a"
+		}
     ],
     "types":      {
         "Section": {
