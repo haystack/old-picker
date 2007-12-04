@@ -6,7 +6,7 @@
 var days = [];
 function resetDays() {
     days = [];
-    for (var i = 0; i < 31; i++) {
+    for (var i = 0; i < 31 + 7; i++) { // go into February, too
         days.push({ timeSpans: [], lectures: [], conflict: false, preview: false });
     }
 }
@@ -38,7 +38,7 @@ function updateIAPTimegrid(preview, previewSectionID) {
         var startMinute = startTime.getHours() * 60 + startTime.getMinutes();
         var endMinute = endTime.getHours() * 60 + endTime.getMinutes();
         
-        var dayOfMonth = startTime.getDate();
+        var dayOfMonth = (startTime.getMonth() * 31) + startTime.getDate(); // go into February, too
         var day = days[dayOfMonth - 1];
         if (preview) {
             day.preview = true;
@@ -96,7 +96,7 @@ function constructCalendar() {
         } else {
             td.id = "day-" + d;
             td.className = "calendar-cell free-day";
-            td.innerHTML = new String(d + 1);
+            td.innerHTML = new String((d % 31) + 1);
         }
         td.onmouseover = function(evt) {
             evt = (evt) ? evt : event;
@@ -107,7 +107,7 @@ function constructCalendar() {
     var dayOfMonth = -new Date(2008, 0, 1).getDay(); // 0 is Sunday
     while (dayOfMonth < 31) {
         var tr = table.insertRow(table.rows.length);
-        for (var c = 0; c < 7 && dayOfMonth < 31; c++) {
+        for (var c = 0; c < 7; c++) {
             var td = tr.insertCell(c);
             makeDay(td, dayOfMonth);
             dayOfMonth++;

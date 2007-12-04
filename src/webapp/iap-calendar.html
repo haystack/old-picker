@@ -13,7 +13,7 @@
         <link type="text/css" rel="stylesheet" href="iap-calendar.css" />
         <script>
             var days = [];
-            for (var i = 0; i < 31; i++) {
+            for (var i = 0; i < 31 + 7; i++) { // go into February, too
                 days.push({ lectures: [], conflict: false });
             }
             
@@ -48,7 +48,7 @@
                         var startMinute = startTime.getHours() * 60 + startTime.getMinutes();
                         var endMinute = endTime.getHours() * 60 + endTime.getMinutes();
                         
-                        var dayOfMonth = startTime.getDate();
+                        var dayOfMonth = (startTime.getMonth() * 31) + startTime.getDate(); // go into February, too
                         var day = days[dayOfMonth - 1];
                         if (!day.conflict) {
                             for (var j = 0; j < day.lectures.length; j++) {
@@ -99,7 +99,7 @@
                         if (d >= 0) {
                             td.id = "day-" + d;
                             td.className = "calendar-cell";
-                            td.innerHTML = "<div class='day-of-month'>" + new String(d + 1) + "</div>" +
+                            td.innerHTML = "<div class='day-of-month'>" + new String((d % 31) + 1) + "</div>" +
                                 "<div class='calendar-cell-content'></div>";
                                 
                             var contentDiv = td.childNodes[1];
@@ -142,7 +142,7 @@
                     var dayOfMonth = -new Date(2008, 0, 1).getDay(); // 0 is Sunday
                     while (dayOfMonth < 31) {
                         var tr = table.insertRow(table.rows.length);
-                        for (var c = 0; c < 7 && dayOfMonth < 31; c++) {
+                        for (var c = 0; c < 7; c++) { // go into February, too
                             var td = tr.insertCell(c);
                             makeDay(td, dayOfMonth);
                             dayOfMonth++;
