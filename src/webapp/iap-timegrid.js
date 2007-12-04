@@ -72,6 +72,10 @@ function updateIAPTimegrid(preview, previewSectionID) {
     for (var i = 0; i < days.length; i++) {
         var day = days[i];
         var td = document.getElementById("day-" + i);
+        if (td == null) {
+            continue;
+        }
+        
         var preview = day.preview ? "preview-" : "";
         var classes = ["calendar-cell"];
         

@@ -2,11 +2,11 @@
     "items":      [
         {
             "id":           "sHST.718a",
-            "timeAndPlace": "Jan 1, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, 31 @ 9:30 - 13:00 (HMS)",
             "instructor":   "Fullerton, Barbara C.",
             "label":        "sHST.718a",
             "type":         "Section",
-            "class":        "cHST.718"
+            "class":        "cHST.718",
+            "timeAndPlace": "Jan 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, 31, Feb 1 @ 9:30 - 13:00 (HMS)"
         },
         {
             "id":           "s4.102a",
@@ -18,19 +18,19 @@
         },
         {
             "id":           "s21F.782a",
-            "timeAndPlace": "Jan 1, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, 31 @ 9:00 - 17:00 (Spain)",
             "instructor":   "Gessa, Ricardo",
             "label":        "s21F.782a",
             "type":         "Section",
-            "class":        "c21F.782"
+            "class":        "c21F.782",
+            "timeAndPlace": "Jan 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, 31, Feb 1 @ 9:00 - 17:00 (Spain)"
         },
         {
             "id":           "s4.287a",
-            "timeAndPlace": "Jan 1, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, 31 @ 9:00 - 17:00 (Boston Area Firms)",
             "instructor":   "Fernandez, J.",
             "label":        "s4.287a",
             "type":         "Section",
-            "class":        "c4.287"
+            "class":        "c4.287",
+            "timeAndPlace": "Jan 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, 31, Feb 1 @ 9:00 - 17:00 (Boston Area Firms)"
         },
         {
             "id":           "s15.962a",
@@ -45,11 +45,11 @@
         },
         {
             "id":           "s8.20a",
-            "timeAndPlace": "Jan 1, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30 @ 10:30 - 12:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=4&Buildings=go'>4-370</a>)",
             "instructor":   "Knuteson, Bruce",
             "label":        "s8.20a",
             "type":         "Section",
-            "class":        "c8.20"
+            "class":        "c8.20",
+            "timeAndPlace": "Jan 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, Feb 1 @ 10:30 - 12:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=4&Buildings=go'>4-370</a>)"
         },
         {
             "id":           "s10.493a",
@@ -69,19 +69,19 @@
         },
         {
             "id":           "s4.280a",
-            "timeAndPlace": "Jan 1, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, 31 @ 9:00 - 17:00 (Boston Area Firms)",
             "instructor":   "Fernandez, J.",
             "label":        "s4.280a",
             "type":         "Section",
-            "class":        "c4.280"
+            "class":        "c4.280",
+            "timeAndPlace": "Jan 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, 31, Feb 1 @ 9:00 - 17:00 (Boston Area Firms)"
         },
         {
             "id":           "s4.12Aa",
-            "timeAndPlace": "Jan 1, 8, 9, 10, 11, 15, 16, 17, 18, 22, 23, 24, 25, 29, 30, 31 @ 10:00 - 17:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=5&Buildings=go'>5-414</a>)",
             "instructor":   "Watson, Angela",
             "label":        "s4.12Aa",
             "type":         "Section",
-            "class":        "c4.12A"
+            "class":        "c4.12A",
+            "timeAndPlace": "Jan 8, 9, 10, 11, 15, 16, 17, 18, 22, 23, 24, 25, 29, 30, 31, Feb 1 @ 10:00 - 17:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=5&Buildings=go'>5-414</a>)"
         },
         {
             "id":           "s18.095a",
@@ -93,11 +93,11 @@
         },
         {
             "id":           "s21F.301/21F.351a",
-            "timeAndPlace": "Jan 1, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, 31 @ 9:00 - 12:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=14N&Buildings=go'>14N-225</a>)",
             "instructor":   "Rezvani, Leanna",
             "label":        "s21F.301/21F.351a",
             "type":         "Section",
-            "class":        "c21F.301/21F.351"
+            "class":        "c21F.301/21F.351",
+            "timeAndPlace": "Jan 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, 31, Feb 1 @ 9:00 - 12:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=14N&Buildings=go'>14N-225</a>)"
         },
         {
             "id":           "s11.959a",
@@ -112,25 +112,25 @@
         },
         {
             "id":           "s12.411a",
-            "timeAndPlace": "Jan 1, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30 @ 0:00 - 23:59 (Flagstaff AZ)",
             "instructor":   "Elliot, Jim",
             "label":        "s12.411a",
             "type":         "Section",
-            "class":        "c12.411"
+            "class":        "c12.411",
+            "timeAndPlace": "Jan 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, Feb 1 @ 0:00 - 23:59 (Flagstaff AZ)"
         },
         {
             "id":           "s6.095a",
-            "timeAndPlace": "Jan 1, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30 @ 13:00 - 17:00 (TBA)",
             "instructor":   "Tedrake, Russ",
             "label":        "s6.095a",
             "type":         "Section",
-            "class":        "c6.095"
+            "class":        "c6.095",
+            "timeAndPlace": "Jan 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, Feb 1 @ 13:00 - 17:00 (TBA)"
         },
         {
             "id":           "s4.199a",
             "timeAndPlace": "Jan 15, 16, 17, 18, 21, 22, 23, 24, 25, 28, 29, 30, 31 @ 0:00 - 17:00 (Taipei)",
             "instructor":   [
-                "Santos, Ad\u00C3\u00A8le Naud\u00C3\u00A9",
+                "Santos, AdÃ¨le NaudÃ©",
                 "Yoon, Meejin",
                 "Frenchman, Dennis"
             ],
@@ -140,14 +140,14 @@
         },
         {
             "id":           "sHST.190/HST.191a",
-            "timeAndPlace": "Jan 1, 7, 9, 11, 14, 16, 18, 23, 25, 28, 30 @ 13:30 - 16:00 (MEC 209 HMS)",
             "instructor":   [
                 "Betensky, Dr. Rebecca",
                 "Hernan, Dr. Miguel"
             ],
             "label":        "sHST.190/HST.191a",
             "type":         "Section",
-            "class":        "cHST.190/HST.191"
+            "class":        "cHST.190/HST.191",
+            "timeAndPlace": "Jan 7, 9, 11, 14, 16, 18, 23, 25, 28, 30, Feb 1 @ 13:30 - 16:00 (MEC 209 HMS)"
         },
         {
             "id":           "sHST.146/HST.147a",
@@ -162,11 +162,11 @@
         },
         {
             "id":           "s18.02Aa",
-            "timeAndPlace": "Jan 1, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30 @ 12:00 - 13:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=54&Buildings=go'>54-100</a>)",
             "instructor":   "Mattuck, Arthur",
             "label":        "s18.02Aa",
             "type":         "Section",
-            "class":        "c18.02A"
+            "class":        "c18.02A",
+            "timeAndPlace": "Jan 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, Feb 1 @ 12:00 - 13:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=54&Buildings=go'>54-100</a>)"
         },
         {
             "id":           "s6.911a",
@@ -218,19 +218,19 @@
         },
         {
             "id":           "s18.098a",
-            "timeAndPlace": "Jan 1, 7, 9, 11, 14, 16, 18, 23, 25, 28, 30 @ 13:00 - 14:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=4&Buildings=go'>4-231</a>)",
             "instructor":   "Mahajan, Sanjoy",
             "label":        "s18.098a",
             "type":         "Section",
-            "class":        "c18.098"
+            "class":        "c18.098",
+            "timeAndPlace": "Jan 7, 9, 11, 14, 16, 18, 23, 25, 28, 30, Feb 1 @ 13:00 - 14:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=4&Buildings=go'>4-231</a>)"
         },
         {
             "id":           "s17.920a",
-            "timeAndPlace": "Jan 1, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30 @ 15:00 - 17:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=E51&Buildings=go'>E51-325</a>)",
             "instructor":   "Weiner, Tobie",
             "label":        "s17.920a",
             "type":         "Section",
-            "class":        "c17.920"
+            "class":        "c17.920",
+            "timeAndPlace": "Jan 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 22, 23, 24, 25, 28, 29, 30, Feb 1 @ 15:00 - 17:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=E51&Buildings=go'>E51-325</a>)"
         },
         {
             "id":           "s12.213a",
@@ -286,11 +286,11 @@
         },
         {
             "id":           "s4.185a",
-            "timeAndPlace": "Jan 1, 10, 11, 17, 18, 24, 25, 31 @ 12:00 - 16:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=5&Buildings=go'>5-414</a>)",
             "instructor":   "Hoque, Simi",
             "label":        "s4.185a",
             "type":         "Section",
-            "class":        "c4.185"
+            "class":        "c4.185",
+            "timeAndPlace": "Jan 10, 11, 17, 18, 24, 25, 31, Feb 1 @ 12:00 - 16:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=5&Buildings=go'>5-414</a>)"
         },
         {
             "id":           "s6.187a",
@@ -342,11 +342,11 @@
         },
         {
             "id":           "s15.976a",
-            "timeAndPlace": "Jan 1, 28, 29, 30, 31 @ 14:30 - 17:00 (Wong Auditorium)",
             "instructor":   "Grandinetti, Michael",
             "label":        "s15.976a",
             "type":         "Section",
-            "class":        "c15.976"
+            "class":        "c15.976",
+            "timeAndPlace": "Jan 28, 29, 30, 31, Feb 1 @ 14:30 - 17:00 (Wong Auditorium)"
         },
         {
             "id":           "s9.93a",
@@ -413,15 +413,14 @@
         },
         {
             "id":           "sHST.021/HST.020a",
-            "timeAndPlace": "Jan 1, 7, 9, 11, 14, 16, 18, 23, 25, 28, 30 @ 9:00 - 11:30 (MEC 209 HMS)",
             "instructor":   "Robinson, Dr. Dwight",
             "label":        "sHST.021/HST.020a",
             "type":         "Section",
-            "class":        "cHST.021/HST.020"
+            "class":        "cHST.021/HST.020",
+            "timeAndPlace": "Jan 7, 9, 11, 14, 16, 18, 23, 25, 28, 30, Feb 1 @ 9:00 - 11:30 (MEC 209 HMS)"
         },
         {
             "id":           "s22.920/8.22a",
-            "timeAndPlace": "Jan 1, 22, 23, 24, 25, 29, 30, 31 @ 13:00 - 14:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=NW14&Buildings=go'>NW14-1112</a>)",
             "instructor":   [
                 "Cory, Prof. David",
                 "Sewell, Dr. Scott",
@@ -429,7 +428,8 @@
             ],
             "label":        "s22.920/8.22a",
             "type":         "Section",
-            "class":        "c22.920/8.22"
+            "class":        "c22.920/8.22",
+            "timeAndPlace": "Jan 22, 23, 24, 25, 29, 30, 31, Feb 1 @ 13:00 - 14:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=NW14&Buildings=go'>NW14-1112</a>)"
         },
         {
             "id":           "s12.120a",
@@ -479,7 +479,6 @@
         },
         {
             "id":           "s9.94a",
-            "timeAndPlace": "Jan 1, 28, 29, 30, 31 @ 13:00 - 17:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=37&Buildings=go'>37-312</a>)",
             "instructor":   [
                 "DiCarlo, James",
                 "Konkle, Talia",
@@ -488,7 +487,8 @@
             ],
             "label":        "s9.94a",
             "type":         "Section",
-            "class":        "c9.94"
+            "class":        "c9.94",
+            "timeAndPlace": "Jan 28, 29, 30, 31, Feb 1 @ 13:00 - 17:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=37&Buildings=go'>37-312</a>)"
         },
         {
             "id":           "s21F.217/21F.218a",
@@ -524,11 +524,11 @@
         },
         {
             "id":           "s6.099a",
-            "timeAndPlace": "Jan 1, 7, 9, 11, 14, 16, 18, 23, 25, 28, 30 @ 13:00 - 14:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=4&Buildings=go'>4-231</a>)",
             "instructor":   "Mahajan, Sanjoy",
             "label":        "s6.099a",
             "type":         "Section",
-            "class":        "c6.099"
+            "class":        "c6.099",
+            "timeAndPlace": "Jan 7, 9, 11, 14, 16, 18, 23, 25, 28, 30, Feb 1 @ 13:00 - 14:00 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=4&Buildings=go'>4-231</a>)"
         },
         {
             "id":           "s6.186a",
@@ -651,13 +651,13 @@
             "id":         "s11.963a"
         },
         {
-			"instructor" : "Kaelbling, Leslie",
-			"timeAndPlace": "Jan 22, 23, 24, 25, 28, 29, 30, 31 @ 14:00 - 15:30 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=32&Buildings=go'>32-044</a>)",
-			"label" :      "s6.090a",
-			"type" :       "Section",
-			"class" :      "c6.090",
-			"id" :      "s6.090a"
-		}
+            "instructor":   "Kaelbling, Leslie",
+            "timeAndPlace": "Jan 22, 23, 24, 25, 28, 29, 30, 31 @ 14:00 - 15:30 (<a target='_blank' href='http://whereis.mit.edu/map-jpg?selection=32&Buildings=go'>32-044</a>)",
+            "label":        "s6.090a",
+            "type":         "Section",
+            "class":        "c6.090",
+            "id":           "s6.090a"
+        }
     ],
     "types":      {
         "Section": {
