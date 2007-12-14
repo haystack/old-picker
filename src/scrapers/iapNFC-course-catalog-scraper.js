@@ -58,11 +58,11 @@ for (var i = 0; i < elements.length; i++) {
 		continue;
 	}
 	
-	var datesTimes = [];
 	var courseInfo = [];
 	try {
 		var fonts = utilities.gatherElementsOnXPath(document, element, './font', nsResolver);
-		var meetingInfo = cleanString(fonts[bolds.length].textContent).split(',');
+		var meetingInfo = cleanString(fonts[bolds.length].textContent).split(', ');
+		var datesTimes = [];
 		for (var j = 0; j < meetingInfo.length - 1; j++) {
 			datesTimes.push(cleanString(meetingInfo[j]));
 		}
@@ -94,14 +94,13 @@ for (var i = 0; i < elements.length; i++) {
 		continue;
 	}
 	
-	for (var d = 0; d < datesTimes.length; d++) {
-		var lecture = "L-" + classID + "-" + datesTimes[d] + "-" + location;
-		var lectureString = "Lecture" +
-		 "\ts" + classID + 'a' +
-		 "\t" + datesTimes[d] +
-		 "\t" + location;
-		lectureOutput.push(lectureString);
-	}
+	var lecture = "L-" + classID + "-" + datesTimes[0] + "-" + location;
+	var lectureString = "Lecture" +
+	 "\ts" + classID + 'a' +
+	 "\t" + lecture +
+	 "\t" + datesTimes.join('; ') +
+	 "\t" + location;
+	lectureOutput.push(lectureString);
 
 	var sectionString = "Section" + 
 	 "\ts" + classID + 'a' +
@@ -115,10 +114,10 @@ for (var i = 0; i < elements.length; i++) {
     "\t" + courseName +
     "\t" + category +
     "\t" + instructors.join("; ") +
-    "\t" + description +
-    "\t" + courseInfo.join("; ") + 
+    "\t" + description + 
     "\t" + url +
-    "\t" + contact;
+    "\t" + contact +
+    "\t" + courseInfo.join("; ");
   classOutput.push(classString);
 }
 
@@ -126,5 +125,5 @@ log("type \tid \tcourse \tlabel \tcategory \tin-charge \tdescription:single \tco
 for (var i = 0; i < classOutput.length; i++) { log(classOutput[i]); }
 log("type \tlabel \tclass \tinstructor");
 for (var i = 0; i < sectionOutput.length; i++) { log(sectionOutput[i]); }
-log("type \tsection \tdateTime \troom");
+log("type \tsection \tlabel \tdateTime \troom");
 for (var i = 0; i < lectureOutput.length; i++) { log(lectureOutput[i]); }

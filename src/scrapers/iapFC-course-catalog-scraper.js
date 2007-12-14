@@ -107,6 +107,7 @@ for (var i = 0; i < elements.length; i++) {
 		var lecture = "L-" + classNumber + "-" + datesTimes[d] + "-" + location;
 		var lectureString = "Lecture" +
 		 "\ts" + classNumber + 'a' +
+		 "\t" + lecture + 
 		 "\t" + datesTimes[d] +
 		 "\t" + location;
 		lectureOutput.push(lectureString);
@@ -135,5 +136,5 @@ for (var i = 0; i < elements.length; i++) {
 for (var i = 0; i < classOutput.length; i++) { log(classOutput[i]); }
 //log("type \tlabel \tclass \tinstructor");
 for (var i = 0; i < sectionOutput.length; i++) { log(sectionOutput[i]); }
-//log("type \tsection \tdateTime \troom");
+//log("type \tlabel \tsection \tdateTime \troom");
 for (var i = 0; i < lectureOutput.length; i++) { log(lectureOutput[i]); }
