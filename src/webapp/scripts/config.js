@@ -5,11 +5,11 @@ var courses = [
         name:   "Civil and Environmental Engineering",
         hasData: true
     },
-    {    number:    "2",
+    {   number:  "2",
         name:    "Mechanical Engineering",
         hasData: true
     },
-    {    number:    "3",
+    {   number:  "3",
         name:    "Materials Science and Engineering",
         hasData: true
     },
@@ -29,7 +29,7 @@ var courses = [
         name:   "Biology",
         hasData: true
     },
-    {    number:    "8",
+    {   number:  "8",
         name:    "Physics",
         hasData: true
     },
@@ -41,7 +41,7 @@ var courses = [
         name:   "Chemical Engineering",
         hasData: true
     },
-    {    number:    "11",
+    {   number:  "11",
         name:    "Urban Studies and Planning",
         hasData: true
     },
@@ -138,7 +138,7 @@ var facetData = {
         height:     '10em'
     },
     'hasfinal-facet' : {
-        expression: '.hasfinal',
+        expression: '.has-final',
         facetLabel: 'has final &raquo;',
         height:     '4em'
     },
