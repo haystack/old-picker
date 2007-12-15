@@ -1,0 +1,693 @@
+{
+    "items": [
+        {
+            "type":        "Class",
+            "label":       "22.611J - Introduction to Plasma Physics I",
+            "id":          "22.611J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces plasma phenomena relevant to energy generation by controlled thermonuclear fusion and to astrophysics. Elementary plasma concepts, plasma characterization.  Motion of charged particles in magnetic fields. Coulomb collisions, relaxation times, transport processes. Two-fluid hydrodynamic and MHD descriptions. Plasma confinement by magnetic fields, simple equilibrium and stability analysis. Wave propagation in a magnetic field; application to RF plasma heating. Introduction to kinetic theory; Vlasov, Boltzmann and Fokker-Planck equations; relation of fluid and kinetic descriptions. Electron and ion acoustic plasma waves, Landau damping.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.611J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.651J",
+                "8.613J",
+                "6.013",
+                "8.07",
+                "22.105",
+                "18.04"
+            ],
+            "in-charge":   [
+                "Parker, R.",
+                "Hutchinson, I.",
+                "Freidberg, J."
+            ],
+            "subarea":     "Plasmas and Controlled Fusion"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.612J - Introduction to Plasma Physics II",
+            "id":          "22.612J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Linear waves and instabilities in magnetized plasma; solutions of Vlasov-Maxwell equations in homogeneous and inhomogeneous plasmas; conservation principles for energy and momentum; quasi-linear theory and nonlinear stabilization; solitons and coherent nonlinear phenomena; collisions and discrete particle effects; fluctuations in a stable plasma; Fokker-Planck equation and transport phenomena. A subject description tailored to fit the background and interests of the attending students distributed shortly before and at the beginning of the subject.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.612J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.652J",
+                "8.614J",
+                "6.651J",
+                "8.613J",
+                "22.611J"
+            ],
+            "in-charge":   "Staff",
+            "subarea":     "Plasmas and Controlled Fusion"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.612J-1",
+            "lecture-section-of": "22.612J",
+            "timeAndPlace":       [
+                "MW 14:30-16:00 36-155"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s22.612J-2",
+            "rec-section-of": "22.612J",
+            "timeAndPlace":   [
+                "F 14:00-15:30 26-142"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.615 - MHD Theory of Fusion Systems",
+            "id":          "22.615",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Discussion of MHD equilibria in cylindrical, toroidal, and noncircular configurations. MHD stability theory including the Energy Principle, interchange instability, ballooning modes, second region of stability, and external kink modes. Description of current configurations of fusion interest.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.615",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "22.611J",
+                "6.651J",
+                "8.613J"
+            ],
+            "in-charge":   "Freidberg, J. P.",
+            "subarea":     "Plasmas and Controlled Fusion"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.616 - Plasma Transport Theory",
+            "id":          "22.616",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "The Fokker-Planck operator for Coulomb collisions, including the Landau and Rosenbluth potential forms, is derived, expanded to obtain useful limits, and used to define characteristic times. Classical collisional transport in an arbitrary magnetic field is developed first, and then the high (Pfirsch-Schluter), low (banana), and intermediate (plateau) collisionality regimes of tokamak transport are examined with emphasis on the banana regime where bootstrap current is most pronounced. Gyrokinetics and zonal flow is discussed.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.616",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "22.615",
+            "in-charge":   "Catto, P.",
+            "subarea":     "Plasmas and Controlled Fusion"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.62 - Fusion Energy",
+            "id":          "22.62",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Basic nuclear physics and plasma physics for controlled fusion. Fusion cross-sections and consequent conditions required for ignition and energy production. Principles of magnetic and inertial confinement. Description of magnetic confinement devices: tokamaks, stellarators and RFPs, their design and operation. Elementary plasma stability considerations and the limits imposed. Plasma heating by neutral beams and RF. Outline design of the ITER \"burning plasma\" experiment and a magnetic confinement reactor.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.62",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "22.611J",
+            "in-charge":   "Whyte, D.",
+            "subarea":     "Plasmas and Controlled Fusion"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.62-1",
+            "lecture-section-of": "22.62",
+            "timeAndPlace":       [
+                "TR 9:30-11:00 NW16-213"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.63 - Engineering Principles for Fusion Reactors",
+            "id":          "22.63",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Fusion reactor design considerations: ignition devices, engineering test facilities, and safety/environmental concerns. Magnet principles: resistive and superconducting magnets; cryogenic features. Blanket and first wall design: liquid and solid breeders, heat removal, and structural considerations. Heating devices: radio frequency and neutral beam.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.63",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Whyte, D.",
+            "subarea":     "Plasmas and Controlled Fusion"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.67 - Principles of Plasma Diagnostics",
+            "id":          "22.67",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to the physical processes used to measure the properties of plasmas, especially fusion plasmas. Measurements of magnetic and electric fields, particle flux, refractive index, emission and scattering of electromagnetic waves and heavy particles; their use to deduce plasma parameters such as particle density, pressure, temperature, and velocity, and hence the plasma confinement properties. Discussion of practical examples and assessments of the accuracy and reliability of different techniques.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.67",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.651J",
+                "8.613J",
+                "22.611J"
+            ],
+            "in-charge":   "Hutchinson, I. H.",
+            "subarea":     "Plasmas and Controlled Fusion"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.67-1",
+            "lecture-section-of": "22.67",
+            "timeAndPlace":       [
+                "TR 14:00-15:30 NW16-213"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.70 - Materials for Nuclear Applications",
+            "id":          "22.70",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introductory subject for students who are not specializing in nuclear materials. Applications and selection of materials for use in nuclear applications. Radiation damage, radiation effects, and their effects on performance of materials in fission and fusion environments.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.70",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Hobbs, L.",
+            "subarea":     "Nuclear Materials"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.71J - Modern Physical Metallurgy",
+            "id":          "22.71J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Examines how the presence of 1-, 2- and 3D defects and second phases control the mechanical, electromagnetic and chemical behavior of metals and alloys. Considers point, line and interfacial defects in the context of structural transformations including annealing, spinodal decomposition, nucleation, growth, and particle coarsening. Concentrates on structure-function relationships, and in particular how grain size, interstitial and substitutional solid solutions, and second-phase particles impact mechanical and other properties  Industrially relevant case studies illustrate lecture concepts.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.71J",
+            "semester":    "Fall",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "3.40J",
+                "3.14"
+            ],
+            "in-charge":   [
+                "Vliet, K. J. Van",
+                "Schuh, C."
+            ],
+            "subarea":     "Nuclear Materials"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.72J - Corrosion: The Environmental Degradation of Materials",
+            "id":          "22.72J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Applies thermodynamics and kinetics of electrode reactions to aqueous corrosion of metals and alloys. Application of advanced computational and modeling techniques to evaluation of materials selection and susceptibility of metal/alloy systems to environmental degradation in aqueous systems. Discusses materials degradation problems in marine environments, oil and gas production, and energy conversion and generation systems, including fossil and nuclear. Offered alternate years.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.72J",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "3.54J",
+                "3.012"
+            ],
+            "in-charge":   "Ballinger, R. G.",
+            "subarea":     "Nuclear Materials"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.76 - Nuclear Chemical Engineering",
+            "id":          "22.76",
+            "level":       "Grad",
+            "units":       "3-1-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Application of chemical engineering to nuclear fission reactors and nuclear waste reprocessing. Review of chemical kinetics, equilibrium, and thermodynamics. Chemistry of inorganic elements used in nuclear technology. Principles of chemical separation of radioactive waste. Examination of separation engineering processes. Isotopic enrichment techniques and processes. Chemical behavior of stable elements and radionuclides in reactor conditions. Laboratory demonstration of radioisotope separations.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.76",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Yildiz, B.",
+            "subarea":     "Nuclear Materials"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.77 - Nuclear Waste Management",
+            "id":          "22.77",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces scientific and engineering aspects of the management of spent fuel, reprocessed high-level waste, low-level wastes, and decommissioning wastes. Characteristics and classification of nuclear wastes and waste forms. Fundamental processes and governing equations of radionuclide transport in the environment. Discussion of performance assessment for repositories. Design principles and evaluation methods for geologic waste disposal systems. Analyzes waste management implications of advanced fuel cycles.  Final team project.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.77",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "22.76",
+            "in-charge":   [
+                "Lester, R. K.",
+                "Staff"
+            ],
+            "subarea":     "Nuclear Materials"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.811J - Sustainable Energy",
+            "id":          "22.811J",
+            "level":       "Grad",
+            "units":       "3-1-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Assessment of current and potential energy systems, covering extraction, conversion and end-use, with emphasis on meeting regional and global energy needs in the 21st century in a sustainable manner. Examination of energy technologies in each fuel cycle stage for fossil (oil, gas, synthetic), nuclear (fission and fusion) and renewable (solar, biomass, wind, hydro, and geothermal) energy types, along with storage, transmission, and conservation issues. Focus on evaluation and analysis of energy technology systems in the context of political, social, economic, and environmental goals. Open to upper-class undergraduates.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.811J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "1.818J",
+                "2.65J",
+                "10.391J",
+                "11.371J",
+                "ESD.166J"
+            ],
+            "in-charge":   [
+                "Golay, M. W.",
+                "Tester, J. W.",
+                "Freidberg, J. P."
+            ],
+            "subarea":     "Systems, Policy, and Economics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.811J-1",
+            "lecture-section-of": "22.811J",
+            "timeAndPlace":       [
+                "TR 15:00-17:00 56-114"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.812J - Managing Nuclear Technology",
+            "id":          "22.812J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Examines current economic, management, and policy issues concerning nuclear power and its fuel cycle. Introduces methods for analyzing private and public policy alternatives, including techniques in economic and financial analysis. Application to specific problem areas, including nuclear waste management, weapons proliferation, and the economic competitiveness of nuclear power. Other topics include deregulation and restructuring in the electric power industry.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.812J",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "ESD.163J",
+            "in-charge":   "Lester, R. K.",
+            "subarea":     "Systems, Policy, and Economics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.812J-1",
+            "lecture-section-of": "22.812J",
+            "timeAndPlace":       [
+                "MW 11:00-12:30 24-115"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.813 - Applications of Technology in Energy and the Environment",
+            "id":          "22.813",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces advanced undergraduates or graduate students in the Schools of Engineering and Science to the integration of technical, economic, political, and environmental consideration required for the successful implementation of new technology. Case studies are drawn from the energy and environment sectors with some emphasis on analytic techniques that serve as a \"tool box\" for students. Technologies considered include fossil, nuclear, solar, wind, fuel cell and energy conservation. International aspects, such as weapons proliferation and global climate effects, also discussed. Enrollment limited.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.813",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "1.149",
+                "2.63",
+                "5.00",
+                "10.579",
+                "22.813",
+                "ESD.174"
+            ],
+            "in-charge":   [
+                "Deutch, J.",
+                "Lester, R."
+            ],
+            "subarea":     "Systems, Policy, and Economics"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.82 - Engineering Risk-Benefit Analysis",
+            "id":          "22.82",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Emphasis on three methodologies pertaining to decision making in the presence of uncertainty: reliability and probabilistic risk assessment (RPRA), decision analysis (DA), and cost-benefit analysis (CBA). Risks of particular interest are those associated with large engineering projects such as the development of new products; the building, maintenance and operation of nuclear reactors and space systems. Presents and interprets some of the frameworks helpful for balancing risks and benefits in the situations that typically involve human safety, potential environmental effects, and large financial and technological uncertainties. Review of elementary probability theory and statistics included.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.82",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "1.155",
+                "2.963",
+                "3.577",
+                "6.938",
+                "10.816",
+                "16.862",
+                "22.82",
+                "ESD.72",
+                "18.02"
+            ],
+            "in-charge":   "Apostolakis, G. E.",
+            "subarea":     "Systems, Policy, and Economics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.82-1",
+            "lecture-section-of": "22.82",
+            "timeAndPlace":       [
+                "MW 9:30-11:00 1-390"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s22.82-2",
+            "rec-section-of": "22.82",
+            "timeAndPlace":   [
+                "T 14:00-15:00 9-338"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.90 - Nuclear Science and Engineering Laboratory",
+            "id":          "22.90",
+            "level":       "Grad",
+            "units":       "2-6-4",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "See description under subject 22.09.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.90",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "22.09",
+                "22.101"
+            ],
+            "in-charge":   "Lanza, R. C.",
+            "subarea":     "General"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.90-1",
+            "lecture-section-of": "22.90",
+            "timeAndPlace":       [
+                "M 12:30-14:30 NW12-222"
+            ]
+        },
+        {
+            "type":           "LabSection",
+            "label":          "s22.90-2",
+            "lab-section-of": "22.90",
+            "timeAndPlace":   [
+                "WF 12:00-15:00 NW12-222"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.901?22.904 - Special Problems in Nuclear Science & Engineering",
+            "id":          "22.901?22.904",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "For graduate and advanced undergraduate students who wish to conduct a one-term project of a theoretical or experimental nature in the nuclear engineering field, in close cooperation with individual staff members. Arrangement of topic and hours to fit students' requirements.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.901?22.904",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Coderre, J. A.",
+            "subarea":     "General"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.901?22.904-1",
+            "lecture-section-of": "22.901?22.904",
+            "timeAndPlace":       [
+                "TR 12:30-14:00 24-115"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.905 - Special Topics in Nuclear Science and Engineering",
+            "id":          "22.905",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Special topics for graduate and advanced undergraduate students.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.905",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Coderre, J. A.",
+            "subarea":     "General"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.911 - Seminar in Nuclear Science and Engineering",
+            "id":          "22.911",
+            "level":       "Grad",
+            "units":       "2-0-1 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Restricted to graduate students engaged in doctoral thesis research.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.911",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":   [
+                "Kadak, A.",
+                "Jasanoff, A.",
+                "Hutchinson, I."
+            ],
+            "subarea":     "General"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.911-1",
+            "lecture-section-of": "22.911",
+            "timeAndPlace":       [
+                "W 17:30-18:30 NW16-213"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.915 - Seminar in Magnetic Resonance",
+            "id":          "22.915",
+            "level":       "Grad",
+            "units":       "2-0-1 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Discusses current topics in magnetic resonance including research issues by graduate students and staff members.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.915",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Cory, D. G.",
+            "subarea":     "General"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.915-1",
+            "lecture-section-of": "22.915",
+            "timeAndPlace":       [
+                "R 14:00-16:00 NW14-1112"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.920J - Interactive Introduction to Nuclear Magnetic Resonance",
+            "id":          "22.920J",
+            "level":       "Grad",
+            "units":       "1-2-0",
+            "total-units": 3,
+            "has-final":   false,
+            "description": "Interactive introduction to NMR presenting background in classical theory and instrumentation. Each lecture followed by lab experiments both to demonstrate ideas presented during the lecture and to familiarize students with state-of-the-art NMR instrumentation. Experiments cover topics ranging from spin dynamics to spectroscopy, and include both imaging and quantum information processing.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.920J",
+            "semester":    "IAP",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "8.22J",
+                "18.02"
+            ],
+            "in-charge":   [
+                "Cory, D. G.",
+                "Sewell, S. D."
+            ],
+            "subarea":     "General"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.921 - Nuclear Power Plant Dynamics and Control",
+            "id":          "22.921",
+            "level":       "Grad",
+            "units":       "1-0-2",
+            "total-units": 3,
+            "has-final":   false,
+            "description": "Introduction to reactor dynamics including subcritical multiplication, critical operation in absence of thermal feedback effects and effects of xenon, fuel and moderator temperature, etc. Derivation of point kinetics and dynamic period equations. Techniques for reactor control including signal validation, supervisory algorithms, model-based trajectory tracking, and rule-based control. Overview of light-water reactor startup. Lectures and demonstrations with use of the MIT Research Reactor.  Open to undergraduates with permission of instructor.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.921",
+            "semester":    "IAP",
+            "offering":    "Currently Offered",
+            "in-charge":   "Bernard, J. A.",
+            "subarea":     "General"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.93 - Teaching Experience in Nuclear Science & Engineering",
+            "id":          "22.93",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "For qualified graduate students interested in teaching as a career. Classroom, laboratory, or tutorial teaching under the supervision of a faculty member. Students selected by interview. Credits for this subject may not be used toward master's or engineer's degrees. Enrollment limited by the availability of suitable assignments.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.93",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Hutchinson, I. H.",
+            "subarea":     "General"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.94 - Research in Nuclear Science and Engineering",
+            "id":          "22.94",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "For Research Assistants in Nuclear Science and Engineering who have not completed the NSE doctoral qualifying exam.  Hours arranged with and approved by the research supervisor.  Units may not be used towards advanced degree requirements.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.94",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":   "Coderre, J. A.",
+            "subarea":     "General"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.96 - Quantum Mechanics for Nuclear Engineers",
+            "id":          "22.96",
+            "level":       "Grad",
+            "units":       "1-0-2",
+            "total-units": 3,
+            "has-final":   false,
+            "description": "See description under subject 22.096.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.96",
+            "semester":    "IAP",
+            "offering":    "Currently Offered",
+            "prereq":      "22.096",
+            "in-charge":   "Chen, S. H.",
+            "subarea":     "General"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.ThG - Graduate Thesis",
+            "id":          "22.ThG",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Program of research, leading to the writing of an SM, NE, PhD, or ScD thesis; to be arranged by the student and an appropriate MIT faculty member. Consult department graduate office.",
+            "url":         "http://student.mit.edu/catalog/m22c.html#22.ThG",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Coderre, J. A.",
+            "subarea":     "General"
+        }
+    ]
+}

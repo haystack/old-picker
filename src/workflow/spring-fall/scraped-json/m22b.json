@@ -1,0 +1,473 @@
+{
+    "items": [
+        {
+            "type":        "Class",
+            "label":       "22.101 - Applied Nuclear Physics",
+            "id":          "22.101",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Elements of nuclear physics for engineering students. Basic properties of the nucleus and nuclear radiations. Quantum mechanical calculations of deuteron bound-state wave function and energy, n-p scattering cross section, transition probability per unit time and barrier transmission probability. Binding energy and nuclear stability. Interactions of charged particles, neutrons, and gamma rays with matter. Radioactive decays. Energetics and general cross section behavior in nuclear reactions.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.101",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "22.02",
+            "in-charge":   "Yip, S.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Physics"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.105 - Electromagnetic Interactions",
+            "id":          "22.105",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Principles and applications of electromagnetism, starting from Maxwell's equations, with emphasis on phenomena important to nuclear engineering and radiation sciences. Solution methods for electrostatic and magnetostatic fields. Charged particle motion in those fields. Particle acceleration and focussing. Coulomb collisons with charged particles and atoms. Electromagnetic waves, wave emission by accelerated particles, Bremsstrahlung, Compton scattering, synchrotron radiation, Cerenkov radiation.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.105",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "8.02",
+                "8.03",
+                "18.02",
+                "18.03"
+            ],
+            "in-charge":   [
+                "Freidberg, J. P.",
+                "Parker, R. R."
+            ],
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Physics"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.106 - Neutron Interactions and Applications",
+            "id":          "22.106",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Comprehensive treatment of neutron interactions in condensed matter at energies from thermal to MeV, focusing on particle distributions most relevant to fission, fusion and radiation research applications.  Neutron distributions in reactor, accelerator and material structures resulting from single and multiple reactions, and in wave phenomena (optics) and inelastic scattering experiments.  Comparison of neutron and fluid transport.  Particle simulations.   Term paper and presentation required.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.106",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "22.101",
+            "in-charge":   "Yip, S.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Physics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.106-1",
+            "lecture-section-of": "22.106",
+            "timeAndPlace":       [
+                "TR 9:30-11:00 24-115"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.211 - Nuclear Reactor Physics I",
+            "id":          "22.211",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Reviews the physics basis for modern nuclear reactor design.  Topics include the continuous energy transport equation and its adjoint; reduction to diffusion theory and the group diffusion equations; calculation of neutron spectra and determination of few group diffusion constants.  The final segment is devoted to heterogeneous reactor analysis.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.211",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "18.075",
+            "in-charge":   "Staff",
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Reactor Physics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.211-1",
+            "lecture-section-of": "22.211",
+            "timeAndPlace":       [
+                "TR 11:00-12:30 24-121"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.251 - Systems Analysis of the Nuclear Fuel Cycle",
+            "id":          "22.251",
+            "level":       "Grad",
+            "units":       "3-2-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Study of the relationship between the technical and policy elements of the nuclear fuel cycle. Topics include uranium supply, enrichment, fuel fabrication, in-core reactivity  and fuel management of uranium and other fuel types, used fuel reprocessing and waste disposal. Principles of fuel cycle economics and the applied reactor physics of both contemporary and proposed thermal and fast reactors are presented. Nonproliferation aspects, disposal of excess weapons plutonium, and transmutation of long lived radioisotopes in spent fuel are examined. Several state-of-the-art computer programs relevant to reactor core physics and heat transfer are provided for student use in problem sets and term papers.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.251",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "22.05",
+            "in-charge":   [
+                "Kazimi, M. S.",
+                "Staff"
+            ],
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Reactor Physics"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.312 - Engineering of Nuclear Reactors",
+            "id":          "22.312",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Engineering principles of nuclear reactors, emphasizing power reactors. Power plant thermodynamics, reactor heat generation and removal (single-phase as well as two-phase coolant flow and heat transfer), and structural mechanics. Engineering considerations in reactor design.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.312",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.001",
+                "2.005"
+            ],
+            "in-charge":   "Buongiorno, J.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Reactor Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.313J - Thermal Hydraulics in Power Technology",
+            "id":          "22.313J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Emphasis on thermo-fluid dynamic phenomena and analysis methods for conventional and nuclear power stations. Kinematics and dynamics of two-phase flows.  Steam separation.  Boiling, instabilities, and critical conditions. Single-channel transient analysis.  Multiple channels connected at plena.  Loop analysis including single and two-phase natural circulation.  Subchannel analysis.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.313J",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "10.536J",
+                "2.006",
+                "10.302",
+                "22.312"
+            ],
+            "in-charge":   "Buongiorno, J.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Reactor Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.314J - Structural Mechanics in Nuclear Power Technology",
+            "id":          "22.314J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Structural components in nuclear power plant systems, their functional purposes, operating conditions, and mechanical/structural design requirements. Combines mechanics techniques with models of material behavior to determine adequacy of component design. Considerations include mechanical loading, brittle fracture, inelastic behavior, elevated temperatures, neutron irradiation, vibrations and seismic effects.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.314J",
+            "semester":    "Fall",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "1.56J",
+                "2.084J",
+                "2.001"
+            ],
+            "in-charge":   [
+                "Kazimi, M. S.",
+                "Buyukozturk, O."
+            ],
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Reactor Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.33 - Nuclear Engineering Design",
+            "id":          "22.33",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Group design project involving integration of nuclear physics, particle transport, control, heat transfer, safety, instrumentation, materials, environmental impact, and economic optimization. Provides opportunity to synthesize knowledge acquired in nuclear and non-nuclear subjects and apply this knowledge to practical problems of current interest in nuclear applications design.  Past projects have included using a fusion reactor for transmutation of nuclear waste, design and implementation of an experiment to predict and measure pebble flow in a pebble bed reactor, and development of a mission plan for a manned Mars mission including the conceptual design of a nuclear powered space propulsion system and power plant for the Mars surface.  Meets with undergraduate subject 22.033, but assignments differ.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.33",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "22.033",
+                "22.312"
+            ],
+            "in-charge":   "Kadak, A. C.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Reactor Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.38 - Probability and Its Applications To Reliability, Quality Control, and Risk Assessment",
+            "id":          "22.38",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Interpretations of the concept of probability. Basic probability rules; random variables and distribution functions; functions of random variables. Applications to quality control and the reliability assessment of mechanical/electrical components, as well as simple structures and redundant systems. Elements of statistics. Bayesian methods in engineering. Methods for reliability and risk assessment of complex systems, (event-tree and fault-tree analysis, common-cause failures, human reliability models). Uncertainty propagation in complex systems (Monte Carlo methods, Latin hypercube sampling). Introduction to Markov models. Examples and applications from nuclear and other industries, waste repositories, and mechanical systems. Open to qualified undergraduates.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.38",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Golay, M.W.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Reactor Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.39 - Integration of Reactor Design, Operations, and Safety",
+            "id":          "22.39",
+            "level":       "Grad",
+            "units":       "3-2-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Integration of reactor physics and engineering sciences into nuclear power plant design focusing on designs that are projected to be used in the first half of this century. Topics include materials issues in plant design and operations, aspects of thermal design, fuel depletion and fission-product poisoning, and temperature effects on reactivity. Safety considerations in regulations and operations such as the evolution of the regulatory process, the concept of defense in depth, general design criteria, accident analysis, probabilistic risk assessment, and risk-informed regulations.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.39",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "22.211",
+                "22.312"
+            ],
+            "in-charge":   [
+                "Todreas, N.",
+                "Apostolakis, G.",
+                "Ballinger, R."
+            ],
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Reactor Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.40J - Fundamentals of Advanced Energy Conversion",
+            "id":          "22.40J",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Fundamentals of thermodynamics, chemistry, and transport applied to energy systems. Analysis of energy conversion and storage in thermal, mechanical, chemical, and electrochemical processes in power and transportation systems, with emphasis on efficiency, performance and environmental impact. Applications to fuel reforming, hydrogen, fuel cells and batteries, combustion, catalysis, combined and hybrid power cycles using fossil, nuclear and renewable resources. CO2 separation and capture. Biomass energy.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.40J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.62J",
+                "10.392J",
+                "2.60",
+                "2.006"
+            ],
+            "in-charge":   [
+                "Ghoniem, A. F.",
+                "Kazimi, M.",
+                "Shao-Horn, Y.",
+                "Tester, J."
+            ],
+            "area":        "Graduate Subjects",
+            "subarea":     "Nuclear Reactor Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.40J-1",
+            "lecture-section-of": "22.40J",
+            "timeAndPlace":       [
+                "MW 13:00-15:00 3-370"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.51 - Quantum Theory of Radiation Interactions",
+            "id":          "22.51",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces elements of applied quantum mechanics and statistical physics. Starting from the experimental foundation  of quantum mechanics, develops the basic principles of interaction of electromagnetic radiation with matter.  Introduces quantum theory of radiation, time-dependent perturbation theory, transition probabilities and cross sections. Applications are to controlling coherent and decoherent dynamics with examples from quantum information processing.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.51",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "22.101",
+                "22.105"
+            ],
+            "in-charge":   "Cory, D.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Radiation Interactions and Applications"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.52J - Statistical Thermodynamics of Complex Liquids",
+            "id":          "22.52J",
+            "level":       "Grad",
+            "units":       "3-0-6",
+            "total-units": 9,
+            "has-final":   false,
+            "description": "Theory of self-assembly in surfactant-water (micellar) and surfactant-water-oil (micro-emulsion) systems. Introduction to the theory of polymer solutions. Introduction to scattering techniques, light, x-ray, and neutron scattering applied to studies of the structure and dynamics of complex liquids. Modern theory of the liquid state relevant to structured (supramolecular) liquids.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.52J",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "8.575J",
+                "10.44J",
+                "8.08",
+                "10.213"
+            ],
+            "in-charge":   [
+                "Blankschtein, D.",
+                "Chen, S. H."
+            ],
+            "area":        "Graduate Subjects",
+            "subarea":     "Radiation Interactions and Applications"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.52J-1",
+            "lecture-section-of": "22.52J",
+            "timeAndPlace":       [
+                "TR 10:00-11:30 66-156"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.53 - Statistical Processes and Atomistic Simulations",
+            "id":          "22.53",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Statistical mechanics principles of equilibrium and time-dependent properties of condensed states of matter. Phase-space distributions, time correlations functions, kinetic equations. Free energy calculations. Stochastic processes. Continuum and molecular models for transport phenomena and phase transitions. Methods and applications of molecular dynamics and Monte Carlo simulations in statistical physics and materials science.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.53",
+            "semester":    "Fall",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Yip, S.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Radiation Interactions and Applications"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.55J - Radiation Biophysics",
+            "id":          "22.55J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Discusses energy deposition by various types of radiation, including the creation and behavior of secondary radiations. Explores the effects of radiation on biological systems including DNA damage, in vitro cell survival models and in vivo mammalian systems.  Covers radiation therapy, radiation syndromes in humans and carcinogenesis.  Environmental radiation sources, and aspects of radiation protection are also discussed.  Examples from the current literature used to supplement lecture material.  Requires a term paper and presentation.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.55J",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "HST.560J",
+            "in-charge":   "Coderre, J. A.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Radiation Interactions and Applications"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.55J-1",
+            "lecture-section-of": "22.55J",
+            "timeAndPlace":       [
+                "MW 9:30-11:00 24-121"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.56J - Noninvasive Imaging in Biology and Medicine",
+            "id":          "22.56J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Background in the theory and application of noninvasive imaging methods in biology and medicine, with emphasis on neuroimaging. Focuses on the modalities most frequently used in scientific research (x-ray CT, PET/SPECT, MRI, and optical imaging), and includes discussion of molecular imaging approaches used in conjunction with these scanning methods. Lectures are supplemented by in-class discussions of problems in research and demonstrations of imaging systems.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.56J",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "9.173J",
+                "20.483J",
+                "HST.561J",
+                "18.03",
+                "8.03"
+            ],
+            "in-charge":   "Jasanoff, A.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Radiation Interactions and Applications"
+        },
+        {
+            "type":        "Class",
+            "label":       "22.561J - Magnetic Resonance Analytic, Biochemical, and Imaging Techniques",
+            "id":          "22.561J",
+            "level":       "Grad",
+            "units":       "3-0-12",
+            "total-units": 15,
+            "has-final":   false,
+            "description": "Introduction to basic NMR theory. Examples of biochemical data obtained using NMR summarized along with other related experiments. Detailed study of NMR imaging techniques includes discussions of basic cross-sectional image reconstruction, image contrast, flow and real-time imaging, and hardware design considerations. Exposure to laboratory NMR spectroscopic and imaging equipment included.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.561J",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "HST.584J",
+            "in-charge":   "Rosen, B. R.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Radiation Interactions and Applications"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s22.561J-1",
+            "lecture-section-of": "22.561J",
+            "timeAndPlace":       [
+                "W 19:00-10:00 E25-111"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "22.562 - Spatial Aspects of Nuclear Magnetic Resonance Spectroscopy",
+            "id":          "22.562",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Discusses the theory and application of nuclear magnetic resonance spectroscopy to questions of the spatial distribution of spins. Covers NMR imaging, localized spectroscopy, and local geometries as determined by diffusive processes. The theory is discussed in terms of the density operator and reciprocal space (for both imaging and motional studies). Describes applications to rapid imaging, dynamic imaging, microscopy, and localized spectroscopy. Instrumentation and experimental constraints are also described.",
+            "url":         "http://student.mit.edu/catalog/m22b.html#22.562",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "18.03",
+                "8.05"
+            ],
+            "in-charge":   "Cory, D. G.",
+            "area":        "Graduate Subjects",
+            "subarea":     "Radiation Interactions and Applications"
+        }
+    ]
+}

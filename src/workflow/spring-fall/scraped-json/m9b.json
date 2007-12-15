@@ -1,0 +1,772 @@
+{
+    "items": [
+        {
+            "type":        "Class",
+            "label":       "9.50 - Research in Brain and Cognitive Sciences",
+            "id":          "9.50",
+            "level":       "Undergrad",
+            "units":       "2-8-2",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "No description available.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.50",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "Institute LAB",
+            "prereq":      "9.00"
+        },
+        {
+            "type":        "Class",
+            "label":       "9.51?9.52 - Topics in Brain and Cognitive Sciences",
+            "id":          "9.51?9.52",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "No description available.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.51?9.52",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "prereq":      "9.00"
+        },
+        {
+            "type":        "Class",
+            "label":       "9.520 - Statistical Learning Theory and Applications",
+            "id":          "9.520",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Focuses on the problem of supervised and unsupervised learning from the perspective of modern statistical learning theory, starting with the theory of multivariate function approximation from sparse data. Develops basic tools such as regularization, including support vector machines for regression and classification. Derives generalization bounds using both stability and VC theory. Discusses current research topics such as boosting, feature selection, active learning, ranking, and online learning. Examines applications in several areas: computer vision, computer graphics and bioinformatics. Final projects and hands-on applications and exercises, paralleling the rapidly increasing practical uses of the techniques described in the subject.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.520",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.867",
+                "6.041",
+                "18.06"
+            ],
+            "in-charge":   [
+                "Poggio, T.",
+                "Bouvrie, J.",
+                "Rifkin, R."
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.520-1",
+            "lecture-section-of": "9.520",
+            "timeAndPlace":       [
+                "MW 10:30-12:00 46-5193"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.531J - Systems Biology",
+            "id":          "9.531J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "development.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.531J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "7.81J",
+                "8.591J"
+            ],
+            "in-charge":   "Oudenaarden, A. Van"
+        },
+        {
+            "type":        "Class",
+            "label":       "9.56J - Abnormal Language",
+            "id":          "9.56J",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to the linguistic study of language pathology, concentrating on experimental approaches and theoretical explanations. Discussion of Specific Language Impairment, Down syndrome, William's syndrome, autism, normal aging, Parkinson's disease, Alzheimer's disease, hemispherectomy, and aphasia. Focuses on the comparison of linguistic abilities among these syndromes, while drawing clear comparisons with first- and second-language acquisition. Topics include the lexicon, morphology, syntax, semantics, and pragmatics. Relates the lost linguistic abilities in these syndromes to properties of the brain. Alternate years.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.56J",
+            "semester":    "Fall",
+            "offering":    "Not offered this year",
+            "prereq":      [
+                "24.907J",
+                "24.900"
+            ],
+            "in-charge":   "Wexler, K."
+        },
+        {
+            "type":        "Class",
+            "label":       "9.57J - Language Acquisition",
+            "id":          "9.57J",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Covers the major results in the study of first-language acquisition concentrating on the development of linguistic structure, including morphology, syntax, and semantics. Universal aspects of development are discussed, as well as a variety of cross-linguistic phenomena. Theories of language learning are considered, including parameter-setting and maturation. Alternate years.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.57J",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "HASS Elective",
+            "prereq":      [
+                "24.904J",
+                "24.900"
+            ],
+            "in-charge":   "Wexler, K."
+        },
+        {
+            "type":        "Class",
+            "label":       "9.587J - The Lexicon and Its Features",
+            "id":          "9.587J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Overview of features that distinguish sound categories in languages of the world. Theories that relate these categories to their acoustic and articulatory correlates, both universally and in particular languages. Models of word recognition by listeners. A variety of perspectives on these issues, drawn from electrical engineering and computer science, linguistics and cognitive science.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.587J",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.543J",
+                "24.941J",
+                "HST.727J",
+                "24.901"
+            ],
+            "in-charge":   [
+                "Gow, D.",
+                "Steriade, D.",
+                "Stevens, K. N.",
+                "Shattuck-Hufnagel, S."
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.59J - Psycholinguistics",
+            "id":          "9.59J",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Central topics in language processing. The structure of language. Sentence processing. Discourse processing. Morphological processing. The storage and access of words in the mental dictionary. Speech processing. The relationship between the computational resources available in working memory and the language processing mechanism. Ambiguity resolution. Discussion of computational modeling, including connectionist models. The relationship between language and thought. Issues in language acquisition including critical period phenomena, the acquisition of speech, and the acquisition of words. Experimental methodologies such as self-paced reading, eye-tracking, cross-modal priming, and neural imaging methods.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.59J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "HASS Elective",
+            "prereq":      [
+                "24.905J",
+                "24.900"
+            ],
+            "in-charge":   "Gibson, E."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.59J-1",
+            "lecture-section-of": "9.59J",
+            "timeAndPlace":       [
+                "MW 11:30-13:00 46-3015"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.591J - Language Processing",
+            "id":          "9.591J",
+            "level":       "Grad",
+            "units":       "3-0-6",
+            "total-units": 9,
+            "has-final":   false,
+            "description": "Seminar in real-time language comprehension. Models of sentence and discourse comprehension from the linguistic, psychology, and artificial intelligence literature, including symbolic and connectionist models. Ambiguity resolution. Linguistic complexity. The use of lexical, syntactic, semantic, pragmatic, contextual, and prosodic information in language comprehension. The relationship between the computational resources available in working memory and the language processing mechanism. The psychological reality of linguistic representations.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.591J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "24.945J",
+            "in-charge":   "Gibson, E."
+        },
+        {
+            "type":        "Class",
+            "label":       "9.601J - Language Acquisition I",
+            "id":          "9.601J",
+            "level":       "Grad",
+            "units":       "3-0-6",
+            "total-units": 9,
+            "has-final":   false,
+            "description": "Lectures, reading, and discussion of current theory and data concerning the psychology and biology of language acquisition. Emphasizes learning of syntax, semantics, and morphology, together with some discussion of phonology, and especially research relating grammatical theory and learnability theory to empirical studies of children.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.601J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "24.949J",
+            "in-charge":   "Wexler, K."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.601J-1",
+            "lecture-section-of": "9.601J",
+            "timeAndPlace":       [
+                "T 14:00-17:00 46-5056"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.61 - Laboratory in Higher Level Cognition",
+            "id":          "9.61",
+            "level":       "Undergrad",
+            "units":       "3-6-3",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "How to design, conduct, analyze and present experiments on higher-level cognition. Students construct, conduct, analyze and present two experimental projects, including one original and independent experimental project of publishable quality. Exercises to develop skills in reading and writing scientific research reports in cognitive science cover evaluating the methods section of a published paper, reading and understanding graphical displays and statistical claims about data, and evaluating theoretical claims based on experimental data. Topics of research include social cognition and theory of mind, cognitive development, learning, induction, and moral cognition. Examples of experimental projects include testing (1) the structure of visual statistical learning and its relationship to causal learning, (2) how other people's eye-gaze directs an observer's attention, (3) how people represent other people's actions in cooperative and competitive contexts, (4) the role of intentions in moral reasoning, and (5) the stability of cooperation in economic games with a possibility for errors. Enrollment limited to 18.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.61",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "prereq":      [
+                "9.35",
+                "9.59",
+                "9.65",
+                "9.66",
+                "9.85"
+            ],
+            "in-charge":   "Saxe, R."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.61-1",
+            "lecture-section-of": "9.61",
+            "timeAndPlace":       [
+                "MW 10:00-11:30 46-1015"
+            ]
+        },
+        {
+            "type":           "LabSection",
+            "label":          "s9.61-2",
+            "lab-section-of": "9.61",
+            "timeAndPlace":   [
+                "M 11:30-14:30 46-1015",
+                "W 19:00-10:00 46-1015"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.611J - Natural Language and the Computer Representation of Knowledge",
+            "id":          "9.611J",
+            "level":       "Grad",
+            "units":       "3-3-6",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Relationship between computer representation of knowledge and the structure of natural language. Emphasizes development of the analytical skills necessary to judge the computational implications of grammatical formalisms, and uses concrete examples to illustrate particular computational issues. Efficient parsing algorithms for context-free grammars; augmented transition network grammars. Question answering systems. Extensive laboratory work on building natural language processing systems.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.611J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.863J",
+                "6.034"
+            ],
+            "in-charge":   "Berwick, R. C."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.611J-1",
+            "lecture-section-of": "9.611J",
+            "timeAndPlace":       [
+                "MW 15:00-16:30 32-144"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.63 - Laboratory in Visual Cognition",
+            "id":          "9.63",
+            "level":       "Undergrad",
+            "units":       "3-6-3",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Teaches principles of experimental methods in human visual perception and attention, including design and statistical analysis. Combines lectures and hands-on experimental exercises; requires three independent experimental projects. To foster improved writing and presentation skills in conducting and critiquing research in cognitive science, students are required to provide several individual reports on experimental designs, as well as to write articles and give oral presentations of three team experiments. Enrollment limited to 20.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.63",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "in-charge":   "Oliva, A."
+        },
+        {
+            "type":        "Class",
+            "label":       "9.641J - Introduction to Neural Networks",
+            "id":          "9.641J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Organization of synaptic connectivity as the basis of neural computation and learning. Single and multilayer perceptrons. Dynamical theories of recurrent networks: amplifiers, integrators, attractors, and hybrid computation. Backpropagation, Hebbian, and reinforcement learning. Models of perception, motor control, memory, and neural development. Alternate years.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.641J",
+            "semester":    "Fall",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "8.594J",
+                "9.29"
+            ],
+            "in-charge":   "Seung, H. S."
+        },
+        {
+            "type":        "Class",
+            "label":       "9.65 - Cognitive Processes",
+            "id":          "9.65",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "An introduction to human information processing and learning. Topics include the nature of mental representation and processing; the architecture of memory; pattern recognition; attention; imagery and mental codes; concepts and prototypes; reasoning and problem-solving.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.65",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "HASS Elective",
+            "in-charge":   "Potter, M. C."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.65-1",
+            "lecture-section-of": "9.65",
+            "timeAndPlace":       [
+                "MW 13:00-14:30 46-3002"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.66J - Computational Cognitive Science",
+            "id":          "9.66J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to computational theories of human cognition. Focuses on principles of inductive learning and inference, and the representation of knowledge. Computational frameworks include Bayesian and hierarchical Bayesian models, probabilistic graphical models, nonparametric statistical models and the Bayesian Occam's razor, sampling algorithms for approximate learning and inference, and probabilistic models defined over structured representations such as first-order logic, grammars, or relational schemas. Applications to understanding core aspects of cognition, such as concept learning and categorization, causal reasoning, theory formation, language acquisition, and social inference. Graduate students complete a final project.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.66J",
+            "semester":    [
+                "Fall",
+                "Fall"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.804J",
+                "9.660",
+                "9.07",
+                "18.05",
+                "6.041",
+                "6.804J",
+                "9.66J"
+            ],
+            "in-charge":   "Tenenbaum, J. B."
+        },
+        {
+            "type":        "Class",
+            "label":       "9.675 - The Development of Object and Face Recognition",
+            "id":          "9.675",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "A 'back to the beginning' view to better understand the end result. What might be the developmental processes that lead to the organization of 'booming, buzzing confusions' into coherent visual objects? Examines key experimental results and computational proposals pertinent to the discovery of objects in complex visual inputs. In-depth discussions of research articles. Enrollment limited to 15.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.675",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "9.012",
+            "in-charge":   "Sinha, P."
+        },
+        {
+            "type":        "Class",
+            "label":       "9.68 - Affect: Biological, Psychological, and Social Aspects of \"Feelings\"",
+            "id":          "9.68",
+            "level":       "Undergrad",
+            "units":       "2-2-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Affect is to cognition and behavior as feeling is to thinking and acting or as values are to beliefs and practices. Considers these relations, both at the psychological level of organization and in terms of their neurobiological and sociocultural counterparts.  In addition to attending weekly class sessions and doing regular homework assignments, students are required to participate in small study groups that meet for two hours per week.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.68",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "HASS Elective",
+            "prereq":      "9.00",
+            "in-charge":   "Chorover, S. L."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.68-1",
+            "lecture-section-of": "9.68",
+            "timeAndPlace":       [
+                "T 19:00-9:00 46-3015"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.70 - Social Psychology",
+            "id":          "9.70",
+            "level":       "Undergrad",
+            "units":       "3-2-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Examines interpersonal and group dynamics, considers how the thoughts, feelings, and actions of individuals are influenced by (and influence) the beliefs, values, and practices of large and small groups. Learning occurs through a combination of in-class activities complemented by participation in small study groups and completion of regular homework assignments. Also involves occasional lectures and demonstrations.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.70",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "HASS Elective",
+            "in-charge":   "Chorover, S. L."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.70-1",
+            "lecture-section-of": "9.70",
+            "timeAndPlace":       [
+                "R 13:00-16:00 46-3015"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.71 - Functional MRI of High-Level Vision",
+            "id":          "9.71",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Basics of fMRI, the strengths and limitations of fMRI compared to other techniques, and the design and analysis of fMRI experiments, focusing primarily on experiments on high-level vision. Upon completion, students should be able to understand and critique published fMRI papers, have a good grasp of what is known about high-level vision from fMRI, and design their own fMRI experiments. Enrollment limited to 15.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.71",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "9.07",
+                "9.34",
+                "9.35",
+                "9.65",
+                "9.66"
+            ],
+            "in-charge":   "Kanwisher, N. G."
+        },
+        {
+            "type":        "Class",
+            "label":       "9.720 - The Neural Basis of Visual Object Recognition in Monkeys and Humans",
+            "id":          "9.720",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Key issues of object representation and data from primate physiology and human fMRI that bear on those issues. Topics include computational problems of object representation, the nature of object representations in the brain, tolerance and selectivity of those representations, and the effects of attention and learning. Enrollment limited to 15.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.720",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "in-charge":   [
+                "DiCarlo, J. J.",
+                "Kanwisher, N. G."
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.720-1",
+            "lecture-section-of": "9.720",
+            "timeAndPlace":       [
+                "T 17:00-8:00 46-4062"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.75J - Psychology of Gender and Race",
+            "id":          "9.75J",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Examines evidence (and lack thereof) regarding when and how an individual's thoughts, feelings, and actions are affected by gender and race. Topics include gender and racial factors in identity development, cognition and emotion, achievement, stereotypes, physical and mental health, sexuality, close relationships, work, and violence. Fall 2007 topic: U.S. focus on race and gender. Spring 2008 topic: International focus on gender, ethnicity and trauma. Enrollment limited to 20.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.75J",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "HASS Elective",
+            "prereq":      "SP.650J",
+            "in-charge":   "Kapungu, C."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.75J-1",
+            "lecture-section-of": "9.75J",
+            "timeAndPlace":       [
+                "R 19:00-10:00 14E-310"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.85 - Infant and Early Childhood Cognition",
+            "id":          "9.85",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to cognitive development focusing on children's understanding of objects, agents, and causality. Develops a critical understanding of experimental design. How developmental research might address philosophical questions about the origins of knowledge, appearance and reality, and the problem of other minds.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.85",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "HASS Elective",
+            "prereq":      "9.00",
+            "in-charge":   "Schulz, L."
+        },
+        {
+            "type":        "Class",
+            "label":       "9.91 - Topics in Brain and Cognitive Sciences",
+            "id":          "9.91",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.91",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "prereq":      "9.00",
+            "in-charge":   "MF1-2.30"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.91-1",
+            "lecture-section-of": "9.91",
+            "timeAndPlace":       [
+                "MF 13:00-14:30 46-5056"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.911-9.917 - Special Topics in Brain and Cognitive Sciences",
+            "id":          "9.911-9.917",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Opportunity for graduate study of advanced subjects in Brain and Cognitive Sciences not included in other subject listings.  9.911 is taught P/D/F.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.911-9.917",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Staff"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.911-9.917-1",
+            "lecture-section-of": "9.911-9.917",
+            "timeAndPlace":       [
+                "MF 13:00-14:30 46-5056"
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s9.911-9.917-2",
+            "lecture-section-of": "9.911-9.917",
+            "timeAndPlace":       [
+                "M 18:00-8:00 46-4062"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.919 - Teaching Brain and Cognitive Sciences",
+            "id":          "9.919",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "For teaching assistants in Brain and Cognitive Sciences, in cases where teaching assignment is approved for academic credit by the department.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.919",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":   "Staff"
+        },
+        {
+            "type":        "Class",
+            "label":       "9.92 - Topics in Brain and Cognitive Sciences",
+            "id":          "9.92",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "No description available.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.92",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "prereq":      "9.00"
+        },
+        {
+            "type":        "Class",
+            "label":       "9.921 - Research in Brain and Cognitive Sciences",
+            "id":          "9.921",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Guided research under the sponsorship of individual members of the faculty. Ordinarily restricted to candidates for the doctoral degree in Course IX.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.921",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Staff"
+        },
+        {
+            "type":        "Class",
+            "label":       "9.931 - Research Reports",
+            "id":          "9.931",
+            "level":       "Grad",
+            "units":       "0-0-6 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Course IX graduate students submit written reports of their research efforts according to stated deadlines. Registration is mandatory in Fall term of third year.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.931",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Staff"
+        },
+        {
+            "type":        "Class",
+            "label":       "9.941 - Graduate Thesis Proposals",
+            "id":          "9.941",
+            "level":       "Grad",
+            "units":       "0-0-6 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Course IX graduate students submit written proposals for thesis according to stated deadlines. Registration is mandatory in Fall term of the fourth year.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.941",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "9.931",
+            "in-charge":   "Staff"
+        },
+        {
+            "type":        "Class",
+            "label":       "9.93 - 9.99 - Independent Activities",
+            "id":          "9.93 - 9.99",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "No description available.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.93 - 9.99",
+            "semester":    "IAP",
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "9.ThG - Graduate Thesis",
+            "id":          "9.ThG",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Program of research leading to the writing of a Ph.D. thesis; to be arranged by the student and an appropriate MIT faculty member.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.ThG",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Staff"
+        },
+        {
+            "type":        "Class",
+            "label":       "9.UR - Undergraduate Research",
+            "id":          "9.UR",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "No description available.",
+            "url":         "http://student.mit.edu/catalog/m9b.html#9.UR",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring",
+                "Summer",
+                "Fall",
+                "IAP",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ]
+        }
+    ]
+}

@@ -245,7 +245,7 @@ function processClass(element, area, subarea) {
     var italics = utilities.gatherElementsOnXPath(document, element, './I', nsResolver);
     if (italics.length > 0) {
         var italic = italics[italics.length - 1];
-        var names = cleanString(italic.textContent).split(",");
+        var names = cleanString(italic.textContent).replace(/\u010d/g, "").split(",");
         for (var x = 0; x < names.length; x++) {
             var name = cleanString(names[x]);
             var space = name.lastIndexOf(' ');

@@ -9,24 +9,21 @@ If you already have it installed, then on Mac OSX, just run
 
 In this directory, run
 
-    ./scrape-all-pages
+    ./process-all-courses
     
-This calls ./scrape-one-page several times to scrape several course catalogue pages into json
-files inside the subdirectory scraped-json. The scraper is scraper.js in this directory.
-
 == Step 3 ==
-
-In this directory, run
-
-    ./post-process-all-courses
-    
-This calls ./post-process-one-course several times to post-process the scraped json files. The
-resulting json files are in the subdirectory processed-json.
-
-== Step 4 ==
 
 In this directory, run
 
     ./publish-json
 
 This copies the processed json files over to the directory course-picker/src/webapp/data/spring-fall.
+
+
+=====
+
+You can test scraper.js on each web page by running something like this
+
+    ./scrape-one-page m6a
+    
+It will scrape m6a.html and generate scraped-json/m6a.json.

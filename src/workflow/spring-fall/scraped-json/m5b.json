@@ -1,0 +1,868 @@
+{
+    "items": [
+        {
+            "type":        "Class",
+            "label":       "5.50 - Enzymes: Structure and Function",
+            "id":          "5.50",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to methods used to elucidate the mechanism of enzyme-catalyzed reactions. Application of steady-state and presteady-state kinetics, isotope effect measurements, site-directed mutagenesis, and mechanism-based inhibitors as tools to investigate the mechanisms of enzymes that have been well-characterized structurally.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.50",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "5.07",
+                "7.05",
+                "5.12",
+                "5.13"
+            ],
+            "in-charge":   "Stubbe, J."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.511 - Synthetic Organic Chemistry I",
+            "id":          "5.511",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to the design of syntheses of complex organic compounds.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.511",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "5.43",
+            "in-charge":   "Danheiser, R. L."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.512 - Synthetic Organic Chemistry II",
+            "id":          "5.512",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "General methods and strategies for the synthesis of complex organic compounds.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.512",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "5.511",
+            "in-charge":   "Movassaghi, M."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.512-1",
+            "lecture-section-of": "5.512",
+            "timeAndPlace":       [
+                "WF 8:30-10:00 2-105"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.52 - Advanced Biological Chemistry",
+            "id":          "5.52",
+            "level":       "Grad",
+            "units":       "2-2-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Concepts and methods of biochemistry, with emphasis on quantitative aspects of problem analysis and fundamentals of experimental methods. Intended for first-year graduate students with a strong interest in biological chemistry.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.52",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Klibanov, A. M."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.53 - Molecular Structure and Reactivity I",
+            "id":          "5.53",
+            "level":       "Grad",
+            "units":       "2-0-4",
+            "total-units": 6,
+            "has-final":   true,
+            "description": "Reaction mechanisms in organic chemistry: types of mechanisms; reactive intermediates; methods of investigation; and relation of structure to reactivity. Offered first half of term.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.53",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "5.43",
+                "5.13",
+                "5.60",
+                "5.43",
+                "5.56"
+            ],
+            "in-charge":   "Fu, G."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.53-1",
+            "lecture-section-of": "5.53",
+            "timeAndPlace":       [
+                "TR 8:30-10:00 56-114"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s5.53-2",
+            "rec-section-of": "5.53",
+            "timeAndPlace":   [
+                "R 11:00-12:00 8-205",
+                "F 15:00-16:00 8-205"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.55 - Chemical Tools for Assessing Biological Function",
+            "id":          "5.55",
+            "level":       "Grad",
+            "units":       "2-0-4",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Contemporary bioorganic chemistry and chemical biology, emphasizing the application of chemical approaches to interrogate biochemical function. Selected topics include specific enzyme inhibition as a mechanism for rational drug design; molecular mechanisms of drug resistance; uses of intrinsic and extrinsic reporter functionality to understand biological functions and interactions; chemical methods for probing cellular activities in real time.  Meets with 20.485 for second half of term.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.55",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "5.43",
+                "5.07",
+                "7.05"
+            ],
+            "in-charge":   [
+                "Imperiali, B.",
+                "White, F."
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.55-1",
+            "lecture-section-of": "5.55",
+            "timeAndPlace":       [
+                "TR 11:30-13:00 56-114"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.56 - Molecular Structure and Reactivity II",
+            "id":          "5.56",
+            "level":       "Grad",
+            "units":       "2-0-4",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Application of physical principles and methods to contemporary problems of interest in organic chemistry.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.56",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "5.43",
+                "5.53"
+            ],
+            "in-charge":   "Staff"
+        },
+        {
+            "type":        "Class",
+            "label":       "5.561 - Chemistry in Industry",
+            "id":          "5.561",
+            "level":       "Grad",
+            "units":       "2-0-4 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Examination of recent advances in organic, biological, and inorganic and physical chemical research in industry. Taught in seminar format with participation by scientists from industrial research laboratories. Half-term subject, meets second half of term.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.561",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "5.03",
+                "5.07",
+                "7.05",
+                "5.13"
+            ],
+            "in-charge":   "Danheiser, R. L."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.561-1",
+            "lecture-section-of": "5.561",
+            "timeAndPlace":       [
+                "TR 9:00-10:30 6-120"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.60 - Thermodynamics and Kinetics",
+            "id":          "5.60",
+            "level":       "Undergrad",
+            "units":       "5-0-7",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Equilibrium properties of macroscopic systems. Basic thermodynamics: state of a system, state variables. Work, heat, first law of thermodynamics, thermochemistry. Second and third law of thermodynamics: entropy. Gibbs function, phase equilibrium properties of solutions. Chemical equilibrium of reactions in gas and solution phase. Rates of chemical reactions.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.60",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "Restricted Electives in Science and Technology",
+            "prereq":      [
+                "18.02",
+                "5.111",
+                "5.112",
+                "3.091"
+            ],
+            "in-charge":   [
+                "Nelson, K. A.",
+                "Bawendi, M. G."
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.60-1",
+            "lecture-section-of": "5.60",
+            "timeAndPlace":       [
+                "MWF 10:00-11:00 54-100"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s5.60-2",
+            "rec-section-of": "5.60",
+            "timeAndPlace":   [
+                "WF 12:00-13:00 4-265",
+                "WF 13:00-14:00 4-265",
+                "TR 10:00-11:00 38-166",
+                "TR 13:00-14:00 38-166",
+                "TR 14:00-15:00 38-166"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.61 - Physical Chemistry",
+            "id":          "5.61",
+            "level":       "Undergrad",
+            "units":       "5-0-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introductory quantum chemistry; particles and waves; wave mechanics; atomic structure and the Periodic Table; valence and molecular orbital theory; molecular structure; and photochemistry.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.61",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "Restricted Electives in Science and Technology",
+            "prereq":      [
+                "8.02",
+                "18.02",
+                "5.111",
+                "5.112",
+                "3.091"
+            ],
+            "in-charge":   [
+                "Griffin, R. G.",
+                "Voorhis, T. Van"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.62 - Physical Chemistry",
+            "id":          "5.62",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Elementary statistical mechanics; transport properties; kinetic theory; solid state; reaction rate theory; and chemical reaction dynamics.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.62",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "5.60",
+                "5.61"
+            ],
+            "in-charge":   [
+                "Griffin, R. G.",
+                "Field, R. W."
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.62-1",
+            "lecture-section-of": "5.62",
+            "timeAndPlace":       [
+                "MWF 10:00-11:00 2-132"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s5.62-2",
+            "rec-section-of": "5.62",
+            "timeAndPlace":   [
+                "TR 10:00-11:00 8-119",
+                "TR 13:00-14:00 24-307"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.64 - Biophysical Chemistry",
+            "id":          "5.64",
+            "level":       "Grad",
+            "units":       "2-0-4",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Introduction to the major principles and concepts of biophysical chemistry, with emphasis on the thermodynamics and kinetics of macromolecular reactions, including conformational changes and interactions with small molecules and other macromolecules.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.64",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "5.13",
+                "5.60",
+                "5.07",
+                "7.05"
+            ],
+            "in-charge":   "Licht, S."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.65 - Molecular Imaging",
+            "id":          "5.65",
+            "level":       "Grad",
+            "units":       "2-0-4",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Overview of molecular imaging methods used to study biological systems, ranging from cells to entire organisms. We begin with micrometer-scale imaging, dominated by visible light microscopy. We discuss physics and instrumentation, chemical probes, and biological applications. The second unit covers imaging at millimeter scales, focusing on PET and MRI imaging in live organisms. In the final unit, we cover imaging at the nanometer to micrometer scale: electron microscopy, AFM, and NSOM.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.65",
+            "semester":    "Fall",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "5.13",
+                "5.60",
+                "5.07",
+                "7.05"
+            ],
+            "in-charge":   "Ting, A."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.675J - Computational Quantum Mechanics of Molecular and Extended Systems",
+            "id":          "5.675J",
+            "level":       "Grad",
+            "units":       "3-0-6",
+            "total-units": 9,
+            "has-final":   false,
+            "description": "The theoretical frameworks of Hartree-Fock theory and density functional theory are presented as approximate methods to solve the many-electron problem. A variety of ways to incorporate electron correlation are discussed. The application of these techniques to calculate the reactivity and spectroscopic properties of chemical systems, in addition to the thermodynamics and kinetics of chemical processes, is emphasized. Focus on cutting edge methods to sample complex hypersurfaces, for reactions in liquids, catalysts and biological systems. Students run computations both on Athena and on multi-processor supercomputers.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.675J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "10.675J",
+            "in-charge":   "Trout, B. L."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.68J - Kinetics of Chemical Reactions",
+            "id":          "5.68J",
+            "level":       "Grad",
+            "units":       "3-0-6",
+            "total-units": 9,
+            "has-final":   false,
+            "description": "Experimental and theoretical aspects of chemical reaction kinetics, including transition-state theories, molecular beam scattering, classical techniques, quantum and statistical mechanical estimation of rate constants, pressure-dependence and chemical activation, modeling complex reacting mixtures, and uncertainty/ sensitivity analyses. Reactions in the gas phase, liquid phase, and on surfaces are discussed with examples drawn from atmospheric, combustion, industrial, catalytic, and biological chemistry.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.68J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "10.652J",
+                "5.62",
+                "10.37",
+                "10.65"
+            ],
+            "in-charge":   "Green, W. H."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.68J-1",
+            "lecture-section-of": "5.68J",
+            "timeAndPlace":       [
+                "TR 13:00-14:30 8-119"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.70J - Statistical Thermodynamics with Applications to Biological Systems",
+            "id":          "5.70J",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Develops classical equilibrium and time dependent statistical mechanical concepts and supporting computer simulation methods for application to chemical and biological problems. Examples of applications include lattice models of binding, ionic and non-ionic solutions, polymer and protein conformations, the hydrophobic effect, and molecular motors; particular attention given to understanding the complex biochemical and biophysical processes underlying cell signaling (especially in cells of the immune system), cell migration, and the structure and dynamics of cell membranes.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.70J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "10.546J",
+                "20.465J",
+                "5.60"
+            ],
+            "in-charge":   [
+                "Chakraborty, A.",
+                "Deutch, J. M."
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.72 - Statistical Mechanics",
+            "id":          "5.72",
+            "level":       "Grad",
+            "units":       "2-0-4",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Principles and methods of statistical mechanics. Classical and quantum statistics, grand ensembles, fluctuations, molecular distribution functions, and other topics in equilibrium statistical mechanics. Topics in thermodynamics and statistical mechanics of irreversible processes. Half-term subject offered during first half of term.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.72",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "5.70",
+                "5.73",
+                "18.075"
+            ],
+            "in-charge":   "Cao, J."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.72-1",
+            "lecture-section-of": "5.72",
+            "timeAndPlace":       [
+                "TR 8:30-10:00 8-119"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.73 - Introductory Quantum Mechanics I",
+            "id":          "5.73",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Fundamental concepts of quantum mechanics: wave properties, uncertainty principles, Schrodinger equation, and operator and matrix methods. Basic applications to: one-dimensional potentials (harmonic oscillator), three-dimensional centrosymetric potentials (hydrogen atom), and angular momentum and spin. Approximation methods: WKB method, variational principle, and perturbation theory.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.73",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "5.61",
+                "8.03",
+                "18.03"
+            ],
+            "in-charge":   [
+                "Silbey, R.",
+                "Staff"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.74 - Introductory Quantum Mechanics II",
+            "id":          "5.74",
+            "level":       "Grad",
+            "units":       "2-0-4",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Time-dependent quantum mechanics and spectroscopy. Topics include perturbation theory, two-level systems, light-matter interactions, relaxation in quantum systems, correlation functions and linear response theory, and nonlinear spectroscopy. Half-term subject, offered first half of term.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.74",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "5.73",
+            "in-charge":   "Tokmakoff, A."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.74-1",
+            "lecture-section-of": "5.74",
+            "timeAndPlace":       [
+                "TR 11:00-12:30 26-314"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.77J - Topics in Metabolic Biochemistry",
+            "id":          "5.77J",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Topics include major metabolic pathways for the biosynthesis of certain cellular constituents and oxidative metabolism. Emphasis is on enzymology and methods used to understand metabolism and enzymatic processes.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.77J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "7.75J",
+                "7.35",
+                "7.05",
+                "5.07"
+            ],
+            "in-charge":   "Brown, G. M."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.78 - Biophysical Chemistry Techniques",
+            "id":          "5.78",
+            "level":       "Grad",
+            "units":       "2-0-4",
+            "total-units": 6,
+            "has-final":   true,
+            "description": "Presents principles of macromolecular crystallography that are essential for structure determinations. Topics include crystallization, diffraction theory, symmetry and space groups, data collection, phase determination methods, model building, and refinement. Discussion of crystallography theory complemented with exercises such as crystallization, data processing, and model building. Enrollment limited.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.78",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "7.71",
+                "5.07",
+                "7.05"
+            ],
+            "in-charge":   [
+                "Drennan, C.",
+                "Schwartz, T."
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.78-1",
+            "lecture-section-of": "5.78",
+            "timeAndPlace":       [
+                "MWF 9:30-11:00 56-154"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.80 - Advanced Topics of Current Special Interest",
+            "id":          "5.80",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Advanced topics of current special interest.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.80",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "in-charge":   "Staff"
+        },
+        {
+            "type":        "Class",
+            "label":       "5.891 - Special Topics in Chemistry for Undergraduates",
+            "id":          "5.891",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Program of study to be arranged by the student and a departmental faculty member.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.891",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring",
+                "Fall",
+                "IAP",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":   "Staff"
+        },
+        {
+            "type":        "Class",
+            "label":       "5.90 - Special Problems in Chemistry",
+            "id":          "5.90",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Directed research and study of special chemical problems. For graduate students only.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.90",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Field, R. W."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.913 - Seminar in Organic Chemistry",
+            "id":          "5.913",
+            "level":       "Grad",
+            "units":       "1-0-2 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Discussion of current journal publications in organic chemistry by graduate students and staff members.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.913",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "in-charge":   "Danheiser, R. L."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.913-1",
+            "lecture-section-of": "5.913",
+            "timeAndPlace":       [
+                "R 16:00-17:30 6-120"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.92 - Energy, Environment, and Society",
+            "id":          "5.92",
+            "level":       "Undergrad",
+            "units":       "4-2-6",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Explores energy issues and community dynamics at the local level: on the MIT campus and in the cities of Cambridge and Boston. Staff in the Laboratory for Energy and the Environment work with community contacts to develop project ideas of concern to community leaders that have potential to affect local energy management. Students are involved in all aspects of project design, from the refinement of research questions to conclusions and presentation of findings. Includes exercises in written and oral communication and team building. Limited enrollment. Preference to freshmen.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.92",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "in-charge":   [
+                "Steinfeld, J. I.",
+                "Tester, J. W."
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.921 - Seminar in Biological Chemistry",
+            "id":          "5.921",
+            "level":       "Grad",
+            "units":       "1-0-2 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Discusses topics of current interest in biological chemistry by graduate students and staff.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.921",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "in-charge":   "Licht, S."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.921-1",
+            "lecture-section-of": "5.921",
+            "timeAndPlace":       [
+                "M 16:00-17:30 56-114"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.931 - Seminar in Physical Chemistry",
+            "id":          "5.931",
+            "level":       "Grad",
+            "units":       "1-0-2 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Discusses topics of current interest in physical chemistry by staff members and students.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.931",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "prereq":      "5.60",
+            "in-charge":   "Cao, J."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.931-1",
+            "lecture-section-of": "5.931",
+            "timeAndPlace":       [
+                "T 16:00-17:30 4-237"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.941 - Seminar in Inorganic Chemistry",
+            "id":          "5.941",
+            "level":       "Grad",
+            "units":       "1-0-2 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Discusses current research in inorganic chemistry by graduate students and staff.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.941",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    [
+                "H-LEVEL Grad Credit",
+                "H-LEVEL Grad Credit"
+            ],
+            "prereq":      [
+                "5.03",
+                "5.03"
+            ],
+            "in-charge":   [
+                "Schrock, R. R.",
+                "Staff"
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s5.941-1",
+            "lecture-section-of": "5.941",
+            "timeAndPlace":       [
+                "W 16:00-17:30 6-120"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "5.95J - Teaching College-Level Science",
+            "id":          "5.95J",
+            "level":       "Grad",
+            "units":       "2-0-2 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Participatory seminar focuses on the knowledge and skills necessary for teaching science in higher education. Topics include: theories of adult learning; course development; promoting active learning, problem solving, and critical thinking in students; communicating with a diverse student body; using educational technology to further learning; lecturing; creating effective tests and assignments; and assessment and evaluation. Students research and present a relevant topic of particular interest. Subject is appropriate for both novices and those with teaching experience.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.95J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "7.59J",
+                "8.395J",
+                "18.094J"
+            ],
+            "in-charge":   "Breslow, L."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.CME - Study at Cambridge University",
+            "id":          "5.CME",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Provides credit for students studying at Cambridge University under the Undergraduate Student Exchange Program of the Cambridge-MIT Institute. Credit may be used to satisfy specific SB degree requirements. Consult with department and CME office.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.CME",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":   "Ceyer, S. T."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.ThG - Graduate Thesis",
+            "id":          "5.ThG",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Program of research leading to the writing of a PhD thesis; to be arranged by the student and an appropriate MIT faculty member.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.ThG",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Field, R. W."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.ThU - Undergraduate Thesis",
+            "id":          "5.ThU",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Program of original research under supervision of a chemistry faculty member, culminating with the preparation of a thesis. Ordinarily requires equivalent of two semesters of research with chemistry department faculty member.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.ThU",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":   "Ceyer, S. T."
+        },
+        {
+            "type":        "Class",
+            "label":       "5.UR - Undergraduate Research",
+            "id":          "5.UR",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Program of research to be arranged by the student and a departmental faculty member. May be taken for 9 to 12 units a semester, not to exceed a cumulative total of 24 units. A 10-page paper summarizing research is required. Restricted to juniors and seniors.",
+            "url":         "http://student.mit.edu/catalog/m5b.html#5.UR",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer",
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":   "Cummins, C. C."
+        }
+    ]
+}

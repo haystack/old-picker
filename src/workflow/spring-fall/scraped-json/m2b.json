@@ -1,0 +1,2332 @@
+{
+    "items": [
+        {
+            "type":        "Class",
+            "label":       "2.20 - Marine Hydrodynamics",
+            "id":          "2.20",
+            "level":       "Grad",
+            "units":       "4-1-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "The fundamentals of fluid mechanics are developed in the context of naval architecture and ocean science and engineering. Transport theorem and conservation principles. Navier-Stokes' equation. Dimensional analysis. Ideal and potential flows. Vorticity and Kelvin's theorem. Hydrodynamic forces in potential flow, D'Alembert's paradox, added-mass, slender-body theory. Viscous-fluid flow, laminar and turbulent boundary layers. Model testing, scaling laws. Application of potential theory to surface waves, energy transport, wave/body forces. Linearized theory of lifting surfaces. Experimental project in the towing tank or propeller tunnel.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.20",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.006",
+                "2.016",
+                "1.060"
+            ],
+            "in-charge":   "Yue, D. K. P.",
+            "area":        "Fluid Mechanics and Combustion"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.21J - Fluid Dynamics",
+            "id":          "2.21J",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Fundamentals of fluid dynamics intrinsic to natural physical phenomena and/or engineering processes. A range of topics and advanced problem-solving techniques discussed. Sample topics include brief review of basic laws of fluid motion, scaling and approximations, creeping flows, boundary layers in high-speed flows, steady and transient, similarity method of solution, buoyancy-driven convection in porous media, dispersion in steady or oscillatory flows, physics and mathematics of linearized instability, effects of shear and stratification. Choice of one of the following modules: I:  capillary phenomena or non-Newtonian fluid (for 2.21J) or II:  geophysical fluid dynamics of coastal waters (for 1.63J).",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.21J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "1.63J",
+                "18.085",
+                "1.131J",
+                "2.25"
+            ],
+            "in-charge":   [
+                "Mei, C. C.",
+                "McKinley, G. H.",
+                "Akylas, T. R.",
+                "Stocker, R."
+            ],
+            "area":        "Fluid Mechanics and Combustion"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.21J-1",
+            "lecture-section-of": "2.21J",
+            "timeAndPlace":       [
+                "MW 9:30-11:00 1-375"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s2.21J-2",
+            "rec-section-of": "2.21J",
+            "timeAndPlace":   [
+                "W 16:00-17:00 1-136"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.22 - Design Principles for Ocean Vehicles",
+            "id":          "2.22",
+            "level":       "Grad",
+            "units":       "3-3-6",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Design tools for analysis of linear systems and random processes related to ocean vehicles; description of ocean environment including random waves, ocean wave spectra and their selection; short and long term wave statistics; and ocean currents.  Advanced hydrodynamics for design of ocean vehicles and offshore structures including wave forces on towed and moored structures; inertia vs. drag dominated flows; vortex induced vibrations of offshore structures; ship seakeeping and sensitivity of seakeeping performance.   Design exercises in application of principles. Several laboratory exercises emphasizing modern measurement techniques, model testing, and flow diagnostic tools.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.22",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.20",
+            "in-charge":   "Triantafyllou, M. S.",
+            "area":        "Fluid Mechanics and Combustion"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.22-1",
+            "lecture-section-of": "2.22",
+            "timeAndPlace":       [
+                "TR 9:30-11:00 5-234"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.23 - Hydrofoils and Propellers",
+            "id":          "2.23",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Develops theory and design of hydrofoil sections; lifting and thickness problems for sub-cavitating sections and unsteady flow problems. Computer-aided design of low drag, cavitation free sections. Covers lifting line and lifting surface theory with applications to hydrofoil craft, rudder, control surface, propeller and wind turbine rotor design. Topics include propeller lifting line and lifting surface theory; computer-aided design of wake adapted propellers, steady and unsteady propeller thrust and torque; performance analysis and design of wind turbine rotors in steady and stochastic wind. Develops numerical principles of vortex lattice and lifting surface panel methods. Projects illustrate the development of computational methods for lifting, propeller and wind turbine flows; use of state-of-the-art simulation methods illustrates their use to lifting, propulsion and wind turbine applications.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.23",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.20",
+                "18.085"
+            ],
+            "in-charge":   "Sclavounos, P. D.",
+            "area":        "Fluid Mechanics and Combustion"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.24 - Ocean Wave Interaction with Ships and Offshore Energy Systems",
+            "id":          "2.24",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Reviews surface wave theory, conservation laws and boundary conditions; discusses properties of regular surface waves and stochastic ocean waves. Ship wave resistance theory, Kelvin wake physics, wave-body interaction theory and ship seakeeping in regular and random waves. Introduces methods of ship motion control in a deterministic and random waves. Discusses offshore bottom mounted and floating energy systems and their interaction with ambient waves, current and wind; discusses oil and gas platforms, Liquefied Natural Gas (LNG) vessels, floating wind turbines and wave power absorbers. Develops numerical principles of panel methods and their use for non-lifting potential flows and wave-body interactions. Projects illustrate use of panel and state-of-the-art simulation methods to the seakeeping of ships and offshore energy systems.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.24",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.20",
+                "18.085"
+            ],
+            "in-charge":   "Sclavounos, P. D.",
+            "area":        "Fluid Mechanics and Combustion"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.25 - Advanced Fluid Mechanics",
+            "id":          "2.25",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Survey of principal concepts and methods of fluid dynamics. Mass conservation, momentum, and energy equations for continua. Navier-Stokes equation for viscous flows. Similarity and dimensional analysis. Lubrication theory. Boundary layers and separation. Circulation and vorticity theorems. Potential flow. Introduction to turbulence. Lift and drag. Surface tension and surface tension driven flows.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.25",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.006",
+            "in-charge":   [
+                "Ghoniem, A. F.",
+                "Hosoi, A. E.",
+                "McKinley, G. H."
+            ],
+            "area":        "Fluid Mechanics and Combustion"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.26 - Compressible Fluid Dynamics",
+            "id":          "2.26",
+            "level":       "Grad",
+            "units":       "2-0-4",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Fundamental concepts and results for the compressible flow of gases. Topics include thermodynamics, appropriate conservation laws; propagation of disturbances; isentropic flows; normal shock wave relations, oblique shock waves, weak and strong shocks, and shock wave structure; compressible flows in ducts with area changes, friction, or heat addition; heat transfer to high speed flows; unsteady compressible flows, Riemann invariants, and piston and shock tube problems; steady 2D supersonic flow, Prandtl-Meyer function. Emphasis on thermodynamic processes, physical understanding of the phenomena and basic analytical techniques.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.26",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.006",
+            "in-charge":   "Lienhard, J. H.",
+            "area":        "Fluid Mechanics and Combustion"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.26-1",
+            "lecture-section-of": "2.26",
+            "timeAndPlace":       [
+                "F 13:00-15:00 1-246"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.27 - Turbulent and Separated Flows",
+            "id":          "2.27",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Governing equations, and statistical and dynamical theories of turbulence. Isotropic homogeneous turbulence, near wall turbulence, effects of free surface and surfactants and moving body boundary. Direct numerical simulations, large eddy simulations and sub-grid scale modeling, Reynolds-Average Navier-Stokes (RANS) equations and RANS turbulence models. Flow instability and transitions, almost parallel flows and inviscid and viscous instabilities. Laminar and turbulent separation, expansion flows, separated flows past bluff and streamlined bodies; flow induced vibrations.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.27",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.20",
+                "2.25",
+                "18.075"
+            ],
+            "in-charge":   "Yue, D. K. P.",
+            "area":        "Fluid Mechanics and Combustion"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.28 - Fundamentals and Applications of Combustion",
+            "id":          "2.28",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Fundamentals and modeling of reacting gas dynamics and combustion using analytical and numerical methods. Conservation equations of reacting flows. Multi-species transport, chemical thermodynamics and chemical kinetics. Non-equilibrium flow. Detonation and reacting boundary layers. Ignition, flammability, and extinction. Premixed and diffusion flames. Combustion instabilities. Supersonic combustion. Turbulent combustion. Liquid and solid burning. Fire, safety, and environmental impact. Applications to power and propulsion.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.28",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.006",
+            "in-charge":   "Ghoniem, A. F.",
+            "area":        "Fluid Mechanics and Combustion"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.29 - Numerical Fluid Mechanics for Engineers",
+            "id":          "2.29",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introductory MATLAB. Introduction to numerical methods: interpolation, differentiation, integration, systems of linear equations. Solution of differential equations by numerical integration, partial differential equations of inviscid hydrodynamics: finite difference methods, boundary integral equation panel methods.  Introductory numerical  lifting surface computations. Fast Fourier Transforms. Numerical representation of deterministic and random sea waves.  Integral boundary layer equations and numerical solutions.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.29",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.006",
+                "2.016",
+                "2.20",
+                "2.25",
+                "18.075"
+            ],
+            "in-charge":   "Lermusiaux, P. F. J.",
+            "area":        "Fluid Mechanics and Combustion"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.29-1",
+            "lecture-section-of": "2.29",
+            "timeAndPlace":       [
+                "TR 11:00-12:30 3-370"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s2.29-2",
+            "rec-section-of": "2.29",
+            "timeAndPlace":   [
+                "R 16:00-17:00 3-370"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.341J - Macromolecular Hydrodynamics",
+            "id":          "2.341J",
+            "level":       "Grad",
+            "units":       "3-0-6",
+            "total-units": 9,
+            "has-final":   false,
+            "description": "Physical phenomena in polymeric liquids undergoing deformation and flow. Kinematics and material functions for complex fluids; techniques of viscometry, rheometry; and linear viscoelastic measurements for polymeric fluids. Generalized Newtonian fluids. Continuum mechnanics, frame invariance, and convected derivatives for finite strain viscoelasticity. Differential and integral constitutive equations for viscoelastic fluids. Analytical solutions to isothermal and non-isothermal flow problems; the roles of non-Newtonian viscosity, linear viscoelasticity, normal stresses, elastic recoil, stress relaxation in processing flows. Introduction to molecular theories for dynamics of polymeric fluids. (Extensive class project and presentation required instead of a final exam).",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.341J",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "10.531J",
+                "2.25",
+                "10.301"
+            ],
+            "in-charge":   [
+                "Armstrong, R. C.",
+                "McKinley, G. H."
+            ],
+            "area":        "Fluid Mechanics and Combustion"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.341J-1",
+            "lecture-section-of": "2.341J",
+            "timeAndPlace":       [
+                "TR 14:30-16:00 66-168"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.37 - Molecular Mechanics",
+            "id":          "2.37",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to the fundamentals of molecular modeling in engineering, with emphasis on mechanical engineering applications. Statistical mechanics and its connection to engineering thermodynamics. Molecular origin of macroscopic descriptions and constitutive relations for equilibrium and non-equilibrium behavior. Limitations of macroscopic descriptions. Discussion of molecular approaches to modern nanoscale engineering problems. Introduction to molecular simulation. Graduate students are required to complete additional assignments with stronger analytical content.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.37",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.370",
+            "in-charge":   "Hadjiconstantinou, N. G.",
+            "area":        "MEMS and Nanotechnology"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.370 - Molecular Mechanics",
+            "id":          "2.370",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to the fundamentals of molecular modeling in engineering, with emphasis on mechanical engineering applications. Statistical mechanics and its connection to engineering thermodynamics. Molecular origin of macroscopic descriptions and constitutive relations for equilibrium and non-equilibrium behavior. Limitations of macroscopic descriptions. Discussion of molecular approaches to modern nanoscale engineering problems. Introduction to molecular simulation. Graduate students are required to complete additional assignments with stronger analytical content.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.370",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "2.37",
+                "2.001",
+                "3.091",
+                "5.111",
+                "5.112"
+            ],
+            "in-charge":   "Hadjiconstantinou, N. G.",
+            "area":        "MEMS and Nanotechnology"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.371 - Microscale Fluid Mechanics",
+            "id":          "2.371",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to the manipulation of liquids in microscale conduits. Emphasizes both pressure-based and electrochemical driving forces, including electro-osmosis and dielectrophoresis. Major topics include viscosity, diffusion, mixing, electrokinetics and the Debye layer, pumps, fluid polarization, and particle behavior in pressure-based and charged environments.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.371",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "prereq":      [
+                "2.005",
+                "8.02"
+            ],
+            "in-charge":   "Thorsen, T.",
+            "area":        "MEMS and Nanotechnology"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.372J - Design and Fabrication of MEMS",
+            "id":          "2.372J",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to microsystem design. Material properties, microfabrication technologies, structural behavior, sensing methods, fluid flow, microscale transport, noise, and amplifiers feedback systems. Student teams design microsystems (sensors, actuators, and sensing/control systems) of a variety of types, (e.g., optical MEMS, bioMEMS, inertial sensors) to meet a set of performance specifications (e.g., sensitivity, signal-to-noise) using a realistic microfabrication process. Emphasis on modeling and simulation in the design process. Prior fabrication experience is desirable.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.372J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.777J",
+                "6.003",
+                "2.004",
+                "8.02"
+            ],
+            "in-charge":   [
+                "Livermore, C.",
+                "Schmidt, M. A.",
+                "Voldman, J."
+            ],
+            "area":        "MEMS and Nanotechnology"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.372J-1",
+            "lecture-section-of": "2.372J",
+            "timeAndPlace":       [
+                "WF 11:00-12:30 26-168"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.373J - Materials and Processes for Microelectromechanical Devices and Systems",
+            "id":          "2.373J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Unified treatment of key principles in materials and processing for design and manufacture of microelectromechanical systems (MEMS). Emphasis on materials and processes commonly used for fabrication for MEMS and not microelectronic systems. Discussion of the processing and properties of both thin and thick polycrystalline and amorphous films, wafer and thin film bonding, bulk micromachining techniques, and the relationships between processing and properties of active materials such as piezoelectrics, ferroelectrics and phase-transition materials. Key material properties and parameters and their relationships with microfabrication processes and applications are discussed, including elastic and inelastic deformation, fracture, residual stress, fatigue, creep, adhesion, stiction, and coupled-field constitutive behavior. Materials and process selection and case studies of applications provide a unifying theme.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.373J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "3.48J",
+                "6.778J",
+                "10.584J",
+                "16.288J",
+                "6.152J",
+                "3.155J"
+            ],
+            "in-charge":   [
+                "Anand, L.",
+                "Jensen, K. F.",
+                "Schmidt, M. A.",
+                "Thompson, C. V.",
+                "Wardle, B. L."
+            ],
+            "area":        "MEMS and Nanotechnology"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.373J-1",
+            "lecture-section-of": "2.373J",
+            "timeAndPlace":       [
+                "MW 8:00-9:30 9-057"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s2.373J-2",
+            "rec-section-of": "2.373J",
+            "timeAndPlace":   [
+                "F 9:00-11:00 66-156"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.391J - Submicrometer and Nanometer Technology",
+            "id":          "2.391J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Surveys techniques to fabricate and analyze submicron and nanometer structures, with applications. Reviews optical and electron microscopy. Surface characterization, preparation, and measurement techniques. Resist technology. Optical projection, interferometric, X-ray, ion, and electron lithography. Aqueous, ion, and plasma etching techniques. Lift-off and electroplating. Ion implantation. Applications in microelectronics, microphotonics, information storage, and nanotechnology. Undergraduates with permission of instructor.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.391J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "6.781J",
+            "in-charge":   [
+                "Smith, H. I.",
+                "Barbastathis, G.",
+                "Berggren, K."
+            ],
+            "area":        "MEMS and Nanotechnology"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.391J-1",
+            "lecture-section-of": "2.391J",
+            "timeAndPlace":       [
+                "TR 9:30-11:00 1-390"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s2.391J-2",
+            "rec-section-of": "2.391J",
+            "timeAndPlace":   [
+                "F 9:00-10:00 9-057"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.41 - Advanced Thermal Fluids Engineering",
+            "id":          "2.41",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Examines current and future energy conversion systems. Introduction to thermochemistry and thermal radiation heat transfer. Introduction to the design of turbomachinery and the design of thermal-fluids systems. Analysis of various energy conversion systems including Rankine, Brayton, Otto, and Diesel. Special attention to combined cycle plants and fuel cells. Introduction to refrigeration plants. Applications include stationary plants and mobile plants. Consideration of pollution, environmental, and policy issues.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.41",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "prereq":      "2.006",
+            "in-charge":   "Cravalho, E. G.",
+            "area":        "Thermodynamics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.42 - General Thermodynamics",
+            "id":          "2.42",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "General foundations of thermodynamics from an entropy point of view, entropy generation and transfer in complex systems. Definitions of work, energy, stable equilibrium, available energy, entropy, thermodynamic potential, and interactions other than work (nonwork, heat, mass transfer). Applications to properties of materials, bulk flow, energy conversion, chemical equilibrium, combustion, and industrial manufacturing.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.42",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Cravalho, E. G.",
+            "area":        "Thermodynamics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.500 - Desalination",
+            "id":          "2.500",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces the fundamental science and technology of desalinating water to overcome water scarcity and ensure sustainable water supplies.  Covers basic water chemistry; flash evaporation; reverse osmosis and membrane engineering; electrodialysis; applications of nanotechnology to desalination; solar desalination; energy efficiency of desalination systems; fouling and scaling; environmental impacts; and economics of desalination systems.  Open to upper-class undergraduates.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.500",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.006",
+                "1.020",
+                "10.302"
+            ],
+            "in-charge":   [
+                "Lienhard, J. H.",
+                "Balaban, M."
+            ],
+            "area":        "Heat and Mass Transfer"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.500-1",
+            "lecture-section-of": "2.500",
+            "timeAndPlace":       [
+                "TR 13:00-14:30 1-150"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.51 - Intermediate Heat and Mass Transfer",
+            "id":          "2.51",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Analysis, modeling, and design of heat and mass transfer processes with application to common technologies. Unsteady heat conduction in one or more dimensions, steady conduction in multidimensional configurations, numerical simulation; forced convection in laminar and turbulent flows; natural convection in internal and external configurations; phase change heat transfer; thermal radiation, black bodies, grey radiation networks, spectral and solar radiation; mass transfer at low rates, evaporation.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.51",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      "2.006",
+            "in-charge":   [
+                "Lienhard, J. H.",
+                "Miki, B."
+            ],
+            "area":        "Heat and Mass Transfer"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.52 - Modeling and Approximation of Thermal Processes",
+            "id":          "2.52",
+            "level":       "Grad",
+            "units":       "3-0-3",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Focuses on teaching students how to model thermal transport processes in typical engineering systems such as those found in manufacturing, machinery, and energy technologies. Subject is divided into successive modules that cover basic modeling tactics for particular modes of transport, including steady and unsteady heat conduction, convection, multiphase flow processes, and thermal radiation. Subject includes a creative design project executed by the students. Meets first half of term.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.52",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.51",
+            "in-charge":   [
+                "Glicksman, L. R.",
+                "Lienhard, J. H."
+            ],
+            "area":        "Heat and Mass Transfer"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.55 - Advanced Heat and Mass Transfer",
+            "id":          "2.55",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Advanced treatment of fundamental aspects of heat and mass transport. Topics covered include: diffusion kinetics, conservation laws, laminar and turbulent convection, mass transfer including phase change or heterogeneous reactions, and basic thermal radiation. Problems and examples include theory and applications drawn from a spectrum of engineering design and manufacturing problems.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.55",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.51",
+            "in-charge":   [
+                "Miki, B.",
+                "Lienhard, J. H."
+            ],
+            "area":        "Heat and Mass Transfer"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.55-1",
+            "lecture-section-of": "2.55",
+            "timeAndPlace":       [
+                "TR 14:30-16:00 4-237"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s2.55-2",
+            "rec-section-of": "2.55",
+            "timeAndPlace":   [
+                "F 14:00-15:00 5-134"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.56 - Conduction and Change of Phase Heat Transfer",
+            "id":          "2.56",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Solutions of steady and transient heat conduction problems with various boundary conditions. Approximate methods: application of numerical techniques. Moving boundaries: problems in freezing and melting. Condensation heat transfer. Boiling: mechanisms and heat transfer correlations. Thermal modeling of engineering systems: thermal contact resistance; heat and mass transfer in material processing; heat transfer in biomedical systems.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.56",
+            "semester":    "Fall",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.51",
+            "in-charge":   "Miki, B.",
+            "area":        "Heat and Mass Transfer"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.57 - Nano-to-Macro Transport Processes",
+            "id":          "2.57",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Parallel treatments of photons, electrons, phonons, and molecules as energy carriers, aiming at a fundamental understanding of descriptive tools for energy and heat transport processes from nanoscale to macroscale. Topics include the energy levels, the statistical behavior and internal energy, energy transport in the forms of waves and particles, scattering and heat generation processes, Boltzmann equation and derivation of classical laws, deviation from classical laws at nanoscale and their appropriate descriptions, with applications in nanotechnology and microtechnology.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.57",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.005",
+            "in-charge":   "Chen, G.",
+            "area":        "Heat and Mass Transfer"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.57-1",
+            "lecture-section-of": "2.57",
+            "timeAndPlace":       [
+                "MW 11:00-12:30 3-370"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.58J - Radiative Transfer",
+            "id":          "2.58J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Principles of thermal radiation and their application to engineering heat and photon transfer problems. Quantum and classical models of radiative properties of materials, electromagnetic wave theory for thermal radiation, radiative transfer in absorbing, emitting, and scattering media, and coherent laser radiation. Applications cover laser-material interactions, imaging, infrared instrumentation, global warming, semiconductor manufacturing, combustion, furnaces, and high temperature processing.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.58J",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "10.74J",
+                "2.51",
+                "10.302"
+            ],
+            "in-charge":   "Chen, G.",
+            "area":        "Heat and Mass Transfer"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.59J - Thermal Hydraulics in Power Technology",
+            "id":          "2.59J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Emphasis on thermo-fluid dynamic phenomena and analysis methods for conventional and nuclear power stations. Kinematics and dynamics of two-phase flows.  Steam separation.  Boiling, instabilities, and critical conditions. Single-channel transient analysis.  Multiple channels connected at plena.  Loop analysis including single and two-phase natural circulation.  Subchannel analysis.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.59J",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "10.536J",
+                "22.313J",
+                "2.006",
+                "10.302",
+                "22.312"
+            ],
+            "in-charge":   "Buongiorno, J.",
+            "area":        "Heat and Mass Transfer"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.60 - Fundamentals of Advanced Energy Conversion",
+            "id":          "2.60",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Fundamentals of thermodynamics, chemistry, and transport applied to energy systems. Analysis of energy conversion and storage in thermal, mechanical, chemical, and electrochemical processes in power and transportation systems, with emphasis on efficiency, performance and environmental impact. Applications to fuel reforming, hydrogen, fuel cells and batteries, combustion, catalysis, combined and hybrid power cycles using fossil, nuclear and renewable resources. CO2 separation and capture. Biomass energy. Graduate students are expected to complete additional assignments.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.60",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "2.62J",
+                "10.392J",
+                "22.40J",
+                "2.006"
+            ],
+            "in-charge":   [
+                "Ghoniem, A. F.",
+                "Kazimi, M.",
+                "Shao-Horn, Y.",
+                "Tester, J."
+            ],
+            "area":        "Energy and Power Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.60-1",
+            "lecture-section-of": "2.60",
+            "timeAndPlace":       [
+                "MW 13:00-15:00 3-370"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.61 - Internal Combustion Engines",
+            "id":          "2.61",
+            "level":       "Grad",
+            "units":       "3-1-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Fundamentals of how the design and operation of internal combustion engines affect their performance, efficiency, fuel requirements, and environmental impact.  Study of fluid flow, thermodynamics, combustion, heat transfer and friction phenomena, and fuel properties, relevant to engine power, efficiency, and emissions.  Examination of design features and operating characteristics of different types of internal combustion engines:  spark-ignition, diesel, stratified-charge, and mixed-cycle engines.  Engine Laboratory project.  For graduate and senior undergraduate students.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.61",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.006",
+            "in-charge":   "Cheng, W. K.",
+            "area":        "Energy and Power Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.61-1",
+            "lecture-section-of": "2.61",
+            "timeAndPlace":       [
+                "TR 13:00-15:00 5-234"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.611 - Marine Power and Propulsion",
+            "id":          "2.611",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Selection and evaluation of commercial and naval ship power and propulsion systems. Analysis of propulsors, prime mover thermodynamic cycles, propeller-engine matching. Propeller selection, waterjet analysis, review of alternative propulsors; thermodynamic analyses of Rankine, Brayton, Diesel, and Combined cycles, reduction gears and integrated  electric drive. Battery operated vehicles, fuel cells. Term project requires analysis of alternatives in propulsion plant design for given physical, performance, and economic constraints. Graduate students complete different assignments  and exams.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.611",
+            "semester":    [
+                "Fall",
+                "Fall"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.612",
+                "2.005",
+                "2.611",
+                "2.005"
+            ],
+            "in-charge":   [
+                "Ghoniem, A. F.",
+                "Triantafyllou, M. S.",
+                "Burke, D. V."
+            ],
+            "area":        "Energy and Power Systems"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.62J - Fundamentals of Advanced Energy Conversion",
+            "id":          "2.62J",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Fundamentals of thermodynamics, chemistry, and transport applied to energy systems. Analysis of energy conversion and storage in thermal, mechanical, chemical, and electrochemical processes in power and transportation systems, with emphasis on efficiency, performance and environmental impact. Applications to fuel reforming, hydrogen, fuel cells and batteries, combustion, catalysis, combined and hybrid power cycles using fossil, nuclear and renewable resources. CO2 separation and capture. Biomass energy.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.62J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "10.392J",
+                "22.40J",
+                "2.60",
+                "2.006"
+            ],
+            "in-charge":   [
+                "Ghoniem, A. F.",
+                "Kazimi, M.",
+                "Shao-Horn, Y.",
+                "Tester, J."
+            ],
+            "area":        "Energy and Power Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.62J-1",
+            "lecture-section-of": "2.62J",
+            "timeAndPlace":       [
+                "MW 13:00-15:00 3-370"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.625 - Electrochemical Systems: Fundamentals, Materials and Applications",
+            "id":          "2.625",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Fundamental concepts, tools, and applications in electrochemical science and engineering. Introduces thermodynamics, kinetics and transport of electrochemical reactions. Describes how materials structure and properties affect electrochemical behavior of particular applications, for instance in lithium rechargeable batteries, electrochemical capacitors, fuel cells, photo electrochemical cells, and electrolytic cells. Discusses state-of-the-art electrochemical energy technologies for portable electronic devices, hybrid and plug-in vehicles, electrical vehicles. Theoretical and experimental exploration of electrochemical measurement techniques in cell testing, and in bulk and interfacial transport measurements (electronic and ionic resistivity and charge transfer cross the electrode-electrolyte interface).",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.625",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "3.53",
+                "2.005",
+                "3.046"
+            ],
+            "in-charge":   "Shao-Horn, Y.",
+            "area":        "Energy and Power Systems"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.63 - Applications of Technology in Energy and the Environment",
+            "id":          "2.63",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces advanced undergraduates or graduate students in the Schools of Engineering and Science to the integration of technical, economic, political, and environmental consideration required for the successful implementation of new technology. Case studies are drawn from the energy and environment sectors with some emphasis on analytic techniques that serve as a \"tool box\" for students. Technologies considered include fossil, nuclear, solar, wind, fuel cell and energy conservation. International aspects, such as weapons proliferation and global climate effects, also discussed. Enrollment limited.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.63",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "1.149",
+                "2.63",
+                "5.00",
+                "10.579",
+                "22.813",
+                "ESD.174"
+            ],
+            "in-charge":   [
+                "Deutch, J.",
+                "Lester, R."
+            ],
+            "area":        "Energy and Power Systems"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.64 - Superconducting Magnets",
+            "id":          "2.64",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Focuses on one important engineering application of superconductorsgeneration of large-scale and intense magnetic fields. Review of electromagnetic theory; detailed treatment of magnet design and operational issues, including \"usable\" superconductors, field and stress analyses, magnet instabilities, ac losses and mechanical disturbances, quench and protection, experimental techniques, and cryogenics. New high-temperature superconductors for magnetsdesign and operational issues at high temperatures.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.64",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.51",
+            "in-charge":   "Iwasa, Y.",
+            "area":        "Energy and Power Systems"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.65J - Sustainable Energy",
+            "id":          "2.65J",
+            "level":       "Grad",
+            "units":       "3-1-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Assessment of current and potential energy systems, covering extraction, conversion and end-use, with emphasis on meeting regional and global energy needs in the 21st century in a sustainable manner. Examination of energy technologies in each fuel cycle stage for fossil (oil, gas, synthetic), nuclear (fission and fusion) and renewable (solar, biomass, wind, hydro, and geothermal) energy types, along with storage, transmission, and conservation issues. Focus on evaluation and analysis of energy technology systems in the context of political, social, economic, and environmental goals. Open to upper-class undergraduates.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.65J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "1.818J",
+                "10.391J",
+                "11.371J",
+                "22.811J",
+                "ESD.166J"
+            ],
+            "in-charge":   [
+                "Golay, M. W.",
+                "Tester, J. W.",
+                "Freidberg, J. P."
+            ],
+            "area":        "Energy and Power Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.65J-1",
+            "lecture-section-of": "2.65J",
+            "timeAndPlace":       [
+                "TR 15:00-17:00 56-114"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.66J - Fundamentals of Energy in Buildings",
+            "id":          "2.66J",
+            "level":       "Undergrad",
+            "units":       "3-2-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to energy fundamentals important to buildings. Conservation of energy. Air-water vapor mixtures. Thermal comfort. Heat pumps and refrigeration cycles, limiting thermodynamic performance. Heat transfer within buildings and major components. Several creative design projects are assigned.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.66J",
+            "semester":    "Fall",
+            "offering":    "Not offered this year",
+            "category":    "Restricted Electives in Science and Technology",
+            "prereq":      [
+                "1.044J",
+                "4.42J",
+                "8.01",
+                "18.02"
+            ],
+            "in-charge":   "Glicksman, L. R.",
+            "area":        "Energy and Power Systems"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.661J - Architectural Thermal and Fluid Dynamics",
+            "id":          "2.661J",
+            "level":       "Grad",
+            "units":       "3-2-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Application of heat transfer and fluid dynamics to airflows within buildings. Analytic models of coupled flow and heat transfer for wind- and buoyancy-controlled natural ventilation. Stability of multiple equilibrium solutions. Analysis of displacement ventilation, jet flows and diffusers. Multi-node and multi-zone models, and computational fluid dynamics. Use of similitude in laboratory scale models. Measurement techniques within real buildings.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.661J",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "4.423J",
+                "2.005",
+                "4.42",
+                "2.25"
+            ],
+            "in-charge":   [
+                "Glicksman, L.",
+                "Norford, L. K."
+            ],
+            "area":        "Energy and Power Systems"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.67J - Analysis and Design of Heating, Ventilating, and Air Conditioning Systems",
+            "id":          "2.67J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Explores the fundamentals of heating, ventilating, and air-conditioning (HVAC) systems. Topics include discussion of psychrometrics, air conditioning processes, thermal comfort, indoor air quality and outdoor design conditions. Emphasis on the calculation of heating and cooling load in order to size suitable HVAC equipment, estimate energy consumption of the HVAC equipment, and control HVAC equipment. Both manual and computer methods are used. One or more site visits.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.67J",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "4.427J",
+                "2.006",
+                "4.42"
+            ],
+            "in-charge":   [
+                "Norford, L. K.",
+                "Glicksman, L."
+            ],
+            "area":        "Energy and Power Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.67J-1",
+            "lecture-section-of": "2.67J",
+            "timeAndPlace":       [
+                "TR 11:00-12:30 1-132"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.670 - Mechanical Engineering Tools",
+            "id":          "2.670",
+            "level":       "Undergrad",
+            "units":       "1-3-2 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Introduces the fundamentals of machine tool and computer tool use.  Students work with a variety of machine tools including the bandsaw, milling machine, and lathe.  Instruction given on the use of software packages, including design software. Assignments are project-oriented relating to mechanical engineering topics. It is recommended that students take this subject in the first IAP after declaring the major in Mechanical Engineering.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.670",
+            "semester":    "IAP",
+            "offering":    "Currently Offered",
+            "in-charge":   [
+                "Hart, D. P.",
+                "Wallace, D. R."
+            ],
+            "area":        "Experimental Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.671 - Measurement and Instrumentation",
+            "id":          "2.671",
+            "level":       "Undergrad",
+            "units":       "3-3-6",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Experimental techniques for observation and measurement of physical variables such as force, strain, temperature, flowrate, and acceleration. Emphasizes principles of transduction, measurement circuitry, MEMS sensors, Fourier transforms, linear and non-linear function fitting, uncertainty analysis, probability density functions and statistics, system identification, electrical impedance analysis and transfer functions, computer-aided experimentation, and technical reporting. Typical laboratory experiments involve oscilloscopes, electronic circuits including operational amplifiers, thermocouples, strain gauges, digital recorders, lasers, etc. Basic material and lab objectives are developed in lectures. Instruction and practice in oral and written communication provided. Enrollment limited.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.671",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "prereq":      [
+                "2.001",
+                "2.003",
+                "8.02"
+            ],
+            "in-charge":   [
+                "Hunter, I. W.",
+                "Leonard, J. J."
+            ],
+            "area":        "Experimental Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.671-1",
+            "lecture-section-of": "2.671",
+            "timeAndPlace":       [
+                "TR 12:30-14:00 1-390"
+            ]
+        },
+        {
+            "type":           "LabSection",
+            "label":          "s2.671-2",
+            "lab-section-of": "2.671",
+            "timeAndPlace":   [
+                "M 14:00-17:00 3-038",
+                "T 14:00-17:00 3-038",
+                "R 14:00-17:00 3-038",
+                "F 9:00-12:00 3-038",
+                "F 14:00-17:00 3-038"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.672 - Project Laboratory",
+            "id":          "2.672",
+            "level":       "Undergrad",
+            "units":       "1-3-2",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Engineering laboratory subject for mechanical engineering juniors and seniors. Major emphasis on interplay between analytical and experimental methods in solution of research and development problems. Communication (written and oral) of results is also a strong component of the course. Groups of two or three students work together on three projects during the term. Limited enrollment.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.672",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "prereq":      [
+                "2.001",
+                "2.003",
+                "2.006",
+                "2.671"
+            ],
+            "in-charge":   [
+                "Cheng, W.",
+                "Hart, D. P."
+            ],
+            "area":        "Experimental Engineering"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "s2.672-1",
+            "lab-section-of": "2.672",
+            "timeAndPlace":   [
+                "T 9:00-13:00 3-062",
+                "T 13:00-17:00 3-062",
+                "F 9:00-13:00 3-062",
+                "F 13:00-17:00 3-062"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.673J - Biological Engineering II: Instrumentation and Measurement",
+            "id":          "2.673J",
+            "level":       "Undergrad",
+            "units":       "3-6-3",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Sensing and measurement aimed at quantitative molecular/cell/tissue analysis in terms of genetic, biochemical, and biophysical properties. Methods include light and fluorescence microscopies, and electro-mechanical probes (atomic force microscopy, optical traps, MEMS devices). Application of statistics, probability, signal and noise analysis, and Fourier techniques to experimental data. Preferences given to juniors and seniors.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.673J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "20.309J",
+                "20.409",
+                "18.03"
+            ],
+            "in-charge":   [
+                "Manalis, S.",
+                "So, P. T.",
+                "Shusteff, M."
+            ],
+            "area":        "Experimental Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.674 - Micro/Nano Engineering Laboratory",
+            "id":          "2.674",
+            "level":       "Undergrad",
+            "units":       "1-4-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Concepts, ideas and enabling tools of nano science and engineering taught through projects which include learning about MEMS, microfluidics, nanomaterials and characterization tools such as SEM, TEM, STM and AFM. Lab modules utilize the Pappalardo II Laboratory, where students build, observe and manipulate micro- and nano-scale structures while learning about underlying science and engineering principles and potential applications. Designed for undergraduates who want to pursue study in micro/nano technology.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.674",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "2.001",
+                "3.091",
+                "5.111"
+            ],
+            "in-charge":   [
+                "Kim, S. G.",
+                "Thorsen, T.",
+                "Livermore, C.",
+                "Chen, G."
+            ],
+            "area":        "Experimental Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.674-1",
+            "lecture-section-of": "2.674",
+            "timeAndPlace":       [
+                "M 13:00-14:00 5-026"
+            ]
+        },
+        {
+            "type":           "LabSection",
+            "label":          "s2.674-2",
+            "lab-section-of": "2.674",
+            "timeAndPlace":   [
+                "R 13:00-17:00 5-026"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.681 - Environmental Ocean Acoustics",
+            "id":          "2.681",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Fundamentals of underwater sound, and its application to mapping and surveillance in an ocean environment. Wave equations for fluid and elastic media. Reflection and transmission of sound at plane interfaces. Wave theory representation of acoustic source radiation and propagation in shallow and deep ocean waveguides. Interaction of underwater sound with elastic waves in the seabed and an Arctic ice cover, including effects of porosity and anisotropy. Numerical modeling of the propagation of underwater sound, including spectral methods, normal mode theory, and the parabolic equation method, for laterally homogeneous and inhomogeneous environments. Doppler effects. Effects of oceanographic variability and fluctuation - spatial and temporal coherence. Generation and propagation of ocean ambient noise. Modeling and simulation of signals and noise in traditional sonar systems, as well as modern, distributed, autonomous acoustic surveillance systems.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.681",
+            "semester":    "Fall",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.066",
+                "18.075"
+            ],
+            "in-charge":   "Schmidt, H.",
+            "area":        "Oceanographic Engineering and Acoustics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.682 - Acoustical Oceanography",
+            "id":          "2.682",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Provides brief overview of what important current research topics are in oceanography (physical, geological, and biological) and how acoustics can be used as a tool to address them. Three typical examples are climate, bottom geology, and marine mammal behavior. Addresses the acoustic inverse problem, reviewing inverse methods (linear and nonlinear) and the combination of acoustical methods with other measurements as an integrated system. Concentrates on specific case studies, taken from current research journals.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.682",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.681",
+            "in-charge":   [
+                "Lynch, J. F.",
+                "Staff, Woods Hole"
+            ],
+            "area":        "Oceanographic Engineering and Acoustics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.683 - Marine Bio-Acoustics and Geo-Acoustics",
+            "id":          "2.683",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Both active and passive acoustic methods of measuring marine organisms, the seafloor, and their interactions are reviewed.  Acoustic methods of detecting, observing, and quantifying marine biological organisms are described, as are acoustic methods of measuring geological properties of the seafloor, including depth, and surficial and volumetric composition.  Interactions are also described, including effects of biological scatterers on geological measurements, and effects of seafloor scattering on measurements of biological scatterers on, in, or immediately above the seafloor.  Methods of determining small-scale material properties of organisms and the seafloor are outlined. Operational methods are emphasized, and corresponding measurement theory is described.  Case studies are used in illustration.  Principles of acoustic-system calibration are elaborated.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.683",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered this year",
+                "Can be repeated for credit"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.681",
+            "in-charge":   [
+                "Foote, K. G.",
+                "Staff, Woods Hole"
+            ],
+            "area":        "Oceanographic Engineering and Acoustics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.684 - Wave Scattering by Rough Surfaces and Inhomogeneous Media",
+            "id":          "2.684",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "An advanced-level subject designed to give students a working knowledge of current techniques in this area. Material is presented principally in the context of ocean acoustics, but can be used in other acoustic and electromagnetic applications. Includes fundamentals of wave propagation through, and/or scattering by: random media, extended coherent structures, rough surfaces, and discrete scatterers.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.684",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered this year",
+                "Can be repeated for credit"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.066",
+            "in-charge":   [
+                "Stanton, T. K.",
+                "Lavery, A. C.",
+                "Staff, Woods Hole"
+            ],
+            "area":        "Oceanographic Engineering and Acoustics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.685 - Numerical Methods in Wave Scattering",
+            "id":          "2.685",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Fundamental equations for acoustic and electromagnetic waves are derived from first principles. Boundary, or interface, conditions are introduced. Emphasizes the development of numerical methods to solve wave equations in interior or exterior domains using boundary-element and finite-element techniques. Spectral techniques are also developed. A number of technical computational issues are addressed including discretization of geometry, order of approximation, efficiency, and analysis of numerical schemes. Validation is an essential exercise. Validation examples are drawn from analytical solutions for separable shapes. Applications of numerical methods are presented for acoustic scattering by marine organisms of complex shape and structure, and optical scattering by dielectric bodies. Assignments entail code development.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.685",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.066",
+                "18.06"
+            ],
+            "in-charge":   [
+                "Feijoo, G. R.",
+                "Foote, K. G.",
+                "Staff, Woods Hole"
+            ],
+            "area":        "Oceanographic Engineering and Acoustics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.686J - Sonar, Radar, and Seismic Signal Processing",
+            "id":          "2.686J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Signal processing used in sonar, radar, and geophysical data analysis. Active sonar and radar systems: matched filters and ambiguity functions, signal design of range/doppler resolution, second moment characterizations of random processes with correlation functions and power density spectra, deconvolution, spectral estimation by Fourier techniques and adaptive methods, beam forming.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.686J",
+            "semester":    "Fall",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.455J",
+                "12.518J",
+                "2.004",
+                "6.003",
+                "6.041",
+                "18.075",
+                "18.085"
+            ],
+            "in-charge":   [
+                "Makris, N. C.",
+                "Preisig, J. C.",
+                "Staff, Woods Hole"
+            ],
+            "area":        "Oceanographic Engineering and Acoustics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.687 - Time Series Analysis and System Identification",
+            "id":          "2.687",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Matched filtering, power spectral estimation and adaptive signal processing and system identification algorithms are introduced. Algorithm development is framed as an optimization problem, and methods of finding both optimal and approximate solutions are described. Introduction to time-varying systems, first and second moment characterizations of stochastic processes, and state-space models. Algorithm derivation, performance analysis and robustness to modeling errors are covered for matched filter and power spectral estimation algorithms, stochastic gradient algorithms (LMS and its variants), Least Squares algorithms (RLS, order- recursive  approaches), and the discrete-time Kalman Filter and its derivatives. Includes laboratory exercises involving working with experimental  data from a variety of fields. Term paper/project is required.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.687",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered this year",
+                "Can be repeated for credit"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.003",
+                "6.431",
+                "18.06"
+            ],
+            "in-charge":   "Preisig, J. C.",
+            "area":        "Oceanographic Engineering and Acoustics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.688 - Principles of Oceanographic Instrument Systems -- Sensors and Measurements",
+            "id":          "2.688",
+            "level":       "Grad",
+            "units":       "3-3-6",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces theoretical and practical principles of design of oceanographic sensor systems. Transducer characteristics for acoustic, current, temperature, pressure, electric, magnetic, gravity, salinity, velocity, heat flow, and optical devices. Limitations on these devices imposed by ocean environment. Signal conditioning and recording; noise, sensitivity, and sampling limitations; standards. Principles of state-of-the-art systems being used in physical oceanography, geophysics, submersibles, acoustics discussed in lectures by experts in these areas. Day cruises in local waters during which the students will prepare, deploy and analyze observations from standard oceanographic instruments constitute the lab work for this subject.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.688",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "18.075",
+                "2.671"
+            ],
+            "in-charge":   [
+                "Grosenbaugh, M. A.",
+                "Staff, Woods Hole"
+            ],
+            "area":        "Oceanographic Engineering and Acoustics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.689J - Special Projects in Oceanographic Engineering",
+            "id":          "2.689J",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Special problems in oceanographic engineering, carried out under supervision of members of the staff of the Woods Hole Oceanographic Institution. Given at Woods Hole Oceanographic Institution.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.689J",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   [
+                "Stanton, T. K.",
+                "Staff, Woods Hole"
+            ],
+            "area":        "Oceanographic Engineering and Acoustics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.701 - Principles of Naval Architecture",
+            "id":          "2.701",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to principles of naval architecture, ship geometry, hydrostatics, calculation and drawing of curves of form, intact and damage stability, hull structure strength calculations and ship resistance.  Projects include analysis of ship lines drawings and ship model testing.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.701",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "2.002",
+                "2.012"
+            ],
+            "in-charge":   [
+                "Keenan, P. J.",
+                "Harbour, J. P."
+            ],
+            "area":        "Naval Architecture"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.702 - Computer-Aided Design and Systems Engineering of Naval Ships",
+            "id":          "2.702",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Introduction to principles of systems engineering, computer-aided naval ship design and analysis tools. Emphasizes utilization of computer-aided tools and application of design principles. Naval ship design and acquisition processes; requirements setting, design philosophy and constraints, selection criteria, design optimization, variant analysis, design trade-offs, analysis of ship design trends, and cost analysis.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.702",
+            "semester":    "Summer",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.701",
+            "in-charge":   [
+                "Keenan, P. J.",
+                "Harbour, J. P."
+            ],
+            "area":        "Naval Architecture"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.703 - Principles of Naval Ship Design",
+            "id":          "2.703",
+            "level":       "Grad",
+            "units":       "3-1-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Design of surface ship platforms for naval applications; introduction to formal design decision making methods; mathematical and computer models of ship design process; engineering and economic principles governing selection of dimensions and coefficients; influence of hull form and dimensions on seakeeping and ship motions in irregular seas using wave energy spectra and response amplitude operator methods; internal subdivisions for efficient arrangement and maximum survivability; damage stability.  Introduction to advanced hullforms.  Design projects in application of principles.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.703",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.082",
+                "2.20",
+                "2.611",
+                "2.702"
+            ],
+            "in-charge":   [
+                "Keenan, P. J.",
+                "Harbour, J. P."
+            ],
+            "area":        "Naval Architecture"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.704 - Projects in Naval Ship Conversion Design",
+            "id":          "2.704",
+            "level":       "Grad",
+            "units":       "1-0-5",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Focus on conversion design of a naval ship. A new mission requirement is defined, requiring significant modification to an existing ship. Requirements setting, design plan formulation, design philosophy and formal decision making methods are used. Technical aspects demonstrate feasibility and desirability. Formal written and verbal reports. Team projects.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.704",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.703",
+            "in-charge":   [
+                "Keenan, P. J.",
+                "Harbour, J. P."
+            ],
+            "area":        "Naval Architecture"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.705 - Projects in New Concept Naval Ship Design",
+            "id":          "2.705",
+            "level":       "Grad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Focus on preliminary design of a new naval ship, fulfilling a given set of mission requirements. Design plan formulation, system level trade-off studies, emphasizes achieving a balanced design and total system integration. Formal written and oral reports. Team projects extend over three terms.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.705",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.704",
+            "in-charge":   [
+                "Keenan, P. J.",
+                "Harbour, J. P."
+            ],
+            "area":        "Naval Architecture"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.706 - Sailing Vessel Design",
+            "id":          "2.706",
+            "level":       "Grad",
+            "units":       "3-5-4",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Naval Architecture review, hydrostatics, hydrodynamics and sail aerodynamics unique to sailing vessels, sail and hull heeling moment constraints, parameters of form found for \"good\" boats. Hull drag decomposition, structural design based on fundamentals and on \"rules\" of classification organizations. Individual design project including: hull shape, appendages for side force and control, rig design, dimensions of spars and rigging, and detailed structural design of hull and appendages. CAD and performance prediction are used as design aids. Structural component dimensions, design loads, and design deflections are organized with a computer spreadsheet by each student. Enrollment limited to 25 students.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.706",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.701",
+            "in-charge":   "Milgram, J. H.",
+            "area":        "Naval Architecture"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.707 - Submarine Structural Acoustics",
+            "id":          "2.707",
+            "level":       "Grad",
+            "units":       "2-0-4",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Introduction to the acoustic interaction of submerged structures with the surrounding fluid. Fluid and elastic wave equations. Elastic waves in plates. Radiation and scattering from planar structures as well as curved structures such as spheres and cylinders. Acoustic imaging of structural vibrations. Taught first half of the term. Students can take 2.085 in the second part of the term.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.707",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.066",
+            "in-charge":   "Schmidt, H.",
+            "area":        "Naval Architecture"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.71 - Optics",
+            "id":          "2.71",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to optical science with elementary engineering applications. Geometrical optics: ray-tracing, aberrations, lens design, apertures and stops, radiometry and photometry. Wave optics: basic electrodynamics, polarization, interference, wave-guiding, Fresnel and Fraunhofer diffraction, image formation, resolution, space-bandwidth product. Emphasis on analytical and numerical tools used in optical design. Graduate students are required to complete additional assignments with stronger analytical content, and an advanced design project.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.71",
+            "semester":    [
+                "Spring",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.710",
+                "8.02",
+                "18.03",
+                "2.004",
+                "2.71",
+                "8.02",
+                "18.03",
+                "2.004"
+            ],
+            "in-charge":   [
+                "Barbastathis, G.",
+                "So, P. T."
+            ],
+            "area":        "Optics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.71-1",
+            "lecture-section-of": "2.71",
+            "timeAndPlace":       [
+                "M 10:00-11:00 32-144"
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.71-2",
+            "lecture-section-of": "2.71",
+            "timeAndPlace":       [
+                "M 10:00-11:00 32-144"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.715J - Optical Microscopy and Spectroscopy for Biology and Medicine",
+            "id":          "2.715J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces the theory and the design of optical microscopy and its applications in biology and medicine.  The course starts from an overview of basic optical principles allowing an understanding of microscopic image formation and common contrast modalities such as dark field, phase, and DIC.  Advanced microscopy imaging techniques such as total internal reflection, confocal, and multiphoton will also be discussed.  Quantitative analysis of biochemical microenvironment using spectroscopic techniques based on fluorescence, second harmonic, Raman signals will be covered.  We will also provide an overview of key image processing techniques for microscopic data.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.715J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      "20.487J",
+            "in-charge":   [
+                "So, P. T.",
+                "Sheppard, C."
+            ],
+            "area":        "Optics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.717J - Optical Engineering",
+            "id":          "2.717J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Theory and practice of optical methods in engineering and system design. Emphasis on diffraction, statistical optics, holography, and imaging. Provides engineering methodology skills necessary to incorporate optical components in systems serving diverse areas such as precision engineering and metrology, bio-imaging, and computing (sensors, data storage, communication in multi-processor systems). Experimental demonstrations and a design project are included.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.717J",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "MAS.857J",
+                "2.710"
+            ],
+            "in-charge":   [
+                "So, P. T.",
+                "Barbastathis, G."
+            ],
+            "area":        "Optics"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.72 - Elements of Mechanical Design",
+            "id":          "2.72",
+            "level":       "Undergrad",
+            "units":       "3-3-6",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Advanced subject on modeling, design, integration and best practices for use of machine elements such as bearings, springs, gears, cams and mechanisms. Modeling and analysis of these elements is based upon extensive application of physics, mathematics and core mechanical engineering principles (solid mechanics, fluid mechanics, manufacturing, estimation, and modeling). These principles are reinforced via laboratory experiences wherein students conduct experiments and disassemble machines and a substantial design project wherein students model, design, fabricate and characterize a mechanical system that is relevant to a real world application. Students master the materials via problems sets that are directly related to, and coordinated with, the deliverables of their project. Student assessment is based upon mastery of the subject materials and the student's ability to synthesize, model and fabricate a mechanical device subject to engineering constraints (e.g. cost and time/schedule). Limited enrollment.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.72",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "2.005",
+                "2.007",
+                "2.671"
+            ],
+            "in-charge":   "Culpepper, M. L.",
+            "area":        "Design"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.72-1",
+            "lecture-section-of": "2.72",
+            "timeAndPlace":       [
+                "TR 14:30-16:00 5-134"
+            ]
+        },
+        {
+            "type":           "LabSection",
+            "label":          "s2.72-2",
+            "lab-section-of": "2.72",
+            "timeAndPlace":   [
+                "M 9:00-12:00 35-125",
+                "M 14:00-17:00 35-125"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.722J - D-Lab: Design",
+            "id":          "2.722J",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Addresses problems faced by underserved communities with a focus on design, experimentation, and prototyping processes. Particular attention placed on constraints faced when designing for developing countries.  Multidisciplinary teams work on long-term projects in collaboration with community partners, field practitioners, and experts in relevant fields. Topics covered include design for affordability, manufacture,  sustainability, and strategies for working effectively with community partners and customers. Students may continue projects begun in SP.721.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.722J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "SP.722J",
+                "2.670"
+            ],
+            "in-charge":   [
+                "Smith, A. B.",
+                "Vandiver, J. K.",
+                "Wallace, D. R."
+            ],
+            "area":        "Design"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.722J-1",
+            "lecture-section-of": "2.722J",
+            "timeAndPlace":       [
+                "MW 15:30-17:00 5-134"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.737 - Mechatronics",
+            "id":          "2.737",
+            "level":       "Grad",
+            "units":       "3-5-4",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to designing mechatronic systems, which require integration of the mechanical and electrical engineering disciplines within a unified framework. Significant laboratory-based design experiences form subject's core. Final project. Topics include: low-level interfacing of software with hardware; use of high-level graphical programming tools to implement real-time computation tasks; digital logic; analog interfacing and power amplifiers; measurement and sensing; electromagnetic and optical transducers; control of mechatronic systems. Enrollment limited to 20.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.737",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.071",
+                "6.002",
+                "2.14",
+                "6.302",
+                "16.30"
+            ],
+            "in-charge":   [
+                "Trumper, D. L.",
+                "Youcef-Toumi, K."
+            ],
+            "area":        "Design"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.739J - Product Design and Development",
+            "id":          "2.739J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Covers modern tools and methods for product design and development. The cornerstone is a project in which teams of management, engineering, and industrial design students conceive, design, and prototype a physical product. Class sessions employ cases and hands-on exercises to reinforce the key ideas. Topics include: product planning, identifying customer needs, concept generation, product architecture, industrial design, concept design, and design-for-manufacturing.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.739J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "15.783J",
+                "ESD.32J",
+                "2.009",
+                "15.760",
+                "15.761"
+            ],
+            "in-charge":   "Seering, W. P.",
+            "area":        "Design"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.739J-1",
+            "lecture-section-of": "2.739J",
+            "timeAndPlace":       [
+                "TR 13:00-14:30 E51-335"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.744J - Product Design",
+            "id":          "2.744J",
+            "level":       "Grad",
+            "units":       "3-1-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Project-centered subject addressing transformation of ideas into successful products which are properly matched to the user and the market. Students are asked to take a more complete view of a new product and to gain experience with designs judged on their aesthetics, ease of use, and sensitivities to the realities of the marketplace. Lectures on modern design process, industrial design, visual communication, form-giving, mass production, marketing, and environmentally conscious design.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.744J",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "ESD.64J",
+                "2.009"
+            ],
+            "in-charge":   "Wallace, D. R.",
+            "area":        "Design"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.744J-1",
+            "lecture-section-of": "2.744J",
+            "timeAndPlace":       [
+                "TR 14:30-16:00 3-370"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.745 - Invention",
+            "id":          "2.745",
+            "level":       "Grad",
+            "units":       "3-2-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Exposes students to the culture and methodology of the inventor. Examples of past invention and their impact on technology and society in their historical context. Examines the interplay between analysis and synthesis in the inventive process. Formal methods of promoting synthesis includes classic brainstorming, morphological analysis, and TRIZ theory. Through case studies, examine how feasibility study and proof of concept can be accomplished as well as the cyclical progression of a project through stages of synthesis, analysis and test. Elements of patent law. Majority of student effort is spent inventing. Laboratory time focused on proof of concept.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.745",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Sachs, E. M.",
+            "area":        "Design"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.745-1",
+            "lecture-section-of": "2.745",
+            "timeAndPlace":       [
+                "TR 9:30-11:00 3-370"
+            ]
+        },
+        {
+            "type":           "LabSection",
+            "label":          "s2.745-2",
+            "lab-section-of": "2.745",
+            "timeAndPlace":   [
+                "F 9:00-11:00 35-125"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.75 - Precision Machine Design",
+            "id":          "2.75",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Intensive coverage of precision engineering theory, heuristics, and applications pertaining to the design of systems ranging from consumer products to machine tools and instruments. Topics covered include: economics, project management and design philosophy; principles of accuracy, repeatability, and resolution; error budgeting; sensors; sensor mounting; systems design; bearings; actuators and transmissions; system integration driven by functional requirements and operating physics. Emphasis on developing creative designs which are optimized by analytical techniques. Problem sets and test first six weeks.  Major team-based design project focus last six weeks.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.75",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "2.72",
+            "in-charge":   [
+                "Slocum, A. H.",
+                "Culpepper, M. L."
+            ],
+            "area":        "Design"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.76 - Multi-Scale System Design and Manufacturing",
+            "id":          "2.76",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Multi-scale systems are complex with respect to traditional macro-scale systems in that the multi-scale systems use components from nano, micro, meso, and macro-scales. Subject provides the skills required to design and manufacture multi-scale systems. Emphasis is placed on understanding the systems design approach to multi-scale systems. Topics include design methodologies, modeling approaches, analytic tools, and manufacturing processes. Examples drawn from a diverse range of applications, including nanomanufacturing, nanoproducts, electronic test equipment, instrumentation, and micro/meso-scale machinery. Students master the materials through problem sets and a substantial term project, such as building a scanning tunneling microscope. Graduate students complete additional assignments.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.76",
+            "semester":    [
+                "Fall",
+                "Fall"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "2.760",
+                "2.004",
+                "2.008",
+                "2.76",
+                "2.004",
+                "2.008"
+            ],
+            "in-charge":   [
+                "Kim, S.-G.",
+                "Culpepper, M. L."
+            ],
+            "area":        "Design"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.771J - Biomedical Information Technology",
+            "id":          "2.771J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Design of contemporary information systems for biological and medical data. Examples chosen from biology and medicine to illustrate complete life cycle information systems, beginning with data acquisition, following to data storage and finally to retrieval and analysis. Design of appropriate databases, client-server strategies, data interchange protocols, and computational modeling architectures. Students are expected to have some familiarity with scientific application software and a basic understanding of at least one contemporary programming language (e.g. C, C++, Java, Lisp, Perl, Python). A major term project is required of all students. This subject is part of the Singapore-MIT Alliance beginning in 2005-2006. Open to motivated seniors having a strong interest in biomedical engineering and information system design with the ability to carry out a significant independent project.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.771J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "20.453J",
+                "HST.958J"
+            ],
+            "in-charge":   [
+                "Dewey, C. F.",
+                "Jr.",
+                "(NTU, S. Bhowmik",
+                "Singapore)"
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.772J - Thermodynamics of Biomolecular Systems",
+            "id":          "2.772J",
+            "level":       "Undergrad",
+            "units":       "5-0-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Equilibrium properties of macroscopic and microscopic systems. Basic thermodynamics: state of a system, state variables. Work, heat, first law of thermodynamics, thermochemistry. Second and third law of thermodynamics: entropy and its statistical basis, Gibbs function. Chemical equilibrium of reactions in gas and solution phase. Macromolecular structure and interactions in solution. Driving forces for molecular self-assembly. Binding cooperativity, solvation, titration of macromolecules.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.772J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "Restricted Electives in Science and Technology",
+            "prereq":      [
+                "20.110J",
+                "18.02",
+                "5.111",
+                "5.112",
+                "3.091"
+            ],
+            "in-charge":   [
+                "Alm, E.",
+                "Griffith, L. G."
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.782J - Design of Medical Devices and Implants",
+            "id":          "2.782J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Solution of clinical problems by use of implants and other medical devices. Systematic use of cell-matrix control volumes. The role of stress analysis in the design process. Anatomic fit: shape and size of implants. Selection of biomaterials. Instrumentation for surgical implantation procedures. Preclinical testing for safety and efficacy: risk/benefit ratio assessment. Evaluation of clinical performance: design of clinical trials. Project materials drawn from orthopedic devices, soft tissue implants, artificial organs, and dental implants.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.782J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "3.961J",
+                "20.451J",
+                "HST.524J"
+            ],
+            "in-charge":   [
+                "Yannas, I. V.",
+                "Spector, M."
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.782J-1",
+            "lecture-section-of": "2.782J",
+            "timeAndPlace":       [
+                "TR 11:00-12:30 1-134"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.785J - Cell-Matrix Mechanics",
+            "id":          "2.785J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Mechanical forces play a decisive role during development of tissues and organs, during remodeling following injury as well as in normal function. A stress field influences cell function primarily through deformation of the extracellular matrix to which cells are attached. Deformed cells express different biosynthetic activity relative to undeformed cells. The unit cell process paradigm combined with topics in connective tissue mechanics form the basis for discussions of several topics from cell biology, physiology, and medicine.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.785J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "3.97J",
+                "20.411J",
+                "HST.523J",
+                "3.091",
+                "5.11",
+                "5.111",
+                "5.112",
+                "2.005",
+                "5.60",
+                "7.012",
+                "7.013",
+                "7.014",
+                "7.015"
+            ],
+            "in-charge":   [
+                "Yannas, I. V.",
+                "Spector, M."
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.785J-1",
+            "lecture-section-of": "2.785J",
+            "timeAndPlace":       [
+                "TR 14:30-16:00 3-343"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.79J - Biomaterials: Tissue Interactions",
+            "id":          "2.79J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Principles of materials science and cell biology underlying the design of medical implants, artificial organs, and matrices for tissue engineering. Methods for biomaterials surface characterization and analysis of protein adsorption on biomaterials. Molecular and cellular interactions with biomaterials are analyzed in terms of unit cell processes, such as matrix synthesis, degradation, and contraction. Mechanisms underlying wound healing and tissue remodeling following implantation in various organs. Tissue and organ regeneration. Design of implants and prostheses based on control of biomaterials-tissue interactions. Comparative analysis of intact, biodegradable, and bioreplaceable implants by reference to case studies. Criteria for restoration of physiological function for tissues and organs.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.79J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "3.96J",
+                "20.441J",
+                "HST.522J",
+                "3.091",
+                "5.111",
+                "5.112",
+                "2.005",
+                "5.60",
+                "7.012",
+                "7.013"
+            ],
+            "in-charge":   [
+                "Yannas, I. V.",
+                "Spector, M."
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.791J - Quantitative Physiology: Cells and Tissues",
+            "id":          "2.791J",
+            "level":       "Undergrad",
+            "units":       "5-2-5",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Principles of mass transport and electrical signal generation for biological membranes, cells, and tissues. Mass transport through membranes: diffusion, osmosis, chemically mediated, and active transport. Electric properties of cells: ion transport; equilibrium, resting, and action potentials. Kinetic and molecular properties of single voltage-gated ion channels. Laboratory and computer exercises illustrate the concepts. For juniors and seniors. Students engage in extensive written and oral communication exercises. Meets with graduate subject 6.521J, but assignments differ.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.791J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.021J",
+                "20.370J",
+                "2.794J",
+                "6.521J",
+                "20.470J",
+                "HST.541J",
+                "8.02",
+                "18.03",
+                "2.005",
+                "6.002",
+                "6.003",
+                "6.071",
+                "10.301"
+            ],
+            "in-charge":   [
+                "Freeman, D. M.",
+                "Han, J."
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.792J - Quantitative Physiology: Organ Transport Systems",
+            "id":          "2.792J",
+            "level":       "Undergrad",
+            "units":       "4-2-6",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Application of the principles of energy and mass flow to major human organ systems. Mechanisms of regulation and homeostasis. Anatomical, physiological and pathophysiological features of the cardiovascular, respiratory and renal systems. Systems, features and devices that are most illuminated by the methods of physical sciences. Laboratory work includes some animal studies.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.792J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.022J",
+                "20.371J",
+                "HST.542J",
+                "2.796J",
+                "6.522J",
+                "20.471J",
+                "18.03",
+                "8.02"
+            ],
+            "in-charge":   [
+                "Mark, R. G.",
+                "Stultz, C. M."
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.792J-1",
+            "lecture-section-of": "2.792J",
+            "timeAndPlace":       [
+                "TR 9:30-11:00 32-124"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s2.792J-2",
+            "rec-section-of": "2.792J",
+            "timeAndPlace":   [
+                "F 13:00-14:00 E25-117",
+                "F 14:00-15:00 E25-117"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.793J - Fields, Forces and Flows in Biological Systems",
+            "id":          "2.793J",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Introduction to electric fields, fluid flows, transport phenomena and their application to biological systems. Flux and continuity laws, Maxwell's equations, electro-quasistatics, electro-chemical-mechanical driving forces, conservation of mass and momentum, Navier-Stokes flows, and electrokinetics. Applications include biomolecular transport in tissues, electrophoresis, and microfluidics.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.793J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.023J",
+                "20.330J",
+                "2.005",
+                "6.021",
+                "20.320"
+            ],
+            "in-charge":   [
+                "Han, J.",
+                "Manalis, S."
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.793J-1",
+            "lecture-section-of": "2.793J",
+            "timeAndPlace":       [
+                "MWF 11:00-12:00 4-237"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s2.793J-2",
+            "rec-section-of": "2.793J",
+            "timeAndPlace":   [
+                "R 14:00-15:00 5-233",
+                "R 15:00-16:00 5-233"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.794J - Quantitative Physiology: Cells and Tissues",
+            "id":          "2.794J",
+            "level":       "Grad",
+            "units":       "5-2-5",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Meets with undergraduate subject 6.021J. Requires the completion of more advanced home problems and/or an additional project.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.794J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.521J",
+                "20.470J",
+                "HST.541J",
+                "2.791J",
+                "6.021J",
+                "20.370J",
+                "2.003",
+                "6.002",
+                "6.071",
+                "10.301",
+                "8.02",
+                "18.03"
+            ],
+            "in-charge":   [
+                "Freeman, D. M.",
+                "Han, J."
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.795J - Fields, Forces, and Flows in Biological Systems",
+            "id":          "2.795J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Molecular diffusion, diffusion-reaction, conduction, convection in biological systems; fields in heterogeneous media; electrical double layers; Maxwell stress tensor, electrical forces in physiological systems. Fluid and solid continua: equations of motion useful for porous, hydrated biological tissues. Case studies of membrane transport, electrode interfaces, electrical, mechanical, and chemical transduction in tissues, convective-diffusion/reaction, electrophoretic, electroosmotic flows in tissues/MEMs, and ECG. Electromechanical and physicochemical interactions in cells and biomaterials; musculoskeletal, cardiovascular, and other biological and clinical examples.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.795J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.561J",
+                "10.539J",
+                "20.430J",
+                "HST.544J",
+                "6.013",
+                "2.005",
+                "10.302"
+            ],
+            "in-charge":   [
+                "Grodzinsky, A. J.",
+                "Kamm, R. D."
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "2.796J - Quantitative Physiology: Organ Transport Systems",
+            "id":          "2.796J",
+            "level":       "Grad",
+            "units":       "4-2-6",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Meets with undergraduate subject 6.022J. Requires the completion of more advanced home problems and/or an additional project.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.796J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.522J",
+                "20.471J",
+                "2.792J",
+                "6.022J",
+                "20.371J",
+                "HST.542J",
+                "2.006",
+                "6.013",
+                "6.021J"
+            ],
+            "in-charge":   "Mark, R. G.",
+            "area":        "Bioengineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.796J-1",
+            "lecture-section-of": "2.796J",
+            "timeAndPlace":       [
+                "TR 9:30-11:00 32-124"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s2.796J-2",
+            "rec-section-of": "2.796J",
+            "timeAndPlace":   [
+                "F 13:00-14:00 E25-117",
+                "F 14:00-15:00 E25-117"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.797J - Molecular, Cellular, and Tissue Biomechanics",
+            "id":          "2.797J",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Develops and applies scaling laws and the methods of continuum mechanics to biomechanical phenomena over a range of length scales. Topics include structure of tissues and the molecular basis for macroscopic properties; chemical and electrical effects on mechanical behavior; cell mechanics, motility and adhesion; biomembranes; biomolecular mechanics and molecular motors. Experimental methods for probing structures at the tissue, cellular, and molecular levels.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.797J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "3.053J",
+                "6.024J",
+                "20.310J",
+                "18.03",
+                "3.016",
+                "7.012",
+                "7.013",
+                "7.014",
+                "7.015",
+                "2.370",
+                "2.772J"
+            ],
+            "in-charge":   [
+                "Lang, M. J.",
+                "Kamm, R. D."
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.797J-1",
+            "lecture-section-of": "2.797J",
+            "timeAndPlace":       [
+                "MWF 12:00-13:00 4-231"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "2.798J - Molecular, Cellular, and Tissue Biomechanics",
+            "id":          "2.798J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Develops and applies scaling laws and the methods of continuum mechanics to biomechanical phenomena over a range of length scales. Topics include structure of tissues and the molecular basis for macroscopic properties; chemical and electrical effects on mechanical behavior; cell mechanics, motility and adhesion; biomembranes; biomolecular mechanics and molecular motors. Experimental methods for probing structures at the tissue, cellular, and molecular levels.",
+            "url":         "http://student.mit.edu/catalog/m2b.html#2.798J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "3.971J",
+                "6.524J",
+                "10.537J",
+                "20.410J",
+                "7.012",
+                "2.002",
+                "2.006",
+                "6.013",
+                "6.014",
+                "10.301",
+                "10.302"
+            ],
+            "in-charge":   [
+                "Grodzinsky, A. J.",
+                "Lauffenburger, D."
+            ],
+            "area":        "Bioengineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s2.798J-1",
+            "lecture-section-of": "2.798J",
+            "timeAndPlace":       [
+                "MW 13:00-14:30 32-141"
+            ]
+        }
+    ]
+}
