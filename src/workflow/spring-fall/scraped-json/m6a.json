@@ -1,0 +1,2248 @@
+{
+    "items": [
+        {
+            "type":        "Class",
+            "label":       "6.00 - Introduction to Computer Science and Programming",
+            "id":          "6.00",
+            "level":       "Undergrad",
+            "units":       "3-7-2",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to computer science and programming for students with little or no programming experience.  Students learn how to program and how to use computational techniques to solve problems.  Topics include algorithms, simulation techniques, and use of software libraries.  Assignments are done using the Python programming language.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.00",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "Restricted Electives in Science and Technology",
+            "in-charge":   "Guttag, J. V.",
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.00-1",
+            "lecture-section-of": "6.00",
+            "timeAndPlace":       [
+                "TR 10:00-11:00 54-100"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.00-2",
+            "rec-section-of": "6.00",
+            "timeAndPlace":   [
+                "F 11:00-12:00 32-044",
+                "F 12:00-13:00 32-044",
+                "F 13:00-14:00 32-044",
+                "F 14:00-15:00 32-044",
+                "F 15:00-16:00 32-044"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.01 - Introduction to EECS I",
+            "id":          "6.01",
+            "level":       "Undergrad",
+            "units":       "2-4-6",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "An integrated introduction to electrical engineering and computer science, taught using substantial laboratory experiments with mobile robots. Key issues in the design of engineered artifacts operating in the natural world: measuring and modeling system behaviors; assessing errors in sensors and effectors; specifying tasks; designing solutions based on analytical and computational models; planning, executing, and evaluating experimental tests of performance; refining models and designs. Issues addressed in the context of computer programs, control systems, probabilistic inference problems, circuits and transducers, which all play important roles in achieving robust operation of a large variety of engineered systems.  6 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.01",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "in-charge":   [
+                "Abelson, H.",
+                "Kaelbling, L. P.",
+                "White, J. K."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.01-1",
+            "lecture-section-of": "6.01",
+            "timeAndPlace":       [
+                "T 10:00-11:30 26-100"
+            ]
+        },
+        {
+            "type":           "LabSection",
+            "label":          "s6.01-2",
+            "lab-section-of": "6.01",
+            "timeAndPlace":   [
+                "T 11:30-13:00 34-501",
+                "T 14:00-15:30 34-501",
+                "W 11:30-13:00 34-501"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.02 - Introduction to EECS II",
+            "id":          "6.02",
+            "level":       "Undergrad",
+            "units":       "2-3-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "An integrated introduction to electrical engineering and computer science, taught using substantial laboratory experiments that explore communication signals, systems and networks. Physical characterization and modeling of transmission systems in the time and frequency domains; analog and digital signaling; coding; detecting and correcting errors; relating information transmission rate to signal power, bandwidth and noise; engineering of packet-switched networks. These explorations are used to illustrate the role of abstraction and modularity in engineering design; building reliable systems using imperfect components; selecting appropriate design metrics; choosing effective representations for information; analyzing the performance and correctness of algorithms; and tradeoffs in complex systems.  6 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.02",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "prereq":      [
+                "6.01",
+                "18.03",
+                "18.06"
+            ],
+            "in-charge":   [
+                "Sodini, C. G.",
+                "Terman, C. J.",
+                "Perrott, M. H."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.02-1",
+            "lecture-section-of": "6.02",
+            "timeAndPlace":       [
+                "MWF 14:00-15:00 32-155"
+            ]
+        },
+        {
+            "type":           "LabSection",
+            "label":          "s6.02-2",
+            "lab-section-of": "6.02",
+            "timeAndPlace":   [
+                "W 9:00-12:00 32-080",
+                "W 14:00-17:00 32-081"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.001 - Structure and Interpretation of Computer Programs",
+            "id":          "6.001",
+            "level":       "Undergrad",
+            "units":       "5-3-7",
+            "total-units": 15,
+            "has-final":   false,
+            "description": "Control of complexity in large programming systems. Building abstractions: computational processes; higher-order procedures; compound data; and data abstractions. Controlling interactions: generic operations; self-describing data; message passing; streams and infinite data structures; and object-oriented programming. Meta-linguistic abstraction: interpretation of programming languages; machine model; compilation; and embedded languages. Substantial weekly programming assignments are an integral part of the subject. Enrollment may be limited.  4 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.001",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "Restricted Electives in Science and Technology",
+            "in-charge":   [
+                "Grimson, W. E. L.",
+                "Boning, D. S."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.002 - Circuits and Electronics",
+            "id":          "6.002",
+            "level":       "Undergrad",
+            "units":       "4-2-9",
+            "total-units": 15,
+            "has-final":   true,
+            "description": "Fundamentals of the lumped circuit abstraction. Resistive elements and networks; independent and dependent sources; switches and MOS devices; digital abstraction; amplifiers; and energy storage elements. Dynamics of first- and second-order networks; design in the time and frequency domains; analog and digital circuits and applications. Design exercises. Alternate week laboratory.  4 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.002",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "Restricted Electives in Science and Technology",
+            "prereq":      [
+                "18.03",
+                "8.02",
+                "8.022",
+                "6.01"
+            ],
+            "in-charge":   [
+                "Agarwal, A.",
+                "Alamo, J. del",
+                "Lang, J. H.",
+                "Perreault, D. J."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.002-1",
+            "lecture-section-of": "6.002",
+            "timeAndPlace":       [
+                "TR 11:00-12:00 34-101"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.002-3",
+            "rec-section-of": "6.002",
+            "timeAndPlace":   [
+                "WF 10:00-11:00 26-310",
+                "WF 11:00-12:00 26-310",
+                "WF 12:00-13:00 26-310",
+                "WF 13:00-14:00 26-310"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.003 - Signals and Systems",
+            "id":          "6.003",
+            "level":       "Undergrad",
+            "units":       "4-2-9",
+            "total-units": 15,
+            "has-final":   true,
+            "description": "Fundamentals of signal and system analysis, with applications drawn from filtering, audio and image processing, communications, and automatic control. Topics include convolution, Fourier series and transforms, sampling and discrete-time processing of continuous-time signals, modulation, Laplace and Z-transforms, and feedback systems.  4 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.003",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.002",
+                "6.02"
+            ],
+            "in-charge":   [
+                "Freeman, D. M.",
+                "Hu, Q.",
+                "Lim, J. S.",
+                "Willsky, A. S."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.003-1",
+            "lecture-section-of": "6.003",
+            "timeAndPlace":       [
+                "TR 12:00-13:00 34-101"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.003-3",
+            "rec-section-of": "6.003",
+            "timeAndPlace":   [
+                "WF 10:00-11:00 36-155",
+                "WF 11:00-12:00 36-155",
+                "WF 12:00-13:00 24-307",
+                "WF 13:00-14:00 24-307",
+                "WF 14:00-15:00 24-307"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.004 - Computation Structures",
+            "id":          "6.004",
+            "level":       "Undergrad",
+            "units":       "4-3-8",
+            "total-units": 15,
+            "has-final":   false,
+            "description": "Introduces architecture of digital systems, emphasizing structural principles common to a wide range of technologies. Multilevel implementation strategies; definition of new primitives (e.g., gates, instructions, procedures, and processes) and their mechanization using lower-level elements. Analysis of potential concurrency; precedence constraints and performance measures; pipelined and multidimensional systems. Instruction set design issues; architectural support for contemporary software structures.  4 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.004",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.001",
+                "6.002",
+                "6.02"
+            ],
+            "in-charge":   [
+                "Ward, S. A.",
+                "Terman, C. J."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.004-1",
+            "lecture-section-of": "6.004",
+            "timeAndPlace":       [
+                "TR 13:00-14:00 32-123"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.004-2",
+            "rec-section-of": "6.004",
+            "timeAndPlace":   [
+                "WF 10:00-11:00 34-303",
+                "WF 11:00-12:00 34-303",
+                "WF 12:00-13:00 34-303",
+                "WF 13:00-14:00 34-301",
+                "WF 14:00-15:00 34-302",
+                "WF 15:00-16:00 34-302"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.005 - Principles of Software Development",
+            "id":          "6.005",
+            "level":       "Undergrad",
+            "units":       "3-4-5",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to the fundamental principles and techniques of software development that have greatest impact on practice. Topics include capturing the essence of a problem by recognizing and inventing suitable abstractions; key paradigms and design patterns; the role of interfaces and specification in achieving modularity and decoupling; reasoning about code using invariants, preconditions and postconditions; testing, test-case generation and coverage; essentials of programming with objects, functions and abstract types. Student work includes exercises in modeling, design, implementation and reasoning.  4 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.005",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      "6.01",
+            "in-charge":   [
+                "Jackson, D. N.",
+                "Miller, R. C."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.005-1",
+            "lecture-section-of": "6.005",
+            "timeAndPlace":       [
+                "MWF 12:30-14:00 32-123"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.005-2",
+            "rec-section-of": "6.005",
+            "timeAndPlace":   [
+                "R 10:00-11:00 Unknown",
+                "R 11:00-12:00 Unknown",
+                "R 12:00-13:00 2-132",
+                "R 13:00-14:00 56-162",
+                "R 14:00-15:00 56-162",
+                "R 15:00-16:00 26-168"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.006 - Introduction to Algorithms",
+            "id":          "6.006",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.006",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.01",
+                "6.042J"
+            ],
+            "in-charge":   [
+                "Rivest, R. L.",
+                "Devadas, S.",
+                "Sudan, M."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.006-1",
+            "lecture-section-of": "6.006",
+            "timeAndPlace":       [
+                "TR 11:00-12:00 32-144"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.006-2",
+            "rec-section-of": "6.006",
+            "timeAndPlace":   [
+                "WF 10:00-11:00 36-153",
+                "WF 11:00-12:00 36-153",
+                "WF 12:00-13:00 36-153",
+                "WF 13:00-14:00 36-153",
+                "WF 14:00-15:00 36-144",
+                "WF 15:00-16:00 36-144"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.007 - Applied Electromagnetics: From Motors to Lasers",
+            "id":          "6.007",
+            "level":       "Undergrad",
+            "units":       "4-1-7",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Applications of electromagnetic principles to classical and modern devices.  Basic electrical components, electric motors and generators, power flow, and energy conversion in macroscopic to quantum-scale electrical and electromechanical systems. Photons and their interaction with matter in detectors, sources, optical fibers, and other devices and communication systems.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.007",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.01",
+                "18.03"
+            ],
+            "in-charge":   "Bulovic, V.",
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.007-1",
+            "lecture-section-of": "6.007",
+            "timeAndPlace":       [
+                "TR 14:00-15:00 56-114"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.007-2",
+            "rec-section-of": "6.007",
+            "timeAndPlace":   [
+                "WF 11:00-12:00 26-302",
+                "WF 13:00-14:00 26-302",
+                "WF 14:00-15:00 26-302"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.011 - Introduction to Communication, Control, and Signal Processing",
+            "id":          "6.011",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Input-output and state-space models of linear systems driven by deterministic and random signals; time- and transform-domain representations. Sampling, discrete-time processing of continuous-time signals. State feedback and observers. Probabilistic models; stochastic processes, correlation functions, power spectra, and whitening filters. Detection; matched filters. Least-mean square error estimation; Wiener filtering.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.011",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.003",
+                "6.041",
+                "18.440"
+            ],
+            "in-charge":   [
+                "Oppenheim, A. V.",
+                "Verghese, G. C."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.011-1",
+            "lecture-section-of": "6.011",
+            "timeAndPlace":       [
+                "MW 11:00-12:00 34-101"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.011-2",
+            "rec-section-of": "6.011",
+            "timeAndPlace":   [
+                "TR 10:00-11:00 34-301",
+                "TR 11:00-12:00 34-301",
+                "TR 12:00-13:00 34-301",
+                "TR 13:00-14:00 34-301",
+                "TR 14:00-15:00 34-301"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.012 - Microelectronic Devices and Circuits",
+            "id":          "6.012",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Microelectronic devices modeling, and basic microelectronic circuit analysis and design. Physical electronics of semiconductor junction and MOS devices. Relating terminal behavior to internal physical processes; developing circuit models; and understanding the uses and limitations of different models. Use of incremental and large-signal techniques to analyze and design bipolar and field effect transistor circuits, with examples chosen from digital circuits, single-ended and differential linear amplifiers, and other integrated circuits. Design project.  4 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.012",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      "6.002",
+            "in-charge":   [
+                "Akinwande, A. I.",
+                "Antoniadis, D. A.",
+                "Fonstad, C. G.",
+                "Jr.",
+                "Sodini, C. G."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.012-1",
+            "lecture-section-of": "6.012",
+            "timeAndPlace":       [
+                "TR 11:00-12:00 4-370"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.012-2",
+            "rec-section-of": "6.012",
+            "timeAndPlace":   [
+                "WF 10:00-11:00 26-142",
+                "WF 11:00-12:00 26-142",
+                "WF 13:00-14:00 26-142"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.013 - Electromagnetics and Applications",
+            "id":          "6.013",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Electromagnetic phenomena are explored in modern applications including wireless communications, circuits, computer interconnects and peripherals, optical fiber links and components, microwave communications and radar, antennas, sensors, micro-electromechanical systems, and power generation and transmission. Fundamentals include quasistatic and dynamic solutions to Maxwell's equations; waves, radiation, and diffraction; coupling to media and structures; guided and unguided waves; resonance; and forces, power, and energy.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.013",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.003",
+                "6.02",
+                "6.007"
+            ],
+            "in-charge":   [
+                "Staelin, D. H.",
+                "Ippen, E. P.",
+                "Kong, J. A.",
+                "Zahn, M."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.013-1",
+            "lecture-section-of": "6.013",
+            "timeAndPlace":       [
+                "TR 13:00-14:00 32-155"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.013-2",
+            "rec-section-of": "6.013",
+            "timeAndPlace":   [
+                "WF 10:00-11:00 34-302",
+                "WF 13:00-14:00 24-115",
+                "WF 14:00-15:00 24-115"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.021J - Quantitative Physiology: Cells and Tissues",
+            "id":          "6.021J",
+            "level":       "Undergrad",
+            "units":       "5-2-5",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Principles of mass transport and electrical signal generation for biological membranes, cells, and tissues. Mass transport through membranes: diffusion, osmosis, chemically mediated, and active transport. Electric properties of cells: ion transport; equilibrium, resting, and action potentials. Kinetic and molecular properties of single voltage-gated ion channels. Laboratory and computer exercises illustrate the concepts. For juniors and seniors. Students engage in extensive written and oral communication exercises. Meets with graduate subject 6.521J, but assignments differ.  4 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.021J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "2.791J",
+                "20.370J",
+                "2.794J",
+                "6.521J",
+                "20.470J",
+                "HST.541J",
+                "8.02",
+                "18.03",
+                "2.005",
+                "6.002",
+                "6.003",
+                "6.071",
+                "10.301"
+            ],
+            "in-charge":   [
+                "Freeman, D. M.",
+                "Han, J."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.022J - Quantitative Physiology: Organ Transport Systems",
+            "id":          "6.022J",
+            "level":       "Undergrad",
+            "units":       "4-2-6",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Application of the principles of energy and mass flow to major human organ systems. Mechanisms of regulation and homeostasis. Anatomical, physiological and pathophysiological features of the cardiovascular, respiratory and renal systems. Systems, features and devices that are most illuminated by the methods of physical sciences. Laboratory work includes some animal studies.  2 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.022J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "2.792J",
+                "20.371J",
+                "HST.542J",
+                "2.796J",
+                "6.522J",
+                "20.471J",
+                "18.03",
+                "8.02"
+            ],
+            "in-charge":   [
+                "Mark, R. G.",
+                "Stultz, C. M."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.022J-1",
+            "lecture-section-of": "6.022J",
+            "timeAndPlace":       [
+                "TR 9:30-11:00 32-124"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.022J-2",
+            "rec-section-of": "6.022J",
+            "timeAndPlace":   [
+                "F 13:00-14:00 E25-117",
+                "F 14:00-15:00 E25-117"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.023J - Fields, Forces and Flows in Biological Systems",
+            "id":          "6.023J",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Introduction to electric fields, fluid flows, transport phenomena and their application to biological systems. Flux and continuity laws, Maxwell's equations, electro-quasistatics, electro-chemical-mechanical driving forces, conservation of mass and momentum, Navier-Stokes flows, and electrokinetics. Applications include biomolecular transport in tissues, electrophoresis, and microfluidics.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.023J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "2.793J",
+                "20.330J",
+                "2.005",
+                "6.021",
+                "20.320"
+            ],
+            "in-charge":   [
+                "Han, J.",
+                "Manalis, S."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.023J-1",
+            "lecture-section-of": "6.023J",
+            "timeAndPlace":       [
+                "MWF 11:00-12:00 4-237"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.023J-2",
+            "rec-section-of": "6.023J",
+            "timeAndPlace":   [
+                "R 14:00-15:00 5-233",
+                "R 15:00-16:00 5-233"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.024J - Molecular, Cellular, and Tissue Biomechanics",
+            "id":          "6.024J",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Develops and applies scaling laws and the methods of continuum mechanics to biomechanical phenomena over a range of length scales. Topics include structure of tissues and the molecular basis for macroscopic properties; chemical and electrical effects on mechanical behavior; cell mechanics, motility and adhesion; biomembranes; biomolecular mechanics and molecular motors. Experimental methods for probing structures at the tissue, cellular, and molecular levels.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.024J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "2.797J",
+                "3.053J",
+                "20.310J",
+                "18.03",
+                "3.016",
+                "7.012",
+                "7.013",
+                "7.014",
+                "7.015",
+                "2.370",
+                "2.772J"
+            ],
+            "in-charge":   [
+                "Lang, M. J.",
+                "Kamm, R. D."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.024J-1",
+            "lecture-section-of": "6.024J",
+            "timeAndPlace":       [
+                "MWF 12:00-13:00 4-231"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.033 - Computer System Engineering",
+            "id":          "6.033",
+            "level":       "Undergrad",
+            "units":       "5-0-7",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Topics on the engineering of computer software and hardware systems: techniques for controlling complexity; strong modularity using client-server design, operating systems; performance, networks; naming; security and privacy; fault-tolerant systems, atomicity and coordination of concurrent activities, and recovery; impact of computer systems on society.  Case studies of working systems and readings from the current literature provide comparisons and contrasts.  Two design projects.  Students engage in extensive written communication exercises. Enrollment may be limited.  4 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.033",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      "6.004",
+            "in-charge":   [
+                "Kaashoek, M. F.",
+                "Balakrishnan, H."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.033-1",
+            "lecture-section-of": "6.033",
+            "timeAndPlace":       [
+                "MWF 14:00-15:00 32-123"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.033-2",
+            "rec-section-of": "6.033",
+            "timeAndPlace":   [
+                "TR 10:00-11:00 34-303",
+                "TR 11:00-12:00 26-142",
+                "TR 12:00-13:00 34-303",
+                "TR 13:00-14:00 34-303",
+                "TR 14:00-15:00 34-303"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.034 - Artificial Intelligence",
+            "id":          "6.034",
+            "level":       "Undergrad",
+            "units":       "5-3-4",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Introduces representations, techniques, and architectures used to build applied systems and to account for intelligence from a computational point of view. Applications of rule chaining, heuristic search, constraint propagation, constrained search, inheritance, and other problem-solving paradigms. Applications of identification trees, neural nets, genetic algorithms, and other learning paradigms. Speculations on the contributions of human vision and language systems to human intelligence. Meets with HST.947 spring only.  4 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.034",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "HST.947",
+                "6.001"
+            ],
+            "in-charge":   [
+                "Winston, P. H.",
+                "Lozano-Perez, T."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.034-1",
+            "lecture-section-of": "6.034",
+            "timeAndPlace":       [
+                "MW 11:00-12:30 32-123"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.034-2",
+            "rec-section-of": "6.034",
+            "timeAndPlace":   [
+                "F 10:00-11:00 36-372",
+                "F 11:00-12:00 36-372",
+                "F 12:00-13:00 36-372",
+                "F 15:00-16:00 36-372"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.035 - Computer Language Engineering",
+            "id":          "6.035",
+            "level":       "Undergrad",
+            "units":       "4-4-4",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Analyzes issues associated with the implementation of higher-level programming languages. Fundamental concepts, functions, and structures of compilers. The interaction of theory and practice. Using tools in building software. Includes a multi-person project on compiler design and implementation.  8 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.035",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      "6.170",
+            "in-charge":   "Amarasinghe, S. P.",
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.041 - Probabilistic Systems Analysis",
+            "id":          "6.041",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "An introduction to probability theory, and the modeling and analysis of probabilistic systems. Sample space, probabilistic models, conditional probability. Discrete and continuous random variables. Transform techniques. Bernoulli and Poisson processes. Markov processes. Limit theorems and elements of statistical inference. Meets with graduate subject 6.431, but assignments differ.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.041",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "Restricted Electives in Science and Technology",
+            "prereq":      [
+                "6.431",
+                "18.02",
+                "18.05"
+            ],
+            "in-charge":   [
+                "Bertsekas, D. P.",
+                "Tsitsiklis, J. N."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.041-1",
+            "lecture-section-of": "6.041",
+            "timeAndPlace":       [
+                "MW 12:00-13:00 34-101"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.041-2",
+            "rec-section-of": "6.041",
+            "timeAndPlace":   [
+                "TR 10:00-11:00 36-112",
+                "TR 11:00-12:00 36-112",
+                "TR 12:00-13:00 36-112",
+                "TR 13:00-14:00 36-112",
+                "TR 14:00-15:00 36-112"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.042J - Mathematics for Computer Science",
+            "id":          "6.042J",
+            "level":       "Undergrad",
+            "units":       "5-0-7",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Elementary discrete mathematics for computer science and engineering. Emphasis on mathematical definitions and proofs as well as on applicable methods.  Topics: formal logic notation, proof methods; induction, well-ordering; sets, relations; elementary graph theory; integer congruences; asymptotic notation and growth of functions; permutations and combinations, counting principles; discrete probability.  Further selected topics such as: recursive definition and structural induction; state machines and invariants; recurrences; generating functions.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.042J",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "Restricted Electives in Science and Technology",
+            "prereq":      [
+                "18.062J",
+                "18.01"
+            ],
+            "in-charge":   [
+                "Meyer, A. R.",
+                "Leighton, T."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.042J-1",
+            "lecture-section-of": "6.042J",
+            "timeAndPlace":       [
+                "MWF 9:30-11:00 26-152"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.045J - Automata, Computability, and Complexity",
+            "id":          "6.045J",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Slower paced than 6.840J/18.404J. Introduces basic mathematical models of computation and the finite representation of infinite objects. Context-free languages. Turing machines. Partial recursive functions. Church's Thesis. Undecidability. Reducibility and completeness. Time complexity and NP-completeness. Probabilistic computation. Interactive proof systems.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.045J",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "prereq":      [
+                "18.400J",
+                "6.042J"
+            ],
+            "in-charge":   "Micali, S.",
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.046J - Design and Analysis of Algorithms",
+            "id":          "6.046J",
+            "level":       "Undergrad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Techniques for the design and analysis of efficient algorithms, emphasizing methods useful in practice. Topics include sorting; search trees, heaps, and hashing; divide-and-conquer; dynamic programming; greedy algorithms; amortized analysis; graph algorithms; and shortest paths. Advanced topics include network flow; computational geometry; number-theoretic algorithms; polynomial and matrix calculations; caching; and parallel computing.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.046J",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "18.410J",
+                "6.006",
+                "6.001",
+                "6.042",
+                "18.062",
+                "18.310"
+            ],
+            "in-charge":   [
+                "Leiserson, C. E.",
+                "Goemans, M."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.046J-1",
+            "lecture-section-of": "6.046J",
+            "timeAndPlace":       [
+                "TR 11:00-12:30 2-190"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.046J-2",
+            "rec-section-of": "6.046J",
+            "timeAndPlace":   [
+                "F 10:00-11:00 2-136",
+                "F 11:00-12:00 2-136",
+                "F 12:00-13:00 2-136",
+                "F 13:00-14:00 2-135",
+                "F 14:00-15:00 2-135",
+                "F 9:30-10:30 2-147",
+                "F 11:00-12:00 2-147",
+                "F 12:00-13:00 2-147",
+                "F 13:00-14:00 2-147",
+                "F 14:00-15:00 2-147"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.047 - Computational Biology: Genomes, Networks, Evolution",
+            "id":          "6.047",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Covers the algorithmic and machine learning foundations of computational biology, combining theory with practice. Principles of algorithm design, influential problems and techniques, and analysis of large-scale biological datasets. Topics include (a) genomes: sequence analysis, gene finding, RNA folding, genome alignment and assembly, database search; (b) networks: gene expression analysis, regulatory motifs, biological network analysis; (c) evolution: comparative genomics, phylogenetics, genome duplication, genome rearrangements, evolutionary theory.  These are coupled with fundamental algorithmic techniques including: dynamic programming, hashing, Gibbs sampling, expectation maximization, hidden Markov models, stochastic context-free grammars, graph clustering, dimensionality reduction, Bayesian networks.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.047",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.878",
+                "6.001",
+                "7.012",
+                "18.440",
+                "6.041"
+            ],
+            "in-charge":   [
+                "Kellis, M.",
+                "Indyk, P."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.050J - Information, Entropy and Computation",
+            "id":          "6.050J",
+            "level":       "Undergrad",
+            "units":       "4-0-5",
+            "total-units": 9,
+            "has-final":   true,
+            "description": "Explores the ultimate limits to communication and computation, with an emphasis on the physical nature of information and information processing. Topics include information and computation, digital signals, codes, and compression. Biological representations of information. Logic circuits, computer architectures, and algorithmic information. Noise, probability, and error correction. The concept of entropy applied to channel capacity and to the second law of thermodynamics. Reversible and irreversible operations and the physics of computation. Quantum computation.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.050J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "2.110J",
+                "8.01",
+                "8.012",
+                "8.01L",
+                "8.01T"
+            ],
+            "in-charge":   [
+                "Penfield, P.",
+                "Jr.",
+                "Lloyd, S."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.050J-1",
+            "lecture-section-of": "6.050J",
+            "timeAndPlace":       [
+                "TR 13:00-15:00 36-153"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.055J - The Art of Approximation in Science and Engineering",
+            "id":          "6.055J",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Simple reasoning techniques for complex phenomena: divide and conquer,   dimensional analysis, extreme cases, continuity, scaling, successive   approximation, balancing, cheap calculus, and symmetry.  Applications   from physical and biological sciences, mathematics, and engineering.   Examples include bird and machine flight, neuron biophysics, weather,   prime numbers, and animal locomotion.  Emphasis on low-cost   experiments to test ideas and on fostering curiosity about phenomena in the world.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.055J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "2.038J",
+                "8.01",
+                "18.01"
+            ],
+            "in-charge":   [
+                "Mahajan, S.",
+                "Abeyaratne, R."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.055J-1",
+            "lecture-section-of": "6.055J",
+            "timeAndPlace":       [
+                "MWF 13:00-14:00 4-145"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.061 - Introduction to Electric Power Systems",
+            "id":          "6.061",
+            "level":       "Undergrad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Fundamentals of energy-handling electric circuits and electromechanical apparatus. Modeling and behavior of magnetic field devices. Simplifications using transformation techniques. Power electric circuits, magnetic circuits, lumped parameter electromechanics, and elements of linear and rotating electric machinery. Modeling of synchronous, induction, and dc machinery. Interconnection of electric power apparatus, and operation of power systems.  6 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.061",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "prereq":      [
+                "6.690",
+                "6.002",
+                "6.013"
+            ],
+            "in-charge":   [
+                "Kirtley, J. L.",
+                "Jr."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.07J - Projects in Microscale Engineering for the Life Sciences",
+            "id":          "6.07J",
+            "level":       "Undergrad",
+            "units":       "2-4-3",
+            "total-units": 9,
+            "has-final":   false,
+            "description": "A project-based introduction to manipulating and characterizing cells and biological molecules using microfabricated tools. In the first half of the term, students perform laboratory exercises designed to introduce the design, manufacture, and use of microfluidic channels; techniques for sorting and manipulating cells and biomolecules; and making quantitative measurements using optical detection and fluorescent labeling. In the second half of the term, students work in small groups to design and test a microfluidic device to solve a real-world problem of their choosing. Includes exercises in written and oral communication and team building. Enrollment limited to 20 students. Preference to freshmen.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.07J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      "HST.410J",
+            "in-charge":   [
+                "Freeman, D.",
+                "Gray, M.",
+                "Aranyosi, A."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.07J-1",
+            "lecture-section-of": "6.07J",
+            "timeAndPlace":       [
+                "TR 14:00-17:00 35-225"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.070J - Electronics Project Laboratory",
+            "id":          "6.070J",
+            "level":       "Undergrad",
+            "units":       "2-2-2",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Introduction to electronics test equipment such as oscilloscopes, meters (voltage, resistance inductance, capacitance, etc.), and signal generators. Emphasizes individual instruction and development of skills, such as soldering, assembly, and troubleshooting. Students build and keep an electronics kit, such as a radio, to serve as the vehicle for learning about electronics test and measurement equipment. Intended for students without a previous background in electronics. Enrollment may be limited.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.070J",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      "SP.705J",
+            "in-charge":   "Moriarty, E. J.",
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.070J-1",
+            "lecture-section-of": "6.070J",
+            "timeAndPlace":       [
+                "M 19:00-10:00 4-409"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.071J - Introduction to Electronics",
+            "id":          "6.071J",
+            "level":       "Undergrad",
+            "units":       "3-3-6",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Introductory subject suitable for students with little or no previous background in electronics. Provides the knowledge necessary for reading schematics and designing, building, analyzing, and testing fundamental analog and digital circuits. The class has a strong hands-on component. Students construct interactive examples and explore the practical uses of electronics in engineering and experimental science, including signals and measurement fundamentals. Students have the use of state-of-the-art hardware and software for data acquisition, analysis, and control.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.071J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "Restricted Electives in Science and Technology",
+            "prereq":      [
+                "22.071J",
+                "18.03"
+            ],
+            "in-charge":   [
+                "Cory, D.",
+                "Chaniotakis, M."
+            ],
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.071J-1",
+            "lecture-section-of": "6.071J",
+            "timeAndPlace":       [
+                "MWF 9:00-11:00 NW14-1112"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.072J - Introduction to Digital Electronics",
+            "id":          "6.072J",
+            "level":       "Undergrad",
+            "units":       "0-3-3 [P/D/F]",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Design your own circuits for times when off-the-shelf solutions are not available. Seminar begins with assembly of a utility board. Weekly labs cover digital logic gates, memory elements, and finite-state machine design. Seminar concludes with a team-based design project. Preference given to freshmen. Maximum of 10 students per term, lottery at the first class session if oversubscribed .",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.072J",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      "SP.702J",
+            "in-charge":   "Bales, J.",
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.072J-1",
+            "lecture-section-of": "6.072J",
+            "timeAndPlace":       [
+                "M 19:00-10:00 4-402"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.080-6.089 - Special Subjects in Electrical Engineering and Computer Science",
+            "id":          "6.080-6.089",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.080-6.089",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":   "TR2.30-4",
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.080-6.089-1",
+            "lecture-section-of": "6.080-6.089",
+            "timeAndPlace":       [
+                "TR 14:30-16:00 32-155"
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.080-6.089-2",
+            "lecture-section-of": "6.080-6.089",
+            "timeAndPlace":       [
+                "F 14:00-15:30 34-303"
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.080-6.089-3",
+            "lecture-section-of": "6.080-6.089",
+            "timeAndPlace":       [
+                "F 14:00-15:30 34-303"
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.080-6.089-4",
+            "lecture-section-of": "6.080-6.089",
+            "timeAndPlace":       [
+                "MW 19:00-9:00 32-141"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.080-6.089-5",
+            "rec-section-of": "6.080-6.089",
+            "timeAndPlace":   [
+                "T 19:00-9:00 32-124"
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.080-6.089-6",
+            "lecture-section-of": "6.080-6.089",
+            "timeAndPlace":       [
+                "TR 14:30-16:00 32-155"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.090?6.099 - Special Subjects in Electrical Engineering and Computer Science",
+            "id":          "6.090?6.099",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Basic undergraduate subjects not offered in the regular curriculum. Consult department to learn of offerings for a particular term. Registration by permission of instructor.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.090?6.099",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":   "Verghese, G. C.",
+            "area":        "Basic Undergraduate Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.100 - Electrical Engineering and Computer Science Laboratory",
+            "id":          "6.100",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Individual experimental work related to electrical engineering and computer science not covered by other subjects. Student must make arrangements with a project supervisor and file a proposal endorsed by the supervisor. Departmental approval required. Written report to be submitted upon completion of work. If 6.100 is used to satisfy departmental laboratory requirement, student must register for 12 units of laboratory credit in the term the work is done. Consult department undergraduate office early in the term.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.100",
+            "semester":    [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":   "Smith, A. C.",
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.101 - Introductory Analog Electronics Laboratory",
+            "id":          "6.101",
+            "level":       "Undergrad",
+            "units":       "2-9-1",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introductory experimental laboratory explores the design, construction, and debugging of analog electronic circuits. Lectures and six laboratory projects investigate the performance characteristics of diodes, transistors, JFETs, and op-amps, including the construction of a small audio amplifier and preamplifier. Seven weeks are devoted to the design and implementation, and written and oral presentation of a project in an environment similar to that of engineering design teams in industry. Provides opportunity to simulate real-world problems and solutions that involve trade offs and the use of engineering judgment. Engineers from local analog engineering companies come to campus to help students with their design projects. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.101",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "prereq":      [
+                "6.002",
+                "6.071"
+            ],
+            "in-charge":   "Roscoe, B. M.",
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.102 - Introductory RF Design Laboratory",
+            "id":          "6.102",
+            "level":       "Undergrad",
+            "units":       "2-9-1",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introductory experimental laboratory focuses on the fundamentals of radio frequency design through the study of radio receiver circuits from 1920 to 1960. Five labs using JFETs (arranged to behave like triodes and pentodes) investigate the behavior of series and parallel tuned circuits, bandwidth control, RF amplifiers, local oscillators, mixers, IF amplifiers, AM and FM detectors, audio stages, and RF measurements. Lecture topics include regenerative receivers and detectors; tuned RF, neutrodyne, superheterodyne and FM receivers; the \"All-American 5\" AC-DC AM receiver; and common vacuum tube triode and pentode topologies. Five weeks of the term are devoted to the restoration and circuit analysis of an antique radio supplied by the instructor. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.102",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "Institute LAB",
+            "prereq":      [
+                "6.002",
+                "6.071"
+            ],
+            "in-charge":   "Roscoe, B. M.",
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.102-1",
+            "lecture-section-of": "6.102",
+            "timeAndPlace":       [
+                "MWF 14:00-15:00 36-153"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.111 - Introductory Digital Systems Laboratory",
+            "id":          "6.111",
+            "level":       "Undergrad",
+            "units":       "3-7-2",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Lectures and labs on digital logic, flip flops, PALs, FPGAs, counters, timing, synchronization, and finite-state machines prepare students for the design and implementation of a final project of their choice: games, music, digital filters, wireless communications, video, or graphics. Extensive use of Verilog  for describing and implementating digital logic designs. Students engage in extensive written and oral communication exercises. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.111",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "prereq":      [
+                "6.002",
+                "6.071",
+                "16.004"
+            ],
+            "in-charge":   [
+                "Chandrakasan, A. P.",
+                "Terman, C. J."
+            ],
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.111-1",
+            "lecture-section-of": "6.111",
+            "timeAndPlace":       [
+                "MW 13:00-14:00 32-144"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.111-3",
+            "rec-section-of": "6.111",
+            "timeAndPlace":   [
+                "F 13:00-14:00 34-303"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.115 - Microcomputer Project Laboratory",
+            "id":          "6.115",
+            "level":       "Undergrad",
+            "units":       "3-6-3",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces the analysis and design of embedded systems. Microcontrollers  provide adaptation, flexibility, and real-time control. Emphasis placed on the construction of complete systems, including a five-axis robot arm, a fluorescent lamp ballast, a tomographic imaging station (e.g. a CAT scan), and a simple calculator. A wide range of basic tools are introduced, including software and development tools, peripheral components such as A/D converters, communication schemes, signal processing  techniques, closed-loop digital feedback control, interface and power electronics, and modeling of electromechanical systems. Students complete a sequence of assigned projects, followed by a final project of the student's choice, emphasizing creativity and uniqueness. Final project may be expanded to satisfy a 6.UAP project. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.115",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "prereq":      "6.002",
+            "in-charge":   "Leeb, S. B.",
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.115-1",
+            "lecture-section-of": "6.115",
+            "timeAndPlace":       [
+                "TR 13:00-14:00 34-101"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.115-2",
+            "rec-section-of": "6.115",
+            "timeAndPlace":   [
+                "W 15:00-16:00 34-101"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.121J - Bioelectronics Project Laboratory",
+            "id":          "6.121J",
+            "level":       "Undergrad",
+            "units":       "2-8-2",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Project Laboratory in electronic instrumentation, interfacing the analog and digital world. Students specify design, implement, and evaluate biomedical instruments, including several interrelated analog and digital subsystems. Extensive use of integrated analog circuits and a microprocessor. Classroom development of analytic models for complex functional components and the measurement process in the context of a longitudinal laboratory project. Students engage in extensive written and oral communication exercises. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.121J",
+            "semester":    "Spring",
+            "offering":    "Not offered this year",
+            "category":    "Institute LAB",
+            "prereq":      [
+                "HST.575J",
+                "6.002",
+                "6.071"
+            ],
+            "in-charge":   [
+                "Sarpeshkar, R.",
+                "Freeman, D. M.",
+                "Burns, S. K."
+            ],
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.131 - Power Electronics Laboratory",
+            "id":          "6.131",
+            "level":       "Undergrad",
+            "units":       "3-6-3",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces the design and construction of power electronic circuits and motor drives.  Laboratory exercises include the construction of drive circuitry for an electric go-cart, flash strobes, computer power supplies, three-phase inverters for AC motors, and resonant drives for lamp ballasts and induction heating. Basic electric machines introduced include DC, induction, and permanent magnet motors, with drive considerations. Final project may be expanded to serve as a 6.UAP project, with instructor permission. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.131",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "prereq":      "6.002",
+            "in-charge":   [
+                "Leeb, S. B.",
+                "Kirtley, J. L.",
+                "Jr."
+            ],
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.141J - Robotics: Science and Systems I",
+            "id":          "6.141J",
+            "level":       "Undergrad",
+            "units":       "2-6-4",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Presents concepts, principles, and algorithms for computation and action in the physical world. Topics covered are: motion planning; geometric reasoning; kinematics and dynamics; state estimation; tracking; map building; manipulation; human-robot interaction; fault diagnosis; and embedded system development. Students specify and design a small scale yet complex robot capable of real time interaction with the natural world. Students may continue content in 6.142. Prior knowledge of one or more of the following areas would be useful: control (2.004 or 16.30); software (1.00 or 6.170 or 16.35); electronics (6.002 or 6.070 or 6.111 or 6.115); mechanical engineering (2.007); or independent experience such as MasLAB, 6.270 or a relevant UROP. Enrollment limited. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.141J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "prereq":      "16.415J",
+            "in-charge":   [
+                "Leonard, J.",
+                "O'Reilly, U.",
+                "Roy, N.",
+                "Rus, D.",
+                "Teller, S."
+            ],
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.141J-1",
+            "lecture-section-of": "6.141J",
+            "timeAndPlace":       [
+                "MWF 13:00-14:00 32-155"
+            ]
+        },
+        {
+            "type":           "LabSection",
+            "label":          "s6.141J-2",
+            "lab-section-of": "6.141J",
+            "timeAndPlace":   [
+                "MW 15:00-17:00 33-004"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.142J - Robotics: Science and Systems II",
+            "id":          "6.142J",
+            "level":       "Undergrad",
+            "units":       "2-6-4",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Implementation and operation of the embedded system designed in 6.141. Addresses open research issues such as sustained autonomy, situational awareness, and human interaction. Students carry out experiments to assess their design and deliver a final written report. Prior knowledge of one or more of the following areas would be useful: control (2.004 or 16.30), software (1.00, 6.170 or 16.35), electronics (6.002, 6.070, 6.111 or 6.115), mechanical engineering (2.007), independent experience (MasLAB, 6.270 or a UROP). 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.142J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "16.416J",
+                "6.141"
+            ],
+            "in-charge":   [
+                "Leonard, J.",
+                "O'Reilly, U.",
+                "Roy, N.",
+                "Rus, D.",
+                "Teller, S."
+            ],
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.152J - Micro/Nano Processing Technology",
+            "id":          "6.152J",
+            "level":       "Undergrad",
+            "units":       "3-4-5",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces the theory and technology of micro/nano fabrication. Lectures and laboratory sessions on basic processing techniques such as vacuum processes, lithography, diffusion, oxidation, and pattern transfer. Students fabricate MOS capacitors, nanomechanical cantilevers, and microfluidic mixers. Emphasis on the interrelationships between material properties and processing, device structure, and the electrical, mechanical, optical, chemical  or biological behavior of devices. Provides background for thesis work in micro/nano fabrication or for 6.151. Students engage in extensive written and oral communication exercises.  6 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.152J",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "prereq":      "3.155J",
+            "in-charge":   [
+                "Schmidt, M. A.",
+                "Kolodziejski, L. A.",
+                "O'Handley, R. C.",
+                "Ross, C. A."
+            ],
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.152J-1",
+            "lecture-section-of": "6.152J",
+            "timeAndPlace":       [
+                "MW 14:30-16:00 2-105"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.161 - Modern Optics Project Laboratory",
+            "id":          "6.161",
+            "level":       "Undergrad",
+            "units":       "3-5-4",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Lectures, laboratory exercises and projects on optical signal generation, transmission, detection, storage, processing and display. Topics include polarization properties of light; reflection and refraction; coherence and interference; Fraunhofer and Fresnel diffraction; holography; Fourier optics; coherent and incoherent imaging and signal processing systems; optical properties of materials; lasers and LEDs; electro-optic and acousto-optic light modulators; photorefractive and liquid-crystal light modulation; display technologies; optical waveguides and fiber-optic communication systems; photodetectors. Students may use this subject to find an advanced undergraduate project. Students engage in extensive oral and written communcation exercises. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.161",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "prereq":      [
+                "6.637",
+                "6.003",
+                "6.013",
+                "8.03"
+            ],
+            "in-charge":   "Warde, C.",
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.163 - Strobe Project Laboratory",
+            "id":          "6.163",
+            "level":       "Undergrad",
+            "units":       "2-8-2",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Application of electronic flash sources to measurement and   photography. First half covers fundamentals of photography and   electronic flashes, including experiments on application of electronic   flash to photography, stroboscopy, motion analysis, and high-speed   videography. Students write five extensive lab reports.  In the second half, students work in small groups to select, design,   and execute independent projects in measurement or photography that apply learned techniques. Project planning and execution skills are discussed and developed over the term. Enrollment limited. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.163",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "prereq":      "8.02",
+            "in-charge":   [
+                "Vandiver, J. K.",
+                "Bales, J. W."
+            ],
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.163-1",
+            "lecture-section-of": "6.163",
+            "timeAndPlace":       [
+                "MW 12:00-13:00 1-375"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.170 - Laboratory in Software Engineering",
+            "id":          "6.170",
+            "level":       "Undergrad",
+            "units":       "3-9-3",
+            "total-units": 15,
+            "has-final":   false,
+            "description": "Introduces concepts and techniques relevant to the production of large software systems. Students taught a programming method based on the recognition and description of useful abstractions. Topics: modularity; specification; data abstraction; object modeling; design patterns; and testing. Several programming projects of varying size undertaken by students working individually and in groups. Enrollment may be limited. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.170",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Not offered this year",
+            "prereq":      [
+                "6.001",
+                "6.005"
+            ],
+            "in-charge":   [
+                "Liskov, B. H.",
+                "Jackson, D. N."
+            ],
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.171 - Software Engineering for Web Applications",
+            "id":          "6.171",
+            "level":       "Undergrad",
+            "units":       "3-6-3",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Computation over unreliable and anonymous protocols such as tht of the web. Problems of persistence, concurrency control, transactions, and transactions across multiple servers. The relational database management system as a tool for attacking these problems. Students work in small mentored teams on diverse projects. Enrollment limited. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.171",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "prereq":      [
+                "6.001",
+                "6.170"
+            ],
+            "in-charge":   "Abelson, H.",
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.182 - Psychoacoustics Project Laboratory",
+            "id":          "6.182",
+            "level":       "Undergrad",
+            "units":       "3-6-3",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces the methods used to measure human auditory abilities. Discusses auditory function, principles of psychoacoustic measurement, models for psychoacoustic performance, and experimental techniques. Project topics: absolute and differential auditory sensitivity, operating characteristics of human observers, span of absolute judgment, adaptive measurement procedures, and scaling sensory magnitudes. Knowledge of probability helpful. Students engage in extensive written and oral communication exercises. 12 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.182",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "Institute LAB",
+            "in-charge":   "Braida, L. D.",
+            "area":        "Undergraduate Laboratory Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.182-1",
+            "lecture-section-of": "6.182",
+            "timeAndPlace":       [
+                "TR 13:00-14:30 36-156"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.193?6.197 - Special Laboratory Subjects in Electrical Engineering and Computer Science",
+            "id":          "6.193?6.197",
+            "level":       "Undergrad",
+            "units":       "Unknown",
+            "total-units": "Unknown",
+            "has-final":   false,
+            "description": "Laboratory subjects not offered in the regular curriculum. Consult department to learn offerings for a particular term. Registration by permission of instructor.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.193?6.197",
+            "semester":    [
+                "Fall",
+                "IAP",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":   "Verghese, G. C.",
+            "area":        "Senior Projects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.UAP - Undergraduate Advanced Project",
+            "id":          "6.UAP",
+            "level":       "Undergrad",
+            "units":       "0-6-0",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Research project for those students completing the SB degree, to be arranged by the student and an appropriate MIT faculty member.  Students who register for this subject must consult the department undergraduate office. Students engage in extensive written communications exercises.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.UAP",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "prereq":      "6.UAT",
+            "in-charge":   "Smith, A. C.",
+            "area":        "Senior Projects"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.UAT - Preparation for Undergraduate Advanced Project",
+            "id":          "6.UAT",
+            "level":       "Undergrad",
+            "units":       "3-0-3",
+            "total-units": 6,
+            "has-final":   false,
+            "description": "Learn about different aspects of effective technical oral presentations by being exposed to different workplace communication skills. As preparation for the advanced undergraduate project (UAP), students develop research topics, identify a research supervisor, and prepare a short research proposal for written and oral presentation.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.UAT",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    "Currently Offered",
+            "in-charge":   [
+                "Verghese, G. C.",
+                "Eng, T. L."
+            ],
+            "area":        "Senior Projects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.UAT-1",
+            "lecture-section-of": "6.UAT",
+            "timeAndPlace":       [
+                "MW 16:00-17:00 32-155"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.231 - Dynamic Programming and Stochastic Control",
+            "id":          "6.231",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Sequential decision-making via dynamic programming. Unified approach to optimal control of stochastic dynamic systems and Markovian decision problems. Applications in linear-quadratic control, inventory control, resource allocation, scheduling, and control of queues. Optimal decision making under perfect and imperfect state information. Certainty equivalent, open loop-feedback control, rollout, and other suboptimal control methods. Infinite horizon problems: discounted, stochastic shortest path, average cost, and semi-Markov models. Value and policy iteration. Approximations and neurodynamic programming.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.231",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.041",
+                "18.313",
+                "18.100"
+            ],
+            "in-charge":   "Bertsekas, D. P.",
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.241 - Dynamic Systems and Control",
+            "id":          "6.241",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Linear, discrete- and continuous-time, multi-input-output systems in control, related areas. Least squares and matrix perturbation problems. State-space models, modes, stability, controllability, observability, transfer function matrices, poles and zeros, and minimality. Internal stability of interconnected systems, feedback compensators, state feedback, optimal regulation, observers, and observer-based compensators. Measures of control performance, robustness issues using singular values of transfer functions. Introductory ideas on nonlinear systems. Recommended prerequisite: 6.302.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.241",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.003",
+                "18.06"
+            ],
+            "in-charge":   [
+                "Dahleh, M. A.",
+                "Megretski, A.",
+                "Verghese, G. C."
+            ],
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.242 - Advanced Linear Control Systems",
+            "id":          "6.242",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "-optimization. Stability and performance robustness in the presence of structured uncertainty. Special topics. Alternate years.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.242",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "18.06",
+                "6.241"
+            ],
+            "in-charge":   [
+                "Dahleh, M. A.",
+                "Megretski, A."
+            ],
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.243J - Dynamics of Nonlinear Systems",
+            "id":          "6.243J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to nonlinear deterministic dynamical systems. Nonlinear ordinary differential equations. Planar autonomous systems. Fundamental theory: Picard iteration, contraction mapping theorem, and Bellman-Gronwall lemma. Stability of equilibria by Lyapunov's first and second methods. Feedback linearization. Application to nonlinear circuits and control systems. Alternate years.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.243J",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "16.337J",
+                "6.241"
+            ],
+            "in-charge":   [
+                "Wyatt, J. L.",
+                "Jr.",
+                "Megretski, A.",
+                "Dahleh, M.",
+                "Ramnath, R."
+            ],
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.245 - Multivariable Control Systems",
+            "id":          "6.245",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Computer-aided design methodologies for synthesis of multivariable feedback control systems. Performance and robustness trade-offs. Model-based compensators; Q-parameterization; ill-posed optimization problems; dynamic augmentation; linear-quadratic optimization of controllers; H-infinity controller design; Mu-synthesis; model and compensator simplification; nonlinear effects. Computer-aided (MATLAB) design homework using models of physical processes. Alternate years.  6 Engineering Design Points.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.245",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.241",
+                "16.31"
+            ],
+            "in-charge":   "Megretski, A.",
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.245-1",
+            "lecture-section-of": "6.245",
+            "timeAndPlace":       [
+                "MW 13:00-14:30 1-273"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.251J - Introduction to Mathematical Programming",
+            "id":          "6.251J",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to linear optimization and its extensions emphasizing both methodology and the underlying mathematical structures and geometrical ideas. Covers classical theory of linear programming as well as some recent advances in the field. Topics: simplex method; duality theory; sensitivity analysis; network flow problems; decomposition; integer programming; interior point algorithms for linear programming; and introduction to combinatorial optimization and NP-completeness.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.251J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "15.081J",
+                "18.06"
+            ],
+            "in-charge":   [
+                "Tsitsiklis, J. N.",
+                "Bertsimas, D."
+            ],
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.252J - Nonlinear Programming",
+            "id":          "6.252J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "A unified analytical and computational approach to nonlinear optimization problems. Unconstrained optimization methods include gradient, conjugate direction, Newton, and quasi-Newton methods. Constrained optimization methods include feasible directions, projection, interior point, and Lagrange multiplier methods. Convex analysis, Lagrangian relaxation, nondifferentiable optimization, and applications in integer programming. Comprehensive treatment of optimality conditions, Lagrange multiplier theory, and duality theory. Applications drawn from control, communications, power systems, and resource allocation problems.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.252J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "15.084J",
+                "18.06",
+                "18.100"
+            ],
+            "in-charge":   [
+                "Freund, R. M.",
+                "Bertsekas, D. P.",
+                "Perakis, G."
+            ],
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.252J-1",
+            "lecture-section-of": "6.252J",
+            "timeAndPlace":       [
+                "TR 10:00-11:30 E51-372"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.252J-2",
+            "rec-section-of": "6.252J",
+            "timeAndPlace":   [
+                "M 17:00-18:00 56-154"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.253 - Convex Analysis and Optimization",
+            "id":          "6.253",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Core analytical issues of continuous optimization, duality, and saddle point theory, and development using a handful of unifying principles that can be easily visualized and readily understood. The mathematical theory of convex sets and functions is discussed in detail, and is the basis for an intuitive, highly visual, geometrical approach to the subject. Alternate years.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.253",
+            "semester":    "Fall",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "18.06",
+                "18.100"
+            ],
+            "in-charge":   "Bertsekas, D. P.",
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.254 - Game Theory with Engineering Applications",
+            "id":          "6.254",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduction to fundamentals of game theory and mechanism design with motivations for each topic drawn from engineering applications (including distributed control of wireline/wireless communication networks, transportation networks, pricing). Emphasis on the foundations of the theory, mathematical tools, as well as modeling and the equilibrium notion in different environments. Topics include normal form games, supermodular games, dynamic games, repeated games, games with incomplete/imperfect information, mechanism design, cooperative game theory, and network games.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.254",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      "6.041",
+            "in-charge":   "Ozdaglar, A.",
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.254-1",
+            "lecture-section-of": "6.254",
+            "timeAndPlace":       [
+                "TR 13:00-14:30 34-302"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.255J - Optimization Methods",
+            "id":          "6.255J",
+            "level":       "Grad",
+            "units":       "4-0-8",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Introduces the principal algorithms for linear, network, discrete, nonlinear, dynamic optimization and optimal control. Emphasis on methodology and the underlying mathematical structures. Topics include the simplex method, network flow methods, branch and bound and cutting plane methods for discrete optimization, optimality conditions for nonlinear optimization, interior point methods for convex optimization, Newton's method, heuristic methods, and dynamic programming and optimal control methods.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.255J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "15.093J",
+                "18.06"
+            ],
+            "in-charge":   [
+                "Bertsimas, D.",
+                "Parrilo, P."
+            ],
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.256 - Algebraic Techniques and Semidefinite Optimization",
+            "id":          "6.256",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Theory and computational techniques for optimization problems involving polynomial equations and inequalities with particular, emphasis on the connections with semidefinite optimization. Develops algebraic and numerical approaches of general applicability, with a view towards methods that simultaneously incorporate both elements, stressing convexity-based ideas, complexity results, and efficient implementations. Examples from several engineering areas, in particular systems and control applications. Topics include semidefinite programming, resultants/discriminants, hyperbolic polynomials, Groebner bases, quantifier elimination, and sum of squares.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.256",
+            "semester":    "Spring",
+            "offering":    [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.251J",
+                "6.255J"
+            ],
+            "in-charge":   "Parrilo, P.",
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.256-1",
+            "lecture-section-of": "6.256",
+            "timeAndPlace":       [
+                "TR 13:00-14:30 32-124"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.262 - Discrete Stochastic Processes",
+            "id":          "6.262",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   true,
+            "description": "Review of probability and laws of large numbers; Poisson counting process and renewal processes; Markov chains (including Markov decision theory), branching processes, birth-death processes, and semi-Markov processes; continuous-time Markov chains and reversibility; random walks, martingales, and large deviations; applications from queueing, communication, control, and operations research.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.262",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "6.041",
+                "6.431",
+                "18.313"
+            ],
+            "in-charge":   [
+                "Gallager, R. G.",
+                "Wyatt, J. L."
+            ],
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "s6.262-1",
+            "lecture-section-of": "6.262",
+            "timeAndPlace":       [
+                "MW 14:30-16:00 36-112"
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "s6.262-2",
+            "rec-section-of": "6.262",
+            "timeAndPlace":   [
+                "R 15:00-16:00 34-301",
+                "R 16:00-17:00 34-301"
+            ]
+        },
+        {
+            "type":        "Class",
+            "label":       "6.263J - Data-Communication Networks",
+            "id":          "6.263J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Modeling of the control processes in conventional and high-speed data communication networks. Develops and utilizes elementary concepts from queueing theory, algorithms, linear and nonlinear programming to study the problems of line and network protocols, distributed algorithms, quasi-static and dynamic routing, congestion control, deadlock prevention. Treats local and wide-area networks, and high-speed electronic and optical networks.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.263J",
+            "semester":    "Fall",
+            "offering":    "Not offered this year",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "16.37J",
+                "6.041",
+                "18.313"
+            ],
+            "in-charge":   [
+                "Bertsekas, D. P.",
+                "Modiano, E."
+            ],
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.264J - Queues: Theory and Applications",
+            "id":          "6.264J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Modeling and analysis of queueing systems, with applications in communications, manufacturing, computers, call centers, service industries and transportation. Topics include birth-death processes and simple Markovian queues, networks of queues and product form networks, single and multi-server queues, multi-class queueing networks, fluid models, adversarial queueing networks, heavy-traffic theory and diffusion approximations. Covers state of the art results which lead to research opportunities.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.264J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "15.072J",
+                "6.262"
+            ],
+            "in-charge":   [
+                "Bertsimas, D.",
+                "Gamarnik, D.",
+                "Tsitsiklis, J. N."
+            ],
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.281J - Logistical and Transportation Planning Methods",
+            "id":          "6.281J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Quantitative techniques of operations research with emphasis on applications in transportation systems analysis (urban, air, ocean, highway, and pickup and delivery systems) and in the planning and design of logistically oriented urban service systems (e.g., fire and police departments, emergency medical services, and emergency repair services). Unified study of functions of random variables, geometrical probability, multi-server queuing theory, spatial location theory, network analysis and graph theory, and relevant methods of simulation. Computer exercises and discussions of implementation difficulties.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.281J",
+            "semester":    "Fall",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "1.203J",
+                "15.073J",
+                "16.76J",
+                "ESD.216J",
+                "6.431"
+            ],
+            "in-charge":   [
+                "Larson, R. C.",
+                "Odoni, A. R.",
+                "Barnett, A. I."
+            ],
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.282J - Quantitative Foundations of Engineering Systems",
+            "id":          "6.282J",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "This interdisciplinary subject aims to teach quantitative principles of design and analysis of large complex engineering systems at the beginning graduate level. Topics include principles of modeling, systems design, control and performance analysis using ideas from control, optimization, algorithms and stochastic processes. Designed as more conceptual and less technical (mathematical). That is, use of mathematics (sometimes sophisticated) is taught but the detailed proofs are usually omitted. Concepts supported and explained with examples drawn from the Internet. Provides the necessary background for advanced subjects on foundations of engineering systems.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.282J",
+            "semester":    "Spring",
+            "offering":    "Currently Offered",
+            "category":    "H-LEVEL Grad Credit",
+            "prereq":      [
+                "ESD.772J",
+                "6.041"
+            ],
+            "in-charge":   [
+                "Mitter, S.",
+                "Shah, D."
+            ],
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        },
+        {
+            "type":        "Class",
+            "label":       "6.291 - Seminar in Systems, Communications, and Control Research",
+            "id":          "6.291",
+            "level":       "Grad",
+            "units":       "3-0-9",
+            "total-units": 12,
+            "has-final":   false,
+            "description": "Advanced topics in systems, communications, control, and signal processing. Selected topics according to student and instructor interest. See instructor for specific topics to be offered in a particular term.",
+            "url":         "http://student.mit.edu/catalog/m6a.html#6.291",
+            "semester":    [
+                "Fall",
+                "Spring"
+            ],
+            "offering":    [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":    "H-LEVEL Grad Credit",
+            "in-charge":   "Mitter, S. K.",
+            "area":        "Advanced Undergraduate Subjects and Graduate Subjects by Area",
+            "subarea":     "Systems Science and Control Engineering"
+        }
+    ]
+}
