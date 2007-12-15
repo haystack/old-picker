@@ -32,15 +32,9 @@ function onLoad() {
                 var courseIDs = value.split(";");
                 for (var c = 0; c < courseIDs.length; c++) {
                     var courseID = courseIDs[c];
-                    if (courseID == "hass-d") {
-                        urls.push("data/hass-d-classes.js");
-                        urls.push("data/hass-d-lectures.js");
-                        urls.push("data/hass-d-sections.js");
-                    } else {
-                        urls.push("data/spring-fall/" + courseID + ".json");
-                        if (courseID == "6") {
-                            hasTQE = true;
-                        }
+                    urls.push("data/spring-fall/" + courseID + ".json");
+                    if (courseID == "6") {
+                        hasTQE = true;
                     }
                     markLoaded(courseID);
                 }

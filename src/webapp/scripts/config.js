@@ -117,12 +117,16 @@ var courses = [
         name:   "Health Sciences and Technology",
         hasData: true
     },
-    {    number:    "MAS",
+    {   number:  "MAS",
         name:    "Media Arts and Sciences (Media Lab)",
         hasData: true
     },
-    {    number:    "STS",
+    {   number:  "STS",
         name:    "Science, Technology, and Society",
+        hasData: true
+    },
+    {   number:  "hass_d",
+        name:    "HASS D",
         hasData: true
     }
 ];
