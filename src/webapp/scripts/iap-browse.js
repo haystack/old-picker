@@ -19,9 +19,9 @@ Exhibit.Functions["building"] = {
  */
 function onLoad() {
     var urls = [ ];
-    urls.push("data/iap-for-credit-classes.js");
-    urls.push("data/iap-for-credit-lectures.js");
-    urls.push("data/iap-for-credit-sections.js");
+    urls.push("data/iap/iap-for-credit-classes.js");
+    urls.push("data/iap/iap-for-credit-lectures.js");
+    urls.push("data/iap/iap-for-credit-sections.js");
     urls.push("data/schema.js");
 
     window.database = Exhibit.Database.create();

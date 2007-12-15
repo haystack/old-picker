@@ -3,35 +3,26 @@
     <head>
         <title>MIT Course Catalogue Pickr (beta)</title>
         <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js?autoCreate=false" type="text/javascript"></script>
-        <script src="iap-config.js" type="text/javascript"></script>
-        <script src="iap-browse.js" type="text/javascript"></script>
-        <script src="iap-timegrid.js" type="text/javascript"></script>
+        <script src="scripts/iap-config.js" type="text/javascript"></script>
+        <script src="scripts/iap-browse.js" type="text/javascript"></script>
+        <script src="scripts/iap-timegrid.js" type="text/javascript"></script>
         
-        <link type="text/css" rel="stylesheet" href="styles.css" />
-        <link type="text/css" rel="stylesheet" href="iap-browse.css" />
+        <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+        <link type="text/css" rel="stylesheet" href="styles/iap-browse.css" />
     </head>
     <body onload="onLoad();">
         <div ex:role="collection" ex:itemTypes="Class"></div>
         <div style="position: fixed; z-index: 10; right: 0; top: 0; background: #E0F0FF; border-left: 1px solid #B2B0D4; border-bottom: 1px solid #B2B0D4; padding: 10px;">
             <table id="calendar" cellspacing="2" onmouseout="onCalendarMouseOut();">
                 <tr class="calendar-row">
-
                     <td class="calendar-cell weekday">S</td>
-
                     <td class="calendar-cell weekday">M</td>
-
                     <td class="calendar-cell weekday">T</td>
-
                     <td class="calendar-cell weekday">W</td>
-
                     <td class="calendar-cell weekday">R</td>
-
                     <td class="calendar-cell weekday">F</td>
-
                     <td class="calendar-cell weekday">S</td>
-
                 </tr>
-
             </table>
             <div style="text-align: center;">
                 <button onclick="showDetailedSchedule();">Detailed Schedule</button>
@@ -68,23 +59,23 @@
                                 <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".course" id='course-facet' ex:fixedOrder="2; 3; 4; 6; 8; 9; 10; 11; 12; 15; 17; 18; 21F; 21M; 21W; 22; ESD; HST; STS"></div>
                             </td>
                             <td style="width: 10em;">
-                            	<div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:facetLabel="total units" ex:expression="concat(.total-units, ' units')" id='total-units-facet' ex:fixedOrder="2 units; 3 units; 4 units; 6 units; 9 units; 12 units; 18 units"></div>
+                                <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:facetLabel="total units" ex:expression="concat(.total-units, ' units')" id='total-units-facet' ex:fixedOrder="2 units; 3 units; 4 units; 6 units; 9 units; 12 units; 18 units"></div>
                             </td>
-						    <td>
-								<div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".grading" id='grading-facet'></div>
+                            <td>
+                                <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".grading" id='grading-facet'></div>
                                 <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".level" id='level-facet' ex:fixedOrder="U; G; H"></div>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="2">
                                 <div class="collapsed-facet" ex:role="facet" ex:scroll="false" ex:expression=".listeners" id='listeners-facet' ex:missingLabel="no listener information"></div>
-                        		<div class="collapsed-facet" 
-												 ex:scroll="false" 
-												 ex:role="facet" 
-												 ex:expression=".topic" 
-												 ex:facetLabel="topics"
-												 ex:missingLabel="no topic information"
-												 id='topic-facet'></div>
+                                <div class="collapsed-facet" 
+                                     ex:scroll="false" 
+                                     ex:role="facet" 
+                                     ex:expression=".topic" 
+                                     ex:facetLabel="topics"
+                                     ex:missingLabel="no topic information"
+                                     id='topic-facet'></div>
                             </td>
                         </tr>
                     </table>
@@ -120,36 +111,36 @@
             </div>
 
             <div class="course-body">
-            	<table>
-               	<tr>
-                		<td colspan="2" style="padding-bottom: 0.5em">
-                			<div ex:content=".topic" class="course-topic"></div>
-                		</td>
-                	</tr>
-                	<tr>
-                		<td colspan="2">
-                			<div ex:content=".description"></div>
-                		</td>
-                	</tr>
-                	<tr>
-                		<td style="padding: 0.8em">
-								<div ex:if-exists=".prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
-								<div ex:content=".lottery" ></div>
-								<div ex:content=".listeners"></div>
-								<div ex:content=".limit"></div>
-                		</td>
-                		<td width ="30%" style="padding: 0.8em">
-                			<div ex:if-exists=".level">Level: <span ex:content=".level"></span></div>
-                			<div ex:if-exists=".total-units">Total Units: <span ex:content=".total-units"></span></div>
-                			<div ex:if-exists=".grading">Grading: <span ex:content=".grading"></span></div>
-                			<div ex:if-exists=".fee">Fee: $<span ex:content=".fee"></span></div>
-                		</td>
-                	</tr>
-                	<tr>
-                		<td colspan="2">
-                			<div ex:if-exists=".contact">For more information, contact <span ex:content=".contact"></span></div>
-                		</td>
-                	</tr>
+                <table>
+                   <tr>
+                        <td colspan="2" style="padding-bottom: 0.5em">
+                            <div ex:content=".topic" class="course-topic"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div ex:content=".description"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.8em">
+                            <div ex:if-exists=".prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
+                            <div ex:content=".lottery" ></div>
+                            <div ex:content=".listeners"></div>
+                            <div ex:content=".limit"></div>
+                        </td>
+                        <td width ="30%" style="padding: 0.8em">
+                            <div ex:if-exists=".level">Level: <span ex:content=".level"></span></div>
+                            <div ex:if-exists=".total-units">Total Units: <span ex:content=".total-units"></span></div>
+                            <div ex:if-exists=".grading">Grading: <span ex:content=".grading"></span></div>
+                            <div ex:if-exists=".fee">Fee: $<span ex:content=".fee"></span></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div ex:if-exists=".contact">For more information, contact <span ex:content=".contact"></span></div>
+                        </td>
+                    </tr>
                 </table>
                 
                 <div ex:content="!class">
