@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "21W.730 - Writing on Contemporary Issues",
             "id":          "21W.730",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -24,17 +25,21 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.730-1",
+            "label":          "R21W.730-1",
             "rec-section-of": "21W.730",
-            "timeAndPlace":   [
-                "TR 11:00-12:30 1-375",
-                "TR 15:00-16:30 1-135"
-            ]
+            "timeAndPlace":   "TR 11:00-12:30 1-375"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R21W.730-2",
+            "rec-section-of": "21W.730",
+            "timeAndPlace":   "TR 15:00-16:30 1-135"
         },
         {
             "type":        "Class",
             "label":       "21W.731 - Writing and Experience",
             "id":          "21W.731",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -55,18 +60,27 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.731-1",
+            "label":          "R21W.731-1",
             "rec-section-of": "21W.731",
-            "timeAndPlace":   [
-                "MW 15:00-16:30 14N-112",
-                "TR 15:00-16:30 66-160",
-                "TR 11:00-12:30 14N-112"
-            ]
+            "timeAndPlace":   "MW 15:00-16:30 14N-112"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R21W.731-2",
+            "rec-section-of": "21W.731",
+            "timeAndPlace":   "TR 15:00-16:30 66-160"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R21W.731-3",
+            "rec-section-of": "21W.731",
+            "timeAndPlace":   "TR 11:00-12:30 14N-112"
         },
         {
             "type":        "Class",
             "label":       "21W.732 - Introduction to Scientific and Technical Communication",
             "id":          "21W.732",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -87,18 +101,27 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.732-1",
+            "label":          "R21W.732-1",
             "rec-section-of": "21W.732",
-            "timeAndPlace":   [
-                "MW 15:00-16:30 24-307",
-                "TR 15:00-16:30 24-307",
-                "TR 11:00-12:30 3-343"
-            ]
+            "timeAndPlace":   "MW 15:00-16:30 24-307"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R21W.732-2",
+            "rec-section-of": "21W.732",
+            "timeAndPlace":   "TR 15:00-16:30 24-307"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R21W.732-3",
+            "rec-section-of": "21W.732",
+            "timeAndPlace":   "TR 11:00-12:30 3-343"
         },
         {
             "type":        "Class",
             "label":       "21W.734J - Writing About Literature",
             "id":          "21W.734J",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -120,16 +143,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21W.734J-1",
+            "label":              "L21W.734J-1",
             "lecture-section-of": "21W.734J",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 56-169"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 56-169"
         },
         {
             "type":        "Class",
             "label":       "21W.735 - Writing and Reading the Essay",
             "id":          "21W.735",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -152,16 +174,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.735-1",
+            "label":          "R21W.735-1",
             "rec-section-of": "21W.735",
-            "timeAndPlace":   [
-                "TR 11:00-12:30 4-144"
-            ]
+            "timeAndPlace":   "TR 11:00-12:30 4-144"
         },
         {
             "type":        "Class",
             "label":       "21W.736 - News Writing",
             "id":          "21W.736",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -179,6 +200,7 @@
             "type":        "Class",
             "label":       "21W.739J - Darwin and Design",
             "id":          "21W.739J",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -203,6 +225,7 @@
             "type":        "Class",
             "label":       "21W.740 - Writing Autobiography and Biography",
             "id":          "21W.740",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -218,16 +241,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.740-1",
+            "label":          "R21W.740-1",
             "rec-section-of": "21W.740",
-            "timeAndPlace":   [
-                "W 19:00-10:00 4-253"
-            ]
+            "timeAndPlace":   "W 19:00-22:00 4-253"
         },
         {
             "type":        "Class",
             "label":       "21W.742J - Writing About Race",
             "id":          "21W.742J",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -247,16 +269,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.742J-1",
+            "label":          "R21W.742J-1",
             "rec-section-of": "21W.742J",
-            "timeAndPlace":   [
-                "TR 15:00-16:30 1-379"
-            ]
+            "timeAndPlace":   "TR 15:00-16:30 1-379"
         },
         {
             "type":        "Class",
             "label":       "21W.745 - Advanced Essay Workshop",
             "id":          "21W.745",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -279,16 +300,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.745-1",
+            "label":          "R21W.745-1",
             "rec-section-of": "21W.745",
-            "timeAndPlace":   [
-                "T 19:00-10:00 4-146"
-            ]
+            "timeAndPlace":   "T 19:00-22:00 4-146"
         },
         {
             "type":        "Class",
             "label":       "21W.746 - Humanistic Perspectives on Medicine: From Ancient Greece to Modern America",
             "id":          "21W.746",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -307,16 +327,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.746-1",
+            "label":          "R21W.746-1",
             "rec-section-of": "21W.746",
-            "timeAndPlace":   [
-                "TR 15:00-16:30 1-136"
-            ]
+            "timeAndPlace":   "TR 15:00-16:30 1-136"
         },
         {
             "type":        "Class",
             "label":       "21W.747 - Rhetoric",
             "id":          "21W.747",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -342,18 +361,27 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.747-1",
+            "label":          "R21W.747-1",
             "rec-section-of": "21W.747",
-            "timeAndPlace":   [
-                "TR 13:00-14:30 12-134",
-                "TR 11:00-12:30 12-134",
-                "MW 15:00-16:30 12-134"
-            ]
+            "timeAndPlace":   "TR 13:00-14:30 12-134"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R21W.747-2",
+            "rec-section-of": "21W.747",
+            "timeAndPlace":   "TR 11:00-12:30 12-134"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R21W.747-3",
+            "rec-section-of": "21W.747",
+            "timeAndPlace":   "MW 15:00-16:30 12-134"
         },
         {
             "type":        "Class",
             "label":       "21W.748 - Writing about the Culture of Medicine",
             "id":          "21W.748",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -371,6 +399,7 @@
             "type":        "Class",
             "label":       "21W.749 - Documentary Photography and Photojournalism: Still Images of a World in Motion",
             "id":          "21W.749",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -387,16 +416,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21W.749-1",
+            "label":              "L21W.749-1",
             "lecture-section-of": "21W.749",
-            "timeAndPlace":       [
-                "T 19:00-10:00 1-132"
-            ]
+            "timeAndPlace":       "T 19:00-22:00 1-132"
         },
         {
             "type":        "Class",
             "label":       "21W.754J - Playwriting I",
             "id":          "21W.754J",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -416,16 +444,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21W.754J-1",
+            "label":              "L21W.754J-1",
             "lecture-section-of": "21W.754J",
-            "timeAndPlace":       [
-                "M 14:00-17:00 4-144"
-            ]
+            "timeAndPlace":       "M 14:00-17:00 4-144"
         },
         {
             "type":        "Class",
             "label":       "21W.755 - Writing and Reading Short Stories",
             "id":          "21W.755",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -447,17 +474,21 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.755-1",
+            "label":          "R21W.755-1",
             "rec-section-of": "21W.755",
-            "timeAndPlace":   [
-                "TR 15:00-16:30 38-166",
-                "TR 11:00-12:30 4-253"
-            ]
+            "timeAndPlace":   "TR 15:00-16:30 38-166"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R21W.755-2",
+            "rec-section-of": "21W.755",
+            "timeAndPlace":   "TR 11:00-12:30 4-253"
         },
         {
             "type":        "Class",
             "label":       "21W.756 - Writing and Reading Poems",
             "id":          "21W.756",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -476,16 +507,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.756-1",
+            "label":          "R21W.756-1",
             "rec-section-of": "21W.756",
-            "timeAndPlace":   [
-                "MW 13:00-14:30 1-136"
-            ]
+            "timeAndPlace":   "MW 13:00-14:30 1-136"
         },
         {
             "type":        "Class",
             "label":       "21W.757 - Fiction Workshop",
             "id":          "21W.757",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -508,16 +538,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.757-1",
+            "label":          "R21W.757-1",
             "rec-section-of": "21W.757",
-            "timeAndPlace":   [
-                "TR 15:00-16:30 4-251"
-            ]
+            "timeAndPlace":   "TR 15:00-16:30 4-251"
         },
         {
             "type":        "Class",
             "label":       "21W.758 - Genre Fiction Workshop",
             "id":          "21W.758",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -535,6 +564,7 @@
             "type":        "Class",
             "label":       "21W.759 - Writing Science Fiction",
             "id":          "21W.759",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -552,6 +582,7 @@
             "type":        "Class",
             "label":       "21W.762 - Poetry Workshop",
             "id":          "21W.762",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -572,6 +603,7 @@
             "type":        "Class",
             "label":       "21W.764J - The Word Made Digital",
             "id":          "21W.764J",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -594,16 +626,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21W.764J-1",
+            "label":              "L21W.764J-1",
             "lecture-section-of": "21W.764J",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 14E-310"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 14E-310"
         },
         {
             "type":        "Class",
             "label":       "21W.765J - Interactive and Non-Linear Narrative: Theory and Practice",
             "id":          "21W.765J",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -625,6 +656,7 @@
             "type":        "Class",
             "label":       "21W.766J - Contemporary US Women of Color: Writing and Reading Short Stories",
             "id":          "21W.766J",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -641,16 +673,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.766J-1",
+            "label":          "R21W.766J-1",
             "rec-section-of": "21W.766J",
-            "timeAndPlace":   [
-                "MW 11:00-12:30 24-110"
-            ]
+            "timeAndPlace":   "MW 11:00-12:30 24-110"
         },
         {
             "type":        "Class",
             "label":       "21W.769J - Playwrights' Workshop",
             "id":          "21W.769J",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -675,16 +706,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21W.769J-1",
+            "label":              "L21W.769J-1",
             "lecture-section-of": "21W.769J",
-            "timeAndPlace":       [
-                "F 14:00-17:00 4-144"
-            ]
+            "timeAndPlace":       "F 14:00-17:00 4-144"
         },
         {
             "type":        "Class",
             "label":       "21W.770 - Advanced Fiction Workshop",
             "id":          "21W.770",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -706,16 +736,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.770-1",
+            "label":          "R21W.770-1",
             "rec-section-of": "21W.770",
-            "timeAndPlace":   [
-                "MW 13:00-14:30 24-112"
-            ]
+            "timeAndPlace":   "MW 13:00-14:30 24-112"
         },
         {
             "type":        "Class",
             "label":       "21W.771 - Advanced Poetry Workshop",
             "id":          "21W.771",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -734,16 +763,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.771-1",
+            "label":          "R21W.771-1",
             "rec-section-of": "21W.771",
-            "timeAndPlace":   [
-                "W 19:00-10:00 56-167"
-            ]
+            "timeAndPlace":   "W 19:00-22:00 56-167"
         },
         {
             "type":        "Class",
             "label":       "21W.772 - Digital Poetry",
             "id":          "21W.772",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -761,6 +789,7 @@
             "type":        "Class",
             "label":       "21W.773 - Writing Longer Fiction",
             "id":          "21W.773",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -781,6 +810,7 @@
             "type":        "Class",
             "label":       "21W.774 - Invention and Ingenuity",
             "id":          "21W.774",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -796,16 +826,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.774-1",
+            "label":          "R21W.774-1",
             "rec-section-of": "21W.774",
-            "timeAndPlace":   [
-                "W 19:00-10:00 8-119"
-            ]
+            "timeAndPlace":   "W 19:00-22:00 8-119"
         },
         {
             "type":        "Class",
             "label":       "21W.775 - Writing about Nature and Environmental Issues",
             "id":          "21W.775",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -826,6 +855,7 @@
             "type":        "Class",
             "label":       "21W.777 - The Science Essay",
             "id":          "21W.777",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -841,16 +871,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.777-1",
+            "label":          "R21W.777-1",
             "rec-section-of": "21W.777",
-            "timeAndPlace":   [
-                "TR 15:00-16:30 2-143"
-            ]
+            "timeAndPlace":   "TR 15:00-16:30 2-143"
         },
         {
             "type":        "Class",
             "label":       "21W.778 - Science Journalism",
             "id":          "21W.778",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,

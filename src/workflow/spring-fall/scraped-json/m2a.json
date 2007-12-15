@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "2.00AJ - Fundamentals of Engineering Design: Explore Space, Sea and Earth",
             "id":          "2.00AJ",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-3-3",
             "total-units": 9,
@@ -27,25 +28,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.00AJ-1",
+            "label":              "L2.00AJ-1",
             "lecture-section-of": "2.00AJ",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 37-212"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 37-212"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.00AJ-2",
+            "label":          "B2.00AJ-2",
             "lab-section-of": "2.00AJ",
-            "timeAndPlace":   [
-                "W 14:00-17:00 5-007",
-                "F 11:00-14:00 5-007"
-            ]
+            "timeAndPlace":   "W 14:00-17:00 5-007"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.00AJ-3",
+            "lab-section-of": "2.00AJ",
+            "timeAndPlace":   "F 11:00-14:00 5-007"
         },
         {
             "type":        "Class",
             "label":       "2.00B - Toy Product Design",
             "id":          "2.00B",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-5-1",
             "total-units": 9,
@@ -62,25 +65,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.00B-1",
+            "label":              "L2.00B-1",
             "lecture-section-of": "2.00B",
-            "timeAndPlace":       [
-                "M 15:00-16:30 3-370"
-            ]
+            "timeAndPlace":       "M 15:00-16:30 3-370"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.00B-2",
+            "label":          "B2.00B-2",
             "lab-section-of": "2.00B",
-            "timeAndPlace":   [
-                "T 9:00-12:00 35-125",
-                "R 9:00-12:00 35-125"
-            ]
+            "timeAndPlace":   "T 9:00-12:00 35-125"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.00B-3",
+            "lab-section-of": "2.00B",
+            "timeAndPlace":   "R 9:00-12:00 35-125"
         },
         {
             "type":        "Class",
             "label":       "2.001 - Mechanics and Materials I",
             "id":          "2.001",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -109,29 +114,51 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.001-1",
+            "label":              "L2.001-1",
             "lecture-section-of": "2.001",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 1-190"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 1-190"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s2.001-2",
+            "label":          "R2.001-2",
             "rec-section-of": "2.001",
-            "timeAndPlace":   [
-                "R 9:00-10:30 1-307",
-                "R 11:00-12:30 1-307",
-                "R 13:00-14:30 1-307",
-                "F 9:00-10:30 1-307",
-                "F 11:00-12:30 1-307",
-                "F 15:00-16:30 1-307"
-            ]
+            "timeAndPlace":   "R 9:00-10:30 1-307"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.001-3",
+            "rec-section-of": "2.001",
+            "timeAndPlace":   "R 11:00-12:30 1-307"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.001-4",
+            "rec-section-of": "2.001",
+            "timeAndPlace":   "R 13:00-14:30 1-307"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.001-5",
+            "rec-section-of": "2.001",
+            "timeAndPlace":   "F 9:00-10:30 1-307"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.001-6",
+            "rec-section-of": "2.001",
+            "timeAndPlace":   "F 11:00-12:30 1-307"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.001-7",
+            "rec-section-of": "2.001",
+            "timeAndPlace":   "F 15:00-16:30 1-307"
         },
         {
             "type":        "Class",
             "label":       "2.002 - Mechanics and Materials II",
             "id":          "2.002",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -159,27 +186,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.002-1",
+            "label":              "L2.002-1",
             "lecture-section-of": "2.002",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 3-270"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 3-270"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.002-2",
+            "label":          "B2.002-2",
             "lab-section-of": "2.002",
-            "timeAndPlace":   [
-                "M 14:00-17:00 1-307",
-                "T 9:00-12:00 1-307",
-                "T 14:00-17:00 1-307",
-                "W 14:00-17:00 1-307"
-            ]
+            "timeAndPlace":   "M 14:00-17:00 1-307"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.002-3",
+            "lab-section-of": "2.002",
+            "timeAndPlace":   "T 9:00-12:00 1-307"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.002-4",
+            "lab-section-of": "2.002",
+            "timeAndPlace":   "T 14:00-17:00 1-307"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.002-5",
+            "lab-section-of": "2.002",
+            "timeAndPlace":   "W 14:00-17:00 1-307"
         },
         {
             "type":        "Class",
             "label":       "2.003J - Dynamics and Control I",
             "id":          "2.003J",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "4-1-7",
             "total-units": 12,
@@ -207,35 +246,45 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.003J-1",
+            "label":              "L2.003J-1",
             "lecture-section-of": "2.003J",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 3-370"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 3-370"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.003J-2",
+            "label":          "B2.003J-2",
             "lab-section-of": "2.003J",
-            "timeAndPlace":   [
-                "F 13:00-14:00 3-343",
-                "F 14:00-15:00 3-343"
-            ]
+            "timeAndPlace":   "F 13:00-14:00 3-343"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.003J-3",
+            "lab-section-of": "2.003J",
+            "timeAndPlace":   "F 14:00-15:00 3-343"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s2.003J-3",
+            "label":          "R2.003J-4",
             "rec-section-of": "2.003J",
-            "timeAndPlace":   [
-                "R 14:00-15:00 1-379",
-                "R 16:00-17:00 1-242",
-                "F 10:00-11:00 1-242"
-            ]
+            "timeAndPlace":   "R 14:00-15:00 1-379"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.003J-5",
+            "rec-section-of": "2.003J",
+            "timeAndPlace":   "R 16:00-17:00 1-242"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.003J-6",
+            "rec-section-of": "2.003J",
+            "timeAndPlace":   "F 10:00-11:00 1-242"
         },
         {
             "type":        "Class",
             "label":       "2.004 - Dynamics and Control II",
             "id":          "2.004",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -262,29 +311,51 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.004-1",
+            "label":              "L2.004-1",
             "lecture-section-of": "2.004",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 3-270"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 3-270"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.004-2",
+            "label":          "B2.004-2",
             "lab-section-of": "2.004",
-            "timeAndPlace":   [
-                "M 15:00-17:00 3-062",
-                "W 15:00-17:00 3-062",
-                "R 13:00-15:00 3-062",
-                "R 15:00-17:00 3-062",
-                "F 9:00-11:00 3-062",
-                "F 13:00-15:00 3-062"
-            ]
+            "timeAndPlace":   "M 15:00-17:00 3-062"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.004-3",
+            "lab-section-of": "2.004",
+            "timeAndPlace":   "W 15:00-17:00 3-062"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.004-4",
+            "lab-section-of": "2.004",
+            "timeAndPlace":   "R 13:00-15:00 3-062"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.004-5",
+            "lab-section-of": "2.004",
+            "timeAndPlace":   "R 15:00-17:00 3-062"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.004-6",
+            "lab-section-of": "2.004",
+            "timeAndPlace":   "F 9:00-11:00 3-062"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.004-7",
+            "lab-section-of": "2.004",
+            "timeAndPlace":   "F 13:00-15:00 3-062"
         },
         {
             "type":        "Class",
             "label":       "2.005 - Thermal-Fluids Engineering I",
             "id":          "2.005",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -311,26 +382,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.005-1",
+            "label":              "L2.005-1",
             "lecture-section-of": "2.005",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 1-190"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 1-190"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s2.005-2",
+            "label":          "R2.005-2",
             "rec-section-of": "2.005",
-            "timeAndPlace":   [
-                "F 12:00-13:00 1-134",
-                "F 14:00-15:00 1-134",
-                "F 15:00-16:00 1-134"
-            ]
+            "timeAndPlace":   "F 12:00-13:00 1-134"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.005-3",
+            "rec-section-of": "2.005",
+            "timeAndPlace":   "F 14:00-15:00 1-134"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.005-4",
+            "rec-section-of": "2.005",
+            "timeAndPlace":   "F 15:00-16:00 1-134"
         },
         {
             "type":        "Class",
             "label":       "2.006 - Thermal-Fluids Engineering II",
             "id":          "2.006",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -356,27 +434,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.006-1",
+            "label":              "L2.006-1",
             "lecture-section-of": "2.006",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 3-270"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 3-270"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s2.006-2",
+            "label":          "R2.006-2",
             "rec-section-of": "2.006",
-            "timeAndPlace":   [
-                "R 15:00-16:00 1-242",
-                "F 10:00-11:00 1-150",
-                "F 11:00-12:00 1-150",
-                "F 13:00-14:00 1-242"
-            ]
+            "timeAndPlace":   "R 15:00-16:00 1-242"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.006-3",
+            "rec-section-of": "2.006",
+            "timeAndPlace":   "F 10:00-11:00 1-150"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.006-4",
+            "rec-section-of": "2.006",
+            "timeAndPlace":   "F 11:00-12:00 1-150"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R2.006-5",
+            "rec-section-of": "2.006",
+            "timeAndPlace":   "F 13:00-14:00 1-242"
         },
         {
             "type":        "Class",
             "label":       "2.007 - Design and Manufacturing I",
             "id":          "2.007",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-4-5",
             "total-units": 12,
@@ -394,35 +484,87 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.007-1",
+            "label":              "L2.007-1",
             "lecture-section-of": "2.007",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 1-190"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 1-190"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.007-2",
+            "label":          "B2.007-2",
             "lab-section-of": "2.007",
-            "timeAndPlace":   [
-                "M 13:00-17:00 3-050",
-                "M 13:00-17:00 3-050",
-                "T 13:00-17:00 3-050",
-                "T 13:00-17:00 3-050",
-                "T 13:00-17:00 3-050",
-                "T 13:00-17:00 3-050",
-                "W 13:00-17:00 3-050",
-                "W 13:00-17:00 3-050",
-                "R 13:00-17:00 3-050",
-                "R 13:00-17:00 3-050",
-                "R 13:00-17:00 3-050",
-                "R 13:00-17:00 3-050"
-            ]
+            "timeAndPlace":   "M 13:00-17:00 3-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.007-3",
+            "lab-section-of": "2.007",
+            "timeAndPlace":   "M 13:00-17:00 3-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.007-4",
+            "lab-section-of": "2.007",
+            "timeAndPlace":   "T 13:00-17:00 3-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.007-5",
+            "lab-section-of": "2.007",
+            "timeAndPlace":   "T 13:00-17:00 3-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.007-6",
+            "lab-section-of": "2.007",
+            "timeAndPlace":   "T 13:00-17:00 3-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.007-7",
+            "lab-section-of": "2.007",
+            "timeAndPlace":   "T 13:00-17:00 3-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.007-8",
+            "lab-section-of": "2.007",
+            "timeAndPlace":   "W 13:00-17:00 3-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.007-9",
+            "lab-section-of": "2.007",
+            "timeAndPlace":   "W 13:00-17:00 3-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.007-10",
+            "lab-section-of": "2.007",
+            "timeAndPlace":   "R 13:00-17:00 3-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.007-11",
+            "lab-section-of": "2.007",
+            "timeAndPlace":   "R 13:00-17:00 3-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.007-12",
+            "lab-section-of": "2.007",
+            "timeAndPlace":   "R 13:00-17:00 3-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.007-13",
+            "lab-section-of": "2.007",
+            "timeAndPlace":   "R 13:00-17:00 3-050"
         },
         {
             "type":        "Class",
             "label":       "2.008 - Design and Manufacturing II",
             "id":          "2.008",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-5-4",
             "total-units": 12,
@@ -450,28 +592,45 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.008-1",
+            "label":              "L2.008-1",
             "lecture-section-of": "2.008",
-            "timeAndPlace":       [
-                "MW 12:30-14:00 35-225"
-            ]
+            "timeAndPlace":       "MW 12:30-14:00 35-225"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.008-2",
+            "label":          "B2.008-2",
             "lab-section-of": "2.008",
-            "timeAndPlace":   [
-                "M 14:00-17:00 35-125",
-                "T 14:00-17:00 35-125",
-                "W 9:00-12:00 35-125",
-                "W 14:00-17:00 35-125",
-                "R 14:00-17:00 35-125"
-            ]
+            "timeAndPlace":   "M 14:00-17:00 35-125"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.008-3",
+            "lab-section-of": "2.008",
+            "timeAndPlace":   "T 14:00-17:00 35-125"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.008-4",
+            "lab-section-of": "2.008",
+            "timeAndPlace":   "W 9:00-12:00 35-125"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.008-5",
+            "lab-section-of": "2.008",
+            "timeAndPlace":   "W 14:00-17:00 35-125"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.008-6",
+            "lab-section-of": "2.008",
+            "timeAndPlace":   "R 14:00-17:00 35-125"
         },
         {
             "type":        "Class",
             "label":       "2.009 - The Product Engineering Process",
             "id":          "2.009",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -493,6 +652,7 @@
             "type":        "Class",
             "label":       "2.012J - Mechanics of Structures",
             "id":          "2.012J",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "4-1-7",
             "total-units": 12,
@@ -515,24 +675,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.012J-1",
+            "label":              "L2.012J-1",
             "lecture-section-of": "2.012J",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 1-134"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 1-134"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.012J-2",
+            "label":          "B2.012J-2",
             "lab-section-of": "2.012J",
-            "timeAndPlace":   [
-                "T 14:00-17:00 Unknown"
-            ]
+            "timeAndPlace":   "T 14:00-17:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "2.016 - Hydrodynamics",
             "id":          "2.016",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -552,6 +709,7 @@
             "type":        "Class",
             "label":       "2.017J - Design of Electromechanical Robotic Systems",
             "id":          "2.017J",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-4-5",
             "total-units": 12,
@@ -573,24 +731,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.017J-1",
+            "label":              "L2.017J-1",
             "lecture-section-of": "2.017J",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 1-136"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 1-136"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.017J-2",
+            "label":          "B2.017J-2",
             "lab-section-of": "2.017J",
-            "timeAndPlace":   [
-                "M 13:00-17:00 5-007"
-            ]
+            "timeAndPlace":   "M 13:00-17:00 5-007"
         },
         {
             "type":        "Class",
             "label":       "2.019 - Design of Ocean Systems",
             "id":          "2.019",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -613,24 +768,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.019-1",
+            "label":              "L2.019-1",
             "lecture-section-of": "2.019",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 1-246"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 1-246"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.019-2",
+            "label":          "B2.019-2",
             "lab-section-of": "2.019",
-            "timeAndPlace":   [
-                "W 14:00-17:00 5-308"
-            ]
+            "timeAndPlace":   "W 14:00-17:00 5-308"
         },
         {
             "type":        "Class",
             "label":       "2.032 - Dynamics",
             "id":          "2.032",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -653,6 +805,7 @@
             "type":        "Class",
             "label":       "2.034J - Nonlinear Dynamics and Waves",
             "id":          "2.034J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -677,6 +830,7 @@
             "type":        "Class",
             "label":       "2.035 - Special Topics in Mathematics with Applications",
             "id":          "2.035",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -700,6 +854,7 @@
             "type":        "Class",
             "label":       "2.036J - Nonlinear Dynamics and Chaos",
             "id":          "2.036J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -721,6 +876,7 @@
             "type":        "Class",
             "label":       "2.037J - Advanced Nonlinear Dynamics and Chaos",
             "id":          "2.037J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -742,6 +898,7 @@
             "type":        "Class",
             "label":       "2.038J - The Art of Approximation in Science and Engineering",
             "id":          "2.038J",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -763,16 +920,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.038J-1",
+            "label":              "L2.038J-1",
             "lecture-section-of": "2.038J",
-            "timeAndPlace":       [
-                "MWF 13:00-14:00 4-145"
-            ]
+            "timeAndPlace":       "MWF 13:00-14:00 4-145"
         },
         {
             "type":        "Class",
             "label":       "2.050J - Nonlinear Dynamics I: Chaos",
             "id":          "2.050J",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -794,6 +950,7 @@
             "type":        "Class",
             "label":       "2.06J - Mechanical Vibration",
             "id":          "2.06J",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -816,6 +973,7 @@
             "type":        "Class",
             "label":       "2.060J - Advanced Structural Dynamics",
             "id":          "2.060J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -841,6 +999,7 @@
             "type":        "Class",
             "label":       "2.062J - Wave Propagation",
             "id":          "2.062J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -865,16 +1024,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.062J-1",
+            "label":              "L2.062J-1",
             "lecture-section-of": "2.062J",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 1-277"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 1-277"
         },
         {
             "type":        "Class",
             "label":       "2.064J - Surface Wave Dynamics",
             "id":          "2.064J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -897,16 +1055,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.064J-1",
+            "label":              "L2.064J-1",
             "lecture-section-of": "2.064J",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 1-134"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 1-134"
         },
         {
             "type":        "Class",
             "label":       "2.065 - Acoustics and Sensing",
             "id":          "2.065",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -927,16 +1084,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.065-1",
+            "label":              "L2.065-1",
             "lecture-section-of": "2.065",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 1-136"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 1-136"
         },
         {
             "type":        "Class",
             "label":       "2.066 - Acoustics and Sensing",
             "id":          "2.066",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -958,16 +1114,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.066-1",
+            "label":              "L2.066-1",
             "lecture-section-of": "2.066",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 1-136"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 1-136"
         },
         {
             "type":        "Class",
             "label":       "2.071 - Mechanics of Solid Materials",
             "id":          "2.071",
+            "course":      "2",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -988,16 +1143,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.071-1",
+            "label":              "L2.071-1",
             "lecture-section-of": "2.071",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 5-217"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 5-217"
         },
         {
             "type":        "Class",
             "label":       "2.072 - Mechanics of Continuous Media",
             "id":          "2.072",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1018,6 +1172,7 @@
             "type":        "Class",
             "label":       "2.073 - Solid Mechanics: Plasticity and Inelastic Deformation",
             "id":          "2.073",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1039,6 +1194,7 @@
             "type":        "Class",
             "label":       "2.074 - Solid Mechanics: Elasticity",
             "id":          "2.074",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1065,6 +1221,7 @@
             "type":        "Class",
             "label":       "2.075 - Advanced Mechanical Behavior of Materials",
             "id":          "2.075",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1088,6 +1245,7 @@
             "type":        "Class",
             "label":       "2.080J - Structural Mechanics",
             "id":          "2.080J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1113,6 +1271,7 @@
             "type":        "Class",
             "label":       "2.081J - Plates and Shells",
             "id":          "2.081J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -1133,16 +1292,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.081J-1",
+            "label":              "L2.081J-1",
             "lecture-section-of": "2.081J",
-            "timeAndPlace":       [
-                "MW 13:00-15:00 5-217"
-            ]
+            "timeAndPlace":       "MW 13:00-15:00 5-217"
         },
         {
             "type":        "Class",
             "label":       "2.082 - Ship Structural Analysis and Design",
             "id":          "2.082",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -1165,24 +1323,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.082-1",
+            "label":              "L2.082-1",
             "lecture-section-of": "2.082",
-            "timeAndPlace":       [
-                "MW 13:00-15:00 5-217"
-            ]
+            "timeAndPlace":       "MW 13:00-15:00 5-217"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s2.082-2",
+            "label":          "R2.082-2",
             "rec-section-of": "2.082",
-            "timeAndPlace":   [
-                "W 16:00-17:00 5-234"
-            ]
+            "timeAndPlace":   "W 16:00-17:00 5-234"
         },
         {
             "type":        "Class",
             "label":       "2.084J - Structural Mechanics in Nuclear Power Technology",
             "id":          "2.084J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1207,6 +1362,7 @@
             "type":        "Class",
             "label":       "2.085 - Structural Impact",
             "id":          "2.085",
+            "course":      "2",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -1224,16 +1380,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.085-1",
+            "label":              "L2.085-1",
             "lecture-section-of": "2.085",
-            "timeAndPlace":       [
-                "R 13:00-15:00 1-242"
-            ]
+            "timeAndPlace":       "R 13:00-15:00 1-242"
         },
         {
             "type":        "Class",
             "label":       "2.086 - Numerical Computation for Mechanical Engineers",
             "id":          "2.086",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -1256,24 +1411,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.086-1",
+            "label":              "L2.086-1",
             "lecture-section-of": "2.086",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 1-150"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 1-150"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.086-2",
+            "label":          "B2.086-2",
             "lab-section-of": "2.086",
-            "timeAndPlace":   [
-                "F 11:00-14:00 1-115"
-            ]
+            "timeAndPlace":   "F 11:00-14:00 1-115"
         },
         {
             "type":        "Class",
             "label":       "2.089J - Computational Geometry",
             "id":          "2.089J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1297,6 +1449,7 @@
             "type":        "Class",
             "label":       "2.091J - Foundations of Software Engineering",
             "id":          "2.091J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1318,6 +1471,7 @@
             "type":        "Class",
             "label":       "2.092 - Computer Methods in Dynamics",
             "id":          "2.092",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1348,6 +1502,7 @@
             "type":        "Class",
             "label":       "2.094 - Finite Element Analysis of Solids and Fluids",
             "id":          "2.094",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1363,16 +1518,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.094-1",
+            "label":              "L2.094-1",
             "lecture-section-of": "2.094",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 1-390"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 1-390"
         },
         {
             "type":        "Class",
             "label":       "2.095 - Molecular Modeling and Simulation for Mechanics",
             "id":          "2.095",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1393,6 +1547,7 @@
             "type":        "Class",
             "label":       "2.096J - Introduction to Numerical Simulation",
             "id":          "2.096J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1420,6 +1575,7 @@
             "type":        "Class",
             "label":       "2.097J - Numerical Methods for Partial Differential Equations",
             "id":          "2.097J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1446,6 +1602,7 @@
             "type":        "Class",
             "label":       "2.099J - Computational Mechanics of Materials",
             "id":          "2.099J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -1464,16 +1621,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.099J-1",
+            "label":              "L2.099J-1",
             "lecture-section-of": "2.099J",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 33-319"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 33-319"
         },
         {
             "type":        "Class",
             "label":       "2.110J - Information, Entropy and Computation",
             "id":          "2.110J",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "4-0-5",
             "total-units": 9,
@@ -1498,16 +1654,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.110J-1",
+            "label":              "L2.110J-1",
             "lecture-section-of": "2.110J",
-            "timeAndPlace":       [
-                "TR 13:00-15:00 36-153"
-            ]
+            "timeAndPlace":       "TR 13:00-15:00 36-153"
         },
         {
             "type":        "Class",
             "label":       "2.111J - Quantum Computation",
             "id":          "2.111J",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1529,6 +1684,7 @@
             "type":        "Class",
             "label":       "2.12 - Introduction to Robotics",
             "id":          "2.12",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -1548,6 +1704,7 @@
             "type":        "Class",
             "label":       "2.131 - Advanced Instrumentation and Measurement",
             "id":          "2.131",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -1561,16 +1718,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.131-1",
+            "label":              "L2.131-1",
             "lecture-section-of": "2.131",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 3-154"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 3-154"
         },
         {
             "type":        "Class",
             "label":       "2.14 - Analysis and Design of Feedback Control Systems",
             "id":          "2.14",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -1597,44 +1753,57 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.14-1",
+            "label":              "L2.14-1",
             "lecture-section-of": "2.14",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 3-270"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 3-270"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.14-2",
+            "label":          "B2.14-2",
             "lab-section-of": "2.14",
-            "timeAndPlace":   [
-                "M 14:00-17:00 1-004",
-                "T 14:00-17:00 1-004",
-                "F 14:00-17:00 1-004"
-            ]
+            "timeAndPlace":   "M 14:00-17:00 1-004"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.14-3",
+            "lab-section-of": "2.14",
+            "timeAndPlace":   "T 14:00-17:00 1-004"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.14-4",
+            "lab-section-of": "2.14",
+            "timeAndPlace":   "F 14:00-17:00 1-004"
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.14-3",
+            "label":              "L2.14-5",
             "lecture-section-of": "2.14",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 3-270"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 3-270"
         },
         {
             "type":           "LabSection",
-            "label":          "s2.14-4",
+            "label":          "B2.14-6",
             "lab-section-of": "2.14",
-            "timeAndPlace":   [
-                "M 14:00-17:00 1-004",
-                "T 14:00-17:00 1-004",
-                "F 14:00-17:00 1-004"
-            ]
+            "timeAndPlace":   "M 14:00-17:00 1-004"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.14-7",
+            "lab-section-of": "2.14",
+            "timeAndPlace":   "T 14:00-17:00 1-004"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B2.14-8",
+            "lab-section-of": "2.14",
+            "timeAndPlace":   "F 14:00-17:00 1-004"
         },
         {
             "type":        "Class",
             "label":       "2.141 - Modeling and Simulation of Dynamic Systems",
             "id":          "2.141",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1652,6 +1821,7 @@
             "type":        "Class",
             "label":       "2.151 - Advanced System Dynamics and Control",
             "id":          "2.151",
+            "course":      "2",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1676,6 +1846,7 @@
             "type":        "Class",
             "label":       "2.152 - Nonlinear Control System Design",
             "id":          "2.152",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1697,6 +1868,7 @@
             "type":        "Class",
             "label":       "2.154 - Maneuvering and Control of Surface  and Underwater Vehicles",
             "id":          "2.154",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1714,6 +1886,7 @@
             "type":        "Class",
             "label":       "2.160 - Identification, Estimation, and Learning",
             "id":          "2.160",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1733,16 +1906,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.160-1",
+            "label":              "L2.160-1",
             "lecture-section-of": "2.160",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 1-134"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 1-134"
         },
         {
             "type":        "Class",
             "label":       "2.161 - Signal Processing: Continuous and Discrete",
             "id":          "2.161",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1759,6 +1931,7 @@
             "type":        "Class",
             "label":       "2.165 - Robotics",
             "id":          "2.165",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1779,6 +1952,7 @@
             "type":        "Class",
             "label":       "2.166 - Probabilistic Techniques for Mobile Robotics",
             "id":          "2.166",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -1799,6 +1973,7 @@
             "type":        "Class",
             "label":       "2.167 - Hands-On Marine Robotics",
             "id":          "2.167",
+            "course":      "2",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1818,16 +1993,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.167-1",
+            "label":              "L2.167-1",
             "lecture-section-of": "2.167",
-            "timeAndPlace":       [
-                "F 13:00-14:00 1-134"
-            ]
+            "timeAndPlace":       "F 13:00-14:00 1-134"
         },
         {
             "type":        "Class",
             "label":       "2.168 - Analysis, Design, and Control of Automated Equipment",
             "id":          "2.168",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1848,6 +2022,7 @@
             "type":        "Class",
             "label":       "2.171 - Analysis and Design of Digital Control Systems",
             "id":          "2.171",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -1871,6 +2046,7 @@
             "type":        "Class",
             "label":       "2.183 - Biomechanics and Neural Control of Movement",
             "id":          "2.183",
+            "course":      "2",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1886,11 +2062,9 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s2.183-1",
+            "label":              "L2.183-1",
             "lecture-section-of": "2.183",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 1-273"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 1-273"
         }
     ]
 }

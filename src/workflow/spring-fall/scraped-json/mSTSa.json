@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "STS.001 - Technology in American History",
             "id":          "STS.001",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -21,24 +22,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.001-1",
+            "label":              "LSTS.001-1",
             "lecture-section-of": "STS.001",
-            "timeAndPlace":       [
-                "MW 13:00-14:00 1-390"
-            ]
+            "timeAndPlace":       "MW 13:00-14:00 1-390"
         },
         {
             "type":           "RecitationSection",
-            "label":          "sSTS.001-2",
+            "label":          "RSTS.001-2",
             "rec-section-of": "STS.001",
-            "timeAndPlace":   [
-                "W 14:00-15:00 3-343"
-            ]
+            "timeAndPlace":   "W 14:00-15:00 3-343"
         },
         {
             "type":        "Class",
             "label":       "STS.002 - Toward the Scientific Revolution",
             "id":          "STS.002",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -56,25 +54,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.002-1",
+            "label":              "LSTS.002-1",
             "lecture-section-of": "STS.002",
-            "timeAndPlace":       [
-                "MW 10:00-11:00 2-105"
-            ]
+            "timeAndPlace":       "MW 10:00-11:00 2-105"
         },
         {
             "type":           "RecitationSection",
-            "label":          "sSTS.002-2",
+            "label":          "RSTS.002-2",
             "rec-section-of": "STS.002",
-            "timeAndPlace":   [
-                "W 11:00-12:00 56-162",
-                "F 10:00-11:00 56-162"
-            ]
+            "timeAndPlace":   "W 11:00-12:00 56-162"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "RSTS.002-3",
+            "rec-section-of": "STS.002",
+            "timeAndPlace":   "F 10:00-11:00 56-162"
         },
         {
             "type":        "Class",
             "label":       "STS.003 - The Rise of Modern Science",
             "id":          "STS.003",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -89,25 +89,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.003-1",
+            "label":              "LSTS.003-1",
             "lecture-section-of": "STS.003",
-            "timeAndPlace":       [
-                "TR 12:00-13:00 2-105"
-            ]
+            "timeAndPlace":       "TR 12:00-13:00 2-105"
         },
         {
             "type":           "RecitationSection",
-            "label":          "sSTS.003-2",
+            "label":          "RSTS.003-2",
             "rec-section-of": "STS.003",
-            "timeAndPlace":   [
-                "R 16:00-17:00 56-180",
-                "F 13:00-14:00 56-180"
-            ]
+            "timeAndPlace":   "R 16:00-17:00 56-180"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "RSTS.003-3",
+            "rec-section-of": "STS.003",
+            "timeAndPlace":   "F 13:00-14:00 56-180"
         },
         {
             "type":        "Class",
             "label":       "STS.005 - Disease and Society in America",
             "id":          "STS.005",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -127,6 +129,7 @@
             "type":        "Class",
             "label":       "STS.006J - Bioethics",
             "id":          "STS.006J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -148,26 +151,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.006J-1",
+            "label":              "LSTS.006J-1",
             "lecture-section-of": "STS.006J",
-            "timeAndPlace":       [
-                "TR 11:00-12:00 32-123"
-            ]
+            "timeAndPlace":       "TR 11:00-12:00 32-123"
         },
         {
             "type":           "RecitationSection",
-            "label":          "sSTS.006J-2",
+            "label":          "RSTS.006J-2",
             "rec-section-of": "STS.006J",
-            "timeAndPlace":   [
-                "F 11:00-12:00 56-154",
-                "F 12:00-13:00 56-154",
-                "F 13:00-14:00 56-154"
-            ]
+            "timeAndPlace":   "F 11:00-12:00 56-154"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "RSTS.006J-3",
+            "rec-section-of": "STS.006J",
+            "timeAndPlace":   "F 12:00-13:00 56-154"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "RSTS.006J-4",
+            "rec-section-of": "STS.006J",
+            "timeAndPlace":   "F 13:00-14:00 56-154"
         },
         {
             "type":        "Class",
             "label":       "STS.011 - American Science: Ethical Conflicts and Political Choices",
             "id":          "STS.011",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -184,6 +194,7 @@
             "type":        "Class",
             "label":       "STS.014J - Principles and Practice of Science Communication",
             "id":          "STS.014J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -201,6 +212,7 @@
             "type":        "Class",
             "label":       "STS.015 - Mapping Controversies: Preparing Scientists and Engineers for a More Complex World",
             "id":          "STS.015",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -215,16 +227,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.015-1",
+            "label":              "LSTS.015-1",
             "lecture-section-of": "STS.015",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 66-160"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 66-160"
         },
         {
             "type":        "Class",
             "label":       "STS.029J - The Civil War and Reconstruction",
             "id":          "STS.029J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -248,6 +259,7 @@
             "type":        "Class",
             "label":       "STS.036 - Technology and Nature in American History",
             "id":          "STS.036",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -265,16 +277,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.036-1",
+            "label":              "LSTS.036-1",
             "lecture-section-of": "STS.036",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 33-422"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 33-422"
         },
         {
             "type":        "Class",
             "label":       "STS.038 - Energy and Environment in American History",
             "id":          "STS.038",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -291,6 +302,7 @@
             "type":        "Class",
             "label":       "STS.042J - Einstein, Oppenheimer, Feynman: Physics in the 20th Century",
             "id":          "STS.042J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -308,6 +320,7 @@
             "type":        "Class",
             "label":       "STS.043 - Technology and Self: Science, Technology, and Memoir",
             "id":          "STS.043",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -325,6 +338,7 @@
             "type":        "Class",
             "label":       "STS.044 - Technology and Self: Things and Thinking",
             "id":          "STS.044",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -342,6 +356,7 @@
             "type":        "Class",
             "label":       "STS.045 - Technology and Experience",
             "id":          "STS.045",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -358,6 +373,7 @@
             "type":        "Class",
             "label":       "STS.046J - The Science of Race, Sex, and Gender",
             "id":          "STS.046J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -378,6 +394,7 @@
             "type":        "Class",
             "label":       "STS.048 - African Americans in Science, Technology, and Medicine",
             "id":          "STS.048",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -394,6 +411,7 @@
             "type":        "Class",
             "label":       "STS.051 - Introduction to Social Studies of Finance",
             "id":          "STS.051",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -410,6 +428,7 @@
             "type":        "Class",
             "label":       "STS.060J - The Anthropology of Biology",
             "id":          "STS.060J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -427,6 +446,7 @@
             "type":        "Class",
             "label":       "STS.062J - Drugs, Politics, and Culture",
             "id":          "STS.062J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -442,16 +462,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.062J-1",
+            "label":              "LSTS.062J-1",
             "lecture-section-of": "STS.062J",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 56-154"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 56-154"
         },
         {
             "type":        "Class",
             "label":       "STS.065J - The Anthropology of Sound",
             "id":          "STS.065J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -470,16 +489,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.065J-1",
+            "label":              "LSTS.065J-1",
             "lecture-section-of": "STS.065J",
-            "timeAndPlace":       [
-                "R 13:00-16:00 16-220"
-            ]
+            "timeAndPlace":       "R 13:00-16:00 16-220"
         },
         {
             "type":        "Class",
             "label":       "STS.068 - Neuroscience and Society",
             "id":          "STS.068",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -496,6 +514,7 @@
             "type":        "Class",
             "label":       "STS.072J - Nuclear Forces and Missile Defenses",
             "id":          "STS.072J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -520,6 +539,7 @@
             "type":        "Class",
             "label":       "STS.073 - Technology and Politics in the Acquisition of Military Systems",
             "id":          "STS.073",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -540,6 +560,7 @@
             "type":        "Class",
             "label":       "STS.075J - Technology and Culture",
             "id":          "STS.075J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -555,16 +576,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.075J-1",
+            "label":              "LSTS.075J-1",
             "lecture-section-of": "STS.075J",
-            "timeAndPlace":       [
-                "R 19:00-10:00 16-220"
-            ]
+            "timeAndPlace":       "R 19:00-22:00 16-220"
         },
         {
             "type":        "Class",
             "label":       "STS.076J - Technology and Policy of Weapons Systems",
             "id":          "STS.076J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -582,6 +602,7 @@
             "type":        "Class",
             "label":       "STS.082J - Science, Technology, and Public Policy",
             "id":          "STS.082J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -602,6 +623,7 @@
             "type":        "Class",
             "label":       "STS.085 - Ethics and the Law on the Electronic Frontier",
             "id":          "STS.085",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -625,6 +647,7 @@
             "type":        "Class",
             "label":       "STS.086J - The Anthropology of Computing",
             "id":          "STS.086J",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -645,6 +668,7 @@
             "type":        "Class",
             "label":       "STS.087 - Biography in Science",
             "id":          "STS.087",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -659,16 +683,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.087-1",
+            "label":              "LSTS.087-1",
             "lecture-section-of": "STS.087",
-            "timeAndPlace":       [
-                "T 19:00-10:00 16-236"
-            ]
+            "timeAndPlace":       "T 19:00-22:00 16-236"
         },
         {
             "type":        "Class",
             "label":       "STS.088 - Food, Culture and History",
             "id":          "STS.088",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -685,6 +708,7 @@
             "type":        "Class",
             "label":       "STS.091 - Capstone Seminar in STS Studies I",
             "id":          "STS.091",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -702,6 +726,7 @@
             "type":        "Class",
             "label":       "STS.092 - Capstone Seminar in STS Studies II",
             "id":          "STS.092",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -719,6 +744,7 @@
             "type":        "Class",
             "label":       "STS.UR - Undergraduate Research",
             "id":          "STS.UR",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -746,6 +772,7 @@
             "type":        "Class",
             "label":       "STS.095, STS.096 - Special Topics in Science, Technology, and Society",
             "id":          "STS.095, STS.096",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -770,6 +797,7 @@
             "type":        "Class",
             "label":       "STS.ThT - Undergraduate Thesis Tutorial",
             "id":          "STS.ThT",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "1-0-5",
             "total-units": 6,
@@ -792,6 +820,7 @@
             "type":        "Class",
             "label":       "STS.ThU - Undergraduate Thesis",
             "id":          "STS.ThU",
+            "course":      "STS",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -814,6 +843,7 @@
             "type":        "Class",
             "label":       "STS.210J - Theories and Methods in the Study of History",
             "id":          "STS.210J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -831,6 +861,7 @@
             "type":        "Class",
             "label":       "STS.250J - Social Theory and Analysis",
             "id":          "STS.250J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -848,6 +879,7 @@
             "type":        "Class",
             "label":       "STS.260 - Introduction to Science, Technology, and Society",
             "id":          "STS.260",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -867,6 +899,7 @@
             "type":        "Class",
             "label":       "STS.310 - History of Science",
             "id":          "STS.310",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -885,16 +918,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.310-1",
+            "label":              "LSTS.310-1",
             "lecture-section-of": "STS.310",
-            "timeAndPlace":       [
-                "T 15:00-18:00 E51-390"
-            ]
+            "timeAndPlace":       "T 15:00-18:00 E51-390"
         },
         {
             "type":        "Class",
             "label":       "STS.320J - Environmental Conflict and Social Change",
             "id":          "STS.320J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -913,6 +945,7 @@
             "type":        "Class",
             "label":       "STS.330 - History and Anthropology of Medicine and Biology",
             "id":          "STS.330",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -930,6 +963,7 @@
             "type":        "Class",
             "label":       "STS.340J - Introduction to the History of Technology",
             "id":          "STS.340J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -948,6 +982,7 @@
             "type":        "Class",
             "label":       "STS.350J - Social Study of Science and Technology",
             "id":          "STS.350J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -966,6 +1001,7 @@
             "type":        "Class",
             "label":       "STS.360J - Ethnography",
             "id":          "STS.360J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -985,16 +1021,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.360J-1",
+            "label":              "LSTS.360J-1",
             "lecture-section-of": "STS.360J",
-            "timeAndPlace":       [
-                "T 12:00-15:00 E51-390"
-            ]
+            "timeAndPlace":       "T 12:00-15:00 E51-390"
         },
         {
             "type":        "Class",
             "label":       "STS.380J - Methods for Graduate Research in the Social Sciences",
             "id":          "STS.380J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1016,6 +1051,7 @@
             "type":        "Class",
             "label":       "STS.390 - Research Seminar in Science, Technology, and Society",
             "id":          "STS.390",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1034,16 +1070,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.390-1",
+            "label":              "LSTS.390-1",
             "lecture-section-of": "STS.390",
-            "timeAndPlace":       [
-                "W 9:00-12:00 66-148"
-            ]
+            "timeAndPlace":       "W 9:00-12:00 66-148"
         },
         {
             "type":        "Class",
             "label":       "STS.401J - Qualitative Research Methods",
             "id":          "STS.401J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -1061,6 +1096,7 @@
             "type":        "Class",
             "label":       "STS.410J - Reading Seminar in American History, 1877 to the Present",
             "id":          "STS.410J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1083,6 +1119,7 @@
             "type":        "Class",
             "label":       "STS.415J - Nature, Environment, and Empire",
             "id":          "STS.415J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1106,16 +1143,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.415J-1",
+            "label":              "LSTS.415J-1",
             "lecture-section-of": "STS.415J",
-            "timeAndPlace":       [
-                "T 9:00-12:00 E51-061"
-            ]
+            "timeAndPlace":       "T 9:00-12:00 E51-061"
         },
         {
             "type":        "Class",
             "label":       "STS.421 - Technology and Politics in the Acquisition of Military Systems",
             "id":          "STS.421",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1136,6 +1172,7 @@
             "type":        "Class",
             "label":       "STS.423 - Technology in the Civil War Era",
             "id":          "STS.423",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1160,6 +1197,7 @@
             "type":        "Class",
             "label":       "STS.424 - Classics in the History of Technology",
             "id":          "STS.424",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1177,6 +1215,7 @@
             "type":        "Class",
             "label":       "STS.428 - Technology and Change in Rural America",
             "id":          "STS.428",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1198,6 +1237,7 @@
             "type":        "Class",
             "label":       "STS.429 - Food and Power in the Twentieth Century",
             "id":          "STS.429",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1219,6 +1259,7 @@
             "type":        "Class",
             "label":       "STS.435J - Nuclear Forces and Missile Defenses",
             "id":          "STS.435J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1244,6 +1285,7 @@
             "type":        "Class",
             "label":       "STS.436 - Cold War Science",
             "id":          "STS.436",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1260,6 +1302,7 @@
             "type":        "Class",
             "label":       "STS.443 - Technology and Self I",
             "id":          "STS.443",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -1290,6 +1333,7 @@
             "type":        "Class",
             "label":       "STS.445J - Technologies for Creative Learning",
             "id":          "STS.445J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -1308,6 +1352,7 @@
             "type":        "Class",
             "label":       "STS.447J - Relational Machines",
             "id":          "STS.447J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -1329,6 +1374,7 @@
             "type":        "Class",
             "label":       "STS.449J - Social Studies of Biosci and Biotech",
             "id":          "STS.449J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "2-0-1 [P/D/F]",
             "total-units": "Unknown",
@@ -1348,16 +1394,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.449J-1",
+            "label":              "LSTS.449J-1",
             "lecture-section-of": "STS.449J",
-            "timeAndPlace":       [
-                "R 16:00-18:00 Unknown"
-            ]
+            "timeAndPlace":       "R 16:00-18:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "STS.451J - Representing Reality: Theories and Production of Documentary Film and Video",
             "id":          "STS.451J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1378,6 +1423,7 @@
             "type":        "Class",
             "label":       "STS.458 - Public Understanding of Science: Critical Issues",
             "id":          "STS.458",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1393,16 +1439,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.458-1",
+            "label":              "LSTS.458-1",
             "lecture-section-of": "STS.458",
-            "timeAndPlace":       [
-                "R 10:00-13:00 E51-390"
-            ]
+            "timeAndPlace":       "R 10:00-13:00 E51-390"
         },
         {
             "type":        "Class",
             "label":       "STS.461J - Integrating Doctoral Seminar on Emerging Technologies",
             "id":          "STS.461J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -1422,16 +1467,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.461J-1",
+            "label":              "LSTS.461J-1",
             "lecture-section-of": "STS.461J",
-            "timeAndPlace":       [
-                "W 15:00-17:00 E51-393"
-            ]
+            "timeAndPlace":       "W 15:00-17:00 E51-393"
         },
         {
             "type":        "Class",
             "label":       "STS.462 - Social and Political Implications of Technology",
             "id":          "STS.462",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1446,16 +1490,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.462-1",
+            "label":              "LSTS.462-1",
             "lecture-section-of": "STS.462",
-            "timeAndPlace":       [
-                "R 13:00-16:00 E51-385"
-            ]
+            "timeAndPlace":       "R 13:00-16:00 E51-385"
         },
         {
             "type":        "Class",
             "label":       "STS.464 - Technology and the Literary Imagination",
             "id":          "STS.464",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1470,16 +1513,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.464-1",
+            "label":              "LSTS.464-1",
             "lecture-section-of": "STS.464",
-            "timeAndPlace":       [
-                "T 12:00-15:00 E51-061"
-            ]
+            "timeAndPlace":       "T 12:00-15:00 E51-061"
         },
         {
             "type":        "Class",
             "label":       "STS.465 - Research Seminar in the History of Science and Technology",
             "id":          "STS.465",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1510,6 +1552,7 @@
             "type":        "Class",
             "label":       "STS.468 - Neuroscience and Society",
             "id":          "STS.468",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1528,16 +1571,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSTS.468-1",
+            "label":              "LSTS.468-1",
             "lecture-section-of": "STS.468",
-            "timeAndPlace":       [
-                "W 13:00-16:00 E51-385"
-            ]
+            "timeAndPlace":       "W 13:00-16:00 E51-385"
         },
         {
             "type":        "Class",
             "label":       "STS.471J - Engineering Apollo: The Moon Project as a Complex System",
             "id":          "STS.471J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1562,6 +1604,7 @@
             "type":        "Class",
             "label":       "STS.477J - Writing: Science, Technology, and Society",
             "id":          "STS.477J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1584,6 +1627,7 @@
             "type":        "Class",
             "label":       "STS.482J - Science, Technology, and Public Policy",
             "id":          "STS.482J",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1605,6 +1649,7 @@
             "type":        "Class",
             "label":       "STS.486 - Bridging the Digital Divide: Information Technology and Development",
             "id":          "STS.486",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1621,6 +1666,7 @@
             "type":        "Class",
             "label":       "STS.487 - Ethics and the Law on the Electronic Frontier",
             "id":          "STS.487",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1645,6 +1691,7 @@
             "type":        "Class",
             "label":       "STS.488 - Technoscientific Imaginaries",
             "id":          "STS.488",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1662,6 +1709,7 @@
             "type":        "Class",
             "label":       "STS.901?910 - Advanced Topics in Science, Technology, and Society",
             "id":          "STS.901?910",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1685,6 +1733,7 @@
             "type":        "Class",
             "label":       "STS.ThG - Graduate Thesis",
             "id":          "STS.ThG",
+            "course":      "STS",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",

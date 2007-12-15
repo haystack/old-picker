@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "10.04J - A Philosophical History of Energy",
             "id":          "10.04J",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -21,16 +22,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.04J-1",
+            "label":              "L10.04J-1",
             "lecture-section-of": "10.04J",
-            "timeAndPlace":       [
-                "R 14:00-17:00 66-148"
-            ]
+            "timeAndPlace":       "R 14:00-17:00 66-148"
         },
         {
             "type":        "Class",
             "label":       "10.10 - Introduction to Chemical Engineering",
             "id":          "10.10",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -60,24 +60,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.10-1",
+            "label":              "L10.10-1",
             "lecture-section-of": "10.10",
-            "timeAndPlace":       [
-                "MWF 13:00-14:00 66-110"
-            ]
+            "timeAndPlace":       "MWF 13:00-14:00 66-110"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s10.10-2",
+            "label":          "R10.10-2",
             "rec-section-of": "10.10",
-            "timeAndPlace":   [
-                "T 11:00-12:00 66-110"
-            ]
+            "timeAndPlace":   "T 11:00-12:00 66-110"
         },
         {
             "type":        "Class",
             "label":       "10.213 - Chemical and Biological Engineering Thermodynamics",
             "id":          "10.213",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -99,25 +96,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.213-1",
+            "label":              "L10.213-1",
             "lecture-section-of": "10.213",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 66-110"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 66-110"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s10.213-2",
+            "label":          "R10.213-2",
             "rec-section-of": "10.213",
-            "timeAndPlace":   [
-                "W 11:00-12:00 56-154",
-                "W 12:00-13:00 56-154"
-            ]
+            "timeAndPlace":   "W 11:00-12:00 56-154"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R10.213-3",
+            "rec-section-of": "10.213",
+            "timeAndPlace":   "W 12:00-13:00 56-154"
         },
         {
             "type":        "Class",
             "label":       "10.22 - Molecular Engineering",
             "id":          "10.22",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -140,16 +139,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.22-1",
+            "label":              "L10.22-1",
             "lecture-section-of": "10.22",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 56-169"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 56-169"
         },
         {
             "type":        "Class",
             "label":       "10.25 - Industrial Chemistry and Chemical Process Pathways",
             "id":          "10.25",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -172,6 +170,7 @@
             "type":        "Class",
             "label":       "10.26 - Chemical Engineering Projects Laboratory",
             "id":          "10.26",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-8-4",
             "total-units": 15,
@@ -195,16 +194,15 @@
         },
         {
             "type":           "LabSection",
-            "label":          "s10.26-1",
+            "label":          "B10.26-1",
             "lab-section-of": "10.26",
-            "timeAndPlace":   [
-                "TR 13:00-17:00 4-270"
-            ]
+            "timeAndPlace":   "TR 13:00-17:00 4-270"
         },
         {
             "type":        "Class",
             "label":       "10.27 - Chemical Engineering Processes Laboratory",
             "id":          "10.27",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "2-8-5",
             "total-units": 15,
@@ -224,6 +222,7 @@
             "type":        "Class",
             "label":       "10.28 - Chemical-Biological Engineering Laboratory",
             "id":          "10.28",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "2-8-5",
             "total-units": 15,
@@ -246,6 +245,7 @@
             "type":        "Class",
             "label":       "10.28L - Chemical-Biological Engineering Laboratory",
             "id":          "10.28L",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "2-8-5",
             "total-units": 15,
@@ -271,6 +271,7 @@
             "type":        "Class",
             "label":       "10.29 - Biological Engineering Projects Laboratory",
             "id":          "10.29",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-8-4",
             "total-units": 15,
@@ -294,16 +295,15 @@
         },
         {
             "type":           "LabSection",
-            "label":          "s10.29-1",
+            "label":          "B10.29-1",
             "lab-section-of": "10.29",
-            "timeAndPlace":   [
-                "TR 13:00-17:00 4-270"
-            ]
+            "timeAndPlace":   "TR 13:00-17:00 4-270"
         },
         {
             "type":        "Class",
             "label":       "10.301 - Fluid Mechanics",
             "id":          "10.301",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -324,27 +324,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.301-1",
+            "label":              "L10.301-1",
             "lecture-section-of": "10.301",
-            "timeAndPlace":       [
-                "TR 12:00-13:00 66-110"
-            ]
+            "timeAndPlace":       "TR 12:00-13:00 66-110"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s10.301-2",
+            "label":          "R10.301-2",
             "rec-section-of": "10.301",
-            "timeAndPlace":   [
-                "M 11:00-12:00 56-180",
-                "M 12:00-13:00 56-180",
-                "M 11:00-12:00 56-162",
-                "M 12:00-13:00 56-162"
-            ]
+            "timeAndPlace":   "M 11:00-12:00 56-180"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R10.301-3",
+            "rec-section-of": "10.301",
+            "timeAndPlace":   "M 12:00-13:00 56-180"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R10.301-4",
+            "rec-section-of": "10.301",
+            "timeAndPlace":   "M 11:00-12:00 56-162"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R10.301-5",
+            "rec-section-of": "10.301",
+            "timeAndPlace":   "M 12:00-13:00 56-162"
         },
         {
             "type":        "Class",
             "label":       "10.302 - Transport Processes",
             "id":          "10.302",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -367,6 +379,7 @@
             "type":        "Class",
             "label":       "10.32 - Separation Processes",
             "id":          "10.32",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -383,16 +396,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.32-1",
+            "label":              "L10.32-1",
             "lecture-section-of": "10.32",
-            "timeAndPlace":       [
-                "TR 10:00-11:00 66-154"
-            ]
+            "timeAndPlace":       "TR 10:00-11:00 66-154"
         },
         {
             "type":        "Class",
             "label":       "10.333 - Introduction to Modeling and Simulation",
             "id":          "10.333",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -418,24 +430,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.333-1",
+            "label":              "L10.333-1",
             "lecture-section-of": "10.333",
-            "timeAndPlace":       [
-                "TR 15:00-16:30 4-231"
-            ]
+            "timeAndPlace":       "TR 15:00-16:30 4-231"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s10.333-2",
+            "label":          "R10.333-2",
             "rec-section-of": "10.333",
-            "timeAndPlace":   [
-                "M 16:00-17:00 4-231"
-            ]
+            "timeAndPlace":   "M 16:00-17:00 4-231"
         },
         {
             "type":        "Class",
             "label":       "10.34 - Numerical Methods Applied to Chemical Engineering",
             "id":          "10.34",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -451,6 +460,7 @@
             "type":        "Class",
             "label":       "10.37 - Chemical Kinetics and Reactor Design",
             "id":          "10.37",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -471,25 +481,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.37-1",
+            "label":              "L10.37-1",
             "lecture-section-of": "10.37",
-            "timeAndPlace":       [
-                "WF 11:00-12:00 32-141"
-            ]
+            "timeAndPlace":       "WF 11:00-12:00 32-141"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s10.37-2",
+            "label":          "R10.37-2",
             "rec-section-of": "10.37",
-            "timeAndPlace":   [
-                "M 11:00-12:00 56-154",
-                "M 12:00-13:00 56-154"
-            ]
+            "timeAndPlace":   "M 11:00-12:00 56-154"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R10.37-3",
+            "rec-section-of": "10.37",
+            "timeAndPlace":   "M 12:00-13:00 56-154"
         },
         {
             "type":        "Class",
             "label":       "10.390 - Process Design",
             "id":          "10.390",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -511,6 +523,7 @@
             "type":        "Class",
             "label":       "10.391J - Sustainable Energy",
             "id":          "10.391J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -535,16 +548,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.391J-1",
+            "label":              "L10.391J-1",
             "lecture-section-of": "10.391J",
-            "timeAndPlace":       [
-                "TR 15:00-17:00 56-114"
-            ]
+            "timeAndPlace":       "TR 15:00-17:00 56-114"
         },
         {
             "type":        "Class",
             "label":       "10.392J - Fundamentals of Advanced Energy Conversion",
             "id":          "10.392J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -569,16 +581,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.392J-1",
+            "label":              "L10.392J-1",
             "lecture-section-of": "10.392J",
-            "timeAndPlace":       [
-                "MW 13:00-15:00 3-370"
-            ]
+            "timeAndPlace":       "MW 13:00-15:00 3-370"
         },
         {
             "type":        "Class",
             "label":       "10.393 - Multiscale Analysis of Advanced Energy Processes",
             "id":          "10.393",
+            "course":      "10",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -598,6 +609,7 @@
             "type":        "Class",
             "label":       "10.40 - Chemical Engineering Thermodynamics",
             "id":          "10.40",
+            "course":      "10",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -621,6 +633,7 @@
             "type":        "Class",
             "label":       "10.42 - Special Topics in Advanced Thermodynamics",
             "id":          "10.42",
+            "course":      "10",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -637,6 +650,7 @@
             "type":        "Class",
             "label":       "10.420 - Molecular Aspects of Chemical Engineering",
             "id":          "10.420",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -656,6 +670,7 @@
             "type":        "Class",
             "label":       "10.43 - Introduction to Interfacial Phenomena",
             "id":          "10.43",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -672,6 +687,7 @@
             "type":        "Class",
             "label":       "10.44J - Statistical Thermodynamics of Complex Liquids",
             "id":          "10.44J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -697,16 +713,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.44J-1",
+            "label":              "L10.44J-1",
             "lecture-section-of": "10.44J",
-            "timeAndPlace":       [
-                "TR 10:00-11:30 66-156"
-            ]
+            "timeAndPlace":       "TR 10:00-11:30 66-156"
         },
         {
             "type":        "Class",
             "label":       "10.441J - Molecular and Engineering Aspects of Biotechnology",
             "id":          "10.441J",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -734,6 +749,7 @@
             "type":        "Class",
             "label":       "10.442 - Biochemical Engineering",
             "id":          "10.442",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -749,6 +765,7 @@
             "type":        "Class",
             "label":       "10.445 - Separation Processes for Biochemical Products",
             "id":          "10.445",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -764,6 +781,7 @@
             "type":        "Class",
             "label":       "10.450 - Process Dynamics, Operations, and Control",
             "id":          "10.450",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -782,6 +800,7 @@
             "type":        "Class",
             "label":       "10.467 - Polymer Science Laboratory",
             "id":          "10.467",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "2-7-6",
             "total-units": 15,
@@ -805,6 +824,7 @@
             "type":        "Class",
             "label":       "10.490 - Integrated Chemical Engineering I",
             "id":          "10.490",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-0-5",
             "total-units": 8,
@@ -829,7 +849,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.490-1",
+            "label":              "L10.490-1",
             "lecture-section-of": "10.490",
             "timeAndPlace":       [
                 "MTRF 10:00-11:00 66-168",
@@ -840,6 +860,7 @@
             "type":        "Class",
             "label":       "10.492 - Integrated Chemical Engineering Topics I",
             "id":          "10.492",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "2-0-2",
             "total-units": 4,
@@ -871,7 +892,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.492-1",
+            "label":              "L10.492-1",
             "lecture-section-of": "10.492",
             "timeAndPlace":       [
                 "MTRF 10:00-11:00 66-144",
@@ -882,6 +903,7 @@
             "type":        "Class",
             "label":       "10.499J - Tissue Engineering for Analysis, Prevention, and Treatment of Human Disease",
             "id":          "10.499J",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -909,6 +931,7 @@
             "type":        "Class",
             "label":       "10.50 - Analysis of Transport Phenomena",
             "id":          "10.50",
+            "course":      "10",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -931,6 +954,7 @@
             "type":        "Class",
             "label":       "10.52 - Mechanics of Fluids",
             "id":          "10.52",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -947,6 +971,7 @@
             "type":        "Class",
             "label":       "10.520 - Molecular Aspects of Chemical Engineering",
             "id":          "10.520",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -967,6 +992,7 @@
             "type":        "Class",
             "label":       "10.521 - Heterogeneous Catalysis and Catalytic Processes",
             "id":          "10.521",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -986,6 +1012,7 @@
             "type":        "Class",
             "label":       "10.531J - Macromolecular Hydrodynamics",
             "id":          "10.531J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1010,16 +1037,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.531J-1",
+            "label":              "L10.531J-1",
             "lecture-section-of": "10.531J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 66-168"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 66-168"
         },
         {
             "type":        "Class",
             "label":       "10.534 - Macrotransport Processes",
             "id":          "10.534",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1036,6 +1062,7 @@
             "type":        "Class",
             "label":       "10.535 - Interfacial Transport Processes and Rheology",
             "id":          "10.535",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1052,6 +1079,7 @@
             "type":        "Class",
             "label":       "10.536J - Thermal Hydraulics in Power Technology",
             "id":          "10.536J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1073,6 +1101,7 @@
             "type":        "Class",
             "label":       "10.537J - Molecular, Cellular, and Tissue Biomechanics",
             "id":          "10.537J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1102,16 +1131,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.537J-1",
+            "label":              "L10.537J-1",
             "lecture-section-of": "10.537J",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 32-141"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 32-141"
         },
         {
             "type":        "Class",
             "label":       "10.538J - Biomolecular Kinetics and Cellular Dynamics",
             "id":          "10.538J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1136,6 +1164,7 @@
             "type":        "Class",
             "label":       "10.539J - Fields, Forces, and Flows in Biological Systems",
             "id":          "10.539J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1163,6 +1192,7 @@
             "type":        "Class",
             "label":       "10.540 - Intracellular Dynamics",
             "id":          "10.540",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1184,16 +1214,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.540-1",
+            "label":              "L10.540-1",
             "lecture-section-of": "10.540",
-            "timeAndPlace":       [
-                "MWF 14:00-15:00 66-154"
-            ]
+            "timeAndPlace":       "MWF 14:00-15:00 66-154"
         },
         {
             "type":        "Class",
             "label":       "10.541 - Kinetics of Biological and Chemical Systems",
             "id":          "10.541",
+            "course":      "10",
             "level":       "Grad",
             "units":       "6-0-6",
             "total-units": 12,
@@ -1213,6 +1242,7 @@
             "type":        "Class",
             "label":       "10.542 - Biochemical Engineering",
             "id":          "10.542",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1229,6 +1259,7 @@
             "type":        "Class",
             "label":       "10.543J - The Protein Folding Problem",
             "id":          "10.543J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -1251,6 +1282,7 @@
             "type":        "Class",
             "label":       "10.544 - Metabolic and Cell Engineering",
             "id":          "10.544",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1272,6 +1304,7 @@
             "type":        "Class",
             "label":       "10.545 - Separation Processes for Biochemical Products",
             "id":          "10.545",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1288,6 +1321,7 @@
             "type":        "Class",
             "label":       "10.546J - Statistical Thermodynamics with Applications to Biological Systems",
             "id":          "10.546J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1311,6 +1345,7 @@
             "type":        "Class",
             "label":       "10.547J - Principles and Practice of Drug Development",
             "id":          "10.547J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1337,6 +1372,7 @@
             "type":        "Class",
             "label":       "10.548J - Tumor Pathophysiology and Transport Phenomena: A Systems Biology Approach",
             "id":          "10.548J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -1360,6 +1396,7 @@
             "type":        "Class",
             "label":       "10.55 - Colloid and Surfactant Science",
             "id":          "10.55",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1375,6 +1412,7 @@
             "type":        "Class",
             "label":       "10.551 - Systems Engineering",
             "id":          "10.551",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1393,16 +1431,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.551-1",
+            "label":              "L10.551-1",
             "lecture-section-of": "10.551",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 66-110"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 66-110"
         },
         {
             "type":        "Class",
             "label":       "10.555J - Bioinformatics: Principles, Methods and Applications",
             "id":          "10.555J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1422,6 +1459,7 @@
             "type":        "Class",
             "label":       "10.557 - Mixed-integer and Nonconvex Optimization",
             "id":          "10.557",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1439,16 +1477,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.557-1",
+            "label":              "L10.557-1",
             "lecture-section-of": "10.557",
-            "timeAndPlace":       [
-                "MWF 13:00-14:00 66-156"
-            ]
+            "timeAndPlace":       "MWF 13:00-14:00 66-156"
         },
         {
             "type":        "Class",
             "label":       "10.560 - Structure and Properties of Polymers",
             "id":          "10.560",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1463,16 +1500,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.560-1",
+            "label":              "L10.560-1",
             "lecture-section-of": "10.560",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 1-150"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 1-150"
         },
         {
             "type":        "Class",
             "label":       "10.568 - Physical Chemistry of Polymers",
             "id":          "10.568",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1493,6 +1529,7 @@
             "type":        "Class",
             "label":       "10.569 - Synthesis of Polymers",
             "id":          "10.569",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1507,16 +1544,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.569-1",
+            "label":              "L10.569-1",
             "lecture-section-of": "10.569",
-            "timeAndPlace":       [
-                "MWF 13:00-14:00 66-168"
-            ]
+            "timeAndPlace":       "MWF 13:00-14:00 66-168"
         },
         {
             "type":        "Class",
             "label":       "10.571J - Atmospheric Physics and Chemistry",
             "id":          "10.571J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1539,16 +1575,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.571J-1",
+            "label":              "L10.571J-1",
             "lecture-section-of": "10.571J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 56-191"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 56-191"
         },
         {
             "type":        "Class",
             "label":       "10.579 - Applications of Technology in Energy and the Environment",
             "id":          "10.579",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1575,6 +1610,7 @@
             "type":        "Class",
             "label":       "10.580 - Solid-State Surface Science",
             "id":          "10.580",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1591,6 +1627,7 @@
             "type":        "Class",
             "label":       "10.581J - Advanced Materials Processing",
             "id":          "10.581J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1615,6 +1652,7 @@
             "type":        "Class",
             "label":       "10.583 - Particles and Particulate Processing",
             "id":          "10.583",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1635,6 +1673,7 @@
             "type":        "Class",
             "label":       "10.584J - Materials and Processes for Microelectromechanical Devices and Systems",
             "id":          "10.584J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1662,24 +1701,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.584J-1",
+            "label":              "L10.584J-1",
             "lecture-section-of": "10.584J",
-            "timeAndPlace":       [
-                "MW 8:00-9:30 9-057"
-            ]
+            "timeAndPlace":       "MW 8:00-9:30 9-057"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s10.584J-2",
+            "label":          "R10.584J-2",
             "rec-section-of": "10.584J",
-            "timeAndPlace":   [
-                "F 9:00-11:00 66-156"
-            ]
+            "timeAndPlace":   "F 9:00-11:00 66-156"
         },
         {
             "type":        "Class",
             "label":       "10.631 - Structural Theories of Polymer Fluid Mechanics",
             "id":          "10.631",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1696,6 +1732,7 @@
             "type":        "Class",
             "label":       "10.65 - Chemical Reactor Engineering",
             "id":          "10.65",
+            "course":      "10",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1713,16 +1750,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.65-1",
+            "label":              "L10.65-1",
             "lecture-section-of": "10.65",
-            "timeAndPlace":       [
-                "MW 9:00-11:00 66-110"
-            ]
+            "timeAndPlace":       "MW 9:00-11:00 66-110"
         },
         {
             "type":        "Class",
             "label":       "10.652J - Kinetics of Chemical Reactions",
             "id":          "10.652J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1742,16 +1778,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.652J-1",
+            "label":              "L10.652J-1",
             "lecture-section-of": "10.652J",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 8-119"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 8-119"
         },
         {
             "type":        "Class",
             "label":       "10.668J - Statistical Mechanics of Polymers",
             "id":          "10.668J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1774,6 +1809,7 @@
             "type":        "Class",
             "label":       "10.675J - Computational Quantum Mechanics of Molecular and Extended Systems",
             "id":          "10.675J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1790,6 +1826,7 @@
             "type":        "Class",
             "label":       "10.702 - Introduction to Experimental Biology and Communication",
             "id":          "10.702",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "4-8-6",
             "total-units": 18,
@@ -1813,39 +1850,69 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.702-1",
+            "label":              "L10.702-1",
             "lecture-section-of": "10.702",
-            "timeAndPlace":       [
-                "TR 11:00-12:00 54-100"
-            ]
+            "timeAndPlace":       "TR 11:00-12:00 54-100"
         },
         {
             "type":           "LabSection",
-            "label":          "s10.702-2",
+            "label":          "B10.702-2",
             "lab-section-of": "10.702",
-            "timeAndPlace":   [
-                "TR 13:00-17:00 68-074",
-                "WF 13:00-17:00 68-074"
-            ]
+            "timeAndPlace":   "TR 13:00-17:00 68-074"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B10.702-3",
+            "lab-section-of": "10.702",
+            "timeAndPlace":   "WF 13:00-17:00 68-074"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s10.702-3",
+            "label":          "R10.702-4",
             "rec-section-of": "10.702",
-            "timeAndPlace":   [
-                "M 9:00-11:00 4-265",
-                "M 13:00-15:00 13-1143",
-                "T 9:00-11:00 4-265",
-                "T 13:00-15:00 56-162",
-                "W 9:00-11:00 4-265",
-                "W 13:00-15:00 13-1143",
-                "R 9:00-11:00 4-265"
-            ]
+            "timeAndPlace":   "M 9:00-11:00 4-265"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R10.702-5",
+            "rec-section-of": "10.702",
+            "timeAndPlace":   "M 13:00-15:00 13-1143"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R10.702-6",
+            "rec-section-of": "10.702",
+            "timeAndPlace":   "T 9:00-11:00 4-265"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R10.702-7",
+            "rec-section-of": "10.702",
+            "timeAndPlace":   "T 13:00-15:00 56-162"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R10.702-8",
+            "rec-section-of": "10.702",
+            "timeAndPlace":   "W 9:00-11:00 4-265"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R10.702-9",
+            "rec-section-of": "10.702",
+            "timeAndPlace":   "W 13:00-15:00 13-1143"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R10.702-10",
+            "rec-section-of": "10.702",
+            "timeAndPlace":   "R 9:00-11:00 4-265"
         },
         {
             "type":        "Class",
             "label":       "10.74J - Radiative Transfer",
             "id":          "10.74J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1866,6 +1933,7 @@
             "type":        "Class",
             "label":       "10.792J - Proseminar in Manufacturing",
             "id":          "10.792J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1890,16 +1958,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.792J-1",
+            "label":              "L10.792J-1",
             "lecture-section-of": "10.792J",
-            "timeAndPlace":       [
-                "TR 16:00-18:00 E51-325"
-            ]
+            "timeAndPlace":       "TR 16:00-18:00 E51-325"
         },
         {
             "type":        "Class",
             "label":       "10.805J - Technology, Law, and the Working Environment",
             "id":          "10.805J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1917,16 +1984,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.805J-1",
+            "label":              "L10.805J-1",
             "lecture-section-of": "10.805J",
-            "timeAndPlace":       [
-                "W 19:00-10:00 E51-372"
-            ]
+            "timeAndPlace":       "W 19:00-22:00 E51-372"
         },
         {
             "type":        "Class",
             "label":       "10.806 - Management in Engineering",
             "id":          "10.806",
+            "course":      "10",
             "level":       "Undergrad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -1951,6 +2017,7 @@
             "type":        "Class",
             "label":       "10.807J - Innovation Teams",
             "id":          "10.807J",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-2-4",
             "total-units": 9,
@@ -1971,16 +2038,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.807J-1",
+            "label":              "L10.807J-1",
             "lecture-section-of": "10.807J",
-            "timeAndPlace":       [
-                "TR 16:00-18:30 32-144"
-            ]
+            "timeAndPlace":       "TR 16:00-18:30 32-144"
         },
         {
             "type":        "Class",
             "label":       "10.816 - Engineering Risk-Benefit Analysis",
             "id":          "10.816",
+            "course":      "10",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2005,24 +2071,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s10.816-1",
+            "label":              "L10.816-1",
             "lecture-section-of": "10.816",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 1-390"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 1-390"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s10.816-2",
+            "label":          "R10.816-2",
             "rec-section-of": "10.816",
-            "timeAndPlace":   [
-                "T 14:00-15:00 9-338"
-            ]
+            "timeAndPlace":   "T 14:00-15:00 9-338"
         },
         {
             "type":        "Class",
             "label":       "10.80 (10.82, 10.84, 10.86) - School of Chemical Engineering Practice -- Technical Accomplishment",
             "id":          "10.80 (10.82, 10.84, 10.86)",
+            "course":      "10",
             "level":       "Grad",
             "units":       "0-6-0",
             "total-units": 6,
@@ -2044,6 +2107,7 @@
             "type":        "Class",
             "label":       "10.81 (10.83, 10.85, 10.87) - School of Chemical Engineering Practice -- Communication Skills and Human Relations",
             "id":          "10.81 (10.83, 10.85, 10.87)",
+            "course":      "10",
             "level":       "Grad",
             "units":       "0-6-0",
             "total-units": 6,

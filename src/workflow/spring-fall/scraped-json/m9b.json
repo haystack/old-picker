@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "9.50 - Research in Brain and Cognitive Sciences",
             "id":          "9.50",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "2-8-2",
             "total-units": 12,
@@ -26,6 +27,7 @@
             "type":        "Class",
             "label":       "9.51?9.52 - Topics in Brain and Cognitive Sciences",
             "id":          "9.51?9.52",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -47,6 +49,7 @@
             "type":        "Class",
             "label":       "9.520 - Statistical Learning Theory and Applications",
             "id":          "9.520",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -69,16 +72,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.520-1",
+            "label":              "L9.520-1",
             "lecture-section-of": "9.520",
-            "timeAndPlace":       [
-                "MW 10:30-12:00 46-5193"
-            ]
+            "timeAndPlace":       "MW 10:30-12:00 46-5193"
         },
         {
             "type":        "Class",
             "label":       "9.531J - Systems Biology",
             "id":          "9.531J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -97,6 +99,7 @@
             "type":        "Class",
             "label":       "9.56J - Abnormal Language",
             "id":          "9.56J",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -115,6 +118,7 @@
             "type":        "Class",
             "label":       "9.57J - Language Acquisition",
             "id":          "9.57J",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -137,6 +141,7 @@
             "type":        "Class",
             "label":       "9.587J - The Lexicon and Its Features",
             "id":          "9.587J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -163,6 +168,7 @@
             "type":        "Class",
             "label":       "9.59J - Psycholinguistics",
             "id":          "9.59J",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -180,16 +186,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.59J-1",
+            "label":              "L9.59J-1",
             "lecture-section-of": "9.59J",
-            "timeAndPlace":       [
-                "MW 11:30-13:00 46-3015"
-            ]
+            "timeAndPlace":       "MW 11:30-13:00 46-3015"
         },
         {
             "type":        "Class",
             "label":       "9.591J - Language Processing",
             "id":          "9.591J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -206,6 +211,7 @@
             "type":        "Class",
             "label":       "9.601J - Language Acquisition I",
             "id":          "9.601J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -220,16 +226,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.601J-1",
+            "label":              "L9.601J-1",
             "lecture-section-of": "9.601J",
-            "timeAndPlace":       [
-                "T 14:00-17:00 46-5056"
-            ]
+            "timeAndPlace":       "T 14:00-17:00 46-5056"
         },
         {
             "type":        "Class",
             "label":       "9.61 - Laboratory in Higher Level Cognition",
             "id":          "9.61",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -250,25 +255,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.61-1",
+            "label":              "L9.61-1",
             "lecture-section-of": "9.61",
-            "timeAndPlace":       [
-                "MW 10:00-11:30 46-1015"
-            ]
+            "timeAndPlace":       "MW 10:00-11:30 46-1015"
         },
         {
             "type":           "LabSection",
-            "label":          "s9.61-2",
+            "label":          "B9.61-2",
             "lab-section-of": "9.61",
-            "timeAndPlace":   [
-                "M 11:30-14:30 46-1015",
-                "W 19:00-10:00 46-1015"
-            ]
+            "timeAndPlace":   "M 11:30-14:30 46-1015"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B9.61-3",
+            "lab-section-of": "9.61",
+            "timeAndPlace":   "W 19:00-22:00 46-1015"
         },
         {
             "type":        "Class",
             "label":       "9.611J - Natural Language and the Computer Representation of Knowledge",
             "id":          "9.611J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -286,16 +293,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.611J-1",
+            "label":              "L9.611J-1",
             "lecture-section-of": "9.611J",
-            "timeAndPlace":       [
-                "MW 15:00-16:30 32-144"
-            ]
+            "timeAndPlace":       "MW 15:00-16:30 32-144"
         },
         {
             "type":        "Class",
             "label":       "9.63 - Laboratory in Visual Cognition",
             "id":          "9.63",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -311,6 +317,7 @@
             "type":        "Class",
             "label":       "9.641J - Introduction to Neural Networks",
             "id":          "9.641J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -330,6 +337,7 @@
             "type":        "Class",
             "label":       "9.65 - Cognitive Processes",
             "id":          "9.65",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -343,16 +351,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.65-1",
+            "label":              "L9.65-1",
             "lecture-section-of": "9.65",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 46-3002"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 46-3002"
         },
         {
             "type":        "Class",
             "label":       "9.66J - Computational Cognitive Science",
             "id":          "9.66J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -380,6 +387,7 @@
             "type":        "Class",
             "label":       "9.675 - The Development of Object and Face Recognition",
             "id":          "9.675",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -396,6 +404,7 @@
             "type":        "Class",
             "label":       "9.68 - Affect: Biological, Psychological, and Social Aspects of \"Feelings\"",
             "id":          "9.68",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -410,16 +419,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.68-1",
+            "label":              "L9.68-1",
             "lecture-section-of": "9.68",
-            "timeAndPlace":       [
-                "T 19:00-9:00 46-3015"
-            ]
+            "timeAndPlace":       "T 19:00-21:00 46-3015"
         },
         {
             "type":        "Class",
             "label":       "9.70 - Social Psychology",
             "id":          "9.70",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -433,16 +441,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.70-1",
+            "label":              "L9.70-1",
             "lecture-section-of": "9.70",
-            "timeAndPlace":       [
-                "R 13:00-16:00 46-3015"
-            ]
+            "timeAndPlace":       "R 13:00-16:00 46-3015"
         },
         {
             "type":        "Class",
             "label":       "9.71 - Functional MRI of High-Level Vision",
             "id":          "9.71",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -464,6 +471,7 @@
             "type":        "Class",
             "label":       "9.720 - The Neural Basis of Visual Object Recognition in Monkeys and Humans",
             "id":          "9.720",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -479,16 +487,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.720-1",
+            "label":              "L9.720-1",
             "lecture-section-of": "9.720",
-            "timeAndPlace":       [
-                "T 17:00-8:00 46-4062"
-            ]
+            "timeAndPlace":       "T 17:00-20:00 46-4062"
         },
         {
             "type":        "Class",
             "label":       "9.75J - Psychology of Gender and Race",
             "id":          "9.75J",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -506,16 +513,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.75J-1",
+            "label":              "L9.75J-1",
             "lecture-section-of": "9.75J",
-            "timeAndPlace":       [
-                "R 19:00-10:00 14E-310"
-            ]
+            "timeAndPlace":       "R 19:00-22:00 14E-310"
         },
         {
             "type":        "Class",
             "label":       "9.85 - Infant and Early Childhood Cognition",
             "id":          "9.85",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -532,6 +538,7 @@
             "type":        "Class",
             "label":       "9.91 - Topics in Brain and Cognitive Sciences",
             "id":          "9.91",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -553,16 +560,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.91-1",
+            "label":              "L9.91-1",
             "lecture-section-of": "9.91",
-            "timeAndPlace":       [
-                "MF 13:00-14:30 46-5056"
-            ]
+            "timeAndPlace":       "MF 13:00-14:30 46-5056"
         },
         {
             "type":        "Class",
             "label":       "9.911-9.917 - Special Topics in Brain and Cognitive Sciences",
             "id":          "9.911-9.917",
+            "course":      "9",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -583,24 +589,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.911-9.917-1",
+            "label":              "L9.911-9.917-1",
             "lecture-section-of": "9.911-9.917",
-            "timeAndPlace":       [
-                "MF 13:00-14:30 46-5056"
-            ]
+            "timeAndPlace":       "MF 13:00-14:30 46-5056"
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.911-9.917-2",
+            "label":              "L9.911-9.917-2",
             "lecture-section-of": "9.911-9.917",
-            "timeAndPlace":       [
-                "M 18:00-8:00 46-4062"
-            ]
+            "timeAndPlace":       "M 18:00-20:00 46-4062"
         },
         {
             "type":        "Class",
             "label":       "9.919 - Teaching Brain and Cognitive Sciences",
             "id":          "9.919",
+            "course":      "9",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -621,6 +624,7 @@
             "type":        "Class",
             "label":       "9.92 - Topics in Brain and Cognitive Sciences",
             "id":          "9.92",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -641,6 +645,7 @@
             "type":        "Class",
             "label":       "9.921 - Research in Brain and Cognitive Sciences",
             "id":          "9.921",
+            "course":      "9",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -663,6 +668,7 @@
             "type":        "Class",
             "label":       "9.931 - Research Reports",
             "id":          "9.931",
+            "course":      "9",
             "level":       "Grad",
             "units":       "0-0-6 [P/D/F]",
             "total-units": "Unknown",
@@ -685,6 +691,7 @@
             "type":        "Class",
             "label":       "9.941 - Graduate Thesis Proposals",
             "id":          "9.941",
+            "course":      "9",
             "level":       "Grad",
             "units":       "0-0-6 [P/D/F]",
             "total-units": "Unknown",
@@ -708,6 +715,7 @@
             "type":        "Class",
             "label":       "9.93 - 9.99 - Independent Activities",
             "id":          "9.93 - 9.99",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -724,6 +732,7 @@
             "type":        "Class",
             "label":       "9.ThG - Graduate Thesis",
             "id":          "9.ThG",
+            "course":      "9",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -746,6 +755,7 @@
             "type":        "Class",
             "label":       "9.UR - Undergraduate Research",
             "id":          "9.UR",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",

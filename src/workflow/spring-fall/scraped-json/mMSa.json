@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "MS.101 - Leadership and Personal Development",
             "id":          "MS.101",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "1-4-1",
             "total-units": 6,
@@ -20,6 +21,7 @@
             "type":        "Class",
             "label":       "MS.102 - Introduction to Tactical Leadership",
             "id":          "MS.102",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "1-4-1",
             "total-units": 6,
@@ -35,16 +37,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "sMS.102-1",
+            "label":          "RMS.102-1",
             "rec-section-of": "MS.102",
-            "timeAndPlace":   [
-                "W 19:00-20:00 W59-073"
-            ]
+            "timeAndPlace":   "W 19:00-20:00 W59-073"
         },
         {
             "type":        "Class",
             "label":       "MS.201 - Innovative Team Leadership",
             "id":          "MS.201",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "1-4-1",
             "total-units": 6,
@@ -62,6 +63,7 @@
             "type":        "Class",
             "label":       "MS.202 - Foundations of Tactical Leadership",
             "id":          "MS.202",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "1-4-1",
             "total-units": 6,
@@ -77,16 +79,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "sMS.202-1",
+            "label":          "RMS.202-1",
             "rec-section-of": "MS.202",
-            "timeAndPlace":   [
-                "W 19:00-20:00 W59-164"
-            ]
+            "timeAndPlace":   "W 19:00-20:00 W59-164"
         },
         {
             "type":        "Class",
             "label":       "MS.301 - Adaptive Team Leadership",
             "id":          "MS.301",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "2-3-1",
             "total-units": 6,
@@ -107,6 +108,7 @@
             "type":        "Class",
             "label":       "MS.302 - Leadership in Changing Environments",
             "id":          "MS.302",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "2-3-1",
             "total-units": 6,
@@ -125,16 +127,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "sMS.302-1",
+            "label":          "RMS.302-1",
             "rec-section-of": "MS.302",
-            "timeAndPlace":   [
-                "MW 19:00-20:00 W59-147"
-            ]
+            "timeAndPlace":   "MW 19:00-20:00 W59-147"
         },
         {
             "type":        "Class",
             "label":       "MS.311 - Leadership Laboratory I",
             "id":          "MS.311",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "0-2-1",
             "total-units": 3,
@@ -155,6 +156,7 @@
             "type":        "Class",
             "label":       "MS.312 - Leadership Laboratory II",
             "id":          "MS.312",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "0-2-1",
             "total-units": 3,
@@ -173,16 +175,15 @@
         },
         {
             "type":           "LabSection",
-            "label":          "sMS.312-1",
+            "label":          "BMS.312-1",
             "lab-section-of": "MS.312",
-            "timeAndPlace":   [
-                "MW 19:00-20:00 W59-147"
-            ]
+            "timeAndPlace":   "MW 19:00-20:00 W59-147"
         },
         {
             "type":        "Class",
             "label":       "MS.401 - Developing Adaptive Leaders",
             "id":          "MS.401",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "1-3-5",
             "total-units": 9,
@@ -200,6 +201,7 @@
             "type":        "Class",
             "label":       "MS.402 - Leadership in a Complex World",
             "id":          "MS.402",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "1-3-5",
             "total-units": 9,
@@ -215,7 +217,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sMS.402-1",
+            "label":              "LMS.402-1",
             "lecture-section-of": "MS.402",
             "timeAndPlace":       [
                 "W 19:00-20:00 W59-159",
@@ -226,6 +228,7 @@
             "type":        "Class",
             "label":       "MS.411 - Advanced Leadership Laboratory I",
             "id":          "MS.411",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "0-2-4",
             "total-units": 6,
@@ -243,6 +246,7 @@
             "type":        "Class",
             "label":       "MS.412 - Advanced Leadership Laboratory  II",
             "id":          "MS.412",
+            "course":      "MS",
             "level":       "Undergrad",
             "units":       "0-2-4",
             "total-units": 6,
@@ -258,11 +262,9 @@
         },
         {
             "type":           "LabSection",
-            "label":          "sMS.412-1",
+            "label":          "BMS.412-1",
             "lab-section-of": "MS.412",
-            "timeAndPlace":   [
-                "MF 19:00-20:00 W59-159"
-            ]
+            "timeAndPlace":   "MF 19:00-20:00 W59-159"
         }
     ]
 }

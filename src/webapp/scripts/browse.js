@@ -37,11 +37,7 @@ function onLoad() {
                         urls.push("data/hass-d-lectures.js");
                         urls.push("data/hass-d-sections.js");
                     } else {
-                        urls.push("data/course-" + courseID + "-classes.js");
-                        urls.push("data/course-" + courseID + "-lectures.js");
-                        urls.push("data/course-" + courseID + "-sections.js");
-                        urls.push("data/course-" + courseID + "-finals.js");
-                        
+                        urls.push("data/spring-fall/" + courseID + ".json");
                         if (courseID == "6") {
                             hasTQE = true;
                         }
@@ -103,9 +99,7 @@ function loadMoreClass(button) {
                 alert("Oops! We actually don't have the data for this course.");
                 return;
             }
-            urls.push("data/course-" + course + "-classes.js");
-            urls.push("data/course-" + course + "-lectures.js");
-            urls.push("data/course-" + course + "-sections.js");
+            urls.push("data/spring-fall/" + course + ".json");
             course2.loaded = true;
             break;
         }
@@ -153,9 +147,7 @@ function onAddMoreSelectChange() {
     var course = select.value;
     if (course.length > 0) {
         var urls = [];
-        urls.push("data/course-" + course + "-classes.js");
-        urls.push("data/course-" + course + "-lectures.js");
-        urls.push("data/course-" + course + "-sections.js");
+        urls.push("data/spring-fall/" + course + ".json");
         markLoaded(course);
         
         SimileAjax.WindowManager.cancelPopups();

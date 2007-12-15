@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "15.301 - Managerial Psychology Laboratory",
             "id":          "15.301",
+            "course":      "15",
             "level":       "Undergrad",
             "units":       "3-3-9",
             "total-units": 15,
@@ -24,27 +25,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.301-1",
+            "label":              "L15.301-1",
             "lecture-section-of": "15.301",
-            "timeAndPlace":       [
-                "TR 11:00-12:00 E25-111"
-            ]
+            "timeAndPlace":       "TR 11:00-12:00 E25-111"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s15.301-2",
+            "label":          "R15.301-2",
             "rec-section-of": "15.301",
-            "timeAndPlace":   [
-                "F 9:00-10:00 E51-395",
-                "F 10:00-11:00 E25-111",
-                "F 11:00-12:00 E25-111",
-                "F 12:00-13:00 E51-395"
-            ]
+            "timeAndPlace":   "F 9:00-10:00 E51-395"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R15.301-3",
+            "rec-section-of": "15.301",
+            "timeAndPlace":   "F 10:00-11:00 E25-111"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R15.301-4",
+            "rec-section-of": "15.301",
+            "timeAndPlace":   "F 11:00-12:00 E25-111"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R15.301-5",
+            "rec-section-of": "15.301",
+            "timeAndPlace":   "F 12:00-13:00 E51-395"
         },
         {
             "type":        "Class",
             "label":       "15.305 - Leadership and Management",
             "id":          "15.305",
+            "course":      "15",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -63,6 +76,7 @@
             "type":        "Class",
             "label":       "15.309 - Organizational Processes",
             "id":          "15.309",
+            "course":      "15",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -84,6 +98,7 @@
             "type":        "Class",
             "label":       "15.310 - Managerial Psychology",
             "id":          "15.310",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-1-6",
             "total-units": 9,
@@ -102,6 +117,7 @@
             "type":        "Class",
             "label":       "15.311 - Organizational Processes",
             "id":          "15.311",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -122,6 +138,7 @@
             "type":        "Class",
             "label":       "15.315 - Planning and Managing Change",
             "id":          "15.315",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -141,6 +158,7 @@
             "type":        "Class",
             "label":       "15.316 - Building and Leading Effective Teams",
             "id":          "15.316",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-1-0 [P/D/F]",
             "total-units": "Unknown",
@@ -155,6 +173,7 @@
             "type":        "Class",
             "label":       "15.317 - Organizational Leadership and Change",
             "id":          "15.317",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -179,16 +198,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.317-1",
+            "label":              "L15.317-1",
             "lecture-section-of": "15.317",
-            "timeAndPlace":       [
-                "F 8:30-11:30 E51-325"
-            ]
+            "timeAndPlace":       "F 8:30-11:30 E51-325"
         },
         {
             "type":        "Class",
             "label":       "15.318 - Leadership and Change in Organizations",
             "id":          "15.318",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -212,16 +230,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.318-1",
+            "label":              "L15.318-1",
             "lecture-section-of": "15.318",
-            "timeAndPlace":       [
-                "F 13:00-16:00 E51-325"
-            ]
+            "timeAndPlace":       "F 13:00-16:00 E51-325"
         },
         {
             "type":        "Class",
             "label":       "15.320 - Strategic Organizational Design",
             "id":          "15.320",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -235,16 +252,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.320-1",
+            "label":              "L15.320-1",
             "lecture-section-of": "15.320",
-            "timeAndPlace":       [
-                "MW 16:00-17:30 E51-395"
-            ]
+            "timeAndPlace":       "MW 16:00-17:30 E51-395"
         },
         {
             "type":        "Class",
             "label":       "15.322 - Leading Organizations",
             "id":          "15.322",
+            "course":      "15",
             "level":       "Grad",
             "units":       "4-0-5 [P/D/F]",
             "total-units": "Unknown",
@@ -263,6 +279,7 @@
             "type":        "Class",
             "label":       "15.325 - Seminar in Leadership I",
             "id":          "15.325",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-1 [P/D/F]",
             "total-units": "Unknown",
@@ -277,6 +294,7 @@
             "type":        "Class",
             "label":       "15.326 - Seminar in Leadership II",
             "id":          "15.326",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-1 [P/D/F]",
             "total-units": "Unknown",
@@ -291,16 +309,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.326-1",
+            "label":              "L15.326-1",
             "lecture-section-of": "15.326",
-            "timeAndPlace":       [
-                "MW 17:30-19:30 E51-325"
-            ]
+            "timeAndPlace":       "MW 17:30-19:30 E51-325"
         },
         {
             "type":        "Class",
             "label":       "15.328 - Special Seminar in Organization Studies",
             "id":          "15.328",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -328,6 +345,7 @@
             "type":        "Class",
             "label":       "15.341 - Individuals, Groups, and Organizations",
             "id":          "15.341",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -347,6 +365,7 @@
             "type":        "Class",
             "label":       "15.342J - Organizations and Environments",
             "id":          "15.342J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -364,6 +383,7 @@
             "type":        "Class",
             "label":       "15.345 - Doctoral Seminar in Behavioral and Policy Sciences",
             "id":          "15.345",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4 [P/D/F]",
             "total-units": "Unknown",
@@ -383,6 +403,7 @@
             "type":        "Class",
             "label":       "15.347 - Doctoral Seminar in Research Methods I",
             "id":          "15.347",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -399,6 +420,7 @@
             "type":        "Class",
             "label":       "15.348 - Doctoral Seminar in Research Methods II",
             "id":          "15.348",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -414,16 +436,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.348-1",
+            "label":              "L15.348-1",
             "lecture-section-of": "15.348",
-            "timeAndPlace":       [
-                "W 9:00-12:00 E52-460"
-            ]
+            "timeAndPlace":       "W 9:00-12:00 E52-460"
         },
         {
             "type":        "Class",
             "label":       "15.349J - Qualitative Research Methods",
             "id":          "15.349J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -443,6 +464,7 @@
             "type":        "Class",
             "label":       "15.350 - Managing Technological Innovation and Entrepreneurship",
             "id":          "15.350",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -463,6 +485,7 @@
             "type":        "Class",
             "label":       "15.351 - Managing Innovation and Entrepreneurship",
             "id":          "15.351",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -479,7 +502,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.351-1",
+            "label":              "L15.351-1",
             "lecture-section-of": "15.351",
             "timeAndPlace":       [
                 "MW 13:00-14:30 E51-376",
@@ -490,6 +513,7 @@
             "type":        "Class",
             "label":       "15.352 - Innovation in the Internet Age: Emerging Trends",
             "id":          "15.352",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -503,16 +527,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.352-1",
+            "label":              "L15.352-1",
             "lecture-section-of": "15.352",
-            "timeAndPlace":       [
-                "MW 16:00-17:30 E51-345"
-            ]
+            "timeAndPlace":       "MW 16:00-17:30 E51-345"
         },
         {
             "type":        "Class",
             "label":       "15.353 - Research Themes in Management of Technology",
             "id":          "15.353",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -529,6 +552,7 @@
             "type":        "Class",
             "label":       "15.354 - Innovation and Entrepreneurship: How to Do It",
             "id":          "15.354",
+            "course":      "15",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -542,16 +566,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.354-1",
+            "label":              "L15.354-1",
             "lecture-section-of": "15.354",
-            "timeAndPlace":       [
-                "TR 10:00-11:30 E51-325"
-            ]
+            "timeAndPlace":       "TR 10:00-11:30 E51-325"
         },
         {
             "type":        "Class",
             "label":       "15.356 - How to Develop Breakthrough Products and Services",
             "id":          "15.356",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -565,16 +588,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.356-1",
+            "label":              "L15.356-1",
             "lecture-section-of": "15.356",
-            "timeAndPlace":       [
-                "MW 8:30-10:00 E51-149"
-            ]
+            "timeAndPlace":       "MW 8:30-10:00 E51-149"
         },
         {
             "type":        "Class",
             "label":       "15.358 - The Software Business",
             "id":          "15.358",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -590,6 +612,7 @@
             "type":        "Class",
             "label":       "15.360 - Introduction to Technological Entrepreneurship",
             "id":          "15.360",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-1",
             "total-units": 3,
@@ -606,6 +629,7 @@
             "type":        "Class",
             "label":       "15.362 - Entrepreneurship Study Tour of Silicon Valley",
             "id":          "15.362",
+            "course":      "15",
             "level":       "Grad",
             "units":       "1-0-0 [P/D/F]",
             "total-units": "Unknown",
@@ -626,6 +650,7 @@
             "type":        "Class",
             "label":       "15.363J - Strategic Decision Making in the Biomedical Business",
             "id":          "15.363J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -640,16 +665,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.363J-1",
+            "label":              "L15.363J-1",
             "lecture-section-of": "15.363J",
-            "timeAndPlace":       [
-                "T 17:30-8:30 E51-315"
-            ]
+            "timeAndPlace":       "T 17:30-20:30 E51-315"
         },
         {
             "type":        "Class",
             "label":       "15.365J - Disruptive Technologies: Predator or Prey?",
             "id":          "15.365J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -664,16 +688,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.365J-1",
+            "label":              "L15.365J-1",
             "lecture-section-of": "15.365J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 1-390"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 1-390"
         },
         {
             "type":        "Class",
             "label":       "15.369 - Corporate Entrepreneurship: Strategies for Technology-Based New Business Development",
             "id":          "15.369",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -691,6 +714,7 @@
             "type":        "Class",
             "label":       "15.371J - Innovation Teams",
             "id":          "15.371J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-2-4",
             "total-units": 9,
@@ -711,16 +735,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.371J-1",
+            "label":              "L15.371J-1",
             "lecture-section-of": "15.371J",
-            "timeAndPlace":       [
-                "TR 16:00-18:30 32-144"
-            ]
+            "timeAndPlace":       "TR 16:00-18:30 32-144"
         },
         {
             "type":        "Class",
             "label":       "15.380 - Special Studies in Entrepreneurship",
             "id":          "15.380",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -740,6 +763,7 @@
             "type":        "Class",
             "label":       "15.387 - Technology Sales and Sales Management",
             "id":          "15.387",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -760,16 +784,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.387-1",
+            "label":              "L15.387-1",
             "lecture-section-of": "15.387",
-            "timeAndPlace":       [
-                "TR 8:30-10:00 E51-335"
-            ]
+            "timeAndPlace":       "TR 8:30-10:00 E51-335"
         },
         {
             "type":        "Class",
             "label":       "15.388 - Designing and Leading the Innovative Organization",
             "id":          "15.388",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -783,7 +806,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.388-1",
+            "label":              "L15.388-1",
             "lecture-section-of": "15.388",
             "timeAndPlace":       [
                 "MW 10:00-11:30 E52-175",
@@ -794,6 +817,7 @@
             "type":        "Class",
             "label":       "15.389 - Global Entrepreneurship Lab: Emerging Markets",
             "id":          "15.389",
+            "course":      "15",
             "level":       "Grad",
             "units":       "6-0-6",
             "total-units": 12,
@@ -816,6 +840,7 @@
             "type":        "Class",
             "label":       "15.390 - New Enterprises",
             "id":          "15.390",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-1-6",
             "total-units": 9,
@@ -836,17 +861,18 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.390-1",
+            "label":              "L15.390-1",
             "lecture-section-of": "15.390",
             "timeAndPlace":       [
                 "MW 16:00-17:30 E51-151",
-                "M 18:00-9:00 E51-315"
+                "M 18:00-21:00 E51-315"
             ]
         },
         {
             "type":        "Class",
             "label":       "15.391 - Early Stage Capital",
             "id":          "15.391",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -863,6 +889,7 @@
             "type":        "Class",
             "label":       "15.393 - Technology and Entrepreneurial Strategy",
             "id":          "15.393",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -883,6 +910,7 @@
             "type":        "Class",
             "label":       "15.394 - Designing and Leading the Entrepreneurial Organization",
             "id":          "15.394",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -897,16 +925,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.394-1",
+            "label":              "L15.394-1",
             "lecture-section-of": "15.394",
-            "timeAndPlace":       [
-                "MW 16:00-17:30 E51-325"
-            ]
+            "timeAndPlace":       "MW 16:00-17:30 E51-325"
         },
         {
             "type":        "Class",
             "label":       "15.395 - Entrepreneurship Without Borders",
             "id":          "15.395",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -926,6 +953,7 @@
             "type":        "Class",
             "label":       "15.396 - Special Seminar in Entrepreneurship",
             "id":          "15.396",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -945,6 +973,7 @@
             "type":        "Class",
             "label":       "15.397 - Special Seminar in Entrepreneurship",
             "id":          "15.397",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -968,6 +997,7 @@
             "type":        "Class",
             "label":       "15.398 - Corporations at the Crossroads: The CEO Perspective",
             "id":          "15.398",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -984,16 +1014,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.398-1",
+            "label":              "L15.398-1",
             "lecture-section-of": "15.398",
-            "timeAndPlace":       [
-                "W 18:00-8:00 E51-345"
-            ]
+            "timeAndPlace":       "W 18:00-20:00 E51-345"
         },
         {
             "type":        "Class",
             "label":       "15.399 - Entrepreneurship Lab",
             "id":          "15.399",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-9-1",
             "total-units": 12,
@@ -1010,16 +1039,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.399-1",
+            "label":              "L15.399-1",
             "lecture-section-of": "15.399",
-            "timeAndPlace":       [
-                "TR 16:00-17:30 E51-149"
-            ]
+            "timeAndPlace":       "TR 16:00-17:30 E51-149"
         },
         {
             "type":        "Class",
             "label":       "15.401 - Finance Theory I",
             "id":          "15.401",
+            "course":      "15",
             "level":       "Grad",
             "units":       "4-0-5",
             "total-units": 9,
@@ -1040,7 +1068,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.401-1",
+            "label":              "L15.401-1",
             "lecture-section-of": "15.401",
             "timeAndPlace":       [
                 "TR 8:30-10:00 E51-145",
@@ -1051,17 +1079,21 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s15.401-2",
+            "label":          "R15.401-2",
             "rec-section-of": "15.401",
-            "timeAndPlace":   [
-                "R 19:00-8:30 E51-345",
-                "F 8:30-10:00 E51-315"
-            ]
+            "timeAndPlace":   "R 19:00-20:30 E51-345"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R15.401-3",
+            "rec-section-of": "15.401",
+            "timeAndPlace":   "F 8:30-10:00 E51-315"
         },
         {
             "type":        "Class",
             "label":       "15.402 - Finance Theory II",
             "id":          "15.402",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1087,7 +1119,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.402-1",
+            "label":              "L15.402-1",
             "lecture-section-of": "15.402",
             "timeAndPlace":       [
                 "TR 13:00-14:30 E51-325",
@@ -1100,6 +1132,7 @@
             "type":        "Class",
             "label":       "15.407 - Finance Theory",
             "id":          "15.407",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1119,6 +1152,7 @@
             "type":        "Class",
             "label":       "15.408 - Quantitative Investment Management",
             "id":          "15.408",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1136,6 +1170,7 @@
             "type":        "Class",
             "label":       "15.414 - Financial Management",
             "id":          "15.414",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1153,6 +1188,7 @@
             "type":        "Class",
             "label":       "15.416J - Introduction to Financial Economics",
             "id":          "15.416J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1174,6 +1210,7 @@
             "type":        "Class",
             "label":       "15.426J - Real Estate Finance and Investment",
             "id":          "15.426J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1191,6 +1228,7 @@
             "type":        "Class",
             "label":       "15.427J - Real Estate Capital Markets",
             "id":          "15.427J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -1212,24 +1250,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.427J-1",
+            "label":              "L15.427J-1",
             "lecture-section-of": "15.427J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 W31-301"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 W31-301"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s15.427J-2",
+            "label":          "R15.427J-2",
             "rec-section-of": "15.427J",
-            "timeAndPlace":   [
-                "R 17:30-19:00 W31-301"
-            ]
+            "timeAndPlace":   "R 17:30-19:00 W31-301"
         },
         {
             "type":        "Class",
             "label":       "15.428J - Advanced Topics in Real Estate Finance",
             "id":          "15.428J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -1244,24 +1279,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.428J-1",
+            "label":              "L15.428J-1",
             "lecture-section-of": "15.428J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 W31-301"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 W31-301"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s15.428J-2",
+            "label":          "R15.428J-2",
             "rec-section-of": "15.428J",
-            "timeAndPlace":   [
-                "R 17:30-19:00 W31-301"
-            ]
+            "timeAndPlace":   "R 17:30-19:00 W31-301"
         },
         {
             "type":        "Class",
             "label":       "15.431 - Entrepreneurial Finance",
             "id":          "15.431",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1277,7 +1309,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.431-1",
+            "label":              "L15.431-1",
             "lecture-section-of": "15.431",
             "timeAndPlace":       [
                 "MW 13:00-14:30 E51-145",
@@ -1288,6 +1320,7 @@
             "type":        "Class",
             "label":       "15.433 - Investments",
             "id":          "15.433",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1309,7 +1342,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.433-1",
+            "label":              "L15.433-1",
             "lecture-section-of": "15.433",
             "timeAndPlace":       [
                 "TR 10:00-11:30 E51-145",
@@ -1320,6 +1353,7 @@
             "type":        "Class",
             "label":       "15.434 - Advanced Corporate Finance",
             "id":          "15.434",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1342,7 +1376,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.434-1",
+            "label":              "L15.434-1",
             "lecture-section-of": "15.434",
             "timeAndPlace":       [
                 "TR 13:00-14:30 E51-372",
@@ -1353,6 +1387,7 @@
             "type":        "Class",
             "label":       "15.437 - Options and Futures Markets",
             "id":          "15.437",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1374,7 +1409,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.437-1",
+            "label":              "L15.437-1",
             "lecture-section-of": "15.437",
             "timeAndPlace":       [
                 "TR 13:00-14:30 E51-145",
@@ -1385,6 +1420,7 @@
             "type":        "Class",
             "label":       "15.440J - Advanced Financial Economics I",
             "id":          "15.440J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1403,16 +1439,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.440J-1",
+            "label":              "L15.440J-1",
             "lecture-section-of": "15.440J",
-            "timeAndPlace":       [
-                "T 16:00-19:00 E51-057"
-            ]
+            "timeAndPlace":       "T 16:00-19:00 E51-057"
         },
         {
             "type":        "Class",
             "label":       "15.441J - Advanced Financial Economics II",
             "id":          "15.441J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1433,16 +1468,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.441J-1",
+            "label":              "L15.441J-1",
             "lecture-section-of": "15.441J",
-            "timeAndPlace":       [
-                "R 16:00-19:00 E51-151"
-            ]
+            "timeAndPlace":       "R 16:00-19:00 E51-151"
         },
         {
             "type":        "Class",
             "label":       "15.442J - Advanced Financial Economics III",
             "id":          "15.442J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1466,6 +1500,7 @@
             "type":        "Class",
             "label":       "15.448?15.449 - Special Seminar in Finance",
             "id":          "15.448?15.449",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1489,6 +1524,7 @@
             "type":        "Class",
             "label":       "15.451 - Proseminar in Financial Engineering",
             "id":          "15.451",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -1513,6 +1549,7 @@
             "type":        "Class",
             "label":       "15.452 - Proseminar in Financial Management",
             "id":          "15.452",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -1533,6 +1570,7 @@
             "type":        "Class",
             "label":       "15.501 - Corporate  Financial Accounting",
             "id":          "15.501",
+            "course":      "15",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1553,7 +1591,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.501-1",
+            "label":              "L15.501-1",
             "lecture-section-of": "15.501",
             "timeAndPlace":       [
                 "MW 13:00-14:30 E51-345",
@@ -1565,6 +1603,7 @@
             "type":        "Class",
             "label":       "15.511 - Financial Accounting",
             "id":          "15.511",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1580,6 +1619,7 @@
             "type":        "Class",
             "label":       "15.514 - Financial and Managerial Accounting",
             "id":          "15.514",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1595,6 +1635,7 @@
             "type":        "Class",
             "label":       "15.515 - Financial Accounting",
             "id":          "15.515",
+            "course":      "15",
             "level":       "Grad",
             "units":       "4-0-5",
             "total-units": 9,
@@ -1611,6 +1652,7 @@
             "type":        "Class",
             "label":       "15.516 - Corporate Financial Accounting",
             "id":          "15.516",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1629,7 +1671,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.516-1",
+            "label":              "L15.516-1",
             "lecture-section-of": "15.516",
             "timeAndPlace":       [
                 "MW 13:00-14:30 E51-345",
@@ -1641,6 +1683,7 @@
             "type":        "Class",
             "label":       "15.518 - Taxes and Business Strategy",
             "id":          "15.518",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1666,6 +1709,7 @@
             "type":        "Class",
             "label":       "15.521 - Management Accounting and Control",
             "id":          "15.521",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1686,7 +1730,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.521-1",
+            "label":              "L15.521-1",
             "lecture-section-of": "15.521",
             "timeAndPlace":       [
                 "TR 14:30-16:00 E51-151",
@@ -1697,6 +1741,7 @@
             "type":        "Class",
             "label":       "15.522 - Security Design and Corporate Financing",
             "id":          "15.522",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1718,6 +1763,7 @@
             "type":        "Class",
             "label":       "15.535 - Business Analysis Using Financial Statements",
             "id":          "15.535",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1745,7 +1791,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.535-1",
+            "label":              "L15.535-1",
             "lecture-section-of": "15.535",
             "timeAndPlace":       [
                 "MW 13:00-14:30 E51-325",
@@ -1756,6 +1802,7 @@
             "type":        "Class",
             "label":       "15.539 - Doctoral Seminar in Accounting",
             "id":          "15.539",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1777,16 +1824,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.539-1",
+            "label":              "L15.539-1",
             "lecture-section-of": "15.539",
-            "timeAndPlace":       [
-                "F 9:30-12:30 E51-390"
-            ]
+            "timeAndPlace":       "F 9:30-12:30 E51-390"
         },
         {
             "type":        "Class",
             "label":       "15.545 - Mergers and Acquisitions: The Market for Corporate Control",
             "id":          "15.545",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -1814,7 +1860,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.545-1",
+            "label":              "L15.545-1",
             "lecture-section-of": "15.545",
             "timeAndPlace":       [
                 "TR 8:30-10:00 E51-315",
@@ -1825,6 +1871,7 @@
             "type":        "Class",
             "label":       "15.561 - Information Technology Essentials",
             "id":          "15.561",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1838,16 +1885,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.561-1",
+            "label":              "L15.561-1",
             "lecture-section-of": "15.561",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 E51-151"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 E51-151"
         },
         {
             "type":        "Class",
             "label":       "15.564 - IT Essentials II: Advanced Technologies for Digital Business in the Knowledge Economy",
             "id":          "15.564",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1863,6 +1909,7 @@
             "type":        "Class",
             "label":       "15.565J - Integrating Information Systems: Technical, Strategic, and Organizational Factors",
             "id":          "15.565J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1883,6 +1930,7 @@
             "type":        "Class",
             "label":       "15.567 - The Economics of Information: Strategy, Structure and Pricing",
             "id":          "15.567",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1899,6 +1947,7 @@
             "type":        "Class",
             "label":       "15.568 - Management of Information Systems",
             "id":          "15.568",
+            "course":      "15",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1918,6 +1967,7 @@
             "type":        "Class",
             "label":       "15.569 - Organizations as Enacted Systems: Learning, Knowing, and Change",
             "id":          "15.569",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1937,6 +1987,7 @@
             "type":        "Class",
             "label":       "15.571 - Generating Business Value from IT",
             "id":          "15.571",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1950,16 +2001,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.571-1",
+            "label":              "L15.571-1",
             "lecture-section-of": "15.571",
-            "timeAndPlace":       [
-                "R 16:00-19:00 E51-057"
-            ]
+            "timeAndPlace":       "R 16:00-19:00 E51-057"
         },
         {
             "type":        "Class",
             "label":       "15.575 - Research Seminar in Information Technology and Organizations: Economic Perspectives",
             "id":          "15.575",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1974,16 +2024,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.575-1",
+            "label":              "L15.575-1",
             "lecture-section-of": "15.575",
-            "timeAndPlace":       [
-                "W 14:30-17:30 E51-061"
-            ]
+            "timeAndPlace":       "W 14:30-17:30 E51-061"
         },
         {
             "type":        "Class",
             "label":       "15.576 - Research Seminar in Information Technology and Organizations: Social Perspectives",
             "id":          "15.576",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2000,6 +2049,7 @@
             "type":        "Class",
             "label":       "15.578 - Global Information Systems: Strategic, Technical, and Organizational Perspectives",
             "id":          "15.578",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -2017,6 +2067,7 @@
             "type":        "Class",
             "label":       "15.579?15.580 - Special Seminar in Information Technology",
             "id":          "15.579?15.580",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -2043,6 +2094,7 @@
             "type":        "Class",
             "label":       "15.599 - Workshop in Information Technology",
             "id":          "15.599",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -2067,6 +2119,7 @@
             "type":        "Class",
             "label":       "15.615 - Basic Business Law for the Entrepreneur and Manager",
             "id":          "15.615",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -2083,16 +2136,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.615-1",
+            "label":              "L15.615-1",
             "lecture-section-of": "15.615",
-            "timeAndPlace":       [
-                "TR 8:30-10:00 E51-345"
-            ]
+            "timeAndPlace":       "TR 8:30-10:00 E51-345"
         },
         {
             "type":        "Class",
             "label":       "15.616 - Basic Business Law, Tilted Towards Innovation and Strategy",
             "id":          "15.616",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -2108,6 +2160,7 @@
             "type":        "Class",
             "label":       "15.617 - Basic Business Law, Tilted Towards Finance",
             "id":          "15.617",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -2121,16 +2174,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.617-1",
+            "label":              "L15.617-1",
             "lecture-section-of": "15.617",
-            "timeAndPlace":       [
-                "MW 8:30-10:00 E52-175"
-            ]
+            "timeAndPlace":       "MW 8:30-10:00 E52-175"
         },
         {
             "type":        "Class",
             "label":       "15.628 - Patents, Copyrights, and the Law of Intellectual Property",
             "id":          "15.628",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-4 [P/D/F]",
             "total-units": "Unknown",
@@ -2147,6 +2199,7 @@
             "type":        "Class",
             "label":       "15.647?15.649 - Special Seminar in Law",
             "id":          "15.647?15.649",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -2167,16 +2220,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.647?15.649-1",
+            "label":              "L15.647?15.649-1",
             "lecture-section-of": "15.647?15.649",
-            "timeAndPlace":       [
-                "TR 8:30-10:00 E51-345"
-            ]
+            "timeAndPlace":       "TR 8:30-10:00 E51-345"
         },
         {
             "type":        "Class",
             "label":       "15.655J - Law, Technology, and Public Policy",
             "id":          "15.655J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2195,16 +2247,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.655J-1",
+            "label":              "L15.655J-1",
             "lecture-section-of": "15.655J",
-            "timeAndPlace":       [
-                "TR 16:00-18:00 E51-145"
-            ]
+            "timeAndPlace":       "TR 16:00-18:00 E51-145"
         },
         {
             "type":        "Class",
             "label":       "15.657J - Sustainability, Trade, and the Environment",
             "id":          "15.657J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2226,6 +2277,7 @@
             "type":        "Class",
             "label":       "15.658J - Legal Issues in the Development Process",
             "id":          "15.658J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -2241,16 +2293,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.658J-1",
+            "label":              "L15.658J-1",
             "lecture-section-of": "15.658J",
-            "timeAndPlace":       [
-                "MW 8:30-10:00 W31-301"
-            ]
+            "timeAndPlace":       "MW 8:30-10:00 W31-301"
         },
         {
             "type":        "Class",
             "label":       "15.660 - Strategic Human Resource Management",
             "id":          "15.660",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -2269,7 +2320,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.660-1",
+            "label":              "L15.660-1",
             "lecture-section-of": "15.660",
             "timeAndPlace":       [
                 "TR 10:00-11:30 E51-376",
@@ -2280,6 +2331,7 @@
             "type":        "Class",
             "label":       "15.664 - Careers, Leadership, and Negotiations in the New Economy",
             "id":          "15.664",
+            "course":      "15",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -2298,6 +2350,7 @@
             "type":        "Class",
             "label":       "15.665 - Power and Negotiation",
             "id":          "15.665",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -2318,24 +2371,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.665-1",
+            "label":              "L15.665-1",
             "lecture-section-of": "15.665",
-            "timeAndPlace":       [
-                "F 8:30-11:30 E51-345"
-            ]
+            "timeAndPlace":       "F 8:30-11:30 E51-345"
         },
         {
             "type":           "LabSection",
-            "label":          "s15.665-2",
+            "label":          "B15.665-2",
             "lab-section-of": "15.665",
-            "timeAndPlace":   [
-                "F 8:30-11:30 E51-376"
-            ]
+            "timeAndPlace":   "F 8:30-11:30 E51-376"
         },
         {
             "type":        "Class",
             "label":       "15.667 - Negotiation and Conflict Management",
             "id":          "15.667",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -2355,6 +2405,7 @@
             "type":        "Class",
             "label":       "15.668 - People and Organizations",
             "id":          "15.668",
+            "course":      "15",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -2375,6 +2426,7 @@
             "type":        "Class",
             "label":       "15.670 - Leadership and Change",
             "id":          "15.670",
+            "course":      "15",
             "level":       "Undergrad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -2391,6 +2443,7 @@
             "type":        "Class",
             "label":       "15.676 - Work, Employment, and Industrial Relations Theory",
             "id":          "15.676",
+            "course":      "15",
             "level":       "Grad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -2413,16 +2466,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.676-1",
+            "label":              "L15.676-1",
             "lecture-section-of": "15.676",
-            "timeAndPlace":       [
-                "F 14:30-17:00 E52-598"
-            ]
+            "timeAndPlace":       "F 14:30-17:00 E52-598"
         },
         {
             "type":        "Class",
             "label":       "15.677J - Urban Labor Markets and Employment Policy",
             "id":          "15.677J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2440,6 +2492,7 @@
             "type":        "Class",
             "label":       "15.678J - Political Economy I: Theories of the State and the Economy",
             "id":          "15.678J",
+            "course":      "15",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2463,6 +2516,7 @@
             "type":        "Class",
             "label":       "15.691 - Research Seminar in Work, Employment and Industrial Relations",
             "id":          "15.691",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -2483,16 +2537,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s15.691-1",
+            "label":              "L15.691-1",
             "lecture-section-of": "15.691",
-            "timeAndPlace":       [
-                "T 12:30-14:30 E52-598"
-            ]
+            "timeAndPlace":       "T 12:30-14:30 E52-598"
         },
         {
             "type":        "Class",
             "label":       "15.698 - Special Seminar in Industrial Relations and Human Resource Management",
             "id":          "15.698",
+            "course":      "15",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",

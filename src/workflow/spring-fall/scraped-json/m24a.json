@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "24.00 - Problems of Philosophy",
             "id":          "24.00",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -21,26 +22,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.00-1",
+            "label":              "L24.00-1",
             "lecture-section-of": "24.00",
-            "timeAndPlace":       [
-                "MW 12:00-13:00 32-141"
-            ]
+            "timeAndPlace":       "MW 12:00-13:00 32-141"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s24.00-2",
+            "label":          "R24.00-2",
             "rec-section-of": "24.00",
-            "timeAndPlace":   [
-                "F 11:00-12:00 66-160",
-                "F 12:00-13:00 66-160",
-                "F 13:00-14:00 56-169"
-            ]
+            "timeAndPlace":   "F 11:00-12:00 66-160"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R24.00-3",
+            "rec-section-of": "24.00",
+            "timeAndPlace":   "F 12:00-13:00 66-160"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R24.00-4",
+            "rec-section-of": "24.00",
+            "timeAndPlace":   "F 13:00-14:00 56-169"
         },
         {
             "type":        "Class",
             "label":       "24.01 - Classics of Western Philosophy",
             "id":          "24.01",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -60,6 +68,7 @@
             "type":        "Class",
             "label":       "24.02 - Moral Problems and the Good Life",
             "id":          "24.02",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -79,6 +88,7 @@
             "type":        "Class",
             "label":       "24.04J - Justice",
             "id":          "24.04J",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -97,26 +107,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.04J-1",
+            "label":              "L24.04J-1",
             "lecture-section-of": "24.04J",
-            "timeAndPlace":       [
-                "T 11:00-13:00 32-155"
-            ]
+            "timeAndPlace":       "T 11:00-13:00 32-155"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s24.04J-2",
+            "label":          "R24.04J-2",
             "rec-section-of": "24.04J",
-            "timeAndPlace":   [
-                "R 14:00-15:00 56-167",
-                "F 10:00-11:00 56-167",
-                "F 12:00-13:00 56-180"
-            ]
+            "timeAndPlace":   "R 14:00-15:00 56-167"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R24.04J-3",
+            "rec-section-of": "24.04J",
+            "timeAndPlace":   "F 10:00-11:00 56-167"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R24.04J-4",
+            "rec-section-of": "24.04J",
+            "timeAndPlace":   "F 12:00-13:00 56-180"
         },
         {
             "type":        "Class",
             "label":       "24.06J - Bioethics",
             "id":          "24.06J",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -138,26 +155,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.06J-1",
+            "label":              "L24.06J-1",
             "lecture-section-of": "24.06J",
-            "timeAndPlace":       [
-                "TR 11:00-12:00 32-123"
-            ]
+            "timeAndPlace":       "TR 11:00-12:00 32-123"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s24.06J-2",
+            "label":          "R24.06J-2",
             "rec-section-of": "24.06J",
-            "timeAndPlace":   [
-                "F 11:00-12:00 56-154",
-                "F 12:00-13:00 56-154",
-                "F 13:00-14:00 56-154"
-            ]
+            "timeAndPlace":   "F 11:00-12:00 56-154"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R24.06J-3",
+            "rec-section-of": "24.06J",
+            "timeAndPlace":   "F 12:00-13:00 56-154"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R24.06J-4",
+            "rec-section-of": "24.06J",
+            "timeAndPlace":   "F 13:00-14:00 56-154"
         },
         {
             "type":        "Class",
             "label":       "24.09 - Minds and Machines",
             "id":          "24.09",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -175,25 +199,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.09-1",
+            "label":              "L24.09-1",
             "lecture-section-of": "24.09",
-            "timeAndPlace":       [
-                "MW 11:00-12:00 32-124"
-            ]
+            "timeAndPlace":       "MW 11:00-12:00 32-124"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s24.09-2",
+            "label":          "R24.09-2",
             "rec-section-of": "24.09",
-            "timeAndPlace":   [
-                "F 11:00-12:00 36-112",
-                "F 12:00-13:00 36-112"
-            ]
+            "timeAndPlace":   "F 11:00-12:00 36-112"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R24.09-3",
+            "rec-section-of": "24.09",
+            "timeAndPlace":   "F 12:00-13:00 36-112"
         },
         {
             "type":        "Class",
             "label":       "24.111 - Philosophy of Quantum Mechanics",
             "id":          "24.111",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -210,6 +236,7 @@
             "type":        "Class",
             "label":       "24.114J - A Philosophical History of Energy",
             "id":          "24.114J",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -228,16 +255,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.114J-1",
+            "label":              "L24.114J-1",
             "lecture-section-of": "24.114J",
-            "timeAndPlace":       [
-                "R 14:00-17:00 66-148"
-            ]
+            "timeAndPlace":       "R 14:00-17:00 66-148"
         },
         {
             "type":        "Class",
             "label":       "24.118 - Paradox and Infinity",
             "id":          "24.118",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -254,6 +280,7 @@
             "type":        "Class",
             "label":       "24.120 - Moral Psychology",
             "id":          "24.120",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -270,6 +297,7 @@
             "type":        "Class",
             "label":       "24.201 - Topics in the History of Philosophy",
             "id":          "24.201",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -289,6 +317,7 @@
             "type":        "Class",
             "label":       "24.209 - Philosophy in Film and Other Media",
             "id":          "24.209",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -305,6 +334,7 @@
             "type":        "Class",
             "label":       "24.211 - Theory of Knowledge",
             "id":          "24.211",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -321,6 +351,7 @@
             "type":        "Class",
             "label":       "24.213 - Philosophy of Film",
             "id":          "24.213",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -336,24 +367,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.213-1",
+            "label":              "L24.213-1",
             "lecture-section-of": "24.213",
-            "timeAndPlace":       [
-                "W 19:00-10:00 5-231"
-            ]
+            "timeAndPlace":       "W 19:00-22:00 5-231"
         },
         {
             "type":           "LabSection",
-            "label":          "s24.213-2",
+            "label":          "B24.213-2",
             "lab-section-of": "24.213",
-            "timeAndPlace":   [
-                "W 19:00-10:00 1-150"
-            ]
+            "timeAndPlace":   "W 19:00-22:00 1-150"
         },
         {
             "type":        "Class",
             "label":       "24.215 - Topics in the Philosophy of Science",
             "id":          "24.215",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -373,6 +401,7 @@
             "type":        "Class",
             "label":       "24.221 - Metaphysics",
             "id":          "24.221",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -387,16 +416,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.221-1",
+            "label":              "L24.221-1",
             "lecture-section-of": "24.221",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 36-372"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 36-372"
         },
         {
             "type":        "Class",
             "label":       "24.222 - Decisions, Games and Rational Choice",
             "id":          "24.222",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -411,16 +439,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.222-1",
+            "label":              "L24.222-1",
             "lecture-section-of": "24.222",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 56-162"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 56-162"
         },
         {
             "type":        "Class",
             "label":       "24.231 - Ethics",
             "id":          "24.231",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -435,16 +462,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.231-1",
+            "label":              "L24.231-1",
             "lecture-section-of": "24.231",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 2-143"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 2-143"
         },
         {
             "type":        "Class",
             "label":       "24.235J - Philosophy of Law",
             "id":          "24.235J",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -462,6 +488,7 @@
             "type":        "Class",
             "label":       "24.237 - Feminist Theory",
             "id":          "24.237",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -481,16 +508,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.237-1",
+            "label":              "L24.237-1",
             "lecture-section-of": "24.237",
-            "timeAndPlace":       [
-                "W 13:00-16:00 56-191"
-            ]
+            "timeAndPlace":       "W 13:00-16:00 56-191"
         },
         {
             "type":        "Class",
             "label":       "24.241 - Logic I",
             "id":          "24.241",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -507,6 +533,7 @@
             "type":        "Class",
             "label":       "24.242 - Logic II",
             "id":          "24.242",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -522,16 +549,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.242-1",
+            "label":              "L24.242-1",
             "lecture-section-of": "24.242",
-            "timeAndPlace":       [
-                "WF 13:30-15:00 32-D831"
-            ]
+            "timeAndPlace":       "WF 13:30-15:00 32-D831"
         },
         {
             "type":        "Class",
             "label":       "24.243 - Classical Set Theory",
             "id":          "24.243",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -549,6 +575,7 @@
             "type":        "Class",
             "label":       "24.244 - Modal Logic",
             "id":          "24.244",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -566,6 +593,7 @@
             "type":        "Class",
             "label":       "24.251 - Introduction to Philosophy of Language",
             "id":          "24.251",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -582,6 +610,7 @@
             "type":        "Class",
             "label":       "24.253 - Philosophy of Mathematics",
             "id":          "24.253",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -598,6 +627,7 @@
             "type":        "Class",
             "label":       "24.260 - Topics in Philosophy",
             "id":          "24.260",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -612,16 +642,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.260-1",
+            "label":              "L24.260-1",
             "lecture-section-of": "24.260",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 56-167"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 56-167"
         },
         {
             "type":        "Class",
             "label":       "24.261 - Philosophy of Love in the Western World",
             "id":          "24.261",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -638,6 +667,7 @@
             "type":        "Class",
             "label":       "24.262 - Feeling and Imagination in Art, Science, and Technology",
             "id":          "24.262",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -657,6 +687,7 @@
             "type":        "Class",
             "label":       "24.263 - The Nature of Creativity",
             "id":          "24.263",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -672,16 +703,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.263-1",
+            "label":              "L24.263-1",
             "lecture-section-of": "24.263",
-            "timeAndPlace":       [
-                "R 19:00-10:00 4-144"
-            ]
+            "timeAndPlace":       "R 19:00-22:00 4-144"
         },
         {
             "type":        "Class",
             "label":       "24.264 - Film as Visual and Literary Philosophy",
             "id":          "24.264",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -698,6 +728,7 @@
             "type":        "Class",
             "label":       "24.265 - Aesthetics and Philosophy of the Arts",
             "id":          "24.265",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -714,6 +745,7 @@
             "type":        "Class",
             "label":       "24.280 - Foundations of Probability",
             "id":          "24.280",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -730,6 +762,7 @@
             "type":        "Class",
             "label":       "24.292 - Special Topics in Philosophy",
             "id":          "24.292",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -745,6 +778,7 @@
             "type":        "Class",
             "label":       "24.293 - Special Topics in Philosophy",
             "id":          "24.293",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -760,6 +794,7 @@
             "type":        "Class",
             "label":       "24.400 - Proseminar in Philosophy I",
             "id":          "24.400",
+            "course":      "24",
             "level":       "Grad",
             "units":       "6-0-18",
             "total-units": 24,
@@ -783,24 +818,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.400-1",
+            "label":              "L24.400-1",
             "lecture-section-of": "24.400",
-            "timeAndPlace":       [
-                "T 10:00-13:00 32-D831"
-            ]
+            "timeAndPlace":       "T 10:00-13:00 32-D831"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s24.400-2",
+            "label":          "R24.400-2",
             "rec-section-of": "24.400",
-            "timeAndPlace":   [
-                "F 10:00-13:00 32-D831"
-            ]
+            "timeAndPlace":   "F 10:00-13:00 32-D831"
         },
         {
             "type":        "Class",
             "label":       "24.410 - Topics in the History of Philosophy",
             "id":          "24.410",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -820,6 +852,7 @@
             "type":        "Class",
             "label":       "24.500 - Topics in Philosophy of Mind",
             "id":          "24.500",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -839,6 +872,7 @@
             "type":        "Class",
             "label":       "24.501 - Problems in Metaphysics",
             "id":          "24.501",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -858,6 +892,7 @@
             "type":        "Class",
             "label":       "24.502 - Topics in Metaphysics and Ethics",
             "id":          "24.502",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -877,6 +912,7 @@
             "type":        "Class",
             "label":       "24.601 - Topics in Moral Philosophy",
             "id":          "24.601",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -893,6 +929,7 @@
             "type":        "Class",
             "label":       "24.611J - Political Philosophy",
             "id":          "24.611J",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -913,6 +950,7 @@
             "type":        "Class",
             "label":       "24.711 - Topics in Philosophical Logic",
             "id":          "24.711",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -933,16 +971,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.711-1",
+            "label":              "L24.711-1",
             "lecture-section-of": "24.711",
-            "timeAndPlace":       [
-                "W 17:30-8:30 32-D831"
-            ]
+            "timeAndPlace":       "W 17:30-20:30 32-D831"
         },
         {
             "type":        "Class",
             "label":       "24.729 - Topics in Philosophy of Language",
             "id":          "24.729",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -962,6 +999,7 @@
             "type":        "Class",
             "label":       "24.801 - Philosophy of Mathematics",
             "id":          "24.801",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -981,6 +1019,7 @@
             "type":        "Class",
             "label":       "24.805 - Topics in Theory of Knowledge",
             "id":          "24.805",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -998,16 +1037,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.805-1",
+            "label":              "L24.805-1",
             "lecture-section-of": "24.805",
-            "timeAndPlace":       [
-                "M 10:00-13:00 32-D461"
-            ]
+            "timeAndPlace":       "M 10:00-13:00 32-D461"
         },
         {
             "type":        "Class",
             "label":       "24.810 - Topics in Philosophy of Science",
             "id":          "24.810",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1025,16 +1063,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.810-1",
+            "label":              "L24.810-1",
             "lecture-section-of": "24.810",
-            "timeAndPlace":       [
-                "R 14:00-17:00 32-D461"
-            ]
+            "timeAndPlace":       "R 14:00-17:00 32-D461"
         },
         {
             "type":        "Class",
             "label":       "24.891 - Special Graduate Topics in Philosophy",
             "id":          "24.891",
+            "course":      "24",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1063,16 +1100,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.891-1",
+            "label":              "L24.891-1",
             "lecture-section-of": "24.891",
-            "timeAndPlace":       [
-                "M 14:00-17:00 Unknown"
-            ]
+            "timeAndPlace":       "M 14:00-17:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "24.899 - Topics in Linguistics and Philosophy",
             "id":          "24.899",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1092,6 +1128,7 @@
             "type":        "Class",
             "label":       "24.UR - Undergraduate Research",
             "id":          "24.UR",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1114,6 +1151,7 @@
             "type":        "Class",
             "label":       "24.URG - Undergraduate Research",
             "id":          "24.URG",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1137,6 +1175,7 @@
             "type":        "Class",
             "label":       "24.900 - Introduction to Linguistics",
             "id":          "24.900",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1157,27 +1196,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.900-1",
+            "label":              "L24.900-1",
             "lecture-section-of": "24.900",
-            "timeAndPlace":       [
-                "MW 9:00-10:30 32-155"
-            ]
+            "timeAndPlace":       "MW 9:00-10:30 32-155"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s24.900-2",
+            "label":          "R24.900-2",
             "rec-section-of": "24.900",
-            "timeAndPlace":   [
-                "F 10:00-11:00 56-169",
-                "F 11:00-12:00 56-169",
-                "F 12:00-13:00 66-156",
-                "F 13:00-14:00 66-144"
-            ]
+            "timeAndPlace":   "F 10:00-11:00 56-169"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R24.900-3",
+            "rec-section-of": "24.900",
+            "timeAndPlace":   "F 11:00-12:00 56-169"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R24.900-4",
+            "rec-section-of": "24.900",
+            "timeAndPlace":   "F 12:00-13:00 66-156"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R24.900-5",
+            "rec-section-of": "24.900",
+            "timeAndPlace":   "F 13:00-14:00 66-144"
         },
         {
             "type":        "Class",
             "label":       "24.901 - Language and Its Structure I: Phonology",
             "id":          "24.901",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1198,6 +1249,7 @@
             "type":        "Class",
             "label":       "24.902 - Language and Its Structure II: Syntax",
             "id":          "24.902",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1218,6 +1270,7 @@
             "type":        "Class",
             "label":       "24.903 - Language and Its Structure III: Semantics and Pragmatics",
             "id":          "24.903",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1236,16 +1289,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.903-1",
+            "label":              "L24.903-1",
             "lecture-section-of": "24.903",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 56-191"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 56-191"
         },
         {
             "type":        "Class",
             "label":       "24.904J - Language Acquisition",
             "id":          "24.904J",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1269,6 +1321,7 @@
             "type":        "Class",
             "label":       "24.905J - Psycholinguistics",
             "id":          "24.905J",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1287,16 +1340,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.905J-1",
+            "label":              "L24.905J-1",
             "lecture-section-of": "24.905J",
-            "timeAndPlace":       [
-                "MW 11:30-13:00 46-3015"
-            ]
+            "timeAndPlace":       "MW 11:30-13:00 46-3015"
         },
         {
             "type":        "Class",
             "label":       "24.906J - The Linguistic Study of Bilingualism",
             "id":          "24.906J",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1317,6 +1369,7 @@
             "type":        "Class",
             "label":       "24.907J - Abnormal Language",
             "id":          "24.907J",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1336,6 +1389,7 @@
             "type":        "Class",
             "label":       "24.908 - Creole Languages and Caribbean Identities",
             "id":          "24.908",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1355,6 +1409,7 @@
             "type":        "Class",
             "label":       "24.910 - Topics in Linguistic Theory",
             "id":          "24.910",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1372,16 +1427,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.910-1",
+            "label":              "L24.910-1",
             "lecture-section-of": "24.910",
-            "timeAndPlace":       [
-                "T 14:00-17:00 56-167"
-            ]
+            "timeAndPlace":       "T 14:00-17:00 56-167"
         },
         {
             "type":        "Class",
             "label":       "24.919 - Special Undergraduate Topics in Linguistics",
             "id":          "24.919",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1403,6 +1457,7 @@
             "type":        "Class",
             "label":       "24.921 - Special Graduate Topics in Linguistics",
             "id":          "24.921",
+            "course":      "24",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1424,7 +1479,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.921-1",
+            "label":              "L24.921-1",
             "lecture-section-of": "24.921",
             "timeAndPlace":       [
                 "R 9:30-12:30 32-D461",
@@ -1435,6 +1490,7 @@
             "type":        "Class",
             "label":       "24.922 - Special Graduate Topics in Linguistics",
             "id":          "24.922",
+            "course":      "24",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1457,6 +1513,7 @@
             "type":        "Class",
             "label":       "24.931 - Language and Its Structure I: Phonology",
             "id":          "24.931",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1477,6 +1534,7 @@
             "type":        "Class",
             "label":       "24.932 - Language and Its Structure II: Syntax",
             "id":          "24.932",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1497,6 +1555,7 @@
             "type":        "Class",
             "label":       "24.933 - Language and Its Structure III: Semantics and Pragmatics",
             "id":          "24.933",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1515,16 +1574,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.933-1",
+            "label":              "L24.933-1",
             "lecture-section-of": "24.933",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 56-191"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 56-191"
         },
         {
             "type":        "Class",
             "label":       "24.941J - The Lexicon and Its Features",
             "id":          "24.941J",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1552,6 +1610,7 @@
             "type":        "Class",
             "label":       "24.942 - Topics in the Grammar of a Less Familiar Language",
             "id":          "24.942",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1573,16 +1632,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.942-1",
+            "label":              "L24.942-1",
             "lecture-section-of": "24.942",
-            "timeAndPlace":       [
-                "T 10:00-13:00 32-D461"
-            ]
+            "timeAndPlace":       "T 10:00-13:00 32-D461"
         },
         {
             "type":        "Class",
             "label":       "24.944 - Neurolinguistics",
             "id":          "24.944",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1599,6 +1657,7 @@
             "type":        "Class",
             "label":       "24.945J - Language Processing",
             "id":          "24.945J",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1616,6 +1675,7 @@
             "type":        "Class",
             "label":       "24.946 - Linguistic Theory and Japanese Language",
             "id":          "24.946",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1632,6 +1692,7 @@
             "type":        "Class",
             "label":       "24.947 - Language Disorders in Children",
             "id":          "24.947",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1647,6 +1708,7 @@
             "type":        "Class",
             "label":       "24.948 - Linguistic Theory and Second Language Acquisition",
             "id":          "24.948",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1662,6 +1724,7 @@
             "type":        "Class",
             "label":       "24.949J - Language Acquisition I",
             "id":          "24.949J",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1677,16 +1740,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.949J-1",
+            "label":              "L24.949J-1",
             "lecture-section-of": "24.949J",
-            "timeAndPlace":       [
-                "T 14:00-17:00 46-5056"
-            ]
+            "timeAndPlace":       "T 14:00-17:00 46-5056"
         },
         {
             "type":        "Class",
             "label":       "24.951 - Introduction to Syntax",
             "id":          "24.951",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1706,6 +1768,7 @@
             "type":        "Class",
             "label":       "24.952 - Advanced Syntax",
             "id":          "24.952",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1724,16 +1787,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.952-1",
+            "label":              "L24.952-1",
             "lecture-section-of": "24.952",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 56-180"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 56-180"
         },
         {
             "type":        "Class",
             "label":       "24.953 - Lexical Argument Structure and Syntax",
             "id":          "24.953",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1751,6 +1813,7 @@
             "type":        "Class",
             "label":       "24.954 - Pragmatics in Linguistic Theory",
             "id":          "24.954",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1767,6 +1830,7 @@
             "type":        "Class",
             "label":       "24.955 - More Advanced Syntax",
             "id":          "24.955",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1787,6 +1851,7 @@
             "type":        "Class",
             "label":       "24.956 - Topics in Syntax",
             "id":          "24.956",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1811,16 +1876,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.956-1",
+            "label":              "L24.956-1",
             "lecture-section-of": "24.956",
-            "timeAndPlace":       [
-                "F 12:00-15:00 32-D461"
-            ]
+            "timeAndPlace":       "F 12:00-15:00 32-D461"
         },
         {
             "type":        "Class",
             "label":       "24.957 - Introduction to Linguistic Theory at an Advanced Level",
             "id":          "24.957",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1837,6 +1901,7 @@
             "type":        "Class",
             "label":       "24.959 - Workshop in Syntax and Semantics",
             "id":          "24.959",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1853,6 +1918,7 @@
             "type":        "Class",
             "label":       "24.960 - Syntactic Models",
             "id":          "24.960",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1873,6 +1939,7 @@
             "type":        "Class",
             "label":       "24.961 - Introduction to Phonology",
             "id":          "24.961",
+            "course":      "24",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1892,6 +1959,7 @@
             "type":        "Class",
             "label":       "24.962 - Advanced Phonology",
             "id":          "24.962",
+            "course":      "24",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1910,16 +1978,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.962-1",
+            "label":              "L24.962-1",
             "lecture-section-of": "24.962",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 46-4062"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 46-4062"
         },
         {
             "type":        "Class",
             "label":       "24.963 - Linguistic Phonetics",
             "id":          "24.963",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1933,16 +2000,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.963-1",
+            "label":              "L24.963-1",
             "lecture-section-of": "24.963",
-            "timeAndPlace":       [
-                "T 14:00-17:00 32-D831"
-            ]
+            "timeAndPlace":       "T 14:00-17:00 32-D831"
         },
         {
             "type":        "Class",
             "label":       "24.964 - Topics in Phonology",
             "id":          "24.964",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1964,16 +2030,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.964-1",
+            "label":              "L24.964-1",
             "lecture-section-of": "24.964",
-            "timeAndPlace":       [
-                "W 13:00-15:00 32-D461"
-            ]
+            "timeAndPlace":       "W 13:00-15:00 32-D461"
         },
         {
             "type":        "Class",
             "label":       "24.965 - Morphology",
             "id":          "24.965",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1991,16 +2056,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.965-1",
+            "label":              "L24.965-1",
             "lecture-section-of": "24.965",
-            "timeAndPlace":       [
-                "R 14:00-17:00 32-D461"
-            ]
+            "timeAndPlace":       "R 14:00-17:00 32-D461"
         },
         {
             "type":        "Class",
             "label":       "24.966J - Laboratory on the Physiology, Acoustics, and Perception of Speech",
             "id":          "24.966J",
+            "course":      "24",
             "level":       "Grad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -2025,6 +2089,7 @@
             "type":        "Class",
             "label":       "24.967 - Topics in Experimental Phonology",
             "id":          "24.967",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2045,6 +2110,7 @@
             "type":        "Class",
             "label":       "24.968J - Speech Communication",
             "id":          "24.968J",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -2066,16 +2132,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.968J-1",
+            "label":              "L24.968J-1",
             "lecture-section-of": "24.968J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 34-302"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 34-302"
         },
         {
             "type":        "Class",
             "label":       "24.969 - Workshop in Phonology and Morphology",
             "id":          "24.969",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2093,16 +2158,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.969-1",
+            "label":              "L24.969-1",
             "lecture-section-of": "24.969",
-            "timeAndPlace":       [
-                "W 10:30-13:30 32-D461"
-            ]
+            "timeAndPlace":       "W 10:30-13:30 32-D461"
         },
         {
             "type":        "Class",
             "label":       "24.970 - Introduction to Semantics",
             "id":          "24.970",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2118,6 +2182,7 @@
             "type":        "Class",
             "label":       "24.973 - Advanced Semantics",
             "id":          "24.973",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2132,16 +2197,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s24.973-1",
+            "label":              "L24.973-1",
             "lecture-section-of": "24.973",
-            "timeAndPlace":       [
-                "MW 10:00-11:30 36-372"
-            ]
+            "timeAndPlace":       "MW 10:00-11:30 36-372"
         },
         {
             "type":        "Class",
             "label":       "24.979 - Topics in Semantics",
             "id":          "24.979",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2164,6 +2228,7 @@
             "type":        "Class",
             "label":       "24.981 - Topics in Computational Phonology",
             "id":          "24.981",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2181,6 +2246,7 @@
             "type":        "Class",
             "label":       "24.992 - Survey of General Linguistics",
             "id":          "24.992",
+            "course":      "24",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2205,6 +2271,7 @@
             "type":        "Class",
             "label":       "24.993 - Tutorial in Linguistics and Related Fields",
             "id":          "24.993",
+            "course":      "24",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -2226,6 +2293,7 @@
             "type":        "Class",
             "label":       "24.ThG - Graduate Thesis",
             "id":          "24.ThG",
+            "course":      "24",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -2250,6 +2318,7 @@
             "type":        "Class",
             "label":       "24.UR - Undergraduate Research",
             "id":          "24.UR",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -2272,6 +2341,7 @@
             "type":        "Class",
             "label":       "24.URG - Undergraduate Research",
             "id":          "24.URG",
+            "course":      "24",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",

@@ -36,6 +36,9 @@
     font-size:      120%;
     font-weight:    bold;
 }
+#schedule-preview-pane .exhibit-viewPanel {
+    font-size:      80%;
+}
 
 #classes-layer {
     margin-right:   20em;
@@ -163,32 +166,38 @@ table.course-body {
 }
 
 div.hkn-statistics {
-	border:     1px solid #aaa;
+    border:     1px solid #aaa;
 }
 div.hkn-stats-header {
-	border-bottom:  1px #aaa solid;
+    border-bottom:  1px #aaa solid;
     background:     #ccc;
-	padding:        1px 3px;
-	font-weight:    bold;
+    padding:        1px 3px;
+    font-weight:    bold;
 
 }
 div.each-section-unpicked {
     background:     #FFFCE6;
-	padding:		.25em;
+    padding:        2px;
+    clear:          both;
+    margin-left:    10px;
+    margin-bottom:  2px;
 }
 div.each-section-picked {
-	background:     #ddb;
-	padding:		.25em;
+    background:     #ddb;
+    padding:        2px;
+    clear:          both;
+    margin-left:    10px;
+    margin-bottom:  2px;
 }
 div.each-section-picked button, div.each-section-unpicked button {
     width:          7em;
     float:          right;
 }
 span.section-instructor {
-	font-style:		italic;
+    font-style:        italic;
 }
 span.section-schedule {
-	font-style:		italic;
+    font-style:        italic;
 }
 
 #schedule-preview-pane ol.exhibit-tileView-body {
@@ -198,12 +207,14 @@ span.section-schedule {
     clear: both;
 }
 div.preview-class-lens {
-	padding:        2px;
+    padding:        2px;
     color:          white;
     margin-bottom:  1px;
 }
 button.remove-preview {
-    float: right;
+    float:          right;
+    font-family:    monospace;
+    font-size:      7pt;
 }
 
 div.course-topic {

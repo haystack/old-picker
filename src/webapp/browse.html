@@ -71,12 +71,13 @@
                             <div id="facets">
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='course-facet'>course &raquo;</div>
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='level-facet'>level &raquo;</div>
-                                <div class="collapsed-facet" onclick="makeFacet(this)" id='topic-facet'>topic &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='area-facet'>area &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='subarea-facet'>subarea &raquo;</div>
                                 
                                 <div id="tqe-facet"></div>
                                 
                                 <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' ex:height="20em"></div>
-                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' ex:height="7em" ex:selection="Fall"></div>
+                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' ex:height="7em" ex:selection="Spring"></div>
                                 <div ex:role="facet" ex:expression=".offering" ex:facetLabel="offering &raquo;" id='offering-facet' ex:height="8em" ex:selection="Currently Offered"></div>
                                 
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
@@ -117,9 +118,20 @@
                 style="height:250px"></div>
             <div id="total-units"></div>
             <div ex:role="viewPanel">
-                <div ex:role="lens" class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
+                <div ex:role="lens" ex:itemTypes="LectureSection" 
+                    class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
                     <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
-                    <span ex:content=".class.label"></span>
+                    <span ex:content=".lecture-section-of.label"></span> (lectures)
+                </div>
+                <div ex:role="lens" ex:itemTypes="RecitationSection" 
+                    class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
+                    <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
+                    <span ex:content=".rec-section-of.label"></span> (rec)
+                </div>
+                <div ex:role="lens" ex:itemTypes="LabSection" 
+                    class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
+                    <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
+                    <span ex:content=".lab-section-of.label"></span> (lab)
                 </div>
                 <div ex:role="view"
                     ex:orders=".class.courseNumber"
@@ -152,22 +164,55 @@
                     <div ex:content=".description" class="course-description"></div>
                     <div ex:if-exists=".prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
                     
-                    <div ex:content="!class">
-                        <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
-                            ex:id-subcontent="divid-{{value}}"
-                            ex:sectionID-content="value"
-                            onmouseover="onMouseOverSection(this);"
-                            onmouseout="onMouseOutSection(this);">
-                            <button
-                                ex:sectionID-content="value" 
-                                ex:content="if(exists(.picked), 'Remove', 'Add')"
-                                onclick="onPickUnpick(this);"></button>
+                    <div ex:if-exists="!lecture-section-of"><b>Lecture Sections:</b>
+                        <div ex:content="!lecture-section-of">
+                            <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
+                                ex:id-subcontent="divid-{{value}}"
+                                ex:sectionID-content="value"
+                                onmouseover="onMouseOverSection(this);"
+                                onmouseout="onMouseOutSection(this);">
+                                <button
+                                    ex:sectionID-content="value" 
+                                    ex:content="if(exists(.picked), 'Remove', 'Add')"
+                                    onclick="onPickUnpick(this);"></button>
                             
-                            <span class="section-instructor" ex:content=".instructor"></span><br />
-                            <span class="section-schedule" ex:content="!section"> &bull; 
-                                <span ex:content=".day"></span>
-                                <span ex:content=".start"></span>-<span ex:content=".end"></span> in 
-                                <a ex:href-subcontent="http://whereis.mit.edu/map-jpg?selection={{building(.room)}}&Buildings=go" target="_blank" ex:content=".room"></a></span>
+                                <span class="section-instructor" ex:content=".instructor"></span> &bull;
+                                <span class="section-schedule" ex:content=".timeAndPlace"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div ex:if-exists="!rec-section-of"><b>Recitation Sections:</b>
+                        <div ex:content="!rec-section-of">
+                            <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
+                                ex:id-subcontent="divid-{{value}}"
+                                ex:sectionID-content="value"
+                                onmouseover="onMouseOverSection(this);"
+                                onmouseout="onMouseOutSection(this);">
+                                <button
+                                    ex:sectionID-content="value" 
+                                    ex:content="if(exists(.picked), 'Remove', 'Add')"
+                                    onclick="onPickUnpick(this);"></button>
+                            
+                                <span class="section-instructor" ex:content=".instructor"></span> &bull;
+                                <span class="section-schedule" ex:content=".timeAndPlace"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div ex:if-exists="!lab-section-of"><b>Lab Sections:</b>
+                        <div ex:content="!lab-section-of">
+                            <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
+                                ex:id-subcontent="divid-{{value}}"
+                                ex:sectionID-content="value"
+                                onmouseover="onMouseOverSection(this);"
+                                onmouseout="onMouseOutSection(this);">
+                                <button
+                                    ex:sectionID-content="value" 
+                                    ex:content="if(exists(.picked), 'Remove', 'Add')"
+                                    onclick="onPickUnpick(this);"></button>
+                            
+                                <span class="section-instructor" ex:content=".instructor"></span> &bull;
+                                <span class="section-schedule" ex:content=".timeAndPlace"></span>
+                            </div>
                         </div>
                     </div>
                 </td>

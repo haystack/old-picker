@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "9.00 - Introduction to Psychology",
             "id":          "9.00",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -17,16 +18,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.00-1",
+            "label":              "L9.00-1",
             "lecture-section-of": "9.00",
-            "timeAndPlace":       [
-                "TR 14:00-15:30 46-3002"
-            ]
+            "timeAndPlace":       "TR 14:00-15:30 46-3002"
         },
         {
             "type":        "Class",
             "label":       "9.01 - Introduction to Neuroscience",
             "id":          "9.01",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -45,6 +45,7 @@
             "type":        "Class",
             "label":       "9.011 - Systems Neuroscience",
             "id":          "9.011",
+            "course":      "9",
             "level":       "Grad",
             "units":       "6-0-12",
             "total-units": 18,
@@ -64,6 +65,7 @@
             "type":        "Class",
             "label":       "9.012 - Cognitive Science",
             "id":          "9.012",
+            "course":      "9",
             "level":       "Grad",
             "units":       "6-0-12",
             "total-units": 18,
@@ -81,16 +83,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.012-1",
+            "label":              "L9.012-1",
             "lecture-section-of": "9.012",
-            "timeAndPlace":       [
-                "TR 14:00-17:00 46-4062"
-            ]
+            "timeAndPlace":       "TR 14:00-17:00 46-4062"
         },
         {
             "type":        "Class",
             "label":       "9.013J - Cellular and Molecular Neurobiology",
             "id":          "9.013J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "6-0-12",
             "total-units": 18,
@@ -112,16 +113,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.013J-1",
+            "label":              "L9.013J-1",
             "lecture-section-of": "9.013J",
-            "timeAndPlace":       [
-                "MW 13:00-16:00 46-4062"
-            ]
+            "timeAndPlace":       "MW 13:00-16:00 46-4062"
         },
         {
             "type":        "Class",
             "label":       "9.02 - Systems Neuroscience Laboratory",
             "id":          "9.02",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "2-4-6",
             "total-units": 12,
@@ -143,34 +143,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.02-1",
+            "label":              "L9.02-1",
             "lecture-section-of": "9.02",
-            "timeAndPlace":       [
-                "M 16:00-17:00 46-1015"
-            ]
+            "timeAndPlace":       "M 16:00-17:00 46-1015"
         },
         {
             "type":           "LabSection",
-            "label":          "s9.02-2",
+            "label":          "B9.02-2",
             "lab-section-of": "9.02",
-            "timeAndPlace":   [
-                "W 13:00-17:00 46-1024",
-                "F 12:00-16:00 46-1024"
-            ]
+            "timeAndPlace":   "W 13:00-17:00 46-1024"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B9.02-3",
+            "lab-section-of": "9.02",
+            "timeAndPlace":   "F 12:00-16:00 46-1024"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s9.02-3",
+            "label":          "R9.02-4",
             "rec-section-of": "9.02",
-            "timeAndPlace":   [
-                "T 19:00-20:00 46-1015",
-                "T 8:00-9:00 46-1015"
-            ]
+            "timeAndPlace":   "T 19:00-20:00 46-1015"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R9.02-5",
+            "rec-section-of": "9.02",
+            "timeAndPlace":   "T 8:00-9:00 46-1015"
         },
         {
             "type":        "Class",
             "label":       "9.03 - Neural Basis of Learning and Memory",
             "id":          "9.03",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -192,6 +197,7 @@
             "type":        "Class",
             "label":       "9.036 - The Visual System",
             "id":          "9.036",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -207,6 +213,7 @@
             "type":        "Class",
             "label":       "9.04 - Neural Basis of Vision and Audition",
             "id":          "9.04",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -225,6 +232,7 @@
             "type":        "Class",
             "label":       "9.044J - Brain Mechanisms for Hearing and Speech",
             "id":          "9.044J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -252,6 +260,7 @@
             "type":        "Class",
             "label":       "9.05 - Neural Basis of Movement",
             "id":          "9.05",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -272,6 +281,7 @@
             "type":        "Class",
             "label":       "9.07 - Statistics for Brain and Cognitive Science",
             "id":          "9.07",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -290,6 +300,7 @@
             "type":        "Class",
             "label":       "9.073J - Statistics for Neuroscience Research",
             "id":          "9.073J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -308,6 +319,7 @@
             "type":        "Class",
             "label":       "9.09J - Cellular Neurobiology",
             "id":          "9.09J",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -327,25 +339,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.09J-1",
+            "label":              "L9.09J-1",
             "lecture-section-of": "9.09J",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 46-3310"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 46-3310"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s9.09J-2",
+            "label":          "R9.09J-2",
             "rec-section-of": "9.09J",
-            "timeAndPlace":   [
-                "F 13:00-14:00 46-3015",
-                "F 14:00-15:00 46-3015"
-            ]
+            "timeAndPlace":   "F 13:00-14:00 46-3015"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R9.09J-3",
+            "rec-section-of": "9.09J",
+            "timeAndPlace":   "F 14:00-15:00 46-3015"
         },
         {
             "type":        "Class",
             "label":       "9.10 - Cognitive Neuroscience",
             "id":          "9.10",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -361,6 +375,7 @@
             "type":        "Class",
             "label":       "9.110J - Molecular Pathology and Cognitive Sequelae of Age-dependent Neurological Disease",
             "id":          "9.110J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -380,6 +395,7 @@
             "type":        "Class",
             "label":       "9.12 - Experimental Molecular Neurobiology",
             "id":          "9.12",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "2-4-6",
             "total-units": 12,
@@ -406,6 +422,7 @@
             "type":        "Class",
             "label":       "9.14 - Brain Structure and Its Origins",
             "id":          "9.14",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -419,16 +436,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.14-1",
+            "label":              "L9.14-1",
             "lecture-section-of": "9.14",
-            "timeAndPlace":       [
-                "MWF 15:00-16:00 46-3015"
-            ]
+            "timeAndPlace":       "MWF 15:00-16:00 46-3015"
         },
         {
             "type":        "Class",
             "label":       "9.15 - Biochemistry and Pharmacology of Synaptic Transmission",
             "id":          "9.15",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -458,6 +474,7 @@
             "type":        "Class",
             "label":       "9.161 - Cellular Neurophysiology",
             "id":          "9.161",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -474,6 +491,7 @@
             "type":        "Class",
             "label":       "9.173J - Noninvasive Imaging in Biology and Medicine",
             "id":          "9.173J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -499,6 +517,7 @@
             "type":        "Class",
             "label":       "9.18 - Developmental Neurobiology",
             "id":          "9.18",
+            "course":      "9",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -529,24 +548,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.18-1",
+            "label":              "L9.18-1",
             "lecture-section-of": "9.18",
-            "timeAndPlace":       [
-                "TR 11:00-13:00 46-1015"
-            ]
+            "timeAndPlace":       "TR 11:00-13:00 46-1015"
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.18-2",
+            "label":              "L9.18-2",
             "lecture-section-of": "9.18",
-            "timeAndPlace":       [
-                "TR 11:00-13:00 46-1015"
-            ]
+            "timeAndPlace":       "TR 11:00-13:00 46-1015"
         },
         {
             "type":        "Class",
             "label":       "9.20 - Animal Behavior",
             "id":          "9.20",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -563,6 +579,7 @@
             "type":        "Class",
             "label":       "9.205 - Neurobiology of Animal Behavior",
             "id":          "9.205",
+            "course":      "9",
             "level":       "Grad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -578,6 +595,7 @@
             "type":        "Class",
             "label":       "9.22J - A Clinical Approach to the Human Brain",
             "id":          "9.22J",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -593,6 +611,7 @@
             "type":        "Class",
             "label":       "9.24J - Diseases of the Nervous System",
             "id":          "9.24J",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -612,16 +631,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.24J-1",
+            "label":              "L9.24J-1",
             "lecture-section-of": "9.24J",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 46-3015"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 46-3015"
         },
         {
             "type":        "Class",
             "label":       "9.272J - Topics in Neural Signal Processing",
             "id":          "9.272J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -640,6 +658,7 @@
             "type":        "Class",
             "label":       "9.285J - Neural Coding and Perception of Sound",
             "id":          "9.285J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -659,16 +678,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.285J-1",
+            "label":              "L9.285J-1",
             "lecture-section-of": "9.285J",
-            "timeAndPlace":       [
-                "MW 9:30-11:30 E51-061"
-            ]
+            "timeAndPlace":       "MW 9:30-11:30 E51-061"
         },
         {
             "type":        "Class",
             "label":       "9.29J - Introduction to Computational Neuroscience",
             "id":          "9.29J",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -688,6 +706,7 @@
             "type":        "Class",
             "label":       "9.301J - Neural Plasticity in Learning and Memory",
             "id":          "9.301J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -707,16 +726,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.301J-1",
+            "label":              "L9.301J-1",
             "lecture-section-of": "9.301J",
-            "timeAndPlace":       [
-                "R 13:00-16:00 46-5305"
-            ]
+            "timeAndPlace":       "R 13:00-16:00 46-5305"
         },
         {
             "type":        "Class",
             "label":       "9.31 - The Neurophysiology of Memory",
             "id":          "9.31",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -732,6 +750,7 @@
             "type":        "Class",
             "label":       "9.322J - Genetic Neurobiology",
             "id":          "9.322J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -751,6 +770,7 @@
             "type":        "Class",
             "label":       "9.34J - Perception, Knowledge, and Cognition",
             "id":          "9.34J",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -769,6 +789,7 @@
             "type":        "Class",
             "label":       "9.343J - Cognitive Architectures",
             "id":          "9.343J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -785,6 +806,7 @@
             "type":        "Class",
             "label":       "9.35 - Sensation and Perception",
             "id":          "9.35",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -801,24 +823,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.35-1",
+            "label":              "L9.35-1",
             "lecture-section-of": "9.35",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 46-3310"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 46-3310"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s9.35-2",
+            "label":          "R9.35-2",
             "rec-section-of": "9.35",
-            "timeAndPlace":   [
-                "T 19:00-20:00 37-212"
-            ]
+            "timeAndPlace":   "T 19:00-20:00 37-212"
         },
         {
             "type":        "Class",
             "label":       "9.357 - Special Topics in Vision Science",
             "id":          "9.357",
+            "course":      "9",
             "level":       "Grad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -837,6 +856,7 @@
             "type":        "Class",
             "label":       "9.364 - Research in Cognitive Architectures",
             "id":          "9.364",
+            "course":      "9",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -856,6 +876,7 @@
             "type":        "Class",
             "label":       "9.37J - Anigrafs",
             "id":          "9.37J",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -877,6 +898,7 @@
             "type":        "Class",
             "label":       "9.41 - Topics in Neuroscience and Cognitive Science",
             "id":          "9.41",
+            "course":      "9",
             "level":       "Undergrad",
             "units":       "2-12-4",
             "total-units": 18,
@@ -897,16 +919,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s9.41-1",
+            "label":              "L9.41-1",
             "lecture-section-of": "9.41",
-            "timeAndPlace":       [
-                "M 13:00-15:00 46-5056"
-            ]
+            "timeAndPlace":       "M 13:00-15:00 46-5056"
         },
         {
             "type":        "Class",
             "label":       "9.472J - Neuroimaging Cells and Circuits",
             "id":          "9.472J",
+            "course":      "9",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,

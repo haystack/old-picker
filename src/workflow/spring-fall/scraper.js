@@ -43,6 +43,16 @@ var addOneHour = function(s) {
   return a.join(":");
 }
 
+function adjustEveningHours(start, end) {
+    var startHour = parseInt(start.split(":")[0]);
+    var endHour = parseInt(end.split(":")[0]);
+    if (endHour < startHour) {
+        return (endHour + 12) + ":" + end.split(":")[1];
+    } else {
+        return end;
+    }
+}
+
 var addOptionalArrayProperty = function(obj, name, a) {
     if (a.length == 1) {
         obj[name] = a[0];
@@ -51,78 +61,61 @@ var addOptionalArrayProperty = function(obj, name, a) {
     }
 }
 
-function processSection(node, sectionItem, type) {
-    var empty = true;
+function searchForTimeAndPlace(node) {
+    var results = [];
     try {
         while (node != null) {
-          if (node.nodeType == 1) {
-            var tagName = node.tagName.toLowerCase();
-            if (tagName == "b") {
-              break;
-            } if (tagName == "i" && node.firstChild.nodeType == 3) {
-              var code = cleanString(node.firstChild.nodeValue);
-          
-              var n = code.search(/\d/);
-              var days = code.substr(0,n);
-              var hours = code.substr(n).split("-");
-              hours[0] = cleanHours(hours[0]);
-              if (hours.length > 1) {
-                hours[1] = cleanHours(hours[1]);
-              } else {
-                hours[1] = addOneHour(hours[0]);
-              }
-          
-              if (node.nextSibling.nextSibling.nodeName.toLowerCase() == "a") {
-                var room = cleanString(node.nextSibling.nextSibling.firstChild.nodeValue);
-              } else { var room = "Unknown"; }
-              
-              var start = hours[0];
-              var end = (hours.length > 1 ? hours[1] : "");
-          
-              var s = "";
-              for (var d = 0; d < days.length; d++) {
-                var day = days.substr(d,1);
-                if (" EVE(".indexOf(day) < 0) {
-                    /*
-                    var label = sectionItem.label + "-" + day + hours[0] + "-" + room;
-                    var lectureItem = {
-                        "type":       type,
-                        "label":      label,
-                        "section":    sectionItem.label,
-                        "day":        day,
-                        "start":      start,
-                        "end":        end,
-                        "room":       room
-                    };
-                    json.items.push(lectureItem);
-                    empty = false;
-                    */
-                    s += day;
-                    empty = false;
+            if (node.nodeType == 1) {
+                var tagName = node.tagName.toLowerCase();
+                if (tagName == "b") {
+                    break;
                 }
-              }
-              
-              if (s.length > 0) {
-                  if (!("timeAndPlace" in sectionItem)) {
-                      sectionItem.timeAndPlace = [];
-                  }
-                  sectionItem.timeAndPlace.push(s + " " + start + "-" + end + " " + room);
-              }
+                if (tagName == "i" && node.firstChild.nodeType == 3) {
+                    var code = cleanString(node.firstChild.nodeValue);
+
+                    var n = code.search(/\d/);
+                    var days = code.substr(0,n);
+                    var hours = code.substr(n).split("-");
+                    hours[0] = cleanHours(hours[0]);
+                    if (hours.length > 1) {
+                      hours[1] = adjustEveningHours(hours[0], cleanHours(hours[1]));
+                    } else {
+                      hours[1] = addOneHour(hours[0]);
+                    }
+
+                    if (node.nextSibling.nextSibling.nodeName.toLowerCase() == "a") {
+                      var room = cleanString(node.nextSibling.nextSibling.firstChild.nodeValue);
+                    } else { var room = "Unknown"; }
+
+                    var start = hours[0];
+                    var end = (hours.length > 1 ? hours[1] : "");
+
+                    var s = "";
+                    for (var d = 0; d < days.length; d++) {
+                        var day = days.substr(d,1);
+                        if (" EVE(".indexOf(day) < 0) {
+                            s += day;
+                        }
+                    }
+                    
+                    if (s.length > 0) {
+                        results.push({ days: s, start: start, end: end, room: room });
+                    }
+                }
             }
-          }
           node = node.nextSibling;
         }
     } catch (e) {}
-    
-    if (!empty) {
-        json.items.push(sectionItem);
-    }
+    return results;
+}
+
+function timeAndPlaceToString(timeAndPlace) {
+    return timeAndPlace.days + " " + timeAndPlace.start + "-" + timeAndPlace.end + " " + timeAndPlace.room;
 }
 
 function processClass(element, area, subarea) {
     var classNumber = getText(element, './b[1]/text()[1]');
     var dot = classNumber.indexOf(".");
-    var classSeries = classNumber.substr(0, dot + 2) + "xx";
     var course = classNumber.substr(0, dot);
     var url = document.location.href + "#" + classNumber;
   
@@ -273,6 +266,7 @@ function processClass(element, area, subarea) {
         "type":         "Class",
         "label":        classNumber + " - " + courseName,
         "id":           classID,
+        "course":       course,
         "level":        type,
         "units":        units,
         "total-units":  totalUnits,
@@ -303,29 +297,51 @@ function processClass(element, area, subarea) {
 
         var field = cleanString(bold.firstChild.nodeValue);
         if (field == "Lecture:") {
-            var sectionID = "s" + classNumber + "-" + sectionIndex++;
-            var sectionItem = {
-                "type":                 "LectureSection",
-                "label":                sectionID,
-                "lecture-section-of":   classID
-            };
-            processSection(bold.nextSibling, sectionItem, "Lecture");
+            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling);
+            if (timeAndPlaces.length > 0) {
+                var sectionID = "L" + classNumber + "-" + sectionIndex++;
+                var sectionItem = {
+                    "type":                 "LectureSection",
+                    "label":                sectionID,
+                    "lecture-section-of":   classID
+                };
+                
+                if (timeAndPlaces.length == 1) {
+                    sectionItem.timeAndPlace = timeAndPlaceToString(timeAndPlaces[0]);
+                } else {
+                    sectionItem.timeAndPlace = [];
+                    for (var i = 0; i < timeAndPlaces.length; i++) {
+                        sectionItem.timeAndPlace.push(timeAndPlaceToString(timeAndPlaces[i]));
+                    }
+                }
+                json.items.push(sectionItem);
+            }
         } else if (field == "Recitation:") {
-            var sectionID = "s" + classNumber + "-" + sectionIndex++;
-            var sectionItem = {
-                "type":             "RecitationSection",
-                "label":            sectionID,
-                "rec-section-of":   classID
-            };
-            processSection(bold.nextSibling, sectionItem, "Recitation");
+            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling);
+            if (timeAndPlaces.length > 0) {
+                for (var i = 0; i < timeAndPlaces.length; i++) {
+                    var sectionID = "R" + classNumber + "-" + sectionIndex++;
+                    json.items.push({
+                        "type":                 "RecitationSection",
+                        "label":                sectionID,
+                        "rec-section-of":       classID,
+                        "timeAndPlace":         timeAndPlaceToString(timeAndPlaces[i])
+                    });
+                }
+            }
         } else if (field == "Lab:") {
-            var sectionID = "s" + classNumber + "-" + sectionIndex++;
-            var sectionItem = {
-                "type":             "LabSection",
-                "label":            sectionID,
-                "lab-section-of":   classID
-            };
-            processSection(bold.nextSibling, sectionItem, "Lab");
+            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling);
+            if (timeAndPlaces.length > 0) {
+                for (var i = 0; i < timeAndPlaces.length; i++) {
+                    var sectionID = "B" + classNumber + "-" + sectionIndex++;
+                    json.items.push({
+                        "type":                 "LabSection",
+                        "label":                sectionID,
+                        "lab-section-of":       classID,
+                        "timeAndPlace":         timeAndPlaceToString(timeAndPlaces[i])
+                    });
+                }
+            }
         }
     }
 }

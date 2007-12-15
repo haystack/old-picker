@@ -18,9 +18,15 @@ function enableUnitAdder() {
 				});
 				if (reported.courses == 1) { var courseWord = ' Course'; } else { var courseWord = ' Courses'; }
 				
-				var units = { lecture: 0, lab: 0, prep: 0, total: 0, string: "" };
+				var classes = new Exhibit.Set();
 				sections.visit(function(sectionID) {
-					var classID = database.getObject(sectionID, "class");
+				    var type = database.getObject(sectionID, "type");
+					var classID = database.getObject(sectionID, sectionTypeToData[type].linkage);
+					classes.add(classID);
+				});
+				
+				var units = { lecture: 0, lab: 0, prep: 0, total: 0, string: "" };
+				classes.visit(function(classID) {
 					if (database.getObject(classID, "units") !== null) {
 						unit = database.getObject(classID, "units").split('-');
 						units.lecture = units.lecture + parseInt(unit[0]);
@@ -30,7 +36,7 @@ function enableUnitAdder() {
 					units.total = units.total + parseInt(database.getObject(classID, "total-units"));
 				});
 				
-				units.string = units.lecture+"-"+units.lab+"-"+units.prep;
+				units.string = units.lecture + "-" + units.lab + "-" + units.prep;
 				
 				var div = document.getElementById('total-units');
 				if (units.lecture + units.lab + units.prep > 0) {

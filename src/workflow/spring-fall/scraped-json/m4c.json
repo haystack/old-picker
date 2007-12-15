@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "4.601 - Introduction to Art History",
             "id":          "4.601",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -19,6 +20,7 @@
             "type":        "Class",
             "label":       "4.602 - Modern Art and Mass Culture",
             "id":          "4.602",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -35,25 +37,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.602-1",
+            "label":              "L4.602-1",
             "lecture-section-of": "4.602",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 3-133"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 3-133"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s4.602-2",
+            "label":          "R4.602-2",
             "rec-section-of": "4.602",
-            "timeAndPlace":   [
-                "T 10:00-11:00 5-216",
-                "R 13:00-14:00 5-216"
-            ]
+            "timeAndPlace":   "T 10:00-11:00 5-216"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R4.602-3",
+            "rec-section-of": "4.602",
+            "timeAndPlace":   "R 13:00-14:00 5-216"
         },
         {
             "type":        "Class",
             "label":       "4.605 - Introduction to the History and Theory of Architecture",
             "id":          "4.605",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -69,6 +73,7 @@
             "type":        "Class",
             "label":       "4.607 - Thinking About Architecture: In History and At Present",
             "id":          "4.607",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -84,6 +89,7 @@
             "type":        "Class",
             "label":       "4.609 - Seminar in the History of Art and Architecture",
             "id":          "4.609",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -99,16 +105,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.609-1",
+            "label":              "L4.609-1",
             "lecture-section-of": "4.609",
-            "timeAndPlace":       [
-                "F 9:00-12:00 5-216"
-            ]
+            "timeAndPlace":       "F 9:00-12:00 5-216"
         },
         {
             "type":        "Class",
             "label":       "4.611 - Civic Architecture in Islamic History",
             "id":          "4.611",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -124,6 +129,7 @@
             "type":        "Class",
             "label":       "4.613 - Civic Architecture in Islamic History",
             "id":          "4.613",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -140,6 +146,7 @@
             "type":        "Class",
             "label":       "4.614 - Religious Architecture and Islamic Cultures",
             "id":          "4.614",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -155,6 +162,7 @@
             "type":        "Class",
             "label":       "4.615 - The Architecture of Cairo",
             "id":          "4.615",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -171,6 +179,7 @@
             "type":        "Class",
             "label":       "4.616 - Cultural Signification in Architecture",
             "id":          "4.616",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -186,6 +195,7 @@
             "type":        "Class",
             "label":       "4.617 - Issues in Islamic Urbanism",
             "id":          "4.617",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -201,6 +211,7 @@
             "type":        "Class",
             "label":       "4.618 - The Architecture of Cairo",
             "id":          "4.618",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -216,6 +227,7 @@
             "type":        "Class",
             "label":       "4.619 - Historiography of Islamic Architecture",
             "id":          "4.619",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -231,6 +243,7 @@
             "type":        "Class",
             "label":       "4.621 - Orientalism and Representation",
             "id":          "4.621",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -247,16 +260,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.621-1",
+            "label":              "L4.621-1",
             "lecture-section-of": "4.621",
-            "timeAndPlace":       [
-                "W 14:00-17:00 4-149"
-            ]
+            "timeAndPlace":       "W 14:00-17:00 4-149"
         },
         {
             "type":        "Class",
             "label":       "4.627 - Special Problems in Islamic and NonWestern Architecture",
             "id":          "4.627",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -279,24 +291,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.627-1",
+            "label":              "L4.627-1",
             "lecture-section-of": "4.627",
-            "timeAndPlace":       [
-                "TR 12:30-14:00 1-375"
-            ]
+            "timeAndPlace":       "TR 12:30-14:00 1-375"
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.627-2",
+            "label":              "L4.627-2",
             "lecture-section-of": "4.627",
-            "timeAndPlace":       [
-                "TR 12:30-14:00 1-375"
-            ]
+            "timeAndPlace":       "TR 12:30-14:00 1-375"
         },
         {
             "type":        "Class",
             "label":       "4.634 - Renaissance Architecture",
             "id":          "4.634",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -323,6 +332,7 @@
             "type":        "Class",
             "label":       "4.638 - Advanced Study in Renaissance Architecture",
             "id":          "4.638",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -341,6 +351,7 @@
             "type":        "Class",
             "label":       "4.640 - Advanced Study in Critical Theory of Architecture",
             "id":          "4.640",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -360,16 +371,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.640-1",
+            "label":              "L4.640-1",
             "lecture-section-of": "4.640",
-            "timeAndPlace":       [
-                "R 9:30-12:30 5-216"
-            ]
+            "timeAndPlace":       "R 9:30-12:30 5-216"
         },
         {
             "type":        "Class",
             "label":       "4.641 - 19th-Century Art",
             "id":          "4.641",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -386,6 +396,7 @@
             "type":        "Class",
             "label":       "4.642 - Advanced Study in Modern Art",
             "id":          "4.642",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -407,6 +418,7 @@
             "type":        "Class",
             "label":       "4.644 - 19th-Century Art",
             "id":          "4.644",
+            "course":      "4",
             "level":       "Grad",
             "units":       "4-0-5",
             "total-units": 9,
@@ -422,6 +434,7 @@
             "type":        "Class",
             "label":       "4.645 - Selected Topics in Architecture 1750 to the Present",
             "id":          "4.645",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -437,6 +450,7 @@
             "type":        "Class",
             "label":       "4.650 - Advanced Study in Cultural and Comparative Studies of Architecture",
             "id":          "4.650",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -455,6 +469,7 @@
             "type":        "Class",
             "label":       "4.651 - 20th-Century Art",
             "id":          "4.651",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -470,6 +485,7 @@
             "type":        "Class",
             "label":       "4.654?4.656 - Advanced Study in Modern Architecture",
             "id":          "4.654?4.656",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -492,16 +508,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.654?4.656-1",
+            "label":              "L4.654?4.656-1",
             "lecture-section-of": "4.654?4.656",
-            "timeAndPlace":       [
-                "M 11:00-14:00 5-216"
-            ]
+            "timeAndPlace":       "M 11:00-14:00 5-216"
         },
         {
             "type":        "Class",
             "label":       "4.661 - Theory and Method in the Study of Architecture and Art",
             "id":          "4.661",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -520,6 +535,7 @@
             "type":        "Class",
             "label":       "4.662 - Advanced Study in the History of Urban Form",
             "id":          "4.662",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -538,6 +554,7 @@
             "type":        "Class",
             "label":       "4.663 - History of Urban Form",
             "id":          "4.663",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -553,6 +570,7 @@
             "type":        "Class",
             "label":       "4.665 - Contemporary Architecture and Critical Debate",
             "id":          "4.665",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -569,16 +587,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.665-1",
+            "label":              "L4.665-1",
             "lecture-section-of": "4.665",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 3-133"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 3-133"
         },
         {
             "type":        "Class",
             "label":       "4.666?4.669 - Special Studies in the History, Theory, and Criticism of Architecture and Urban Form",
             "id":          "4.666?4.669",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -598,16 +615,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.666?4.669-1",
+            "label":              "L4.666?4.669-1",
             "lecture-section-of": "4.666?4.669",
-            "timeAndPlace":       [
-                "M 14:00-17:00 5-216"
-            ]
+            "timeAndPlace":       "M 14:00-17:00 5-216"
         },
         {
             "type":        "Class",
             "label":       "4.670 - Nationalism, Internationalism, and Globalism in Modern Art",
             "id":          "4.670",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -634,6 +650,7 @@
             "type":        "Class",
             "label":       "4.672 - Installation Art",
             "id":          "4.672",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -659,24 +676,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.672-1",
+            "label":              "L4.672-1",
             "lecture-section-of": "4.672",
-            "timeAndPlace":       [
-                "W 14:00-17:00 5-216"
-            ]
+            "timeAndPlace":       "W 14:00-17:00 5-216"
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.672-2",
+            "label":              "L4.672-2",
             "lecture-section-of": "4.672",
-            "timeAndPlace":       [
-                "W 14:00-17:00 5-216"
-            ]
+            "timeAndPlace":       "W 14:00-17:00 5-216"
         },
         {
             "type":        "Class",
             "label":       "4.680?4.682 - Advanced Studies in the History, Theory, and Criticism of Art and Architecture",
             "id":          "4.680?4.682",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -698,6 +712,7 @@
             "type":        "Class",
             "label":       "4.689 - Preparation for History, Theory, and Criticism  Ph.D. Thesis",
             "id":          "4.689",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -719,6 +734,7 @@
             "type":        "Class",
             "label":       "4.691 - Special Studies in the History, Theory, and Criticism of Art",
             "id":          "4.691",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -746,6 +762,7 @@
             "type":        "Class",
             "label":       "4.694 - Special Studies in the History, Theory, and Criticism of Art and Architecture",
             "id":          "4.694",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -779,16 +796,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.694-1",
+            "label":              "L4.694-1",
             "lecture-section-of": "4.694",
-            "timeAndPlace":       [
-                "R 14:00-17:00 5-216"
-            ]
+            "timeAndPlace":       "R 14:00-17:00 5-216"
         },
         {
             "type":        "Class",
             "label":       "4.ThG - Graduate Thesis",
             "id":          "4.ThG",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -811,6 +827,7 @@
             "type":        "Class",
             "label":       "4.THTJ - Thesis Research Design Seminar",
             "id":          "4.THTJ",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -829,6 +846,7 @@
             "type":        "Class",
             "label":       "4.ThU - Undergraduate Thesis",
             "id":          "4.ThU",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -849,6 +867,7 @@
             "type":        "Class",
             "label":       "4.UR - Undergraduate Research in Architecture",
             "id":          "4.UR",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",

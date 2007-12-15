@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "5.50 - Enzymes: Structure and Function",
             "id":          "5.50",
+            "course":      "5",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -25,6 +26,7 @@
             "type":        "Class",
             "label":       "5.511 - Synthetic Organic Chemistry I",
             "id":          "5.511",
+            "course":      "5",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -41,6 +43,7 @@
             "type":        "Class",
             "label":       "5.512 - Synthetic Organic Chemistry II",
             "id":          "5.512",
+            "course":      "5",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -55,16 +58,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.512-1",
+            "label":              "L5.512-1",
             "lecture-section-of": "5.512",
-            "timeAndPlace":       [
-                "WF 8:30-10:00 2-105"
-            ]
+            "timeAndPlace":       "WF 8:30-10:00 2-105"
         },
         {
             "type":        "Class",
             "label":       "5.52 - Advanced Biological Chemistry",
             "id":          "5.52",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -80,6 +82,7 @@
             "type":        "Class",
             "label":       "5.53 - Molecular Structure and Reactivity I",
             "id":          "5.53",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -100,25 +103,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.53-1",
+            "label":              "L5.53-1",
             "lecture-section-of": "5.53",
-            "timeAndPlace":       [
-                "TR 8:30-10:00 56-114"
-            ]
+            "timeAndPlace":       "TR 8:30-10:00 56-114"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s5.53-2",
+            "label":          "R5.53-2",
             "rec-section-of": "5.53",
-            "timeAndPlace":   [
-                "R 11:00-12:00 8-205",
-                "F 15:00-16:00 8-205"
-            ]
+            "timeAndPlace":   "R 11:00-12:00 8-205"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.53-3",
+            "rec-section-of": "5.53",
+            "timeAndPlace":   "F 15:00-16:00 8-205"
         },
         {
             "type":        "Class",
             "label":       "5.55 - Chemical Tools for Assessing Biological Function",
             "id":          "5.55",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -140,16 +145,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.55-1",
+            "label":              "L5.55-1",
             "lecture-section-of": "5.55",
-            "timeAndPlace":       [
-                "TR 11:30-13:00 56-114"
-            ]
+            "timeAndPlace":       "TR 11:30-13:00 56-114"
         },
         {
             "type":        "Class",
             "label":       "5.56 - Molecular Structure and Reactivity II",
             "id":          "5.56",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -169,6 +173,7 @@
             "type":        "Class",
             "label":       "5.561 - Chemistry in Industry",
             "id":          "5.561",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4 [P/D/F]",
             "total-units": "Unknown",
@@ -188,16 +193,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.561-1",
+            "label":              "L5.561-1",
             "lecture-section-of": "5.561",
-            "timeAndPlace":       [
-                "TR 9:00-10:30 6-120"
-            ]
+            "timeAndPlace":       "TR 9:00-10:30 6-120"
         },
         {
             "type":        "Class",
             "label":       "5.60 - Thermodynamics and Kinetics",
             "id":          "5.60",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -223,28 +227,45 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.60-1",
+            "label":              "L5.60-1",
             "lecture-section-of": "5.60",
-            "timeAndPlace":       [
-                "MWF 10:00-11:00 54-100"
-            ]
+            "timeAndPlace":       "MWF 10:00-11:00 54-100"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s5.60-2",
+            "label":          "R5.60-2",
             "rec-section-of": "5.60",
-            "timeAndPlace":   [
-                "WF 12:00-13:00 4-265",
-                "WF 13:00-14:00 4-265",
-                "TR 10:00-11:00 38-166",
-                "TR 13:00-14:00 38-166",
-                "TR 14:00-15:00 38-166"
-            ]
+            "timeAndPlace":   "WF 12:00-13:00 4-265"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.60-3",
+            "rec-section-of": "5.60",
+            "timeAndPlace":   "WF 13:00-14:00 4-265"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.60-4",
+            "rec-section-of": "5.60",
+            "timeAndPlace":   "TR 10:00-11:00 38-166"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.60-5",
+            "rec-section-of": "5.60",
+            "timeAndPlace":   "TR 13:00-14:00 38-166"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.60-6",
+            "rec-section-of": "5.60",
+            "timeAndPlace":   "TR 14:00-15:00 38-166"
         },
         {
             "type":        "Class",
             "label":       "5.61 - Physical Chemistry",
             "id":          "5.61",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -270,6 +291,7 @@
             "type":        "Class",
             "label":       "5.62 - Physical Chemistry",
             "id":          "5.62",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -289,25 +311,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.62-1",
+            "label":              "L5.62-1",
             "lecture-section-of": "5.62",
-            "timeAndPlace":       [
-                "MWF 10:00-11:00 2-132"
-            ]
+            "timeAndPlace":       "MWF 10:00-11:00 2-132"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s5.62-2",
+            "label":          "R5.62-2",
             "rec-section-of": "5.62",
-            "timeAndPlace":   [
-                "TR 10:00-11:00 8-119",
-                "TR 13:00-14:00 24-307"
-            ]
+            "timeAndPlace":   "TR 10:00-11:00 8-119"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.62-3",
+            "rec-section-of": "5.62",
+            "timeAndPlace":   "TR 13:00-14:00 24-307"
         },
         {
             "type":        "Class",
             "label":       "5.64 - Biophysical Chemistry",
             "id":          "5.64",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -329,6 +353,7 @@
             "type":        "Class",
             "label":       "5.65 - Molecular Imaging",
             "id":          "5.65",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -350,6 +375,7 @@
             "type":        "Class",
             "label":       "5.675J - Computational Quantum Mechanics of Molecular and Extended Systems",
             "id":          "5.675J",
+            "course":      "5",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -366,6 +392,7 @@
             "type":        "Class",
             "label":       "5.68J - Kinetics of Chemical Reactions",
             "id":          "5.68J",
+            "course":      "5",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -385,16 +412,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.68J-1",
+            "label":              "L5.68J-1",
             "lecture-section-of": "5.68J",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 8-119"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 8-119"
         },
         {
             "type":        "Class",
             "label":       "5.70J - Statistical Thermodynamics with Applications to Biological Systems",
             "id":          "5.70J",
+            "course":      "5",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -418,6 +444,7 @@
             "type":        "Class",
             "label":       "5.72 - Statistical Mechanics",
             "id":          "5.72",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -436,16 +463,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.72-1",
+            "label":              "L5.72-1",
             "lecture-section-of": "5.72",
-            "timeAndPlace":       [
-                "TR 8:30-10:00 8-119"
-            ]
+            "timeAndPlace":       "TR 8:30-10:00 8-119"
         },
         {
             "type":        "Class",
             "label":       "5.73 - Introductory Quantum Mechanics I",
             "id":          "5.73",
+            "course":      "5",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -469,6 +495,7 @@
             "type":        "Class",
             "label":       "5.74 - Introductory Quantum Mechanics II",
             "id":          "5.74",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -483,16 +510,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.74-1",
+            "label":              "L5.74-1",
             "lecture-section-of": "5.74",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 26-314"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 26-314"
         },
         {
             "type":        "Class",
             "label":       "5.77J - Topics in Metabolic Biochemistry",
             "id":          "5.77J",
+            "course":      "5",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -514,6 +540,7 @@
             "type":        "Class",
             "label":       "5.78 - Biophysical Chemistry Techniques",
             "id":          "5.78",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -535,16 +562,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.78-1",
+            "label":              "L5.78-1",
             "lecture-section-of": "5.78",
-            "timeAndPlace":       [
-                "MWF 9:30-11:00 56-154"
-            ]
+            "timeAndPlace":       "MWF 9:30-11:00 56-154"
         },
         {
             "type":        "Class",
             "label":       "5.80 - Advanced Topics of Current Special Interest",
             "id":          "5.80",
+            "course":      "5",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -559,6 +585,7 @@
             "type":        "Class",
             "label":       "5.891 - Special Topics in Chemistry for Undergraduates",
             "id":          "5.891",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -584,6 +611,7 @@
             "type":        "Class",
             "label":       "5.90 - Special Problems in Chemistry",
             "id":          "5.90",
+            "course":      "5",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -606,6 +634,7 @@
             "type":        "Class",
             "label":       "5.913 - Seminar in Organic Chemistry",
             "id":          "5.913",
+            "course":      "5",
             "level":       "Grad",
             "units":       "1-0-2 [P/D/F]",
             "total-units": "Unknown",
@@ -629,16 +658,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.913-1",
+            "label":              "L5.913-1",
             "lecture-section-of": "5.913",
-            "timeAndPlace":       [
-                "R 16:00-17:30 6-120"
-            ]
+            "timeAndPlace":       "R 16:00-17:30 6-120"
         },
         {
             "type":        "Class",
             "label":       "5.92 - Energy, Environment, and Society",
             "id":          "5.92",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -656,6 +684,7 @@
             "type":        "Class",
             "label":       "5.921 - Seminar in Biological Chemistry",
             "id":          "5.921",
+            "course":      "5",
             "level":       "Grad",
             "units":       "1-0-2 [P/D/F]",
             "total-units": "Unknown",
@@ -679,16 +708,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.921-1",
+            "label":              "L5.921-1",
             "lecture-section-of": "5.921",
-            "timeAndPlace":       [
-                "M 16:00-17:30 56-114"
-            ]
+            "timeAndPlace":       "M 16:00-17:30 56-114"
         },
         {
             "type":        "Class",
             "label":       "5.931 - Seminar in Physical Chemistry",
             "id":          "5.931",
+            "course":      "5",
             "level":       "Grad",
             "units":       "1-0-2 [P/D/F]",
             "total-units": "Unknown",
@@ -713,16 +741,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.931-1",
+            "label":              "L5.931-1",
             "lecture-section-of": "5.931",
-            "timeAndPlace":       [
-                "T 16:00-17:30 4-237"
-            ]
+            "timeAndPlace":       "T 16:00-17:30 4-237"
         },
         {
             "type":        "Class",
             "label":       "5.941 - Seminar in Inorganic Chemistry",
             "id":          "5.941",
+            "course":      "5",
             "level":       "Grad",
             "units":       "1-0-2 [P/D/F]",
             "total-units": "Unknown",
@@ -753,16 +780,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.941-1",
+            "label":              "L5.941-1",
             "lecture-section-of": "5.941",
-            "timeAndPlace":       [
-                "W 16:00-17:30 6-120"
-            ]
+            "timeAndPlace":       "W 16:00-17:30 6-120"
         },
         {
             "type":        "Class",
             "label":       "5.95J - Teaching College-Level Science",
             "id":          "5.95J",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-2 [P/D/F]",
             "total-units": "Unknown",
@@ -782,6 +808,7 @@
             "type":        "Class",
             "label":       "5.CME - Study at Cambridge University",
             "id":          "5.CME",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -802,6 +829,7 @@
             "type":        "Class",
             "label":       "5.ThG - Graduate Thesis",
             "id":          "5.ThG",
+            "course":      "5",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -823,6 +851,7 @@
             "type":        "Class",
             "label":       "5.ThU - Undergraduate Thesis",
             "id":          "5.ThU",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -843,6 +872,7 @@
             "type":        "Class",
             "label":       "5.UR - Undergraduate Research",
             "id":          "5.UR",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",

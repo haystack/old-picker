@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "5.00 - Applications of Technology in Energy and the Environment",
             "id":          "5.00",
+            "course":      "5",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -30,6 +31,7 @@
             "type":        "Class",
             "label":       "5.03 - Principles of Inorganic Chemistry I",
             "id":          "5.03",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -46,29 +48,51 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.03-1",
+            "label":              "L5.03-1",
             "lecture-section-of": "5.03",
-            "timeAndPlace":       [
-                "MWF 9:00-10:00 4-270"
-            ]
+            "timeAndPlace":       "MWF 9:00-10:00 4-270"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s5.03-2",
+            "label":          "R5.03-2",
             "rec-section-of": "5.03",
-            "timeAndPlace":   [
-                "T 10:00-11:00 26-210",
-                "T 13:00-14:00 26-328",
-                "R 10:00-11:00 26-328",
-                "R 14:00-15:00 26-328",
-                "F 11:00-12:00 26-328",
-                "F 14:00-15:00 26-210"
-            ]
+            "timeAndPlace":   "T 10:00-11:00 26-210"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.03-3",
+            "rec-section-of": "5.03",
+            "timeAndPlace":   "T 13:00-14:00 26-328"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.03-4",
+            "rec-section-of": "5.03",
+            "timeAndPlace":   "R 10:00-11:00 26-328"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.03-5",
+            "rec-section-of": "5.03",
+            "timeAndPlace":   "R 14:00-15:00 26-328"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.03-6",
+            "rec-section-of": "5.03",
+            "timeAndPlace":   "F 11:00-12:00 26-328"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.03-7",
+            "rec-section-of": "5.03",
+            "timeAndPlace":   "F 14:00-15:00 26-210"
         },
         {
             "type":        "Class",
             "label":       "5.04 - Principles of Inorganic Chemistry II",
             "id":          "5.04",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -84,6 +108,7 @@
             "type":        "Class",
             "label":       "5.05 - Principles of Inorganic Chemistry III",
             "id":          "5.05",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -101,16 +126,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.05-1",
+            "label":              "L5.05-1",
             "lecture-section-of": "5.05",
-            "timeAndPlace":       [
-                "MWF 11:00-12:00 8-119"
-            ]
+            "timeAndPlace":       "MWF 11:00-12:00 8-119"
         },
         {
             "type":        "Class",
             "label":       "5.061 - Principles of Organometallic Chemistry",
             "id":          "5.061",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -127,6 +151,7 @@
             "type":        "Class",
             "label":       "5.062 - Principles of Bioinorganic Chemistry",
             "id":          "5.062",
+            "course":      "5",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -146,6 +171,7 @@
             "type":        "Class",
             "label":       "5.067 - Crystal Structure Refinement",
             "id":          "5.067",
+            "course":      "5",
             "level":       "Grad",
             "units":       "1-2-3",
             "total-units": 6,
@@ -165,6 +191,7 @@
             "type":        "Class",
             "label":       "5.068 - Physical Inorganic Chemistry",
             "id":          "5.068",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -182,16 +209,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.068-1",
+            "label":              "L5.068-1",
             "lecture-section-of": "5.068",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 8-119"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 8-119"
         },
         {
             "type":        "Class",
             "label":       "5.069 - Crystal Structure Analysis",
             "id":          "5.069",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -209,16 +235,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.069-1",
+            "label":              "L5.069-1",
             "lecture-section-of": "5.069",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 8-119"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 8-119"
         },
         {
             "type":        "Class",
             "label":       "5.07 - Biological Chemistry I",
             "id":          "5.07",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -241,6 +266,7 @@
             "type":        "Class",
             "label":       "5.08J - Biological Chemistry II",
             "id":          "5.08J",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -263,27 +289,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.08J-1",
+            "label":              "L5.08J-1",
             "lecture-section-of": "5.08J",
-            "timeAndPlace":       [
-                "MWF 11:00-12:00 1-390"
-            ]
+            "timeAndPlace":       "MWF 11:00-12:00 1-390"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s5.08J-2",
+            "label":          "R5.08J-2",
             "rec-section-of": "5.08J",
-            "timeAndPlace":   [
-                "R 11:00-12:00 26-328",
-                "R 13:00-14:00 26-210",
-                "F 13:00-14:00 26-168",
-                "F 14:00-15:00 26-168"
-            ]
+            "timeAndPlace":   "R 11:00-12:00 26-328"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.08J-3",
+            "rec-section-of": "5.08J",
+            "timeAndPlace":   "R 13:00-14:00 26-210"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.08J-4",
+            "rec-section-of": "5.08J",
+            "timeAndPlace":   "F 13:00-14:00 26-168"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.08J-5",
+            "rec-section-of": "5.08J",
+            "timeAndPlace":   "F 14:00-15:00 26-168"
         },
         {
             "type":        "Class",
             "label":       "5.111 - Principles of Chemical Science",
             "id":          "5.111",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -304,26 +342,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.111-1",
+            "label":              "L5.111-1",
             "lecture-section-of": "5.111",
-            "timeAndPlace":       [
-                "MWF 12:00-13:00 4-237"
-            ]
+            "timeAndPlace":       "MWF 12:00-13:00 4-237"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s5.111-2",
+            "label":          "R5.111-2",
             "rec-section-of": "5.111",
-            "timeAndPlace":   [
-                "TR 10:00-11:00 4-257",
-                "TR 13:00-14:00 24-121",
-                "TR 14:00-15:00 24-121"
-            ]
+            "timeAndPlace":   "TR 10:00-11:00 4-257"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.111-3",
+            "rec-section-of": "5.111",
+            "timeAndPlace":   "TR 13:00-14:00 24-121"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.111-4",
+            "rec-section-of": "5.111",
+            "timeAndPlace":   "TR 14:00-15:00 24-121"
         },
         {
             "type":        "Class",
             "label":       "5.112 - Principles of Chemical Science",
             "id":          "5.112",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -343,6 +388,7 @@
             "type":        "Class",
             "label":       "5.12 - Organic Chemistry I",
             "id":          "5.12",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -367,32 +413,69 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.12-1",
+            "label":              "L5.12-1",
             "lecture-section-of": "5.12",
-            "timeAndPlace":       [
-                "MWF 12:00-13:00 26-100"
-            ]
+            "timeAndPlace":       "MWF 12:00-13:00 26-100"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s5.12-2",
+            "label":          "R5.12-2",
             "rec-section-of": "5.12",
-            "timeAndPlace":   [
-                "MW 11:00-12:00 4-265",
-                "MW 13:00-14:00 4-257",
-                "MW 14:00-15:00 4-257",
-                "MW 15:00-16:00 4-257",
-                "TR 11:00-12:00 4-257",
-                "TR 12:00-13:00 4-257",
-                "TR 13:00-14:00 4-257",
-                "TR 14:00-15:00 4-257",
-                "TR 15:00-16:00 4-257"
-            ]
+            "timeAndPlace":   "MW 11:00-12:00 4-265"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.12-3",
+            "rec-section-of": "5.12",
+            "timeAndPlace":   "MW 13:00-14:00 4-257"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.12-4",
+            "rec-section-of": "5.12",
+            "timeAndPlace":   "MW 14:00-15:00 4-257"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.12-5",
+            "rec-section-of": "5.12",
+            "timeAndPlace":   "MW 15:00-16:00 4-257"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.12-6",
+            "rec-section-of": "5.12",
+            "timeAndPlace":   "TR 11:00-12:00 4-257"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.12-7",
+            "rec-section-of": "5.12",
+            "timeAndPlace":   "TR 12:00-13:00 4-257"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.12-8",
+            "rec-section-of": "5.12",
+            "timeAndPlace":   "TR 13:00-14:00 4-257"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.12-9",
+            "rec-section-of": "5.12",
+            "timeAndPlace":   "TR 14:00-15:00 4-257"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.12-10",
+            "rec-section-of": "5.12",
+            "timeAndPlace":   "TR 15:00-16:00 4-257"
         },
         {
             "type":        "Class",
             "label":       "5.13 - Organic Chemistry II",
             "id":          "5.13",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -411,6 +494,7 @@
             "type":        "Class",
             "label":       "5.22J - Biological Engineering Design",
             "id":          "5.22J",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -432,16 +516,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.22J-1",
+            "label":              "L5.22J-1",
             "lecture-section-of": "5.22J",
-            "timeAndPlace":       [
-                "TR 10:00-12:00 56-614"
-            ]
+            "timeAndPlace":       "TR 10:00-12:00 56-614"
         },
         {
             "type":        "Class",
             "label":       "5.24J - Archaeological Science",
             "id":          "5.24J",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "3-1-5",
             "total-units": 9,
@@ -468,16 +551,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.24J-1",
+            "label":              "L5.24J-1",
             "lecture-section-of": "5.24J",
-            "timeAndPlace":       [
-                "M 19:00-10:00 4-370"
-            ]
+            "timeAndPlace":       "M 19:00-22:00 4-370"
         },
         {
             "type":        "Class",
             "label":       "5.301 - Chemistry Laboratory Techniques",
             "id":          "5.301",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "1-4-1 [P/D/F]",
             "total-units": "Unknown",
@@ -496,6 +578,7 @@
             "type":        "Class",
             "label":       "5.302 - Introduction to Experimental Chemistry",
             "id":          "5.302",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "0-3-0 [P/D/F]",
             "total-units": "Unknown",
@@ -515,6 +598,7 @@
             "type":        "Class",
             "label":       "5.303 - Principles of Chemical Science Laboratory",
             "id":          "5.303",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "0-3-0 [P/D/F]",
             "total-units": "Unknown",
@@ -529,6 +613,7 @@
             "type":        "Class",
             "label":       "5.310 - Laboratory Chemistry",
             "id":          "5.310",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "2-8-2",
             "total-units": 12,
@@ -545,25 +630,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.310-1",
+            "label":              "L5.310-1",
             "lecture-section-of": "5.310",
-            "timeAndPlace":       [
-                "TR 10:00-11:00 4-370"
-            ]
+            "timeAndPlace":       "TR 10:00-11:00 4-370"
         },
         {
             "type":           "LabSection",
-            "label":          "s5.310-2",
+            "label":          "B5.310-2",
             "lab-section-of": "5.310",
-            "timeAndPlace":   [
-                "MW 13:00-17:00 4-430",
-                "TR 13:00-17:00 4-430"
-            ]
+            "timeAndPlace":   "MW 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.310-3",
+            "lab-section-of": "5.310",
+            "timeAndPlace":   "TR 13:00-17:00 4-430"
         },
         {
             "type":        "Class",
             "label":       "5.33 - Advanced Chemical Experimentation and Instrumentation",
             "id":          "5.33",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "2-13-6",
             "total-units": 21,
@@ -579,6 +666,7 @@
             "type":        "Class",
             "label":       "5.35 - Introduction to Experimental Chemistry",
             "id":          "5.35",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -602,26 +690,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.35-1",
+            "label":              "L5.35-1",
             "lecture-section-of": "5.35",
-            "timeAndPlace":       [
-                "TR 10:00-11:00 4-153"
-            ]
+            "timeAndPlace":       "TR 10:00-11:00 4-153"
         },
         {
             "type":           "LabSection",
-            "label":          "s5.35-2",
+            "label":          "B5.35-2",
             "lab-section-of": "5.35",
-            "timeAndPlace":   [
-                "MW 13:00-17:00 4-430",
-                "TR 13:00-17:00 4-430",
-                "Module 13:00-14:00 Unknown"
-            ]
+            "timeAndPlace":   "MW 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.35-3",
+            "lab-section-of": "5.35",
+            "timeAndPlace":   "TR 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.35-4",
+            "lab-section-of": "5.35",
+            "timeAndPlace":   "Module 13:00-14:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "5.35U - Introduction to Experimental Chemistry",
             "id":          "5.35U",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -641,25 +736,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.35U-1",
+            "label":              "L5.35U-1",
             "lecture-section-of": "5.35U",
-            "timeAndPlace":       [
-                "TR 10:00-11:00 4-153"
-            ]
+            "timeAndPlace":       "TR 10:00-11:00 4-153"
         },
         {
             "type":           "LabSection",
-            "label":          "s5.35U-2",
+            "label":          "B5.35U-2",
             "lab-section-of": "5.35U",
-            "timeAndPlace":   [
-                "MW 13:00-17:00 4-430",
-                "TR 13:00-17:00 4-430"
-            ]
+            "timeAndPlace":   "MW 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.35U-3",
+            "lab-section-of": "5.35U",
+            "timeAndPlace":   "TR 13:00-17:00 4-430"
         },
         {
             "type":        "Class",
             "label":       "5.36 - Biochemistry and Organic Laboratory",
             "id":          "5.36",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -679,28 +776,45 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.36-1",
+            "label":              "L5.36-1",
             "lecture-section-of": "5.36",
-            "timeAndPlace":       [
-                "MWF 12:00-13:00 4-153"
-            ]
+            "timeAndPlace":       "MWF 12:00-13:00 4-153"
         },
         {
             "type":           "LabSection",
-            "label":          "s5.36-2",
+            "label":          "B5.36-2",
             "lab-section-of": "5.36",
-            "timeAndPlace":   [
-                "MW 13:00-17:00 4-430",
-                "TR 13:00-17:00 4-430",
-                "Module 17:00-18:00 Unknown",
-                "Module 16:00-17:00 Unknown",
-                "Module 18:00-NaN: L: Danheiser Unknown"
-            ]
+            "timeAndPlace":   "MW 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.36-3",
+            "lab-section-of": "5.36",
+            "timeAndPlace":   "TR 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.36-4",
+            "lab-section-of": "5.36",
+            "timeAndPlace":   "Module 17:00-18:00 Unknown"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.36-5",
+            "lab-section-of": "5.36",
+            "timeAndPlace":   "Module 16:00-17:00 Unknown"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.36-6",
+            "lab-section-of": "5.36",
+            "timeAndPlace":   "Module 18:00-NaN: L: Danheiser Unknown"
         },
         {
             "type":        "Class",
             "label":       "5.36U - Biochemistry and Organic Laboratory",
             "id":          "5.36U",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -720,26 +834,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.36U-1",
+            "label":              "L5.36U-1",
             "lecture-section-of": "5.36U",
-            "timeAndPlace":       [
-                "MWF 12:00-13:00 4-153"
-            ]
+            "timeAndPlace":       "MWF 12:00-13:00 4-153"
         },
         {
             "type":           "LabSection",
-            "label":          "s5.36U-2",
+            "label":          "B5.36U-2",
             "lab-section-of": "5.36U",
-            "timeAndPlace":   [
-                "MW 13:00-17:00 4-430",
-                "TR 13:00-17:00 4-430",
-                "Module 18: L: Danheiser-19: L: Danheiser Unknown"
-            ]
+            "timeAndPlace":   "MW 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.36U-3",
+            "lab-section-of": "5.36U",
+            "timeAndPlace":   "TR 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.36U-4",
+            "lab-section-of": "5.36U",
+            "timeAndPlace":   "Module 18: L: Danheiser-19: L: Danheiser Unknown"
         },
         {
             "type":        "Class",
             "label":       "5.37 - Organic and Inorganic Laboratory",
             "id":          "5.37",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -759,28 +880,45 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.37-1",
+            "label":              "L5.37-1",
             "lecture-section-of": "5.37",
-            "timeAndPlace":       [
-                "MWF 12:00-13:00 4-153"
-            ]
+            "timeAndPlace":       "MWF 12:00-13:00 4-153"
         },
         {
             "type":           "LabSection",
-            "label":          "s5.37-2",
+            "label":          "B5.37-2",
             "lab-section-of": "5.37",
-            "timeAndPlace":   [
-                "MW 13:00-17:00 4-430",
-                "TR 13:00-17:00 4-430",
-                "Module 18:61-19:61 Unknown",
-                "Module 18:61-19:61 Unknown",
-                "Modules 8:00-9:00 Unknown"
-            ]
+            "timeAndPlace":   "MW 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.37-3",
+            "lab-section-of": "5.37",
+            "timeAndPlace":   "TR 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.37-4",
+            "lab-section-of": "5.37",
+            "timeAndPlace":   "Module 18:61-19:61 Unknown"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.37-5",
+            "lab-section-of": "5.37",
+            "timeAndPlace":   "Module 18:61-19:61 Unknown"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.37-6",
+            "lab-section-of": "5.37",
+            "timeAndPlace":   "Modules 8:00-9:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "5.37U - Organic and Inorganic Laboratory",
             "id":          "5.37U",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -800,26 +938,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.37U-1",
+            "label":              "L5.37U-1",
             "lecture-section-of": "5.37U",
-            "timeAndPlace":       [
-                "MWF 12:00-13:00 4-153"
-            ]
+            "timeAndPlace":       "MWF 12:00-13:00 4-153"
         },
         {
             "type":           "LabSection",
-            "label":          "s5.37U-2",
+            "label":          "B5.37U-2",
             "lab-section-of": "5.37U",
-            "timeAndPlace":   [
-                "MW 13:00-17:00 4-430",
-                "TR 13:00-17:00 4-430",
-                "Module 8:00-9:00 Unknown"
-            ]
+            "timeAndPlace":   "MW 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.37U-3",
+            "lab-section-of": "5.37U",
+            "timeAndPlace":   "TR 13:00-17:00 4-430"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B5.37U-4",
+            "lab-section-of": "5.37U",
+            "timeAndPlace":   "Module 8:00-9:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "5.38 - Physical Chemistry Laboratory",
             "id":          "5.38",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -837,6 +982,7 @@
             "type":        "Class",
             "label":       "5.43 - Advanced Organic Chemistry",
             "id":          "5.43",
+            "course":      "5",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -855,25 +1001,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.43-1",
+            "label":              "L5.43-1",
             "lecture-section-of": "5.43",
-            "timeAndPlace":       [
-                "TR 8:30-10:00 56-114"
-            ]
+            "timeAndPlace":       "TR 8:30-10:00 56-114"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s5.43-2",
+            "label":          "R5.43-2",
             "rec-section-of": "5.43",
-            "timeAndPlace":   [
-                "R 11:00-12:00 8-205",
-                "F 15:00-16:00 8-205"
-            ]
+            "timeAndPlace":   "R 11:00-12:00 8-205"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R5.43-3",
+            "rec-section-of": "5.43",
+            "timeAndPlace":   "F 15:00-16:00 8-205"
         },
         {
             "type":        "Class",
             "label":       "5.44 - Organometallic Chemistry",
             "id":          "5.44",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -893,6 +1041,7 @@
             "type":        "Class",
             "label":       "5.451 - Chemistry of Biomolecules I",
             "id":          "5.451",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -909,6 +1058,7 @@
             "type":        "Class",
             "label":       "5.46 - NMR Spectroscopy and Organic Structure Determination",
             "id":          "5.46",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -923,16 +1073,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s5.46-1",
+            "label":              "L5.46-1",
             "lecture-section-of": "5.46",
-            "timeAndPlace":       [
-                "MWF 10:00-11:00 4-270"
-            ]
+            "timeAndPlace":       "MWF 10:00-11:00 4-270"
         },
         {
             "type":        "Class",
             "label":       "5.47 - Tutorial in Organic Chemistry",
             "id":          "5.47",
+            "course":      "5",
             "level":       "Grad",
             "units":       "2-0-4 [P/D/F]",
             "total-units": "Unknown",
@@ -949,6 +1098,7 @@
             "type":        "Class",
             "label":       "5.48J - The Protein Folding Problem",
             "id":          "5.48J",
+            "course":      "5",
             "level":       "Grad",
             "units":       "4-2-6",
             "total-units": 12,

@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "8.01 - Physics I",
             "id":          "8.01",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -26,6 +27,7 @@
             "type":        "Class",
             "label":       "8.011 - Physics I",
             "id":          "8.011",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -46,7 +48,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.011-1",
+            "label":              "L8.011-1",
             "lecture-section-of": "8.011",
             "timeAndPlace":       [
                 "MTW 10:00-11:00 26-322",
@@ -57,16 +59,15 @@
         },
         {
             "type":           "LabSection",
-            "label":          "s8.011-2",
+            "label":          "B8.011-2",
             "lab-section-of": "8.011",
-            "timeAndPlace":   [
-                "F 10:00-11:00 34-101"
-            ]
+            "timeAndPlace":   "F 10:00-11:00 34-101"
         },
         {
             "type":        "Class",
             "label":       "8.012 - Physics I",
             "id":          "8.012",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -89,6 +90,7 @@
             "type":        "Class",
             "label":       "8.01L - Physics I",
             "id":          "8.01L",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -111,6 +113,7 @@
             "type":        "Class",
             "label":       "8.02 - Physics II",
             "id":          "8.02",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -138,7 +141,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.02-1",
+            "label":              "L8.02-1",
             "lecture-section-of": "8.02",
             "timeAndPlace":       [
                 "MW 9:00-11:00 32-082",
@@ -155,6 +158,7 @@
             "type":        "Class",
             "label":       "8.022 - Physics II",
             "id":          "8.022",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -181,29 +185,51 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.022-1",
+            "label":              "L8.022-1",
             "lecture-section-of": "8.022",
-            "timeAndPlace":       [
-                "MWF 10:00-11:00 6-120"
-            ]
+            "timeAndPlace":       "MWF 10:00-11:00 6-120"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s8.022-2",
+            "label":          "R8.022-2",
             "rec-section-of": "8.022",
-            "timeAndPlace":   [
-                "TR 9:00-10:00 24-307",
-                "TR 10:00-11:00 24-402",
-                "TR 11:00-12:00 24-402",
-                "TR 13:00-14:00 24-402",
-                "TR 14:00-15:00 24-402",
-                "TR 15:00-16:00 24-402"
-            ]
+            "timeAndPlace":   "TR 9:00-10:00 24-307"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.022-3",
+            "rec-section-of": "8.022",
+            "timeAndPlace":   "TR 10:00-11:00 24-402"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.022-4",
+            "rec-section-of": "8.022",
+            "timeAndPlace":   "TR 11:00-12:00 24-402"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.022-5",
+            "rec-section-of": "8.022",
+            "timeAndPlace":   "TR 13:00-14:00 24-402"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.022-6",
+            "rec-section-of": "8.022",
+            "timeAndPlace":   "TR 14:00-15:00 24-402"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.022-7",
+            "rec-section-of": "8.022",
+            "timeAndPlace":   "TR 15:00-16:00 24-402"
         },
         {
             "type":        "Class",
             "label":       "8.03 - Physics III",
             "id":          "8.03",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -227,27 +253,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.03-1",
+            "label":              "L8.03-1",
             "lecture-section-of": "8.03",
-            "timeAndPlace":       [
-                "MWF 15:00-16:00 6-120"
-            ]
+            "timeAndPlace":       "MWF 15:00-16:00 6-120"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s8.03-2",
+            "label":          "R8.03-2",
             "rec-section-of": "8.03",
-            "timeAndPlace":   [
-                "TR 10:00-11:00 26-302",
-                "TR 11:00-12:00 26-302",
-                "TR 13:00-14:00 26-302",
-                "TR 14:00-15:00 26-302"
-            ]
+            "timeAndPlace":   "TR 10:00-11:00 26-302"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.03-3",
+            "rec-section-of": "8.03",
+            "timeAndPlace":   "TR 11:00-12:00 26-302"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.03-4",
+            "rec-section-of": "8.03",
+            "timeAndPlace":   "TR 13:00-14:00 26-302"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.03-5",
+            "rec-section-of": "8.03",
+            "timeAndPlace":   "TR 14:00-15:00 26-302"
         },
         {
             "type":        "Class",
             "label":       "8.033 - Relativity",
             "id":          "8.033",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -267,6 +305,7 @@
             "type":        "Class",
             "label":       "8.04 - Quantum Physics I",
             "id":          "8.04",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -290,27 +329,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.04-1",
+            "label":              "L8.04-1",
             "lecture-section-of": "8.04",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 6-120"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 6-120"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s8.04-2",
+            "label":          "R8.04-2",
             "rec-section-of": "8.04",
-            "timeAndPlace":   [
-                "MW 10:00-11:00 12-122",
-                "MW 11:00-12:00 12-122",
-                "MW 14:00-15:00 12-122",
-                "MW 15:00-16:00 12-122"
-            ]
+            "timeAndPlace":   "MW 10:00-11:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.04-3",
+            "rec-section-of": "8.04",
+            "timeAndPlace":   "MW 11:00-12:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.04-4",
+            "rec-section-of": "8.04",
+            "timeAndPlace":   "MW 14:00-15:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.04-5",
+            "rec-section-of": "8.04",
+            "timeAndPlace":   "MW 15:00-16:00 12-122"
         },
         {
             "type":        "Class",
             "label":       "8.044 - Statistical Physics I",
             "id":          "8.044",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -328,29 +379,51 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.044-1",
+            "label":              "L8.044-1",
             "lecture-section-of": "8.044",
-            "timeAndPlace":       [
-                "MWF 13:00-14:00 6-120"
-            ]
+            "timeAndPlace":       "MWF 13:00-14:00 6-120"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s8.044-2",
+            "label":          "R8.044-2",
             "rec-section-of": "8.044",
-            "timeAndPlace":   [
-                "TR 9:00-10:00 12-122",
-                "TR 10:00-11:00 12-122",
-                "TR 11:00-12:00 12-122",
-                "TR 13:00-14:00 12-122",
-                "TR 14:00-15:00 12-122",
-                "TR 15:00-16:00 12-122"
-            ]
+            "timeAndPlace":   "TR 9:00-10:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.044-3",
+            "rec-section-of": "8.044",
+            "timeAndPlace":   "TR 10:00-11:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.044-4",
+            "rec-section-of": "8.044",
+            "timeAndPlace":   "TR 11:00-12:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.044-5",
+            "rec-section-of": "8.044",
+            "timeAndPlace":   "TR 13:00-14:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.044-6",
+            "rec-section-of": "8.044",
+            "timeAndPlace":   "TR 14:00-15:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.044-7",
+            "rec-section-of": "8.044",
+            "timeAndPlace":   "TR 15:00-16:00 12-122"
         },
         {
             "type":        "Class",
             "label":       "8.05 - Quantum Physics II",
             "id":          "8.05",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -367,6 +440,7 @@
             "type":        "Class",
             "label":       "8.06 - Quantum Physics III",
             "id":          "8.06",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -381,26 +455,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.06-1",
+            "label":              "L8.06-1",
             "lecture-section-of": "8.06",
-            "timeAndPlace":       [
-                "TR 12:30-14:00 6-120"
-            ]
+            "timeAndPlace":       "TR 12:30-14:00 6-120"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s8.06-2",
+            "label":          "R8.06-2",
             "rec-section-of": "8.06",
-            "timeAndPlace":   [
-                "MW 12:00-13:00 12-142",
-                "MW 13:00-14:00 12-142",
-                "MW 15:00-16:00 4-153"
-            ]
+            "timeAndPlace":   "MW 12:00-13:00 12-142"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.06-3",
+            "rec-section-of": "8.06",
+            "timeAndPlace":   "MW 13:00-14:00 12-142"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.06-4",
+            "rec-section-of": "8.06",
+            "timeAndPlace":   "MW 15:00-16:00 4-153"
         },
         {
             "type":        "Class",
             "label":       "8.07 - Electromagnetism II",
             "id":          "8.07",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -420,6 +501,7 @@
             "type":        "Class",
             "label":       "8.08 - Statistical Physics II",
             "id":          "8.08",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -437,24 +519,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.08-1",
+            "label":              "L8.08-1",
             "lecture-section-of": "8.08",
-            "timeAndPlace":       [
-                "MWF 13:00-14:00 26-328"
-            ]
+            "timeAndPlace":       "MWF 13:00-14:00 26-328"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s8.08-2",
+            "label":          "R8.08-2",
             "rec-section-of": "8.08",
-            "timeAndPlace":   [
-                "T 14:00-15:00 8-205"
-            ]
+            "timeAndPlace":   "T 14:00-15:00 8-205"
         },
         {
             "type":        "Class",
             "label":       "8.09 - Classical Mechanics II",
             "id":          "8.09",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -471,6 +550,7 @@
             "type":        "Class",
             "label":       "8.18 - Special Problems in Undergraduate Physics",
             "id":          "8.18",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -493,6 +573,7 @@
             "type":        "Class",
             "label":       "8.19 - Readings in Physics",
             "id":          "8.19",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -515,6 +596,7 @@
             "type":        "Class",
             "label":       "8.20 - Introduction to Special Relativity",
             "id":          "8.20",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -535,6 +617,7 @@
             "type":        "Class",
             "label":       "8.22J - Interactive Introduction to Nuclear Magnetic Resonance",
             "id":          "8.22J",
+            "course":      "8",
             "level":       "Grad",
             "units":       "1-2-0",
             "total-units": 3,
@@ -558,6 +641,7 @@
             "type":        "Class",
             "label":       "8.224 - Exploring Black Holes: General Relativity and Astrophysics",
             "id":          "8.224",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -577,6 +661,7 @@
             "type":        "Class",
             "label":       "8.225J - Einstein, Oppenheimer, Feynman: Physics in the 20th Century",
             "id":          "8.225J",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -594,6 +679,7 @@
             "type":        "Class",
             "label":       "8.231 - Physics of Solids I",
             "id":          "8.231",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -610,6 +696,7 @@
             "type":        "Class",
             "label":       "8.251 - String Theory for Undergraduates",
             "id":          "8.251",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -630,6 +717,7 @@
             "type":        "Class",
             "label":       "8.261J - Introduction to Computational Neuroscience",
             "id":          "8.261J",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -650,6 +738,7 @@
             "type":        "Class",
             "label":       "8.276 - Nuclear and Particle Physics",
             "id":          "8.276",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -666,6 +755,7 @@
             "type":        "Class",
             "label":       "8.277J - Introduction to Particle Accelerators",
             "id":          "8.277J",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -684,16 +774,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.277J-1",
+            "label":              "L8.277J-1",
             "lecture-section-of": "8.277J",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 8-205"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 8-205"
         },
         {
             "type":        "Class",
             "label":       "8.282J - Introduction to Astronomy",
             "id":          "8.282J",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -712,16 +801,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.282J-1",
+            "label":              "L8.282J-1",
             "lecture-section-of": "8.282J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 2-105"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 2-105"
         },
         {
             "type":        "Class",
             "label":       "8.284 - Modern Astrophysics",
             "id":          "8.284",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -736,16 +824,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.284-1",
+            "label":              "L8.284-1",
             "lecture-section-of": "8.284",
-            "timeAndPlace":       [
-                "TRF 15:00-16:00 2-151"
-            ]
+            "timeAndPlace":       "TRF 15:00-16:00 2-151"
         },
         {
             "type":        "Class",
             "label":       "8.286 - The Early Universe",
             "id":          "8.286",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -769,6 +856,7 @@
             "type":        "Class",
             "label":       "8.287J - Observational Techniques of Optical Astronomy",
             "id":          "8.287J",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-4-8",
             "total-units": 15,
@@ -791,6 +879,7 @@
             "type":        "Class",
             "label":       "8.292J - Fluid Physics",
             "id":          "8.292J",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -809,16 +898,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s8.292J-1",
+            "label":              "L8.292J-1",
             "lecture-section-of": "8.292J",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 26-168"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 26-168"
         },
         {
             "type":        "Class",
             "label":       "8.298 - Selected Topics in Physics",
             "id":          "8.298",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -841,6 +929,7 @@
             "type":        "Class",
             "label":       "8.299 - Physics Teaching",
             "id":          "8.299",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -861,6 +950,7 @@
             "type":        "Class",
             "label":       "8.UR - Undergraduate Research",
             "id":          "8.UR",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -883,6 +973,7 @@
             "type":        "Class",
             "label":       "8.ThU - Undergraduate Physics Thesis",
             "id":          "8.ThU",
+            "course":      "8",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",

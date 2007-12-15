@@ -157,9 +157,14 @@ var facetData = {
         facetLabel: 'day of week &raquo;',
         fixedOrder: 'M; T; W; R; F'
     },
-    'topic-facet': {
-        expression: '.topic',
-        facetLabel: 'topic &raquo;',
+    'area-facet': {
+        expression: '.area',
+        facetLabel: 'area &raquo;',
+        height:     '20em'
+    },
+    'subarea-facet': {
+        expression: '.subarea',
+        facetLabel: 'subarea &raquo;',
         height:     '20em'
     },
     'category-facet': {
@@ -180,22 +185,6 @@ var facetData = {
     'tqe-facet': {
         expression: '.TQE',
         facetLabel: 'TQE &raquo;'
-    },
-    'registration-facet': {
-        expression: '.registration',
-        facetLabel: 'registration &raquo;'
-    },
-    'listeners-facet': {
-        expression: '.listeners',
-        facetLabel: 'listeners &raquo;'
-    },
-    'lottery-facet': {
-        expression: '.lottery',
-        facetLabel: 'lottery &raquo;'
-    },
-    'grading-facet': {
-        expression: '.grading',
-        facetLabel: 'grading &raquo;'
     }
 };
 
@@ -237,3 +226,19 @@ function releaseColor(c) {
         }
     }
 }
+
+var sectionTypeToData = {
+    "LectureSection": {
+        linkage:    "lecture-section-of",
+        postfix:    "(lecture)"
+    },
+    "RecitationSection": {
+        linkage:    "rec-section-of",
+        postfix:    "(rec)"
+    },
+    "LabSection": {
+        linkage:    "lab-section-of",
+        postfix:    "(lab)"
+    }
+}
+

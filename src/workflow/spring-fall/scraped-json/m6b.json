@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "6.301 - Solid-State Circuits",
             "id":          "6.301",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -26,6 +27,7 @@
             "type":        "Class",
             "label":       "6.302 - Feedback Systems",
             "id":          "6.302",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -44,25 +46,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.302-1",
+            "label":              "L6.302-1",
             "lecture-section-of": "6.302",
-            "timeAndPlace":       [
-                "TR 11:00-12:00 32-141"
-            ]
+            "timeAndPlace":       "TR 11:00-12:00 32-141"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.302-2",
+            "label":          "R6.302-2",
             "rec-section-of": "6.302",
-            "timeAndPlace":   [
-                "WF 14:00-15:00 26-314",
-                "WF 15:00-16:00 26-314"
-            ]
+            "timeAndPlace":   "WF 14:00-15:00 26-314"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R6.302-3",
+            "rec-section-of": "6.302",
+            "timeAndPlace":   "WF 15:00-16:00 26-314"
         },
         {
             "type":        "Class",
             "label":       "6.331 - Advanced Circuit Techniques",
             "id":          "6.331",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -86,6 +90,7 @@
             "type":        "Class",
             "label":       "6.334 - Power Electronics",
             "id":          "6.334",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -104,16 +109,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.334-1",
+            "label":              "L6.334-1",
             "lecture-section-of": "6.334",
-            "timeAndPlace":       [
-                "MWF 13:00-14:00 32-124"
-            ]
+            "timeAndPlace":       "MWF 13:00-14:00 32-124"
         },
         {
             "type":        "Class",
             "label":       "6.336J - Introduction to Numerical Simulation",
             "id":          "6.336J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -141,6 +145,7 @@
             "type":        "Class",
             "label":       "6.337J - Introduction to Numerical Methods",
             "id":          "6.337J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -168,6 +173,7 @@
             "type":        "Class",
             "label":       "6.338J - Parallel Computing",
             "id":          "6.338J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -186,16 +192,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.338J-1",
+            "label":              "L6.338J-1",
             "lecture-section-of": "6.338J",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 1-277"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 1-277"
         },
         {
             "type":        "Class",
             "label":       "6.339J - Numerical Methods for Partial Differential Equations",
             "id":          "6.339J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -222,6 +227,7 @@
             "type":        "Class",
             "label":       "6.341 - Discrete-Time Signal Processing",
             "id":          "6.341",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -242,6 +248,7 @@
             "type":        "Class",
             "label":       "6.342 - Wavelets, Approximation, and Compression",
             "id":          "6.342",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -263,6 +270,7 @@
             "type":        "Class",
             "label":       "6.344 - Digital Image Processing",
             "id":          "6.344",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -281,16 +289,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.344-1",
+            "label":              "L6.344-1",
             "lecture-section-of": "6.344",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 56-154"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 56-154"
         },
         {
             "type":        "Class",
             "label":       "6.345J - Automatic Speech Recognition",
             "id":          "6.345J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -315,6 +322,7 @@
             "type":        "Class",
             "label":       "6.374 - Analysis and Design of Digital Integrated Circuits",
             "id":          "6.374",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -335,6 +343,7 @@
             "type":        "Class",
             "label":       "6.375 - Complex Digital Systems Design",
             "id":          "6.375",
+            "course":      "6",
             "level":       "Grad",
             "units":       "5-5-2",
             "total-units": 12,
@@ -353,16 +362,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.375-1",
+            "label":              "L6.375-1",
             "lecture-section-of": "6.375",
-            "timeAndPlace":       [
-                "MWF 14:30-16:00 32-124"
-            ]
+            "timeAndPlace":       "MWF 14:30-16:00 32-124"
         },
         {
             "type":        "Class",
             "label":       "6.376 - Low Power Analog VLSI",
             "id":          "6.376",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -380,6 +388,7 @@
             "type":        "Class",
             "label":       "6.431 - Applied Probability",
             "id":          "6.431",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -403,25 +412,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.431-1",
+            "label":              "L6.431-1",
             "lecture-section-of": "6.431",
-            "timeAndPlace":       [
-                "MW 12:00-13:00 34-101"
-            ]
+            "timeAndPlace":       "MW 12:00-13:00 34-101"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.431-2",
+            "label":          "R6.431-2",
             "rec-section-of": "6.431",
-            "timeAndPlace":   [
-                "TR 13:00-14:00 66-156",
-                "TR 14:00-15:00 66-156"
-            ]
+            "timeAndPlace":   "TR 13:00-14:00 66-156"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R6.431-3",
+            "rec-section-of": "6.431",
+            "timeAndPlace":   "TR 14:00-15:00 66-156"
         },
         {
             "type":        "Class",
             "label":       "6.434J - Statistics for Engineers and Scientists",
             "id":          "6.434J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -447,6 +458,7 @@
             "type":        "Class",
             "label":       "6.435 - System Identification",
             "id":          "6.435",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -470,6 +482,7 @@
             "type":        "Class",
             "label":       "6.436J - Fundamentals of Probability",
             "id":          "6.436J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -493,6 +506,7 @@
             "type":        "Class",
             "label":       "6.437 - Inference and Information",
             "id":          "6.437",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -516,25 +530,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.437-1",
+            "label":              "L6.437-1",
             "lecture-section-of": "6.437",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 2-105"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 2-105"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.437-2",
+            "label":          "R6.437-2",
             "rec-section-of": "6.437",
-            "timeAndPlace":   [
-                "F 10:00-11:00 26-322",
-                "F 11:00-12:00 26-322"
-            ]
+            "timeAndPlace":   "F 10:00-11:00 26-322"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R6.437-3",
+            "rec-section-of": "6.437",
+            "timeAndPlace":   "F 11:00-12:00 26-322"
         },
         {
             "type":        "Class",
             "label":       "6.438 - Algorithms for Estimation and Inference",
             "id":          "6.438",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -559,6 +575,7 @@
             "type":        "Class",
             "label":       "6.440 - Essential Coding Theory",
             "id":          "6.440",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -580,16 +597,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.440-1",
+            "label":              "L6.440-1",
             "lecture-section-of": "6.440",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 26-322"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 26-322"
         },
         {
             "type":        "Class",
             "label":       "6.441 - Information Theory",
             "id":          "6.441",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -608,16 +624,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.441-1",
+            "label":              "L6.441-1",
             "lecture-section-of": "6.441",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 32-124"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 32-124"
         },
         {
             "type":        "Class",
             "label":       "6.442 - Optical Networks",
             "id":          "6.442",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -636,16 +651,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.442-1",
+            "label":              "L6.442-1",
             "lecture-section-of": "6.442",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 36-156"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 36-156"
         },
         {
             "type":        "Class",
             "label":       "6.443J - Quantum Information Science",
             "id":          "6.443J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -668,16 +682,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.443J-1",
+            "label":              "L6.443J-1",
             "lecture-section-of": "6.443J",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 36-156"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 36-156"
         },
         {
             "type":        "Class",
             "label":       "6.450 - Principles of Digital Communication I",
             "id":          "6.450",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -698,6 +711,7 @@
             "type":        "Class",
             "label":       "6.451 - Principles of Digital Communications II",
             "id":          "6.451",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -715,6 +729,7 @@
             "type":        "Class",
             "label":       "6.452 - Principles of Wireless Communication",
             "id":          "6.452",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -735,6 +750,7 @@
             "type":        "Class",
             "label":       "6.453 - Quantum Optical Communication",
             "id":          "6.453",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -755,6 +771,7 @@
             "type":        "Class",
             "label":       "6.454 - Graduate Seminar in Area I",
             "id":          "6.454",
+            "course":      "6",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -777,6 +794,7 @@
             "type":        "Class",
             "label":       "6.455J - Sonar, Radar, and Seismic Signal Processing",
             "id":          "6.455J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -806,6 +824,7 @@
             "type":        "Class",
             "label":       "6.521J - Quantitative Physiology: Cells and Tissues",
             "id":          "6.521J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "5-2-5",
             "total-units": 12,
@@ -838,6 +857,7 @@
             "type":        "Class",
             "label":       "6.522J - Quantitative Physiology: Organ Transport Systems",
             "id":          "6.522J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -862,25 +882,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.522J-1",
+            "label":              "L6.522J-1",
             "lecture-section-of": "6.522J",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 32-124"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 32-124"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.522J-2",
+            "label":          "R6.522J-2",
             "rec-section-of": "6.522J",
-            "timeAndPlace":   [
-                "F 13:00-14:00 E25-117",
-                "F 14:00-15:00 E25-117"
-            ]
+            "timeAndPlace":   "F 13:00-14:00 E25-117"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R6.522J-3",
+            "rec-section-of": "6.522J",
+            "timeAndPlace":   "F 14:00-15:00 E25-117"
         },
         {
             "type":        "Class",
             "label":       "6.524J - Molecular, Cellular, and Tissue Biomechanics",
             "id":          "6.524J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -911,16 +933,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.524J-1",
+            "label":              "L6.524J-1",
             "lecture-section-of": "6.524J",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 32-141"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 32-141"
         },
         {
             "type":        "Class",
             "label":       "6.541J - Speech Communication",
             "id":          "6.541J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -942,16 +963,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.541J-1",
+            "label":              "L6.541J-1",
             "lecture-section-of": "6.541J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 34-302"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 34-302"
         },
         {
             "type":        "Class",
             "label":       "6.542J - Laboratory on the Physiology, Acoustics, and Perception of Speech",
             "id":          "6.542J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -976,6 +996,7 @@
             "type":        "Class",
             "label":       "6.543J - The Lexicon and Its Features",
             "id":          "6.543J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1003,6 +1024,7 @@
             "type":        "Class",
             "label":       "6.551J - Acoustics of Speech and Hearing",
             "id":          "6.551J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-1-7",
             "total-units": 12,
@@ -1029,6 +1051,7 @@
             "type":        "Class",
             "label":       "6.552J - Signal Processing by the Auditory System: Perception",
             "id":          "6.552J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1054,6 +1077,7 @@
             "type":        "Class",
             "label":       "6.555J - Biomedical Signal and Image Processing",
             "id":          "6.555J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -1082,25 +1106,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.555J-1",
+            "label":              "L6.555J-1",
             "lecture-section-of": "6.555J",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 56-154"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 56-154"
         },
         {
             "type":           "LabSection",
-            "label":          "s6.555J-2",
+            "label":          "B6.555J-2",
             "lab-section-of": "6.555J",
-            "timeAndPlace":   [
-                "W 11:00-15:00 14-0637",
-                "F 11:00-15:00 14-0637"
-            ]
+            "timeAndPlace":   "W 11:00-15:00 14-0637"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B6.555J-3",
+            "lab-section-of": "6.555J",
+            "timeAndPlace":   "F 11:00-15:00 14-0637"
         },
         {
             "type":        "Class",
             "label":       "6.556J - Data Acquisition and Image Reconstruction in MRI",
             "id":          "6.556J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1121,6 +1147,7 @@
             "type":        "Class",
             "label":       "6.561J - Fields, Forces, and Flows in Biological Systems",
             "id":          "6.561J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1149,6 +1176,7 @@
             "type":        "Class",
             "label":       "6.566J - Biosensors, Signal Processing, and Biomedical Applications",
             "id":          "6.566J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -1169,6 +1197,7 @@
             "type":        "Class",
             "label":       "6.581J - Foundations of Algorithms and Computational Techniques in Systems Biology",
             "id":          "6.581J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1197,6 +1226,7 @@
             "type":        "Class",
             "label":       "6.582J - Introduction to Molecular Simulations",
             "id":          "6.582J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1219,6 +1249,7 @@
             "type":        "Class",
             "label":       "6.602 - Fundamentals of Photonics",
             "id":          "6.602",
+            "course":      "6",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1238,24 +1269,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.602-1",
+            "label":              "L6.602-1",
             "lecture-section-of": "6.602",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 36-144"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 36-144"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.602-2",
+            "label":          "R6.602-2",
             "rec-section-of": "6.602",
-            "timeAndPlace":   [
-                "F 14:00-15:00 26-328"
-            ]
+            "timeAndPlace":   "F 14:00-15:00 26-328"
         },
         {
             "type":        "Class",
             "label":       "6.608J - Introduction to Particle Accelerators",
             "id":          "6.608J",
+            "course":      "6",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1274,16 +1302,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.608J-1",
+            "label":              "L6.608J-1",
             "lecture-section-of": "6.608J",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 8-205"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 8-205"
         },
         {
             "type":        "Class",
             "label":       "6.621 - Fundamentals of Photonics",
             "id":          "6.621",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1305,24 +1332,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.621-1",
+            "label":              "L6.621-1",
             "lecture-section-of": "6.621",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 36-144"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 36-144"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.621-2",
+            "label":          "R6.621-2",
             "rec-section-of": "6.621",
-            "timeAndPlace":   [
-                "F 14:00-15:00 26-328"
-            ]
+            "timeAndPlace":   "F 14:00-15:00 26-328"
         },
         {
             "type":        "Class",
             "label":       "6.630 - Electromagnetics",
             "id":          "6.630",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1343,6 +1367,7 @@
             "type":        "Class",
             "label":       "6.631 - Optics and Photonics",
             "id":          "6.631",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1363,6 +1388,7 @@
             "type":        "Class",
             "label":       "6.632 - Electromagnetic Wave Theory",
             "id":          "6.632",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1382,16 +1408,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.632-1",
+            "label":              "L6.632-1",
             "lecture-section-of": "6.632",
-            "timeAndPlace":       [
-                "TR 15:00-17:00 26-314"
-            ]
+            "timeAndPlace":       "TR 15:00-17:00 26-314"
         },
         {
             "type":        "Class",
             "label":       "6.634J - Nonlinear Optics",
             "id":          "6.634J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1414,16 +1439,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.634J-1",
+            "label":              "L6.634J-1",
             "lecture-section-of": "6.634J",
-            "timeAndPlace":       [
-                "MW 15:00-16:30 36-372"
-            ]
+            "timeAndPlace":       "MW 15:00-16:30 36-372"
         },
         {
             "type":        "Class",
             "label":       "6.635 - Topics in Electromagnetism",
             "id":          "6.635",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1448,6 +1472,7 @@
             "type":        "Class",
             "label":       "6.637 - Optical Signals, Devices, and Systems",
             "id":          "6.637",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1470,6 +1495,7 @@
             "type":        "Class",
             "label":       "6.638 - Ultrafast Optics",
             "id":          "6.638",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1490,6 +1516,7 @@
             "type":        "Class",
             "label":       "6.641 - Electromagnetic Fields, Forces, and Motion",
             "id":          "6.641",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1508,24 +1535,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.641-1",
+            "label":              "L6.641-1",
             "lecture-section-of": "6.641",
-            "timeAndPlace":       [
-                "TR 10:00-11:00 34-304"
-            ]
+            "timeAndPlace":       "TR 10:00-11:00 34-304"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.641-2",
+            "label":          "R6.641-2",
             "rec-section-of": "6.641",
-            "timeAndPlace":   [
-                "WF 10:00-11:00 34-304"
-            ]
+            "timeAndPlace":   "WF 10:00-11:00 34-304"
         },
         {
             "type":        "Class",
             "label":       "6.642 - Continuum Electromechanics",
             "id":          "6.642",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1543,6 +1567,7 @@
             "type":        "Class",
             "label":       "6.651J - Introduction to Plasma Physics I",
             "id":          "6.651J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1571,6 +1596,7 @@
             "type":        "Class",
             "label":       "6.652J - Introduction to Plasma Physics II",
             "id":          "6.652J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1592,24 +1618,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.652J-1",
+            "label":              "L6.652J-1",
             "lecture-section-of": "6.652J",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 36-155"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 36-155"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.652J-2",
+            "label":          "R6.652J-2",
             "rec-section-of": "6.652J",
-            "timeAndPlace":   [
-                "F 14:00-15:30 26-142"
-            ]
+            "timeAndPlace":   "F 14:00-15:30 26-142"
         },
         {
             "type":        "Class",
             "label":       "6.661J - Receivers, Antennas, and Signals",
             "id":          "6.661J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1637,6 +1660,7 @@
             "type":        "Class",
             "label":       "6.673 - Introduction to Numerical Simulation in Electrical Engineering",
             "id":          "6.673",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1658,16 +1682,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.673-1",
+            "label":              "L6.673-1",
             "lecture-section-of": "6.673",
-            "timeAndPlace":       [
-                "MWF 12:00-13:00 34-301"
-            ]
+            "timeAndPlace":       "MWF 12:00-13:00 34-301"
         },
         {
             "type":        "Class",
             "label":       "6.685 - Electric Machines",
             "id":          "6.685",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1690,6 +1713,7 @@
             "type":        "Class",
             "label":       "6.690 - Introduction to Electric Power Systems",
             "id":          "6.690",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1714,6 +1738,7 @@
             "type":        "Class",
             "label":       "6.691 - Seminar in Electric Power Systems",
             "id":          "6.691",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1734,16 +1759,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.691-1",
+            "label":              "L6.691-1",
             "lecture-section-of": "6.691",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 34-303"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 34-303"
         },
         {
             "type":        "Class",
             "label":       "6.701 - Introduction to Nano Electronics",
             "id":          "6.701",
+            "course":      "6",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1761,24 +1785,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.701-1",
+            "label":              "L6.701-1",
             "lecture-section-of": "6.701",
-            "timeAndPlace":       [
-                "MW 11:00-12:00 2-147"
-            ]
+            "timeAndPlace":       "MW 11:00-12:00 2-147"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.701-2",
+            "label":          "R6.701-2",
             "rec-section-of": "6.701",
-            "timeAndPlace":   [
-                "TR 11:00-12:00 36-155"
-            ]
+            "timeAndPlace":   "TR 11:00-12:00 36-155"
         },
         {
             "type":        "Class",
             "label":       "6.719 - Nano Electronics",
             "id":          "6.719",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1797,24 +1818,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.719-1",
+            "label":              "L6.719-1",
             "lecture-section-of": "6.719",
-            "timeAndPlace":       [
-                "MW 11:00-12:00 2-147"
-            ]
+            "timeAndPlace":       "MW 11:00-12:00 2-147"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.719-2",
+            "label":          "R6.719-2",
             "rec-section-of": "6.719",
-            "timeAndPlace":   [
-                "TR 11:00-12:00 36-155"
-            ]
+            "timeAndPlace":   "TR 11:00-12:00 36-155"
         },
         {
             "type":        "Class",
             "label":       "6.720J - Integrated Microelectronic Devices",
             "id":          "6.720J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1839,6 +1857,7 @@
             "type":        "Class",
             "label":       "6.728 - Applied Quantum and Statistical Physics",
             "id":          "6.728",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1864,6 +1883,7 @@
             "type":        "Class",
             "label":       "6.729 - Molecular Electronics",
             "id":          "6.729",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1884,6 +1904,7 @@
             "type":        "Class",
             "label":       "6.730 - Physics for Solid-State Applications",
             "id":          "6.730",
+            "course":      "6",
             "level":       "Grad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -1905,25 +1926,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.730-1",
+            "label":              "L6.730-1",
             "lecture-section-of": "6.730",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 26-168"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 26-168"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.730-2",
+            "label":          "R6.730-2",
             "rec-section-of": "6.730",
-            "timeAndPlace":   [
-                "F 13:00-14:00 26-322",
-                "F 14:00-15:00 26-322"
-            ]
+            "timeAndPlace":   "F 13:00-14:00 26-322"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R6.730-3",
+            "rec-section-of": "6.730",
+            "timeAndPlace":   "F 14:00-15:00 26-322"
         },
         {
             "type":        "Class",
             "label":       "6.731 - Semiconductor Optoelectronics: Theory and Design",
             "id":          "6.731",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1944,6 +1967,7 @@
             "type":        "Class",
             "label":       "6.732 - Physics of Solids",
             "id":          "6.732",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1964,6 +1988,7 @@
             "type":        "Class",
             "label":       "6.763 - Applied Superconductivity",
             "id":          "6.763",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1984,6 +2009,7 @@
             "type":        "Class",
             "label":       "6.772 - Compound Semiconductor and Heterostructure Devices",
             "id":          "6.772",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -2004,6 +2030,7 @@
             "type":        "Class",
             "label":       "6.774 - Physics of Microfabrication: Front End Processing",
             "id":          "6.774",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2024,6 +2051,7 @@
             "type":        "Class",
             "label":       "6.775 - CMOS Analog and Mixed-Signal Circuit Design",
             "id":          "6.775",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2042,16 +2070,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.775-1",
+            "label":              "L6.775-1",
             "lecture-section-of": "6.775",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 36-156"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 36-156"
         },
         {
             "type":        "Class",
             "label":       "6.776 - High Speed Communication Circuits",
             "id":          "6.776",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -2074,16 +2101,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.776-1",
+            "label":              "L6.776-1",
             "lecture-section-of": "6.776",
-            "timeAndPlace":       [
-                "WF 9:30-11:00 36-112"
-            ]
+            "timeAndPlace":       "WF 9:30-11:00 36-112"
         },
         {
             "type":        "Class",
             "label":       "6.777J - Design and Fabrication of MEMS",
             "id":          "6.777J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -2108,16 +2134,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.777J-1",
+            "label":              "L6.777J-1",
             "lecture-section-of": "6.777J",
-            "timeAndPlace":       [
-                "WF 11:00-12:30 26-168"
-            ]
+            "timeAndPlace":       "WF 11:00-12:30 26-168"
         },
         {
             "type":        "Class",
             "label":       "6.778J - Materials and Processes for Microelectromechanical Devices and Systems",
             "id":          "6.778J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2146,24 +2171,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.778J-1",
+            "label":              "L6.778J-1",
             "lecture-section-of": "6.778J",
-            "timeAndPlace":       [
-                "MW 8:00-9:30 9-057"
-            ]
+            "timeAndPlace":       "MW 8:00-9:30 9-057"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.778J-2",
+            "label":          "R6.778J-2",
             "rec-section-of": "6.778J",
-            "timeAndPlace":   [
-                "F 9:00-11:00 66-156"
-            ]
+            "timeAndPlace":   "F 9:00-11:00 66-156"
         },
         {
             "type":        "Class",
             "label":       "6.780J - Control of Manufacturing Processes",
             "id":          "6.780J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2190,16 +2212,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.780J-1",
+            "label":              "L6.780J-1",
             "lecture-section-of": "6.780J",
-            "timeAndPlace":       [
-                "TR 8:00-9:30 8-404"
-            ]
+            "timeAndPlace":       "TR 8:00-9:30 8-404"
         },
         {
             "type":        "Class",
             "label":       "6.781J - Submicrometer and Nanometer Technology",
             "id":          "6.781J",
+            "course":      "6",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2219,24 +2240,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s6.781J-1",
+            "label":              "L6.781J-1",
             "lecture-section-of": "6.781J",
-            "timeAndPlace":       [
-                "TR 8:30-11:00 1-390"
-            ]
+            "timeAndPlace":       "TR 8:30-11:00 1-390"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s6.781J-2",
+            "label":          "R6.781J-2",
             "rec-section-of": "6.781J",
-            "timeAndPlace":   [
-                "F 9:00-10:00 9-057"
-            ]
+            "timeAndPlace":   "F 9:00-10:00 9-057"
         },
         {
             "type":        "Class",
             "label":       "6.789 - Organic Optoelectronics",
             "id":          "6.789",
+            "course":      "6",
             "level":       "Grad",
             "units":       "4-1-7",
             "total-units": 12,

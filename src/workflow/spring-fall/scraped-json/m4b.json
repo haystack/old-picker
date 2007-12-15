@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "4.301 - Introduction to the Visual Arts",
             "id":          "4.301",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "2-4-6",
             "total-units": 12,
@@ -21,17 +22,21 @@
         },
         {
             "type":           "LabSection",
-            "label":          "s4.301-1",
+            "label":          "B4.301-1",
             "lab-section-of": "4.301",
-            "timeAndPlace":   [
-                "TR 14:00-17:00 N51-145",
-                "MW 9:30-12:30 N51-145"
-            ]
+            "timeAndPlace":   "TR 14:00-17:00 N51-145"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B4.301-2",
+            "lab-section-of": "4.301",
+            "timeAndPlace":   "MW 9:30-12:30 N51-145"
         },
         {
             "type":        "Class",
             "label":       "4.302 - BSAD Foundations in the Visual Arts",
             "id":          "4.302",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "2-4-6",
             "total-units": 12,
@@ -47,6 +52,7 @@
             "type":        "Class",
             "label":       "4.303 - The Production of Space: Art, Architecture, and Urbanism in Dialogue",
             "id":          "4.303",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-3-3",
             "total-units": 9,
@@ -61,6 +67,7 @@
             "type":        "Class",
             "label":       "4.305 - Advanced Visual Arts Studio",
             "id":          "4.305",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -75,16 +82,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.305-1",
+            "label":              "L4.305-1",
             "lecture-section-of": "4.305",
-            "timeAndPlace":       [
-                "TR 9:30-12:30 N51-145"
-            ]
+            "timeAndPlace":       "TR 9:30-12:30 N51-145"
         },
         {
             "type":        "Class",
             "label":       "4.306 - Advanced Visual Arts Studio",
             "id":          "4.306",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -99,16 +105,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.306-1",
+            "label":              "L4.306-1",
             "lecture-section-of": "4.306",
-            "timeAndPlace":       [
-                "TR 9:30-12:30 N51-145"
-            ]
+            "timeAndPlace":       "TR 9:30-12:30 N51-145"
         },
         {
             "type":        "Class",
             "label":       "4.322 - Introduction to Sculpture",
             "id":          "4.322",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "2-4-6",
             "total-units": 12,
@@ -124,6 +129,7 @@
             "type":        "Class",
             "label":       "4.341 - Introduction to Photography and Related Media",
             "id":          "4.341",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -140,16 +146,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.341-1",
+            "label":              "L4.341-1",
             "lecture-section-of": "4.341",
-            "timeAndPlace":       [
-                "TR 14:00-17:00 N51-315"
-            ]
+            "timeAndPlace":       "TR 14:00-17:00 N51-315"
         },
         {
             "type":        "Class",
             "label":       "4.343 - Photography and Related Media",
             "id":          "4.343",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -168,16 +173,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.343-1",
+            "label":              "L4.343-1",
             "lecture-section-of": "4.343",
-            "timeAndPlace":       [
-                "W 17:30-8:30 N51-315"
-            ]
+            "timeAndPlace":       "W 17:30-20:30 N51-315"
         },
         {
             "type":        "Class",
             "label":       "4.351 - Introduction to Video",
             "id":          "4.351",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "2-4-6",
             "total-units": 12,
@@ -194,16 +198,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.351-1",
+            "label":              "L4.351-1",
             "lecture-section-of": "4.351",
-            "timeAndPlace":       [
-                "MW 14:00-17:00 N51-315"
-            ]
+            "timeAndPlace":       "MW 14:00-17:00 N51-315"
         },
         {
             "type":        "Class",
             "label":       "4.352 - Advanced Video",
             "id":          "4.352",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "2-4-6",
             "total-units": 12,
@@ -224,16 +227,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.352-1",
+            "label":              "L4.352-1",
             "lecture-section-of": "4.352",
-            "timeAndPlace":       [
-                "TR 19:00-10:00 N51-315"
-            ]
+            "timeAndPlace":       "TR 19:00-22:00 N51-315"
         },
         {
             "type":        "Class",
             "label":       "4.353 - Advanced Video",
             "id":          "4.353",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -251,16 +253,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.353-1",
+            "label":              "L4.353-1",
             "lecture-section-of": "4.353",
-            "timeAndPlace":       [
-                "TR 19:00-10:00 N51-315"
-            ]
+            "timeAndPlace":       "TR 19:00-22:00 N51-315"
         },
         {
             "type":        "Class",
             "label":       "4.360 - Performance Workshop",
             "id":          "4.360",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -279,6 +280,7 @@
             "type":        "Class",
             "label":       "4.365 - Advanced Projects in Visual Arts",
             "id":          "4.365",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -298,16 +300,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.365-1",
+            "label":              "L4.365-1",
             "lecture-section-of": "4.365",
-            "timeAndPlace":       [
-                "W 14:00-17:00 N51-337"
-            ]
+            "timeAndPlace":       "W 14:00-17:00 N51-337"
         },
         {
             "type":        "Class",
             "label":       "4.366 - Advanced Projects in Visual Arts",
             "id":          "4.366",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "2-4-6",
             "total-units": 12,
@@ -329,6 +330,7 @@
             "type":        "Class",
             "label":       "4.367 - Studio Seminar in Public Art",
             "id":          "4.367",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -343,16 +345,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.367-1",
+            "label":              "L4.367-1",
             "lecture-section-of": "4.367",
-            "timeAndPlace":       [
-                "MW 14:00-17:00 9-255"
-            ]
+            "timeAndPlace":       "MW 14:00-17:00 9-255"
         },
         {
             "type":        "Class",
             "label":       "4.368 - Studio Seminar in Public Art",
             "id":          "4.368",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -367,16 +368,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.368-1",
+            "label":              "L4.368-1",
             "lecture-section-of": "4.368",
-            "timeAndPlace":       [
-                "MW 14:00-17:00 9-255"
-            ]
+            "timeAndPlace":       "MW 14:00-17:00 9-255"
         },
         {
             "type":        "Class",
             "label":       "4.370 - Interrogative Design Workshop",
             "id":          "4.370",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -396,6 +396,7 @@
             "type":        "Class",
             "label":       "4.371 - Interrogative Design Workshop",
             "id":          "4.371",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -411,6 +412,7 @@
             "type":        "Class",
             "label":       "4.381 - Advanced Visual Design",
             "id":          "4.381",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -432,6 +434,7 @@
             "type":        "Class",
             "label":       "4.388 - Preparation for SMVisS Thesis",
             "id":          "4.388",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -445,16 +448,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.388-1",
+            "label":              "L4.388-1",
             "lecture-section-of": "4.388",
-            "timeAndPlace":       [
-                "T 14:00-17:00 N52-314"
-            ]
+            "timeAndPlace":       "T 14:00-17:00 N52-314"
         },
         {
             "type":        "Class",
             "label":       "4.389 - SMVisS Thesis Tutorial",
             "id":          "4.389",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -472,16 +474,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.389-1",
+            "label":              "L4.389-1",
             "lecture-section-of": "4.389",
-            "timeAndPlace":       [
-                "R 9:30-12:30 N52-314"
-            ]
+            "timeAndPlace":       "R 9:30-12:30 N52-314"
         },
         {
             "type":        "Class",
             "label":       "4.390 - Visual Arts Independent Studio",
             "id":          "4.390",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -501,16 +502,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.390-1",
+            "label":              "L4.390-1",
             "lecture-section-of": "4.390",
-            "timeAndPlace":       [
-                "T 9:00-12:30 N51-348"
-            ]
+            "timeAndPlace":       "T 9:00-12:30 N51-348"
         },
         {
             "type":        "Class",
             "label":       "4.391-4.393 - Special Problems in Visual Arts",
             "id":          "4.391-4.393",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -547,6 +547,7 @@
             "type":        "Class",
             "label":       "4.401 - Introduction to Building Technology",
             "id":          "4.401",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -559,24 +560,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.401-1",
+            "label":              "L4.401-1",
             "lecture-section-of": "4.401",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 3-133"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 3-133"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s4.401-2",
+            "label":          "R4.401-2",
             "rec-section-of": "4.401",
-            "timeAndPlace":   [
-                "F 11:00-12:00 5-134"
-            ]
+            "timeAndPlace":   "F 11:00-12:00 5-134"
         },
         {
             "type":        "Class",
             "label":       "4.406 - Ecologies of Construction",
             "id":          "4.406",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -592,6 +590,7 @@
             "type":        "Class",
             "label":       "4.408 - Special Problems in Building Construction",
             "id":          "4.408",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -612,6 +611,7 @@
             "type":        "Class",
             "label":       "4.411 - Building Technology Laboratory",
             "id":          "4.411",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "2-4-6",
             "total-units": 12,
@@ -631,6 +631,7 @@
             "type":        "Class",
             "label":       "4.42J - Fundamentals of Energy in Buildings",
             "id":          "4.42J",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -652,6 +653,7 @@
             "type":        "Class",
             "label":       "4.423J - Architectural Thermal and Fluid Dynamics",
             "id":          "4.423J",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -676,6 +678,7 @@
             "type":        "Class",
             "label":       "4.427J - Analysis and Design of Heating, Ventilating, and Air Conditioning Systems",
             "id":          "4.427J",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -699,16 +702,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.427J-1",
+            "label":              "L4.427J-1",
             "lecture-section-of": "4.427J",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 1-132"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 1-132"
         },
         {
             "type":        "Class",
             "label":       "4.428, 4.429 - Special Problems in Energy in Buildings",
             "id":          "4.428, 4.429",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -733,6 +735,7 @@
             "type":        "Class",
             "label":       "4.430 - Daylighting",
             "id":          "4.430",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -749,6 +752,7 @@
             "type":        "Class",
             "label":       "4.431 - Architectural Acoustics",
             "id":          "4.431",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -763,16 +767,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.431-1",
+            "label":              "L4.431-1",
             "lecture-section-of": "4.431",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 5-232"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 5-232"
         },
         {
             "type":        "Class",
             "label":       "4.438 - Special Problems in Architectural Lighting",
             "id":          "4.438",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -794,6 +797,7 @@
             "type":        "Class",
             "label":       "4.439 - Special Problems in Architectural Lighting",
             "id":          "4.439",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -815,6 +819,7 @@
             "type":        "Class",
             "label":       "4.440 - Basic Structural Design",
             "id":          "4.440",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -829,24 +834,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.440-1",
+            "label":              "L4.440-1",
             "lecture-section-of": "4.440",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 3-133"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 3-133"
         },
         {
             "type":           "LabSection",
-            "label":          "s4.440-2",
+            "label":          "B4.440-2",
             "lab-section-of": "4.440",
-            "timeAndPlace":   [
-                "M 14:00-17:00 26-314"
-            ]
+            "timeAndPlace":   "M 14:00-17:00 26-314"
         },
         {
             "type":        "Class",
             "label":       "4.444 - Analysis of Historic Structures",
             "id":          "4.444",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -862,6 +864,7 @@
             "type":        "Class",
             "label":       "4.445 - Analysis of Historic Structures",
             "id":          "4.445",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -877,6 +880,7 @@
             "type":        "Class",
             "label":       "4.447J - Design for Sustainability",
             "id":          "4.447J",
+            "course":      "4",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -897,6 +901,7 @@
             "type":        "Class",
             "label":       "4.448, 4.449 - Special Problems in Structural Design",
             "id":          "4.448, 4.449",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -918,6 +923,7 @@
             "type":        "Class",
             "label":       "4.461 - Building Technology I: Materials and Construction",
             "id":          "4.461",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-1-5",
             "total-units": 9,
@@ -932,6 +938,7 @@
             "type":        "Class",
             "label":       "4.462 - Building Technologies II: Building Structural Systems I",
             "id":          "4.462",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-2-4",
             "total-units": 9,
@@ -945,24 +952,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.462-1",
+            "label":              "L4.462-1",
             "lecture-section-of": "4.462",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 3-133"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 3-133"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s4.462-2",
+            "label":          "R4.462-2",
             "rec-section-of": "4.462",
-            "timeAndPlace":   [
-                "W 17:00-19:00 5-233"
-            ]
+            "timeAndPlace":   "W 17:00-19:00 5-233"
         },
         {
             "type":        "Class",
             "label":       "4.463 - Building Technology III: Building Structural Systems II",
             "id":          "4.463",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-2-4",
             "total-units": 9,
@@ -981,6 +985,7 @@
             "type":        "Class",
             "label":       "4.464 - Building Technologies IV: Energy in Building Design",
             "id":          "4.464",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-1-5",
             "total-units": 9,
@@ -997,16 +1002,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.464-1",
+            "label":              "L4.464-1",
             "lecture-section-of": "4.464",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 5-217"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 5-217"
         },
         {
             "type":        "Class",
             "label":       "4.481 - Building Technology Seminar",
             "id":          "4.481",
+            "course":      "4",
             "level":       "Grad",
             "units":       "2-0-1",
             "total-units": 3,
@@ -1028,6 +1032,7 @@
             "type":        "Class",
             "label":       "4.488 - Preparation for S.M.B.T. Thesis",
             "id":          "4.488",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1051,6 +1056,7 @@
             "type":        "Class",
             "label":       "4.489 - Preparation for Building Technology Ph.D. Thesis",
             "id":          "4.489",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1074,6 +1080,7 @@
             "type":        "Class",
             "label":       "4.491?4.493 - Special Problems in Building Technology",
             "id":          "4.491?4.493",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1113,6 +1120,7 @@
             "type":        "Class",
             "label":       "4.500 - Introduction to Design Computing",
             "id":          "4.500",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -1125,25 +1133,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.500-1",
+            "label":              "L4.500-1",
             "lecture-section-of": "4.500",
-            "timeAndPlace":       [
-                "M 9:30-11:00 5-217"
-            ]
+            "timeAndPlace":       "M 9:30-11:00 5-217"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s4.500-2",
+            "label":          "R4.500-2",
             "rec-section-of": "4.500",
-            "timeAndPlace":   [
-                "W 9:30-11:00 9-251",
-                "R 9:30-11:00 9-251"
-            ]
+            "timeAndPlace":   "W 9:30-11:00 9-251"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R4.500-3",
+            "rec-section-of": "4.500",
+            "timeAndPlace":   "R 9:30-11:00 9-251"
         },
         {
             "type":        "Class",
             "label":       "4.501 - Architectural Construction and Computation",
             "id":          "4.501",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -1159,6 +1169,7 @@
             "type":        "Class",
             "label":       "4.510 - Digital Design Fabrication",
             "id":          "4.510",
+            "course":      "4",
             "level":       "Grad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -1178,6 +1189,7 @@
             "type":        "Class",
             "label":       "4.512 - Special Projects in Architectural Digital Fabrication",
             "id":          "4.512",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1199,6 +1211,7 @@
             "type":        "Class",
             "label":       "4.513 - Special Problems in Digital Fabrication",
             "id":          "4.513",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1221,6 +1234,7 @@
             "type":        "Class",
             "label":       "4.514 - Special Problems in Digital Fabrication",
             "id":          "4.514",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1243,6 +1257,7 @@
             "type":        "Class",
             "label":       "4.520 - Computational Design I: Theory and Applications",
             "id":          "4.520",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1258,6 +1273,7 @@
             "type":        "Class",
             "label":       "4.521 - Computational Design I: Theory and Applications",
             "id":          "4.521",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1273,6 +1289,7 @@
             "type":        "Class",
             "label":       "4.522 - Computational Design II: Theory and Applications",
             "id":          "4.522",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1289,16 +1306,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.522-1",
+            "label":              "L4.522-1",
             "lecture-section-of": "4.522",
-            "timeAndPlace":       [
-                "F 9:00-12:00 9-255"
-            ]
+            "timeAndPlace":       "F 9:00-12:00 9-255"
         },
         {
             "type":        "Class",
             "label":       "4.523 - Computational Design II: Theory and Applications",
             "id":          "4.523",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1316,16 +1332,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.523-1",
+            "label":              "L4.523-1",
             "lecture-section-of": "4.523",
-            "timeAndPlace":       [
-                "F 9:00-12:00 9-255"
-            ]
+            "timeAndPlace":       "F 9:00-12:00 9-255"
         },
         {
             "type":        "Class",
             "label":       "4.540 - Introduction to Shape Grammars I",
             "id":          "4.540",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1340,6 +1355,7 @@
             "type":        "Class",
             "label":       "4.541 - Introduction to Shape Grammars II",
             "id":          "4.541",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1354,16 +1370,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.541-1",
+            "label":              "L4.541-1",
             "lecture-section-of": "4.541",
-            "timeAndPlace":       [
-                "M 9:00-12:00 4-146"
-            ]
+            "timeAndPlace":       "M 9:00-12:00 4-146"
         },
         {
             "type":        "Class",
             "label":       "4.542 - Background to Shape Grammars",
             "id":          "4.542",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1381,16 +1396,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.542-1",
+            "label":              "L4.542-1",
             "lecture-section-of": "4.542",
-            "timeAndPlace":       [
-                "T 9:00-12:00 4-146"
-            ]
+            "timeAndPlace":       "T 9:00-12:00 4-146"
         },
         {
             "type":        "Class",
             "label":       "4.543 - Special Problems in Shape Grammars",
             "id":          "4.543",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1417,6 +1431,7 @@
             "type":        "Class",
             "label":       "4.550 - 4.551 - Workshop in Architectural Computation",
             "id":          "4.550 - 4.551",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1438,6 +1453,7 @@
             "type":        "Class",
             "label":       "4.552 - 4.555 - Workshop in Architectural Computation",
             "id":          "4.552 - 4.555",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1458,16 +1474,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.552 - 4.555-1",
+            "label":              "L4.552 - 4.555-1",
             "lecture-section-of": "4.552 - 4.555",
-            "timeAndPlace":       [
-                "W 14:00-17:00 E48-319"
-            ]
+            "timeAndPlace":       "W 14:00-17:00 E48-319"
         },
         {
             "type":        "Class",
             "label":       "4.560 - Geometric Modeling",
             "id":          "4.560",
+            "course":      "4",
             "level":       "Grad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -1482,6 +1497,7 @@
             "type":        "Class",
             "label":       "4.562 - Architecture in Motion Graphics",
             "id":          "4.562",
+            "course":      "4",
             "level":       "Grad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -1498,6 +1514,7 @@
             "type":        "Class",
             "label":       "4.564 - Formal Design Knowledge and Programmed Constructs",
             "id":          "4.564",
+            "course":      "4",
             "level":       "Grad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -1517,6 +1534,7 @@
             "type":        "Class",
             "label":       "4.566 - Advanced Projects in Digital Media",
             "id":          "4.566",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1539,6 +1557,7 @@
             "type":        "Class",
             "label":       "4.580 - Inquiry into Computation and Design",
             "id":          "4.580",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1553,6 +1572,7 @@
             "type":        "Class",
             "label":       "4.581 - Proseminar in Computation",
             "id":          "4.581",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-9 [P/D/F]",
             "total-units": "Unknown",
@@ -1569,16 +1589,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.581-1",
+            "label":              "L4.581-1",
             "lecture-section-of": "4.581",
-            "timeAndPlace":       [
-                "T 9:00-12:00 4-146"
-            ]
+            "timeAndPlace":       "T 9:00-12:00 4-146"
         },
         {
             "type":        "Class",
             "label":       "4.582 - Research Seminar in Computation",
             "id":          "4.582",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-9 [P/D/F]",
             "total-units": "Unknown",
@@ -1601,6 +1620,7 @@
             "type":        "Class",
             "label":       "4.583 - PhD Forum in Computation",
             "id":          "4.583",
+            "course":      "4",
             "level":       "Grad",
             "units":       "3-0-0 [P/D/F]",
             "total-units": "Unknown",
@@ -1620,16 +1640,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.583-1",
+            "label":              "L4.583-1",
             "lecture-section-of": "4.583",
-            "timeAndPlace":       [
-                "R 17:00-19:00 3-309"
-            ]
+            "timeAndPlace":       "R 17:00-19:00 3-309"
         },
         {
             "type":        "Class",
             "label":       "4.589 - Preparation for Design & Computation PhD Thesis",
             "id":          "4.589",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1651,6 +1670,7 @@
             "type":        "Class",
             "label":       "4.590 - Special Problems in Architectural Computation",
             "id":          "4.590",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1672,6 +1692,7 @@
             "type":        "Class",
             "label":       "4.591 - Special Problems in Architectural Computation",
             "id":          "4.591",
+            "course":      "4",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1693,6 +1714,7 @@
             "type":        "Class",
             "label":       "4.592 - Special Problems in Computation",
             "id":          "4.592",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1714,16 +1736,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s4.592-1",
+            "label":              "L4.592-1",
             "lecture-section-of": "4.592",
-            "timeAndPlace":       [
-                "W 9:00-11:00 9-255"
-            ]
+            "timeAndPlace":       "W 9:00-11:00 9-255"
         },
         {
             "type":        "Class",
             "label":       "4.593 - Special Problems in Computation",
             "id":          "4.593",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1746,6 +1767,7 @@
             "type":        "Class",
             "label":       "4.598 - Special Problems in Computation",
             "id":          "4.598",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1768,6 +1790,7 @@
             "type":        "Class",
             "label":       "4.599 - Special Problems in Computation",
             "id":          "4.599",
+            "course":      "4",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",

@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "HST.011 - Human Functional Anatomy",
             "id":          "HST.011",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-11-10",
             "total-units": 24,
@@ -20,6 +21,7 @@
             "type":        "Class",
             "label":       "HST.021 - Musculoskeletal Pathophysiology",
             "id":          "HST.021",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -49,6 +51,7 @@
             "type":        "Class",
             "label":       "HST.031 - Human Pathology",
             "id":          "HST.031",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "4-4-8",
             "total-units": 16,
@@ -72,6 +75,7 @@
             "type":        "Class",
             "label":       "HST.035 - Principles and Practice of Human Pathology",
             "id":          "HST.035",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "4-2-10",
             "total-units": 16,
@@ -90,40 +94,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.035-1",
+            "label":              "LHST.035-1",
             "lecture-section-of": "HST.035",
-            "timeAndPlace":       [
-                "TR 9:00-11:00 4-231"
-            ]
+            "timeAndPlace":       "TR 9:00-11:00 4-231"
         },
         {
             "type":           "LabSection",
-            "label":          "sHST.035-2",
+            "label":          "BHST.035-2",
             "lab-section-of": "HST.035",
-            "timeAndPlace":   [
-                "TR 11:00-13:00 1-115"
-            ]
+            "timeAndPlace":   "TR 11:00-13:00 1-115"
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.035-3",
+            "label":              "LHST.035-3",
             "lecture-section-of": "HST.035",
-            "timeAndPlace":       [
-                "TR 9:00-11:00 4-231"
-            ]
+            "timeAndPlace":       "TR 9:00-11:00 4-231"
         },
         {
             "type":           "LabSection",
-            "label":          "sHST.035-4",
+            "label":          "BHST.035-4",
             "lab-section-of": "HST.035",
-            "timeAndPlace":   [
-                "TR 11:00-13:00 1-115"
-            ]
+            "timeAndPlace":   "TR 11:00-13:00 1-115"
         },
         {
             "type":        "Class",
             "label":       "HST.041 - Mechanisms of Microbial Pathogenesis",
             "id":          "HST.041",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-6-5",
             "total-units": 14,
@@ -150,6 +147,7 @@
             "type":        "Class",
             "label":       "HST.061 - Endocrinology",
             "id":          "HST.061",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "6-0-6",
             "total-units": 12,
@@ -171,24 +169,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.061-1",
+            "label":              "LHST.061-1",
             "lecture-section-of": "HST.061",
-            "timeAndPlace":       [
-                "M 13:30-17:00 Unknown"
-            ]
+            "timeAndPlace":       "M 13:30-17:00 Unknown"
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.061-2",
+            "label":              "LHST.061-2",
             "lecture-section-of": "HST.061",
-            "timeAndPlace":       [
-                "M 13:30-17:00 Unknown"
-            ]
+            "timeAndPlace":       "M 13:30-17:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "HST.071 - Human Reproductive Biology",
             "id":          "HST.071",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "2-4-3",
             "total-units": 9,
@@ -211,6 +206,7 @@
             "type":        "Class",
             "label":       "HST.081 - Hematology",
             "id":          "HST.081",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-6-4",
             "total-units": 13,
@@ -233,40 +229,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.081-1",
+            "label":              "LHST.081-1",
             "lecture-section-of": "HST.081",
-            "timeAndPlace":       [
-                "R 9:00-12:00 Unknown"
-            ]
+            "timeAndPlace":       "R 9:00-12:00 Unknown"
         },
         {
             "type":           "RecitationSection",
-            "label":          "sHST.081-2",
+            "label":          "RHST.081-2",
             "rec-section-of": "HST.081",
-            "timeAndPlace":   [
-                "T 9:00-12:00 Unknown"
-            ]
+            "timeAndPlace":   "T 9:00-12:00 Unknown"
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.081-3",
+            "label":              "LHST.081-3",
             "lecture-section-of": "HST.081",
-            "timeAndPlace":       [
-                "R 9:00-12:00 Unknown"
-            ]
+            "timeAndPlace":       "R 9:00-12:00 Unknown"
         },
         {
             "type":           "RecitationSection",
-            "label":          "sHST.081-4",
+            "label":          "RHST.081-4",
             "rec-section-of": "HST.081",
-            "timeAndPlace":   [
-                "T 9:00-12:00 Unknown"
-            ]
+            "timeAndPlace":   "T 9:00-12:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "HST.091 - Cardiovascular Pathophysiology",
             "id":          "HST.091",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-3-9",
             "total-units": 15,
@@ -285,40 +274,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.091-1",
+            "label":              "LHST.091-1",
             "lecture-section-of": "HST.091",
-            "timeAndPlace":       [
-                "MWF 8:30-10:00 56-114"
-            ]
+            "timeAndPlace":       "MWF 8:30-10:00 56-114"
         },
         {
             "type":           "LabSection",
-            "label":          "sHST.091-2",
+            "label":          "BHST.091-2",
             "lab-section-of": "HST.091",
-            "timeAndPlace":   [
-                "M 10:30-12:00 56-114"
-            ]
+            "timeAndPlace":   "M 10:30-12:00 56-114"
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.091-3",
+            "label":              "LHST.091-3",
             "lecture-section-of": "HST.091",
-            "timeAndPlace":       [
-                "MWF 8:30-10:00 56-114"
-            ]
+            "timeAndPlace":       "MWF 8:30-10:00 56-114"
         },
         {
             "type":           "LabSection",
-            "label":          "sHST.091-4",
+            "label":          "BHST.091-4",
             "lab-section-of": "HST.091",
-            "timeAndPlace":   [
-                "M 10:30-12:00 56-114"
-            ]
+            "timeAndPlace":   "M 10:30-12:00 56-114"
         },
         {
             "type":        "Class",
             "label":       "HST.101 - Respiratory Pathophysiology",
             "id":          "HST.101",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -345,24 +327,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.101-1",
+            "label":              "LHST.101-1",
             "lecture-section-of": "HST.101",
-            "timeAndPlace":       [
-                "TR 10:00-12:30 Unknown"
-            ]
+            "timeAndPlace":       "TR 10:00-12:30 Unknown"
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.101-2",
+            "label":              "LHST.101-2",
             "lecture-section-of": "HST.101",
-            "timeAndPlace":       [
-                "TR 10:00-12:30 Unknown"
-            ]
+            "timeAndPlace":       "TR 10:00-12:30 Unknown"
         },
         {
             "type":        "Class",
             "label":       "HST.111 - Renal Pathophysiology",
             "id":          "HST.111",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -389,24 +368,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.111-1",
+            "label":              "LHST.111-1",
             "lecture-section-of": "HST.111",
-            "timeAndPlace":       [
-                "TR 8:00-10:00 Unknown"
-            ]
+            "timeAndPlace":       "TR 8:00-10:00 Unknown"
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.111-2",
+            "label":              "LHST.111-2",
             "lecture-section-of": "HST.111",
-            "timeAndPlace":       [
-                "TR 8:00-10:00 Unknown"
-            ]
+            "timeAndPlace":       "TR 8:00-10:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "HST.121 - Gastroenterology",
             "id":          "HST.121",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-6-4",
             "total-units": 13,
@@ -436,6 +412,7 @@
             "type":        "Class",
             "label":       "HST.131 - Introduction to Neuroscience",
             "id":          "HST.131",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "6-3-6",
             "total-units": 15,
@@ -452,6 +429,7 @@
             "type":        "Class",
             "label":       "HST.140 - Molecular Medicine",
             "id":          "HST.140",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "2-0-4 [P/D/F]",
             "total-units": "Unknown",
@@ -472,6 +450,7 @@
             "type":        "Class",
             "label":       "HST.147 - Human Biochemistry and Metabolic Diseases",
             "id":          "HST.147",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -488,6 +467,7 @@
             "type":        "Class",
             "label":       "HST.151 - Principles of Pharmacology",
             "id":          "HST.151",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -513,40 +493,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.151-1",
+            "label":              "LHST.151-1",
             "lecture-section-of": "HST.151",
-            "timeAndPlace":       [
-                "TR 9:00-12:00 E25-117"
-            ]
+            "timeAndPlace":       "TR 9:00-12:00 E25-117"
         },
         {
             "type":           "RecitationSection",
-            "label":          "sHST.151-2",
+            "label":          "RHST.151-2",
             "rec-section-of": "HST.151",
-            "timeAndPlace":   [
-                "W 9:00-12:00 E25-117"
-            ]
+            "timeAndPlace":   "W 9:00-12:00 E25-117"
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.151-3",
+            "label":              "LHST.151-3",
             "lecture-section-of": "HST.151",
-            "timeAndPlace":       [
-                "TR 9:00-12:00 E25-117"
-            ]
+            "timeAndPlace":       "TR 9:00-12:00 E25-117"
         },
         {
             "type":           "RecitationSection",
-            "label":          "sHST.151-4",
+            "label":          "RHST.151-4",
             "rec-section-of": "HST.151",
-            "timeAndPlace":   [
-                "W 9:00-12:00 E25-117"
-            ]
+            "timeAndPlace":   "W 9:00-12:00 E25-117"
         },
         {
             "type":        "Class",
             "label":       "HST.161 - Molecular Biology and Genetics in Modern Medicine",
             "id":          "HST.161",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "6-0-6",
             "total-units": 12,
@@ -572,6 +545,7 @@
             "type":        "Class",
             "label":       "HST.176 - Cellular and Molecular Immunology",
             "id":          "HST.176",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -594,6 +568,7 @@
             "type":        "Class",
             "label":       "HST.186 - Special Subjects in Health Sciences and Technology",
             "id":          "HST.186",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -616,6 +591,7 @@
             "type":        "Class",
             "label":       "HST.187 - Special Subjects in Health Sciences and Technology",
             "id":          "HST.187",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -638,6 +614,7 @@
             "type":        "Class",
             "label":       "HST.188 - Special Subjects in Health Sciences and Technology",
             "id":          "HST.188",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -661,6 +638,7 @@
             "type":        "Class",
             "label":       "HST.189 - Special Subjects in Health Sciences and Technology",
             "id":          "HST.189",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -684,6 +662,7 @@
             "type":        "Class",
             "label":       "HST.191 - Introduction to Biostatistics and Epidemiology",
             "id":          "HST.191",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -706,6 +685,7 @@
             "type":        "Class",
             "label":       "HST.196 - Teaching Health Sciences and Technology",
             "id":          "HST.196",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -731,6 +711,7 @@
             "type":        "Class",
             "label":       "HST.198 - Special Topics in Health Sciences and Technology",
             "id":          "HST.198",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -754,6 +735,7 @@
             "type":        "Class",
             "label":       "HST.199 - Research in Health Sciences and Technology",
             "id":          "HST.199",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -782,6 +764,7 @@
             "type":        "Class",
             "label":       "HST.200 - Introduction to Clinical Medicine",
             "id":          "HST.200",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "9-25-12 [P/D/F]",
             "total-units": "Unknown",
@@ -799,16 +782,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.200-1",
+            "label":              "LHST.200-1",
             "lecture-section-of": "HST.200",
-            "timeAndPlace":       [
-                "MWF 8:00-17:00 Unknown"
-            ]
+            "timeAndPlace":       "MWF 8:00-17:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "HST.201 - Introduction to Clinical Medicine and Medical Engineering I",
             "id":          "HST.201",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "0-20-0 [P/D/F]",
             "total-units": "Unknown",
@@ -833,6 +815,7 @@
             "type":        "Class",
             "label":       "HST.202 - Introduction to Clinical Medicine and Medical Engineering II",
             "id":          "HST.202",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "0-20-0 [P/D/F]",
             "total-units": "Unknown",
@@ -858,6 +841,7 @@
             "type":        "Class",
             "label":       "HST.203 - Clinical Experience in Medical Engineering and Medical Physics",
             "id":          "HST.203",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "0-12-0 [P/D/F]",
             "total-units": "Unknown",
@@ -882,6 +866,7 @@
             "type":        "Class",
             "label":       "HST.204 - Industrial Experience in Medical Engineering and Medical Physics",
             "id":          "HST.204",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "0-12-0 [P/D/F]",
             "total-units": "Unknown",
@@ -903,6 +888,7 @@
             "type":        "Class",
             "label":       "HST.205 - Enterprise Experience in Medical Engineering & Medical Physics",
             "id":          "HST.205",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "0-12-0 [P/D/F]",
             "total-units": "Unknown",
@@ -923,6 +909,7 @@
             "type":        "Class",
             "label":       "HST.211 - Biomedical Enterprise Clinical Experience I",
             "id":          "HST.211",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -938,6 +925,7 @@
             "type":        "Class",
             "label":       "HST.212 - Biomedical Enterprise Clinical Experience II",
             "id":          "HST.212",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -952,16 +940,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.212-1",
+            "label":              "LHST.212-1",
             "lecture-section-of": "HST.212",
-            "timeAndPlace":       [
-                "M 15:00-18:00 Unknown"
-            ]
+            "timeAndPlace":       "M 15:00-18:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "HST.220 - Introduction to the Care of Patients",
             "id":          "HST.220",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "2-0-2 [P/D/F]",
             "total-units": "Unknown",
@@ -986,6 +973,7 @@
             "type":        "Class",
             "label":       "HST.240 - Translational Medicine Preceptorship",
             "id":          "HST.240",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "0-12-0",
             "total-units": 12,
@@ -1012,6 +1000,7 @@
             "type":        "Class",
             "label":       "HST.391 - Principles of Clinical Investigation Seminar",
             "id":          "HST.391",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-3 [P/D/F]",
             "total-units": "Unknown",
@@ -1037,6 +1026,7 @@
             "type":        "Class",
             "label":       "HST.410J - Projects in Microscale Engineering for the Life Sciences",
             "id":          "HST.410J",
+            "course":      "HST",
             "level":       "Undergrad",
             "units":       "2-4-3",
             "total-units": 9,
@@ -1054,16 +1044,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.410J-1",
+            "label":              "LHST.410J-1",
             "lecture-section-of": "HST.410J",
-            "timeAndPlace":       [
-                "TR 14:00-17:00 35-225"
-            ]
+            "timeAndPlace":       "TR 14:00-17:00 35-225"
         },
         {
             "type":        "Class",
             "label":       "HST.422J - A Clinical Approach to the Human Brain",
             "id":          "HST.422J",
+            "course":      "HST",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1079,6 +1068,7 @@
             "type":        "Class",
             "label":       "HST.424J - Diseases of the Nervous System",
             "id":          "HST.424J",
+            "course":      "HST",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1098,16 +1088,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.424J-1",
+            "label":              "LHST.424J-1",
             "lecture-section-of": "HST.424J",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 46-3015"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 46-3015"
         },
         {
             "type":        "Class",
             "label":       "HST.450J - Biological Physics",
             "id":          "HST.450J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1128,16 +1117,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.450J-1",
+            "label":              "LHST.450J-1",
             "lecture-section-of": "HST.450J",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 2-105"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 2-105"
         },
         {
             "type":        "Class",
             "label":       "HST.452J - Statistical Physics in Biology",
             "id":          "HST.452J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1160,6 +1148,7 @@
             "type":        "Class",
             "label":       "HST.460J - Statistics for Neuroscience Research",
             "id":          "HST.460J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1178,6 +1167,7 @@
             "type":        "Class",
             "label":       "HST.481-HST.489 - Special Subjects in Health Sciences and Technology",
             "id":          "HST.481-HST.489",
+            "course":      "HST",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1200,6 +1190,7 @@
             "type":        "Class",
             "label":       "HST.491 - Reviewing Biomedical Literature",
             "id":          "HST.491",
+            "course":      "HST",
             "level":       "Undergrad",
             "units":       "1-0-2",
             "total-units": 3,
@@ -1215,16 +1206,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.491-1",
+            "label":              "LHST.491-1",
             "lecture-section-of": "HST.491",
-            "timeAndPlace":       [
-                "F 15:00-17:00 E25-101"
-            ]
+            "timeAndPlace":       "F 15:00-17:00 E25-101"
         },
         {
             "type":        "Class",
             "label":       "HST.500 - Frontiers in (Bio)Medical Engineering and Physics",
             "id":          "HST.500",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1240,16 +1230,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.500-1",
+            "label":              "LHST.500-1",
             "lecture-section-of": "HST.500",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 66-144"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 66-144"
         },
         {
             "type":        "Class",
             "label":       "HST.505 - Laboratory in Molecular and Cellular Sciences",
             "id":          "HST.505",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-4-5",
             "total-units": 12,
@@ -1270,6 +1259,7 @@
             "type":        "Class",
             "label":       "HST.508 - Quantitative Genomics",
             "id":          "HST.508",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1289,6 +1279,7 @@
             "type":        "Class",
             "label":       "HST.509 - Computational and Functional Genomics",
             "id":          "HST.509",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1306,16 +1297,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.509-1",
+            "label":              "LHST.509-1",
             "lecture-section-of": "HST.509",
-            "timeAndPlace":       [
-                "MW 15:00-16:30 Unknown"
-            ]
+            "timeAndPlace":       "MW 15:00-16:30 Unknown"
         },
         {
             "type":        "Class",
             "label":       "HST.510 - Genomics, Computing, Economics, and Society",
             "id":          "HST.510",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1331,6 +1321,7 @@
             "type":        "Class",
             "label":       "HST.512 - Genomic Medicine",
             "id":          "HST.512",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-6 [P/D/F]",
             "total-units": "Unknown",
@@ -1363,6 +1354,7 @@
             "type":        "Class",
             "label":       "HST.513 - Genomic Medicine",
             "id":          "HST.513",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1385,6 +1377,7 @@
             "type":        "Class",
             "label":       "HST.514J - Sensory-Neural Systems: Spatial Orientation from End Organs to Behavior and Adaptation",
             "id":          "HST.514J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1407,16 +1400,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.514J-1",
+            "label":              "LHST.514J-1",
             "lecture-section-of": "HST.514J",
-            "timeAndPlace":       [
-                "R 14:00-17:00 24-114"
-            ]
+            "timeAndPlace":       "R 14:00-17:00 24-114"
         },
         {
             "type":        "Class",
             "label":       "HST.515J - Aerospace Biomedical and Life Support Engineering",
             "id":          "HST.515J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -1439,6 +1431,7 @@
             "type":        "Class",
             "label":       "HST.516 - Circadian Biology: From Cellular Oscillations to Sleep Regulation",
             "id":          "HST.516",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1458,6 +1451,7 @@
             "type":        "Class",
             "label":       "HST.521 - Biomaterials and Tissue Engineering in Medical Devices and Artificial Organs",
             "id":          "HST.521",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "4-0-5",
             "total-units": 9,
@@ -1475,16 +1469,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.521-1",
+            "label":              "LHST.521-1",
             "lecture-section-of": "HST.521",
-            "timeAndPlace":       [
-                "WF 13:00-15:00 Unknown"
-            ]
+            "timeAndPlace":       "WF 13:00-15:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "HST.522J - Biomaterials: Tissue Interactions",
             "id":          "HST.522J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1514,6 +1507,7 @@
             "type":        "Class",
             "label":       "HST.523J - Cell-Matrix Mechanics",
             "id":          "HST.523J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1545,16 +1539,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.523J-1",
+            "label":              "LHST.523J-1",
             "lecture-section-of": "HST.523J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 3-343"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 3-343"
         },
         {
             "type":        "Class",
             "label":       "HST.524J - Design of Medical Devices and Implants",
             "id":          "HST.524J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1576,16 +1569,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.524J-1",
+            "label":              "LHST.524J-1",
             "lecture-section-of": "HST.524J",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 1-134"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 1-134"
         },
         {
             "type":        "Class",
             "label":       "HST.525J - Tumor Pathophysiology and Transport Phenomena: A Systems Biology Approach",
             "id":          "HST.525J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -1609,6 +1601,7 @@
             "type":        "Class",
             "label":       "HST.527 - Blood Vessels and Endothelial Phenotypes in Health and Disease",
             "id":          "HST.527",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "2-0-4 [P/D/F]",
             "total-units": "Unknown",
@@ -1625,16 +1618,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.527-1",
+            "label":              "LHST.527-1",
             "lecture-section-of": "HST.527",
-            "timeAndPlace":       [
-                "W 13:30-16:30 Unknown"
-            ]
+            "timeAndPlace":       "W 13:30-16:30 Unknown"
         },
         {
             "type":        "Class",
             "label":       "HST.532 - Hyperthermia and Clinical Applications of Bioheat Transfer",
             "id":          "HST.532",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1647,16 +1639,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.532-1",
+            "label":              "LHST.532-1",
             "lecture-section-of": "HST.532",
-            "timeAndPlace":       [
-                "TW 15:30-17:00 E25-119"
-            ]
+            "timeAndPlace":       "TW 15:30-17:00 E25-119"
         },
         {
             "type":        "Class",
             "label":       "HST.535 - Principles and Practice of Tissue Engineering",
             "id":          "HST.535",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "2-0-6",
             "total-units": 8,
@@ -1674,6 +1665,7 @@
             "type":        "Class",
             "label":       "HST.540J - Human Physiology",
             "id":          "HST.540J",
+            "course":      "HST",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -1695,6 +1687,7 @@
             "type":        "Class",
             "label":       "HST.541J - Quantitative Physiology: Cells and Tissues",
             "id":          "HST.541J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "5-2-5",
             "total-units": 12,
@@ -1726,6 +1719,7 @@
             "type":        "Class",
             "label":       "HST.542J - Quantitative Physiology: Organ Transport Systems",
             "id":          "HST.542J",
+            "course":      "HST",
             "level":       "Undergrad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -1751,25 +1745,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.542J-1",
+            "label":              "LHST.542J-1",
             "lecture-section-of": "HST.542J",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 32-124"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 32-124"
         },
         {
             "type":           "RecitationSection",
-            "label":          "sHST.542J-2",
+            "label":          "RHST.542J-2",
             "rec-section-of": "HST.542J",
-            "timeAndPlace":   [
-                "F 13:00-14:00 E25-117",
-                "F 14:00-15:00 E25-117"
-            ]
+            "timeAndPlace":   "F 13:00-14:00 E25-117"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "RHST.542J-3",
+            "rec-section-of": "HST.542J",
+            "timeAndPlace":   "F 14:00-15:00 E25-117"
         },
         {
             "type":        "Class",
             "label":       "HST.543 - Cardiac Biophysics",
             "id":          "HST.543",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1794,6 +1790,7 @@
             "type":        "Class",
             "label":       "HST.544J - Fields, Forces, and Flows in Biological Systems",
             "id":          "HST.544J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1821,6 +1818,7 @@
             "type":        "Class",
             "label":       "HST.545 - Introduction to Systems Analysis with Physiological Applications",
             "id":          "HST.545",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -1839,6 +1837,7 @@
             "type":        "Class",
             "label":       "HST.546 - Orthopedic Biomechanics",
             "id":          "HST.546",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -1858,6 +1857,7 @@
             "type":        "Class",
             "label":       "HST.547 - Human Pathophysiology",
             "id":          "HST.547",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -1880,6 +1880,7 @@
             "type":        "Class",
             "label":       "HST.548 - Neural Signal Processing",
             "id":          "HST.548",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -1898,6 +1899,7 @@
             "type":        "Class",
             "label":       "HST.557J - Introduction to Molecular Simulations",
             "id":          "HST.557J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1919,6 +1921,7 @@
             "type":        "Class",
             "label":       "HST.560J - Radiation Biophysics",
             "id":          "HST.560J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1936,16 +1939,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.560J-1",
+            "label":              "LHST.560J-1",
             "lecture-section-of": "HST.560J",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 24-121"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 24-121"
         },
         {
             "type":        "Class",
             "label":       "HST.561J - Noninvasive Imaging in Biology and Medicine",
             "id":          "HST.561J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1971,6 +1973,7 @@
             "type":        "Class",
             "label":       "HST.563 - Imaging Biophysics and Clinical Applications",
             "id":          "HST.563",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "2-1-9",
             "total-units": 12,
@@ -1995,24 +1998,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.563-1",
+            "label":              "LHST.563-1",
             "lecture-section-of": "HST.563",
-            "timeAndPlace":       [
-                "TR 11:00-12:00 2-147"
-            ]
+            "timeAndPlace":       "TR 11:00-12:00 2-147"
         },
         {
             "type":           "LabSection",
-            "label":          "sHST.563-2",
+            "label":          "BHST.563-2",
             "lab-section-of": "HST.563",
-            "timeAndPlace":   [
-                "W 16:00-18:00 2-147"
-            ]
+            "timeAndPlace":   "W 16:00-18:00 2-147"
         },
         {
             "type":        "Class",
             "label":       "HST.569 - Biomedical Optics",
             "id":          "HST.569",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -2035,6 +2035,7 @@
             "type":        "Class",
             "label":       "HST.571 - Introduction to Biotechnology",
             "id":          "HST.571",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -2047,16 +2048,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.571-1",
+            "label":              "LHST.571-1",
             "lecture-section-of": "HST.571",
-            "timeAndPlace":       [
-                "R 15:00-18:00 Unknown"
-            ]
+            "timeAndPlace":       "R 15:00-18:00 Unknown"
         },
         {
             "type":        "Class",
             "label":       "HST.572 - Future Medical Technologies",
             "id":          "HST.572",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "2-0-4 [P/D/F]",
             "total-units": "Unknown",
@@ -2069,16 +2069,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.572-1",
+            "label":              "LHST.572-1",
             "lecture-section-of": "HST.572",
-            "timeAndPlace":       [
-                "T 18:00-19:30 E25-119"
-            ]
+            "timeAndPlace":       "T 18:00-19:30 E25-119"
         },
         {
             "type":        "Class",
             "label":       "HST.573 - Complex Biological Control Systems",
             "id":          "HST.573",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2095,6 +2094,7 @@
             "type":        "Class",
             "label":       "HST.574 - Introduction to Sensorimotor Neuroengineering",
             "id":          "HST.574",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2116,6 +2116,7 @@
             "type":        "Class",
             "label":       "HST.575J - Bioelectronics Project Laboratory",
             "id":          "HST.575J",
+            "course":      "HST",
             "level":       "Undergrad",
             "units":       "2-8-2",
             "total-units": 12,
@@ -2140,6 +2141,7 @@
             "type":        "Class",
             "label":       "HST.576J - Topics in Neural Signal Processing",
             "id":          "HST.576J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2158,6 +2160,7 @@
             "type":        "Class",
             "label":       "HST.580J - Data Acquisition and Image Reconstruction in MRI",
             "id":          "HST.580J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -2177,6 +2180,7 @@
             "type":        "Class",
             "label":       "HST.582J - Biomedical Signal and Image Processing",
             "id":          "HST.582J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -2204,25 +2208,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.582J-1",
+            "label":              "LHST.582J-1",
             "lecture-section-of": "HST.582J",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 56-154"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 56-154"
         },
         {
             "type":           "LabSection",
-            "label":          "sHST.582J-2",
+            "label":          "BHST.582J-2",
             "lab-section-of": "HST.582J",
-            "timeAndPlace":   [
-                "W 11:00-15:00 14-0637",
-                "F 11:00-15:00 14-0637"
-            ]
+            "timeAndPlace":   "W 11:00-15:00 14-0637"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "BHST.582J-3",
+            "lab-section-of": "HST.582J",
+            "timeAndPlace":   "F 11:00-15:00 14-0637"
         },
         {
             "type":        "Class",
             "label":       "HST.583 - Functional Magnetic Resonance Imaging: Data Acquisition and Analysis",
             "id":          "HST.583",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -2251,6 +2257,7 @@
             "type":        "Class",
             "label":       "HST.584J - Magnetic Resonance Analytic, Biochemical, and Imaging Techniques",
             "id":          "HST.584J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-0-12",
             "total-units": 15,
@@ -2268,16 +2275,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.584J-1",
+            "label":              "LHST.584J-1",
             "lecture-section-of": "HST.584J",
-            "timeAndPlace":       [
-                "W 19:00-10:00 E25-111"
-            ]
+            "timeAndPlace":       "W 19:00-22:00 E25-111"
         },
         {
             "type":        "Class",
             "label":       "HST.585J - Biosensors, Signal Processing, and Biomedical Applications",
             "id":          "HST.585J",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -2297,6 +2303,7 @@
             "type":        "Class",
             "label":       "HST.586?589 - Special Subjects in Medical Engineering and Medical Physics",
             "id":          "HST.586?589",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -2320,6 +2327,7 @@
             "type":        "Class",
             "label":       "HST.590 - Biomedical Engineering Seminar Series",
             "id":          "HST.590",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "1-0-0 [P/D/F]",
             "total-units": "Unknown",
@@ -2341,16 +2349,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.590-1",
+            "label":              "LHST.590-1",
             "lecture-section-of": "HST.590",
-            "timeAndPlace":       [
-                "R 17:00-18:00 E25-117"
-            ]
+            "timeAndPlace":       "R 17:00-18:00 E25-117"
         },
         {
             "type":        "Class",
             "label":       "HST.591 - Biomedical Engineering Research Seminar",
             "id":          "HST.591",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "2-0-0",
             "total-units": 2,
@@ -2373,16 +2380,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sHST.591-1",
+            "label":              "LHST.591-1",
             "lecture-section-of": "HST.591",
-            "timeAndPlace":       [
-                "MWF 11:30-13:00 E25-119"
-            ]
+            "timeAndPlace":       "MWF 11:30-13:00 E25-119"
         },
         {
             "type":        "Class",
             "label":       "HST.592 - Seminar in Computational Biology",
             "id":          "HST.592",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -2400,6 +2406,7 @@
             "type":        "Class",
             "label":       "HST.594 - Translational Medicine Seminars",
             "id":          "HST.594",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "1-0-0 [P/D/F]",
             "total-units": "Unknown",
@@ -2420,6 +2427,7 @@
             "type":        "Class",
             "label":       "HST.598 - Special Topics in Health Sciences and Technology",
             "id":          "HST.598",
+            "course":      "HST",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -2441,6 +2449,7 @@
             "type":        "Class",
             "label":       "HST.599 - Special Topics in Health Sciences and Technology",
             "id":          "HST.599",
+            "course":      "HST",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",

@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "SP.100 - Interphase",
             "id":          "SP.100",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -19,6 +20,7 @@
             "type":        "Class",
             "label":       "SEM.XL1 - Program XL: You Can Be a Success at MIT",
             "id":          "SEM.XL1",
+            "course":      "SEM",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -37,6 +39,7 @@
             "type":        "Class",
             "label":       "SP.211 - ESG (Experimental Study Group)",
             "id":          "SP.211",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -55,6 +58,7 @@
             "type":        "Class",
             "label":       "SP.221 - ESG (Experimental Study Group)",
             "id":          "SP.221",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -79,6 +83,7 @@
             "type":        "Class",
             "label":       "SP.231 - ESG Undergraduate Teaching",
             "id":          "SP.231",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -103,6 +108,7 @@
             "type":        "Class",
             "label":       "SP.233 - ESG Special Topics",
             "id":          "SP.233",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -125,6 +131,7 @@
             "type":        "Class",
             "label":       "SP.2H1 - ESG-Humanities Elective",
             "id":          "SP.2H1",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -146,6 +153,7 @@
             "type":        "Class",
             "label":       "SP.2H3 - Ancient Philosophy and Mathematics",
             "id":          "SP.2H3",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -165,6 +173,7 @@
             "type":        "Class",
             "label":       "SP.2UR - Undergraduate Research in ESG",
             "id":          "SP.2UR",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -187,6 +196,7 @@
             "type":        "Class",
             "label":       "SP.311 - Concourse Program",
             "id":          "SP.311",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -203,7 +213,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.311-1",
+            "label":              "LSP.311-1",
             "lecture-section-of": "SP.311",
             "timeAndPlace":       [
                 "MW 13:00-14:30 16-160",
@@ -212,17 +222,21 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "sSP.311-2",
+            "label":          "RSP.311-2",
             "rec-section-of": "SP.311",
-            "timeAndPlace":   [
-                "MW 14:30-15:30 16-160",
-                "TR 15:00-16:00 16-160"
-            ]
+            "timeAndPlace":   "MW 14:30-15:30 16-160"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "RSP.311-3",
+            "rec-section-of": "SP.311",
+            "timeAndPlace":   "TR 15:00-16:00 16-160"
         },
         {
             "type":        "Class",
             "label":       "SP.313 - Concourse Program for Upperclassmen",
             "id":          "SP.313",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -241,6 +255,7 @@
             "type":        "Class",
             "label":       "SP.314 - Love and Aggression",
             "id":          "SP.314",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -264,16 +279,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.314-1",
+            "label":              "LSP.314-1",
             "lecture-section-of": "SP.314",
-            "timeAndPlace":       [
-                "MW 9:00-11:00 16-160"
-            ]
+            "timeAndPlace":       "MW 9:00-11:00 16-160"
         },
         {
             "type":        "Class",
             "label":       "SP.315 - Concourse Program Undergraduate Teaching",
             "id":          "SP.315",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -302,6 +316,7 @@
             "type":        "Class",
             "label":       "SP.317 - Memory and Literature",
             "id":          "SP.317",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -321,6 +336,7 @@
             "type":        "Class",
             "label":       "SP.321 - Madness and Literature",
             "id":          "SP.321",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -340,6 +356,7 @@
             "type":        "Class",
             "label":       "SP.322 - Prohibition and Permission",
             "id":          "SP.322",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -362,6 +379,7 @@
             "type":        "Class",
             "label":       "SP.330 - Psychology and Free Will",
             "id":          "SP.330",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -381,6 +399,7 @@
             "type":        "Class",
             "label":       "SP.343 - Concourse Special Topics",
             "id":          "SP.343",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -403,6 +422,7 @@
             "type":        "Class",
             "label":       "SP.345, SP.346, SP.347 - Concourse Special Topics for IAP",
             "id":          "SP.345, SP.346, SP.347",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -421,6 +441,7 @@
             "type":        "Class",
             "label":       "SP.3UR - Undergraduate Research Opportunities in Concourse",
             "id":          "SP.3UR",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -443,6 +464,7 @@
             "type":        "Class",
             "label":       "SP.35UR - Undergraduate Research in Terrascope",
             "id":          "SP.35UR",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -466,6 +488,7 @@
             "type":        "Class",
             "label":       "SP.360 - Terrascope Radio",
             "id":          "SP.360",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -487,16 +510,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.360-1",
+            "label":              "LSP.360-1",
             "lecture-section-of": "SP.360",
-            "timeAndPlace":       [
-                "TR 15:00-16:30 16-168"
-            ]
+            "timeAndPlace":       "TR 15:00-16:30 16-168"
         },
         {
             "type":        "Class",
             "label":       "SP.702J - Introduction to Digital Electronics",
             "id":          "SP.702J",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "0-3-3 [P/D/F]",
             "total-units": "Unknown",
@@ -515,16 +537,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.702J-1",
+            "label":              "LSP.702J-1",
             "lecture-section-of": "SP.702J",
-            "timeAndPlace":       [
-                "M 19:00-10:00 4-402"
-            ]
+            "timeAndPlace":       "M 19:00-22:00 4-402"
         },
         {
             "type":        "Class",
             "label":       "SP.705J - Electronics Project Laboratory",
             "id":          "SP.705J",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "2-2-2",
             "total-units": 6,
@@ -543,16 +564,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.705J-1",
+            "label":              "LSP.705J-1",
             "lecture-section-of": "SP.705J",
-            "timeAndPlace":       [
-                "M 19:00-10:00 4-409"
-            ]
+            "timeAndPlace":       "M 19:00-22:00 4-409"
         },
         {
             "type":        "Class",
             "label":       "SP.710?SP.715 - Special Topics at the Edgerton Center",
             "id":          "SP.710?SP.715",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -577,48 +597,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.710?SP.715-1",
+            "label":              "LSP.710?SP.715-1",
             "lecture-section-of": "SP.710?SP.715",
-            "timeAndPlace":       [
-                "F 13:00-15:00 4-409"
-            ]
+            "timeAndPlace":       "F 13:00-15:00 4-409"
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.710?SP.715-2",
+            "label":              "LSP.710?SP.715-2",
             "lecture-section-of": "SP.710?SP.715",
-            "timeAndPlace":       [
-                "F 13:00-15:00 4-409"
-            ]
+            "timeAndPlace":       "F 13:00-15:00 4-409"
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.710?SP.715-3",
+            "label":              "LSP.710?SP.715-3",
             "lecture-section-of": "SP.710?SP.715",
-            "timeAndPlace":       [
-                "F 15:00-17:00 5-134"
-            ]
+            "timeAndPlace":       "F 15:00-17:00 5-134"
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.710?SP.715-4",
+            "label":              "LSP.710?SP.715-4",
             "lecture-section-of": "SP.710?SP.715",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 2-136"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 2-136"
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.710?SP.715-5",
+            "label":              "LSP.710?SP.715-5",
             "lecture-section-of": "SP.710?SP.715",
-            "timeAndPlace":       [
-                "F 9:00-12:00 4-145"
-            ]
+            "timeAndPlace":       "F 9:00-12:00 4-145"
         },
         {
             "type":        "Class",
             "label":       "SP.721J - D-Lab: Development",
             "id":          "SP.721J",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -641,6 +652,7 @@
             "type":        "Class",
             "label":       "SP.722J - D-Lab: Design",
             "id":          "SP.722J",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -662,16 +674,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.722J-1",
+            "label":              "LSP.722J-1",
             "lecture-section-of": "SP.722J",
-            "timeAndPlace":       [
-                "MW 15:30-17:00 5-134"
-            ]
+            "timeAndPlace":       "MW 15:30-17:00 5-134"
         },
         {
             "type":        "Class",
             "label":       "SP.723 - D-Lab: Dissemination - Implementing Innovations for the Common Good",
             "id":          "SP.723",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -685,16 +696,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.723-1",
+            "label":              "LSP.723-1",
             "lecture-section-of": "SP.723",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 1-132"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 1-132"
         },
         {
             "type":        "Class",
             "label":       "SP.724 - Prototype to Product",
             "id":          "SP.724",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "1-2-3",
             "total-units": 6,
@@ -713,6 +723,7 @@
             "type":        "Class",
             "label":       "SP.731 - Edgerton Center Undergraduate Teaching",
             "id":          "SP.731",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -736,6 +747,7 @@
             "type":        "Class",
             "label":       "SP.732 - Edgerton Center Graduate Teaching",
             "id":          "SP.732",
+            "course":      "SP",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -759,6 +771,7 @@
             "type":        "Class",
             "label":       "SP.747 - Creative Imaging",
             "id":          "SP.747",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "2-1-6",
             "total-units": 9,
@@ -776,16 +789,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.747-1",
+            "label":              "LSP.747-1",
             "lecture-section-of": "SP.747",
-            "timeAndPlace":       [
-                "R 14:00-17:00 4-402"
-            ]
+            "timeAndPlace":       "R 14:00-17:00 4-402"
         },
         {
             "type":        "Class",
             "label":       "SP.757 - Digital and Darkroom Imaging",
             "id":          "SP.757",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "2-0-4 [P/D/F]",
             "total-units": "Unknown",
@@ -802,6 +814,7 @@
             "type":        "Class",
             "label":       "SP.764 - Practical Electronics",
             "id":          "SP.764",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "1-3-2",
             "total-units": 6,
@@ -824,6 +837,7 @@
             "type":        "Class",
             "label":       "SP.765 - Practical Electronics",
             "id":          "SP.765",
+            "course":      "SP",
             "level":       "Grad",
             "units":       "1-3-2",
             "total-units": 6,
@@ -846,6 +860,7 @@
             "type":        "Class",
             "label":       "SP.771 - Electronic Musical Instruments",
             "id":          "SP.771",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "2-2-2 [P/D/F]",
             "total-units": "Unknown",
@@ -861,6 +876,7 @@
             "type":        "Class",
             "label":       "SP.776 - Design for Demining",
             "id":          "SP.776",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "2-1-6",
             "total-units": 9,
@@ -880,6 +896,7 @@
             "type":        "Class",
             "label":       "SP.783 - Engineering Capacity in Community-Based Healthcare",
             "id":          "SP.783",
+            "course":      "SP",
             "level":       "Grad",
             "units":       "2-0-4 [P/D/F]",
             "total-units": "Unknown",
@@ -895,6 +912,7 @@
             "type":        "Class",
             "label":       "SP.784 - Wheelchair Design in Developing Countries",
             "id":          "SP.784",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "2-2-5",
             "total-units": 9,
@@ -911,16 +929,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.784-1",
+            "label":              "LSP.784-1",
             "lecture-section-of": "SP.784",
-            "timeAndPlace":       [
-                "TR 15:00-16:00 1-371"
-            ]
+            "timeAndPlace":       "TR 15:00-16:00 1-371"
         },
         {
             "type":        "Class",
             "label":       "SP.785 - Digital Video Post-Production",
             "id":          "SP.785",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "1-2-6",
             "total-units": 9,
@@ -934,16 +951,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "sSP.785-1",
+            "label":              "LSP.785-1",
             "lecture-section-of": "SP.785",
-            "timeAndPlace":       [
-                "F 15:00-17:00 26-139"
-            ]
+            "timeAndPlace":       "F 15:00-17:00 26-139"
         },
         {
             "type":        "Class",
             "label":       "SP.786 - Design for Demining",
             "id":          "SP.786",
+            "course":      "SP",
             "level":       "Grad",
             "units":       "2-1-6",
             "total-units": 9,
@@ -963,6 +979,7 @@
             "type":        "Class",
             "label":       "SP.7UR - Undergraduate Research",
             "id":          "SP.7UR",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -991,6 +1008,7 @@
             "type":        "Class",
             "label":       "SP.800 - Freshman/Alumni Summer Internship Program",
             "id":          "SP.800",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1006,6 +1024,7 @@
             "type":        "Class",
             "label":       "SP.801 - Freshman/Alumni Summer Internship Program II",
             "id":          "SP.801",
+            "course":      "SP",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",

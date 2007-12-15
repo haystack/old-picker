@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "21W.780 - Communicating in Technical Organizations",
             "id":          "21W.780",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -24,6 +25,7 @@
             "type":        "Class",
             "label":       "21W.781J - Communicating About Technology:  Colossal Failures in Engineering",
             "id":          "21W.781J",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -53,17 +55,21 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.781J-1",
+            "label":          "R21W.781J-1",
             "rec-section-of": "21W.781J",
-            "timeAndPlace":   [
-                "MWF 13:00-14:00 1-375",
-                "MWF 14:00-15:00 1-375"
-            ]
+            "timeAndPlace":   "MWF 13:00-14:00 1-375"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R21W.781J-2",
+            "rec-section-of": "21W.781J",
+            "timeAndPlace":   "MWF 14:00-15:00 1-375"
         },
         {
             "type":        "Class",
             "label":       "21W.782J - Principles and Practice of Science Communication",
             "id":          "21W.782J",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -82,6 +88,7 @@
             "type":        "Class",
             "label":       "21W.784 - Becoming Digital: Writing about Media Change",
             "id":          "21W.784",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -102,6 +109,7 @@
             "type":        "Class",
             "label":       "21W.785 - Communicating in Cyberspace",
             "id":          "21W.785",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -122,6 +130,7 @@
             "type":        "Class",
             "label":       "21W.792 - Science Writing and Technical Communication Internship",
             "id":          "21W.792",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "0-12-0",
             "total-units": 12,
@@ -146,6 +155,7 @@
             "type":        "Class",
             "label":       "21W.794 - Graduate Technical Writing Workshop",
             "id":          "21W.794",
+            "course":      "21W",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -163,16 +173,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.794-1",
+            "label":          "R21W.794-1",
             "rec-section-of": "21W.794",
-            "timeAndPlace":   [
-                "W 16:00-18:00 66-168"
-            ]
+            "timeAndPlace":   "W 16:00-18:00 66-168"
         },
         {
             "type":        "Class",
             "label":       "21W.797 - Communication Workshop for CME",
             "id":          "21W.797",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "1-0-1 [P/D/F]",
             "total-units": "Unknown",
@@ -189,6 +198,7 @@
             "type":        "Class",
             "label":       "21W.798, 21W.799 - Special Topics in Writing",
             "id":          "21W.798, 21W.799",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -212,6 +222,7 @@
             "type":        "Class",
             "label":       "21W.ThT - Writing and Humanistic Studies Pre-Thesis Tutorial",
             "id":          "21W.ThT",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "1-0-5",
             "total-units": 6,
@@ -231,6 +242,7 @@
             "type":        "Class",
             "label":       "21W.ThU - Writing and Humanistic Studies Thesis",
             "id":          "21W.ThU",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -253,6 +265,7 @@
             "type":        "Class",
             "label":       "21W.UR - Research in Writing and Humanistic Studies",
             "id":          "21W.UR",
+            "course":      "21W",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -278,6 +291,7 @@
             "type":        "Class",
             "label":       "21W.820J - Writing: Science, Technology, and Society",
             "id":          "21W.820J",
+            "course":      "21W",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -300,6 +314,7 @@
             "type":        "Class",
             "label":       "21W.825 - Advanced Science Writing Seminar I",
             "id":          "21W.825",
+            "course":      "21W",
             "level":       "Grad",
             "units":       "6-0-18",
             "total-units": 24,
@@ -322,6 +337,7 @@
             "type":        "Class",
             "label":       "21W.826 - Advanced Science Writing Seminar II",
             "id":          "21W.826",
+            "course":      "21W",
             "level":       "Grad",
             "units":       "6-0-18",
             "total-units": 24,
@@ -342,16 +358,15 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.826-1",
+            "label":          "R21W.826-1",
             "rec-section-of": "21W.826",
-            "timeAndPlace":   [
-                "MWF 10:00-12:00 14N-112"
-            ]
+            "timeAndPlace":   "MWF 10:00-12:00 14N-112"
         },
         {
             "type":        "Class",
             "label":       "21W.892 - Science Writing Internship",
             "id":          "21W.892",
+            "course":      "21W",
             "level":       "Grad",
             "units":       "0-12-0 [P/D/F]",
             "total-units": "Unknown",
@@ -372,6 +387,7 @@
             "type":        "Class",
             "label":       "21W.898 - Special Graduate Elective in Science Writing",
             "id":          "21W.898",
+            "course":      "21W",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -395,6 +411,7 @@
             "type":        "Class",
             "label":       "21W.899 - Special Graduate Elective in Science Writing",
             "id":          "21W.899",
+            "course":      "21W",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -418,6 +435,7 @@
             "type":        "Class",
             "label":       "21W.ThG - Graduate Thesis",
             "id":          "21W.ThG",
+            "course":      "21W",
             "level":       "Grad",
             "units":       "6-0-18",
             "total-units": 24,
@@ -442,11 +460,9 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21W.ThG-1",
+            "label":          "R21W.ThG-1",
             "rec-section-of": "21W.ThG",
-            "timeAndPlace":   [
-                "F 13:00-15:00 14N-112"
-            ]
+            "timeAndPlace":   "F 13:00-15:00 14N-112"
         }
     ]
 }

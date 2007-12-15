@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "21M.011 - Introduction to Western Music",
             "id":          "21M.011",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -27,26 +28,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.011-1",
+            "label":              "L21M.011-1",
             "lecture-section-of": "21M.011",
-            "timeAndPlace":       [
-                "W 15:30-17:00 4-270"
-            ]
+            "timeAndPlace":       "W 15:30-17:00 4-270"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s21M.011-2",
+            "label":          "R21M.011-2",
             "rec-section-of": "21M.011",
-            "timeAndPlace":   [
-                "MF 13:00-14:00 4-152",
-                "TR 11:00-12:00 4-160",
-                "TR 12:00-13:00 4-160"
-            ]
+            "timeAndPlace":   "MF 13:00-14:00 4-152"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R21M.011-3",
+            "rec-section-of": "21M.011",
+            "timeAndPlace":   "TR 11:00-12:00 4-160"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R21M.011-4",
+            "rec-section-of": "21M.011",
+            "timeAndPlace":   "TR 12:00-13:00 4-160"
         },
         {
             "type":        "Class",
             "label":       "21M.013J - The Supernatural in Music, Literature and Culture",
             "id":          "21M.013J",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -71,6 +79,7 @@
             "type":        "Class",
             "label":       "21M.026 - Jazz",
             "id":          "21M.026",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -88,16 +97,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.026-1",
+            "label":              "L21M.026-1",
             "lecture-section-of": "21M.026",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 4-156"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 4-156"
         },
         {
             "type":        "Class",
             "label":       "21M.030 - Introduction to World Music",
             "id":          "21M.030",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -120,6 +128,7 @@
             "type":        "Class",
             "label":       "21M.051 - Fundamentals of Music",
             "id":          "21M.051",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -137,7 +146,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.051-1",
+            "label":              "L21M.051-1",
             "lecture-section-of": "21M.051",
             "timeAndPlace":       [
                 "WF 13:00-14:30 4-156",
@@ -148,6 +157,7 @@
             "type":        "Class",
             "label":       "21M.065 - Introduction to Musical Composition",
             "id":          "21M.065",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -164,6 +174,7 @@
             "type":        "Class",
             "label":       "21M.215 - American Music",
             "id":          "21M.215",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -180,6 +191,7 @@
             "type":        "Class",
             "label":       "21M.220 - Early Music",
             "id":          "21M.220",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -199,16 +211,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.220-1",
+            "label":              "L21M.220-1",
             "lecture-section-of": "21M.220",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 4-160"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 4-160"
         },
         {
             "type":        "Class",
             "label":       "21M.223J - Folk Music of the British Isles and North America",
             "id":          "21M.223J",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -232,6 +243,7 @@
             "type":        "Class",
             "label":       "21M.230 - Vivaldi, Bach, and Handel",
             "id":          "21M.230",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -251,6 +263,7 @@
             "type":        "Class",
             "label":       "21M.240 - Haydn, Mozart, and Beethoven",
             "id":          "21M.240",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -268,16 +281,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.240-1",
+            "label":              "L21M.240-1",
             "lecture-section-of": "21M.240",
-            "timeAndPlace":       [
-                "MW 14:00-15:30 4-152"
-            ]
+            "timeAndPlace":       "MW 14:00-15:30 4-152"
         },
         {
             "type":        "Class",
             "label":       "21M.250 - Schubert to Debussy",
             "id":          "21M.250",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -294,6 +306,7 @@
             "type":        "Class",
             "label":       "21M.252 - Song",
             "id":          "21M.252",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -313,6 +326,7 @@
             "type":        "Class",
             "label":       "21M.262 - Modern Music: 1900-1960",
             "id":          "21M.262",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -329,6 +343,7 @@
             "type":        "Class",
             "label":       "21M.263 - Music Since 1960",
             "id":          "21M.263",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -343,16 +358,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.263-1",
+            "label":              "L21M.263-1",
             "lecture-section-of": "21M.263",
-            "timeAndPlace":       [
-                "MW 15:30-17:00 4-152"
-            ]
+            "timeAndPlace":       "MW 15:30-17:00 4-152"
         },
         {
             "type":        "Class",
             "label":       "21M.271 - Symphony and Concerto",
             "id":          "21M.271",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -369,6 +383,7 @@
             "type":        "Class",
             "label":       "21M.273 - Opera",
             "id":          "21M.273",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -386,16 +401,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.273-1",
+            "label":              "L21M.273-1",
             "lecture-section-of": "21M.273",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 4-152"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 4-152"
         },
         {
             "type":        "Class",
             "label":       "21M.274 - Shakespeare at the Opera",
             "id":          "21M.274",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -415,6 +429,7 @@
             "type":        "Class",
             "label":       "21M.283 - Musicals of Stage and Screen",
             "id":          "21M.283",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -434,6 +449,7 @@
             "type":        "Class",
             "label":       "21M.284 - Film Music",
             "id":          "21M.284",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -449,24 +465,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.284-1",
+            "label":              "L21M.284-1",
             "lecture-section-of": "21M.284",
-            "timeAndPlace":       [
-                "MW 15:30-17:00 4-160"
-            ]
+            "timeAndPlace":       "MW 15:30-17:00 4-160"
         },
         {
             "type":           "LabSection",
-            "label":          "s21M.284-2",
+            "label":          "B21M.284-2",
             "lab-section-of": "21M.284",
-            "timeAndPlace":   [
-                "M 19:00-10:00 2-105"
-            ]
+            "timeAndPlace":   "M 19:00-22:00 2-105"
         },
         {
             "type":        "Class",
             "label":       "21M.291 - Music of India",
             "id":          "21M.291",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -481,16 +494,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.291-1",
+            "label":              "L21M.291-1",
             "lecture-section-of": "21M.291",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 N52-199"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 N52-199"
         },
         {
             "type":        "Class",
             "label":       "21M.292 - Music of Indonesia",
             "id":          "21M.292",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -505,16 +517,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.292-1",
+            "label":              "L21M.292-1",
             "lecture-section-of": "21M.292",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 N52-199"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 N52-199"
         },
         {
             "type":        "Class",
             "label":       "21M.293 - Music of Africa",
             "id":          "21M.293",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -531,6 +542,7 @@
             "type":        "Class",
             "label":       "21M.294 - Popular Musics of the World",
             "id":          "21M.294",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -545,16 +557,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.294-1",
+            "label":              "L21M.294-1",
             "lecture-section-of": "21M.294",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 4-364"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 4-364"
         },
         {
             "type":        "Class",
             "label":       "21M.301 - Harmony and Counterpoint I",
             "id":          "21M.301",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -578,7 +589,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.301-1",
+            "label":              "L21M.301-1",
             "lecture-section-of": "21M.301",
             "timeAndPlace":       [
                 "MW 11:00-12:30 4-156",
@@ -589,16 +600,15 @@
         },
         {
             "type":           "LabSection",
-            "label":          "s21M.301-2",
+            "label":          "B21M.301-2",
             "lab-section-of": "21M.301",
-            "timeAndPlace":   [
-                "F 15:00-16:00 4-270"
-            ]
+            "timeAndPlace":   "F 15:00-16:00 4-270"
         },
         {
             "type":        "Class",
             "label":       "21M.302 - Harmony and Counterpoint II",
             "id":          "21M.302",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-2-7",
             "total-units": 12,
@@ -622,7 +632,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.302-1",
+            "label":              "L21M.302-1",
             "lecture-section-of": "21M.302",
             "timeAndPlace":       [
                 "MW 13:00-14:30 4-160",
@@ -631,19 +641,33 @@
         },
         {
             "type":           "LabSection",
-            "label":          "s21M.302-2",
+            "label":          "B21M.302-2",
             "lab-section-of": "21M.302",
-            "timeAndPlace":   [
-                "R 16:00-17:00 4-156",
-                "R 16:00-17:00 4-160",
-                "F 16:00-17:00 4-152",
-                "F 16:00-17:00 4-160"
-            ]
+            "timeAndPlace":   "R 16:00-17:00 4-156"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.302-3",
+            "lab-section-of": "21M.302",
+            "timeAndPlace":   "R 16:00-17:00 4-160"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.302-4",
+            "lab-section-of": "21M.302",
+            "timeAndPlace":   "F 16:00-17:00 4-152"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.302-5",
+            "lab-section-of": "21M.302",
+            "timeAndPlace":   "F 16:00-17:00 4-160"
         },
         {
             "type":        "Class",
             "label":       "21M.303 - Writing in Tonal Forms I",
             "id":          "21M.303",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -666,27 +690,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.303-1",
+            "label":              "L21M.303-1",
             "lecture-section-of": "21M.303",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 4-152"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 4-152"
         },
         {
             "type":           "LabSection",
-            "label":          "s21M.303-2",
+            "label":          "B21M.303-2",
             "lab-section-of": "21M.303",
-            "timeAndPlace":   [
-                "R 16:00-17:00 4-156",
-                "R 16:00-17:00 4-160",
-                "F 16:00-17:00 4-152",
-                "F 16:00-17:00 4-160"
-            ]
+            "timeAndPlace":   "R 16:00-17:00 4-156"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.303-3",
+            "lab-section-of": "21M.303",
+            "timeAndPlace":   "R 16:00-17:00 4-160"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.303-4",
+            "lab-section-of": "21M.303",
+            "timeAndPlace":   "F 16:00-17:00 4-152"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.303-5",
+            "lab-section-of": "21M.303",
+            "timeAndPlace":   "F 16:00-17:00 4-160"
         },
         {
             "type":        "Class",
             "label":       "21M.304 - Writing in Tonal Forms II",
             "id":          "21M.304",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -706,27 +742,39 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.304-1",
+            "label":              "L21M.304-1",
             "lecture-section-of": "21M.304",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 4-364"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 4-364"
         },
         {
             "type":           "LabSection",
-            "label":          "s21M.304-2",
+            "label":          "B21M.304-2",
             "lab-section-of": "21M.304",
-            "timeAndPlace":   [
-                "R 16:00-17:00 4-156",
-                "R 16:00-17:00 4-160",
-                "F 16:00-17:00 4-152",
-                "F 16:00-17:00 4-160"
-            ]
+            "timeAndPlace":   "R 16:00-17:00 4-156"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.304-3",
+            "lab-section-of": "21M.304",
+            "timeAndPlace":   "R 16:00-17:00 4-160"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.304-4",
+            "lab-section-of": "21M.304",
+            "timeAndPlace":   "F 16:00-17:00 4-152"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.304-5",
+            "lab-section-of": "21M.304",
+            "timeAndPlace":   "F 16:00-17:00 4-160"
         },
         {
             "type":        "Class",
             "label":       "21M.340 - Jazz Harmony and Arranging",
             "id":          "21M.340",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -745,16 +793,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.340-1",
+            "label":              "L21M.340-1",
             "lecture-section-of": "21M.340",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 4-156"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 4-156"
         },
         {
             "type":        "Class",
             "label":       "21M.341 - Jazz Composition",
             "id":          "21M.341",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -775,6 +822,7 @@
             "type":        "Class",
             "label":       "21M.350 - Musical Analysis",
             "id":          "21M.350",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -790,16 +838,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.350-1",
+            "label":              "L21M.350-1",
             "lecture-section-of": "21M.350",
-            "timeAndPlace":       [
-                "TR 15:30-17:00 4-152"
-            ]
+            "timeAndPlace":       "TR 15:30-17:00 4-152"
         },
         {
             "type":        "Class",
             "label":       "21M.351 - Music Composition",
             "id":          "21M.351",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -824,16 +871,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.351-1",
+            "label":              "L21M.351-1",
             "lecture-section-of": "21M.351",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 4-160"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 4-160"
         },
         {
             "type":        "Class",
             "label":       "21M.361 - Composing with Computers",
             "id":          "21M.361",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "2-2-8",
             "total-units": 12,
@@ -851,26 +897,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.361-1",
+            "label":              "L21M.361-1",
             "lecture-section-of": "21M.361",
-            "timeAndPlace":       [
-                "M 14:00-16:00 4-082"
-            ]
+            "timeAndPlace":       "M 14:00-16:00 4-082"
         },
         {
             "type":           "LabSection",
-            "label":          "s21M.361-2",
+            "label":          "B21M.361-2",
             "lab-section-of": "21M.361",
-            "timeAndPlace":   [
-                "W 14:00-15:00 4-070",
-                "W 15:00-16:00 4-070",
-                "W 16:00-17:00 4-070"
-            ]
+            "timeAndPlace":   "W 14:00-15:00 4-070"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.361-3",
+            "lab-section-of": "21M.361",
+            "timeAndPlace":   "W 15:00-16:00 4-070"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.361-4",
+            "lab-section-of": "21M.361",
+            "timeAndPlace":   "W 16:00-17:00 4-070"
         },
         {
             "type":        "Class",
             "label":       "21M.401 - MIT Concert Choir",
             "id":          "21M.401",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "0-4-2",
             "total-units": 6,
@@ -890,16 +943,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.401-1",
+            "label":              "L21M.401-1",
             "lecture-section-of": "21M.401",
-            "timeAndPlace":       [
-                "MR 18:00-8:30 4-270"
-            ]
+            "timeAndPlace":       "MR 18:00-20:30 4-270"
         },
         {
             "type":        "Class",
             "label":       "21M.405 - MIT Chamber Chorus",
             "id":          "21M.405",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -919,16 +971,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.405-1",
+            "label":              "L21M.405-1",
             "lecture-section-of": "21M.405",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 KILLIAN"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 KILLIAN"
         },
         {
             "type":        "Class",
             "label":       "21M.410 - Vocal Repertoire and Performance",
             "id":          "21M.410",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -946,16 +997,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.410-1",
+            "label":              "L21M.410-1",
             "lecture-section-of": "21M.410",
-            "timeAndPlace":       [
-                "TR 12:30-14:00 4-364"
-            ]
+            "timeAndPlace":       "TR 12:30-14:00 4-364"
         },
         {
             "type":        "Class",
             "label":       "21M.421 - MIT Symphony",
             "id":          "21M.421",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "0-4-2",
             "total-units": 6,
@@ -975,16 +1025,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.421-1",
+            "label":              "L21M.421-1",
             "lecture-section-of": "21M.421",
-            "timeAndPlace":       [
-                "TR 19:30-10:00 KRESGE"
-            ]
+            "timeAndPlace":       "TR 19:30-22:00 KRESGE"
         },
         {
             "type":        "Class",
             "label":       "21M.422 - MIT String Chamber Orchestra",
             "id":          "21M.422",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "0-2-1",
             "total-units": 3,
@@ -1006,6 +1055,7 @@
             "type":        "Class",
             "label":       "21M.423 - Conducting and Score-Reading",
             "id":          "21M.423",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-4-5",
             "total-units": 12,
@@ -1024,16 +1074,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.423-1",
+            "label":              "L21M.423-1",
             "lecture-section-of": "21M.423",
-            "timeAndPlace":       [
-                "TR 15:30-17:00 4-364"
-            ]
+            "timeAndPlace":       "TR 15:30-17:00 4-364"
         },
         {
             "type":        "Class",
             "label":       "21M.426 - MIT Wind Ensemble",
             "id":          "21M.426",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "0-4-2",
             "total-units": 6,
@@ -1053,16 +1102,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.426-1",
+            "label":              "L21M.426-1",
             "lecture-section-of": "21M.426",
-            "timeAndPlace":       [
-                "MW 19:30-10:00 KRESGE"
-            ]
+            "timeAndPlace":       "MW 19:30-22:00 KRESGE"
         },
         {
             "type":        "Class",
             "label":       "21M.442 - MIT Festival Jazz Ensemble",
             "id":          "21M.442",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "0-4-2",
             "total-units": 6,
@@ -1082,16 +1130,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.442-1",
+            "label":              "L21M.442-1",
             "lecture-section-of": "21M.442",
-            "timeAndPlace":       [
-                "TR 17:00-19:30 KILLIAN"
-            ]
+            "timeAndPlace":       "TR 17:00-19:30 KILLIAN"
         },
         {
             "type":        "Class",
             "label":       "21M.445 - Chamber Music Society",
             "id":          "21M.445",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "0-4-2",
             "total-units": 6,
@@ -1118,6 +1165,7 @@
             "type":        "Class",
             "label":       "21M.450 - MIT Balinese Gamelan",
             "id":          "21M.450",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "0-3-3",
             "total-units": 6,
@@ -1137,16 +1185,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.450-1",
+            "label":              "L21M.450-1",
             "lecture-section-of": "21M.450",
-            "timeAndPlace":       [
-                "W 19:00-10:00 N52-199"
-            ]
+            "timeAndPlace":       "W 19:00-22:00 N52-199"
         },
         {
             "type":        "Class",
             "label":       "21M.451 - Studio Accompanying for Pianists",
             "id":          "21M.451",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1168,6 +1215,7 @@
             "type":        "Class",
             "label":       "21M.460 - MIT Senegalese Drum Ensemble",
             "id":          "21M.460",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "0-3-3",
             "total-units": 6,
@@ -1187,16 +1235,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.460-1",
+            "label":              "L21M.460-1",
             "lecture-section-of": "21M.460",
-            "timeAndPlace":       [
-                "M 19:00-10:00 N52-199"
-            ]
+            "timeAndPlace":       "M 19:00-22:00 N52-199"
         },
         {
             "type":        "Class",
             "label":       "21M.480 - Advanced Music Performance",
             "id":          "21M.480",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "1-2-3",
             "total-units": 6,
@@ -1222,6 +1269,7 @@
             "type":        "Class",
             "label":       "21M.500 - Senior Seminar in Music",
             "id":          "21M.500",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1239,6 +1287,7 @@
             "type":        "Class",
             "label":       "21M.505 - Advanced Music Composition",
             "id":          "21M.505",
+            "course":      "21M",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1259,16 +1308,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.505-1",
+            "label":              "L21M.505-1",
             "lecture-section-of": "21M.505",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 4-160"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 4-160"
         },
         {
             "type":        "Class",
             "label":       "21M.512 - Advanced Music Performance",
             "id":          "21M.512",
+            "course":      "21M",
             "level":       "Grad",
             "units":       "1-2-3",
             "total-units": 6,
@@ -1294,6 +1342,7 @@
             "type":        "Class",
             "label":       "21M.515 - Vocal Repertoire and Performance",
             "id":          "21M.515",
+            "course":      "21M",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -1311,16 +1360,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.515-1",
+            "label":              "L21M.515-1",
             "lecture-section-of": "21M.515",
-            "timeAndPlace":       [
-                "TR 12:30-14:00 4-364"
-            ]
+            "timeAndPlace":       "TR 12:30-14:00 4-364"
         },
         {
             "type":        "Class",
             "label":       "21M.531, 21M.533, 21M.536,  21M.538 - Special Topics in Music",
             "id":          "21M.531, 21M.533, 21M.536,  21M.538",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1341,6 +1389,7 @@
             "type":        "Class",
             "label":       "21M.539 - Advanced Topics in Music",
             "id":          "21M.539",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1361,16 +1410,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.539-1",
+            "label":              "L21M.539-1",
             "lecture-section-of": "21M.539",
-            "timeAndPlace":       [
-                "M 14:00-16:00 KILLIAN"
-            ]
+            "timeAndPlace":       "M 14:00-16:00 KILLIAN"
         },
         {
             "type":        "Class",
             "label":       "21M.540 - Selected Topics in Music",
             "id":          "21M.540",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1389,6 +1437,7 @@
             "type":        "Class",
             "label":       "21M.542 - IAP Music Topics",
             "id":          "21M.542",
+            "course":      "21M",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1403,6 +1452,7 @@
             "type":        "Class",
             "label":       "21M.545, 21M.546 - Research in Music",
             "id":          "21M.545, 21M.546",
+            "course":      "21M",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1427,6 +1477,7 @@
             "type":        "Class",
             "label":       "21M.565J - Writing for Computer Performance",
             "id":          "21M.565J",
+            "course":      "21M",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1445,16 +1496,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s21M.565J-1",
+            "label":              "L21M.565J-1",
             "lecture-section-of": "21M.565J",
-            "timeAndPlace":       [
-                "T 14:00-16:00 E15-483"
-            ]
+            "timeAndPlace":       "T 14:00-16:00 E15-483"
         },
         {
             "type":        "Class",
             "label":       "21M.566J - Audio Processing by People and Machines",
             "id":          "21M.566J",
+            "course":      "21M",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1475,6 +1525,7 @@
             "type":        "Class",
             "label":       "21M.570 - Computer Music Composition",
             "id":          "21M.570",
+            "course":      "21M",
             "level":       "Grad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -1498,6 +1549,7 @@
             "type":        "Class",
             "label":       "21M.580J - Musical Aesthetics and Media Technology",
             "id":          "21M.580J",
+            "course":      "21M",
             "level":       "Grad",
             "units":       "3-3-3",
             "total-units": 9,
@@ -1515,6 +1567,7 @@
             "type":        "Class",
             "label":       "21M.581J - Projects in Media and Music",
             "id":          "21M.581J",
+            "course":      "21M",
             "level":       "Grad",
             "units":       "3-3-6",
             "total-units": 12,

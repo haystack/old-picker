@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "11.201 - Gateway: Planning Action",
             "id":          "11.201",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-0-5",
             "total-units": 8,
@@ -20,6 +21,7 @@
             "type":        "Class",
             "label":       "11.202 - Gateway: Planning Economics",
             "id":          "11.202",
+            "course":      "11",
             "level":       "Grad",
             "units":       "2-0-2",
             "total-units": 4,
@@ -37,6 +39,7 @@
             "type":        "Class",
             "label":       "11.203 - Microeconomics",
             "id":          "11.203",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-0-5",
             "total-units": 8,
@@ -53,6 +56,7 @@
             "type":        "Class",
             "label":       "11.220 - Quantitative Reasoning and Statistical Methods for Planning I",
             "id":          "11.220",
+            "course":      "11",
             "level":       "Grad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -70,26 +74,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s11.220-1",
+            "label":              "L11.220-1",
             "lecture-section-of": "11.220",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 37-212"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 37-212"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s11.220-2",
+            "label":          "R11.220-2",
             "rec-section-of": "11.220",
-            "timeAndPlace":   [
-                "W 17:30-18:30 1-246",
-                "R 15:00-16:00 5-231",
-                "F 10:00-11:00 1-246"
-            ]
+            "timeAndPlace":   "W 17:30-18:30 1-246"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R11.220-3",
+            "rec-section-of": "11.220",
+            "timeAndPlace":   "R 15:00-16:00 5-231"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R11.220-4",
+            "rec-section-of": "11.220",
+            "timeAndPlace":   "F 10:00-11:00 1-246"
         },
         {
             "type":        "Class",
             "label":       "11.221 - Quantitative Reasoning and Statistical Methods for Planning II",
             "id":          "11.221",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -110,6 +121,7 @@
             "type":        "Class",
             "label":       "11.225 - Argumentation and Communication",
             "id":          "11.225",
+            "course":      "11",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -129,6 +141,7 @@
             "type":        "Class",
             "label":       "11.229 - Advanced Writing Seminar",
             "id":          "11.229",
+            "course":      "11",
             "level":       "Grad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -146,16 +159,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s11.229-1",
+            "label":              "L11.229-1",
             "lecture-section-of": "11.229",
-            "timeAndPlace":       [
-                "F 10:00-12:00 9-554"
-            ]
+            "timeAndPlace":       "F 10:00-12:00 9-554"
         },
         {
             "type":        "Class",
             "label":       "11.232 - The Public Policy Field: History and Dilemmas",
             "id":          "11.232",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -171,6 +183,7 @@
             "type":        "Class",
             "label":       "11.233 - Research Design for Policy Analysis and Planning",
             "id":          "11.233",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -187,6 +200,7 @@
             "type":        "Class",
             "label":       "11.234 - Making Sense: Qualitative Methods for Designers and Planners",
             "id":          "11.234",
+            "course":      "11",
             "level":       "Grad",
             "units":       "2-4-6",
             "total-units": 12,
@@ -203,6 +217,7 @@
             "type":        "Class",
             "label":       "11.235 - Analyzing Projects and Organizations",
             "id":          "11.235",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -219,16 +234,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s11.235-1",
+            "label":              "L11.235-1",
             "lecture-section-of": "11.235",
-            "timeAndPlace":       [
-                "TR 17:00-18:30 4-144"
-            ]
+            "timeAndPlace":       "TR 17:00-18:30 4-144"
         },
         {
             "type":        "Class",
             "label":       "11.237 - Gender and Race, Work, and Public Policy",
             "id":          "11.237",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -248,6 +262,7 @@
             "type":        "Class",
             "label":       "11.238J - Ethics of Intervention: Anthropological Approaches",
             "id":          "11.238J",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -265,6 +280,7 @@
             "type":        "Class",
             "label":       "11.241 - Applied Regression Analysis in Urban Planning",
             "id":          "11.241",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-1-2",
             "total-units": 6,
@@ -285,6 +301,7 @@
             "type":        "Class",
             "label":       "11.248 - Information Technology and the US Labor Market",
             "id":          "11.248",
+            "course":      "11",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -306,6 +323,7 @@
             "type":        "Class",
             "label":       "11.249 - Economics of Education",
             "id":          "11.249",
+            "course":      "11",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -325,16 +343,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s11.249-1",
+            "label":              "L11.249-1",
             "lecture-section-of": "11.249",
-            "timeAndPlace":       [
-                "TR 9:00-10:30 1-150"
-            ]
+            "timeAndPlace":       "TR 9:00-10:30 1-150"
         },
         {
             "type":        "Class",
             "label":       "11.252J - Computer Games and Simulations for Investigation and Education",
             "id":          "11.252J",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -354,16 +371,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s11.252J-1",
+            "label":              "L11.252J-1",
             "lecture-section-of": "11.252J",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 NE25-375"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 NE25-375"
         },
         {
             "type":        "Class",
             "label":       "11.255 - Negotiation and Dispute Resolution in the Public Sector",
             "id":          "11.255",
+            "course":      "11",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -380,6 +396,7 @@
             "type":        "Class",
             "label":       "11.257 - Seminar on Theory-Building in Multi-Party Negotiation and Dispute Resolution",
             "id":          "11.257",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -398,6 +415,7 @@
             "type":        "Class",
             "label":       "11.262J - Organizations and Environments",
             "id":          "11.262J",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -416,6 +434,7 @@
             "type":        "Class",
             "label":       "11.265 - The Comparative Politics of Urban Policy",
             "id":          "11.265",
+            "course":      "11",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,

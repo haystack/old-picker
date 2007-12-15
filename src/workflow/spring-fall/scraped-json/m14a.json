@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "14.003 - Microeconomic Theory and Public Policy",
             "id":          "14.003",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -24,26 +25,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.003-1",
+            "label":              "L14.003-1",
             "lecture-section-of": "14.003",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 4-370"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 4-370"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.003-2",
+            "label":          "R14.003-2",
             "rec-section-of": "14.003",
-            "timeAndPlace":   [
-                "F 13:00-14:00 3-442",
-                "F 14:00-15:00 3-442",
-                "F 15:00-16:00 3-442"
-            ]
+            "timeAndPlace":   "F 13:00-14:00 3-442"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.003-3",
+            "rec-section-of": "14.003",
+            "timeAndPlace":   "F 14:00-15:00 3-442"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.003-4",
+            "rec-section-of": "14.003",
+            "timeAndPlace":   "F 15:00-16:00 3-442"
         },
         {
             "type":        "Class",
             "label":       "14.01 - Principles of Microeconomics",
             "id":          "14.01",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -61,7 +69,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.01-1",
+            "label":              "L14.01-1",
             "lecture-section-of": "14.01",
             "timeAndPlace":       [
                 "MW 13:00-14:00 54-100",
@@ -70,26 +78,75 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.01-2",
+            "label":          "R14.01-2",
             "rec-section-of": "14.01",
-            "timeAndPlace":   [
-                "F 10:00-11:00 12-122",
-                "F 11:00-12:00 12-122",
-                "F 12:00-13:00 12-122",
-                "F 13:00-14:00 12-122",
-                "F 14:00-15:00 12-122",
-                "MWF 9:00-10:00 8-205",
-                "MWF 10:00-11:00 8-205",
-                "MWF 11:00-12:00 12-142",
-                "MWF 12:00-13:00 5-234",
-                "MWF 14:00-15:00 12-142",
-                "MWF 15:00-16:00 12-142"
-            ]
+            "timeAndPlace":   "F 10:00-11:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.01-3",
+            "rec-section-of": "14.01",
+            "timeAndPlace":   "F 11:00-12:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.01-4",
+            "rec-section-of": "14.01",
+            "timeAndPlace":   "F 12:00-13:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.01-5",
+            "rec-section-of": "14.01",
+            "timeAndPlace":   "F 13:00-14:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.01-6",
+            "rec-section-of": "14.01",
+            "timeAndPlace":   "F 14:00-15:00 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.01-7",
+            "rec-section-of": "14.01",
+            "timeAndPlace":   "MWF 9:00-10:00 8-205"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.01-8",
+            "rec-section-of": "14.01",
+            "timeAndPlace":   "MWF 10:00-11:00 8-205"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.01-9",
+            "rec-section-of": "14.01",
+            "timeAndPlace":   "MWF 11:00-12:00 12-142"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.01-10",
+            "rec-section-of": "14.01",
+            "timeAndPlace":   "MWF 12:00-13:00 5-234"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.01-11",
+            "rec-section-of": "14.01",
+            "timeAndPlace":   "MWF 14:00-15:00 12-142"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.01-12",
+            "rec-section-of": "14.01",
+            "timeAndPlace":   "MWF 15:00-16:00 12-142"
         },
         {
             "type":        "Class",
             "label":       "14.02 - Principles of Macroeconomics",
             "id":          "14.02",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -107,32 +164,66 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.02-1",
+            "label":              "L14.02-1",
             "lecture-section-of": "14.02",
             "timeAndPlace":       [
                 "MW 14:00-15:00 54-100",
-                "NOLCTURFORRCS 16:00-12:00 Unknown"
+                "NOLCTURFORRCS 16:00-24:00 Unknown"
             ]
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.02-2",
+            "label":          "R14.02-2",
             "rec-section-of": "14.02",
-            "timeAndPlace":   [
-                "F 12:00-13:00 5-233",
-                "F 13:00-14:00 5-233",
-                "F 14:00-15:00 5-233",
-                "MWF 9:00-10:00 5-234",
-                "MWF 10:00-11:00 5-234",
-                "MWF 11:00-12:00 5-234",
-                "MWF 13:00-14:00 5-234",
-                "MWF 15:00-16:00 5-234"
-            ]
+            "timeAndPlace":   "F 12:00-13:00 5-233"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.02-3",
+            "rec-section-of": "14.02",
+            "timeAndPlace":   "F 13:00-14:00 5-233"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.02-4",
+            "rec-section-of": "14.02",
+            "timeAndPlace":   "F 14:00-15:00 5-233"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.02-5",
+            "rec-section-of": "14.02",
+            "timeAndPlace":   "MWF 9:00-10:00 5-234"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.02-6",
+            "rec-section-of": "14.02",
+            "timeAndPlace":   "MWF 10:00-11:00 5-234"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.02-7",
+            "rec-section-of": "14.02",
+            "timeAndPlace":   "MWF 11:00-12:00 5-234"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.02-8",
+            "rec-section-of": "14.02",
+            "timeAndPlace":   "MWF 13:00-14:00 5-234"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.02-9",
+            "rec-section-of": "14.02",
+            "timeAndPlace":   "MWF 15:00-16:00 5-234"
         },
         {
             "type":        "Class",
             "label":       "14.03 - Microeconomic Theory and Public Policy",
             "id":          "14.03",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -154,26 +245,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.03-1",
+            "label":              "L14.03-1",
             "lecture-section-of": "14.03",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 4-370"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 4-370"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.03-2",
+            "label":          "R14.03-2",
             "rec-section-of": "14.03",
-            "timeAndPlace":   [
-                "F 13:00-14:00 3-442",
-                "F 14:00-15:00 3-442",
-                "F 15:00-16:00 3-442"
-            ]
+            "timeAndPlace":   "F 13:00-14:00 3-442"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.03-3",
+            "rec-section-of": "14.03",
+            "timeAndPlace":   "F 14:00-15:00 3-442"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.03-4",
+            "rec-section-of": "14.03",
+            "timeAndPlace":   "F 15:00-16:00 3-442"
         },
         {
             "type":        "Class",
             "label":       "14.04 - Intermediate Microeconomic Theory",
             "id":          "14.04",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -194,6 +292,7 @@
             "type":        "Class",
             "label":       "14.05 - Intermediate Applied Macroeconomics",
             "id":          "14.05",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -212,25 +311,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.05-1",
+            "label":              "L14.05-1",
             "lecture-section-of": "14.05",
-            "timeAndPlace":       [
-                "TR 9:00-10:30 66-110"
-            ]
+            "timeAndPlace":       "TR 9:00-10:30 66-110"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.05-2",
+            "label":          "R14.05-2",
             "rec-section-of": "14.05",
-            "timeAndPlace":   [
-                "F 9:00-10:00 2-143",
-                "F 10:00-11:00 2-143"
-            ]
+            "timeAndPlace":   "F 9:00-10:00 2-143"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.05-3",
+            "rec-section-of": "14.05",
+            "timeAndPlace":   "F 10:00-11:00 2-143"
         },
         {
             "type":        "Class",
             "label":       "14.06 - Advanced Macroeconomics",
             "id":          "14.06",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -247,6 +348,7 @@
             "type":        "Class",
             "label":       "14.09 - Reading Seminar in Economics",
             "id":          "14.09",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -274,6 +376,7 @@
             "type":        "Class",
             "label":       "14.10 - Reading Seminar in Economics",
             "id":          "14.10",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -301,6 +404,7 @@
             "type":        "Class",
             "label":       "14.102 - Mathematics for Economists",
             "id":          "14.102",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -320,6 +424,7 @@
             "type":        "Class",
             "label":       "14.11 - Special Topics in Economics",
             "id":          "14.11",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -342,6 +447,7 @@
             "type":        "Class",
             "label":       "14.12 - Economic Applications of Game Theory",
             "id":          "14.12",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -363,6 +469,7 @@
             "type":        "Class",
             "label":       "14.121 - Microeconomic Theory I",
             "id":          "14.121",
+            "course":      "14",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -380,6 +487,7 @@
             "type":        "Class",
             "label":       "14.122 - Microeconomic Theory II",
             "id":          "14.122",
+            "course":      "14",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -397,6 +505,7 @@
             "type":        "Class",
             "label":       "14.123 - Microeconomic Theory III",
             "id":          "14.123",
+            "course":      "14",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -415,24 +524,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.123-1",
+            "label":              "L14.123-1",
             "lecture-section-of": "14.123",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 E52-175"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 E52-175"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.123-2",
+            "label":          "R14.123-2",
             "rec-section-of": "14.123",
-            "timeAndPlace":   [
-                "F 13:00-14:30 E51-372"
-            ]
+            "timeAndPlace":   "F 13:00-14:30 E51-372"
         },
         {
             "type":        "Class",
             "label":       "14.124 - Microeconomic Theory IV",
             "id":          "14.124",
+            "course":      "14",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -448,24 +554,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.124-1",
+            "label":              "L14.124-1",
             "lecture-section-of": "14.124",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 E52-175"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 E52-175"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.124-2",
+            "label":          "R14.124-2",
             "rec-section-of": "14.124",
-            "timeAndPlace":   [
-                "F 13:00-14:30 E51-372"
-            ]
+            "timeAndPlace":   "F 13:00-14:30 E51-372"
         },
         {
             "type":        "Class",
             "label":       "14.126 - Game Theory",
             "id":          "14.126",
+            "course":      "14",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -481,16 +584,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.126-1",
+            "label":              "L14.126-1",
             "lecture-section-of": "14.126",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 E51-372"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 E51-372"
         },
         {
             "type":        "Class",
             "label":       "14.128 - Dynamic Optimization and Economic Applications",
             "id":          "14.128",
+            "course":      "14",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -506,24 +608,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.128-1",
+            "label":              "L14.128-1",
             "lecture-section-of": "14.128",
-            "timeAndPlace":       [
-                "MW 9:00-10:30 E51-372"
-            ]
+            "timeAndPlace":       "MW 9:00-10:30 E51-372"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.128-2",
+            "label":          "R14.128-2",
             "rec-section-of": "14.128",
-            "timeAndPlace":   [
-                "F 9:00-10:30 E51-057"
-            ]
+            "timeAndPlace":   "F 9:00-10:30 E51-057"
         },
         {
             "type":        "Class",
             "label":       "14.129 - Advanced Contract Theory",
             "id":          "14.129",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -542,24 +641,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.129-1",
+            "label":              "L14.129-1",
             "lecture-section-of": "14.129",
-            "timeAndPlace":       [
-                "TR 9:00-10:30 E51-361"
-            ]
+            "timeAndPlace":       "TR 9:00-10:30 E51-361"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.129-2",
+            "label":          "R14.129-2",
             "rec-section-of": "14.129",
-            "timeAndPlace":   [
-                "F 10:30-12:00 E51-361"
-            ]
+            "timeAndPlace":   "F 10:30-12:00 E51-361"
         },
         {
             "type":        "Class",
             "label":       "14.13 - Economics and Psychology",
             "id":          "14.13",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -577,6 +673,7 @@
             "type":        "Class",
             "label":       "14.137 - Psychology for Economists",
             "id":          "14.137",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -590,16 +687,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.137-1",
+            "label":              "L14.137-1",
             "lecture-section-of": "14.137",
-            "timeAndPlace":       [
-                "W 16:00-19:00 E51-372"
-            ]
+            "timeAndPlace":       "W 16:00-19:00 E51-372"
         },
         {
             "type":        "Class",
             "label":       "14.147 - Topics in Game Theory",
             "id":          "14.147",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -620,6 +716,7 @@
             "type":        "Class",
             "label":       "14.16 - Strategy and Information",
             "id":          "14.16",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -638,24 +735,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.16-1",
+            "label":              "L14.16-1",
             "lecture-section-of": "14.16",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 E52-398"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 E52-398"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.16-2",
+            "label":          "R14.16-2",
             "rec-section-of": "14.16",
-            "timeAndPlace":   [
-                "F 15:00-16:00 E51-393"
-            ]
+            "timeAndPlace":   "F 15:00-16:00 E51-393"
         },
         {
             "type":        "Class",
             "label":       "14.160 - Experimental and Behavioral Economics",
             "id":          "14.160",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -673,6 +767,7 @@
             "type":        "Class",
             "label":       "14.191 - Independent Research Paper",
             "id":          "14.191",
+            "course":      "14",
             "level":       "Grad",
             "units":       "0-12-0",
             "total-units": 12,
@@ -695,6 +790,7 @@
             "type":        "Class",
             "label":       "14.193, 14.194 - Seminar: Topics in Economics",
             "id":          "14.193, 14.194",
+            "course":      "14",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -717,6 +813,7 @@
             "type":        "Class",
             "label":       "14.195, 14.196 - Reading Seminar in Economics",
             "id":          "14.195, 14.196",
+            "course":      "14",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -738,16 +835,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.195, 14.196-1",
+            "label":              "L14.195, 14.196-1",
             "lecture-section-of": "14.195, 14.196",
-            "timeAndPlace":       [
-                "T 12:00-13:00 E52-398"
-            ]
+            "timeAndPlace":       "T 12:00-13:00 E52-398"
         },
         {
             "type":        "Class",
             "label":       "14.198, 14.199 - Teaching Introductory Economics",
             "id":          "14.198, 14.199",
+            "course":      "14",
             "level":       "Grad",
             "units":       "2-0-2 [P/D/F]",
             "total-units": "Unknown",
@@ -772,6 +868,7 @@
             "type":        "Class",
             "label":       "14.20 - Industrial Organization and Competitive Strategy",
             "id":          "14.20",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -787,24 +884,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.20-1",
+            "label":              "L14.20-1",
             "lecture-section-of": "14.20",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 E51-395"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 E51-395"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.20-2",
+            "label":          "R14.20-2",
             "rec-section-of": "14.20",
-            "timeAndPlace":   [
-                "F 13:00-14:00 E51-335"
-            ]
+            "timeAndPlace":   "F 13:00-14:00 E51-335"
         },
         {
             "type":        "Class",
             "label":       "14.21J - Health Economics",
             "id":          "14.21J",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -825,6 +919,7 @@
             "type":        "Class",
             "label":       "14.271 - Industrial Organization I",
             "id":          "14.271",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -842,6 +937,7 @@
             "type":        "Class",
             "label":       "14.272 - Industrial Organization II",
             "id":          "14.272",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -860,24 +956,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.272-1",
+            "label":              "L14.272-1",
             "lecture-section-of": "14.272",
-            "timeAndPlace":       [
-                "MW 9:00-10:30 E52-398"
-            ]
+            "timeAndPlace":       "MW 9:00-10:30 E52-398"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.272-2",
+            "label":          "R14.272-2",
             "rec-section-of": "14.272",
-            "timeAndPlace":   [
-                "F 9:00-10:30 E52-398"
-            ]
+            "timeAndPlace":   "F 9:00-10:30 E52-398"
         },
         {
             "type":        "Class",
             "label":       "14.273 - Advanced Topics in Industrial Organization",
             "id":          "14.273",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -896,16 +989,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.273-1",
+            "label":              "L14.273-1",
             "lecture-section-of": "14.273",
-            "timeAndPlace":       [
-                "T 12:30-14:00 E52-232"
-            ]
+            "timeAndPlace":       "T 12:30-14:00 E52-232"
         },
         {
             "type":        "Class",
             "label":       "14.281 - Contract Economics",
             "id":          "14.281",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -926,6 +1018,7 @@
             "type":        "Class",
             "label":       "14.282 - Organizational Economics",
             "id":          "14.282",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -942,6 +1035,7 @@
             "type":        "Class",
             "label":       "14.286J - Health Economics Seminar",
             "id":          "14.286J",
+            "course":      "14",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -965,6 +1059,7 @@
             "type":        "Class",
             "label":       "14.295J - Collective Choice II",
             "id":          "14.295J",
+            "course":      "14",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -988,6 +1083,7 @@
             "type":        "Class",
             "label":       "14.296J - Collective Choice I",
             "id":          "14.296J",
+            "course":      "14",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1007,6 +1103,7 @@
             "type":        "Class",
             "label":       "14.30 - Introduction to Statistical Method in Economics",
             "id":          "14.30",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1025,24 +1122,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.30-1",
+            "label":              "L14.30-1",
             "lecture-section-of": "14.30",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 56-154"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 56-154"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.30-2",
+            "label":          "R14.30-2",
             "rec-section-of": "14.30",
-            "timeAndPlace":   [
-                "F 15:00-16:00 E51-085"
-            ]
+            "timeAndPlace":   "F 15:00-16:00 E51-085"
         },
         {
             "type":        "Class",
             "label":       "14.32 - Econometrics",
             "id":          "14.32",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1060,24 +1154,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.32-1",
+            "label":              "L14.32-1",
             "lecture-section-of": "14.32",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 E51-057"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 E51-057"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.32-2",
+            "label":          "R14.32-2",
             "rec-section-of": "14.32",
-            "timeAndPlace":   [
-                "F 15:00-16:00 E51-057"
-            ]
+            "timeAndPlace":   "F 15:00-16:00 E51-057"
         },
         {
             "type":        "Class",
             "label":       "14.33 - Research and Communication in Economics:  Topics, Methods, and Implementation",
             "id":          "14.33",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "3-4-5",
             "total-units": 12,
@@ -1105,16 +1196,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.33-1",
+            "label":              "L14.33-1",
             "lecture-section-of": "14.33",
-            "timeAndPlace":       [
-                "M 14:30-17:00 E52-232"
-            ]
+            "timeAndPlace":       "M 14:30-17:00 E52-232"
         },
         {
             "type":        "Class",
             "label":       "14.36 - Advanced Econometrics",
             "id":          "14.36",
+            "course":      "14",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1132,16 +1222,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.36-1",
+            "label":              "L14.36-1",
             "lecture-section-of": "14.36",
-            "timeAndPlace":       [
-                "M 12:00-14:00 E51-385"
-            ]
+            "timeAndPlace":       "M 12:00-14:00 E51-385"
         },
         {
             "type":        "Class",
             "label":       "14.381 - Statistical Method in Economics",
             "id":          "14.381",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1162,6 +1251,7 @@
             "type":        "Class",
             "label":       "14.382 - Econometrics",
             "id":          "14.382",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1177,24 +1267,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.382-1",
+            "label":              "L14.382-1",
             "lecture-section-of": "14.382",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 E51-372"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 E51-372"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.382-2",
+            "label":          "R14.382-2",
             "rec-section-of": "14.382",
-            "timeAndPlace":   [
-                "F 14:30-16:00 E51-372"
-            ]
+            "timeAndPlace":   "F 14:30-16:00 E51-372"
         },
         {
             "type":        "Class",
             "label":       "14.384 - Time Series Analysis",
             "id":          "14.384",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1212,6 +1299,7 @@
             "type":        "Class",
             "label":       "14.385 - Nonlinear Econometric Analysis",
             "id":          "14.385",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1232,6 +1320,7 @@
             "type":        "Class",
             "label":       "14.386 - New Econometric Methods",
             "id":          "14.386",
+            "course":      "14",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1247,16 +1336,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.386-1",
+            "label":              "L14.386-1",
             "lecture-section-of": "14.386",
-            "timeAndPlace":       [
-                "MW 10:30-12:00 E51-390"
-            ]
+            "timeAndPlace":       "MW 10:30-12:00 E51-390"
         },
         {
             "type":        "Class",
             "label":       "14.387 - Topics in Applied Econometrics",
             "id":          "14.387",
+            "course":      "14",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -1272,16 +1360,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s14.387-1",
+            "label":              "L14.387-1",
             "lecture-section-of": "14.387",
-            "timeAndPlace":       [
-                "MW 9:00-10:30 E51-361"
-            ]
+            "timeAndPlace":       "MW 9:00-10:30 E51-361"
         },
         {
             "type":        "Class",
             "label":       "14.389 - Econometrics Paper",
             "id":          "14.389",
+            "course":      "14",
             "level":       "Grad",
             "units":       "0-0-3",
             "total-units": 3,
@@ -1302,6 +1389,7 @@
             "type":        "Class",
             "label":       "14.391 - Workshop in Economic Research",
             "id":          "14.391",
+            "course":      "14",
             "level":       "Grad",
             "units":       "2-0-10 [P/D/F]",
             "total-units": "Unknown",
@@ -1332,18 +1420,51 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s14.391-1",
+            "label":          "R14.391-1",
             "rec-section-of": "14.391",
-            "timeAndPlace":   [
-                "M 16:00-18:00 E51-376",
-                "T 16:00-18:00 E52-244",
-                "M 14:30-16:00 E52-244",
-                "R 16:00-18:00 E51-372",
-                "R 16:30-18:00 E52-244",
-                "W 14:30-16:00 E52-244",
-                "M 16:00-18:00 E52-244",
-                "R 14:30-16:00 E52-244"
-            ]
+            "timeAndPlace":   "M 16:00-18:00 E51-376"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.391-2",
+            "rec-section-of": "14.391",
+            "timeAndPlace":   "T 16:00-18:00 E52-244"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.391-3",
+            "rec-section-of": "14.391",
+            "timeAndPlace":   "M 14:30-16:00 E52-244"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.391-4",
+            "rec-section-of": "14.391",
+            "timeAndPlace":   "R 16:00-18:00 E51-372"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.391-5",
+            "rec-section-of": "14.391",
+            "timeAndPlace":   "R 16:30-18:00 E52-244"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.391-6",
+            "rec-section-of": "14.391",
+            "timeAndPlace":   "W 14:30-16:00 E52-244"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.391-7",
+            "rec-section-of": "14.391",
+            "timeAndPlace":   "M 16:00-18:00 E52-244"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R14.391-8",
+            "rec-section-of": "14.391",
+            "timeAndPlace":   "R 14:30-16:00 E52-244"
         }
     ]
 }

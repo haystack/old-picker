@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "12.UR - Undergraduate Research",
             "id":          "12.UR",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -32,6 +33,7 @@
             "type":        "Class",
             "label":       "12.TIP - Thesis and Independent Study Preparation",
             "id":          "12.TIP",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -50,6 +52,7 @@
             "type":        "Class",
             "label":       "12.IND - Independent Study",
             "id":          "12.IND",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -74,6 +77,7 @@
             "type":        "Class",
             "label":       "12.ThU - Undergraduate Thesis",
             "id":          "12.ThU",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -98,6 +102,7 @@
             "type":        "Class",
             "label":       "12.000 - Solving Complex Problems",
             "id":          "12.000",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "1-2-6",
             "total-units": 9,
@@ -117,6 +122,7 @@
             "type":        "Class",
             "label":       "12.001 - Introduction to Geology",
             "id":          "12.001",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-4-5",
             "total-units": 12,
@@ -132,24 +138,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.001-1",
+            "label":              "L12.001-1",
             "lecture-section-of": "12.001",
-            "timeAndPlace":       [
-                "MWF 12:00-13:00 54-317"
-            ]
+            "timeAndPlace":       "MWF 12:00-13:00 54-317"
         },
         {
             "type":           "LabSection",
-            "label":          "s12.001-2",
+            "label":          "B12.001-2",
             "lab-section-of": "12.001",
-            "timeAndPlace":   [
-                "MWF 13:00-14:00 54-317"
-            ]
+            "timeAndPlace":   "MWF 13:00-14:00 54-317"
         },
         {
             "type":        "Class",
             "label":       "12.002 - Physics and Chemistry of the Terrestrial Planets",
             "id":          "12.002",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -174,6 +177,7 @@
             "type":        "Class",
             "label":       "12.003 - Physics of the Atmosphere and Ocean",
             "id":          "12.003",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -195,6 +199,7 @@
             "type":        "Class",
             "label":       "12.005 - Applications of Continuum Mechanics to Earth, Atmospheric, and Planetary Sciences",
             "id":          "12.005",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -213,16 +218,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.005-1",
+            "label":              "L12.005-1",
             "lecture-section-of": "12.005",
-            "timeAndPlace":       [
-                "MWF 10:00-11:00 54-313"
-            ]
+            "timeAndPlace":       "MWF 10:00-11:00 54-313"
         },
         {
             "type":        "Class",
             "label":       "12.006J - Nonlinear Dynamics I: Chaos",
             "id":          "12.006J",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -245,6 +249,7 @@
             "type":        "Class",
             "label":       "12.007 - Geobiology",
             "id":          "12.007",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -259,16 +264,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.007-1",
+            "label":              "L12.007-1",
             "lecture-section-of": "12.007",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 54-313"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 54-313"
         },
         {
             "type":        "Class",
             "label":       "12.008 - Classical Mechanics: A Computational Approach",
             "id":          "12.008",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -295,6 +299,7 @@
             "type":        "Class",
             "label":       "12.010 - Computational Methods of Scientific Programming",
             "id":          "12.010",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -319,6 +324,7 @@
             "type":        "Class",
             "label":       "12.011J - Archaeological Science",
             "id":          "12.011J",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-1-5",
             "total-units": 9,
@@ -347,16 +353,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.011J-1",
+            "label":              "L12.011J-1",
             "lecture-section-of": "12.011J",
-            "timeAndPlace":       [
-                "M 19:00-10:00 4-370"
-            ]
+            "timeAndPlace":       "M 19:00-22:00 4-370"
         },
         {
             "type":        "Class",
             "label":       "12.080 - EAPS Undergraduate Seminar",
             "id":          "12.080",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "1-0-2 [P/D/F]",
             "total-units": "Unknown",
@@ -377,16 +382,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.080-1",
+            "label":              "L12.080-1",
             "lecture-section-of": "12.080",
-            "timeAndPlace":       [
-                "F 12:00-13:00 54-915"
-            ]
+            "timeAndPlace":       "F 12:00-13:00 54-915"
         },
         {
             "type":        "Class",
             "label":       "12.085 - Seminar in Environmental Science",
             "id":          "12.085",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -407,6 +411,7 @@
             "type":        "Class",
             "label":       "12.090 - Special Topics in Earth, Atmospheric, and Planetary Sciences",
             "id":          "12.090",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -432,16 +437,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.090-1",
+            "label":              "L12.090-1",
             "lecture-section-of": "12.090",
-            "timeAndPlace":       [
-                "TR 13:30-16:30 54-322"
-            ]
+            "timeAndPlace":       "TR 13:30-16:30 54-322"
         },
         {
             "type":        "Class",
             "label":       "12.092 - Special Topics in Geology and Geochemistry",
             "id":          "12.092",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -467,16 +471,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.092-1",
+            "label":              "L12.092-1",
             "lecture-section-of": "12.092",
-            "timeAndPlace":       [
-                "M 19:00-10:00 4-237"
-            ]
+            "timeAndPlace":       "M 19:00-22:00 4-237"
         },
         {
             "type":        "Class",
             "label":       "12.094 - Special Topics in Geophysics",
             "id":          "12.094",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -504,6 +507,7 @@
             "type":        "Class",
             "label":       "12.096 - Special Topics in Atmospheric Science and Oceanography",
             "id":          "12.096",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -531,6 +535,7 @@
             "type":        "Class",
             "label":       "12.098 - Special Topics in Planetary Science",
             "id":          "12.098",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -558,6 +563,7 @@
             "type":        "Class",
             "label":       "12.102 - Environmental Earth Science",
             "id":          "12.102",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -575,6 +581,7 @@
             "type":        "Class",
             "label":       "12.103 - Strange Bedfellows: Science and Environmental Policy",
             "id":          "12.103",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -591,6 +598,7 @@
             "type":        "Class",
             "label":       "12.104 - Geochemistry of the Earth and Planets",
             "id":          "12.104",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -611,6 +619,7 @@
             "type":        "Class",
             "label":       "12.105 - Experimental Investigations of the Charles River",
             "id":          "12.105",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -628,6 +637,7 @@
             "type":        "Class",
             "label":       "12.108 - Structure of Earth Materials",
             "id":          "12.108",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-4-5",
             "total-units": 12,
@@ -651,24 +661,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.108-1",
+            "label":              "L12.108-1",
             "lecture-section-of": "12.108",
-            "timeAndPlace":       [
-                "TR 9:00-10:30 54-317"
-            ]
+            "timeAndPlace":       "TR 9:00-10:30 54-317"
         },
         {
             "type":           "LabSection",
-            "label":          "s12.108-2",
+            "label":          "B12.108-2",
             "lab-section-of": "12.108",
-            "timeAndPlace":   [
-                "TR 15:00-17:00 54-317"
-            ]
+            "timeAndPlace":   "TR 15:00-17:00 54-317"
         },
         {
             "type":        "Class",
             "label":       "12.109 - Petrology",
             "id":          "12.109",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -689,6 +696,7 @@
             "type":        "Class",
             "label":       "12.110 - Sedimentary Geology",
             "id":          "12.110",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -707,16 +715,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.110-1",
+            "label":              "L12.110-1",
             "lecture-section-of": "12.110",
-            "timeAndPlace":       [
-                "TR 10:30-12:30 54-317"
-            ]
+            "timeAndPlace":       "TR 10:30-12:30 54-317"
         },
         {
             "type":        "Class",
             "label":       "12.111 - Mechanics of Sedimentary Processes",
             "id":          "12.111",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -734,6 +741,7 @@
             "type":        "Class",
             "label":       "12.113 - Structural Geology",
             "id":          "12.113",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -757,6 +765,7 @@
             "type":        "Class",
             "label":       "12.114 - Field Geology I",
             "id":          "12.114",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "2-2-2",
             "total-units": 6,
@@ -780,6 +789,7 @@
             "type":        "Class",
             "label":       "12.115 - Field Geology II",
             "id":          "12.115",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "0-18-0",
             "total-units": 18,
@@ -807,6 +817,7 @@
             "type":        "Class",
             "label":       "12.119 - Analytical Techniques for Studying Environmental and Geologic Samples",
             "id":          "12.119",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "2-6-4",
             "total-units": 12,
@@ -827,24 +838,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.119-1",
+            "label":              "L12.119-1",
             "lecture-section-of": "12.119",
-            "timeAndPlace":       [
-                "TR 13:30-14:30 54-317"
-            ]
+            "timeAndPlace":       "TR 13:30-14:30 54-317"
         },
         {
             "type":           "LabSection",
-            "label":          "s12.119-2",
+            "label":          "B12.119-2",
             "lab-section-of": "12.119",
-            "timeAndPlace":   [
-                "TR 14:30-17:00 54-317"
-            ]
+            "timeAndPlace":   "TR 14:30-17:00 54-317"
         },
         {
             "type":        "Class",
             "label":       "12.120 - Environmental Earth Science Field Course",
             "id":          "12.120",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "1-5-0",
             "total-units": 6,
@@ -868,6 +876,7 @@
             "type":        "Class",
             "label":       "12.141 - Electron Microprobe Analysis",
             "id":          "12.141",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "1-1-4 [P/D/F]",
             "total-units": "Unknown",
@@ -887,6 +896,7 @@
             "type":        "Class",
             "label":       "12.159 - Sedimentary and Surficial Geology Investigations",
             "id":          "12.159",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -910,6 +920,7 @@
             "type":        "Class",
             "label":       "12.162 - Geological Image Interpretation",
             "id":          "12.162",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -933,6 +944,7 @@
             "type":        "Class",
             "label":       "12.163 - Surface Processes and Landscape Evolution",
             "id":          "12.163",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -955,6 +967,7 @@
             "type":        "Class",
             "label":       "12.201 - Essentials of Geophysics",
             "id":          "12.201",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -976,6 +989,7 @@
             "type":        "Class",
             "label":       "12.207J - Nonlinear Dynamics II: Continuum Systems",
             "id":          "12.207J",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -995,16 +1009,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.207J-1",
+            "label":              "L12.207J-1",
             "lecture-section-of": "12.207J",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 2-139"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 2-139"
         },
         {
             "type":        "Class",
             "label":       "12.213 - Alternate Energy Sources",
             "id":          "12.213",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "1-4-1 [P/D/F]",
             "total-units": "Unknown",
@@ -1027,6 +1040,7 @@
             "type":        "Class",
             "label":       "12.214 - Environmental Geophysics",
             "id":          "12.214",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -1045,16 +1059,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.214-1",
+            "label":              "L12.214-1",
             "lecture-section-of": "12.214",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 E34-300"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 E34-300"
         },
         {
             "type":        "Class",
             "label":       "12.215 - Modern Navigation",
             "id":          "12.215",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -1071,6 +1084,7 @@
             "type":        "Class",
             "label":       "12.221 - Field Geophysics",
             "id":          "12.221",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "1-4-1 [P/D/F]",
             "total-units": "Unknown",
@@ -1090,6 +1104,7 @@
             "type":        "Class",
             "label":       "12.222 - Field Geophysics Analysis",
             "id":          "12.222",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -1110,6 +1125,7 @@
             "type":        "Class",
             "label":       "12.265J - Techniques in Remote Sensing",
             "id":          "12.265J",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "1-4-1 [P/D/F]",
             "total-units": "Unknown",
@@ -1133,6 +1149,7 @@
             "type":        "Class",
             "label":       "12.300J - Global Change Science",
             "id":          "12.300J",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1154,6 +1171,7 @@
             "type":        "Class",
             "label":       "12.301 - Past and Present Climate",
             "id":          "12.301",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1181,6 +1199,7 @@
             "type":        "Class",
             "label":       "12.306 - Atmospheric Physics and Chemistry",
             "id":          "12.306",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1204,16 +1223,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.306-1",
+            "label":              "L12.306-1",
             "lecture-section-of": "12.306",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 56-191"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 56-191"
         },
         {
             "type":        "Class",
             "label":       "12.307 - Weather and Climate Laboratory",
             "id":          "12.307",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "1-4-7",
             "total-units": 12,
@@ -1233,16 +1251,15 @@
         },
         {
             "type":           "LabSection",
-            "label":          "s12.307-1",
+            "label":          "B12.307-1",
             "lab-section-of": "12.307",
-            "timeAndPlace":   [
-                "TR 14:30-16:30 54-1615"
-            ]
+            "timeAndPlace":   "TR 14:30-16:30 54-1615"
         },
         {
             "type":        "Class",
             "label":       "12.310 - An Introduction to Weather Forecasting",
             "id":          "12.310",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "1-1-4 [P/D/F]",
             "total-units": "Unknown",
@@ -1263,6 +1280,7 @@
             "type":        "Class",
             "label":       "12.311 - Experimental Oceanography",
             "id":          "12.311",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "2-2-2 [P/D/F]",
             "total-units": "Unknown",
@@ -1286,6 +1304,7 @@
             "type":        "Class",
             "label":       "12.320J - Introduction to Hydrology",
             "id":          "12.320J",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1306,6 +1325,7 @@
             "type":        "Class",
             "label":       "12.330J - Fluid Physics",
             "id":          "12.330J",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1325,16 +1345,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.330J-1",
+            "label":              "L12.330J-1",
             "lecture-section-of": "12.330J",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 26-168"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 26-168"
         },
         {
             "type":        "Class",
             "label":       "12.333 - Atmospheric and Ocean Circulations",
             "id":          "12.333",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1350,16 +1369,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.333-1",
+            "label":              "L12.333-1",
             "lecture-section-of": "12.333",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 54-1615"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 54-1615"
         },
         {
             "type":        "Class",
             "label":       "12.335 - Experimental Atmospheric Chemistry",
             "id":          "12.335",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "2-4-6",
             "total-units": 12,
@@ -1380,6 +1398,7 @@
             "type":        "Class",
             "label":       "12.400 - The Solar System",
             "id":          "12.400",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1396,16 +1415,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.400-1",
+            "label":              "L12.400-1",
             "lecture-section-of": "12.400",
-            "timeAndPlace":       [
-                "TR 15:00-16:30 32-124"
-            ]
+            "timeAndPlace":       "TR 15:00-16:30 32-124"
         },
         {
             "type":        "Class",
             "label":       "12.402J - Introduction to Astronomy",
             "id":          "12.402J",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -1425,16 +1443,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.402J-1",
+            "label":              "L12.402J-1",
             "lecture-section-of": "12.402J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 2-105"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 2-105"
         },
         {
             "type":        "Class",
             "label":       "12.409 - Hands-On Astronomy: Observing Stars and Planets",
             "id":          "12.409",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "0-4-2 [P/D/F]",
             "total-units": "Unknown",
@@ -1449,16 +1466,15 @@
         },
         {
             "type":           "LabSection",
-            "label":          "s12.409-1",
+            "label":          "B12.409-1",
             "lab-section-of": "12.409",
-            "timeAndPlace":   [
-                "W 19:00-10:00 37-562"
-            ]
+            "timeAndPlace":   "W 19:00-22:00 37-562"
         },
         {
             "type":        "Class",
             "label":       "12.410J - Observational Techniques of Optical Astronomy",
             "id":          "12.410J",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-4-8",
             "total-units": 15,
@@ -1482,6 +1498,7 @@
             "type":        "Class",
             "label":       "12.411 - Astronomy Field Camp",
             "id":          "12.411",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "0-6-3 [P/D/F]",
             "total-units": "Unknown",
@@ -1505,6 +1522,7 @@
             "type":        "Class",
             "label":       "12.420 - Physics and Chemistry of the Solar System",
             "id":          "12.420",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1523,16 +1541,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s12.420-1",
+            "label":              "L12.420-1",
             "lecture-section-of": "12.420",
-            "timeAndPlace":       [
-                "TR 10:30-12:00 54-313"
-            ]
+            "timeAndPlace":       "TR 10:30-12:00 54-313"
         },
         {
             "type":        "Class",
             "label":       "12.421J - Physical Principles of Remote Sensing",
             "id":          "12.421J",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1555,6 +1572,7 @@
             "type":        "Class",
             "label":       "12.425 - Extrasolar Planets: Physics and Detection Techniques",
             "id":          "12.425",
+            "course":      "12",
             "level":       "Undergrad",
             "units":       "2-1-9",
             "total-units": 12,

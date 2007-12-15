@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "17.000J - Political Philosophy",
             "id":          "17.000J",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -24,6 +25,7 @@
             "type":        "Class",
             "label":       "17.006 - Feminist Political Thought",
             "id":          "17.006",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -52,24 +54,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.006-1",
+            "label":              "L17.006-1",
             "lecture-section-of": "17.006",
-            "timeAndPlace":       [
-                "W 13:00-16:00 56-191"
-            ]
+            "timeAndPlace":       "W 13:00-16:00 56-191"
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.006-2",
+            "label":              "L17.006-2",
             "lecture-section-of": "17.006",
-            "timeAndPlace":       [
-                "W 13:00-16:00 56-191"
-            ]
+            "timeAndPlace":       "W 13:00-16:00 56-191"
         },
         {
             "type":        "Class",
             "label":       "17.01J - Justice",
             "id":          "17.01J",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -88,26 +87,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.01J-1",
+            "label":              "L17.01J-1",
             "lecture-section-of": "17.01J",
-            "timeAndPlace":       [
-                "T 11:00-13:00 32-155"
-            ]
+            "timeAndPlace":       "T 11:00-13:00 32-155"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s17.01J-2",
+            "label":          "R17.01J-2",
             "rec-section-of": "17.01J",
-            "timeAndPlace":   [
-                "R 14:00-15:00 56-167",
-                "F 10:00-11:00 56-167",
-                "F 12:00-13:00 56-180"
-            ]
+            "timeAndPlace":   "R 14:00-15:00 56-167"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R17.01J-3",
+            "rec-section-of": "17.01J",
+            "timeAndPlace":   "F 10:00-11:00 56-167"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R17.01J-4",
+            "rec-section-of": "17.01J",
+            "timeAndPlace":   "F 12:00-13:00 56-180"
         },
         {
             "type":        "Class",
             "label":       "17.021J - Philosophy of Law",
             "id":          "17.021J",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -125,6 +131,7 @@
             "type":        "Class",
             "label":       "17.03 - Introduction to Political Thought",
             "id":          "17.03",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -141,6 +148,7 @@
             "type":        "Class",
             "label":       "17.045J - Power: Interpersonal, Organizational and Global Dimensions",
             "id":          "17.045J",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -158,6 +166,7 @@
             "type":        "Class",
             "label":       "17.10 - International Political Economy",
             "id":          "17.10",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -174,6 +183,7 @@
             "type":        "Class",
             "label":       "17.100J - Political Economy I: Theories of the State and the Economy",
             "id":          "17.100J",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -197,6 +207,7 @@
             "type":        "Class",
             "label":       "17.125 - The Politics of Global Financial Relations",
             "id":          "17.125",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -213,6 +224,7 @@
             "type":        "Class",
             "label":       "17.148 - Political Economy of Globalization",
             "id":          "17.148",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -229,6 +241,7 @@
             "type":        "Class",
             "label":       "17.158 - Political Economy of West Europe",
             "id":          "17.158",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -245,6 +258,7 @@
             "type":        "Class",
             "label":       "17.160 - The Political Economy of Institutions",
             "id":          "17.160",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -261,6 +275,7 @@
             "type":        "Class",
             "label":       "17.162 - Federalism and Decentralization",
             "id":          "17.162",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -277,6 +292,7 @@
             "type":        "Class",
             "label":       "17.176J - Economic Development and Policy Analysis I",
             "id":          "17.176J",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -295,16 +311,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.176J-1",
+            "label":              "L17.176J-1",
             "lecture-section-of": "17.176J",
-            "timeAndPlace":       [
-                "M 14:00-17:00 10-401"
-            ]
+            "timeAndPlace":       "M 14:00-17:00 10-401"
         },
         {
             "type":        "Class",
             "label":       "17.181 - Sustainable Development: Theory, Research and Policy",
             "id":          "17.181",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -326,24 +341,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.181-1",
+            "label":              "L17.181-1",
             "lecture-section-of": "17.181",
-            "timeAndPlace":       [
-                "T 13:00-15:00 E51-385"
-            ]
+            "timeAndPlace":       "T 13:00-15:00 E51-385"
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.181-3",
+            "label":              "L17.181-2",
             "lecture-section-of": "17.181",
-            "timeAndPlace":       [
-                "T 13:00-15:00 E51-385"
-            ]
+            "timeAndPlace":       "T 13:00-15:00 E51-385"
         },
         {
             "type":        "Class",
             "label":       "17.184J - Economic Institutions and Growth Policy Analysis",
             "id":          "17.184J",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -366,16 +378,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.184J-1",
+            "label":              "L17.184J-1",
             "lecture-section-of": "17.184J",
-            "timeAndPlace":       [
-                "M 9:00-12:00 10-401"
-            ]
+            "timeAndPlace":       "M 9:00-12:00 10-401"
         },
         {
             "type":        "Class",
             "label":       "17.188J - Labor and Politics",
             "id":          "17.188J",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -392,6 +403,7 @@
             "type":        "Class",
             "label":       "17.190J - Economic Development and Policy Analysis, Part II",
             "id":          "17.190J",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -412,6 +424,7 @@
             "type":        "Class",
             "label":       "17.195 - Globalization",
             "id":          "17.195",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -438,6 +451,7 @@
             "type":        "Class",
             "label":       "17.199J - Working in a Global Economy",
             "id":          "17.199J",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -461,6 +475,7 @@
             "type":        "Class",
             "label":       "17.20 - Introduction to the American Political Process",
             "id":          "17.20",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -481,16 +496,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.20-1",
+            "label":              "L17.20-1",
             "lecture-section-of": "17.20",
-            "timeAndPlace":       [
-                "MW 12:00-13:00 1-390"
-            ]
+            "timeAndPlace":       "MW 12:00-13:00 1-390"
         },
         {
             "type":        "Class",
             "label":       "17.200 - Graduate Seminar in American Politics",
             "id":          "17.200",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -507,6 +521,7 @@
             "type":        "Class",
             "label":       "17.243 - Media Politics",
             "id":          "17.243",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -523,6 +538,7 @@
             "type":        "Class",
             "label":       "17.244 - Media Politics",
             "id":          "17.244",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -538,6 +554,7 @@
             "type":        "Class",
             "label":       "17.245 - The Supreme Court, Civil Liberties, and Civil Rights",
             "id":          "17.245",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -554,6 +571,7 @@
             "type":        "Class",
             "label":       "17.249J - Law and Society",
             "id":          "17.249J",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -577,6 +595,7 @@
             "type":        "Class",
             "label":       "17.251 - Congress and the American Political System I",
             "id":          "17.251",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -608,6 +627,7 @@
             "type":        "Class",
             "label":       "17.253 - American Political Economy",
             "id":          "17.253",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -642,6 +662,7 @@
             "type":        "Class",
             "label":       "17.261 - Congress and the American Political System II",
             "id":          "17.261",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -672,6 +693,7 @@
             "type":        "Class",
             "label":       "17.263 - Electoral Politics",
             "id":          "17.263",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -692,6 +714,7 @@
             "type":        "Class",
             "label":       "17.264 - Electoral Politics",
             "id":          "17.264",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -712,6 +735,7 @@
             "type":        "Class",
             "label":       "17.265 - Public Opinion and American Democracy",
             "id":          "17.265",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -732,6 +756,7 @@
             "type":        "Class",
             "label":       "17.266 - Public Opinion",
             "id":          "17.266",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -746,16 +771,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.266-1",
+            "label":              "L17.266-1",
             "lecture-section-of": "17.266",
-            "timeAndPlace":       [
-                "W 15:00-17:00 E51-390"
-            ]
+            "timeAndPlace":       "W 15:00-17:00 E51-390"
         },
         {
             "type":        "Class",
             "label":       "17.269 - Presidential Elections",
             "id":          "17.269",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -772,6 +796,7 @@
             "type":        "Class",
             "label":       "17.270 - American Political Development",
             "id":          "17.270",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -789,16 +814,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.270-1",
+            "label":              "L17.270-1",
             "lecture-section-of": "17.270",
-            "timeAndPlace":       [
-                "W 13:00-15:00 E51-390"
-            ]
+            "timeAndPlace":       "W 13:00-15:00 E51-390"
         },
         {
             "type":        "Class",
             "label":       "17.276 - Public Opinion Research Training Lab",
             "id":          "17.276",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -823,6 +847,7 @@
             "type":        "Class",
             "label":       "17.281 - Public Opinion and Foreign Policy",
             "id":          "17.281",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -851,32 +876,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.281-1",
+            "label":              "L17.281-1",
             "lecture-section-of": "17.281",
-            "timeAndPlace":       [
-                "W 11:00-13:00 E51-393"
-            ]
+            "timeAndPlace":       "W 11:00-13:00 E51-393"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s17.281-2",
+            "label":          "R17.281-2",
             "rec-section-of": "17.281",
-            "timeAndPlace":   [
-                "W 13:00-14:00 E51-393"
-            ]
+            "timeAndPlace":   "W 13:00-14:00 E51-393"
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.281-3",
+            "label":              "L17.281-3",
             "lecture-section-of": "17.281",
-            "timeAndPlace":       [
-                "W 11:00-13:00 E51-393"
-            ]
+            "timeAndPlace":       "W 11:00-13:00 E51-393"
         },
         {
             "type":        "Class",
             "label":       "17.30J - Making Public Policy",
             "id":          "17.30J",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -900,6 +920,7 @@
             "type":        "Class",
             "label":       "17.303J - Methods of Policy Analysis",
             "id":          "17.303J",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -922,16 +943,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.303J-1",
+            "label":              "L17.303J-1",
             "lecture-section-of": "17.303J",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 5-231"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 5-231"
         },
         {
             "type":        "Class",
             "label":       "17.307 - American Public Policy for Washington Interns",
             "id":          "17.307",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -951,6 +971,7 @@
             "type":        "Class",
             "label":       "17.31J - Science, Technology, and Public Policy",
             "id":          "17.31J",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -971,6 +992,7 @@
             "type":        "Class",
             "label":       "17.310J - Science, Technology, and Public Policy",
             "id":          "17.310J",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -991,6 +1013,7 @@
             "type":        "Class",
             "label":       "17.311 - Politics, Race, and Science",
             "id":          "17.311",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1007,6 +1030,7 @@
             "type":        "Class",
             "label":       "17.312J - Integrating Doctoral Seminar on Emerging Technologies",
             "id":          "17.312J",
+            "course":      "17",
             "level":       "Grad",
             "units":       "2-0-7",
             "total-units": 9,
@@ -1025,16 +1049,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.312J-1",
+            "label":              "L17.312J-1",
             "lecture-section-of": "17.312J",
-            "timeAndPlace":       [
-                "W 15:00-17:00 E51-393"
-            ]
+            "timeAndPlace":       "W 15:00-17:00 E51-393"
         },
         {
             "type":        "Class",
             "label":       "17.314J - Labor Market Regulation and Career Mobility",
             "id":          "17.314J",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1050,16 +1073,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.314J-1",
+            "label":              "L17.314J-1",
             "lecture-section-of": "17.314J",
-            "timeAndPlace":       [
-                "M 17:00-19:00 E52-398"
-            ]
+            "timeAndPlace":       "M 17:00-19:00 E52-398"
         },
         {
             "type":        "Class",
             "label":       "17.315 - Health Policy",
             "id":          "17.315",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1079,6 +1101,7 @@
             "type":        "Class",
             "label":       "17.317 - U. S. Social Policy",
             "id":          "17.317",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1093,16 +1116,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.317-1",
+            "label":              "L17.317-1",
             "lecture-section-of": "17.317",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 4-253"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 4-253"
         },
         {
             "type":        "Class",
             "label":       "17.32 - Environmental Politics and Policy",
             "id":          "17.32",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1122,6 +1144,7 @@
             "type":        "Class",
             "label":       "17.391J - Human Rights in Theory and Practice",
             "id":          "17.391J",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1141,6 +1164,7 @@
             "type":        "Class",
             "label":       "17.393J - Environmental Law, Policy, and Economics: Pollution Prevention and Control",
             "id":          "17.393J",
+            "course":      "17",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1167,6 +1191,7 @@
             "type":        "Class",
             "label":       "17.398J - Energy Policy for a Sustainable Future",
             "id":          "17.398J",
+            "course":      "17",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1182,11 +1207,9 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s17.398J-1",
+            "label":              "L17.398J-1",
             "lecture-section-of": "17.398J",
-            "timeAndPlace":       [
-                "MW 9:00-10:30 4-153"
-            ]
+            "timeAndPlace":       "MW 9:00-10:30 4-153"
         }
     ]
 }

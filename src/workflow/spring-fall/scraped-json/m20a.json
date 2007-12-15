@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "20.020 - Introduction to Biological Engineering Design",
             "id":          "20.020",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "3-3-3",
             "total-units": 9,
@@ -19,24 +20,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.020-1",
+            "label":              "L20.020-1",
             "lecture-section-of": "20.020",
-            "timeAndPlace":       [
-                "TR 11:30-13:00 26-152"
-            ]
+            "timeAndPlace":       "TR 11:30-13:00 26-152"
         },
         {
             "type":           "LabSection",
-            "label":          "s20.020-2",
+            "label":          "B20.020-2",
             "lab-section-of": "20.020",
-            "timeAndPlace":   [
-                "W 14:00-17:00 26-152"
-            ]
+            "timeAndPlace":   "W 14:00-17:00 26-152"
         },
         {
             "type":        "Class",
             "label":       "20.102 - Macroepidemiology and Population Genetics",
             "id":          "20.102",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -55,6 +53,7 @@
             "type":        "Class",
             "label":       "20.104J - Environmental Risks for Common Disease",
             "id":          "20.104J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -81,16 +80,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.104J-1",
+            "label":              "L20.104J-1",
             "lecture-section-of": "20.104J",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 56-614"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 56-614"
         },
         {
             "type":        "Class",
             "label":       "20.106J - Systems Microbiology",
             "id":          "20.106J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -118,6 +116,7 @@
             "type":        "Class",
             "label":       "20.109 - Laboratory Fundamentals in Biological Engineering",
             "id":          "20.109",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "2-8-5",
             "total-units": 15,
@@ -149,25 +148,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.109-1",
+            "label":              "L20.109-1",
             "lecture-section-of": "20.109",
-            "timeAndPlace":       [
-                "TR 11:00-12:00 13-3101"
-            ]
+            "timeAndPlace":       "TR 11:00-12:00 13-3101"
         },
         {
             "type":           "LabSection",
-            "label":          "s20.109-2",
+            "label":          "B20.109-2",
             "lab-section-of": "20.109",
-            "timeAndPlace":   [
-                "TR 13:00-17:00 13-3095",
-                "WF 13:00-17:00 13-3095"
-            ]
+            "timeAndPlace":   "TR 13:00-17:00 13-3095"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B20.109-3",
+            "lab-section-of": "20.109",
+            "timeAndPlace":   "WF 13:00-17:00 13-3095"
         },
         {
             "type":        "Class",
             "label":       "20.110J - Thermodynamics of Biomolecular Systems",
             "id":          "20.110J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -193,6 +194,7 @@
             "type":        "Class",
             "label":       "20.200 - Biological Engineering Seminar",
             "id":          "20.200",
+            "course":      "20",
             "level":       "Grad",
             "units":       "1-0-2 [P/D/F]",
             "total-units": "Unknown",
@@ -212,16 +214,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.200-1",
+            "label":              "L20.200-1",
             "lecture-section-of": "20.200",
-            "timeAndPlace":       [
-                "W 12:00-13:00 56-614"
-            ]
+            "timeAndPlace":       "W 12:00-13:00 56-614"
         },
         {
             "type":        "Class",
             "label":       "20.201 - Mechanisms of Drug Actions",
             "id":          "20.201",
+            "course":      "20",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -240,6 +241,7 @@
             "type":        "Class",
             "label":       "20.202 - Animal Models in Toxicology",
             "id":          "20.202",
+            "course":      "20",
             "level":       "Grad",
             "units":       "1-1-4",
             "total-units": 6,
@@ -260,6 +262,7 @@
             "type":        "Class",
             "label":       "20.213 - DNA Damage and Genomic Instability",
             "id":          "20.213",
+            "course":      "20",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -282,6 +285,7 @@
             "type":        "Class",
             "label":       "20.215 - Epidemiology, Population Genetics and Cell Biology of Human Cancers",
             "id":          "20.215",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-15",
             "total-units": 18,
@@ -302,6 +306,7 @@
             "type":        "Class",
             "label":       "20.217 - Adult Stem Cell Biological Engineering",
             "id":          "20.217",
+            "course":      "20",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -325,6 +330,7 @@
             "type":        "Class",
             "label":       "20.219 - Selected Topics in Toxicology",
             "id":          "20.219",
+            "course":      "20",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -348,6 +354,7 @@
             "type":        "Class",
             "label":       "20.309J - Biological Engineering II: Instrumentation and Measurement",
             "id":          "20.309J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "3-6-3",
             "total-units": 12,
@@ -371,6 +378,7 @@
             "type":        "Class",
             "label":       "20.310J - Molecular, Cellular, and Tissue Biomechanics",
             "id":          "20.310J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -399,16 +407,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.310J-1",
+            "label":              "L20.310J-1",
             "lecture-section-of": "20.310J",
-            "timeAndPlace":       [
-                "MWF 12:00-13:00 4-231"
-            ]
+            "timeAndPlace":       "MWF 12:00-13:00 4-231"
         },
         {
             "type":        "Class",
             "label":       "20.320 - Analysis of Biomolecular & Cellular Systems",
             "id":          "20.320",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -432,6 +439,7 @@
             "type":        "Class",
             "label":       "20.330J - Fields, Forces and Flows in Biological Systems",
             "id":          "20.330J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -454,25 +462,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.330J-1",
+            "label":              "L20.330J-1",
             "lecture-section-of": "20.330J",
-            "timeAndPlace":       [
-                "MWF 11:00-12:00 4-237"
-            ]
+            "timeAndPlace":       "MWF 11:00-12:00 4-237"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s20.330J-2",
+            "label":          "R20.330J-2",
             "rec-section-of": "20.330J",
-            "timeAndPlace":   [
-                "R 14:00-15:00 5-233",
-                "R 15:00-16:00 5-233"
-            ]
+            "timeAndPlace":   "R 14:00-15:00 5-233"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R20.330J-3",
+            "rec-section-of": "20.330J",
+            "timeAndPlace":   "R 15:00-16:00 5-233"
         },
         {
             "type":        "Class",
             "label":       "20.340J - Materials for Biomedical Applications",
             "id":          "20.340J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -502,6 +512,7 @@
             "type":        "Class",
             "label":       "20.342 - Molecular Structure of Biological Materials",
             "id":          "20.342",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -521,6 +532,7 @@
             "type":        "Class",
             "label":       "20.360J - Tissue Engineering for Analysis, Prevention, and Treatment of Human Disease",
             "id":          "20.360J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -548,6 +560,7 @@
             "type":        "Class",
             "label":       "20.361J - Molecular and Engineering Aspects of Biotechnology",
             "id":          "20.361J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -575,6 +588,7 @@
             "type":        "Class",
             "label":       "20.370J - Quantitative Physiology: Cells and Tissues",
             "id":          "20.370J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "5-2-5",
             "total-units": 12,
@@ -607,6 +621,7 @@
             "type":        "Class",
             "label":       "20.371J - Quantitative Physiology: Organ Transport Systems",
             "id":          "20.371J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -632,25 +647,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.371J-1",
+            "label":              "L20.371J-1",
             "lecture-section-of": "20.371J",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 32-124"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 32-124"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s20.371J-2",
+            "label":          "R20.371J-2",
             "rec-section-of": "20.371J",
-            "timeAndPlace":   [
-                "F 13:00-14:00 E25-117",
-                "F 14:00-15:00 E25-117"
-            ]
+            "timeAndPlace":   "F 13:00-14:00 E25-117"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R20.371J-3",
+            "rec-section-of": "20.371J",
+            "timeAndPlace":   "F 14:00-15:00 E25-117"
         },
         {
             "type":        "Class",
             "label":       "20.380J - Biological Engineering Design",
             "id":          "20.380J",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -672,16 +689,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.380J-1",
+            "label":              "L20.380J-1",
             "lecture-section-of": "20.380J",
-            "timeAndPlace":       [
-                "TR 10:00-12:00 56-614"
-            ]
+            "timeAndPlace":       "TR 10:00-12:00 56-614"
         },
         {
             "type":        "Class",
             "label":       "20.390 - Foundations of Computational and Systems Biology",
             "id":          "20.390",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -707,16 +723,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.390-1",
+            "label":              "L20.390-1",
             "lecture-section-of": "20.390",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 4-237"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 4-237"
         },
         {
             "type":        "Class",
             "label":       "20.400J - Perspectives in Biological Engineering",
             "id":          "20.400J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -734,16 +749,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.400J-1",
+            "label":              "L20.400J-1",
             "lecture-section-of": "20.400J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 56-614"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 56-614"
         },
         {
             "type":        "Class",
             "label":       "20.409 - Biological Engineering II: Instrumentation and Measurement",
             "id":          "20.409",
+            "course":      "20",
             "level":       "Grad",
             "units":       "2-7-3",
             "total-units": 12,
@@ -767,6 +781,7 @@
             "type":        "Class",
             "label":       "20.410J - Molecular, Cellular, and Tissue Biomechanics",
             "id":          "20.410J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -796,16 +811,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.410J-1",
+            "label":              "L20.410J-1",
             "lecture-section-of": "20.410J",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 32-141"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 32-141"
         },
         {
             "type":        "Class",
             "label":       "20.411J - Cell-Matrix Mechanics",
             "id":          "20.411J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -837,16 +851,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.411J-1",
+            "label":              "L20.411J-1",
             "lecture-section-of": "20.411J",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 3-343"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 3-343"
         },
         {
             "type":        "Class",
             "label":       "20.420J - Biomolecular Kinetics and Cellular Dynamics",
             "id":          "20.420J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -871,6 +884,7 @@
             "type":        "Class",
             "label":       "20.430J - Fields, Forces, and Flows in Biological Systems",
             "id":          "20.430J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -898,6 +912,7 @@
             "type":        "Class",
             "label":       "20.440 - Analysis of Biological Networks",
             "id":          "20.440",
+            "course":      "20",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -914,16 +929,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.440-1",
+            "label":              "L20.440-1",
             "lecture-section-of": "20.440",
-            "timeAndPlace":       [
-                "WF 10:00-12:00 56-614"
-            ]
+            "timeAndPlace":       "WF 10:00-12:00 56-614"
         },
         {
             "type":        "Class",
             "label":       "20.441J - Biomaterials: Tissue Interactions",
             "id":          "20.441J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -953,6 +967,7 @@
             "type":        "Class",
             "label":       "20.442 - Molecular Structure of Biological Materials",
             "id":          "20.442",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -972,6 +987,7 @@
             "type":        "Class",
             "label":       "20.450 - Molecular and Cellular Pathophysiology",
             "id":          "20.450",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -992,16 +1008,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.450-1",
+            "label":              "L20.450-1",
             "lecture-section-of": "20.450",
-            "timeAndPlace":       [
-                "WF 15:00-16:30 56-614"
-            ]
+            "timeAndPlace":       "WF 15:00-16:30 56-614"
         },
         {
             "type":        "Class",
             "label":       "20.451J - Design of Medical Devices and Implants",
             "id":          "20.451J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1023,16 +1038,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.451J-1",
+            "label":              "L20.451J-1",
             "lecture-section-of": "20.451J",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 1-134"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 1-134"
         },
         {
             "type":        "Class",
             "label":       "20.453J - Biomedical Information Technology",
             "id":          "20.453J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1057,6 +1071,7 @@
             "type":        "Class",
             "label":       "20.462J - Molecular Principles of Biomaterials",
             "id":          "20.462J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1071,16 +1086,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.462J-1",
+            "label":              "L20.462J-1",
             "lecture-section-of": "20.462J",
-            "timeAndPlace":       [
-                "TR 12:30-14:00 56-154"
-            ]
+            "timeAndPlace":       "TR 12:30-14:00 56-154"
         },
         {
             "type":        "Class",
             "label":       "20.465J - Statistical Thermodynamics with Applications to Biological Systems",
             "id":          "20.465J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1104,6 +1118,7 @@
             "type":        "Class",
             "label":       "20.470J - Quantitative Physiology: Cells and Tissues",
             "id":          "20.470J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "5-2-5",
             "total-units": 12,
@@ -1135,6 +1150,7 @@
             "type":        "Class",
             "label":       "20.471J - Quantitative Physiology: Organ Transport Systems",
             "id":          "20.471J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -1158,25 +1174,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.471J-1",
+            "label":              "L20.471J-1",
             "lecture-section-of": "20.471J",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 32-124"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 32-124"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s20.471J-2",
+            "label":          "R20.471J-2",
             "rec-section-of": "20.471J",
-            "timeAndPlace":   [
-                "F 13:00-14:00 E25-117",
-                "F 14:00-15:00 E25-117"
-            ]
+            "timeAndPlace":   "F 13:00-14:00 E25-117"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R20.471J-3",
+            "rec-section-of": "20.471J",
+            "timeAndPlace":   "F 14:00-15:00 E25-117"
         },
         {
             "type":        "Class",
             "label":       "20.472J - Neuroimaging Cells and Circuits",
             "id":          "20.472J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1195,6 +1213,7 @@
             "type":        "Class",
             "label":       "20.482J - Foundations of Algorithms and Computational Techniques in Systems Biology",
             "id":          "20.482J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1222,6 +1241,7 @@
             "type":        "Class",
             "label":       "20.483J - Noninvasive Imaging in Biology and Medicine",
             "id":          "20.483J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1247,6 +1267,7 @@
             "type":        "Class",
             "label":       "20.485 - Tools for Assessing Biological Function",
             "id":          "20.485",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1271,6 +1292,7 @@
             "type":        "Class",
             "label":       "20.486J - Case Studies and Strategies in Drug Discovery and Development",
             "id":          "20.486J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "2-0-4",
             "total-units": 6,
@@ -1292,16 +1314,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.486J-1",
+            "label":              "L20.486J-1",
             "lecture-section-of": "20.486J",
-            "timeAndPlace":       [
-                "T 16:00-18:30 56-614"
-            ]
+            "timeAndPlace":       "T 16:00-18:30 56-614"
         },
         {
             "type":        "Class",
             "label":       "20.487J - Optical Microscopy and Spectroscopy for Biology and Medicine",
             "id":          "20.487J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1320,6 +1341,7 @@
             "type":        "Class",
             "label":       "20.490J - Foundations of Computational and Systems Biology",
             "id":          "20.490J",
+            "course":      "20",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1348,16 +1370,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.490J-1",
+            "label":              "L20.490J-1",
             "lecture-section-of": "20.490J",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 4-237"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 4-237"
         },
         {
             "type":        "Class",
             "label":       "20.901 - Special Topics in Toxicology and Environmental Health",
             "id":          "20.901",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1378,6 +1399,7 @@
             "type":        "Class",
             "label":       "20.902 - Special Topics in Biological Engineering",
             "id":          "20.902",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1399,6 +1421,7 @@
             "type":        "Class",
             "label":       "20.903 - Special Topics in Biological Engineering",
             "id":          "20.903",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1420,6 +1443,7 @@
             "type":        "Class",
             "label":       "20.947 - Special Topics in Biological Engineering",
             "id":          "20.947",
+            "course":      "20",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1442,6 +1466,7 @@
             "type":        "Class",
             "label":       "20.948 - Special Topics in Biological Engineering",
             "id":          "20.948",
+            "course":      "20",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1464,6 +1489,7 @@
             "type":        "Class",
             "label":       "20.949 - Special Topics in Biological Engineering",
             "id":          "20.949",
+            "course":      "20",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1486,6 +1512,7 @@
             "type":        "Class",
             "label":       "20.950 - Research Problems in Biological Engineering",
             "id":          "20.950",
+            "course":      "20",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1508,6 +1535,7 @@
             "type":        "Class",
             "label":       "20.951 - Thesis Proposal",
             "id":          "20.951",
+            "course":      "20",
             "level":       "Grad",
             "units":       "0-24-0 [P/D/F]",
             "total-units": "Unknown",
@@ -1530,6 +1558,7 @@
             "type":        "Class",
             "label":       "20.952 - Special Topics in Biological Engineering",
             "id":          "20.952",
+            "course":      "20",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1550,16 +1579,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s20.952-1",
+            "label":              "L20.952-1",
             "lecture-section-of": "20.952",
-            "timeAndPlace":       [
-                "R 16:00-18:00 32-141"
-            ]
+            "timeAndPlace":       "R 16:00-18:00 32-141"
         },
         {
             "type":        "Class",
             "label":       "20.960 - Teaching Experience in Biological Engineering",
             "id":          "20.960",
+            "course":      "20",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1581,6 +1609,7 @@
             "type":        "Class",
             "label":       "20.ThG - Graduate Thesis",
             "id":          "20.ThG",
+            "course":      "20",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1603,6 +1632,7 @@
             "type":        "Class",
             "label":       "20.UR - Undergraduate Research Opportunities",
             "id":          "20.UR",
+            "course":      "20",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",

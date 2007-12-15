@@ -4,6 +4,7 @@
             "type":        "Class",
             "label":       "3.003 - Principles of Engineering Practice",
             "id":          "3.003",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "1-2-6",
             "total-units": 9,
@@ -27,24 +28,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.003-1",
+            "label":              "L3.003-1",
             "lecture-section-of": "3.003",
-            "timeAndPlace":       [
-                "T 14:00-15:00 8-404"
-            ]
+            "timeAndPlace":       "T 14:00-15:00 8-404"
         },
         {
             "type":           "LabSection",
-            "label":          "s3.003-2",
+            "label":          "B3.003-2",
             "lab-section-of": "3.003",
-            "timeAndPlace":   [
-                "R 14:00-16:00 8-107"
-            ]
+            "timeAndPlace":   "R 14:00-16:00 8-107"
         },
         {
             "type":        "Class",
             "label":       "3.012 - Fundamentals of Materials Science and Engineering",
             "id":          "3.012",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "5-0-10",
             "total-units": 15,
@@ -63,6 +61,7 @@
             "type":        "Class",
             "label":       "3.014 - Materials Laboratory",
             "id":          "3.014",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "1-4-7",
             "total-units": 12,
@@ -81,6 +80,7 @@
             "type":        "Class",
             "label":       "3.016 - Mathematical Methods for Materials Scientists and Engineers",
             "id":          "3.016",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-1-8",
             "total-units": 12,
@@ -96,6 +96,7 @@
             "type":        "Class",
             "label":       "3.021 - Introduction to Modeling and Simulation",
             "id":          "3.021",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -121,24 +122,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.021-1",
+            "label":              "L3.021-1",
             "lecture-section-of": "3.021",
-            "timeAndPlace":       [
-                "TR 15:00-16:30 4-231"
-            ]
+            "timeAndPlace":       "TR 15:00-16:30 4-231"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s3.021-2",
+            "label":          "R3.021-2",
             "rec-section-of": "3.021",
-            "timeAndPlace":   [
-                "M 16:00-17:00 4-231"
-            ]
+            "timeAndPlace":   "M 16:00-17:00 4-231"
         },
         {
             "type":        "Class",
             "label":       "3.022 - Microstructural Evolution in Materials",
             "id":          "3.022",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -155,33 +153,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.022-1",
+            "label":              "L3.022-1",
             "lecture-section-of": "3.022",
-            "timeAndPlace":       [
-                "MWF 10:00-11:00 37-212"
-            ]
+            "timeAndPlace":       "MWF 10:00-11:00 37-212"
         },
         {
             "type":           "LabSection",
-            "label":          "s3.022-2",
+            "label":          "B3.022-2",
             "lab-section-of": "3.022",
-            "timeAndPlace":   [
-                "MWF 9:00-13:00 8-107"
-            ]
+            "timeAndPlace":   "MWF 9:00-13:00 8-107"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s3.022-3",
+            "label":          "R3.022-3",
             "rec-section-of": "3.022",
-            "timeAndPlace":   [
-                "TR 13:00-14:00 13-1143",
-                "TR 14:00-15:00 13-1143"
-            ]
+            "timeAndPlace":   "TR 13:00-14:00 13-1143"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R3.022-4",
+            "rec-section-of": "3.022",
+            "timeAndPlace":   "TR 14:00-15:00 13-1143"
         },
         {
             "type":        "Class",
             "label":       "3.024 - Electronic, Optical and Magnetic Properties of Materials",
             "id":          "3.024",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-3-6",
             "total-units": 12,
@@ -200,33 +198,33 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.024-1",
+            "label":              "L3.024-1",
             "lecture-section-of": "3.024",
-            "timeAndPlace":       [
-                "MWF 11:00-12:00 4-231"
-            ]
+            "timeAndPlace":       "MWF 11:00-12:00 4-231"
         },
         {
             "type":           "LabSection",
-            "label":          "s3.024-2",
+            "label":          "B3.024-2",
             "lab-section-of": "3.024",
-            "timeAndPlace":   [
-                "MWF 9:00-13:00 8-107"
-            ]
+            "timeAndPlace":   "MWF 9:00-13:00 8-107"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s3.024-3",
+            "label":          "R3.024-3",
             "rec-section-of": "3.024",
-            "timeAndPlace":   [
-                "TR 14:00-15:00 13-5101",
-                "TR 15:00-16:00 13-5101"
-            ]
+            "timeAndPlace":   "TR 14:00-15:00 13-5101"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R3.024-4",
+            "rec-section-of": "3.024",
+            "timeAndPlace":   "TR 15:00-16:00 13-5101"
         },
         {
             "type":        "Class",
             "label":       "3.032 - Mechanical Behavior of Materials",
             "id":          "3.032",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -249,6 +247,7 @@
             "type":        "Class",
             "label":       "3.034 - Organic and Biomaterials Chemistry",
             "id":          "3.034",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "4-2-6",
             "total-units": 12,
@@ -267,6 +266,7 @@
             "type":        "Class",
             "label":       "3.035, 3.036, 3.037 - Special Problems in Materials Science and Engineering",
             "id":          "3.035, 3.036, 3.037",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -294,6 +294,7 @@
             "type":        "Class",
             "label":       "3.042 - Materials Project Laboratory",
             "id":          "3.042",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "1-6-5",
             "total-units": 12,
@@ -314,24 +315,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.042-1",
+            "label":              "L3.042-1",
             "lecture-section-of": "3.042",
-            "timeAndPlace":       [
-                "R 13:00-14:00 4-253"
-            ]
+            "timeAndPlace":       "R 13:00-14:00 4-253"
         },
         {
             "type":           "LabSection",
-            "label":          "s3.042-2",
+            "label":          "B3.042-2",
             "lab-section-of": "3.042",
-            "timeAndPlace":   [
-                "TR 14:00-17:00 16-602"
-            ]
+            "timeAndPlace":   "TR 14:00-17:00 16-602"
         },
         {
             "type":        "Class",
             "label":       "3.044 - Materials Processing",
             "id":          "3.044",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -348,25 +346,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.044-1",
+            "label":              "L3.044-1",
             "lecture-section-of": "3.044",
-            "timeAndPlace":       [
-                "MW 14:00-15:30 4-231"
-            ]
+            "timeAndPlace":       "MW 14:00-15:30 4-231"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s3.044-2",
+            "label":          "R3.044-2",
             "rec-section-of": "3.044",
-            "timeAndPlace":   [
-                "TR 11:00-12:00 13-4101",
-                "TR 12:00-13:00 13-4101"
-            ]
+            "timeAndPlace":   "TR 11:00-12:00 13-4101"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R3.044-3",
+            "rec-section-of": "3.044",
+            "timeAndPlace":   "TR 12:00-13:00 13-4101"
         },
         {
             "type":        "Class",
             "label":       "3.046 - Thermodynamics of Materials",
             "id":          "3.046",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -388,16 +388,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.046-1",
+            "label":              "L3.046-1",
             "lecture-section-of": "3.046",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 56-180"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 56-180"
         },
         {
             "type":        "Class",
             "label":       "3.048 - Advanced Materials Processing",
             "id":          "3.048",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -421,6 +420,7 @@
             "type":        "Class",
             "label":       "3.051J - Materials for Biomedical Applications",
             "id":          "3.051J",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -450,6 +450,7 @@
             "type":        "Class",
             "label":       "3.052 - Nanomechanics of Materials and Biomaterials",
             "id":          "3.052",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -468,6 +469,7 @@
             "type":        "Class",
             "label":       "3.053J - Molecular, Cellular, and Tissue Biomechanics",
             "id":          "3.053J",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -496,16 +498,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.053J-1",
+            "label":              "L3.053J-1",
             "lecture-section-of": "3.053J",
-            "timeAndPlace":       [
-                "MWF 12:00-13:00 4-231"
-            ]
+            "timeAndPlace":       "MWF 12:00-13:00 4-231"
         },
         {
             "type":        "Class",
             "label":       "3.063 - Polymer Physics",
             "id":          "3.063",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -521,6 +522,7 @@
             "type":        "Class",
             "label":       "3.064 - Polymer Engineering",
             "id":          "3.064",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -539,6 +541,7 @@
             "type":        "Class",
             "label":       "3.07 - Introduction to Ceramics",
             "id":          "3.07",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -554,6 +557,7 @@
             "type":        "Class",
             "label":       "3.070J - Communicating About Technology:  Colossal Failures in Engineering",
             "id":          "3.070J",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -581,17 +585,21 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "s3.070J-1",
+            "label":          "R3.070J-1",
             "rec-section-of": "3.070J",
-            "timeAndPlace":   [
-                "MWF 13:00-14:00 1-375",
-                "MWF 14:00-15:00 1-375"
-            ]
+            "timeAndPlace":   "MWF 13:00-14:00 1-375"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R3.070J-2",
+            "rec-section-of": "3.070J",
+            "timeAndPlace":   "MWF 14:00-15:00 1-375"
         },
         {
             "type":        "Class",
             "label":       "3.072 - Symmetry, Structure and Tensor Properties of Materials",
             "id":          "3.072",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -611,6 +619,7 @@
             "type":        "Class",
             "label":       "3.073 - Diffraction and Structure",
             "id":          "3.073",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -628,16 +637,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.073-1",
+            "label":              "L3.073-1",
             "lecture-section-of": "3.073",
-            "timeAndPlace":       [
-                "TR 14:00-16:00 13-4101"
-            ]
+            "timeAndPlace":       "TR 14:00-16:00 13-4101"
         },
         {
             "type":        "Class",
             "label":       "3.074 - Imaging of Materials",
             "id":          "3.074",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -655,16 +663,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.074-1",
+            "label":              "L3.074-1",
             "lecture-section-of": "3.074",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 2-131"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 2-131"
         },
         {
             "type":        "Class",
             "label":       "3.080 - Economic and Environmental Materials Selection",
             "id":          "3.080",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -685,6 +692,7 @@
             "type":        "Class",
             "label":       "3.091 - Introduction to Solid-State Chemistry",
             "id":          "3.091",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "5-0-7",
             "total-units": 12,
@@ -701,25 +709,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.091-1",
+            "label":              "L3.091-1",
             "lecture-section-of": "3.091",
-            "timeAndPlace":       [
-                "MWF 11:00-12:00 3-343"
-            ]
+            "timeAndPlace":       "MWF 11:00-12:00 3-343"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s3.091-2",
+            "label":          "R3.091-2",
             "rec-section-of": "3.091",
-            "timeAndPlace":   [
-                "TR 11:00-12:00 13-5101",
-                "TR 15:00-16:00 13-3101"
-            ]
+            "timeAndPlace":   "TR 11:00-12:00 13-5101"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R3.091-3",
+            "rec-section-of": "3.091",
+            "timeAndPlace":   "TR 15:00-16:00 13-3101"
         },
         {
             "type":        "Class",
             "label":       "3.093 - Information Exploration: Becoming a Savvy Scholar",
             "id":          "3.093",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "0-1-2",
             "total-units": 3,
@@ -737,6 +747,7 @@
             "type":        "Class",
             "label":       "3.094 - Materials in Human Experience",
             "id":          "3.094",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "2-3-4",
             "total-units": 9,
@@ -754,24 +765,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.094-1",
+            "label":              "L3.094-1",
             "lecture-section-of": "3.094",
-            "timeAndPlace":       [
-                "TR 16:00-17:00 56-154"
-            ]
+            "timeAndPlace":       "TR 16:00-17:00 56-154"
         },
         {
             "type":           "LabSection",
-            "label":          "s3.094-2",
+            "label":          "B3.094-2",
             "lab-section-of": "3.094",
-            "timeAndPlace":   [
-                "TWR 19:00-10:00 16-605"
-            ]
+            "timeAndPlace":   "TWR 19:00-22:00 16-605"
         },
         {
             "type":        "Class",
             "label":       "3.14 - Physical Metallurgy",
             "id":          "3.14",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -789,16 +797,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.14-1",
+            "label":              "L3.14-1",
             "lecture-section-of": "3.14",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 56-197"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 56-197"
         },
         {
             "type":        "Class",
             "label":       "3.15 - Electrical, Optical, and Magnetic Materials and Devices",
             "id":          "3.15",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -814,6 +821,7 @@
             "type":        "Class",
             "label":       "3.153 - Nanoscale Materials",
             "id":          "3.153",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -829,6 +837,7 @@
             "type":        "Class",
             "label":       "3.155J - Micro/Nano Processing Technology",
             "id":          "3.155J",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-4-5",
             "total-units": 12,
@@ -850,16 +859,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.155J-1",
+            "label":              "L3.155J-1",
             "lecture-section-of": "3.155J",
-            "timeAndPlace":       [
-                "MW 14:30-16:00 2-105"
-            ]
+            "timeAndPlace":       "MW 14:30-16:00 2-105"
         },
         {
             "type":        "Class",
             "label":       "3.172 - Inventions and Patents",
             "id":          "3.172",
+            "course":      "3",
             "level":       "Undergrad",
             "units":       "3-0-6",
             "total-units": 9,
@@ -880,6 +888,7 @@
             "type":        "Class",
             "label":       "3.20 - Materials at Equilibrium",
             "id":          "3.20",
+            "course":      "3",
             "level":       "Grad",
             "units":       "5-0-10",
             "total-units": 15,
@@ -903,6 +912,7 @@
             "type":        "Class",
             "label":       "3.201 - Advanced Engineering Internship",
             "id":          "3.201",
+            "course":      "3",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -925,6 +935,7 @@
             "type":        "Class",
             "label":       "3.202 - Advanced Industrial Internship Technology Development",
             "id":          "3.202",
+            "course":      "3",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -945,6 +956,7 @@
             "type":        "Class",
             "label":       "3.205 - Thermodynamics and Kinetics of Materials",
             "id":          "3.205",
+            "course":      "3",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -964,6 +976,7 @@
             "type":        "Class",
             "label":       "3.206 - Introduction to Materials Engineering Practice",
             "id":          "3.206",
+            "course":      "3",
             "level":       "Grad",
             "units":       "1-0-2",
             "total-units": 3,
@@ -980,6 +993,7 @@
             "type":        "Class",
             "label":       "3.207 - Technology Development and Evaluation",
             "id":          "3.207",
+            "course":      "3",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -997,24 +1011,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.207-1",
+            "label":              "L3.207-1",
             "lecture-section-of": "3.207",
-            "timeAndPlace":       [
-                "TR 8:00-9:30 3-370"
-            ]
+            "timeAndPlace":       "TR 8:00-9:30 3-370"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s3.207-2",
+            "label":          "R3.207-2",
             "rec-section-of": "3.207",
-            "timeAndPlace":   [
-                "TR 19:30-9:00 3-370"
-            ]
+            "timeAndPlace":   "TR 19:30-21:00 3-370"
         },
         {
             "type":        "Class",
             "label":       "3.21 - Kinetic Processes in Materials",
             "id":          "3.21",
+            "course":      "3",
             "level":       "Grad",
             "units":       "5-0-10",
             "total-units": 15,
@@ -1033,25 +1044,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.21-1",
+            "label":              "L3.21-1",
             "lecture-section-of": "3.21",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 4-237"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 4-237"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s3.21-2",
+            "label":          "R3.21-2",
             "rec-section-of": "3.21",
-            "timeAndPlace":   [
-                "F 11:00-12:00 13-3101",
-                "F 13:00-14:00 13-3101"
-            ]
+            "timeAndPlace":   "F 11:00-12:00 13-3101"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R3.21-3",
+            "rec-section-of": "3.21",
+            "timeAndPlace":   "F 13:00-14:00 13-3101"
         },
         {
             "type":        "Class",
             "label":       "3.22 - Mechanical Properties of Materials",
             "id":          "3.22",
+            "course":      "3",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1066,25 +1079,27 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.22-1",
+            "label":              "L3.22-1",
             "lecture-section-of": "3.22",
-            "timeAndPlace":       [
-                "TR 9:30-11:00 4-237"
-            ]
+            "timeAndPlace":       "TR 9:30-11:00 4-237"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s3.22-2",
+            "label":          "R3.22-2",
             "rec-section-of": "3.22",
-            "timeAndPlace":   [
-                "W 11:00-12:00 13-3101",
-                "W 13:00-14:00 13-3101"
-            ]
+            "timeAndPlace":   "W 11:00-12:00 13-3101"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R3.22-3",
+            "rec-section-of": "3.22",
+            "timeAndPlace":   "W 13:00-14:00 13-3101"
         },
         {
             "type":        "Class",
             "label":       "3.225 - Electronic and Mechanical Properties of Materials",
             "id":          "3.225",
+            "course":      "3",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1107,6 +1122,7 @@
             "type":        "Class",
             "label":       "3.23 - Electrical, Optical, and Magnetic Properties of Materials",
             "id":          "3.23",
+            "course":      "3",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1126,6 +1142,7 @@
             "type":        "Class",
             "label":       "3.271 - Diffraction and Structure",
             "id":          "3.271",
+            "course":      "3",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1144,16 +1161,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.271-1",
+            "label":              "L3.271-1",
             "lecture-section-of": "3.271",
-            "timeAndPlace":       [
-                "TR 14:00-16:00 13-4101"
-            ]
+            "timeAndPlace":       "TR 14:00-16:00 13-4101"
         },
         {
             "type":        "Class",
             "label":       "3.29 - Special Problems in Emerging and Fundamental Studies in Materials",
             "id":          "3.29",
+            "course":      "3",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
@@ -1185,6 +1201,7 @@
             "type":        "Class",
             "label":       "3.320 - Atomistic Computer Modeling of Materials",
             "id":          "3.320",
+            "course":      "3",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1203,16 +1220,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.320-1",
+            "label":              "L3.320-1",
             "lecture-section-of": "3.320",
-            "timeAndPlace":       [
-                "TR 11:00-12:30 8-404"
-            ]
+            "timeAndPlace":       "TR 11:00-12:30 8-404"
         },
         {
             "type":        "Class",
             "label":       "3.34 - Imaging of Materials",
             "id":          "3.34",
+            "course":      "3",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1230,16 +1246,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.34-1",
+            "label":              "L3.34-1",
             "lecture-section-of": "3.34",
-            "timeAndPlace":       [
-                "TR 13:00-14:30 2-131"
-            ]
+            "timeAndPlace":       "TR 13:00-14:30 2-131"
         },
         {
             "type":        "Class",
             "label":       "3.35 - Fracture and Fatigue",
             "id":          "3.35",
+            "course":      "3",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1256,6 +1271,7 @@
             "type":        "Class",
             "label":       "3.37 - Welding and Joining Processes",
             "id":          "3.37",
+            "course":      "3",
             "level":       "Grad",
             "units":       "3-0-3",
             "total-units": 6,
@@ -1278,16 +1294,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.37-1",
+            "label":              "L3.37-1",
             "lecture-section-of": "3.37",
-            "timeAndPlace":       [
-                "MTWRF 19:30-9:00 2-139"
-            ]
+            "timeAndPlace":       "MTWRF 19:30-21:00 2-139"
         },
         {
             "type":        "Class",
             "label":       "3.371J - Fabrication Technology",
             "id":          "3.371J",
+            "course":      "3",
             "level":       "Grad",
             "units":       "4-0-5",
             "total-units": 9,
@@ -1310,16 +1325,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.371J-1",
+            "label":              "L3.371J-1",
             "lecture-section-of": "3.371J",
-            "timeAndPlace":       [
-                "MTWRF 19:30-9:00 2-139"
-            ]
+            "timeAndPlace":       "MTWRF 19:30-21:00 2-139"
         },
         {
             "type":        "Class",
             "label":       "3.40J - Modern Physical Metallurgy",
             "id":          "3.40J",
+            "course":      "3",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1342,6 +1356,7 @@
             "type":        "Class",
             "label":       "3.42 - Electronic Materials Design",
             "id":          "3.42",
+            "course":      "3",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1358,6 +1373,7 @@
             "type":        "Class",
             "label":       "3.43J - Integrated Microelectronic Devices",
             "id":          "3.43J",
+            "course":      "3",
             "level":       "Grad",
             "units":       "4-0-8",
             "total-units": 12,
@@ -1381,6 +1397,7 @@
             "type":        "Class",
             "label":       "3.44 - Materials Processing for Micro- and Nano-Systems",
             "id":          "3.44",
+            "course":      "3",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1402,6 +1419,7 @@
             "type":        "Class",
             "label":       "3.45 - Magnetic Materials",
             "id":          "3.45",
+            "course":      "3",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1419,16 +1437,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.45-1",
+            "label":              "L3.45-1",
             "lecture-section-of": "3.45",
-            "timeAndPlace":       [
-                "TR 14:30-16:00 4-145"
-            ]
+            "timeAndPlace":       "TR 14:30-16:00 4-145"
         },
         {
             "type":        "Class",
             "label":       "3.46 - Photonic Materials and Devices",
             "id":          "3.46",
+            "course":      "3",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1445,6 +1462,7 @@
             "type":        "Class",
             "label":       "3.47 - Processing of Materials on the Nanoscale",
             "id":          "3.47",
+            "course":      "3",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1467,16 +1485,15 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.47-1",
+            "label":              "L3.47-1",
             "lecture-section-of": "3.47",
-            "timeAndPlace":       [
-                "MW 9:30-11:00 9-057"
-            ]
+            "timeAndPlace":       "MW 9:30-11:00 9-057"
         },
         {
             "type":        "Class",
             "label":       "3.48J - Materials and Processes for Microelectromechanical Devices and Systems",
             "id":          "3.48J",
+            "course":      "3",
             "level":       "Grad",
             "units":       "3-0-9",
             "total-units": 12,
@@ -1504,24 +1521,21 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "s3.48J-1",
+            "label":              "L3.48J-1",
             "lecture-section-of": "3.48J",
-            "timeAndPlace":       [
-                "MW 8:00-9:30 9-057"
-            ]
+            "timeAndPlace":       "MW 8:00-9:30 9-057"
         },
         {
             "type":           "RecitationSection",
-            "label":          "s3.48J-2",
+            "label":          "R3.48J-2",
             "rec-section-of": "3.48J",
-            "timeAndPlace":   [
-                "F 9:00-11:00 66-156"
-            ]
+            "timeAndPlace":   "F 9:00-11:00 66-156"
         },
         {
             "type":        "Class",
             "label":       "3.49 - Special Problems in Electronic, Photonic and Magnetic Materials",
             "id":          "3.49",
+            "course":      "3",
             "level":       "Grad",
             "units":       "Unknown",
             "total-units": "Unknown",
