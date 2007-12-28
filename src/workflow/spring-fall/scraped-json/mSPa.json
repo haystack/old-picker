@@ -225,21 +225,26 @@
             "type":               "LectureSection",
             "label":              "LSP.311-1",
             "lecture-section-of": "SP.311",
+            "timeAndPlace":       "MW 13:00-14:30 16-160"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "LSP.311-2",
+            "lecture-section-of": "SP.311",
             "timeAndPlace":       [
-                "MW 13:00-14:30 16-160",
                 "TR 14:00-15:00 16-160",
                 "F 13:00-14:00 16-160"
             ]
         },
         {
             "type":           "RecitationSection",
-            "label":          "RSP.311-2",
+            "label":          "RSP.311-3",
             "rec-section-of": "SP.311",
             "timeAndPlace":   "MW 14:30-15:30 16-160"
         },
         {
             "type":           "RecitationSection",
-            "label":          "RSP.311-3",
+            "label":          "RSP.311-4",
             "rec-section-of": "SP.311",
             "timeAndPlace":   "TR 15:00-16:00 16-160"
         },
@@ -536,6 +541,13 @@
             "label":              "LSP.360-1",
             "lecture-section-of": "SP.360",
             "timeAndPlace":       "TR 15:00-16:30 16-168"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "BSP.360-2",
+            "lab-section-of": "SP.360",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",

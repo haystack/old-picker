@@ -28,11 +28,19 @@
             "type":               "LectureSection",
             "label":              "L21M.600-1",
             "lecture-section-of": "21M.600",
-            "timeAndPlace":       [
-                "MW 13:00-15:00 W16-RRA",
-                "MW 15:00-17:00 W16-RRA",
-                "TR 15:00-17:00 W16-RRB"
-            ]
+            "timeAndPlace":       "MW 13:00-15:00 W16-RRA"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L21M.600-2",
+            "lecture-section-of": "21M.600",
+            "timeAndPlace":       "MW 15:00-17:00 W16-RRA"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L21M.600-3",
+            "lecture-section-of": "21M.600",
+            "timeAndPlace":       "TR 15:00-17:00 W16-RRB"
         },
         {
             "type":          "Class",
@@ -601,6 +609,13 @@
             "timeAndPlace":       "F 14:00-17:00 4-144"
         },
         {
+            "type":           "LabSection",
+            "label":          "B21M.785J-2",
+            "lab-section-of": "21M.785J",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "21M.789 - Playwrights' Workshop",
             "id":            "21M.789",
@@ -631,6 +646,13 @@
             "label":              "L21M.789-1",
             "lecture-section-of": "21M.789",
             "timeAndPlace":       "F 14:00-17:00 4-144"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.789-2",
+            "lab-section-of": "21M.789",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",

@@ -153,10 +153,13 @@
             "type":               "LectureSection",
             "label":              "L21M.051-1",
             "lecture-section-of": "21M.051",
-            "timeAndPlace":       [
-                "WF 13:00-14:30 4-156",
-                "WF 15:00-16:30 4-156"
-            ]
+            "timeAndPlace":       "WF 13:00-14:30 4-156"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L21M.051-2",
+            "lecture-section-of": "21M.051",
+            "timeAndPlace":       "WF 15:00-16:30 4-156"
         },
         {
             "type":          "Class",
@@ -616,16 +619,29 @@
             "type":               "LectureSection",
             "label":              "L21M.301-1",
             "lecture-section-of": "21M.301",
-            "timeAndPlace":       [
-                "MW 11:00-12:30 4-156",
-                "MW 15:30-17:00 4-364",
-                "TR 11:00-12:30 4-152",
-                "TR 14:30-16:00 4-160"
-            ]
+            "timeAndPlace":       "MW 11:00-12:30 4-156"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L21M.301-2",
+            "lecture-section-of": "21M.301",
+            "timeAndPlace":       "MW 15:30-17:00 4-364"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L21M.301-3",
+            "lecture-section-of": "21M.301",
+            "timeAndPlace":       "TR 11:00-12:30 4-152"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L21M.301-4",
+            "lecture-section-of": "21M.301",
+            "timeAndPlace":       "TR 14:30-16:00 4-160"
         },
         {
             "type":           "LabSection",
-            "label":          "B21M.301-2",
+            "label":          "B21M.301-5",
             "lab-section-of": "21M.301",
             "timeAndPlace":   "F 15:00-16:00 4-270"
         },
@@ -660,32 +676,35 @@
             "type":               "LectureSection",
             "label":              "L21M.302-1",
             "lecture-section-of": "21M.302",
-            "timeAndPlace":       [
-                "MW 13:00-14:30 4-160",
-                "TR 13:00-14:30 4-156"
-            ]
+            "timeAndPlace":       "MW 13:00-14:30 4-160"
         },
         {
-            "type":           "LabSection",
-            "label":          "B21M.302-2",
-            "lab-section-of": "21M.302",
-            "timeAndPlace":   "R 16:00-17:00 4-156"
+            "type":               "LectureSection",
+            "label":              "L21M.302-2",
+            "lecture-section-of": "21M.302",
+            "timeAndPlace":       "TR 13:00-14:30 4-156"
         },
         {
             "type":           "LabSection",
             "label":          "B21M.302-3",
             "lab-section-of": "21M.302",
-            "timeAndPlace":   "R 16:00-17:00 4-160"
+            "timeAndPlace":   "R 16:00-17:00 4-156"
         },
         {
             "type":           "LabSection",
             "label":          "B21M.302-4",
             "lab-section-of": "21M.302",
-            "timeAndPlace":   "F 16:00-17:00 4-152"
+            "timeAndPlace":   "R 16:00-17:00 4-160"
         },
         {
             "type":           "LabSection",
             "label":          "B21M.302-5",
+            "lab-section-of": "21M.302",
+            "timeAndPlace":   "F 16:00-17:00 4-152"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B21M.302-6",
             "lab-section-of": "21M.302",
             "timeAndPlace":   "F 16:00-17:00 4-160"
         },
@@ -1204,6 +1223,13 @@
             "area":          "Performance"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L21M.445-1",
+            "lecture-section-of": "21M.445",
+            "timeAndPlace":       [
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "21M.450 - MIT Balinese Gamelan",
             "id":            "21M.450",
@@ -1254,6 +1280,13 @@
             ],
             "in-charge":     "Deveau, D.",
             "area":          "Performance"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L21M.451-1",
+            "lecture-section-of": "21M.451",
+            "timeAndPlace":       [
+            ]
         },
         {
             "type":          "Class",
@@ -1485,6 +1518,13 @@
             ],
             "in-charge":     "Whincop, P.",
             "area":          "Special Topics/Advanced Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L21M.540-1",
+            "lecture-section-of": "21M.540",
+            "timeAndPlace":       [
+            ]
         },
         {
             "type":          "Class",

@@ -223,26 +223,33 @@
             "timeAndPlace":       "TR 11:00-12:00 34-101"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R6.002-2",
-            "rec-section-of": "6.002",
-            "timeAndPlace":   "WF 10:00-11:00 26-310"
+            "type":           "LabSection",
+            "label":          "B6.002-2",
+            "lab-section-of": "6.002",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":           "RecitationSection",
             "label":          "R6.002-3",
             "rec-section-of": "6.002",
-            "timeAndPlace":   "WF 11:00-12:00 26-310"
+            "timeAndPlace":   "WF 10:00-11:00 26-310"
         },
         {
             "type":           "RecitationSection",
             "label":          "R6.002-4",
             "rec-section-of": "6.002",
-            "timeAndPlace":   "WF 12:00-13:00 26-310"
+            "timeAndPlace":   "WF 11:00-12:00 26-310"
         },
         {
             "type":           "RecitationSection",
             "label":          "R6.002-5",
+            "rec-section-of": "6.002",
+            "timeAndPlace":   "WF 12:00-13:00 26-310"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R6.002-6",
             "rec-section-of": "6.002",
             "timeAndPlace":   "WF 13:00-14:00 26-310"
         },
@@ -282,32 +289,39 @@
             "timeAndPlace":       "TR 12:00-13:00 34-101"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R6.003-2",
-            "rec-section-of": "6.003",
-            "timeAndPlace":   "WF 10:00-11:00 36-155"
+            "type":           "LabSection",
+            "label":          "B6.003-2",
+            "lab-section-of": "6.003",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":           "RecitationSection",
             "label":          "R6.003-3",
             "rec-section-of": "6.003",
-            "timeAndPlace":   "WF 11:00-12:00 36-155"
+            "timeAndPlace":   "WF 10:00-11:00 36-155"
         },
         {
             "type":           "RecitationSection",
             "label":          "R6.003-4",
             "rec-section-of": "6.003",
-            "timeAndPlace":   "WF 12:00-13:00 24-307"
+            "timeAndPlace":   "WF 11:00-12:00 36-155"
         },
         {
             "type":           "RecitationSection",
             "label":          "R6.003-5",
             "rec-section-of": "6.003",
-            "timeAndPlace":   "WF 13:00-14:00 24-307"
+            "timeAndPlace":   "WF 12:00-13:00 24-307"
         },
         {
             "type":           "RecitationSection",
             "label":          "R6.003-6",
+            "rec-section-of": "6.003",
+            "timeAndPlace":   "WF 13:00-14:00 24-307"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R6.003-7",
             "rec-section-of": "6.003",
             "timeAndPlace":   "WF 14:00-15:00 24-307"
         },
@@ -1312,6 +1326,13 @@
             "timeAndPlace":       "TR 13:00-15:00 36-153"
         },
         {
+            "type":           "RecitationSection",
+            "label":          "R6.050J-2",
+            "rec-section-of": "6.050J",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "6.055J - The Art of Approximation in Science and Engineering",
             "id":            "6.055J",
@@ -1679,8 +1700,15 @@
             "timeAndPlace":       "MW 13:00-14:00 32-144"
         },
         {
+            "type":           "LabSection",
+            "label":          "B6.111-2",
+            "lab-section-of": "6.111",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":           "RecitationSection",
-            "label":          "R6.111-2",
+            "label":          "R6.111-3",
             "rec-section-of": "6.111",
             "timeAndPlace":   "F 13:00-14:00 34-303"
         },
@@ -1862,6 +1890,13 @@
             "timeAndPlace":       "MW 14:30-16:00 2-105"
         },
         {
+            "type":           "LabSection",
+            "label":          "B6.152J-2",
+            "lab-section-of": "6.152J",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "6.161 - Modern Optics Project Laboratory",
             "id":            "6.161",
@@ -1915,6 +1950,13 @@
             "label":              "L6.163-1",
             "lecture-section-of": "6.163",
             "timeAndPlace":       "MW 12:00-13:00 1-375"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B6.163-2",
+            "lab-section-of": "6.163",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",
@@ -2064,6 +2106,13 @@
             "label":              "L6.UAT-1",
             "lecture-section-of": "6.UAT",
             "timeAndPlace":       "MW 16:00-17:00 32-155"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R6.UAT-2",
+            "rec-section-of": "6.UAT",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",

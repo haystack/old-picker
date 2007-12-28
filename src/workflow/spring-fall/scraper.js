@@ -63,33 +63,39 @@ var addOptionalArrayProperty = function(obj, name, a) {
 
 function addTimeAndPlace(code, room, results) {
     var n = code.search(/\d/);
-    var days = code.substr(0,n);
-    var hours = code.substr(n).split("-");
-    hours[0] = cleanHours(hours[0]);
-    if (hours.length > 1) {
-      hours[1] = adjustEveningHours(hours[0], cleanHours(hours[1]));
-    } else {
-      hours[1] = addOneHour(hours[0]);
-    }
-
-    var start = hours[0];
-    var end = (hours.length > 1 ? hours[1] : "");
-
-    var s = "";
-    for (var d = 0; d < days.length; d++) {
-        var day = days.substr(d,1);
-        if (" EVE(".indexOf(day) < 0) {
-            s += day;
-        }
+    if (n < 0) {
+        return;
     }
     
-    if (s.length > 0) {
-        results.push(timeAndPlaceToString({ days: s, start: start, end: end, room: room }));
-    }
+    try {
+        var days = code.substr(0,n);
+        var hours = code.substr(n).split("-");
+        hours[0] = cleanHours(hours[0]);
+        if (hours.length > 1) {
+          hours[1] = adjustEveningHours(hours[0], cleanHours(hours[1]));
+        } else {
+          hours[1] = addOneHour(hours[0]);
+        }
+
+        var start = hours[0];
+        var end = (hours.length > 1 ? hours[1] : "");
+
+        var s = "";
+        for (var d = 0; d < days.length; d++) {
+            var day = days.substr(d,1);
+            if (" EVE(".indexOf(day) < 0) {
+                s += day;
+            }
+        }
+    
+        if (s.length > 0) {
+            results.push(timeAndPlaceToString({ days: s, start: start, end: end, room: room }));
+        }
+    } catch (e) {}
 }
 
-function searchForTimeAndPlace(node, flatten) {
-    var results = [];
+function searchForTimeAndPlace(node, getArray) {
+    var array = null;
     try {
         while (node != null) {
             if (node.nodeType == 1) {
@@ -104,26 +110,22 @@ function searchForTimeAndPlace(node, flatten) {
                         var room = "Unknown";
                     }
 
-                    var results2 = [];
                     var code = cleanString(node.firstChild.nodeValue);
-                    var a = code.split(",");
-                    for (var i = 0; i < a.length; i++) {
-                        addTimeAndPlace(a[i], room, flatten ? results : results2);
+                    if (node.previousSibling.nodeType == 3 && node.previousSibling.nodeValue.indexOf(" or ") >= 0) {
+                        array = getArray(); // new section
+                    } else if (array == null) {
+                        array = getArray();
                     }
                     
-                    if (!flatten) {
-                        if (results2.length > 1) {
-                            results.push(results2);
-                        } else if (results2.length == 1) {
-                            results.push(results2[0]);
-                        }
+                    var a = code.split(",");
+                    for (var i = 0; i < a.length; i++) {
+                        addTimeAndPlace(a[i], room, array);
                     }
                 }
             }
           node = node.nextSibling;
         }
     } catch (e) {}
-    return results;
 }
 
 function timeAndPlaceToString(timeAndPlace) {
@@ -314,6 +316,43 @@ function processClass(element, area, subarea) {
         classItem.subarea = subarea;
     }
     json.items.push(classItem);
+    
+    var makeLecture = function() {
+        var sectionID = "L" + classNumber + "-" + sectionIndex++;
+        var sectionItem = {
+            "type":                 "LectureSection",
+            "label":                sectionID,
+            "lecture-section-of":   classID,
+            "timeAndPlace":         []
+        };
+        json.items.push(sectionItem);
+        
+        return sectionItem.timeAndPlace;
+    };
+    var makeRecitation = function() {
+        var sectionID = "R" + classNumber + "-" + sectionIndex++;
+        var sectionItem = {
+            "type":                 "RecitationSection",
+            "label":                sectionID,
+            "rec-section-of":       classID,
+            "timeAndPlace":         []
+        };
+        json.items.push(sectionItem);
+        
+        return sectionItem.timeAndPlace;
+    };
+    var makeLab = function() {
+        var sectionID = "B" + classNumber + "-" + sectionIndex++;
+        var sectionItem = {
+            "type":                 "LabSection",
+            "label":                sectionID,
+            "lab-section-of":       classID,
+            "timeAndPlace":         []
+        };
+        json.items.push(sectionItem);
+        
+        return sectionItem.timeAndPlace;
+    };
   
     var bolds = utilities.gatherElementsOnXPath(document, element, './B', nsResolver);
     var sectionIndex = 1;
@@ -325,48 +364,11 @@ function processClass(element, area, subarea) {
 
         var field = cleanString(bold.firstChild.nodeValue);
         if (field == "Lecture:") {
-            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling, true);
-            if (timeAndPlaces.length > 0) {
-                var sectionID = "L" + classNumber + "-" + sectionIndex++;
-                var sectionItem = {
-                    "type":                 "LectureSection",
-                    "label":                sectionID,
-                    "lecture-section-of":   classID
-                };
-                
-                if (timeAndPlaces.length == 1) {
-                    sectionItem.timeAndPlace = timeAndPlaces[0];
-                } else {
-                    sectionItem.timeAndPlace = timeAndPlaces;
-                }
-                json.items.push(sectionItem);
-            }
+            searchForTimeAndPlace(bold.nextSibling, makeLecture);
         } else if (field == "Recitation:") {
-            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling, false);
-            if (timeAndPlaces.length > 0) {
-                for (var i = 0; i < timeAndPlaces.length; i++) {
-                    var sectionID = "R" + classNumber + "-" + sectionIndex++;
-                    json.items.push({
-                        "type":                 "RecitationSection",
-                        "label":                sectionID,
-                        "rec-section-of":       classID,
-                        "timeAndPlace":         timeAndPlaces[i]
-                    });
-                }
-            }
+            searchForTimeAndPlace(bold.nextSibling, makeRecitation);
         } else if (field == "Lab:") {
-            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling, false);
-            if (timeAndPlaces.length > 0) {
-                for (var i = 0; i < timeAndPlaces.length; i++) {
-                    var sectionID = "B" + classNumber + "-" + sectionIndex++;
-                    json.items.push({
-                        "type":                 "LabSection",
-                        "label":                sectionID,
-                        "lab-section-of":       classID,
-                        "timeAndPlace":         timeAndPlaces[i]
-                    });
-                }
-            }
+            searchForTimeAndPlace(bold.nextSibling, makeLab);
         }
     }
 }
@@ -396,5 +398,14 @@ for (var i = 0; i < elements.length; i++) {
             }
         }
         node = node.nextSibling;
+    }
+}
+
+for (var i = 0; i < json.items.length; i++) {
+    var item = json.items[i];
+    if ("timeAndPlace" in item) {
+        if (item.timeAndPlace.length == 1) {
+            item.timeAndPlace = item.timeAndPlace[0];
+        }
     }
 }
