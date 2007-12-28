@@ -61,7 +61,34 @@ var addOptionalArrayProperty = function(obj, name, a) {
     }
 }
 
-function searchForTimeAndPlace(node) {
+function addTimeAndPlace(code, room, results) {
+    var n = code.search(/\d/);
+    var days = code.substr(0,n);
+    var hours = code.substr(n).split("-");
+    hours[0] = cleanHours(hours[0]);
+    if (hours.length > 1) {
+      hours[1] = adjustEveningHours(hours[0], cleanHours(hours[1]));
+    } else {
+      hours[1] = addOneHour(hours[0]);
+    }
+
+    var start = hours[0];
+    var end = (hours.length > 1 ? hours[1] : "");
+
+    var s = "";
+    for (var d = 0; d < days.length; d++) {
+        var day = days.substr(d,1);
+        if (" EVE(".indexOf(day) < 0) {
+            s += day;
+        }
+    }
+    
+    if (s.length > 0) {
+        results.push(timeAndPlaceToString({ days: s, start: start, end: end, room: room }));
+    }
+}
+
+function searchForTimeAndPlace(node, flatten) {
     var results = [];
     try {
         while (node != null) {
@@ -71,35 +98,25 @@ function searchForTimeAndPlace(node) {
                     break;
                 }
                 if (tagName == "i" && node.firstChild.nodeType == 3) {
-                    var code = cleanString(node.firstChild.nodeValue);
-
-                    var n = code.search(/\d/);
-                    var days = code.substr(0,n);
-                    var hours = code.substr(n).split("-");
-                    hours[0] = cleanHours(hours[0]);
-                    if (hours.length > 1) {
-                      hours[1] = adjustEveningHours(hours[0], cleanHours(hours[1]));
-                    } else {
-                      hours[1] = addOneHour(hours[0]);
+                    if (node.nextSibling.nextSibling.nodeName.toLowerCase() == "a") {
+                        var room = cleanString(node.nextSibling.nextSibling.firstChild.nodeValue);
+                    } else { 
+                        var room = "Unknown";
                     }
 
-                    if (node.nextSibling.nextSibling.nodeName.toLowerCase() == "a") {
-                      var room = cleanString(node.nextSibling.nextSibling.firstChild.nodeValue);
-                    } else { var room = "Unknown"; }
-
-                    var start = hours[0];
-                    var end = (hours.length > 1 ? hours[1] : "");
-
-                    var s = "";
-                    for (var d = 0; d < days.length; d++) {
-                        var day = days.substr(d,1);
-                        if (" EVE(".indexOf(day) < 0) {
-                            s += day;
-                        }
+                    var results2 = [];
+                    var code = cleanString(node.firstChild.nodeValue);
+                    var a = code.split(",");
+                    for (var i = 0; i < a.length; i++) {
+                        addTimeAndPlace(a[i], room, flatten ? results : results2);
                     }
                     
-                    if (s.length > 0) {
-                        results.push({ days: s, start: start, end: end, room: room });
+                    if (!flatten) {
+                        if (results2.length > 1) {
+                            results.push(results2);
+                        } else if (results2.length == 1) {
+                            results.push(results2[0]);
+                        }
                     }
                 }
             }
@@ -111,6 +128,16 @@ function searchForTimeAndPlace(node) {
 
 function timeAndPlaceToString(timeAndPlace) {
     return timeAndPlace.days + " " + timeAndPlace.start + "-" + timeAndPlace.end + " " + timeAndPlace.room;
+}
+
+function padListingCount(count) {
+    if (count < 10) {
+        return "00" + count;
+    } else if (count < 100) {
+        return "0" + count;
+    } else {
+        return "" + count;
+    }
 }
 
 function processClass(element, area, subarea) {
@@ -266,6 +293,7 @@ function processClass(element, area, subarea) {
         "type":         "Class",
         "label":        classNumber + " - " + courseName,
         "id":           classID,
+        "listing-index": listingPrefix + padListingCount(listingCount++),
         "course":       course,
         "level":        type,
         "units":        units,
@@ -297,7 +325,7 @@ function processClass(element, area, subarea) {
 
         var field = cleanString(bold.firstChild.nodeValue);
         if (field == "Lecture:") {
-            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling);
+            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling, true);
             if (timeAndPlaces.length > 0) {
                 var sectionID = "L" + classNumber + "-" + sectionIndex++;
                 var sectionItem = {
@@ -307,17 +335,14 @@ function processClass(element, area, subarea) {
                 };
                 
                 if (timeAndPlaces.length == 1) {
-                    sectionItem.timeAndPlace = timeAndPlaceToString(timeAndPlaces[0]);
+                    sectionItem.timeAndPlace = timeAndPlaces[0];
                 } else {
-                    sectionItem.timeAndPlace = [];
-                    for (var i = 0; i < timeAndPlaces.length; i++) {
-                        sectionItem.timeAndPlace.push(timeAndPlaceToString(timeAndPlaces[i]));
-                    }
+                    sectionItem.timeAndPlace = timeAndPlaces;
                 }
                 json.items.push(sectionItem);
             }
         } else if (field == "Recitation:") {
-            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling);
+            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling, false);
             if (timeAndPlaces.length > 0) {
                 for (var i = 0; i < timeAndPlaces.length; i++) {
                     var sectionID = "R" + classNumber + "-" + sectionIndex++;
@@ -325,12 +350,12 @@ function processClass(element, area, subarea) {
                         "type":                 "RecitationSection",
                         "label":                sectionID,
                         "rec-section-of":       classID,
-                        "timeAndPlace":         timeAndPlaceToString(timeAndPlaces[i])
+                        "timeAndPlace":         timeAndPlaces[i]
                     });
                 }
             }
         } else if (field == "Lab:") {
-            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling);
+            var timeAndPlaces = searchForTimeAndPlace(bold.nextSibling, false);
             if (timeAndPlaces.length > 0) {
                 for (var i = 0; i < timeAndPlaces.length; i++) {
                     var sectionID = "B" + classNumber + "-" + sectionIndex++;
@@ -338,7 +363,7 @@ function processClass(element, area, subarea) {
                         "type":                 "LabSection",
                         "label":                sectionID,
                         "lab-section-of":       classID,
-                        "timeAndPlace":         timeAndPlaceToString(timeAndPlaces[i])
+                        "timeAndPlace":         timeAndPlaces[i]
                     });
                 }
             }
@@ -350,6 +375,10 @@ var xpath = '/html/body/table/tbody/tr/td';
 var elements = utilities.gatherElementsOnXPath(document, document, xpath, nsResolver);
 var area = null;
 var subarea = null;
+var listingCount = 0;
+var listingPrefix = document.location.href;
+listingPrefix = listingPrefix.substring(listingPrefix.lastIndexOf("/") + 1, listingPrefix.lastIndexOf(".")) + "-";
+
 for (var i = 0; i < elements.length; i++) {
     var node = elements[i].firstChild;
     while (node != null) {
