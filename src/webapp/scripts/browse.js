@@ -35,6 +35,7 @@ function onLoad() {
                     urls.push("data/spring-fall/" + courseID + ".json");
                     if (courseID == "6") {
                         urls.push("data/tqe.json");
+                        urls.push("data/hkn.json");
                         hasTQE = true;
                     }
                     markLoaded(courseID);

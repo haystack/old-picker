@@ -228,21 +228,18 @@
                                 </span>
                     </div>
                     <div ex:content=".category"></div>
-                    <div ex:if-exists="!class.orating" class="hkn-statistics">
-                        <div class="hkn-stats-header">HKN Statistics</div>
-                        <div ex:content="!class">
+                    <div ex:if-exists="!class-rating-of" class="hkn-statistics">
+                        <div class="hkn-stats-header">HKN Statistics<br><i><span ex:content="!class-rating-of.term"></span></i></div>
+                        <div >
                             <table cellspacing="5" cellpadding="0">
-                                <tr><td>Instructor:</td>
-                                    <td><span ex:content=".irating"></span>/7.0</td></tr>
-                                <tr ex:if-exists=".last-taught"><td>Last taught:</td>
-                                    <td ex:content=".last-taught"></td></tr>
                                 <tr><td>Overall:</td>
-                                    <td><span ex:content=".orating"></span>/7.0</td></tr>
+                                    <td><span ex:content="!class-rating-of.rating"></span>/7.0</td></tr>
                                 <tr><td>Difficulty:</td>
-                                    <td><span ex:content=".odifficulty"></span>/7.0</td></tr>
+                                    <td><span ex:content="!class-rating-of.difficulty"></span>/7.0</td></tr>
                                 <tr><td>Hours:</td>
-                                    <td><span ex:content=".reported-hours"></span></td></tr>
-                                <tr><td><a ex:href-content=".evaluation">More info</a></td></tr>
+                                    <td><span ex:content="!class-rating-of.hours"></span></td></tr>
+                                <tr><td>Instructor(s):</td>
+                                    <td><span ex:content="!professor-rating-of.professor"></span> <span ex:content="!professor-rating-of.professor-rating"></span>/7.0</td></tr>
                             </table>
                         </div>
                     </div>
