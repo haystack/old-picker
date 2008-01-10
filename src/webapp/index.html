@@ -8,6 +8,11 @@
             #starting-interface {
                 padding: 2em;
             }
+            #course-table {
+                padding-bottom: 1em;
+                margin-bottom: 1em;
+                border-bottom: 1px dotted #888;
+            }
         </style>
         <script>
             function onLoad() {
@@ -86,38 +91,43 @@
     </head>
     <body onload="onLoad();">
         <div id="title">
-            <h1>MIT Course Catalogue Pickr (beta)</h1>
+            <h1>MIT Course Catalogue Picker (beta)</h1>
             <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
                 <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
-                <a href="mailto:course-picker@lists.csail.mit.edu">Contact Us</a>
+                <a href="mailto:course-picker@lists.csail.mit.edu">Contact Us</a> &bull;
+                <a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog">Official Catalog</a> &bull;
+                <a href="http://ocw.mit.edu/" title="MIT's OpenCourseWare">OCW</a>
             </div>
         </div>
         
         <div id="starting-interface">
-            <p>
-                <span style="color: #a00; font-weight: bold;">NEW! IAP Course Pickr</span>
-                <button onclick="browseIAPCourses();">Browse IAP Courses</button>
-            </p>
-            <hr />
             <p>Pick courses in which you want to take classes:</p>
             <div id="course-table">
                 <table id="course-list" cellpadding="2"></table>
-            </div>
-            <hr />
-            <p>
-                <span style="color: #a00; font-weight: bold;"><input type='checkbox' name='course' id='hass_d' value='hass_d'></input> Also include HASS-D classes from all courses</span>
-            </p>
-            <p><button onclick="browseCourses();">Browse Courses</button></p>
-            <p style="color: gray; width: 3in;">
-                DISCLAIMER: The data on this site should not be considered
-                official. Please refer to the MIT's course catalogue for
-                official data.
-            </p>
-            <p style="text-align: center; padding: 1in; color: gray;">
-                powered by<br/>
-                <a href="http://simile.mit.edu/exhibit/">Exhibit</a> and
-                <a href="http://simile.mit.edu/timegrid/">Timegrid</a>.
-            </p>
+            </div>            
+            <table width="100%" cellspacing="0" cellpadding="0"><tr valign="top">
+                <td>
+                    <p>
+                        <span style="color: #a00; font-weight: bold;"><input type='checkbox' name='course' id='hass_d' value='hass_d'></input> Also include HASS-D classes from all courses</span>
+                    </p>
+                    <p><button onclick="browseCourses();">Browse Courses</button></p>
+                    <p style="color: gray; width: 3in;">
+                        DISCLAIMER: The data on this site should not be considered
+                        official. Please refer to the MIT's course catalogue for
+                        official data.
+                    </p>
+                    <p style="color: gray;">
+                        Powered by
+                        <a href="http://simile.mit.edu/exhibit/">Exhibit</a> and
+                        <a href="http://simile.mit.edu/timegrid/">Timegrid</a>.
+                    </p>
+                </td>
+                <td align="right">
+                    <a href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-redgrey-footer1.gif"
+                        alt="MIT" width="334" height="36" border="0"></a><br/>
+                </td>
+            </tr></table>
+            
         </div>
         <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
         </script>
