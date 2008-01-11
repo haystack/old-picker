@@ -37,7 +37,7 @@ function processTd(element) {
         "id":           classNumber,
         "teacher":		professor
     };
-	//json.items.push(classItem);
+	json.items.push(classItem);
 	
 	log(classNumber + ", " + professor);
 }
