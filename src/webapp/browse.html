@@ -91,7 +91,7 @@
                                 
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='total-units-facet'>total units &raquo;</div>
-                                <div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
+                                <!--<div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>-->
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='hasfinal-facet'>has final? &raquo;</div>
                             </div>
                             
@@ -242,13 +242,14 @@
                         <div >
                             <table cellspacing="5" cellpadding="0">
                                 <tr><td>Overall:</td>
-                                    <td><span ex:content="!class-rating-of.rating"></span>/7.0</td></tr>
+                                    <td><ul><li><span ex:content="!class-rating-of.rating"></span>/7.0</li></ul></td></tr>
                                 <tr><td>Difficulty:</td>
-                                    <td><span ex:content="!class-rating-of.difficulty"></span>/7.0</td></tr>
+                                    <td><ul><li><span ex:content="!class-rating-of.difficulty"></span>/7.0</li></ul></td></tr>
                                 <tr><td>Hours:</td>
-                                    <td><span ex:content="!class-rating-of.hours"></span></td></tr>
+                                    <td><ul><li><span ex:content="!class-rating-of.hours"></span></li></ul></td></tr>
                                 <tr><td>Instructor(s):</td>
-                                    <td><span ex:content="!professor-rating-of.professor"></span> <span ex:content="!professor-rating-of.professor-rating"></span>/7.0</td></tr>
+                                    <td><ul ex:content="!professor-rating-of">
+													<li><i><span ex:content=".professor"></span></i> <span ex:content=".professor-rating"></span>/7.0</li></ul></td></tr>
                             </table>
                         </div>
                     </div>
