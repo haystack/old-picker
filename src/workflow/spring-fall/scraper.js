@@ -247,15 +247,23 @@ function processClass(element, area, subarea) {
     var elmts = utilities.gatherElementsOnXPath(document, element, './A', nsResolver);
     for each (var a in elmts) {
         try {
-            if (a.childNodes.length == 1 && a.firstChild.nodeType == 3) {
-                var t = cleanString(a.innerHTML);
-                if (t.indexOf(".") > 0 && t.substr(0, 5) != "http:") {
-                  prereqs.push(t);
-                }
+		      var t = cleanString(a.innerHTML);
+				if (t.indexOf(".") > 0 && t.indexOf(".") < 3) {
+					prereqs.push(t);
             }
         } catch (e) {}
     }
-
+    
+    var coreqs = [];
+    var ielmts = utilities.gatherElementsOnXPath(document, element, './I/A', nsResolver); 
+    for each (var a in ielmts) {
+        try {
+		      var t = cleanString(a.innerHTML);
+				if (t.indexOf(".") > 0 && t.indexOf(".") < 3) {
+					coreqs.push(t);
+            }
+        } catch (e) {}
+    }
     var hasFinal = false;
         try {
           var fin = getText(element, './I/B/text()');
@@ -308,6 +316,7 @@ function processClass(element, area, subarea) {
     addOptionalArrayProperty(classItem, "offering", offerings);
     addOptionalArrayProperty(classItem, "category", categories);
     addOptionalArrayProperty(classItem, "prereq", prereqs);
+    addOptionalArrayProperty(classItem, "coreq", coreqs);
     addOptionalArrayProperty(classItem, "in-charge", instructors);
     if (area != null) {
         classItem.area = area;
@@ -389,7 +398,7 @@ for (var i = 0; i < elements.length; i++) {
                 try {
                     processClass(node, area, subarea);
                 } catch (e) {
-                    // ignore
+                   //  ignore
                 }
             } else if (node.tagName == "H2") {
                 area = node.firstChild.nodeValue;

@@ -32,10 +32,10 @@ var addOptionalArrayProperty = function(obj, name, a) {
 
 function processTd(element) {
 	var classNumber = cleanString(element.innerHTML);
-	var professor = cleanString(element.nextSibling.nextSibling.innerHTML);
+	var instructor = cleanString(element.nextSibling.nextSibling.innerHTML);
 	var classItem = {
         "id":           classNumber,
-        "teacher":		professor
+        "instructor":		instructor
     };
 	json.items.push(classItem);
 	

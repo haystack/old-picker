@@ -36,6 +36,7 @@ function onLoad() {
                     if (courseID == "6") {
                         urls.push("data/tqe.json");
                         urls.push("data/hkn.json");
+                        urls.push("data/wtw-6sp08.json");
                         hasTQE = true;
                     }
                     markLoaded(courseID);

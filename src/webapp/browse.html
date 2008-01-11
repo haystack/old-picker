@@ -185,7 +185,7 @@
                                     ex:content="if(exists(.picked), 'Remove', 'Add')"
                                     onclick="onPickUnpick(this);"></button>
                             
-                                <span class="section-instructor" ex:content=".instructor"></span> &bull;
+                                <span class="section-instructor" ex:content=".lecture-section-of.instructor"></span> &bull;
                                 <span class="section-schedule" ex:content=".timeAndPlace"></span>
                             </div>
                         </div>
@@ -238,8 +238,10 @@
                     </div>
                     <div ex:content=".category"></div>
                     <div ex:if-exists="!class-rating-of" class="hkn-statistics">
-                        <div class="hkn-stats-header">HKN Statistics<br><i><span ex:content="!class-rating-of.term"></span></i></div>
-                        <div >
+                        <div class="hkn-stats-header">HKN Statistics<br>
+                        	<i><span ex:content="!class-rating-of.term"></span></i>
+                        </div>
+                        <div>
                             <table cellspacing="5" cellpadding="0">
                                 <tr><td>Overall:</td>
                                     <td><ul><li><span ex:content="!class-rating-of.rating"></span>/7.0</li></ul></td></tr>
