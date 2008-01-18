@@ -18,9 +18,8 @@ Exhibit.Functions["building"] = {
  *==================================================
  */
 function onLoad() {
-	SimileAjax.Debug = {
-		silent: true
-	};
+	SimileAjax.Debug.silent = true;
+	
     var urls = [ ];
     var hasTQE = false;
     
