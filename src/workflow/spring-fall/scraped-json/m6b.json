@@ -320,7 +320,6 @@
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.728J",
                 "6.003",
                 "6.041"
             ],
@@ -696,7 +695,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "8.371J",
-                "MAS.865J",
                 "2.11",
                 "8.05",
                 "6.050J",
@@ -868,7 +866,6 @@
             "prereq":        [
                 "2.794J",
                 "20.470J",
-                "HST.541J",
                 "2.791J",
                 "6.021J",
                 "20.370J",
@@ -905,7 +902,6 @@
                 "2.792J",
                 "6.022J",
                 "20.371J",
-                "HST.542J",
                 "2.006",
                 "6.013",
                 "6.021J"
@@ -940,7 +936,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Develops and applies scaling laws and the methods of continuum mechanics to biomechanical phenomena over a range of length scales. Topics include structure of tissues and the molecular basis for macroscopic properties; chemical and electrical effects on mechanical behavior; cell mechanics, motility and adhesion; biomembranes; biomolecular mechanics and molecular motors. Experimental methods for probing structures at the tissue, cellular, and molecular levels.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.524J",
             "semester":      "Spring",
@@ -986,10 +982,7 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "24.968J",
-                "HST.710J"
-            ],
+            "prereq":        "24.968J",
             "in-charge":     [
                 "Stevens, K. N.",
                 "Shattuck-Hufnagel, S."
@@ -1017,10 +1010,7 @@
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "24.966J",
-                "HST.712J"
-            ],
+            "prereq":        "24.966J",
             "in-charge":     [
                 "Stevens, K. N.",
                 "Perkell, J. S.",
@@ -1046,7 +1036,6 @@
             "prereq":        [
                 "9.587J",
                 "24.941J",
-                "HST.727J",
                 "24.901"
             ],
             "in-charge":     [
@@ -1073,7 +1062,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.714J",
                 "8.03",
                 "6.003"
             ],
@@ -1104,7 +1092,6 @@
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.716J",
                 "6.003",
                 "6.041",
                 "6.431"
@@ -1129,7 +1116,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "16.456J",
-                "HST.582J",
                 "6.003",
                 "2.004",
                 "16.004",
@@ -1177,10 +1163,7 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.580J",
-                "6.011"
-            ],
+            "prereq":        "6.011",
             "in-charge":     "Adalsteinsson, E.",
             "subarea":       "Bioelectrical Engineering"
         },
@@ -1203,7 +1186,6 @@
                 "2.795J",
                 "10.539J",
                 "20.430J",
-                "HST.544J",
                 "6.013",
                 "2.005",
                 "10.302"
@@ -1229,7 +1211,6 @@
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "HST.585J",
             "in-charge":     [
                 "Weaver, J. C.",
                 "Burns, S. K."
@@ -1282,7 +1263,6 @@
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.557J",
                 "6.581J",
                 "7.91J",
                 "18.417J"
@@ -1299,8 +1279,8 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Fundamentals of optical and optoelectronic phenomena and devices based on classical and quantum properties of radiation and matter, culminating in lasers and applications. Fundamentals include Maxwell?s electromagnetic waves, resonators and beams, classical ray optics and optical systems, quantum theory of light, matter and its interaction, classical and quantum noise, lasers and laser dynamics, continuous wave and short pulse generation, light modulation; examples from integrated optics, semiconductor optoelectronics and nonlinear optics.",
+            "has-final":     true,
+            "description":   "Fundamentals of optical and optoelectronic phenomena and devices based on classical and quantum properties of radiation and matter, culminating in lasers and applications. Fundamentals include Maxwells electromagnetic waves, resonators and beams, classical ray optics and optical systems, quantum theory of light, matter and its interaction, classical and quantum noise, lasers and laser dynamics, continuous wave and short pulse generation, light modulation; examples from integrated optics, semiconductor optoelectronics and nonlinear optics.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.602",
             "semester":      "Spring",
             "offering":      "Currently Offered",
@@ -1362,7 +1342,7 @@
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Meets with undergraduate subject 6.602, but requires the completion of additional homework assignments. See subject description under 6.602.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.621",
             "semester":      "Spring",
@@ -1643,6 +1623,7 @@
                 "22.105",
                 "18.04"
             ],
+            "coreq":         "18.075",
             "in-charge":     [
                 "Parker, R.",
                 "Hutchinson, I.",
@@ -1706,7 +1687,6 @@
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "ESD.66J",
                 "6.013",
                 "8.03",
                 "6.003",
@@ -1837,7 +1817,7 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Quantization, wavefunctions and Schrodinger?s equation. Introduction to electronic properties of molecules, carbon nanotubes and crystals. Energy band formation and the origin of metals, insulators and semiconductors. Ballistic transport, Ohm?s law, ballistic versus traditional MOSFETs, fundamental limits to computation.",
+            "description":   "Quantization, wavefunctions and Schrödingers equation. Introduction to electronic properties of molecules, carbon nanotubes and crystals. Energy band formation and the origin of metals, insulators and semiconductors. Ballistic transport, Ohms law, ballistic versus traditional MOSFETs, fundamental limits to computation.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.701",
             "semester":      "Spring",
             "offering":      "Currently Offered",
@@ -2277,7 +2257,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.830J",
-                "ESD.63J",
                 "2.008",
                 "2.810",
                 "6.041",

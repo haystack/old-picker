@@ -14,6 +14,24 @@ for (var i = 1; i < inputs.length; i++) {
     merge(input, inputs[i]);
 }
 
+input.items = visitArrayElements(input.items, function(item) {
+    var type = item.type;
+    if (type != "Class") {
+        return undefined;
+    } else {
+        if ('course' in item) {delete item.course;}
+        if ('level' in item) {delete item.level;}
+        if ('units' in item) {delete item.units;}
+        if ('total-units' in item) {delete item["total-units"];}
+        if ('description' in item) {delete item.description;}
+        if ('semester' in item) {delete item.semester;}
+        if ('offering' in item) {delete item.offering;}
+        if ('prereq' in item) {delete item.prereq;}
+        if ('in-charge' in item) {delete item["in-charge"];}
+        return item;
+    }
+});
+
 var s = fastJsonize(input);
 
 return s;

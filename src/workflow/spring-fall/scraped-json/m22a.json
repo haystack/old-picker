@@ -62,29 +62,34 @@
             ],
             "prereq":        [
                 "1.588J",
-                "3.070J",
-                "21W.781J",
-                "ESD.032J"
+                "3.070J"
             ],
             "in-charge":     [
                 "Eagar, T.",
                 "Haas, W.",
                 "Kadak, A.",
-                "Lagace, P."
+                "Lagace, P.",
+                "Buyukozturk, O."
             ],
             "area":          "Undergraduate Subjects"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R22.002J-1",
-            "rec-section-of": "22.002J",
-            "timeAndPlace":   "MWF 13:00-14:00 1-375"
+            "type":               "LectureSection",
+            "label":              "L22.002J-1",
+            "lecture-section-of": "22.002J",
+            "timeAndPlace":       "MW 13:00-14:00 4-237"
         },
         {
             "type":           "RecitationSection",
             "label":          "R22.002J-2",
             "rec-section-of": "22.002J",
-            "timeAndPlace":   "MWF 14:00-15:00 1-375"
+            "timeAndPlace":   "F 13:00-14:00 66-160"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R22.002J-3",
+            "rec-section-of": "22.002J",
+            "timeAndPlace":   "F 14:00-15:00 66-160"
         },
         {
             "type":          "Class",
@@ -205,7 +210,10 @@
                 "22.33",
                 "22.06"
             ],
-            "in-charge":     "Kadak, A. C.",
+            "in-charge":     [
+                "Kadak, A.C.",
+                "Yildiz, B."
+            ],
             "area":          "Undergraduate Subjects"
         },
         {
@@ -268,14 +276,18 @@
                 "2.005",
                 "22.05"
             ],
-            "in-charge":     "Staff",
+            "in-charge":     [
+                "Golay, M.W.",
+                "Freidberg, J.P.",
+                "Kazimi, M.S."
+            ],
             "area":          "Undergraduate Subjects"
         },
         {
             "type":               "LectureSection",
             "label":              "L22.06-1",
             "lecture-section-of": "22.06",
-            "timeAndPlace":       "TR 12:30-14:00 24-121"
+            "timeAndPlace":       "TR 11:00-12:30 24-115"
         },
         {
             "type":           "RecitationSection",

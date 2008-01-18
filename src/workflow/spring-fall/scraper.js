@@ -242,16 +242,22 @@ function processClass(element, area, subarea) {
             } catch (e) {}
         }
     }
-
+	
     var prereqs = [];
+    var prereqString = "";
     var elmts = utilities.gatherElementsOnXPath(document, element, './A', nsResolver);
     for each (var a in elmts) {
         try {
 		      var t = cleanString(a.innerHTML);
 				if (t.indexOf(".") > 0 && t.indexOf(".") < 3) {
 					prereqs.push(t);
+					var joiner = a.previousSibling.nodeValue != 'Prereq: '?a.previousSibling.nodeValue:'';
+					prereqString = prereqString + joiner + t;
             }
         } catch (e) {}
+    }
+    if (prereqString == "") {
+    	prereqString = "--";
     }
     
     var coreqs = [];
@@ -409,6 +415,7 @@ for (var i = 0; i < elements.length; i++) {
         node = node.nextSibling;
     }
 }
+
 
 for (var i = 0; i < json.items.length; i++) {
     var item = json.items[i];

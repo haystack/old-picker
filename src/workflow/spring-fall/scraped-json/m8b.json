@@ -49,10 +49,8 @@
             "prereq":        [
                 "8.05",
                 "8.21",
-                "https://web.mit.edu/8.321/www/",
                 "8.07",
-                "8.321",
-                "https://mit.edu/8.322/www"
+                "8.321"
             ],
             "in-charge":     "Jackiw, R.",
             "area":          "Graduate Subjects"
@@ -79,7 +77,7 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "A one-term self-contained subject in quantum field theory. Concepts and basic techniques are developed through applications in elementary particle physics, and condensed matter physics. Topics: classical field theory, symmetries, and Noether's theorem. Quantization of scalar fields, spin ? fields, and Gauge bosons. Feynman graphs, analytic properties of amplitudes and unitarity of the S-matrix. Calculations in quantum electrodynamics (QED).  Introduction to renormalization.",
+            "description":   "A one-term self-contained subject in quantum field theory. Concepts and basic techniques are developed through applications in elementary particle physics, and condensed matter physics. Topics: classical field theory, symmetries, and Noether's theorem. Quantization of scalar fields, spin ½ fields, and Gauge bosons. Feynman graphs, analytic properties of amplitudes and unitarity of the S-matrix. Calculations in quantum electrodynamics (QED).  Introduction to renormalization.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.323",
             "semester":      "Spring",
             "offering":      "Currently Offered",
@@ -163,7 +161,7 @@
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Classical mechanics in a computational framework. Lagrangian formulation. Action, variational principles. Hamilton's principle. Conserved quantities. Hamiltonian formulation. Surfaces of section. Chaos. Liouville's theorem and Poincar? integral invariants. Poincar?-Birkhoff and KAM theorems. Invariant curves. Cantori. Nonlinear resonances. Resonance overlap and transition to chaos. Properties of chaotic motion. Transport, diffusion, mixing. Symplectic integration. Adiabatic invariants. Many-dimensional systems, Arnold diffusion. Extensive use of computation to capture methods, for simulation, and for symbolic analysis.",
+            "description":   "Classical mechanics in a computational framework. Lagrangian formulation. Action, variational principles. Hamilton's principle. Conserved quantities. Hamiltonian formulation. Surfaces of section. Chaos. Liouville's theorem and Poincar integral invariants. Poincar-Birkhoff and KAM theorems. Invariant curves. Cantori. Nonlinear resonances. Resonance overlap and transition to chaos. Properties of chaotic motion. Transport, diffusion, mixing. Symplectic integration. Adiabatic invariants. Many-dimensional systems, Arnold diffusion. Extensive use of computation to capture methods, for simulation, and for symbolic analysis.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.351J",
             "semester":      "Fall",
             "offering":      "Currently Offered",
@@ -221,7 +219,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.443J",
-                "MAS.865J",
                 "2.11",
                 "8.05",
                 "6.050J",
@@ -659,10 +656,7 @@
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.452J",
-                "8.333"
-            ],
+            "prereq":        "8.333",
             "in-charge":     [
                 "Kardar, M.",
                 "Mirny, L."
@@ -688,10 +682,7 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.450J",
-                "8.044"
-            ],
+            "prereq":        "8.044",
             "in-charge":     "Benedek, G.",
             "area":          "Graduate Subjects",
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
@@ -701,6 +692,12 @@
             "label":              "L8.593J-1",
             "lecture-section-of": "8.593J",
             "timeAndPlace":       "TR 13:00-14:30 2-105"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R8.593J-2",
+            "rec-section-of": "8.593J",
+            "timeAndPlace":   "W 13:00-14:00 26-314"
         },
         {
             "type":          "Class",
@@ -748,6 +745,7 @@
                 "22.105",
                 "18.04"
             ],
+            "coreq":         "18.075",
             "in-charge":     [
                 "Parker, R.",
                 "Hutchinson, I.",
@@ -855,6 +853,7 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.321",
+            "coreq":         "8.322",
             "in-charge":     "Nahn, S.",
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear and Particle Physics"
@@ -1223,6 +1222,7 @@
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.323",
+            "coreq":         "8.324",
             "in-charge":     "Staff",
             "area":          "Graduate Subjects",
             "subarea":       "Space Physics and Astrophysics"

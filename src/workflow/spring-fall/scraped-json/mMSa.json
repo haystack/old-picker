@@ -152,6 +152,7 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "MS.202",
+            "coreq":         "MS.301",
             "in-charge":     [
                 "Gowel, D.",
                 "Karwowski, K."
@@ -174,6 +175,7 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "MS.311",
+            "coreq":         "MS.302",
             "in-charge":     [
                 "Gowel, D.",
                 "Karwowski, K."
@@ -252,6 +254,10 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "MS.312",
+            "coreq":         [
+                "MS.401",
+                "15.305"
+            ],
             "in-charge":     "McGonagle, L.",
             "area":          "Military Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"

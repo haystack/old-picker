@@ -308,7 +308,7 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Uses the tools of macroeconomics to study various macroeconomic policy problems in depth. The problems range from economic growth in the long run to government finances in the intermediate run and economic stability in the short run. Many economic models used today are surveyed.  Requires a 20-page paper on the economics of long-run economic growth.",
             "url":           "http://student.mit.edu/catalog/m14a.html#14.05",
             "semester":      "Spring",
@@ -951,10 +951,7 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "HASS Elective",
-            "prereq":        [
-                "HST.901J",
-                "14.01"
-            ],
+            "prereq":        "14.01",
             "in-charge":     "Harris, J. E.",
             "area":          "Industrial Organization"
         },
@@ -993,10 +990,7 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.271",
-            "in-charge":     [
-                "Joskow, P.",
-                "Rose, N."
-            ],
+            "in-charge":     "Rose, N.",
             "area":          "Industrial Organization"
         },
         {
@@ -1097,10 +1091,7 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.903J",
-                "14.04"
-            ],
+            "prereq":        "14.04",
             "in-charge":     "Harris, J. E.",
             "area":          "Industrial Organization"
         },
@@ -1319,7 +1310,7 @@
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Regression analysis, focusing on departures from the standard Gauss-Markov assumptions, and simultaneous equations. Regression topics include heteroskedasticity, serial correlation, and errors in variables, generalized least squares, nonlinear regression, and limited dependent variable models. Covers identification and estimation of linear and nonlinear simultaneous equations models. Economic applications are discussed. Class size limited.",
             "url":           "http://student.mit.edu/catalog/m14a.html#14.382",
             "semester":      "Spring",

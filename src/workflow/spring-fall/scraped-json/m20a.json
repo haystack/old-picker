@@ -64,10 +64,9 @@
             "description":   "Analysis of potentially important risk factors for common diseases in the general environment and the workplace:  air-, food- and water-borne chemicals; subclinical infections; diet and lifestyle choices. Analysis of history of changes in common disease rates. General paradigm of environmental sources and exposure of human subpopulations, uptake, internal distribution and metabolism of xenobiotics. Measurement of xenobiotic chemicals and allobiotic life forms in human tissues. Potential pathways of induced pathogenesis: mutagenesis, inflammation, hormonal mimicry.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.104J",
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "prereq":        [
                 "1.081J",
-                "ESD.053J",
                 "7.012",
                 "7.013",
                 "7.014",
@@ -97,7 +96,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introductory microbiology from a systems perspective. Considers microbial diversity, population dynamics, and genomics.  Emphasize the delicate balance between microbes and humans, and changes that result in the emergence of infectious diseases and antimicrobial resistance.  Case study approach covers topics such as vaccines, toxins, biodefense, and infections including Legionnaire?s disease, tuberculosis, Helicobacter pylori, and plague.",
+            "description":   "Introductory microbiology from a systems perspective. Considers microbial diversity, population dynamics, and genomics.  Emphasize the delicate balance between microbes and humans, and changes that result in the emergence of infectious diseases and antimicrobial resistance.  Case study approach covers topics such as vaccines, toxins, biodefense, and infections including Legionnaires disease, tuberculosis, Helicobacter pylori, and plague.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.106J",
             "semester":      "Fall",
             "offering":      "Currently Offered",
@@ -258,7 +257,7 @@
             "description":   "Selected aspects of anatomy, histology, immuno-cytochemistry, in situ hybridization, physiology, and cell biology of mammalian organisms and their pathogens. Subject material integrated with principles of toxicology. A lab/demonstration period each week involves experiments in anatomy (in vivo), physiology, and microscopy to augment the lectures. Offered first half of spring term.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.202",
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Fox, J. G.",
@@ -430,7 +429,7 @@
             "type":               "LectureSection",
             "label":              "L20.310J-1",
             "lecture-section-of": "20.310J",
-            "timeAndPlace":       "MWF 12:00-13:00 4-231"
+            "timeAndPlace":       "MWF 12:00-13:00 4-163"
         },
         {
             "type":          "Class",
@@ -451,6 +450,10 @@
                 "2.772J",
                 "18.03",
                 "6.00"
+            ],
+            "coreq":         [
+                "5.07",
+                "7.05"
             ],
             "in-charge":     [
                 "White, F.",
@@ -631,7 +634,6 @@
                 "2.794J",
                 "6.521J",
                 "20.470J",
-                "HST.541J",
                 "8.02",
                 "18.03",
                 "2.005",
@@ -662,7 +664,6 @@
             "prereq":        [
                 "2.792J",
                 "6.022J",
-                "HST.542J",
                 "2.796J",
                 "6.522J",
                 "20.471J",
@@ -826,7 +827,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Develops and applies scaling laws and the methods of continuum mechanics to biomechanical phenomena over a range of length scales. Topics include structure of tissues and the molecular basis for macroscopic properties; chemical and electrical effects on mechanical behavior; cell mechanics, motility and adhesion; biomembranes; biomolecular mechanics and molecular motors. Experimental methods for probing structures at the tissue, cellular, and molecular levels.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.410J",
             "semester":      "Spring",
@@ -874,7 +875,6 @@
             "prereq":        [
                 "2.785J",
                 "3.97J",
-                "HST.523J",
                 "3.091",
                 "5.11",
                 "5.111",
@@ -942,7 +942,6 @@
                 "2.795J",
                 "6.561J",
                 "10.539J",
-                "HST.544J",
                 "6.013",
                 "2.005",
                 "10.302"
@@ -995,7 +994,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "3.96J",
-                "HST.522J",
                 "3.091",
                 "5.111",
                 "5.112",
@@ -1077,8 +1075,7 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.782J",
-                "3.961J",
-                "HST.524J"
+                "3.961J"
             ],
             "in-charge":     [
                 "Yannas, I. V.",
@@ -1106,10 +1103,7 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.771J",
-                "HST.958J"
-            ],
+            "prereq":        "2.771J",
             "in-charge":     [
                 "Dewey, C. F.",
                 "Jr.",
@@ -1183,7 +1177,6 @@
             "prereq":        [
                 "2.794J",
                 "6.521J",
-                "HST.541J",
                 "2.791J",
                 "6.021J",
                 "20.370J",
@@ -1219,7 +1212,6 @@
                 "2.792J",
                 "6.022J",
                 "20.371J",
-                "HST.542J",
                 "2.006",
                 "6.013",
                 "6.021J"
@@ -1314,7 +1306,6 @@
             "prereq":        [
                 "9.173J",
                 "22.56J",
-                "HST.561J",
                 "18.03",
                 "8.03"
             ],
@@ -1363,8 +1354,7 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "7.549J",
-                "15.137J",
-                "HST.916J"
+                "15.137J"
             ],
             "in-charge":     [
                 "Tannenbaum, S. R.",

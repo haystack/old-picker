@@ -185,6 +185,11 @@
                 "2.017J",
                 "2.003J"
             ],
+            "coreq":         [
+                "2.005",
+                "2.016",
+                "2.671"
+            ],
             "in-charge":     [
                 "Triantafyllou, M. S.",
                 "Hover, F. S."
@@ -450,10 +455,7 @@
             "url":           "http://student.mit.edu/catalog/m1a.html#1.040",
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "1.401J",
-                "ESD.018J"
-            ],
+            "prereq":        "1.401J",
             "in-charge":     "Staff",
             "area":          "Fundamentals"
         },
@@ -483,10 +485,7 @@
             "url":           "http://student.mit.edu/catalog/m1a.html#1.041J",
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "ESD.01J",
-                "1.011"
-            ],
+            "prereq":        "1.011",
             "in-charge":     "J.Sussman",
             "area":          "Fundamentals"
         },
@@ -554,6 +553,7 @@
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
             "prereq":        "8.01",
+            "coreq":         "18.02",
             "in-charge":     [
                 "Ulm, F. J.",
                 "Buehler, M. J."
@@ -722,6 +722,7 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "1.050",
+            "coreq":         "18.03",
             "in-charge":     [
                 "Madsen, O. S.",
                 "Stocker, R."
@@ -784,6 +785,10 @@
             "prereq":        [
                 "12.320J",
                 "1.060"
+            ],
+            "coreq":         [
+                "1.061",
+                "1.106"
             ],
             "in-charge":     "Entekhabi, D.",
             "area":          "Fundamentals"
@@ -856,6 +861,7 @@
                 "7.014",
                 "7.015"
             ],
+            "coreq":         "1.107",
             "in-charge":     [
                 "Polz, M. F.",
                 "Staff"
@@ -893,10 +899,9 @@
             "description":   "Analysis of potentially important risk factors for common diseases in the general environment and the workplace:  air-, food- and water-borne chemicals; subclinical infections; diet and lifestyle choices. Analysis of history of changes in common disease rates. General paradigm of environmental sources and exposure of human subpopulations, uptake, internal distribution and metabolism of xenobiotics. Measurement of xenobiotic chemicals and allobiotic life forms in human tissues. Potential pathways of induced pathogenesis: mutagenesis, inflammation, hormonal mimicry.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.081J",
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "prereq":        [
                 "20.104J",
-                "ESD.053J",
                 "7.012",
                 "7.013",
                 "7.014",
@@ -974,7 +979,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introductory microbiology from a systems perspective. Considers microbial diversity, population dynamics, and genomics.  Emphasize the delicate balance between microbes and humans, and changes that result in the emergence of infectious diseases and antimicrobial resistance.  Case study approach covers topics such as vaccines, toxins, biodefense, and infections including Legionnaire?s disease, tuberculosis, Helicobacter pylori, and plague.",
+            "description":   "Introductory microbiology from a systems perspective. Considers microbial diversity, population dynamics, and genomics.  Emphasize the delicate balance between microbes and humans, and changes that result in the emergence of infectious diseases and antimicrobial resistance.  Case study approach covers topics such as vaccines, toxins, biodefense, and infections including Legionnaires disease, tuberculosis, Helicobacter pylori, and plague.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.084J",
             "semester":      "Fall",
             "offering":      "Currently Offered",
@@ -1032,6 +1037,7 @@
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
             "prereq":        "1.101",
+            "coreq":         "1.060",
             "in-charge":     [
                 "Hemond, H. F.",
                 "Germaine, J.",
@@ -1072,6 +1078,10 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
+            "coreq":         [
+                "1.061",
+                "1.070J"
+            ],
             "in-charge":     [
                 "Nepf, H. M.",
                 "Entekhabi, D."
@@ -1093,6 +1103,7 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
+            "coreq":         "1.080",
             "in-charge":     [
                 "Polz, M.",
                 "Frankel, S.",
@@ -1129,7 +1140,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.091J",
-                "ESD.51J",
                 "1.00"
             ],
             "in-charge":     "Williams, J. R.",
@@ -1151,7 +1161,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "ESD.341J",
                 "1.124J",
                 "6.001"
             ],
@@ -1179,7 +1188,6 @@
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "MAS.622J",
             "in-charge":     "Picard, R. W.",
             "area":          "Engineering Information Systems and Computation"
         },
@@ -1310,7 +1318,6 @@
             "url":           "http://student.mit.edu/catalog/m1a.html#1.145J",
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        "ESD.70J",
             "in-charge":     [
                 "Neufville, R. de",
                 "Staff"
@@ -1336,7 +1343,6 @@
                 "1.146",
                 "3.56",
                 "16.861",
-                "ESD.71",
                 "1.145J"
             ],
             "in-charge":     "Neufville, R. de",
@@ -1362,8 +1368,7 @@
                 "2.63",
                 "5.00",
                 "10.579",
-                "22.813",
-                "ESD.174"
+                "22.813"
             ],
             "in-charge":     [
                 "Deutch, J.",

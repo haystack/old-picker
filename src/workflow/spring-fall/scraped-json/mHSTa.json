@@ -15,7 +15,6 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "HST.010",
             "in-charge":     "Gehrke, L."
         },
         {
@@ -33,7 +32,6 @@
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "HST.020",
             "in-charge":     [
                 "Robinson, D.",
                 "Krane, S. M.",
@@ -65,7 +63,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.030",
                 "7.012",
                 "7.013",
                 "7.014",
@@ -90,7 +87,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.034",
                 "7.01",
                 "7.05"
             ],
@@ -136,7 +132,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.040",
                 "7.05",
                 "7.012",
                 "7.013",
@@ -164,7 +159,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.060",
                 "7.05",
                 "7.012",
                 "7.013",
@@ -201,7 +195,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.070",
                 "7.012",
                 "7.013",
                 "7.014",
@@ -224,10 +217,7 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.080",
-                "7.05"
-            ],
+            "prereq":        "7.05",
             "in-charge":     [
                 "Kuter, D. J.",
                 "Jacobson, J. O.",
@@ -274,11 +264,6 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.090",
-                "HST.030",
-                "HST.031"
-            ],
             "in-charge":     "Edelman, E."
         },
         {
@@ -321,7 +306,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.100",
                 "7.05",
                 "8.01",
                 "7.012",
@@ -363,7 +347,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.110",
                 "7.05",
                 "7.012",
                 "7.013",
@@ -405,7 +388,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.120",
                 "7.05",
                 "8.01",
                 "7.012",
@@ -435,7 +417,6 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "HST.130",
             "in-charge":     "Corey, D. P."
         },
         {
@@ -475,7 +456,6 @@
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "HST.146",
             "in-charge":     "Serhan, C. N."
         },
         {
@@ -494,7 +474,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.150",
                 "7.012",
                 "7.013",
                 "7.014",
@@ -547,7 +526,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "HST.160",
                 "7.012",
                 "7.013",
                 "7.014",
@@ -573,10 +551,7 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.175",
-                "7.05"
-            ],
+            "prereq":        "7.05",
             "in-charge":     [
                 "Pillai, S.",
                 "staff"
@@ -636,6 +611,12 @@
                 "Currently Offered"
             ],
             "in-charge":     "Greenberg, J. E."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "LHST.187-1",
+            "lecture-section-of": "HST.187",
+            "timeAndPlace":       "T 16:00-18:30 MGH"
         },
         {
             "type":          "Class",
@@ -702,10 +683,7 @@
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.190",
-                "18.02"
-            ],
+            "prereq":        "18.02",
             "in-charge":     [
                 "Betensky, R.",
                 "Hernan, M."
@@ -873,7 +851,6 @@
             ],
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "HST.201",
             "in-charge":     [
                 "Pronio-Stelluto, V.",
                 "Mark, R. G.",
@@ -907,10 +884,6 @@
             ],
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.201",
-                "HST.202"
-            ],
             "in-charge":     "Brown, E. N."
         },
         {
@@ -940,7 +913,6 @@
             ],
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "HST.595",
             "in-charge":     "Weaver, J."
         },
         {
@@ -962,7 +934,6 @@
                 "Summer"
             ],
             "offering":      "Currently Offered",
-            "prereq":        "HST.572",
             "in-charge":     "Weaver, J. C."
         },
         {
@@ -997,7 +968,6 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "HST.211",
             "in-charge":     "Anderson, R."
         },
         {
@@ -1050,10 +1020,7 @@
             ],
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.01",
-                "HST.035"
-            ],
+            "prereq":        "7.01",
             "in-charge":     [
                 "Edelman, E. R.",
                 "Anderson, R. R.",
@@ -1140,7 +1107,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Topics examined include regional functional anatomy of the CNS through imaging and stroke; degenerative diseases such as Parkinson's and Alzheimer's; immunological disorders such as multiple sclerosis and paraneoplastic syndromes; epilepsy; and gliomas. Emphasis on diseases for which a molecular mechanism is understood. Clinical and pathological findings, differential diagnosis, genetics, pathophysiology, and treatment are discussed for individual diseases. Enrollment limited to 25.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.424J",
             "semester":      "Spring",
@@ -1189,6 +1156,12 @@
             "label":              "LHST.450J-1",
             "lecture-section-of": "HST.450J",
             "timeAndPlace":       "TR 13:00-14:30 2-105"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "RHST.450J-2",
+            "rec-section-of": "HST.450J",
+            "timeAndPlace":   "W 13:00-14:00 26-314"
         },
         {
             "type":          "Class",
@@ -1422,10 +1395,6 @@
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.513",
-                "HST.160"
-            ],
             "in-charge":     [
                 "Kohane, I.",
                 "Butte, A.",
@@ -1456,10 +1425,6 @@
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.512",
-                "HST.160"
-            ],
             "in-charge":     [
                 "Kohane, I.",
                 "Staff"
@@ -1514,7 +1479,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "16.423J",
-                "ESD.65J",
                 "16.400",
                 "16.06",
                 "16.060"
@@ -1557,7 +1521,6 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "HST.030",
             "in-charge":     [
                 "Schoen, F. J.",
                 "Khademhosseini, A."
@@ -1978,10 +1941,6 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "HST.031",
-                "HST.035"
-            ],
             "in-charge":     [
                 "Seifter, J.",
                 "Bunn, F."
@@ -2228,8 +2187,7 @@
             "prereq":        [
                 "6.003",
                 "2.003",
-                "9.011",
-                "HST.130"
+                "9.011"
             ],
             "in-charge":     "Massaquoi, S."
         },
@@ -2429,8 +2387,8 @@
         },
         {
             "type":          "Class",
-            "label":         "HST.586?589 - Special Subjects in Medical Engineering and Medical Physics",
-            "id":            "HST.586?589",
+            "label":         "HST.586589 - Special Subjects in Medical Engineering and Medical Physics",
+            "id":            "HST.586589",
             "listing-index": "mHSTa-088",
             "course":        "HST",
             "level":         "Grad",
@@ -2438,7 +2396,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "Opportunity for group study of advanced subjects related to the Medical Engineering and Medical Physics Program not otherwise included in the curriculum. Offerings are initiated by MEMP faculty on an ad hoc basis subject to program approval. Prerequisites may vary by topic; consult faculty at time of offering.",
-            "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.586?589",
+            "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.586589",
             "semester":      [
                 "Fall",
                 "IAP",

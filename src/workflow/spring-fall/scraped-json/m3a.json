@@ -54,6 +54,11 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
+            "coreq":         [
+                "18.03",
+                "18.034",
+                "3.016"
+            ],
             "in-charge":     [
                 "Allen, S.",
                 "Irvine, D."
@@ -345,7 +350,7 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "How materials are processed, including diffusion, chemical reactions and solid-state phase transformations. Covers heat and mass transport, fluid flow during materials processing, and the economics of materials processing and recycling.",
             "url":           "http://student.mit.edu/catalog/m3a.html#3.044",
             "semester":      "Spring",
@@ -383,7 +388,7 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "The laws of thermodynamics and their application to equilibrium and the properties of materials. Foundation to treat general phenomena in materials science and engineering, including chemical reactions, magnetism, polarizability, and elasticity. Relations pertaining to multiphase equilibria as determined by a treatment of solution thermodynamics. Graphical constructions that are essential for the interpretation of phase diagrams. Electrochemical equilibria and surface thermodynamics. Aspects of statistical thermodynamics as they relate to macroscopic equilibrium phenomena.",
             "url":           "http://student.mit.edu/catalog/m3a.html#3.046",
             "semester":      "Spring",
@@ -517,7 +522,7 @@
             "type":               "LectureSection",
             "label":              "L3.053J-1",
             "lecture-section-of": "3.053J",
-            "timeAndPlace":       "MWF 12:00-13:00 4-231"
+            "timeAndPlace":       "MWF 12:00-13:00 4-163"
         },
         {
             "type":          "Class",
@@ -593,28 +598,33 @@
             ],
             "prereq":        [
                 "1.588J",
-                "22.002J",
-                "21W.781J",
-                "ESD.032J"
+                "22.002J"
             ],
             "in-charge":     [
                 "Eagar, T.",
                 "Haas, W.",
                 "Kadak, A.",
-                "Lagace, P."
+                "Lagace, P.",
+                "Buyukozturk, O."
             ]
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R3.070J-1",
-            "rec-section-of": "3.070J",
-            "timeAndPlace":   "MWF 13:00-14:00 1-375"
+            "type":               "LectureSection",
+            "label":              "L3.070J-1",
+            "lecture-section-of": "3.070J",
+            "timeAndPlace":       "MW 13:00-14:00 4-237"
         },
         {
             "type":           "RecitationSection",
             "label":          "R3.070J-2",
             "rec-section-of": "3.070J",
-            "timeAndPlace":   "MWF 14:00-15:00 1-375"
+            "timeAndPlace":   "F 13:00-14:00 66-160"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R3.070J-3",
+            "rec-section-of": "3.070J",
+            "timeAndPlace":   "F 14:00-15:00 66-160"
         },
         {
             "type":          "Class",
@@ -749,7 +759,7 @@
             "type":           "RecitationSection",
             "label":          "R3.091-3",
             "rec-section-of": "3.091",
-            "timeAndPlace":   "TR 14:00-15:00 4-153"
+            "timeAndPlace":   "TR 14:00-15:00 4-149"
         },
         {
             "type":          "Class",
@@ -765,6 +775,7 @@
             "url":           "http://student.mit.edu/catalog/m3a.html#3.093",
             "semester":      "Fall",
             "offering":      "Not offered this year",
+            "coreq":         "3.091",
             "in-charge":     [
                 "Sadoway, D.",
                 "Locknar, A."
@@ -1565,7 +1576,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Unified treatment of key principles in materials and processing for design and manufacture of microelectromechanical systems (MEMS). Emphasis on materials and processes commonly used for fabrication for MEMS and not microelectronic systems. Discussion of the processing and properties of both thin and thick polycrystalline and amorphous films, wafer and thin film bonding, bulk micromachining techniques, and the relationships between processing and properties of active materials such as piezoelectrics, ferroelectrics and phase-transition materials. Key material properties and parameters and their relationships with microfabrication processes and applications are discussed, including elastic and inelastic deformation, fracture, residual stress, fatigue, creep, adhesion, stiction, and coupled-field constitutive behavior. Materials and process selection and case studies of applications provide a unifying theme.",
             "url":           "http://student.mit.edu/catalog/m3a.html#3.48J",
             "semester":      "Spring",

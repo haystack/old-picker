@@ -29,6 +29,7 @@ function onLoad() {
             var name = a[0];
             var value = a.length > 1 ? decodeURIComponent(a[1]) : "";
             if (name == "courses") {
+            	urls.push('https://isda-ws1.mit.edu/WarehouseService/?courses=' + value);
                 var courseIDs = value.split(";");
                 for (var c = 0; c < courseIDs.length; c++) {
                     var courseID = courseIDs[c];
@@ -161,8 +162,38 @@ function loadURLs(urls, fDone) {
     var fNext = function() {
         if (urls.length > 0) {
             var url = urls.shift();
-            var importer = Exhibit.importers["application/json"];
-            importer.load(url, window.database, fNext);
+            if (url.search(/https:/) == 0) {
+            	var importer = Exhibit.importers["application/jsonp"]
+            	var fConvert = function(json) {
+					var items = json.items;				
+					for (var i = 0; i < items.length; i++) {
+						var item = items[i];
+						if ('offering' in item) {
+							item.offering == 'Y'?item.offering = 'Currently Offered':item.offering = 'Not offered this year';
+						}
+						if (item.type == 'LectureSession') {
+							item.type = 'LectureSection';
+							item["lecture-section-of"] = item["section-of"];
+							delete item["section-of"];
+						} 
+						if (item.type == 'RecitationSession') {
+							item.type = 'RecitationSection';
+							item["rec-section-of"] = item["section-of"];
+							delete item["section-of"];
+						} 
+						if (item.type == 'LabSession') {
+							item.type = 'LabSection';
+							item["lab-section-of"] = item["section-of"];
+							delete item["section-of"];
+						} 
+					}					
+					return json;
+				}
+            	importer.load(url, window.database, fNext, fConvert);
+            } else {
+            	var importer = Exhibit.importers["application/json"];
+            	importer.load(url, window.database, fNext);
+            }
         } else {
             fDone();
         }
@@ -248,6 +279,7 @@ function toggleFavorite(img) {
             function() { doFavorite(classID, img) },
             "Unfavorite " + classID
         );
+        
     } else {
         SimileAjax.History.addLengthyAction(
             function() { doFavorite(classID, img) },

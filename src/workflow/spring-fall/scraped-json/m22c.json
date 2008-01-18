@@ -23,6 +23,7 @@
                 "22.105",
                 "18.04"
             ],
+            "coreq":         "18.075",
             "in-charge":     [
                 "Parker, R.",
                 "Hutchinson, I.",
@@ -203,9 +204,12 @@
             "description":   "Introductory subject for students who are not specializing in nuclear materials. Applications and selection of materials for use in nuclear applications. Radiation damage, radiation effects, and their effects on performance of materials in fission and fusion environments.",
             "url":           "http://student.mit.edu/catalog/m22c.html#22.70",
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Hobbs, L.",
+            "in-charge":     "Yildiz, B.",
             "subarea":       "Nuclear Materials"
         },
         {
@@ -323,8 +327,7 @@
                 "1.818J",
                 "2.65J",
                 "10.391J",
-                "11.371J",
-                "ESD.166J"
+                "11.371J"
             ],
             "in-charge":     [
                 "Golay, M. W.",
@@ -337,7 +340,7 @@
             "type":               "LectureSection",
             "label":              "L22.811J-1",
             "lecture-section-of": "22.811J",
-            "timeAndPlace":       "TR 15:00-17:00 56-114"
+            "timeAndPlace":       "TR 15:00-17:00 3-270"
         },
         {
             "type":          "Class",
@@ -357,7 +360,6 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "ESD.163J",
             "in-charge":     "Lester, R. K.",
             "subarea":       "Systems, Policy, and Economics"
         },
@@ -387,8 +389,7 @@
                 "2.63",
                 "5.00",
                 "10.579",
-                "22.813",
-                "ESD.174"
+                "22.813"
             ],
             "in-charge":     [
                 "Deutch, J.",
@@ -419,7 +420,6 @@
                 "10.816",
                 "16.862",
                 "22.82",
-                "ESD.72",
                 "18.02"
             ],
             "in-charge":     "Apostolakis, G. E.",
@@ -473,8 +473,8 @@
         },
         {
             "type":          "Class",
-            "label":         "22.901?22.904 - Special Problems in Nuclear Science & Engineering",
-            "id":            "22.901?22.904",
+            "label":         "22.90122.904 - Special Problems in Nuclear Science & Engineering",
+            "id":            "22.90122.904",
             "listing-index": "m22c-017",
             "course":        "22",
             "level":         "Grad",
@@ -482,7 +482,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "For graduate and advanced undergraduate students who wish to conduct a one-term project of a theoretical or experimental nature in the nuclear engineering field, in close cooperation with individual staff members. Arrangement of topic and hours to fit students' requirements.",
-            "url":           "http://student.mit.edu/catalog/m22c.html#22.901?22.904",
+            "url":           "http://student.mit.edu/catalog/m22c.html#22.90122.904",
             "semester":      [
                 "Fall",
                 "IAP",
@@ -499,8 +499,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L22.901?22.904-1",
-            "lecture-section-of": "22.901?22.904",
+            "label":              "L22.90122.904-1",
+            "lecture-section-of": "22.90122.904",
             "timeAndPlace":       "TR 12:30-14:00 24-115"
         },
         {

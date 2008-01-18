@@ -41,78 +41,6 @@
             "timeAndPlace":       "MWF 11:00-12:00 26-100"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R7.012-2",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "MW 13:00-14:00 26-204"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R7.012-3",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "MW 14:00-15:00 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R7.012-4",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "MW 15:00-16:00 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R7.012-5",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "MW 16:00-17:00 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R7.012-6",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR 9:00-10:00 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R7.012-7",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR 10:00-11:00 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R7.012-8",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR 11:00-12:00 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R7.012-9",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR 12:00-13:00 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R7.012-10",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR 13:00-14:00 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R7.012-11",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR 14:00-15:00 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R7.012-12",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR 15:00-16:00 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R7.012-13",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR 16:00-17:00 26-310"
-        },
-        {
             "type":          "Class",
             "label":         "7.02 - Introduction to Experimental Biology and Communication",
             "id":            "7.02",
@@ -285,6 +213,7 @@
             ],
             "offering":      "Currently Offered",
             "prereq":        "7.03",
+            "coreq":         "7.05",
             "in-charge":     [
                 "Orr-Weaver, T.",
                 "Ploegh, H."
@@ -579,10 +508,7 @@
             "url":           "http://student.mit.edu/catalog/m7a.html#7.20J",
             "semester":      "Fall",
             "offering":      "Not offered this year",
-            "prereq":        [
-                "HST.540J",
-                "7.05"
-            ],
+            "prereq":        "7.05",
             "in-charge":     [
                 "Krieger, M.",
                 "Sabatini, D."
@@ -817,6 +743,7 @@
                 "7.58",
                 "7.03"
             ],
+            "coreq":         "7.05",
             "in-charge":     [
                 "Baker, T.",
                 "Bell, S."
@@ -943,8 +870,8 @@
         },
         {
             "type":          "Class",
-            "label":         "7.340?7.349 - Advanced Undergraduate Seminars",
-            "id":            "7.340?7.349",
+            "label":         "7.3407.349 - Advanced Undergraduate Seminars",
+            "id":            "7.3407.349",
             "listing-index": "m7a-023",
             "course":        "7",
             "level":         "Undergrad",
@@ -952,7 +879,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "Seminars covering topics of current interest in biology with a focus on how to understand experimental methods and design and how to critically read the primary research literature. Small class size facilitates discussions and interactions with an active research scientist. Students visit research laboratories to see first-hand how biological research is done. Contact Biology Education Office for topics.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.340?7.349",
+            "url":           "http://student.mit.edu/catalog/m7a.html#7.3407.349",
             "semester":      [
                 "Fall",
                 "Spring"
@@ -975,38 +902,32 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L7.340?7.349-1",
-            "lecture-section-of": "7.340?7.349",
-            "timeAndPlace":       "R 13:00-15:00 68-151"
+            "label":              "L7.3407.349-1",
+            "lecture-section-of": "7.3407.349",
+            "timeAndPlace":       "W 15:00-17:00 68-374"
         },
         {
             "type":               "LectureSection",
-            "label":              "L7.340?7.349-2",
-            "lecture-section-of": "7.340?7.349",
-            "timeAndPlace":       "W 15:00-17:00 68-151"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L7.340?7.349-3",
-            "lecture-section-of": "7.340?7.349",
+            "label":              "L7.3407.349-2",
+            "lecture-section-of": "7.3407.349",
             "timeAndPlace":       "R 15:00-17:00 68-151"
         },
         {
             "type":               "LectureSection",
-            "label":              "L7.340?7.349-4",
-            "lecture-section-of": "7.340?7.349",
+            "label":              "L7.3407.349-3",
+            "lecture-section-of": "7.3407.349",
             "timeAndPlace":       "R 11:00-13:00 68-151"
         },
         {
             "type":               "LectureSection",
-            "label":              "L7.340?7.349-5",
-            "lecture-section-of": "7.340?7.349",
+            "label":              "L7.3407.349-4",
+            "lecture-section-of": "7.3407.349",
             "timeAndPlace":       "R 13:00-15:00 68-151"
         },
         {
             "type":               "LectureSection",
-            "label":              "L7.340?7.349-6",
-            "lecture-section-of": "7.340?7.349",
+            "label":              "L7.3407.349-5",
+            "lecture-section-of": "7.3407.349",
             "timeAndPlace":       "W 13:00-15:00 68-151"
         },
         {
@@ -1226,8 +1147,8 @@
         },
         {
             "type":          "Class",
-            "label":         "7.411?7.419 - Seminars in Biological Oceanography",
-            "id":            "7.411?7.419",
+            "label":         "7.4117.419 - Seminars in Biological Oceanography",
+            "id":            "7.4117.419",
             "listing-index": "m7a-032",
             "course":        "7",
             "level":         "Grad",
@@ -1235,7 +1156,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.411?7.419",
+            "url":           "http://student.mit.edu/catalog/m7a.html#7.4117.419",
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1636,6 +1557,10 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
+            "coreq":         [
+                "7.51",
+                "7.52"
+            ],
             "in-charge":     [
                 "Guarente, L.",
                 "Hemann, M.",
@@ -1707,8 +1632,7 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "10.547J",
-                "15.136J",
-                "HST.920J"
+                "15.136J"
             ],
             "in-charge":     [
                 "Allen, T. J.",
@@ -1764,8 +1688,7 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "15.137J",
-                "20.486J",
-                "HST.916J"
+                "20.486J"
             ],
             "in-charge":     [
                 "Tannenbaum, S. R.",
@@ -2449,7 +2372,6 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "CSB.100J",
             "in-charge":     "Burge, C.",
             "area":          "Graduate Subjects"
         },

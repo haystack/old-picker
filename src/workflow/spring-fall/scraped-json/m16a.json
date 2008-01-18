@@ -82,6 +82,14 @@
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
             "prereq":        "8.02",
+            "coreq":         [
+                "18.03",
+                "18.034",
+                "3.091",
+                "5.11",
+                "5.111",
+                "5.112"
+            ],
             "in-charge":     [
                 "Harris, W. L.",
                 "Deyst, J. J.",
@@ -106,6 +114,14 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "8.02",
+            "coreq":         [
+                "18.03",
+                "18.034",
+                "3.091",
+                "5.11",
+                "5.111",
+                "5.112"
+            ],
             "in-charge":     [
                 "Harris, W. L.",
                 "Deyst, J. J.",
@@ -221,6 +237,7 @@
                 "16.004",
                 "16.04"
             ],
+            "coreq":         "16.07",
             "in-charge":     "Hall, S. R.",
             "area":          "Core Undergraduate Subjects"
         },
@@ -242,6 +259,7 @@
                 "16.004",
                 "16.04"
             ],
+            "coreq":         "16.06",
             "in-charge":     [
                 "Widnall, S. E.",
                 "Deyst, J. J.",
@@ -749,6 +767,12 @@
             "area":          "Information and Control Engineering"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L16.322-1",
+            "lecture-section-of": "16.322",
+            "timeAndPlace":       "TR 14:30-16:00 33-422"
+        },
+        {
             "type":          "Class",
             "label":         "16.323 - Principles of Optimal Control",
             "id":            "16.323",
@@ -864,6 +888,7 @@
                 "6.243J",
                 "6.241"
             ],
+            "coreq":         "18.100",
             "in-charge":     [
                 "Wyatt, J. L.",
                 "Jr.",
@@ -956,10 +981,8 @@
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "ESD.355J",
                 "16.35",
-                "16.880J",
-                "ESD.33J"
+                "16.880J"
             ],
             "in-charge":     "Leveson, N. G.",
             "area":          "Information and Control Engineering"
@@ -1113,6 +1136,7 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "16.453",
+            "coreq":         "16.06",
             "in-charge":     [
                 "Cummings, M. L.",
                 "Young, L. R."
@@ -1346,8 +1370,6 @@
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "ESD.65J",
-                "HST.515J",
                 "16.400",
                 "16.06",
                 "16.060"
@@ -1373,7 +1395,6 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "HST.514J",
             "in-charge":     [
                 "Young, L.",
                 "Oman, C.",
@@ -1430,6 +1451,10 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "16.400",
+            "coreq":         [
+                "16.06",
+                "2.010"
+            ],
             "in-charge":     [
                 "Cummings, M. L.",
                 "Young, L. R."
@@ -1453,7 +1478,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.555J",
-                "HST.582J",
                 "6.003",
                 "2.004",
                 "16.004",
@@ -1527,10 +1551,7 @@
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "ESD.756J",
-                "6.041"
-            ],
+            "prereq":        "6.041",
             "in-charge":     "Cummings, M. L.",
             "area":          "Humans and Automation"
         },

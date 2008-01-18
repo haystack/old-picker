@@ -10,7 +10,7 @@
             "units":         "5-0-7",
             "total-units":   12,
             "has-final":     true,
-            "description":   "Differentiation and integration of functions of one variable, with applications.  Informal treatment of limits and continuity.  Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations.  Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science.  Elementary functions.  Techniques of integration.  Polar coordinates. L'Hopital's rule.  Improper integrals.  Infinite series: geometric, p-harmonic, simple comparison tests, formal power series for some elementary functions.",
+            "description":   "Differentiation and integration of functions of one variable, with applications.  Informal treatment of limits and continuity.  Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations.  Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science.  Elementary functions.  Techniques of integration.  Polar coordinates. L'Hôpital's rule.  Improper integrals.  Infinite series: geometric, p-harmonic, simple comparison tests, formal power series for some elementary functions.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.01",
             "semester":      [
                 "Fall",
@@ -137,23 +137,29 @@
             "type":           "RecitationSection",
             "label":          "R18.02-4",
             "rec-section-of": "18.02",
-            "timeAndPlace":   "MW 12:00-13:00 2-131"
+            "timeAndPlace":   "MW 11:00-12:00 2-139"
         },
         {
             "type":           "RecitationSection",
             "label":          "R18.02-5",
             "rec-section-of": "18.02",
-            "timeAndPlace":   "MW 13:00-14:00 2-131"
+            "timeAndPlace":   "MW 12:00-13:00 2-131"
         },
         {
             "type":           "RecitationSection",
             "label":          "R18.02-6",
             "rec-section-of": "18.02",
-            "timeAndPlace":   "MW 14:00-15:00 2-151"
+            "timeAndPlace":   "MW 13:00-14:00 2-131"
         },
         {
             "type":           "RecitationSection",
             "label":          "R18.02-7",
+            "rec-section-of": "18.02",
+            "timeAndPlace":   "MW 14:00-15:00 2-151"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R18.02-8",
             "rec-section-of": "18.02",
             "timeAndPlace":   "MW 15:00-16:00 2-151"
         },
@@ -312,6 +318,13 @@
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
             "prereq":        "18.034",
+            "coreq":         [
+                "18.02",
+                "18.02A",
+                "18.022",
+                "18.023",
+                "18.024"
+            ],
             "in-charge":     "Miller, H. R.",
             "area":          "General Mathematics"
         },
@@ -343,6 +356,13 @@
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
             "prereq":        "18.03",
+            "coreq":         [
+                "18.02",
+                "18.02A",
+                "18.022",
+                "18.023",
+                "18.024"
+            ],
             "in-charge":     "Hur, Y.",
             "area":          "General Mathematics"
         },
@@ -487,7 +507,7 @@
             "type":           "RecitationSection",
             "label":          "R18.06-5",
             "rec-section-of": "18.06",
-            "timeAndPlace":   "T 12:00-13:00 2-132"
+            "timeAndPlace":   "T 12:00-13:00 2-142"
         },
         {
             "type":           "RecitationSection",
@@ -850,7 +870,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Continues 18.100. Roughly half the subject devoted to the theory of the Lebesgue integral with applications to probability, and half to Fourier series and Fourier integrals.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.103",
             "semester":      "Spring",
@@ -1237,7 +1257,7 @@
             "type":               "LectureSection",
             "label":              "L18.276-1",
             "lecture-section-of": "18.276",
-            "timeAndPlace":       "MWF 10:00-11:00 2-135"
+            "timeAndPlace":       "MWF 11:00-12:00 2-135"
         },
         {
             "type":          "Class",
@@ -2460,7 +2480,7 @@
                 "18.410J",
                 "6.046J"
             ],
-            "in-charge":     "Waldispuhl, J.",
+            "in-charge":     "Waldispühl, J.",
             "area":          "Theoretical Computer Science"
         },
         {

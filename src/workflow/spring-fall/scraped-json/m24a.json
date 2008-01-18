@@ -151,7 +151,6 @@
                 "HASS-D 2",
                 "HASS Communication-Intensive"
             ],
-            "prereq":        "STS.006J",
             "in-charge":     [
                 "Hare, C.",
                 "Schull, N."
@@ -277,7 +276,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Different kinds of infinity; the paradoxes of set theory; the reduction of arithmetic to logic; formal systems; paradoxes involving the concept of truth; Godel's incompleteness theorems; the nonformalizable nature of mathematical truth; and Turing machines.",
+            "description":   "Different kinds of infinity; the paradoxes of set theory; the reduction of arithmetic to logic; formal systems; paradoxes involving the concept of truth; Gödel's incompleteness theorems; the nonformalizable nature of mathematical truth; and Turing machines.",
             "url":           "http://student.mit.edu/catalog/m24a.html#24.118",
             "semester":      "Fall",
             "offering":      "Currently Offered",
@@ -375,7 +374,6 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "HASS Elective",
-            "prereq":        "CMS.820",
             "in-charge":     "Singer, I.",
             "area":          "Philosophy"
         },
@@ -560,7 +558,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "The central results of modern logic: the completeness of predicate logic, recursive functions, the incompleteness of arithmetic, the unprovability of consistency, the indefinability of truth, Skolem-Lowenheim theorems, and nonstandard models. Permission of instructor required for students without prerequisite.",
+            "description":   "The central results of modern logic: the completeness of predicate logic, recursive functions, the incompleteness of arithmetic, the unprovability of consistency, the indefinability of truth, Skolem-Löwenheim theorems, and nonstandard models. Permission of instructor required for students without prerequisite.",
             "url":           "http://student.mit.edu/catalog/m24a.html#24.242",
             "semester":      "Spring",
             "offering":      "Currently Offered",
@@ -727,7 +725,6 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "HASS Elective",
-            "prereq":        "CMS.810",
             "in-charge":     "Singer, I.",
             "area":          "Philosophy"
         },
@@ -1049,7 +1046,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Examination of major philosophies of mathematics?logicism, formalism, intuitionism?on the nature of mathematical proof, existence of mathematical entities, and related issues. It is strongly recommended that students have taken 24.241 or equivalent.",
+            "description":   "Examination of major philosophies of mathematicslogicism, formalism, intuitionismon the nature of mathematical proof, existence of mathematical entities, and related issues. It is strongly recommended that students have taken 24.241 or equivalent.",
             "url":           "http://student.mit.edu/catalog/m24a.html#24.801",
             "semester":      "Fall",
             "offering":      [
@@ -1112,7 +1109,7 @@
             "type":               "LectureSection",
             "label":              "L24.810-1",
             "lecture-section-of": "24.810",
-            "timeAndPlace":       "R 14:00-17:00 32-D461"
+            "timeAndPlace":       "R 14:00-17:00 32-D831"
         },
         {
             "type":          "Class",
@@ -1150,7 +1147,7 @@
             "type":               "LectureSection",
             "label":              "L24.891-1",
             "lecture-section-of": "24.891",
-            "timeAndPlace":       "M 14:00-17:00 Unknown"
+            "timeAndPlace":       "M 14:00-17:00 36-144"
         },
         {
             "type":          "Class",
@@ -1382,7 +1379,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Central topics in language processing. The structure of language. Sentence processing. Discourse processing. Morphological processing. The storage and access of words in the mental dictionary. Speech processing. The relationship between the computational resources available in working memory and the language processing mechanism. Ambiguity resolution. Discussion of computational modeling, including connectionist models. The relationship between language and thought. Issues in language acquisition including critical period phenomena, the acquisition of speech, and the acquisition of words. Experimental methodologies such as self-paced reading, eye-tracking, cross-modal priming, and neural imaging methods.",
             "url":           "http://student.mit.edu/catalog/m24a.html#24.905J",
             "semester":      "Spring",
@@ -1392,6 +1389,7 @@
                 "9.59J",
                 "24.900"
             ],
+            "coreq":         "9.00",
             "in-charge":     "Gibson, E.",
             "area":          "Linguistics"
         },
@@ -1419,7 +1417,6 @@
                 "HASS Elective",
                 "HASS Communication-Intensive"
             ],
-            "prereq":        "21F.024J",
             "in-charge":     "Flynn, S.",
             "area":          "Linguistics"
         },
@@ -1454,7 +1451,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Caribbean Creole languages result from language contact via colonization and the slave trade. Explores creolization from cognitive, historical and comparative perspectives and evaluates popular theories about \"Creole genesis\" and the role of language acquisition. Also explores non-linguistic creolization ? in literature, religion and music in the Caribbean ? and addresses issues of Caribbean identities by examining Creole speakers' and others' beliefs toward Creole cultures. Draws comparisons with aspects of African-American culture.",
+            "description":   "Caribbean Creole languages result from language contact via colonization and the slave trade. Explores creolization from cognitive, historical and comparative perspectives and evaluates popular theories about \"Creole genesis\" and the role of language acquisition. Also explores non-linguistic creolization  in literature, religion and music in the Caribbean  and addresses issues of Caribbean identities by examining Creole speakers' and others' beliefs toward Creole cultures. Draws comparisons with aspects of African-American culture.",
             "url":           "http://student.mit.edu/catalog/m24a.html#24.908",
             "semester":      "Spring",
             "offering":      "Not offered this year",
@@ -1666,7 +1663,6 @@
             "prereq":        [
                 "6.543J",
                 "9.587J",
-                "HST.727J",
                 "24.901"
             ],
             "in-charge":     [
@@ -1759,7 +1755,6 @@
             "url":           "http://student.mit.edu/catalog/m24a.html#24.946",
             "semester":      "Fall",
             "offering":      "Not offered this year",
-            "prereq":        "21F.514",
             "in-charge":     "Miyagawa, S.",
             "area":          "Linguistics"
         },
@@ -2120,12 +2115,6 @@
             "area":          "Linguistics"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L24.964-1",
-            "lecture-section-of": "24.964",
-            "timeAndPlace":       "W 13:00-15:00 32-D461"
-        },
-        {
             "type":          "Class",
             "label":         "24.965 - Morphology",
             "id":            "24.965",
@@ -2150,7 +2139,7 @@
             "type":               "LectureSection",
             "label":              "L24.965-1",
             "lecture-section-of": "24.965",
-            "timeAndPlace":       "W 9:00-12:00 32-D461"
+            "timeAndPlace":       "R 14:00-17:00 32-D461"
         },
         {
             "type":          "Class",
@@ -2167,10 +2156,7 @@
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.542J",
-                "HST.712J"
-            ],
+            "prereq":        "6.542J",
             "in-charge":     [
                 "Stevens, K. N.",
                 "Perkell, J. S.",
@@ -2215,10 +2201,7 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.541J",
-                "HST.710J"
-            ],
+            "prereq":        "6.541J",
             "in-charge":     [
                 "Stevens, K. N.",
                 "Shattuck-Hufnagel, S."
@@ -2256,7 +2239,7 @@
             "type":               "LectureSection",
             "label":              "L24.969-1",
             "lecture-section-of": "24.969",
-            "timeAndPlace":       "R 14:00-17:00 32-D831"
+            "timeAndPlace":       "W 10:30-13:30 32-D461"
         },
         {
             "type":          "Class",

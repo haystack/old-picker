@@ -94,6 +94,10 @@
             ],
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
+            "coreq":         [
+                "1.561",
+                "1.583J"
+            ],
             "in-charge":     [
                 "Connor, J. J.",
                 "Jr."
@@ -253,7 +257,7 @@
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Provides ability to design and assess steel structures.  Steel structures are taught at three levels: the overall structural system (multi-story buildings, wide-span buildings, bridges, masts, and towers); the components of a structural system (floor systems, plate girders, frames, and beams); and the details of structural components (connection types, welding, and bolting). Each level includes a balance among theoretical analysis, design requirements, and construction/cost considerations.  Existing structures are used as worked examples.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.582",
             "semester":      "Spring",
@@ -288,29 +292,34 @@
             ],
             "prereq":        [
                 "3.070J",
-                "22.002J",
-                "21W.781J",
-                "ESD.032J"
+                "22.002J"
             ],
             "in-charge":     [
                 "Eagar, T.",
                 "Haas, W.",
                 "Kadak, A.",
-                "Lagace, P."
+                "Lagace, P.",
+                "Buyukozturk, O."
             ],
             "area":          "Materials and Structures"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R1.588J-1",
-            "rec-section-of": "1.588J",
-            "timeAndPlace":   "MWF 13:00-14:00 1-375"
+            "type":               "LectureSection",
+            "label":              "L1.588J-1",
+            "lecture-section-of": "1.588J",
+            "timeAndPlace":       "MW 13:00-14:00 4-237"
         },
         {
             "type":           "RecitationSection",
             "label":          "R1.588J-2",
             "rec-section-of": "1.588J",
-            "timeAndPlace":   "MWF 14:00-15:00 1-375"
+            "timeAndPlace":   "F 13:00-14:00 66-160"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R1.588J-3",
+            "rec-section-of": "1.588J",
+            "timeAndPlace":   "F 14:00-15:00 66-160"
         },
         {
             "type":          "Class",
@@ -497,6 +506,7 @@
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "1.061",
+            "coreq":         "1.69",
             "in-charge":     "Madsen, O. S.",
             "area":          "Hydrodynamics and Coastal Engineering"
         },
@@ -541,6 +551,7 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
+            "coreq":         "1.061",
             "in-charge":     "Madsen, O. S.",
             "area":          "Hydrodynamics and Coastal Engineering"
         },
@@ -786,7 +797,6 @@
             "url":           "http://student.mit.edu/catalog/m1c.html#1.725J",
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        "ESD.151J",
             "in-charge":     "Shanahan, P.",
             "area":          "Hydrology and Water Resource Systems"
         },
@@ -951,8 +961,7 @@
                 "11.021J",
                 "17.393J",
                 "1.811J",
-                "11.630J",
-                "ESD.133J"
+                "11.630J"
             ],
             "in-charge":     [
                 "Ashford, N.",
@@ -977,8 +986,7 @@
             "prereq":        [
                 "11.022J",
                 "1.812J",
-                "11.631J",
-                "ESD.134J"
+                "11.631J"
             ],
             "in-charge":     [
                 "Ashford, N.",
@@ -1009,7 +1017,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "11.630J",
-                "ESD.133J",
                 "1.801J",
                 "11.021J",
                 "17.393J"
@@ -1037,7 +1044,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "11.631J",
-                "ESD.134J",
                 "1.802J",
                 "11.022J"
             ],
@@ -1070,8 +1076,7 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "11.466J",
-                "15.657J",
-                "ESD.137J"
+                "15.657J"
             ],
             "in-charge":     "Ashford, N. A.",
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
@@ -1093,8 +1098,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "3.560J",
-                "ESD.123J",
-                "ESD.10",
                 "3.56"
             ],
             "in-charge":     [
@@ -1148,8 +1151,7 @@
                 "2.65J",
                 "10.391J",
                 "11.371J",
-                "22.811J",
-                "ESD.166J"
+                "22.811J"
             ],
             "in-charge":     [
                 "Golay, M. W.",
@@ -1162,7 +1164,7 @@
             "type":               "LectureSection",
             "label":              "L1.818J-1",
             "lecture-section-of": "1.818J",
-            "timeAndPlace":       "TR 15:00-17:00 56-114"
+            "timeAndPlace":       "TR 15:00-17:00 3-270"
         },
         {
             "type":          "Class",
@@ -1174,7 +1176,7 @@
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Teaches thought processes and quantitative tools, including life cycle assessment (LCA) and the LEED rating system, applicable to integrated/whole building design with the goal of minimizing the waste of materials, energy and water. Readings, lectures, site visits, and homework encourage systematic thinking and interdisciplinary collaboration to make sustainable design a reality. Includes a team project of students? choice, such as a conceptual design of a sustainable new building, a ?green? retrofit, or a comparative LCA.",
+            "description":   "Teaches thought processes and quantitative tools, including life cycle assessment (LCA) and the LEED rating system, applicable to integrated/whole building design with the goal of minimizing the waste of materials, energy and water. Readings, lectures, site visits, and homework encourage systematic thinking and interdisciplinary collaboration to make sustainable design a reality. Includes a team project of students choice, such as a conceptual design of a sustainable new building, a green retrofit, or a comparative LCA.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.819J",
             "semester":      "Fall",
             "offering":      "Currently Offered",
@@ -1331,8 +1333,8 @@
         },
         {
             "type":          "Class",
-            "label":         "1.961?1.966 - Special Graduate Studies in Civil and Environmental Engineering",
-            "id":            "1.961?1.966",
+            "label":         "1.9611.966 - Special Graduate Studies in Civil and Environmental Engineering",
+            "id":            "1.9611.966",
             "listing-index": "m1c-052",
             "course":        "1",
             "level":         "Grad",
@@ -1340,7 +1342,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "Graduate subjects taught experimentally; special subjects offered by visiting faculty; and seminars on topics of current interest.",
-            "url":           "http://student.mit.edu/catalog/m1c.html#1.961?1.966",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.9611.966",
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1355,14 +1357,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.961?1.966-1",
-            "lecture-section-of": "1.961?1.966",
+            "label":              "L1.9611.966-1",
+            "lecture-section-of": "1.9611.966",
             "timeAndPlace":       "TR 13:00-14:30 48-308"
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.961?1.966-2",
-            "lecture-section-of": "1.961?1.966",
+            "label":              "L1.9611.966-2",
+            "lecture-section-of": "1.9611.966",
             "timeAndPlace":       "TR 14:30-16:00 1-375"
         },
         {
@@ -1414,8 +1416,8 @@
         },
         {
             "type":          "Class",
-            "label":         "1.970?1.977 - Special Graduate Studies in Civil and Environmental Engineering",
-            "id":            "1.970?1.977",
+            "label":         "1.9701.977 - Special Graduate Studies in Civil and Environmental Engineering",
+            "id":            "1.9701.977",
             "listing-index": "m1c-055",
             "course":        "1",
             "level":         "Grad",
@@ -1423,7 +1425,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m1c.html#1.970?1.977",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.9701.977",
             "semester":      [
                 "Fall",
                 "IAP",
@@ -1438,8 +1440,8 @@
         },
         {
             "type":          "Class",
-            "label":         "1.978?1.979 - Special Graduate Studies in Civil and Environmental Engineering",
-            "id":            "1.978?1.979",
+            "label":         "1.9781.979 - Special Graduate Studies in Civil and Environmental Engineering",
+            "id":            "1.9781.979",
             "listing-index": "m1c-056",
             "course":        "1",
             "level":         "Grad",
@@ -1447,7 +1449,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m1c.html#1.978?1.979",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.9781.979",
             "semester":      [
                 "Fall",
                 "IAP",
@@ -1555,8 +1557,8 @@
         },
         {
             "type":          "Class",
-            "label":         "1.993?1.995 - Special Undergraduate Studies in Civil and Environmental Engineering",
-            "id":            "1.993?1.995",
+            "label":         "1.9931.995 - Special Undergraduate Studies in Civil and Environmental Engineering",
+            "id":            "1.9931.995",
             "listing-index": "m1c-061",
             "course":        "1",
             "level":         "Undergrad",
@@ -1564,7 +1566,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m1c.html#1.993?1.995",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.9931.995",
             "semester":      [
                 "Fall",
                 "IAP",

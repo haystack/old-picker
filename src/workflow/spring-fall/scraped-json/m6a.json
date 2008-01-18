@@ -75,6 +75,7 @@
             ],
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
+            "coreq":         "8.02",
             "in-charge":     [
                 "Abelson, H.",
                 "Kaelbling, L. P.",
@@ -124,7 +125,7 @@
             "level":         "Undergrad",
             "units":         "2-3-7",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "An integrated introduction to electrical engineering and computer science, taught using substantial laboratory experiments that explore communication signals, systems and networks. Physical characterization and modeling of transmission systems in the time and frequency domains; analog and digital signaling; coding; detecting and correcting errors; relating information transmission rate to signal power, bandwidth and noise; engineering of packet-switched networks. These explorations are used to illustrate the role of abstraction and modularity in engineering design; building reliable systems using imperfect components; selecting appropriate design metrics; choosing effective representations for information; analyzing the performance and correctness of algorithms; and tradeoffs in complex systems.  6 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6a.html#6.02",
             "semester":      [
@@ -413,6 +414,7 @@
             ],
             "offering":      "Currently Offered",
             "prereq":        "6.01",
+            "coreq":         "6.042J",
             "in-charge":     [
                 "Jackson, D. N.",
                 "Miller, R. C."
@@ -429,13 +431,13 @@
             "type":           "RecitationSection",
             "label":          "R6.005-2",
             "rec-section-of": "6.005",
-            "timeAndPlace":   "R 10:00-11:00 Unknown"
+            "timeAndPlace":   "R 10:00-11:00 13-1143"
         },
         {
             "type":           "RecitationSection",
             "label":          "R6.005-3",
             "rec-section-of": "6.005",
-            "timeAndPlace":   "R 11:00-12:00 Unknown"
+            "timeAndPlace":   "R 11:00-12:00 13-1143"
         },
         {
             "type":           "RecitationSection",
@@ -768,7 +770,6 @@
                 "2.794J",
                 "6.521J",
                 "20.470J",
-                "HST.541J",
                 "8.02",
                 "18.03",
                 "2.005",
@@ -800,7 +801,6 @@
             "prereq":        [
                 "2.792J",
                 "20.371J",
-                "HST.542J",
                 "2.796J",
                 "6.522J",
                 "20.471J",
@@ -913,7 +913,7 @@
             "type":               "LectureSection",
             "label":              "L6.024J-1",
             "lecture-section-of": "6.024J",
-            "timeAndPlace":       "MWF 12:00-13:00 4-231"
+            "timeAndPlace":       "MWF 12:00-13:00 4-163"
         },
         {
             "type":          "Class",
@@ -989,10 +989,7 @@
                 "Spring"
             ],
             "offering":      "Currently Offered",
-            "prereq":        [
-                "HST.947",
-                "6.001"
-            ],
+            "prereq":        "6.001",
             "in-charge":     [
                 "Winston, P. H.",
                 "Lozano-Perez, T."
@@ -1402,7 +1399,6 @@
             "url":           "http://student.mit.edu/catalog/m6a.html#6.07J",
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        "HST.410J",
             "in-charge":     [
                 "Freeman, D.",
                 "Gray, M.",
@@ -1565,8 +1561,8 @@
         },
         {
             "type":          "Class",
-            "label":         "6.090?6.099 - Special Subjects in Electrical Engineering and Computer Science",
-            "id":            "6.090?6.099",
+            "label":         "6.0906.099 - Special Subjects in Electrical Engineering and Computer Science",
+            "id":            "6.0906.099",
             "listing-index": "m6a-033",
             "course":        "6",
             "level":         "Undergrad",
@@ -1574,7 +1570,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "Basic undergraduate subjects not offered in the regular curriculum. Consult department to learn of offerings for a particular term. Registration by permission of instructor.",
-            "url":           "http://student.mit.edu/catalog/m6a.html#6.090?6.099",
+            "url":           "http://student.mit.edu/catalog/m6a.html#6.0906.099",
             "semester":      [
                 "Fall",
                 "IAP",
@@ -1759,7 +1755,6 @@
             "offering":      "Not offered this year",
             "category":      "Institute LAB",
             "prereq":        [
-                "HST.575J",
                 "6.002",
                 "6.071"
             ],
@@ -2032,8 +2027,8 @@
         },
         {
             "type":          "Class",
-            "label":         "6.193?6.197 - Special Laboratory Subjects in Electrical Engineering and Computer Science",
-            "id":            "6.193?6.197",
+            "label":         "6.1936.197 - Special Laboratory Subjects in Electrical Engineering and Computer Science",
+            "id":            "6.1936.197",
             "listing-index": "m6a-049",
             "course":        "6",
             "level":         "Undergrad",
@@ -2041,7 +2036,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "Laboratory subjects not offered in the regular curriculum. Consult department to learn offerings for a particular term. Registration by permission of instructor.",
-            "url":           "http://student.mit.edu/catalog/m6a.html#6.193?6.197",
+            "url":           "http://student.mit.edu/catalog/m6a.html#6.1936.197",
             "semester":      [
                 "Fall",
                 "IAP",
@@ -2216,6 +2211,7 @@
                 "16.337J",
                 "6.241"
             ],
+            "coreq":         "18.100",
             "in-charge":     [
                 "Wyatt, J. L.",
                 "Jr.",
@@ -2432,7 +2428,7 @@
             "type":               "LectureSection",
             "label":              "L6.256-1",
             "lecture-section-of": "6.256",
-            "timeAndPlace":       "TR 13:00-14:30 32-124"
+            "timeAndPlace":       "TR 14:30-16:00 36-156"
         },
         {
             "type":          "Class",
@@ -2552,7 +2548,6 @@
                 "1.203J",
                 "15.073J",
                 "16.76J",
-                "ESD.216J",
                 "6.431"
             ],
             "in-charge":     [
@@ -2578,10 +2573,7 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "ESD.772J",
-                "6.041"
-            ],
+            "prereq":        "6.041",
             "in-charge":     [
                 "Mitter, S.",
                 "Shah, D."
@@ -2613,6 +2605,12 @@
             "in-charge":     "Mitter, S. K.",
             "area":          "Advanced Undergraduate Subjects and Graduate Subjects by Area",
             "subarea":       "Systems Science and Control Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L6.291-1",
+            "lecture-section-of": "6.291",
+            "timeAndPlace":       "MW 9:30-11:00 36-156"
         }
     ]
 }

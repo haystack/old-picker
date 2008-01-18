@@ -149,6 +149,10 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "2.006",
+            "coreq":         [
+                "18.075",
+                "18.085"
+            ],
             "in-charge":     [
                 "Ghoniem, A. F.",
                 "Hosoi, A. E.",
@@ -169,20 +173,11 @@
             "description":   "Fundamental concepts and results for the compressible flow of gases. Topics include thermodynamics, appropriate conservation laws; propagation of disturbances; isentropic flows; normal shock wave relations, oblique shock waves, weak and strong shocks, and shock wave structure; compressible flows in ducts with area changes, friction, or heat addition; heat transfer to high speed flows; unsteady compressible flows, Riemann invariants, and piston and shock tube problems; steady 2D supersonic flow, Prandtl-Meyer function. Emphasis on thermodynamic processes, physical understanding of the phenomena and basic analytical techniques.",
             "url":           "http://student.mit.edu/catalog/m2b.html#2.26",
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "2.006",
             "in-charge":     "Lienhard, J. H.",
             "area":          "Fluid Mechanics and Combustion"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L2.26-1",
-            "lecture-section-of": "2.26",
-            "timeAndPlace":       "F 13:00-15:00 1-246"
         },
         {
             "type":          "Class",
@@ -621,12 +616,6 @@
             "timeAndPlace":       "TR 14:30-16:00 4-237"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R2.55-2",
-            "rec-section-of": "2.55",
-            "timeAndPlace":   "F 14:00-15:00 5-134"
-        },
-        {
             "type":          "Class",
             "label":         "2.56 - Conduction and Change of Phase Heat Transfer",
             "id":            "2.56",
@@ -642,6 +631,7 @@
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "2.51",
+            "coreq":         "18.075",
             "in-charge":     "Miki, B.",
             "area":          "Heat and Mass Transfer"
         },
@@ -764,7 +754,7 @@
             "level":         "Grad",
             "units":         "3-1-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Fundamentals of how the design and operation of internal combustion engines affect their performance, efficiency, fuel requirements, and environmental impact.  Study of fluid flow, thermodynamics, combustion, heat transfer and friction phenomena, and fuel properties, relevant to engine power, efficiency, and emissions.  Examination of design features and operating characteristics of different types of internal combustion engines:  spark-ignition, diesel, stratified-charge, and mixed-cycle engines.  Engine Laboratory project.  For graduate and senior undergraduate students.",
             "url":           "http://student.mit.edu/catalog/m2b.html#2.61",
             "semester":      "Spring",
@@ -889,8 +879,7 @@
                 "2.63",
                 "5.00",
                 "10.579",
-                "22.813",
-                "ESD.174"
+                "22.813"
             ],
             "in-charge":     [
                 "Deutch, J.",
@@ -936,8 +925,7 @@
                 "1.818J",
                 "10.391J",
                 "11.371J",
-                "22.811J",
-                "ESD.166J"
+                "22.811J"
             ],
             "in-charge":     [
                 "Golay, M. W.",
@@ -950,7 +938,7 @@
             "type":               "LectureSection",
             "label":              "L2.65J-1",
             "lecture-section-of": "2.65J",
-            "timeAndPlace":       "TR 15:00-17:00 56-114"
+            "timeAndPlace":       "TR 15:00-17:00 3-270"
         },
         {
             "type":          "Class",
@@ -1263,6 +1251,12 @@
             ],
             "in-charge":     "Schmidt, H.",
             "area":          "Oceanographic Engineering and Acoustics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L2.681-1",
+            "lecture-section-of": "2.681",
+            "timeAndPlace":       "F 13:00-16:00 1-132"
         },
         {
             "type":          "Class",
@@ -1649,7 +1643,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduction to optical science with elementary engineering applications. Geometrical optics: ray-tracing, aberrations, lens design, apertures and stops, radiometry and photometry. Wave optics: basic electrodynamics, polarization, interference, wave-guiding, Fresnel and Fraunhofer diffraction, image formation, resolution, space-bandwidth product. Emphasis on analytical and numerical tools used in optical design. Graduate students are required to complete additional assignments with stronger analytical content, and an advanced design project.",
             "url":           "http://student.mit.edu/catalog/m2b.html#2.71",
             "semester":      [
@@ -1728,10 +1722,7 @@
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "MAS.857J",
-                "2.710"
-            ],
+            "prereq":        "2.710",
             "in-charge":     [
                 "So, P. T.",
                 "Barbastathis, G."
@@ -1857,7 +1848,6 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "15.783J",
-                "ESD.32J",
                 "2.009",
                 "15.760",
                 "15.761"
@@ -1889,10 +1879,7 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "ESD.64J",
-                "2.009"
-            ],
+            "prereq":        "2.009",
             "in-charge":     "Wallace, D. R.",
             "area":          "Design"
         },
@@ -2001,10 +1988,7 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "20.453J",
-                "HST.958J"
-            ],
+            "prereq":        "20.453J",
             "in-charge":     [
                 "Dewey, C. F.",
                 "Jr.",
@@ -2058,8 +2042,7 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "3.961J",
-                "20.451J",
-                "HST.524J"
+                "20.451J"
             ],
             "in-charge":     [
                 "Yannas, I. V.",
@@ -2091,7 +2074,6 @@
             "prereq":        [
                 "3.97J",
                 "20.411J",
-                "HST.523J",
                 "3.091",
                 "5.11",
                 "5.111",
@@ -2133,7 +2115,6 @@
             "prereq":        [
                 "3.96J",
                 "20.441J",
-                "HST.522J",
                 "3.091",
                 "5.111",
                 "5.112",
@@ -2168,7 +2149,6 @@
                 "2.794J",
                 "6.521J",
                 "20.470J",
-                "HST.541J",
                 "8.02",
                 "18.03",
                 "2.005",
@@ -2200,7 +2180,6 @@
             "prereq":        [
                 "6.022J",
                 "20.371J",
-                "HST.542J",
                 "2.796J",
                 "6.522J",
                 "20.471J",
@@ -2293,7 +2272,6 @@
             "prereq":        [
                 "6.521J",
                 "20.470J",
-                "HST.541J",
                 "2.791J",
                 "6.021J",
                 "20.370J",
@@ -2329,7 +2307,6 @@
                 "6.561J",
                 "10.539J",
                 "20.430J",
-                "HST.544J",
                 "6.013",
                 "2.005",
                 "10.302"
@@ -2360,7 +2337,6 @@
                 "2.792J",
                 "6.022J",
                 "20.371J",
-                "HST.542J",
                 "2.006",
                 "6.013",
                 "6.021J"
@@ -2423,7 +2399,7 @@
             "type":               "LectureSection",
             "label":              "L2.797J-1",
             "lecture-section-of": "2.797J",
-            "timeAndPlace":       "MWF 12:00-13:00 4-231"
+            "timeAndPlace":       "MWF 12:00-13:00 4-163"
         },
         {
             "type":          "Class",

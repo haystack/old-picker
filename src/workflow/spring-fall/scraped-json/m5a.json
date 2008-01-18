@@ -20,8 +20,7 @@
                 "2.63",
                 "5.00",
                 "10.579",
-                "22.813",
-                "ESD.174"
+                "22.813"
             ],
             "in-charge":     [
                 "Deutch, J.",
@@ -150,6 +149,7 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "5.03",
+            "coreq":         "5.04",
             "in-charge":     "Schrock, R. R."
         },
         {
@@ -204,7 +204,7 @@
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     true,
-            "description":   "Discussion of physical methods used to probe the electronic and geometric structures of inorganic compounds. Included are resonance Raman spectroscopy, solid state and solution magnetochemical methods, electron paramagnetic resonance spectroscopy, advanced EPR methods (ENDOR AND ESEEM), cryoreduction to create EPR-active states, X-ray absorption spectroscopy (XANES and EXAFS), Mossbauer spectroscopy, and advanced kinetic and electrochemical methods. Applications to current research problems in inorganic and bioinorganic chemistry. Half-term subject, meets second half of the term.",
+            "description":   "Discussion of physical methods used to probe the electronic and geometric structures of inorganic compounds. Included are resonance Raman spectroscopy, solid state and solution magnetochemical methods, electron paramagnetic resonance spectroscopy, advanced EPR methods (ENDOR AND ESEEM), cryoreduction to create EPR-active states, X-ray absorption spectroscopy (XANES and EXAFS), Mössbauer spectroscopy, and advanced kinetic and electrochemical methods. Applications to current research problems in inorganic and bioinorganic chemistry. Half-term subject, meets second half of the term.",
             "url":           "http://student.mit.edu/catalog/m5a.html#5.068",
             "semester":      "Spring",
             "offering":      "Currently Offered",
@@ -368,13 +368,13 @@
             "type":           "RecitationSection",
             "label":          "R5.111-3",
             "rec-section-of": "5.111",
-            "timeAndPlace":   "TR 13:00-14:00 8-205"
+            "timeAndPlace":   "TR 13:00-14:00 24-121"
         },
         {
             "type":           "RecitationSection",
             "label":          "R5.111-4",
             "rec-section-of": "5.111",
-            "timeAndPlace":   "TR 14:00-15:00 8-205"
+            "timeAndPlace":   "TR 14:00-15:00 24-121"
         },
         {
             "type":          "Class",
@@ -435,53 +435,47 @@
             "type":           "RecitationSection",
             "label":          "R5.12-2",
             "rec-section-of": "5.12",
-            "timeAndPlace":   "MW 11:00-12:00 4-265"
+            "timeAndPlace":   "MW 13:00-14:00 4-257"
         },
         {
             "type":           "RecitationSection",
             "label":          "R5.12-3",
             "rec-section-of": "5.12",
-            "timeAndPlace":   "MW 13:00-14:00 4-257"
+            "timeAndPlace":   "MW 14:00-15:00 4-257"
         },
         {
             "type":           "RecitationSection",
             "label":          "R5.12-4",
             "rec-section-of": "5.12",
-            "timeAndPlace":   "MW 14:00-15:00 4-257"
+            "timeAndPlace":   "MW 15:00-16:00 4-257"
         },
         {
             "type":           "RecitationSection",
             "label":          "R5.12-5",
             "rec-section-of": "5.12",
-            "timeAndPlace":   "MW 15:00-16:00 4-257"
+            "timeAndPlace":   "TR 11:00-12:00 4-257"
         },
         {
             "type":           "RecitationSection",
             "label":          "R5.12-6",
             "rec-section-of": "5.12",
-            "timeAndPlace":   "TR 11:00-12:00 4-257"
+            "timeAndPlace":   "TR 12:00-13:00 4-257"
         },
         {
             "type":           "RecitationSection",
             "label":          "R5.12-7",
             "rec-section-of": "5.12",
-            "timeAndPlace":   "TR 12:00-13:00 4-257"
+            "timeAndPlace":   "TR 13:00-14:00 4-257"
         },
         {
             "type":           "RecitationSection",
             "label":          "R5.12-8",
             "rec-section-of": "5.12",
-            "timeAndPlace":   "TR 13:00-14:00 4-257"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R5.12-9",
-            "rec-section-of": "5.12",
             "timeAndPlace":   "TR 14:00-15:00 4-257"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R5.12-10",
+            "label":          "R5.12-9",
             "rec-section-of": "5.12",
             "timeAndPlace":   "TR 15:00-16:00 4-257"
         },
@@ -627,6 +621,7 @@
             "url":           "http://student.mit.edu/catalog/m5a.html#5.303",
             "semester":      "Spring",
             "offering":      "Currently Offered",
+            "coreq":         "5.111",
             "in-charge":     "Staff"
         },
         {
@@ -647,6 +642,7 @@
             ],
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
+            "coreq":         "5.12",
             "in-charge":     "Licht, S."
         },
         {
@@ -682,6 +678,7 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "5.32",
+            "coreq":         "5.61",
             "in-charge":     "Tokmakoff, A."
         },
         {
@@ -1095,7 +1092,7 @@
             "type":               "LectureSection",
             "label":              "L5.46-1",
             "lecture-section-of": "5.46",
-            "timeAndPlace":       "MWF 10:00-11:00 4-270"
+            "timeAndPlace":       "MWF 10:00-11:00 8-119"
         },
         {
             "type":          "Class",

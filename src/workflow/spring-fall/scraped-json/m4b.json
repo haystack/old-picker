@@ -309,7 +309,7 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff, Visual Arts"
+            "in-charge":     "Jonas, J."
         },
         {
             "type":               "LectureSection",
@@ -338,7 +338,7 @@
                 "Currently Offered"
             ],
             "category":      "HASS Elective",
-            "in-charge":     "Staff, Visual Arts"
+            "in-charge":     "Frid-Jimenez, A."
         },
         {
             "type":               "LectureSection",
@@ -412,14 +412,17 @@
             "has-final":     false,
             "description":   "Can design for needs produced by unacceptable conditions create new critical consciousness to render those needs obsolete? In hope of finding a positive answer, this design workshop responds to needs that should not, but unfortunately do, exist in today's troubled world. Addresses design media and technology as both ethical and aesthetic practice. Development of projects finalized as working tools, instruments, implements, and equipment are supported by relevant theoretical study, presentations and informed discussion. Workshop poses new questions, exposes hidden issues, and creates inspirational and experimental situations for designers and artists as cultural agents.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.370",
-            "semester":      "Fall",
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
             "offering":      [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "4.371",
-            "in-charge":     "Wodiczko, K."
+            "in-charge":     "Bauer, U.M."
         },
         {
             "type":               "LectureSection",
@@ -489,7 +492,7 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff"
+            "in-charge":     "Frid-Jimenez, A."
         },
         {
             "type":               "LectureSection",
@@ -518,7 +521,7 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff, Visual Arts"
+            "in-charge":     "Jonas, J."
         },
         {
             "type":               "LectureSection",
@@ -545,7 +548,7 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "4.388",
-            "in-charge":     "Staff, Visual Arts"
+            "in-charge":     "Bauer, U.M."
         },
         {
             "type":               "LectureSection",
@@ -619,18 +622,6 @@
             ],
             "prereq":        "4.301",
             "in-charge":     "Staff, Visual Arts"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B4.391-4.393-1",
-            "lab-section-of": "4.391-4.393",
-            "timeAndPlace":   "M 19:00-22:00 N51-337"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B4.391-4.393-2",
-            "lab-section-of": "4.391-4.393",
-            "timeAndPlace":   "M 19:00-22:00 N51-337"
         },
         {
             "type":          "Class",
@@ -925,14 +916,14 @@
             "level":         "Undergrad",
             "units":         "3-3-6",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduces the design and behavior of large-scale structures and structural materials. From Gothic cathedrals to modern suspension bridges, subject emphasizes the development of structural form and the principles of structural design. Introduces design methods for timber, masonry, concrete, and steel applied to long-span roof systems, bridges, and high-rise buildings. Includes environmental assessment of structural systems and materials. Laboratory to solve structural problems by building and testing simple models.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.440",
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
             "prereq":        "18.02",
-            "in-charge":     "Ochsendorf, J."
+            "in-charge":     "McCafferty, P."
         },
         {
             "type":               "LectureSection",
@@ -990,7 +981,7 @@
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Teaches thought processes and quantitative tools, including life cycle assessment (LCA) and the LEED rating system, applicable to integrated/whole building design with the goal of minimizing the waste of materials, energy and water. Readings, lectures, site visits, and homework encourage systematic thinking and interdisciplinary collaboration to make sustainable design a reality. Includes a team project of students? choice, such as a conceptual design of a sustainable new building, a ?green? retrofit, or a comparative LCA.",
+            "description":   "Teaches thought processes and quantitative tools, including life cycle assessment (LCA) and the LEED rating system, applicable to integrated/whole building design with the goal of minimizing the waste of materials, energy and water. Readings, lectures, site visits, and homework encourage systematic thinking and interdisciplinary collaboration to make sustainable design a reality. Includes a team project of students choice, such as a conceptual design of a sustainable new building, a green retrofit, or a comparative LCA.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.447J",
             "semester":      "Fall",
             "offering":      "Currently Offered",
@@ -1050,13 +1041,13 @@
             "level":         "Grad",
             "units":         "3-2-4",
             "total-units":   9,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduces the design and behavior of large-scale structures and structural materials. Emphasizes the development of structural form and the principles of structural design. Introduces design methods for timber, masonry, concrete, and steel applied to long-span roof systems, bridges, and high-rise buildings. Includes environmental assessment of structural systems and materials. Laboratory to solve structural problems by building and testing simple models. Required of MArch students.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.462",
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "4.461",
-            "in-charge":     "Ochsendorf, J."
+            "in-charge":     "McCafferty, P."
         },
         {
             "type":               "LectureSection",
@@ -1099,7 +1090,7 @@
             "level":         "Grad",
             "units":         "3-1-5",
             "total-units":   9,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Explores aspects of climate relevant to building design, and applies concepts and methods to energy-efficient and environmentally responsible building design. Topics include  climate and comfort parameters, energy systems, and environmental implications of building. Emphasizes practical applications for environmental design. Required of MArch students.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.464",
             "semester":      "Spring",
@@ -1191,8 +1182,8 @@
         },
         {
             "type":          "Class",
-            "label":         "4.491?4.493 - Special Problems in Building Technology",
-            "id":            "4.491?4.493",
+            "label":         "4.4914.493 - Special Problems in Building Technology",
+            "id":            "4.4914.493",
             "listing-index": "m4b-047",
             "course":        "4",
             "level":         "Grad",
@@ -1200,7 +1191,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "Supplementary work on individual or group basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "url":           "http://student.mit.edu/catalog/m4b.html#4.491?4.493",
+            "url":           "http://student.mit.edu/catalog/m4b.html#4.4914.493",
             "semester":      [
                 "Fall",
                 "Spring",
@@ -1239,12 +1230,12 @@
             "level":         "Undergrad",
             "units":         "2-2-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduces students to architectural design and computation through the use of computer modeling, rendering, and digital fabrication. Focus on the exploration of space- and place- making through the use of computer rendering and design construction through CAD/CAM fabrication. Students design a small building using computer models leading to a full package of physical and virtual materials, from computer generated drawings to rapid, prototyped models. Enrollment limited to 24 students, with priority given to Course 4 majors and minors.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.500",
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "in-charge":     "Sass, L."
+            "in-charge":     "Kotsopoulos, S."
         },
         {
             "type":               "LectureSection",
@@ -1431,7 +1422,7 @@
             "type":               "LectureSection",
             "label":              "L4.522-1",
             "lecture-section-of": "4.522",
-            "timeAndPlace":       "F 9:00-12:00 9-255"
+            "timeAndPlace":       "F 9:00-12:00 4-144"
         },
         {
             "type":          "Class",
@@ -1774,7 +1765,7 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff, Computation"
+            "in-charge":     "Knight, T."
         },
         {
             "type":               "LectureSection",
@@ -1874,7 +1865,7 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff, Computation"
+            "in-charge":     "Sass, L."
         },
         {
             "type":               "LectureSection",
