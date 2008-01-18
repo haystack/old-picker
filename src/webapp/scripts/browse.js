@@ -18,6 +18,9 @@ Exhibit.Functions["building"] = {
  *==================================================
  */
 function onLoad() {
+	SimileAjax.Debug = {
+		silent: true
+	};
     var urls = [ ];
     var hasTQE = false;
     
@@ -97,7 +100,14 @@ function loadMoreClass(button) {
                 alert("Oops! We actually don't have the data for this course.");
                 return;
             }
+            urls.push('https://isda-ws1.mit.edu/WarehouseService/?courses=' + course);
             urls.push("data/spring-fall/" + course + ".json");
+			if (course == "6") {
+				urls.push("data/tqe.json");
+				urls.push("data/hkn.json");
+				urls.push("data/wtw-6sp08.json");
+				hasTQE = true;
+			}
             course2.loaded = true;
             break;
         }
@@ -145,7 +155,14 @@ function onAddMoreSelectChange() {
     var course = select.value;
     if (course.length > 0) {
         var urls = [];
-        urls.push("data/spring-fall/" + course + ".json");
+        urls.push('https://isda-ws1.mit.edu/WarehouseService/?courses=' + course);
+		urls.push("data/spring-fall/" + course + ".json");
+		if (course == "6") {
+			urls.push("data/tqe.json");
+			urls.push("data/hkn.json");
+			urls.push("data/wtw-6sp08.json");
+			hasTQE = true;
+		}
         markLoaded(course);
         
         SimileAjax.WindowManager.cancelPopups();
@@ -186,6 +203,30 @@ function loadURLs(urls, fDone) {
 							item["lab-section-of"] = item["section-of"];
 							delete item["section-of"];
 						} 
+						if ('prereqs' in item) {
+							if (item.prereqs == "") {
+								item.prereqs = "--";
+							}
+							while (item.prereqs.search(/[\]\[]/) >= 0 ) {
+								item.prereqs = item.prereqs.replace(/[\]\[]/, "");
+							}
+							/*if (item.prereqs.search(/;/) >= 0) {
+								while (item.prereqs.search(/or/) > 0) {
+									item.prereqs = item.prereqs.replace(/or/, ",");
+								}
+							} else if (item.prereqs.search(/or/) >= 0) {
+								while (item.prereqs.search(/or/) > 0) {
+									item.prereqs = item.prereqs.replace(/or/, ",");
+								}
+							} else {
+								while (item.prereqs.search(/,/) >= 0) {
+									item.prereqs = item.prereqs.replace(/,/, ";");
+								}
+							}
+							while (item.prereqs.search(/[a-zA-Z\s]/) >= 0 ) {
+								item.prereqs = item.prereqs.replace(/[a-zA-Z\s\]\[]/, "");
+							}*/
+						}
 					}					
 					return json;
 				}
@@ -405,3 +446,46 @@ function showHidePickDiv(sectionID, picked) {
         button.innerHTML = picked ? "Remove" : "Add";
     }
 }
+
+/*==================================================
+ *  Exhibit.ExhibitJSONImporter
+ *==================================================
+ */
+ 
+Exhibit.ExhibitJSONImporter = {
+};
+Exhibit.importers["application/json"] = Exhibit.ExhibitJSONImporter;
+
+Exhibit.ExhibitJSONImporter.load = function(link, database, cont) {
+    var url = typeof link == "string" ? link : link.href;
+    url = Exhibit.Persistence.resolveURL(url);
+
+    var fError = function(statusText, status, xmlhttp) {
+        Exhibit.UI.hideBusyIndicator();
+        Exhibit.UI.showHelp(Exhibit.l10n.failedToLoadDataFileMessage(url));
+        if (cont) cont();
+    };
+    
+    var fDone = function(xmlhttp) {
+        Exhibit.UI.hideBusyIndicator();
+        try {
+            var o = null;
+            try {
+                o = eval("(" + xmlhttp.responseText + ")");
+            } catch (e) {
+                Exhibit.UI.showJsonFileValidation(Exhibit.l10n.badJsonMessage(url, e), url);
+            }
+            
+            if (o != null) {
+                database.loadData(o, Exhibit.Persistence.getBaseURL(url));
+            }
+        } catch (e) {
+            SimileAjax.Debug.exception(e, "Error loading Exhibit JSON data from " + url);
+        } finally {
+            if (cont) cont();
+        }
+    };
+
+    Exhibit.UI.showBusyIndicator();
+    SimileAjax.XmlHttp.get(url, fError, fDone);
+};

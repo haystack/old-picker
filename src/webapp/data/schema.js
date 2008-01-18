@@ -20,9 +20,9 @@
         "startHour" : {
             label: "start hour"
         },
-        "prereqs" : {
+        /*"prereqs" : {
             valueType: "item"
-        },
+        },*/
         "start" : {
             valueType: "date"
         },
