@@ -476,6 +476,24 @@ Exhibit.ExhibitJSONImporter.load = function(link, database, cont) {
             }
             
             if (o != null) {
+            	if ("items" in o) {
+					var items = o.items;
+					for (var j = 0; j < items.length; j++) {
+						var item = items[j];
+						if (database.containsItem(item.id)) {
+							if ('label' in item) {delete item.label;} 
+							if ('course' in item) {delete item.course;} 
+							if ('level' in item) {delete item.level;} 
+							if ('units' in item) {delete item.units;} 
+							if ('total-units' in item) {delete item["total-units"];} 
+							if ('description' in item) {delete item.description;} 
+							if ('semester' in item) {delete item.semester;} 
+							if ('offering' in item) {delete item.offering;} 
+							if ('prereq' in item) {delete item.prereq;} 
+							if ('in-charge' in item) {delete item["in-charge"];} 
+						}
+					}
+            	}
                 database.loadData(o, Exhibit.Persistence.getBaseURL(url));
             }
         } catch (e) {

@@ -307,7 +307,7 @@ function processClass(element, area, subarea) {
     var classID = classNumber;
     var classItem = {
         "type":         "Class",
-        "label":        classNumber + " - " + courseName,
+        "label":        courseName,
         "id":           classID,
         "listing-index": listingPrefix + padListingCount(listingCount++),
         "course":       course,
