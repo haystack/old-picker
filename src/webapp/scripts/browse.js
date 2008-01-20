@@ -17,12 +17,12 @@ Exhibit.Functions["building"] = {
  * Initialization
  *==================================================
  */
+
+var hasTQE = false; 
+
 function onLoad() {
 	SimileAjax.Debug.silent = true;
-	
     var urls = [ ];
-    var hasTQE = false;
-    
     var query = document.location.search;
     if (query.length > 1) {
         var params = query.substr(1).split("&");
@@ -31,19 +31,8 @@ function onLoad() {
             var name = a[0];
             var value = a.length > 1 ? decodeURIComponent(a[1]) : "";
             if (name == "courses") {
-            	urls.push('https://isda-ws1.mit.edu/WarehouseService/?courses=' + value);
-                var courseIDs = value.split(";");
-                for (var c = 0; c < courseIDs.length; c++) {
-                    var courseID = courseIDs[c];
-                    urls.push("data/spring-fall/" + courseID + ".json");
-                    if (courseID == "6") {
-                        urls.push("data/tqe.json");
-                        urls.push("data/hkn.json");
-                        urls.push("data/wtw-6sp08.json");
-                        hasTQE = true;
-                    }
-                    markLoaded(courseID);
-                }
+            	var courseIDs = value.split(";");
+				addCourses(courseIDs, urls);
             }
         }
     }
@@ -88,29 +77,32 @@ function onLoad() {
     loadURLs(urls, fDone);
 }
 
+function addCourses(courseIDs, urls) { 
+	var coursesString = courseIDs.filter(function(elmt){return elmt != "hass_d";}).join(";");
+	urls.push('https://isda-ws1.mit.edu/WarehouseService/?courses=' + coursesString);
+	for (var c = 0; c < courseIDs.length; c++) {
+		var courseID = courseIDs[c];
+		/* we have data for everything, so this doesn't seem necessary
+		if (!courses[courseID].hasData) {
+    		alert("Oops! We actually don't have the data for this course.");
+    		return; 
+    	}*/
+		urls.push("data/spring-fall/" + courseID + ".json");
+		if (courseID == "6") {
+			urls.push("data/tqe.json");
+			urls.push("data/hkn.json");
+			urls.push("data/wtw-6sp08.json");
+			hasTQE = true;
+		}
+		markLoaded(courseID);
+	}
+}
+
 function loadMoreClass(button) {
     var classID = button.getAttribute("classID");
     var course = classID.substr(1).split(".")[0];
     var urls = [];
-    for (var i = 0; i < courses.length; i++) {
-        var course2 = courses[i];
-        if (course == course2.number) {
-            if (!course2.hasData) {
-                alert("Oops! We actually don't have the data for this course.");
-                return;
-            }
-            urls.push('https://isda-ws1.mit.edu/WarehouseService/?courses=' + course);
-            urls.push("data/spring-fall/" + course + ".json");
-			if (course == "6") {
-				urls.push("data/tqe.json");
-				urls.push("data/hkn.json");
-				urls.push("data/wtw-6sp08.json");
-				hasTQE = true;
-			}
-            course2.loaded = true;
-            break;
-        }
-    }
+    addCourses([course], urls);
     
     SimileAjax.WindowManager.cancelPopups();
     loadURLs(urls, function(){});
@@ -154,15 +146,7 @@ function onAddMoreSelectChange() {
     var course = select.value;
     if (course.length > 0) {
         var urls = [];
-        urls.push('https://isda-ws1.mit.edu/WarehouseService/?courses=' + course);
-		urls.push("data/spring-fall/" + course + ".json");
-		if (course == "6") {
-			urls.push("data/tqe.json");
-			urls.push("data/hkn.json");
-			urls.push("data/wtw-6sp08.json");
-			hasTQE = true;
-		}
-        markLoaded(course);
+        addCourses([course], urls);
         
         SimileAjax.WindowManager.cancelPopups();
         
@@ -178,7 +162,7 @@ function loadURLs(urls, fDone) {
     var fNext = function() {
         if (urls.length > 0) {
             var url = urls.shift();
-            if (url.search(/https:/) == 0) {
+            if (url.search(/http/) == 0) {
             	var importer = Exhibit.importers["application/jsonp"]
             	var fConvert = function(json) {
 					var items = json.items;				
