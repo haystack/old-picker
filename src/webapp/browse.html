@@ -49,11 +49,6 @@
                         </ol>
                     </p>
                     
-                    <!-- <div ex:role="view"
-                        ex:collectionID="picked-sections"
-                        ex:showAll="true"
-                        ex:grouped="false">
-                    </div> -->
                     <div id="timegrid" tg:role="grid" 
                         tg:views="week" tg:eventSource="timegridEventSource"
                         tg:dayStart="8" tg:dayEnd="22" tg:yCell="100"></div>
@@ -190,6 +185,11 @@
                         </div>
                     </div>
                     <div ex:if-exists="!rec-section-of"><b>Recitation Sections:</b>
+                        <div ex:if="count(!rec-section-of) > 2">
+                            <div class="course-recitations-disclaimer">Note: You cannot pick a
+                                recitation section yourself. You will be assigned one.
+                            </div>
+                        </div>
                         <div ex:content="!rec-section-of">
                             <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
                                 ex:id-subcontent="divid-{{value}}"
