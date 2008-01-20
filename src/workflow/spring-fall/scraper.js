@@ -68,6 +68,7 @@ function addTimeAndPlace(code, room, results) {
     }
     
     try {
+       /*
         var days = code.substr(0,n);
         var hours = code.substr(n).split("-");
         hours[0] = cleanHours(hours[0]);
@@ -86,11 +87,12 @@ function addTimeAndPlace(code, room, results) {
             if (" EVE(".indexOf(day) < 0) {
                 s += day;
             }
-        }
-    
+        } 
         if (s.length > 0) {
             results.push(timeAndPlaceToString({ days: s, start: start, end: end, room: room }));
         }
+        */
+        results.push(code + " " + room);
     } catch (e) {}
 }
 
@@ -365,7 +367,6 @@ function processClass(element, area, subarea) {
             "timeAndPlace":         []
         };
         json.items.push(sectionItem);
-        
         return sectionItem.timeAndPlace;
     };
   
@@ -388,6 +389,7 @@ function processClass(element, area, subarea) {
     }
 }
 
+
 var xpath = '/html/body/table/tbody/tr/td';
 var elements = utilities.gatherElementsOnXPath(document, document, xpath, nsResolver);
 var area = null;
@@ -395,6 +397,7 @@ var subarea = null;
 var listingCount = 0;
 var listingPrefix = document.location.href;
 listingPrefix = listingPrefix.substring(listingPrefix.lastIndexOf("/") + 1, listingPrefix.lastIndexOf(".")) + "-";
+
 
 for (var i = 0; i < elements.length; i++) {
     var node = elements[i].firstChild;
