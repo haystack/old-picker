@@ -79,7 +79,9 @@ function onLoad() {
 
 function addCourses(courseIDs, urls) { 
 	var coursesString = courseIDs.filter(function(elmt){return elmt != "hass_d";}).join(";");
-	urls.push('https://isda-ws1.mit.edu/WarehouseService/?courses=' + coursesString);
+	if (coursesString != "" && coursesString != null) {
+		urls.push('https://isda-ws1.mit.edu/WarehouseService/?courses=' + coursesString);
+	}
 	for (var c = 0; c < courseIDs.length; c++) {
 		var courseID = courseIDs[c];
 		/* we have data for everything, so this doesn't seem necessary
