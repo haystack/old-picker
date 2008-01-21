@@ -25,11 +25,15 @@ function enableUnitAdder() {
 						units.prep = units.prep + parseInt(unit[2]);
 					} 
 					units.total = units.total + parseInt(database.getObject(classID, "total-units"));
-					var hours = database.getObject(classID, "hours");
-					if (hours !== null) {
-						reported.hours = reported.hours + (Math.ceil(10 * parseFloat(hours)) / 10);
-				   		reported.courses = reported.courses + 1; 
-				   	}
+                    
+                    var classRating = database.getSubject(classID, "class-rating-of");
+                    if (classRating != null) {
+    					var hours = database.getObject(classRating, "hours");
+    					if (hours !== null) {
+    						reported.hours = reported.hours + (Math.ceil(10 * parseFloat(hours)) / 10);
+    				   		reported.courses = reported.courses + 1; 
+    				   	}
+                    }
 				});
 				
 				units.string = units.lecture + "-" + units.lab + "-" + units.prep;
