@@ -155,7 +155,7 @@
         </div>
         
         <!-- ==================== Class Lens ==================== -->
-        <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class">
+        <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class" ex:bubbleWidth="600">
             <div class="course-title">
                 <img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />
                 <span ex:content=".semester" class="course-semester"></span>
@@ -179,8 +179,8 @@
                                     ex:content="if(exists(.picked), 'Remove', 'Add')"
                                     onclick="onPickUnpick(this);"></button>
                             
-                                <span class="section-instructor" ex:content=".lecture-section-of.instructor"></span> &bull;
-                                <span class="section-schedule" ex:content=".timeAndPlace"></span>
+                                <span class="section-schedule" ex:content=".timeAndPlace"></span> &bull;
+                                <span class="section-instructor" ex:content=".lecture-section-of.instructor"></span>
                             </div>
                         </div>
                     </div>
@@ -201,8 +201,8 @@
                                     ex:content="if(exists(.picked), 'Remove', 'Add')"
                                     onclick="onPickUnpick(this);"></button>
                             
-                                <span class="section-instructor" ex:content=".instructor"></span> &bull;
-                                <span class="section-schedule" ex:content=".timeAndPlace"></span>
+                                <span class="section-schedule" ex:content=".timeAndPlace"></span> &bull;
+                                <span class="section-instructor" ex:content=".instructor"></span>
                             </div>
                         </div>
                     </div>
@@ -218,8 +218,8 @@
                                     ex:content="if(exists(.picked), 'Remove', 'Add')"
                                     onclick="onPickUnpick(this);"></button>
                             
-                                <span class="section-instructor" ex:content=".instructor"></span> &bull;
-                                <span class="section-schedule" ex:content=".timeAndPlace"></span>
+                                <span class="section-schedule" ex:content=".timeAndPlace"></span> &bull;
+                                <span class="section-instructor" ex:content=".instructor"></span>
                             </div>
                         </div>
                     </div>
@@ -244,14 +244,17 @@
                         <div>
                             <table cellspacing="5" cellpadding="0">
                                 <tr><td>Overall:</td>
-                                    <td><ul><li><span ex:content="!class-rating-of.rating"></span>/7.0</li></ul></td></tr>
+                                    <td><span ex:content="!class-rating-of.rating"></span>/7.0</td></tr>
                                 <tr><td>Difficulty:</td>
-                                    <td><ul><li><span ex:content="!class-rating-of.difficulty"></span>/7.0</li></ul></td></tr>
+                                    <td><span ex:content="!class-rating-of.difficulty"></span>/7.0</td></tr>
                                 <tr><td>Hours:</td>
-                                    <td><ul><li><span ex:content="!class-rating-of.hours"></span></li></ul></td></tr>
-                                <tr><td>Instructor(s):</td>
-                                    <td><ul ex:content="!professor-rating-of">
-													<li><i><span ex:content=".professor"></span></i> <span ex:content=".professor-rating"></span>/7.0</li></ul></td></tr>
+                                    <td><span ex:content="!class-rating-of.hours"></span></td></tr>
+                                <tr><td colspan="2">Instructor(s):
+                                        <ul ex:content="!professor-rating-of" class="instructor-ratings">
+                                            <li><i><span ex:content=".professor"></span></i> <span ex:content=".professor-rating"></span>/7.0</li>
+                                        </ul>
+                                    </td>
+                                </tr>
                             </table>
                         </div>
                     </div>

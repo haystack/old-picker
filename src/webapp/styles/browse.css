@@ -151,7 +151,7 @@ span.course-semester {
     float: right;
 }
 span.hasfinal {
-    text-size: 1.2em;
+    font-size: 1.2em;
     font-style: italic;
     font-weight: bold;
 }
@@ -192,7 +192,7 @@ div.each-section-picked {
 }
 div.each-section-picked button, div.each-section-unpicked button {
     width:          7em;
-    float:          right;
+    /* float:          right; */
 }
 span.section-instructor {
     font-style:        italic;
@@ -243,6 +243,11 @@ div.report-errors a {
     position: absolute;
     bottom: 1em;
     right: 1em;
+}
+ul.instructor-ratings {
+    margin:         0px;
+    margin-left:    1em;
+    padding:        0px;
 }
 
 div.course-recitations-disclaimer {

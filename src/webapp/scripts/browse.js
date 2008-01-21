@@ -102,7 +102,7 @@ function addCourses(courseIDs, urls) {
 
 function loadMoreClass(button) {
     var classID = button.getAttribute("classID");
-    var course = classID.substr(1).split(".")[0];
+    var course = classID.split(".")[0];
     var urls = [];
     addCourses([course], urls);
     
@@ -199,7 +199,7 @@ function loadURLs(urls, fDone) {
 							if (matches != null) {
 								for (var m = 0; m < matches.length; m++) {
 									var match = matches[m];
-									var replace = "<a href=\"javascript:window.exhibit._showFocusDialogOnItem('"+match+"');\">"+match+"</a>";
+									var replace = "<a href=\"javascript:{}\" onclick=\"showPrereq(this, '"+match+"');\">"+match+"</a>";
 									item.prereqs = item.prereqs.replace(match, replace);
 								}
 							}
@@ -236,6 +236,10 @@ function loadURLs(urls, fDone) {
         }
     };
     fNext();
+}
+
+function showPrereq(elmt, itemID) {
+    Exhibit.UI.showItemInPopup(itemID, elmt, exhibit.getUIContext());
 }
 
 /*==================================================
