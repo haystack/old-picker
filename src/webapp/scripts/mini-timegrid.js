@@ -47,72 +47,74 @@ function updateMiniTimegrid(preview, previewSectionID) {
         var color = db.getObject(sectionID, "color");
         
         db.getObjects(sectionID, "timeAndPlace").visit(function(tap) {
-            var a = tap.split(" ");
-            if (a.length > 4) { // EVE classes
-            	if (tap.search(/\(BEGIN/) < 0 && tap.search(/\(END/) < 0) {
-					var days = a[0];
-					var time = a[2].replace('(', '');
-					var b = time.split("-");
-					for (var x = 0; x < b.length; x++) {
-						if (b[x].search(/\./) > 0) { 
-							var c = b[x].split('.'); 
-							c[0] = parseInt(c[0]) + 12;
-							b[x] = c[0] + ':' + c[1];
-						} else {
-							b[x] = parseInt(b[x]) + 12;
-							b[x] = b[x] + ":00";
-						}
-					}
-				} else {
-					var days = a[0].substring(0, a[0].search(/\d/));
-            		var time = a[0].substr(a[0].search(/\d/));
-            		var b = time.split("-");
-            		for (var x = 0; x < b.length; x++) {
-						if (b[x].search(/\./) > 0) { 
-							var c = b[x].split('.');
-							if (c[0] < 6) { 
+        	if (tap.search(/arranged/) < 0) {
+				var a = tap.split(" ");
+				if (a.length > 4) { // EVE classes
+					if (tap.search(/\(BEGIN/) < 0 && tap.search(/\(END/) < 0) {
+						var days = a[0];
+						var time = a[2].replace('(', '');
+						var b = time.split("-");
+						for (var x = 0; x < b.length; x++) {
+							if (b[x].search(/\./) > 0) { 
+								var c = b[x].split('.'); 
 								c[0] = parseInt(c[0]) + 12;
 								b[x] = c[0] + ':' + c[1];
 							} else {
-								b[x] = b[x].replace('\.', ':'); 
+								b[x] = parseInt(b[x]) + 12;
+								b[x] = b[x] + ":00";
 							}
-						} else {
-							if (b[x] < 6) { b[x] = parseInt(b[x]) + 12; }
-							b[x] = b[x] + ":00";
 						}
-					}
-				}
-				var start = parseTime(b[0]);
-				var end = b.length > 1 ? parseTime(b[1]) : start.clone().add('h', 1);
-            	var room = a.length > 4 ? (" @ " + a[a.length - 1]) : "";
-            	for (var d = 0; d < days.length ; d++) {
-                	addEvent(classLabel + room + " " + sectionData.postfix, days[d], start, end, color);
-            	}
-            } else {
-				var times = a[0].split(",");
-				for (var t = 0; t < times.length; t++) {
-					var days = times[t].substring(0, times[t].search(/\d/));
-					var time = times[t].substr(times[t].search(/\d/));
-					var b = time.split("-");
-					for (var x = 0; x < b.length; x++) {
-						if (b[x].search(/\./) > 0) { 
-							var c = b[x].split('.');
-							if (c[0] < 6) { 
-								c[0] = parseInt(c[0]) + 12;
-								b[x] = c[0] + ':' + c[1];
+					} else {
+						var days = a[0].substring(0, a[0].search(/\d/));
+						var time = a[0].substr(a[0].search(/\d/));
+						var b = time.split("-");
+						for (var x = 0; x < b.length; x++) {
+							if (b[x].search(/\./) > 0) { 
+								var c = b[x].split('.');
+								if (c[0] < 6) { 
+									c[0] = parseInt(c[0]) + 12;
+									b[x] = c[0] + ':' + c[1];
+								} else {
+									b[x] = b[x].replace('\.', ':'); 
+								}
 							} else {
-								b[x] = b[x].replace('\.', ':'); 
+								if (b[x] < 6) { b[x] = parseInt(b[x]) + 12; }
+								b[x] = b[x] + ":00";
 							}
-						} else {
-							if (b[x] < 6) { b[x] = parseInt(b[x]) + 12; }
-							b[x] = b[x] + ":00";
 						}
 					}
 					var start = parseTime(b[0]);
 					var end = b.length > 1 ? parseTime(b[1]) : start.clone().add('h', 1);
-					var room = a.length > 1 ? (" @ " + a[1]) : "";
+					var room = a.length > 4 ? (" @ " + a[a.length - 1]) : "";
 					for (var d = 0; d < days.length ; d++) {
-                		addEvent(classLabel + room + " " + sectionData.postfix, days[d], start, end, color);
+						addEvent(classLabel + room + " " + sectionData.postfix, days[d], start, end, color);
+					}
+				} else {
+					var times = a[0].split(",");
+					for (var t = 0; t < times.length; t++) {
+						var days = times[t].substring(0, times[t].search(/\d/));
+						var time = times[t].substr(times[t].search(/\d/));
+						var b = time.split("-");
+						for (var x = 0; x < b.length; x++) {
+							if (b[x].search(/\./) > 0) { 
+								var c = b[x].split('.');
+								if (c[0] < 6) { 
+									c[0] = parseInt(c[0]) + 12;
+									b[x] = c[0] + ':' + c[1];
+								} else {
+									b[x] = b[x].replace('\.', ':'); 
+								}
+							} else {
+								if (b[x] < 6) { b[x] = parseInt(b[x]) + 12; }
+								b[x] = b[x] + ":00";
+							}
+						}
+						var start = parseTime(b[0]);
+						var end = b.length > 1 ? parseTime(b[1]) : start.clone().add('h', 1);
+						var room = a.length > 1 ? (" @ " + a[1]) : "";
+						for (var d = 0; d < days.length ; d++) {
+							addEvent(classLabel + room + " " + sectionData.postfix, days[d], start, end, color);
+						}
 					}
 				}
 			}

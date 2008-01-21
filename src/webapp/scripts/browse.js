@@ -221,7 +221,7 @@ function loadURLs(urls, fDone) {
 							}*/
 						}
 						if ('timeAndPlace' in item) {
-							if (item.timeAndPlace.search(/ARRANGED/) > 0) {item.timeAndPlace = 'To be arranged';}
+							if (item.timeAndPlace.search(/ARRANGED/) >= 0 || item.timeAndPlace.search(/null/) >= 0) {item.timeAndPlace = 'To be arranged';}
 						} 
 					}					
 					return json;
