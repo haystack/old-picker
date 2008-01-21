@@ -195,7 +195,7 @@ function loadURLs(urls, fDone) {
 							while (item.prereqs.search(/[\]\[]/) >= 0 ) {
 								item.prereqs = item.prereqs.replace(/[\]\[]/, "");
 							}
-							var matches = item.prereqs.match(/([^\s]+\.[\d]+J?)/g);
+							var matches = item.prereqs.match(/([^\s\/]+\.[\d]+J?)/g);
 							if (matches != null) {
 								for (var m = 0; m < matches.length; m++) {
 									var match = matches[m];
