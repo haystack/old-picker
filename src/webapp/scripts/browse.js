@@ -195,6 +195,14 @@ function loadURLs(urls, fDone) {
 							while (item.prereqs.search(/[\]\[]/) >= 0 ) {
 								item.prereqs = item.prereqs.replace(/[\]\[]/, "");
 							}
+							var matches = item.prereqs.match(/([^\s]+\.[\d]+J?)/g);
+							if (matches != null) {
+								for (var m = 0; m < matches.length; m++) {
+									var match = matches[m];
+									var replace = "<a href=\"javascript:window.exhibit._showFocusDialogOnItem('"+match+"');\">"+match+"</a>";
+									item.prereqs = item.prereqs.replace(match, replace);
+								}
+							}
 							/*if (item.prereqs.search(/;/) >= 0) {
 								while (item.prereqs.search(/or/) > 0) {
 									item.prereqs = item.prereqs.replace(/or/, ",");
@@ -212,6 +220,9 @@ function loadURLs(urls, fDone) {
 								item.prereqs = item.prereqs.replace(/[a-zA-Z\s\]\[]/, "");
 							}*/
 						}
+						if ('timeAndPlace' in item) {
+							if (item.timeAndPlace.search(/ARRANGED/) > 0) {item.timeAndPlace = 'To be arranged';}
+						} 
 					}					
 					return json;
 				}
