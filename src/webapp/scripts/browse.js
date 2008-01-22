@@ -165,71 +165,10 @@ function loadURLs(urls, fDone) {
         if (urls.length > 0) {
             var url = urls.shift();
             if (url.search(/http/) == 0) {
-            	var importer = Exhibit.importers["application/jsonp"]
-            	var fConvert = function(json) {
-					var items = json.items;				
-					for (var i = 0; i < items.length; i++) {
-						var item = items[i];
-						if ('offering' in item) {
-							item.offering == 'Y'?item.offering = 'Currently Offered':item.offering = 'Not offered this year';
-						}
-						if (item.type == 'LectureSession') {
-							item.type = 'LectureSection';
-							item["lecture-section-of"] = item["section-of"];
-							delete item["section-of"];
-						} 
-						if (item.type == 'RecitationSession') {
-							item.type = 'RecitationSection';
-							item["rec-section-of"] = item["section-of"];
-							delete item["section-of"];
-						} 
-						if (item.type == 'LabSession') {
-							item.type = 'LabSection';
-							item["lab-section-of"] = item["section-of"];
-							delete item["section-of"];
-						} 
-						if ('prereqs' in item) {
-							if (item.prereqs == "") {
-								item.prereqs = "--";
-							}
-							while (item.prereqs.search(/[\]\[]/) >= 0 ) {
-								item.prereqs = item.prereqs.replace(/[\]\[]/, "");
-							}
-							var matches = item.prereqs.match(/([^\s\/]+\.[\d]+\w?)/g);
-							if (matches != null) {
-								for (var m = 0; m < matches.length; m++) {
-									var match = matches[m];
-									var replace = "<a href=\"javascript:{}\" onclick=\"showPrereq(this, '"+match.replace(/J/, "")+"');\">"+match+"</a>";
-									item.prereqs = item.prereqs.replace(match, replace);
-								}
-							}
-							/*if (item.prereqs.search(/;/) >= 0) {
-								while (item.prereqs.search(/or/) > 0) {
-									item.prereqs = item.prereqs.replace(/or/, ",");
-								}
-							} else if (item.prereqs.search(/or/) >= 0) {
-								while (item.prereqs.search(/or/) > 0) {
-									item.prereqs = item.prereqs.replace(/or/, ",");
-								}
-							} else {
-								while (item.prereqs.search(/,/) >= 0) {
-									item.prereqs = item.prereqs.replace(/,/, ";");
-								}
-							}
-							while (item.prereqs.search(/[a-zA-Z\s]/) >= 0 ) {
-								item.prereqs = item.prereqs.replace(/[a-zA-Z\s\]\[]/, "");
-							}*/
-						}
-						if ('timeAndPlace' in item) {
-							if (item.timeAndPlace.search(/ARRANGED/) >= 0 || item.timeAndPlace.search(/null/) >= 0) {item.timeAndPlace = 'To be arranged';}
-						} 
-					}					
-					return json;
-				}
-            	importer.load(url, window.database, fNext, fConvert);
+            	Exhibit.importers["application/jsonp"].load(
+                    url, window.database, fNext, postProcessOfficialData);
             } else {
-            	var importer = Exhibit.importers["application/json"];
-            	importer.load(url, window.database, fNext);
+            	loadScrapedData(url, window.database, fNext);
             }
         } else {
             fDone();
@@ -237,6 +176,131 @@ function loadURLs(urls, fDone) {
     };
     fNext();
 }
+
+function postProcessOfficialData(json) {
+    var items = json.items;				
+    for (var i = 0; i < items.length; i++) {
+        postProcessOfficialDataItem(items[i]);
+    }					
+    return json;
+}
+
+function postProcessOfficialDataItem(item) {
+    if ('offering' in item) {
+        item.offering == 'Y'?item.offering = 'Currently Offered':item.offering = 'Not offered this year';
+    }
+    if (item.type == 'LectureSession') {
+        item.type = 'LectureSection';
+        item["lecture-section-of"] = item["section-of"];
+        delete item["section-of"];
+    } 
+    if (item.type == 'RecitationSession') {
+        item.type = 'RecitationSection';
+        item["rec-section-of"] = item["section-of"];
+        delete item["section-of"];
+    } 
+    if (item.type == 'LabSession') {
+        item.type = 'LabSection';
+        item["lab-section-of"] = item["section-of"];
+        delete item["section-of"];
+    } 
+    if ('prereqs' in item) {
+        if (item.prereqs == "") {
+            item.prereqs = "--";
+        }
+        while (item.prereqs.search(/[\]\[]/) >= 0 ) {
+            item.prereqs = item.prereqs.replace(/[\]\[]/, "");
+        }
+        var matches = item.prereqs.match(/([^\s\/]+\.[\d]+\w?)/g);
+        if (matches != null) {
+            var s = item.prereqs;
+            var output = "";
+            var from = 0;
+            for (var m = 0; m < matches.length; m++) {
+                var match = matches[m];
+                var i = s.indexOf(match, from);
+                var replace = 
+                    "<a href=\"javascript:{}\" onclick=\"showPrereq(this, '" +
+                        match.replace(/J/, "")+"');\">" + match + "</a>";
+                
+                output += s.substring(from, i) + replace;
+                from = i + match.length;
+            }
+            item.prereqs = output + s.substring(from);
+        }
+        /*if (item.prereqs.search(/;/) >= 0) {
+            while (item.prereqs.search(/or/) > 0) {
+                item.prereqs = item.prereqs.replace(/or/, ",");
+            }
+        } else if (item.prereqs.search(/or/) >= 0) {
+            while (item.prereqs.search(/or/) > 0) {
+                item.prereqs = item.prereqs.replace(/or/, ",");
+            }
+        } else {
+            while (item.prereqs.search(/,/) >= 0) {
+                item.prereqs = item.prereqs.replace(/,/, ";");
+            }
+        }
+        while (item.prereqs.search(/[a-zA-Z\s]/) >= 0 ) {
+            item.prereqs = item.prereqs.replace(/[a-zA-Z\s\]\[]/, "");
+        }*/
+    }
+    if ('timeAndPlace' in item) {
+        if (item.timeAndPlace.search(/ARRANGED/) >= 0 || item.timeAndPlace.search(/null/) >= 0) {item.timeAndPlace = 'To be arranged';}
+    } 
+}
+
+function loadScrapedData(link, database, cont) {
+    var url = typeof link == "string" ? link : link.href;
+    url = Exhibit.Persistence.resolveURL(url);
+
+    var fError = function(statusText, status, xmlhttp) {
+        Exhibit.UI.hideBusyIndicator();
+        Exhibit.UI.showHelp(Exhibit.l10n.failedToLoadDataFileMessage(url));
+        if (cont) cont();
+    };
+    
+    var fDone = function(xmlhttp) {
+        Exhibit.UI.hideBusyIndicator();
+        try {
+            var o = null;
+            try {
+                o = eval("(" + xmlhttp.responseText + ")");
+            } catch (e) {
+                Exhibit.UI.showJsonFileValidation(Exhibit.l10n.badJsonMessage(url, e), url);
+            }
+            
+            if (o != null) {
+            	if ("items" in o) {
+					var items = o.items;
+					for (var j = 0; j < items.length; j++) {
+						var item = items[j];
+						if (database.containsItem(item.id)) {
+							if ('label' in item) {delete item.label;} 
+							if ('course' in item) {delete item.course;} 
+							if ('level' in item) {delete item.level;} 
+							if ('units' in item) {delete item.units;} 
+							if ('total-units' in item) {delete item["total-units"];} 
+							if ('description' in item) {delete item.description;} 
+							if ('semester' in item) {delete item.semester;} 
+							if ('offering' in item) {delete item.offering;} 
+							if ('prereq' in item) {delete item.prereq;} 
+							if ('in-charge' in item) {delete item["in-charge"];} 
+						}
+					}
+            	}
+                database.loadData(o, Exhibit.Persistence.getBaseURL(url));
+            }
+        } catch (e) {
+            SimileAjax.Debug.exception(e, "Error loading Exhibit JSON data from " + url);
+        } finally {
+            if (cont) cont();
+        }
+    };
+
+    Exhibit.UI.showBusyIndicator();
+    SimileAjax.XmlHttp.get(url, fError, fDone);
+};
 
 function showPrereq(elmt, itemID) {
     Exhibit.UI.showItemInPopup(itemID, elmt, exhibit.getUIContext());
@@ -446,64 +510,3 @@ function showHidePickDiv(sectionID, picked) {
         button.innerHTML = picked ? "Remove" : "Add";
     }
 }
-
-/*==================================================
- *  Exhibit.ExhibitJSONImporter
- *==================================================
- */
- 
-Exhibit.ExhibitJSONImporter = {
-};
-Exhibit.importers["application/json"] = Exhibit.ExhibitJSONImporter;
-
-Exhibit.ExhibitJSONImporter.load = function(link, database, cont) {
-    var url = typeof link == "string" ? link : link.href;
-    url = Exhibit.Persistence.resolveURL(url);
-
-    var fError = function(statusText, status, xmlhttp) {
-        Exhibit.UI.hideBusyIndicator();
-        Exhibit.UI.showHelp(Exhibit.l10n.failedToLoadDataFileMessage(url));
-        if (cont) cont();
-    };
-    
-    var fDone = function(xmlhttp) {
-        Exhibit.UI.hideBusyIndicator();
-        try {
-            var o = null;
-            try {
-                o = eval("(" + xmlhttp.responseText + ")");
-            } catch (e) {
-                Exhibit.UI.showJsonFileValidation(Exhibit.l10n.badJsonMessage(url, e), url);
-            }
-            
-            if (o != null) {
-            	if ("items" in o) {
-					var items = o.items;
-					for (var j = 0; j < items.length; j++) {
-						var item = items[j];
-						if (database.containsItem(item.id)) {
-							if ('label' in item) {delete item.label;} 
-							if ('course' in item) {delete item.course;} 
-							if ('level' in item) {delete item.level;} 
-							if ('units' in item) {delete item.units;} 
-							if ('total-units' in item) {delete item["total-units"];} 
-							if ('description' in item) {delete item.description;} 
-							if ('semester' in item) {delete item.semester;} 
-							if ('offering' in item) {delete item.offering;} 
-							if ('prereq' in item) {delete item.prereq;} 
-							if ('in-charge' in item) {delete item["in-charge"];} 
-						}
-					}
-            	}
-                database.loadData(o, Exhibit.Persistence.getBaseURL(url));
-            }
-        } catch (e) {
-            SimileAjax.Debug.exception(e, "Error loading Exhibit JSON data from " + url);
-        } finally {
-            if (cont) cont();
-        }
-    };
-
-    Exhibit.UI.showBusyIndicator();
-    SimileAjax.XmlHttp.get(url, fError, fDone);
-};
