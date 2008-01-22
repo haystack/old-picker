@@ -12,6 +12,7 @@
             "has-final":     true,
             "description":   "Quantitative analysis of uncertainty and risk for engineering applications. Fundamentals of probability, random processes, statistics, and decision analysis. Random variables and vectors, uncertainty propagation, conditional distributions, and second-moment analysis. Introduction to system reliability. Bayesian analysis and risk-based decision. Estimation of distribution parameters, hypothesis testing, and simple and multiple linear regressions. Poisson and Markov processes. Emphasis on application to engineering problems.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.151",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -20,7 +21,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.151-1",
+            "label":              "L011.151",
             "lecture-section-of": "1.151",
             "timeAndPlace":       "TR11-12.30 5-134"
         },
@@ -36,6 +37,7 @@
             "has-final":     false,
             "description":   "Emphasis on three methodologies pertaining to decision making in the presence of uncertainty: reliability and probabilistic risk assessment (RPRA), decision analysis (DA), and cost-benefit analysis (CBA). Risks of particular interest are those associated with large engineering projects such as the development of new products; the building, maintenance and operation of nuclear reactors and space systems. Presents and interprets some of the frameworks helpful for balancing risks and benefits in the situations that typically involve human safety, potential environmental effects, and large financial and technological uncertainties. Review of elementary probability theory and statistics included.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.155",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -54,20 +56,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.155-1",
+            "label":              "L011.155",
             "lecture-section-of": "1.155",
             "timeAndPlace":       "MW9.30-11 1-390"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R1.155-2",
+            "label":          "R021.155",
             "rec-section-of": "1.155",
             "timeAndPlace":   "T2 9-338"
         },
         {
             "type":          "Class",
             "label":         "Transportation Systems Analysis",
-            "id":            "1.200J",
+            "id":            "1.200",
             "listing-index": "m1b-002",
             "course":        "1",
             "level":         "Grad",
@@ -76,6 +78,7 @@
             "has-final":     false,
             "description":   "Problem-motivated introduction to methods, models and tools for the analysis and design of transportation networks including their planning, operations and control.  Capacity of critical elements of transportation networks.  Traffic flows and deterministic and probabilistic delay models.  Formulation of optimization models for planning and scheduling of freight, transit and airline systems, and their solution using software packages.  User- and system-optimal traffic assignment.  Control of traffic flows on highways, urban grids, and airspace.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.200J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -92,7 +95,7 @@
         {
             "type":          "Class",
             "label":         "Introduction to Transportation Systems",
-            "id":            "1.201J",
+            "id":            "1.201",
             "listing-index": "m1b-003",
             "course":        "1",
             "level":         "Grad",
@@ -101,6 +104,7 @@
             "has-final":     false,
             "description":   "Introduces transportation as a complex sociotechnical  system, stressing its social and economic aspects. Key issues shaping urban, intercity, and international passenger and freight transportation in the developed and developing world. Principles governing transportation planning, investment, operations and maintenance. Introduction to quantitative models and qualitative frameworks. System performance and level-of-service metrics and the determinants of transportation demand. Introduction to economic concepts central to transportation. Transportation services and facilities for various modes and intermodal operations.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.201J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -114,7 +118,7 @@
         {
             "type":          "Class",
             "label":         "Demand Modeling",
-            "id":            "1.202J",
+            "id":            "1.202",
             "listing-index": "m1b-004",
             "course":        "1",
             "level":         "Grad",
@@ -123,6 +127,7 @@
             "has-final":     true,
             "description":   "Theory and application of modeling and statistical methods for analysis and forecasting of demand for facilities, services, and products. Topics include review of probability and statistics, estimation and testing of linear regression models, theory of individual choice behavior, derivation, estimation, and testing of discrete choice models (including logit, nested logit, GEV, probit, and mixture models), estimation under various sample designs and data collection methods (including revealed and stated preferences), sampling, aggregate forecasting methods, and iterative proportional fitting and related methods. Lectures reinforced with case studies, which require specification, estimation, testing, and analysis of models using data sets from actual applications.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.202J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -131,20 +136,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.202J-1",
-            "lecture-section-of": "1.202J",
+            "label":              "L011.202",
+            "lecture-section-of": "1.202",
             "timeAndPlace":       "MW4-5.30 1-150"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R1.202J-2",
-            "rec-section-of": "1.202J",
+            "label":          "R021.202",
+            "rec-section-of": "1.202",
             "timeAndPlace":   "F11 1-246"
         },
         {
             "type":          "Class",
             "label":         "Logistical and Transportation Planning Methods",
-            "id":            "1.203J",
+            "id":            "1.203",
             "listing-index": "m1b-005",
             "course":        "1",
             "level":         "Grad",
@@ -153,6 +158,7 @@
             "has-final":     false,
             "description":   "Quantitative techniques of operations research with emphasis on applications in transportation systems analysis (urban, air, ocean, highway, and pickup and delivery systems) and in the planning and design of logistically oriented urban service systems (e.g., fire and police departments, emergency medical services, and emergency repair services). Unified study of functions of random variables, geometrical probability, multi-server queuing theory, spatial location theory, network analysis and graph theory, and relevant methods of simulation. Computer exercises and discussions of implementation difficulties.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.203J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -181,6 +187,7 @@
             "has-final":     false,
             "description":   "Concepts of computation in analysis of engineering systems.  Data structures, relational database representations of engineering data. Algorithms for the solution and optimization of engineering system designs: greedy, dynamic programming, branch and bound, graph algorithms. Complexity analysis. Mini-projects of applications in engineering systems. The Java programming language is used. First Taught in Spring 2008.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.204",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -190,14 +197,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.204-1",
+            "label":              "L011.204",
             "lecture-section-of": "1.204",
             "timeAndPlace":       "MW1-2.30 1-150"
         },
         {
             "type":          "Class",
             "label":         "Advanced Demand Modeling",
-            "id":            "1.205J",
+            "id":            "1.205",
             "listing-index": "m1b-007",
             "course":        "1",
             "level":         "Grad",
@@ -206,6 +213,7 @@
             "has-final":     false,
             "description":   "Advanced theories and applications of models for analysis and forecasting of users' behavior and demand for facilities, services, and products. Topics vary each year and typically include linear and nonlinear latent variable models including structural equations and latent class models, estimation techniques with multiple data sources, joint discrete and continuous choice models, dynamic models, analysis of panel data, analysis of complex choices, estimation and forecasting with very large choice sets, multidimensional probabilistic choice models, advanced choice models including probit,logit mixtures, hybrid choice models, simulation methods, survey design, model transferability, and use of stated preference data. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.205J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -219,7 +227,7 @@
         {
             "type":          "Class",
             "label":         "Airline Schedule Planning",
-            "id":            "1.206J",
+            "id":            "1.206",
             "listing-index": "m1b-008",
             "course":        "1",
             "level":         "Grad",
@@ -228,6 +236,7 @@
             "has-final":     false,
             "description":   "Explores a variety of models and optimization techniques for the solution of airline schedule planning problems. Schedule design, fleet assignment, aircraft maintenance routing, crew scheduling, robust planning, integrated schedule planning, and other topics are addressed. Models and solution techniques are surveyed and state-of-the-art applications of these techniques to airline problems are presented.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.206J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -238,7 +247,7 @@
         {
             "type":          "Class",
             "label":         "An Introduction to Intelligent Transportation Systems",
-            "id":            "1.212J",
+            "id":            "1.212",
             "listing-index": "m1b-009",
             "course":        "1",
             "level":         "Grad",
@@ -247,6 +256,7 @@
             "has-final":     false,
             "description":   "Basic elements of intelligent transportation systems. Technological, systems, and institutional aspects of ITS considered, including system architecture, congestion pricing, public/private partnerships, network models, freight, public transportation, ITS and regional strategic transportation planning, environmental aspects of ITS, developing country applications and implementation case studies. Term project required.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.212J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      [
                 "Not offered next year",
@@ -259,7 +269,7 @@
         {
             "type":          "Class",
             "label":         "Planning and Design of Airport Systems",
-            "id":            "1.231J",
+            "id":            "1.231",
             "listing-index": "m1b-010",
             "course":        "1",
             "level":         "Grad",
@@ -268,6 +278,7 @@
             "has-final":     false,
             "description":   "Equal emphasis on current practice and advanced concepts. Airport location and planning with full consideration of economic, environmental, and other impacts. Demand prediction, determination of the capacity of the airfield, and estimation of levels of congestion. Design of terminals. Role of airports in the aviation and transportation system. Airport access problems. Optimal configuration of air transport networks and implications for airport development. Economics of the airport. Financing and institutional aspects. Special attention to international practice and developments. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.231J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -284,7 +295,7 @@
         {
             "type":          "Class",
             "label":         "The Airline Industry",
-            "id":            "1.232J",
+            "id":            "1.232",
             "listing-index": "m1b-011",
             "course":        "1",
             "level":         "Grad",
@@ -293,6 +304,7 @@
             "has-final":     false,
             "description":   "Overview of the global airline industry, focusing on recent industry performance, current issues and challenges for the future. Fundamentals of airline industry structure, airline economics, operations planning, safety, labor relations, airports and air traffic control, marketing, and competitive strategies, with an emphasis on the interrelationships among major industry stakeholders. Recent research findings of the MIT Global Airline Industry Program are showcased, including the impacts of congestion and delays, evolution of information technologies, changing human resource management practices, and competitive effects of new entrant airlines. Taught by faculty participants of the Global Airline Industry Program.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.232J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -312,7 +324,7 @@
         {
             "type":          "Class",
             "label":         "Airline Management",
-            "id":            "1.234J",
+            "id":            "1.234",
             "listing-index": "m1b-012",
             "course":        "1",
             "level":         "Grad",
@@ -321,6 +333,7 @@
             "has-final":     false,
             "description":   "Overview of airline management decision processes, with a focus on economic issues and their relationship to operations planning models and decision support tools. Application of economic models of demand, pricing, costs, and supply to airline markets and networks. Examination of industry practice and emerging methods for fleet planning, route network design, scheduling, pricing and revenue management, with emphasis on the interactions between the components of airline management and profit objectives in competitive environments. Students participate in a competitive airline management simulation game as part of the subject requirements.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.234J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -333,14 +346,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.234J-1",
-            "lecture-section-of": "1.234J",
+            "label":              "L011.234",
+            "lecture-section-of": "1.234",
             "timeAndPlace":       "MW1-2.30 33-418"
         },
         {
             "type":          "Class",
             "label":         "Comparative Land Use and Transportation Planning",
-            "id":            "1.251J",
+            "id":            "1.251",
             "listing-index": "m1b-013",
             "course":        "1",
             "level":         "Grad",
@@ -349,6 +362,7 @@
             "has-final":     false,
             "description":   "Focuses on the integration of land use and transportation planning, drawing from cases in both industrialized and developing countries. Reviews underlying theories, analytical techniques, and the empirical evidence of the land use-transportation relationship at the metropolitan, intra-metropolitan, and micro-scales.  Also covers the various ways of measuring urban structure, form, and the \"built environment.\"  Develops students? skills to assess relevant policies, interventions and impacts.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.251J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -358,14 +372,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.251J-1",
-            "lecture-section-of": "1.251J",
+            "label":              "L011.251",
+            "lecture-section-of": "1.251",
             "timeAndPlace":       "TR11-12.30 1-135"
         },
         {
             "type":          "Class",
             "label":         "Urban Transportation Planning",
-            "id":            "1.252J",
+            "id":            "1.252",
             "listing-index": "m1b-014",
             "course":        "1",
             "level":         "Grad",
@@ -374,6 +388,7 @@
             "has-final":     false,
             "description":   "History, policy, and politics of urban transportation. The role of the federal government and the \"highway revolt.\" Public transit in the auto era. Analytic tools for transportation planning and policy analysis. The contribution of transportation to air pollution and climate change. Land use and transportation interactions. Bicycles, pedestrians, and traffic calming. Examples from the Boston area.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.252J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -387,7 +402,7 @@
         {
             "type":          "Class",
             "label":         "Transportation Policy and Environmental Limits",
-            "id":            "1.253J",
+            "id":            "1.253",
             "listing-index": "m1b-015",
             "course":        "1",
             "level":         "Grad",
@@ -396,6 +411,7 @@
             "has-final":     false,
             "description":   "Through a combination of lectures, cases, and class discussions the subject examines the economic and political conflict between transportation and the environment. Investigates the role of government regulation, green business and transportation policy as a facilitator of economic development and environmental sustainability. Analyzes a variety of international policy problems including government-business relations, the role of interest groups, non-governmental organizations, and the public and media in the regulation of the automobile; sustainable development; global warming; politics of risk and siting of transport facilities; environmental justice; equity; as well as transportation and public health in the urban metropolis. Provides students with an opportunity to apply transportation and planning methods to develop policy alternatives in the context of environmental politics.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.253J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -408,14 +424,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.253J-1",
-            "lecture-section-of": "1.253J",
+            "label":              "L011.253",
+            "lecture-section-of": "1.253",
             "timeAndPlace":       "F2-5 1-277"
         },
         {
             "type":          "Class",
             "label":         "Public Transportation Systems",
-            "id":            "1.258J",
+            "id":            "1.258",
             "listing-index": "m1b-016",
             "course":        "1",
             "level":         "Grad",
@@ -424,6 +440,7 @@
             "has-final":     true,
             "description":   "Evolution and role of urban public transportation modes, systems, and services, focussing on bus and rail. Description of technological characteristics and their impacts on capacity, service quality, and cost. Current practice and new methods for data collection and analysis, performance monitoring, route design, frequency determination, and vehicle and crew scheduling. Effect of pricing policy and service quality on ridership. Methods for estimating costs associated with proposed service changes. Organizational models for delivering public transportation service including finance and operations.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.258J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -436,14 +453,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.258J-1",
-            "lecture-section-of": "1.258J",
+            "label":              "L011.258",
+            "lecture-section-of": "1.258",
             "timeAndPlace":       "TR1-2.30 1-246"
         },
         {
             "type":          "Class",
             "label":         "Logistics Systems",
-            "id":            "1.260J",
+            "id":            "1.260",
             "listing-index": "m1b-017",
             "course":        "1",
             "level":         "Grad",
@@ -452,6 +469,7 @@
             "has-final":     false,
             "description":   "Introduction to supply chain management from both analytical and practical perspectives.  Stressing a unified approach, the course allows the student to develop a framework for making intelligent decisions within the supply chain.  Key logistics functions are covered to include demand planning, procurement, inventory theory and control, transportation planning and execution, reverse logistics, and flexible contracting.  Concepts explored include postponement, portfolio management, dual sourcing, and others.  Emphasis is placed on being able to recognize and manage risk, analyze various tradeoffs, and model logistics systems.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.260J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -465,7 +483,7 @@
         {
             "type":          "Class",
             "label":         "Case Studies in Logistics and Supply Chain Management",
-            "id":            "1.261J",
+            "id":            "1.261",
             "listing-index": "m1b-018",
             "course":        "1",
             "level":         "Grad",
@@ -474,6 +492,7 @@
             "has-final":     false,
             "description":   "A combination of lectures and cases covering the strategic, management, and operating issues in contemporary logistics and integrated supply chain management. Includes: logistics strategy; supply chain restructuring and change management; and distribution, customer service, and inventory policy.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.261J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -483,14 +502,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.261J-1",
-            "lecture-section-of": "1.261J",
+            "label":              "L011.261",
+            "lecture-section-of": "1.261",
             "timeAndPlace":       "MW10-11.30 E51-345"
         },
         {
             "type":          "Class",
             "label":         "Supply Chain Context",
-            "id":            "1.262J",
+            "id":            "1.262",
             "listing-index": "m1b-019",
             "course":        "1",
             "level":         "Grad",
@@ -499,6 +518,7 @@
             "has-final":     false,
             "description":   "Introduction to theory and practice of the core functions of the enterprises that impact supply chain management. Provides a basic understanding of strategy, industry structure, organization behavior, and marketing highlighted in the context of the supply chain. Uses lectures to introduce core functions and cases to illustrate the relationship and context for supply chain management. This results in a basic tool set to illustrate the theory and practice of analyzing and managing the relationship between supply chain management and the various functions of business. Also provides a solid understanding of supply chain management in practice. Core subject for MEng in Logistics.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.262J",
+            "joint":         true,
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "in-charge":     [
@@ -510,7 +530,7 @@
         {
             "type":          "Class",
             "label":         "Database, Internet, and Systems Integration Technologies",
-            "id":            "1.264J",
+            "id":            "1.264",
             "listing-index": "m1b-020",
             "course":        "1",
             "level":         "Grad",
@@ -519,6 +539,7 @@
             "has-final":     false,
             "description":   "Information technology fundamentals: software process, data modeling, UML, relational databases and SQL. Internet technologies: http, xhtml, XML, Web services. Introduction to security. Fundamentals of telecommunications. Students complete project that covers requirements/design, data model, database implementation, website, and system architecture. No prior programming experience required.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.264J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -528,7 +549,7 @@
         {
             "type":          "Class",
             "label":         "International Supply Chain Management",
-            "id":            "1.265J",
+            "id":            "1.265",
             "listing-index": "m1b-021",
             "course":        "1",
             "level":         "Grad",
@@ -537,6 +558,7 @@
             "has-final":     false,
             "description":   "An overview of globalization and the international environment: the international marketing, international finance and supply chain interface; global strategy for logistics and supply chain management; global supply chain models; role of government intervention and regulations; the role of ports and airports in international product movements; the economics of international air and ocean carriers; and the forwarding industry. First half term subject.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.265J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -556,8 +578,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.265J-1",
-            "lecture-section-of": "1.265J",
+            "label":              "L011.265",
+            "lecture-section-of": "1.265",
             "timeAndPlace":       "MW1-2.30 (ENDS MARCH 21) 2-105"
         },
         {
@@ -572,6 +594,7 @@
             "has-final":     false,
             "description":   "Individual advanced study of a topic in transportation systems, selected with the approval of the instructor.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.27",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -588,7 +611,7 @@
         {
             "type":          "Class",
             "label":         "Logistics and Supply Chain Management",
-            "id":            "1.270J",
+            "id":            "1.270",
             "listing-index": "m1b-023",
             "course":        "1",
             "level":         "Grad",
@@ -597,6 +620,7 @@
             "has-final":     false,
             "description":   "Survey of Operations Research models and techniques developed for a variety of problems arising in logistical planning of multi-echelon systems. Focus on planning models for production/inventory/distribution strategies in general multi-echelon multi-item systems. Topics include vehicle routing problems, dynamic lot sizing inventory models, stochastic and deterministic multi-echelon inventory systems, the bullwhip effect, pricing models, and integration problems arising in supply chain management.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.270J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -606,7 +630,7 @@
         {
             "type":          "Class",
             "label":         "Design and Operation of Logistics Facilities and Networks",
-            "id":            "1.272J",
+            "id":            "1.272",
             "listing-index": "m1b-024",
             "course":        "1",
             "level":         "Grad",
@@ -615,6 +639,7 @@
             "has-final":     false,
             "description":   "Exploration of the technological and managerial issues involved in the design and operation of distribution and logistics physical facilities and associated information technology in an enterprise wise supply chain. Includes day-long site visits to logistics operations in the local area, as well as day-long software tutorials on commercial-grade software packages used in the design of logistics networks. The curriculum also includes lectures and case studies from faculty and professional logistics consultants focusing on the design and operation of efficient logistics facilities.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.272J",
+            "joint":         true,
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "prereq":        "1.260J",
@@ -624,7 +649,7 @@
         {
             "type":          "Class",
             "label":         "Supply Chain Planning",
-            "id":            "1.273J",
+            "id":            "1.273",
             "listing-index": "m1b-025",
             "course":        "1",
             "level":         "Grad",
@@ -633,6 +658,7 @@
             "has-final":     false,
             "description":   "Focuses on effective supply chain strategies for companies that operate globally, with emphasis on how to plan and integrate supply chain components into a coordinated system.  Students are exposed to concepts and models important in supply chain planning with emphasis on key tradeoffs and phenomena. Introduces and utilizes key tactics such as risk pooling and inventory placement, integrated planning and collaboration, and information sharing. Lectures, computer exercises, and case discussions introduce various models and methods for supply chain analysis and optimization. Recommended for Operations Management concentrators. First half-term subject.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.273J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -650,20 +676,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.273J-1",
-            "lecture-section-of": "1.273J",
+            "label":              "L011.273",
+            "lecture-section-of": "1.273",
             "timeAndPlace":       "MW8-9.30 (ENDS MARCH 14) 1-390"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R1.273J-2",
-            "rec-section-of": "1.273J",
+            "label":          "R021.273",
+            "rec-section-of": "1.273",
             "timeAndPlace":   "F8-9.30 (ENDS MARCH 14) 1-390"
         },
         {
             "type":          "Class",
             "label":         "Manufacturing System and Supply Chain Design",
-            "id":            "1.274J",
+            "id":            "1.274",
             "listing-index": "m1b-026",
             "course":        "1",
             "level":         "Grad",
@@ -672,6 +698,7 @@
             "has-final":     false,
             "description":   "Focuses on decision making for system design, as it arises in manufacturing systems and supply chains. Students exposed to frameworks and models for structuring the key issues and trade-offs. Presents and discusses new opportunities, issues and concepts introduced by the internet and e-commerce. Introduces various models, methods and software tools for logistics network design, capacity planning and flexibility, make-buy, and integration with product development. Industry applications and cases illustrate concepts and challenges.  Recommended for Operations Management concentrators. Second half-term subject.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.274J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -689,20 +716,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.274J-1",
-            "lecture-section-of": "1.274J",
+            "label":              "L011.274",
+            "lecture-section-of": "1.274",
             "timeAndPlace":       "MW8-9.30 (BEGINS MARCH 31) 1-390"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R1.274J-2",
-            "rec-section-of": "1.274J",
+            "label":          "R021.274",
+            "rec-section-of": "1.274",
             "timeAndPlace":   "F8-9.30 (BEGINS MARCH 31) 1-390"
         },
         {
             "type":          "Class",
             "label":         "Cities and Regions: Urban Economics and Public Policy",
-            "id":            "1.283J",
+            "id":            "1.283",
             "listing-index": "m1b-027",
             "course":        "1",
             "level":         "Grad",
@@ -711,6 +738,7 @@
             "has-final":     true,
             "description":   "The theory of urban land and housing markets, and the spatial development of cities. The roles played by transportation systems and local governments in shaping urban location patterns. Interregional competition, economic development, and the migration of labor and capital.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.283J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -725,14 +753,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.283J-1",
-            "lecture-section-of": "1.283J",
+            "label":              "L011.283",
+            "lecture-section-of": "1.283",
             "timeAndPlace":       "TR2.30-4 E51-063"
         },
         {
             "type":          "Class",
             "label":         "Analyzing and Accounting for Regional Economic Change",
-            "id":            "1.284J",
+            "id":            "1.284",
             "listing-index": "m1b-028",
             "course":        "1",
             "level":         "Grad",
@@ -741,6 +769,7 @@
             "has-final":     false,
             "description":   "Surveys theories of regional growth, factor mobility, clustering, industrial restructuring, learning regions, and global supply chains from a political-economy perspective. Examines/critiques accounting frameworks including accounting for the underground economy, multipliers, linkages, and supply chains used to assess employment and environmental impacts, infrastructure investments. Assesses price indices, industrial location and employment measures, and shift-share analyses. Discussions of US and foreign applications.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.284J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -754,14 +783,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.284J-1",
-            "lecture-section-of": "1.284J",
+            "label":              "L011.284",
+            "lecture-section-of": "1.284",
             "timeAndPlace":       "TR9-10.30 1-246"
         },
         {
             "type":          "Class",
             "label":         "Regional Socioeconomic Impact Analyses and Modeling",
-            "id":            "1.285J",
+            "id":            "1.285",
             "listing-index": "m1b-029",
             "course":        "1",
             "level":         "Grad",
@@ -770,6 +799,7 @@
             "has-final":     false,
             "description":   "Reviews regional economic theories and models and provides students with experience in using alternative economic impact assessment models on microcomputers. Problem sets are oriented around infrastructure, housing, energy, and environmental issues. Students work with a client generally in Boston and make a presentation to the client. Emphasis on written and oral presentation skills.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.285J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -792,6 +822,7 @@
             "has-final":     false,
             "description":   "Detailed study of soil properties with emphasis on interpretation of field and laboratory test data and their use in soft-ground construction engineering. Includes: consolidation and secondary compression; basic strength principles; stress-strain strength behavior of clays, emphasizing effects of sample disturbance, anisotropy, and strain rate; strength and compression of granular soils; and engineering properties of compacted soils. Some knowledge of field and laboratory testing assumed; 1.37 desirable. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.322",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered next year",
@@ -807,13 +838,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.322-1",
+            "label":              "L011.322",
             "lecture-section-of": "1.322",
             "timeAndPlace":       "MWF10 1-132"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R1.322-2",
+            "label":          "R021.322",
             "rec-section-of": "1.322",
             "timeAndPlace":   "M11 1-132"
         },
@@ -829,6 +860,7 @@
             "has-final":     true,
             "description":   "Hazardous waste site remediation and waste disposal facility design. Introduction to hazardous waste including the definition of hazardous waste, regulatory requirements under RCRA and CERCLA, waste characteristics,  environmental chemistry, hydrology, and contaminant transport. Characterization of contaminated sites, preliminary site assessment, site investigation techniques, remediation technologies for soil and groundwater, risk assessment, and monitoring.  The design, construction, operation, and hydrology of landfills and waste disposal facilities.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.34",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -838,7 +870,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.34-1",
+            "label":              "L011.34",
             "lecture-section-of": "1.34",
             "timeAndPlace":       "TR1-2.30 1-371"
         },
@@ -854,6 +886,7 @@
             "has-final":     false,
             "description":   "Presentation of fundamental theories in soil mechanics: field equations of linear elasticity and solutions of boundary value problems. Introduction to finite element method. Steady and transient flow in porous media; applications in confined and unconfined seepage, and one-dimensional consolidation. Introduction to poro-elasticity. Yielding and failure of soils; plasticity theory and limit analyses, with examples for bearing capacity and slope stability. Cam Clay models and critical state theory of soil behavior.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.351",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -873,6 +906,7 @@
             "has-final":     false,
             "description":   "Presentation and application of principles of soil mechanics. Considers the topics: the origin and nature of soils; soil classification; the effective stress principle; hydraulic conductivity and seepage; stress-strain-strength behavior of cohesionless and cohesive soils and application to lateral earth stresses, bearing capacity and slope stability; consolidation theory and settlement analyses; laboratory and field methods for evaluation of soil properties in design practice. Same lectures as 1.361.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.361",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -896,6 +930,7 @@
             "has-final":     false,
             "description":   "testing), shallow (footings and raftings) and deep (piles and caissons) foundations, excavation support systems, groundwater control, slope stability, soil improvement (compaction, soil reinforcement, etc.), and construction monitoring. Core requirement for Geotechnical MEng program.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.364",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -915,6 +950,7 @@
             "has-final":     false,
             "description":   "Presentation and application of principles of soil mechanics. Considers the topics: the origin and nature of soils; soil classification; the effective stress principle; hydraulic conductivity and seepage; stress-strain-strength behavior of cohesionless and cohesive soils and application to lateral earth stresses, bearing capacity and slope stability; consolidation theory and settlement analyses; laboratory and field methods for evaluation of soil properties in design practice. Same lectures as 1.361.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.366",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -938,6 +974,7 @@
             "has-final":     false,
             "description":   "testing. Extensive laboratory experiments to explore geotechnical test equipment and techniques. Laboratory use of testing automation and electronic instrumentation. Experiments include data analysis, evaluation, and presentation.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.37",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -957,6 +994,7 @@
             "has-final":     false,
             "description":   "Effect of geologic features and processes on constructed facilities; interaction between man-made structures and human activities in general, and the geologic environment. Planning of subsurface exploration. Engineering geologic characterization of soil and rock, including joint surveys and aspects of sedimented and residual soils. Laboratory on basic geologic identification and mapping techniques. Extensive reading of case histories. Field trip.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.38",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -975,6 +1013,7 @@
             "has-final":     false,
             "description":   "Introduces theoretical and experimental aspects of rock mechanics and on this basis prepares the student for rock engineering. Includes review of laboratory and field testing; empirical and analytical methods for describing strength, deformability, and permeability of intact rock and rock masses; fracture mechanics and mechanics of discontinua including flow through discontinua; design and analysis of rock slopes and foundations on rock; and discussion of blasting design. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.381",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -997,6 +1036,7 @@
             "has-final":     false,
             "description":   "Familiarization with the most important aspects of planning, design, and construction of underground openings in soft ground and rock. Detailed engineering analysis and design. Major aspects of construction techniques and construction planning. General planning and economic problems. Major design project. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.383",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1009,7 +1049,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.383-1",
+            "label":              "L011.383",
             "lecture-section-of": "1.383",
             "timeAndPlace":       "TR9-10.30 1-371"
         },
@@ -1025,6 +1065,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.39",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -1040,7 +1081,7 @@
         {
             "type":          "Class",
             "label":         "Project Management",
-            "id":            "1.401J",
+            "id":            "1.401",
             "listing-index": "m1b-041",
             "course":        "1",
             "level":         "Grad",
@@ -1049,6 +1090,7 @@
             "has-final":     false,
             "description":   "Introduction to theories of project management, with practical application through case projects. Topics include resource management, financial controls, and construction management (including scheduling, estimating, progress monitoring, and project control) for all phases of expected life of facility. Meets with undergraduate subject 1.040; students taking the graduate version are expected to complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.401J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1058,20 +1100,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.401J-1",
-            "lecture-section-of": "1.401J",
+            "label":              "L011.401",
+            "lecture-section-of": "1.401",
             "timeAndPlace":       "MF1-2.30 1-371"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R1.401J-2",
-            "rec-section-of": "1.401J",
+            "label":          "R021.401",
+            "rec-section-of": "1.401",
             "timeAndPlace":   "F4 1-371"
         },
         {
             "type":          "Class",
             "label":         "International Construction Finance",
-            "id":            "1.45J",
+            "id":            "1.45",
             "listing-index": "m1b-042",
             "course":        "1",
             "level":         "Grad",
@@ -1080,6 +1122,7 @@
             "has-final":     false,
             "description":   "Examination of financing methods and structure, project financial evaluation, and financial management in the domestic and international construction industry. Analytical concepts and methodologies from modern finance theory and practice presented in lecture/discussions and applied to case analyses including problems in cash-flow analysis, corporate financial structure, project finance, and foreign exchange exposure. Innovative financial securities, such as options, and methods such as privatization and sale-leaseback are examined. Prior subjects in microeconomics, accounting, and/or corporate finance desirable but not required.  Half-term subject offered in the second half of term.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.45J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1089,14 +1132,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.45J-1",
-            "lecture-section-of": "1.45J",
+            "label":              "L011.45",
+            "lecture-section-of": "1.45",
             "timeAndPlace":       "T9-12 (BEGINS MARCH 31) W31-301"
         },
         {
             "type":          "Class",
             "label":         "Strategic Leadership in Real Estate and Construction",
-            "id":            "1.46J",
+            "id":            "1.46",
             "listing-index": "m1b-043",
             "course":        "1",
             "level":         "Grad",
@@ -1105,6 +1148,7 @@
             "has-final":     false,
             "description":   "Examines the fundamental concepts of strategic planning and management in the context of the real estate, design, and construction industry. Basic business relationships among firms in the design and construction value chain. Topics include industry analysis, strategic planning models, information technology strategy, strategy in fragmented industries, negotiation, and macro trends shaping the industry as a whole. Case method of instruction is used, and supplemented by extensive readings. Half term subject taught in the first half of the term.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.46J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1114,14 +1158,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.46J-1",
-            "lecture-section-of": "1.46J",
+            "label":              "L011.46",
+            "lecture-section-of": "1.46",
             "timeAndPlace":       "T9-11 (ENDS MARCH 16) W31-301"
         },
         {
             "type":          "Class",
             "label":         "Entrepreneurship in Construction and Real Estate Development",
-            "id":            "1.462J",
+            "id":            "1.462",
             "listing-index": "m1b-044",
             "course":        "1",
             "level":         "Grad",
@@ -1130,6 +1174,7 @@
             "has-final":     false,
             "description":   "Explains role of the entrepreneur in the construction industry using case studies to outline different steps in developing construction enterprises. Emphasis on strategic marketing component in the development of these businesses. Lectures address program, development, and construction management services. Guest lectures from entrepreneurs in their field. Team project identifying an opportunity and developing a strategic marketing/business plan for a company in the design/construct or related industries.  Half-term subject offered in second half of term.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.462J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1140,7 +1185,7 @@
         {
             "type":          "Class",
             "label":         "The Impact of Globalization on the Built Environment",
-            "id":            "1.463J",
+            "id":            "1.463",
             "listing-index": "m1b-045",
             "course":        "1",
             "level":         "Grad",
@@ -1149,6 +1194,7 @@
             "has-final":     false,
             "description":   "Explores the challenges and risks managers of construction, engineering, and architecture companies face in entering global markets. Includes discussion of innovative approaches to marketing, partnering, risk management, finance, specialized delivery systems, privatization, and appropriate strategies for entering international markets. Half-term subject offered in first half of term.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.463J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1159,7 +1205,7 @@
         {
             "type":          "Class",
             "label":         "E-Commerce and the Internet in Real Estate and Construction",
-            "id":            "1.464J",
+            "id":            "1.464",
             "listing-index": "m1b-046",
             "course":        "1",
             "level":         "Grad",
@@ -1168,6 +1214,7 @@
             "has-final":     false,
             "description":   "Examines long-term effects of information technology on business strategy in the real estate and construction industry. Considerations include: supply chain, allocation of risk, impact on contract obligations and security, trends toward consolidation, and the convergence of information transparency and personal effectiveness. Resources drawn from the world of dot-com entrepreneurship and \"old economy\" responses. Taught by case study method. Half-term subject offered in the first half of term.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.464J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1178,7 +1225,7 @@
         {
             "type":          "Class",
             "label":         "Innovative Project Delivery in the Public and Private Sectors",
-            "id":            "1.472J",
+            "id":            "1.472",
             "listing-index": "m1b-047",
             "course":        "1",
             "level":         "Grad",
@@ -1187,6 +1234,7 @@
             "has-final":     false,
             "description":   "Examines the compatibility of various project delivery methods, consisting of organizations, contracts, and award methods, with certain types of projects and owners. Six methods examined: traditional general contracting; construction management; multiple primes; design-build; turnkey; and build-operate-transfer. Consists of lectures, case studies, guest speakers, and a team project to analyze a case example. Half-term subject offered in second half of term.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.472J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1196,8 +1244,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L1.472J-1",
-            "lecture-section-of": "1.472J",
+            "label":              "L011.472",
+            "lecture-section-of": "1.472",
             "timeAndPlace":       "TR4-5.30 (ENDS MARCH 31) W31-301"
         },
         {
@@ -1212,6 +1260,7 @@
             "has-final":     false,
             "description":   "Individual study of an advanced topic in construction engineering and management, selected with approval of faculty supervisor.",
             "url":           "http://student.mit.edu/catalog/m1b.html#1.482",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",

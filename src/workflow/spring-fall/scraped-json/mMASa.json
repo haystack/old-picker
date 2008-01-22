@@ -12,6 +12,7 @@
             "has-final":     false,
             "description":   "History of 20th century art and design from the perspective of the technologist. Methods for visual analysis, oral critique, and digital expression are introduced. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.110",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      [
@@ -33,6 +34,7 @@
             "has-final":     false,
             "description":   "Intended for students pursuing research projects at the Media Laboratory. Topics include Media Lab research areas; documenting research progress; ethical issues in research; patents, copyrights, intellectual property; and giving oral, written, and online presentations of results. A final oral presentation is required. Enrollment limited with preference given to students in the Media Arts and Sciences freshman program.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.111",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     [
@@ -44,7 +46,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.111-1",
+            "label":              "L01MAS.111",
             "lecture-section-of": "MAS.111",
             "timeAndPlace":       "F3-5 E15-235"
         },
@@ -60,6 +62,7 @@
             "has-final":     false,
             "description":   "Fundamentals of signals and information theory with emphasis on modeling audio/visual messages and physiologically derived signals, and the human source or recipient. Linear systems, difference equations, Z-transforms, sampling and sampling rate conversion, convolution, filtering, modulation, Fourier analysis, entropy, noise, Shannon's fundamental theorems. Additional topics may include data compression, filter design, and feature detection. Meets with graduate subjects MAS.510 and MAS.511 but assignments differ.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.160",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -76,7 +79,7 @@
         {
             "type":          "Class",
             "label":         "Perception, Knowledge, and Cognition",
-            "id":            "MAS.234J",
+            "id":            "MAS.234",
             "listing-index": "mMASa-003",
             "course":        "MAS",
             "level":         "Undergrad",
@@ -85,6 +88,7 @@
             "has-final":     false,
             "description":   "The acquisition and communication of knowledge demands a coherent cognitive framework within which we can reason about events and states in the world. Subject examines what frameworks are plausible, and how these choices affect our deductive and creative processes. Material includes world regularities and perceptual inference, causal reasoning, representational forms, belief structures, mental models, man-machine control, and discourse.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.234J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "prereq":        [
@@ -97,7 +101,7 @@
         {
             "type":          "Class",
             "label":         "Anigrafs",
-            "id":            "MAS.235J",
+            "id":            "MAS.235",
             "listing-index": "mMASa-004",
             "course":        "MAS",
             "level":         "Undergrad",
@@ -106,6 +110,7 @@
             "has-final":     false,
             "description":   "Many complex systems can be represented as a society of agents who aggregate information to reach a collective decision. An Anigraf makes explicit how one agent's knowledge is related to another's, and how the form of these relationships affect the social choice. Simulations are used to discover emergent properties of different Anigraf models. Topics include elementary graph theory, network designs, partial orders, voting strategies, coordination games, and dynamics of choice. Applied examples taken from insect societies, neural networks, studies of co-evolution, cognition, and group decision-making.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.235J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -130,6 +135,7 @@
             "has-final":     false,
             "description":   "Principles of information processing by the human auditory system, from detection of frequency, intensity, and spectrum, to the development of their perceptual correlates as pitch, loudness, and timbre. Machine models of the human auditory and musical experience using perceptually based sensor and interpretor constructs, sufficient to enable machines to experience sound and music in a manner related to our own. Exploring auditory and music cognition with the aid of real-time audio processors. Modeling musical common sense. Lectures same as MAS.241, with additional readings and a group or individual project.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.241",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     "Vercoe, B.",
@@ -147,6 +153,7 @@
             "has-final":     false,
             "description":   "Special projects on group or individual basis. Registration subject to prior arrangement of subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.479",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -168,6 +175,7 @@
             "has-final":     false,
             "description":   "Special projects on group or individual basis. Registration subject to prior arrangement of subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.490",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -196,6 +204,7 @@
             "has-final":     false,
             "description":   "Individual or group study, research, or laboratory investigations under faculty supervision, including individual participation in an ongoing research project.  See UROP coordinator for further information.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.UR",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -224,6 +233,7 @@
             "has-final":     false,
             "description":   "Fundamentals of signals and information theory with emphasis on modeling audio/visual messages and physiologically derived signals, including sampling, sampling rate conversion, reconstruction, quantization, Fourier analysis, entropy, and noise. Shannon's fundamental theorems. Meets the first half of the term with MAS.160, but assignments differ.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.510",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -249,6 +259,7 @@
             "has-final":     false,
             "description":   "Fundamentals of signal processing and linear systems theory as applied to audio/visual messages and physiologically-derived signals.  Linear systems, difference equation, Z-transforms, convolution, filtering.  Additional topics may include filter design, feature detection, communication systems.  Meets the second half of the term with subject MAS.160, but assignments differ.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.511",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -274,6 +285,7 @@
             "has-final":     false,
             "description":   "Provides opportunities to pursue real-world design projects that cross traditional disciplinary boundaries, apply advanced technologies, and address significant social issues. Among the projects to be explored are the design of a smart village in Zamban Italy, continuation of the eLens mobile communication project, continuation of the Paris bus system project, and the development of new types of urban personal transportation systems. Students are expected to contribute to conceptualization, development, modeling, and prototyping of one of the projects.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.551",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -291,14 +303,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.551-1",
+            "label":              "L01MAS.551",
             "lecture-section-of": "MAS.551",
             "timeAndPlace":       "W2-5 4-144"
         },
         {
             "type":          "Class",
             "label":         "Pattern Recognition and Analysis",
-            "id":            "MAS.622J",
+            "id":            "MAS.622",
             "listing-index": "mMASa-012",
             "course":        "MAS",
             "level":         "Grad",
@@ -307,6 +319,7 @@
             "has-final":     false,
             "description":   "Fundamentals of characterizing and recognizing patterns and features of interest in numerical data. Basic tools and theory for signal understanding problems with applications to user modeling, affect recognition, speech recognition and understanding, computer vision, physiological analysis, and more. Decision theory, statistical classification, maximum likelihood and Bayesian estimation, nonparametric methods, unsupervised learning and clustering. Additional topics on machine and human learning from active research. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.622J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -326,6 +339,7 @@
             "has-final":     false,
             "description":   "Explores computing that relates to, arises from, or deliberately influences emotion. Topics include the interaction of emotion with cognition and perception; the role of emotion in human-computer interaction; the communication of human emotion via face, voice, physiology, and behavior; construction of computers that have skills of emotional intelligence; the development of computers that \"have\" emotion; and other areas of current research interest. Weekly reading, discussion, and a term project required. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.630",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -334,7 +348,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.630-1",
+            "label":              "L01MAS.630",
             "lecture-section-of": "MAS.630",
             "timeAndPlace":       "M10-12 E15-443"
         },
@@ -350,6 +364,7 @@
             "has-final":     false,
             "description":   "Interaction with mobile computing systems and telephones by voice, including speech synthesis, recognition, digital recording, and browsing recorded speech.  Emphasis on human interface design issues and interaction techniques appropriate for cognitive requirements of speech.  Topics include human speech production and perception, speech recognition and text-to-speech algorithms, telephone networks, and  spatial and time-compressed listening.  Extensive reading from current research literature.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.632",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -359,7 +374,7 @@
         {
             "type":          "Class",
             "label":         "Audio Processing by People and Machines",
-            "id":            "MAS.641J",
+            "id":            "MAS.641",
             "listing-index": "mMASa-015",
             "course":        "MAS",
             "level":         "Grad",
@@ -368,6 +383,7 @@
             "has-final":     false,
             "description":   "Principles of information processing by the human auditory system, from detection of frequency, intensity, and spectrum, to the development of their perceptual correlates as pitch, loudness, and timbre. Machine models of the human auditory and musical experience using perceptually based sensor and interpretor constructs, sufficient to enable machines to experience sound and music in a manner related to our own. Exploring auditory and music cognition with the aid of real-time audio processors. Modeling musical common sense. Lectures same as MAS.241, with additional readings and a group or individual project.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.641J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -377,7 +393,7 @@
         {
             "type":          "Class",
             "label":         "Writing for Computer Performance",
-            "id":            "MAS.642J",
+            "id":            "MAS.642",
             "listing-index": "mMASa-016",
             "course":        "MAS",
             "level":         "Grad",
@@ -386,6 +402,7 @@
             "has-final":     false,
             "description":   "Use of current tools and techniques for creating audio soundtracks that can be synthesized by computer in real time. Techniques of compact definition and efficient, global dissemination, such as via the Web. Development and use of global standards for audio and music rendering on remote sites. Participants are expected to create an original work, performed in at least three remote sites to positive commentary, using the above principles.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.642J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -394,14 +411,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.642J-1",
-            "lecture-section-of": "MAS.642J",
+            "label":              "L01MAS.642",
+            "lecture-section-of": "MAS.642",
             "timeAndPlace":       "T2-4 E15-483"
         },
         {
             "type":          "Class",
             "label":         "Cognitive Architectures",
-            "id":            "MAS.654J",
+            "id":            "MAS.654",
             "listing-index": "mMASa-017",
             "course":        "MAS",
             "level":         "Grad",
@@ -410,6 +427,7 @@
             "has-final":     false,
             "description":   "Knowledge acquisition, communication, and successful behaviors require adequate models of the world. Actions based on such models depend on values assigned to state variables, which are derived from a creature's beliefs and goals. How beliefs may be acquired, updated, or aggregated in decision-making is formalized using a graphical framework called an Anigraf.  The framework is analogous to a society of agents with different beliefs and goals who strive to reach collective decisions for actions. Exposure to Bayesian, causal, analogical, logical, and game-theoretic frameworks also included.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.654J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -429,6 +447,7 @@
             "has-final":     false,
             "description":   "Seminar surveying the blossoming arena of social software, particularly applications based on smart phones. Explore the possibilities of this technology through reseach testbeds, which are systematically deployed research lab prototypes that attempt to shape human behavior and communication in organizations while systematically observing the (often unexpected) social consequences. All students are expected to participate in the exploratory phase of one of the technology testbed projects; form teams to design novel experimental tools/artifacts and/or applications; run at least one rigorous experiment; and write a summary project report.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.664",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Can be repeated for credit",
@@ -453,6 +472,7 @@
             "has-final":     false,
             "description":   "Develop innovative business plans for the 1K competition in the area of social innovation/sustainable development. Students form teams of four, usually including both technology and business students, to repeatedly devise and revise business plans that use innovations in technology and organization to create businesses that can transform the lives of at least 1B people. Enrollment limited to 25.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.665",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -471,6 +491,7 @@
             "has-final":     false,
             "description":   "Focuses on radically novel approaches to human-computer interaction. Read and discuss seminal papers from the fields of Ubiquitous Computing, Mixed Reality, Augmented Reality, Wearables, Location-Aware Computing, Ambient Intelligence, Ambient Interfaces, Tangible Interfaces, e-Textiles, Smart Networked Objects, Intelligent Interfaces, Sentient Architecture, Software Agents and others. Students required to participate in the discussion of the weekly readings, to engage in the design of several applications and to complete one larger design and implementation project. Limited to 16 students.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.672",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -479,7 +500,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.672-1",
+            "label":              "L01MAS.672",
             "lecture-section-of": "MAS.672",
             "timeAndPlace":       "W1-3 E15-235"
         },
@@ -495,6 +516,7 @@
             "has-final":     false,
             "description":   "Special projects on individual or group basis. Registration subject to prior arrangement of subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.690",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -519,6 +541,7 @@
             "has-final":     false,
             "description":   "Project-oriented subject focuses on current research in innovative educational technologies and creative learning environments. Students contribute directly to ongoing research projects through design activities and field tests. Students work in groups on final project.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.712",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
@@ -530,14 +553,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.712-1",
+            "label":              "L01MAS.712",
             "lecture-section-of": "MAS.712",
             "timeAndPlace":       "T1-3 E15-235"
         },
         {
             "type":          "Class",
             "label":         "Technologies for Creative Learning",
-            "id":            "MAS.714J",
+            "id":            "MAS.714",
             "listing-index": "mMASa-023",
             "course":        "MAS",
             "level":         "Grad",
@@ -546,6 +569,7 @@
             "has-final":     false,
             "description":   "Explores the design of innovative educational technologies and creative learning environments, drawing on specific case studies such as the LEGO Programmable Brick, Scratch software and Computer Clubhouse after-school learning centers. Includes activities with new educational technologies, reflections on learning experiences, and discussion of strategies and principles underlying the design of new tools and activities.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.714J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -564,6 +588,7 @@
             "has-final":     false,
             "description":   "Examines aspects of knowledge representation and language use by machines and humans. Emphasizes how linguistic meaning is grounded in non-linguistic physical and social context. Ideas from semiotics, philosophy of mind, and cognitive psychology are brought together with methods from computer science and systems engineering. A final project requiring implementation of a grounded semantics for a symbolic communication system provides hands-on experience with ideas discussed in class.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.720",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     "Roy, D.",
@@ -571,14 +596,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.720-1",
+            "label":              "L01MAS.720",
             "lecture-section-of": "MAS.720",
             "timeAndPlace":       "T10-12 E15-443"
         },
         {
             "type":          "Class",
             "label":         "The Society of Mind",
-            "id":            "MAS.731J",
+            "id":            "MAS.731",
             "listing-index": "mMASa-025",
             "course":        "MAS",
             "level":         "Grad",
@@ -587,6 +612,7 @@
             "has-final":     false,
             "description":   "Introduction to a theory that tries to explain how minds are made from collections of simpler processes. Treats such aspects of thinking as vision, language, learning, reasoning, memory, consciousness, ideals, emotions, and personality. Incorporates ideas from psychology, artificial intelligence, and computer science to resolve theoretical issues such as wholes vs. parts, structural vs. functional descriptions, declarative vs. procedural representations, symbolic vs. connectionist models, and logical vs. common-sense theories of learning. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.731J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -596,8 +622,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.731J-1",
-            "lecture-section-of": "MAS.731J",
+            "label":              "L01MAS.731",
+            "lecture-section-of": "MAS.731",
             "timeAndPlace":       "W EVE (7-9 PM) 32-155"
         },
         {
@@ -612,6 +638,7 @@
             "has-final":     false,
             "description":   "In-depth exploration of the leading research, design principles, and technical challenges in Human-Robot Interaction (HRI), with an emphasis on socially interactive robots. Topics include mixed-initiative interaction, situational awareness, multi-modal interfaces and communication, human-robot teamwork, social learning, aspects of social cognition, long-term interaction, and evaluation with human subjects. Requires presentations and critiques of class readings, student projects, and a final project including publication of a quality paper.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.750",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -621,7 +648,7 @@
         {
             "type":          "Class",
             "label":         "Relational Machines",
-            "id":            "MAS.751J",
+            "id":            "MAS.751",
             "listing-index": "mMASa-027",
             "course":        "MAS",
             "level":         "Grad",
@@ -630,6 +657,7 @@
             "has-final":     false,
             "description":   "Introduction to the issues, principles, and challenges toward building relational machines: technological artifacts that are designed to inspire a sense of relationship in their users.  Sample applications include learning companions for children, assistive robots for the elderly, software agents that act as trainers or assistants, interactive game characters that engage in social relationships, or machines that cooperate with humans as members of human-robot teams.  Readings cover a broad range of topics from psychology, sociology, and human-computer/robot interaction as well as how these ideas manifest in a wide range of applications for technological systems.  Requires presentations and critiques of class readings and a final project that includes writing a scholarly paper.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.751J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -651,6 +679,7 @@
             "has-final":     false,
             "description":   "Explores the state of the art in common sense knowledge, and class projects design and build interfaces that can exploit this knowledge to make more usable and helpful interfaces. Enrollment limited to 25.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.761",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     "Lieberman, H.",
@@ -668,6 +697,7 @@
             "has-final":     false,
             "description":   "Special projects on individual or group basis. Registration subject to prior arrangement of subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.790",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -683,7 +713,7 @@
         {
             "type":          "Class",
             "label":         "Musical Aesthetics and Media Technology",
-            "id":            "MAS.825J",
+            "id":            "MAS.825",
             "listing-index": "mMASa-030",
             "course":        "MAS",
             "level":         "Grad",
@@ -692,6 +722,7 @@
             "has-final":     false,
             "description":   "In-depth exploration of contemporary concepts in music and media. Studies recent music that uses advanced technology, and the artistic motivations and concerns implied by the new media. Practical experience with computer music technology, including MIDI and post-MIDI systems. Special emphasis on the interactive systems for professionals as well as amateurs. Midterm paper and term project required.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.825J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -701,7 +732,7 @@
         {
             "type":          "Class",
             "label":         "Projects in Media and Music",
-            "id":            "MAS.826J",
+            "id":            "MAS.826",
             "listing-index": "mMASa-031",
             "course":        "MAS",
             "level":         "Grad",
@@ -710,6 +741,7 @@
             "has-final":     false,
             "description":   "Current computer music concepts and practice. Project-based work on research or production projects using the Media Lab's computer music, interactive, and media resources. Requires significant studio work and a term project. Projects based on class interests and skills, and may be individually or group-based. May be repeated for credit with permission of instructor.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.826J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      [
                 "Not offered this year",
@@ -731,6 +763,7 @@
             "has-final":     false,
             "description":   "Explores design issues surrounding tangible user interfaces, a new form of human-computer interaction. Tangible user interfaces seek to realize seamless interfaces between humans, digital information, and the physical environment by giving physical form to digital information and computation, making bits directly manipulable with hands and perceptible at the periphery of human awareness. In the design studio environment, students explore experimental tangible interface designs, theories, applications, and underlying technologies, using concept sketches, posters, physical mockups, and working prototypes.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.834",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -749,6 +782,7 @@
             "has-final":     false,
             "description":   "A broad introduction to a host of sensor technologies, illustrated by applications drawn from human-computer interfaces and ubiquitous computing.  After extensively reviewing electronics for sensor signal conditioning, the lectures cover the principles and operation of a variety of sensor architectures and modalities, including pressure, strain, displacement, proximity, thermal, electric and magnetic field, optical, acoustic, RF, inertial, and bioelectric.  Simple sensor processing algorithms and wired and wireless network standards are also discussed. Students are required to complete written assignments, a set of laboratories, and a final project.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.836",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -757,7 +791,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.836-1",
+            "label":              "L01MAS.836",
             "lecture-section-of": "MAS.836",
             "timeAndPlace":       "R1-4 E15-235"
         },
@@ -773,6 +807,7 @@
             "has-final":     false,
             "description":   "Explores the ways in which electronic music is controlled and performed. A solid historical perspective is presented, tracing the development of various families of electronic musical controllers and instruments from their genesis in the late 1800s onwards. Design principles and engineering detail is also given for various current and classic controllers. Involves lively discussion of evolving issues in the control of computer music for live performance and interactive installations, including computer mapping of sensor signals and transduced gesture onto sound, music, and other media. Weekly reading assignments are given, and a final project or paper is required.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.837",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -791,6 +826,7 @@
             "has-final":     false,
             "description":   "Seminar explores approaches to representation for very distributed cinematic storytelling.  The relationship between story creation and story appreciation is analyzed.  Readings are drawn from literary, cinematic criticism, as well as from descriptions of interactive, distributed works.  Students analyze a range of storytelling techniques; develop a proprosal using visualization techniques, and prototype a working story experience.  Individual or group final projects.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.845",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -809,6 +845,7 @@
             "has-final":     false,
             "description":   "Individual or group work of advanced and experimental scope. Registration contingent upon prior determination of subject matter and plan for treatment, as well as arrangement for staff supervision and project funding.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.849",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -824,7 +861,7 @@
         {
             "type":          "Class",
             "label":         "Optical Engineering",
-            "id":            "MAS.857J",
+            "id":            "MAS.857",
             "listing-index": "mMASa-037",
             "course":        "MAS",
             "level":         "Grad",
@@ -833,6 +870,7 @@
             "has-final":     false,
             "description":   "Theory and practice of optical methods in engineering and system design. Emphasis on diffraction, statistical optics, holography, and imaging. Provides engineering methodology skills necessary to incorporate optical components in systems serving diverse areas such as precision engineering and metrology, bio-imaging, and computing (sensors, data storage, communication in multi-processor systems). Experimental demonstrations and a design project are included.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.857J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -858,6 +896,7 @@
             "has-final":     false,
             "description":   "An introduction to the history, methods, and aesthetics of holographic image making. Students create holograms in the lab on a weekly basis, learning to use holography as a medium of expression and as a tool for the investigation of three-dimensional ideas in design, architecture, environmental design, and engineering studies. Lab fee. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.858",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "in-charge":     "Connors, B.",
@@ -875,6 +914,7 @@
             "has-final":     false,
             "description":   "Familiar devices that collect, store, manipulate, transmit, and present electronic information operate near profound fundamental physical limits. Subject provides a self-contained introduction to the governing equations in a range of relevant domains, and then studies operational device principles in order to understand how they work, how they can be used, what the limits on their performance are, and how they might be improved. Following a review of the foundations of thermodynamics and noise, electromagnetics, and the quantum description of materials, the device applications include semiconductor logic, magnetic storage, wireless and optical communications, and quantum information and computation.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.862",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -893,6 +933,7 @@
             "has-final":     false,
             "description":   "Provides a hands-on introduction to the resources for designing and fabricating smart systems, including CAD/CAM/CAE; NC machining, 3-D printing and scanning, injection molding, laser and waterjet cutting; PCB layout and fabrication; sensors and actuators; analog instrumentation; embedded digital processing; wired and wireless communications. Emphasis on learning how to use the tools as well as understand how they work.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.863",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -914,6 +955,7 @@
             "has-final":     false,
             "description":   "Surveys the range of levels of description useful for the mathematical description of real and virtual worlds, including analytical solutions and approximations for difference and differential equations; finite difference, finite element and cellular automata numerical models; and stochastic processes, nonlinear function fitting and observational model inference. Emphasis on efficient practical implementation of these ideas.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.864",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered next year",
@@ -925,14 +967,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.864-1",
+            "label":              "L01MAS.864",
             "lecture-section-of": "MAS.864",
             "timeAndPlace":       "M1-4 E15-135"
         },
         {
             "type":          "Class",
             "label":         "Quantum Information Science",
-            "id":            "MAS.865J",
+            "id":            "MAS.865",
             "listing-index": "mMASa-042",
             "course":        "MAS",
             "level":         "Grad",
@@ -941,6 +983,7 @@
             "has-final":     false,
             "description":   "Subject examines quantum computation and quantum information. Topics include quantum circuits, quantum Fourier transform and search algorithms, physical implementations, the quantum operations formalism, quantum error correction, stabilizer and Calderbank-Shor-Steans codes, fault tolerant quantum computation, quantum data compression, entanglement, and proof of the security of quantum cryptography. Prior knowledge of quantum mechanics and basic information theory is required.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.865J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -957,8 +1000,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.865J-1",
-            "lecture-section-of": "MAS.865J",
+            "label":              "L01MAS.865",
+            "lecture-section-of": "MAS.865",
             "timeAndPlace":       "TR11-12.30 36-153"
         },
         {
@@ -973,6 +1016,7 @@
             "has-final":     false,
             "description":   "Special projects on group or individual basis. Registration subject to prior arrangement of subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.879",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -998,6 +1042,7 @@
             "has-final":     false,
             "description":   "Covers principles underlying current and future technologies for brain analysis and engineering, for neurology, psychiatry, and neuroscience.  Focuses on using biophysical, biochemical, and anatomical models to understand technology design constraints governing ability to observe and alter brain function.  Topics include functional magnetic resonance imaging, electromagnetic recording/stimulation, neuropharmacology, optical cellular imaging, and gene/stem-cell therapy.  Design projects by student teams. Enrollment limited to 28 students.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.881",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1024,6 +1069,7 @@
             "has-final":     false,
             "description":   "Project-focused subject in which students take a top-down approach to developing technologies that address critical clinical and basic-science problems of human brain function. Focus is on application of engineering principles to development of systematically powerful tools. Problem domains include neurological/psychiatric disorders, consciousness, and human cognitive augmentation. Student work in teams to apply cross-disciplinary (molecular, physical, nanotechnological) building blocks to design new tools for the analysis and engineering of the brain. Enrollment limited to 14 students.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.882",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1040,7 +1086,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "LMAS.882-1",
+            "label":              "L01MAS.882",
             "lecture-section-of": "MAS.882",
             "timeAndPlace":       "T3 E15-235"
         },
@@ -1056,6 +1102,7 @@
             "has-final":     false,
             "description":   "Special projects on individual or group basis. Registration subject to prior arrangement of subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.890",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1080,6 +1127,7 @@
             "has-final":     false,
             "description":   "For research assistants in Media Arts and Sciences, where the assigned research is approved for academic credit by the department.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.910",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -1106,6 +1154,7 @@
             "has-final":     false,
             "description":   "Laboratory, tutorial, or classroom teaching under the supervision of a Media Arts and Sciences faculty member.  Students selected by interview.  Enrollment is limited by the availability of suitable teaching assignments.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.912",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1130,6 +1179,7 @@
             "has-final":     false,
             "description":   "Designed specifically for new doctoral students in the Media Arts and Sciences (MAS) program. Explores inellectual foundations of MAS, unifying themes connecting MAS research, and working practices of MAS researchers.  Students discuss foundational papers, critique current MAS research, and work on collaborative projects related to key MAS themes. Restricted to MAS doctoral students.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.921",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1149,6 +1199,7 @@
             "has-final":     false,
             "description":   "Selection of thesis topic, definition of method of approach, and preparation of thesis proposal. Independent study supplemented by individual conferences with faculty. In some cases, coregistration with 21W.793 or equivalent required.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.940",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -1176,6 +1227,7 @@
             "has-final":     false,
             "description":   "Selected readings for Media Arts and Sciences doctoral students in preparation for their qualifying exams.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.945",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -1203,6 +1255,7 @@
             "has-final":     false,
             "description":   "Selects thesis subject, defines method of approach, and prepares preliminary thesis outline. Independent study, supplemented by frequent individual conferences with staff members. Restricted to doctoral candidates.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.950",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1228,6 +1281,7 @@
             "has-final":     false,
             "description":   "Supplementary work on individual or group basis.  Registration subject to prior arrangement for subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.960",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -1254,6 +1308,7 @@
             "has-final":     false,
             "description":   "Supplementary work on individual or group basis.  Registration subject to prior arrangement for subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.961?MAS.968",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1279,6 +1334,7 @@
             "has-final":     false,
             "description":   "Supplementary work on individual or group basis.  Registration subject to prior arrangement for subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.969",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -1305,6 +1361,7 @@
             "has-final":     false,
             "description":   "Program of research and writing of thesis; to be arranged by the student with supervising committee.",
             "url":           "http://student.mit.edu/catalog/mMASa.html#MAS.ThG",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",

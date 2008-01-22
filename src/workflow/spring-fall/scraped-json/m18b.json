@@ -12,6 +12,7 @@
             "has-final":     false,
             "description":   "Students present and discuss the subject matter taken from current journals or books. Topics vary from year to year. Instruction and practice in written and oral communication provided. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.504",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -27,13 +28,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.504-1",
+            "label":              "L0118.504",
             "lecture-section-of": "18.504",
             "timeAndPlace":       "TR1-2.30 2-146"
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.504-2",
+            "label":              "L0218.504",
             "lecture-section-of": "18.504",
             "timeAndPlace":       "TR2.30-4 2-142"
         },
@@ -49,6 +50,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.510",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "prereq":        "18.511",
@@ -66,6 +68,7 @@
             "has-final":     false,
             "description":   "Propositional and predicate logic. Elementary model theory: completeness, compactness, and Lowenheim-Skolem theorems. Elementary recursion theory: enumeration and recursion theorems. Post's Problem. Godel incompleteness theorem. 18.511 and 18.510 are offered in alternate years; they may not both be taken for credit.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.511",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -87,6 +90,7 @@
             "has-final":     false,
             "description":   "More rigorous treatment of basic mathematical logic, Godel's theorems, and Zermelo-Fraenkel set theory. First-order logic. Models and satisfaction. Deduction and proof. Soundness and completeness. Compactness and its consequences. Quantifier elimination. Recursive sets and functions. Incompleteness and undecidability. Ordinals and cardinals. Set-theoretic formalization of mathematics.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.515",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -105,6 +109,7 @@
             "has-final":     false,
             "description":   "Topics in recursion theory chosen from priority arguments, hyperarithmetic theory, ordinal recursion, E-recursion, theory of projective sets. A previous subject in logic recommended but not required.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.565",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -113,7 +118,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.565-1",
+            "label":              "L0118.565",
             "lecture-section-of": "18.565",
             "timeAndPlace":       "TR11-12.30 2-151"
         },
@@ -129,6 +134,7 @@
             "has-final":     false,
             "description":   "Compactness theorem, ultraproducts, quantifier elimination, model completeness, Lowenheim-Skolem theorem, omitting types theorem, atomic and prime models, saturated and homogeneous models, indiscernibles, countable models, Morley's theorem, Baldwin-Lachlan theorem, omega-stability, forking and independence, model theory of algebraically closed and real closed fields, applications to algebra.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.575",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -152,6 +158,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.585",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -169,6 +176,7 @@
             "has-final":     false,
             "description":   "A rigorous treatment of linear algebra, including vector spaces, systems of linear equations, bases, linear independence, matrices, determinants, eigenvalues, inner products, quadratic forms, and canonical forms of matrices. Compared with 18.06, more emphasis on theory and proofs.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.700",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
@@ -191,6 +199,7 @@
             "has-final":     false,
             "description":   "More extensive and theoretical than the 18.700-18.703 sequence. Experience with proofs helpful. First term: group theory, geometry, and linear algebra. Second term: group representations, rings, ideals, fields, polynomial rings, modules, factorization, integers in quadratic number fields, field extensions, Galois theory.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.701",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -207,7 +216,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.701-1",
+            "label":              "L0118.701",
             "lecture-section-of": "18.701",
             "timeAndPlace":       "MWF10 4-159"
         },
@@ -223,6 +232,7 @@
             "has-final":     false,
             "description":   "A one-term treatment, covering the traditional algebra topics that have found greatest application in science and engineering as well as in mathematics: group theory, emphasizing finite groups; ring theory, including ideals and unique factorization in polynomial and Euclidean rings; field theory, including properties and applications of finite fields. 18.700 and 18.703 together form a standard algebra sequence.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.703",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "18.02",
@@ -231,7 +241,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.703-1",
+            "label":              "L0118.703",
             "lecture-section-of": "18.703",
             "timeAndPlace":       "TR2.30-4 4-159"
         },
@@ -247,6 +257,7 @@
             "has-final":     false,
             "description":   "Topics vary from year to year. Students present and discuss the subject matter. Instruction and practice in written and oral communication provided.  Some experience with proofs required.  Topic for fall 2007: Computational algebra and algebraic geometry. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.704",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -262,7 +273,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.704-1",
+            "label":              "L0118.704",
             "lecture-section-of": "18.704",
             "timeAndPlace":       "MWF11 2-146"
         },
@@ -278,6 +289,7 @@
             "has-final":     false,
             "description":   "Basic topics in commutative algebra: Noetherian rings and modules, Hilbert basis theorem, Cayley-Hamilton theorem, integral dependence, Noether normalization, the Nullstellensatz, localization, primary decomposition, DVRs, filtrations, length, Artin rings, Hilbert polynomials, tensor products, and dimension theory.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.705",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -300,6 +312,7 @@
             "has-final":     false,
             "description":   "Wedderburn theory, Morita equivalence, localization and Goldie's theorem central simple algebras and the Brauer group, maximal orders, representations, polynomial identity rings, invariant theory growth of algebras, Gelfand-Kirillov dimension.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.706",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -309,7 +322,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.706-1",
+            "label":              "L0118.706",
             "lecture-section-of": "18.706",
             "timeAndPlace":       "TR11-12.30 2-102"
         },
@@ -325,6 +338,7 @@
             "has-final":     false,
             "description":   "Introduces the basic notions and techniques of modern algebraic geometry. 18.725: Fundamental notions and results about algebraic varieties over an algebraically closed field; relations between complex algebraic varieties and complex analytic varieties; examples with emphasis on algebraic curves and surfaces. May be taken concurrently with 18.705. Knowledge of elementary algebraic topology, elementary differential geometry recommended, but not required. 18.726: Introduction to the language of schemes, properties of morphisms, and sheaf cohomology.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.725",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -343,7 +357,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.725-1",
+            "label":              "L0118.725",
             "lecture-section-of": "18.725",
             "timeAndPlace":       "TR9.30-11 2-102"
         },
@@ -359,6 +373,7 @@
             "has-final":     false,
             "description":   "Topics vary from year to year. Topic for fall 2007: algebraic cycles and homotopy theory.  Topic for spring 2008: algebraic surfaces. Classification, geometry and arithmetic of projective algebraic surfaces.  Knowledge of algebraic curves and sheaf cohomology expected.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.727",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -374,7 +389,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.727-1",
+            "label":              "L0118.727",
             "lecture-section-of": "18.727",
             "timeAndPlace":       "TR11-12.30 2-143"
         },
@@ -390,6 +405,7 @@
             "has-final":     false,
             "description":   "Topics vary from year to year.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.735",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Can be repeated for credit",
@@ -415,6 +431,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.737",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -433,6 +450,7 @@
             "has-final":     false,
             "description":   "Structure of finite-dimensional Lie algebras. Theorems of Engel and Lie. Cartan subalgebras. Trace form and Cartan's criterion.  Classification and construction of semisimple Lie algebras. Weyl group. Finite-dimensional representations of semisimple Lie algebras.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.745",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -455,6 +473,7 @@
             "has-final":     false,
             "description":   "Topics vary from year to year.  Topics for spring 2008: Representations of the Virasoro and Kac-Moody Lie algebras, vertex operators, relation to integrable systems, The Weyl-Kac denominator and character formulas, Knizhnik-Zamolodchikov equations.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.747",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -464,7 +483,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.747-1",
+            "label":              "L0118.747",
             "lecture-section-of": "18.747",
             "timeAndPlace":       "TR2.30-4 2-135"
         },
@@ -480,6 +499,7 @@
             "has-final":     false,
             "description":   "A general introduction to manifolds and Lie groups. The role of Lie groups in mathematics and physics. Exponential mapping. Correspondence with Lie algebras. Homogeneous spaces and transformation groups. Adjoint representation. Covering groups. Automorphism groups. Invariant differential forms and cohomology of Lie groups and homogeneous spaces. 18.101 recommended but not required.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.755",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -503,6 +523,7 @@
             "has-final":     false,
             "description":   "Representations of locally compact groups, with emphasis on compact groups and abelian groups. Peter-Weyl theorem and Cartan-Weyl highest weight theory for compact Lie groups.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.757",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -512,7 +533,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.757-1",
+            "label":              "L0118.757",
             "lecture-section-of": "18.757",
             "timeAndPlace":       "MWF2 2-255"
         },
@@ -528,6 +549,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.758",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -546,6 +568,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.769",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered this year",
@@ -566,6 +589,7 @@
             "has-final":     false,
             "description":   "An elementary introduction to number theory with no algebraic prerequisites. Primes, congruences, quadratic reciprocity, diophantine equations, irrational numbers, continued fractions, partitions.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.781",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     "Brubaker, B.",
@@ -583,6 +607,7 @@
             "has-final":     false,
             "description":   "Topics vary from year to year. Students present and discuss the subject matter. Instruction and practice in written and oral communication provided.  Topic for fall 2007: Quantum calculus and its applications to number theory.  Topic for spring 2008: Modular forms in number theory and the work of Ramanujan. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.784",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -599,7 +624,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.784-1",
+            "label":              "L0118.784",
             "lecture-section-of": "18.784",
             "timeAndPlace":       "MWF2 2-102"
         },
@@ -615,6 +640,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.785",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -633,6 +659,7 @@
             "has-final":     false,
             "description":   "An introduction to algebraic number theory. Dedekind domains, unique factorization of prime ideals. Number fields, splitting of primes, class group. Lattice methods, finiteness of the class number, Dirichlet's units theorem. Local fields, ramification, discriminants. Background in elementary number theory (e.g., 18.781) strongly recommended.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.786",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -646,7 +673,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.786-1",
+            "label":              "L0118.786",
             "lecture-section-of": "18.786",
             "timeAndPlace":       "TR1-2.30 2-102"
         },
@@ -662,6 +689,7 @@
             "has-final":     false,
             "description":   "Content varies from year to year. Topic for fall 2007: theory of p-adic ordinary differential equations; applications to p-adic Hodge theory, zeta functions of algebraic varieties.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.787",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Can be repeated for credit",
@@ -683,6 +711,7 @@
             "has-final":     false,
             "description":   "Guided research in mathematics, employing the scientific method. Students confront puzzling and complex mathematical situations, through the acquisition of data by computer, pencil and paper, or physical experimentation, and attempt to explain them mathematically. Students choose three projects from a large collection of options. Each project results in a laboratory report subject to revision; oral presentation on one report in a course conference. Projects drawn from many areas, including dynamical systems, number theory, algebra, fluid mechanics, asymptotic analysis, knot theory, and probability.  Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.821",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -695,7 +724,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.821-1",
+            "label":              "L0118.821",
             "lecture-section-of": "18.821",
             "timeAndPlace":       "M3-5 4-159"
         },
@@ -711,6 +740,7 @@
             "has-final":     true,
             "description":   "Introduces topology, covering topics fundamental to modern analysis and geometry. Topological spaces and continuous functions, connectedness, compactness, separation axioms, and selected further topics such as function spaces, metrization theorems, embedding theorems, dimension theory.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.901",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -725,7 +755,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.901-1",
+            "label":              "L0118.901",
             "lecture-section-of": "18.901",
             "timeAndPlace":       "TR1-2.30 2-151"
         },
@@ -741,6 +771,7 @@
             "has-final":     false,
             "description":   "Students present and discuss the subject matter with faculty guidance. Topics include the fundamental group and covering spaces. Instruction and practice in written and oral communication provided. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.904",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "18.901",
@@ -759,6 +790,7 @@
             "has-final":     false,
             "description":   "Review of fundamental group and covering spaces; simplicial, cellular, and singular homology; universal coefficient and Kunneth theorems; cohomology, cup product; Poincare duality.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.905",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -782,6 +814,7 @@
             "has-final":     false,
             "description":   "Continues the introduction to Algebraic Topology from 18.905. Topics include basic homotopy theory, spectral sequences, characteristic classes, and cohomology operations.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.906",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -791,7 +824,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.906-1",
+            "label":              "L0118.906",
             "lecture-section-of": "18.906",
             "timeAndPlace":       "MWF12 2-151"
         },
@@ -807,6 +840,7 @@
             "has-final":     false,
             "description":   "Study and discussion of important original papers in the various parts of algebraic topology. Open to all students who have taken 18.906 or the equivalent, not only prospective topologists.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.915",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -826,6 +860,7 @@
             "has-final":     false,
             "description":   "Content varies from year to year. Introduces new and significant developments in algebraic topology with the focus on homotopy theory and related areas.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.917",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -851,6 +886,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.937",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered this year",
@@ -871,6 +907,7 @@
             "has-final":     false,
             "description":   "An introduction to differential geometry. Metrics, Lie bracket, connections, geodesics, tensors, intrinsic and extrinsic curvature are studied on abstractly defined manifolds using coordinate charts. Curves and surfaces in three dimensions are studied as important special cases. Gauss-Bonnet theorem for surfaces and selected introductory topics in special and general relativity are also studied. 18.100 is required, 18.101 is strongly recommended, and 18.901 would be helpful.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.950",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -893,6 +930,7 @@
             "has-final":     false,
             "description":   ". The change of variables formula revisited. The degree of a differentiable mapping. Differential forms on manifolds and De Rham theory. Integration of forms on manifolds and Stokes' theorem. The push-forward operation for forms. Thom forms and intersection theory. Applications to differential topology.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.952",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -905,7 +943,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.952-1",
+            "label":              "L0118.952",
             "lecture-section-of": "18.952",
             "timeAndPlace":       "MWF12 2-255"
         },
@@ -921,6 +959,7 @@
             "has-final":     false,
             "description":   "Differential forms, introduction to Lie groups, the DeRham theorem, Riemannian manifolds, curvature, the Hodge theory. 18.966 is a continuation of 18.965 and focuses more deeply on various aspects of the geometry of manifolds. Contents vary from year to year, and can range from Riemannian geometry (curvature, holonomy) to symplectic geometry, complex geometry and Hodge-Kahler  theory, or smooth manifold topology.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.965",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -943,7 +982,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.965-1",
+            "label":              "L0118.965",
             "lecture-section-of": "18.965",
             "timeAndPlace":       "MW9.30-11 2-102"
         },
@@ -959,6 +998,7 @@
             "has-final":     false,
             "description":   "Content varies from year to year. Topics for fall 2007: Introduction to Ozsvath-Szabo (Heegaard) Floer homology. Topics will include a brief introduction to Lagrangian Floer homology, construction of three and four-manifold invariants introduced by Ozsvath and Szabo as a special case of Lagrangian Floer homology, knot and link Floer homology invariants and their relationship to the three and four-manifold invariants, and applications of these invariants to contact geometry, knot theory, and three-manifold topology and geometry.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.969",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -974,7 +1014,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.969-1",
+            "label":              "L0118.969",
             "lecture-section-of": "18.969",
             "timeAndPlace":       "TR11-12.30 2-142"
         },
@@ -990,6 +1030,7 @@
             "has-final":     false,
             "description":   "Content varies from year to year. Spring 2008: Symplectic Topology. Topic is either generalized Lagrangian Floer theory (as A_\\infty algebras) or Lagrangian correspondences and pseudoholomorphic quilts.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.979",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
@@ -1001,7 +1042,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.979-1",
+            "label":              "L0118.979",
             "lecture-section-of": "18.979",
             "timeAndPlace":       "TR2.30-4 2-131"
         },
@@ -1017,6 +1058,7 @@
             "has-final":     false,
             "description":   "Students present and discuss subject matter taken from current journals or books. Topics vary from year to year. Instruction and practice in written and oral communication provided. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.994",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "18.101",
@@ -1025,7 +1067,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.994-1",
+            "label":              "L0118.994",
             "lecture-section-of": "18.994",
             "timeAndPlace":       "MWF1 2-255"
         },
@@ -1041,6 +1083,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.995-18.998",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -1065,6 +1108,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.999",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -1088,6 +1132,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.UR",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1110,6 +1155,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.ThG",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1133,6 +1179,7 @@
             "has-final":     false,
             "description":   "Provides credit for students studying at Cambridge University under the Undergraduate Student Exchange Program of the Cambridge-MIT Institute.  Credit may be used to satisfy specific SB degree requirements. Consult with department and CME office.",
             "url":           "http://student.mit.edu/catalog/m18b.html#18.CME",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"

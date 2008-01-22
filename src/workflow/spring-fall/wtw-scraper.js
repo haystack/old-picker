@@ -34,7 +34,7 @@ function processTd(element) {
 	var classNumber = cleanString(element.innerHTML);
 	var instructor = cleanString(element.nextSibling.nextSibling.innerHTML);
 	var classItem = {
-        "id":           classNumber,
+        "id":           classNumber.replace(/J/, ""),
         "instructor":		instructor
     };
 	json.items.push(classItem);

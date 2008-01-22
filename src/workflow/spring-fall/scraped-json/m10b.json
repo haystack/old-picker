@@ -12,6 +12,7 @@
             "has-final":     false,
             "description":   "For special and graduate students who wish to carry out some minor investigation in a particular field. Subject and hours to fit individual requirements.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.90",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -37,6 +38,7 @@
             "has-final":     false,
             "description":   "For undergraduates who wish to do a special investigation or special topic in a particular field. Topic and hours arranged.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.910",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -67,6 +69,7 @@
             "has-final":     false,
             "description":   "Problem of current interest, varying from year to year.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.94",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Can be repeated for credit",
@@ -87,6 +90,7 @@
             "has-final":     false,
             "description":   "Directed research and study of special chemical engineering problems.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.95",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -111,6 +115,7 @@
             "has-final":     false,
             "description":   "Directed research and study of special chemical-biological engineering problems. Enrollment limited to 20 students.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.96",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -126,7 +131,7 @@
         {
             "type":          "Class",
             "label":         "Student Seminar in Polymer Science and Technology",
-            "id":            "10.960J",
+            "id":            "10.960",
             "listing-index": "m10b-005",
             "course":        "10",
             "level":         "Grad",
@@ -135,6 +140,7 @@
             "has-final":     false,
             "description":   "A series of seminars covering a broad spectrum of topics in polymer science and engineering, featuring both on- and off-campus speakers.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.960J",
+            "joint":         true,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -154,8 +160,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.960J-1",
-            "lecture-section-of": "10.960J",
+            "label":              "L0110.960",
+            "lecture-section-of": "10.960",
             "timeAndPlace":       "W3-5 66-110"
         },
         {
@@ -170,6 +176,7 @@
             "has-final":     false,
             "description":   "Research seminars, presented by students engaged in thesis work in the field of air pollution. Particular emphasis given to atmospheric chemistry, mathematical modeling, and policy analysis.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.961",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -183,7 +190,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.961-1",
+            "label":              "L0110.961",
             "lecture-section-of": "10.961",
             "timeAndPlace":       "T9-10.30 66-056"
         },
@@ -199,6 +206,7 @@
             "has-final":     false,
             "description":   "Weekly seminar with discussion of ongoing research and relevant literature by graduate students, postdoctoral fellows, and visiting scientists on issues at the interface of chemical engineering with molecular cell biology.  Emphasis is on quantitative aspects of physicochemical mechanisms involved in receptor/ligand interactions, receptor signal transduction processes, receptor-mediated cell behavioral responses, and applications of these in biotechnology and medicine.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.962",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -212,7 +220,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.962-1",
+            "label":              "L0110.962",
             "lecture-section-of": "10.962",
             "timeAndPlace":       "T8.30-10.30 8-315"
         },
@@ -228,6 +236,7 @@
             "has-final":     false,
             "description":   "Structure of CPI; mission, structure and management of R&D organizations; basic research-technology platforms-business creation; measuring R&D effectiveness; road-mapping: linking business and R&D strategies and plans; integrating R&D with marketing: the product-centered companies; IP strategies and portfolio of R&D projects; stage-gate processes: planning, implementing, monitoring, assessing, and controlling R&D projects; Six-Sigma for Research: R&D proposals and projects; the engineering approach to the execution of R&D projects; R&D and the globalization of CPI; creating and leveraging knowledge-assets; from discovery to the creation of business value; R&D in various segments of the CPI.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.963",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     "Stephanopoulos, Geo.",
@@ -245,6 +254,7 @@
             "has-final":     false,
             "description":   "Seminar allows students to present their research to other students and staff. The research topics include computational chemistry techniques, kinetics, and catalysis. Focus is on molecular-level understanding of chemical change.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.970",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -261,13 +271,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.970-1",
+            "label":              "L0110.970",
             "lecture-section-of": "10.970",
             "timeAndPlace":       "M11.30-1 66-360"
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.970-2",
+            "label":              "L0210.970",
             "lecture-section-of": "10.970",
             "timeAndPlace":       "W EVE (4-6 PM) E19-758"
         },
@@ -283,6 +293,7 @@
             "has-final":     false,
             "description":   "Seminar series on current research on Newtonian and non-Newtonian fluid mechanics and transport phenomena, and applications to materials processing. Seminars given by guest speakers and research students.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.971",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -300,7 +311,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.971-1",
+            "label":              "L0110.971",
             "lecture-section-of": "10.971",
             "timeAndPlace":       "R EVE (4-6 PM) 66-360"
         },
@@ -316,6 +327,7 @@
             "has-final":     false,
             "description":   "Seminar allows students to present their research programs to other students and staff. The research topics include fermentation and enzyme technology, mammalian and animal cell cultivation, and biological product separation.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.972",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -342,6 +354,7 @@
             "has-final":     false,
             "description":   "Seminar covering topics related to current research in the application of chemical engineering principles to biomedical science and biotechnology.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.973",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -358,7 +371,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.973-1",
+            "label":              "L0110.973",
             "lecture-section-of": "10.973",
             "timeAndPlace":       "F1-3 66-360"
         },
@@ -374,6 +387,7 @@
             "has-final":     false,
             "description":   "Research seminars, presented by students engaged in thesis work in the field of polymers and by visiting lecturers from industry and academia.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.975",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -392,19 +406,19 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.975-1",
+            "label":              "L0110.975",
             "lecture-section-of": "10.975",
             "timeAndPlace":       "T12-2 66-360"
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.975-2",
+            "label":              "L0210.975",
             "lecture-section-of": "10.975",
             "timeAndPlace":       "T2-4 66-360"
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.975-3",
+            "label":              "L0310.975",
             "lecture-section-of": "10.975",
             "timeAndPlace":       "W12-2 66-360"
         },
@@ -420,6 +434,7 @@
             "has-final":     false,
             "description":   "Seminars on the state of the art in design, operations, and control of processing systems, with emphasis on computer-based tools. Discussions guided by the research interests of participating students. Topics include mathematical and numerical techniques, representational methodologies, and software development.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.976",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -433,7 +448,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.976-1",
+            "label":              "L0110.976",
             "lecture-section-of": "10.976",
             "timeAndPlace":       "R EVE (4-6 PM) 66-380"
         },
@@ -449,6 +464,7 @@
             "has-final":     false,
             "description":   "Review of current topics in phase equilibria, mass transport, and chemical kinetics. Subjects include oxidation and hydrolysis reactions, and solid-salt nucleation and solubility in supercritical water; chemical synthesis and materials processing using supercritical fluids, and equations of state in high-temperature, high-pressure aqueous systems; quantum chemistry; molecular simulations of aqueous electrolytes and gas hydrates.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.978",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -462,7 +478,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.978-1",
+            "label":              "L0110.978",
             "lecture-section-of": "10.978",
             "timeAndPlace":       "W EVE (4-6 PM) 56-302"
         },
@@ -478,6 +494,7 @@
             "has-final":     false,
             "description":   "Advanced topics in plasma processing used in the fabrication of microelectronics. Emphasis placed on topics of plasma kinetics, gas-solid interactions, sputtering, and reactor design. Discussions include current research in the literature.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.979",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -491,7 +508,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.979-1",
+            "label":              "L0110.979",
             "lecture-section-of": "10.979",
             "timeAndPlace":       "F1-3 66-380"
         },
@@ -507,6 +524,7 @@
             "has-final":     false,
             "description":   "Review of current topics in colloid and interface science. Topics include statistical mechanics and thermodynamics of micellar solutions, self-assembling systems, and microemulsions; solubilization of simple ions, amino acids, and proteins in reversed micelles; enzymatic reactions in reversed micelles; phase equilibria in colloidal systems; interfacial phenomena in colloidal systems; biomedical aspects of colloidal systems.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.981",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -520,7 +538,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.981-1",
+            "label":              "L0110.981",
             "lecture-section-of": "10.981",
             "timeAndPlace":       "W1-3 66-369"
         },
@@ -536,6 +554,7 @@
             "has-final":     false,
             "description":   "In-depth discussion of fundamental physical relationships underlying techniques commonly used in the study of colloids and surfaces with a focus on recent advances and experimental applications. Topics have included the application of steady-state and time-resolved fluorescence spectroscopies, infrared spectroscopy, and scanning probe microscopies.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.982",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -549,7 +568,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.982-1",
+            "label":              "L0110.982",
             "lecture-section-of": "10.982",
             "timeAndPlace":       "T EVE (4-6 PM) 66-360"
         },
@@ -565,6 +584,7 @@
             "has-final":     false,
             "description":   "Advanced topics in synthesis of materials through processes involving transport phenomena and chemical reactions. Chemical vapor deposition, modeling, and experimental approaches to kinetics of gas phase and surface reactions, transport phenomena in complex systems, materials synthesis, and materials characterization. Design fabrication and applications of microfabricated chemical systems. Seminars by graduate students, postdoctoral associates, participating faculty, and visiting lecturers.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.983",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -578,7 +598,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.983-1",
+            "label":              "L0110.983",
             "lecture-section-of": "10.983",
             "timeAndPlace":       "W EVE (4-6 PM) 66-360"
         },
@@ -594,6 +614,7 @@
             "has-final":     false,
             "description":   "Weekly seminar with lectures on current research by graduate students, postdoctoral fellows, and visiting scientists on topics related to biomedical applications of chemical engineering. Specific topics include polymeric controlled release technology, extracorporal reactor design, biomedical polymers, bioengineering aspects of pharmaceuticals, and biomaterials/tissue and cell interactions.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.984",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -607,7 +628,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.984-1",
+            "label":              "L0110.984",
             "lecture-section-of": "10.984",
             "timeAndPlace":       "W EVE (5-6.30 PM) E25-117"
         },
@@ -623,6 +644,7 @@
             "has-final":     false,
             "description":   "Current research topics and fundamental issues relating to the deposition and properties of solid thin films and interfaces. Emphasis on applying analytical techniques, such as solid-state NMR, to explore the thermodynamics and kinetics of growth, defect formation, and structural modification incurred during film growth and post processing.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.987",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -636,7 +658,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.987-1",
+            "label":              "L0110.987",
             "lecture-section-of": "10.987",
             "timeAndPlace":       "R3 66-360"
         },
@@ -652,6 +674,7 @@
             "has-final":     false,
             "description":   "Research seminars, presented by graduate students and visitors from industry and academia, covering a broad range of topics of current interest in biotechnology. Discussion focuses on generic questions with potential biotechnological applications and the quest for solutions through a coordinated interdisciplinary approach.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.989",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -665,7 +688,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.989-1",
+            "label":              "L0110.989",
             "lecture-section-of": "10.989",
             "timeAndPlace":       "R12-2 66-360"
         },
@@ -681,6 +704,7 @@
             "has-final":     false,
             "description":   "Introduction to research in chemical engineering by faculty of chemical engineering department. Focus is on recent developments and research projects available to new graduate students.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.990",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     [
@@ -701,6 +725,7 @@
             "has-final":     false,
             "description":   "For students working on doctoral theses.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.991",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -719,7 +744,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.991-1",
+            "label":              "L0110.991",
             "lecture-section-of": "10.991",
             "timeAndPlace":       "MF3-4.30 66-110"
         },
@@ -735,6 +760,7 @@
             "has-final":     false,
             "description":   "Presentations and discussion by graduate students, postdoctoral fellows, and visiting scientists of current literature and research on the engineering of protein biopharmaceuticals. Topics include combinatorial library construction and screening strategies, antibody engineering, gene therapy, cytokine engineering, and immunotherapy engineering strategies.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.994",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -758,6 +784,7 @@
             "has-final":     false,
             "description":   "Graduate students, postdoctoral fellows, visiting scientists, and guest industrial practitioners to present their own research and highlight important advances from the literature in biochemical and bioprocess engineering. Topics of interest include metabolic engineering, novel microbial pathway design and optimization, synthetic biology, and applications of molecular biology to bioprocess development.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.995",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -784,6 +811,7 @@
             "has-final":     false,
             "description":   "Presentations and discussion by graduate students, postdoctoral fellows and visiting scientists on current literature and topics in the field of cellular engineering.  Topics include the modeling and experimental  validation of cell signaling and transcriptional regulation processes, the evolution of such processes, and engineering these processes in single cells for bioprocess applications.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.996",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -794,7 +822,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L10.996-1",
+            "label":              "L0110.996",
             "lecture-section-of": "10.996",
             "timeAndPlace":       "W EVE (4-6 PM) 66-480"
         },
@@ -810,6 +838,7 @@
             "has-final":     false,
             "description":   "Presentations and discussions of current literature and research in theoretical and computational immunology.  Topics include T cell biology, cell-cell recognition in immunology, polymers and membranes, and statistical mechanics.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.997",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -834,6 +863,7 @@
             "has-final":     false,
             "description":   "Provides credit for students studying at Cambridge University under the Undergraduate Student Exchange Program of the Cambridge-MIT Institute. Credit may be used to satisfy specific SB degree requirements by arrangement with the department.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.CME",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -857,6 +887,7 @@
             "has-final":     false,
             "description":   "Provides engineering students, typically sophomores, the opportunity to participate in engineering practice.  Students gain experience with recruitment and job selection, the job experience, and the assessment and reflection process. Spring term includes seminars and workshops in preparation for internship and management of career path.  With the assistance of UPOP staff, students find and engage in a 10-12 week summer job experience, during which they maintain a journal of their experiences.  In the Fall term, students write essays addressing the topics introduced in UPOP EPW workshop during IAP, complete a post-summer self-evaluation form, and discuss these forms with their regular academic advisor. Students have the opportunity to share their experiences with others in a roundtable discussion.  Can be taken up to two times for credit. Spring term can only be taken in conjunction with the Fall term.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.EPE",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -889,6 +920,7 @@
             "has-final":     false,
             "description":   "Provides engineering sophomores the opportunity to reflect and share their summer practice experiences as related to the topics of the IAP subject and students' academic subjects through a written report and an oral presentation delivered at a UPOP Symposium in the fall.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.EPR",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -915,6 +947,7 @@
             "has-final":     false,
             "description":   "Provides engineering sophomores the opportunity to build the core foundation of skills necessary to succeed in and prepare for a summer practice experience. Introduces concepts in product development, system dynamics, organizational dynamics, and effective communication. Also introduces concepts in ethics and character, and leadership and teamwork to ensure that students acquire an appreciation of the social, environmental, and ethical implications of organizational decision making. Subject is an interactive experience integrating lectures with role-playing, simulations, and group projects, where students apply these concepts in a case study context. Students are provided with a journal to be used during their summer training practice. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.EPW",
+            "joint":         false,
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -941,6 +974,7 @@
             "has-final":     false,
             "description":   "Program of research leading to the writing of an SM, PhD, or ScD thesis; to be arranged by the student and appropriate MIT faculty member.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.ThG",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -966,6 +1000,7 @@
             "has-final":     false,
             "description":   "Program of research leading to writing an SB thesis; topic arranged between student and MIT faculty member.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.ThU",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -990,6 +1025,7 @@
             "has-final":     false,
             "description":   "Opportunity for participation in a research group, or for special investigation in a particular field. Topic and hours to fit individual requirements.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.UR",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",

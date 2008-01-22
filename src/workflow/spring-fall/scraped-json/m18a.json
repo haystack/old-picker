@@ -12,6 +12,7 @@
             "has-final":     true,
             "description":   "Differentiation and integration of functions of one variable, with applications.  Informal treatment of limits and continuity.  Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations.  Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science.  Elementary functions.  Techniques of integration.  Polar coordinates. L'Hopital's rule.  Improper integrals.  Infinite series: geometric, p-harmonic, simple comparison tests, formal power series for some elementary functions.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.01",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -27,7 +28,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.01-1",
+            "label":              "L0118.01",
             "lecture-section-of": "18.01",
             "timeAndPlace":       [
                 "TR1 2-142",
@@ -36,7 +37,7 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.01-2",
+            "label":          "R0218.01",
             "rec-section-of": "18.01",
             "timeAndPlace":   "MW2 2-143"
         },
@@ -52,6 +53,7 @@
             "has-final":     false,
             "description":   "Six-week review of one-variable calculus, emphasizing material not on the high-school AB syllabus: integration techniques and applications, polar coordinates, improper integrals, infinite series. Prerequisites: one year of high-school calculus or the equivalent, with a score of 4 or 5 on the AB Calculus test (or the AB portion of the BC test, or an equivalent score on a standard international exam), or equivalent college transfer credit, or a passing grade on the first half of the 18.01 advanced standing exam.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.01A",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Calculus 1",
@@ -74,6 +76,7 @@
             "has-final":     false,
             "description":   "Covers the same material as 18.01, but at a deeper and more rigorous level. Emphasizes careful reasoning and understanding of proofs. Assumes knowledge of elementary calculus. Topics: axioms for the real numbers; the Riemann integral; limits, theorems on continuous functions; derivatives of functions of one variable; the fundamental theorems of calculus; Taylor's theorem; infinite series, power series, rigorous treatment of the elementary functions.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.014",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Calculus 1",
@@ -96,6 +99,7 @@
             "has-final":     true,
             "description":   "Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.02",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -114,7 +118,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.02-1",
+            "label":              "L0118.02",
             "lecture-section-of": "18.02",
             "timeAndPlace":       [
                 "TR1 54-100",
@@ -123,43 +127,43 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.02-2",
+            "label":          "R0218.02",
             "rec-section-of": "18.02",
             "timeAndPlace":   "MW9 2-131"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.02-3",
+            "label":          "R0318.02",
             "rec-section-of": "18.02",
             "timeAndPlace":   "MW10 2-131"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.02-4",
+            "label":          "R0418.02",
             "rec-section-of": "18.02",
             "timeAndPlace":   "MW11 2-139"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.02-5",
+            "label":          "R0518.02",
             "rec-section-of": "18.02",
             "timeAndPlace":   "MW12 2-131"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.02-6",
+            "label":          "R0618.02",
             "rec-section-of": "18.02",
             "timeAndPlace":   "MW1 2-131"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.02-7",
+            "label":          "R0718.02",
             "rec-section-of": "18.02",
             "timeAndPlace":   "MW2 2-151"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.02-8",
+            "label":          "R0818.02",
             "rec-section-of": "18.02",
             "timeAndPlace":   "MW3 2-151"
         },
@@ -175,6 +179,7 @@
             "has-final":     false,
             "description":   "First half is taught during the last six weeks of the  Fall term; covers material in the first half of 18.02 (through double integrals). Second half of 18.02A can be taken either during IAP (daily lectures) or during the first half of the Spring term; it covers the remaining material in 18.02.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.02A",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -195,7 +200,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.02A-1",
+            "label":              "L0118.02A",
             "lecture-section-of": "18.02A",
             "timeAndPlace":       [
                 "TR1 4-159",
@@ -204,7 +209,7 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.02A-2",
+            "label":          "R0218.02A",
             "rec-section-of": "18.02A",
             "timeAndPlace":   "MW2 2-142"
         },
@@ -220,6 +225,7 @@
             "has-final":     false,
             "description":   "Calculus of several variables. Topics as in 18.02 but with more focus on mathematical concepts. Vector algebra, dot product, matrices, determinant. Functions of several variables, continuity, differentiability, derivative. Parametrized curves, arc length, curvature, torsion. Vector fields, gradient, curl, divergence. Multiple integrals, change of variables, line integrals, surface integrals. Manifolds with boundary, Stokes' theorem in one, two, and three dimensions.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.022",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Calculus 2",
@@ -245,6 +251,7 @@
             "has-final":     false,
             "description":   "Calculus of several variables, emphasizing applications. Vector algebra, partial differentiation, multiple integrals, and vector calculus. Asymptotic and numerical methods.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.023",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Calculus 2",
@@ -270,6 +277,7 @@
             "has-final":     true,
             "description":   "Continues 18.014. Parallel to 18.02, but at a deeper level, emphasizing careful reasoning and understanding of proofs. Considerable emphasis on linear algebra and vector integral calculus.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.024",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Calculus 2",
@@ -285,7 +293,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.024-1",
+            "label":              "L0118.024",
             "lecture-section-of": "18.024",
             "timeAndPlace":       [
                 "TR1 2-143",
@@ -294,7 +302,7 @@
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.024-2",
+            "label":          "R0218.024",
             "rec-section-of": "18.024",
             "timeAndPlace":   "MW2 2-103"
         },
@@ -310,6 +318,7 @@
             "has-final":     true,
             "description":   "Study of ODE's, including modeling physical systems. Solution of first-order ODE's by  analytical, graphical and numerical methods.  Linear ODE's, primarily second order with constant coefficients.  Complex numbers and exponentials.  Inhomogeneous equations: polynomial, sinusoidal and exponential inputs.  Oscillations, damping, resonance. Fourier series inputs; resonant terms. Laplace transform methods; convolution and delta function. Matrix methods for first order linear systems: eigenvalues and eigenvectors, matrix exponentials, variation of parameters.  Non-linear autonomous systems: critical point analysis, phase plane diagrams, applications to modeling.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.03",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -330,13 +339,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.03-1",
+            "label":              "L0118.03",
             "lecture-section-of": "18.03",
             "timeAndPlace":       "MWF1 34-101"
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.03-2",
+            "label":              "L0218.03",
             "lecture-section-of": "18.03",
             "timeAndPlace":       "MWF2 34-101"
         },
@@ -352,6 +361,7 @@
             "has-final":     true,
             "description":   "Covers much of the same material as 18.03 with more emphasis on theory. The point of view is rigorous and results are proven.  Local existence and uniqueness of solutions.  First order equations, separation, initial value problems. Systems, linear equations, independence of solutions, undetermined coefficients. Singular points and periodic orbits of planar systems.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.034",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
@@ -368,19 +378,19 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.034-1",
+            "label":              "L0118.034",
             "lecture-section-of": "18.034",
             "timeAndPlace":       "MWF1 2-136"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.034-2",
+            "label":          "R0218.034",
             "rec-section-of": "18.034",
             "timeAndPlace":   "TR11 2-105"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.034-3",
+            "label":          "R0318.034",
             "rec-section-of": "18.034",
             "timeAndPlace":   "MW3 2-139"
         },
@@ -396,6 +406,7 @@
             "has-final":     true,
             "description":   "Complex algebra and functions; analyticity; contour integration, Cauchy's theorem; singularities, Taylor and Laurent series; residues, evaluation of integrals; multivalued functions, potential theory in two dimensions; Fourier analysis and Laplace transforms.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.04",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -409,25 +420,25 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.04-1",
+            "label":              "L0118.04",
             "lecture-section-of": "18.04",
             "timeAndPlace":       "MWF12 2-190"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.04-2",
+            "label":          "R0218.04",
             "rec-section-of": "18.04",
             "timeAndPlace":   "W2 2-131"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.04-3",
+            "label":          "R0318.04",
             "rec-section-of": "18.04",
             "timeAndPlace":   "W3 2-131"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.04-4",
+            "label":          "R0418.04",
             "rec-section-of": "18.04",
             "timeAndPlace":   "R3 2-132"
         },
@@ -443,6 +454,7 @@
             "has-final":     false,
             "description":   "Elementary introduction with applications. Basic probability models. Combinatorics. Random variables. Discrete and continuous probability distributions. Statistical estimation and testing. Confidence intervals. Introduction to linear regression.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.05",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
@@ -455,7 +467,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.05-1",
+            "label":              "L0118.05",
             "lecture-section-of": "18.05",
             "timeAndPlace":       "MWF10 2-139"
         },
@@ -471,6 +483,7 @@
             "has-final":     true,
             "description":   "Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses MATLAB. Compared with 18.700, more emphasis on matrix algorithms and many applications.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.06",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -487,50 +500,50 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.06-1",
+            "label":              "L0118.06",
             "lecture-section-of": "18.06",
             "timeAndPlace":       "MWF11 54-100"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.06-2",
+            "label":          "R0218.06",
             "rec-section-of": "18.06",
             "timeAndPlace":   "M2 2-131"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.06-3",
+            "label":          "R0318.06",
             "rec-section-of": "18.06",
             "timeAndPlace":   "M3 2-131"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.06-4",
+            "label":          "R0418.06",
             "rec-section-of": "18.06",
             "timeAndPlace":   "T11 2-132"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.06-5",
+            "label":          "R0518.06",
             "rec-section-of": "18.06",
             "timeAndPlace":   "T12 2-132"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.06-6",
+            "label":          "R0618.06",
             "rec-section-of": "18.06",
             "timeAndPlace":   "T1 2-132"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.06-7",
+            "label":          "R0718.06",
             "rec-section-of": "18.06",
             "timeAndPlace":   "T2 2-132"
         },
         {
             "type":          "Class",
             "label":         "Mathematics for Computer Science",
-            "id":            "18.062J",
+            "id":            "18.062",
             "listing-index": "m18a-013",
             "course":        "18",
             "level":         "Undergrad",
@@ -539,6 +552,7 @@
             "has-final":     true,
             "description":   "Elementary discrete mathematics for computer science and engineering. Emphasis on mathematical definitions and proofs as well as on applicable methods.  Topics: formal logic notation, proof methods; induction, well-ordering; sets, relations; elementary graph theory; integer congruences; asymptotic notation and growth of functions; permutations and combinations, counting principles; discrete probability.  Further selected topics such as: recursive definition and structural induction; state machines and invariants; recurrences; generating functions.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.062J",
+            "joint":         true,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -557,8 +571,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.062J-1",
-            "lecture-section-of": "18.062J",
+            "label":              "L0118.062",
+            "lecture-section-of": "18.062",
             "timeAndPlace":       "MWF9.30-11 26-152"
         },
         {
@@ -573,6 +587,7 @@
             "has-final":     false,
             "description":   "Functions of a complex variable; calculus of residues. Ordinary differential equations; Bessel and Legendre functions; Sturm-Liouville theory; partial differential equations.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.075",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -589,7 +604,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.075-1",
+            "label":              "L0118.075",
             "lecture-section-of": "18.075",
             "timeAndPlace":       "MW2-3.30 4-265"
         },
@@ -605,6 +620,7 @@
             "has-final":     false,
             "description":   "Review of linear algebra, applications to networks, structures, and estimation, finite difference and finite element solution of differential equations, Laplace's equation and potential flow, boundary-value problems, Fourier series, discrete Fourier transform, convolution. Frequent use of MATLAB in a wide range of scientific and engineering applications.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.085",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -622,7 +638,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.085-1",
+            "label":              "L0118.085",
             "lecture-section-of": "18.085",
             "timeAndPlace":       "MWF12 4-370"
         },
@@ -638,6 +654,7 @@
             "has-final":     false,
             "description":   "Scientific computing: Fast solvers for finite difference equations, finite elements, spectral method, and multigrid. Initial-value problems: stable methods for the wave equation and heat equation and Maxwell's equations, conservation laws and shocks, dissipation and dispersion. Optimization: network flows, KKT conditions. Includes computational projects.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.086",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -651,7 +668,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.086-1",
+            "label":              "L0118.086",
             "lecture-section-of": "18.086",
             "timeAndPlace":       "MWF1 2-132"
         },
@@ -667,6 +684,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.089",
+            "joint":         false,
             "semester":      "Summer",
             "offering":      "Currently Offered",
             "area":          "General Mathematics"
@@ -674,7 +692,7 @@
         {
             "type":          "Class",
             "label":         "Teaching College-Level Science",
-            "id":            "18.094J",
+            "id":            "18.094",
             "listing-index": "m18a-018",
             "course":        "18",
             "level":         "Grad",
@@ -683,6 +701,7 @@
             "has-final":     false,
             "description":   "Participatory seminar focuses on the knowledge and skills necessary for teaching science in higher education. Topics include: theories of adult learning; course development; promoting active learning, problem solving, and critical thinking in students; communicating with a diverse student body; using educational technology to further learning; lecturing; creating effective tests and assignments; and assessment and evaluation. Students research and present a relevant topic of particular interest. Subject is appropriate for both novices and those with teaching experience.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.094J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -705,6 +724,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.095",
+            "joint":         false,
             "semester":      "IAP",
             "offering":      [
                 "Can be repeated for credit",
@@ -725,6 +745,7 @@
             "has-final":     false,
             "description":   "Instruction in preparing and presenting professional papers in mathematics, including a tutorial providing individual guidance in editing and formatting a paper to make it suitable for publication in MIT's Undergraduate Journal of Mathematics.  Students lecture on their papers and on topics of their choice, and write reviews of each other's lectures.  Students must come with a draft containing an adequate amount of technical mathematics, such as a term paper or a research report. Enrollment limited, with preference given to senior Mathematics majors.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.096",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     "Kleiman, S.",
@@ -732,7 +753,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.096-1",
+            "label":              "L0118.096",
             "lecture-section-of": "18.096",
             "timeAndPlace":       "MW1 2-139"
         },
@@ -748,6 +769,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.098",
+            "joint":         false,
             "semester":      "IAP",
             "offering":      [
                 "Can be repeated for credit",
@@ -767,6 +789,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.099",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -791,6 +814,7 @@
             "has-final":     true,
             "description":   "is a 15-unit (4-0-11) variant of Option B, with further instruction and practice in written and oral communication.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.100",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -806,19 +830,19 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.100-1",
+            "label":              "L0118.100",
             "lecture-section-of": "18.100",
             "timeAndPlace":       "MWF11 2-131"
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.100-2",
+            "label":              "L0218.100",
             "lecture-section-of": "18.100",
             "timeAndPlace":       "TR9.30-11 4-163"
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.100-3",
+            "label":              "L0318.100",
             "lecture-section-of": "18.100",
             "timeAndPlace":       "MWF1 4-163"
         },
@@ -834,6 +858,7 @@
             "has-final":     false,
             "description":   "Introduction to the theory of manifolds: vector fields and densities on manifolds, integral calculus in the manifold setting and the manifold version of the divergence theorem. 18.901 helpful but not required.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.101",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -856,6 +881,7 @@
             "has-final":     false,
             "description":   "Normed spaces, completeness, functionals, Hahn-Banach theorem, duality, operators. Lebesgue measure, measurable functions, integrability, completeness of L-p spaces. Hilbert space. Compact, Hilbert-Schmidt and trace class operators. Spectral theorem.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.102",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -879,6 +905,7 @@
             "has-final":     true,
             "description":   "Continues 18.100. Roughly half the subject devoted to the theory of the Lebesgue integral with applications to probability, and half to Fourier series and Fourier integrals.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.103",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "18.100",
@@ -887,7 +914,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.103-1",
+            "label":              "L0118.103",
             "lecture-section-of": "18.103",
             "timeAndPlace":       "TR11-12.30 4-163"
         },
@@ -903,6 +930,7 @@
             "has-final":     false,
             "description":   "Seminar for Mathematics majors. Students present and discuss subject matter taken from current journals or books. Topics vary from year to year. Topic for spring 2008: Problem solving in analysis.  Instruction and practice in written and oral communication provided. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.104",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "18.100",
@@ -911,7 +939,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.104-1",
+            "label":              "L0118.104",
             "lecture-section-of": "18.104",
             "timeAndPlace":       "MWF2 2-136"
         },
@@ -927,6 +955,7 @@
             "has-final":     false,
             "description":   "The basic properties of functions of one complex variable. Cauchy's theorem, holomorphic and meromorphic functions, residues, contour integrals, conformal mapping. Infinite series and products, the Gamma function, the Mittag-Leffler theorem. Harmonic functions, Dirichlet's problem. The Riemann mapping theorem. The Riemann Zeta function. The Prime Number Theorem.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.112",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -949,6 +978,7 @@
             "has-final":     false,
             "description":   "Riemann surfaces, uniformization, Riemann-Roch Theorem. Theory of elliptic functions and modular forms. Some applications, such as to number theory.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.116",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -958,7 +988,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.116-1",
+            "label":              "L0118.116",
             "lecture-section-of": "18.116",
             "timeAndPlace":       "TR2.30-4 26-142"
         },
@@ -974,6 +1004,7 @@
             "has-final":     false,
             "description":   "Harmonic theory on complex manifolds, Hodge decomposition theorem, Hard Lefschetz theorem. Vanishing theorems. Theory of Stein manifolds. As time permits students also study holomorphic vector bundles on K\\\"ahler manifolds.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.117",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Can be repeated for credit",
@@ -999,6 +1030,7 @@
             "has-final":     true,
             "description":   "Introductions to set theory and general topology as needed in analysis.  Measure and integration on general spaces. Introduction to functional analysis, Banach and Hilbert spaces.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.125",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1008,7 +1040,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.125-1",
+            "label":              "L0118.125",
             "lecture-section-of": "18.125",
             "timeAndPlace":       "TR11-12.30 2-135"
         },
@@ -1024,6 +1056,7 @@
             "has-final":     false,
             "description":   "Harmonic analysis in Euclidean space. The Radon transform, its operational properties and its applications to differential equations, particularly the wave equation. The d-plane transform. Non-Euclidean Fourier analysis and potential theory. Eigenfunctions and hyperfunctions.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.135",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1033,7 +1066,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.135-1",
+            "label":              "L0118.135",
             "lecture-section-of": "18.135",
             "timeAndPlace":       "TR1-2.30 2-135"
         },
@@ -1049,6 +1082,7 @@
             "has-final":     false,
             "description":   "Initial and boundary value problems for the wave and heat equation, including an introduction to Fourier analysis and tempered distributions. Laplace's equation, Dirichlet problem, and potential theory. Method of characteristics for first-order partial differential equations. Schroedinger's equation and eigenfunction expansions. Introductory examples of nonlinear partial differential equations.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.152",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "18.100",
@@ -1067,6 +1101,7 @@
             "has-final":     false,
             "description":   "spaces.  Distributions.  Fourier transform.  Sobolev spaces.  Spectral theorem, discrete and continuous spectrum.  Homogeneous distributions.  Fundamental solutions for elliptic, hyperbolic and parabolic differential operators.  Spring:  Variable coefficient elliptic, parabolic and hyperbolic partial differential equations.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.155",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1085,7 +1120,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.155-1",
+            "label":              "L0118.155",
             "lecture-section-of": "18.155",
             "timeAndPlace":       "TR11-12.30 2-255"
         },
@@ -1101,6 +1136,7 @@
             "has-final":     false,
             "description":   "The semi-classical theory of partial differential equations. Discussion of Pseudodifferential operators, Fourier integral operators, asymptotic solutions of partial differential equations, and the spectral theory of Schroedinger operators from the semi-classical perspective. Heavy emphasis placed on the symplectic geometric underpinnings of this subject.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.157",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1120,6 +1156,7 @@
             "has-final":     false,
             "description":   "Content varies from year to year.  Topic for spring 2008:  Spectral and conformal geometry.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.158",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
@@ -1132,7 +1169,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.158-1",
+            "label":              "L0118.158",
             "lecture-section-of": "18.158",
             "timeAndPlace":       "TR9.30-11 2-136"
         },
@@ -1148,6 +1185,7 @@
             "has-final":     false,
             "description":   "Laws of large numbers and central limit theorems for sums of independent random variables, conditioning and martingales, Brownian motion, and elements of diffusion theory.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.175",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1157,7 +1195,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.175-1",
+            "label":              "L0118.175",
             "lecture-section-of": "18.175",
             "timeAndPlace":       "MWF11 2-255"
         },
@@ -1173,6 +1211,7 @@
             "has-final":     false,
             "description":   "Free probability theory, from a probabilistic perspective. Topics include: classical (Ito) and free stochastic calculus; Levy processes, and free Levy processes; and random matrices and large deviations. Knowledge of 18.156 helpful but not required.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.177",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Can be repeated for credit",
@@ -1195,6 +1234,7 @@
             "has-final":     false,
             "description":   "Studies original papers in differential analysis and differential equations. Intended for first- and second-year graduate students. Permission must be secured in advance.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.199",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Not offered this year",
@@ -1206,7 +1246,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.199-1",
+            "label":              "L0118.199",
             "lecture-section-of": "18.199",
             "timeAndPlace":       "TR12-1.30 4-251"
         },
@@ -1222,6 +1262,7 @@
             "has-final":     false,
             "description":   "A rigorous introduction designed for mathematicians into perturbative quantum field theory, using the language of functional integrals. Basics of classical field theory. Free quantum theories. Feynman diagrams. Renormalization theory. Local operators. Operator product expansion. Renormalization group equation. The goal is to discuss, using mathematical language, a number of basic notions and results of QFT that are necessary to understand talks and papers in QFT and string theory.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.238",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
@@ -1233,7 +1274,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.238-1",
+            "label":              "L0118.238",
             "lecture-section-of": "18.238",
             "timeAndPlace":       "MWF10 2-255"
         },
@@ -1249,6 +1290,7 @@
             "has-final":     false,
             "description":   "Content varies from year to year. Recent developments in quantum field theory require mathematical techniques not usually covered in standard graduate subjects.  Topic for Spring 2008: symplectic methods in classical and semi-classical mechanics.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.276",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
@@ -1261,7 +1303,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.276-1",
+            "label":              "L0118.276",
             "lecture-section-of": "18.276",
             "timeAndPlace":       "MWF11 2-135"
         },
@@ -1277,6 +1319,7 @@
             "has-final":     false,
             "description":   "The classical partial differential equations of applied mathematics: diffusion, Laplace/Poisson, and wave equations. Methods of solution, such as separation of variables, Fourier series and transforms, eigenvalue problems. Green's function methods are emphasized. 18.04 or 18.112 are useful, as well as previous acquaintance with the equations as they arise in scientific applications.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.303",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1299,6 +1342,7 @@
             "has-final":     false,
             "description":   "Seminar in combinatorics, graph theory, and discrete mathematics in general. Participants read and present papers from recent mathematics literature. Instruction and practice in written and oral communication provided.  Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.304",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1318,13 +1362,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.304-1",
+            "label":              "L0118.304",
             "lecture-section-of": "18.304",
             "timeAndPlace":       "MWF12 2-102"
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.304-2",
+            "label":              "L0218.304",
             "lecture-section-of": "18.304",
             "timeAndPlace":       "TR9.30-11 2-151"
         },
@@ -1340,6 +1384,7 @@
             "has-final":     false,
             "description":   "A comprehensive treatment of the advanced methods of applied mathematics. Designed to strengthen the mathematical abilities of graduate students and train them to think on their own. Expansion around singular points: special functions; the WKB method on ordinary and partial differential equations; the method of stationary phase and the saddle point method; the two-scale method and the method of renormalized perturbation; singular perturbation and boundary-layer techniques.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.305",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1363,6 +1408,7 @@
             "has-final":     false,
             "description":   "Concepts and techniques for solving partial  differential equations (pde), with emphasis  on nonlinear pde. Diffusion, dispersion  and other phenomena. Initial and boundary  value problems. Characteristics and shocks.  Separation of variables, transform methods,  Green's functions. Asymptotics, geometrical optics theory. Dimensional analysis, self-similarity,  traveling waves. Singular perturbation and  boundary layers. Solitons. Variational  methods. Free-boundary problems. Examples  from fluid dynamics, materials  science, optics, and other applications.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.306",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1377,7 +1423,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.306-1",
+            "label":              "L0118.306",
             "lecture-section-of": "18.306",
             "timeAndPlace":       "MW9.30-11 2-142"
         },
@@ -1393,6 +1439,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.307",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1415,6 +1462,7 @@
             "has-final":     false,
             "description":   "Dispersive and non-dispersive waves in fluids, with emphasis on nonlinear effects and applications to Geophysical Flows and Nonlinear Acoustics. Stability of shear and stratified flows; surface and internal waves; nonlinear resonant interactions; solitons and solitary wave interactions; characteristics, nonlinear breaking, hydraulic jumps, and bores; weakly nonlinear theory; dispersive wave turbulence; weakly nonlinear geometrical optics and modulation; wave boundary layer phenomena.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.308",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered this year",
@@ -1436,6 +1484,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.310",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "prereq":        [
@@ -1456,6 +1505,7 @@
             "has-final":     false,
             "description":   "Study of illustrative topics in discrete applied mathematics including sorting algorithms, information theory, coding theory, secret codes, generating functions, linear programming, and game theory. Instruction and practice in written communication provided. Same content as 18.310, but assignments are structured with an additional focus on writing.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.310C",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1480,6 +1530,7 @@
             "has-final":     false,
             "description":   "Introduction to fundamental concepts in continuous applied mathematics. Continuum limit and conservation laws. Kinematic waves. Diffusion. Linear and nonlinear waves. Hyperbolic equations: method of characteristics, expansion fans, shock dynamics, shock structure. Green functions. Fourier series and transform. Dimensional analysis. Similarity solutions. Boundary layers. Applications from traffic flow, gas dynamics, water waves, granular flow, ion transport, etc.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.311",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1492,7 +1543,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.311-1",
+            "label":              "L0118.311",
             "lecture-section-of": "18.311",
             "timeAndPlace":       "TR9.30-11 4-145"
         },
@@ -1508,6 +1559,7 @@
             "has-final":     false,
             "description":   "Applications of algebra to combinatorics and conversely. Topics include enumeration methods, partially ordered sets and lattices, matching theory, partitions and tableaux, algebraic graph theory, and combinatorics of polytopes.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.312",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1519,7 +1571,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.312-1",
+            "label":              "L0118.312",
             "lecture-section-of": "18.312",
             "timeAndPlace":       "MWF11 2-102"
         },
@@ -1535,6 +1587,7 @@
             "has-final":     false,
             "description":   "Combinatorial problems and methods for their solution.   Enumeration, generating functions, recurrence relations, construction of bijections. Introduction to graph theory.  Prior experience with abstraction and proofs is helpful.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.314",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1556,6 +1609,7 @@
             "has-final":     false,
             "description":   "Content varies from year to year.  Topics for Fall 2007: (1) Basic enumeration and (2) partially ordered sets.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.315",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Can be repeated for credit",
@@ -1577,6 +1631,7 @@
             "has-final":     false,
             "description":   "Content varies from year to year. Readings from current research papers in combinatorics. Topics to be chosen and presented by the class.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.316",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
@@ -1589,7 +1644,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.316-1",
+            "label":              "L0118.316",
             "lecture-section-of": "18.316",
             "timeAndPlace":       "MWF2 2-139"
         },
@@ -1605,6 +1660,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.317",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered this year",
@@ -1625,6 +1681,7 @@
             "has-final":     false,
             "description":   "Topics vary from year to year.  Topic for spring 2008: Combinatorial Game Theory.  Combinatorially defined games.  Theory and interaction with combinatorial theory. Classical game theory, take-away games, grundy numbers, sums, number systems defined by games, surreal numbers.  Interactions with  Ramsey theory, probability, derandomization, communication, logic.  Algorithmic questions.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.318",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
@@ -1636,7 +1693,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.318-1",
+            "label":              "L0118.318",
             "lecture-section-of": "18.318",
             "timeAndPlace":       "TR9.30-11 2-132"
         },
@@ -1652,6 +1709,7 @@
             "has-final":     false,
             "description":   "Connections between combinatorics and geometry (and algebra).  Discussion of combinatorial problems that arise in algebraic geometry, convex geometry, and algebraic topology.  Topics include toric varieties, polytopes and fans, hyperplane arrangements, triangulations and tilings, matroids, topological combinatorics, Schubert calculus.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.319",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1660,7 +1718,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.319-1",
+            "label":              "L0118.319",
             "lecture-section-of": "18.319",
             "timeAndPlace":       "TR2.30-4 2-136"
         },
@@ -1676,6 +1734,7 @@
             "has-final":     false,
             "description":   "",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.325",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1690,7 +1749,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.325-1",
+            "label":              "L0118.325",
             "lecture-section-of": "18.325",
             "timeAndPlace":       "MW3-4.30 2-136"
         },
@@ -1706,6 +1765,7 @@
             "has-final":     true,
             "description":   "Basic techniques for the efficient numerical solution of problems in science and engineering. Root finding, interpolation, approximation of functions, integration, differential equations, direct and iterative methods in linear algebra. Knowledge of programming in Fortran, C, or Matlab helpful.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.330",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1718,14 +1778,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.330-1",
+            "label":              "L0118.330",
             "lecture-section-of": "18.330",
             "timeAndPlace":       "MWF2 2-132"
         },
         {
             "type":          "Class",
             "label":         "Introduction to Numerical Methods",
-            "id":            "18.335J",
+            "id":            "18.335",
             "listing-index": "m18a-060",
             "course":        "18",
             "level":         "Grad",
@@ -1734,6 +1794,7 @@
             "has-final":     false,
             "description":   "Advanced introduction to numerical linear algebra. Topics include direct and iterative methods for linear systems, eigenvalue decompositions and QR/SVD factorizations, stability and accuracy of numerical algorithms, the IEEE floating point standard, sparse and structured matrices, preconditioning, linear algebra software.  Problem sets require some knowledge of Matlab.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.335J",
+            "joint":         true,
             "semester":      [
                 "Fall",
                 "Summer"
@@ -1763,6 +1824,7 @@
             "has-final":     false,
             "description":   "Advanced introduction to applications and theory of numerical methods for solution of differential equations, especially of physically-arising partial differential equations, with emphasis on the fundamental ideas underlying various methods. Topics include finite differences, spectral methods, finite elements, well-posedness and stability, particle methods and lattice gases, boundary and nonlinear instabilities.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.336",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1775,14 +1837,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.336-1",
+            "label":              "L0118.336",
             "lecture-section-of": "18.336",
             "timeAndPlace":       "TR11-12.30 2-136"
         },
         {
             "type":          "Class",
             "label":         "Parallel Computing",
-            "id":            "18.337J",
+            "id":            "18.337",
             "listing-index": "m18a-062",
             "course":        "18",
             "level":         "Grad",
@@ -1791,6 +1853,7 @@
             "has-final":     false,
             "description":   "",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.337J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1803,8 +1866,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.337J-1",
-            "lecture-section-of": "18.337J",
+            "label":              "L0118.337",
+            "lecture-section-of": "18.337",
             "timeAndPlace":       "TR1-2.30 1-277"
         },
         {
@@ -1819,6 +1882,7 @@
             "has-final":     false,
             "description":   "An introduction to the theory and applications of stochastic eigen-analysis. Theoretical topics include matrix calculus, \"free\" probability, and stochastic operators. Applications in  signal processing, finance, and large stochastic systems are discussed. There is a hands-on emphasis on using the theory to discover new applications.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.338",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "in-charge":     "Edelman, A.",
@@ -1827,7 +1891,7 @@
         {
             "type":          "Class",
             "label":         "Nonlinear Dynamics I: Chaos",
-            "id":            "18.353J",
+            "id":            "18.353",
             "listing-index": "m18a-064",
             "course":        "18",
             "level":         "Undergrad",
@@ -1836,6 +1900,7 @@
             "has-final":     false,
             "description":   "Introduction to nonlinear dynamics and chaos in dissipative systems. Forced and parametric oscillators. Phase space. Periodic, quasiperiodic, and aperiodic flows. Sensitivity to initial conditions and strange attractors. Lorenz attractor. Period doubling, intermittency, and quasiperiodicity. Scaling and universality. Analysis of experimental data: Fourier transforms, Poincare sections, fractal dimension, and Lyapunov exponents. Applications to mechanical systems, fluid dynamics, physics, geophysics, and chemistry. See 12.207J/18.354J for Nonlinear Dynamics II.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.353J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1850,7 +1915,7 @@
         {
             "type":          "Class",
             "label":         "Nonlinear Dynamics II: Continuum Systems",
-            "id":            "18.354J",
+            "id":            "18.354",
             "listing-index": "m18a-065",
             "course":        "18",
             "level":         "Undergrad",
@@ -1859,6 +1924,7 @@
             "has-final":     false,
             "description":   "General mathematical principles of continuum systems. (1) From microscopic to macroscopic. Examples range from random walkers, to Newtonian mechanics, to option pricing. (2) Singular Perturbations. Examples include boundary layer theory, snow flakes and geophysical flows. (3) Instability. Generalize ideas from 18.353 to continuum systems. Examples from fluid mechanics, solid mechanics, astrophysics and biology. (4) Pattern formation and turbulence.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.354J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1871,8 +1937,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.354J-1",
-            "lecture-section-of": "18.354J",
+            "label":              "L0118.354",
+            "lecture-section-of": "18.354",
             "timeAndPlace":       "TR11-12.30 2-139"
         },
         {
@@ -1887,6 +1953,7 @@
             "has-final":     false,
             "description":   "Topics include viscous flows, ideal flows, boundary layers, lubrication theory, Stokes flows, free-surface flows. Fundamental concepts illustrated through problems drawn from a variety of situations including animal locomotion (swimming and flying) and the dynamics of sport (the aerodynamics of sports balls, surfing, skiing). Particular emphasis on the power of dimensional analysis and scaling arguments. Course material supplemented by classroom and laboratory demonstrations.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.355",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1911,6 +1978,7 @@
             "has-final":     false,
             "description":   "Introduction to the theory of flow stability and the fundamentals of turbulence. Stability of dynamical systems. Stability of static fluids. Instabilities in shear flows. Instabilities at low Reynolds numbers. Nonlinear dynamics. Waves. Vorticity dynamics. Homogeneous turbulence. Kolmogorov's universal equilibrium theory. Mean field theory for convected scalar fields.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.358",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1930,6 +1998,7 @@
             "has-final":     false,
             "description":   "Basic concepts of computer modeling and simulation in science and engineering. Uses techniques and software for simulation, data analysis and visualization. Continuum, mesoscale, atomistic and quantum methods used to study fundamental and applied problems in physics, chemistry, materials science, mechanics, engineering, and biology. Examples drawn from the disciplines above are used to understand or characterize complex structures and materials, and complement experimental observations.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.361",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
@@ -1950,13 +2019,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.361-1",
+            "label":              "L0118.361",
             "lecture-section-of": "18.361",
             "timeAndPlace":       "TR3-4.30 4-231"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.361-2",
+            "label":          "R0218.361",
             "rec-section-of": "18.361",
             "timeAndPlace":   "M4 4-231"
         },
@@ -1972,6 +2041,7 @@
             "has-final":     false,
             "description":   "Mathematical modeling of diffusion phenomena: Central limit theorems, the continuum limit, Fokker-Planck equation, first passage, persistence and self avoidance, continuous-time random walks, Levy flights, random environments, advection-diffusion, diffusion-limited aggregation. Applications include polymers, turbulence, fractal growth, granular flow, and financial derivatives.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.366",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1991,6 +2061,7 @@
             "has-final":     false,
             "description":   "High-level approaches to understanding complex optical media, structured on the scale of the wavelength, that are not generally analytically soluable. The basis for understanding optical phenomena such as photonic crystals and band gaps, anomalous diffraction, mechanisms for optical confinement, optical fibers (new and old), nonlinearities, and integrated optical devices. Methods covered include linear algebra and eigensystems for Maxwell's equations, symmetry groups and representation theory, Bloch's theorem, numerical eigensolver methods, time and frequency-domain computation, perturbation theory, and coupled-mode theories.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.369",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2000,14 +2071,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.369-1",
+            "label":              "L0118.369",
             "lecture-section-of": "18.369",
             "timeAndPlace":       "MWF2 2-146"
         },
         {
             "type":          "Class",
             "label":         "Wave Propagation",
-            "id":            "18.376J",
+            "id":            "18.376",
             "listing-index": "m18a-071",
             "course":        "18",
             "level":         "Grad",
@@ -2016,6 +2087,7 @@
             "has-final":     false,
             "description":   "Theoretical concepts and analysis of wave problems in science and engineering with examples chosen from elasticity, acoustics, geophysics, hydrodynamics, blood flow, nondestructive evaluation, and other applications.  Progressive waves, group velocity and dispersion, energy density and transport.  Reflection, refraction and transmission of plane waves by an interface.  Mode conversion in elastic waves.  Rayleigh waves.  Waves due to a moving load.  Scattering by a two dimensional obstacle.  Reciprocity theorems.  Parabolic approximation.  Waves on the sea surface.  Capillary-gravity waves.  Wave resistance. Radiation of surface waves.  Internal waves in stratified fluids.  Waves in rotating media.  Waves in random media.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.376J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2034,14 +2106,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.376J-1",
-            "lecture-section-of": "18.376J",
+            "label":              "L0118.376",
+            "lecture-section-of": "18.376",
             "timeAndPlace":       "TR1-2.30 1-277"
         },
         {
             "type":          "Class",
             "label":         "Nonlinear Dynamics and Waves",
-            "id":            "18.377J",
+            "id":            "18.377",
             "listing-index": "m18a-072",
             "course":        "18",
             "level":         "Grad",
@@ -2050,6 +2122,7 @@
             "has-final":     false,
             "description":   "A unified treatment of nonlinear oscillations and wave phenomena with applications to mechanical, optical, geophysical, fluid, electrical and flow-structure interaction problems. Nonlinear free and forced vibrations; nonlinear resonances; self-excited oscillations; lock-in phenomena.  Nonlinear dispersive and nondispersive waves; resonant wave interactions; propagation of wave pulses and nonlinear Schrodinger equation.  Nonlinear long waves and breaking; theory of characteristics; the Korteweg-de Vries equation; solitons and solitary wave interactions.  Stability of shear flows.  Some topics and applications may vary from year to year.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.377J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -2076,6 +2149,7 @@
             "has-final":     false,
             "description":   "The applied mathematics of continuous media and classical physics. Reading and presentation of papers from recent applied mathematics and physics literature. Topics and papers include fluid mechanics, solid mechanics, and biophysics. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.384",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -2087,14 +2161,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.384-1",
+            "label":              "L0118.384",
             "lecture-section-of": "18.384",
             "timeAndPlace":       "MWF10 2-146"
         },
         {
             "type":          "Class",
             "label":         "Nonlinear Dynamics and Chaos",
-            "id":            "18.385J",
+            "id":            "18.385",
             "listing-index": "m18a-074",
             "course":        "18",
             "level":         "Grad",
@@ -2103,6 +2177,7 @@
             "has-final":     false,
             "description":   "Introduction to the modern theory of nonlinear dynamical systems with an emphasis on applications in science and engineering. Local and global existence of solutions to nonlinear dynamical systems, their dependence on initial data and parameters. Phase plane, limit cycles, Poincare-Bendixson theory. Time-dependent systems, Floquet theory, Poincare maps, averaging. Stability of equilibria, near-equilibrium dynamics. Center manifolds, elementary bifurcations, normal forms. Introduction to chaos. Physical applications.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.385J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2117,7 +2192,7 @@
         {
             "type":          "Class",
             "label":         "Advanced Nonlinear Dynamics and Chaos",
-            "id":            "18.386J",
+            "id":            "18.386",
             "listing-index": "m18a-075",
             "course":        "18",
             "level":         "Grad",
@@ -2126,6 +2201,7 @@
             "has-final":     false,
             "description":   "Advanced subject on the modern theory of nonlinear dynamical systems with an emphasis on applications in science and engineering. Invariant manifolds, homoclinic orbits, global bifurcations. Hamiltonian systems, completely integrable systems, KAM theory. Different mechanisms for chaotic dynamics, Shilnikov-type orbits, attractors, horseshoes, symbolic dynamics. Geometric singular perturbation theory. Physical applications.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.386J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -2149,6 +2225,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.395",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -2158,7 +2235,7 @@
         {
             "type":          "Class",
             "label":         "Supersymmetric Quantum Field Theories",
-            "id":            "18.396J",
+            "id":            "18.396",
             "listing-index": "m18a-077",
             "course":        "18",
             "level":         "Grad",
@@ -2167,6 +2244,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.396J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      [
                 "Not offered this year",
@@ -2188,6 +2266,7 @@
             "has-final":     false,
             "description":   "For students who want to have a clear understanding of quantum field theories. Appropriate for students who have not taken such a subject as well as students who have but are not entirely comfortable with the basic concepts and techniques. The topics begin with classical mechanics and end with gauge field theories and the renormalization of the standard model.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.398",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2196,14 +2275,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.398-1",
+            "label":              "L0118.398",
             "lecture-section-of": "18.398",
             "timeAndPlace":       "TR2.30-4 2-146"
         },
         {
             "type":          "Class",
             "label":         "Automata, Computability, and Complexity",
-            "id":            "18.400J",
+            "id":            "18.400",
             "listing-index": "m18a-079",
             "course":        "18",
             "level":         "Undergrad",
@@ -2212,6 +2291,7 @@
             "has-final":     false,
             "description":   "Slower paced than 6.840J/18.404J. Introduces basic mathematical models of computation and the finite representation of infinite objects. Context-free languages. Turing machines. Partial recursive functions. Church's Thesis. Undecidability. Reducibility and completeness. Time complexity and NP-completeness. Probabilistic computation. Interactive proof systems.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.400J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "prereq":        [
@@ -2224,7 +2304,7 @@
         {
             "type":          "Class",
             "label":         "Theory of Computation",
-            "id":            "18.404J",
+            "id":            "18.404",
             "listing-index": "m18a-080",
             "course":        "18",
             "level":         "Grad",
@@ -2233,6 +2313,7 @@
             "has-final":     false,
             "description":   "A more extensive and theoretical treatment of the material in 6.045J/18.400J, emphasizing computability and computational complexity theory. Regular and context-free languages. Decidable and undecidable problems, reducibility, recursive function theory. Time and space measures on computation, completeness, hierarchy theorems, inherently complex problems, oracles, probabilistic computation, and interactive proof systems.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.404J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2247,7 +2328,7 @@
         {
             "type":          "Class",
             "label":         "Advanced Complexity Theory",
-            "id":            "18.405J",
+            "id":            "18.405",
             "listing-index": "m18a-081",
             "course":        "18",
             "level":         "Grad",
@@ -2256,6 +2337,7 @@
             "has-final":     false,
             "description":   "",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.405J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -2279,6 +2361,7 @@
             "has-final":     false,
             "description":   "Study of areas of current interest in theoretical computer science. Topics vary from term to term.  Topic for fall 2007:     An algorithmist's toolkit.  Topic for spring 2008: Aspects of quantum information and quantum computation.  18.435 or equivalent helpful.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.409",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -2293,14 +2376,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.409-1",
+            "label":              "L0118.409",
             "lecture-section-of": "18.409",
             "timeAndPlace":       "TR11-12.30 36-153"
         },
         {
             "type":          "Class",
             "label":         "Design and Analysis of Algorithms",
-            "id":            "18.410J",
+            "id":            "18.410",
             "listing-index": "m18a-083",
             "course":        "18",
             "level":         "Undergrad",
@@ -2309,6 +2392,7 @@
             "has-final":     true,
             "description":   "Techniques for the design and analysis of efficient algorithms, emphasizing methods useful in practice. Topics include sorting; search trees, heaps, and hashing; divide-and-conquer; dynamic programming; greedy algorithms; amortized analysis; graph algorithms; and shortest paths. Advanced topics include network flow; computational geometry; number-theoretic algorithms; polynomial and matrix calculations; caching; and parallel computing.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.410J",
+            "joint":         true,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -2330,74 +2414,74 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.410J-1",
-            "lecture-section-of": "18.410J",
+            "label":              "L0118.410",
+            "lecture-section-of": "18.410",
             "timeAndPlace":       "TR11-12.30 2-190"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.410J-2",
-            "rec-section-of": "18.410J",
+            "label":          "R0218.410",
+            "rec-section-of": "18.410",
             "timeAndPlace":   "F10 2-136"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.410J-3",
-            "rec-section-of": "18.410J",
+            "label":          "R0318.410",
+            "rec-section-of": "18.410",
             "timeAndPlace":   "F11 2-136"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.410J-4",
-            "rec-section-of": "18.410J",
+            "label":          "R0418.410",
+            "rec-section-of": "18.410",
             "timeAndPlace":   "F12 2-136"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.410J-5",
-            "rec-section-of": "18.410J",
+            "label":          "R0518.410",
+            "rec-section-of": "18.410",
             "timeAndPlace":   "F1 2-135"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.410J-6",
-            "rec-section-of": "18.410J",
+            "label":          "R0618.410",
+            "rec-section-of": "18.410",
             "timeAndPlace":   "F2 2-135"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.410J-7",
-            "rec-section-of": "18.410J",
+            "label":          "R0718.410",
+            "rec-section-of": "18.410",
             "timeAndPlace":   "F9.30 2-147"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.410J-8",
-            "rec-section-of": "18.410J",
+            "label":          "R0818.410",
+            "rec-section-of": "18.410",
             "timeAndPlace":   "F11 2-147"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.410J-9",
-            "rec-section-of": "18.410J",
+            "label":          "R0918.410",
+            "rec-section-of": "18.410",
             "timeAndPlace":   "F12 2-147"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.410J-10",
-            "rec-section-of": "18.410J",
+            "label":          "R1018.410",
+            "rec-section-of": "18.410",
             "timeAndPlace":   "F1 2-147"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R18.410J-11",
-            "rec-section-of": "18.410J",
+            "label":          "R1118.410",
+            "rec-section-of": "18.410",
             "timeAndPlace":   "F2 2-147"
         },
         {
             "type":          "Class",
             "label":         "Advanced Algorithms",
-            "id":            "18.415J",
+            "id":            "18.415",
             "listing-index": "m18a-084",
             "course":        "18",
             "level":         "Grad",
@@ -2406,6 +2490,7 @@
             "has-final":     false,
             "description":   "First-year graduate subject in algorithms. Emphasizes fundamental algorithms and advanced methods of algorithmic design, analysis, and implementation. Surveys a variety of computational models and the algorithms for them. Data structures, network flows, linear programming, computational geometry, approximation algorithms, online algorithms, parallel algorithms, external memory, streaming algorithms.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.415J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2421,7 +2506,7 @@
         {
             "type":          "Class",
             "label":         "Randomized Algorithms",
-            "id":            "18.416J",
+            "id":            "18.416",
             "listing-index": "m18a-085",
             "course":        "18",
             "level":         "Grad",
@@ -2430,6 +2515,7 @@
             "has-final":     false,
             "description":   "Studies how randomization can be used to make algorithms simpler and more efficient via random sampling, random selection of witnesses, symmetry breaking, and Markov chains. Models of randomized computation. Data structures: hash tables, and skip lists. Graph algorithms: minimum spanning trees, shortest paths, and minimum cuts. Geometric algorithms: convex hulls, linear programming in fixed or arbitrary dimension. Approximate counting; parallel algorithms; online algorithms; derandomization techniques; and tools for probabilistic analysis of algorithms. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.416J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -2454,6 +2540,7 @@
             "has-final":     false,
             "description":   "Introduces the basic computational methods used to model and predict the structure of biomolecules (proteins, DNA, RNA). Covers classical techniques in the field (molecular dynamics, Monte Carlo, dynamic programming) to more recent advances in analyzing and predicting RNA and protein structure, ranging from Hidden Markov Models and 3D lattice models to attribute Grammars and tree Grammars.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.417",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2467,7 +2554,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.417-1",
+            "label":              "L0118.417",
             "lecture-section-of": "18.417",
             "timeAndPlace":       "TR9.30-11 2-135"
         },
@@ -2483,6 +2570,7 @@
             "has-final":     false,
             "description":   "Covers current research topics in computational molecular biology.  Recent research papers presented from leading conferences such as the SIGACT International Conference on Computational Molecular Biology (RECOMB). Topics include original research (both theoretical and experimental) in comparative genomics, sequence and structure analysis, molecular evolution, proteomics, gene expression, transcriptional regulation, and biological networks. Recent research by course participants also covered. Participants will be expected to present either group or individual projects to the class.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.418",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
@@ -2495,7 +2583,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.418-1",
+            "label":              "L0118.418",
             "lecture-section-of": "18.418",
             "timeAndPlace":       "MW11.30-1 32-G575"
         },
@@ -2511,6 +2599,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.419",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered this year",
@@ -2531,6 +2620,7 @@
             "has-final":     false,
             "description":   "Considers various topics in information theory, including data compression, Shannon's Theorems, and error-correcting codes. Students present and discuss the subject matter.  Instruction and practice in written and oral communication provided. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.424",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -2546,14 +2636,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.424-1",
+            "label":              "L0118.424",
             "lecture-section-of": "18.424",
             "timeAndPlace":       "MWF1 2-142"
         },
         {
             "type":          "Class",
             "label":         "Cryptography and Cryptanalysis",
-            "id":            "18.425J",
+            "id":            "18.425",
             "listing-index": "m18a-090",
             "course":        "18",
             "level":         "Grad",
@@ -2562,6 +2652,7 @@
             "has-final":     false,
             "description":   "A rigorous introduction to modern cryptography. Emphasis on the fundamental cryptographic primitives of public-key encryption, digital signatures, pseudo-random number generation, and basic protocols and their computational complexity requirements.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.425J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2574,14 +2665,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.425J-1",
-            "lecture-section-of": "18.425J",
+            "label":              "L0118.425",
+            "lecture-section-of": "18.425",
             "timeAndPlace":       "TR2.30-4 32-141"
         },
         {
             "type":          "Class",
             "label":         "Advanced Topics in Cryptography",
-            "id":            "18.426J",
+            "id":            "18.426",
             "listing-index": "m18a-091",
             "course":        "18",
             "level":         "Grad",
@@ -2590,6 +2681,7 @@
             "has-final":     false,
             "description":   "Recent results in cryptography and interactive proofs. Lectures by instructor, invited speakers, and students. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.426J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      [
                 "Not offered this year",
@@ -2616,6 +2708,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.433",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "prereq":        [
@@ -2636,6 +2729,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.434",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "prereq":        [
@@ -2647,7 +2741,7 @@
         {
             "type":          "Class",
             "label":         "Quantum Computation",
-            "id":            "18.435J",
+            "id":            "18.435",
             "listing-index": "m18a-094",
             "course":        "18",
             "level":         "Grad",
@@ -2656,6 +2750,7 @@
             "has-final":     false,
             "description":   "Provides an introduction to the theory and practice of quantum  computation. Topics covered: physics of information processing; quantum algorithms including the factoring algorithm and Grover's search algorithm; quantum error correction; quantum communication and cryptography. Knowledge of quantum mechanics helpful but not required.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.435J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2670,7 +2765,7 @@
         {
             "type":          "Class",
             "label":         "Distributed Algorithms",
-            "id":            "18.437J",
+            "id":            "18.437",
             "listing-index": "m18a-095",
             "course":        "18",
             "level":         "Grad",
@@ -2679,6 +2774,7 @@
             "has-final":     false,
             "description":   "Design and analysis of concurrent algorithms, emphasizing those suitable for use in distributed networks. Process synchronization, allocation of computational resources, distributed consensus, distributed graph algorithms, election of a leader in a network, distributed termination, deadlock detection, concurrency control, communication, and clock synchronization. Special consideration given to issues of efficiency and fault tolerance. Formal models and proof methods for distributed computation. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.437J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      [
                 "Not offered next year",
@@ -2694,8 +2790,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.437J-1",
-            "lecture-section-of": "18.437J",
+            "label":              "L0118.437",
+            "lecture-section-of": "18.437",
             "timeAndPlace":       "TR11-12.30 4-149"
         },
         {
@@ -2710,6 +2806,7 @@
             "has-final":     true,
             "description":   "Probability spaces, random variables, distribution functions. Binomial, geometric, hypergeometric, Poisson distributions. Uniform, exponential, normal, gamma and beta distributions. Conditional probability, Bayes theorem, joint distributions. Chebyshev inequality, law of large numbers, and central limit theorem.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.440",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -2721,7 +2818,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.440-1",
+            "label":              "L0118.440",
             "lecture-section-of": "18.440",
             "timeAndPlace":       "MWF1 2-190"
         },
@@ -2737,6 +2834,7 @@
             "has-final":     false,
             "description":   "A broad treatment of statistics, concentrating on specific statistical techniques used in science and industry. Topics: hypothesis testing and estimation. Confidence intervals, chi-square tests, nonparametric statistics, analysis of variance, regression, correlation, decision theory, and Bayesian statistics.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.443",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -2751,7 +2849,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.443-1",
+            "label":              "L0118.443",
             "lecture-section-of": "18.443",
             "timeAndPlace":       "MWF10 4-370"
         },
@@ -2767,6 +2865,7 @@
             "has-final":     false,
             "description":   "Introduces the theory and application of stochastic processes. Emphasis on Markov chains, Markov processes, and their ergotic theory.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.445",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2780,7 +2879,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L18.445-1",
+            "label":              "L0118.445",
             "lecture-section-of": "18.445",
             "timeAndPlace":       "MWF1 2-143"
         },
@@ -2796,6 +2895,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.447",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -2814,6 +2914,7 @@
             "has-final":     false,
             "description":   "Topics vary from year to year.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.465",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Can be repeated for credit",
@@ -2835,6 +2936,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m18a.html#18.466",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",

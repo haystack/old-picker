@@ -12,6 +12,7 @@
             "has-final":     false,
             "description":   "Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics.  Subject taught using the TEAL (Technology-Enabled Active Learning) format which features small group interaction via table-top experiments utilizing laptops for data acquisition and problem solving workshops.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.01",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Physics 1",
@@ -36,6 +37,7 @@
             "has-final":     false,
             "description":   "Introduces classical mechanics.  Space and time: straight-line kinematics; motion in a plane; forces and equilibrium; experimental basis of Newton's laws; particle dynamics; universal gravitation; collisions and conservation laws; work and potential energy; vibrational motion; conservative forces; inertial forces and non-inertial frames; central force motions; rigid bodies and rotational dynamics.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.011",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Physics 1",
@@ -50,31 +52,31 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.011-1",
+            "label":              "L018.011",
             "lecture-section-of": "8.011",
             "timeAndPlace":       "MTW10 26-322"
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.011-2",
+            "label":              "L028.011",
             "lecture-section-of": "8.011",
             "timeAndPlace":       "MTW11 26-328"
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.011-3",
+            "label":              "L038.011",
             "lecture-section-of": "8.011",
             "timeAndPlace":       "MTW3 26-328"
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.011-4",
+            "label":              "L048.011",
             "lecture-section-of": "8.011",
             "timeAndPlace":       "MTW4 26-328"
         },
         {
             "type":           "LabSection",
-            "label":          "B8.011-5",
+            "label":          "B058.011",
             "lab-section-of": "8.011",
             "timeAndPlace":   "F10 34-101"
         },
@@ -90,6 +92,7 @@
             "has-final":     false,
             "description":   "Elementary mechanics, presented in greater depth than in 8.01. Newton's laws, concepts of momentum, energy, angular momentum, rigid body motion, and non-inertial systems. Uses elementary calculus freely. Concurrent registration in a math subject more advanced than 18.01 is recommended. In addition to the theoretical subject matter, several experiments in classical mechanics are performed by the students in the laboratory.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.012",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Physics 1",
@@ -114,6 +117,7 @@
             "has-final":     false,
             "description":   "Introduction to classical mechanics (see description under 8.01). Includes components of the TEAL (Technology-Enabled Active Learning) format. Material covered over a longer interval so that the subject is completed by the end of the IAP. Substantial emphasis given to reviewing and strengthening necessary mathematics tools, as well as basic physics concepts and problem-solving skills. Content, depth, and difficulty is otherwise identical to that of 8.01. The class is designated as 8.01 on students' transcript. Enrollment limited to 100 students via lottery.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.01L",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Physics 1",
@@ -138,6 +142,7 @@
             "has-final":     true,
             "description":   "Introduction to electromagnetism and electrostatics: electric charge, Coulomb's law, electric structure of matter; conductors and dielectrics. Concepts of electrostatic field and potential, electrostatic energy. Electric currents, magnetic fields and Ampere's law. Magnetic materials. Time-varying fields and Faraday's law of induction. Basic electric circuits. Electromagnetic waves and Maxwell's equations. Subject taught using the TEAL (Technology Enabled Active Learning) format which utilizes small group interaction and current technology. The TEAL/Studio Project at MIT is a new approach to physics education designed to help students develop much better intuition about, and conceptual models of, physical phenomena.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.02",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -159,7 +164,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.02-1",
+            "label":              "L018.02",
             "lecture-section-of": "8.02",
             "timeAndPlace":       [
                 "MW9-11 32-082",
@@ -168,7 +173,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.02-2",
+            "label":              "L028.02",
             "lecture-section-of": "8.02",
             "timeAndPlace":       [
                 "MW11-1 32-082",
@@ -177,7 +182,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.02-3",
+            "label":              "L038.02",
             "lecture-section-of": "8.02",
             "timeAndPlace":       [
                 "MW1-3 32-082",
@@ -186,7 +191,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.02-4",
+            "label":              "L048.02",
             "lecture-section-of": "8.02",
             "timeAndPlace":       [
                 "MW3-5 32-082",
@@ -195,7 +200,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.02-5",
+            "label":              "L058.02",
             "lecture-section-of": "8.02",
             "timeAndPlace":       [
                 "TR9-11 32-082",
@@ -204,7 +209,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.02-6",
+            "label":              "L068.02",
             "lecture-section-of": "8.02",
             "timeAndPlace":       [
                 "TR11-1 32-082",
@@ -213,7 +218,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.02-7",
+            "label":              "L078.02",
             "lecture-section-of": "8.02",
             "timeAndPlace":       [
                 "TR1-3 32-082",
@@ -222,7 +227,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.02-8",
+            "label":              "L088.02",
             "lecture-section-of": "8.02",
             "timeAndPlace":       [
                 "TR3-5 32-082",
@@ -241,6 +246,7 @@
             "has-final":     true,
             "description":   "Parallel to 8.02, but more advanced mathematically. Some knowledge of vector calculus assumed. Maxwell's equations, in both differential and integral form. Electrostatic and magnetic vector potential. Properties of dielectrics and magnetic materials. In addition to the theoretical subject matter, several experiments in electricity and magnetism are performed by the students in the laboratory.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.022",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -262,43 +268,43 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.022-1",
+            "label":              "L018.022",
             "lecture-section-of": "8.022",
             "timeAndPlace":       "MWF10 6-120"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.022-2",
+            "label":          "R028.022",
             "rec-section-of": "8.022",
             "timeAndPlace":   "TR9 24-307"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.022-3",
+            "label":          "R038.022",
             "rec-section-of": "8.022",
             "timeAndPlace":   "TR10 24-402"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.022-4",
+            "label":          "R048.022",
             "rec-section-of": "8.022",
             "timeAndPlace":   "TR11 24-402"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.022-5",
+            "label":          "R058.022",
             "rec-section-of": "8.022",
             "timeAndPlace":   "TR1 24-402"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.022-6",
+            "label":          "R068.022",
             "rec-section-of": "8.022",
             "timeAndPlace":   "TR2 24-402"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.022-7",
+            "label":          "R078.022",
             "rec-section-of": "8.022",
             "timeAndPlace":   "TR3 24-402"
         },
@@ -314,6 +320,7 @@
             "has-final":     true,
             "description":   "Mechanical vibrations and waves; simple harmonic motion, superposition, forced vibrations and resonance, coupled oscillations, and normal modes; vibrations of continuous systems; reflection and refraction; phase and group velocity. Optics; wave solutions to Maxwell's equations; polarization; Snell's Law, interference, Huygens's principle, Fraunhofer diffraction, and gratings.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.03",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -331,31 +338,31 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.03-1",
+            "label":              "L018.03",
             "lecture-section-of": "8.03",
             "timeAndPlace":       "MWF3 6-120"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.03-2",
+            "label":          "R028.03",
             "rec-section-of": "8.03",
             "timeAndPlace":   "TR10 26-302"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.03-3",
+            "label":          "R038.03",
             "rec-section-of": "8.03",
             "timeAndPlace":   "TR11 26-302"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.03-4",
+            "label":          "R048.03",
             "rec-section-of": "8.03",
             "timeAndPlace":   "TR1 26-302"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.03-5",
+            "label":          "R058.03",
             "rec-section-of": "8.03",
             "timeAndPlace":   "TR2 26-302"
         },
@@ -371,6 +378,7 @@
             "has-final":     false,
             "description":   "Normally taken by Physics majors in their sophomore year. Einstein's postulates; consequences for simultaneity, time dilation, length contraction, and clock synchronization; Lorentz transformation; relativistic effects and paradoxes; Minkowski diagrams; invariants and four-vectors; momentum, energy, and mass; particle collisions. Relativity and electricity; Coulomb's law; magnetic fields. Brief introduction to Newtonian cosmology. Introduction to some concepts of general relativity; principle of equivalence. The Schwarzchild metric; gravitational red shift; particle and light trajectories; geodesics; Shapiro delay.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.033",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -392,6 +400,7 @@
             "has-final":     true,
             "description":   "Experimental basis of quantum physics: photoelectric effect, Compton scattering, photons, Franck-Hertz experiment, the Bohr atom, electron diffraction, deBroglie waves, and wave-particle duality of matter and light. Introduction to wave mechanics: Schroedinger's equation, wave functions, wave packets, probability amplitudes, stationary states, the Heisenberg uncertainty principle, and zero-point energies. Solutions to Schroedinger's equation in one dimension: transmission and reflection at a barrier, barrier penetration, potential wells, the simple harmonic oscillator. Schroedinger's equation in three dimensions: central potentials and introduction to hydrogenic systems.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.04",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -409,31 +418,31 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.04-1",
+            "label":              "L018.04",
             "lecture-section-of": "8.04",
             "timeAndPlace":       "TR11-12.30 6-120"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.04-2",
+            "label":          "R028.04",
             "rec-section-of": "8.04",
             "timeAndPlace":   "MW10 12-122"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.04-3",
+            "label":          "R038.04",
             "rec-section-of": "8.04",
             "timeAndPlace":   "MW11 12-122"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.04-4",
+            "label":          "R048.04",
             "rec-section-of": "8.04",
             "timeAndPlace":   "MW2 12-122"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.04-5",
+            "label":          "R058.04",
             "rec-section-of": "8.04",
             "timeAndPlace":   "MW3 12-122"
         },
@@ -449,6 +458,7 @@
             "has-final":     true,
             "description":   "Introduction to probability, statistical mechanics, and thermodynamics. Random variables, joint and conditional probability densities, and functions of a random variable. Concepts of macroscopic variables and thermodynamic equilibrium, fundamental assumption of statistical mechanics, microcanonical and canonical ensembles. First, second, and third laws of thermodynamics. Numerous examples illustrating a wide variety of physical phenomena such as magnetism, polyatomic gases, thermal radiation, electrons in solids, and noise in electronic devices. Concurrent enrollment in 8.04 is recommended.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.044",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -460,43 +470,43 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.044-1",
+            "label":              "L018.044",
             "lecture-section-of": "8.044",
             "timeAndPlace":       "MWF1 6-120"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.044-2",
+            "label":          "R028.044",
             "rec-section-of": "8.044",
             "timeAndPlace":   "TR9 12-122"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.044-3",
+            "label":          "R038.044",
             "rec-section-of": "8.044",
             "timeAndPlace":   "TR10 12-122"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.044-4",
+            "label":          "R048.044",
             "rec-section-of": "8.044",
             "timeAndPlace":   "TR11 12-122"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.044-5",
+            "label":          "R058.044",
             "rec-section-of": "8.044",
             "timeAndPlace":   "TR1 12-122"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.044-6",
+            "label":          "R068.044",
             "rec-section-of": "8.044",
             "timeAndPlace":   "TR2 12-122"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.044-7",
+            "label":          "R078.044",
             "rec-section-of": "8.044",
             "timeAndPlace":   "TR3 12-122"
         },
@@ -512,6 +522,7 @@
             "has-final":     false,
             "description":   "Together 8.05 and 8.06 cover quantum physics with applications drawn from modern physics. General formalism of quantum mechanics: states, operators, Dirac notation, representations, measurement theory. Harmonic oscillator: operator algebra, states. Quantum mechanics in three-dimensions: central potentials and the radial equation, bound and scattering states, qualitative analysis of wavefunctions. Angular momentum: operators, commutator algebra, eigenvalues and eigenstates, spherical harmonics. Spin: Stern-Gerlach devices and measurements, nuclear magnetic resonance, spin and statistics. Addition of angular momentum: Clebsch-Gordan series and coefficients, spin systems, and allotropic forms of hydrogen.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.05",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "8.04",
@@ -530,6 +541,7 @@
             "has-final":     true,
             "description":   "Continuation of 8.05. Units: natural units, scales of microscopic phenomena, applications. Time-independent approximation methods: degenerate and nondegenerate perturbation theory, variational method, Born-Oppenheimer approximation, applications to atomic and molecular systems. The structure of one- and two-electron atoms: overview, spin-orbit and relativistic corrections, fine structure, variational approximation, screening, Zeeman and Stark effects. Charged particles in a magnetic field: Landau levels and integer quantum hall effect. Scattering: general principles, partial waves, review of one-dimension, low-energy approximations, resonance, Born approximation. Time-dependent perturbation theory. Students research and write a paper on a topic related to the content of 8.05 and 8.06.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.06",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "8.05",
@@ -538,25 +550,25 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.06-1",
+            "label":              "L018.06",
             "lecture-section-of": "8.06",
             "timeAndPlace":       "TR12.30-2 6-120"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.06-2",
+            "label":          "R028.06",
             "rec-section-of": "8.06",
             "timeAndPlace":   "MW12 12-142"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.06-3",
+            "label":          "R038.06",
             "rec-section-of": "8.06",
             "timeAndPlace":   "MW1 12-142"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.06-4",
+            "label":          "R048.06",
             "rec-section-of": "8.06",
             "timeAndPlace":   "MW3 4-153"
         },
@@ -572,6 +584,7 @@
             "has-final":     false,
             "description":   "Survey of basic electromagnetic phenomena: electrostatics, magnetostatics; electromagnetic properties of matter. Time-dependent electromagnetic fields and Maxwell's equations. Electromagnetic waves, emission, absorption, and scattering of radiation. Relativistic electrodynamics and mechanics.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.07",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -593,6 +606,7 @@
             "has-final":     true,
             "description":   "Probability distributions for classical and quantum systems. Microcanonical, canonical, and grand canonical partition-functions and associated thermodynamic potentials. Conditions of thermodynamic equilibrium for homogenous and heterogenous systems. Applications: non-interacting Bose and Fermi gases; mean field theories for real gases, binary mixtures, magnetic systems, polymer solutions; phase and reaction equilibria, critical phenomena. Fluctuations, correlation functions and susceptibilities, and Kubo formulae. Evolution of distribution functions: Boltzmann and Smoluchowski equations.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.08",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -604,13 +618,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.08-1",
+            "label":              "L018.08",
             "lecture-section-of": "8.08",
             "timeAndPlace":       "MWF1 26-328"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R8.08-2",
+            "label":          "R028.08",
             "rec-section-of": "8.08",
             "timeAndPlace":   "T2 2-139"
         },
@@ -626,6 +640,7 @@
             "has-final":     false,
             "description":   "Formal introduction to classical mechanics, Euler-Lagrange equations, Hamilton's equations of motion used to describe central force motion, scattering, perturbation theory and Noether's theroem. Extension to continuous and relativistic systems and classical electrodynamics.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.09",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "8.01",
@@ -644,6 +659,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.18",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -668,6 +684,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.19",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -692,6 +709,7 @@
             "has-final":     false,
             "description":   "Introduces the basic ideas and equations of Einstein's special theory of relativity. Topics include Lorentz transformations, length contraction and time dilation, four vectors, Lorentz invariants, relativistic energy and momentum, relativistic kinematics, Doppler shift, space-time diagrams, relativity paradoxes, and some concepts of general relativity. Intended for freshmen and sophomores. Not usable as a restricted elective by Physics majors. Credit cannot be received for 8.20 if credit for 8.033 is or has been received in the same or prior terms.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.20",
+            "joint":         false,
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
@@ -705,7 +723,7 @@
         {
             "type":          "Class",
             "label":         "Interactive Introduction to Nuclear Magnetic Resonance",
-            "id":            "8.22J",
+            "id":            "8.22",
             "listing-index": "m8a-018",
             "course":        "8",
             "level":         "Grad",
@@ -714,6 +732,7 @@
             "has-final":     false,
             "description":   "Interactive introduction to NMR presenting background in classical theory and instrumentation. Each lecture followed by lab experiments both to demonstrate ideas presented during the lecture and to familiarize students with state-of-the-art NMR instrumentation. Experiments cover topics ranging from spin dynamics to spectroscopy, and include both imaging and quantum information processing.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.22J",
+            "joint":         true,
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -739,6 +758,7 @@
             "has-final":     false,
             "description":   "Study of physical effects in the vicinity of a black hole as a basis for understanding general relativity, astrophysics, and elements of cosmology. Extension to current developments in theory and observation. Energy and momentum in flat space-time; the metric; curvature of space-time near rotating and nonrotating centers of attraction; trajectories and orbits of particles and light; elementary models of the Cosmos. Weekly meetings include an evening seminar and recitation. The last third of the semester is reserved for collaborative research projects on topics such as the Global Positioning System, solar system tests of relativity, descending into a black hole, gravitational lensing, gravitational waves, Gravity Probe B, and more advanced models of the cosmos. Subject has online components that are open to selected MIT alumni. Alumni wishing to participate should contact Professor Bertschinger at edbert@mit.edu. Enrollment limited to 40.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.224",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "prereq":        [
@@ -751,7 +771,7 @@
         {
             "type":          "Class",
             "label":         "Einstein, Oppenheimer, Feynman: Physics in the 20th Century",
-            "id":            "8.225J",
+            "id":            "8.225",
             "listing-index": "m8a-020",
             "course":        "8",
             "level":         "Undergrad",
@@ -760,6 +780,7 @@
             "has-final":     false,
             "description":   "Explores the changing roles of physics and physicists during the 20th century. Topics range from relativity theory and quantum mechanics to high-energy physics and cosmology. Examines the development of modern physics within shifting institutional, cultural, and political contexts, such as physics in Imperial Britain, Nazi Germany, US efforts during World War II, and physicists' roles during the Cold War. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.225J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "HASS Elective",
@@ -778,6 +799,7 @@
             "has-final":     false,
             "description":   "Introduction to the basic concepts of the quantum theory of solids. Topics: periodic structure and symmetry of crystals; diffraction; reciprocal lattice; chemical bonding; lattice dynamics, phonons, thermal properties; free electron gas; model of metals; Bloch theorem and band structure, nearly free electron approximation; tight binding method; Fermi surface; semiconductors, electrons, holes, impurities; optical properties, excitons; and magnetism.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.231",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "8.044",
@@ -797,6 +819,7 @@
             "has-final":     false,
             "description":   "Introduction to the main concepts of string theory, i.e. quantum mechanics of a relativistic string. Develops aspects of string theory and makes it accessible to students familiar with basic electromagnetism and statistical mechanics, including the study of D-branes and string thermodynamics.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.251",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "prereq":        [
@@ -810,7 +833,7 @@
         {
             "type":          "Class",
             "label":         "Introduction to Computational Neuroscience",
-            "id":            "8.261J",
+            "id":            "8.261",
             "listing-index": "m8a-023",
             "course":        "8",
             "level":         "Undergrad",
@@ -819,6 +842,7 @@
             "has-final":     false,
             "description":   "Mathematical introduction to the biophysics and circuits underlying neural computation. Topics include neuronal excitability, dendrites and cable theory, models of synaptic transmission, single-neuron dynamics, oscillators and sequence generation, and computation and dynamics in simple neuronal networks. Concepts applied to simple computing circuits in the behaving animal.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.261J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -841,6 +865,7 @@
             "has-final":     false,
             "description":   "A modern view of the fundamental structure of matter. Starting from a model that views quarks as basic building blocks of mesons and baryons, the properties and interactions of these particles are established. Quantum numbers and multiplet structure of particle families. Nuclei as multibaryon systems: stability, radioactive decay, and reactions. Current topics in nuclear and particle physics research at MIT.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.276",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "prereq":        "8.05",
@@ -850,7 +875,7 @@
         {
             "type":          "Class",
             "label":         "Introduction to Particle Accelerators",
-            "id":            "8.277J",
+            "id":            "8.277",
             "listing-index": "m8a-025",
             "course":        "8",
             "level":         "Undergrad",
@@ -859,6 +884,7 @@
             "has-final":     true,
             "description":   "Principles of acceleration: beam properties; linear accelerators, synchrotrons, and storage rings.  Accelerator technologies: radio frequency cavities, bending and focusing magnets, beam diagnostics. Particle beam optics and dynamics. Special topics: measures of accelerators performance in science, medicine and industry; synchrotron radiation sources; free electron lasers; high-energy colliders; and accelerators for radiation therapy.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.277J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -871,14 +897,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.277J-1",
-            "lecture-section-of": "8.277J",
+            "label":              "L018.277",
+            "lecture-section-of": "8.277",
             "timeAndPlace":       "MW2.30-4 8-205"
         },
         {
             "type":          "Class",
             "label":         "Introduction to Astronomy",
-            "id":            "8.282J",
+            "id":            "8.282",
             "listing-index": "m8a-026",
             "course":        "8",
             "level":         "Undergrad",
@@ -887,6 +913,7 @@
             "has-final":     true,
             "description":   "Quantitative introduction to physics of the solar system, stars, interstellar medium, the galaxy, and universe, as determined from a variety of astronomical observations and models. Topics: planets, planet formation; stars, the Sun, \"normal\" stars, star formation; stellar evolution, supernovae, compact objects (white dwarfs, neutron stars, and black holes), plusars, binary x-ray sources; star clusters, globular and open clusters; interstellar medium, gas, dust, magnetic fields, cosmic rays; distance ladder; galaxies, normal and active galaxies, jets; gravitational lensing; large scaling structure; Newtonian cosmology, dynamical expansion and thermal history of the universe; cosmic microwave background radiation; big bang nucleosynthesis. No prior knowledge of astronomy necessary. Not usable as a restricted elective by Physics majors.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.282J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
@@ -899,8 +926,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.282J-1",
-            "lecture-section-of": "8.282J",
+            "label":              "L018.282",
+            "lecture-section-of": "8.282",
             "timeAndPlace":       "TR2.30-4 2-105"
         },
         {
@@ -915,6 +942,7 @@
             "has-final":     true,
             "description":   "Applications of physics (Newtonian, statistical, and quantum mechanics) to fundamental processes that occur in celestial objects. Includes main-sequence stars, collapsed stars (white dwarfs, neutron stars, and black holes), pulsars, supernovae, the interstellar medium, galaxies, and as time permits, active galaxies, quasars, and cosmology. Observational data discussed. No prior knowledge of astronomy is required.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.284",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "8.04",
@@ -924,7 +952,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.284-1",
+            "label":              "L018.284",
             "lecture-section-of": "8.284",
             "timeAndPlace":       "TRF3 2-151"
         },
@@ -940,6 +968,7 @@
             "has-final":     false,
             "description":   "Introduction to modern cosmology. First half deals with the development of the big bang theory from 1915 to 1980, and latter half with recent impact of particle theory. Topics: special relativity and the Doppler effect, Newtonian cosmological models, introduction to non-Euclidean spaces, thermal radiation and early history of the universe, big bang nucleosynthesis, introduction to grand unified theories and other recent developments in particle theory, baryogenesis, the inflationary universe model, and the evolution of galactic structure.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.286",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -956,7 +985,7 @@
         {
             "type":          "Class",
             "label":         "Observational Techniques of Optical Astronomy",
-            "id":            "8.287J",
+            "id":            "8.287",
             "listing-index": "m8a-029",
             "course":        "8",
             "level":         "Undergrad",
@@ -965,6 +994,7 @@
             "has-final":     false,
             "description":   "Fundamental physical and optical principles used for astronomical measurements at visible wavelengths and practical methods of astronomical observations. Topics: astronomical coordinates, time, optics, telescopes, photon counting, signal-to-noise ratios, data analysis (including least-squares model fitting), limitations imposed by the Earth's atmosphere on optical observations, CCD detectors, photometry, spectroscopy, astrometry, and time variability. Project at Wallace Astrophysical Observatory. Written and oral project reports. Enrollment limited to 24 students, with priority given to Course 8 and Course 12 majors and minors.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.287J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
@@ -981,7 +1011,7 @@
         {
             "type":          "Class",
             "label":         "Fluid Physics",
-            "id":            "8.292J",
+            "id":            "8.292",
             "listing-index": "m8a-030",
             "course":        "8",
             "level":         "Undergrad",
@@ -990,6 +1020,7 @@
             "has-final":     true,
             "description":   "A physics-based introduction to the properties of fluids and fluid systems, with examples drawn from a broad range of sciences, including atmospheric physics and astrophysics. Definitions of fluids and the notion of continuum. Equations of state and continuity, hydrostatics and conservation of momentum; ideal fluids and Euler's equation; viscosity and the Navier-Stokes equation. Energy considerations, fluid thermodynamics, and isentropic flow. Compressible versus incompressible and rotational versus irrotational flow; Bernoulli's theorem; steady flow, streamlines and potential flow. Circulation and vorticity. Kelvin's theorem. Boundary layers. Fluid waves and instabilities. Quantum fluids.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.292J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1002,8 +1033,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L8.292J-1",
-            "lecture-section-of": "8.292J",
+            "label":              "L018.292",
+            "lecture-section-of": "8.292",
             "timeAndPlace":       "MW2.30-4 26-168"
         },
         {
@@ -1018,6 +1049,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.298",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -1042,6 +1074,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.299",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1064,6 +1097,7 @@
             "has-final":     false,
             "description":   "Research opportunities in physics. For further information, contact the departmental UROP coordinator.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.UR",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -1088,6 +1122,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m8a.html#8.ThU",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",

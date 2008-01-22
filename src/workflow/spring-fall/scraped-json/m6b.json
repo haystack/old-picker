@@ -12,6 +12,7 @@
             "has-final":     false,
             "description":   "Analysis and design of transistor circuits, based directly on the semiconductor physics and transistor circuit models developed in 6.012. High-frequency and low-frequency design calculations and simulation of multistage transistor circuits. Trans-linear circuits. The charge-control model. Introduction to operational-amplifier design and application. Some previous laboratory experience assumed.  4 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.301",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -36,6 +37,7 @@
             "has-final":     true,
             "description":   "Introduction to design of feedback systems. Properties and advantages of feedback systems. Time-domain and frequency-domain performance measures. Stability and degree of stability. Nyquist criterion. Frequency-domain design. Root locus method. Compensation techniques. Application to a wide variety of physical systems. Some previous laboratory experience with electronic systems is assumed (6.002, 6.071, or 16.04).  4 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.302",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -48,19 +50,19 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.302-1",
+            "label":              "L016.302",
             "lecture-section-of": "6.302",
             "timeAndPlace":       "TR11 32-141"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.302-2",
+            "label":          "R026.302",
             "rec-section-of": "6.302",
             "timeAndPlace":   "WF2 26-314"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.302-3",
+            "label":          "R036.302",
             "rec-section-of": "6.302",
             "timeAndPlace":   "WF3 26-314"
         },
@@ -76,6 +78,7 @@
             "has-final":     false,
             "description":   "Following a brief classroom discussion of relevant principles, each student completes the paper design of several advanced circuits such as multiplexers, sample-and-holds, gain-controlled amplifiers, analog multipliers, digital-to-analog or analog-to-digital converters, and power amplifiers. One of each student's designs is presented to the class, and one may be built and evaluated. Associated laboratory emphasizing the use of modern analog building blocks. Alternate years. Enrollment limited. 12 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.331",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -101,6 +104,7 @@
             "has-final":     false,
             "description":   "The application of electronics to energy conversion and control.  Modeling, analysis, and control techniques.  Design of power circuits including inverters, rectifiers, and dc-dc converters.  Analysis and design of magnetic components and filters.  Characteristics of power semiconductor devices.  Numerous application examples, such as motion control systems, power supplies, and radio-frequency power amplifiers.  6 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.334",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -113,14 +117,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.334-1",
+            "label":              "L016.334",
             "lecture-section-of": "6.334",
             "timeAndPlace":       "MWF1 32-124"
         },
         {
             "type":          "Class",
             "label":         "Introduction to Numerical Simulation",
-            "id":            "6.336J",
+            "id":            "6.336",
             "listing-index": "m6b-004",
             "course":        "6",
             "level":         "Grad",
@@ -129,6 +133,7 @@
             "has-final":     false,
             "description":   "Introduction to computational techniques for the simulation of a large variety of engineering and engineered systems. Applications drawn from aerospace, mechanical, electrical, and chemical engineering, biology, and materials science. Topics: mathematical formulations; network problems; sparse direct and iterative matrix solution techniques; Newton methods for nonlinear problems; discretization methods for ordinary, time-periodic and partial differential equations; fast methods for partial differential equations and integral equations, techniques for model order reduction of dynamical systems and approaches for molecular dynamics.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.336J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -149,7 +154,7 @@
         {
             "type":          "Class",
             "label":         "Introduction to Numerical Methods",
-            "id":            "6.337J",
+            "id":            "6.337",
             "listing-index": "m6b-005",
             "course":        "6",
             "level":         "Grad",
@@ -158,6 +163,7 @@
             "has-final":     false,
             "description":   "Advanced introduction to numerical linear algebra. Topics include direct and iterative methods for linear systems, eigenvalue decompositions and QR/SVD factorizations, stability and accuracy of numerical algorithms, the IEEE floating point standard, sparse and structured matrices, preconditioning, linear algebra software.  Problem sets require some knowledge of Matlab.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.337J",
+            "joint":         true,
             "semester":      [
                 "Fall",
                 "Summer"
@@ -178,7 +184,7 @@
         {
             "type":          "Class",
             "label":         "Parallel Computing",
-            "id":            "6.338J",
+            "id":            "6.338",
             "listing-index": "m6b-006",
             "course":        "6",
             "level":         "Grad",
@@ -187,6 +193,7 @@
             "has-final":     false,
             "description":   "",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.338J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -199,14 +206,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.338J-1",
-            "lecture-section-of": "6.338J",
+            "label":              "L016.338",
+            "lecture-section-of": "6.338",
             "timeAndPlace":       "TR1-2.30 1-277"
         },
         {
             "type":          "Class",
             "label":         "Numerical Methods for Partial Differential Equations",
-            "id":            "6.339J",
+            "id":            "6.339",
             "listing-index": "m6b-007",
             "course":        "6",
             "level":         "Grad",
@@ -215,6 +222,7 @@
             "has-final":     false,
             "description":   "Covers the fundamentals of modern numerical techniques for a wide range of linear and nonlinear elliptic, parabolic, and hyperbolic partial differential and integral equations. Topics include mathematical formulations; finite difference, finite volume, finite element, and boundary element discretization methods; and direct and iterative solution techniques. The methodologies described form the foundation for computational approaches to engineering systems involving heat transfer, solid mechanics, fluid dynamics, and electromagnetics. Computer assignments requiring programming.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.339J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -243,6 +251,7 @@
             "has-final":     false,
             "description":   "Representation, analysis, and design of discrete time signals and systems. Discrete-time processing of continuous-time signals. Decimation, interpolation, and sampling rate conversion. Flowgraph structures for DT systems. Time- and frequency-domain design techniques for recursive (IIR) and non-recursive (FIR) filters. Linear prediction. Discrete Fourier transform, FFT algorithm. Short-time Fourier analysis and filter banks. Multirate techniques. Hilbert transforms, Cepstral analysis, various applications.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.341",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -265,6 +274,7 @@
             "has-final":     false,
             "description":   "Study topics including Hilbert space formulation of continuous-time and discrete-time signals; sampling; orthogonal and biorthogonal signal expansions; uncertainty principles and the time-frequency plane; two-channel filter banks, iterated filter banks, discrete wavelet transforms, multiresolution analysis, wavelet bases, regularity, approximation properties, and nonlinear approximation; basics of quantization and source coding; compression, denoising, and other image processing using wavelets. Advanced topics from the current research literature.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.342",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -288,6 +298,7 @@
             "has-final":     false,
             "description":   "Digital images as two-dimensional signals. Digital signal processing theories used for digital image processing, including one-dimensional and two-dimensional convolution, Fourier transform, discrete Fourier transform, and discrete cosine transform. Image processing basics. Image enhancement. Image restoration. Image coding and compression. Video processing including video coding and compression. Additional topics including digital high-definition television systems.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.344",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -300,14 +311,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.344-1",
+            "label":              "L016.344",
             "lecture-section-of": "6.344",
             "timeAndPlace":       "TR11-12.30 56-154"
         },
         {
             "type":          "Class",
             "label":         "Automatic Speech Recognition",
-            "id":            "6.345J",
+            "id":            "6.345",
             "listing-index": "m6b-011",
             "course":        "6",
             "level":         "Grad",
@@ -316,6 +327,7 @@
             "has-final":     false,
             "description":   "Graduate-level introduction to automatic speech recognition. Provide fundamental background in acoustic theory of speech production, properties of speech sounds, signal representation, acoustic modeling, pattern classification, search algorithms, stochastic modeling techniques (including hidden Markov modeling), and language modeling.  Advanced topics include finite-state transducer formulation for speech recognition, system robustness and adaptation, audio-visual integration for speech processing, and speech understanding.  Hands-on experience gained through laboratory exercises and a term project. Alternate years.  4 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.345J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -341,6 +353,7 @@
             "has-final":     false,
             "description":   "Device and circuit level optimization of digital building blocks. MOS device models including Deep Sub-Micron effects. Circuit design styles for logic, arithmetic and sequential blocks. Estimation and minimization of energy consumption. Interconnect models and parasitics; device sizing and logical effort; timing issues (clock skew and jitter) and active clock distribution techniques. Memory architectures, circuits (sense amplifiers) and devices. Testing of integrated circuits. Extensive use of circuit layout and SPICE in design projects and software labs. 4 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.374",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -363,6 +376,7 @@
             "has-final":     false,
             "description":   "Introduction to the design and implementation of large-scale digital systems using CMOS VLSI: technology and scaling; VLSI implementation styles- full custom to FPGAs; design flows and associated EDA tools; design verification; design for fabrication testing; hardware description languages (Verilog & Bluespec); power, area and delay optimizations; clocking schemes; power distribution and dissipation; I/O and packaging. Extensive use of CAD tools in weekly labs as preparation for a multi-person design project on multi-million gate FPGAs. Enrollment may be limited.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.375",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -375,7 +389,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.375-1",
+            "label":              "L016.375",
             "lecture-section-of": "6.375",
             "timeAndPlace":       "MWF2.30-4 32-124"
         },
@@ -391,6 +405,7 @@
             "has-final":     false,
             "description":   "A comprehensive introduction to analog VLSI including ultra low power design, low-noise design, and feedback circuit design. Device physics of the MOS transistor including subthreshold operation. Basics of VLSI layout. Transconductance Amplifiers and Filters. Mixed-Signal State Machines and Switching Systems. Biologically Inspired Ultra-Low-Power Circuits and Systems. Applications vary from year to year. Examples include biomedical systems, MEMS electronics, sensory systems in audition and vision, RF circuits and systems, low-power analog-to-digital conversion, and learning in neural systems.  8 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.376",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -410,6 +425,7 @@
             "has-final":     true,
             "description":   "An introduction to probability theory, and the modeling and analysis of probabilistic systems. Sample space, probabilistic models, conditional probability. Discrete and continuous random variables. Transform techniques. Bernoulli and Poisson processes. Markov processes. Limit theorems and elements of statistical inference. Meets with graduate subject 6.431, but assignments differ.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.431",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -427,26 +443,26 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.431-1",
+            "label":              "L016.431",
             "lecture-section-of": "6.431",
             "timeAndPlace":       "MW12 34-101"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.431-2",
+            "label":          "R026.431",
             "rec-section-of": "6.431",
             "timeAndPlace":   "TR1 66-156"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.431-3",
+            "label":          "R036.431",
             "rec-section-of": "6.431",
             "timeAndPlace":   "TR2 66-156"
         },
         {
             "type":          "Class",
             "label":         "Statistics for Engineers and Scientists",
-            "id":            "6.434J",
+            "id":            "6.434",
             "listing-index": "m6b-016",
             "course":        "6",
             "level":         "Grad",
@@ -455,6 +471,7 @@
             "has-final":     false,
             "description":   "Provides a rigorous introduction to fundamentals of statistics motivated by engineering applications and emphasizing the informed use of modern statistical software.  Topics include sufficient statistics, exponential families, estimation, hypothesis testing, measures of performance, and notion of optimality. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.434J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -482,6 +499,7 @@
             "has-final":     false,
             "description":   "Mathematical models of systems from observations of their behavior. Time series, state-space, and input-output models. Model structures, parametrization, and identifiability. Non-parametric methods. Prediction error methods for parameter estimation, convergence, consistency, andasymptotic distribution. Relations to maximum likelihood estimation. Recursive estimation; relation to Kalman filters; structure determination; order estimation; Akaike criterion; and bounded but unknown noise models. Robustness and practical issues. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.435",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -498,7 +516,7 @@
         {
             "type":          "Class",
             "label":         "Fundamentals of Probability",
-            "id":            "6.436J",
+            "id":            "6.436",
             "listing-index": "m6b-018",
             "course":        "6",
             "level":         "Grad",
@@ -507,6 +525,7 @@
             "has-final":     false,
             "description":   "Introduction to probability theory. Probability spaces and measures. Discrete and continuous random variables. Conditioning and independence. Multivariate normal distribution. Abstract integration, expectation, and related convergence results. Moment generating and  characteristic functions. Bernoulli and Poisson process. Finite-state  Markov chains. Convergence notions and their relations. Limit theorems. Familiarity with elementary notions in probability and real analysis is desirable.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.436J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -532,6 +551,7 @@
             "has-final":     false,
             "description":   "Introduction to principles of Bayesian and non-Bayesian statistical inference. Hypothesis testing and parameter estimation, sufficient statistics; exponential families. Log-loss inference criterion, entropy and model capacity.  Kullback-Leibler distance and information geometry. Asymptotic analysis and large deviations theory.  Model  order estimation; nonparametric statistics.  Computational issues and approximation techniques; Monte Carlo methods.  Selected special topics such as universal prediction and compression.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.437",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -549,19 +569,19 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.437-1",
+            "label":              "L016.437",
             "lecture-section-of": "6.437",
             "timeAndPlace":       "TR9.30-11 2-105"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.437-2",
+            "label":          "R026.437",
             "rec-section-of": "6.437",
             "timeAndPlace":   "F10 26-322"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.437-3",
+            "label":          "R036.437",
             "rec-section-of": "6.437",
             "timeAndPlace":   "F11 26-322"
         },
@@ -577,6 +597,7 @@
             "has-final":     false,
             "description":   "Estimation and inference problems arising in signal processing, optimization and control, and machine learning. Second-order characterizations of random phenomena. Least squares estimation: Orthogonality, and whitening; Wiener filtering; estimation for state space models: Kalman filters and smoothers, properties, and efficient algorithms. Model estimation: ergodicity, spectral estimation, likelihood calculation, all-pole models and the Levinson algorithm. Estimation for Markov models: particle filters, Viterbi algorithm. Markov random fields and graphical models: Belief Propagation Algorithms and properties; exponential families, variational methods, and max-entropy modeling.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.438",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -603,6 +624,7 @@
             "has-final":     false,
             "description":   "Introduces the theory of error-correcting codes. Focuses on the essential results in the area, taught from first principles. Special focus will be given on results of asymptotic or algorithmic significance. Principal topics include construction and existence results for error-correcting codes; limitations on the combinatorial performance of error-correcting codes; decoding algorithms; and applications to other areas of mathematics and computer science.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.440",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered next year",
@@ -618,7 +640,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.440-1",
+            "label":              "L016.440",
             "lecture-section-of": "6.440",
             "timeAndPlace":       "MW1-2.30 26-322"
         },
@@ -634,6 +656,7 @@
             "has-final":     false,
             "description":   "Introduction to the quantitative theory of information and its applications to reliable, efficient communication systems. Mathematical definition and properties of information and its operational meanings. Basics of large deviations and its use in information theory, coding theory, and statistics. Source coding theorem and noisy channel coding theorem; error exponents; the source-channel separation theorem; multiple access channels, broadcast channels. Readings from the literature in these topics.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.441",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -646,7 +669,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.441-1",
+            "label":              "L016.441",
             "lecture-section-of": "6.441",
             "timeAndPlace":       "TR11-12.30 32-124"
         },
@@ -662,6 +685,7 @@
             "has-final":     true,
             "description":   "Introduces the fundamental and practical aspects of optical network technology, architecture, design and analysis tools and techniques.  The treatment of optical networks are from the architecture and system design points of view. Optical hardware technologies introduced and characterized as fundamental network building blocks on which optical transmission systems and network architectures are based.  In addition to the Physical Layer, the higher network layers (Media Access Control, Network and Transport Layers) are considered together as integral parts of network design. Performance metrics, analysis and optimization techniques are developed to help guide the creation of high performance complex optical networks.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.442",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -674,14 +698,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.442-1",
+            "label":              "L016.442",
             "lecture-section-of": "6.442",
             "timeAndPlace":       "MW9.30-11 36-156"
         },
         {
             "type":          "Class",
             "label":         "Quantum Information Science",
-            "id":            "6.443J",
+            "id":            "6.443",
             "listing-index": "m6b-024",
             "course":        "6",
             "level":         "Grad",
@@ -690,6 +714,7 @@
             "has-final":     false,
             "description":   "Subject examines quantum computation and quantum information. Topics include quantum circuits, quantum Fourier transform and search algorithms, physical implementations, the quantum operations formalism, quantum error correction, stabilizer and Calderbank-Shor-Steans codes, fault tolerant quantum computation, quantum data compression, entanglement, and proof of the security of quantum cryptography. Prior knowledge of quantum mechanics and basic information theory is required.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.443J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -705,8 +730,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.443J-1",
-            "lecture-section-of": "6.443J",
+            "label":              "L016.443",
+            "lecture-section-of": "6.443",
             "timeAndPlace":       "TR11-12.30 36-156"
         },
         {
@@ -721,6 +746,7 @@
             "has-final":     false,
             "description":   "Communication sources and channels; data compression; entropy and the AEP; Lempel-Ziv universal coding; scalar and vector quantization; L2 waveforms; signal space and its representation by sampling and other expansions; aliasing; the Nyquist criterion; PAM and QAM modulation; Gaussian noise and random processes; detection and optimal receivers; fading channels and wireless communication; introduction to communication system design.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.450",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -743,6 +769,7 @@
             "has-final":     false,
             "description":   "Coding for the AWGN channel; the gap to capacity; binary block and convolutional codes; finite fields and Reed-Solomon codes; trellis representations; codes on graphs and iterative decoding; capacity-approaching codes; lattice and trellis codes. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.451",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -762,6 +789,7 @@
             "has-final":     false,
             "description":   "Introduction to design, analysis, and fundamental limits of wireless transmission systems.  Wireless channel and system models; fading and diversity; resouce management and power control; multiple-antenna and MIMO systems; space-time codes and decoding algorithms; multiple-access techniques and multiuser detection; broadcast codes and precoding; cellular and ad-hoc network topologies; OFDM and ultrawideband systems; architectural issues.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.452",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -784,6 +812,7 @@
             "has-final":     false,
             "description":   "Quantum optics: Dirac notation quantum mechanics; harmonic oscillator quantization; number states, coherent states, and squeezed states; radiation field quantization and quantum field propagation; P-representation and classical fields. Linear loss and linear amplification: commutator preservation and the Uncertainty Principle; beam splitters; phase-insensitive and phase-sensitive amplifiers. Quantum photodetection: direct detection, heterodyne detection, and homodyne detection. Second-order nonlinear optics: phasematched interactions; optical parametric amplifiers; generation of squeezed states, photon-twin beams, non-classical fourth-order interference, and polarization entanglement. Quantum systems theory: optimum binary detection; quantum precision measurements; quantum cryptography; and quantum teleportation. Term paper required. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.453",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -806,6 +835,7 @@
             "has-final":     false,
             "description":   "Student-run advanced graduate seminar covering topics in Area I   (communications, signal processing, optimization and control).    Participants give presentations outside of their own research to expose   colleagues to topics not covered in the usual curriculum. Recent topics have included information geometry, linear programming decoding, biology in EECS, distributed hypothesis testing and cryptogaphy.  Open to advanced students who have completed their Area I TQE graduate   subjects.  Enrollment limited to 12 students.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.454",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Can be repeated for credit",
@@ -821,7 +851,7 @@
         {
             "type":          "Class",
             "label":         "Sonar, Radar, and Seismic Signal Processing",
-            "id":            "6.455J",
+            "id":            "6.455",
             "listing-index": "m6b-030",
             "course":        "6",
             "level":         "Grad",
@@ -830,6 +860,7 @@
             "has-final":     false,
             "description":   "Signal processing used in sonar, radar, and geophysical data analysis. Active sonar and radar systems: matched filters and ambiguity functions, signal design of range/doppler resolution, second moment characterizations of random processes with correlation functions and power density spectra, deconvolution, spectral estimation by Fourier techniques and adaptive methods, beam forming.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.455J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -852,7 +883,7 @@
         {
             "type":          "Class",
             "label":         "Quantitative Physiology: Cells and Tissues",
-            "id":            "6.521J",
+            "id":            "6.521",
             "listing-index": "m6b-031",
             "course":        "6",
             "level":         "Grad",
@@ -861,6 +892,7 @@
             "has-final":     false,
             "description":   "Principles of mass transport and electrical signal generation for biological membranes, cells, and tissues. Mass transport through membranes: diffusion, osmosis, chemically mediated, and active transport. Electric properties of cells: ion transport; equilibrium, resting, and action potentials. Kinetic and molecular properties of single voltage-gated ion channels. Laboratory and computer exercises illustrate the concepts. For juniors and seniors. Students engage in extensive written and oral communication exercises. Meets with graduate subject 6.521J, but assignments differ.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.521J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -885,7 +917,7 @@
         {
             "type":          "Class",
             "label":         "Quantitative Physiology: Organ Transport Systems",
-            "id":            "6.522J",
+            "id":            "6.522",
             "listing-index": "m6b-032",
             "course":        "6",
             "level":         "Grad",
@@ -894,6 +926,7 @@
             "has-final":     true,
             "description":   "Application of the principles of energy and mass flow to major human organ systems. Mechanisms of regulation and homeostasis. Anatomical, physiological and pathophysiological features of the cardiovascular, respiratory and renal systems. Systems, features and devices that are most illuminated by the methods of physical sciences. Laboratory work includes some animal studies.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.522J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -911,26 +944,26 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.522J-1",
-            "lecture-section-of": "6.522J",
+            "label":              "L016.522",
+            "lecture-section-of": "6.522",
             "timeAndPlace":       "TR9.30-11 32-124"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.522J-2",
-            "rec-section-of": "6.522J",
+            "label":          "R026.522",
+            "rec-section-of": "6.522",
             "timeAndPlace":   "F1 E25-117"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.522J-3",
-            "rec-section-of": "6.522J",
+            "label":          "R036.522",
+            "rec-section-of": "6.522",
             "timeAndPlace":   "F2 E25-117"
         },
         {
             "type":          "Class",
             "label":         "Molecular, Cellular, and Tissue Biomechanics",
-            "id":            "6.524J",
+            "id":            "6.524",
             "listing-index": "m6b-033",
             "course":        "6",
             "level":         "Grad",
@@ -939,6 +972,7 @@
             "has-final":     false,
             "description":   "Develops and applies scaling laws and the methods of continuum mechanics to biomechanical phenomena over a range of length scales. Topics include structure of tissues and the molecular basis for macroscopic properties; chemical and electrical effects on mechanical behavior; cell mechanics, motility and adhesion; biomembranes; biomolecular mechanics and molecular motors. Experimental methods for probing structures at the tissue, cellular, and molecular levels.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.524J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -963,14 +997,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.524J-1",
-            "lecture-section-of": "6.524J",
+            "label":              "L016.524",
+            "lecture-section-of": "6.524",
             "timeAndPlace":       "MW1-2.30 32-141"
         },
         {
             "type":          "Class",
             "label":         "Speech Communication",
-            "id":            "6.541J",
+            "id":            "6.541",
             "listing-index": "m6b-034",
             "course":        "6",
             "level":         "Grad",
@@ -979,6 +1013,7 @@
             "has-final":     false,
             "description":   "Survey of structural properties of natural languages, with special emphasis on the sound pattern. Representation of the lexicon. Physiology of speech production, articulatory phonetics. Acoustical theory of speech production; acoustical and articulatory descriptions of phonetic features and of prosodic aspects of speech. Perception of speech. Models of lexical access and of speech production and planning. Applications to recognition and generation of speech by machine, and to the study of speech disorders. Recommended prerequisite: mathematical background equivalent to 6.003.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.541J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -991,14 +1026,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.541J-1",
-            "lecture-section-of": "6.541J",
+            "label":              "L016.541",
+            "lecture-section-of": "6.541",
             "timeAndPlace":       "TR2.30-4 34-302"
         },
         {
             "type":          "Class",
             "label":         "Laboratory on the Physiology, Acoustics, and Perception of Speech",
-            "id":            "6.542J",
+            "id":            "6.542",
             "listing-index": "m6b-035",
             "course":        "6",
             "level":         "Grad",
@@ -1007,6 +1042,7 @@
             "has-final":     false,
             "description":   "Experimental investigations of speech processes. Topics: measurement of articulatory movements; measurements of pressures and airflows in speech production; computer-aided waveform analysis and spectral analysis of speech; synthesis of speech; perception and discrimination of speechlike sounds; speech prosody; models for speech recognition; speech development; and other topics. Recommended prerequisites: 6.002 or 18.03. Alternate years.  4 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.542J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1021,7 +1057,7 @@
         {
             "type":          "Class",
             "label":         "The Lexicon and Its Features",
-            "id":            "6.543J",
+            "id":            "6.543",
             "listing-index": "m6b-036",
             "course":        "6",
             "level":         "Grad",
@@ -1030,6 +1066,7 @@
             "has-final":     false,
             "description":   "Overview of features that distinguish sound categories in languages of the world. Theories that relate these categories to their acoustic and articulatory correlates, both universally and in particular languages. Models of word recognition by listeners. A variety of perspectives on these issues, drawn from electrical engineering and computer science, linguistics and cognitive science.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.543J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1049,7 +1086,7 @@
         {
             "type":          "Class",
             "label":         "Acoustics of Speech and Hearing",
-            "id":            "6.551J",
+            "id":            "6.551",
             "listing-index": "m6b-037",
             "course":        "6",
             "level":         "Grad",
@@ -1058,6 +1095,7 @@
             "has-final":     false,
             "description":   "Provides acoustical background necessary to understand the role of sound in speech communication. Analyzes constraints imposed by the properties of sound and human anatomy on speech production (sound production from airflow and filtering by the vocal tract); auditory physiology (transformation of acoustical waves in the air to mechanical vibrations of cochlear structures); and sound perception (spatial hearing, masking, and auditory frequency selectivity).  4 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.551J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1076,7 +1114,7 @@
         {
             "type":          "Class",
             "label":         "Signal Processing by the Auditory System: Perception",
-            "id":            "6.552J",
+            "id":            "6.552",
             "listing-index": "m6b-038",
             "course":        "6",
             "level":         "Grad",
@@ -1085,6 +1123,7 @@
             "has-final":     false,
             "description":   "Studies behavioral aspects of human hearing in relation to current physiological knowledge. Examines performance in processing information from acoustic stimuli. Correlations between behavior and physiology, reflecting the tono-topic organization and stochastic responses of the auditory system. Mathematical models of psychophysical relations, incorporating quantitative knowledge of physiological transformations by the peripheral auditory system. Discusses related research on diagnosis and aids for the partially deaf. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.552J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -1102,7 +1141,7 @@
         {
             "type":          "Class",
             "label":         "Biomedical Signal and Image Processing",
-            "id":            "6.555J",
+            "id":            "6.555",
             "listing-index": "m6b-039",
             "course":        "6",
             "level":         "Grad",
@@ -1111,6 +1150,7 @@
             "has-final":     false,
             "description":   "Fundamentals of digital signal processing with particular emphasis on problems in biomedical research and clinical medicine. Basic principles and algorithms for data acquisition, imaging, filtering, and feature extraction. Laboratory projects provide practical experience in processing physiological data, with examples from cardiology, speech processing, and medical imaging. 6 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.555J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1132,26 +1172,26 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.555J-1",
-            "lecture-section-of": "6.555J",
+            "label":              "L016.555",
+            "lecture-section-of": "6.555",
             "timeAndPlace":       "TR9.30-11 56-154"
         },
         {
             "type":           "LabSection",
-            "label":          "B6.555J-2",
-            "lab-section-of": "6.555J",
+            "label":          "B026.555",
+            "lab-section-of": "6.555",
             "timeAndPlace":   "W11-3 14-0637"
         },
         {
             "type":           "LabSection",
-            "label":          "B6.555J-3",
-            "lab-section-of": "6.555J",
+            "label":          "B036.555",
+            "lab-section-of": "6.555",
             "timeAndPlace":   "F11-3 14-0637"
         },
         {
             "type":          "Class",
             "label":         "Data Acquisition and Image Reconstruction in MRI",
-            "id":            "6.556J",
+            "id":            "6.556",
             "listing-index": "m6b-040",
             "course":        "6",
             "level":         "Grad",
@@ -1160,6 +1200,7 @@
             "has-final":     false,
             "description":   "Applies analysis of signals and noise in linear systems, sampling, and Fourier properties to magnetic resonance (MR) imaging acquisition and reconstruction. Provides adequate foundation for MR physics to enable study of RF excitation design, efficient Fourier sampling, parallel encoding, reconstruction of non-uniformly sampled data, and the impact of hardware imperfections on reconstruction performance. Surveys active areas of MR research. Assignments include Matlab-based work with real data. Includes visit to a scan site for human MR studies.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.556J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1170,7 +1211,7 @@
         {
             "type":          "Class",
             "label":         "Fields, Forces, and Flows in Biological Systems",
-            "id":            "6.561J",
+            "id":            "6.561",
             "listing-index": "m6b-041",
             "course":        "6",
             "level":         "Grad",
@@ -1179,6 +1220,7 @@
             "has-final":     false,
             "description":   "Molecular diffusion, diffusion-reaction, conduction, convection in biological systems; fields in heterogeneous media; electrical double layers; Maxwell stress tensor, electrical forces in physiological systems. Fluid and solid continua: equations of motion useful for porous, hydrated biological tissues. Case studies of membrane transport, electrode interfaces, electrical, mechanical, and chemical transduction in tissues, convective-diffusion/reaction, electrophoretic, electroosmotic flows in tissues/MEMs, and ECG. Electromechanical and physicochemical interactions in cells and biomaterials; musculoskeletal, cardiovascular, and other biological and clinical examples.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.561J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1199,7 +1241,7 @@
         {
             "type":          "Class",
             "label":         "Biosensors, Signal Processing, and Biomedical Applications",
-            "id":            "6.566J",
+            "id":            "6.566",
             "listing-index": "m6b-042",
             "course":        "6",
             "level":         "Grad",
@@ -1208,6 +1250,7 @@
             "has-final":     false,
             "description":   "Principles of measurements and instrumentation, emphasizing quantitative modelling of basic transduction (sensing) processes, interaction of sensors with biological systems (e.g. human body, clinical specimens), and both fundamental and practical limitations on the signal-to-noise ratio. Emphasis on modern signal processing strategies involving intensive real-time computation as an integral part of the measurement process. Some background in life sciences and electronics assumed.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.566J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1220,7 +1263,7 @@
         {
             "type":          "Class",
             "label":         "Foundations of Algorithms and Computational Techniques in Systems Biology",
-            "id":            "6.581J",
+            "id":            "6.581",
             "listing-index": "m6b-043",
             "course":        "6",
             "level":         "Grad",
@@ -1229,6 +1272,7 @@
             "has-final":     false,
             "description":   "Describes and illustrates computational approaches to solving problems in systems biology. A series of case studies demonstrates how an effective match between the statement of a biological problem and the selection of an appropriate algorithm or computational technique can lead to fundamental advances. Covers several discrete and numerical algorithms used in simulation, feature extraction and optimization for molecular, network, and systems models in biology.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.581J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1250,7 +1294,7 @@
         {
             "type":          "Class",
             "label":         "Introduction to Molecular Simulations",
-            "id":            "6.582J",
+            "id":            "6.582",
             "listing-index": "m6b-044",
             "course":        "6",
             "level":         "Grad",
@@ -1259,6 +1303,7 @@
             "has-final":     false,
             "description":   "Introduction to the basic concepts underlying dynamical simulations of proteins and nucleic acids. Topics include classical statistical thermodynamics for calculation of macroscopic observables, normal-mode analyses of protein dynamics, and thermodynamic perturbation theory. Emphasizes actual techniques and algorithms used for such calculations. Final project integrates these concepts in addressing a problem of biological importance using existing molecular mechanics software packages.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.582J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1282,6 +1327,7 @@
             "has-final":     true,
             "description":   "Fundamentals of optical and optoelectronic phenomena and devices based on classical and quantum properties of radiation and matter, culminating in lasers and applications. Fundamentals include Maxwell?s electromagnetic waves, resonators and beams, classical ray optics and optical systems, quantum theory of light, matter and its interaction, classical and quantum noise, lasers and laser dynamics, continuous wave and short pulse generation, light modulation; examples from integrated optics, semiconductor optoelectronics and nonlinear optics.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.602",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1295,20 +1341,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.602-1",
+            "label":              "L016.602",
             "lecture-section-of": "6.602",
             "timeAndPlace":       "TR11-12.30 36-144"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.602-2",
+            "label":          "R026.602",
             "rec-section-of": "6.602",
             "timeAndPlace":   "F2 26-328"
         },
         {
             "type":          "Class",
             "label":         "Introduction to Particle Accelerators",
-            "id":            "6.608J",
+            "id":            "6.608",
             "listing-index": "m6b-046",
             "course":        "6",
             "level":         "Undergrad",
@@ -1317,6 +1363,7 @@
             "has-final":     true,
             "description":   "Principles of acceleration: beam properties; linear accelerators, synchrotrons, and storage rings.  Accelerator technologies: radio frequency cavities, bending and focusing magnets, beam diagnostics. Particle beam optics and dynamics. Special topics: measures of accelerators performance in science, medicine and industry; synchrotron radiation sources; free electron lasers; high-energy colliders; and accelerators for radiation therapy.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.608J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1329,8 +1376,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.608J-1",
-            "lecture-section-of": "6.608J",
+            "label":              "L016.608",
+            "lecture-section-of": "6.608",
             "timeAndPlace":       "MW2.30-4 8-205"
         },
         {
@@ -1345,6 +1392,7 @@
             "has-final":     true,
             "description":   "Meets with undergraduate subject 6.602, but requires the completion of additional homework assignments. See subject description under 6.602.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.621",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1360,13 +1408,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.621-1",
+            "label":              "L016.621",
             "lecture-section-of": "6.621",
             "timeAndPlace":       "TR11-12.30 36-144"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.621-2",
+            "label":          "R026.621",
             "rec-section-of": "6.621",
             "timeAndPlace":   "F2 26-328"
         },
@@ -1382,6 +1430,7 @@
             "has-final":     false,
             "description":   "Introduction to electromagnetics, emphasizing fundamental concepts and applications of Maxwell equations. Topics include polarization, dipole antennas, wireless communications, forces and energy, phase matching, dielectric waveguides and optical fibers, transmission line theory and circuit concepts, antennas, and equivalence principle. Examples deal with electrodyanmics, propagation, guidance, and radiation of electromagnetic waves.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.630",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1404,6 +1453,7 @@
             "has-final":     false,
             "description":   "Introduction to fundamental concepts and techniques of optics, photonics, and fiber optics. Review of Maxwell's equations, light propagation, and reflection from dielectrics mirrors and filters. Interferometers, filters, and optical imaging systems.  Fresnel and Fraunhoffer diffraction theory. Propagation of Gaussian beams and laser resonator design. Optical waveguides and optical fibers. Optical waveguide and photonic devices.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.631",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1426,6 +1476,7 @@
             "has-final":     false,
             "description":   "Emphasis on mathematical approaches, problem solving, and physical interpretation. Topics include: waves in media, equivalence principle, duality and complementarity, Huygens' principle, Fresnel and Fraunhofer diffraction, dyadic Green's functions, Lorentz transformation, and Maxwell-Minkowski theory. Examples deal with limiting cases of Maxwell's theory and diffraction and scattering of electromagnetic waves.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.632",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1439,14 +1490,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.632-1",
+            "label":              "L016.632",
             "lecture-section-of": "6.632",
             "timeAndPlace":       "TR3-5 26-314"
         },
         {
             "type":          "Class",
             "label":         "Nonlinear Optics",
-            "id":            "6.634J",
+            "id":            "6.634",
             "listing-index": "m6b-051",
             "course":        "6",
             "level":         "Grad",
@@ -1455,6 +1506,7 @@
             "has-final":     true,
             "description":   "Techniques of nonlinear optics with emphasis on fundamentals for optics and photonics research and engineering. Electro optic modulators, harmonic generation, and frequency conversion devices. Nonlinear effects in optical fibers including self phase modulation, nonlinear wave propagation, and solitons. Interaction of light with matter, density matrix techniques, nonlinear spectroscopies and femtosecond optics.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.634J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1471,8 +1523,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.634J-1",
-            "lecture-section-of": "6.634J",
+            "label":              "L016.634",
+            "lecture-section-of": "6.634",
             "timeAndPlace":       "MW3-4.30 36-372"
         },
         {
@@ -1487,6 +1539,7 @@
             "has-final":     false,
             "description":   "Topics covered include special relativity, electrodynamics of moving media, waves in dispersive media, microstrip integrated circuits, quantum optics, remote sensing, radiative transfer theory, scattering by rough surfaces, effective permittivities, and random media. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.635",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -1513,6 +1566,7 @@
             "has-final":     false,
             "description":   "Principles of operation and applications of devices and systems for optical signal generation, transmission, detection, storage, processing and display. Topics include review of the basic properties of electromagnetic waves; coherence and interference; diffraction and holography; Fourier optics; coherent and incoherent imaging and signal processing systems; optical properties of materials; lasers and LEDs; electro-optic and acousto-optic light modulators; photorefractive and liquid-crystal light modulation; spatial light modulators and displays; optical waveguides and fiber-optic communication systems; photodetectors; 2-D and 3-D optical storage technologies; adaptive optical systems; role of optics in next-generation computers.  Student research paper on a specific contemporary topic required.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.637",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1537,6 +1591,7 @@
             "has-final":     false,
             "description":   "Detailed exposition of the principles involved in ultrashort pulse generation, propagation, and characterization. Linear and nonlinear pulse shaping processes discussed. Optical solitons, pulse compression. Laser principles:  Single- and multimode-laser dynamics, Q-switching and mode-locking: active and passive model-locking mechanisms. Pulse characterization. Noise in mode-locked lasers and its limitations imposed on measurements. Laser amplifiers. Optical parametric amplifiers and oscillators. Applications in research and industry, such as various pump-probe techniques, optical imaging, frequency metrology, laser ablation and EUV-XUV generation are discussed.  Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.638",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1559,6 +1614,7 @@
             "has-final":     false,
             "description":   "Electric and magnetic quasistatic forms of Maxwell's equations applied to dielectric, conduction, and magnetization boundary value problems. Electromagnetic forces, force densities, and stress tensors, including magnetization and polarization. Thermodynamics of electromagnetic fields, equations of motion, and energy conservation. Applications to synchronous, induction, and commutator machines; sensors and transducers; microelectromechanical systems; propagation and stability of electromechanical waves; and charge transport phenomena.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.641",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1571,13 +1627,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.641-1",
+            "label":              "L016.641",
             "lecture-section-of": "6.641",
             "timeAndPlace":       "TR10 34-304"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.641-2",
+            "label":          "R026.641",
             "rec-section-of": "6.641",
             "timeAndPlace":   "WF10 34-304"
         },
@@ -1593,6 +1649,7 @@
             "has-final":     false,
             "description":   "Laws, approximations, and relations of continuum mechanics.  Mechanical and electromechanical transfer relations. Statics and dynamics of electromechanical systems having a static equililbrium. Electromechanical flows. Field coupling with thermal and molecular diffusion.  Electrokinetics. Streaming interactions. Application to materials processing, magnetohydrodynamic and electrohydrodynamic pumps and generators, ferrohydrodynamics, physiochemical systems, heat transfer, continuum feedback control, electron beam devices, and plasma dynamics.  Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.642",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1603,7 +1660,7 @@
         {
             "type":          "Class",
             "label":         "Introduction to Plasma Physics I",
-            "id":            "6.651J",
+            "id":            "6.651",
             "listing-index": "m6b-057",
             "course":        "6",
             "level":         "Grad",
@@ -1612,6 +1669,7 @@
             "has-final":     false,
             "description":   "Introduces plasma phenomena relevant to energy generation by controlled thermonuclear fusion and to astrophysics. Elementary plasma concepts, plasma characterization.  Motion of charged particles in magnetic fields. Coulomb collisions, relaxation times, transport processes. Two-fluid hydrodynamic and MHD descriptions. Plasma confinement by magnetic fields, simple equilibrium and stability analysis. Wave propagation in a magnetic field; application to RF plasma heating. Introduction to kinetic theory; Vlasov, Boltzmann and Fokker-Planck equations; relation of fluid and kinetic descriptions. Electron and ion acoustic plasma waves, Landau damping.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.651J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1634,7 +1692,7 @@
         {
             "type":          "Class",
             "label":         "Introduction to Plasma Physics II",
-            "id":            "6.652J",
+            "id":            "6.652",
             "listing-index": "m6b-058",
             "course":        "6",
             "level":         "Grad",
@@ -1643,6 +1701,7 @@
             "has-final":     true,
             "description":   "Linear waves and instabilities in magnetized plasma; solutions of Vlasov-Maxwell equations in homogeneous and inhomogeneous plasmas; conservation principles for energy and momentum; quasi-linear theory and nonlinear stabilization; solitons and coherent nonlinear phenomena; collisions and discrete particle effects; fluctuations in a stable plasma; Fokker-Planck equation and transport phenomena. A subject description tailored to fit the background and interests of the attending students distributed shortly before and at the beginning of the subject.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.652J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1658,20 +1717,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.652J-1",
-            "lecture-section-of": "6.652J",
+            "label":              "L016.652",
+            "lecture-section-of": "6.652",
             "timeAndPlace":       "MW2.30-4 36-155"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.652J-2",
-            "rec-section-of": "6.652J",
+            "label":          "R026.652",
+            "rec-section-of": "6.652",
             "timeAndPlace":   "F2-3.30 26-142"
         },
         {
             "type":          "Class",
             "label":         "Receivers, Antennas, and Signals",
-            "id":            "6.661J",
+            "id":            "6.661",
             "listing-index": "m6b-059",
             "course":        "6",
             "level":         "Grad",
@@ -1680,6 +1739,7 @@
             "has-final":     false,
             "description":   "Detection and measurement of radio and optical signals encountered in communications, astronomy, remote sensing, instrumentation, and radar. Statistical analysis of signal processing systems, including radiometers, spectrometers, interferometers, and digital correlation systems. Matched filters and ambiguity functions. Communications channel performance. Measurement of random electromagnetic fields. Angular filtering properties of antennas, interferometers, and aperture synthesis systems. Radiative transfer and parameter estimation. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.661J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      [
                 "Not offered next year",
@@ -1708,6 +1768,7 @@
             "has-final":     false,
             "description":   "Selection of a simulation model and physical approximations. Solution of nonlinear coupled PDEs in 1-D through finite difference and finite element methods, Newton's method, and variants. Finite difference and finite element methods in 2-D and sparse matrix methods emphasizing conjugate gradient algorithms. Semiconductor devices used as primary examples; additional examples drawn from E&M modeling, nonlinear pulse propagation, and laser physics. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.673",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered next year",
@@ -1723,7 +1784,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.673-1",
+            "label":              "L016.673",
             "lecture-section-of": "6.673",
             "timeAndPlace":       "MWF12 34-301"
         },
@@ -1739,6 +1800,7 @@
             "has-final":     false,
             "description":   "Treatment of electromechanical transducers, rotating and linear electric machines. Lumped-parameter electromechanics. Power flow using Poynting's theorem, force estimation using the Maxwell stress tensor and Principle of virtual work.  Development of analytical techniques for predicting device  characteristics: energy conversion density, efficiency; and of system interaction characteristics: regulation, stability, controllability, and response. Use of electric machines in drive systems. Problems taken from current research. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.685",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -1763,6 +1825,7 @@
             "has-final":     false,
             "description":   "Meets with undergraduate subject 6.061. Requires the completion of additional advanced home problems.  See description under subject 6.061.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.690",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1789,6 +1852,7 @@
             "has-final":     false,
             "description":   "Planning and operation of modern electric power systems. Content varies with current interests of instructor and class; emphasis on engineering aspects, but economic issues may be examined. Core topics include overview of power system structure and operation; representation of components, including transmission lines, transformers, generating plants, loads; power flow analysis, dynamics and control of  multimachine systems, steady-state and transient stability, system protection; economic dispatch; mobil and isolated power systems; computation and simulation. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.691",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered next year",
@@ -1803,7 +1867,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.691-1",
+            "label":              "L016.691",
             "lecture-section-of": "6.691",
             "timeAndPlace":       "MW2.30-4 34-303"
         },
@@ -1819,6 +1883,7 @@
             "has-final":     false,
             "description":   "Quantization, wavefunctions and Schrodinger?s equation. Introduction to electronic properties of molecules, carbon nanotubes and crystals. Energy band formation and the origin of metals, insulators and semiconductors. Ballistic transport, Ohm?s law, ballistic versus traditional MOSFETs, fundamental limits to computation.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.701",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -1830,13 +1895,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.701-1",
+            "label":              "L016.701",
             "lecture-section-of": "6.701",
             "timeAndPlace":       "MW11 2-147"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.701-2",
+            "label":          "R026.701",
             "rec-section-of": "6.701",
             "timeAndPlace":   "TR11 36-155"
         },
@@ -1852,6 +1917,7 @@
             "has-final":     false,
             "description":   "Meets with undergraduate subject 6.701, but requires the completion of additional/different homework assignments and or projects. See subject description under 6.701.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.719",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1864,20 +1930,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.719-1",
+            "label":              "L016.719",
             "lecture-section-of": "6.719",
             "timeAndPlace":       "MW11 2-147"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.719-2",
+            "label":          "R026.719",
             "rec-section-of": "6.719",
             "timeAndPlace":   "TR11 36-155"
         },
         {
             "type":          "Class",
             "label":         "Integrated Microelectronic Devices",
-            "id":            "6.720J",
+            "id":            "6.720",
             "listing-index": "m6b-066",
             "course":        "6",
             "level":         "Grad",
@@ -1886,6 +1952,7 @@
             "has-final":     false,
             "description":   "The physics of microelectronic semiconductor devices for silicon integrated circuit applications. Topics: semiconductor fundamentals, p-n junction, metal-oxide semiconductor structure, metal-semiconductor junction, MOS field-effect transistor, and bipolar junction transistor. Emphasis on physical understanding of device operation through energy band diagrams and short-channel MOSFET device design. Issues in modern device scaling outlined. Includes device characterization projects and device design project.  2 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.720J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -1912,6 +1979,7 @@
             "has-final":     false,
             "description":   "Elementary quantum mechanics and statistical physics. Introduces applied quantum physics. Emphasizes experimental basis for quantum mechanics. Applies Schrodinger's equation to the free particle, tunneling, the harmonic oscillator, and hydrogen atom. Variational methods. Elementary statistical physics; Fermi-Dirac, Bose-Einstein, and Boltzmann distribution functions. Simple models for metals, semiconductors, and devices such as electron microscopes, scanning tunneling microscope, thermonic emitters, atomic force microscope, and more.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.728",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1939,6 +2007,7 @@
             "has-final":     false,
             "description":   "Applications and aspects of the theory of molecular-scale electronics. Molecular circuit architectures and devices. Optical and electronic properties of molecules are discussed, including radiationless transitions and energy transfer, the ramifications of molecular conformation changes, charge transport in organic molecular crystals and disordered films, metal/organic interfaces, and charge conduction through single molecules. Discussion of molecular circuits in biology. This is an advanced topics subject. A text, supplementary material, and references are provided. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.729",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -1961,6 +2030,7 @@
             "has-final":     true,
             "description":   "Classical and quantum models of electrons and lattice vibrations in solids, emphasizing physical models for elastic properties, electronic transport, and heat capacity. Crystal lattices, electronic energy band structures, phonon dispersion relatons, effective mass theorem, semiclassical equations of motion, electron scattering and semiconductor optical properties. Band structure and transport properties of selected semiconductors. Connection of quantum theory of solids with quasi-Fermi levels and Boltzmann transport used in device modeling.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.730",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1976,19 +2046,19 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.730-1",
+            "label":              "L016.730",
             "lecture-section-of": "6.730",
             "timeAndPlace":       "MW1-2.30 26-168"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.730-2",
+            "label":          "R026.730",
             "rec-section-of": "6.730",
             "timeAndPlace":   "F1 26-322"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.730-3",
+            "label":          "R036.730",
             "rec-section-of": "6.730",
             "timeAndPlace":   "F2 26-322"
         },
@@ -2004,6 +2074,7 @@
             "has-final":     false,
             "description":   "Focuses on the physics of the interaction of photons with semiconductor materials. The band theory of solids is used to calculate the absorption and gain of semiconductor media. The rate equation formalism is used to develop the concepts of laser threshold, population inversion and modulation response. Matrix methods and coupled mode theory are applied to resonator structures such as distributed feedback lasers, tunable lasers and microring devices. The course is also intended to introduce students to noise models for semiconductor devices and to applications of optoelectronic devices to fiber optic communications. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.731",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -2026,6 +2097,7 @@
             "has-final":     false,
             "description":   "Continuation of 6.730 emphasizing applications-related physical issues in solids. Topics: electronic structure and energy band diagrams of semiconductors, metals, and insulators; Fermi surfaces; dynamics of electrons; classical diffusive transport phenomena such as electrical and thermal conduction and thermoelectric phenomena; quantum transport in tunneling and ballistic devices; optical properties of metals, semiconductors, and insulators; photon-lattice interactions; optical devices based on interband and intersubband transitions; magnetic properties of solids; exchange energy and magnetic ordering; magneto-oscillatory phenomena; quantum Hall effect; superconducting phenomena and simple models. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.732",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -2048,6 +2120,7 @@
             "has-final":     false,
             "description":   "Phenomenological approach to superconductivity, with emphasis on superconducting electronics. Electrodynamics of superconductors, London's model, and flux quantization. Josephson junctions and superconducting quantum devices and detectors.Quantized circuits for quantum computing. Overview of type-II superconductors, critical magnetic fields, pinning, and microscopic theory of superconductivity. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.763",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -2070,6 +2143,7 @@
             "has-final":     false,
             "description":   "Physics, modeling, and application of compound semiconductors (primarily III-Vs and Si-Ge) in high speed electronic, optoelectronic, and photonic devices and ICs.  The materials palette; energy band and effective mass concepts; theory and practice of III-V and Si-Ge heterojunctions, quantum structures, and strained layers; metal-semiconductor diodes and field effect transistors (MESFETs); heterojunction field effect transistors (HFETs) and bipolar transistors (HBTs); dielectric waveguides and photonic lattices; LEDs, laser diodes, photodetectors, and other optoelectronic devices; heterogeneous integration with Si. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.772",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -2092,6 +2166,7 @@
             "has-final":     false,
             "description":   "Advanced physical models and practical aspects of front-end microfabrication processes, particularly oxidation, diffusion, ion implantation, and epitaxy. Topics relevant to high performance MOS and bipolar devices, including ultra-thin gate oxides, gate etching, implant-damage enhanced diffusion, advanced metrology, stress effects on oxidation, process induced strain techniques, and strained Si/SiGe materials. CMOS process integration concepts, and impacts of processing on device characteristics. Students use modern process simulation tools.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.774",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2114,6 +2189,7 @@
             "has-final":     false,
             "description":   "A detailed exposition of the principles involved in designing and optimizing analog and mixed-signal circuits in CMOS technologies. Small-signal and large-signal models. Systemic methodology for device sizing and biasing. Basic circuit building blocks. Operational amplifier design. Large signal considerations. Principles of switched capacitor networks including switched-capacitor and continuous-time integrated filters. Basic and advanced A/D and D/A converters, delta-sigma modulators, RF and other signal processing circuits. Design projects on op amps and subsystems are a required part of the subject.  4 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.775",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2126,7 +2202,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.775-1",
+            "label":              "L016.775",
             "lecture-section-of": "6.775",
             "timeAndPlace":       "TR9.30-11 36-156"
         },
@@ -2142,6 +2218,7 @@
             "has-final":     false,
             "description":   "Principles and techniques for integrated circuit design within communication systems such as wireless and broadband data links. Circuit blocks for communication transceivers and phase-locked loops, which include broadband, narrowband, and low-noise amplifiers, mixers, voltage-controlled oscillators, power amplifiers, and high speed frequency dividers. Passive component design of on-chip inductors and capacitors. Analysis of distributed effects using transmission line modeling, S-parameters, Smith chart. Significant laboratory component. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.776",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered next year",
@@ -2158,14 +2235,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.776-1",
+            "label":              "L016.776",
             "lecture-section-of": "6.776",
             "timeAndPlace":       "WF9.30-11 36-112"
         },
         {
             "type":          "Class",
             "label":         "Design and Fabrication of MEMS",
-            "id":            "6.777J",
+            "id":            "6.777",
             "listing-index": "m6b-077",
             "course":        "6",
             "level":         "Grad",
@@ -2174,6 +2251,7 @@
             "has-final":     false,
             "description":   "Introduction to microsystem design. Material properties, microfabrication technologies, structural behavior, sensing methods, fluid flow, microscale transport, noise, and amplifiers feedback systems. Student teams design microsystems (sensors, actuators, and sensing/control systems) of a variety of types, (e.g., optical MEMS, bioMEMS, inertial sensors) to meet a set of performance specifications (e.g., sensitivity, signal-to-noise) using a realistic microfabrication process. Emphasis on modeling and simulation in the design process. Prior fabrication experience is desirable.  4 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.777J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2192,14 +2270,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.777J-1",
-            "lecture-section-of": "6.777J",
+            "label":              "L016.777",
+            "lecture-section-of": "6.777",
             "timeAndPlace":       "WF11-12.30 26-168"
         },
         {
             "type":          "Class",
             "label":         "Materials and Processes for Microelectromechanical Devices and Systems",
-            "id":            "6.778J",
+            "id":            "6.778",
             "listing-index": "m6b-078",
             "course":        "6",
             "level":         "Grad",
@@ -2208,6 +2286,7 @@
             "has-final":     true,
             "description":   "Unified treatment of key principles in materials and processing for design and manufacture of microelectromechanical systems (MEMS). Emphasis on materials and processes commonly used for fabrication for MEMS and not microelectronic systems. Discussion of the processing and properties of both thin and thick polycrystalline and amorphous films, wafer and thin film bonding, bulk micromachining techniques, and the relationships between processing and properties of active materials such as piezoelectrics, ferroelectrics and phase-transition materials. Key material properties and parameters and their relationships with microfabrication processes and applications are discussed, including elastic and inelastic deformation, fracture, residual stress, fatigue, creep, adhesion, stiction, and coupled-field constitutive behavior. Materials and process selection and case studies of applications provide a unifying theme.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.778J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2230,20 +2309,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.778J-1",
-            "lecture-section-of": "6.778J",
+            "label":              "L016.778",
+            "lecture-section-of": "6.778",
             "timeAndPlace":       "MW8-9.30 9-057"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.778J-2",
-            "rec-section-of": "6.778J",
+            "label":          "R026.778",
+            "rec-section-of": "6.778",
             "timeAndPlace":   "F9-11 66-156"
         },
         {
             "type":          "Class",
             "label":         "Control of Manufacturing Processes",
-            "id":            "6.780J",
+            "id":            "6.780",
             "listing-index": "m6b-079",
             "course":        "6",
             "level":         "Grad",
@@ -2252,6 +2331,7 @@
             "has-final":     false,
             "description":   "Statistical modeling and control in manufacturing processes. Use of experimental design and response surface modeling to understand manufacturing process physics. Defect and parametric yield modeling and optimization. Forms of process control, including statistical process control, run by run and adaptive control, and real-time feedback control. Application contexts include semiconductor manufacturing, conventional metal and polymer processing, and emerging micro-nano manufacturing processes.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.780J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2271,14 +2351,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.780J-1",
-            "lecture-section-of": "6.780J",
+            "label":              "L016.780",
+            "lecture-section-of": "6.780",
             "timeAndPlace":       "TR8-9.30 8-404"
         },
         {
             "type":          "Class",
             "label":         "Submicrometer and Nanometer Technology",
-            "id":            "6.781J",
+            "id":            "6.781",
             "listing-index": "m6b-080",
             "course":        "6",
             "level":         "Grad",
@@ -2287,6 +2367,7 @@
             "has-final":     false,
             "description":   "Surveys techniques to fabricate and analyze submicron and nanometer structures, with applications. Reviews optical and electron microscopy. Surface characterization, preparation, and measurement techniques. Resist technology. Optical projection, interferometric, X-ray, ion, and electron lithography. Aqueous, ion, and plasma etching techniques. Lift-off and electroplating. Ion implantation. Applications in microelectronics, microphotonics, information storage, and nanotechnology. Undergraduates with permission of instructor.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.781J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -2300,14 +2381,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L6.781J-1",
-            "lecture-section-of": "6.781J",
+            "label":              "L016.781",
+            "lecture-section-of": "6.781",
             "timeAndPlace":       "TR8.30-11 1-390"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R6.781J-2",
-            "rec-section-of": "6.781J",
+            "label":          "R026.781",
+            "rec-section-of": "6.781",
             "timeAndPlace":   "F9 9-057"
         },
         {
@@ -2322,6 +2403,7 @@
             "has-final":     false,
             "description":   "Examines optical and electronic processes in organic molecules and polymers that govern the behavior of practical organic optoelectronic devices. Electronic structure of a single organic molecule is used as a guide to the electronic behavior of organic aggregate structures. Emphasis on use of organic thin films in active organic devices including organic LEDs, solar cells, photodetectors, transistors, chemical sensors, memory cells, electrochromic devices, as well as xerography and organic nonlinear optics. Reaching the ultimate miniaturization limit of molecular electronics and related nanoscale patterning techniques of  organic materials are discussed. Laboratory sessions are conducted in a research laboratory environment with the goal of exposing students to material deposition and device testing techniques. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m6b.html#6.789",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",

@@ -305,7 +305,12 @@ function processClass(element, area, subarea) {
             node = node.previousSibling;
         }
     }
-
+    
+    var joint = false;
+    if (classNumber.search(/J/) > 0) {
+    	classNumber = classNumber.replace(/J/, "");
+    	joint = true;
+    } 
     var classID = classNumber;
     var classItem = {
         "type":         "Class",
@@ -318,7 +323,8 @@ function processClass(element, area, subarea) {
         "total-units":  totalUnits,
         "has-final":    hasFinal,
         "description":  description,
-        "url":          url
+        "url":          url,
+        "joint":		joint
     };
     addOptionalArrayProperty(classItem, "semester", semesters);
     addOptionalArrayProperty(classItem, "offering", offerings);
@@ -335,7 +341,8 @@ function processClass(element, area, subarea) {
     json.items.push(classItem);
     
     var makeLecture = function() {
-        var sectionID = "L" + classNumber + "-" + sectionIndex++;
+    	var sectionIndexString = sectionIndex < 10 ? "0" + sectionIndex++ : sectionIndex++;
+        var sectionID = "L" + sectionIndexString + classNumber;
         var sectionItem = {
             "type":                 "LectureSection",
             "label":                sectionID,
@@ -347,7 +354,8 @@ function processClass(element, area, subarea) {
         return sectionItem.timeAndPlace;
     };
     var makeRecitation = function() {
-        var sectionID = "R" + classNumber + "-" + sectionIndex++;
+        var sectionIndexString = sectionIndex < 10 ? "0" + sectionIndex++ : sectionIndex++;
+        var sectionID = "R" + sectionIndexString + classNumber;
         var sectionItem = {
             "type":                 "RecitationSection",
             "label":                sectionID,
@@ -359,7 +367,8 @@ function processClass(element, area, subarea) {
         return sectionItem.timeAndPlace;
     };
     var makeLab = function() {
-        var sectionID = "B" + classNumber + "-" + sectionIndex++;
+    	var sectionIndexString = sectionIndex < 10 ? "0" + sectionIndex++ : sectionIndex++;
+        var sectionID = "B" + sectionIndexString + classNumber;
         var sectionItem = {
             "type":                 "LabSection",
             "label":                sectionID,
@@ -371,7 +380,7 @@ function processClass(element, area, subarea) {
     };
   
     var bolds = utilities.gatherElementsOnXPath(document, element, './B', nsResolver);
-    var sectionIndex = 1;
+    var sectionIndex = 01;
     for (var b = 0; b < bolds.length; b++) {
         var bold = bolds[b];
         if (bold.firstChild == null || bold.firstChild.nodeType != 3) {
@@ -426,5 +435,6 @@ for (var i = 0; i < json.items.length; i++) {
         if (item.timeAndPlace.length == 1) {
             item.timeAndPlace = item.timeAndPlace[0];
         }
+    } else {
     }
 }

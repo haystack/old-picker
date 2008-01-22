@@ -180,7 +180,8 @@
                                     ex:content="if(exists(.picked), 'Remove', 'Add')"
                                     onclick="onPickUnpick(this);"></button>
                             
-                                <span class="section-schedule" ex:content=".timeAndPlace"></span> &bull;
+                                <span class="section-schedule" ex:content=".timeAndPlace"></span>
+                                <span ex:if-exists=".lecture-section-of.instructor"> &bull; </span>
                                 <span class="section-instructor" ex:content=".lecture-section-of.instructor"></span>
                             </div>
                         </div>
@@ -202,7 +203,8 @@
                                     ex:content="if(exists(.picked), 'Remove', 'Add')"
                                     onclick="onPickUnpick(this);"></button>
                             
-                                <span class="section-schedule" ex:content=".timeAndPlace"></span> &bull;
+                                <span class="section-schedule" ex:content=".timeAndPlace"></span>
+                                <span ex:if-exists=".instructor"> &bull; </span>
                                 <span class="section-instructor" ex:content=".instructor"></span>
                             </div>
                         </div>
@@ -219,12 +221,12 @@
                                     ex:content="if(exists(.picked), 'Remove', 'Add')"
                                     onclick="onPickUnpick(this);"></button>
                             
-                                <span class="section-schedule" ex:content=".timeAndPlace"></span> &bull;
+                                <span class="section-schedule" ex:content=".timeAndPlace"></span>
+                                <span ex:if-exists=".instructor"> &bull; </span>
                                 <span class="section-instructor" ex:content=".instructor"></span>
                             </div>
                         </div>
                     </div>
-                    <div id="recitation-disclaimer"></div>
                 </td>
                 <td width="30%" class="course-logistics">
                     <div ex:select=".offering">

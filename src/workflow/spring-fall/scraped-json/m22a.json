@@ -12,6 +12,7 @@
             "has-final":     false,
             "description":   "Basic concepts of computer modeling and simulation in science and engineering. Uses techniques and software for simulation, data analysis and visualization. Continuum, mesoscale, atomistic and quantum methods used to study fundamental and applied problems in physics, chemistry, materials science, mechanics, engineering, and biology. Examples drawn from the disciplines above are used to understand or characterize complex structures and materials, and complement experimental observations.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.00",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
@@ -32,20 +33,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L22.00-1",
+            "label":              "L0122.00",
             "lecture-section-of": "22.00",
             "timeAndPlace":       "TR3-4.30 4-231"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R22.00-2",
+            "label":          "R0222.00",
             "rec-section-of": "22.00",
             "timeAndPlace":   "M4 4-231"
         },
         {
             "type":          "Class",
             "label":         "Communicating About Technology:  Colossal Failures in Engineering",
-            "id":            "22.002J",
+            "id":            "22.002",
             "listing-index": "m22a-001",
             "course":        "22",
             "level":         "Undergrad",
@@ -54,6 +55,7 @@
             "has-final":     false,
             "description":   "Explores communication about technological subjects in the context of colossal engineering failures including Three Mile Island, Bhopal, the Columbia Shuttle, 9/11, and Katrina. Examines the basic engineering principles and the social context of several such failures in case studies from various engineering disciplines. Students see how problematic communications, sometimes subtly unrecognizable at the time, significantly contributed to the final failures. Students collaborate to produce a final written and oral research report that anticipates a potential failure and makes recommendations for avoiding it. Multiple sections, each limited to 18 students.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.002J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      [
@@ -75,20 +77,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L22.002J-1",
-            "lecture-section-of": "22.002J",
+            "label":              "L0122.002",
+            "lecture-section-of": "22.002",
             "timeAndPlace":       "MW1 4-237"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R22.002J-2",
-            "rec-section-of": "22.002J",
+            "label":          "R0222.002",
+            "rec-section-of": "22.002",
             "timeAndPlace":   "F1 66-160"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R22.002J-3",
-            "rec-section-of": "22.002J",
+            "label":          "R0322.002",
+            "rec-section-of": "22.002",
             "timeAndPlace":   "F2 66-160"
         },
         {
@@ -103,6 +105,7 @@
             "has-final":     false,
             "description":   "Introduction to basic properties of ionizing radiations and their uses in medicine, industry, science, and environmental studies. Discusses natural and man-made radiation sources, energy deposition and dose calculations, various physical, chemical, and biological processes and effects of radiation with examples of their uses, and principles of radiation protection.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.01",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
@@ -121,6 +124,7 @@
             "has-final":     false,
             "description":   "Surveys the range of diverse subjects in nuclear science and engineering covered by the department. Topics include quantum computing, energy and power, radiation effects-stem cells and DNA, BNCT, nuclear space applications, fusion, airport security, accelerators, magnetic resonance imaging, non-proliferation, risk assessment, safety, biology and medicine.  A demonstration of the MIT Reactor as a research tool is given as well as a tour of the MIT Tokomak fusion machine and accelerators used in research.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.011",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     "Kadak, A.",
@@ -138,6 +142,7 @@
             "has-final":     false,
             "description":   "Lectures and discussion introducing the range of topics relevant to plasma physics and fusion engineering. Introductory discussion of the economic and ecological motivation for the development of fusion power. Contemporary magnetic confinement schemes, theoretical questions, and engineering considerations are presented by expert guest lecturers. Tour of Plasma Science and Fusion Center experimental facilities.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.012",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     "Molvig, K.",
@@ -145,7 +150,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L22.012-1",
+            "label":              "L0122.012",
             "lecture-section-of": "22.012",
             "timeAndPlace":       "R3.30-5 24-115"
         },
@@ -161,6 +166,7 @@
             "has-final":     false,
             "description":   "Seminar lectures, led by practicing clinicians and scientists in a case presentation format, on current research topics and specific projects in the biomedical field in which radiation science and radiological engineering play an important role. Emphasis on nuclear imaging techniques such as magnetic resonance and positron emission tomography, and on radiation therapy. Term paper required. Lectures shared with freshman advisor seminar 22.A09 Career Options for Biomedical Research.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.013",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     [
@@ -181,6 +187,7 @@
             "has-final":     false,
             "description":   "Basic concepts of nuclear physics with emphasis on nuclear structure and radiation interactions with matter. Elementary quantum theory; nuclear forces; shell structure of the nucleus; alpha, beta, and gamma, radioactive decays; interactions of nuclear radiations (charged particles, gammas and neutrons) with matter; nuclear reactions; fission and fusion.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.02",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
@@ -204,6 +211,7 @@
             "has-final":     false,
             "description":   "Group design project involving integration of nuclear physics, particle transport, control, heat transfer, safety, instrumentation, materials, environmental impact, and economic optimization. Provides opportunity to synthesize knowledge acquired in nuclear and non-nuclear subjects and apply this knowledge to practical problems of current interest in nuclear applications design. Past projects have included using a fusion reactor for transmutation of nuclear waste, design and implementation of an experiment to predict and measure pebble flow in a pebble bed reactor, and development of a mission plan for a manned Mars mission including the conceptual design of a nuclear powered space propulsion system and power plant for the Mars surface, a lunar/Martian nuclear power station and the use of nuclear plants to extract oil from tar sands.  Meets with graduate subject 22.33, but assignments differ.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.033",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -228,6 +236,7 @@
             "has-final":     false,
             "description":   "Introduces fundamental properties of the neutron. Covers reactions induced by neutrons, nuclear fission, slowing down of neutrons in infinite media, diffusion theory, the few-group approximation, point kinetics, and fission-product poisoning. Emphasizes the nuclear physics bases of reactor design and its relationship to reactor engineering problems.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.05",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -249,6 +258,7 @@
             "has-final":     false,
             "description":   "An introduction to the principles of tomographic imaging and its applications. Includes a series of lectures with a parallel set of recitations that provide demonstrations of basic principles. Both ionizing and non-ionizing radiation are covered, including x-ray, PET, MRI, and ultrasound. Emphasis is on the physics and engineering of image formation.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.058",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -270,6 +280,7 @@
             "has-final":     true,
             "description":   "Introduces engineering in nuclear energy plant design, accelerators and fusion machines. Using the basic principles of nuclear physics, reactor physics, plasma physics and magnetic confinement, heat transfer, safety, risk and reliability, the engineering design of nuclear power plants, accelerators and fusion systems are studied. The MIT reactor, department accelerators, and MIT's Alcator fusion facility are used.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.06",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -285,13 +296,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L22.06-1",
+            "label":              "L0122.06",
             "lecture-section-of": "22.06",
             "timeAndPlace":       "TR11-12.30 24-115"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R22.06-2",
+            "label":          "R0222.06",
             "rec-section-of": "22.06",
             "timeAndPlace":   [
             ]
@@ -299,7 +310,7 @@
         {
             "type":          "Class",
             "label":         "Introduction to Electronics",
-            "id":            "22.071J",
+            "id":            "22.071",
             "listing-index": "m22a-011",
             "course":        "22",
             "level":         "Undergrad",
@@ -308,6 +319,7 @@
             "has-final":     true,
             "description":   "Introductory subject suitable for students with little or no previous background in electronics. Provides the knowledge necessary for reading schematics and designing, building, analyzing, and testing fundamental analog and digital circuits. The class has a strong hands-on component. Students construct interactive examples and explore the practical uses of electronics in engineering and experimental science, including signals and measurement fundamentals. Students have the use of state-of-the-art hardware and software for data acquisition, analysis, and control.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.071J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
@@ -323,8 +335,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L22.071J-1",
-            "lecture-section-of": "22.071J",
+            "label":              "L0122.071",
+            "lecture-section-of": "22.071",
             "timeAndPlace":       "MWF9-11 NW14-1112"
         },
         {
@@ -339,6 +351,7 @@
             "has-final":     false,
             "description":   "Combines lectures, demonstrations, and experiments.  Review of radiation protection procedures and regulations; theory and use of ±, ², ³, and neutron detectors; applications in imaging and dosimetry; ³-ray spectroscopy; design and operation of automated data acquisition experiments using virtual instruments.  Meets with  graduate subject 22.90, but homework assignments and examinations differ. Instruction and practice in written communication provided.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.09",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
@@ -355,13 +368,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L22.09-1",
+            "label":              "L0122.09",
             "lecture-section-of": "22.09",
             "timeAndPlace":       "M12.30-2.30 NW12-222"
         },
         {
             "type":           "LabSection",
-            "label":          "B22.09-2",
+            "label":          "B0222.09",
             "lab-section-of": "22.09",
             "timeAndPlace":   "WF12-3 NW12-222"
         },
@@ -377,6 +390,7 @@
             "has-final":     false,
             "description":   "For undergraduates who wish to conduct a one-term project of theoretical or experimental nature in the field of nuclear engineering, in close cooperation with individual staff members. Topics and hours arranged to fit students' requirements.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.091",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -392,7 +406,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L22.091-1",
+            "label":              "L0122.091",
             "lecture-section-of": "22.091",
             "timeAndPlace":       "TR12.30-2 24-115"
         },
@@ -408,6 +422,7 @@
             "has-final":     false,
             "description":   "This subject is graded on a P/D/F basis and is otherwise equivalent to subject 22.091. Approval of the Course 22 undergraduate office is required prior to enrolling in 22.093.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.093",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",
@@ -433,6 +448,7 @@
             "has-final":     false,
             "description":   "Introduction to wave mechanics using optical analogies and examples from nuclear science to gain an intuitive understanding of quantum phenomena. Topics include wave optics and mechanics, the Schrodinger equation and its solution in one dimension, the tunnel effect and radioactive decay, the deuteron and neutron-proton scattering. Math skills introduced as required. Lectures and computer simulation demonstrations. Meets with graduate subject 22.96, but assignments differ. Graduate students are expected to explore the subject in greater depth.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.096",
+            "joint":         false,
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "prereq":        "22.96",
@@ -451,6 +467,7 @@
             "has-final":     false,
             "description":   "Provides engineering students, typically sophomores, the opportunity to participate in engineering practice.  Students gain experience with recruitment and job selection, the job experience, and the assessment and reflection process. Spring term includes seminars and workshops in preparation for internship and management of career path.  With the assistance of UPOP staff, students find and engage in a 10-12 week summer job experience, during which they maintain a journal of their experiences.  In the Fall term, students write essays addressing the topics introduced in UPOP EPW workshop during IAP, complete a post-summer self-evaluation form, and discuss these forms with their regular academic advisor. Students have the opportunity to share their experiences with others in a roundtable discussion.  Can be taken up to two times for credit. Spring term can only be taken in conjunction with the Fall term.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.EPE",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -483,6 +500,7 @@
             "has-final":     false,
             "description":   "Provides engineering sophomores the opportunity to reflect and share their summer practice experiences as related to the topics of the IAP subject and students' academic subjects through a written report and an oral presentation delivered at a UPOP Symposium in the fall.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.EPR",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -509,6 +527,7 @@
             "has-final":     false,
             "description":   "Provides engineering sophomores the opportunity to build the core foundation of skills necessary to succeed in and prepare for a summer practice experience. Introduces concepts in product development, system dynamics, organizational dynamics, and effective communication. Also introduces concepts in ethics and character, and leadership and teamwork to ensure that students acquire an appreciation of the social, environmental, and ethical implications of organizational decision making. Subject is an interactive experience integrating lectures with role-playing, simulations, and group projects, where students apply these concepts in a case study context. Students are provided with a journal to be used during their summer training practice. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.EPW",
+            "joint":         false,
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -535,6 +554,7 @@
             "has-final":     false,
             "description":   "A series of lectures on prospectus and thesis writing. Students select a thesis topic and a thesis advisor who reviews and approves the prospectus for thesis work in the spring term.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.ThT",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "22.09",
@@ -553,6 +573,7 @@
             "has-final":     false,
             "description":   "Program of research, leading to the writing of an SB thesis, to be arranged by the student and appropriate MIT faculty member. See department undergraduate headquarters.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.ThU",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -577,6 +598,7 @@
             "has-final":     false,
             "description":   "The Undergraduate Research Opportunities Program is an excellent way for undergraduate students to become familiar with the department of Nuclear Science and Engineering. Student research as a UROP project has been conducted in areas of fission reactor studies, utilization of fusion devices, applied radiation physics research, and biomedical applications. Projects include the study of engineering aspects for fusion and fission energy sources, and utilization of radiations.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.UR",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "IAP",

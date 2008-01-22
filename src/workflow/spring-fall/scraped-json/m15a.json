@@ -12,6 +12,7 @@
             "has-final":     false,
             "description":   "Units assigned to MBA students upon completion of the Sloan Innovation Period leadership and research requirement. MBAs only.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.002",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -32,6 +33,7 @@
             "has-final":     false,
             "description":   "Introduces students to principles of microeconomic analysis used in managerial decision-making. Topics include demand, cost and surplus analysis, the behavior of competitive and non-competitive markets, sources and uses of market power, and game theory and competitive strategy, with applications to various business and public policy decisions. Antitrust policy and other government regulations are also discussed. 15.010 restricted to first-year Sloan master's students. 15.011 primarily for non-Sloan School students.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.010",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Fall"
@@ -57,6 +59,7 @@
             "has-final":     false,
             "description":   "Case studies used to investigate the macroenvironment in which firms operate. First section develops the basic tools of macroeconomic management: monetary, fiscal, and exchange rate policy. Second section evaluates different strategies of economic development, with topics ranging from trade and industrial policy to reliance on natural resources. Third section discusses recent emerging market crises and examines the causes of these crises as well as how best to address them and prevent them from reoccurring in the future. Final section evaluates several major challenges currently faced by developed countries, such as global integration, inequality, and asset-price bubbles.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.012",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     [
@@ -68,25 +71,25 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.012-1",
+            "label":              "L0115.012",
             "lecture-section-of": "15.012",
             "timeAndPlace":       "MWF8.30-10 (ENDS MARCH 14) E51-145"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.012-2",
+            "label":              "L0215.012",
             "lecture-section-of": "15.012",
             "timeAndPlace":       "MWF2.30-4 (ENDS MARCH 14) E51-335"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.012-3",
+            "label":              "L0315.012",
             "lecture-section-of": "15.012",
             "timeAndPlace":       "MWF10-11.30 (ENDS MARCH 14) E51-145"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.012-4",
+            "label":              "L0415.012",
             "lecture-section-of": "15.012",
             "timeAndPlace":       "MWF4-5.30 (ENDS MARCH 14) E51-335"
         },
@@ -102,6 +105,7 @@
             "has-final":     false,
             "description":   "Applies principles of industrial economics most relevant for corporate strategy to analysis of particular industries. Topics include market structure and its determinants; rational strategic behavior in small numbers situations; strategies for price and nonprice competition; dynamic pricing, output, and advertising decisions; entry and entry deterrence; network externalities, investments in real options, evolution of industries.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.013",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -124,6 +128,7 @@
             "has-final":     false,
             "description":   "Builds on basic tools of macro and international economics from 15.012 to analyze major global economic challenges in depth. Examines how different countries are affected by major global risks, from aging populations and global warming to massive trade imbalances, as well as the implications of increased competition from the BRICs (Brazil, Russia, India, and China). Explores why some countries thrive in a globalized world while others experience crises and are shunned by investors. Additional topics include financial contagion, capital controls, foreign reserve accumulation, foreign investment, oil and commodity markets, inequality, international institutions, trade policy, outsourcing, and foreign aid.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.014",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "prereq":        "15.012",
@@ -142,6 +147,7 @@
             "has-final":     false,
             "description":   "Focuses on the policy and economic environment of firms. Subject divided in three parts: study the closed economy and  how monetary and fiscal policy interacts with employment, GNP, inflation, and interest rates; look at national economic strategies for development and growth, and study the recent financial and currency crises in emerging markets; study the problems faced by transition economies and the role of institutions both as the engine of growth, and as the constraints for policy. Half term course. Restricted to MIT Sloan Fellows in Innovation and Global Leadership.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.015",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Summer"
@@ -162,6 +168,7 @@
             "has-final":     false,
             "description":   "Examines major economic developments shaping the international business environment. Topics: causes and implications of exchange rate volatility, persistent imbalances in the US, integration in Europe, transition in Eastern Europe, growth in emerging economies, Asia's international role, and regionalization.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.018",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -175,7 +182,7 @@
         {
             "type":          "Class",
             "label":         "Real Estate Economics",
-            "id":            "15.021J",
+            "id":            "15.021",
             "listing-index": "m15a-007",
             "course":        "15",
             "level":         "Grad",
@@ -184,6 +191,7 @@
             "has-final":     false,
             "description":   "Focuses on developing an understanding of the factors that shape and influence markets for real property. Includes demographic analysis, patterns of regional growth, construction cycles, urban location theory, and modeling techniques for predicting demand.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.021J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -199,7 +207,7 @@
         {
             "type":          "Class",
             "label":         "Global Climate Change: Economics, Science, and Policy",
-            "id":            "15.023J",
+            "id":            "15.023",
             "listing-index": "m15a-008",
             "course":        "15",
             "level":         "Grad",
@@ -208,6 +216,7 @@
             "has-final":     false,
             "description":   "Introduces scientific, economic, and ecological issues underlying the threat of global climate change, and the institutions engaged in negotiating an international response. Develops an integrated approach to analysis of climate change processes, and assessment of proposed policy measures, drawing on research and model development within the MIT Joint Program on the Science and Policy of Global Change.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.023J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -226,14 +235,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.023J-1",
-            "lecture-section-of": "15.023J",
+            "label":              "L0115.023",
+            "lecture-section-of": "15.023",
             "timeAndPlace":       "M3-5 E25-117"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R15.023J-2",
-            "rec-section-of": "15.023J",
+            "label":          "R0215.023",
+            "rec-section-of": "15.023",
             "timeAndPlace":   "W3 E25-117"
         },
         {
@@ -248,6 +257,7 @@
             "has-final":     false,
             "description":   "Develops facility with concepts, language, and analytical tools of economics. Primary focus on microeconomics, analysis of markets and strategic interactions among firms.  Emphasizes integration of theory, data, and judgment in the analysis of corporate decisions, and in the assessment of the changing global business environment. Restricted to MIT Sloan Fellows in Innovation and Global Leadership.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.024",
+            "joint":         false,
             "semester":      "Summer",
             "offering":      "Currently Offered",
             "in-charge":     "Stoker, T.",
@@ -265,6 +275,7 @@
             "has-final":     false,
             "description":   "Develops and applies principles of game theory relevant to managers' strategic decisions. Topics include how to reason about strategies; \"irrational\" actions, reputation, and beliefs; entry deterrence; strategic substitutes and complements; brinkmanship and negotiation; and auctions. Applications to a variety of business decisions that arise in different industries.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.025",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -274,13 +285,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.025-1",
+            "label":              "L0115.025",
             "lecture-section-of": "15.025",
             "timeAndPlace":       "TR10-11.30 E51-335"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.025-2",
+            "label":              "L0215.025",
             "lecture-section-of": "15.025",
             "timeAndPlace":       "TR2.30-4 E51-335"
         },
@@ -296,6 +307,7 @@
             "has-final":     false,
             "description":   "Designed for students interested in applied econometric methods and business forecasting as used in finance, strategy marketing and other business fields. Emphasizes modeling and problems typically encountered in conducting empirical analysis, in evaluating results and in constructing forecasts. Learning is primarily through empirical work done by student groups.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.034",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "in-charge":     "Staff",
@@ -313,6 +325,7 @@
             "has-final":     false,
             "description":   "Group study of current topics related to managerial economics not otherwise included in curriculum.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.040",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -341,6 +354,7 @@
             "has-final":     true,
             "description":   "Introduces students to the theory, algorithms, and applications of optimization. The optimization methodologies include linear programming, network optimization, integer programming, and decision trees. Applications to logistics, manufacturing, transportation, marketing, project management, and finance.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.053",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     "Orlin, J. B.",
@@ -348,44 +362,44 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.053-1",
+            "label":              "L0115.053",
             "lecture-section-of": "15.053",
             "timeAndPlace":       "TR10-11.30 E51-395"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.053-2",
+            "label":              "L0215.053",
             "lecture-section-of": "15.053",
             "timeAndPlace":       "TR2.30-4 E51-345"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R15.053-3",
+            "label":          "R0315.053",
             "rec-section-of": "15.053",
             "timeAndPlace":   "R EVE (7-8.30 PM) E51-315"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R15.053-4",
+            "label":          "R0415.053",
             "rec-section-of": "15.053",
             "timeAndPlace":   "R EVE (8.30-10) E51-315"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R15.053-5",
+            "label":          "R0515.053",
             "rec-section-of": "15.053",
             "timeAndPlace":   "F10-11.30 E51-395"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R15.053-6",
+            "label":          "R0615.053",
             "rec-section-of": "15.053",
             "timeAndPlace":   "F3.30-5 E51-345"
         },
         {
             "type":          "Class",
             "label":         "The Airline Industry",
-            "id":            "15.054J",
+            "id":            "15.054",
             "listing-index": "m15a-014",
             "course":        "15",
             "level":         "Grad",
@@ -394,6 +408,7 @@
             "has-final":     false,
             "description":   "Overview of the global airline industry, focusing on recent industry performance, current issues and challenges for the future. Fundamentals of airline industry structure, airline economics, operations planning, safety, labor relations, airports and air traffic control, marketing, and competitive strategies, with an emphasis on the interrelationships among major industry stakeholders. Recent research findings of the MIT Global Airline Industry Program are showcased, including the impacts of congestion and delays, evolution of information technologies, changing human resource management practices, and competitive effects of new entrant airlines. Taught by faculty participants of the Global Airline Industry Program.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.054J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -422,6 +437,7 @@
             "has-final":     false,
             "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.057",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -439,6 +455,7 @@
             "has-final":     false,
             "description":   "Introduces students to the basic tools in using data to make informed management decisions. Covers introductory probability, decision analysis, basic statistics, regression, simulation, linear and nonlinear optimization, and discrete optimization. Computer spreadsheet exercises, cases, and examples drawn from marketing, finance, operations management, and other management functions. Restricted to first-year Sloan master's students.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.060",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -462,6 +479,7 @@
             "has-final":     false,
             "description":   "Introducion to a class of methods known as data mining or machine learning that assist managers in recognizing patterns and making intelligent use of massive amounts of electronic data collected via the internet, e-commerce, electronic banking, point-of-sale devices, bar-code readers, and intelligent machines. Topics selected from logistic regression; association rules; tree-structured classification and regression; cluster analysis; discriminant analysis; and neural network methods. Examples of successful applications in areas such as credit ratings, fraud detection, database marketing, customer relationship management, investments, and logistics are covered. Introduction to data-mining software. Half-term subject.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.062",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -475,13 +493,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.062-1",
+            "label":              "L0115.062",
             "lecture-section-of": "15.062",
             "timeAndPlace":       "MW2.30-4 (ENDS MARCH 14) E51-151"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R15.062-2",
+            "label":          "R0215.062",
             "rec-section-of": "15.062",
             "timeAndPlace":   "R4 E51-085"
         },
@@ -497,6 +515,7 @@
             "has-final":     false,
             "description":   "Introduces statistical tools and communication skills for using data to influence management decisions. In real-life decisions, decision makers use both analytical and intuitive approaches to understand problems and to persuade others to act. Statistical tools are important, but statistical arguments are often met with skepticism. Subject covers behavioral decision theory, communication principles, probability, decision analysis, statistics, and regression, with exercises and examples drawn from marketing, finance, operations management, strategy and negotiations. Restricted to MIT Sloan Fellows in Innovation and Global Leadership.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.063",
+            "joint":         false,
             "semester":      "Summer",
             "offering":      "Currently Offered",
             "in-charge":     "Barnett, A.",
@@ -505,7 +524,7 @@
         {
             "type":          "Class",
             "label":         "Engineering Probability and Statistics",
-            "id":            "15.064J",
+            "id":            "15.064",
             "listing-index": "m15a-019",
             "course":        "15",
             "level":         "Grad",
@@ -514,6 +533,7 @@
             "has-final":     false,
             "description":   "Modeling and analysis of uncertainty and variation. Probability models and distributions, regression, and basic statistical procedures pertinent to manufacturing. Introduction to experimental design, Taguchi methods, and statistical process control. Use of a data analysis package such as JMP or Minitab. Primarily for Leaders for Manufacturing students.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.064J",
+            "joint":         true,
             "semester":      "Summer",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -536,6 +556,7 @@
             "has-final":     false,
             "description":   "Begins with development of tools for decision-making under uncertainty: construction and analysis of decision trees and influence diagrams using decision analysis software; quantification of judgments; risk preferences; and degree of risk aversion via subjective expected utility. Generalizations of expected utility theory to problems in which consequences are descriptively complex and multi-attributed are illustrated with applications in engineering and management. The real options approach to strategic choice is treated as a logical extension of decision analysis that employs financial market information to determine and value optimal strategies when managers can flexibly adapt to an unfolding, uncertain future. Methods for integrating decision analysis and option pricing using financial market information are illustrated with applications to a wide variety of cases, such as valuing start-ups, valuing manufacturing flexibility, valuing new technologies, valuing oil and gas exploration, and development options. A project report is required in place of a final exam. Half-term subject.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.065",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -549,7 +570,7 @@
         {
             "type":          "Class",
             "label":         "System Optimization and Analysis for Manufacturing",
-            "id":            "15.066J",
+            "id":            "15.066",
             "listing-index": "m15a-021",
             "course":        "15",
             "level":         "Grad",
@@ -558,6 +579,7 @@
             "has-final":     false,
             "description":   "Introduction to mathematical modeling, optimization, and simulation, as applied to manufacturing. Specific methods include linear programming, network flow problems, integer and nonlinear programming, discrete-event simulation, heuristics and computer applications for manufacturing processes and systems. Restricted to Leaders for Manufacturing students.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.066J",
+            "joint":         true,
             "semester":      "Summer",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -584,6 +606,7 @@
             "has-final":     false,
             "description":   "Learn tools to achieve negotiation objectives fairly and responsibly. Negotiation skills developed by active participation in a variety of negotiation settings: an oil price (repetitive Prisoners' Dilemma) negotiation; fair division of a valuable art collection and a series of integrative bargaining cases between two and more than two parties over multiple issues; e.g. owners of an online vendor of mid-priced wines negotiates sale of the company to a large chain; two companies negotiate an IT deal. Several complex team negotiations follow. Grades depend solely on effective negotiation with class counterparts. Students must complete all negotiation exercises in order to receive a grade. Half term subject.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.067",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -594,7 +617,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.067-1",
+            "label":              "L0115.067",
             "lecture-section-of": "15.067",
             "timeAndPlace":       "MW EVE (4-6.30 PM) E51-335"
         },
@@ -610,6 +633,7 @@
             "has-final":     false,
             "description":   "Addresses statistical issues as a consultant would face them: deciphering the client's question; finding appropriate data; performing a viable analysis; and presenting the results in compelling ways. Real-life cases and examples.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.068",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -629,6 +653,7 @@
             "has-final":     false,
             "description":   "Analysis and modeling of stochastic processes. Topics include measure theoretic probability, martingales, filtration, and stopping theorems; elements of large deviations theory; Brownian motion and reflected Brownian motion; stochastic integration and Ito calculus; functional limit theorems. Applications to finance theory, insurance, queueing and inventory models.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.070",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered next year",
@@ -649,7 +674,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.070-1",
+            "label":              "L0115.070",
             "lecture-section-of": "15.070",
             "timeAndPlace":       "MW2.30-4 26-322"
         },
@@ -665,6 +690,7 @@
             "has-final":     false,
             "description":   "Follows 15.060, covering more advanced material in both statistics and optimization. Applied emphasis. Team projects. Introduction to statistical consulting, which presents major challenges beyond the proper use of statistical methods. Restricted to Sloan master's students.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.071",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -674,20 +700,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.071-1",
+            "label":              "L0115.071",
             "lecture-section-of": "15.071",
             "timeAndPlace":       "MW8.30-10 E51-315"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.071-2",
+            "label":              "L0215.071",
             "lecture-section-of": "15.071",
             "timeAndPlace":       "MW10-11.30 E51-085"
         },
         {
             "type":          "Class",
             "label":         "Queues: Theory and Applications",
-            "id":            "15.072J",
+            "id":            "15.072",
             "listing-index": "m15a-026",
             "course":        "15",
             "level":         "Grad",
@@ -696,6 +722,7 @@
             "has-final":     false,
             "description":   "Modeling and analysis of queueing systems, with applications in communications, manufacturing, computers, call centers, service industries and transportation. Topics include birth-death processes and simple Markovian queues, networks of queues and product form networks, single and multi-server queues, multi-class queueing networks, fluid models, adversarial queueing networks, heavy-traffic theory and diffusion approximations. Covers state of the art results which lead to research opportunities.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.072J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -713,7 +740,7 @@
         {
             "type":          "Class",
             "label":         "Logistical and Transportation Planning Methods",
-            "id":            "15.073J",
+            "id":            "15.073",
             "listing-index": "m15a-027",
             "course":        "15",
             "level":         "Grad",
@@ -722,6 +749,7 @@
             "has-final":     false,
             "description":   "Quantitative techniques of operations research with emphasis on applications in transportation systems analysis (urban, air, ocean, highway, and pickup and delivery systems) and in the planning and design of logistically oriented urban service systems (e.g., fire and police departments, emergency medical services, and emergency repair services). Unified study of functions of random variables, geometrical probability, multi-server queuing theory, spatial location theory, network analysis and graph theory, and relevant methods of simulation. Computer exercises and discussions of implementation difficulties.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.073J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -741,7 +769,7 @@
         {
             "type":          "Class",
             "label":         "Statistical Reasoning and Data Modeling",
-            "id":            "15.074J",
+            "id":            "15.074",
             "listing-index": "m15a-028",
             "course":        "15",
             "level":         "Grad",
@@ -750,6 +778,7 @@
             "has-final":     false,
             "description":   "Designed for students who have an acquaintance with statistics and want exposure to a wider range of topics and examples such as statistical computing and data analysis. Topics include advanced regression modeling: regression diagnostics, variable selection, and robust regression. Design of experiments and analysis of variance. Introduction to data-mining includes stratified sampling, classification, logistic regression, and clustering; time series analysis and forecasting; process control; and Bayesian methods. Use of statistical computing systems including Excel add-ins and stand-alone packages. Case studies involving finance, management science, and engineering systems.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.074J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -768,6 +797,7 @@
             "has-final":     false,
             "description":   "Introduces statistical data analysis, concentrating on techniques used in management science and finance. Topics chosen from statistical graphics; sampling; estimation; hypothesis testing; linear and logistic regression; analysis of variance; categorical data analysis; and classification. SAS, S+ or similar statistics package used for computing.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.075",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
@@ -781,7 +811,7 @@
         {
             "type":          "Class",
             "label":         "Statistical Learning and Data Mining",
-            "id":            "15.077J",
+            "id":            "15.077",
             "listing-index": "m15a-030",
             "course":        "15",
             "level":         "Grad",
@@ -790,6 +820,7 @@
             "has-final":     false,
             "description":   "Introduction to theory and application of statistics and data mining, concentrating on techniques used in management science, finance, engineering systems, and bioinformatics. First half builds the statistical foundation for the second half which concentrates on data-mining, supervised learning, and  multivariate analysis. First half topics selected from sampling; theory of estimation; testing; nonparametric statistics; analysis of variance; categorical data analysis; regression analysis; MCMC; EM;  Gibbs sampling; hidden Markov models; and Bayesian methods. Second half topics selected from logistic regression; principal components and dimension reduction; discrimination and classification analysis and trees; partial least squares; nearest neighbor and regularized  methods; support vector machines; boosting and bagging; clustering; independent component analysis; and nonparametric regression. R, S+, Matlab, SAS, or similar statistics package used for data analysis and data mining.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.077J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -805,20 +836,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.077J-1",
-            "lecture-section-of": "15.077J",
+            "label":              "L0115.077",
+            "lecture-section-of": "15.077",
             "timeAndPlace":       "MW EVE (7-8.30 PM) 3-370"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R15.077J-2",
-            "rec-section-of": "15.077J",
+            "label":          "R0215.077",
+            "rec-section-of": "15.077",
             "timeAndPlace":   "T4 E51-085"
         },
         {
             "type":          "Class",
             "label":         "Introduction to Mathematical Programming",
-            "id":            "15.081J",
+            "id":            "15.081",
             "listing-index": "m15a-031",
             "course":        "15",
             "level":         "Grad",
@@ -827,6 +858,7 @@
             "has-final":     false,
             "description":   "Introduction to linear optimization and its extensions emphasizing both methodology and the underlying mathematical structures and geometrical ideas. Covers classical theory of linear programming as well as some recent advances in the field. Topics: simplex method; duality theory; sensitivity analysis; network flow problems; decomposition; integer programming; interior point algorithms for linear programming; and introduction to combinatorial optimization and NP-completeness.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.081J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -843,7 +875,7 @@
         {
             "type":          "Class",
             "label":         "Network Optimization",
-            "id":            "15.082J",
+            "id":            "15.082",
             "listing-index": "m15a-032",
             "course":        "15",
             "level":         "Grad",
@@ -852,6 +884,7 @@
             "has-final":     false,
             "description":   "Network models for industrial logistics systems, transportation systems, communication systems, and other applications. Emphasizes a rigorous treatment of algorithms and their efficiency?algorithms for shortest routes, maximum flows, minimum cost flows, traffic equilibrium, and network design. Implementation issues.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.082J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
@@ -867,7 +900,7 @@
         {
             "type":          "Class",
             "label":         "Integer Programming and Combinatorial Optimization",
-            "id":            "15.083J",
+            "id":            "15.083",
             "listing-index": "m15a-033",
             "course":        "15",
             "level":         "Grad",
@@ -876,6 +909,7 @@
             "has-final":     false,
             "description":   "In-depth treatment of the modern theory of integer programming and combinatorial optimization, emphasizing geometry, duality and algorithms. Topics include formulating problems in integer variables, enhancement of formulations, ideal formulations, integer programming duality, linear and semidefinite relaxations, lattices and their applications, the geometry of integer programming, primal methods, cutting plane methods, connections with algebraic geometry, computational complexity, approximation algorithms, heuristic and enumerative algorithms, mixed integer programming and solutions of large scale problems. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.083J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      [
                 "Not offered next year",
@@ -895,7 +929,7 @@
         {
             "type":          "Class",
             "label":         "Nonlinear Programming",
-            "id":            "15.084J",
+            "id":            "15.084",
             "listing-index": "m15a-034",
             "course":        "15",
             "level":         "Grad",
@@ -904,6 +938,7 @@
             "has-final":     true,
             "description":   "A unified analytical and computational approach to nonlinear optimization problems. Unconstrained optimization methods include gradient, conjugate direction, Newton, and quasi-Newton methods. Constrained optimization methods include feasible directions, projection, interior point, and Lagrange multiplier methods. Convex analysis, Lagrangian relaxation, nondifferentiable optimization, and applications in integer programming. Comprehensive treatment of optimality conditions, Lagrange multiplier theory, and duality theory. Applications drawn from control, communications, power systems, and resource allocation problems.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.084J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -921,20 +956,20 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.084J-1",
-            "lecture-section-of": "15.084J",
+            "label":              "L0115.084",
+            "lecture-section-of": "15.084",
             "timeAndPlace":       "TR10-11.30 E51-372"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R15.084J-2",
-            "rec-section-of": "15.084J",
+            "label":          "R0215.084",
+            "rec-section-of": "15.084",
             "timeAndPlace":   "M5 56-154"
         },
         {
             "type":          "Class",
             "label":         "Fundamentals of Probability",
-            "id":            "15.085J",
+            "id":            "15.085",
             "listing-index": "m15a-035",
             "course":        "15",
             "level":         "Grad",
@@ -943,6 +978,7 @@
             "has-final":     false,
             "description":   "Introduction to probability theory. Probability spaces and measures. Discrete and continuous random variables. Conditioning and independence. Multivariate normal distribution. Abstract integration, expectation, and related convergence results. Moment generating and  characteristic functions. Bernoulli and Poisson process. Finite-state  Markov chains. Convergence notions and their relations. Limit theorems. Familiarity with elementary notions in probability and real analysis is desirable.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.085J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -959,7 +995,7 @@
         {
             "type":          "Class",
             "label":         "Optimization Methods",
-            "id":            "15.093J",
+            "id":            "15.093",
             "listing-index": "m15a-036",
             "course":        "15",
             "level":         "Grad",
@@ -968,6 +1004,7 @@
             "has-final":     false,
             "description":   "Introduces the principal algorithms for linear, network, discrete, nonlinear, dynamic optimization and optimal control. Emphasis on methodology and the underlying mathematical structures. Topics include the simplex method, network flow methods, branch and bound and cutting plane methods for discrete optimization, optimality conditions for nonlinear optimization, interior point methods for convex optimization, Newton's method, heuristic methods, and dynamic programming and optimal control methods.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.093J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -984,7 +1021,7 @@
         {
             "type":          "Class",
             "label":         "Systems Optimization: Models and Computation",
-            "id":            "15.094J",
+            "id":            "15.094",
             "listing-index": "m15a-037",
             "course":        "15",
             "level":         "Grad",
@@ -993,6 +1030,7 @@
             "has-final":     false,
             "description":   "A computational and application-oriented introduction to the modeling of large-scale systems in a wide variety of decision-making domains and the optimization of such systems using state-of-the-art optimization software. Application domains include transportation and logistics, pattern classification, structural design, financial engineering, and telecommunications system planning. Modeling tools and techniques covered include linear, network, discrete, and nonlinear programming, heuristic methods, sensitivity and postoptimality analysis, decomposition methods for large-scale systems, and stochastic programming.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.094J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1007,14 +1045,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.094J-1",
-            "lecture-section-of": "15.094J",
+            "label":              "L0115.094",
+            "lecture-section-of": "15.094",
             "timeAndPlace":       "TR2.30-4 E51-057"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R15.094J-2",
-            "rec-section-of": "15.094J",
+            "label":          "R0215.094",
+            "rec-section-of": "15.094",
             "timeAndPlace":   "F3 14-0637"
         },
         {
@@ -1029,6 +1067,7 @@
             "has-final":     false,
             "description":   "Group study of current topics related to operations research/statistics not otherwise included in curriculum.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.097",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1050,6 +1089,7 @@
             "has-final":     false,
             "description":   "Doctoral student seminar covering current topics in applied probability and stochastic processes.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.098",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
@@ -1075,6 +1115,7 @@
             "has-final":     false,
             "description":   "Doctoral student seminar covering current topics related to operations research not otherwise included in the curriculum.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.099",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1097,14 +1138,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.099-1",
+            "label":              "L0115.099",
             "lecture-section-of": "15.099",
             "timeAndPlace":       "F10-12 E51-063"
         },
         {
             "type":          "Class",
             "label":         "Clinical Trials in Biomedical Enterprise",
-            "id":            "15.121J",
+            "id":            "15.121",
             "listing-index": "m15a-041",
             "course":        "15",
             "level":         "Grad",
@@ -1113,6 +1154,7 @@
             "has-final":     false,
             "description":   "Clinical trials have become one of the leading barriers to sucess in the introduction of new products and services for the healthcare industry. Subject enables healthcare managers to ask the important questions surrounding a decision to pursue a clinical trial. Deciding to participate in a clinical trial can sometimes result in expensive, long-term corporate commitments, which can have a significant impact on the company's success or failure, particularly in the case of smaller companies. Subject explores issues related to determing whether a clinical trial is needed to significantly further the important goals of the company. Topics include the design, implementation, analysis and presentation of clinical trials. Case scenarios are presented by professionals in the field, and students are asked to develop their own Outline Plan and Clinical Trial Study Plan from the sample cases provided. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.121J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     "H.Golub",
@@ -1121,7 +1163,7 @@
         {
             "type":          "Class",
             "label":         "Critical Reading and Technical Assessment of Biomedical Information",
-            "id":            "15.122J",
+            "id":            "15.122",
             "listing-index": "m15a-042",
             "course":        "15",
             "level":         "Grad",
@@ -1130,6 +1172,7 @@
             "has-final":     false,
             "description":   "Gain experience in critical reading of scientific literature with an emphasis on analyzing clinical controversies and emerging technologies in subject areas that have been or could become sources of entrepreneurial activity. Students required to analyze a variety of topics in the scientific literature, including screening for and cost-effectiveness of early detection of cancer, therapeutic opportunities in oncology, evaluation of immunotoxins and antibody therapies, and new prospects for the treatment of autoimmune disorders. To support the discussion of these topics, outside experts may be invited to participate as facilitators. Meets in first half of term.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.122J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1141,14 +1184,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.122J-1",
-            "lecture-section-of": "15.122J",
+            "label":              "L0115.122",
+            "lecture-section-of": "15.122",
             "timeAndPlace":       "M EVE (6.30-8.30 PM) E25-101"
         },
         {
             "type":          "Class",
             "label":         "Dynamics of Biomedical Technologies",
-            "id":            "15.123J",
+            "id":            "15.123",
             "listing-index": "m15a-043",
             "course":        "15",
             "level":         "Grad",
@@ -1157,6 +1200,7 @@
             "has-final":     false,
             "description":   "Examines interrelationships between life science and technology developments in the context of six dynamic forces affecting the biomedical industrial sector. Considers these interrelationships through close investigation of one science or technology platform each semester. Case studies, upper-level executive presentations, and student group exercises focus disussion and in-depth analysis on industry structure, risk and economics, cost drivers and financing, markets, consumers and patients, the rapid evolution of related science and technology, public policy, accountability and ethics. Enrollment limited to 20.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.123J",
+            "joint":         true,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1173,14 +1217,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.123J-1",
-            "lecture-section-of": "15.123J",
+            "label":              "L0115.123",
+            "lecture-section-of": "15.123",
             "timeAndPlace":       "R EVE (6-8 PM) E25-119"
         },
         {
             "type":          "Class",
             "label":         "Evaluating a Biomedical Business Concept",
-            "id":            "15.124J",
+            "id":            "15.124",
             "listing-index": "m15a-044",
             "course":        "15",
             "level":         "Grad",
@@ -1189,6 +1233,7 @@
             "has-final":     false,
             "description":   "Critical analysis of new biomedical business ideas. Principals of early stage companies, or inventors, present their ideas and provide background material including scientific papers and patents. Teams of students evaluate each business idea. Students develop a series of analyses concerning the critical issues that each business idea would face. Issues may include efficacy of a technology, intellectual property protection, market opportunity,  regulatory and reimbursement hurdles, competitive threats and potential return on investment. Students are encouraged to review scientific, clinical, patent and marketing literature as well as interview key individuals including principals, inventors, potential customers and competitors. Analyses focus on the issues most critical for the success of the proposed business concept.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.124J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1202,14 +1247,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.124J-1",
-            "lecture-section-of": "15.124J",
+            "label":              "L0115.124",
+            "lecture-section-of": "15.124",
             "timeAndPlace":       "R EVE (6-8 PM) E25-119"
         },
         {
             "type":          "Class",
             "label":         "The Legal Framework of Biomedical Enterprise",
-            "id":            "15.126J",
+            "id":            "15.126",
             "listing-index": "m15a-045",
             "course":        "15",
             "level":         "Grad",
@@ -1218,6 +1263,7 @@
             "has-final":     false,
             "description":   "Designed to prepare managers, physicians, and research scientists to exercise good judgment and leadership when confronting key law-sensitive issues arising in the commercialization of new biomedical technologies. After covering some legal fundamentals, students follow a biomedical enterprise through a typical life cycle. Topics include linkages between university-based research centers and proprietary enterprises, establishing a new venture and obtaining early financing, protection of intellectual property, the FDA process, reimbursement and coverage, liability risks, tapping public securities markets, and corporate partnering and private equity. Special attention is given to the legal, ethical and professional standards that bear upon health care.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.126J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "in-charge":     "Akula, J.",
@@ -1226,7 +1272,7 @@
         {
             "type":          "Class",
             "label":         "Principles and Practice of Drug Development",
-            "id":            "15.136J",
+            "id":            "15.136",
             "listing-index": "m15a-046",
             "course":        "15",
             "level":         "Grad",
@@ -1235,6 +1281,7 @@
             "has-final":     false,
             "description":   "Description and critical assessment of the major issues and stages of developing a pharmaceutical or biopharmaceutical. Drug discovery, preclinical development, clinical investigation, manufacturing and regulatory issues considered for small and large molecules. Economic and financial considerations of the drug development process. Multidisciplinary perspective from faculty in clinical; life; and management sciences; as well as industry guests.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.136J",
+            "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1254,7 +1301,7 @@
         {
             "type":          "Class",
             "label":         "Case Studies and Strategies in Drug Discovery and Development",
-            "id":            "15.137J",
+            "id":            "15.137",
             "listing-index": "m15a-047",
             "course":        "15",
             "level":         "Grad",
@@ -1263,6 +1310,7 @@
             "has-final":     false,
             "description":   "The stages in drug discovery and development begin with target identification and end with the submission of preclinical and clinical data to the regulatory authorities. Following identification of a lead compound, there is optimization of structures for pharmaceutical properties, bioavailability, and safety. Subject relies on actual cases of drug development. A major goal is to analyze the cases and determine how the discovery and development process might be influenced by new and future technologies.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.137J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1278,14 +1326,14 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.137J-1",
-            "lecture-section-of": "15.137J",
+            "label":              "L0115.137",
+            "lecture-section-of": "15.137",
             "timeAndPlace":       "T EVE (4-6.30 PM) 56-614"
         },
         {
             "type":          "Class",
             "label":         "Economics of the Health Care Industries",
-            "id":            "15.141J",
+            "id":            "15.141",
             "listing-index": "m15a-048",
             "course":        "15",
             "level":         "Grad",
@@ -1294,6 +1342,7 @@
             "has-final":     false,
             "description":   "Focuses on economic issues in various health care industries, such as the pharmaceutical, biotech and medical device industries.   Differences between health care and other industries, regulatory issues involving establishing efficacy and cost-effectiveness of treatments, strategic issues in global marketing and pricing, use of e-commerce and information technology, and formation and management of various alliances, are addressed.  Visiting speakers come from academia, government and industry.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.141J",
+            "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1302,8 +1351,8 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.141J-1",
-            "lecture-section-of": "15.141J",
+            "label":              "L0115.141",
+            "lecture-section-of": "15.141",
             "timeAndPlace":       "W EVE (4-7 PM) E51-315"
         },
         {
@@ -1318,6 +1367,7 @@
             "has-final":     false,
             "description":   "Focuses on the international dimensions of strategy and organization, and provides a framework for formulating strategies in an increasingly complex world economy, and for making those strategies work effectively. Topics include the globalization of industries, the continuing role of country factors in competition, organization of multinational enterprises, building global networks, and the changing managerial tasks under conditions of globalization. There is no prerequisite but 15.012 and 15.223 are highly recommended. Half-term subject.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.220",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1326,25 +1376,25 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.220-1",
+            "label":              "L0115.220",
             "lecture-section-of": "15.220",
             "timeAndPlace":       "MW2.30-4 (BEGINS APRIL 1) E51-149"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.220-2",
+            "label":              "L0215.220",
             "lecture-section-of": "15.220",
             "timeAndPlace":       "MW4-5.30 (BEGINS APRIL 1) E51-149"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.220-3",
+            "label":              "L0315.220",
             "lecture-section-of": "15.220",
             "timeAndPlace":       "MW8.30-10(ENDS MARCH 14) E51-376"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.220-4",
+            "label":              "L0415.220",
             "lecture-section-of": "15.220",
             "timeAndPlace":       "MW10-11.30 (ENDS MARCH 14) E51-376"
         },
@@ -1360,6 +1410,7 @@
             "has-final":     false,
             "description":   "Examines opportunities and risks firms face in today's global market. Provides conceptual tools for analyzing how governments and social institutions influence economic competition among firms embedded in different national settings. Public policies and institutions that shape competitive outcomes are examined through cases and analytical readings on different companies and industries operating in both developed and emerging markets. Undergraduates may register for this subject provided they are ready to participate with the intensity expected for a grad H-level subject. There is no prerequisite but 15.012 is highly recommended. Half-term subject.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.223",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring",
@@ -1375,13 +1426,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.223-1",
+            "label":              "L0115.223",
             "lecture-section-of": "15.223",
             "timeAndPlace":       "MW2.30-4 (ENDS MARCH 14) E51-149"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.223-2",
+            "label":              "L0215.223",
             "lecture-section-of": "15.223",
             "timeAndPlace":       "MW4-5.30 (ENDS MARCH 14) E51-149"
         },
@@ -1397,6 +1448,7 @@
             "has-final":     false,
             "description":   "As markets or production bases, China and India are becoming important and integral players in the global economy. Foreign direct investment (FDI), portfolio investments and outsourcing businesses have increased dramatically in these two economies. Despite the rising importance of these two economies on the world stage, our knowledge and analysis of these two countries in an integrated manner has remained poor. The two are often lumped together by business analysts as ?emerging markets,? despite the substantial differences in their political systems, reform policies and business organizations. Academics, in contrast, have tended to treat two countries separately, preferring to specialize in issues and questions specific to one or the other country. The purpose of this course is to analyze these two countries within a coherent analytical framework. Our learning model is inductive, and heavily based on class discussions and participation. The group projects should aim at integrating analysis, knowledge and understanding of these two countries. We will also experiment with other forms of group projects, such as creating and working on business plans and those projects that integrate research from field trips with more traditional research(such as library research). There is no prerequisite but 15.012 and 15.223 are highly recommended. Half term course.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.225",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     "Huang, Y.",
@@ -1404,13 +1456,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.225-1",
+            "label":              "L0115.225",
             "lecture-section-of": "15.225",
             "timeAndPlace":       "TR2.30-4 (BEGINS APRIL 1) E52-175"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.225-2",
+            "label":              "L0215.225",
             "lecture-section-of": "15.225",
             "timeAndPlace":       "TR4-5.30 (BEGINS APRIL 1) E51-335"
         },
@@ -1426,6 +1478,7 @@
             "has-final":     false,
             "description":   "",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.227?229",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1439,7 +1492,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.227?229-1",
+            "label":              "L0115.227?229",
             "lecture-section-of": "15.227?229",
             "timeAndPlace":       "M EVE (6-9 PM) E51-149"
         },
@@ -1455,6 +1508,7 @@
             "has-final":     false,
             "description":   "An advanced seminar in the evolution and key analytical frameworks of the field of international management, covering the major theoretical work and approaches to empirical research in the field and linking these to the core frameworks of strategy and organization theory. Restricted to doctoral students. Alternate years.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.249",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      [
                 "Not offered this year",
@@ -1480,6 +1534,7 @@
             "has-final":     false,
             "description":   "",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.268",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     "F10-12",
@@ -1487,7 +1542,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.268-1",
+            "label":              "L0115.268",
             "lecture-section-of": "15.268",
             "timeAndPlace":       "F10-12 E52-175"
         },
@@ -1503,6 +1558,7 @@
             "has-final":     false,
             "description":   ", and others. Draws on various professions and national cultures, and is run as a series of moderated discussions, with students centrally engaged in the teaching process.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.269",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     "Hafrey, L.",
@@ -1520,6 +1576,7 @@
             "has-final":     false,
             "description":   "Group study of current topics related to communication not otherwise included in curriculum.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.277",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1543,6 +1600,7 @@
             "has-final":     false,
             "description":   "Group study of current topics related to communication not otherwise included in curriculum.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.278",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1566,6 +1624,7 @@
             "has-final":     false,
             "description":   "Required seminar for Management Science majors to develop the writing, speaking, teamwork, and interpersonal communication skills necessary for managers. Students learn communication principles, strategies, and methods through discussions, exercises, examples, and cases. Assignments include writing memos and business letters, and giving oral presentations in labs outside of class. A major project is the production of a team report and presentation on a topic of interest to a managerial audience. Priority given to Course 15 students.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.279",
+            "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
@@ -1576,7 +1635,7 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.279-1",
+            "label":              "L0115.279",
             "lecture-section-of": "15.279",
             "timeAndPlace":       "MW11.30-1 E51-376"
         },
@@ -1592,6 +1651,7 @@
             "has-final":     false,
             "description":   "Writing and speaking skills necessary for a career in management. Students polish communication strategies and methods through discussion, examples, and practice. Several written and oral assignments, most based on material from other subjects and from career development activities. Schedule and curriculum coordinated with Organizational Processes class.  Restricted to first-year Sloan School of Management graduate students.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.280",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1616,6 +1676,7 @@
             "has-final":     false,
             "description":   "Builds on managerial communication skills developed in 15.279 or 15.280. Introduces interactive oral and interpersonal communication skills important to managers, including presenting to a hostile audience, running meetings, listening, and contributing to group decision-making. Includes team-run classes on chosen communication topics. Also includes an executive summary and a long oral presentation, both aimed at a business audience, generally in conjunction with a project for another subject.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.281",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
@@ -1628,13 +1689,13 @@
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.281-1",
+            "label":              "L0115.281",
             "lecture-section-of": "15.281",
             "timeAndPlace":       "MW2.30-4 E52-175"
         },
         {
             "type":               "LectureSection",
-            "label":              "L15.281-2",
+            "label":              "L0215.281",
             "lecture-section-of": "15.281",
             "timeAndPlace":       "MW EVE (4-5.30 PM) E51-145"
         },
@@ -1650,6 +1711,7 @@
             "has-final":     false,
             "description":   "Focuses on the communication skills needed for a career in academia. Topics include writing for academic journals, preparing and delivering conference papers and job talks, peer reviewing for journals and conferences, and teaching. Participants are expected to work on a written project and deliver an oral presentation based on their current research. Restricted to doctoral students who have completed their first year. Limited to 20 students. Priority to Sloan students.",
             "url":           "http://student.mit.edu/catalog/m15a.html#15.289",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
