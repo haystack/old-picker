@@ -200,9 +200,7 @@ function loadURLs(urls, fDone) {
 								for (var m = 0; m < matches.length; m++) {
 									var match = matches[m];
 									var replace = "<a href=\"javascript:{}\" onclick=\"showPrereq(this, '"+match.replace(/J/, "")+"');\">"+match+"</a>";
-									console.log(replace);
 									item.prereqs = item.prereqs.replace(match, replace);
-									
 								}
 							}
 							/*if (item.prereqs.search(/;/) >= 0) {
