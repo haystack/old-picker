@@ -78,7 +78,13 @@ function onLoad() {
 }
 
 function addCourses(courseIDs, urls) { 
-	var coursesString = courseIDs.filter(function(elmt){return elmt != "hass_d";}).join(";");
+    var coursesA = [];
+    for (var i = 0; i < courseIDs.length; i++) {
+        if (courseIDs[i] != "hass_d") {
+            coursesA.push(courseIDs[i]);
+        }
+    }
+	var coursesString = coursesA.join(";");
 	if (coursesString != "" && coursesString != null) {
 		urls.push('https://isda-ws1.mit.edu/WarehouseService/?courses=' + coursesString);
 	}
