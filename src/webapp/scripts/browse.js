@@ -86,7 +86,7 @@ function addCourses(courseIDs, urls) {
     }
 	var coursesString = coursesA.join(";");
 	if (coursesString != "" && coursesString != null) {
-		urls.push('https://isda-ws1.mit.edu/WarehouseService/?courses=' + coursesString);
+		urls.push('http://isda-ws2.mit.edu/WarehouseService/?courses=' + coursesString);
 	}
 	for (var c = 0; c < courseIDs.length; c++) {
 		var courseID = courseIDs[c];
