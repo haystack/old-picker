@@ -87,7 +87,7 @@ function updateMiniTimegrid(preview, previewSectionID) {
 					var end = b.length > 1 ? parseTime(b[1]) : start.clone().add('h', 1);
 					var room = a.length > 4 ? (" @ " + a[a.length - 1]) : "";
 					for (var d = 0; d < days.length ; d++) {
-						addEvent(classLabel + room + " " + sectionData.postfix, days[d], start, end, color);
+						addEvent(classLabel + room + " " + sectionData.postfix, days.substr(d,1), start, end, color);
 					}
 				} else {
 					var times = a[0].split(",");
@@ -113,7 +113,7 @@ function updateMiniTimegrid(preview, previewSectionID) {
 						var end = b.length > 1 ? parseTime(b[1]) : start.clone().add('h', 1);
 						var room = a.length > 1 ? (" @ " + a[1]) : "";
 						for (var d = 0; d < days.length ; d++) {
-							addEvent(classLabel + room + " " + sectionData.postfix, days[d], start, end, color);
+							addEvent(classLabel + room + " " + sectionData.postfix, days.substr(d,1), start, end, color);
 						}
 					}
 				}

@@ -45,6 +45,10 @@
                         }
                         
                         var course = courses[i];
+                        if (course.number == "hass_d") {
+                            continue;
+                        }
+                        
                         var td0 = tr.insertCell(c * 3);
                         td0.innerHTML = course.number;
                         td0.align = "right";
@@ -114,10 +118,12 @@
         
         <div id="starting-interface">
             <div id="blurb">
-                <p>Course Picker is a scheduling tool to help students plan their MIT course 
+                <p>Course Picker is a scheduling tool to help MIT students plan their Course 
                     subjects using a semantic data source and a clean user interface. 
-                    Making course selections with Picker might actually save some braincells 
-                    for your course work!</p>
+                    Making subject selections with Picker might actually save some braincells 
+                    for your coursework!</p>
+                <p>However, please note that this system is <u>not</u>
+                    part of WebSIS and the Institute's scheduling system.</p>
                 
                 <p>As a Beta release, we ask for your help in improving this tool, please 
                     <a href="mailto:course-picker@lists.csail.mit.edu">email us</a> with any 
