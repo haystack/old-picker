@@ -2,6 +2,8 @@
  * Exhibit extensions
  *==================================================
  */
+var debug = false;
+
 Exhibit.Functions["building"] = {
     f: function(args) {
         var building = "";
@@ -22,6 +24,7 @@ var hasTQE = false;
 
 function onLoad() {
 	SimileAjax.Debug.silent = true;
+    
     var urls = [ ];
     var query = document.location.search;
     if (query.length > 1) {
@@ -33,6 +36,8 @@ function onLoad() {
             if (name == "courses") {
             	var courseIDs = value.split(";");
 				addCourses(courseIDs, urls);
+            } else if (name == "debug") {
+                debug = true;
             }
         }
     }
@@ -79,14 +84,22 @@ function onLoad() {
 
 function addCourses(courseIDs, urls) { 
     var coursesA = [];
+    var exceptions = {
+        "9": true
+    };
+    
     for (var i = 0; i < courseIDs.length; i++) {
         if (courseIDs[i] != "hass_d") {
-            coursesA.push(courseIDs[i]);
+            if (!debug && courseIDs[i] in exceptions) {
+                urls.push("data/spring-fall/exceptions/" + courseIDs[i] + ".json");
+            } else {
+                coursesA.push(courseIDs[i]);
+            }
         }
     }
 	var coursesString = coursesA.join(";");
 	if (coursesString != "" && coursesString != null) {
-		urls.push('http://isda-ws2.mit.edu/WarehouseService/?courses=' + coursesString);
+        urls.push('http://isda-ws2.mit.edu/WarehouseService/?courses=' + coursesString);
 	}
 	for (var c = 0; c < courseIDs.length; c++) {
 		var courseID = courseIDs[c];
@@ -277,23 +290,10 @@ function loadScrapedData(link, database, cont) {
             }
             
             if (o != null) {
-            	if ("items" in o) {
-					var items = o.items;
-					for (var j = 0; j < items.length; j++) {
-						var item = items[j];
-						if (database.containsItem(item.id)) {
-							if ('label' in item) {delete item.label;} 
-							if ('course' in item) {delete item.course;} 
-							if ('level' in item) {delete item.level;} 
-							if ('units' in item) {delete item.units;} 
-							if ('total-units' in item) {delete item["total-units"];} 
-							if ('description' in item) {delete item.description;} 
-							if ('semester' in item) {delete item.semester;} 
-							if ('offering' in item) {delete item.offering;} 
-							if ('prereq' in item) {delete item.prereq;} 
-							if ('in-charge' in item) {delete item["in-charge"];} 
-						}
-					}
+                if (url.indexOf("/exceptions/") >= 0) {
+                    o = postProcessOfficialData(o);
+                } else {
+                    o = postProcessScrapedData(o);
             	}
                 database.loadData(o, Exhibit.Persistence.getBaseURL(url));
             }
@@ -306,6 +306,28 @@ function loadScrapedData(link, database, cont) {
 
     Exhibit.UI.showBusyIndicator();
     SimileAjax.XmlHttp.get(url, fError, fDone);
+};
+
+function postProcessScrapedData(o) {
+    if ("items" in o) {
+        var items = o.items;
+        for (var j = 0; j < items.length; j++) {
+            var item = items[j];
+            if (database.containsItem(item.id)) {
+                if ('label' in item) {delete item.label;} 
+                if ('course' in item) {delete item.course;} 
+                if ('level' in item) {delete item.level;} 
+                if ('units' in item) {delete item.units;} 
+                if ('total-units' in item) {delete item["total-units"];} 
+                if ('description' in item) {delete item.description;} 
+                if ('semester' in item) {delete item.semester;} 
+                if ('offering' in item) {delete item.offering;} 
+                if ('prereq' in item) {delete item.prereq;} 
+                if ('in-charge' in item) {delete item["in-charge"];} 
+            }
+        }
+    }
+    return o;
 };
 
 function showPrereq(elmt, itemID) {
