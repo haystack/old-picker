@@ -111,7 +111,7 @@ function updateMiniTimegrid(preview, previewSectionID) {
 						}
 						var start = parseTime(b[0]);
 						var end = b.length > 1 ? parseTime(b[1]) : start.clone().add('h', 1);
-						var room = a.length > 1 ? (" @ " + a[2]) : "";
+						var room = a.length > 1 ? (" @ " + a[a.length - 1]) : "";
 						for (var d = 0; d < days.length ; d++) {
 							addEvent(classLabel + room + " " + sectionData.postfix, days.substr(d,1), start, end, color);
 						}
