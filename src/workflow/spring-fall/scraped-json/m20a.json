@@ -15,22 +15,7 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "in-charge":     [
-                "Endy, D.",
-                "Kuldell, N."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0120.020",
-            "lecture-section-of": "20.020",
-            "timeAndPlace":       "TR11.30-1 26-152"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0220.020",
-            "lab-section-of": "20.020",
-            "timeAndPlace":   "W2-5 26-152"
+            "in-charge":     "Kuldell, N."
         },
         {
             "type":          "Class",
@@ -47,11 +32,14 @@
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "20.215",
-                "18.01"
-            ],
+            "prereq":        "20.215",
             "in-charge":     "Thilly, W. G."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0120.102",
+            "lecture-section-of": "20.102",
+            "timeAndPlace":       "TR3-4.30 56-614"
         },
         {
             "type":          "Class",
@@ -68,26 +56,11 @@
             "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "1.081J",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015",
-                "5.111",
-                "5.112",
-                "3.091"
-            ],
+            "prereq":        "1.081J",
             "in-charge":     [
                 "Thilly, W.",
                 "McCunney, R."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0120.104",
-            "lecture-section-of": "20.104",
-            "timeAndPlace":       "TR1-2.30 56-614"
         },
         {
             "type":          "Class",
@@ -98,26 +71,23 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Introductory microbiology from a systems perspective. Considers microbial diversity, population dynamics, and genomics.  Emphasize the delicate balance between microbes and humans, and changes that result in the emergence of infectious diseases and antimicrobial resistance.  Case study approach covers topics such as vaccines, toxins, biodefense, and infections including Legionnaire?s disease, tuberculosis, Helicobacter pylori, and plague.",
+            "has-final":     true,
+            "description":   "Introductory microbiology from a systems perspective. Considers microbial diversity, population dynamics, and genomics.  Emphasize the delicate balance between microbes and humans, and changes that result in the emergence of infectious diseases and antimicrobial resistance.  Case study approach covers topics such as vaccines, toxins, biodefense, and infections including Legionnaire\\'s disease, tuberculosis, Helicobacter pylori, and plague.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.106J",
             "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "1.084J",
-                "5.111",
-                "5.112",
-                "3.091",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
-            ],
+            "prereq":        "1.084J",
             "in-charge":     [
                 "Schauer, D. B.",
                 "DeLong, E."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0120.106",
+            "lecture-section-of": "20.106",
+            "timeAndPlace":       "MW2.30-4 36-112"
         },
         {
             "type":          "Class",
@@ -138,20 +108,9 @@
             ],
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
-            "prereq":        [
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015",
-                "5.111",
-                "5.112",
-                "3.091"
-            ],
             "in-charge":     [
-                "Engelward, B. P.",
-                "A",
-                "Jasanoff",
-                "Kuldell, N.",
+                "Jasanoff, A.",
+                "Niles, J.",
                 "Stachowiak, A."
             ]
         },
@@ -182,7 +141,7 @@
             "level":         "Undergrad",
             "units":         "5-0-7",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Equilibrium properties of macroscopic and microscopic systems. Basic thermodynamics: state of a system, state variables. Work, heat, first law of thermodynamics, thermochemistry. Second and third law of thermodynamics: entropy and its statistical basis, Gibbs function. Chemical equilibrium of reactions in gas and solution phase. Macromolecular structure and interactions in solution. Driving forces for molecular self-assembly. Binding cooperativity, solvation, titration of macromolecules.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.110J",
             "joint":         true,
@@ -191,21 +150,66 @@
             "category":      "Restricted Electives in Science and Technology",
             "prereq":        [
                 "2.772J",
-                "18.02",
-                "5.111",
-                "5.112",
-                "3.091"
+                "7.10"
             ],
             "in-charge":     [
-                "Alm, E.",
-                "Griffith, L. G."
+                "Griffith, L. G.",
+                "Hamad-Schifferli, K."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0120.110",
+            "lecture-section-of": "20.110",
+            "timeAndPlace":       "MWF10 26-100"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0220.110",
+            "rec-section-of": "20.110",
+            "timeAndPlace":   "TR9 4-159"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0320.110",
+            "rec-section-of": "20.110",
+            "timeAndPlace":   "TR10 4-159"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0420.110",
+            "rec-section-of": "20.110",
+            "timeAndPlace":   "TR1 4-159"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0520.110",
+            "rec-section-of": "20.110",
+            "timeAndPlace":   "TR4 4-159"
+        },
+        {
+            "type":          "Class",
+            "label":         "Physical Chemistry of Biomolecular Systems",
+            "id":            "20.111",
+            "listing-index": "m20a-006",
+            "course":        "20",
+            "level":         "Undergrad",
+            "units":         "5-0-7",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Provides a quantitative approach to understanding the physical and chemical laws that govern the behavior of biological macromolecules.  Basic thermodynamics, state of a system, state variables. Work, heat, first, second, and third laws of thermodynamics.  Entropy and its statistical basis, free energy representations, Legendre transforms, Maxwell relations, Gibbs function, Boltzmann distribution and partition functions.  Equilibrium properties of macroscopic and microscopic systems; macromolecular structure and interactions in solution. Driving forces for molecular self-assembly. Binding, cooperativity, solvation, and titration of macromolecules. Applications of introductory quantum mechanics to spectroscopy.",
+            "url":           "http://student.mit.edu/catalog/m20a.html#20.111J",
+            "joint":         true,
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
+            "prereq":        "7.10J",
+            "in-charge":     "Yaffe, M."
         },
         {
             "type":          "Class",
             "label":         "Biological Engineering Seminar",
             "id":            "20.200",
-            "listing-index": "m20a-006",
+            "listing-index": "m20a-007",
             "course":        "20",
             "level":         "Grad",
             "units":         "1-0-2 [P/D/F]",
@@ -229,19 +233,19 @@
             "type":               "LectureSection",
             "label":              "L0120.200",
             "lecture-section-of": "20.200",
-            "timeAndPlace":       "W12 56-614"
+            "timeAndPlace":       "F12 56-614"
         },
         {
             "type":          "Class",
             "label":         "Mechanisms of Drug Actions",
             "id":            "20.201",
-            "listing-index": "m20a-007",
+            "listing-index": "m20a-008",
             "course":        "20",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Chemical and biological analysis of the metabolism and distribution of drugs, toxins and chemicals in animals and humans, and the mechanism by which they cause therapeutic and toxic responses. Metabolism and toxicity as a basis for drug development. Metabolic polymorphisms and biomarkers of exposure.",
+            "description":   "Chemical and biological analysis of the metabolism and distribution of drugs and chemicals in animals and humans, and the mechanisms by which they cause therapeutic and toxic responses. Metabolism, pharmacology and toxicity as a basis for drug development. Group project analysis of specific drugs and their role in the market.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.201",
             "joint":         false,
             "semester":      "Fall",
@@ -253,16 +257,28 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0120.201",
+            "lecture-section-of": "20.201",
+            "timeAndPlace":       "MW1.30-3 56-614"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0220.201",
+            "rec-section-of": "20.201",
+            "timeAndPlace":   "F1.30 56-614"
+        },
+        {
             "type":          "Class",
-            "label":         "Animal Models in Toxicology",
+            "label":         "In vivo models: Principles and Practices",
             "id":            "20.202",
-            "listing-index": "m20a-008",
+            "listing-index": "m20a-009",
             "course":        "20",
             "level":         "Grad",
             "units":         "1-1-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Selected aspects of anatomy, histology, immuno-cytochemistry, in situ hybridization, physiology, and cell biology of mammalian organisms and their pathogens. Subject material integrated with principles of toxicology. A lab/demonstration period each week involves experiments in anatomy (in vivo), physiology, and microscopy to augment the lectures. Offered first half of spring term.",
+            "description":   "Selected aspects of anatomy, histology, immuno-cytochemistry, in situ hybridization, physiology, and cell biology of mammalian organisms and their pathogens. Subject material integrated with principles of toxicology, in vivo genetic engineering, and molecular biology. A lab/demonstration period each week involves experiments in anatomy (in vivo), physiology, and microscopy to augment the lectures. Offered first half of spring term.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.202",
             "joint":         false,
             "semester":      "Spring",
@@ -270,22 +286,15 @@
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Fox, J. G.",
-                "Sheppard, B.",
                 "Marini, B.",
                 "Whary, M."
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0120.202",
-            "lecture-section-of": "20.202",
-            "timeAndPlace":       "TR1-2.30 16-802"
-        },
-        {
             "type":          "Class",
             "label":         "DNA Damage and Genomic Instability",
             "id":            "20.213",
-            "listing-index": "m20a-009",
+            "listing-index": "m20a-010",
             "course":        "20",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -295,7 +304,7 @@
             "url":           "http://student.mit.edu/catalog/m20a.html#20.213",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "5.07",
@@ -310,7 +319,7 @@
             "type":          "Class",
             "label":         "Epidemiology, Population Genetics and Cell Biology of Human Cancers",
             "id":            "20.215",
-            "listing-index": "m20a-010",
+            "listing-index": "m20a-011",
             "course":        "20",
             "level":         "Grad",
             "units":         "3-0-15",
@@ -324,36 +333,15 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "20.102",
-                "18.02",
                 "1.00"
             ],
             "in-charge":     "Thilly, W. G."
         },
         {
-            "type":          "Class",
-            "label":         "Adult Stem Cell Biological Engineering",
-            "id":            "20.217",
-            "listing-index": "m20a-011",
-            "course":        "20",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Fundamental properties of stem cells are considered with a major focus on the role of adult stem cells in normal mammalian tissue function, aging, and disease states.  Biological engineering approaches to the problems of identifying and expanding adult stem cells for biotechnology and biomedicine are addressed. Fundamental aspects of mammalian tissue cell kinetics are examined from the perspective of how individual cellular processes (e.g., mitosis, apoptosis, differentiation) are integrated in higher order cell kinetics from the embryo to the adult mammal.  Lectures are complemented with student presentations of original research articles in the fields of tissue cell kinetics, stem cell biology, aging, and cancer. Offered first half of term.",
-            "url":           "http://student.mit.edu/catalog/m20a.html#20.217",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015",
-                "5.07",
-                "7.05"
-            ],
-            "in-charge":     "Sherley, J. L."
+            "type":               "LectureSection",
+            "label":              "L0120.215",
+            "lecture-section-of": "20.215",
+            "timeAndPlace":       "TR3-4.30 56-614"
         },
         {
             "type":          "Class",
@@ -394,7 +382,10 @@
             "description":   "Sensing and measurement aimed at quantitative molecular/cell/tissue analysis in terms of genetic, biochemical, and biophysical properties. Methods include light and fluorescence microscopies, and electro-mechanical probes (atomic force microscopy, optical traps, MEMS devices). Application of statistics, probability, signal and noise analysis, and Fourier techniques to experimental data. Preferences given to juniors and seniors.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.309J",
             "joint":         true,
-            "semester":      "Fall",
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
             "offering":      "Currently Offered",
             "prereq":        [
                 "2.673J",
@@ -404,8 +395,27 @@
             "in-charge":     [
                 "Manalis, S.",
                 "So, P. T.",
-                "Shusteff, M."
+                "Wasserman, S."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0120.309",
+            "lecture-section-of": "20.309",
+            "timeAndPlace":       "TR12 56-180"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0220.309",
+            "lab-section-of": "20.309",
+            "timeAndPlace":   [
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0320.309",
+            "rec-section-of": "20.309",
+            "timeAndPlace":   "F12 56-162"
         },
         {
             "type":          "Class",
@@ -426,25 +436,15 @@
                 "2.797J",
                 "3.053J",
                 "6.024J",
-                "18.03",
-                "3.016",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015",
                 "2.370",
-                "2.772J"
+                "2.772J",
+                "18.03",
+                "3.016"
             ],
             "in-charge":     [
                 "Lang, M. J.",
                 "Kamm, R. D."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0120.310",
-            "lecture-section-of": "20.310",
-            "timeAndPlace":       "MWF12 4-163"
         },
         {
             "type":          "Class",
@@ -477,6 +477,12 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0120.320",
+            "lecture-section-of": "20.320",
+            "timeAndPlace":       "TR9.30-11 56-114"
+        },
+        {
             "type":          "Class",
             "label":         "Fields, Forces and Flows in Biological Systems",
             "id":            "20.330",
@@ -485,8 +491,8 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Introduction to electric fields, fluid flows, transport phenomena and their application to biological systems. Flux and continuity laws, Maxwell's equations, electro-quasistatics, electro-chemical-mechanical driving forces, conservation of mass and momentum, Navier-Stokes flows, and electrokinetics. Applications include biomolecular transport in tissues, electrophoresis, and microfluidics.",
+            "has-final":     false,
+            "description":   "Introduction to electric fields, fluid flows, transport phenomena and their application to biological systems. Flux and continuity laws, Maxwell\\'s equations, electro-quasistatics, electro-chemical-mechanical driving forces, conservation of mass and momentum, Navier-Stokes flows, and electrokinetics. Applications include biomolecular transport in tissues, electrophoresis, and microfluidics.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.330J",
             "joint":         true,
             "semester":      "Spring",
@@ -500,26 +506,8 @@
             ],
             "in-charge":     [
                 "Han, J.",
-                "Manalis, S."
+                "Lauffenburger, D."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0120.330",
-            "lecture-section-of": "20.330",
-            "timeAndPlace":       "MWF11 4-237"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0220.330",
-            "rec-section-of": "20.330",
-            "timeAndPlace":   "R2 5-233"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0320.330",
-            "rec-section-of": "20.330",
-            "timeAndPlace":   "R3 5-233"
         },
         {
             "type":          "Class",
@@ -535,17 +523,12 @@
             "url":           "http://student.mit.edu/catalog/m20a.html#20.340J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        [
                 "3.051J",
-                "3.091",
-                "5.11",
-                "5.111",
-                "5.112",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015",
                 "3.00",
                 "3.012",
                 "5.60",
@@ -576,6 +559,12 @@
             "in-charge":     "Zhang, S."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0120.342",
+            "lecture-section-of": "20.342",
+            "timeAndPlace":       "TR1-2.30 56-154"
+        },
+        {
             "type":          "Class",
             "label":         "Tissue Engineering for Analysis, Prevention, and Treatment of Human Disease",
             "id":            "20.360",
@@ -599,11 +588,7 @@
                 "20.110",
                 "5.60"
             ],
-            "in-charge":     [
-                "Griffith, L. G.",
-                "Fox, J. G.",
-                "Schauer, D."
-            ]
+            "in-charge":     "Staff"
         },
         {
             "type":          "Class",
@@ -619,7 +604,10 @@
             "url":           "http://student.mit.edu/catalog/m20a.html#20.361J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        [
                 "7.37J",
                 "10.441J",
@@ -644,7 +632,7 @@
             "level":         "Undergrad",
             "units":         "5-2-5",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Principles of mass transport and electrical signal generation for biological membranes, cells, and tissues. Mass transport through membranes: diffusion, osmosis, chemically mediated, and active transport. Electric properties of cells: ion transport; equilibrium, resting, and action potentials. Kinetic and molecular properties of single voltage-gated ion channels. Laboratory and computer exercises illustrate the concepts. For juniors and seniors. Students engage in extensive written and oral communication exercises. Meets with graduate subject 6.521J, but assignments differ.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.370J",
             "joint":         true,
@@ -656,7 +644,6 @@
                 "2.794J",
                 "6.521J",
                 "20.470J",
-                "8.02",
                 "18.03",
                 "2.005",
                 "6.002",
@@ -670,6 +657,37 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0120.370",
+            "lecture-section-of": "20.370",
+            "timeAndPlace":       "MWF10 34-101"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0220.370",
+            "lab-section-of": "20.370",
+            "timeAndPlace":   [
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0320.370",
+            "rec-section-of": "20.370",
+            "timeAndPlace":   "TR10 36-112"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0420.370",
+            "rec-section-of": "20.370",
+            "timeAndPlace":   "TR11 36-112"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0520.370",
+            "rec-section-of": "20.370",
+            "timeAndPlace":   "TR12 36-112"
+        },
+        {
             "type":          "Class",
             "label":         "Quantitative Physiology: Organ Transport Systems",
             "id":            "20.371",
@@ -678,7 +696,7 @@
             "level":         "Undergrad",
             "units":         "4-2-6",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Application of the principles of energy and mass flow to major human organ systems. Mechanisms of regulation and homeostasis. Anatomical, physiological and pathophysiological features of the cardiovascular, respiratory and renal systems. Systems, features and devices that are most illuminated by the methods of physical sciences. Laboratory work includes some animal studies.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.371J",
             "joint":         true,
@@ -690,31 +708,12 @@
                 "2.796J",
                 "6.522J",
                 "20.471J",
-                "18.03",
-                "8.02"
+                "18.03"
             ],
             "in-charge":     [
                 "Mark, R. G.",
                 "Stultz, C. M."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0120.371",
-            "lecture-section-of": "20.371",
-            "timeAndPlace":       "TR9.30-11 32-124"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0220.371",
-            "rec-section-of": "20.371",
-            "timeAndPlace":   "F1 E25-117"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0320.371",
-            "rec-section-of": "20.371",
-            "timeAndPlace":   "F2 E25-117"
         },
         {
             "type":          "Class",
@@ -743,12 +742,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0120.380",
-            "lecture-section-of": "20.380",
-            "timeAndPlace":       "TR10-12 56-614"
-        },
-        {
             "type":          "Class",
             "label":         "Foundations of Computational and Systems Biology",
             "id":            "20.390",
@@ -757,7 +750,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Introduction to computational biology emphasizing the fundamentals of nucleic acid and protein sequence and structural analysis, as well as the analysis of complex biological systems. Principles and methods used for sequence alignment, motif finding, expression array analysis, structural modeling, structure prediction and network modeling. Techniques include dynamic programming, Markov models, clustering techniques, dead-end elimination and energy minimization approaches. Exposure to currently emerging research areas. Designed for advanced undergraduates and graduate students with strong backgrounds in either molecular biology or computer science. Some foundational material covering basic programming skills, probability and statistics is provided for students with non-quantitative backgrounds. Enrollment is limited to 60.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.390",
             "joint":         false,
@@ -769,26 +762,12 @@
                 "20.490J",
                 "7.05",
                 "5.07",
-                "7.01x",
                 "6.001"
             ],
             "in-charge":     [
                 "Yaffe, M.",
                 "Burge, C.",
                 "Keating, A."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0120.390",
-            "lecture-section-of": "20.390",
-            "timeAndPlace":       "TR1-2.30 4-237"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0220.390",
-            "rec-section-of": "20.390",
-            "timeAndPlace":   [
             ]
         },
         {
@@ -814,12 +793,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0120.400",
-            "lecture-section-of": "20.400",
-            "timeAndPlace":       "TR2.30-4 56-614"
-        },
-        {
             "type":          "Class",
             "label":         "Biological Engineering II: Instrumentation and Measurement",
             "id":            "20.409",
@@ -832,7 +805,10 @@
             "description":   "Sensing and measurement aimed at quantitative molecular/cell/tissue analysis in terms of genetic, biochemical, and biophysical properties. Methods include light and fluorescence microscopies, and electro-mechanical probes (atomic force microscopy, laser and magnetic traps, MEMS devices). Application of statistics, probability and noise analysis to experimental data. Enrollment limited to five graduate students.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.409",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
             "offering":      "Currently Offered",
             "prereq":        [
                 "2.673J",
@@ -842,8 +818,27 @@
             "in-charge":     [
                 "Manalis, S.",
                 "So, P. T.",
-                "Shusteff, M."
+                "Wasserman, S."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0120.409",
+            "lecture-section-of": "20.409",
+            "timeAndPlace":       "TR12 56-180"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0220.409",
+            "lab-section-of": "20.409",
+            "timeAndPlace":   [
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0320.409",
+            "rec-section-of": "20.409",
+            "timeAndPlace":   "F12 56-162"
         },
         {
             "type":          "Class",
@@ -866,24 +861,16 @@
                 "3.971J",
                 "6.524J",
                 "10.537J",
-                "7.012",
                 "2.002",
                 "2.006",
                 "6.013",
-                "6.014",
                 "10.301",
                 "10.302"
             ],
             "in-charge":     [
                 "Grodzinsky, A. J.",
-                "Lauffenburger, D."
+                "Doyle, P."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0120.410",
-            "lecture-section-of": "20.410",
-            "timeAndPlace":       "MW1-2.30 32-141"
         },
         {
             "type":          "Class",
@@ -904,27 +891,13 @@
             "prereq":        [
                 "2.785J",
                 "3.97J",
-                "3.091",
-                "5.11",
-                "5.111",
-                "5.112",
                 "2.005",
-                "5.60",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
+                "5.60"
             ],
             "in-charge":     [
                 "Yannas, I. V.",
                 "Spector, M."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0120.411",
-            "lecture-section-of": "20.411",
-            "timeAndPlace":       "TR2.30-4 3-343"
         },
         {
             "type":          "Class",
@@ -935,7 +908,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Fundamental analysis of biological rate processes in terms of approaches based in biomolecular reaction kinetics and systems engineering algorithms. Topics include binding and hybridization interactions, enzyme reactions, metabolic cycles, gene regulation, receptor/ligand systems, intra- and inter-cellular signalling, and cell population dynamics.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.420J",
             "joint":         true,
@@ -949,9 +922,15 @@
                 "18.03"
             ],
             "in-charge":     [
-                "Lauffenburger, D.",
+                "Tidor, B.",
                 "Wittrup, K. D."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0120.420",
+            "lecture-section-of": "20.420",
+            "timeAndPlace":       "TR10-11.30 56-614"
         },
         {
             "type":          "Class",
@@ -962,7 +941,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Molecular diffusion, diffusion-reaction, conduction, convection in biological systems; fields in heterogeneous media; electrical double layers; Maxwell stress tensor, electrical forces in physiological systems. Fluid and solid continua: equations of motion useful for porous, hydrated biological tissues. Case studies of membrane transport, electrode interfaces, electrical, mechanical, and chemical transduction in tissues, convective-diffusion/reaction, electrophoretic, electroosmotic flows in tissues/MEMs, and ECG. Electromechanical and physicochemical interactions in cells and biomaterials; musculoskeletal, cardiovascular, and other biological and clinical examples.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.430J",
             "joint":         true,
@@ -979,8 +958,14 @@
             ],
             "in-charge":     [
                 "Grodzinsky, A. J.",
-                "Kamm, R. D."
+                "Lauffenburger, D."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0120.430",
+            "lecture-section-of": "20.430",
+            "timeAndPlace":       "MW1-2.30 32-141"
         },
         {
             "type":          "Class",
@@ -995,10 +980,11 @@
             "description":   "Analyzes complex biological processes from the molecular, cellular, extracellular, and organ levels of hierarchy.  Emphasis placed on the basic biochemical and biophysical principles that govern these processes. Examples of processes to be studied include chemotaxis, the fixation of nitrogen into organic biological molecules, growth factor and hormone mediated signaling cascades, and signaling cascades leading to cell death in response to DNA damage. In each case, the availability of a resource, or the presence of a stimulus, results in some biochemical pathways being turned on while others are turned off. Examines the dynamic aspects of these processes and details how biochemical mechanistic themes impinge on molecular-cellular-tissue-organ level functions. Chemical and quantitative view of the interplay of multiple pathways as biological networks. Preparation of a unique grant application in an area of biological networks.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.440",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
+                "Sasisekharan, R.",
                 "Dedon, P. C.",
                 "Engelward, B."
             ]
@@ -1027,18 +1013,19 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "3.96J",
-                "3.091",
-                "5.111",
-                "5.112",
                 "2.005",
-                "5.60",
-                "7.012",
-                "7.013"
+                "5.60"
             ],
             "in-charge":     [
                 "Yannas, I. V.",
                 "Spector, M."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0120.441",
+            "lecture-section-of": "20.441",
+            "timeAndPlace":       "TR2.30-4 1-190"
         },
         {
             "type":          "Class",
@@ -1063,10 +1050,83 @@
             "in-charge":     "Zhang, S."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0120.442",
+            "lecture-section-of": "20.442",
+            "timeAndPlace":       "TR1-2.30 56-154"
+        },
+        {
+            "type":          "Class",
+            "label":         "Methods and Problems in Microbiology",
+            "id":            "20.445",
+            "listing-index": "m20a-034",
+            "course":        "20",
+            "level":         "Grad",
+            "units":         "3-0-9 [P/D/F]",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "Students will read and discuss primary literature covering key areas of microbial research with emphasis on methods and approaches used to understand and manipulate microbes. Limited to students in the microbiology program.",
+            "url":           "http://student.mit.edu/catalog/m20a.html#20.445J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "1.86J",
+                "7.492J"
+            ],
+            "coreq":         "7.493",
+            "in-charge":     [
+                "Samson, L.",
+                "Polz, M."
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0120.445",
+            "lecture-section-of": "20.445",
+            "timeAndPlace":       [
+            ]
+        },
+        {
+            "type":          "Class",
+            "label":         "Microbial Genetics and Evolution",
+            "id":            "20.446",
+            "listing-index": "m20a-035",
+            "course":        "20",
+            "level":         "Grad",
+            "units":         "4-0-8",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Covers aspects of microbial genetic and genomic analyses, central dogma, horizontal gene transfer, and evolution.",
+            "url":           "http://student.mit.edu/catalog/m20a.html#20.446J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "1.87J",
+                "7.493J",
+                "7.03",
+                "7.05",
+                "7.28"
+            ],
+            "in-charge":     [
+                "Grossman, A.D.",
+                "Alm, E."
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0120.446",
+            "lecture-section-of": "20.446",
+            "timeAndPlace":       "TR1-3 66-160"
+        },
+        {
             "type":          "Class",
             "label":         "Molecular and Cellular Pathophysiology",
             "id":            "20.450",
-            "listing-index": "m20a-034",
+            "listing-index": "m20a-036",
             "course":        "20",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1084,20 +1144,14 @@
             ],
             "in-charge":     [
                 "Schauer, D. B.",
-                "Samson, L."
+                "Samson, L. D."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0120.450",
-            "lecture-section-of": "20.450",
-            "timeAndPlace":       "WF3-4.30 56-614"
         },
         {
             "type":          "Class",
             "label":         "Design of Medical Devices and Implants",
             "id":            "20.451",
-            "listing-index": "m20a-035",
+            "listing-index": "m20a-037",
             "course":        "20",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1119,16 +1173,43 @@
             ]
         },
         {
+            "type":          "Class",
+            "label":         "Principles of Neuroengineering",
+            "id":            "20.452",
+            "listing-index": "m20a-038",
+            "course":        "20",
+            "level":         "Grad",
+            "units":         "3-0-9",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Covers principles underlying current and future technologies for brain analysis and engineering, for neurology, psychiatry, and neuroscience.  Focuses on using biophysical, biochemical, and anatomical models to understand technology design constraints governing ability to observe and alter brain function.  Topics include functional magnetic resonance imaging, electromagnetic recording/stimulation, neuropharmacology, optical cellular imaging, and gene/stem-cell therapy.  Design projects by student teams. Enrollment limited to 28 students.",
+            "url":           "http://student.mit.edu/catalog/m20a.html#20.452J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "9.422J",
+                "8.03",
+                "6.003",
+                "9.01"
+            ],
+            "in-charge":     [
+                "Boyden, E. S.",
+                "III"
+            ]
+        },
+        {
             "type":               "LectureSection",
-            "label":              "L0120.451",
-            "lecture-section-of": "20.451",
-            "timeAndPlace":       "TR11-12.30 1-134"
+            "label":              "L0120.452",
+            "lecture-section-of": "20.452",
+            "timeAndPlace":       "TR3.30-5 E15-235"
         },
         {
             "type":          "Class",
             "label":         "Biomedical Information Technology",
             "id":            "20.453",
-            "listing-index": "m20a-036",
+            "listing-index": "m20a-039",
             "course":        "20",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1149,10 +1230,42 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0120.453",
+            "lecture-section-of": "20.453",
+            "timeAndPlace":       "TR8-9.30 8-404"
+        },
+        {
+            "type":          "Class",
+            "label":         "Neurotechnology Ventures",
+            "id":            "20.454",
+            "listing-index": "m20a-040",
+            "course":        "20",
+            "level":         "Grad",
+            "units":         "2-0-7",
+            "total-units":   9,
+            "has-final":     false,
+            "description":   "Special seminar focusing on the challenges of envisioning, planning, and building startups that are commercializing innovations from neuroscience and the blossoming domain of neuroengineering. Topics include neuroimaging and diagnostics, psychophysiology, rehab feedback, affective computing, neurotherapeutics, surgical tools, neuropharmaceuticals, deep brain stimulation, prosthetics and nuerobionics, artificial senses, nerve regeneration, and more. Each class is devoted to a specific topic area. The first hour covers the topic in survey form. The second hour is dedicated to a live case study of a specific organization. A broad spectrum of issues, from the deeply technical through market opportunity, is explored in each class. This course is taught live between the University of Hong Kong and MIT.",
+            "url":           "http://student.mit.edu/catalog/m20a.html#20.454J",
+            "joint":         true,
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "9.455J",
+                "15.128J"
+            ],
+            "in-charge":     [
+                "E.S.Boyden",
+                "Ellis-Behnke, R.",
+                "Bonsen, J."
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Molecular Principles of Biomaterials",
             "id":            "20.462",
-            "listing-index": "m20a-037",
+            "listing-index": "m20a-041",
             "course":        "20",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1168,16 +1281,10 @@
             "in-charge":     "Irvine, D. J."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0120.462",
-            "lecture-section-of": "20.462",
-            "timeAndPlace":       "TR12.30-2 56-154"
-        },
-        {
             "type":          "Class",
             "label":         "Statistical Thermodynamics with Applications to Biological Systems",
             "id":            "20.465",
-            "listing-index": "m20a-038",
+            "listing-index": "m20a-042",
             "course":        "20",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -1200,20 +1307,30 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0120.465",
+            "lecture-section-of": "20.465",
+            "timeAndPlace":       [
+                "MWF11 4-270",
+                "R8 4-270"
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Quantitative Physiology: Cells and Tissues",
             "id":            "20.470",
-            "listing-index": "m20a-039",
+            "listing-index": "m20a-043",
             "course":        "20",
             "level":         "Grad",
             "units":         "5-2-5",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Meets with undergraduate subject 6.021J. Requires the completion of more advanced home problems and/or an additional project.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.470J",
             "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.794J",
                 "6.521J",
@@ -1224,7 +1341,6 @@
                 "6.002",
                 "6.071",
                 "10.301",
-                "8.02",
                 "18.03"
             ],
             "in-charge":     [
@@ -1233,15 +1349,46 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0120.470",
+            "lecture-section-of": "20.470",
+            "timeAndPlace":       "MWF10 34-101"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0220.470",
+            "lab-section-of": "20.470",
+            "timeAndPlace":   [
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0320.470",
+            "rec-section-of": "20.470",
+            "timeAndPlace":   "TR10 36-112"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0420.470",
+            "rec-section-of": "20.470",
+            "timeAndPlace":   "TR11 36-112"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0520.470",
+            "rec-section-of": "20.470",
+            "timeAndPlace":   "TR12 36-112"
+        },
+        {
             "type":          "Class",
             "label":         "Quantitative Physiology: Organ Transport Systems",
             "id":            "20.471",
-            "listing-index": "m20a-040",
+            "listing-index": "m20a-044",
             "course":        "20",
             "level":         "Grad",
             "units":         "4-2-6",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Meets with undergraduate subject 6.022J. Requires the completion of more advanced home problems and/or an additional project.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.471J",
             "joint":         true,
@@ -1257,31 +1404,16 @@
                 "6.013",
                 "6.021J"
             ],
-            "in-charge":     "Mark, R. G."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0120.471",
-            "lecture-section-of": "20.471",
-            "timeAndPlace":       "TR9.30-11 32-124"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0220.471",
-            "rec-section-of": "20.471",
-            "timeAndPlace":   "F1 E25-117"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0320.471",
-            "rec-section-of": "20.471",
-            "timeAndPlace":   "F2 E25-117"
+            "in-charge":     [
+                "Mark, R. G.",
+                "Stultz, C. M."
+            ]
         },
         {
             "type":          "Class",
             "label":         "Neuroimaging Cells and Circuits",
             "id":            "20.472",
-            "listing-index": "m20a-041",
+            "listing-index": "m20a-045",
             "course":        "20",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1291,7 +1423,10 @@
             "url":           "http://student.mit.edu/catalog/m20a.html#20.472J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        "9.472J",
             "in-charge":     [
                 "Jasanoff, A.",
@@ -1299,10 +1434,16 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0120.472",
+            "lecture-section-of": "20.472",
+            "timeAndPlace":       "TR2.30-4 46-4062"
+        },
+        {
             "type":          "Class",
             "label":         "Foundations of Algorithms and Computational Techniques in Systems Biology",
             "id":            "20.482",
-            "listing-index": "m20a-042",
+            "listing-index": "m20a-046",
             "course":        "20",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1312,7 +1453,10 @@
             "url":           "http://student.mit.edu/catalog/m20a.html#20.482J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.581J",
@@ -1332,7 +1476,7 @@
             "type":          "Class",
             "label":         "Noninvasive Imaging in Biology and Medicine",
             "id":            "20.483",
-            "listing-index": "m20a-043",
+            "listing-index": "m20a-047",
             "course":        "20",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1342,10 +1486,7 @@
             "url":           "http://student.mit.edu/catalog/m20a.html#20.483J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "9.173J",
@@ -1359,7 +1500,7 @@
             "type":          "Class",
             "label":         "Tools for Assessing Biological Function",
             "id":            "20.485",
-            "listing-index": "m20a-044",
+            "listing-index": "m20a-048",
             "course":        "20",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1369,7 +1510,7 @@
             "url":           "http://student.mit.edu/catalog/m20a.html#20.485",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "prereq":        [
                 "5.43",
                 "5.07",
@@ -1386,13 +1527,13 @@
             "type":          "Class",
             "label":         "Case Studies and Strategies in Drug Discovery and Development",
             "id":            "20.486",
-            "listing-index": "m20a-045",
+            "listing-index": "m20a-049",
             "course":        "20",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "The stages in drug discovery and development begin with target identification and end with the submission of preclinical and clinical data to the regulatory authorities. Following identification of a lead compound, there is optimization of structures for pharmaceutical properties, bioavailability, and safety. Subject relies on actual cases of drug development. A major goal is to analyze the cases and determine how the discovery and development process might be influenced by new and future technologies.",
+            "description":   "The stages in drug discovery and development begin with target identification and end with the submission of preclinical and clinical data to the regulatory authorities. Following identification of a lead compound, there is optimization of structures for pharmaceutical properties, bioavailability, and safety. Subject relies on actual cases presented by the scientist(s) involved in discovery and drug development. A major goal is to analyze the cases and determine how the discovery and development process might be influenced by new and future technologies.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.486J",
             "joint":         true,
             "semester":      "Spring",
@@ -1404,25 +1545,20 @@
             ],
             "in-charge":     [
                 "Tannenbaum, S. R.",
-                "Sinskey, A. J."
+                "Sinskey, A. J.",
+                "Berndt, E."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0120.486",
-            "lecture-section-of": "20.486",
-            "timeAndPlace":       "T EVE (4-6.30 PM) 56-614"
         },
         {
             "type":          "Class",
             "label":         "Optical Microscopy and Spectroscopy for Biology and Medicine",
             "id":            "20.487",
-            "listing-index": "m20a-046",
+            "listing-index": "m20a-050",
             "course":        "20",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduces the theory and the design of optical microscopy and its applications in biology and medicine.  The course starts from an overview of basic optical principles allowing an understanding of microscopic image formation and common contrast modalities such as dark field, phase, and DIC.  Advanced microscopy imaging techniques such as total internal reflection, confocal, and multiphoton will also be discussed.  Quantitative analysis of biochemical microenvironment using spectroscopic techniques based on fluorescence, second harmonic, Raman signals will be covered.  We will also provide an overview of key image processing techniques for microscopic data.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.487J",
             "joint":         true,
@@ -1435,16 +1571,22 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0120.487",
+            "lecture-section-of": "20.487",
+            "timeAndPlace":       "TR9.30-11 8-404"
+        },
+        {
             "type":          "Class",
             "label":         "Foundations of Computational and Systems Biology",
             "id":            "20.490",
-            "listing-index": "m20a-047",
+            "listing-index": "m20a-051",
             "course":        "20",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Introduction to computational biology emphasizing the fundamentals of nucleic acid and protein sequence and structural analysis, as well as the analysis of complex biological systems. Principles and methods used for sequence alignment, motif finding, expression array analysis, structural modeling, structure prediction, and network modeling. Techniques include dynamic programming, Markov models, clustering techniques, dead-end elimination and energy minimization approaches. Exposure to currently emerging research areas. Designed for advanced undergraduates and graduate students with strong backgrounds in either molecular biology or computer science. Some foundational material covering basic programming skills, probability and statistics is provided for students with non-quantitative backgrounds. Enrollment limited to 90.",
+            "has-final":     false,
+            "description":   "Introduction to computational and systems biology emphasizing fundamentals of nucleic acid, protein sequence, and structural analysis, as well as the analysis of complex biological systems. Principles and methods used for sequence alignment, motif finding, expression array analysis, structural modeling, structure design and prediction, and network analysis and modeling. Techniques include dynamic programming, Markov and hidden Markov models, Bayesian networks, clustering methods, dead-end elimination and energy minimization approaches. Exposure to emerging research areas. Designed for graduate students and advanced undergraduates with strong backgrounds in either molecular biology or computer science. Some foundational material covering basic programming skills, probability and statistics is provided for students with less quantitative backgrounds. Enrollment limited to 90.",
             "url":           "http://student.mit.edu/catalog/m20a.html#20.490J",
             "joint":         true,
             "semester":      "Spring",
@@ -1456,11 +1598,9 @@
                 "20.390",
                 "7.05",
                 "5.07",
-                "7.01x",
                 "1.00",
                 "1.001",
-                "6.00",
-                "6.001"
+                "6.00"
             ],
             "in-charge":     [
                 "Burge, C.",
@@ -1468,23 +1608,101 @@
             ]
         },
         {
+            "type":          "Class",
+            "label":         "Biological Chemistry I",
+            "id":            "20.507",
+            "listing-index": "m20a-052",
+            "course":        "20",
+            "level":         "Undergrad",
+            "units":         "4-0-8",
+            "total-units":   12,
+            "has-final":     true,
+            "description":   "Chemical and physical properties of the cell and its building blocks. Structures of proteins and principles of catalysis. The chemistry of organic/inorganic cofactors required for chemical transformations within the cell. Basic principles of metabolism and regulation in pathways, including glycolysis, gluconeogenesis, fatty acid synthesis/degradation, pentose phosphate pathway, Krebs cycle and oxidative phosphorylation, DNA replication, and transcription and translation.",
+            "url":           "http://student.mit.edu/catalog/m20a.html#20.507J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "category":      "Restricted Electives in Science and Technology",
+            "prereq":        [
+                "5.07J",
+                "5.12"
+            ],
+            "in-charge":     [
+                "Essigmann, J.",
+                "Stubbe, J."
+            ]
+        },
+        {
             "type":               "LectureSection",
-            "label":              "L0120.490",
-            "lecture-section-of": "20.490",
-            "timeAndPlace":       "TR1-2.30 4-237"
+            "label":              "L0120.507",
+            "lecture-section-of": "20.507",
+            "timeAndPlace":       "MWF9 32-123"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R0220.490",
-            "rec-section-of": "20.490",
-            "timeAndPlace":   [
-            ]
+            "label":          "R0220.507",
+            "rec-section-of": "20.507",
+            "timeAndPlace":   "T9 26-322"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0320.507",
+            "rec-section-of": "20.507",
+            "timeAndPlace":   "T10 26-322"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0420.507",
+            "rec-section-of": "20.507",
+            "timeAndPlace":   "W11 26-322"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0520.507",
+            "rec-section-of": "20.507",
+            "timeAndPlace":   "W3 26-310"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0620.507",
+            "rec-section-of": "20.507",
+            "timeAndPlace":   "R9 26-322"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0720.507",
+            "rec-section-of": "20.507",
+            "timeAndPlace":   "R10 26-322"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0820.507",
+            "rec-section-of": "20.507",
+            "timeAndPlace":   "R11 26-322"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0920.507",
+            "rec-section-of": "20.507",
+            "timeAndPlace":   "R12 26-322"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R1020.507",
+            "rec-section-of": "20.507",
+            "timeAndPlace":   "R1 26-322"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R1120.507",
+            "rec-section-of": "20.507",
+            "timeAndPlace":   "R2 26-322"
         },
         {
             "type":          "Class",
             "label":         "Special Topics in Toxicology and Environmental Health",
             "id":            "20.901",
-            "listing-index": "m20a-048",
+            "listing-index": "m20a-053",
             "course":        "20",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1507,7 +1725,7 @@
             "type":          "Class",
             "label":         "Special Topics in Biological Engineering",
             "id":            "20.902",
-            "listing-index": "m20a-049",
+            "listing-index": "m20a-054",
             "course":        "20",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1531,7 +1749,7 @@
             "type":          "Class",
             "label":         "Special Topics in Biological Engineering",
             "id":            "20.903",
-            "listing-index": "m20a-050",
+            "listing-index": "m20a-055",
             "course":        "20",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1553,9 +1771,31 @@
         },
         {
             "type":          "Class",
+            "label":         "Practical Work Experience",
+            "id":            "20.920",
+            "listing-index": "m20a-056",
+            "course":        "20",
+            "level":         "Undergrad",
+            "units":         "0-1-0 [P/D/F]",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "For Course 20 students participating in off-campus work experiences in Biological Engineering. Before registering for this subject, students must have an employment offer from a company or organization and must identify a BE supervisor. Upon completion of the work, student must submit a letter from the employer describing the work accomplished, along with a substantive final report from the student approved by the MIT supervisor. Subject to departmental approval. Consult departmental undergraduate office.",
+            "url":           "http://student.mit.edu/catalog/m20a.html#20.920",
+            "joint":         false,
+            "semester":      [
+                "Fall",
+                "IAP",
+                "Spring",
+                "Summer"
+            ],
+            "offering":      "Currently Offered",
+            "in-charge":     "Staff"
+        },
+        {
+            "type":          "Class",
             "label":         "Special Topics in Biological Engineering",
             "id":            "20.947",
-            "listing-index": "m20a-051",
+            "listing-index": "m20a-057",
             "course":        "20",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1580,7 +1820,7 @@
             "type":          "Class",
             "label":         "Special Topics in Biological Engineering",
             "id":            "20.948",
-            "listing-index": "m20a-052",
+            "listing-index": "m20a-058",
             "course":        "20",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1605,7 +1845,7 @@
             "type":          "Class",
             "label":         "Special Topics in Biological Engineering",
             "id":            "20.949",
-            "listing-index": "m20a-053",
+            "listing-index": "m20a-059",
             "course":        "20",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1630,7 +1870,7 @@
             "type":          "Class",
             "label":         "Research Problems in Biological Engineering",
             "id":            "20.950",
-            "listing-index": "m20a-054",
+            "listing-index": "m20a-060",
             "course":        "20",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1655,7 +1895,7 @@
             "type":          "Class",
             "label":         "Thesis Proposal",
             "id":            "20.951",
-            "listing-index": "m20a-055",
+            "listing-index": "m20a-061",
             "course":        "20",
             "level":         "Grad",
             "units":         "0-24-0 [P/D/F]",
@@ -1680,7 +1920,7 @@
             "type":          "Class",
             "label":         "Special Topics in Biological Engineering",
             "id":            "20.952",
-            "listing-index": "m20a-056",
+            "listing-index": "m20a-062",
             "course":        "20",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1711,7 +1951,7 @@
             "type":          "Class",
             "label":         "Teaching Experience in Biological Engineering",
             "id":            "20.960",
-            "listing-index": "m20a-057",
+            "listing-index": "m20a-063",
             "course":        "20",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1735,7 +1975,7 @@
             "type":          "Class",
             "label":         "Graduate Thesis",
             "id":            "20.ThG",
-            "listing-index": "m20a-058",
+            "listing-index": "m20a-064",
             "course":        "20",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1760,7 +2000,7 @@
             "type":          "Class",
             "label":         "Undergraduate Research Opportunities",
             "id":            "20.UR",
-            "listing-index": "m20a-059",
+            "listing-index": "m20a-065",
             "course":        "20",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1782,10 +2022,7 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     [
-                "Manalis, S.",
-                "Staff"
-            ]
+            "in-charge":     "Manalis, S."
         }
     ]
 }

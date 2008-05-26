@@ -16,10 +16,7 @@
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Suh, N. P.",
-                "Saka, N."
-            ],
+            "in-charge":     "Staff",
             "area":          "Manufacturing"
         },
         {
@@ -47,6 +44,36 @@
             "area":          "Manufacturing"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.810",
+            "lecture-section-of": "2.810",
+            "timeAndPlace":       "MW2.30-4 37-212"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B022.810",
+            "lab-section-of": "2.810",
+            "timeAndPlace":   "M9-12 35-125"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B032.810",
+            "lab-section-of": "2.810",
+            "timeAndPlace":   "W9-12 35-125"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B042.810",
+            "lab-section-of": "2.810",
+            "timeAndPlace":   "R9-12 35-125"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B052.810",
+            "lab-section-of": "2.810",
+            "timeAndPlace":   "F9-12 35-125"
+        },
+        {
             "type":          "Class",
             "label":         "Environmentally Benign Design and Manufacturing",
             "id":            "2.813",
@@ -67,12 +94,6 @@
             ],
             "in-charge":     "Gutowski, T. G.",
             "area":          "Manufacturing"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.813",
-            "lecture-section-of": "2.813",
-            "timeAndPlace":       "MW2.30-4 1-150"
         },
         {
             "type":          "Class",
@@ -103,12 +124,6 @@
             "area":          "Manufacturing"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.821",
-            "lecture-section-of": "2.821",
-            "timeAndPlace":       "MTWRF7.30-9 2-139"
-        },
-        {
             "type":          "Class",
             "label":         "Environmentally Benign Design and Manufacturing",
             "id":            "2.83",
@@ -130,12 +145,6 @@
             ],
             "in-charge":     "Gutowski, T. G.",
             "area":          "Manufacturing"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.83",
-            "lecture-section-of": "2.83",
-            "timeAndPlace":       "MW2.30-4 1-150"
         },
         {
             "type":          "Class",
@@ -168,12 +177,6 @@
             "area":          "Manufacturing"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.830",
-            "lecture-section-of": "2.830",
-            "timeAndPlace":       "TR8-9.30 8-404"
-        },
-        {
             "type":          "Class",
             "label":         "System Optimization and Analysis for Manufacturing",
             "id":            "2.851",
@@ -189,10 +192,7 @@
             "semester":      "Summer",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "15.066J",
-                "18.02"
-            ],
+            "prereq":        "15.066J",
             "in-charge":     [
                 "Graves, S. C.",
                 "Clark, J. P.",
@@ -214,7 +214,10 @@
             "url":           "http://student.mit.edu/catalog/m2c.html#2.852",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "6.041",
             "in-charge":     "Gershwin, S. B.",
@@ -229,7 +232,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Provides ways to analyze manufacturing systems in terms of material flow and storage, information flow, capacities, and times and durations of events. Fundamental topics include probability, inventory and queuing models, forecasting, optimization, process analysis, and linear and dynamic systems. Factory planning and scheduling topics include flow planning, bottleneck characterization, buffer and batch-size tactics, seasonal planning, and dynamic behavior of production systems. Graduate students are required to complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m2c.html#2.853",
             "joint":         false,
@@ -246,6 +249,18 @@
             ],
             "in-charge":     "Gershwin, S. B.",
             "area":          "Manufacturing"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L012.853",
+            "lecture-section-of": "2.853",
+            "timeAndPlace":       "TR9.30-11 1-246"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L022.853",
+            "lecture-section-of": "2.853",
+            "timeAndPlace":       "TR9.30-11 1-246"
         },
         {
             "type":          "Class",
@@ -268,6 +283,12 @@
             "area":          "Manufacturing"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.875",
+            "lecture-section-of": "2.875",
+            "timeAndPlace":       "MW1-2.30 E51-057"
+        },
+        {
             "type":          "Class",
             "label":         "System Design and Analysis",
             "id":            "2.882",
@@ -287,10 +308,7 @@
                 "2.004",
                 "2.006"
             ],
-            "in-charge":     [
-                "Suh, N. P.",
-                "Lee, T."
-            ],
+            "in-charge":     "Kim, S.-G.",
             "area":          "Manufacturing"
         },
         {
@@ -313,12 +331,6 @@
                 "Gershwin, S. B."
             ],
             "area":          "Manufacturing"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.888",
-            "lecture-section-of": "2.888",
-            "timeAndPlace":       "R EVE (4-6 PM) 8-404"
         },
         {
             "type":          "Class",
@@ -354,7 +366,7 @@
             "type":               "LectureSection",
             "label":              "L012.890",
             "lecture-section-of": "2.890",
-            "timeAndPlace":       "TR EVE (5.30-7.30 PM) E51-395"
+            "timeAndPlace":       "M EVE (4-6 PM) E51-315"
         },
         {
             "type":          "Class",
@@ -362,59 +374,124 @@
             "id":            "2.96",
             "listing-index": "m2c-013",
             "course":        "2",
-            "level":         "Undergrad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction and overview of engineering management. Financial principles, management of innovation, technical strategy and best management practices. Case study method of instruction emphasizes participation in class discussion. Focus is on the development of individual skills and management tools. Registrants should be juniors or seniors. Students taking graduate subject 2.961 are expected to demonstrate higher level of proficiency in term projects.",
-            "url":           "http://student.mit.edu/catalog/m2c.html#2.96",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "2.961",
-                "6.930J",
-                "10.806J",
-                "16.653J"
-            ],
-            "in-charge":     [
-                "d'Arbeloff, A. V.",
-                "Chun, J.-H."
-            ],
-            "area":          "Engineering Management"
-        },
-        {
-            "type":          "Class",
-            "label":         "Management in Engineering",
-            "id":            "2.961",
-            "listing-index": "m2c-014",
-            "course":        "2",
             "level":         "Grad",
             "units":         "3-1-8",
             "total-units":   12,
             "has-final":     false,
             "description":   "Introduction and overview of engineering management. Financial principles, management of innovation, technical strategy and best management practices. Case study method of instruction emphasizes participation in class discussion. Focus is on the development of individual skills and management tools. Graduate students are expected to demonstrate higher level of proficiency in term projects. Limited to 25 graduate students.",
-            "url":           "http://student.mit.edu/catalog/m2c.html#2.961",
+            "url":           "http://student.mit.edu/catalog/m2c.html#2.96",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      [
+                "Fall",
+                "Fall"
+            ],
             "offering":      "Currently Offered",
             "prereq":        [
+                "2.961",
+                "6.930J",
+                "10.806J",
+                "16.653J",
                 "2.96J",
                 "6.930J",
                 "10.806J",
                 "16.653J"
             ],
             "in-charge":     [
-                "d'Arbeloff, A. V.",
-                "Chun, J.-H."
+                "d\\'Arbeloff, A. V.",
+                "Chun, J.-H.",
+                "Marcus, H. S."
             ],
             "area":          "Engineering Management"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L012.96",
+            "lecture-section-of": "2.96",
+            "timeAndPlace":       "MW9.30-11 3-270"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B022.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "M2 5-217"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B032.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "M4 5-134"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B042.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "T1 5-234"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B052.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "W2 5-231"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B062.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "W4 5-134"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B072.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "R1 5-234"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L082.96",
+            "lecture-section-of": "2.96",
+            "timeAndPlace":       "MW9.30-11 3-270"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B092.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "M2 5-217"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B102.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "M4 5-134"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B112.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "T1 5-234"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B122.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "W2 5-231"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B132.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "W4 5-134"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B142.96",
+            "lab-section-of": "2.96",
+            "timeAndPlace":   "R1 5-234"
         },
         {
             "type":          "Class",
             "label":         "Engineering Risk-Benefit Analysis",
             "id":            "2.963",
-            "listing-index": "m2c-015",
+            "listing-index": "m2c-014",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -433,29 +510,16 @@
                 "6.938",
                 "10.816",
                 "16.862",
-                "22.82",
-                "18.02"
+                "22.82"
             ],
             "in-charge":     "Apostolakis, G. E.",
             "area":          "Engineering Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.963",
-            "lecture-section-of": "2.963",
-            "timeAndPlace":       "MW9.30-11 1-390"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R022.963",
-            "rec-section-of": "2.963",
-            "timeAndPlace":   "T2 9-338"
-        },
-        {
             "type":          "Class",
             "label":         "Economics of Marine Transportation Industries",
             "id":            "2.964",
-            "listing-index": "m2c-016",
+            "listing-index": "m2c-015",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-3",
@@ -465,7 +529,10 @@
             "url":           "http://student.mit.edu/catalog/m2c.html#2.964",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.01",
             "in-charge":     [
@@ -478,13 +545,13 @@
             "type":          "Class",
             "label":         "International Supply Chain Management",
             "id":            "2.965",
-            "listing-index": "m2c-017",
+            "listing-index": "m2c-016",
             "course":        "2",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "An overview of globalization and the international environment: the international marketing, international finance and supply chain interface; global strategy for logistics and supply chain management; global supply chain models; role of government intervention and regulations; the role of ports and airports in international product movements; the economics of international air and ocean carriers; and the forwarding industry. First half term subject.",
+            "description":   "An overview of globalization and the international environment: the international marketing, international finance and supply chain interface; global strategy for logistics and supply chain management; global supply chain models; role of government intervention and regulations; the role of international air and ocean carriers. Emphasis on both strategy formulation and implementation.",
             "url":           "http://student.mit.edu/catalog/m2c.html#2.965J",
             "joint":         true,
             "semester":      "Spring",
@@ -505,16 +572,10 @@
             "area":          "Engineering Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.965",
-            "lecture-section-of": "2.965",
-            "timeAndPlace":       "MW1-2.30 (ENDS MARCH 21) 2-105"
-        },
-        {
             "type":          "Class",
             "label":         "Management of Marine Systems",
             "id":            "2.966",
-            "listing-index": "m2c-018",
+            "listing-index": "m2c-017",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-3",
@@ -524,16 +585,25 @@
             "url":           "http://student.mit.edu/catalog/m2c.html#2.966",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Marcus, H. S.",
             "area":          "Engineering Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.966",
+            "lecture-section-of": "2.966",
+            "timeAndPlace":       "MW11-12.30 (ENDS OCT 24) 1-136"
+        },
+        {
             "type":          "Class",
             "label":         "International Shipping",
             "id":            "2.967",
-            "listing-index": "m2c-019",
+            "listing-index": "m2c-018",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -543,30 +613,27 @@
             "url":           "http://student.mit.edu/catalog/m2c.html#2.967",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "2.966",
             "in-charge":     "Marcus, H. S.",
             "area":          "Engineering Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.967",
-            "lecture-section-of": "2.967",
-            "timeAndPlace":       "MW EVE (4-6 PM) 5-217"
-        },
-        {
             "type":          "Class",
             "label":         "Independent Activities",
-            "id":            "2.97, 2.971?2.974",
-            "listing-index": "m2c-020",
+            "id":            "2.97, 2.971-2.974",
+            "listing-index": "m2c-019",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m2c.html#2.97, 2.971?2.974",
+            "url":           "http://student.mit.edu/catalog/m2c.html#2.97, 2.971-2.974",
             "joint":         false,
             "semester":      "IAP",
             "offering":      [
@@ -579,7 +646,7 @@
             "type":          "Class",
             "label":         "Undergraduate Teaching",
             "id":            "2.979",
-            "listing-index": "m2c-021",
+            "listing-index": "m2c-020",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -603,15 +670,15 @@
         {
             "type":          "Class",
             "label":         "Special Topics in Mechanical Engineering",
-            "id":            "2.993?2.995",
-            "listing-index": "m2c-022",
+            "id":            "2.993-2.995",
+            "listing-index": "m2c-021",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "",
-            "url":           "http://student.mit.edu/catalog/m2c.html#2.993?2.995",
+            "description":   "No description available.",
+            "url":           "http://student.mit.edu/catalog/m2c.html#2.993-2.995",
             "joint":         false,
             "semester":      [
                 "Fall",
@@ -623,33 +690,20 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "TR1-2.30",
             "area":          "Special and Advanced Topics in Mechanical Engineering"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.993?2.995",
-            "lecture-section-of": "2.993?2.995",
-            "timeAndPlace":       "MW11-12.30 3-370"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L022.993?2.995",
-            "lecture-section-of": "2.993?2.995",
-            "timeAndPlace":       "TR1-2.30 1-273"
         },
         {
             "type":          "Class",
             "label":         "Advanced Topics in Mechanical Engineering",
-            "id":            "2.996?2.998",
-            "listing-index": "m2c-023",
+            "id":            "2.996-2.998",
+            "listing-index": "m2c-022",
             "course":        "2",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "",
-            "url":           "http://student.mit.edu/catalog/m2c.html#2.996?2.998",
+            "description":   "No description available.",
+            "url":           "http://student.mit.edu/catalog/m2c.html#2.996-2.998",
             "joint":         false,
             "semester":      [
                 "Fall",
@@ -662,20 +716,13 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "MW9.30-11",
             "area":          "Special and Advanced Topics in Mechanical Engineering"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.996?2.998",
-            "lecture-section-of": "2.996?2.998",
-            "timeAndPlace":       "MW9.30-11 37-312"
-        },
-        {
             "type":          "Class",
-            "label":         "Engineer's Degree Thesis Proposal Preparation",
+            "label":         "Engineer\\'s Degree Thesis Proposal Preparation",
             "id":            "2.999",
-            "listing-index": "m2c-024",
+            "listing-index": "m2c-023",
             "course":        "2",
             "level":         "Grad",
             "units":         "Unknown",
@@ -704,13 +751,13 @@
             "type":          "Class",
             "label":         "UPOP Summer Practice Experience",
             "id":            "2.EPE",
-            "listing-index": "m2c-025",
+            "listing-index": "m2c-024",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "0-1-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering students, typically sophomores, the opportunity to participate in engineering practice.  Students gain experience with recruitment and job selection, the job experience, and the assessment and reflection process. Spring term includes seminars and workshops in preparation for internship and management of career path.  With the assistance of UPOP staff, students find and engage in a 10-12 week summer job experience, during which they maintain a journal of their experiences.  In the Fall term, students write essays addressing the topics introduced in UPOP EPW workshop during IAP, complete a post-summer self-evaluation form, and discuss these forms with their regular academic advisor. Students have the opportunity to share their experiences with others in a roundtable discussion.  Can be taken up to two times for credit. Spring term can only be taken in conjunction with the Fall term.",
+            "description":   "Immerses engineering sophomores in the world of professional engineering experience by providing guided instruction in all aspects of the job acquisition process. Students complete a 10-12 week internship assignment during the summer, which includes maintaining a structured journal of observations and experiences, meeting with UPOP staff members, writing essays, and completing a self-evaluation. May be repeated twice for credit; spring term can be taken only in conjunction with fall term.",
             "url":           "http://student.mit.edu/catalog/m2c.html#2.EPE",
             "joint":         false,
             "semester":      [
@@ -730,20 +777,20 @@
                 "22.EPE",
                 "2.EPW"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "area":          "Thesis, Research and Practice"
         },
         {
             "type":          "Class",
             "label":         "UPOP Reflective Learning Experience",
             "id":            "2.EPR",
-            "listing-index": "m2c-026",
+            "listing-index": "m2c-025",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "0-0-3 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering sophomores the opportunity to reflect and share their summer practice experiences as related to the topics of the IAP subject and students' academic subjects through a written report and an oral presentation delivered at a UPOP Symposium in the fall.",
+            "description":   "Reflective learning experiences for engineering juniors that serve as the culmination of their sophomore year in the UPOP program. Students review their internship experiences through written and oral presentations and receive small-group and individualized coaching to reinforce the cognitive link between all aspects of the UPOP experience and their disciplinary field of study.",
             "url":           "http://student.mit.edu/catalog/m2c.html#2.EPR",
             "joint":         false,
             "semester":      "Fall",
@@ -757,20 +804,20 @@
                 "22.EPR",
                 "2.EPE"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "area":          "Thesis, Research and Practice"
         },
         {
             "type":          "Class",
             "label":         "UPOP IAP Workshop",
             "id":            "2.EPW",
-            "listing-index": "m2c-027",
+            "listing-index": "m2c-026",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "3-0-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering sophomores the opportunity to build the core foundation of skills necessary to succeed in and prepare for a summer practice experience. Introduces concepts in product development, system dynamics, organizational dynamics, and effective communication. Also introduces concepts in ethics and character, and leadership and teamwork to ensure that students acquire an appreciation of the social, environmental, and ethical implications of organizational decision making. Subject is an interactive experience integrating lectures with role-playing, simulations, and group projects, where students apply these concepts in a case study context. Students are provided with a journal to be used during their summer training practice. Limited enrollment.",
+            "description":   "Introduction to professional development skills for engineering practice. Experiential learning modules prepare sophomores for success in summer internship and beyond. Faculty and senior engineering professionals recruited from industry guide teams through learning activities, which include creative simulations, team competitions, oral presentations, and group problem-solving. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/m2c.html#2.EPW",
             "joint":         false,
             "semester":      "IAP",
@@ -784,38 +831,14 @@
                 "16.EPW",
                 "22.EPW"
             ],
-            "in-charge":     "Yue, D. K. P.",
-            "area":          "Thesis, Research and Practice"
-        },
-        {
-            "type":          "Class",
-            "label":         "Undergraduate Thesis for Course 2-A",
-            "id":            "2.ThA",
-            "listing-index": "m2c-028",
-            "course":        "2",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m2c.html#2.ThA",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
+            "in-charge":     "LuperFoy, S.",
             "area":          "Thesis, Research and Practice"
         },
         {
             "type":          "Class",
             "label":         "Graduate Thesis",
             "id":            "2.ThG",
-            "listing-index": "m2c-029",
+            "listing-index": "m2c-027",
             "course":        "2",
             "level":         "Grad",
             "units":         "Unknown",
@@ -838,9 +861,9 @@
         },
         {
             "type":          "Class",
-            "label":         "Undergraduate Independent Study or Thesis",
+            "label":         "Undergraduate Thesis",
             "id":            "2.ThU",
-            "listing-index": "m2c-030",
+            "listing-index": "m2c-028",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -851,6 +874,7 @@
             "joint":         false,
             "semester":      [
                 "Fall",
+                "IAP",
                 "Spring",
                 "Summer"
             ],
@@ -864,7 +888,7 @@
             "type":          "Class",
             "label":         "Undergraduate Research in Mechanical Engineering",
             "id":            "2.UR",
-            "listing-index": "m2c-031",
+            "listing-index": "m2c-029",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "Unknown",

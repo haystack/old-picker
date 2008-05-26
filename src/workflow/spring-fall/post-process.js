@@ -16,13 +16,19 @@ for (var i = 1; i < inputs.length; i++) {
 
 input.items = visitArrayElements(input.items, function(item) {
     var type = item.type;
-    if (type != "Class") {
-        return undefined;
-    } else {
+    if (type == "Class") {
+    	return { "type": "Class",
+			"has-final": item["has-final"],
+			"id": item.id,
+			"url": item.url,
+			"area": item.area,
+			"offering": item.offering,
+			"category": item.category };
+	} else {
 		return item;
 	}
 });
 
-var s = fastJsonize(input);
+var s = jsonize(input);
 
 return s;

@@ -23,8 +23,8 @@
                 "16.07"
             ],
             "in-charge":     [
-                "Waitz, I. A.",
-                "Craig, J. L."
+                "Greitzer, E.M.",
+                "Craig, J.L."
             ]
         },
         {
@@ -32,13 +32,6 @@
             "label":              "L0116.621",
             "lecture-section-of": "16.621",
             "timeAndPlace":       "TR1 33-419"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0216.621",
-            "lab-section-of": "16.621",
-            "timeAndPlace":   [
-            ]
         },
         {
             "type":          "Class",
@@ -62,7 +55,7 @@
             "prereq":        "16.621",
             "coreq":         "6.041",
             "in-charge":     [
-                "Waitz, I. A.",
+                "Greitzer, E.M.",
                 "Craig, J. L.",
                 "Perdichizzi, R. F."
             ]
@@ -77,8 +70,7 @@
             "type":           "LabSection",
             "label":          "B0216.622",
             "lab-section-of": "16.622",
-            "timeAndPlace":   [
-            ]
+            "timeAndPlace":   "TR2-5 GELB LAB"
         },
         {
             "type":          "Class",
@@ -125,6 +117,12 @@
             "in-charge":     "Rines, R. H."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0116.652",
+            "lecture-section-of": "16.652",
+            "timeAndPlace":       "M EVE (7-10 PM) 37-212"
+        },
+        {
             "type":          "Class",
             "label":         "Management in Engineering",
             "id":            "16.653",
@@ -147,9 +145,52 @@
                 "10.806J"
             ],
             "in-charge":     [
-                "d'Arbeloff, A. V.",
-                "Chun, J.-H."
+                "d\\'Arbeloff, A. V.",
+                "Chun, J.-H.",
+                "Marcus, H. S."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.653",
+            "lecture-section-of": "16.653",
+            "timeAndPlace":       "MW9.30-11 3-270"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0216.653",
+            "lab-section-of": "16.653",
+            "timeAndPlace":   "M2 5-217"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0316.653",
+            "lab-section-of": "16.653",
+            "timeAndPlace":   "M4 5-134"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0416.653",
+            "lab-section-of": "16.653",
+            "timeAndPlace":   "T1 5-234"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0516.653",
+            "lab-section-of": "16.653",
+            "timeAndPlace":   "W2 5-231"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0616.653",
+            "lab-section-of": "16.653",
+            "timeAndPlace":   "W4 5-134"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0716.653",
+            "lab-section-of": "16.653",
+            "timeAndPlace":   "R1 5-234"
         },
         {
             "type":          "Class",
@@ -161,12 +202,11 @@
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Opportunity to work on projects related to aerospace engineering outside the department. Consult department's Academic Programs Office.",
+            "description":   "Opportunity to work on projects related to aerospace engineering outside the department. Consult department\\'s Academic Programs Office.",
             "url":           "http://student.mit.edu/catalog/m16b.html#16.680",
             "joint":         false,
             "semester":      [
                 "Fall",
-                "IAP",
                 "Spring",
                 "Summer"
             ],
@@ -174,7 +214,7 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Crawley, E."
+            "in-charge":     "Crawley, E.F."
         },
         {
             "type":          "Class",
@@ -199,7 +239,7 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Martinez-Sanchez, M."
+            "in-charge":     "Crawley, E.F."
         },
         {
             "type":          "Class",
@@ -223,7 +263,7 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Martinez-Sanchez, M."
+            "in-charge":     "Crawley, E.F."
         },
         {
             "type":          "Class",
@@ -246,7 +286,7 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Martinez-Sanchez, M."
+            "in-charge":     "Crawley, E.F."
         },
         {
             "type":          "Class",
@@ -271,7 +311,7 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Martinez-Sanchez, M."
+            "in-charge":     "Crawley, E.F."
         },
         {
             "type":          "Class",
@@ -303,6 +343,12 @@
             "area":          "Flight Transportation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0116.71",
+            "lecture-section-of": "16.71",
+            "timeAndPlace":       "MW1-2.30 33-419"
+        },
+        {
             "type":          "Class",
             "label":         "Air Traffic Control",
             "id":            "16.72",
@@ -316,19 +362,10 @@
             "url":           "http://student.mit.edu/catalog/m16b.html#16.72",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Balakrishnan, H.",
             "area":          "Flight Transportation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.72",
-            "lecture-section-of": "16.72",
-            "timeAndPlace":       "TR9.30-11 33-419"
         },
         {
             "type":          "Class",
@@ -352,12 +389,6 @@
             ],
             "in-charge":     "Belobaba, P. P.",
             "area":          "Flight Transportation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.75",
-            "lecture-section-of": "16.75",
-            "timeAndPlace":       "MW1-2.30 33-418"
         },
         {
             "type":          "Class",
@@ -384,9 +415,16 @@
             "in-charge":     [
                 "Larson, R. C.",
                 "Odoni, A. R.",
-                "Barnett, A. I."
+                "Barnett, A. I.",
+                "Orlin, J.B."
             ],
             "area":          "Flight Transportation"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.76",
+            "lecture-section-of": "16.76",
+            "timeAndPlace":       "MW10.30-12 1-150"
         },
         {
             "type":          "Class",
@@ -402,7 +440,10 @@
             "url":           "http://student.mit.edu/catalog/m16b.html#16.77J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "1.206J",
             "in-charge":     "Barnhart, C.",
@@ -418,14 +459,11 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Equal emphasis on current practice and advanced concepts. Airport location and planning with full consideration of economic, environmental, and other impacts. Demand prediction, determination of the capacity of the airfield, and estimation of levels of congestion. Design of terminals. Role of airports in the aviation and transportation system. Airport access problems. Optimal configuration of air transport networks and implications for airport development. Economics of the airport. Financing and institutional aspects. Special attention to international practice and developments. Alternate years.",
+            "description":   "Equal emphasis on current practice and advanced concepts. Airport location and planning with full consideration of economic, environmental, and other impacts. Demand prediction, determination of the capacity of the airfield, and estimation of levels of congestion. Design of terminals. Role of airports in the aviation and transportation system. Airport access problems. Optimal configuration of air transport networks and implications for airport development. Economics of the airport. Financing and institutional aspects. Special attention to international practice and developments.",
             "url":           "http://student.mit.edu/catalog/m16b.html#16.781J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "1.231J",
             "in-charge":     [
@@ -433,6 +471,12 @@
                 "Odoni, A. R."
             ],
             "area":          "Flight Transportation"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.781",
+            "lecture-section-of": "16.781",
+            "timeAndPlace":       "TR1-2.30 1-371"
         },
         {
             "type":          "Class",
@@ -476,7 +520,7 @@
             "url":           "http://student.mit.edu/catalog/m16b.html#16.810J",
             "joint":         true,
             "semester":      "IAP",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "prereq":        [
                 "16.01",
                 "16.02",
@@ -502,11 +546,7 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "16.04",
-            "in-charge":     [
-                "Lewis, R. B.",
-                "Craig, J. L.",
-                "Lechner, B. B."
-            ],
+            "in-charge":     "Staff",
             "area":          "Aerospace Systems"
         },
         {
@@ -524,11 +564,20 @@
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "in-charge":     [
-                "Hansman, R. J.",
-                "Keesee, J. E."
-            ],
+            "in-charge":     "Hansman, R. J.",
             "area":          "Aerospace Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.82",
+            "lecture-section-of": "16.82",
+            "timeAndPlace":       "TR2-3.30 33-419"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0216.82",
+            "lab-section-of": "16.82",
+            "timeAndPlace":   "TR3.30-5 33-419"
         },
         {
             "type":          "Class",
@@ -547,10 +596,7 @@
                 "IAP",
                 "Spring"
             ],
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "Institute LAB",
             "prereq":        "16.82",
             "in-charge":     [
@@ -558,19 +604,6 @@
                 "Keesee, J. E."
             ],
             "area":          "Aerospace Systems"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.821",
-            "lecture-section-of": "16.821",
-            "timeAndPlace":       "TR1-4 33-218"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0216.821",
-            "lab-section-of": "16.821",
-            "timeAndPlace":   [
-            ]
         },
         {
             "type":          "Class",
@@ -587,31 +620,8 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "in-charge":     [
-                "Miller, D. W.",
-                "Keesee, J. E."
-            ],
+            "in-charge":     "Hoffman, J.A.",
             "area":          "Aerospace Systems"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.83",
-            "lecture-section-of": "16.83",
-            "timeAndPlace":       "TR2-5 33-419"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0216.83",
-            "lab-section-of": "16.83",
-            "timeAndPlace":   [
-            ]
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0316.83",
-            "rec-section-of": "16.83",
-            "timeAndPlace":   [
-            ]
         },
         {
             "type":          "Class",
@@ -627,7 +637,10 @@
             "url":           "http://student.mit.edu/catalog/m16b.html#16.831",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "Institute LAB",
             "prereq":        "16.83",
             "in-charge":     [
@@ -635,6 +648,22 @@
                 "Keesee, J."
             ],
             "area":          "Aerospace Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.831",
+            "lecture-section-of": "16.831",
+            "timeAndPlace":       [
+                "T1-5 35-225",
+                "R2-5 35-225"
+            ]
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0216.831",
+            "lab-section-of": "16.831",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",
@@ -650,7 +679,10 @@
             "url":           "http://student.mit.edu/catalog/m16b.html#16.832",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "Institute LAB",
             "prereq":        "16.831",
             "in-charge":     [
@@ -676,10 +708,16 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
-                "Keesee, J.",
-                "Miller, D. W."
+                "Miller, D. W.",
+                "Keesee, J.E."
             ],
             "area":          "Aerospace Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.851",
+            "lecture-section-of": "16.851",
+            "timeAndPlace":       "TR12.30-2 33-218"
         },
         {
             "type":          "Class",
@@ -699,6 +737,18 @@
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Nightingale, D.",
             "area":          "Aerospace Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.852",
+            "lecture-section-of": "16.852",
+            "timeAndPlace":       "MW2.30-4 1-390"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0216.852",
+            "rec-section-of": "16.852",
+            "timeAndPlace":   "M4 1-390"
         },
         {
             "type":          "Class",
@@ -723,12 +773,6 @@
             "area":          "Aerospace Systems"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0116.855",
-            "lecture-section-of": "16.855",
-            "timeAndPlace":       "MW2.30-4 33-419"
-        },
-        {
             "type":          "Class",
             "label":         "Engineering Systems Analysis for Design",
             "id":            "16.861",
@@ -737,8 +781,8 @@
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
-            "has-final":     false,
-            "description":   "Engineering systems design must have the flexibility to take advantage of new opportunities while avoiding disasters. Subject develops \"real options\" analysis to create design flexibility and measure its value so that it can be incorporated into system optimization. Subject builds on essential concepts of system models, decision analysis, and financial concepts. Emphasis on calculating value of real options with special attention given to efficient analysis and practical applications.  The material is organized and presented to deal with the contextual reality of technological systems, that substantially distinguishes the analysis of real options in engineering systems from that of financial options.",
+            "has-final":     true,
+            "description":   "Engineering systems design must have the flexibility to take advantage of new opportunities while avoiding disasters. Subject develops \\\u0022real options\\\u0022 analysis to create design flexibility and measure its value so that it can be incorporated into system optimization. Subject builds on essential concepts of system models, decision analysis, and financial concepts. Emphasis on calculating value of real options with special attention given to efficient analysis and practical applications.  The material is organized and presented to deal with the contextual reality of technological systems, that substantially distinguishes the analysis of real options in engineering systems from that of financial options.",
             "url":           "http://student.mit.edu/catalog/m16b.html#16.861",
             "joint":         false,
             "semester":      "Fall",
@@ -752,6 +796,24 @@
             ],
             "in-charge":     "Neufville, R. de",
             "area":          "Aerospace Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.861",
+            "lecture-section-of": "16.861",
+            "timeAndPlace":       "TR10.30-12 32-155"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0216.861",
+            "rec-section-of": "16.861",
+            "timeAndPlace":   "T3 32-155"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0316.861",
+            "rec-section-of": "16.861",
+            "timeAndPlace":   "R9 32-155"
         },
         {
             "type":          "Class",
@@ -776,23 +838,10 @@
                 "6.938",
                 "10.816",
                 "16.862",
-                "22.82",
-                "18.02"
+                "22.82"
             ],
             "in-charge":     "Apostolakis, G. E.",
             "area":          "Aerospace Systems"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.862",
-            "lecture-section-of": "16.862",
-            "timeAndPlace":       "MW9.30-11 1-390"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0216.862",
-            "rec-section-of": "16.862",
-            "timeAndPlace":   "T2 9-338"
         },
         {
             "type":          "Class",
@@ -808,16 +857,41 @@
             "url":           "http://student.mit.edu/catalog/m16b.html#16.863J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Leveson, N. G.",
             "area":          "Aerospace Systems"
         },
         {
             "type":          "Class",
+            "label":         "Cost Estimation and Measurement Systems",
+            "id":            "16.866",
+            "listing-index": "m16b-030",
+            "course":        "16",
+            "level":         "Grad",
+            "units":         "3-0-6",
+            "total-units":   9,
+            "has-final":     false,
+            "description":   "Focuses on principals of cost estimation and measurement systems with specific emphasis on parametric models. Theories from the fields of hardware, software, systems engineering, Systems of Systems, and enterprise science will be applied to a variety of contexts (i.e., aerospace, IT, manufacturing). Material is divided into five major sections: cost estimation fundamentals, parametric model development calibration, economic principles, measurement systems, and government/policy issues.",
+            "url":           "http://student.mit.edu/catalog/m16b.html#16.866J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      "Not offered this year",
+            "category":      "H-LEVEL Grad Credit",
+            "in-charge":     "Valerdi, R.",
+            "area":          "Aerospace Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.866",
+            "lecture-section-of": "16.866",
+            "timeAndPlace":       "T9.30-12.30 5-232"
+        },
+        {
+            "type":          "Class",
             "label":         "Aircraft Systems Engineering",
             "id":            "16.885",
-            "listing-index": "m16b-030",
+            "listing-index": "m16b-031",
             "course":        "16",
             "level":         "Grad",
             "units":         "3-1-8",
@@ -827,10 +901,7 @@
             "url":           "http://student.mit.edu/catalog/m16b.html#16.885J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Hansman, R. J.",
@@ -843,7 +914,7 @@
             "type":          "Class",
             "label":         "Air Transportation Systems Architecting",
             "id":            "16.886",
-            "listing-index": "m16b-031",
+            "listing-index": "m16b-032",
             "course":        "16",
             "level":         "Grad",
             "units":         "3-2-7",
@@ -853,7 +924,10 @@
             "url":           "http://student.mit.edu/catalog/m16b.html#16.886",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "16.885",
             "in-charge":     [
@@ -867,7 +941,7 @@
             "type":          "Class",
             "label":         "Multidisciplinary System Design Optimization",
             "id":            "16.888",
-            "listing-index": "m16b-032",
+            "listing-index": "m16b-033",
             "course":        "16",
             "level":         "Grad",
             "units":         "3-1-8",
@@ -887,16 +961,10 @@
             "area":          "Aerospace Systems"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0116.888",
-            "lecture-section-of": "16.888",
-            "timeAndPlace":       "TR1-2.30 9-057"
-        },
-        {
             "type":          "Class",
             "label":         "Space Systems Engineering",
             "id":            "16.89",
-            "listing-index": "m16b-033",
+            "listing-index": "m16b-034",
             "course":        "16",
             "level":         "Grad",
             "units":         "4-2-6",
@@ -916,29 +984,16 @@
                 "16.892"
             ],
             "in-charge":     [
-                "Hoffman, J. A.",
                 "Crawley, E.F.",
-                "Weck, O. de"
+                "Miller, D.W."
             ],
             "area":          "Aerospace Systems"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.89",
-            "lecture-section-of": "16.89",
-            "timeAndPlace":       "MW1-3 33-218"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0216.89",
-            "lab-section-of": "16.89",
-            "timeAndPlace":   "F1-3 33-218"
         },
         {
             "type":          "Class",
             "label":         "Space Policy Seminar",
             "id":            "16.891",
-            "listing-index": "m16b-034",
+            "listing-index": "m16b-035",
             "course":        "16",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -960,7 +1015,7 @@
             "type":          "Class",
             "label":         "Space System Architecture and Design",
             "id":            "16.892",
-            "listing-index": "m16b-035",
+            "listing-index": "m16b-036",
             "course":        "16",
             "level":         "Grad",
             "units":         "2-0-7",
@@ -979,7 +1034,7 @@
             "type":          "Class",
             "label":         "Engineering Apollo: The Moon Project as a Complex System",
             "id":            "16.895",
-            "listing-index": "m16b-036",
+            "listing-index": "m16b-037",
             "course":        "16",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -989,7 +1044,10 @@
             "url":           "http://student.mit.edu/catalog/m16b.html#16.895J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Mindell, D.",
@@ -1001,7 +1059,7 @@
             "type":          "Class",
             "label":         "Advanced Special Subject in Aerospace Systems",
             "id":            "16.898",
-            "listing-index": "m16b-037",
+            "listing-index": "m16b-038",
             "course":        "16",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1029,7 +1087,7 @@
             "type":          "Class",
             "label":         "Computational Methods in Aerospace Engineering",
             "id":            "16.90",
-            "listing-index": "m16b-038",
+            "listing-index": "m16b-039",
             "course":        "16",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -1040,29 +1098,19 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "16.004",
-                "16.04"
-            ],
+            "prereq":        "16.004",
             "coreq":         "6.041",
             "in-charge":     [
-                "Willcox, K. E.",
-                "Darmofal, D. L.",
-                "Radovitzky, R."
+                "Peraire, J.",
+                "Darmofal, D. L."
             ],
             "area":          "Computation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.90",
-            "lecture-section-of": "16.90",
-            "timeAndPlace":       "TR11-12.30 33-419"
         },
         {
             "type":          "Class",
             "label":         "Introduction to Numerical Simulation",
             "id":            "16.910",
-            "listing-index": "m16b-039",
+            "listing-index": "m16b-040",
             "course":        "16",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1082,17 +1130,21 @@
             ],
             "in-charge":     [
                 "Daniel, L.",
-                "White, J. K.",
-                "Peraire, J.",
-                "Patera, A. T."
+                "White, J. K."
             ],
             "area":          "Computation"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.910",
+            "lecture-section-of": "16.910",
+            "timeAndPlace":       "TR9.30-11 1-390"
         },
         {
             "type":          "Class",
             "label":         "Numerical Methods for Partial Differential Equations",
             "id":            "16.920",
-            "listing-index": "m16b-040",
+            "listing-index": "m16b-041",
             "course":        "16",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1111,17 +1163,23 @@
                 "18.06"
             ],
             "in-charge":     [
-                "Darmofal, D. L.",
+                "Peraire, J.",
                 "Patera, A. T.",
-                "White, J. K."
+                "White, J.K."
             ],
             "area":          "Computation"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.920",
+            "lecture-section-of": "16.920",
+            "timeAndPlace":       "MW8-9.30 1-390"
         },
         {
             "type":          "Class",
             "label":         "Advanced Topics in Numerical Methods for Partial Differential Equations",
             "id":            "16.930",
-            "listing-index": "m16b-041",
+            "listing-index": "m16b-042",
             "course":        "16",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1135,22 +1193,16 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "16.920",
             "in-charge":     [
-                "Darmofal, D. L.",
-                "Patera, A. T."
+                "Peraire, J.",
+                "Darmofal, D. L."
             ],
             "area":          "Computation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.930",
-            "lecture-section-of": "16.930",
-            "timeAndPlace":       "MW10-11.30 33-319"
         },
         {
             "type":          "Class",
             "label":         "Computational Geometry",
             "id":            "16.940",
-            "listing-index": "m16b-042",
+            "listing-index": "m16b-043",
             "course":        "16",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1176,7 +1228,7 @@
             "type":          "Class",
             "label":         "Advanced Special Subject in Computation",
             "id":            "16.948",
-            "listing-index": "m16b-043",
+            "listing-index": "m16b-044",
             "course":        "16",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1204,7 +1256,7 @@
             "type":          "Class",
             "label":         "Graduate Thesis",
             "id":            "16.ThG",
-            "listing-index": "m16b-044",
+            "listing-index": "m16b-045",
             "course":        "16",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1230,7 +1282,7 @@
             "type":          "Class",
             "label":         "Advanced Special Project",
             "id":            "16.980",
-            "listing-index": "m16b-045",
+            "listing-index": "m16b-046",
             "course":        "16",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1260,7 +1312,7 @@
             "type":          "Class",
             "label":         "Advanced Special Subject",
             "id":            "16.982",
-            "listing-index": "m16b-046",
+            "listing-index": "m16b-047",
             "course":        "16",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1289,7 +1341,7 @@
             "type":          "Class",
             "label":         "Seminar",
             "id":            "16.984",
-            "listing-index": "m16b-047",
+            "listing-index": "m16b-048",
             "course":        "16",
             "level":         "Grad",
             "units":         "2-0-0 [P/D/F]",
@@ -1306,14 +1358,14 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Martinez-Sanchez, M.",
+            "in-charge":     "Darmofal, D.L.",
             "area":          "Other Graduate Subjects"
         },
         {
             "type":          "Class",
             "label":         "Proseminar in Manufacturing",
             "id":            "16.985",
-            "listing-index": "m16b-048",
+            "listing-index": "m16b-049",
             "course":        "16",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1343,19 +1395,19 @@
             "type":               "LectureSection",
             "label":              "L0116.985",
             "lecture-section-of": "16.985",
-            "timeAndPlace":       "TR EVE (5.30-7.30 PM) E51-395"
+            "timeAndPlace":       "M EVE (4-6 PM) E51-315"
         },
         {
             "type":          "Class",
             "label":         "Teaching Fellows Seminar",
             "id":            "16.999",
-            "listing-index": "m16b-049",
+            "listing-index": "m16b-050",
             "course":        "16",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "No description available.",
+            "description":   "",
             "url":           "http://student.mit.edu/catalog/m16b.html#16.999",
             "joint":         false,
             "semester":      [
@@ -1363,7 +1415,14 @@
                 "IAP"
             ],
             "offering":      "Currently Offered",
+            "in-charge":     "W4-6",
             "area":          "Other Graduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0116.999",
+            "lecture-section-of": "16.999",
+            "timeAndPlace":       "W4-6 33-319"
         }
     ]
 }

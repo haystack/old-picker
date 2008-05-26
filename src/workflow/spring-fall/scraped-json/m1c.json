@@ -24,10 +24,43 @@
             "area":          "Materials and Structures"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.541",
+            "lecture-section-of": "1.541",
+            "timeAndPlace":       "MW1-2.30 1-246"
+        },
+        {
+            "type":          "Class",
+            "label":         "Atomistic Modeling and Simulation of Materials and Structures",
+            "id":            "1.545",
+            "listing-index": "m1c-001",
+            "course":        "1",
+            "level":         "Grad",
+            "units":         "3-0-9",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Covers multi-scale atomistic modeling and simulation methods, with focus on mechanical properties (elasticity, plasticity, creep, fracture, fatigue) of a range of materials (metals, ceramics, proteins, biological materials, biomaterials). Topics include mechanics of materials (energy principles, nano-/micromechanics, deformation mechanisms, size effects, hierarchical biological structures) and atomistic modeling (chemistry, interatomic potentials, visualization, data analysis, numerical methods, supercomputing, algorithms).  Subject involves hands-on computational project.",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.545",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "in-charge":     "Buehler, M. J.",
+            "area":          "Materials and Structures"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L011.545",
+            "lecture-section-of": "1.545",
+            "timeAndPlace":       "TR1-2.30 1-246"
+        },
+        {
             "type":          "Class",
             "label":         "Structural Mechanics in Nuclear Power Technology",
             "id":            "1.56",
-            "listing-index": "m1c-001",
+            "listing-index": "m1c-002",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -37,7 +70,10 @@
             "url":           "http://student.mit.edu/catalog/m1c.html#1.56J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.084J",
@@ -51,10 +87,16 @@
             "area":          "Materials and Structures"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.56",
+            "lecture-section-of": "1.56",
+            "timeAndPlace":       "MW11-12.30 24-121"
+        },
+        {
             "type":          "Class",
             "label":         "Motion-Based Design",
             "id":            "1.561",
-            "listing-index": "m1c-002",
+            "listing-index": "m1c-003",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -73,16 +115,10 @@
             "area":          "Materials and Structures"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.561",
-            "lecture-section-of": "1.561",
-            "timeAndPlace":       "TR11-12.30 5-233"
-        },
-        {
             "type":          "Class",
             "label":         "High-Performance Structures MEng Project",
             "id":            "1.562",
-            "listing-index": "m1c-003",
+            "listing-index": "m1c-004",
             "course":        "1",
             "level":         "Grad",
             "units":         "5-0-10",
@@ -112,28 +148,25 @@
             "type":               "LectureSection",
             "label":              "L011.562",
             "lecture-section-of": "1.562",
-            "timeAndPlace":       "F1.30-3.30 1-150"
+            "timeAndPlace":       "F1-3 1-150"
         },
         {
             "type":          "Class",
-            "label":         "Mechanics of Material Systems: An Energy Approach",
+            "label":         "Mechanics of Materials: An Energy Approach",
             "id":            "1.57",
-            "listing-index": "m1c-004",
+            "listing-index": "m1c-005",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-2-7",
             "total-units":   12,
             "has-final":     false,
-            "description":   "See description under 1.033. An opportunity to update knowledge in continuum mechanics and constitutive behavior and modeling of engineering materials based on thermodynamics of irreversible processes. Graduate students are expected to complete additional assignments.",
+            "description":   "An opportunity to update knowledge in continuum mechanics and constitutive behavior, and modeling of engineering materials based on thermodynamics of irreversible processes.  Introduction to continuum mechanics and material modeling of engineering materials based on first energy principles: deformation and strain; momentum balance, stress, and stress states; elasticity and elasticity bounds; plasticity and yield design. Overarching theme is a unified mechanistic language using thermodynamics, which allows for understanding, modeling, and design of a broad range of engineering materials.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.57",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "1.033",
-                "1.035"
-            ],
+            "prereq":        "1.050",
             "in-charge":     "Ulm, F. J.",
             "area":          "Materials and Structures"
         },
@@ -141,7 +174,7 @@
             "type":          "Class",
             "label":         "Durability Mechanics",
             "id":            "1.570",
-            "listing-index": "m1c-005",
+            "listing-index": "m1c-006",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -151,12 +184,12 @@
             "url":           "http://student.mit.edu/catalog/m1c.html#1.570",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "1.033",
-                "1.57"
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
             ],
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        "1.57",
             "in-charge":     "Ulm, F. J.",
             "area":          "Materials and Structures"
         },
@@ -164,7 +197,7 @@
             "type":          "Class",
             "label":         "Structural Analysis and Control",
             "id":            "1.571",
-            "listing-index": "m1c-006",
+            "listing-index": "m1c-007",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -184,15 +217,27 @@
             "area":          "Materials and Structures"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.571",
+            "lecture-section-of": "1.571",
+            "timeAndPlace":       "MF11 5-234"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.571",
+            "rec-section-of": "1.571",
+            "timeAndPlace":   "T11 5-234"
+        },
+        {
             "type":          "Class",
             "label":         "Structural Systems",
             "id":            "1.572",
-            "listing-index": "m1c-007",
+            "listing-index": "m1c-008",
             "course":        "1",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Provides an understanding of the full range of structures and structural forms including both how they are designed and how they are built. The skills to conceive a structure differ from those required for analysis, requiring one to visualize options and judge their relative advantages in a qualitative manner. Design and assembly, in turn, require an understanding of how the structure is created.  Structural types, including tall buildings, bridges, and kinetic/deployable structures, are presented with case studies of built structures.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.572",
             "joint":         false,
@@ -203,10 +248,16 @@
             "area":          "Materials and Structures"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.572",
+            "lecture-section-of": "1.572",
+            "timeAndPlace":       "T4-6 1-371"
+        },
+        {
             "type":          "Class",
             "label":         "Structural Mechanics",
             "id":            "1.573",
-            "listing-index": "m1c-008",
+            "listing-index": "m1c-009",
             "course":        "1",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -231,16 +282,34 @@
             "area":          "Materials and Structures"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.573",
+            "lecture-section-of": "1.573",
+            "timeAndPlace":       "MW2.30-4 5-233"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.573",
+            "rec-section-of": "1.573",
+            "timeAndPlace":   "F11 1-246"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R031.573",
+            "rec-section-of": "1.573",
+            "timeAndPlace":   "F3 1-246"
+        },
+        {
             "type":          "Class",
             "label":         "Advanced Structural Dynamics",
             "id":            "1.581",
-            "listing-index": "m1c-009",
+            "listing-index": "m1c-010",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-1-8",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Review of single- and multiple-degree-of-freedom vibration problems, using matrix formulation and normal mode superposition methods. Time and frequency domain solution techniques including convolution and Fourier transforms. Applications to vibration isolation, damping treatment, and dynamic absorbers. Analysis of continuous systems by exact and approximate methods. Applications to buildings, ships, and offshore structures. Vibration measurement and analysis techniques.",
+            "has-final":     true,
+            "description":   "Single- and multiple-degree-of-freedom vibration problems, using matrix formulation and normal mode superposition methods. Time and frequency domain solution techniques including convolution and Fourier transforms. Applications to vibration isolation, damping treatment, and dynamic absorbers. Analysis of continuous systems by exact and approximate methods. Applications to buildings, ships, aircraft and offshore structures. Vibration measurement and analysis techniques. Students should possess basic knowledge in structural mechanics and in linear algebra. Students taking graduate version complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.581J",
             "joint":         true,
             "semester":      "Fall",
@@ -249,8 +318,7 @@
             "prereq":        [
                 "2.060J",
                 "16.221J",
-                "18.03",
-                "1.573J"
+                "1.058"
             ],
             "in-charge":     [
                 "Kausel, E.",
@@ -259,15 +327,27 @@
             "area":          "Materials and Structures"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.581",
+            "lecture-section-of": "1.581",
+            "timeAndPlace":       "MWF10 1-390"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.581",
+            "rec-section-of": "1.581",
+            "timeAndPlace":   "W4 1-135"
+        },
+        {
             "type":          "Class",
             "label":         "Design of Steel Structures",
             "id":            "1.582",
-            "listing-index": "m1c-010",
+            "listing-index": "m1c-011",
             "course":        "1",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Provides ability to design and assess steel structures.  Steel structures are taught at three levels: the overall structural system (multi-story buildings, wide-span buildings, bridges, masts, and towers); the components of a structural system (floor systems, plate girders, frames, and beams); and the details of structural components (connection types, welding, and bolting). Each level includes a balance among theoretical analysis, design requirements, and construction/cost considerations.  Existing structures are used as worked examples.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.582",
             "joint":         false,
@@ -278,16 +358,10 @@
             "area":          "Materials and Structures"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.582",
-            "lecture-section-of": "1.582",
-            "timeAndPlace":       "W EVE (4-6 PM) 1-371"
-        },
-        {
             "type":          "Class",
             "label":         "Communicating About Technology:  Colossal Failures in Engineering",
             "id":            "1.588",
-            "listing-index": "m1c-011",
+            "listing-index": "m1c-012",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -316,28 +390,10 @@
             "area":          "Materials and Structures"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.588",
-            "lecture-section-of": "1.588",
-            "timeAndPlace":       "MW1 4-237"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R021.588",
-            "rec-section-of": "1.588",
-            "timeAndPlace":   "F1 66-160"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R031.588",
-            "rec-section-of": "1.588",
-            "timeAndPlace":   "F2 66-160"
-        },
-        {
             "type":          "Class",
             "label":         "Studies in Structural Design and Analysis",
             "id":            "1.589",
-            "listing-index": "m1c-012",
+            "listing-index": "m1c-013",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
@@ -362,7 +418,7 @@
             "type":          "Class",
             "label":         "Studies in Construction Materials",
             "id":            "1.597",
-            "listing-index": "m1c-013",
+            "listing-index": "m1c-014",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
@@ -387,12 +443,12 @@
             "type":          "Class",
             "label":         "Transport Processes in the Environment",
             "id":            "1.61",
-            "listing-index": "m1c-014",
+            "listing-index": "m1c-015",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-1-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Meets with undergraduate subject 1.061. Graduate level includes additional homework in the form of reviews of relevant journal and practical articles. See description under subject 1.061.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.61",
             "joint":         false,
@@ -406,16 +462,28 @@
             "area":          "Hydrodynamics and Coastal Engineering"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.61",
+            "lecture-section-of": "1.61",
+            "timeAndPlace":       "MWF10 48-316"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.61",
+            "rec-section-of": "1.61",
+            "timeAndPlace":   "M11 48-316"
+        },
+        {
             "type":          "Class",
             "label":         "Fluid Dynamics",
             "id":            "1.63",
-            "listing-index": "m1c-015",
+            "listing-index": "m1c-016",
             "course":        "1",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Fundamentals of fluid dynamics intrinsic to natural physical phenomena and/or engineering processes. A range of topics and advanced problem-solving techniques discussed. Sample topics include brief review of basic laws of fluid motion, scaling and approximations, creeping flows, boundary layers in high-speed flows, steady and transient, similarity method of solution, buoyancy-driven convection in porous media, dispersion in steady or oscillatory flows, physics and mathematics of linearized instability, effects of shear and stratification. Choice of one of the following modules: I:  capillary phenomena or non-Newtonian fluid (for 2.21J) or II:  geophysical fluid dynamics of coastal waters (for 1.63J).",
+            "has-final":     false,
+            "description":   "Fundamentals of fluid dynamics intrinsic to natural physical phenomena and/or engineering processes. A range of topics and advanced problem-solving techniques discussed. Sample topics include brief review of basic laws of fluid motion, scaling and approximations, creeping flows, boundary layers in high-speed flows, steady and transient, similarity method of solution, buoyancy-driven convection in porous media, dispersion in steady or oscillatory flows, physics and mathematics of linearized instability, effects of shear and stratification. In alternate years, two of the following modules will be offered: I: Geophysical Fluid Dynamics of Coastal Waters, II: Capillary Phenomena, III: Non-Newtonian Fluids, IV: Flagellar Swimming. In 2007-2008, modules II an IV will be offered.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.63J",
             "joint":         true,
             "semester":      "Spring",
@@ -424,7 +492,6 @@
             "prereq":        [
                 "2.21J",
                 "18.085",
-                "1.131J",
                 "2.25"
             ],
             "in-charge":     [
@@ -436,22 +503,10 @@
             "area":          "Hydrodynamics and Coastal Engineering"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.63",
-            "lecture-section-of": "1.63",
-            "timeAndPlace":       "MW9.30-11 1-375"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R021.63",
-            "rec-section-of": "1.63",
-            "timeAndPlace":   "W4 1-136"
-        },
-        {
             "type":          "Class",
             "label":         "Physical Limnology",
             "id":            "1.64",
-            "listing-index": "m1c-016",
+            "listing-index": "m1c-017",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -461,10 +516,7 @@
             "url":           "http://student.mit.edu/catalog/m1c.html#1.64",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "1.060",
@@ -474,16 +526,10 @@
             "area":          "Hydrodynamics and Coastal Engineering"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.64",
-            "lecture-section-of": "1.64",
-            "timeAndPlace":       "MW1-2.30 48-308"
-        },
-        {
             "type":          "Class",
             "label":         "Problems in Water Resources and Environmental Engineering",
             "id":            "1.66",
-            "listing-index": "m1c-017",
+            "listing-index": "m1c-018",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
@@ -509,7 +555,7 @@
             "type":          "Class",
             "label":         "Sediment Transport and Coastal Processes",
             "id":            "1.67",
-            "listing-index": "m1c-018",
+            "listing-index": "m1c-019",
             "course":        "1",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -519,10 +565,7 @@
             "url":           "http://student.mit.edu/catalog/m1c.html#1.67",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "1.061",
             "coreq":         "1.69",
@@ -533,7 +576,7 @@
             "type":          "Class",
             "label":         "Nonlinear Dynamics and Waves",
             "id":            "1.685",
-            "listing-index": "m1c-019",
+            "listing-index": "m1c-020",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -543,7 +586,10 @@
             "url":           "http://student.mit.edu/catalog/m1c.html#1.685J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.034J",
@@ -560,7 +606,7 @@
             "type":          "Class",
             "label":         "Introduction to Coastal Engineering",
             "id":            "1.69",
-            "listing-index": "m1c-020",
+            "listing-index": "m1c-021",
             "course":        "1",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -570,7 +616,7 @@
             "url":           "http://student.mit.edu/catalog/m1c.html#1.69",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "coreq":         "1.061",
             "in-charge":     "Madsen, O. S.",
@@ -580,23 +626,26 @@
             "type":          "Class",
             "label":         "Surface Wave Dynamics",
             "id":            "1.691",
-            "listing-index": "m1c-021",
+            "listing-index": "m1c-022",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Basics of wave hydrodynamics. Linearized theories: propagation and dispersion. Refraction of waves approaching a coast. Scattering of waves by fixed obstacles. Resonance in a harbor. Interaction of waves with one or more floating bodies. Scattering and radiation problems. General identities and theorems of reciprocity: Haskind, Bessho and Newman relations.  Extraction of wave power from floating bodies: buoys and buoy arrays, beam-sea absorbers, rafts.  Resonance and oscillating water columns (single and arrays). Effects of random incident waves. Multiple scattering by periodic or randomly irregular seabed. Drift forces. Nonlinear theories: long waves in shallow water. Airy and Boussinesq approximations, subharmonic resonance of edge waves, upstream solitons. Weakly nonlinear waves in intermediate depth. Nonlinear Schroedinger equation, Benjamin-Feir instability. Radiation stresses and infragravity waves. Localization of nonlinear waves over random seabed.",
+            "description":   "Basics of wave hydrodynamics. Linearized theories: propagation and dispersion. Refraction of waves approaching a coast. Scattering of waves by fixed obstacles. Resonance in a harbor. Interaction of waves with one or more floating bodies. Scattering and radiation problems. Multiple scattering by periodic or randomly irregular seabed. Drift forces. Nonlinear theories: long waves in shallow water. Airy and Boussinesq approximations, subharmonic resonance of edge waves, upstream solitons. Weakly nonlinear waves in intermediate depth. Nonlinear Schroedinger equation, Benjamin-Feir instability. Radiation stresses and infragravity waves. Localization of nonlinear waves over random seabed.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.691J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.064J",
                 "1.060",
                 "2.25",
-                "13.012",
+                "2.20",
                 "1.131",
                 "18.075"
             ],
@@ -610,13 +659,49 @@
             "type":               "LectureSection",
             "label":              "L011.691",
             "lecture-section-of": "1.691",
-            "timeAndPlace":       "TR9.30-11 1-134"
+            "timeAndPlace":       "TR1-2.30 1-132"
+        },
+        {
+            "type":          "Class",
+            "label":         "Ocean Wave Interaction with Ships and Offshore Energy Systems",
+            "id":            "1.692",
+            "listing-index": "m1c-023",
+            "course":        "1",
+            "level":         "Grad",
+            "units":         "4-0-8",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Surface wave theory, conservation laws and boundary conditions, properties of regular surface waves and random ocean waves. Linearized theory of floating body dynamics, kinematic and dynamic free surface conditions, body boundary conditions. Simple harmonic motions. Diffraction and radiation problems, added mass and damping matrices. General reciprocity identities on diffraction and radiation. Ship wave resistance theory, Kelvin wake physics, ship seakeeping in regular and random waves. Discusses point wave energy absorbers, beam sea and head-sea devises, oscillating water column device and Well\\'s turbine. Discusses offshore floating energy systems and their interaction with ambient waves, current and wind, including oil and gas platforms, Liquefied Natural Gas (LNG) vessels and floating wind turbines. Homework drawn from real world applications.",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.692J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "2.24J",
+                "2.20",
+                "18.085"
+            ],
+            "in-charge":     [
+                "Sclavounos, P. D.",
+                "Mei, C. C."
+            ],
+            "area":          "Hydrodynamics and Coastal Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L011.692",
+            "lecture-section-of": "1.692",
+            "timeAndPlace":       "TR10.30-12 3-343"
         },
         {
             "type":          "Class",
             "label":         "Special Projects in Oceanographic Engineering",
             "id":            "1.699",
-            "listing-index": "m1c-022",
+            "listing-index": "m1c-024",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
@@ -646,7 +731,7 @@
             "type":          "Class",
             "label":         "Land-Atmosphere Interaction",
             "id":            "1.713",
-            "listing-index": "m1c-023",
+            "listing-index": "m1c-025",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -670,7 +755,7 @@
             "type":          "Class",
             "label":         "Surface Hydrology",
             "id":            "1.714",
-            "listing-index": "m1c-024",
+            "listing-index": "m1c-026",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -680,23 +765,17 @@
             "url":           "http://student.mit.edu/catalog/m1c.html#1.714",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "1.070J",
             "in-charge":     "Eltahir, E. A. B.",
             "area":          "Hydrology and Water Resource Systems"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.714",
-            "lecture-section-of": "1.714",
-            "timeAndPlace":       "TR2.30-4 48-308"
-        },
-        {
             "type":          "Class",
             "label":         "Environmental Data Analysis",
             "id":            "1.715",
-            "listing-index": "m1c-025",
+            "listing-index": "m1c-027",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -706,44 +785,22 @@
             "url":           "http://student.mit.edu/catalog/m1c.html#1.715",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "prereq":        "1.010",
             "in-charge":     "Eltahir, E. A. B.",
             "area":          "Hydrology and Water Resource Systems"
         },
         {
-            "type":          "Class",
-            "label":         "Techniques in Remote Sensing",
-            "id":            "1.717",
-            "listing-index": "m1c-026",
-            "course":        "1",
-            "level":         "Undergrad",
-            "units":         "1-4-1 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "",
-            "url":           "http://student.mit.edu/catalog/m1c.html#1.717J",
-            "joint":         true,
-            "semester":      "IAP",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "prereq":        [
-                "12.265J",
-                "12.565"
-            ],
-            "in-charge":     "Zuber, M.",
-            "area":          "Hydrology and Water Resource Systems"
+            "type":               "LectureSection",
+            "label":              "L011.715",
+            "lecture-section-of": "1.715",
+            "timeAndPlace":       "TR1-2.30 48-311"
         },
         {
             "type":          "Class",
             "label":         "Physical Principles of Remote Sensing",
             "id":            "1.718",
-            "listing-index": "m1c-027",
+            "listing-index": "m1c-028",
             "course":        "1",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -768,12 +825,12 @@
             "type":          "Class",
             "label":         "Groundwater Hydrology",
             "id":            "1.72",
-            "listing-index": "m1c-028",
+            "listing-index": "m1c-029",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-1-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Fundamentals of subsurface flow and transport, emphasizing the role of groundwater in the hydrologic cycle, the relation of groundwater flow to geologic structure, and the management of contaminated groundwater. Topics include: Darcy equation, flow nets, mass conservation, the aquifer flow equation, heterogeneity and anisotropy, storage properties, regional circulation, unsaturated flow, recharge, stream-aquifer interaction, well hydraulics, flow through fractured rock, numerical models, groundwater quality, contaminant transport processes, dispersion, decay, and adsorption. Includes laboratory and computer demonstrations. Core requirement for Environmental and Geoenvironmental MEng program.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.72",
             "joint":         false,
@@ -785,10 +842,23 @@
             "area":          "Hydrology and Water Resource Systems"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.72",
+            "lecture-section-of": "1.72",
+            "timeAndPlace":       "MW2.30-4 48-308"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.72",
+            "rec-section-of": "1.72",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Advanced Subsurface Hydrology",
             "id":            "1.721",
-            "listing-index": "m1c-029",
+            "listing-index": "m1c-030",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -808,39 +878,57 @@
             "area":          "Hydrology and Water Resource Systems"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.721",
-            "lecture-section-of": "1.721",
-            "timeAndPlace":       "MW2.30-4 48-308"
+            "type":          "Class",
+            "label":         "Computational Methods for Flow in Porous Media",
+            "id":            "1.723",
+            "listing-index": "m1c-031",
+            "course":        "1",
+            "level":         "Grad",
+            "units":         "9-0-3",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Covers physical, mathematical and simulation aspects of fluid flow and transport through porous media. Conservation equations for multiphase, multicomponent flow. Upscaling of parameters in heterogeneous fields. Modeling of viscous fingering and channeling. Numerical methods for elliptic equations: finite volume methods, multipoint flux approximations, mixed finite element methods, variational multiscale methods. Numerical methods for hyperbolic equations: low-order and high-order finite volume methods, streamline/front-tracking methods. Applications to groundwater contamination, oil and gas reservoir simulation, and geological CO2 sequestration, among others.",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.723",
+            "joint":         false,
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
+            "in-charge":     "Juanes, R.",
+            "area":          "Hydrology and Water Resource Systems"
         },
         {
             "type":          "Class",
             "label":         "Chemicals in the Environment: Fate and Transport",
             "id":            "1.725",
-            "listing-index": "m1c-030",
+            "listing-index": "m1c-032",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "For Institute students in all departments interested in the behavior of chemicals in the environment (see ESD listings for other subjects). Emphasis on man-made chemicals, their movement through water, air, soil, and their eventual fate. Physical transport, as well as chemical and biological sources and sinks, are discussed. Linkages to health effects, sources and control, and policy aspects. Core requirement for Environmental MEng program.",
+            "has-final":     true,
+            "description":   "For Institute students in all departments interested in the behavior of chemicals in the environment. Subject covers the movement of chemicals through water, air, and soil, and also addresses their eventual fate. Physical transport, as well as chemical and biological sources and sinks, are discussed. Emphasis on anthropogenic chemicals, though in the context of pre-existing natural chemical cycles. Linkages to health effects, sources and control, and policy aspects. Core requirement for Environmental MEng program.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.725J",
             "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "in-charge":     "Shanahan, P.",
+            "in-charge":     "Hemond, H.",
             "area":          "Hydrology and Water Resource Systems"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L011.725",
+            "lecture-section-of": "1.725",
+            "timeAndPlace":       "TR11-12.30 1-350"
         },
         {
             "type":          "Class",
             "label":         "Water Resource Systems",
             "id":            "1.731",
-            "listing-index": "m1c-031",
+            "listing-index": "m1c-033",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Survey of simulation and optimization methods for management of water resources. Linear, nonlinear, and dynamic programming illustrated with case studies. Applications include reservoir and irrigation development, conjunctive use of surface and groundwater, capacity expansion, and sustainable resource development.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.731",
             "joint":         false,
@@ -852,10 +940,16 @@
             "area":          "Hydrology and Water Resource Systems"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.731",
+            "lecture-section-of": "1.731",
+            "timeAndPlace":       "TR2.30-4 48-316"
+        },
+        {
             "type":          "Class",
             "label":         "Geological Image Interpretation",
             "id":            "1.733",
-            "listing-index": "m1c-032",
+            "listing-index": "m1c-034",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-3-6",
@@ -865,7 +959,10 @@
             "url":           "http://student.mit.edu/catalog/m1c.html#1.733J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "12.462J",
@@ -881,29 +978,32 @@
             "type":          "Class",
             "label":         "Limnology and Wetland Ecology",
             "id":            "1.75",
-            "listing-index": "m1c-033",
+            "listing-index": "m1c-035",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Examines the major physical, chemical, and biological features of lakes and wetlands: basin geology, water budget, heat balance, thermal stratification, lake circulation, energy flow, biological communities, and cycles of major elements. Explores methodologies of limnology, including field methods and use of models, applications of modern sensor technology to lake and wetland studies and current issues in lake and wetland management. Alternate years.",
+            "description":   "Examines the major physical, chemical, and biological features of lakes and wetlands: basin geology, water budget, heat balance, thermal stratification, lake circulation, energy flow, biological communities, and cycles of major elements. Explores methodologies of limnology, including field methods and use of models, applications of modern sensor technology to lake and wetland studies and current issues in lake and wetland management.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.75",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Hemond, H. F.",
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.75",
+            "lecture-section-of": "1.75",
+            "timeAndPlace":       "TR1-2.30 48-316"
+        },
+        {
             "type":          "Class",
             "label":         "Aquatic Chemistry",
             "id":            "1.76",
-            "listing-index": "m1c-034",
+            "listing-index": "m1c-036",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -913,27 +1013,22 @@
             "url":           "http://student.mit.edu/catalog/m1c.html#1.76",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.11",
-                "5.111",
-                "5.112",
-                "5.60"
-            ],
-            "in-charge":     "Staff",
+            "prereq":        "5.60",
+            "in-charge":     "Seewald, J.",
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
             "type":          "Class",
             "label":         "Water Quality Control",
             "id":            "1.77",
-            "listing-index": "m1c-035",
+            "listing-index": "m1c-037",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Emphasis on mathematical models for predicting distribution and fate of effluents discharged into lakes, reservoirs, rivers, estuaries, and oceans. Focuses on formulation and structure of models as well as analytical and simple numerical solution techniques. Role of element cycles, such as oxygen, nitrogen, and phosphorus, as water quality indicators. Offshore outfalls and diffusion. Salinity intrusion in estuaries. Thermal stratification, eutrophication, and sedimentation processes in lakes and reservoirs. Core requirement for Environmental MEng  program.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.77",
             "joint":         false,
@@ -945,16 +1040,10 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.77",
-            "lecture-section-of": "1.77",
-            "timeAndPlace":       "TR11-12.30 48-316"
-        },
-        {
             "type":          "Class",
             "label":         "Environmental Engineering MEng Project",
             "id":            "1.782",
-            "listing-index": "m1c-036",
+            "listing-index": "m1c-038",
             "course":        "1",
             "level":         "Grad",
             "units":         "5-0-10",
@@ -977,18 +1066,18 @@
             "type":               "LectureSection",
             "label":              "L011.782",
             "lecture-section-of": "1.782",
-            "timeAndPlace":       "F3-5 3-370"
+            "timeAndPlace":       "F3-5 1-390"
         },
         {
             "type":          "Class",
             "label":         "Environmental Law, Policy, and Economics: Pollution Prevention and Control",
             "id":            "1.801",
-            "listing-index": "m1c-037",
+            "listing-index": "m1c-039",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduction to important issues in contemporary environmental law, policy, and economics. Discusses the roles and interactions of Congress, federal agencies, state governments, and the courts in dealing with environmental problems. Topics include common law, administrative law, environmental impact assessments required by the National Environmental Policy Act, and legislation and court decisions dealing with air pollution, water pollution, the control of hazardous waste, pollution and accident prevention, community right-to-know, and environmental justice. Explores the role of science and economics in legal decisions, and economic incentives as an alternative or supplement to regulation. Analyzes pollution as an economic problem and a failure of markets. Introduction to basic legal skills: how to read and understand cases, regulation, and statutes; how to discover the current state of the law in a specific area; and how to take action toward resolution of environmental problems.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.801J",
             "joint":         true,
@@ -1008,16 +1097,29 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.801",
+            "lecture-section-of": "1.801",
+            "timeAndPlace":       "TR4 E51-057"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.801",
+            "rec-section-of": "1.801",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Regulation of Chemicals, Radiation, and Biotechnology",
             "id":            "1.802",
-            "listing-index": "m1c-038",
+            "listing-index": "m1c-040",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Focuses on policy design and evaluation in the regulation of hazardous substances and processes. Includes risk assessment, industrial chemicals, pesticides, food contaminants, pharmaceuticals, radiation and radioactive wastes, product safety, workplace hazards, indoor air pollution, biotechnology, victims' compensation, and administrative law. Health and economic consequences of regulation, as well as its potential to spur technological change, are discussed for each regulatory regime.",
+            "has-final":     false,
+            "description":   "Focuses on policy design and evaluation in the regulation of hazardous substances and processes. Includes risk assessment, industrial chemicals, pesticides, food contaminants, pharmaceuticals, radiation and radioactive wastes, product safety, workplace hazards, indoor air pollution, biotechnology, victims\\' compensation, and administrative law. Health and economic consequences of regulation, as well as its potential to spur technological change, are discussed for each regulatory regime.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.802J",
             "joint":         true,
             "semester":      "Spring",
@@ -1034,21 +1136,15 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.802",
-            "lecture-section-of": "1.802",
-            "timeAndPlace":       "W EVE (7-10 PM) E51-372"
-        },
-        {
             "type":          "Class",
             "label":         "Environmental Law, Policy, and Economics: Pollution Prevention and Control",
             "id":            "1.811",
-            "listing-index": "m1c-039",
+            "listing-index": "m1c-041",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Reviews and analyzes federal and state regulation of air and water pollution and hazardous wastes. Analyzes pollution as an economic problem and the failure of markets. Emphasizes use of legal mechanisms and alternative approaches (such as economic incentives and voluntary approaches) to control pollution and to encourage chemical accident and pollution prevention. Focuses on the major federal legislation, the underlying administrative system, and the common law in analyzing environmental policy, economic consequences, and the role of the courts. Discusses classical pollutants and toxic industrial chemicals, community right-to-know, and environmental justice. Also provides an introduction to basic legal skills.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.811J",
             "joint":         true,
@@ -1068,16 +1164,29 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.811",
+            "lecture-section-of": "1.811",
+            "timeAndPlace":       "TR EVE (4-6 PM) E51-057"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.811",
+            "rec-section-of": "1.811",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Regulation of Chemicals, Radiation, and Biotechnology",
             "id":            "1.812",
-            "listing-index": "m1c-040",
+            "listing-index": "m1c-042",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Focuses on policy design and evaluation in the regulation of hazardous substances and processes. Includes risk assessment, industrial chemicals, pesticides, food contaminants, pharmaceuticals, radiation and radioactive wastes, product safety, workplace hazards, indoor air pollution, biotechnology, victims' compensation, and administrative law. Health and economic consequences of regulation, as well as its potential to spur technological change, are discussed.",
+            "has-final":     false,
+            "description":   "Focuses on policy design and evaluation in the regulation of hazardous substances and processes. Includes risk assessment, industrial chemicals, pesticides, food contaminants, pharmaceuticals, radiation and radioactive wastes, product safety, workplace hazards, indoor air pollution, biotechnology, victims\\' compensation, and administrative law. Health and economic consequences of regulation, as well as its potential to spur technological change, are discussed for each regulator regime.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.812J",
             "joint":         true,
             "semester":      "Spring",
@@ -1095,22 +1204,16 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.812",
-            "lecture-section-of": "1.812",
-            "timeAndPlace":       "W EVE (7-10 PM) E51-372"
-        },
-        {
             "type":          "Class",
             "label":         "Sustainability, Trade, and the Environment",
             "id":            "1.813",
-            "listing-index": "m1c-041",
+            "listing-index": "m1c-043",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "The Schumpeterian notion of technological innovation as \"the engine of growth\" is being challenged as the globalization of trade is increasingly seen as the driving force of industrial economies. With the establishment of the World Trade Organization implementing the GATT, NAFTA, and other trading regimes, serious questions have been raised concerning the effects of global trade on sustainability, which must be viewed broadly to include not only a healthy economic base, but also a sound environment, stable employment, adequate purchasing power, distributional equity, national self-reliance, and maintenance of cultural integrity. Subject explores the many dimensions of sustainability and the use of national, multinational, and international political and legal mechanisms to further sustainable development.",
+            "description":   "The Schumpeterian notion of technological innovation as \\\u0022the engine of growth\\\u0022 is being challenged as the globalization of trade is increasingly seen as the driving force of industrial economies. With the establishment of the World Trade Organization implementing the GATT, NAFTA, and other trading regimes, serious questions have been raised concerning the effects of global trade on sustainability, which must be viewed broadly to include not only a healthy economic base, but also a sound environment, stable employment, adequate purchasing power, distributional equity, national self-reliance, and maintenance of cultural integrity. Subject explores the many dimensions of sustainability and the use of national, multinational, and international political and legal mechanisms to further sustainable development.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.813J",
             "joint":         true,
             "semester":      "Fall",
@@ -1124,10 +1227,16 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.813",
+            "lecture-section-of": "1.813",
+            "timeAndPlace":       "W3-5.30 E40-298"
+        },
+        {
             "type":          "Class",
             "label":         "Industrial Ecology",
             "id":            "1.814",
-            "listing-index": "m1c-042",
+            "listing-index": "m1c-044",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1151,16 +1260,10 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.814",
-            "lecture-section-of": "1.814",
-            "timeAndPlace":       "TR9-10.30 E51-057"
-        },
-        {
             "type":          "Class",
-            "label":         "Planning, Participation and Consensus Building for Sustainable Development",
+            "label":         "Planning, Participation, and Consensus Building for Sustainable Development",
             "id":            "1.817",
-            "listing-index": "m1c-043",
+            "listing-index": "m1c-045",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1177,10 +1280,16 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.817",
+            "lecture-section-of": "1.817",
+            "timeAndPlace":       "M10-1 5-232"
+        },
+        {
             "type":          "Class",
             "label":         "Sustainable Energy",
             "id":            "1.818",
-            "listing-index": "m1c-044",
+            "listing-index": "m1c-046",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-1-8",
@@ -1189,7 +1298,7 @@
             "description":   "Assessment of current and potential energy systems, covering extraction, conversion and end-use, with emphasis on meeting regional and global energy needs in the 21st century in a sustainable manner. Examination of energy technologies in each fuel cycle stage for fossil (oil, gas, synthetic), nuclear (fission and fusion) and renewable (solar, biomass, wind, hydro, and geothermal) energy types, along with storage, transmission, and conservation issues. Focus on evaluation and analysis of energy technology systems in the context of political, social, economic, and environmental goals. Open to upper-class undergraduates.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.818J",
             "joint":         true,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
@@ -1209,19 +1318,26 @@
             "type":               "LectureSection",
             "label":              "L011.818",
             "lecture-section-of": "1.818",
-            "timeAndPlace":       "TR3-5 3-270"
+            "timeAndPlace":       "TR3-5 4-370"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.818",
+            "rec-section-of": "1.818",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",
             "label":         "Design for Sustainability",
             "id":            "1.819",
-            "listing-index": "m1c-045",
+            "listing-index": "m1c-047",
             "course":        "1",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Teaches thought processes and quantitative tools, including life cycle assessment (LCA) and the LEED rating system, applicable to integrated/whole building design with the goal of minimizing the waste of materials, energy and water. Readings, lectures, site visits, and homework encourage systematic thinking and interdisciplinary collaboration to make sustainable design a reality. Includes a team project of students? choice, such as a conceptual design of a sustainable new building, a ?green? retrofit, or a comparative LCA.",
+            "description":   "Teaches thought processes and quantitative tools, including life cycle assessment (LCA) and the LEED rating system, applicable to integrated/whole building design with the goal of minimizing the waste of materials, energy and water. Readings, lectures, site visits, and homework encourage systematic thinking and interdisciplinary collaboration to make sustainable design a reality. Includes a team project of students\\' choice, such as a conceptual design of a sustainable new building, a \\\u0022green\\\u0022 retrofit, or a comparative LCA.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.819J",
             "joint":         true,
             "semester":      "Fall",
@@ -1236,10 +1352,16 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.819",
+            "lecture-section-of": "1.819",
+            "timeAndPlace":       "W11-1 56-114"
+        },
+        {
             "type":          "Class",
             "label":         "Problems in Environmental Microbiology and Chemistry",
             "id":            "1.82",
-            "listing-index": "m1c-046",
+            "listing-index": "m1c-048",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1272,12 +1394,12 @@
             "type":          "Class",
             "label":         "Environmental Organic Chemistry",
             "id":            "1.83",
-            "listing-index": "m1c-047",
+            "listing-index": "m1c-049",
             "course":        "1",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Focuses on the processes affecting organic compounds in the environment.  Uses physical chemical properties to predict chemical transfers between environmental compartments (air, water, sediments, and biota). Uses molecular structure-reactivity relationships to estimate chemical, photochemical, and biochemical transformation rates. Resulting process models are combined to predict environmental concentrations (and related biological exposures) of anthropogenic and natural organic compounds.  Graduate students taking 1.83 for H-level credit have additional reading and homework emphasizing structure-activity relationships.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.83",
             "joint":         false,
@@ -1293,15 +1415,27 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.83",
+            "lecture-section-of": "1.83",
+            "timeAndPlace":       "MW1-2.30 48-316"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.83",
+            "rec-section-of": "1.83",
+            "timeAndPlace":   "F2 48-316"
+        },
+        {
             "type":          "Class",
             "label":         "Environmental Organic Chemistry",
             "id":            "1.831",
-            "listing-index": "m1c-048",
+            "listing-index": "m1c-050",
             "course":        "1",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Focuses on the processes affecting organic compounds in the environment. Uses physical chemical properties to predict chemical transfers between environmental compartments (air, water, sediments, and biota). Uses molecular properties to estimate chemical, photochemical, and biochemical transformation rates. Resulting process models are combined to predict environmental concentrations (and related biological exposures) of anthropogenic and natural organic compounds.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.831",
             "joint":         false,
@@ -1316,15 +1450,27 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.831",
+            "lecture-section-of": "1.831",
+            "timeAndPlace":       "MW1-2.30 48-316"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.831",
+            "rec-section-of": "1.831",
+            "timeAndPlace":   "F2 48-316"
+        },
+        {
             "type":          "Class",
             "label":         "Water and Wastewater Treatment Engineering",
             "id":            "1.85",
-            "listing-index": "m1c-049",
+            "listing-index": "m1c-051",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Overview of engineering approaches to protect water quality with an emphasis on fundamental principals. Theory and conceptual design of systems for treating municipal wastewater and drinking water. Reactor theory, process kinetics, and models.  Physical, chemical, and biological processes, including sedimentation, filtration, biological treatment, disinfection, and sludge processing.  Engineered and natural processes for wastewater treatment.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.85",
             "joint":         false,
@@ -1335,39 +1481,126 @@
                 "1.61",
                 "1.725"
             ],
-            "in-charge":     "Shanahan, P.",
+            "in-charge":     "Staff",
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L011.85",
+            "lecture-section-of": "1.85",
+            "timeAndPlace":       "MW4-5.30 48-308"
         },
         {
             "type":          "Class",
             "label":         "Water and Sanitation Infrastructure in Developing Countries",
             "id":            "1.851",
-            "listing-index": "m1c-050",
+            "listing-index": "m1c-052",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.851J",
             "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "11.479J",
-            "in-charge":     "R8-11",
+            "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
+        },
+        {
+            "type":          "Class",
+            "label":         "Methods and Problems in Microbiology",
+            "id":            "1.86",
+            "listing-index": "m1c-053",
+            "course":        "1",
+            "level":         "Grad",
+            "units":         "3-0-9 [P/D/F]",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "Students will read and discuss primary literature covering key areas of microbial research with emphasis on methods and approaches used to understand and manipulate microbes. Limited to students in the microbiology program.",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.86J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "7.492J",
+                "20.445J"
+            ],
+            "coreq":         "7.493",
+            "in-charge":     [
+                "Samson, L.",
+                "Polz, M."
+            ],
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
             "type":               "LectureSection",
-            "label":              "L011.851",
-            "lecture-section-of": "1.851",
-            "timeAndPlace":       "R8-11 26-152"
+            "label":              "L011.86",
+            "lecture-section-of": "1.86",
+            "timeAndPlace":       [
+            ]
+        },
+        {
+            "type":          "Class",
+            "label":         "Microbial Genetics and Evolution",
+            "id":            "1.87",
+            "listing-index": "m1c-054",
+            "course":        "1",
+            "level":         "Grad",
+            "units":         "4-0-8",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Covers aspects of microbial genetic and genomic analyses, central dogma, horizontal gene transfer, and evolution.",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.87J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "7.493J",
+                "20.446J",
+                "7.03",
+                "7.05",
+                "7.28"
+            ],
+            "in-charge":     [
+                "Grossman, A.D.",
+                "Alm, E."
+            ],
+            "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L011.87",
+            "lecture-section-of": "1.87",
+            "timeAndPlace":       "TR1-3 66-160"
+        },
+        {
+            "type":          "Class",
+            "label":         "Physical Ecology at the Microscale",
+            "id":            "1.88",
+            "listing-index": "m1c-055",
+            "course":        "1",
+            "level":         "Grad",
+            "units":         "3-0-9",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Designed for students in biological and chemical sciences seeking to understand the physical constraints of life at the microscale, and students in fluid mechanics and engineering who want to explore applications of physics and fluids to biology and ecology. Topics include random walks in biology, diffusion and mass exchange, Taylor dispersion, Stokes flow, swimming at low Reynolds numbers, motility of microorganisms, chemotaxis, mechanosensing, capture mechanisms, encounter rates, small scale turbulence. Emphasis on the application of physical and fluid dynamical principles to life at the microscale in particular, but not limited to aquatic systems.",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.88",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      "Not offered this year",
+            "category":      "H-LEVEL Grad Credit",
+            "in-charge":     "Stocker, R.",
+            "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
             "type":          "Class",
             "label":         "Environmental Microbiology",
             "id":            "1.89",
-            "listing-index": "m1c-051",
+            "listing-index": "m1c-056",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1384,17 +1617,23 @@
             "area":          "Aquatic Sciences, Water Quality Control, and Environmental Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.89",
+            "lecture-section-of": "1.89",
+            "timeAndPlace":       "TR9.30-11 48-308"
+        },
+        {
             "type":          "Class",
             "label":         "Special Graduate Studies in Civil and Environmental Engineering",
-            "id":            "1.961?1.966",
-            "listing-index": "m1c-052",
+            "id":            "1.961-1.966",
+            "listing-index": "m1c-057",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "Graduate subjects taught experimentally; special subjects offered by visiting faculty; and seminars on topics of current interest.",
-            "url":           "http://student.mit.edu/catalog/m1c.html#1.961?1.966",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.961-1.966",
             "joint":         false,
             "semester":      [
                 "Fall",
@@ -1409,22 +1648,10 @@
             "area":          "Special Studies"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.961?1.966",
-            "lecture-section-of": "1.961?1.966",
-            "timeAndPlace":       "TR1-2.30 48-308"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L021.961?1.966",
-            "lecture-section-of": "1.961?1.966",
-            "timeAndPlace":       "TR2.30-4 1-375"
-        },
-        {
             "type":          "Class",
             "label":         "Graduate Studies in Civil and Environmental Engineering",
             "id":            "1.968",
-            "listing-index": "m1c-053",
+            "listing-index": "m1c-058",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1448,7 +1675,7 @@
             "type":          "Class",
             "label":         "Graduate Studies in Civil and Environmental Engineering",
             "id":            "1.969",
-            "listing-index": "m1c-054",
+            "listing-index": "m1c-059",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1472,15 +1699,15 @@
         {
             "type":          "Class",
             "label":         "Special Graduate Studies in Civil and Environmental Engineering",
-            "id":            "1.970?1.977",
-            "listing-index": "m1c-055",
+            "id":            "1.970-1.977",
+            "listing-index": "m1c-060",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m1c.html#1.970?1.977",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.970-1.977",
             "joint":         false,
             "semester":      [
                 "Fall",
@@ -1497,15 +1724,15 @@
         {
             "type":          "Class",
             "label":         "Special Graduate Studies in Civil and Environmental Engineering",
-            "id":            "1.978?1.979",
-            "listing-index": "m1c-056",
+            "id":            "1.978-1.979",
+            "listing-index": "m1c-061",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m1c.html#1.978?1.979",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.978-1.979",
             "joint":         false,
             "semester":      [
                 "Fall",
@@ -1522,7 +1749,7 @@
             "type":          "Class",
             "label":         "Research in Civil and Environmental Engineering",
             "id":            "1.982",
-            "listing-index": "m1c-057",
+            "listing-index": "m1c-062",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1547,7 +1774,7 @@
             "type":          "Class",
             "label":         "Teaching in Civil and Environmental Engineering",
             "id":            "1.983",
-            "listing-index": "m1c-058",
+            "listing-index": "m1c-063",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1572,7 +1799,7 @@
             "type":          "Class",
             "label":         "Teaching Experience in Environmental Engineering",
             "id":            "1.984",
-            "listing-index": "m1c-059",
+            "listing-index": "m1c-064",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1596,7 +1823,7 @@
             "type":          "Class",
             "label":         "Special Undergraduate Studies in Civil and Environmental Engineering",
             "id":            "1.991, 1.992",
-            "listing-index": "m1c-060",
+            "listing-index": "m1c-065",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1619,15 +1846,15 @@
         {
             "type":          "Class",
             "label":         "Special Undergraduate Studies in Civil and Environmental Engineering",
-            "id":            "1.993?1.995",
-            "listing-index": "m1c-061",
+            "id":            "1.993-1.995",
+            "listing-index": "m1c-066",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m1c.html#1.993?1.995",
+            "url":           "http://student.mit.edu/catalog/m1c.html#1.993-1.995",
             "joint":         false,
             "semester":      [
                 "Fall",
@@ -1645,7 +1872,7 @@
             "type":          "Class",
             "label":         "Undergraduate Studies in Civil and Environmental Engineering",
             "id":            "1.999",
-            "listing-index": "m1c-062",
+            "listing-index": "m1c-067",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1669,13 +1896,13 @@
             "type":          "Class",
             "label":         "UPOP Summer Practice Experience",
             "id":            "1.EPE",
-            "listing-index": "m1c-063",
+            "listing-index": "m1c-068",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "0-1-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering students, typically sophomores, the opportunity to participate in engineering practice.  Students gain experience with recruitment and job selection, the job experience, and the assessment and reflection process. Spring term includes seminars and workshops in preparation for internship and management of career path.  With the assistance of UPOP staff, students find and engage in a 10-12 week summer job experience, during which they maintain a journal of their experiences.  In the Fall term, students write essays addressing the topics introduced in UPOP EPW workshop during IAP, complete a post-summer self-evaluation form, and discuss these forms with their regular academic advisor. Students have the opportunity to share their experiences with others in a roundtable discussion.  Can be taken up to two times for credit. Spring term can only be taken in conjunction with the Fall term.",
+            "description":   "Immerses engineering sophomores in the world of professional engineering experience by providing guided instruction in all aspects of the job acquisition process. Students complete a 10-12 week internship assignment during the summer, which includes maintaining a structured journal of observations and experiences, meeting with UPOP staff members, writing essays, and completing a self-evaluation. May be repeated twice for credit; spring term can be taken only in conjunction with fall term.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.EPE",
             "joint":         false,
             "semester":      [
@@ -1695,20 +1922,20 @@
                 "22.EPE",
                 "2.EPW"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "area":          "Special Studies"
         },
         {
             "type":          "Class",
             "label":         "UPOP Reflective Learning Experience",
             "id":            "1.EPR",
-            "listing-index": "m1c-064",
+            "listing-index": "m1c-069",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "0-0-3 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering sophomores the opportunity to reflect and share their summer practice experiences as related to the topics of the IAP subject and students' academic subjects through a written report and an oral presentation delivered at a UPOP Symposium in the fall.",
+            "description":   "Reflective learning experiences for engineering juniors that serve as the culmination of their sophomore year in the UPOP program. Students review their internship experiences through written and oral presentations and receive small-group and individualized coaching to reinforce the cognitive link between all aspects of the UPOP experience and their disciplinary field of study.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.EPR",
             "joint":         false,
             "semester":      "Fall",
@@ -1722,20 +1949,20 @@
                 "22.EPR",
                 "2.EPE"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "area":          "Special Studies"
         },
         {
             "type":          "Class",
             "label":         "UPOP IAP Workshop",
             "id":            "1.EPW",
-            "listing-index": "m1c-065",
+            "listing-index": "m1c-070",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-0-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering sophomores the opportunity to build the core foundation of skills necessary to succeed in and prepare for a summer practice experience. Introduces concepts in product development, system dynamics, organizational dynamics, and effective communication. Also introduces concepts in ethics and character, and leadership and teamwork to ensure that students acquire an appreciation of the social, environmental, and ethical implications of organizational decision making. Subject is an interactive experience integrating lectures with role-playing, simulations, and group projects, where students apply these concepts in a case study context. Students are provided with a journal to be used during their summer training practice. Limited enrollment.",
+            "description":   "Introduction to professional development skills for engineering practice. Experiential learning modules prepare sophomores for success in summer internship and beyond. Faculty and senior engineering professionals recruited from industry guide teams through learning activities, which include creative simulations, team competitions, oral presentations, and group problem-solving. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/m1c.html#1.EPW",
             "joint":         false,
             "semester":      "IAP",
@@ -1749,14 +1976,14 @@
                 "16.EPW",
                 "22.EPW"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "area":          "Special Studies"
         },
         {
             "type":          "Class",
             "label":         "Graduate Thesis",
             "id":            "1.ThG",
-            "listing-index": "m1c-066",
+            "listing-index": "m1c-071",
             "course":        "1",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1781,7 +2008,7 @@
             "type":          "Class",
             "label":         "Undergraduate Thesis",
             "id":            "1.ThU",
-            "listing-index": "m1c-067",
+            "listing-index": "m1c-072",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1807,7 +2034,7 @@
             "type":          "Class",
             "label":         "Research in Civil and Environmental Engineering",
             "id":            "1.UR",
-            "listing-index": "m1c-068",
+            "listing-index": "m1c-073",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "Unknown",

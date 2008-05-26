@@ -23,12 +23,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.001",
-            "lecture-section-of": "4.001",
-            "timeAndPlace":       "TR11-12.30 9-251"
-        },
-        {
             "type":          "Class",
             "label":         "Drawing for Architects",
             "id":            "4.102",
@@ -43,11 +37,8 @@
             "joint":         false,
             "semester":      "IAP",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "4.111",
-                "4.101"
-            ],
-            "in-charge":     "Paturzo, Paul"
+            "prereq":        "4.111",
+            "in-charge":     "Paturzo, P."
         },
         {
             "type":          "Class",
@@ -56,15 +47,21 @@
             "listing-index": "m4a-002",
             "course":        "4",
             "level":         "Grad",
-            "units":         "2-2-8",
-            "total-units":   12,
+            "units":         "2-2-5",
+            "total-units":   9,
             "has-final":     false,
-            "description":   "Focuses on representation tools used by architects during the design process and attempts to discuss the relationship they develop with the object of design. Teaches how to translate an intension to its concrete version, through the use of representation devices. Subject spans two semesters and  establishes a reciprocal relationship with the design studio. In the fall semester, students focus on manual representation tools, such as graphic layouts, physical model making, drafting of architectural plans, sections and perspectives. In the spring semester, students focus on digital media, which has redefined the design process. Required of and restricted to level one MArch students.",
+            "description":   "Focuses on representation tools used by architects during the design process and attempts to discuss the relationship they develop with the object of design. Teaches how to translate an intension to its concrete version, through the use of representation devices. Subject spans two semesters and  establishes a reciprocal relationship with the design studio. In the fall semester, students focus on manual representation tools, such as graphic layouts, physical model making, drafting of architectural plans, sections and perspectives. In the spring semester, students focus on digital media, which has redefined the design process. Restricted to level one MArch students.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.105",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     "Staff, Architecture Design"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.105",
+            "lecture-section-of": "4.105",
+            "timeAndPlace":       "MW9-11 1-246"
         },
         {
             "type":          "Class",
@@ -73,25 +70,16 @@
             "listing-index": "m4a-003",
             "course":        "4",
             "level":         "Grad",
-            "units":         "2-2-8",
-            "total-units":   12,
+            "units":         "2-2-5",
+            "total-units":   9,
             "has-final":     false,
-            "description":   "Focuses on representation tools used by architects during the design process and attempts to discuss the relationship they develop with the object of design. Teaches how to translate an intension to its concrete version, through the use of representation devices. Subject spans two semesters and  establishes a reciprocal relationship with the design studio. In the fall semester, students focus on manual representation tools, such as graphic layouts, physical model making, drafting of architectural plans, sections and perspectives. In the spring semester, students focus on digital media, which has redefined the design process. Required of and restricted to level one MArch students.",
+            "description":   "Focuses on representation tools used by architects during the design process and attempts to discuss the relationship they develop with the object of design. Teaches how to translate an intension to its concrete version, through the use of representation devices. Subject spans two semesters and  establishes a reciprocal relationship with the design studio. In the fall semester, students focus on manual representation tools, such as graphic layouts, physical model making, drafting of architectural plans, sections and perspectives. In the spring semester, students focus on digital media, which has redefined the design process. Restricted to level one MArch students.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.106",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "4.105",
-            "in-charge":     "Lamere, Joel"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.106",
-            "lecture-section-of": "4.106",
-            "timeAndPlace":       [
-                "M EVE (5.30-7 PM) 1-273",
-                "W9.30-11 1-273"
-            ]
+            "in-charge":     "Staff, Architecture Design"
         },
         {
             "type":          "Class",
@@ -108,11 +96,14 @@
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "4.104",
-                "4.113"
-            ],
+            "prereq":        "4.113",
             "in-charge":     "Staff, Architecture Design"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.108",
+            "lecture-section-of": "4.108",
+            "timeAndPlace":       "M3-5 9-255"
         },
         {
             "type":          "Class",
@@ -124,7 +115,7 @@
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     true,
-            "description":   "Uses scale models to design environments that orchestrate contrasting material properties and conventional constructional systems to create places that foster specific ways of inhabiting space. Demonstrates how architecture differs from other forms of design. Intended for students to test aptitude for architectural design and to experience an unfamiliar mode of thought. Conducted in a studio format, with lectures on architectural theory and history, and structured for students with no previous experience in design. Required of Course 4 majors.",
+            "description":   "Uses drawings, scale models, and computer simulations to design environments that orchestrate contrasting material properties  to create places that foster specific ways of inhabiting space. Gives an experience of designing as a mode of creative thought. Intended for students who wish to test their aptitude for architectural design. Conducted in a studio format, with lectures on architectural theory and history. Structured for students with no previous experience in design.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.111",
             "joint":         false,
             "semester":      [
@@ -143,13 +134,16 @@
             "level":         "Undergrad",
             "units":         "3-3-6",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Second undergraduate design studio. Design within the context of structures, building technology, visual arts, computation and architectural history through several short design projects. Develop and present design solutions through the use of models, drawings, sketching and 3D computer modeling. Studio format with a combination of lectures and guided work.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.112",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        "4.111",
+            "prereq":        [
+                "4.111",
+                "4.12A"
+            ],
             "in-charge":     "Staff, Architecture Design"
         },
         {
@@ -161,17 +155,17 @@
             "level":         "Undergrad",
             "units":         "3-6-6",
             "total-units":   15,
-            "has-final":     true,
-            "description":   "Third undergraduate design studio. Introduces a full range of architectural ideas and issues through drawing exercises, sketch models, analysis of precedents, and explored design methods. Skills developed in conceptualizing, articulating, and representing architectural ideas and making aesthetic judgments about building design. Discussions regarding architecture's role in mediating culture, nature, and technology help develop architectural vocabulary. Special emphasis on both oral and written communication skills is intended to help students effectively convey design concepts. Open to sophomores, juniors, and seniors only. Preference to Course 4 majors and minors.",
+            "has-final":     false,
+            "description":   "Third undergraduate design studio. Offers several small-scale studio problems that build on the development of space, scale, structure, light, site and program. Introduces several architectural ideas and issues through drawing exercises, models, analysis of precedents, and explored design methods. Skills developed in conceptualizing, articulating, and representing architectural ideas and making aesthetic judgments about building design. Preference to Course 4 majors and minors.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.113",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
-                "4.101",
-                "4.111"
+                "4.112",
+                "4.12A"
             ],
-            "in-charge":     "Mehrotra, N."
+            "in-charge":     "Correa-Mehrotra, N."
         },
         {
             "type":          "Class",
@@ -182,8 +176,8 @@
             "level":         "Undergrad",
             "units":         "0-12-9",
             "total-units":   21,
-            "has-final":     false,
-            "description":   "Fourth undergraduate design studio. Learn to build appropriately through analysis of landscape and climate for a chosen site. Conceptualize design decisions through drawings and models. Preference to Course 4 majors and minors. Mandatory lottery.",
+            "has-final":     true,
+            "description":   "Fourth undergraduate design studio. Learn to build appropriately through analysis of landscape and climate for a chosen site. Conceptualize design decisions through drawings and models. Instruction and practice in oral and written communication provided. Preference to Course 4 majors and minors. Mandatory lottery.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.114",
             "joint":         false,
             "semester":      "Fall",
@@ -210,7 +204,7 @@
             "level":         "Undergrad",
             "units":         "0-12-9",
             "total-units":   21,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Fifth undergraduate design studio. Introduces skills needed to build within contemporary cities, extending from the historical center to expanding edges. Analyze an existing environment and design a built structure that fosters relationships between its intended activities and the larger urban territory and redefines the urban environment. Design project emphasizes issues of housing. Preference to Course 4 majors. Mandatory lottery.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.115",
             "joint":         false,
@@ -228,7 +222,7 @@
             "level":         "Undergrad",
             "units":         "0-12-9",
             "total-units":   21,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Sixth undergraduate design studio. Projects develop the design skills and the experience of both theoretical and pragmatic issues facing the architect. Focus on how architecture creates environments for living, working, and learning in varied settings and with complex programmatic needs in an international setting. Integrates environmental and climatic concerns, structure and constructional parameters. Preference to Course 4 majors. Mandatory lottery.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.116",
             "joint":         false,
@@ -255,7 +249,14 @@
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "in-charge":     "Wampler, J."
+            "prereq":        "4.115",
+            "in-charge":     "Staff, Architecture Design"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.119",
+            "lecture-section-of": "4.119",
+            "timeAndPlace":       "R10 9-255"
         },
         {
             "type":          "Class",
@@ -264,10 +265,10 @@
             "listing-index": "m4a-012",
             "course":        "4",
             "level":         "Undergrad",
-            "units":         "0-6-0",
-            "total-units":   6,
+            "units":         "0-6-3",
+            "total-units":   9,
             "has-final":     false,
-            "description":   "The process of making and building is an integral part of designing. Study space design through material exploration and building techniques. Interactive architecture design workshop to help understand the logistics of bulding and designing. Study different kinds of spaces and build a design project by joining wood, forging and welding steel, and casting concrete.",
+            "description":   "The process of making is an integral part of designing. Study space design through material exploration and building techniques. Interactive architecture design workshop to help understand the logistics of designing. Study different kinds of spaces and develop a design project by joining wood, forging and welding steel, and casting concrete.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.122",
             "joint":         false,
             "semester":      "Spring",
@@ -316,8 +317,11 @@
             "joint":         false,
             "semester":      "IAP",
             "offering":      "Currently Offered",
-            "prereq":        "4.111",
-            "in-charge":     "Watson, Angela"
+            "prereq":        [
+                "4.111",
+                "4.112"
+            ],
+            "in-charge":     "Staff, Architecture Design"
         },
         {
             "type":          "Class",
@@ -326,24 +330,21 @@
             "listing-index": "m4a-015",
             "course":        "4",
             "level":         "Grad",
-            "units":         "0-12-9",
+            "units":         "0-10-11",
             "total-units":   21,
             "has-final":     false,
-            "description":   "Projects develop the design skills and the experience of both theoretical and pragmatic issues facing the architect. Fall term studios focus on learning about the material and tectonic aspects of architectural production, especially as they influence the generative ideas of form. Spring studios center upon learning how architecture creates environments for living, working, and learning in varied settings and with complex programmatic needs. Both terms integrate environmental and climatic concerns, structure and constructional parameters. Students must choose design studio through a lottery process.",
+            "description":   "Emphasizes setting of architectural work as part of an organized community in projects having to do with built-up areas, as well as those on new sites. Studies plan for long-range development, giving students increasing experience in the analysis of real-life situations requiring program research. Mandatory lottery process.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.143, 4.144",
             "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
+            "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "4.124",
-                "4.126"
+                "4.156",
+                "4.143"
             ],
             "in-charge":     "Staff, Architectural Design"
         },
@@ -354,22 +355,22 @@
             "listing-index": "m4a-016",
             "course":        "4",
             "level":         "Grad",
-            "units":         "0-12-9",
+            "units":         "0-10-11",
             "total-units":   21,
             "has-final":     false,
-            "description":   "Emphasizes setting of architectural work as part of an organized community in projects having to do with built-up areas, as well as those on new sites. Studies plan for long-range development, giving students increasing experience in the analysis of real-life situations requiring program research. Students must choose design studio through a lottery process.",
+            "description":   "Emphasizes setting of architectural work as part of an organized community in projects having to do with built-up areas, as well as those on new sites. Studies plan for long-range development, giving students increasing experience in the analysis of real-life situations requiring program research. Mandatory lottery process",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.155, 4.156",
             "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
+            "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "4.144",
+            "prereq":        [
+                "4.144",
+                "4.155"
+            ],
             "in-charge":     "Staff, Architectural Design"
         },
         {
@@ -399,7 +400,7 @@
                 "Beinart, J.",
                 "Monchaux, J. P. de",
                 "Dennis, M.",
-                "D'Hooghe, A."
+                "D\\'Hooghe, A."
             ]
         },
         {
@@ -417,15 +418,15 @@
             "joint":         false,
             "semester":      "Fall",
             "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "4.144",
             "in-charge":     [
                 "Wampler, J.",
-                "Frenchman, D.",
-                "Chang, Y. H."
+                "Frenchman, D."
             ]
         },
         {
@@ -444,6 +445,7 @@
             "semester":      [
                 "Fall",
                 "Spring",
+                "Fall",
                 "Spring"
             ],
             "offering":      [
@@ -471,6 +473,12 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Dennis, M."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.175",
+            "lecture-section-of": "4.175",
+            "timeAndPlace":       "MW2-5 Unknown"
         },
         {
             "type":          "Class",
@@ -508,19 +516,8 @@
             "type":               "LectureSection",
             "label":              "L014.180",
             "lecture-section-of": "4.180",
-            "timeAndPlace":       "TR11-1 N51-160"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L024.180",
-            "lecture-section-of": "4.180",
-            "timeAndPlace":       "R EVE (7-10 PM) 9-250"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L034.180",
-            "lecture-section-of": "4.180",
-            "timeAndPlace":       "T EVE (7-10 PM) 9-250"
+            "timeAndPlace":       [
+            ]
         },
         {
             "type":          "Class",
@@ -532,28 +529,42 @@
             "units":         "3-1-5",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Analytical review of previous work leading to a proposition for thesis topic, definition of method of approach, and preparation of thesis proposal. Students explore methods of thinking about and representing the work. Through a critical assessment of their existing portfolio, students are challenged to articulate design theses and interests in past projects. Group study supplemented by individual conference with faculty. Required of and restricted to MArch students.",
+            "description":   "Preparatory work and research leading to a well-conceived proposition for the MArch design thesis. Students formulate a cohesive thesis argument and project using supportive research and case studies through a variety of representational media, critical traditions and architectural/artistic conventions. The thesis project is the culminating point of students? educational training as creative designers and entrepreneurs on the verge of entering the profession. Group study in seminar and studio format, with periodic reviews supplemented by conference with faculty and designated committee members for each individual thesis. Restricted to MArch students.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.189",
             "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
             ],
-            "offering":      "Currently Offered",
+            "offering":      [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Dutta, A."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.189",
-            "lecture-section-of": "4.189",
-            "timeAndPlace":       "F9-12 5-217"
+            "type":          "Class",
+            "label":         "Practical Experience in Architecture",
+            "id":            "4.190",
+            "listing-index": "m4a-023",
+            "course":        "4",
+            "level":         "Grad",
+            "units":         "0-0-3 [P/D/F]",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "Practical experience through summer internships secured by the student in the field of architecture, urbanism, digital design, art, or building technology.",
+            "url":           "http://student.mit.edu/catalog/m4a.html#4.190",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "in-charge":     "Staff"
         },
         {
             "type":          "Class",
             "label":         "Special Problems in Architectural Design",
             "id":            "4.191, 4.192",
-            "listing-index": "m4a-023",
+            "listing-index": "m4a-024",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -587,15 +598,39 @@
         },
         {
             "type":          "Class",
-            "label":         "The Once and Future City",
-            "id":            "4.211",
-            "listing-index": "m4a-024",
+            "label":         "Analysis of Contemporary Architecture",
+            "id":            "4.205",
+            "listing-index": "m4a-025",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Examines the evolving structure of cities, the dynamic processes that shape them, and the significance of a city's history for its future development. Develops the ability to read urban form as an interplay of natural processes and human purposes over time. Field assignments in Boston provide the opportunity to use, develop, and refine these concepts. Enrollment limited.",
+            "description":   "Explores pivotal events and buildings that have shaped today\\'s understanding and approach to contemporary architecture. Emphasis placed on buildings and works of individual architects, as given from a practicing architect\\'s perspective. Site visits used to help evaluate a building\\'s significance or lack thereof. Students analyze these buildings through drawing, modeling, reading, and writing. Provides a general framework in which to understand contemporary architectural design and to build a visual vocabulary to help communicate more effectively about design.",
+            "url":           "http://student.mit.edu/catalog/m4a.html#4.205",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "category":      "HASS Elective",
+            "in-charge":     "Chen, D."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.205",
+            "lecture-section-of": "4.205",
+            "timeAndPlace":       "TR11-12.30 5-233"
+        },
+        {
+            "type":          "Class",
+            "label":         "The Once and Future City",
+            "id":            "4.211",
+            "listing-index": "m4a-026",
+            "course":        "4",
+            "level":         "Undergrad",
+            "units":         "3-0-9",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Examines the evolving structure of cities, the dynamic processes that shape them, and the significance of a city\\'s history for its future development. Develops the ability to read urban form as an interplay of natural processes and human purposes over time. Field assignments in Boston provide the opportunity to use, develop, and refine these concepts. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.211J",
             "joint":         true,
             "semester":      "Spring",
@@ -611,7 +646,7 @@
             "type":          "Class",
             "label":         "Advanced Seminar: Urban Nature and City Design",
             "id":            "4.213",
-            "listing-index": "m4a-025",
+            "listing-index": "m4a-027",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -627,10 +662,16 @@
             "in-charge":     "Spirn, A."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.213",
+            "lecture-section-of": "4.213",
+            "timeAndPlace":       "M2-5 10-401"
+        },
+        {
             "type":          "Class",
             "label":         "Sites in Sight: Photographing the Urban Landscape",
             "id":            "4.215",
-            "listing-index": "m4a-026",
+            "listing-index": "m4a-028",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -648,7 +689,7 @@
             "type":          "Class",
             "label":         "Special Problems in Urban Housing",
             "id":            "4.218, 4.219",
-            "listing-index": "m4a-027",
+            "listing-index": "m4a-029",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -668,7 +709,7 @@
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Dennis, M.",
-                "D'Hooghe, A.",
+                "D\\'Hooghe, A.",
                 "Goethert, R."
             ]
         },
@@ -676,7 +717,7 @@
             "type":          "Class",
             "label":         "Urban Housing: Paris, London, New York",
             "id":            "4.220",
-            "listing-index": "m4a-028",
+            "listing-index": "m4a-030",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -694,16 +735,22 @@
             "in-charge":     "Dennis, M."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.220",
+            "lecture-section-of": "4.220",
+            "timeAndPlace":       "M EVE (6-9 PM) 5-216"
+        },
+        {
             "type":          "Class",
             "label":         "Architecture Studies Faculty Colloquium",
             "id":            "4.221",
-            "listing-index": "m4a-029",
+            "listing-index": "m4a-031",
             "course":        "4",
             "level":         "Grad",
             "units":         "2-0-1",
             "total-units":   3,
             "has-final":     false,
-            "description":   "Required subject for all first-year SMArchS students. Presentations by departmental faculty on a theme derived from their research or practice followed by discussion. Requirements include active student participation and a final paper reviewing the theoretical issues raised by the colloquium presentations in the context of the research topic of the student.",
+            "description":   "Presentations by departmental faculty on a theme derived from their research or practice followed by discussion. Requirements include active student participation and a final paper reviewing the theoretical issues raised by the colloquium presentations in the context of the research topic of the student.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.221",
             "joint":         false,
             "semester":      "Fall",
@@ -711,16 +758,22 @@
             "in-charge":     "Staff"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.221",
+            "lecture-section-of": "4.221",
+            "timeAndPlace":       "R12.30-2 1-135"
+        },
+        {
             "type":          "Class",
             "label":         "Professional Practice",
             "id":            "4.222",
-            "listing-index": "m4a-030",
+            "listing-index": "m4a-032",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-3",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Gives a critical orientation toward a career in architectural practice. Uses historical and current examples to illustrate the legal and ethical concepts underlying present practice, and from them, to trace the possible trajectories of future practice. Required of MArch students.",
+            "description":   "Gives a critical orientation toward a career in architectural practice. Uses historical and current examples to illustrate the legal and ethical concepts underlying present practice, and from them, to trace the possible trajectories of future practice.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.222",
             "joint":         false,
             "semester":      "Fall",
@@ -729,35 +782,16 @@
             "in-charge":     "Hubbard, B."
         },
         {
-            "type":          "Class",
-            "label":         "Special Interest Group in Urban Settlements: SIGUS Workshops",
-            "id":            "4.23",
-            "listing-index": "m4a-031",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Interactive interdisciplinary workshops which focus on projects and practices on urban settlement issues in developing countries throughout the world. Participation by guest practitioners.",
-            "url":           "http://student.mit.edu/catalog/m4a.html#4.23J",
-            "joint":         true,
-            "semester":      [
-                "IAP",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "11.465J",
-            "in-charge":     "Goethert, R."
+            "type":               "LectureSection",
+            "label":              "L014.222",
+            "lecture-section-of": "4.222",
+            "timeAndPlace":       "F2-5 1-135"
         },
         {
             "type":          "Class",
             "label":         "SIGUS Workshop: Learning from Communities",
             "id":            "4.230",
-            "listing-index": "m4a-032",
+            "listing-index": "m4a-033",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -780,27 +814,6 @@
         },
         {
             "type":          "Class",
-            "label":         "Sustainable Settlement Design in Developing Countries",
-            "id":            "4.235",
-            "listing-index": "m4a-033",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Explores physical planning issues in low-income housing developments. Topics structured around measurement, modeling and prediction of design interventions, using evaluation as an entry to understanding good practice.",
-            "url":           "http://student.mit.edu/catalog/m4a.html#4.235",
-            "joint":         false,
-            "semester":      [
-                "IAP",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Goethert, R."
-        },
-        {
-            "type":          "Class",
             "label":         "Structuring Low-Income Housing Projects in Developing Countries",
             "id":            "4.236",
             "listing-index": "m4a-034",
@@ -808,7 +821,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Examines dynamic relationship among key actors: beneficiaries, government, and funder. Emphasis on cost recovery, affordability, replicability, user selection, and project administration. Extensive case examples provide basis for comparisons.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.236J",
             "joint":         true,
@@ -819,6 +832,12 @@
             "in-charge":     "Goethert, R."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.236",
+            "lecture-section-of": "4.236",
+            "timeAndPlace":       "MW11-12.30 1-371"
+        },
+        {
             "type":          "Class",
             "label":         "The New Practitioner: Dialogue Tools and Techniques",
             "id":            "4.237",
@@ -827,7 +846,7 @@
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Explores a new paradigm of practice that considers dialogue essential for efficacious and creative design process. Focus on non-traditional client groups: communities, the poor, and the generally excluded middle-income. Stress on exercises and extensive field visits. Supplemented with background readings and presentations by invited professionals.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.237",
             "joint":         false,
@@ -835,19 +854,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Goethert, R."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.237",
-            "lecture-section-of": "4.237",
-            "timeAndPlace":       "TR11-12.30 9-255"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R024.237",
-            "rec-section-of": "4.237",
-            "timeAndPlace":   [
-            ]
         },
         {
             "type":          "Class",
@@ -866,6 +872,18 @@
             "offering":      "Currently Offered",
             "prereq":        "11.328J",
             "in-charge":     "Ben-Joseph, E."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.240",
+            "lecture-section-of": "4.240",
+            "timeAndPlace":       "F9-12.30 10-485"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R024.240",
+            "rec-section-of": "4.240",
+            "timeAndPlace":   "W EVE (6-9 PM) 10-485"
         },
         {
             "type":          "Class",
@@ -895,12 +913,6 @@
             "in-charge":     "Beinart, J."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.241",
-            "lecture-section-of": "4.241",
-            "timeAndPlace":       "TR12.30-2 3-133"
-        },
-        {
             "type":          "Class",
             "label":         "Advanced Seminar in City Form",
             "id":            "4.242",
@@ -927,6 +939,12 @@
             "in-charge":     "Beinart, J."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.242",
+            "lecture-section-of": "4.242",
+            "timeAndPlace":       "F12-2 5-216"
+        },
+        {
             "type":          "Class",
             "label":         "Media Technology and City Design and Development",
             "id":            "4.243",
@@ -940,7 +958,10 @@
             "url":           "http://student.mit.edu/catalog/m4a.html#4.243J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        "11.310J",
             "in-charge":     [
                 "Spirn, A.",
@@ -967,12 +988,6 @@
                 "Frenchman, D.",
                 "Silberberg, S."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.244",
-            "lecture-section-of": "4.244",
-            "timeAndPlace":       "W9-11 10-485"
         },
         {
             "type":          "Class",
@@ -1040,12 +1055,6 @@
             "in-charge":     "Schuster, J. M."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.247",
-            "lecture-section-of": "4.247",
-            "timeAndPlace":       "M10-12 10-485"
-        },
-        {
             "type":          "Class",
             "label":         "Special Problems in City Form",
             "id":            "4.248, 4.249",
@@ -1070,7 +1079,7 @@
             "in-charge":     [
                 "Beinart, J.",
                 "Dennis, M.",
-                "D'Hooghe, A."
+                "D\\'Hooghe, A."
             ]
         },
         {
@@ -1082,7 +1091,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Examines the evolving structure of cities and the way that cities, suburbs, and metropolitan areas can be designed and developed. Boston and other American cities studied to see how physical, social, political and economic forces interact to shape and reshape cities over time.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.250J",
             "joint":         true,
@@ -1091,6 +1100,12 @@
             "category":      "HASS Elective",
             "prereq":        "11.001J",
             "in-charge":     "Staff"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.250",
+            "lecture-section-of": "4.250",
+            "timeAndPlace":       "TR9.30-11 1-277"
         },
         {
             "type":          "Class",
@@ -1111,6 +1126,12 @@
             "in-charge":     "Frenchman, D."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.252",
+            "lecture-section-of": "4.252",
+            "timeAndPlace":       "TR10.30-12 W31-301"
+        },
+        {
             "type":          "Class",
             "label":         "Urban Design Politics",
             "id":            "4.253",
@@ -1124,7 +1145,7 @@
             "url":           "http://student.mit.edu/catalog/m4a.html#4.253J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "11.302J",
             "in-charge":     "Vale, L."
@@ -1152,12 +1173,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.254",
-            "lecture-section-of": "4.254",
-            "timeAndPlace":       "MW2.30-5.30 10-485"
-        },
-        {
             "type":          "Class",
             "label":         "Site and Urban Systems Planning",
             "id":            "4.255",
@@ -1174,12 +1189,6 @@
             "offering":      "Currently Offered",
             "prereq":        "11.304J",
             "in-charge":     "Ben-Joseph, E."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.255",
-            "lecture-section-of": "4.255",
-            "timeAndPlace":       "MW12.30-2 10-485"
         },
         {
             "type":          "Class",
@@ -1202,12 +1211,6 @@
                 "17.550J"
             ],
             "in-charge":     "Kim, A. M."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.257",
-            "lecture-section-of": "4.257",
-            "timeAndPlace":       "M2-5 10-401"
         },
         {
             "type":          "Class",
@@ -1234,7 +1237,7 @@
             "in-charge":     [
                 "Beinart, J.",
                 "Dennis, M.",
-                "D'Hooghe, A."
+                "D\\'Hooghe, A."
             ]
         },
         {
@@ -1247,11 +1250,11 @@
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Advanced seminar about an architectural approach to the problems of disurbanization. Focuses on texts and projects of a particular lineage of architects and planners, who are pursuing 'metropolitan urbanity' through a series of concrete, discrete, tangible interventions from 1944 to 1999. Studies the organization of flows and the articulation of public spaces within various projects seeking a definition of \"urbanity\" using analytical diagrams. Relates this architectural definition to more theoretical definitions in philosophy and anthropology.",
+            "description":   "Advanced seminar about an architectural approach to the problems of disurbanization. Focuses on texts and projects of a particular lineage of architects and planners, who are pursuing \\'metropolitan urbanity\\' through a series of concrete, discrete, tangible interventions from 1944 to 1999. Studies the organization of flows and the articulation of public spaces within various projects seeking a definition of \\\u0022urbanity\\\u0022 using analytical diagrams. Relates this architectural definition to more theoretical definitions in philosophy and anthropology.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.262J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "11.311J",
@@ -1259,7 +1262,7 @@
                 "4.241J",
                 "11.330J"
             ],
-            "in-charge":     "D'Hooghe, A."
+            "in-charge":     "D\\'Hooghe, A."
         },
         {
             "type":          "Class",
@@ -1295,7 +1298,7 @@
             "units":         "0-0-6 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Work in an architect's office to gain experience, improve skills, and see the inner workings of an everyday architectural practice. Internships in all sizes of firms and in public and nonprofit agencies. Internships require full-time work for the entire IAP.",
+            "description":   "Work in an architect\\'s office to gain experience, improve skills, and see the inner workings of an everyday architectural practice. Internships in all sizes of firms and in public and nonprofit agencies. Internships require full-time work for the entire IAP.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.280",
             "joint":         false,
             "semester":      "IAP",
@@ -1303,7 +1306,7 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "prereq":        "4.125",
+            "prereq":        "4.114",
             "in-charge":     "Fernandez, J."
         },
         {
@@ -1328,22 +1331,13 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Fernandez, J.",
-                "Jarzombek, M."
-            ]
+            "in-charge":     "Staff"
         },
         {
             "type":               "LectureSection",
             "label":              "L014.285, 4.286",
             "lecture-section-of": "4.285, 4.286",
-            "timeAndPlace":       "W9.30-12.30 5-216"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L024.285, 4.286",
-            "lecture-section-of": "4.285, 4.286",
-            "timeAndPlace":       "F9-12 1-134"
+            "timeAndPlace":       "MW9-12 9-250"
         },
         {
             "type":          "Class",
@@ -1355,7 +1349,7 @@
             "units":         "0-0-6 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Work in an architect's office to gain experience, improve skills, and see the inner workings of an everyday architectural practice. Internships in all sizes of firms and in public and nonprofit agencies. Internships require full-time work for the entire IAP.",
+            "description":   "Work in an architect\\'s office to gain experience, improve skills, and see the inner workings of an everyday architectural practice. Internships in all sizes of firms and in public and nonprofit agencies. Internships require full-time work for the entire IAP.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.287",
             "joint":         false,
             "semester":      "IAP",
@@ -1381,12 +1375,22 @@
             "joint":         false,
             "semester":      [
                 "Fall",
-                "Spring"
+                "Spring",
+                "Summer"
             ],
-            "offering":      "Currently Offered",
+            "offering":      [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "4.290",
             "in-charge":     "Staff, Architecture Studies"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.288",
+            "lecture-section-of": "4.288",
+            "timeAndPlace":       "F2-5 9-255"
         },
         {
             "type":          "Class",
@@ -1416,7 +1420,7 @@
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Supplementary work on individual or group basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/m4a.html#4.291",
             "joint":         false,
@@ -1447,29 +1451,17 @@
                 "H-LEVEL Grad Credit",
                 "H-LEVEL Grad Credit"
             ],
-            "in-charge":     "Dolezal, D."
+            "in-charge":     "Staff"
         },
         {
             "type":               "LectureSection",
             "label":              "L014.291",
             "lecture-section-of": "4.291",
-            "timeAndPlace":       "TR11-12.30 9-255"
+            "timeAndPlace":       "W2-5 9-250"
         },
         {
             "type":               "LectureSection",
             "label":              "L024.291",
-            "lecture-section-of": "4.291",
-            "timeAndPlace":       "F2-5 9-255"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L034.291",
-            "lecture-section-of": "4.291",
-            "timeAndPlace":       "WF9.30-11 N51-160"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L044.291",
             "lecture-section-of": "4.291",
             "timeAndPlace":       "M2-5 9-250"
         }

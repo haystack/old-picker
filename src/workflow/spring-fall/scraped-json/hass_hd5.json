@@ -10,7 +10,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Readings and discussions focusing on a series of short-term events that shed light on American politics, culture, and social organization. The events studied in 2006 were the Boston Tea Party of 1773; the crisis at Boston over the case of Anthony Burns, an escaped slave, in 1854; the Homestead strike of 1892; and the student uprisings at Columbia University in 1968. Emphasis on finding ways to make sense of these complicated, highly traumatic events, and on using them to understand larger processes of change in American history.",
+            "description":   "Readings and discussions focusing on a series of short-term events that shed light on American politics, culture, and social organization. Events studied include the Boston Tea Party of 1773; the crisis at Boston over the case of Anthony Burns, an escaped slave, in 1854; the Homestead strike of 1892; and the student uprisings at Columbia University in 1968. Emphasis on finding ways to make sense of these complicated, highly traumatic events, and on using them to understand larger processes of change in American history.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#11.015J",
             "joint":         true,
             "semester":      "Fall",
@@ -19,7 +19,16 @@
                 "HASS-D 5",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Fogelson, R. M."
+            "in-charge":     [
+                "Maier, P.",
+                "Fogelson, R. M."
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0111.015",
+            "lecture-section-of": "11.015",
+            "timeAndPlace":       "TR2-3.30 4-253"
         },
         {
             "type":          "Class",
@@ -30,7 +39,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Surveys the conditions of material life and changing social and economic relations in medieval Europe using the comparative context of contemporary Islamic, Chinese, and Japanese experiences. Covers the emergence and decline of feudal institutions, the transformation of peasant agriculture, living standards and the course of epidemic disease, and the ebb and flow of long-distance trade across the Eurasian system. Particular emphasis placed on the study of those factors, both institutional and technological, which contributed to the emergence of capitalist organization and economic growth in western Europe in contrast to the trajectories followed by the other major medieval economies.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#14.70J",
             "joint":         true,
@@ -38,18 +47,6 @@
             "offering":      "Currently Offered",
             "category":      "HASS-D 5",
             "in-charge":     "McCants, A."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.70",
-            "lecture-section-of": "14.70",
-            "timeAndPlace":       "M9.30-11 4-231"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.70",
-            "rec-section-of": "14.70",
-            "timeAndPlace":   "W9.30-11 66-156"
         },
         {
             "type":          "Class",
@@ -60,20 +57,14 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "The 500-year encounter between native peoples of the Americas and European power and culture. Exploration and conquest. European ideology and fantasies about \"savages.\" Colonialism, resistance, and adaptation. Missionizing and culture contact. Cases include struggles of Maya, Iroquois, and native New Englanders. Students learn to use primary documents.",
+            "has-final":     false,
+            "description":   "The 500-year encounter between native peoples of the Americas and European power and culture. Exploration and conquest. European ideology and fantasies about \\\u0022savages.\\\u0022 Colonialism, resistance, and adaptation. Missionizing and culture contact. Cases include struggles of Maya, Iroquois, and native New Englanders. Students learn to use primary documents.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21A.441",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "HASS-D 5",
-            "in-charge":     "Kelley, E."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121A.441",
-            "lecture-section-of": "21A.441",
-            "timeAndPlace":       "TR1-2.30 56-169"
+            "in-charge":     "Howe, J."
         },
         {
             "type":          "Class",
@@ -84,7 +75,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Explores fundamental questions about the causes and nature of revolutions by looking at how people overthrow their rulers and establish new governments. Considers a set of major political transformations throughout the world and across centuries to understand the meaning of revolution and evaluate its impact. Examines how revolutionaries have attempted to establish their ideals and realize their goals. Asks whether radical upheavals require bloodshed, violence, or even terror. Goal is to explain why some revolutions succeed and others fail. Materials include the writings of revolutionaries, declarations and constitutions, music, films, art, novels, memoirs, and newspapers.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.001",
             "joint":         false,
@@ -96,9 +87,39 @@
             ],
             "in-charge":     [
                 "Broadhead, W.",
-                "Jacobs, M.",
-                "Perdue, P. C."
+                "Ravel, J.",
+                "Wood, E."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121H.001",
+            "lecture-section-of": "21H.001",
+            "timeAndPlace":       "MW3 3-270"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0221H.001",
+            "rec-section-of": "21H.001",
+            "timeAndPlace":   "R12 2-151"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0321H.001",
+            "rec-section-of": "21H.001",
+            "timeAndPlace":   "R3 66-156"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0421H.001",
+            "rec-section-of": "21H.001",
+            "timeAndPlace":   "F12 2-151"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0521H.001",
+            "rec-section-of": "21H.001",
+            "timeAndPlace":   "F3 2-147"
         },
         {
             "type":          "Class",
@@ -113,7 +134,7 @@
             "description":   "Examines the history of American politics, economics, and society from the Civil War to the present. Use of secondary accounts and primary documents such as court cases, letters and diaries, photographs, and films to examine some of the key issues in the development of modern America: industrialization and urbanization, US emergence as a global power, growth of consumer culture, and the development of the civil rights movement.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.102",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      [
                 "HASS-D 5",
@@ -131,7 +152,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Readings and discussions focusing on a series of short-term events that shed light on American politics, culture, and social organization. The events studied in 2006 were the Boston Tea Party of 1773; the crisis at Boston over the case of Anthony Burns, an escaped slave, in 1854; the Homestead strike of 1892; and the student uprisings at Columbia University in 1968. Emphasis on finding ways to make sense of these complicated, highly traumatic events, and on using them to understand larger processes of change in American history.",
+            "description":   "Readings and discussions focusing on a series of short-term events that shed light on American politics, culture, and social organization. Events studied include the Boston Tea Party of 1773; the crisis at Boston over the case of Anthony Burns, an escaped slave, in 1854; the Homestead strike of 1892; and the student uprisings at Columbia University in 1968. Emphasis on finding ways to make sense of these complicated, highly traumatic events, and on using them to understand larger processes of change in American history.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.104J",
             "joint":         true,
             "semester":      "Fall",
@@ -141,7 +162,16 @@
                 "HASS Communication-Intensive"
             ],
             "prereq":        "11.015J",
-            "in-charge":     "Fogelson, R. M."
+            "in-charge":     [
+                "Maier, P.",
+                "Fogelson, R. M."
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121H.104",
+            "lecture-section-of": "21H.104",
+            "timeAndPlace":       "TR2-3.30 4-253"
         },
         {
             "type":          "Class",
@@ -153,11 +183,11 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "An examination of classic documents in American history from the 17th through the 20th centuries, including writings by authors such as John Winthrop, Thomas Jefferson, and James Madison; Frederick Douglass, William Lloyd Garrison, and Abraham Lincoln; Horatio Alger, Franklin D. Roosevelt, Betty Friedan, and Martin Luther King, Jr. Possible materials include music, taped speeches, television programs, and motion pictures.",
+            "description":   "An examination of classic documents in American history from the seventeenth through the twentieth centuries, including writings by authors such as John Winthrop, Benjamin Franklin, Thomas Paine, and James Madison; Frederick Douglass, William Lloyd Garrison, Harriet Beecher Stowe, and Abraham Lincoln; Horatio Alger, Franklin D. Roosevelt, Betty Friedan, and Martin Luther King, Jr. Possible materials include music, taped speeches, television programs, and motion pictures.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.105",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      [
                 "HASS-D 5",
                 "HASS Communication-Intensive"
@@ -173,7 +203,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "History of Ancient Greece from the Bronze Age to the death of Alexander. Major social, economic, political, and religious trends. Homer, heroism, and the Greek identity; the hoplite revolution and the rise of the city-state; Herodotus, Persia, and the (re)birth of history; Empire, Thucydidean rationalism, and the Peloponnesian War; Aristotle, Macedonia, and Hellenism. Emphasis on use of primary sources in translation.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.301",
             "joint":         false,
@@ -186,6 +216,30 @@
             "in-charge":     "Ostrow, S."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0121H.301",
+            "lecture-section-of": "21H.301",
+            "timeAndPlace":       "TR12 32-141"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0221H.301",
+            "rec-section-of": "21H.301",
+            "timeAndPlace":   "F12 56-167"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0321H.301",
+            "rec-section-of": "21H.301",
+            "timeAndPlace":   "F2 56-180"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0421H.301",
+            "rec-section-of": "21H.301",
+            "timeAndPlace":   "F4 56-162"
+        },
+        {
             "type":          "Class",
             "label":         "The Ancient World: Rome",
             "id":            "21H.302",
@@ -194,7 +248,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "History of Rome from its humble beginnings to the 5th century A.D. First half: Kingship to Republican form; the conquest of Italy; Roman expansion: Pyrrhus, Punic Wars and provinces; classes, courts, and the Roman revolution; Augustus and the formation of empire. Second half: Virgil to the Vandals; major social, economic, political and religious trends at Rome and in the provinces. Emphasis on use of primary sources in translation.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.302",
             "joint":         false,
@@ -204,31 +258,7 @@
                 "HASS-D 5",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Broadhead, W."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121H.302",
-            "lecture-section-of": "21H.302",
-            "timeAndPlace":       "MW12 6-120"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0221H.302",
-            "rec-section-of": "21H.302",
-            "timeAndPlace":   "R12 66-156"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0321H.302",
-            "rec-section-of": "21H.302",
-            "timeAndPlace":   "F1 56-162"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0421H.302",
-            "rec-section-of": "21H.302",
-            "timeAndPlace":   "F3 56-162"
+            "in-charge":     "Ostrow, S."
         },
         {
             "type":          "Class",
@@ -239,7 +269,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Surveys the conditions of material life and changing social and economic relations in medieval Europe using the comparative context of contemporary Islamic, Chinese, and Japanese experiences. Covers the emergence and decline of feudal institutions, the transformation of peasant agriculture, living standards and the course of epidemic disease, and the ebb and flow of long-distance trade across the Eurasian system. Particular emphasis placed on the study of those factors, both institutional and technological, which contributed to the emergence of capitalist organization and economic growth in western Europe in contrast to the trajectories followed by the other major medieval economies.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.416J",
             "joint":         true,
@@ -248,18 +278,6 @@
             "category":      "HASS-D 5",
             "prereq":        "14.70J",
             "in-charge":     "McCants, A."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121H.416",
-            "lecture-section-of": "21H.416",
-            "timeAndPlace":       "M9.30-11 4-231"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0221H.416",
-            "rec-section-of": "21H.416",
-            "timeAndPlace":   "W9.30-11 66-156"
         },
         {
             "type":          "Class",
@@ -274,7 +292,7 @@
             "description":   "Focusing primarily on the period since 1500, explores the influence of climate, topography, plants, animals, and microorganisms on human history and the reciprocal influence of people on the environment. Topics include the European encounter with the Americas, the impact of modern technology, and the historical roots of the current environmental crisis.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.421",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      [
                 "HASS-D 5",
@@ -286,13 +304,7 @@
             "type":               "LectureSection",
             "label":              "L0121H.421",
             "lecture-section-of": "21H.421",
-            "timeAndPlace":       "T2.30-4 E51-372"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0221H.421",
-            "rec-section-of": "21H.421",
-            "timeAndPlace":   "R2.30-4 E51-372"
+            "timeAndPlace":       "TR2.30-4 E51-057"
         },
         {
             "type":          "Class",
@@ -316,12 +328,6 @@
             "in-charge":     "Ravel, J."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121H.433",
-            "lecture-section-of": "21H.433",
-            "timeAndPlace":       "MW11-12.30 2-132"
-        },
-        {
             "type":          "Class",
             "label":         "East Asia in the World: 15002000 A.D.",
             "id":            "21H.504",
@@ -334,37 +340,43 @@
             "description":   "Examines the interactions of East Asia with the rest of the world and the relationships of each of the East Asian countries with each other, from ca. 1500 to 2000 A.D. Primary focus on China and Japan, with some reference to Korea, Vietnam, and Central Asia. Asks how international diplomatic, commercial, military, religious, and cultural relationships joined with internal processes to direct the development of East Asian societies. Addresses perceptions and misperceptions among East Asians and foreigners.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.504",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      [
                 "HASS-D 5",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Perdue, P. C."
+            "in-charge":     "Chapman, I."
         },
         {
             "type":               "LectureSection",
             "label":              "L0121H.504",
             "lecture-section-of": "21H.504",
-            "timeAndPlace":       "TR9.30-11 2-139"
+            "timeAndPlace":       "MW9.30-11 2-146"
         },
         {
             "type":          "Class",
-            "label":         "Emergence of the Modern Japanese State, 18001952",
+            "label":         "History of Modern Japan, 1853-2000",
             "id":            "21H.523",
             "listing-index": "hass_hd5-013",
             "course":        "21H",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Interdisciplinary and global perspectives on Japan's emergence as a powerful modern state. Begins in the period of national seclusion which ended in 1853, then addresses the creation of the Meiji state (18681912), Japan's emergence as an imperialist power, the accomplishments and costs of rapid Westernization and \"modernization,\" and the road to war and defeat in World War II. Concludes with the postwar US occupation of Japan (19451952). Translated materials, graphics, and films help provide both elite and popular Japanese perspectives.",
+            "has-final":     true,
+            "description":   "Covers Japan\\'s emergence as a modern state and global power.  Examines the end of the policy of national seclusion and crumbling of Tokugawa rule, the formation of the modern Meiji state (1868-1912), Japanese imperialism, social and political movements, the costs of rapid modernization, the road to war and defeat in World War II, the U.S. occupation, the postwar economic miracle, \\\u0022internationalization\\\u0022, and the social and cultural transformations of the 1980s and 1990s.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.523",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "HASS-D 5",
-            "in-charge":     "Park"
+            "in-charge":     "Cutler, M. G."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121H.523",
+            "lecture-section-of": "21H.523",
+            "timeAndPlace":       "TR11-12.30 E51-057"
         },
         {
             "type":          "Class",
@@ -375,14 +387,20 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Provides students with an overview of basic themes and issues in Middle Eastern history from the rise of Islam to the present, with an emphasis on exchanges and encounters between the Middle East and Europe/North America.  Examines the history of the notion of \"East\" and \"West\"; the emergence of Islam and the Christianization of Europe; Ottoman expansion and the flourishing of European powers; European competition with and colonization of Middle Eastern societies, and Middle Eastern responses.",
+            "has-final":     true,
+            "description":   "Provides students with an overview of basic themes and issues in Middle Eastern history from the rise of Islam to the present, with an emphasis on exchanges and encounters between the Middle East and Europe/North America.  Examines the history of the notion of \\\u0022East\\\u0022 and \\\u0022West\\\u0022; the emergence of Islam and the Christianization of Europe; Ottoman expansion and the flourishing of European powers; European competition with and colonization of Middle Eastern societies, and Middle Eastern responses.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.601",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "HASS-D 5",
-            "in-charge":     "Belli, M."
+            "in-charge":     "Staff"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121H.601",
+            "lecture-section-of": "21H.601",
+            "timeAndPlace":       "MWF11 2-146"
         },
         {
             "type":          "Class",
@@ -393,20 +411,14 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Focus on four related themes: struggles between Europeans and colonized peoples; industrialization and the global emergence of capitalist economies; the formation of modern states and the challenges to them; and the development of modern consumer society. Topics include: the French and Haitian Revolutions; the partition of Africa; the two World Wars; and the emergence of advertising. Readings include both historical analysis and documents from the periods under investigation.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#21H.912",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "HASS-D 5",
-            "in-charge":     "Ciarlo, D."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121H.912",
-            "lecture-section-of": "21H.912",
-            "timeAndPlace":       "MW11-12.30 1-277"
+            "in-charge":     "Staff"
         },
         {
             "type":          "Class",
@@ -430,12 +442,6 @@
             "in-charge":     "Haas, W."
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R0121W.746",
-            "rec-section-of": "21W.746",
-            "timeAndPlace":   "TR3-4.30 1-136"
-        },
-        {
             "type":          "Class",
             "label":         "Technology in American History",
             "id":            "STS.001",
@@ -444,8 +450,8 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "A survey of America's transition from a rural, agrarian, and artisan society to one of the world's leading industrial powers. Treats the emergence of industrial capitalism: the rise of the factory system; new forms of power, transport, and communication; the advent of the large industrial corporation; the social relations of production; and the hallmarks of science-based industry. Views technology as part of the larger culture and reveals innovation as a process consisting of a range of possibilities that are chosen or rejected according to the social criteria of the time.",
+            "has-final":     false,
+            "description":   "A survey of America\\'s transition from a rural, agrarian, and artisan society to one of the world\\'s leading industrial powers. Treats the emergence of industrial capitalism: the rise of the factory system; new forms of power, transport, and communication; the advent of the large industrial corporation; the social relations of production; and the hallmarks of science-based industry. Views technology as part of the larger culture and reveals innovation as a process consisting of a range of possibilities that are chosen or rejected according to the social criteria of the time.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#STS.001",
             "joint":         false,
             "semester":      "Spring",
@@ -455,18 +461,6 @@
                 "HASS Communication-Intensive"
             ],
             "in-charge":     "Smith, M. R."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01STS.001",
-            "lecture-section-of": "STS.001",
-            "timeAndPlace":       "MW1 1-390"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02STS.001",
-            "rec-section-of": "STS.001",
-            "timeAndPlace":   "W2 3-343"
         },
         {
             "type":          "Class",
@@ -481,7 +475,7 @@
             "description":   "Traces the evolution of Western ideas about nature, and the best way to study and explain natural phenomena, from ancient times through the Renaissance. Examines scientific concepts in their historical and cultural contexts, ranging from natural history to physics, mathematics, and medicine.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#STS.002",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      [
                 "HASS-D 5",
@@ -499,13 +493,13 @@
             "type":           "RecitationSection",
             "label":          "R02STS.002",
             "rec-section-of": "STS.002",
-            "timeAndPlace":   "W11 56-162"
+            "timeAndPlace":   "W11 4-257"
         },
         {
             "type":           "RecitationSection",
             "label":          "R03STS.002",
             "rec-section-of": "STS.002",
-            "timeAndPlace":   "F10 56-162"
+            "timeAndPlace":   "F10 4-257"
         },
         {
             "type":          "Class",
@@ -516,32 +510,14 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "The development of major fields in the physical and life sciences, beginning with 18th-century Europe and ending with 20th-century America. Examines ideas, institutions, and the social settings of the sciences, with emphasis on how cultural contexts influence scientific concepts and practices.",
             "url":           "http://student.mit.edu/catalog/hass_hd5.html#STS.003",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "HASS-D 5",
-            "in-charge":     "Gerovitch, S."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01STS.003",
-            "lecture-section-of": "STS.003",
-            "timeAndPlace":       "TR12 2-105"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02STS.003",
-            "rec-section-of": "STS.003",
-            "timeAndPlace":   "R4 56-180"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R03STS.003",
-            "rec-section-of": "STS.003",
-            "timeAndPlace":   "F1 56-180"
+            "in-charge":     "Staff"
         },
         {
             "type":          "Class",
@@ -562,7 +538,31 @@
                 "HASS-D 5",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Jones, D."
+            "in-charge":     "Staff"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01STS.005",
+            "lecture-section-of": "STS.005",
+            "timeAndPlace":       "TR10 54-100"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02STS.005",
+            "rec-section-of": "STS.005",
+            "timeAndPlace":   "F11 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R03STS.005",
+            "rec-section-of": "STS.005",
+            "timeAndPlace":   "F12 12-122"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R04STS.005",
+            "rec-section-of": "STS.005",
+            "timeAndPlace":   "F1 12-122"
         }
     ]
 }

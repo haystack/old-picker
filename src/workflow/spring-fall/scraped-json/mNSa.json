@@ -23,15 +23,19 @@
                 "NS.300",
                 "NS.400"
             ],
-            "in-charge":     "Staff",
+            "in-charge":     [
+                "Shehadi, C.",
+                "Frantz, C.",
+                "Battles, T."
+            ],
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R01NS.100",
-            "rec-section-of": "NS.100",
-            "timeAndPlace":   "W3.30-5 4-237"
+            "type":               "LectureSection",
+            "label":              "L01NS.100",
+            "lecture-section-of": "NS.100",
+            "timeAndPlace":       "W3.30-5 W59-110"
         },
         {
             "type":          "Class",
@@ -48,9 +52,15 @@
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "in-charge":     "Staff",
+            "in-charge":     "Shehadi, C.",
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01NS.101",
+            "lecture-section-of": "NS.101",
+            "timeAndPlace":       "MW7.30-9 W59-149"
         },
         {
             "type":          "Class",
@@ -65,11 +75,17 @@
             "description":   "Lecture series on technological fundamentals of applied and planned naval ships Systems from an engineering viewpoint. Topics include stability, propulsion, ship control and systems.",
             "url":           "http://student.mit.edu/catalog/mNSa.html#NS.102",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
-            "in-charge":     "Staff",
+            "in-charge":     "Frantz, C.",
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01NS.102",
+            "lecture-section-of": "NS.102",
+            "timeAndPlace":       "MW7.30-9 W59-149"
         },
         {
             "type":          "Class",
@@ -94,15 +110,19 @@
                 "NS.300",
                 "NS.400"
             ],
-            "in-charge":     "Staff",
+            "in-charge":     [
+                "Shehadi, C.",
+                "Frantz, C.",
+                "Battles, T."
+            ],
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R01NS.200",
-            "rec-section-of": "NS.200",
-            "timeAndPlace":   "W3.30-5 4-237"
+            "type":               "LectureSection",
+            "label":              "L01NS.200",
+            "lecture-section-of": "NS.200",
+            "timeAndPlace":       "W3.30-5 W59-110"
         },
         {
             "type":          "Class",
@@ -117,21 +137,11 @@
             "description":   "Overview of the properties and behavior of electromagnetic radiation pertaining to maritime applications. Topics include communications, radar detection, electro-optics, tracking and guidance systems. Sonar and underwater sound propagation also discussed. Examples taken from systems found on naval ships and aircraft. Selected readings on naval weapons and fire control systems.",
             "url":           "http://student.mit.edu/catalog/mNSa.html#NS.201",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "8.01",
-                "18.02"
-            ],
-            "in-charge":     "Staff",
+            "in-charge":     "Frantz, C.",
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01NS.201",
-            "lecture-section-of": "NS.201",
-            "timeAndPlace":       "MW7.30-9 W59-149"
         },
         {
             "type":          "Class",
@@ -148,15 +158,9 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "in-charge":     "Staff",
+            "in-charge":     "Shehadi, C.",
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01NS.202",
-            "lecture-section-of": "NS.202",
-            "timeAndPlace":       "TR7.30-9 W59-149"
         },
         {
             "type":          "Class",
@@ -181,15 +185,19 @@
                 "NS.200",
                 "NS.400"
             ],
-            "in-charge":     "Staff",
+            "in-charge":     [
+                "Shehadi, C.",
+                "Frantz, C.",
+                "Battles, T."
+            ],
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R01NS.300",
-            "rec-section-of": "NS.300",
-            "timeAndPlace":   "W3.30-5 4-237"
+            "type":               "LectureSection",
+            "label":              "L01NS.300",
+            "lecture-section-of": "NS.300",
+            "timeAndPlace":       "W3.30-5 W59-110"
         },
         {
             "type":          "Class",
@@ -206,15 +214,9 @@
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "in-charge":     "Staff",
+            "in-charge":     "Battles, T.",
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01NS.301",
-            "lecture-section-of": "NS.301",
-            "timeAndPlace":       "TR7.30-9 W59-051"
         },
         {
             "type":          "Class",
@@ -232,9 +234,15 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "NS.301",
-            "in-charge":     "Staff",
+            "in-charge":     "Battles, T.",
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01NS.302",
+            "lecture-section-of": "NS.302",
+            "timeAndPlace":       "TR7.30-9 W59-051"
         },
         {
             "type":          "Class",
@@ -251,7 +259,7 @@
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "in-charge":     "Staff",
+            "in-charge":     "Milne, C.",
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
@@ -278,15 +286,19 @@
                 "NS.200",
                 "NS.300"
             ],
-            "in-charge":     "Staff",
+            "in-charge":     [
+                "Shehadi, C.",
+                "Frantz, C.",
+                "Battles, T."
+            ],
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R01NS.400",
-            "rec-section-of": "NS.400",
-            "timeAndPlace":   "W3.30-5 4-237"
+            "type":               "LectureSection",
+            "label":              "L01NS.400",
+            "lecture-section-of": "NS.400",
+            "timeAndPlace":       "W3.30-5 W59-110"
         },
         {
             "type":          "Class",
@@ -304,9 +316,21 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "NS.101",
-            "in-charge":     "Staff",
+            "in-charge":     "Fohr, T.",
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01NS.401",
+            "lecture-section-of": "NS.401",
+            "timeAndPlace":       "W7.30-10.30 W59-073"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L02NS.401",
+            "lecture-section-of": "NS.401",
+            "timeAndPlace":       "TR8.30-10 W59-073"
         },
         {
             "type":          "Class",
@@ -318,21 +342,14 @@
             "units":         "3-0-3",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Analyzes ethical decision-making and leadership principles. Students read and discuss texts written by such philosophers as Aristotle, Kant and Mill to gain familiarity with the realm of ethical theory. Students then move on to case studies in which they apply these theories to resolve moral dilemmas. Provides a basic background in the duties and responsibilities of a junior division and watch officer; strong emphasis on the junior officer's responsibilities in training, counseling, and career development. Student familiarization with equal opportunity and drug/alcohol rehabilitation programs. Principles of leadership reinforced through leadership case studies.",
+            "description":   "Analyzes ethical decision-making and leadership principles. Students read and discuss texts written by such philosophers as Aristotle, Kant, and Mill to gain familiarity with the realm of ethical theory. Students then move on to case studies in which they apply these theories to resolve moral dilemmas. Provides a basic background in the duties and responsibilities of a junior division and watch officer; strong emphasis on the junior officer\\'s responsibilities in training, counseling, and career development. Student familiarization with equal opportunity and drug/alcohol rehabilitation programs. Principles of leadership reinforced through leadership case studies.",
             "url":           "http://student.mit.edu/catalog/mNSa.html#NS.402",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        "NS.401",
-            "in-charge":     "Staff",
+            "in-charge":     "Stevens, C.",
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01NS.402",
-            "lecture-section-of": "NS.402",
-            "timeAndPlace":       "TR7.30-9 W59-164"
         },
         {
             "type":          "Class",
@@ -349,7 +366,7 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "in-charge":     "Staff",
+            "in-charge":     "Milne, C.",
             "area":          "Naval Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         }

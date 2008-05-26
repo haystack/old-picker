@@ -105,7 +105,7 @@ courses['SDM'] = []
 
 for line in tsv:
     item = ['"type":"Class"']
-    data = line.split('\t')
+    data = line.replace('"','&quot;').split('\t')
     if data[0] == '2009':
         item.append('"id":"'+data[1]+'"')
         item.append('"course":"'+data[2]+'"')
@@ -122,7 +122,6 @@ for line in tsv:
         item.append('"gir":"'+data[26]+'"')
         item.append('"joint":"'+data[37]+'"')
         item.append('"equivalent":"'+data[40]+'"')
-        item.append('"offering":"'+data[41]+'"')
         semesters = []
         if data[42] == "Y": semesters.append("Fall")
         if data[43] == "Y": semesters.append("IAP")

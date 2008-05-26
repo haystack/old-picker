@@ -10,13 +10,37 @@
             "units":         "3-11-10",
             "total-units":   24,
             "has-final":     false,
-            "description":   "Lectures, detailed laboratory dissections, and prosections provide a thorough exploration of the gross structure and function of the human body. Fundamental principles of bioengineering are employed to promote analytical approaches to understanding the body's design. The embryology of major organ systems is presented, together with certain references to phylogenetic development, as a basis for comprehending anatomical complexity. Correlation clinics stress both normal and abnormal functions of the body and present evolving knowledge of genes responsible for normal and abnormal anatomy. Lecturers focus on current problems in organ system research. (Only HST students may register under HST.010, graded P/D/F.) Enrollment restricted to graduate students.",
+            "description":   "Lectures, detailed laboratory dissections, and prosections provide a thorough exploration of the gross structure and function of the human body. Fundamental principles of bioengineering are employed to promote analytical approaches to understanding the body\\'s design. The embryology of major organ systems is presented, together with certain references to phylogenetic development, as a basis for comprehending anatomical complexity. Correlation clinics stress both normal and abnormal functions of the body and present evolving knowledge of genes responsible for normal and abnormal anatomy. Lecturers focus on current problems in organ system research. (Only HST students may register under HST.010, graded P/D/F.) Enrollment restricted to graduate students.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.011",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Gehrke, L."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01HST.011",
+            "lecture-section-of": "HST.011",
+            "timeAndPlace":       "MWF1.30-5.30 D AMPH"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B02HST.011",
+            "lab-section-of": "HST.011",
+            "timeAndPlace":   "MWF1.30-5.30 Unknown"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L03HST.011",
+            "lecture-section-of": "HST.011",
+            "timeAndPlace":       "MWF1.30-5.30 D AMPH"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B04HST.011",
+            "lab-section-of": "HST.011",
+            "timeAndPlace":   "MWF1.30-5.30 Unknown"
         },
         {
             "type":          "Class",
@@ -34,20 +58,7 @@
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Robinson, D.",
-                "Krane, S. M.",
-                "Mankin, H.",
-                "Potts, J. T.",
-                "Olsen, B.",
-                "Schiller, A. L.",
-                "Snyder, B.",
-                "Kim, Y.",
-                "Johns, D. R.",
-                "Jr., R. Brown",
-                "Demay, M.",
-                "Anderson, P."
-            ]
+            "in-charge":     "Robinson, D. R."
         },
         {
             "type":          "Class",
@@ -65,14 +76,31 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.012",
-                "7.013",
-                "7.014",
-                "8.01",
-                "8.02"
-            ],
             "in-charge":     "Mitchell, R. N."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01HST.031",
+            "lecture-section-of": "HST.031",
+            "timeAndPlace":       "TR8.30-12.30 Unknown"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B02HST.031",
+            "lab-section-of": "HST.031",
+            "timeAndPlace":   "TR8.30-12.30 Unknown"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L03HST.031",
+            "lecture-section-of": "HST.031",
+            "timeAndPlace":       "TR8.30-12.30 Unknown"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B04HST.031",
+            "lab-section-of": "HST.031",
+            "timeAndPlace":   "TR8.30-12.30 Unknown"
         },
         {
             "type":          "Class",
@@ -97,30 +125,6 @@
             "in-charge":     "Badizadegan, K."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.035",
-            "lecture-section-of": "HST.035",
-            "timeAndPlace":       "TR9-11 4-231"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B02HST.035",
-            "lab-section-of": "HST.035",
-            "timeAndPlace":   "TR11-1 1-115"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L03HST.035",
-            "lecture-section-of": "HST.035",
-            "timeAndPlace":       "TR9-11 4-231"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B04HST.035",
-            "lab-section-of": "HST.035",
-            "timeAndPlace":   "TR11-1 1-115"
-        },
-        {
             "type":          "Class",
             "label":         "Mechanisms of Microbial Pathogenesis",
             "id":            "HST.041",
@@ -136,17 +140,35 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.05",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
-            ],
+            "prereq":        "7.05",
             "in-charge":     [
                 "II, C. Crumpacker",
                 "Simon, H."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01HST.041",
+            "lecture-section-of": "HST.041",
+            "timeAndPlace":       "TR8.30-1 Unknown"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B02HST.041",
+            "lab-section-of": "HST.041",
+            "timeAndPlace":   "TR8.30-1 Unknown"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L03HST.041",
+            "lecture-section-of": "HST.041",
+            "timeAndPlace":       "TR8.30-1 Unknown"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B04HST.041",
+            "lab-section-of": "HST.041",
+            "timeAndPlace":   "TR8.30-1 Unknown"
         },
         {
             "type":          "Class",
@@ -164,26 +186,11 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.05",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
-            ],
-            "in-charge":     "Kettyle, W."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.061",
-            "lecture-section-of": "HST.061",
-            "timeAndPlace":       "M1.30-5 Unknown"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L02HST.061",
-            "lecture-section-of": "HST.061",
-            "timeAndPlace":       "M1.30-5 Unknown"
+            "prereq":        "7.05",
+            "in-charge":     [
+                "Kettyle, W.",
+                "Majzoub, J.A."
+            ]
         },
         {
             "type":          "Class",
@@ -201,13 +208,26 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.05"
-            ],
+            "prereq":        "7.05",
             "in-charge":     "Klapholz, H."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01HST.071",
+            "lecture-section-of": "HST.071",
+            "timeAndPlace":       [
+                "MW1-4 Unknown",
+                "F1-3.30 (ENDS OCT 25) Unknown"
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L02HST.071",
+            "lecture-section-of": "HST.071",
+            "timeAndPlace":       [
+                "MW1-4 Unknown",
+                "F1-3.30 (ENDS OCT 25) Unknown"
+            ]
         },
         {
             "type":          "Class",
@@ -234,30 +254,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.081",
-            "lecture-section-of": "HST.081",
-            "timeAndPlace":       "R9-12 Unknown"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02HST.081",
-            "rec-section-of": "HST.081",
-            "timeAndPlace":   "T9-12 Unknown"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L03HST.081",
-            "lecture-section-of": "HST.081",
-            "timeAndPlace":       "R9-12 Unknown"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R04HST.081",
-            "rec-section-of": "HST.081",
-            "timeAndPlace":   "T9-12 Unknown"
-        },
-        {
             "type":          "Class",
             "label":         "Cardiovascular Pathophysiology",
             "id":            "HST.091",
@@ -266,7 +262,7 @@
             "level":         "Grad",
             "units":         "3-3-9",
             "total-units":   15,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Normal and pathologic physiology of the heart and vascular system. Emphasis includes hemodynamics, electrophysiology, gross pathology, and clinical correlates of cardiovascular function in normal and in a variety of disease states. Special attention given to congenital, rheumatic, valvular heart disease and cardiomyopathy. (Only HST students may register under HST.090, graded P/D/F.) Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.091",
             "joint":         false,
@@ -274,30 +270,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Edelman, E."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.091",
-            "lecture-section-of": "HST.091",
-            "timeAndPlace":       "MWF8.30-10 56-114"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B02HST.091",
-            "lab-section-of": "HST.091",
-            "timeAndPlace":   "M10.30-12 56-114"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L03HST.091",
-            "lecture-section-of": "HST.091",
-            "timeAndPlace":       "MWF8.30-10 56-114"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B04HST.091",
-            "lab-section-of": "HST.091",
-            "timeAndPlace":   "M10.30-12 56-114"
         },
         {
             "type":          "Class",
@@ -315,31 +287,12 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.05",
-                "8.01",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
-            ],
+            "prereq":        "7.05",
             "in-charge":     [
                 "Drazen, J.",
                 "Loring, S.",
                 "Malhotra, A."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.101",
-            "lecture-section-of": "HST.101",
-            "timeAndPlace":       "TR10-12.30 Unknown"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L02HST.101",
-            "lecture-section-of": "HST.101",
-            "timeAndPlace":       "TR10-12.30 Unknown"
         },
         {
             "type":          "Class",
@@ -357,31 +310,8 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.05",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
-            ],
-            "in-charge":     [
-                "Brown, D.",
-                "Coggins, C.",
-                "Rennke, H.",
-                "Bonventre, J."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.111",
-            "lecture-section-of": "HST.111",
-            "timeAndPlace":       "TR8-10 Unknown"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L02HST.111",
-            "lecture-section-of": "HST.111",
-            "timeAndPlace":       "TR8-10 Unknown"
+            "prereq":        "7.05",
+            "in-charge":     "Brown, D."
         },
         {
             "type":          "Class",
@@ -399,20 +329,20 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.05",
-                "8.01",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
-            ],
-            "in-charge":     [
-                "Carey, M. C.",
-                "Chung, D. C.",
-                "Chung, R. T.",
-                "Glickman, J. N."
-            ]
+            "prereq":        "7.05",
+            "in-charge":     "Carey, M. C."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01HST.121",
+            "lecture-section-of": "HST.121",
+            "timeAndPlace":       "MWF1-4 (BEGINS OCT 27) Unknown"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L02HST.121",
+            "lecture-section-of": "HST.121",
+            "timeAndPlace":       "MWF1-4 (BEGINS OCT 27) Unknown"
         },
         {
             "type":          "Class",
@@ -430,7 +360,19 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Corey, D. P."
+            "in-charge":     "Masland, R. H."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01HST.131",
+            "lecture-section-of": "HST.131",
+            "timeAndPlace":       "MWF9-12 Unknown"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L02HST.131",
+            "lecture-section-of": "HST.131",
+            "timeAndPlace":       "MWF9-12 Unknown"
         },
         {
             "type":          "Class",
@@ -456,6 +398,12 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01HST.140",
+            "lecture-section-of": "HST.140",
+            "timeAndPlace":       "T1-3 Unknown"
+        },
+        {
             "type":          "Class",
             "label":         "Human Biochemistry and Metabolic Diseases",
             "id":            "HST.147",
@@ -471,7 +419,10 @@
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Serhan, C. N."
+            "in-charge":     [
+                "McLaughlin, D.T.",
+                "Serhan, C. N."
+            ]
         },
         {
             "type":          "Class",
@@ -489,42 +440,12 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.05",
-                "8.01"
-            ],
+            "prereq":        "7.05",
             "in-charge":     [
                 "Rosow, C.",
                 "Forman, G.",
                 "Strichartz, G."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.151",
-            "lecture-section-of": "HST.151",
-            "timeAndPlace":       "TR9-12 E25-117"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02HST.151",
-            "rec-section-of": "HST.151",
-            "timeAndPlace":   "W9-12 E25-117"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L03HST.151",
-            "lecture-section-of": "HST.151",
-            "timeAndPlace":       "TR9-12 E25-117"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R04HST.151",
-            "rec-section-of": "HST.151",
-            "timeAndPlace":   "W9-12 E25-117"
         },
         {
             "type":          "Class",
@@ -542,16 +463,35 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.05"
-            ],
+            "prereq":        "7.05",
             "in-charge":     [
                 "Giersch, A.",
                 "Housman, D."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01HST.161",
+            "lecture-section-of": "HST.161",
+            "timeAndPlace":       "T2-5 E52-175"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B02HST.161",
+            "lab-section-of": "HST.161",
+            "timeAndPlace":   "R2-4 E52-175"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L03HST.161",
+            "lecture-section-of": "HST.161",
+            "timeAndPlace":       "T2-5 E52-175"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B04HST.161",
+            "lab-section-of": "HST.161",
+            "timeAndPlace":   "R2-4 E52-175"
         },
         {
             "type":          "Class",
@@ -570,10 +510,19 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "7.05",
-            "in-charge":     [
-                "Pillai, S.",
-                "staff"
-            ]
+            "in-charge":     "Pillai, S."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01HST.176",
+            "lecture-section-of": "HST.176",
+            "timeAndPlace":       "MW9-12 Unknown"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L02HST.176",
+            "lecture-section-of": "HST.176",
+            "timeAndPlace":       "MW9-12 Unknown"
         },
         {
             "type":          "Class",
@@ -601,13 +550,6 @@
             "in-charge":     "J.E.Greenberg"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.186",
-            "lecture-section-of": "HST.186",
-            "timeAndPlace":       [
-            ]
-        },
-        {
             "type":          "Class",
             "label":         "Special Subjects in Health Sciences and Technology",
             "id":            "HST.187",
@@ -631,12 +573,6 @@
                 "Currently Offered"
             ],
             "in-charge":     "Greenberg, J. E."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.187",
-            "lecture-section-of": "HST.187",
-            "timeAndPlace":       "T EVE (4-6.30 PM) MGH"
         },
         {
             "type":          "Class",
@@ -706,7 +642,6 @@
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "18.02",
             "in-charge":     [
                 "Betensky, R.",
                 "Hernan, M."
@@ -820,12 +755,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.200",
-            "lecture-section-of": "HST.200",
-            "timeAndPlace":       "MWF8-5 Unknown"
-        },
-        {
             "type":          "Class",
             "label":         "Introduction to Clinical Medicine and Medical Engineering I",
             "id":            "HST.201",
@@ -850,13 +779,6 @@
                 "Mark, R. G.",
                 "Pronio-Stelluto, V.",
                 "Strymish, J."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.201",
-            "lecture-section-of": "HST.201",
-            "timeAndPlace":       [
             ]
         },
         {
@@ -887,13 +809,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.202",
-            "lecture-section-of": "HST.202",
-            "timeAndPlace":       [
-            ]
-        },
-        {
             "type":          "Class",
             "label":         "Clinical Experience in Medical Engineering and Medical Physics",
             "id":            "HST.203",
@@ -903,7 +818,7 @@
             "units":         "0-12-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "An individually arranged full-time one-month directed study in a clinical environment where active medical engineering/medical physics investigation is in progress. Students engage in patient care, particularly those aspects that interface closely with technology. Students also focus on in-depth exploration of the technical and research area. Term paper required.",
+            "description":   "An individually arranged full-time one-month directed study in a clinical environment where active medical engineering/medical physics investigation is in progress. Students engage in patient care, particularly those aspects that interface closely with technology. Students also focus on in-depth exploration of the technical and research area. A project proposal is required at time of registration.  Term paper required.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.203",
             "joint":         false,
             "semester":      [
@@ -1005,12 +920,6 @@
             "in-charge":     "Anderson, R."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.212",
-            "lecture-section-of": "HST.212",
-            "timeAndPlace":       "M3-6 Unknown"
-        },
-        {
             "type":          "Class",
             "label":         "Introduction to the Care of Patients",
             "id":            "HST.220",
@@ -1020,13 +929,10 @@
             "units":         "2-0-2 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Elective subject for HST/MD candidates only. Year-long subject: students must register for both Fall and Spring terms. Provides an introduction to the care of patients through opportunities to observe and participate in doctor-patient interaction in an outpatient, office-based environment and through patient-oriented seminars. Students are exposed to some of the practical realities of providing patient care. Topics include basic interviewing, issues of ethics and confidentiality, and other aspects of the doctor-patient relationship. Requirements include regular attendance, and a short paper on patient care. Enrollment limited to 15.",
+            "description":   "Elective subject for HST/MD candidates only. Provides an introduction to the care of patients through opportunities to observe and participate in doctor-patient interaction in an outpatient, office-based environment, and through patient-oriented seminars. Students are exposed to some of the practical realities of providing patient care. Topics include basic interviewing, issues of ethics and confidentiality, and other aspects of the doctor-patient relationship. Requirements include regular attendance, and a short paper on patient care. Enrollment limited to 15.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.220",
             "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
+            "semester":      "Fall",
             "offering":      [
                 "Can be repeated for credit",
                 "Currently Offered"
@@ -1038,6 +944,12 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01HST.220",
+            "lecture-section-of": "HST.220",
+            "timeAndPlace":       "R2-4 E23-297"
+        },
+        {
             "type":          "Class",
             "label":         "Translational Medicine Preceptorship",
             "id":            "HST.240",
@@ -1047,7 +959,7 @@
             "units":         "0-12-0",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Individually designed preceptorship joins together scientific research and clinical medicine. Students devote approximately half of their time to clinical experiences, and the remaining part to scholarly work in basic or clinical science. The two might run concomitantly or in series. Follow a clinical preceptor's daily activity, including aspects of patient care, attending rounds, conferences, and seminars. Research involves formal investigation of a focused and directed issue related to selected clinical area. Final paper required. Enrollment limited to students in the GEMS Program.",
+            "description":   "Individually designed preceptorship joins together scientific research and clinical medicine. Students devote approximately half of their time to clinical experiences, and the remaining part to scholarly work in basic or clinical science. The two might run concomitantly or in series. Follow a clinical preceptor\\'s daily activity, including aspects of patient care, attending rounds, conferences, and seminars. Research involves formal investigation of a focused and directed issue related to selected clinical area. Final paper required. Enrollment limited to students in the GEMS Program.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.240",
             "joint":         false,
             "semester":      [
@@ -1073,7 +985,7 @@
             "units":         "3-0-3 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Weekly seminar and case discussion series covering the essential elements of biomedical ethics, study design, statistics, pharmacoeconomics, and other subjects germaine to clinical research. Enrollment limited.",
+            "description":   "Weekly seminar and case discussion series covering the essential elements of biomedical ethics, study design, statistics, pharmacoeconomics, and other subjects germaine to clinical research. Enrollment limited to participants in the Clinical Investigator Training Program.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.391",
             "joint":         false,
             "semester":      [
@@ -1088,8 +1000,14 @@
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Rubin, R.",
-                "A.Hollenberg"
+                "Hollenberg, A. H."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01HST.391",
+            "lecture-section-of": "HST.391",
+            "timeAndPlace":       "T2-4.30 66-168"
         },
         {
             "type":          "Class",
@@ -1114,12 +1032,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.410",
-            "lecture-section-of": "HST.410",
-            "timeAndPlace":       "TR2-5 35-225"
-        },
-        {
             "type":          "Class",
             "label":         "A Clinical Approach to the Human Brain",
             "id":            "HST.422",
@@ -1132,8 +1044,11 @@
             "description":   "Introduction to normal and abnormal human brain functioning, including the cellular basis of activity-dependent development, critical periods, and plasticity of the brain through learning; neurotransmitters and emotional disorders; fMRI studies of vision, language, dyslexia, motor function, pain, placebo effects, and emotional states. Implications for education, prevention of dementia and dyslexia. Enrollment limited to 25.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.422J",
             "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "semester":      "Spring",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        "9.22J",
             "in-charge":     "Byrne, T. N."
         },
@@ -1146,26 +1061,17 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Topics examined include regional functional anatomy of the CNS through imaging and stroke; degenerative diseases such as Parkinson's and Alzheimer's; immunological disorders such as multiple sclerosis and paraneoplastic syndromes; epilepsy; and gliomas. Emphasis on diseases for which a molecular mechanism is understood. Clinical and pathological findings, differential diagnosis, genetics, pathophysiology, and treatment are discussed for individual diseases. Enrollment limited to 25.",
+            "has-final":     false,
+            "description":   "Topics examined include regional functional anatomy of the CNS through imaging and stroke; degenerative diseases such as Parkinson\\'s and Alzheimer\\'s; immunological disorders such as multiple sclerosis and paraneoplastic syndromes; epilepsy; and gliomas. Emphasis on diseases for which a molecular mechanism is understood. Clinical and pathological findings, differential diagnosis, genetics, pathophysiology, and treatment are discussed for individual diseases. Enrollment limited to 25.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.424J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "prereq":        [
                 "9.24J",
                 "9.01"
             ],
             "in-charge":     "Byrne, T. N."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.424",
-            "lecture-section-of": "HST.424",
-            "timeAndPlace":       "TR9.30-11 46-3015"
         },
         {
             "type":          "Class",
@@ -1181,28 +1087,13 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.450J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "8.593J",
                 "8.044"
             ],
             "in-charge":     "Benedek, G."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.450",
-            "lecture-section-of": "HST.450",
-            "timeAndPlace":       "TR1-2.30 2-105"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02HST.450",
-            "rec-section-of": "HST.450",
-            "timeAndPlace":   "W1 26-314"
         },
         {
             "type":          "Class",
@@ -1218,7 +1109,10 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.452J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "8.592J",
@@ -1239,11 +1133,14 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "A survey of statistical methods for neuroscience research. Core topics include introductions to the theory of point processes, the generalized linear model, Monte Carlo methods, Bayesian methods, multivariate methods, time-series analysis, spectral analysis and state-space modeling. Emphasis on developing a firm conceptual understanding of the statistical paradigm and statistical methods primarily through analyses of actual experimental data. Alternate years.",
+            "description":   "A survey of statistical methods for neuroscience research. Core topics include introductions to the theory of point processes, the generalized linear model, Monte Carlo methods, Bayesian methods, multivariate methods, time-series analysis, spectral analysis and state-space modeling. Emphasis on developing a firm conceptual understanding of the statistical paradigm and statistical methods primarily through analyses of actual experimental data.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.460J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        [
                 "9.073J",
                 "9.07"
@@ -1296,12 +1193,6 @@
             "in-charge":     "Kohane, D. S."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.491",
-            "lecture-section-of": "HST.491",
-            "timeAndPlace":       "F3-5 E25-101"
-        },
-        {
             "type":          "Class",
             "label":         "Frontiers in (Bio)Medical Engineering and Physics",
             "id":            "HST.500",
@@ -1311,7 +1202,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Provides a framework for mapping research topics at the intersection of medicine and engineering/physics in the Harvard-MIT community and covers the different research areas in MEMP (for example, regenerative biomedical technologies, biomedical imaging and biooptics). Lectures provide fundamental concepts and consider what's hot, and why, in each area. Writing workshops help students answer the following questions: \"How can I identify and structure a research project that is novel?\",\"How do I position my research within the scientific community?\", \"How do I present preliminary data effectively?\" and \"How do I give and respond to peer reviews?\".",
+            "description":   "Provides a framework for mapping research topics at the intersection of medicine and engineering/physics in the Harvard-MIT community and covers the different research areas in MEMP (for example, regenerative biomedical technologies, biomedical imaging and biooptics). Lectures provide fundamental concepts and consider what\\'s hot, and why, in each area. Training in scientific proposal writing (thesis proposals, fellowship applications, or research grant applications) through writing workshops.  Topics include how to structure a novel research project, how to position research within the scientific community, how to present preliminary data effectively, and how to give and respond to peer reviews.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.500",
             "joint":         false,
             "semester":      "Spring",
@@ -1320,12 +1211,6 @@
                 "Bhatia, S.",
                 "Poe, M."
             ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.500",
-            "lecture-section-of": "HST.500",
-            "timeAndPlace":       "TR2.30-4 66-144"
         },
         {
             "type":          "Class",
@@ -1341,7 +1226,10 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.505",
             "joint":         false,
             "semester":      "IAP",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Shah, J.",
@@ -1373,6 +1261,12 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01HST.508",
+            "lecture-section-of": "HST.508",
+            "timeAndPlace":       "MWF2.30-4 1-375"
+        },
+        {
             "type":          "Class",
             "label":         "Computational and Functional Genomics",
             "id":            "HST.509",
@@ -1395,12 +1289,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.509",
-            "lecture-section-of": "HST.509",
-            "timeAndPlace":       "MW3-4.30 Unknown"
-        },
-        {
             "type":          "Class",
             "label":         "Genomics, Computing, Economics, and Society",
             "id":            "HST.510",
@@ -1419,74 +1307,31 @@
             "in-charge":     "Church, G."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.510",
-            "lecture-section-of": "HST.510",
-            "timeAndPlace":       "TR10-11.30 Unknown"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L02HST.510",
-            "lecture-section-of": "HST.510",
-            "timeAndPlace":       "TR2-3.30 Unknown"
-        },
-        {
-            "type":          "Class",
-            "label":         "Genomic Medicine",
-            "id":            "HST.512",
-            "listing-index": "mHSTa-050",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-6 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Studies the use of industrialized methods of data acquisition and analysis to improve medical care. Questions addressed are: what new benefits of genomics can be anticipated in the near future in terms of new drugs and treatments?  How can diagnosis and the diagnostic process be changed today? How do our prognostic abilities change?  How does one manage the deluge of clinically relevent genomic data? What constitutes a genomic clinical trial?  What are the useful features of alternative genomic technologies today and for the near future? What are the different kinds of genomic informational resources and databases?  Are they useful and how?  What are the ethical individual and corporate challenges ahead? What are the key limitations we face? Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.512",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Kohane, I.",
-                "Butte, A.",
-                "Drazen, J.",
-                "Golub, T.",
-                "Greenberg, S.",
-                "Hirschorn, J.",
-                "Lory, S.",
-                "Park, P.",
-                "Ramoni, M.",
-                "Riva, A.",
-                "Szallasi, Z.",
-                "Weiss, S."
-            ]
-        },
-        {
             "type":          "Class",
             "label":         "Genomic Medicine",
             "id":            "HST.513",
-            "listing-index": "mHSTa-051",
+            "listing-index": "mHSTa-050",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Enrollment limited.",
+            "description":   "Studies the use of industrialized methods of data acquisition and analysis to improve medical care. Questions addressed are: what new benefits of genomics can be anticipated in the near future in terms of new drugs and treatments?  How can diagnosis and the diagnostic process be changed today? How do our prognostic abilities change?  How does one manage the deluge of clinically relevant genomic data? What constitutes a genomic clinical trial?  What are the useful features of alternative genomic technologies today and for the near future? What are the different kinds of genomic informational resources and databases?  Are they useful and how?  What are the ethical individual and corporate challenges ahead? What are the key limitations we face? (Only HST students may register under HST.512, graded P/D/F.) Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.513",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Kohane, I.",
-                "Staff"
-            ]
+            "in-charge":     "Kohane, I."
         },
         {
             "type":          "Class",
             "label":         "Sensory-Neural Systems: Spatial Orientation from End Organs to Behavior and Adaptation",
             "id":            "HST.514",
-            "listing-index": "mHSTa-052",
+            "listing-index": "mHSTa-051",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1496,10 +1341,7 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.514J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "16.430J",
             "in-charge":     [
@@ -1510,16 +1352,10 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.514",
-            "lecture-section-of": "HST.514",
-            "timeAndPlace":       "R2-5 24-114"
-        },
-        {
             "type":          "Class",
             "label":         "Aerospace Biomedical and Life Support Engineering",
             "id":            "HST.515",
-            "listing-index": "mHSTa-053",
+            "listing-index": "mHSTa-052",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-1-8",
@@ -1529,7 +1365,7 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.515J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "16.423J",
@@ -1543,7 +1379,7 @@
             "type":          "Class",
             "label":         "Circadian Biology: From Cellular Oscillations to Sleep Regulation",
             "id":            "HST.516",
-            "listing-index": "mHSTa-054",
+            "listing-index": "mHSTa-053",
             "course":        "HST",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -1562,10 +1398,23 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01HST.516",
+            "lecture-section-of": "HST.516",
+            "timeAndPlace":       "W2-5 Unknown"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02HST.516",
+            "rec-section-of": "HST.516",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Biomaterials and Tissue Engineering in Medical Devices and Artificial Organs",
             "id":            "HST.521",
-            "listing-index": "mHSTa-055",
+            "listing-index": "mHSTa-054",
             "course":        "HST",
             "level":         "Grad",
             "units":         "4-0-5",
@@ -1583,16 +1432,10 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.521",
-            "lecture-section-of": "HST.521",
-            "timeAndPlace":       "WF1-3 Unknown"
-        },
-        {
             "type":          "Class",
             "label":         "Biomaterials: Tissue Interactions",
             "id":            "HST.522",
-            "listing-index": "mHSTa-056",
+            "listing-index": "mHSTa-055",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1607,13 +1450,8 @@
             "prereq":        [
                 "3.96J",
                 "20.441J",
-                "3.091",
-                "5.111",
-                "5.112",
                 "2.005",
-                "5.60",
-                "7.012",
-                "7.013"
+                "5.60"
             ],
             "in-charge":     [
                 "Yannas, I. V.",
@@ -1621,10 +1459,16 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01HST.522",
+            "lecture-section-of": "HST.522",
+            "timeAndPlace":       "TR2.30-4 1-190"
+        },
+        {
             "type":          "Class",
             "label":         "Cell-Matrix Mechanics",
             "id":            "HST.523",
-            "listing-index": "mHSTa-057",
+            "listing-index": "mHSTa-056",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1640,16 +1484,8 @@
                 "2.785J",
                 "3.97J",
                 "20.411J",
-                "3.091",
-                "5.11",
-                "5.111",
-                "5.112",
                 "2.005",
-                "5.60",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
+                "5.60"
             ],
             "in-charge":     [
                 "Yannas, I. V.",
@@ -1657,16 +1493,10 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.523",
-            "lecture-section-of": "HST.523",
-            "timeAndPlace":       "TR2.30-4 3-343"
-        },
-        {
             "type":          "Class",
             "label":         "Design of Medical Devices and Implants",
             "id":            "HST.524",
-            "listing-index": "mHSTa-058",
+            "listing-index": "mHSTa-057",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1689,16 +1519,10 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.524",
-            "lecture-section-of": "HST.524",
-            "timeAndPlace":       "TR11-12.30 1-134"
-        },
-        {
             "type":          "Class",
             "label":         "Tumor Pathophysiology and Transport Phenomena: A Systems Biology Approach",
             "id":            "HST.525",
-            "listing-index": "mHSTa-059",
+            "listing-index": "mHSTa-058",
             "course":        "HST",
             "level":         "Grad",
             "units":         "2-0-4",
@@ -1708,10 +1532,7 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.525J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "10.548J",
@@ -1724,7 +1545,7 @@
             "type":          "Class",
             "label":         "Blood Vessels and Endothelial Phenotypes in Health and Disease",
             "id":            "HST.527",
-            "listing-index": "mHSTa-060",
+            "listing-index": "mHSTa-059",
             "course":        "HST",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -1742,16 +1563,10 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.527",
-            "lecture-section-of": "HST.527",
-            "timeAndPlace":       "W1.30-4.30 Unknown"
-        },
-        {
             "type":          "Class",
             "label":         "Hyperthermia and Clinical Applications of Bioheat Transfer",
             "id":            "HST.532",
-            "listing-index": "mHSTa-061",
+            "listing-index": "mHSTa-060",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1765,36 +1580,40 @@
             "in-charge":     "Bowman, H. F."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.532",
-            "lecture-section-of": "HST.532",
-            "timeAndPlace":       "TW3.30-5 E25-119"
-        },
-        {
             "type":          "Class",
             "label":         "Principles and Practice of Tissue Engineering",
             "id":            "HST.535",
-            "listing-index": "mHSTa-062",
+            "listing-index": "mHSTa-061",
             "course":        "HST",
             "level":         "Grad",
             "units":         "2-0-6",
             "total-units":   8,
             "has-final":     false,
-            "description":   "Using televised sessions, faculty of HST/MIT-Harvard and Tsinghua University in Beijing, China teach the principles and practice of tissue engineering (and regenerative medicine) to students of both institutions simultaneously. Topics include the principles underlying strategies for employing selected exogenous cells, biomaterial scaffolds, soluble regulators or their genes, and mechanical loading for the regeneration of tissues and organs in vitro and in vivo. Differentiated cell types and stem cells are compared and contrasted for this application, as are natural and synthetic scaffolds. The rationale for employing selected growth factors is covered and the methods for incorporating their genes into the scaffolds are examined. Discussion addresses the influence of environmental factors including mechanical loading and culture conditions. Methods for fabricating tissue-engineered products and devices for implantation are taught. Examples of procedures currently employed clinically are analyzed as case studies.",
+            "description":   ".  Differentiated cell types and stem cells are compared and contrasted for this application, as are natural and synthetic scaffolds.  The rationale for employing selected growth factors is covered and the methods for incorporating their genes into the scaffolds are examined.  Discussion addresses the influence of environmental factors including mechanical loading and culture conditions.  Methods for fabricating tissue-engineered products and devices for implantation are taught.  Examples of procedures currently employed clinically are analyzed as case studies.  All sessions are Webcast to the world and archived for open access review at any time.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.535",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "in-charge":     [
-                "Spector, M.",
-                "Cui, F. Z."
+            "in-charge":     "Spector, M."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01HST.535",
+            "lecture-section-of": "HST.535",
+            "timeAndPlace":       "W8-9.30 9-151"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L02HST.535",
+            "lecture-section-of": "HST.535",
+            "timeAndPlace":       [
             ]
         },
         {
             "type":          "Class",
             "label":         "Human Physiology",
             "id":            "HST.540",
-            "listing-index": "mHSTa-063",
+            "listing-index": "mHSTa-062",
             "course":        "HST",
             "level":         "Undergrad",
             "units":         "5-0-7",
@@ -1804,7 +1623,7 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.540J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "prereq":        [
                 "7.20J",
                 "7.05"
@@ -1815,20 +1634,27 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01HST.540",
+            "lecture-section-of": "HST.540",
+            "timeAndPlace":       "TR9-11 E25-111"
+        },
+        {
             "type":          "Class",
             "label":         "Quantitative Physiology: Cells and Tissues",
             "id":            "HST.541",
-            "listing-index": "mHSTa-064",
+            "listing-index": "mHSTa-063",
             "course":        "HST",
             "level":         "Grad",
             "units":         "5-2-5",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Meets with undergraduate subject 6.021J. Requires the completion of more advanced home problems and/or an additional project.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.541J",
             "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.794J",
                 "6.521J",
@@ -1840,7 +1666,6 @@
                 "6.002",
                 "6.071",
                 "10.301",
-                "8.02",
                 "18.03"
             ],
             "in-charge":     [
@@ -1849,15 +1674,46 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01HST.541",
+            "lecture-section-of": "HST.541",
+            "timeAndPlace":       "MWF10 34-101"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B02HST.541",
+            "lab-section-of": "HST.541",
+            "timeAndPlace":   [
+            ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R03HST.541",
+            "rec-section-of": "HST.541",
+            "timeAndPlace":   "TR10 36-112"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R04HST.541",
+            "rec-section-of": "HST.541",
+            "timeAndPlace":   "TR11 36-112"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R05HST.541",
+            "rec-section-of": "HST.541",
+            "timeAndPlace":   "TR12 36-112"
+        },
+        {
             "type":          "Class",
             "label":         "Quantitative Physiology: Organ Transport Systems",
             "id":            "HST.542",
-            "listing-index": "mHSTa-065",
+            "listing-index": "mHSTa-064",
             "course":        "HST",
             "level":         "Undergrad",
             "units":         "4-2-6",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Application of the principles of energy and mass flow to major human organ systems. Mechanisms of regulation and homeostasis. Anatomical, physiological and pathophysiological features of the cardiovascular, respiratory and renal systems. Systems, features and devices that are most illuminated by the methods of physical sciences. Laboratory work includes some animal studies.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.542J",
             "joint":         true,
@@ -1870,8 +1726,7 @@
                 "2.796J",
                 "6.522J",
                 "20.471J",
-                "18.03",
-                "8.02"
+                "18.03"
             ],
             "in-charge":     [
                 "Mark, R. G.",
@@ -1879,28 +1734,10 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.542",
-            "lecture-section-of": "HST.542",
-            "timeAndPlace":       "TR9.30-11 32-124"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02HST.542",
-            "rec-section-of": "HST.542",
-            "timeAndPlace":   "F1 E25-117"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R03HST.542",
-            "rec-section-of": "HST.542",
-            "timeAndPlace":   "F2 E25-117"
-        },
-        {
             "type":          "Class",
             "label":         "Cardiac Biophysics",
             "id":            "HST.543",
-            "listing-index": "mHSTa-066",
+            "listing-index": "mHSTa-065",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1910,10 +1747,7 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.543",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "18.03",
@@ -1927,12 +1761,12 @@
             "type":          "Class",
             "label":         "Fields, Forces, and Flows in Biological Systems",
             "id":            "HST.544",
-            "listing-index": "mHSTa-067",
+            "listing-index": "mHSTa-066",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Molecular diffusion, diffusion-reaction, conduction, convection in biological systems; fields in heterogeneous media; electrical double layers; Maxwell stress tensor, electrical forces in physiological systems. Fluid and solid continua: equations of motion useful for porous, hydrated biological tissues. Case studies of membrane transport, electrode interfaces, electrical, mechanical, and chemical transduction in tissues, convective-diffusion/reaction, electrophoretic, electroosmotic flows in tissues/MEMs, and ECG. Electromechanical and physicochemical interactions in cells and biomaterials; musculoskeletal, cardiovascular, and other biological and clinical examples.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.544J",
             "joint":         true,
@@ -1950,14 +1784,20 @@
             ],
             "in-charge":     [
                 "Grodzinsky, A. J.",
-                "Kamm, R. D."
+                "Lauffenburger, D."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01HST.544",
+            "lecture-section-of": "HST.544",
+            "timeAndPlace":       "MW1-2.30 32-141"
         },
         {
             "type":          "Class",
             "label":         "Introduction to Systems Analysis with Physiological Applications",
             "id":            "HST.545",
-            "listing-index": "mHSTa-068",
+            "listing-index": "mHSTa-067",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-3-6",
@@ -1968,17 +1808,14 @@
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "8.02",
-                "18.03"
-            ],
+            "prereq":        "18.03",
             "in-charge":     "Merfeld, D.M."
         },
         {
             "type":          "Class",
             "label":         "Orthopedic Biomechanics",
             "id":            "HST.546",
-            "listing-index": "mHSTa-069",
+            "listing-index": "mHSTa-068",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-3-6",
@@ -1988,7 +1825,10 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.546",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.002",
@@ -1997,16 +1837,22 @@
             "in-charge":     "Alkalay, R."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01HST.546",
+            "lecture-section-of": "HST.546",
+            "timeAndPlace":       "MW3-4.30 4-145"
+        },
+        {
             "type":          "Class",
             "label":         "Human Pathophysiology",
             "id":            "HST.547",
-            "listing-index": "mHSTa-070",
+            "listing-index": "mHSTa-069",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Covers fundamental physiological principles of human biology and selected mecahnisms of disease. Emphasis on  integration of basic science underlying a pathological condition with the clinical manifestations. Introduction to specific drugs that are relevant to a disease and examples of where cutting-edge research has impacted on pathophysiology, diagnosis and/or management. The first sessions devoted to basic physiologic principles and  organ/organism homeostasis, including membrane transport, control of cell volume, fluid, electrolyte and acid-base balance, hormones, signal transduction, endothelial biology, autonomic transmission, and skeletal and smooth muscle physiology. The second half covers endocrinology (including diabetes), pulmonary disorders, cardiology and hematology.  Follows Harvard's academic calendar. Open to GEMS and BEP; or by permission of instructor. Limited to 30 students (including HMS and MIT).",
+            "description":   "Covers fundamental physiological principles of human biology and selected mecahnisms of disease. Emphasis on  integration of basic science underlying a pathological condition with the clinical manifestations. Introduction to specific drugs that are relevant to a disease and examples of where cutting-edge research has impacted on pathophysiology, diagnosis and/or management. The first sessions devoted to basic physiologic principles and  organ/organism homeostasis, including membrane transport, control of cell volume, fluid, electrolyte and acid-base balance, hormones, signal transduction, endothelial biology, autonomic transmission, and skeletal and smooth muscle physiology. The second half covers endocrinology (including diabetes), pulmonary disorders, cardiology and hematology.  Follows Harvard\\'s academic calendar. Open to GEMS and BEP; or by permission of instructor. Limited to 30 students (including HMS and MIT).",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.547",
             "joint":         false,
             "semester":      "Fall",
@@ -2018,10 +1864,19 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01HST.547",
+            "lecture-section-of": "HST.547",
+            "timeAndPlace":       [
+                "M8.30-10 Unknown",
+                "WF9.30-11.30 Unknown"
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Neural Signal Processing",
             "id":            "HST.548",
-            "listing-index": "mHSTa-071",
+            "listing-index": "mHSTa-070",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-3-6",
@@ -2031,34 +1886,36 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.548",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "prereq":        [
-                "8.02",
-                "18.03"
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
             ],
+            "prereq":        "18.03",
             "in-charge":     "Stanley, G."
         },
         {
             "type":          "Class",
-            "label":         "Introduction to Molecular Simulations",
+            "label":         "Molecular Simulations",
             "id":            "HST.557",
-            "listing-index": "mHSTa-072",
+            "listing-index": "mHSTa-071",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduction to the basic concepts underlying dynamical simulations of proteins and nucleic acids. Topics include classical statistical thermodynamics for calculation of macroscopic observables, normal-mode analyses of protein dynamics, and thermodynamic perturbation theory. Emphasizes actual techniques and algorithms used for such calculations. Final project integrates these concepts in addressing a problem of biological importance using existing molecular mechanics software packages.",
+            "description":   "Introduction to the basic concepts underlying dynamical simulations of proteins and nucleic acids. Basic definitions of components that form biological systems used to develop physical models that describe the dynamics of biomolecules. Topics include classical statistical thermodynamics for calculation of macroscopic observables, normal-mode analyses of protein dynamics, and thermodynamic perturbation theory. Emphasizes actual techniques and algorithms used for such calculations. Prior knowledge of biochemistry is not required. Students taking the graduate version complete an additional project.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.557J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.582J",
-                "6.581J",
-                "7.91J",
-                "18.417J"
+                "6.502",
+                "18.03",
+                "18.06",
+                "6.041",
+                "6.042"
             ],
             "in-charge":     "Stultz, C. M."
         },
@@ -2066,13 +1923,13 @@
             "type":          "Class",
             "label":         "Radiation Biophysics",
             "id":            "HST.560",
-            "listing-index": "mHSTa-073",
+            "listing-index": "mHSTa-072",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Discusses energy deposition by various types of radiation, including the creation and behavior of secondary radiations. Explores the effects of radiation on biological systems including DNA damage, in vitro cell survival models and in vivo mammalian systems.  Covers radiation therapy, radiation syndromes in humans and carcinogenesis.  Environmental radiation sources, and aspects of radiation protection are also discussed.  Examples from the current literature used to supplement lecture material.  Requires a term paper and presentation.",
+            "description":   "Provides a background in sources of radiation with an emphasis on terrestrial and space environments and on industrial production. Discusses experimental approaches to evaluating biological effects resulting from irradiation regimes differing in radiation type, dose and dose-rate.  Effects at the molecular, cellular, organism, and population level are examined.  Literature is reviewed identifying gaps in our understanding of the health effects of radiation, and responses of regulatory bodies to these gaps is discussed.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.560J",
             "joint":         true,
             "semester":      "Spring",
@@ -2082,19 +1939,13 @@
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "22.55J",
-            "in-charge":     "Coderre, J. A."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.560",
-            "lecture-section-of": "HST.560",
-            "timeAndPlace":       "MW9.30-11 24-121"
+            "in-charge":     "Yanch, J. C."
         },
         {
             "type":          "Class",
             "label":         "Noninvasive Imaging in Biology and Medicine",
             "id":            "HST.561",
-            "listing-index": "mHSTa-074",
+            "listing-index": "mHSTa-073",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2104,10 +1955,7 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.561J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "9.173J",
@@ -2122,7 +1970,7 @@
             "type":          "Class",
             "label":         "Imaging Biophysics and Clinical Applications",
             "id":            "HST.563",
-            "listing-index": "mHSTa-075",
+            "listing-index": "mHSTa-074",
             "course":        "HST",
             "level":         "Grad",
             "units":         "2-1-9",
@@ -2132,10 +1980,7 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.563",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "18.03",
@@ -2148,22 +1993,10 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.563",
-            "lecture-section-of": "HST.563",
-            "timeAndPlace":       "TR11 2-147"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B02HST.563",
-            "lab-section-of": "HST.563",
-            "timeAndPlace":   "W EVE (4-6 PM) 2-147"
-        },
-        {
             "type":          "Class",
             "label":         "Biomedical Optics",
             "id":            "HST.569",
-            "listing-index": "mHSTa-076",
+            "listing-index": "mHSTa-075",
             "course":        "HST",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -2173,10 +2006,7 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.569",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Bouma, B. E.",
@@ -2186,32 +2016,9 @@
         },
         {
             "type":          "Class",
-            "label":         "Introduction to Biotechnology",
-            "id":            "HST.571",
-            "listing-index": "mHSTa-077",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces students to discovery, pre-clinical, and clinical development in the biomedical industry. Subject designed to show students in the applied sciences how biomedical technologies are conceived, funded, developed, and commercialized in the US, with detailed consideration of the US Patent Office and the US Food and Drug Administration. Students work together on semester-long projects aimed to investigate the scientific and commercial potential of publicly-traded biomedical companies. Senior representatives of the companies give invited lectures. Other invited lectures are delivered by leading scientists and financial analysts in the biomedical field. Students prepare mid-semester and final semester presentations and written reports on their selected technologies. Students expected to actively participate in class and may occasionally visit local biomedical industries.Subject follows Harvard FAS calendar.",
-            "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.571",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "in-charge":     "Edwards, D."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.571",
-            "lecture-section-of": "HST.571",
-            "timeAndPlace":       "R EVE (3-6 PM) Unknown"
-        },
-        {
-            "type":          "Class",
             "label":         "Future Medical Technologies",
             "id":            "HST.572",
-            "listing-index": "mHSTa-078",
+            "listing-index": "mHSTa-076",
             "course":        "HST",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -2225,16 +2032,10 @@
             "in-charge":     "Weaver, J. C."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.572",
-            "lecture-section-of": "HST.572",
-            "timeAndPlace":       "T EVE (6-7.30 PM) E25-119"
-        },
-        {
             "type":          "Class",
             "label":         "Complex Biological Control Systems",
             "id":            "HST.573",
-            "listing-index": "mHSTa-079",
+            "listing-index": "mHSTa-077",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2244,7 +2045,10 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.573",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "6.003",
             "in-charge":     "Poon, C. -S."
@@ -2253,17 +2057,17 @@
             "type":          "Class",
             "label":         "Introduction to Sensorimotor Neuroengineering",
             "id":            "HST.574",
-            "listing-index": "mHSTa-080",
+            "listing-index": "mHSTa-078",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduces an integrated approach to understanding normal and pathological human movement control in terms of its neurophysiology, neurology, and biomechanics from the perspective of basic linear control theory. Issues include postural stability, tracking performance, effects of signal transmission delays, feedback versus feedforward control, \"internal models\", continous versus segmented control, and their degraduation in the context of clinical motor control disorders. Lectures and classroom discussions are based on a motor neurophysiology text and assigned review of current and historical literature on experiments and system modeling. Problem sets emphasize Matlab modeling and simulation. Provides a foundation for students with either biological or engineering backgrounds seeking to analyze sensorimotor control in health and disease, and/or to design prosthetic, orthotic or biomorphic robotic systems. A final project/presentation is required.",
+            "description":   "Introduces an integrated approach to understanding normal and pathological human movement control in terms of its neurophysiology, neurology, and biomechanics from the perspective of basic linear control theory. Issues include postural stability, tracking performance, effects of signal transmission delays, feedback versus feedforward control, \\\u0022internal models\\\u0022, continous versus segmented control, and their degraduation in the context of clinical motor control disorders. Lectures and classroom discussions are based on a motor neurophysiology text and assigned review of current and historical literature on experiments and system modeling. Problem sets emphasize Matlab modeling and simulation. Provides a foundation for students with either biological or engineering backgrounds seeking to analyze sensorimotor control in health and disease, and/or to design prosthetic, orthotic or biomorphic robotic systems. A final project/presentation is required.",
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.574",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.003",
@@ -2273,10 +2077,16 @@
             "in-charge":     "Massaquoi, S."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01HST.574",
+            "lecture-section-of": "HST.574",
+            "timeAndPlace":       "TR2-3.30 E25-101"
+        },
+        {
             "type":          "Class",
             "label":         "Bioelectronics Project Laboratory",
             "id":            "HST.575",
-            "listing-index": "mHSTa-081",
+            "listing-index": "mHSTa-079",
             "course":        "HST",
             "level":         "Undergrad",
             "units":         "2-8-2",
@@ -2294,16 +2104,15 @@
                 "6.071"
             ],
             "in-charge":     [
-                "Sarpeshkar, R.",
                 "Freeman, D. M.",
-                "Burns, S. K."
+                "Yanik, M. F."
             ]
         },
         {
             "type":          "Class",
             "label":         "Topics in Neural Signal Processing",
             "id":            "HST.576",
-            "listing-index": "mHSTa-082",
+            "listing-index": "mHSTa-080",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2313,18 +2122,41 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.576J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "prereq":        "9.272J",
             "in-charge":     "Brown, E. N."
         },
         {
             "type":          "Class",
+            "label":         "Mathematical and Computational Methods for Biomedical Imaging",
+            "id":            "HST.578",
+            "listing-index": "mHSTa-081",
+            "course":        "HST",
+            "level":         "Grad",
+            "units":         "3-3-6",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Course provides a solid basis for research and application work in the analysis of medical images. Covers selected topics of applied mathematics, including coordinate systems, transformations, probability and statistics, system modeling, and numerical optimization. Computational topics include image formats, basic visualization, software systems, data organization and visualization. Regulatory aspects of medical imaging described. These topics form the foundation for in-depth coverage of some of the major areas of medical image analysis, including segmentation, registration, simulation, and the analysis of group differences. These areas serve as examples in lectures and problem sets, and are the topics of computational laboratory projects. Maximum enrollment 30.",
+            "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.578",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      "Not offered this year",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "6.041",
+                "18.06",
+                "18.085"
+            ],
+            "in-charge":     [
+                "Wells, W.",
+                "Vangel, M."
+            ]
+        },
+        {
+            "type":          "Class",
             "label":         "Data Acquisition and Image Reconstruction in MRI",
             "id":            "HST.580",
-            "listing-index": "mHSTa-083",
+            "listing-index": "mHSTa-082",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2334,7 +2166,7 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.580J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.556J",
@@ -2346,7 +2178,7 @@
             "type":          "Class",
             "label":         "Biomedical Signal and Image Processing",
             "id":            "HST.582",
-            "listing-index": "mHSTa-084",
+            "listing-index": "mHSTa-083",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-6-3",
@@ -2375,28 +2207,10 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.582",
-            "lecture-section-of": "HST.582",
-            "timeAndPlace":       "TR9.30-11 56-154"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B02HST.582",
-            "lab-section-of": "HST.582",
-            "timeAndPlace":   "W11-3 14-0637"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B03HST.582",
-            "lab-section-of": "HST.582",
-            "timeAndPlace":   "F11-3 14-0637"
-        },
-        {
             "type":          "Class",
             "label":         "Functional Magnetic Resonance Imaging: Data Acquisition and Analysis",
             "id":            "HST.583",
-            "listing-index": "mHSTa-085",
+            "listing-index": "mHSTa-084",
             "course":        "HST",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2406,7 +2220,10 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.583",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Gollub, R. L.",
@@ -2424,10 +2241,28 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01HST.583",
+            "lecture-section-of": "HST.583",
+            "timeAndPlace":       "MW3 E25-119"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B02HST.583",
+            "lab-section-of": "HST.583",
+            "timeAndPlace":   "M1-2.30 1-115"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R03HST.583",
+            "rec-section-of": "HST.583",
+            "timeAndPlace":   "W2 E25-119"
+        },
+        {
             "type":          "Class",
             "label":         "Magnetic Resonance Analytic, Biochemical, and Imaging Techniques",
             "id":            "HST.584",
-            "listing-index": "mHSTa-086",
+            "listing-index": "mHSTa-085",
             "course":        "HST",
             "level":         "Grad",
             "units":         "3-0-12",
@@ -2437,47 +2272,16 @@
             "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.584J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "22.561J",
             "in-charge":     "Rosen, B. R."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.584",
-            "lecture-section-of": "HST.584",
-            "timeAndPlace":       "W EVE (7-10 PM) E25-111"
-        },
-        {
-            "type":          "Class",
-            "label":         "Biosensors, Signal Processing, and Biomedical Applications",
-            "id":            "HST.585",
-            "listing-index": "mHSTa-087",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Principles of measurements and instrumentation, emphasizing quantitative modelling of basic transduction (sensing) processes, interaction of sensors with biological systems (e.g. human body, clinical specimens), and both fundamental and practical limitations on the signal-to-noise ratio. Emphasis on modern signal processing strategies involving intensive real-time computation as an integral part of the measurement process. Some background in life sciences and electronics assumed.",
-            "url":           "http://student.mit.edu/catalog/mHSTa.html#HST.585J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "6.566J",
-            "in-charge":     [
-                "Weaver, J. C.",
-                "Burns, S. K."
-            ]
-        },
-        {
             "type":          "Class",
             "label":         "Special Subjects in Medical Engineering and Medical Physics",
             "id":            "HST.586?589",
-            "listing-index": "mHSTa-088",
+            "listing-index": "mHSTa-086",
             "course":        "HST",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2503,7 +2307,7 @@
             "type":          "Class",
             "label":         "Biomedical Engineering Seminar Series",
             "id":            "HST.590",
-            "listing-index": "mHSTa-089",
+            "listing-index": "mHSTa-087",
             "course":        "HST",
             "level":         "Grad",
             "units":         "1-0-0 [P/D/F]",
@@ -2529,13 +2333,13 @@
             "type":               "LectureSection",
             "label":              "L01HST.590",
             "lecture-section-of": "HST.590",
-            "timeAndPlace":       "R EVE (5 PM) E25-117"
+            "timeAndPlace":       "R EVE (5 PM) 4-237"
         },
         {
             "type":          "Class",
             "label":         "Biomedical Engineering Research Seminar",
             "id":            "HST.591",
-            "listing-index": "mHSTa-090",
+            "listing-index": "mHSTa-088",
             "course":        "HST",
             "level":         "Grad",
             "units":         "2-0-0",
@@ -2559,16 +2363,10 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.591",
-            "lecture-section-of": "HST.591",
-            "timeAndPlace":       "MWF11.30-1 E25-119"
-        },
-        {
             "type":          "Class",
             "label":         "Seminar in Computational Biology",
             "id":            "HST.592",
-            "listing-index": "mHSTa-091",
+            "listing-index": "mHSTa-089",
             "course":        "HST",
             "level":         "Grad",
             "units":         "2-0-4",
@@ -2579,8 +2377,8 @@
             "joint":         false,
             "semester":      "Fall",
             "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
+                "Can be repeated for credit",
+                "Currently Offered"
             ],
             "in-charge":     "Mirny, L."
         },
@@ -2588,7 +2386,7 @@
             "type":          "Class",
             "label":         "Translational Medicine Seminars",
             "id":            "HST.594",
-            "listing-index": "mHSTa-092",
+            "listing-index": "mHSTa-090",
             "course":        "HST",
             "level":         "Grad",
             "units":         "1-0-0 [P/D/F]",
@@ -2618,7 +2416,7 @@
             "type":          "Class",
             "label":         "Special Topics in Health Sciences and Technology",
             "id":            "HST.598",
-            "listing-index": "mHSTa-093",
+            "listing-index": "mHSTa-091",
             "course":        "HST",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -2642,7 +2440,7 @@
             "type":          "Class",
             "label":         "Special Topics in Health Sciences and Technology",
             "id":            "HST.599",
-            "listing-index": "mHSTa-094",
+            "listing-index": "mHSTa-092",
             "course":        "HST",
             "level":         "Grad",
             "units":         "Unknown",

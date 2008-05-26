@@ -104,6 +104,12 @@
             "area":          "General"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0110.95",
+            "lecture-section-of": "10.95",
+            "timeAndPlace":       "R EVE (4-7 PM) 4-149"
+        },
+        {
             "type":          "Class",
             "label":         "Special Topics in Chemical-Biological Engineering",
             "id":            "10.96",
@@ -113,7 +119,7 @@
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Directed research and study of special chemical-biological engineering problems. Enrollment limited to 20 students.",
+            "description":   "Directed research and study of special chemical-biological engineering problems.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.96",
             "joint":         false,
             "semester":      [
@@ -162,7 +168,7 @@
             "type":               "LectureSection",
             "label":              "L0110.960",
             "lecture-section-of": "10.960",
-            "timeAndPlace":       "W3-5 66-110"
+            "timeAndPlace":       "W3-5 4-237"
         },
         {
             "type":          "Class",
@@ -192,7 +198,7 @@
             "type":               "LectureSection",
             "label":              "L0110.961",
             "lecture-section-of": "10.961",
-            "timeAndPlace":       "T9-10.30 66-056"
+            "timeAndPlace":       "T9-10.30 66-065"
         },
         {
             "type":          "Class",
@@ -219,12 +225,6 @@
             "area":          "General"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0110.962",
-            "lecture-section-of": "10.962",
-            "timeAndPlace":       "T8.30-10.30 8-315"
-        },
-        {
             "type":          "Class",
             "label":         "Research, Technology and Business Development in the Chemical Processing Industries",
             "id":            "10.963",
@@ -244,9 +244,39 @@
         },
         {
             "type":          "Class",
+            "label":         "Molecular Engineering Seminar",
+            "id":            "10.969",
+            "listing-index": "m10b-009",
+            "course":        "10",
+            "level":         "Grad",
+            "units":         "2-0-4 [P/D/F]",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "Seminar allows students to present their research to other students and staff.  Research topics include molecular simulations techniques and applications, and molecular engineering of pharmaceutical and biopharmaceutical processes and formulations.",
+            "url":           "http://student.mit.edu/catalog/m10b.html#10.969",
+            "joint":         false,
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
+            "offering":      [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":     "Trout, B. L.",
+            "area":          "General"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0110.969",
+            "lecture-section-of": "10.969",
+            "timeAndPlace":       "W EVE (4-6 PM) E19-758"
+        },
+        {
+            "type":          "Class",
             "label":         "Seminar in Molecular Computation",
             "id":            "10.970",
-            "listing-index": "m10b-009",
+            "listing-index": "m10b-010",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -263,29 +293,20 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     [
-                "Green, W. H.",
-                "Trout, B. L."
-            ],
+            "in-charge":     "Green, W. H.",
             "area":          "General"
         },
         {
             "type":               "LectureSection",
             "label":              "L0110.970",
             "lecture-section-of": "10.970",
-            "timeAndPlace":       "M11.30-1 66-360"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0210.970",
-            "lecture-section-of": "10.970",
-            "timeAndPlace":       "W EVE (4-6 PM) E19-758"
+            "timeAndPlace":       "M10-12 66-360"
         },
         {
             "type":          "Class",
             "label":         "Seminar in Fluid Mechanics and Transport Phenomena",
             "id":            "10.971",
-            "listing-index": "m10b-010",
+            "listing-index": "m10b-011",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -319,7 +340,7 @@
             "type":          "Class",
             "label":         "Biochemical Engineering Research Seminar",
             "id":            "10.972",
-            "listing-index": "m10b-011",
+            "listing-index": "m10b-012",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -343,10 +364,16 @@
             "area":          "General"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0110.972",
+            "lecture-section-of": "10.972",
+            "timeAndPlace":       "R12-1.30 66-480"
+        },
+        {
             "type":          "Class",
             "label":         "Bioengineering",
             "id":            "10.973",
-            "listing-index": "m10b-012",
+            "listing-index": "m10b-013",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -365,7 +392,8 @@
             ],
             "in-charge":     [
                 "Colton, C. K.",
-                "Deen, W. M."
+                "Deen, W. M.",
+                "Love, J.C."
             ],
             "area":          "General"
         },
@@ -379,7 +407,7 @@
             "type":          "Class",
             "label":         "Seminar in Polymer Science and Engineering",
             "id":            "10.975",
-            "listing-index": "m10b-013",
+            "listing-index": "m10b-014",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -396,7 +424,6 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Cohen, R. E.",
                 "Hammond, P. T.",
@@ -408,25 +435,25 @@
             "type":               "LectureSection",
             "label":              "L0110.975",
             "lecture-section-of": "10.975",
-            "timeAndPlace":       "T12-2 66-360"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0210.975",
-            "lecture-section-of": "10.975",
             "timeAndPlace":       "T2-4 66-360"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0310.975",
-            "lecture-section-of": "10.975",
-            "timeAndPlace":       "W12-2 66-360"
+            "type":           "LabSection",
+            "label":          "B0210.975",
+            "lab-section-of": "10.975",
+            "timeAndPlace":   "T12-2 66-360"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0310.975",
+            "rec-section-of": "10.975",
+            "timeAndPlace":   "W12-2 66-360"
         },
         {
             "type":          "Class",
             "label":         "Process Design, Operations, and Control",
             "id":            "10.976",
-            "listing-index": "m10b-014",
+            "listing-index": "m10b-015",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -456,7 +483,7 @@
             "type":          "Class",
             "label":         "Seminar in Applied Thermodynamics, Kinetics, and Transport",
             "id":            "10.978",
-            "listing-index": "m10b-015",
+            "listing-index": "m10b-016",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -480,13 +507,13 @@
             "type":               "LectureSection",
             "label":              "L0110.978",
             "lecture-section-of": "10.978",
-            "timeAndPlace":       "W EVE (4-6 PM) 56-302"
+            "timeAndPlace":       "W12-2 66-319"
         },
         {
             "type":          "Class",
             "label":         "Plasma Processing",
             "id":            "10.979",
-            "listing-index": "m10b-016",
+            "listing-index": "m10b-017",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -510,13 +537,13 @@
             "type":               "LectureSection",
             "label":              "L0110.979",
             "lecture-section-of": "10.979",
-            "timeAndPlace":       "F1-3 66-380"
+            "timeAndPlace":       "W2 66-380"
         },
         {
             "type":          "Class",
             "label":         "Seminar in Colloid and Interface Science",
             "id":            "10.981",
-            "listing-index": "m10b-017",
+            "listing-index": "m10b-018",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -546,7 +573,7 @@
             "type":          "Class",
             "label":         "Seminar in Experimental Colloid and Surface Chemistry",
             "id":            "10.982",
-            "listing-index": "m10b-018",
+            "listing-index": "m10b-019",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -576,7 +603,7 @@
             "type":          "Class",
             "label":         "Reactive Processing and Microfabricated Chemical Systems",
             "id":            "10.983",
-            "listing-index": "m10b-019",
+            "listing-index": "m10b-020",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -606,7 +633,7 @@
             "type":          "Class",
             "label":         "Biomedical Applications of Chemical Engineering",
             "id":            "10.984",
-            "listing-index": "m10b-020",
+            "listing-index": "m10b-021",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -636,7 +663,7 @@
             "type":          "Class",
             "label":         "Solid Thin Films and Interfaces",
             "id":            "10.987",
-            "listing-index": "m10b-021",
+            "listing-index": "m10b-022",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -666,7 +693,7 @@
             "type":          "Class",
             "label":         "Special Topics in Biotechnology",
             "id":            "10.989",
-            "listing-index": "m10b-022",
+            "listing-index": "m10b-023",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -696,7 +723,7 @@
             "type":          "Class",
             "label":         "Introduction to Chemical Engineering Research",
             "id":            "10.990",
-            "listing-index": "m10b-023",
+            "listing-index": "m10b-024",
             "course":        "10",
             "level":         "Grad",
             "units":         "3-0-3 [P/D/F]",
@@ -714,10 +741,19 @@
             "area":          "General"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0110.990",
+            "lecture-section-of": "10.990",
+            "timeAndPlace":       [
+                "TR2-4 66-110",
+                "W3-5 (ENDS OCT 31) 66-110"
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Seminar in Chemical Engineering",
             "id":            "10.991",
-            "listing-index": "m10b-024",
+            "listing-index": "m10b-025",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -752,7 +788,7 @@
             "type":          "Class",
             "label":         "Molecular Bioengineering",
             "id":            "10.994",
-            "listing-index": "m10b-025",
+            "listing-index": "m10b-026",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -773,10 +809,16 @@
             "area":          "General"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0110.994",
+            "lecture-section-of": "10.994",
+            "timeAndPlace":       "R12-1.30 E19-758"
+        },
+        {
             "type":          "Class",
             "label":         "Cellular and Metabolic Engineering",
             "id":            "10.995",
-            "listing-index": "m10b-026",
+            "listing-index": "m10b-027",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -800,10 +842,16 @@
             "area":          "General"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0110.995",
+            "lecture-section-of": "10.995",
+            "timeAndPlace":       "W EVE (4-6 PM) 66-319"
+        },
+        {
             "type":          "Class",
             "label":         "Seminar in Cellular Engineering",
             "id":            "10.996",
-            "listing-index": "m10b-027",
+            "listing-index": "m10b-028",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -824,13 +872,13 @@
             "type":               "LectureSection",
             "label":              "L0110.996",
             "lecture-section-of": "10.996",
-            "timeAndPlace":       "W EVE (4-6 PM) 66-480"
+            "timeAndPlace":       "R3-5 66-480"
         },
         {
             "type":          "Class",
             "label":         "Theoretical and Computational Immunology Seminar",
             "id":            "10.997",
-            "listing-index": "m10b-028",
+            "listing-index": "m10b-029",
             "course":        "10",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
@@ -841,8 +889,7 @@
             "joint":         false,
             "semester":      [
                 "Fall",
-                "Spring",
-                "Summer"
+                "Spring"
             ],
             "offering":      [
                 "Can be repeated for credit",
@@ -855,7 +902,7 @@
             "type":          "Class",
             "label":         "Study at Cambridge University",
             "id":            "10.CME",
-            "listing-index": "m10b-029",
+            "listing-index": "m10b-030",
             "course":        "10",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -879,13 +926,13 @@
             "type":          "Class",
             "label":         "UPOP Summer Practice Experience",
             "id":            "10.EPE",
-            "listing-index": "m10b-030",
+            "listing-index": "m10b-031",
             "course":        "10",
             "level":         "Undergrad",
             "units":         "0-1-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering students, typically sophomores, the opportunity to participate in engineering practice.  Students gain experience with recruitment and job selection, the job experience, and the assessment and reflection process. Spring term includes seminars and workshops in preparation for internship and management of career path.  With the assistance of UPOP staff, students find and engage in a 10-12 week summer job experience, during which they maintain a journal of their experiences.  In the Fall term, students write essays addressing the topics introduced in UPOP EPW workshop during IAP, complete a post-summer self-evaluation form, and discuss these forms with their regular academic advisor. Students have the opportunity to share their experiences with others in a roundtable discussion.  Can be taken up to two times for credit. Spring term can only be taken in conjunction with the Fall term.",
+            "description":   "Immerses engineering sophomores in the world of professional engineering experience by providing guided instruction in all aspects of the job acquisition process. Students complete a 10-12 week internship assignment during the summer, which includes maintaining a structured journal of observations and experiences, meeting with UPOP staff members, writing essays, and completing a self-evaluation. May be repeated twice for credit; spring term can be taken only in conjunction with fall term.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.EPE",
             "joint":         false,
             "semester":      [
@@ -905,20 +952,20 @@
                 "22.EPE",
                 "2.EPW"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "area":          "General"
         },
         {
             "type":          "Class",
             "label":         "UPOP Reflective Learning Experience",
             "id":            "10.EPR",
-            "listing-index": "m10b-031",
+            "listing-index": "m10b-032",
             "course":        "10",
             "level":         "Undergrad",
             "units":         "0-0-3 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering sophomores the opportunity to reflect and share their summer practice experiences as related to the topics of the IAP subject and students' academic subjects through a written report and an oral presentation delivered at a UPOP Symposium in the fall.",
+            "description":   "Reflective learning experiences for engineering juniors that serve as the culmination of their sophomore year in the UPOP program. Students review their internship experiences through written and oral presentations and receive small-group and individualized coaching to reinforce the cognitive link between all aspects of the UPOP experience and their disciplinary field of study.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.EPR",
             "joint":         false,
             "semester":      "Fall",
@@ -932,20 +979,20 @@
                 "22.EPR",
                 "2.EPE"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "area":          "General"
         },
         {
             "type":          "Class",
             "label":         "UPOP IAP Workshop",
             "id":            "10.EPW",
-            "listing-index": "m10b-032",
+            "listing-index": "m10b-033",
             "course":        "10",
             "level":         "Undergrad",
             "units":         "3-0-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering sophomores the opportunity to build the core foundation of skills necessary to succeed in and prepare for a summer practice experience. Introduces concepts in product development, system dynamics, organizational dynamics, and effective communication. Also introduces concepts in ethics and character, and leadership and teamwork to ensure that students acquire an appreciation of the social, environmental, and ethical implications of organizational decision making. Subject is an interactive experience integrating lectures with role-playing, simulations, and group projects, where students apply these concepts in a case study context. Students are provided with a journal to be used during their summer training practice. Limited enrollment.",
+            "description":   "Introduction to professional development skills for engineering practice. Experiential learning modules prepare sophomores for success in summer internship and beyond. Faculty and senior engineering professionals recruited from industry guide teams through learning activities, which include creative simulations, team competitions, oral presentations, and group problem-solving. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/m10b.html#10.EPW",
             "joint":         false,
             "semester":      "IAP",
@@ -959,14 +1006,14 @@
                 "16.EPW",
                 "22.EPW"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "area":          "General"
         },
         {
             "type":          "Class",
             "label":         "Graduate Thesis",
             "id":            "10.ThG",
-            "listing-index": "m10b-033",
+            "listing-index": "m10b-034",
             "course":        "10",
             "level":         "Grad",
             "units":         "Unknown",
@@ -992,7 +1039,7 @@
             "type":          "Class",
             "label":         "Undergraduate Thesis",
             "id":            "10.ThU",
-            "listing-index": "m10b-034",
+            "listing-index": "m10b-035",
             "course":        "10",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1017,7 +1064,7 @@
             "type":          "Class",
             "label":         "Undergraduate Research",
             "id":            "10.UR",
-            "listing-index": "m10b-035",
+            "listing-index": "m10b-036",
             "course":        "10",
             "level":         "Undergrad",
             "units":         "Unknown",

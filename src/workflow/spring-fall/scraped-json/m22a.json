@@ -20,28 +20,17 @@
                 "1.021",
                 "3.021",
                 "10.333",
-                "18.361",
                 "22.00",
-                "18.03"
+                "18.03",
+                "3.016"
             ],
             "in-charge":     [
                 "Buehler, M.",
+                "Marzari, N.",
                 "Radovitzky, R.",
                 "Thonhauser, T."
             ],
             "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.00",
-            "lecture-section-of": "22.00",
-            "timeAndPlace":       "TR3-4.30 4-231"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0222.00",
-            "rec-section-of": "22.00",
-            "timeAndPlace":   "M4 4-231"
         },
         {
             "type":          "Class",
@@ -76,24 +65,6 @@
             "area":          "Undergraduate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0122.002",
-            "lecture-section-of": "22.002",
-            "timeAndPlace":       "MW1 4-237"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0222.002",
-            "rec-section-of": "22.002",
-            "timeAndPlace":   "F1 66-160"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0322.002",
-            "rec-section-of": "22.002",
-            "timeAndPlace":   "F2 66-160"
-        },
-        {
             "type":          "Class",
             "label":         "Introduction to Ionizing Radiation",
             "id":            "22.01",
@@ -102,7 +73,7 @@
             "level":         "Undergrad",
             "units":         "5-0-7",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduction to basic properties of ionizing radiations and their uses in medicine, industry, science, and environmental studies. Discusses natural and man-made radiation sources, energy deposition and dose calculations, various physical, chemical, and biological processes and effects of radiation with examples of their uses, and principles of radiation protection.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.01",
             "joint":         false,
@@ -111,6 +82,18 @@
             "category":      "Restricted Electives in Science and Technology",
             "in-charge":     "Yanch, J. C.",
             "area":          "Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.01",
+            "lecture-section-of": "22.01",
+            "timeAndPlace":       "TR11-12.30 NW14-1112"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0222.01",
+            "rec-section-of": "22.01",
+            "timeAndPlace":   "F2-4 24-121"
         },
         {
             "type":          "Class",
@@ -131,6 +114,12 @@
             "area":          "Undergraduate Subjects"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0122.011",
+            "lecture-section-of": "22.011",
+            "timeAndPlace":       "T3-5 24-402"
+        },
+        {
             "type":          "Class",
             "label":         "Seminar in Fusion and Plasma Physics",
             "id":            "22.012",
@@ -147,12 +136,6 @@
             "offering":      "Currently Offered",
             "in-charge":     "Molvig, K.",
             "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.012",
-            "lecture-section-of": "22.012",
-            "timeAndPlace":       "R3.30-5 24-115"
         },
         {
             "type":          "Class",
@@ -176,6 +159,12 @@
             "area":          "Undergraduate Subjects"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0122.013",
+            "lecture-section-of": "22.013",
+            "timeAndPlace":       "T3-5 24-115"
+        },
+        {
             "type":          "Class",
             "label":         "Introduction to Applied Nuclear Physics",
             "id":            "22.02",
@@ -185,17 +174,12 @@
             "units":         "5-0-7",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Basic concepts of nuclear physics with emphasis on nuclear structure and radiation interactions with matter. Elementary quantum theory; nuclear forces; shell structure of the nucleus; alpha, beta, and gamma, radioactive decays; interactions of nuclear radiations (charged particles, gammas and neutrons) with matter; nuclear reactions; fission and fusion.",
+            "description":   "Basic concepts of nuclear physics with emphasis on nuclear structure and interactions of radiation with matter. Elementary quantum theory; nuclear forces; shell structure of the nucleus; alpha, beta, and gamma, radioactive decays; interactions of nuclear radiations (charged particles, gammas and neutrons) with matter; nuclear reactions; fission and fusion.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.02",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "Restricted Electives in Science and Technology",
-            "prereq":        [
-                "8.02",
-                "18.02",
-                "22.01"
-            ],
             "in-charge":     "Molvig, K.",
             "area":          "Undergraduate Subjects"
         },
@@ -218,11 +202,14 @@
                 "22.33",
                 "22.06"
             ],
-            "in-charge":     [
-                "Kadak, A.C.",
-                "Yildiz, B."
-            ],
+            "in-charge":     "Whyte, D. G.",
             "area":          "Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.033",
+            "lecture-section-of": "22.033",
+            "timeAndPlace":       "MW11-12.30 24-115"
         },
         {
             "type":          "Class",
@@ -233,7 +220,7 @@
             "level":         "Undergrad",
             "units":         "5-0-7",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduces fundamental properties of the neutron. Covers reactions induced by neutrons, nuclear fission, slowing down of neutrons in infinite media, diffusion theory, the few-group approximation, point kinetics, and fission-product poisoning. Emphasizes the nuclear physics bases of reactor design and its relationship to reactor engineering problems.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.05",
             "joint":         false,
@@ -243,30 +230,51 @@
                 "22.02",
                 "18.03"
             ],
-            "in-charge":     "Bernard, J.",
+            "in-charge":     "Forget, B.",
             "area":          "Undergraduate Subjects"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0122.05",
+            "lecture-section-of": "22.05",
+            "timeAndPlace":       "MWF10 24-121"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0222.05",
+            "rec-section-of": "22.05",
+            "timeAndPlace":   "F3-5 24-115"
+        },
+        {
             "type":          "Class",
-            "label":         "Principles of Tomographic Imaging",
+            "label":         "Radiation Systems Engineering and Tomographic Imaging",
             "id":            "22.058",
             "listing-index": "m22a-009",
             "course":        "22",
             "level":         "Undergrad",
             "units":         "3-3-6",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "An introduction to the principles of tomographic imaging and its applications. Includes a series of lectures with a parallel set of recitations that provide demonstrations of basic principles. Both ionizing and non-ionizing radiation are covered, including x-ray, PET, MRI, and ultrasound. Emphasis is on the physics and engineering of image formation.",
+            "has-final":     true,
+            "description":   "An introduction to radiation systems engineering with examples taken from tomographic imaging. Includes a series of lectures with a parallel set of recitations that provide demonstrations of basic principles. Both ionizing and non-ionizing radiation are covered, including x-ray, PET, MRI, and ultrasound. Emphasis is on the physics and engineering of image formation.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.058",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "18.03",
-                "8.02"
-            ],
+            "prereq":        "18.03",
             "in-charge":     "Cory, D. G.",
             "area":          "Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.058",
+            "lecture-section-of": "22.058",
+            "timeAndPlace":       "WF2-3.30 NW14-1112"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0222.058",
+            "lab-section-of": "22.058",
+            "timeAndPlace":   "WF3.30-5 NW14-1112"
         },
         {
             "type":          "Class",
@@ -277,8 +285,8 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Introduces engineering in nuclear energy plant design, accelerators and fusion machines. Using the basic principles of nuclear physics, reactor physics, plasma physics and magnetic confinement, heat transfer, safety, risk and reliability, the engineering design of nuclear power plants, accelerators and fusion systems are studied. The MIT reactor, department accelerators, and MIT's Alcator fusion facility are used.",
+            "has-final":     false,
+            "description":   "Introduces engineering in nuclear energy plant design, accelerators and fusion machines. Using the basic principles of nuclear physics, reactor physics, plasma physics and magnetic confinement, heat transfer, safety, risk and reliability, the engineering design of nuclear power plants, accelerators and fusion systems are studied. The MIT reactor, department accelerators, and MIT\\'s Alcator fusion facility are used.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.06",
             "joint":         false,
             "semester":      "Spring",
@@ -287,25 +295,8 @@
                 "2.005",
                 "22.05"
             ],
-            "in-charge":     [
-                "Golay, M.W.",
-                "Freidberg, J.P.",
-                "Kazimi, M.S."
-            ],
+            "in-charge":     "Buongiorno, J.",
             "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.06",
-            "lecture-section-of": "22.06",
-            "timeAndPlace":       "TR11-12.30 24-115"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0222.06",
-            "rec-section-of": "22.06",
-            "timeAndPlace":   [
-            ]
         },
         {
             "type":          "Class",
@@ -316,7 +307,7 @@
             "level":         "Undergrad",
             "units":         "3-3-6",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Introductory subject suitable for students with little or no previous background in electronics. Provides the knowledge necessary for reading schematics and designing, building, analyzing, and testing fundamental analog and digital circuits. The class has a strong hands-on component. Students construct interactive examples and explore the practical uses of electronics in engineering and experimental science, including signals and measurement fundamentals. Students have the use of state-of-the-art hardware and software for data acquisition, analysis, and control.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.071J",
             "joint":         true,
@@ -327,17 +318,8 @@
                 "6.071J",
                 "18.03"
             ],
-            "in-charge":     [
-                "Cory, D.",
-                "Chaniotakis, M."
-            ],
+            "in-charge":     "Chaniotakis, M.",
             "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.071",
-            "lecture-section-of": "22.071",
-            "timeAndPlace":       "MWF9-11 NW14-1112"
         },
         {
             "type":          "Class",
@@ -367,18 +349,6 @@
             "area":          "Undergraduate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0122.09",
-            "lecture-section-of": "22.09",
-            "timeAndPlace":       "M12.30-2.30 NW12-222"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0222.09",
-            "lab-section-of": "22.09",
-            "timeAndPlace":   "WF12-3 NW12-222"
-        },
-        {
             "type":          "Class",
             "label":         "Special Topics in Nuclear Science and Engineering",
             "id":            "22.091",
@@ -388,7 +358,7 @@
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "For undergraduates who wish to conduct a one-term project of theoretical or experimental nature in the field of nuclear engineering, in close cooperation with individual staff members. Topics and hours arranged to fit students' requirements.",
+            "description":   "For undergraduates who wish to conduct a one-term project of theoretical or experimental nature in the field of nuclear engineering, in close cooperation with individual staff members. Topics and hours arranged to fit students\\' requirements.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.091",
             "joint":         false,
             "semester":      [
@@ -403,12 +373,6 @@
             ],
             "in-charge":     "Cory, D.",
             "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.091",
-            "lecture-section-of": "22.091",
-            "timeAndPlace":       "TR12.30-2 24-115"
         },
         {
             "type":          "Class",
@@ -465,7 +429,7 @@
             "units":         "0-1-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering students, typically sophomores, the opportunity to participate in engineering practice.  Students gain experience with recruitment and job selection, the job experience, and the assessment and reflection process. Spring term includes seminars and workshops in preparation for internship and management of career path.  With the assistance of UPOP staff, students find and engage in a 10-12 week summer job experience, during which they maintain a journal of their experiences.  In the Fall term, students write essays addressing the topics introduced in UPOP EPW workshop during IAP, complete a post-summer self-evaluation form, and discuss these forms with their regular academic advisor. Students have the opportunity to share their experiences with others in a roundtable discussion.  Can be taken up to two times for credit. Spring term can only be taken in conjunction with the Fall term.",
+            "description":   "Immerses engineering sophomores in the world of professional engineering experience by providing guided instruction in all aspects of the job acquisition process. Students complete a 10-12 week internship assignment during the summer, which includes maintaining a structured journal of observations and experiences, meeting with UPOP staff members, writing essays, and completing a self-evaluation. May be repeated twice for credit; spring term can be taken only in conjunction with fall term.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.EPE",
             "joint":         false,
             "semester":      [
@@ -485,7 +449,7 @@
                 "22.EPE",
                 "2.EPW"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "area":          "Undergraduate Subjects"
         },
         {
@@ -498,7 +462,7 @@
             "units":         "0-0-3 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering sophomores the opportunity to reflect and share their summer practice experiences as related to the topics of the IAP subject and students' academic subjects through a written report and an oral presentation delivered at a UPOP Symposium in the fall.",
+            "description":   "Reflective learning experiences for engineering juniors that serve as the culmination of their sophomore year in the UPOP program. Students review their internship experiences through written and oral presentations and receive small-group and individualized coaching to reinforce the cognitive link between all aspects of the UPOP experience and their disciplinary field of study.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.EPR",
             "joint":         false,
             "semester":      "Fall",
@@ -512,7 +476,7 @@
                 "22.EPR",
                 "2.EPE"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "area":          "Undergraduate Subjects"
         },
         {
@@ -525,7 +489,7 @@
             "units":         "3-0-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering sophomores the opportunity to build the core foundation of skills necessary to succeed in and prepare for a summer practice experience. Introduces concepts in product development, system dynamics, organizational dynamics, and effective communication. Also introduces concepts in ethics and character, and leadership and teamwork to ensure that students acquire an appreciation of the social, environmental, and ethical implications of organizational decision making. Subject is an interactive experience integrating lectures with role-playing, simulations, and group projects, where students apply these concepts in a case study context. Students are provided with a journal to be used during their summer training practice. Limited enrollment.",
+            "description":   "Introduction to professional development skills for engineering practice. Experiential learning modules prepare sophomores for success in summer internship and beyond. Faculty and senior engineering professionals recruited from industry guide teams through learning activities, which include creative simulations, team competitions, oral presentations, and group problem-solving. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/m22a.html#22.EPW",
             "joint":         false,
             "semester":      "IAP",
@@ -539,7 +503,7 @@
                 "16.EPW",
                 "22.EPW"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "area":          "Undergraduate Subjects"
         },
         {

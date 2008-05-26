@@ -13,11 +13,11 @@
             "description":   "Explores the role of government in the economy, applying tools of basic microeconomics to answer important policy questions such as government response to global warming, school choice by K-12 students, Social Security versus private retirement savings accounts, government versus private health insurance, setting income tax rates for individuals and corporations.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.41",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "HASS Elective",
             "prereq":        "14.01",
-            "in-charge":     "Gruber, J.",
+            "in-charge":     "Coile, C.",
             "area":          "National Income and Finance"
         },
         {
@@ -30,7 +30,7 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Foundations of modern financial economics; individuals' consumption and portfolio decisions under uncertainty; valuation of financial securities. Topics include expected utility theory; stochastic dominance; mutual fund separation; portfolio frontiers; capital asset pricing model; arbitrage pricing theory; Arrow-Debreu economies; consumption and portfolio decisions; spanning; options; market imperfections; no-trade theorems; rational expectations; financial signaling. Primarily for doctoral students in accounting, economics, and finance.",
+            "description":   "Foundations of modern financial economics; individuals\\' consumption and portfolio decisions under uncertainty; valuation of financial securities. Topics include expected utility theory; stochastic dominance; mutual fund separation; portfolio frontiers; capital asset pricing model; arbitrage pricing theory; Arrow-Debreu economies; consumption and portfolio decisions; spanning; options; market imperfections; no-trade theorems; rational expectations; financial signaling. Primarily for doctoral students in accounting, economics, and finance.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.416J",
             "joint":         true,
             "semester":      "Fall",
@@ -45,6 +45,12 @@
             "area":          "National Income and Finance"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0114.416",
+            "lecture-section-of": "14.416",
+            "timeAndPlace":       "MW2.30-4 E51-151"
+        },
+        {
             "type":          "Class",
             "label":         "Environmental Policy and Economics",
             "id":            "14.42",
@@ -53,8 +59,8 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Explores the proper role of government in the regulation of  the environment. Explore the tools necessary to estimate the costs and benefits of environmental regulations to evaluate a series of current policy questions, including: Should air and water pollution regulations be tightened or loosened? What are the costs of climate change in the US and abroad? Is there a \"race to the bottom\" in environmental regulation? Students help design and execute a cutting edge research project that tests whether air pollution causes infant mortality. Graduate students are expected to complete additional assignments.",
+            "has-final":     false,
+            "description":   "Explores the proper role of government in the regulation of  the environment. Explore the tools necessary to estimate the costs and benefits of environmental regulations to evaluate a series of current policy questions, including: Should air and water pollution regulations be tightened or loosened? What are the costs of climate change in the US and abroad? Is there a \\\u0022race to the bottom\\\u0022 in environmental regulation? Students help design and execute a cutting edge research project that tests whether air pollution causes infant mortality. Graduate students are expected to complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.42",
             "joint":         false,
             "semester":      "Spring",
@@ -69,18 +75,6 @@
             "area":          "National Income and Finance"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0114.42",
-            "lecture-section-of": "14.42",
-            "timeAndPlace":       "MW9-10.30 E51-151"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.42",
-            "rec-section-of": "14.42",
-            "timeAndPlace":   "F9 E51-151"
-        },
-        {
             "type":          "Class",
             "label":         "Environmental Policy and Economics",
             "id":            "14.420",
@@ -89,8 +83,8 @@
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Explores the proper role of government in the regulation of  the environment. Explore the tools necessary to estimate the costs and benefits of environmental regulations to evaluate a series of current policy questions, including: Should air and water pollution regulations be tightened or loosened? What are the costs of climate change in the US and abroad? Is there a \"race to the bottom\" in environmental regulation? Students help design and execute a cutting edge research project that tests whether air pollution causes infant mortality. Graduate students are expected to complete additional assignments.",
+            "has-final":     false,
+            "description":   "Explores the proper role of government in the regulation of  the environment. Explore the tools necessary to estimate the costs and benefits of environmental regulations to evaluate a series of current policy questions, including: Should air and water pollution regulations be tightened or loosened? What are the costs of climate change in the US and abroad? Is there a \\\u0022race to the bottom\\\u0022 in environmental regulation? Students help design and execute a cutting edge research project that tests whether air pollution causes infant mortality. Graduate students are expected to complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.420",
             "joint":         false,
             "semester":      "Spring",
@@ -105,18 +99,6 @@
             "area":          "National Income and Finance"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0114.420",
-            "lecture-section-of": "14.420",
-            "timeAndPlace":       "MW9-10.30 E51-151"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.420",
-            "rec-section-of": "14.420",
-            "timeAndPlace":   "F9 E51-151"
-        },
-        {
             "type":          "Class",
             "label":         "Energy Economics and Policy",
             "id":            "14.44",
@@ -125,8 +107,8 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
-            "description":   ")",
+            "has-final":     false,
+            "description":   "emissions. Enrollment in each subject is limited to 30.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.44",
             "joint":         false,
             "semester":      "Spring",
@@ -136,20 +118,8 @@
                 "14.444",
                 "14.01"
             ],
-            "in-charge":     "+final",
+            "in-charge":     "Davis, L.",
             "area":          "National Income and Finance"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.44",
-            "lecture-section-of": "14.44",
-            "timeAndPlace":       "MW10.30-12 E51-372"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.44",
-            "rec-section-of": "14.44",
-            "timeAndPlace":   "F11 E51-372"
         },
         {
             "type":          "Class",
@@ -160,7 +130,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Covers advanced topics in the theory of financial markets with a focus on continuous time models. Topics include multiperiod securities markets and martingales; pricing of contingent securities such as options; optimal consumption and portfolio problems of an individual; dynamic equilibrium theory and the intertemporal capital asset pricing model; term structure of interest rates; and equilibrium with asymmetric information, transaction costs, and borrowing constraints. Primarily for doctoral students in accounting, economics, and finance.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.440J",
             "joint":         true,
@@ -173,12 +143,6 @@
             ],
             "in-charge":     "Kogan, L.",
             "area":          "National Income and Finance"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.440",
-            "lecture-section-of": "14.440",
-            "timeAndPlace":       "T EVE (4-7 PM) E51-057"
         },
         {
             "type":          "Class",
@@ -206,12 +170,6 @@
             "area":          "National Income and Finance"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0114.441",
-            "lecture-section-of": "14.441",
-            "timeAndPlace":       "R EVE (4-7 PM) E51-151"
-        },
-        {
             "type":          "Class",
             "label":         "Advanced Financial Economics III",
             "id":            "14.442",
@@ -221,7 +179,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "No description available.",
+            "description":   "Recent empirical methods in finance, including: the estimation and testing of market efficiency; the random walk hypothesis; the CAPM/APT; various term structure models; option pricing theories; and market microstructures; performance evaluation; bond rating and default analysis; event study methodology; continuous-time econometrics; and general time series methods. An empirical term project is required. Some econometric background and rudimentary computer programming skills are assumed. Primarily for doctoral students in finance, accounting, and economics.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.442J",
             "joint":         true,
             "semester":      [
@@ -235,6 +193,7 @@
                 "14.382",
                 "15.416J"
             ],
+            "in-charge":     "Pan, J.",
             "area":          "National Income and Finance"
         },
         {
@@ -246,8 +205,8 @@
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
-            "description":   ")",
+            "has-final":     false,
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.444",
             "joint":         false,
             "semester":      "Spring",
@@ -256,20 +215,7 @@
                 "14.44",
                 "14.01"
             ],
-            "in-charge":     "+final",
             "area":          "National Income and Finance"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.444",
-            "lecture-section-of": "14.444",
-            "timeAndPlace":       "MW10.30-12 E51-372"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.444",
-            "rec-section-of": "14.444",
-            "timeAndPlace":   "F11 E51-372"
         },
         {
             "type":          "Class",
@@ -281,35 +227,22 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Self-contained introduction to the theory of investment decisions under uncertainty. Topics include interest rates, net present value, fixed income securities, the term structure of interest rates, portfolio separation theorems, capital asset pricing models, factor models, risk neutral pricing, valuation of options, and intertemporal consumption and investment models. Emphasis on empirical implementation of theoretical concepts.",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.45",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "HASS Elective",
             "prereq":        [
                 "14.03",
                 "14.04",
                 "14.32"
             ],
-            "in-charge":     "Chernozhukov, V.",
             "area":          "National Income and Finance"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0114.45",
-            "lecture-section-of": "14.45",
-            "timeAndPlace":       "MW10.30-12 E52-232"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.45",
-            "rec-section-of": "14.45",
-            "timeAndPlace":   "F11 E51-393"
-        },
-        {
             "type":          "Class",
-            "label":         "Macroeconomic Theory I",
+            "label":         "Dynamic Optimization Methods with Applications",
             "id":            "14.451",
             "listing-index": "m14b-010",
             "course":        "14",
@@ -317,63 +250,63 @@
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Introduction to the theories of economic growth. Topics will include basic facts of economic growth and long-run economic development; brief overview of optimal control theory and dynamic programming; basic neoclassical growth model under a variety of market structures; human capital and economic growth; endogenous growth models; models with endogenous technology; models of directed technical change; competition, market structure and growth; financial and economic development; international trade and economic growth; institutions and economic development. Half-term subject. Class size limited.",
+            "description":   "Provides an introduction to dynamic optimization methods, including discrete-time dynamic programming in non-stochastic and stochastic environments, and continuous time methods including the Pontryagin maximum principle.  Applications may include the Ramsey model, irreversible investment models, and consumption choices under uncertainty. Class size limited.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.451",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.06",
-            "in-charge":     "Acemoglu, D.",
+            "in-charge":     "Werning, I.",
             "area":          "National Income and Finance"
         },
         {
             "type":               "LectureSection",
             "label":              "L0114.451",
             "lecture-section-of": "14.451",
-            "timeAndPlace":       "MW10.30-12 (ENDS MARCH 21) E51-151"
+            "timeAndPlace":       "TR1-2.30 (ENDS OCT 24) E51-151"
         },
         {
             "type":           "RecitationSection",
             "label":          "R0214.451",
             "rec-section-of": "14.451",
-            "timeAndPlace":   "F10.30-12 E51-151"
+            "timeAndPlace":   "F2.30-4 E51-151"
         },
         {
             "type":          "Class",
-            "label":         "Macroeconomic Theory II",
+            "label":         "Economic Growth",
             "id":            "14.452",
             "listing-index": "m14b-011",
             "course":        "14",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
-            "has-final":     true,
-            "description":   "Basic dynamic general equilibrium models, from the Ramsey model to Real Business Cycle models, to New Keynesian models.   Focus on fluctuations, and co-movements in output, employment, prices, and money. Half-term subject. Class size limited.",
+            "has-final":     false,
+            "description":   "Introduction to the sources and modeling of economic growth and income differences across nations.  Topics include introduction to dynamic general equilibrium theory, the neoclassical growth model, overlapping  generations, determinants of technological progress, endogenous growth models, measurement of technological progress, the role of human capital in economic growth, and growth in a global economy. Class size limited.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.452",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.451",
-            "in-charge":     "Blanchard, O.",
+            "in-charge":     "Acemoglu, D.",
             "area":          "National Income and Finance"
         },
         {
             "type":               "LectureSection",
             "label":              "L0114.452",
             "lecture-section-of": "14.452",
-            "timeAndPlace":       "MW10.30-12 (BEGINS MARCH 31) E51-151"
+            "timeAndPlace":       "TR1-2.30 (BEGINS OCT 27) E51-151"
         },
         {
             "type":           "RecitationSection",
             "label":          "R0214.452",
             "rec-section-of": "14.452",
-            "timeAndPlace":   "F10.30-12 E51-151"
+            "timeAndPlace":   "F2.30-4 E51-151"
         },
         {
             "type":          "Class",
-            "label":         "Macroeconomic Theory III",
+            "label":         "Economic Fluctuations",
             "id":            "14.453",
             "listing-index": "m14b-012",
             "course":        "14",
@@ -381,35 +314,65 @@
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Consumption and savings decisions under certainty and uncertainty. Aggregate savings, wealth, and fiscal policy. Portfolio choice and asset pricing. Investment and finance decisions. Half-term subject. Class size limited.",
+            "description":   "Investigation of why aggregate economic activity fluctuates, and the role of policy in affecting fluctuations. Topics include the link between monetary policy and output, the economic cost of aggregate  fluctuations, the costs and benefits of price stability, and the role of central banks.  Introduction to real business cycle and new Keynesian models. Class size limited.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.453",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.452",
-            "in-charge":     "Werning, I.",
+            "in-charge":     "Blanchard, O.",
             "area":          "National Income and Finance"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0114.453",
+            "lecture-section-of": "14.453",
+            "timeAndPlace":       "TR9-10.30 (ENDS OCT 24) E51-372"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0214.453",
+            "rec-section-of": "14.453",
+            "timeAndPlace":   "F9-10.30 (ENDS OCT 24) E51-085"
+        },
+        {
             "type":          "Class",
-            "label":         "Macroeconomic Theory IV",
+            "label":         "Economic Crises",
             "id":            "14.454",
             "listing-index": "m14b-013",
             "course":        "14",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
-            "has-final":     false,
-            "description":   "Macroeconomic implications of frictions in labor, capital and goods markets. Half-term subject. Class size limited.",
+            "has-final":     true,
+            "description":   "Introduction to current macroeconomic concerns with particular emphasis on medium-run economic fluctuations, economic crises, and the role of asset markets.  Topics include the explanation of high chronic unemployment in some nations, the source of modern liquidity crises, the origin and end of speculative bubbles, and the factors  that lead to substantial periods of economic stagnation. Class size limited.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.454",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.453",
             "in-charge":     "Caballero, R.",
             "area":          "National Income and Finance"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0114.454",
+            "lecture-section-of": "14.454",
+            "timeAndPlace":       "TR9-10.30 (BEGINS OCT 27) E51-372"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0214.454",
+            "rec-section-of": "14.454",
+            "timeAndPlace":   "F9-10.30 (BEGINS OCT 27) E51-085"
         },
         {
             "type":          "Class",
@@ -421,14 +384,13 @@
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Advanced subject on topics of current research interest in macroeconomics.",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.456",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.454",
-            "in-charge":     "Angeletos, G. M.",
             "area":          "National Income and Finance"
         },
         {
@@ -441,7 +403,7 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "First part focuses on monetary economics. Second part focuses on information and coordination problems: recent advances in global games; the impact of expectations about one another's actions; welfare effects and policy implications; applications to financial crises (currency attacks, bank runs, etc.), monetary policy, and business cycles. Other topics may include recent work on incomplete markets, capital accumulation, and wealth inequality.",
+            "description":   "First part focuses on monetary economics. Second part focuses on information and coordination problems: recent advances in global games; the impact of expectations about one another\\'s actions; welfare effects and policy implications; applications to financial crises (currency attacks, bank runs, etc.), monetary policy, and business cycles. Other topics may include recent work on incomplete markets, capital accumulation, and wealth inequality.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.461",
             "joint":         false,
             "semester":      "Fall",
@@ -452,10 +414,22 @@
                 "14.452"
             ],
             "in-charge":     [
-                "Angeletos, M.",
+                "Shimer, R.",
                 "Werning, I."
             ],
             "area":          "National Income and Finance"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0114.461",
+            "lecture-section-of": "14.461",
+            "timeAndPlace":       "MW9-10.30 E52-232"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0214.461",
+            "rec-section-of": "14.461",
+            "timeAndPlace":   "F2.30-4 E51-361"
         },
         {
             "type":          "Class",
@@ -475,22 +449,10 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.461",
             "in-charge":     [
-                "Blanchard, O.",
-                "Caballero, R."
+                "Angeletos, G. M.",
+                "Lorenzoni, G."
             ],
             "area":          "National Income and Finance"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.462",
-            "lecture-section-of": "14.462",
-            "timeAndPlace":       "MW2.30-4 E51-361"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.462",
-            "rec-section-of": "14.462",
-            "timeAndPlace":   "F2.30-4 E51-361"
         },
         {
             "type":          "Class",
@@ -502,14 +464,13 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Advanced topics of current interest in macroeconomics. 2007 focus:  economic growth and long-run economic development. Exact set of topics adjusted according to the interests of the group.",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.463",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.451",
-            "in-charge":     "Acemoglu, D.",
             "area":          "National Income and Finance"
         },
         {
@@ -536,6 +497,18 @@
             "area":          "National Income and Finance"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0114.471",
+            "lecture-section-of": "14.471",
+            "timeAndPlace":       "MW2.30-4 E51-361"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0214.471",
+            "rec-section-of": "14.471",
+            "timeAndPlace":   "F12 E51-361"
+        },
+        {
             "type":          "Class",
             "label":         "Public Economics II",
             "id":            "14.472",
@@ -544,7 +517,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Theory and evidence on government expenditure policy. Topics include the theory of public goods; social insurance programs such as social security and unemployment insurance; health care policy; redistribution and the  welfare state.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.472",
             "joint":         false,
@@ -554,21 +527,9 @@
             "prereq":        "14.471",
             "in-charge":     [
                 "Diamond, P.",
-                "Gruber, J."
+                "Finkelstein, A."
             ],
             "area":          "National Income and Finance"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.472",
-            "lecture-section-of": "14.472",
-            "timeAndPlace":       "MW1-2.30 E51-361"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.472",
-            "rec-section-of": "14.472",
-            "timeAndPlace":   "F12 E51-361"
         },
         {
             "type":          "Class",
@@ -584,7 +545,7 @@
             "url":           "http://student.mit.edu/catalog/m14b.html#14.474",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.124",
             "area":          "National Income and Finance"
@@ -599,20 +560,13 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Theory and evidence on regulatory, tax, and other government responses to problems of market failure.  Special emphasis on developing and implementing tools to evaluate environmental policies. Topics include cost-benefit analysis, measurement of the benefits of non-market goods and costs of regulations, and the evaluation of the impact of regulations in areas such as financial markets, workplace health and safety, consumer product safety, and other contexts.",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.475",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "prereq":        "14.04",
-            "in-charge":     "Greenstone, M.",
             "area":          "National Income and Finance"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.475",
-            "lecture-section-of": "14.475",
-            "timeAndPlace":       "T EVE (4-7 PM) E51-372"
         },
         {
             "type":          "Class",
@@ -623,12 +577,12 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Discusses the economic aspects of current issues in education, using both economic theory and econometric and institutional readings. Topics include discussion of basic human capital theory; the growing impact of education on earnings and earnings inequality; statistical issues in determining the true rate of return to education; the labor market for teachers, implications of the impact of computers on the demand for worker skills; the effectiveness of mid-career training for adult workers; the roles of school choice, charter schools, state standards and educational technology in improving K-12 education, and the issue of college financial aid.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.48J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "HASS Elective",
             "prereq":        [
                 "11.126J",
@@ -637,19 +591,6 @@
             ],
             "in-charge":     "Levy, F.",
             "area":          "National Income and Finance"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.48",
-            "lecture-section-of": "14.48",
-            "timeAndPlace":       "TR9-10.30 1-150"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.48",
-            "rec-section-of": "14.48",
-            "timeAndPlace":   [
-            ]
         },
         {
             "type":          "Class",
@@ -661,11 +602,11 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Combines economic theory, econometric studies, workplace case studies, and other relevant literature to examine the impact of computerization and, more generally, information technology, on US employment and wages. Topics include: recent trends in wages and employment; estimates of the impact technological innovations have on labor demand; the relationship between rules-based logic and \"high\" and \"low\" skilled occupations; and the uses and limits of information technology in assisting students and workers to learn new skills.",
+            "description":   "Combines economic theory, econometric studies, workplace case studies, and other relevant literature to examine the impact of computerization and, more generally, information technology, on US employment and wages. Topics include: recent trends in wages and employment; estimates of the impact technological innovations have on labor demand; the relationship between rules-based logic and \\\u0022high\\\u0022 and \\\u0022low\\\u0022 skilled occupations; and the uses and limits of information technology in assisting students and workers to learn new skills.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.49",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "HASS Elective",
             "prereq":        [
                 "11.128",
@@ -688,21 +629,21 @@
             "description":   "Introduction to the theory of international trade and finance with applications to current policy issues.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.54",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "HASS Elective",
             "prereq":        [
                 "14.01",
                 "14.02"
             ],
-            "in-charge":     "Antras, P.",
+            "in-charge":     "Lorenzoni, G.",
             "area":          "International, Interregional, and Urban Economics"
         },
         {
             "type":               "LectureSection",
             "label":              "L0114.54",
             "lecture-section-of": "14.54",
-            "timeAndPlace":       "TR1-2.30 E51-376"
+            "timeAndPlace":       "TR1-2.30 E51-395"
         },
         {
             "type":           "RecitationSection",
@@ -719,7 +660,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "The theory of urban land and housing markets, and the spatial development of cities. The roles played by transportation systems and local governments in shaping urban location patterns. Interregional competition, economic development, and the migration of labor and capital.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.573J",
             "joint":         true,
@@ -734,12 +675,6 @@
             ],
             "in-charge":     "Wheaton, W.",
             "area":          "International, Interregional, and Urban Economics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.573",
-            "lecture-section-of": "14.573",
-            "timeAndPlace":       "TR2.30-4 E51-063"
         },
         {
             "type":          "Class",
@@ -758,21 +693,11 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.04",
-            "in-charge":     "Matsuyama, K.",
+            "in-charge":     [
+                "Anderson, J.",
+                "Matsuyama, K."
+            ],
             "area":          "International, Interregional, and Urban Economics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.581",
-            "lecture-section-of": "14.581",
-            "timeAndPlace":       "TR9-10.30 E51-393"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.581",
-            "rec-section-of": "14.581",
-            "timeAndPlace":   [
-            ]
         },
         {
             "type":          "Class",
@@ -793,9 +718,21 @@
             "prereq":        "14.06",
             "in-charge":     [
                 "Caballero, R.",
-                "Rigobon, R."
+                "Lorenzoni, G."
             ],
             "area":          "International, Interregional, and Urban Economics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0114.582",
+            "lecture-section-of": "14.582",
+            "timeAndPlace":       "TR10.30-12 E51-390"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0214.582",
+            "rec-section-of": "14.582",
+            "timeAndPlace":   "W12 E51-390"
         },
         {
             "type":          "Class",
@@ -806,7 +743,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Examines the role of technology, class, gender, race, and age through a historical discussion of important changes in the US economy over the last two centuries: the entrance of women into the paid labor force, the exit of older men out of paid labor, immigration, and the end of segregation.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.63",
             "joint":         false,
@@ -817,12 +754,6 @@
             "area":          "Labor Economics and Industrial Relations"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0114.63",
-            "lecture-section-of": "14.63",
-            "timeAndPlace":       "TR2.30-4 36-144"
-        },
-        {
             "type":          "Class",
             "label":         "Labor Economics and Public Policy",
             "id":            "14.64",
@@ -831,15 +762,12 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Theory and evidence concerning the functioning of the labor market. Particular emphasis on the roles played by government and institutions. Topics include minimum wages, labor market effects of social insurance and welfare programs, the collective bargaining relationship, discrimination, human capital, and unemployment.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.64",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "HASS Elective",
             "prereq":        [
                 "14.30",
@@ -847,18 +775,6 @@
             ],
             "in-charge":     "Angrist, J.",
             "area":          "Labor Economics and Industrial Relations"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.64",
-            "lecture-section-of": "14.64",
-            "timeAndPlace":       "TR10.30-12 E51-057"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.64",
-            "rec-section-of": "14.64",
-            "timeAndPlace":   "F10 E51-372"
         },
         {
             "type":          "Class",
@@ -869,8 +785,8 @@
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Neoclassical analysis of the labor market and its institutions. A systematic development of the theory of labor supply, labor demand, and human capital. Topics discussed also include wage and employment determination, turnover, search, immigration, unemployment, equalizing differences, and institutions in the labor market. Particular emphasis on the interaction of theoretical and empirical modeling.",
+            "has-final":     true,
+            "description":   "Neoclassical analysis of the labor market and its institutions. A systematic development of the theory of labor supply, labor demand, and human capital. Topics discussed include wage and employment determination, turnover, search, immigration, unemployment, equalizing differences, and institutions in the labor market. Particular emphasis on the interaction between theoretical and empirical modeling.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.661",
             "joint":         false,
             "semester":      "Fall",
@@ -887,6 +803,18 @@
             "area":          "Labor Economics and Industrial Relations"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0114.661",
+            "lecture-section-of": "14.661",
+            "timeAndPlace":       "TR10.30-12 E51-385"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0214.661",
+            "rec-section-of": "14.661",
+            "timeAndPlace":   "F10.30-12 E51-385"
+        },
+        {
             "type":          "Class",
             "label":         "Labor Economics II",
             "id":            "14.662",
@@ -895,7 +823,7 @@
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "The development and evolution of labor market structures and institutions. Particular focus on competing explanations of recent developments in the distribution of wage and salary income and in key institutions and organizational structures. Special attention to theories of worker motivation and behavior, the determination of wages, technology, and social stratification.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.662",
             "joint":         false,
@@ -913,18 +841,6 @@
             "area":          "Labor Economics and Industrial Relations"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0114.662",
-            "lecture-section-of": "14.662",
-            "timeAndPlace":       "TR10.30-12 E51-385"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.662",
-            "rec-section-of": "14.662",
-            "timeAndPlace":   "W12 E51-385"
-        },
-        {
             "type":          "Class",
             "label":         "Advanced Topics in Labor Economics",
             "id":            "14.663",
@@ -933,7 +849,7 @@
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Introduction to current research in labor economics,  focusing on a specific set of issues that varies from year to year.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.663",
             "joint":         false,
@@ -946,19 +862,6 @@
                 "Greenstone, M."
             ],
             "area":          "Labor Economics and Industrial Relations"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.663",
-            "lecture-section-of": "14.663",
-            "timeAndPlace":       "W EVE (6.30-9.30 PM) E51-385"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.663",
-            "rec-section-of": "14.663",
-            "timeAndPlace":   [
-            ]
         },
         {
             "type":          "Class",
@@ -974,7 +877,7 @@
             "url":           "http://student.mit.edu/catalog/m14b.html#14.665J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "17.314J",
             "in-charge":     "Piore, M.",
@@ -989,7 +892,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Surveys the conditions of material life and changing social and economic relations in medieval Europe using the comparative context of contemporary Islamic, Chinese, and Japanese experiences. Covers the emergence and decline of feudal institutions, the transformation of peasant agriculture, living standards and the course of epidemic disease, and the ebb and flow of long-distance trade across the Eurasian system. Particular emphasis placed on the study of those factors, both institutional and technological, which contributed to the emergence of capitalist organization and economic growth in western Europe in contrast to the trajectories followed by the other major medieval economies.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.70J",
             "joint":         true,
@@ -1000,50 +903,16 @@
             "area":          "Economic History"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0114.70",
-            "lecture-section-of": "14.70",
-            "timeAndPlace":       "M9.30-11 4-231"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.70",
-            "rec-section-of": "14.70",
-            "timeAndPlace":   "W9.30-11 66-156"
-        },
-        {
             "type":          "Class",
-            "label":         "Historical Perspectives on Current Economic Issues",
-            "id":            "14.71",
+            "label":         "Capitalism and Its Critics",
+            "id":            "14.72",
             "listing-index": "m14b-035",
             "course":        "14",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m14b.html#14.71",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "prereq":        [
-                "14.01",
-                "14.02"
-            ],
-            "area":          "Economic History"
-        },
-        {
-            "type":          "Class",
-            "label":         "Capitalism and Its Critics",
-            "id":            "14.72",
-            "listing-index": "m14b-036",
-            "course":        "14",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Addresses the evolution of the modern capitalist economy and evaluates its current structure and performance. Various paradigms of economics are contrasted and compared (neoclassical, Marxist, socioeconomic, and neocorporate) in order to understand how modern capitalism has been shaped and how it functions in today's economy. Readings include classics in economic thought as well as contemporary analyses. Stresses general analytic reasoning and problem formulation rather than specific analytic techniques. May not be used for economics concentration. One economics HASS-D subject may be used as an economics elective for the economics major and minor.",
+            "has-final":     true,
+            "description":   "Addresses the evolution of the modern capitalist economy and evaluates its current structure and performance. Various paradigms of economics are contrasted and compared (neoclassical, Marxist, socioeconomic, and neocorporate) in order to understand how modern capitalism has been shaped and how it functions in today\\'s economy. Readings include classics in economic thought as well as contemporary analyses. Stresses general analytic reasoning and problem formulation rather than specific analytic techniques. May not be used for economics concentration. One economics HASS-D subject may be used as an economics elective for the economics major and minor.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.72",
             "joint":         false,
             "semester":      "Fall",
@@ -1053,57 +922,75 @@
             "area":          "Economic History"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0114.72",
+            "lecture-section-of": "14.72",
+            "timeAndPlace":       "MW2.30-4 12-142"
+        },
+        {
             "type":          "Class",
             "label":         "The Challenge of World Poverty",
             "id":            "14.73",
-            "listing-index": "m14b-037",
+            "listing-index": "m14b-036",
             "course":        "14",
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "No description available.",
+            "description":   "Designed for students with some background in economics who are interested in the challenge posed by massive and persistent world poverty. Examines extreme poverty over time to see if it is no longer a threat, why some countries grow fast and others fall further behind, if growth or foreign aid help the poor, what we can do about corruption, if markets or NGOs should be left to deal with poverty, where to intervene, and how to deal with the disease burden and improve schools.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.73",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "HASS Elective",
             "prereq":        "14.01",
+            "in-charge":     "Banerjee, A.",
             "area":          "Economic History"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0114.73",
+            "lecture-section-of": "14.73",
+            "timeAndPlace":       "M EVE (7-9.30 PM) E51-395"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0214.73",
+            "rec-section-of": "14.73",
+            "timeAndPlace":   "F11 E51-085"
         },
         {
             "type":          "Class",
             "label":         "Economic History",
             "id":            "14.731",
-            "listing-index": "m14b-038",
+            "listing-index": "m14b-037",
             "course":        "14",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "A survey of world economic history, designed to introduce economics graduate students to the subject matter and methodology of economic history.  Topics chosen to show a wide variety of historical experience and illuminate the process of industrialization.  Term paper due at the end of IAP.",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.731",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "14.04",
                 "14.06"
             ],
-            "in-charge":     "Temin, P.",
             "area":          "Economic History"
         },
         {
             "type":          "Class",
             "label":         "Foundations of Development Policy",
             "id":            "14.74",
-            "listing-index": "m14b-039",
+            "listing-index": "m14b-038",
             "course":        "14",
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Explores the foundations of policy making in developing countries. Goal is to spell out various policy options and to quantify the trade-offs between them. Special emphasis on education, health, gender, fertility, adoption of technological innovation, and the markets for land, credit, and labor.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.74",
             "joint":         false,
@@ -1115,29 +1002,14 @@
                 "14.02",
                 "14.30"
             ],
-            "in-charge":     [
-                "Banerjee, A.",
-                "Duflo, E."
-            ],
+            "in-charge":     "Duflo, E.",
             "area":          "Economic Development"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.74",
-            "lecture-section-of": "14.74",
-            "timeAndPlace":       "MW1-2.30 E51-063"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.74",
-            "rec-section-of": "14.74",
-            "timeAndPlace":   "F1 E51-145"
         },
         {
             "type":          "Class",
             "label":         "Development Economics: Microeconomic Issues and Policy Models",
             "id":            "14.771",
-            "listing-index": "m14b-040",
+            "listing-index": "m14b-039",
             "course":        "14",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -1160,10 +1032,22 @@
             "area":          "Economic Development"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0114.771",
+            "lecture-section-of": "14.771",
+            "timeAndPlace":       "MW10.30-12 E52-175"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0214.771",
+            "rec-section-of": "14.771",
+            "timeAndPlace":   "F4 E51-376"
+        },
+        {
             "type":          "Class",
             "label":         "Development Economics: Macroeconomics",
             "id":            "14.772",
-            "listing-index": "m14b-041",
+            "listing-index": "m14b-040",
             "course":        "14",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -1179,34 +1063,19 @@
                 "14.121",
                 "14.451"
             ],
-            "in-charge":     [
-                "Banerjee, A.",
-                "Duflo, E."
-            ],
+            "in-charge":     "Townsend, R.",
             "area":          "Economic Development"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.772",
-            "lecture-section-of": "14.772",
-            "timeAndPlace":       "TR2.30-4 E51-361"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.772",
-            "rec-section-of": "14.772",
-            "timeAndPlace":   "F4 E51-085"
         },
         {
             "type":          "Class",
             "label":         "Political Economy: Institutions and Development",
             "id":            "14.773",
-            "listing-index": "m14b-042",
+            "listing-index": "m14b-041",
             "course":        "14",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Economists and policymakers increasingly realize the importance of political institutions in shaping economic performance, especially in the context of understanding economic development. Work on the determinants of economic policies and institutions is in its infancy, but is growing rapidly. Subject provides an introduction to this area. Topics covered: the economic role of institutions; the effects of social conflict and class conflict on economic development; political economic determinants of macro policies; political development; theories of income distribution and distributional conflict; the efficiency effects of distributional conflict; the causes and consequences of corruption; the role of colonial history; and others. Both theoretical and empirical approaches discussed. Subject can be taken either as part of the Development Economics or the Positive Political Economy fields.",
             "url":           "http://student.mit.edu/catalog/m14b.html#14.773",
             "joint":         false,
@@ -1218,29 +1087,16 @@
                 "14.451"
             ],
             "in-charge":     [
-                "Acemoglu, D.",
-                "Banerjee, A."
+                "Banerjee, A.",
+                "Olken, B."
             ],
             "area":          "Economic Development"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0114.773",
-            "lecture-section-of": "14.773",
-            "timeAndPlace":       "TR10.30-12 E51-151"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0214.773",
-            "rec-section-of": "14.773",
-            "timeAndPlace":   [
-            ]
         },
         {
             "type":          "Class",
             "label":         "Economic Institutions and Growth Policy Analysis",
             "id":            "14.778",
-            "listing-index": "m14b-043",
+            "listing-index": "m14b-042",
             "course":        "14",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1267,7 +1123,7 @@
             "type":          "Class",
             "label":         "Political Economy I: Theories of the State and the Economy",
             "id":            "14.781",
-            "listing-index": "m14b-044",
+            "listing-index": "m14b-043",
             "course":        "14",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1290,10 +1146,16 @@
             "area":          "Economic Development"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0114.781",
+            "lecture-section-of": "14.781",
+            "timeAndPlace":       "T3-5 E51-361"
+        },
+        {
             "type":          "Class",
             "label":         "Graduate Thesis",
             "id":            "14.ThG",
-            "listing-index": "m14b-045",
+            "listing-index": "m14b-044",
             "course":        "14",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1320,7 +1182,7 @@
             "type":          "Class",
             "label":         "Thesis",
             "id":            "14.ThU",
-            "listing-index": "m14b-046",
+            "listing-index": "m14b-045",
             "course":        "14",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1346,7 +1208,7 @@
             "type":          "Class",
             "label":         "Undergraduate Research",
             "id":            "14.UR",
-            "listing-index": "m14b-047",
+            "listing-index": "m14b-046",
             "course":        "14",
             "level":         "Undergrad",
             "units":         "Unknown",

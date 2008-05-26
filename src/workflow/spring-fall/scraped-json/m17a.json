@@ -13,14 +13,17 @@
             "description":   "Systematic examination of selected issues in political philosophy. Topic changes each year and subject may be taken repeatedly with permission of instructor.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.000J",
             "joint":         true,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "24.611J",
-            "in-charge":     "Mehta, U.",
+            "in-charge":     [
+                "Haslanger, S.",
+                "Langton, R."
+            ],
             "area":          "Political Philosophy/Social Theory"
         },
         {
@@ -37,7 +40,7 @@
             "url":           "http://student.mit.edu/catalog/m17a.html#17.006",
             "joint":         false,
             "semester":      [
-                "Fall",
+                "Spring",
                 "Spring"
             ],
             "offering":      "Currently Offered",
@@ -55,18 +58,6 @@
             ],
             "in-charge":     "Wood, E.",
             "area":          "Political Philosophy/Social Theory"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0117.006",
-            "lecture-section-of": "17.006",
-            "timeAndPlace":       "W1-4 56-191"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0217.006",
-            "lecture-section-of": "17.006",
-            "timeAndPlace":       "W1-4 56-191"
         },
         {
             "type":          "Class",
@@ -88,32 +79,8 @@
                 "HASS Communication-Intensive"
             ],
             "prereq":        "24.04J",
-            "in-charge":     "Mehta, U.",
+            "in-charge":     "Staff",
             "area":          "Political Philosophy/Social Theory"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0117.01",
-            "lecture-section-of": "17.01",
-            "timeAndPlace":       "T11-1 32-155"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0217.01",
-            "rec-section-of": "17.01",
-            "timeAndPlace":   "R2 56-167"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0317.01",
-            "rec-section-of": "17.01",
-            "timeAndPlace":   "F10 56-167"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0417.01",
-            "rec-section-of": "17.01",
-            "timeAndPlace":   "F12 56-180"
         },
         {
             "type":          "Class",
@@ -175,28 +142,9 @@
         },
         {
             "type":          "Class",
-            "label":         "International Political Economy",
-            "id":            "17.10",
-            "listing-index": "m17a-006",
-            "course":        "17",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Provides an introduction to the politics of international economic relations. Government decision-making in areas such as trade policy, exchange rates, and financial flows are influenced not only by economic factors, but also by political processes within and among countries. Overview of a number of analytical ?lenses? to view the global economy. Examines the politics of trade policy, international monetary and financial relations, foreign direct investment, third-world development and transition economies, and the debate over \"globalization.\"",
-            "url":           "http://student.mit.edu/catalog/m17a.html#17.10",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Singer, D.",
-            "area":          "Political Economy"
-        },
-        {
-            "type":          "Class",
             "label":         "Political Economy I: Theories of the State and the Economy",
             "id":            "17.100",
-            "listing-index": "m17a-007",
+            "listing-index": "m17a-006",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -219,6 +167,31 @@
             "area":          "Political Economy"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0117.100",
+            "lecture-section-of": "17.100",
+            "timeAndPlace":       "T3-5 E51-361"
+        },
+        {
+            "type":          "Class",
+            "label":         "International Political Economy",
+            "id":            "17.115",
+            "listing-index": "m17a-007",
+            "course":        "17",
+            "level":         "Undergrad",
+            "units":         "3-0-9",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Provides an introduction to the politics of international economic relations. Government decision-making in areas such as trade policy, exchange rates, and financial flows are influenced not only by economic factors, but also by political processes within and among countries. Overview of a number of analytical ?lenses? to view the global economy. Examines the politics of trade policy, international monetary and financial relations, foreign direct investment, third-world development and transition economies, and the debate over \\\u0022globalization.\\\u0022",
+            "url":           "http://student.mit.edu/catalog/m17a.html#17.115",
+            "joint":         false,
+            "semester":      "Spring",
+            "offering":      "Not offered this year",
+            "category":      "HASS Elective",
+            "in-charge":     "Singer, D.",
+            "area":          "Political Economy"
+        },
+        {
             "type":          "Class",
             "label":         "The Politics of Global Financial Relations",
             "id":            "17.125",
@@ -232,7 +205,7 @@
             "url":           "http://student.mit.edu/catalog/m17a.html#17.125",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "HASS Elective",
             "in-charge":     "Singer, D.",
             "area":          "Political Economy"
@@ -266,7 +239,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Examines role of European states in postwar period of rapid economic growth and current crisis. Includes analysis of different state traditions (\"etatist,\" liberal, authoritarian); government's role in decline of some economies and rise of others; why and where Keynesianism, indicative planning, and state enterprises were introduced; alternative conceptions of contemporary economic problems (new international division of labor, too few producers, oil shock); and of policies to deal with them (industrial policy, monetarism, protectionism).",
+            "description":   "Examines role of European states in postwar period of rapid economic growth and current crisis. Includes analysis of different state traditions (\\\u0022etatist,\\\u0022 liberal, authoritarian); government\\'s role in decline of some economies and rise of others; why and where Keynesianism, indicative planning, and state enterprises were introduced; alternative conceptions of contemporary economic problems (new international division of labor, too few producers, oil shock); and of policies to deal with them (industrial policy, monetarism, protectionism).",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.158",
             "joint":         false,
             "semester":      "Spring",
@@ -277,47 +250,9 @@
         },
         {
             "type":          "Class",
-            "label":         "The Political Economy of Institutions",
-            "id":            "17.160",
-            "listing-index": "m17a-011",
-            "course":        "17",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Explores the impact of political institutions on economic outcomes. In addition to the distinction between authoritarianism and democracy, some of the democratic institutions under consideration include parliamentary and presidential democracy, federal and unitary systems, and electoral rules. Explores economic outcomes including protectionism and free trade, budget deficits and public debt, electoral macroeconomic and budgetary cycles, the size of the aggregate public sector, and rates of economic growth.",
-            "url":           "http://student.mit.edu/catalog/m17a.html#17.160",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff",
-            "area":          "Political Economy"
-        },
-        {
-            "type":          "Class",
-            "label":         "Federalism and Decentralization",
-            "id":            "17.162",
-            "listing-index": "m17a-012",
-            "course":        "17",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "The vertical distribution of governmental authority is rapidly changing around the world. Power and revenue are shifting downward (to state and local governments) and upward (to supra-national bodies like the European Union). Theory and evidence are used to explore the causes and consequences of these trends. Starts with abstract, normative economic theories of federalism and decentralization and then covers politics and institutions. Approach allows students to address several questions about the vertical organization of the public sector: What is the ideal distribution of governmental authority?  How can we explain the actual distribution? What are the welfare consequences of different alternatives? Open to advanced undergraduates with permission of instructor.",
-            "url":           "http://student.mit.edu/catalog/m17a.html#17.162",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff",
-            "area":          "Political Economy"
-        },
-        {
-            "type":          "Class",
             "label":         "Economic Development and Policy Analysis I",
             "id":            "17.176",
-            "listing-index": "m17a-013",
+            "listing-index": "m17a-011",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -340,13 +275,13 @@
             "type":               "LectureSection",
             "label":              "L0117.176",
             "lecture-section-of": "17.176",
-            "timeAndPlace":       "M2-5 4-253"
+            "timeAndPlace":       "MW9.30-11 5-231"
         },
         {
             "type":          "Class",
             "label":         "Sustainable Development: Theory, Research and Policy",
             "id":            "17.181",
-            "listing-index": "m17a-014",
+            "listing-index": "m17a-012",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -369,36 +304,10 @@
             "area":          "Political Economy"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0117.181",
-            "lecture-section-of": "17.181",
-            "timeAndPlace":       "T1-3 E51-385"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0217.181",
-            "rec-section-of": "17.181",
-            "timeAndPlace":   [
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0317.181",
-            "lecture-section-of": "17.181",
-            "timeAndPlace":       "T1-3 E51-385"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0417.181",
-            "rec-section-of": "17.181",
-            "timeAndPlace":   [
-            ]
-        },
-        {
             "type":          "Class",
             "label":         "Economic Institutions and Growth Policy Analysis",
             "id":            "17.184",
-            "listing-index": "m17a-015",
+            "listing-index": "m17a-013",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -425,13 +334,13 @@
             "type":          "Class",
             "label":         "Labor and Politics",
             "id":            "17.188",
-            "listing-index": "m17a-016",
+            "listing-index": "m17a-014",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Examines issues facing labor in today's global world through research and reading. Recent developments (globalization, liberalization, privatization) have created a mix of opportunities and risks for labor in most developing countries. On the one hand, these trends have encouraged foreign direct investment and the diffusion of global supply chains, which in turn, have promoted economic development and job growth for some groups of workers in some of these countries. On the other hand, globalization and liberalization have undermined social safety nets, eroded labor and environmental standards, and resulted in greater rates of poverty for other groups of workers in other developing countries. How do we explain these differences? What kinds of policies can be promoted to more evenly distribute the benefits of globalization? Subject seeks to address these two questions.",
+            "description":   "Examines issues facing labor in today\\'s global world through research and reading. Recent developments (globalization, liberalization, privatization) have created a mix of opportunities and risks for labor in most developing countries. On the one hand, these trends have encouraged foreign direct investment and the diffusion of global supply chains, which in turn, have promoted economic development and job growth for some groups of workers in some of these countries. On the other hand, globalization and liberalization have undermined social safety nets, eroded labor and environmental standards, and resulted in greater rates of poverty for other groups of workers in other developing countries. How do we explain these differences? What kinds of policies can be promoted to more evenly distribute the benefits of globalization? Subject seeks to address these two questions.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.188J",
             "joint":         true,
             "semester":      "Fall",
@@ -444,13 +353,13 @@
             "type":          "Class",
             "label":         "Economic Development and Policy Analysis, Part II",
             "id":            "17.190",
-            "listing-index": "m17a-017",
+            "listing-index": "m17a-015",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Analyzes economic development in \"the remainder,\" or in countries that largely failed to enter the orbit of modern world industry since the end of World War II. Looks at the reasons for falling behind in terms of history, geography/global transactions, institutions (including business enterprises), policies and knowledge-based assets. Explores potential policies for accelerating the process of industrial transformation and the control mechanism necessary to improve government planning.",
+            "description":   "Analyzes economic development in \\\u0022the remainder,\\\u0022 or in countries that largely failed to enter the orbit of modern world industry since the end of World War II. Looks at the reasons for falling behind in terms of history, geography/global transactions, institutions (including business enterprises), policies and knowledge-based assets. Explores potential policies for accelerating the process of industrial transformation and the control mechanism necessary to improve government planning.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.190J",
             "joint":         true,
             "semester":      "Spring",
@@ -467,7 +376,7 @@
             "type":          "Class",
             "label":         "Globalization",
             "id":            "17.195",
-            "listing-index": "m17a-018",
+            "listing-index": "m17a-016",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -493,16 +402,35 @@
             "area":          "Political Economy"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0117.195",
+            "lecture-section-of": "17.195",
+            "timeAndPlace":       "M3-5 E51-390"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0217.195",
+            "rec-section-of": "17.195",
+            "timeAndPlace":   [
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0317.195",
+            "lecture-section-of": "17.195",
+            "timeAndPlace":       "M3-5 E51-390"
+        },
+        {
             "type":          "Class",
             "label":         "Working in a Global Economy",
             "id":            "17.199",
-            "listing-index": "m17a-019",
+            "listing-index": "m17a-017",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "For students who have already experienced work and research in today's global economy. Offers an introduction to core concepts used to understand developments and interdependencies in the new global economy through a combination of conceptual approaches and practical case studies. Combines a broad range of interactive classroom experiences including student presentations and guest speakers from business and academia with first-hand knowledge of how the global economy operates. Explores issues such as global entrepreneurship, the rise of global challengers like India and China, and crosscultural communication in multinational organizations. Enrollment limited.",
+            "description":   "For students who have already experienced work and research in today\\'s global economy. Offers an introduction to core concepts used to understand developments and interdependencies in the new global economy through a combination of conceptual approaches and practical case studies. Combines a broad range of interactive classroom experiences including student presentations and guest speakers from business and academia with first-hand knowledge of how the global economy operates. Explores issues such as global entrepreneurship, the rise of global challengers like India and China, and crosscultural communication in multinational organizations. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.199J",
             "joint":         true,
             "semester":      "Fall",
@@ -518,10 +446,19 @@
             "area":          "Political Economy"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0117.199",
+            "lecture-section-of": "17.199",
+            "timeAndPlace":       [
+                "T3-5 66-160",
+                "R4 66-160"
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Introduction to the American Political Process",
             "id":            "17.20",
-            "listing-index": "m17a-020",
+            "listing-index": "m17a-018",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -530,23 +467,20 @@
             "description":   "Studies American government, emphasizing the institutions of government and the representation of competing interests. Topics include the founding, constitutional interpretation, legislative processes, presidential power, public opinion and voting, group mobilization, political steering of the bureaucracy and the economy, and federalism.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.20",
             "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      [
                 "HASS-D 4",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Ansolabehere, S.",
+            "in-charge":     "Lenz, G.",
             "area":          "American Politics"
         },
         {
             "type":               "LectureSection",
             "label":              "L0117.20",
             "lecture-section-of": "17.20",
-            "timeAndPlace":       "MW12 1-390"
+            "timeAndPlace":       "TR3 32-082"
         },
         {
             "type":           "RecitationSection",
@@ -557,28 +491,53 @@
         },
         {
             "type":          "Class",
-            "label":         "Graduate Seminar in American Politics",
+            "label":         "Graduate Seminar in American Politics I",
             "id":            "17.200",
-            "listing-index": "m17a-021",
+            "listing-index": "m17a-019",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Analyzes the American political system, with primary emphasis on the national level. Examines American federalism, voting behavior, political parties, and national political institutions. Focuses on core works in contemporary American politics and public policy. Critiques both research methodologies and the explicit and implicit theoretical assumptions of such work.",
+            "description":   "Analyzes mass political behavior within the American political system. Examines political ideology, party identification, public opinion, voting behavior, media effects, racial attitudes, mass-elite relations, and opinion-policy linkages. Surveys and critiques the major theoretical approaches and empirical research in the field of political behavior.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.200",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Berinsky, A.",
+            "in-charge":     "Campbell, A.",
+            "area":          "American Politics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0117.200",
+            "lecture-section-of": "17.200",
+            "timeAndPlace":       "T9-11 E51-393"
+        },
+        {
+            "type":          "Class",
+            "label":         "Graduate Seminar in American Politics II",
+            "id":            "17.202",
+            "listing-index": "m17a-020",
+            "course":        "17",
+            "level":         "Grad",
+            "units":         "3-0-9",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Analyzes the institutions of the American political system, with primary emphasis on the national level. Examines American federalism, political parties, national political institutions, and the policymaking process. Focuses on core works in contemporary American politics and public policy. Critiques both research methodologies and the explicit and implicit theoretical assumptions of such work.",
+            "url":           "http://student.mit.edu/catalog/m17a.html#17.202",
+            "joint":         false,
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "in-charge":     "Stewart, C.",
             "area":          "American Politics"
         },
         {
             "type":          "Class",
             "label":         "Media Politics",
             "id":            "17.243",
-            "listing-index": "m17a-022",
+            "listing-index": "m17a-021",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -597,7 +556,7 @@
             "type":          "Class",
             "label":         "Media Politics",
             "id":            "17.244",
-            "listing-index": "m17a-023",
+            "listing-index": "m17a-022",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -613,28 +572,9 @@
         },
         {
             "type":          "Class",
-            "label":         "The Supreme Court, Civil Liberties, and Civil Rights",
-            "id":            "17.245",
-            "listing-index": "m17a-024",
-            "course":        "17",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Considers constitutional rights, processes, civil rights and liberties, and criminal procedure. Focus on Supreme Court case law. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m17a.html#17.245",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Staff",
-            "area":          "American Politics"
-        },
-        {
-            "type":          "Class",
             "label":         "Law and Society",
             "id":            "17.249",
-            "listing-index": "m17a-025",
+            "listing-index": "m17a-023",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -657,7 +597,7 @@
             "type":          "Class",
             "label":         "Congress and the American Political System I",
             "id":            "17.251",
-            "listing-index": "m17a-026",
+            "listing-index": "m17a-024",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -688,16 +628,28 @@
             "area":          "American Politics"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0117.251",
+            "lecture-section-of": "17.251",
+            "timeAndPlace":       "MW9.30-11 56-169"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0217.251",
+            "lecture-section-of": "17.251",
+            "timeAndPlace":       "MW9.30-11 56-169"
+        },
+        {
             "type":          "Class",
             "label":         "American Political Economy",
             "id":            "17.253",
-            "listing-index": "m17a-027",
+            "listing-index": "m17a-025",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Analysis of contemporary and historical issues in US political economy, with special emphasis on public finance and economic regulation. Selected topics in trade and tax policy, agricultural, transport, labor, and environmental regulations, and local public finance treated in some detail. Focuses primarily on the neoclassical/rational-choice approach; strengths and weaknesses of this approach are discussed. Where necessary, devotes time to developing tools used in rigorous microeconomic analysis. Graduate students are expected to pursue the subject in greater depth through reading and individual research.",
+            "description":   "Analysis of contemporary and historical issues in US political economy, with special emphasis on public finance and economic regulation. Selected topics in trade and tax policy, agricultural, transport, labor, and environmental regulations, and local public finance treated in some detail. Focuses primarily on the neoclassical/rational-choice approach; strengths and weaknesses of this approach are discussed. Where necessary, devotes time to developing tools used in rigorous microeconomic analysis. Students taking the graduate version are expected to pursue the subject in greater depth through reading and individual research.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.253",
             "joint":         false,
             "semester":      [
@@ -728,7 +680,7 @@
             "type":          "Class",
             "label":         "Congress and the American Political System II",
             "id":            "17.261",
-            "listing-index": "m17a-028",
+            "listing-index": "m17a-026",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -738,12 +690,13 @@
             "url":           "http://student.mit.edu/catalog/m17a.html#17.261",
             "joint":         false,
             "semester":      [
-                "Fall",
-                "Fall"
+                "Spring",
+                "Spring"
             ],
             "offering":      [
-                "Not offered this year",
-                "Not offered this year"
+                "Not offered next year",
+                "Not offered next year",
+                "Currently Offered"
             ],
             "category":      [
                 "HASS Elective",
@@ -761,7 +714,7 @@
             "type":          "Class",
             "label":         "Electoral Politics",
             "id":            "17.263",
-            "listing-index": "m17a-029",
+            "listing-index": "m17a-027",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -771,10 +724,7 @@
             "url":           "http://student.mit.edu/catalog/m17a.html#17.263",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "HASS Elective",
             "prereq":        "17.20",
             "in-charge":     "Lenz, G.",
@@ -784,7 +734,7 @@
             "type":          "Class",
             "label":         "Electoral Politics",
             "id":            "17.264",
-            "listing-index": "m17a-030",
+            "listing-index": "m17a-028",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -794,10 +744,7 @@
             "url":           "http://student.mit.edu/catalog/m17a.html#17.264",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "17.20",
             "in-charge":     "Lenz, G.",
@@ -807,7 +754,7 @@
             "type":          "Class",
             "label":         "Public Opinion and American Democracy",
             "id":            "17.265",
-            "listing-index": "m17a-031",
+            "listing-index": "m17a-029",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -817,12 +764,11 @@
             "url":           "http://student.mit.edu/catalog/m17a.html#17.265",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "HASS Elective",
             "in-charge":     [
                 "Berinsky, A.",
-                "Campbell, A.",
-                "Ansolabehere, S."
+                "Campbell, A."
             ],
             "area":          "American Politics"
         },
@@ -830,7 +776,7 @@
             "type":          "Class",
             "label":         "Public Opinion",
             "id":            "17.266",
-            "listing-index": "m17a-032",
+            "listing-index": "m17a-030",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -842,39 +788,14 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Berinsky, A. J.",
-            "area":          "American Politics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0117.266",
-            "lecture-section-of": "17.266",
-            "timeAndPlace":       "W3-5 E51-390"
-        },
-        {
-            "type":          "Class",
-            "label":         "Presidential Elections",
-            "id":            "17.269",
-            "listing-index": "m17a-033",
-            "course":        "17",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines the dynamics of presidential elections: events preceding the primaries, the conduct of the general election itself, and the policy consequences of the electoral process. The class conducts a survey of votes. Topics include the players (candidates, voters, parties, consultants, the Electoral College), campaign resources (money, information, media attention), the major campaign events (primaries, conventions, general elections), and prospects for reform.",
-            "url":           "http://student.mit.edu/catalog/m17a.html#17.269",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Ansolabehere, S.",
+            "in-charge":     "Berinsky, A. ",
             "area":          "American Politics"
         },
         {
             "type":          "Class",
             "label":         "American Political Development",
             "id":            "17.270",
-            "listing-index": "m17a-034",
+            "listing-index": "m17a-031",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -884,25 +805,16 @@
             "url":           "http://student.mit.edu/catalog/m17a.html#17.270",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Campbell, A",
             "area":          "American Politics"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0117.270",
-            "lecture-section-of": "17.270",
-            "timeAndPlace":       "W1-3 E51-390"
-        },
-        {
             "type":          "Class",
             "label":         "Public Opinion Research Training Lab",
             "id":            "17.276",
-            "listing-index": "m17a-035",
+            "listing-index": "m17a-032",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -912,14 +824,13 @@
             "url":           "http://student.mit.edu/catalog/m17a.html#17.276",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "17.872",
                 "17.266"
             ],
             "in-charge":     [
-                "Ansolabehere, S.",
                 "Berinsky, A.",
                 "Campbell, A."
             ],
@@ -929,13 +840,13 @@
             "type":          "Class",
             "label":         "Public Opinion and Foreign Policy",
             "id":            "17.281",
-            "listing-index": "m17a-036",
+            "listing-index": "m17a-033",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Examines the nature of public opinion on foreign policy, the ability of the public to formulate reasoned and interconnected perspectives on the issues of the day, and the public's influence on foreign policy decisions. Main focus is on the United States.  The role of the media and international events in shaping public perspectives and public attitudes toward important issues such as internationalism and isolationism, the use of force, and trade are evaluated. Students taking graduate version are expected to complete additional assignments.",
+            "description":   "Examines the nature of public opinion on foreign policy, the ability of the public to formulate reasoned and interconnected perspectives on the issues of the day, and the public\\'s influence on foreign policy decisions. Main focus is on the United States.  The role of the media and international events in shaping public perspectives and public attitudes toward important issues such as internationalism and isolationism, the use of force, and trade are evaluated. Students taking graduate version are expected to complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.281",
             "joint":         false,
             "semester":      [
@@ -943,9 +854,8 @@
                 "Spring"
             ],
             "offering":      [
-                "Not offered next year",
-                "Not offered next year",
-                "Currently Offered"
+                "Not offered this year",
+                "Not offered this year"
             ],
             "category":      [
                 "HASS Elective",
@@ -959,34 +869,16 @@
             "area":          "American Politics"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0117.281",
-            "lecture-section-of": "17.281",
-            "timeAndPlace":       "W11-1 E51-393"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0217.281",
-            "rec-section-of": "17.281",
-            "timeAndPlace":   "W1 E51-393"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0317.281",
-            "lecture-section-of": "17.281",
-            "timeAndPlace":       "W11-1 E51-393"
-        },
-        {
             "type":          "Class",
             "label":         "Making Public Policy",
             "id":            "17.30",
-            "listing-index": "m17a-037",
+            "listing-index": "m17a-034",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Examines how the struggle among competing advocates shapes the outputs of government. Considers how conditions become problems for government to solve, why some political arguments are more persuasive than others, why some policy tools are preferred over others, and whether policies achieve their goals.  Investigates the interactions among elected officials, think tanks, interest groups, the media, and the public in controversies over global warming, urban sprawl, Social Security, health care, education, and other issues.",
+            "description":   "Examines how the struggle among competing advocates shapes the outputs of government. Considers how conditions become problems for government to solve, why some political arguments are more persuasive than others, why some policy tools are preferred over others, and whether policies achieve their goals. Investigates the interactions among elected officials, think tanks, interest groups, the media, and the public in controversies over global warming, urban sprawl, Social Security, health care, education, and other issues.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.30J",
             "joint":         true,
             "semester":      "Fall",
@@ -998,15 +890,28 @@
             "prereq":        "11.002J",
             "in-charge":     [
                 "Layzer, J.",
-                "Staff"
+                "Campbell, A."
             ],
             "area":          "Public Policy"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0117.30",
+            "lecture-section-of": "17.30",
+            "timeAndPlace":       "TR11-12.30 2-105"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0217.30",
+            "rec-section-of": "17.30",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",
             "label":         "Methods of Policy Analysis",
             "id":            "17.303",
-            "listing-index": "m17a-038",
+            "listing-index": "m17a-035",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -1024,23 +929,14 @@
                 "17.30J"
             ],
             "coreq":         "14.01",
-            "in-charge":     [
-                "Schuster, J. M.",
-                "Staff"
-            ],
+            "in-charge":     "Schuster, J. M.",
             "area":          "Public Policy"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0117.303",
-            "lecture-section-of": "17.303",
-            "timeAndPlace":       "TR11-12.30 5-231"
         },
         {
             "type":          "Class",
             "label":         "American Public Policy for Washington Interns",
             "id":            "17.307",
-            "listing-index": "m17a-039",
+            "listing-index": "m17a-036",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -1061,18 +957,18 @@
         {
             "type":          "Class",
             "label":         "Science, Technology, and Public Policy",
-            "id":            "17.31",
-            "listing-index": "m17a-040",
+            "id":            "17.309",
+            "listing-index": "m17a-037",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Analysis of issues at the intersection of science, technology, public policy, and business. Cases drawn from antitrust and intellectual property rights; health and environmental policy; defense procurement and strategy; strategic trade and industrial policy; and R&D funding. Structured around theories of political economy, modified to take account of integration of uncertain technical information into public and private decision-making. Enrollment limited to 18.",
-            "url":           "http://student.mit.edu/catalog/m17a.html#17.31J",
+            "description":   "Analysis of issues at the intersection of science, technology, public policy, and business. Cases drawn from antitrust and intellectual property rights; health and environmental policy; defense procurement and strategy; strategic trade and industrial policy; and R&D funding. Structured around theories of political economy, modified to take into account integration of uncertain technical information into public and private decision-making. Enrollment limited to 18.",
+            "url":           "http://student.mit.edu/catalog/m17a.html#17.309J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      [
                 "HASS Elective",
                 "HASS Communication-Intensive"
@@ -1084,12 +980,12 @@
             "type":          "Class",
             "label":         "Science, Technology, and Public Policy",
             "id":            "17.310",
-            "listing-index": "m17a-041",
+            "listing-index": "m17a-038",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Analysis of issues at the intersection of science, technology, public policy, and business.  Cases drawn from antitrust and intellectual property rights; health and environmental policy; defense procurement and strategy; strategic trade and industrial policy; and R&D funding. Structured around theories of political economy, modified to take account of integration of uncertain technical information into public and private decision-making.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.310J",
             "joint":         true,
@@ -1100,16 +996,29 @@
             "area":          "Public Policy"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0117.310",
+            "lecture-section-of": "17.310",
+            "timeAndPlace":       "TR4-5.30 E25-117"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0217.310",
+            "rec-section-of": "17.310",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Politics, Race, and Science",
             "id":            "17.311",
-            "listing-index": "m17a-042",
+            "listing-index": "m17a-039",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Comparatively examines the historical and contemporary role of science in constructing knowledge about human differences and similarities in terms of race. Particular attention is paid to the social and political context of scientific inquiry and to its consequences for public policy. Topics include US \"Jim Crow\" segregation policy, US immigration policy, the US eugenics movement, and the international Human Genome Project.",
+            "description":   "Comparatively examines the historical and contemporary role of science in constructing knowledge about human differences and similarities in terms of race. Particular attention is paid to the social and political context of scientific inquiry and to its consequences for public policy. Topics include US \\\u0022Jim Crow\\\u0022 segregation policy, US immigration policy, the US eugenics movement, and the international Human Genome Project.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.311",
             "joint":         false,
             "semester":      "Spring",
@@ -1122,13 +1031,13 @@
             "type":          "Class",
             "label":         "Integrating Doctoral Seminar on Emerging Technologies",
             "id":            "17.312",
-            "listing-index": "m17a-043",
+            "listing-index": "m17a-040",
             "course":        "17",
             "level":         "Grad",
             "units":         "2-0-7",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Team-taught subject for doctoral students working on emerging technologies at the interface of technology, policy and societal issues. Integrates concepts of research strategy and design from a variety of disciplines. Addresses problem identification and formulation of research topics, the role of qualitative and quantitative research methods, and the use of various data collection techniques. Focuses on students' thesis proposals, faculty-student study panels, critical evaluation of research design, and ethical issues in conducting research and gathering data.",
+            "description":   "Team-taught subject for doctoral students working on emerging technologies at the interface of technology, policy and societal issues. Integrates concepts of research strategy and design from a variety of disciplines. Addresses problem identification and formulation of research topics, the role of qualitative and quantitative research methods, and the use of various data collection techniques. Focuses on students\\' thesis proposals, faculty-student study panels, critical evaluation of research design, and ethical issues in conducting research and gathering data.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.312J",
             "joint":         true,
             "semester":      "Spring",
@@ -1138,16 +1047,10 @@
             "area":          "Public Policy"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0117.312",
-            "lecture-section-of": "17.312",
-            "timeAndPlace":       "W3-5 E51-393"
-        },
-        {
             "type":          "Class",
             "label":         "Labor Market Regulation and Career Mobility",
             "id":            "17.314",
-            "listing-index": "m17a-044",
+            "listing-index": "m17a-041",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1157,7 +1060,7 @@
             "url":           "http://student.mit.edu/catalog/m17a.html#17.314J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "14.665J",
             "in-charge":     "Piore, M.",
@@ -1167,7 +1070,7 @@
             "type":          "Class",
             "label":         "Health Policy",
             "id":            "17.315",
-            "listing-index": "m17a-045",
+            "listing-index": "m17a-042",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -1176,7 +1079,7 @@
             "description":   "Analyzes the health policy problems facing America including adequate access to care, the control of health care costs, and the encouragement of medical advances. Considers market and regulatory alternatives as well as international models including Canadian, Swedish, British, and German arrangements. Emphasis on historical development, interest group behavior, public opinion, and organizational influences in shaping and implementing policy.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.315",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      [
                 "Not offered next year",
                 "Currently Offered"
@@ -1189,7 +1092,7 @@
             "type":          "Class",
             "label":         "U. S. Social Policy",
             "id":            "17.317",
-            "listing-index": "m17a-046",
+            "listing-index": "m17a-043",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -1199,44 +1102,16 @@
             "url":           "http://student.mit.edu/catalog/m17a.html#17.317",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "HASS Elective",
             "in-charge":     "Campbell, A.",
-            "area":          "Public Policy"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0117.317",
-            "lecture-section-of": "17.317",
-            "timeAndPlace":       "MW9.30-11 4-253"
-        },
-        {
-            "type":          "Class",
-            "label":         "Environmental Politics and Policy",
-            "id":            "17.32",
-            "listing-index": "m17a-047",
-            "course":        "17",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines the collision of politics, economics, values, and science in making and carrying out environmental policy at national, state, and local levels. Case studies of environmental policymaking explore the roles of governmental institutions, business, interest groups, the public, and the media in areas of air and water pollution, hazardous waste disposal, public lands management, and wildlife protection.",
-            "url":           "http://student.mit.edu/catalog/m17a.html#17.32",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      [
-                "HASS-D 4",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     "Staff",
             "area":          "Public Policy"
         },
         {
             "type":          "Class",
             "label":         "Human Rights in Theory and Practice",
             "id":            "17.391",
-            "listing-index": "m17a-048",
+            "listing-index": "m17a-044",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -1258,12 +1133,12 @@
             "type":          "Class",
             "label":         "Environmental Law, Policy, and Economics: Pollution Prevention and Control",
             "id":            "17.393",
-            "listing-index": "m17a-049",
+            "listing-index": "m17a-045",
             "course":        "17",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduction to important issues in contemporary environmental law, policy, and economics. Discusses the roles and interactions of Congress, federal agencies, state governments, and the courts in dealing with environmental problems. Topics include common law, administrative law, environmental impact assessments required by the National Environmental Policy Act, and legislation and court decisions dealing with air pollution, water pollution, the control of hazardous waste, pollution and accident prevention, community right-to-know, and environmental justice. Explores the role of science and economics in legal decisions, and economic incentives as an alternative or supplement to regulation. Analyzes pollution as an economic problem and a failure of markets. Introduction to basic legal skills: how to read and understand cases, regulation, and statutes; how to discover the current state of the law in a specific area; and how to take action toward resolution of environmental problems.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.393J",
             "joint":         true,
@@ -1283,16 +1158,29 @@
             "area":          "Public Policy"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0117.393",
+            "lecture-section-of": "17.393",
+            "timeAndPlace":       "TR4 E51-057"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0217.393",
+            "rec-section-of": "17.393",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Energy Policy for a Sustainable Future",
             "id":            "17.398",
-            "listing-index": "m17a-050",
+            "listing-index": "m17a-046",
             "course":        "17",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Focuses on a wide range of current energy and energy-related environmental policies that foster the development and mass deployment of sustainable energy technologies, fuels, and practices. Primary focus is US-based policies at the state, regional and federal level that impact the electricity, transportation and buildings and facilities sectors. Detailed case studies, diverse readings, and guest lectures by prominent policy makers and practitioners.",
+            "description":   "Focuses on a wide range of current energy and energy-related environmental policies that foster the development and mass deployment of sustainable energy technologies, fuels, and practices. Primary focus is US-based policies at the state, regional and federal level that impact the electricity, transportation and buildings and facilities sectors. Detailed case studies, diverse readings, and guest lectures by prominent policy makers and practitioners. Limited to 35.",
             "url":           "http://student.mit.edu/catalog/m17a.html#17.398J",
             "joint":         true,
             "semester":      "Spring",
@@ -1301,12 +1189,6 @@
             "prereq":        "11.369J",
             "in-charge":     "Raab, J. D.",
             "area":          "Public Policy"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0117.398",
-            "lecture-section-of": "17.398",
-            "timeAndPlace":       "MW9-10.30 4-153"
         }
     ]
 }

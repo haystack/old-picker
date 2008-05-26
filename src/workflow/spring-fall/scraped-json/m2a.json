@@ -10,41 +10,18 @@
             "units":         "3-3-3",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Students teams formulate and complete space/earth/ocean exploration-based design projects with weekly milestones. Introduces core engineering themes, principles, and modes of thinking. Specialized learning modules enable teams to focus on the knowledge required to complete their projects, such as machine elements, electronics, design process, visualization and communication. Includes exercises in written and oral communication and team building. Examples of projects include surveying a lake for millfoil, from a remote controlled aircraft, and then sending out robotic harvesters to clear the invasive growth; and exploration to search for the evidence of life on a moon of Jupiter, with scientists participating through teleoperation and supervisory control of robots. Limited enrollment. Preference to freshmen.",
+            "description":   "Student teams formulate and complete space/earth/ocean exploration-based design projects with weekly milestones. Introduces core engineering themes, principles, and modes of thinking. Specialized learning modules enable teams to focus on the knowledge required to complete their projects, such as machine elements, electronics, design process, visualization and communication. Includes exercises in written and oral communication and team building. Examples of projects include surveying a lake for millfoil, from a remote controlled aircraft, and then sending out robotic harvesters to clear the invasive growth; and exploration to search for the evidence of life on a moon of Jupiter, with scientists participating through teleoperation and supervisory control of robots. Limited enrollment. Preference to freshmen.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.00AJ",
             "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "16.00AJ",
-                "8.01",
-                "18.01"
-            ],
+            "prereq":        "16.00AJ",
             "in-charge":     [
                 "Techet, A. H.",
-                "Slocum, A. H.",
                 "Newman, D.",
                 "Crawley, E. F."
             ],
             "area":          "Freshman Year Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.00A",
-            "lecture-section-of": "2.00A",
-            "timeAndPlace":       "TR2.30-4 37-212"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B022.00A",
-            "lab-section-of": "2.00A",
-            "timeAndPlace":   "W2-5 5-007"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B032.00A",
-            "lab-section-of": "2.00A",
-            "timeAndPlace":   "F11-2 5-007"
         },
         {
             "type":          "Class",
@@ -61,29 +38,8 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "in-charge":     [
-                "Wallace, D. R.",
-                "Kudrowitz, B."
-            ],
+            "in-charge":     "Wallace, D. R.",
             "area":          "Freshman Year Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.00B",
-            "lecture-section-of": "2.00B",
-            "timeAndPlace":       "MW3-4.30 3-370"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B022.00B",
-            "lab-section-of": "2.00B",
-            "timeAndPlace":   "T9-12 35-125"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B032.00B",
-            "lab-section-of": "2.00B",
-            "timeAndPlace":   "R9-12 35-125"
         },
         {
             "type":          "Class",
@@ -104,16 +60,12 @@
             ],
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
-            "prereq":        [
-                "8.01",
-                "18.02"
-            ],
             "coreq":         "18.03",
             "in-charge":     [
+                "Abeyaratne, R. C.",
                 "Bathe, K. J.",
                 "Hosoi, A. E.",
                 "Livermore, C.",
-                "Socrate, S.",
                 "Williams, J. H.",
                 "Jr."
             ],
@@ -129,37 +81,37 @@
             "type":           "RecitationSection",
             "label":          "R022.001",
             "rec-section-of": "2.001",
-            "timeAndPlace":   "R9-10.30 (BEGINS FEB 14) 1-307"
+            "timeAndPlace":   "R9-10.30 (BEGINS SEPT 11) 1-307"
         },
         {
             "type":           "RecitationSection",
             "label":          "R032.001",
             "rec-section-of": "2.001",
-            "timeAndPlace":   "R11-12.30 (BEGINS FEB 14) 1-307"
+            "timeAndPlace":   "R11-12.30 (BEGINS SEPT 11) 1-307"
         },
         {
             "type":           "RecitationSection",
             "label":          "R042.001",
             "rec-section-of": "2.001",
-            "timeAndPlace":   "R1-2.30 (BEGINS FEB 14) 1-307"
+            "timeAndPlace":   "R1-2.30 (BEGINS SEPT 11) 1-307"
         },
         {
             "type":           "RecitationSection",
             "label":          "R052.001",
             "rec-section-of": "2.001",
-            "timeAndPlace":   "F9-10.30 (BEGINS FEB 15) 1-307"
+            "timeAndPlace":   "R3-4.30 (BEGINS SEPT 11) 1-307"
         },
         {
             "type":           "RecitationSection",
             "label":          "R062.001",
             "rec-section-of": "2.001",
-            "timeAndPlace":   "F11-12.30 (BEGINS FEB 15) 1-307"
+            "timeAndPlace":   "F9-10.30 (BEGINS SEPT 12) 1-307"
         },
         {
             "type":           "RecitationSection",
             "label":          "R072.001",
             "rec-section-of": "2.001",
-            "timeAndPlace":   "F3-4.30 (BEGINS FEB 15) 1-307"
+            "timeAndPlace":   "F11-12.30 (BEGINS SEPT 12) 1-307"
         },
         {
             "type":          "Class",
@@ -179,12 +131,7 @@
                 "Spring"
             ],
             "offering":      "Currently Offered",
-            "prereq":        [
-                "2.001",
-                "3.091",
-                "5.111",
-                "5.112"
-            ],
+            "prereq":        "2.001",
             "in-charge":     [
                 "Anand, L.",
                 "Boyce, M. C.",
@@ -203,25 +150,25 @@
             "type":           "LabSection",
             "label":          "B022.002",
             "lab-section-of": "2.002",
-            "timeAndPlace":   "M2-5 1-307"
+            "timeAndPlace":   "M2-5 (BEGINS SEPT 9) 1-307"
         },
         {
             "type":           "LabSection",
             "label":          "B032.002",
             "lab-section-of": "2.002",
-            "timeAndPlace":   "T9-12 1-307"
+            "timeAndPlace":   "T2-5 (BEGINS SEPT 9) 1-307"
         },
         {
             "type":           "LabSection",
             "label":          "B042.002",
             "lab-section-of": "2.002",
-            "timeAndPlace":   "T2-5 1-307"
+            "timeAndPlace":   "W2-5 (BEGINS SEPT 9) 1-307"
         },
         {
             "type":           "LabSection",
             "label":          "B052.002",
             "lab-section-of": "2.002",
-            "timeAndPlace":   "W2-5 1-307"
+            "timeAndPlace":   "F2-5 (BEGINS SEPT 9) 1-307"
         },
         {
             "type":          "Class",
@@ -233,7 +180,7 @@
             "units":         "4-1-7",
             "total-units":   12,
             "has-final":     true,
-            "description":   "Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts.  Virtual displacements and virtual work. Lagrange's equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems.  Introduction to numerical methods and MATLAB to solve dynamics and vibrations problems.",
+            "description":   "Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts.  Virtual displacements and virtual work. Lagrange\\'s equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems.  Introduction to numerical methods and MATLAB to solve dynamics and vibrations problems.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.003J",
             "joint":         true,
             "semester":      [
@@ -244,7 +191,6 @@
             "category":      "Restricted Electives in Science and Technology",
             "prereq":        [
                 "1.053J",
-                "8.01",
                 "18.03"
             ],
             "in-charge":     [
@@ -259,7 +205,7 @@
             "type":               "LectureSection",
             "label":              "L012.003",
             "lecture-section-of": "2.003",
-            "timeAndPlace":       "MW9.30-11 3-370"
+            "timeAndPlace":       "MW9.30-11 1-190"
         },
         {
             "type":           "LabSection",
@@ -274,22 +220,52 @@
             "timeAndPlace":   "F2 3-343"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R042.003",
-            "rec-section-of": "2.003",
-            "timeAndPlace":   "R2 1-379"
+            "type":           "LabSection",
+            "label":          "B042.003",
+            "lab-section-of": "2.003",
+            "timeAndPlace":   "F3 3-343"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R052.003",
-            "rec-section-of": "2.003",
-            "timeAndPlace":   "R4 1-242"
+            "type":           "LabSection",
+            "label":          "B052.003",
+            "lab-section-of": "2.003",
+            "timeAndPlace":   "F4 3-343"
         },
         {
             "type":           "RecitationSection",
             "label":          "R062.003",
             "rec-section-of": "2.003",
-            "timeAndPlace":   "F10 1-242"
+            "timeAndPlace":   "R1 1-134"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R072.003",
+            "rec-section-of": "2.003",
+            "timeAndPlace":   "R3 1-371"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R082.003",
+            "rec-section-of": "2.003",
+            "timeAndPlace":   "R4 1-371"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R092.003",
+            "rec-section-of": "2.003",
+            "timeAndPlace":   "F10 1-135"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R102.003",
+            "rec-section-of": "2.003",
+            "timeAndPlace":   "F11 1-135"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R112.003",
+            "rec-section-of": "2.003",
+            "timeAndPlace":   "F12 1-135"
         },
         {
             "type":          "Class",
@@ -309,10 +285,7 @@
                 "Spring"
             ],
             "offering":      "Currently Offered",
-            "prereq":        [
-                "2.003",
-                "8.02"
-            ],
+            "prereq":        "2.003",
             "in-charge":     [
                 "Barbastathis, G.",
                 "Gossard, D. C.",
@@ -327,45 +300,33 @@
             "label":              "L012.004",
             "lecture-section-of": "2.004",
             "timeAndPlace":       [
-                "MW9.30-11 3-270",
-                "F12 3-270"
+                "MW9.30-11 3-370",
+                "F12 3-370"
             ]
         },
         {
             "type":           "LabSection",
             "label":          "B022.004",
             "lab-section-of": "2.004",
-            "timeAndPlace":   "M3-5 3-062"
+            "timeAndPlace":   "M1-3 3-062"
         },
         {
             "type":           "LabSection",
             "label":          "B032.004",
             "lab-section-of": "2.004",
-            "timeAndPlace":   "W3-5 3-062"
+            "timeAndPlace":   "M3-5 3-062"
         },
         {
             "type":           "LabSection",
             "label":          "B042.004",
             "lab-section-of": "2.004",
-            "timeAndPlace":   "R1-3 3-062"
+            "timeAndPlace":   "W1-3 3-062"
         },
         {
             "type":           "LabSection",
             "label":          "B052.004",
             "lab-section-of": "2.004",
-            "timeAndPlace":   "R3-5 3-062"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B062.004",
-            "lab-section-of": "2.004",
-            "timeAndPlace":   "F9-11 3-062"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B072.004",
-            "lab-section-of": "2.004",
-            "timeAndPlace":   "F1-3 3-062"
+            "timeAndPlace":   "W3-5 3-062"
         },
         {
             "type":          "Class",
@@ -386,10 +347,6 @@
             ],
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
-            "prereq":        [
-                "8.02",
-                "18.02"
-            ],
             "coreq":         "18.03",
             "in-charge":     [
                 "Brisson, J. G.",
@@ -405,32 +362,44 @@
             "lecture-section-of": "2.005",
             "timeAndPlace":       [
                 "TR9.30-11 1-190",
-                "W2 1-190"
+                "F1 1-190"
             ]
         },
         {
             "type":           "RecitationSection",
             "label":          "R022.005",
             "rec-section-of": "2.005",
-            "timeAndPlace":   "F12 1-134"
+            "timeAndPlace":   "R3 3-343"
         },
         {
             "type":           "RecitationSection",
             "label":          "R032.005",
             "rec-section-of": "2.005",
-            "timeAndPlace":   "F1 1-134"
+            "timeAndPlace":   "R4 3-343"
         },
         {
             "type":           "RecitationSection",
             "label":          "R042.005",
             "rec-section-of": "2.005",
-            "timeAndPlace":   "F2 1-134"
+            "timeAndPlace":   "F10 1-150"
         },
         {
             "type":           "RecitationSection",
             "label":          "R052.005",
             "rec-section-of": "2.005",
-            "timeAndPlace":   "F3 1-134"
+            "timeAndPlace":   "F11 1-150"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R062.005",
+            "rec-section-of": "2.005",
+            "timeAndPlace":   "F2 1-132"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R072.005",
+            "rec-section-of": "2.005",
+            "timeAndPlace":   "F4 1-132"
         },
         {
             "type":          "Class",
@@ -467,33 +436,21 @@
             "label":              "L012.006",
             "lecture-section-of": "2.006",
             "timeAndPlace":       [
-                "TR9.30-11 3-270",
-                "W2 3-270"
+                "TR9.30-11 3-370",
+                "F9 3-370"
             ]
         },
         {
             "type":           "RecitationSection",
             "label":          "R022.006",
             "rec-section-of": "2.006",
-            "timeAndPlace":   "R3 1-242"
+            "timeAndPlace":   "F11 1-134"
         },
         {
             "type":           "RecitationSection",
             "label":          "R032.006",
             "rec-section-of": "2.006",
-            "timeAndPlace":   "F10 1-150"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R042.006",
-            "rec-section-of": "2.006",
-            "timeAndPlace":   "F11 1-150"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R052.006",
-            "rec-section-of": "2.006",
-            "timeAndPlace":   "F1 1-242"
+            "timeAndPlace":   "F2 1-134"
         },
         {
             "type":          "Class",
@@ -505,7 +462,7 @@
             "units":         "3-4-5",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Develops students' competence and self-confidence as design engineers. Emphasis on the creative design process bolstered by application of physical laws, and learning to complete projects on schedule and within budget. Synthesis, analysis, design robustness and manufacturability are emphasized. Subject relies on active learning via a major design-and-build project. Lecture topics include idea generation, estimation, concept selection, visual thinking and communication, kinematics of mechanisms, machine elements, design for manufacturing, basic electronics, and professional responsibilities and ethics.  A required on-line evaluation is given at the beginning and the end of the course so students can assess their design knowledge.",
+            "description":   "Develops students\\' competence and self-confidence as design engineers. Emphasis on the creative design process bolstered by application of physical laws, and learning to complete projects on schedule and within budget. Synthesis, analysis, design robustness and manufacturability are emphasized. Subject relies on active learning via a major design-and-build project. Lecture topics include idea generation, estimation, concept selection, visual thinking and communication, kinematics of mechanisms, machine elements, design for manufacturing, basic electronics, and professional responsibilities and ethics.  A required on-line evaluation is given at the beginning and the end of the course so students can assess their design knowledge.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.007",
             "joint":         false,
             "semester":      "Spring",
@@ -516,84 +473,6 @@
             ],
             "in-charge":     "Slocum, A. H.",
             "area":          "Core Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.007",
-            "lecture-section-of": "2.007",
-            "timeAndPlace":       "TR11-12.30 1-190"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B022.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "M1-5 3-050"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B032.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "M1-5 3-050"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B042.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "T1-5 3-050"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B052.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "T1-5 3-050"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B062.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "T1-5 3-050"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B072.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "T1-5 3-050"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B082.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "W1-5 3-050"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B092.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "W1-5 3-050"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B102.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "R1-5 3-050"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B112.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "R1-5 3-050"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B122.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "R1-5 3-050"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B132.007",
-            "lab-section-of": "2.007",
-            "timeAndPlace":   "R1-5 3-050"
         },
         {
             "type":          "Class",
@@ -619,8 +498,8 @@
                 "2.007"
             ],
             "coreq":         [
-                "2.005",
-                "2.017"
+                "2.017",
+                "2.005"
             ],
             "in-charge":     [
                 "Chun, J.-H.",
@@ -635,7 +514,7 @@
             "type":               "LectureSection",
             "label":              "L012.008",
             "lecture-section-of": "2.008",
-            "timeAndPlace":       "MW12.30-2 35-225"
+            "timeAndPlace":       "MW11-12.30 35-225"
         },
         {
             "type":           "LabSection",
@@ -647,13 +526,13 @@
             "type":           "LabSection",
             "label":          "B032.008",
             "lab-section-of": "2.008",
-            "timeAndPlace":   "T2-5 35-125"
+            "timeAndPlace":   "T9-12 35-125"
         },
         {
             "type":           "LabSection",
             "label":          "B042.008",
             "lab-section-of": "2.008",
-            "timeAndPlace":   "W9-12 35-125"
+            "timeAndPlace":   "T2-5 35-125"
         },
         {
             "type":           "LabSection",
@@ -686,10 +565,118 @@
                 "2.001",
                 "2.003",
                 "2.005",
-                "2.670."
+                "2.670"
             ],
             "in-charge":     "Wallace, D. R.",
             "area":          "Core Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L012.009",
+            "lecture-section-of": "2.009",
+            "timeAndPlace":       "MWF12.30 3-270"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L022.009",
+            "lecture-section-of": "2.009",
+            "timeAndPlace":       "MWF1.30 3-270"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B032.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "T9-12 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B042.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "T9-12 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B052.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "T2-5 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B062.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "T2-5 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B072.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "T EVE (7-10 PM) 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B082.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "T EVE (7-10 PM) 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B092.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "W2-5 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B102.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "W2-5 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B112.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "W2-5 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B122.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "W2-5 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B132.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "R9-12 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B142.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "R9-12 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B152.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "R2-5 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B162.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "R2-5 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B172.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "R2-5 3-069"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B182.009",
+            "lab-section-of": "2.009",
+            "timeAndPlace":   "R2-5 3-069"
         },
         {
             "type":          "Class",
@@ -713,22 +700,9 @@
             ],
             "in-charge":     [
                 "Wierzbicki, T.",
-                "Patrikalakis, N. M.",
                 "Schmidt, H."
             ],
             "area":          "Core Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.012",
-            "lecture-section-of": "2.012",
-            "timeAndPlace":       "MW11-12.30 1-134"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B022.012",
-            "lab-section-of": "2.012",
-            "timeAndPlace":   "T2-5 Unknown"
         },
         {
             "type":          "Class",
@@ -739,18 +713,33 @@
             "level":         "Undergrad",
             "units":         "4-2-6",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Principles of conservation of mass, momentum and energy in fluid mechanics.  Basic geophysical fluid mechanics, including the effects of salinity, temperature, and density; heat balance in the ocean; large scale flows.  Hydrostatics.  Linear free surface waves, wave forces on floating and submerged structures.  Added mass, lift and drag forces.  Introduction to ocean acoustics; sound propagation and refraction.  Sonar equation. Laboratory sessions in wave propagation, lift and drag forces on submerged bodies, and sound propagation.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.016",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "8.02",
-                "18.03"
-            ],
+            "prereq":        "18.03",
             "in-charge":     "Techet, A. H.",
             "area":          "Core Undergraduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L012.016",
+            "lecture-section-of": "2.016",
+            "timeAndPlace":       "TR2.30-4 1-246"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B022.016",
+            "lab-section-of": "2.016",
+            "timeAndPlace":   "W3-5 5-007"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R032.016",
+            "rec-section-of": "2.016",
+            "timeAndPlace":   "W2 3-442"
         },
         {
             "type":          "Class",
@@ -762,10 +751,10 @@
             "units":         "3-4-5",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Design, construction and testing of a field robotic system, involving team projects with each student responsible for a specific subsystem. Projects focus on electronics, instrumentation, and machine elements. Design for operation in uncertain conditions is considered, with ocean waves and marine structures as a central theme. Use basic statistics, linear systems, Fourier transforms, random processes, spectra and extreme events with applications in design. Lectures on ethics in engineering practice included. Enrollment may be limited due to laboratory capacity. Subject offered in Spring 2008 to accommodate current majors; after that it will be offered every fall term starting with Fall 2008.",
+            "description":   "Design, construction, and testing of a field robotic system; involving team projects, with each student responsible for a specific subsystem. Projects focus on electronics, instrumentation, and machine elements. Design for operation in uncertain conditions is considered, with ocean waves and marine structures as a central theme. Basic statistics, linear systems, Fourier transforms, random processes, spectra and extreme events with applications in design. Lectures on ethics in engineering practice included. Enrollment may be limited due to laboratory capacity.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.017J",
             "joint":         true,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
             "prereq":        [
@@ -777,23 +766,26 @@
                 "2.016",
                 "2.671"
             ],
-            "in-charge":     [
-                "Triantafyllou, M. S.",
-                "Hover, F. S."
-            ],
+            "in-charge":     "Hover, F. S.",
             "area":          "Core Undergraduate Subjects"
         },
         {
             "type":               "LectureSection",
             "label":              "L012.017",
             "lecture-section-of": "2.017",
-            "timeAndPlace":       "TR11-12.30 1-136"
+            "timeAndPlace":       "TR11-12.30 1-132"
         },
         {
             "type":           "LabSection",
             "label":          "B022.017",
             "lab-section-of": "2.017",
             "timeAndPlace":   "M1-5 5-007"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B032.017",
+            "lab-section-of": "2.017",
+            "timeAndPlace":   "F1-5 5-007"
         },
         {
             "type":          "Class",
@@ -818,21 +810,9 @@
             ],
             "in-charge":     [
                 "Chryssostomidis, C.",
-                "Patrikalakis, N. M."
+                "Triantafyllou, M. S."
             ],
             "area":          "Core Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.019",
-            "lecture-section-of": "2.019",
-            "timeAndPlace":       "TR2.30-4 1-246"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B022.019",
-            "lab-section-of": "2.019",
-            "timeAndPlace":   "W2-5 5-308"
         },
         {
             "type":          "Class",
@@ -844,7 +824,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Review of momentum principles. Hamilton's principle and Lagrange's equations. Three-dimensional kinematics and dynamics of rigid bodies. Study of steady motions and small deviations therefrom, gyroscopic effects, causes of instability. Free and forced vibrations of lumped-parameter and continuous systems. Nonlinear oscillations and the phase plane. Nonholonomic systems. Introduction to wave propagation in continuous systems.",
+            "description":   "Review of momentum principles. Hamilton\\'s principle and Lagrange\\'s equations. Three-dimensional kinematics and dynamics of rigid bodies. Study of steady motions and small deviations therefrom, gyroscopic effects, causes of instability. Free and forced vibrations of lumped-parameter and continuous systems. Nonlinear oscillations and the phase plane. Nonholonomic systems. Introduction to wave propagation in continuous systems.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.032",
             "joint":         false,
             "semester":      "Fall",
@@ -860,6 +840,12 @@
             "area":          "Dynamics and Acoustics"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.032",
+            "lecture-section-of": "2.032",
+            "timeAndPlace":       "MW1-2.30 3-370"
+        },
+        {
             "type":          "Class",
             "label":         "Nonlinear Dynamics and Waves",
             "id":            "2.034",
@@ -873,7 +859,10 @@
             "url":           "http://student.mit.edu/catalog/m2a.html#2.034J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "1.685J",
@@ -902,10 +891,7 @@
             "semester":      "Fall",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "8.02",
-                "18.03"
-            ],
+            "prereq":        "18.03",
             "in-charge":     [
                 "Abeyaratne, R. C.",
                 "Sarma, S. E."
@@ -937,6 +923,12 @@
             "area":          "Dynamics and Acoustics"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.036",
+            "lecture-section-of": "2.036",
+            "timeAndPlace":       "TR9.30-11 2-136"
+        },
+        {
             "type":          "Class",
             "label":         "Advanced Nonlinear Dynamics and Chaos",
             "id":            "2.037",
@@ -946,7 +938,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Advanced subject on the modern theory of nonlinear dynamical systems with an emphasis on applications in science and engineering. Invariant manifolds, homoclinic orbits, global bifurcations. Hamiltonian systems, completely integrable systems, KAM theory. Different mechanisms for chaotic dynamics, Shilnikov-type orbits, attractors, horseshoes, symbolic dynamics. Geometric singular perturbation theory. Physical applications.",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.037J",
             "joint":         true,
             "semester":      "Spring",
@@ -957,7 +949,6 @@
                 "18.385",
                 "2.036"
             ],
-            "in-charge":     "Rosales, R. R.",
             "area":          "Dynamics and Acoustics"
         },
         {
@@ -975,22 +966,12 @@
             "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "6.055J",
-                "8.01",
-                "18.01"
-            ],
+            "prereq":        "6.055J",
             "in-charge":     [
                 "Mahajan, S.",
                 "Abeyaratne, R."
             ],
             "area":          "Dynamics and Acoustics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.038",
-            "lecture-section-of": "2.038",
-            "timeAndPlace":       "MWF1 4-145"
         },
         {
             "type":          "Class",
@@ -1011,10 +992,16 @@
                 "12.006J",
                 "18.353J",
                 "18.03",
-                "8.02"
+                "18.034"
             ],
-            "in-charge":     "Peacock, T.",
+            "in-charge":     "staff, EAPS",
             "area":          "Dynamics and Acoustics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L012.050",
+            "lecture-section-of": "2.050",
+            "timeAndPlace":       "MW12.30-2 54-217"
         },
         {
             "type":          "Class",
@@ -1027,18 +1014,12 @@
             "total-units":   12,
             "has-final":     false,
             "description":   "Concepts of mechanical vibration, including free and forced vibration of single- and multi-degree of freedom systems. Modal analysis and matrix formulation of vibration problems. Approximate solution techniques. Vibration and modal analysis of continuous systems: beams, rods, and strings. Introduction to the response of linear systems to random excitation. Numerous examples and applications of vibration measurement and analysis, including vibration isolation and dynamic absorbers, ships, offshore structures, engines, and rotating machinery.",
-            "url":           "http://student.mit.edu/catalog/m2a.html#2.06J",
-            "joint":         true,
+            "url":           "http://student.mit.edu/catalog/m2a.html#2.06",
+            "joint":         false,
             "semester":      "Fall",
             "offering":      "Not offered this year",
-            "prereq":        [
-                "1.058J",
-                "2.003J"
-            ],
-            "in-charge":     [
-                "Kausel, E. A.",
-                "Vandiver, J. K."
-            ],
+            "prereq":        "2.003J",
+            "in-charge":     "Vandiver, J. K.",
             "area":          "Dynamics and Acoustics"
         },
         {
@@ -1050,8 +1031,8 @@
             "level":         "Grad",
             "units":         "3-1-8",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Review of single- and multiple-degree-of-freedom vibration problems, using matrix formulation and normal mode superposition methods. Time and frequency domain solution techniques including convolution and Fourier transforms. Applications to vibration isolation, damping treatment, and dynamic absorbers. Analysis of continuous systems by exact and approximate methods. Applications to buildings, ships, and offshore structures. Vibration measurement and analysis techniques.",
+            "has-final":     true,
+            "description":   "Single- and multiple-degree-of-freedom vibration problems, using matrix formulation and normal mode superposition methods. Time and frequency domain solution techniques including convolution and Fourier transforms. Applications to vibration isolation, damping treatment, and dynamic absorbers. Analysis of continuous systems by exact and approximate methods. Applications to buildings, ships, aircraft and offshore structures. Vibration measurement and analysis techniques. Students should possess basic knowledge in structural mechanics and in linear algebra. Students taking graduate version complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.060J",
             "joint":         true,
             "semester":      "Fall",
@@ -1060,14 +1041,25 @@
             "prereq":        [
                 "1.581J",
                 "16.221J",
-                "18.03",
-                "1.573J"
+                "1.058"
             ],
             "in-charge":     [
                 "Kausel, E.",
                 "Vandiver, J. K."
             ],
             "area":          "Dynamics and Acoustics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L012.060",
+            "lecture-section-of": "2.060",
+            "timeAndPlace":       "MWF10 1-390"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R022.060",
+            "rec-section-of": "2.060",
+            "timeAndPlace":   "W4 1-135"
         },
         {
             "type":          "Class",
@@ -1099,12 +1091,6 @@
             "area":          "Dynamics and Acoustics"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.062",
-            "lecture-section-of": "2.062",
-            "timeAndPlace":       "TR1-2.30 1-277"
-        },
-        {
             "type":          "Class",
             "label":         "Surface Wave Dynamics",
             "id":            "2.064",
@@ -1114,28 +1100,34 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "",
+            "description":   "Basics of wave hydrodynamics. Linearized theories: propagation and dispersion. Refraction of waves approaching a coast. Scattering of waves by fixed obstacles. Resonance in a harbor. Interaction of waves with one or more floating bodies. Scattering and radiation problems. Multiple scattering by periodic or randomly irregular seabed. Drift forces. Nonlinear theories: long waves in shallow water. Airy and Boussinesq approximations, subharmonic resonance of edge waves, upstream solitons. Weakly nonlinear waves in intermediate depth. Nonlinear Schroedinger equation, Benjamin-Feir instability. Radiation stresses and infragravity waves. Localization of nonlinear waves over random seabed.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.064J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "1.691J",
                 "1.060",
                 "2.25",
-                "13.012",
+                "2.20",
                 "1.131",
                 "18.075"
             ],
-            "in-charge":     "TR9.30-11",
+            "in-charge":     [
+                "Mei, C. C.",
+                "Akylas, T. R."
+            ],
             "area":          "Dynamics and Acoustics"
         },
         {
             "type":               "LectureSection",
             "label":              "L012.064",
             "lecture-section-of": "2.064",
-            "timeAndPlace":       "TR9.30-11 1-134"
+            "timeAndPlace":       "TR1-2.30 1-132"
         },
         {
             "type":          "Class",
@@ -1143,48 +1135,25 @@
             "id":            "2.065",
             "listing-index": "m2a-026",
             "course":        "2",
-            "level":         "Undergrad",
+            "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduces the fundamental concepts of acoustics and sensing with waves. Provides a unified theoretical approach to the physics of image formation through scattering and wave propagation in sensing. The linear and nonlinear acoustic wave equation, sources of sound. Reflection, refraction, transmission and absorption. Bearing and range estimation by sensor array processing, beamforming, matched filtering, and focusing. Diffraction, bandwidth, ambient noise and reverberation limitations. Scattering from objects, surfaces and volumes by Green's Theorem. Forward scatter, shadows, Babinet's principle, extinction and attenuation. Ray tracing and waveguides in remote sensing. Applications to acoustic, radar, seismic, thermal and optical sensing and exploration. Students taking the graduate version (2.066) complete additional assignments.",
+            "description":   "Introduces the fundamental concepts of acoustics and sensing with waves. Provides a unified theoretical approach to the physics of image formation through scattering and wave propagation in sensing. The linear and nonlinear acoustic wave equation, sources of sound, including musical instruments. Reflection, refraction, transmission and absorption. Bearing and range estimation by sensor array processing, beamforming, matched filtering, and focusing. Diffraction, bandwidth, ambient noise and reverberation limitations. Scattering from objects, surfaces and volumes by Green\\'s Theorem. Forward scatter, shadows, Babinet\\'s principle, extinction and attenuation. Ray tracing and waveguides in remote sensing. Applications to acoustic, radar, seismic, thermal and optical sensing and exploration. Students taking the graduate version of the subject complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.065",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      [
+                "Spring",
+                "Spring"
+            ],
             "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.066",
                 "2.003J",
                 "6.003",
                 "8.03",
-                "16.03"
-            ],
-            "in-charge":     "Makris, N. C.",
-            "area":          "Dynamics and Acoustics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.065",
-            "lecture-section-of": "2.065",
-            "timeAndPlace":       "MW9.30-11 5-134"
-        },
-        {
-            "type":          "Class",
-            "label":         "Acoustics and Sensing",
-            "id":            "2.066",
-            "listing-index": "m2a-027",
-            "course":        "2",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces the fundamental concepts of acoustics and sensing with waves. Provides a unified theoretical approach to the physics of image formation through scattering and wave propagation in sensing. The linear and nonlinear acoustic wave equation, sources of sound. Reflection, refraction, transmission and absorption. Bearing and range estimation by sensor array processing, beamforming, matched filtering, and focusing. Diffraction, bandwidth, ambient noise and reverberation limitations. Scattering from objects, surfaces and volumes by Green's Theorem. Forward scatter, shadows, Babinet's principle, extinction and attenuation. Ray tracing and waveguides in remote sensing. Applications to acoustic, radar, seismic, thermal and optical sensing and exploration. Students taking the graduate version of the subject complete additional assignments.",
-            "url":           "http://student.mit.edu/catalog/m2a.html#2.066",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
+                "16.03",
                 "2.065",
                 "2.003J",
                 "6.003",
@@ -1195,16 +1164,10 @@
             "area":          "Dynamics and Acoustics"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.066",
-            "lecture-section-of": "2.066",
-            "timeAndPlace":       "MW9.30-11 5-134"
-        },
-        {
             "type":          "Class",
             "label":         "Mechanics of Solid Materials",
             "id":            "2.071",
-            "listing-index": "m2a-028",
+            "listing-index": "m2a-027",
             "course":        "2",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -1220,32 +1183,25 @@
             "in-charge":     [
                 "Anand, L.",
                 "Boyce, M. C.",
-                "Parks, D. M.",
-                "Socrate, S."
+                "Parks, D. M."
             ],
             "area":          "Solid Mechanics and Materials"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.071",
-            "lecture-section-of": "2.071",
-            "timeAndPlace":       "TR2.30-4 5-217"
         },
         {
             "type":          "Class",
             "label":         "Mechanics of Continuous Media",
             "id":            "2.072",
-            "listing-index": "m2a-029",
+            "listing-index": "m2a-028",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Principles and applications of continuum mechanics. Kinematics of deformation. Thermomechanical conservation laws. Stress and strain measures. Constitutive equations. Solution of some basic problems for various materials as relevant in materials science, fluid dynamics, and structural analysis. Inherently nonlinear phenomena in continuum mechanics. Variational principles.",
+            "description":   "Principles and applications of continuum mechanics. Kinematics of deformation. Thermomechanical conservation laws. Stress and strain measures. Constitutive equations including some examples of their microscopic basis.  Solution of some basic problems for various materials as relevant in materials science, fluid dynamics, and structural analysis. Inherently nonlinear phenomena in continuum mechanics. Variational principles.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.072",
             "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "2.071",
             "in-charge":     [
@@ -1255,10 +1211,16 @@
             "area":          "Solid Mechanics and Materials"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.072",
+            "lecture-section-of": "2.072",
+            "timeAndPlace":       "TR9.30-11 5-233"
+        },
+        {
             "type":          "Class",
             "label":         "Solid Mechanics: Plasticity and Inelastic Deformation",
             "id":            "2.073",
-            "listing-index": "m2a-030",
+            "listing-index": "m2a-029",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1282,7 +1244,7 @@
             "type":          "Class",
             "label":         "Solid Mechanics: Elasticity",
             "id":            "2.074",
-            "listing-index": "m2a-031",
+            "listing-index": "m2a-030",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1292,17 +1254,13 @@
             "url":           "http://student.mit.edu/catalog/m2a.html#2.074",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "2.002",
             "coreq":         "18.03",
             "in-charge":     [
                 "Abeyaratne, R. C.",
                 "Parks, D. M.",
-                "Socrate, S.",
                 "Williams, J. H.",
                 "Jr."
             ],
@@ -1312,7 +1270,7 @@
             "type":          "Class",
             "label":         "Advanced Mechanical Behavior of Materials",
             "id":            "2.075",
-            "listing-index": "m2a-032",
+            "listing-index": "m2a-031",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1324,10 +1282,7 @@
             "semester":      "Spring",
             "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.071",
-                "3.091"
-            ],
+            "prereq":        "2.071",
             "in-charge":     [
                 "Boyce, M. C.",
                 "Parks, D. M."
@@ -1338,7 +1293,7 @@
             "type":          "Class",
             "label":         "Structural Mechanics",
             "id":            "2.080",
-            "listing-index": "m2a-033",
+            "listing-index": "m2a-032",
             "course":        "2",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -1363,10 +1318,28 @@
             "area":          "Solid Mechanics and Materials"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.080",
+            "lecture-section-of": "2.080",
+            "timeAndPlace":       "MW2.30-4 5-233"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R022.080",
+            "rec-section-of": "2.080",
+            "timeAndPlace":   "F11 1-246"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R032.080",
+            "rec-section-of": "2.080",
+            "timeAndPlace":   "F3 1-246"
+        },
+        {
             "type":          "Class",
             "label":         "Plates and Shells",
             "id":            "2.081",
-            "listing-index": "m2a-034",
+            "listing-index": "m2a-033",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-3",
@@ -1388,23 +1361,10 @@
             "area":          "Solid Mechanics and Materials"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.081",
-            "lecture-section-of": "2.081",
-            "timeAndPlace":       "MW1-3 (ENDS MARCH 21) 5-217"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R022.081",
-            "rec-section-of": "2.081",
-            "timeAndPlace":   [
-            ]
-        },
-        {
             "type":          "Class",
             "label":         "Ship Structural Analysis and Design",
             "id":            "2.082",
-            "listing-index": "m2a-035",
+            "listing-index": "m2a-034",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-3",
@@ -1421,29 +1381,16 @@
                 "2.701"
             ],
             "in-charge":     [
-                "Burke, D. V.",
-                "Wierzbicki, T.",
-                "Chryssostomidis, C."
+                "McCord, R. S.",
+                "Wierzbicki, T."
             ],
             "area":          "Solid Mechanics and Materials"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.082",
-            "lecture-section-of": "2.082",
-            "timeAndPlace":       "MW1-3 (BEGINS MARCH 31) 5-217"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R022.082",
-            "rec-section-of": "2.082",
-            "timeAndPlace":   "W4 (BEGINS MARCH 24) 5-234"
         },
         {
             "type":          "Class",
             "label":         "Structural Mechanics in Nuclear Power Technology",
             "id":            "2.084",
-            "listing-index": "m2a-036",
+            "listing-index": "m2a-035",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1453,7 +1400,10 @@
             "url":           "http://student.mit.edu/catalog/m2a.html#2.084J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "1.56J",
@@ -1467,10 +1417,16 @@
             "area":          "Solid Mechanics and Materials"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.084",
+            "lecture-section-of": "2.084",
+            "timeAndPlace":       "MW11-12.30 24-121"
+        },
+        {
             "type":          "Class",
             "label":         "Structural Impact",
             "id":            "2.085",
-            "listing-index": "m2a-037",
+            "listing-index": "m2a-036",
             "course":        "2",
             "level":         "Grad",
             "units":         "2-0-4",
@@ -1480,41 +1436,31 @@
             "url":           "http://student.mit.edu/catalog/m2a.html#2.085",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Wierzbicki, T.",
             "area":          "Solid Mechanics and Materials"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.085",
-            "lecture-section-of": "2.085",
-            "timeAndPlace":       "R1-3 1-242"
-        },
-        {
             "type":          "Class",
             "label":         "Numerical Computation for Mechanical Engineers",
             "id":            "2.086",
-            "listing-index": "m2a-038",
+            "listing-index": "m2a-037",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduction to programming concepts including variable types, data structures, flow control.  Numerical methods relevant to MechE including approximation (interpolation, statistical regression); integration; solution of linear and nonlinear equations, eigenproblems, ordinary differential equations, partial differential equations; optimization.  Deterministic and probabilistic methods. Examples from MechE including lumped and continuum models from solid and fluid mechanics, heat transfer, and acoustics; dynamics and control; design and manufacturing.  Assignments requiring MATLAB programming.",
+            "description":   "Introduction to programming concepts including variable types, data structures, flow control.  Numerical methods relevant to MechE including approximation (interpolation, statistical regression); integration; solution of linear and nonlinear equations, eigenproblems, ordinary differential equations, partial differential equations.  Deterministic and probabilistic methods. Examples from MechE including lumped and continuum models from solid and fluid mechanics, heat transfer; dynamics and control; design and manufacturing.  Assignments requiring MATLAB programming.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.086",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        [
-                "8.01",
-                "18.01",
-                "18.02"
+                "2.001",
+                "2.003"
             ],
-            "coreq":         "18.03",
+            "coreq":         "2.005",
             "in-charge":     [
                 "Hadjiconstantinou, N.",
                 "Patera, A.",
@@ -1523,22 +1469,10 @@
             "area":          "Computational Engineering"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.086",
-            "lecture-section-of": "2.086",
-            "timeAndPlace":       "TR2.30-4 1-150"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B022.086",
-            "lab-section-of": "2.086",
-            "timeAndPlace":   "F11-2 1-115"
-        },
-        {
             "type":          "Class",
             "label":         "Computational Geometry",
             "id":            "2.089",
-            "listing-index": "m2a-039",
+            "listing-index": "m2a-038",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1562,15 +1496,15 @@
         },
         {
             "type":          "Class",
-            "label":         "Foundations of Software Engineering",
+            "label":         "Foundations of Software and Computation for Simulation",
             "id":            "2.091",
-            "listing-index": "m2a-040",
+            "listing-index": "m2a-039",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Modern software development techniques for engineering and information technology. Design and development of component-based software (using C# and .NET); data structures and algorithms for modeling, analysis, and visualization; basic problem-solving techniques; web services; and the management and maintenance of software. Treatment of topics such as sorting and searching algorithms; and numerical simulation techniques. Foundation for in-depth exploration of image processing, computational geometry, finite element methods, network methods and e-business applications.",
+            "description":   "Modern software development techniques and algorithms for engineering computation and information technology. Provides computational and software techniques for simulation of engineering systems, such as sensor networks, traffic networks, and atomistic material simulators. Covers data structures and algorithms for modeling, analysis, and visualization in the setting of multi-core and distributed computing. Treatment of basic topics, such as queuing, sorting and search algorithms, and more advanced numerical techniques based on state machines and distributed agents. Foundation for in-depth exploration of image processing, optimization, finite element and mesh-less methods, computational materials, discrete element methods, and network methods.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.091J",
             "joint":         true,
             "semester":      "Fall",
@@ -1584,10 +1518,16 @@
             "area":          "Computational Engineering"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.091",
+            "lecture-section-of": "2.091",
+            "timeAndPlace":       "MW11-12.30 3-370"
+        },
+        {
             "type":          "Class",
             "label":         "Computer Methods in Dynamics",
             "id":            "2.092",
-            "listing-index": "m2a-041",
+            "listing-index": "m2a-040",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1600,10 +1540,7 @@
                 "Fall",
                 "Fall"
             ],
-            "offering":      [
-                "Not offered this year",
-                "Not offered this year"
-            ],
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.093",
@@ -1617,10 +1554,22 @@
             "area":          "Computational Engineering"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.092",
+            "lecture-section-of": "2.092",
+            "timeAndPlace":       "TR11-12.30 1-390"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L022.092",
+            "lecture-section-of": "2.092",
+            "timeAndPlace":       "TR11-12.30 1-390"
+        },
+        {
             "type":          "Class",
             "label":         "Finite Element Analysis of Solids and Fluids",
             "id":            "2.094",
-            "listing-index": "m2a-042",
+            "listing-index": "m2a-041",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1630,23 +1579,17 @@
             "url":           "http://student.mit.edu/catalog/m2a.html#2.094",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "2.001",
             "in-charge":     "Bathe, K. J.",
             "area":          "Computational Engineering"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.094",
-            "lecture-section-of": "2.094",
-            "timeAndPlace":       "TR11-12.30 1-390"
-        },
-        {
             "type":          "Class",
             "label":         "Molecular Modeling and Simulation for Mechanics",
             "id":            "2.095",
-            "listing-index": "m2a-043",
+            "listing-index": "m2a-042",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1669,7 +1612,7 @@
             "type":          "Class",
             "label":         "Introduction to Numerical Simulation",
             "id":            "2.096",
-            "listing-index": "m2a-044",
+            "listing-index": "m2a-043",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1689,17 +1632,21 @@
             ],
             "in-charge":     [
                 "Daniel, L.",
-                "White, J. K.",
-                "Peraire, J.",
-                "Patera, A. T."
+                "White, J. K."
             ],
             "area":          "Computational Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L012.096",
+            "lecture-section-of": "2.096",
+            "timeAndPlace":       "TR9.30-11 1-390"
         },
         {
             "type":          "Class",
             "label":         "Numerical Methods for Partial Differential Equations",
             "id":            "2.097",
-            "listing-index": "m2a-045",
+            "listing-index": "m2a-044",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1718,17 +1665,23 @@
                 "18.06"
             ],
             "in-charge":     [
-                "Darmofal, D. L.",
+                "Peraire, J.",
                 "Patera, A. T.",
-                "White, J. K."
+                "White, J.K."
             ],
             "area":          "Computational Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L012.097",
+            "lecture-section-of": "2.097",
+            "timeAndPlace":       "MW8-9.30 1-390"
         },
         {
             "type":          "Class",
             "label":         "Computational Mechanics of Materials",
             "id":            "2.099",
-            "listing-index": "m2a-046",
+            "listing-index": "m2a-045",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-3-6",
@@ -1738,43 +1691,28 @@
             "url":           "http://student.mit.edu/catalog/m2a.html#2.099J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "16.225J",
-            "in-charge":     [
-                "Radovitzky, R.",
-                "Noels, L. J. J."
-            ],
+            "in-charge":     "Radovitzky, R.",
             "area":          "Computational Engineering"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.099",
-            "lecture-section-of": "2.099",
-            "timeAndPlace":       "MW2.30-4 33-319"
         },
         {
             "type":          "Class",
             "label":         "Information, Entropy and Computation",
             "id":            "2.110",
-            "listing-index": "m2a-047",
+            "listing-index": "m2a-046",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "4-0-5",
             "total-units":   9,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Explores the ultimate limits to communication and computation, with an emphasis on the physical nature of information and information processing. Topics include information and computation, digital signals, codes, and compression. Biological representations of information. Logic circuits, computer architectures, and algorithmic information. Noise, probability, and error correction. The concept of entropy applied to channel capacity and to the second law of thermodynamics. Reversible and irreversible operations and the physics of computation. Quantum computation.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.110J",
             "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "6.050J",
-                "8.01",
-                "8.012",
-                "8.01L",
-                "8.01T"
-            ],
+            "prereq":        "6.050J",
             "in-charge":     [
                 "Penfield, P.",
                 "Jr.",
@@ -1783,29 +1721,16 @@
             "area":          "System Dynamics and Control"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.110",
-            "lecture-section-of": "2.110",
-            "timeAndPlace":       "TR1-3 36-153"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R022.110",
-            "rec-section-of": "2.110",
-            "timeAndPlace":   [
-            ]
-        },
-        {
             "type":          "Class",
             "label":         "Quantum Computation",
             "id":            "2.111",
-            "listing-index": "m2a-048",
+            "listing-index": "m2a-047",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Provides an introduction to the theory and practice of quantum  computation. Topics covered: physics of information processing; quantum algorithms including the factoring algorithm and Grover's search algorithm; quantum error correction; quantum communication and cryptography. Knowledge of quantum mechanics helpful but not required.",
+            "description":   "Provides an introduction to the theory and practice of quantum  computation. Topics covered: physics of information processing; quantum algorithms including the factoring algorithm and Grover\\'s search algorithm; quantum error correction; quantum communication and cryptography. Knowledge of quantum mechanics helpful but not required.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.111J",
             "joint":         true,
             "semester":      "Fall",
@@ -1820,15 +1745,27 @@
             "area":          "System Dynamics and Control"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.111",
+            "lecture-section-of": "2.111",
+            "timeAndPlace":       "TR1-2.30 1-190"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R022.111",
+            "rec-section-of": "2.111",
+            "timeAndPlace":   "M2.30 1-150"
+        },
+        {
             "type":          "Class",
             "label":         "Introduction to Robotics",
             "id":            "2.12",
-            "listing-index": "m2a-049",
+            "listing-index": "m2a-048",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "3-2-7",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Overview of robot mechanisms, dynamics, and intelligent controls. Planar and spatial kinematics, motion planning; mechanism design for manipulators and mobile robots, multi-rigid-body dynamics, 3D graphic simulation; control design, actuators, sensors; wireless networking, task modeling, human-machine interface, and imbedded software. Weekly laboratories for experience with servo drives, real-time control, and embedded software. Group term project requires design and fabrication of robotic systems.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.12",
             "joint":         false,
@@ -1842,10 +1779,34 @@
             "area":          "System Dynamics and Control"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.12",
+            "lecture-section-of": "2.12",
+            "timeAndPlace":       "MW2.30-4 3-370"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B022.12",
+            "lab-section-of": "2.12",
+            "timeAndPlace":   "R12-2 1-005"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B032.12",
+            "lab-section-of": "2.12",
+            "timeAndPlace":   "F11-1 1-005"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B042.12",
+            "lab-section-of": "2.12",
+            "timeAndPlace":   "F1-3 1-005"
+        },
+        {
             "type":          "Class",
             "label":         "Advanced Instrumentation and Measurement",
             "id":            "2.131",
-            "listing-index": "m2a-050",
+            "listing-index": "m2a-049",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-6-3",
@@ -1860,21 +1821,15 @@
             "area":          "System Dynamics and Control"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.131",
-            "lecture-section-of": "2.131",
-            "timeAndPlace":       "TR2.30-4 3-154"
-        },
-        {
             "type":          "Class",
             "label":         "Analysis and Design of Feedback Control Systems",
             "id":            "2.14",
-            "listing-index": "m2a-051",
+            "listing-index": "m2a-050",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-2-7",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Develops the fundamentals of feedback control using linear transfer function system models. Analysis in time and frequency domains. Design in the s-plane (root locus) and in the frequency domain (loop shaping). Describing functions for stability of certain non-linear systems.  Extension to state variable systems and multivariable control with observers. Discrete and Digital hybrid systems and use of z-plane design. Extended design case studies and capstone group projects. Graduate students are expected to complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.14",
             "joint":         false,
@@ -1892,63 +1847,16 @@
             ],
             "in-charge":     [
                 "Rowell, D.",
-                "Trumper, D. L."
+                "Trumper, D. L.",
+                "Youcef-Toumi, K."
             ],
             "area":          "System Dynamics and Control"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.14",
-            "lecture-section-of": "2.14",
-            "timeAndPlace":       "TR11-12.30 3-270"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B022.14",
-            "lab-section-of": "2.14",
-            "timeAndPlace":   "M2-5 1-004"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B032.14",
-            "lab-section-of": "2.14",
-            "timeAndPlace":   "T2-5 1-004"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B042.14",
-            "lab-section-of": "2.14",
-            "timeAndPlace":   "F2-5 1-004"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L052.14",
-            "lecture-section-of": "2.14",
-            "timeAndPlace":       "TR11-12.30 3-270"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B062.14",
-            "lab-section-of": "2.14",
-            "timeAndPlace":   "M2-5 1-004"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B072.14",
-            "lab-section-of": "2.14",
-            "timeAndPlace":   "T2-5 1-004"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B082.14",
-            "lab-section-of": "2.14",
-            "timeAndPlace":   "F2-5 1-004"
         },
         {
             "type":          "Class",
             "label":         "Modeling and Simulation of Dynamic Systems",
             "id":            "2.141",
-            "listing-index": "m2a-052",
+            "listing-index": "m2a-051",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1958,23 +1866,32 @@
             "url":           "http://student.mit.edu/catalog/m2a.html#2.141",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "2.151",
             "in-charge":     "Hogan, N.",
             "area":          "System Dynamics and Control"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.141",
+            "lecture-section-of": "2.141",
+            "timeAndPlace":       "MW1-2.30 1-242"
+        },
+        {
             "type":          "Class",
             "label":         "Advanced System Dynamics and Control",
             "id":            "2.151",
-            "listing-index": "m2a-053",
+            "listing-index": "m2a-052",
             "course":        "2",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Analytical and graphical descriptions of state-determined dynamic physical systems; time and frequency domain representations; system characteristics ? controllability, observability, stability; linear and nonlinear system responses. Modification of system characteristics using feedback. State observers, Kalman filters. Modeling/performance trade-offs in control system design. Emphasis on application of techniques to physical systems.",
+            "description":   "Analytical and graphical descriptions of state-determined dynamic physical systems; time and frequency domain representations; system characteristics - controllability, observability, stability; linear and nonlinear system responses. Modification of system characteristics using feedback. State observers, Kalman filters. Modeling/performance trade-offs in control system design. Emphasis on application of techniques to physical systems.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.151",
             "joint":         false,
             "semester":      "Fall",
@@ -1992,16 +1909,34 @@
             "area":          "System Dynamics and Control"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.151",
+            "lecture-section-of": "2.151",
+            "timeAndPlace":       "MW9.30-11 5-134"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R022.151",
+            "rec-section-of": "2.151",
+            "timeAndPlace":   "F9.30-11 1-371"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R032.151",
+            "rec-section-of": "2.151",
+            "timeAndPlace":   "F11-12.30 1-371"
+        },
+        {
             "type":          "Class",
             "label":         "Nonlinear Control System Design",
             "id":            "2.152",
-            "listing-index": "m2a-054",
+            "listing-index": "m2a-053",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduction to applied nonlinear control and estimation. Nonlinear stability theory, Lyapunov analysis, Barbalat's lemma. Feedback linearization, internal dynamics. Sliding surfaces. Adaptive nonlinear control. Contraction analysis, differential stability theory. Nonlinear observers. Stable adaptive control using multiresolution bases. Stability of nonlinear partial differential systems. Asynchronous distributed computation. Concurrent Synchronization. Emphasis on applications to physical systems (robots, aircraft, spacecraft, underwater vehicles, reaction-diffusion processes, machine vision, oscillators, internet). Term projects.",
+            "description":   "Introduction to applied nonlinear control and estimation. Nonlinear stability theory, Lyapunov analysis, Barbalat\\'s lemma. Feedback linearization, internal dynamics. Sliding surfaces. Adaptive nonlinear control. Contraction analysis, differential stability theory. Nonlinear observers. Stable adaptive control using multiresolution bases. Stability of nonlinear partial differential systems. Asynchronous distributed computation. Concurrent Synchronization. Emphasis on applications to physical systems (robots, aircraft, spacecraft, underwater vehicles, reaction-diffusion processes, machine vision, oscillators, internet). Term projects.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.152",
             "joint":         false,
             "semester":      "Fall",
@@ -2016,10 +1951,16 @@
             "area":          "System Dynamics and Control"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.152",
+            "lecture-section-of": "2.152",
+            "timeAndPlace":       "TR11-12.30 1-246"
+        },
+        {
             "type":          "Class",
             "label":         "Maneuvering and Control of Surface  and Underwater Vehicles",
             "id":            "2.154",
-            "listing-index": "m2a-055",
+            "listing-index": "m2a-054",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2029,23 +1970,29 @@
             "url":           "http://student.mit.edu/catalog/m2a.html#2.154",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "2.22",
             "in-charge":     "Triantafyllou, M. S.",
             "area":          "System Dynamics and Control"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.154",
+            "lecture-section-of": "2.154",
+            "timeAndPlace":       "TR9.30-11 5-234"
+        },
+        {
             "type":          "Class",
             "label":         "Identification, Estimation, and Learning",
             "id":            "2.160",
-            "listing-index": "m2a-056",
+            "listing-index": "m2a-055",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Provides a broad theoretical basis for system identification, estimation, and learning. Least squares estimation and its convergence properties, Kalman filter and extended Kalman filter, noise dynamics and system representation, function approximation theory, neural nets, radial basis functions, wavelets, Volterra expansions, informative data sets, persistent excitation, asymptotic variance, central limit theorems, model structure selection, system order estimate, maximum likelihood, unbiased estimates, Cramer-Rao lower bound, Kullback-Leibler information distance, Akaike?s information criterion, experiment design, and model validation.",
+            "description":   "Provides a broad theoretical basis for system identification, estimation, and learning. Least squares estimation and its convergence properties, Kalman filter and extended Kalman filter, noise dynamics and system representation, function approximation theory, neural nets, radial basis functions, wavelets, Volterra expansions, informative data sets, persistent excitation, asymptotic variance, central limit theorems, model structure selection, system order estimate, maximum likelihood, unbiased estimates, Cramer-Rao lower bound, Kullback-Leibler information distance, Akaike\\'s information criterion, experiment design, and model validation.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.160",
             "joint":         false,
             "semester":      "Spring",
@@ -2060,16 +2007,10 @@
             "area":          "System Dynamics and Control"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.160",
-            "lecture-section-of": "2.160",
-            "timeAndPlace":       "MW1-2.30 1-134"
-        },
-        {
             "type":          "Class",
             "label":         "Signal Processing: Continuous and Discrete",
             "id":            "2.161",
-            "listing-index": "m2a-057",
+            "listing-index": "m2a-056",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2085,10 +2026,16 @@
             "area":          "System Dynamics and Control"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.161",
+            "lecture-section-of": "2.161",
+            "timeAndPlace":       "TR1-2.30 5-217"
+        },
+        {
             "type":          "Class",
             "label":         "Robotics",
             "id":            "2.165",
-            "listing-index": "m2a-058",
+            "listing-index": "m2a-057",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2098,7 +2045,7 @@
             "url":           "http://student.mit.edu/catalog/m2a.html#2.165",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "2.151",
             "in-charge":     [
@@ -2111,7 +2058,7 @@
             "type":          "Class",
             "label":         "Probabilistic Techniques for Mobile Robotics",
             "id":            "2.166",
-            "listing-index": "m2a-059",
+            "listing-index": "m2a-058",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-1-8",
@@ -2121,7 +2068,10 @@
             "url":           "http://student.mit.edu/catalog/m2a.html#2.166",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.165",
@@ -2131,16 +2081,28 @@
             "area":          "System Dynamics and Control"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L012.166",
+            "lecture-section-of": "2.166",
+            "timeAndPlace":       "MW2.30-4 1-371"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B022.166",
+            "lab-section-of": "2.166",
+            "timeAndPlace":   "W11 1-246"
+        },
+        {
             "type":          "Class",
             "label":         "Hands-On Marine Robotics",
             "id":            "2.167",
-            "listing-index": "m2a-060",
+            "listing-index": "m2a-059",
             "course":        "2",
             "level":         "Undergrad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Direct experience in developing marine robotic systems, from conceptualization and design through manufacture and testing.  The class consists of a weekly seminar with readings and discussions, and significant outside work on student projects, culminating in a written report each term.  Seminar topics include tools for unmanned marine work and their history, analysis of mission requirements, conceptual design and modeling of systems, experiments and proofs of concept, and project pacing and time management.  A total of up to 12 hours credit may be taken over one or two terms; seminar topics repeat yearly.  Not offered Fall 2007.",
+            "description":   "Direct experience in developing marine robotic systems, from conceptualization and design through manufacture and testing.  The class consists of a weekly seminar with readings and discussions, and significant outside work on student projects, culminating in a written report each term.  Seminar topics include tools for unmanned marine work and their history, analysis of mission requirements, conceptual design and modeling of systems, experiments and proofs of concept, and project pacing and time management.  A total of up to 12 hours credit may be taken over one or two terms; seminar topics repeat yearly.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.167",
             "joint":         false,
             "semester":      [
@@ -2155,16 +2117,10 @@
             "area":          "System Dynamics and Control"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L012.167",
-            "lecture-section-of": "2.167",
-            "timeAndPlace":       "F1 1-246"
-        },
-        {
             "type":          "Class",
             "label":         "Analysis, Design, and Control of Automated Equipment",
             "id":            "2.168",
-            "listing-index": "m2a-061",
+            "listing-index": "m2a-060",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2188,7 +2144,7 @@
             "type":          "Class",
             "label":         "Analysis and Design of Digital Control Systems",
             "id":            "2.171",
-            "listing-index": "m2a-062",
+            "listing-index": "m2a-061",
             "course":        "2",
             "level":         "Grad",
             "units":         "3-3-6",
@@ -2214,27 +2170,29 @@
             "type":          "Class",
             "label":         "Biomechanics and Neural Control of Movement",
             "id":            "2.183",
-            "listing-index": "m2a-063",
+            "listing-index": "m2a-062",
             "course":        "2",
-            "level":         "Grad",
+            "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Normal and pathological sensory-motor behavior of biological systems emerges from a complex interplay of biomechanical and neural factors. Experimentally supported theories of biological motor control, emphasizing manipulation and tool use, are critiqued and compared with robotic approaches. Topics include hierarchical organization, intermittency, optimization theories, kinematic redundancy, neuromuscular dynamics and segmental feedback, \"equilibrium-point\" theories, instabilities in contact tasks, co-contraction strategies, and impedance control.",
+            "description":   "Quantitative knowledge of human movement behavior is important in a growing number of engineering applications (medical & rehabilitation technology, athletic & military equipment, human-computer interaction, vehicle performance, etc.). Presents a quantitative, model-based description of how biomechanical and neural factors interact in human sensory-motor behavior, focusing mainly on the upper limbs. Students survey recent literature on how motor behavior is controlled, comparing biological and robotic approaches to similar tasks. Topics may include a review of relevant neural, muscular and skeletal physiology, neural feedback and \\\u0022equilibrium-point\\\u0022 theories, co-contraction strategies, impedance control, kinematic redundancy, optimization, intermittency, contact tasks and tool use. Students taking the graduate version will complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m2a.html#2.183",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      [
+                "Spring",
+                "Spring"
+            ],
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "2.004",
+            "prereq":        [
+                "2.184",
+                "2.004",
+                "2.183",
+                "2.004"
+            ],
             "in-charge":     "Hogan, N.",
             "area":          "System Dynamics and Control"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L012.183",
-            "lecture-section-of": "2.183",
-            "timeAndPlace":       "TR1-2.30 1-273"
         }
     ]
 }

@@ -10,7 +10,7 @@
             "units":         "2-4-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduction to artistic practice and aesthetic analysis through studio work and lectures. Students communicate ideas and experiences through various media such as sculpture, installation, performance, and video. Projects evolve through stages of conceptual and material development to final presentation. Lectures, visiting artist presentations, field trips, and readings supplement studio practice, providing an index to the historical, cultural, and environmental forces that affect both development of artistic vision and reception of works of art. Lab fee.",
+            "description":   "Introduction to artistic practice and aesthetic analysis through studio work and lectures based on current themes. Students communicate ideas and experiences through various media such as sculpture, installation, performance, and video. Projects evolve through stages of conceptual and material development to final presentation. Lectures, visiting artist presentations, field trips, and readings supplement studio practice, providing an index to the historical, cultural, and environmental forces that affect both development of artistic vision and reception of works of art. Lab fee.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#4.301",
             "joint":         false,
             "semester":      [
@@ -20,19 +20,13 @@
             "offering":      "Currently Offered",
             "category":      "HASS-D 3",
             "prereq":        "4.302",
-            "in-charge":     "Jacob, W."
+            "in-charge":     "Staff, Visual Arts"
         },
         {
-            "type":           "LabSection",
-            "label":          "B014.301",
-            "lab-section-of": "4.301",
-            "timeAndPlace":   "TR2-5 N51-145"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B024.301",
-            "lab-section-of": "4.301",
-            "timeAndPlace":   "MW9.30-12.30 N51-145"
+            "type":               "LectureSection",
+            "label":              "L014.301",
+            "lecture-section-of": "4.301",
+            "timeAndPlace":       "TR2-5 N52-342"
         },
         {
             "type":          "Class",
@@ -43,14 +37,32 @@
             "level":         "Undergrad",
             "units":         "3-2-7",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "An introduction to the history of western art that explores the wide range of works constituting the canonical core of painting and sculpture from the Renaissance to the present. Engages diverse methodological perspectives on the symbolic meanings and contextual functions of works of art, and considers culture's place in the social world. Subject includes trips to local museums.",
+            "has-final":     true,
+            "description":   "An introduction to the history of western art that explores the wide range of works constituting the canonical core of painting and sculpture from the Renaissance to the present. Engages diverse methodological perspectives on the symbolic meanings and contextual functions of works of art, and considers culture\\'s place in the social world. Subject includes trips to local museums.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#4.601",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "HASS-D 3",
             "in-charge":     "Staff, HTC"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.601",
+            "lecture-section-of": "4.601",
+            "timeAndPlace":       "TR2-3.30 3-133"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R024.601",
+            "rec-section-of": "4.601",
+            "timeAndPlace":   "W10 5-216"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R034.601",
+            "rec-section-of": "4.601",
+            "timeAndPlace":   "R12.30 5-216"
         },
         {
             "type":          "Class",
@@ -61,8 +73,8 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Introduction to modern art and theories of modernism and postmodernism. Focuses on the way artists use the tension between fine art and mass culture to mobilize a critique of both. Examines objects of visual art, including painting, sculpture, architecture, photography, and video. These objects are viewed in their interaction with advertising, caricature, comics, graffiti, television, fashion, folk art, and \"primitive\" art.",
+            "has-final":     false,
+            "description":   "Introduction to modern art and theories of modernism and postmodernism. Focuses on the way artists use the tension between fine art and mass culture to mobilize a critique of both. Examines objects of visual art, including painting, sculpture, architecture, photography, prints, performance and video. These objects are viewed in their interaction with advertising, caricature, comics, graffiti, television, fashion, folk art, and \\\u0022primitive\\\u0022 art.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#4.602",
             "joint":         false,
             "semester":      "Spring",
@@ -74,24 +86,6 @@
             "in-charge":     "Jones, C."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.602",
-            "lecture-section-of": "4.602",
-            "timeAndPlace":       "MW9.30-11 3-133"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R024.602",
-            "rec-section-of": "4.602",
-            "timeAndPlace":   "T10 5-216"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R034.602",
-            "rec-section-of": "4.602",
-            "timeAndPlace":   "R1 5-216"
-        },
-        {
             "type":          "Class",
             "label":         "Introduction to the History and Theory of Architecture",
             "id":            "4.605",
@@ -100,14 +94,38 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Provides an outline of the history of architecture and urbanism from Ancient Egypt to the present. Analyzes buildings as the products of culture and in relation to the special problems of architectural design. History of architecture with an urbanist perspective that stresses the cultural and political context from which building arises. Designed to develop critical tools used in the analysis and appreciation of architecture for its role in creating the intellectual environment in which we conduct our lives. Instruction and practice in oral and written communication provided. Required of Course 4 majors.",
+            "has-final":     true,
+            "description":   "Provides an outline of the history of architecture and urbanism from Ancient Egypt to the present. Analyzes buildings as the products of culture and in relation to the special problems of architectural design. History of architecture with an urbanist perspective that stresses the cultural and political context from which building arises. Designed to develop critical tools used in the analysis and appreciation of architecture for its role in creating the intellectual environment in which we conduct our lives. Instruction and practice in oral and written communication provided.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#4.605",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "HASS-D 3",
             "in-charge":     "Friedman, D. H."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.605",
+            "lecture-section-of": "4.605",
+            "timeAndPlace":       "MW11-12.30 3-133"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R024.605",
+            "rec-section-of": "4.605",
+            "timeAndPlace":   "M1 5-216"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R034.605",
+            "rec-section-of": "4.605",
+            "timeAndPlace":   "T1 5-216"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R044.605",
+            "rec-section-of": "4.605",
+            "timeAndPlace":   "R11.30 5-216"
         },
         {
             "type":          "Class",
@@ -118,7 +136,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduces the history of Islamic cultures through their most vibrant material signs: the religious architecture that spans fourteen centuries and three continents  Asia, Africa, and Europe. Studies a number of representative examples from the House of the Prophet to the present in conjunction with their social, political, and intellectual environments. Presents Islamic architecture both as a full-fledged historical tradition and as a dynamic and interactive cultural catalyst that influenced and was influenced by the civilizations with which it came in contact.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#4.614",
             "joint":         false,
@@ -126,6 +144,12 @@
             "offering":      "Currently Offered",
             "category":      "HASS-D 3",
             "in-charge":     "Rabbat, N."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.614",
+            "lecture-section-of": "4.614",
+            "timeAndPlace":       "MW2-3.30 3-133"
         },
         {
             "type":          "Class",
@@ -140,7 +164,7 @@
             "description":   "Explores the relationship between music and the supernatural, focusing on the social history and context of supernatural beliefs as reflected in key literary and musical works from 1600 to the present.  Provides a better understanding of the place of ambiguity and the role of interpretation in culture, science and art.  Explores great works of art by Shakespeare, Verdi, Goethe (in translation), Gounod, Henry James and Benjamin Britten. Readings will also include selections from the most recent scholarship on magic and the supernatural. Writing assignments will range from web-based projects to analytic essays. No previous experience in music is necessary.  Projected guest lectures, musical performances, field trips.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#21A.113J",
             "joint":         true,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      [
                 "HASS-D 3",
@@ -171,7 +195,13 @@
                 "HASS-D 3",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Bahr, A."
+            "in-charge":     "Staff"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121L.005",
+            "lecture-section-of": "21L.005",
+            "timeAndPlace":       "TR11.30-1 2-147"
         },
         {
             "type":          "Class",
@@ -195,43 +225,34 @@
                 "HASS-D 3",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Marks, M."
+            "in-charge":     "Jenkins, H."
         },
         {
             "type":               "LectureSection",
             "label":              "L0121L.011",
             "lecture-section-of": "21L.011",
-            "timeAndPlace":       "T1-2.30 3-270"
+            "timeAndPlace":       [
+                "T4 3-270",
+                "T EVE (7 PM) 3-270"
+            ]
         },
         {
             "type":           "LabSection",
             "label":          "B0221L.011",
             "lab-section-of": "21L.011",
-            "timeAndPlace":   "T EVE (7-10 PM) 3-270"
+            "timeAndPlace":   "T EVE (8-10 PM) 3-270"
         },
         {
             "type":           "RecitationSection",
             "label":          "R0321L.011",
             "rec-section-of": "21L.011",
-            "timeAndPlace":   "R1 2-132"
+            "timeAndPlace":   "R3 2-131"
         },
         {
             "type":           "RecitationSection",
             "label":          "R0421L.011",
             "rec-section-of": "21L.011",
-            "timeAndPlace":   "R2 2-132"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0521L.011",
-            "rec-section-of": "21L.011",
-            "timeAndPlace":   "R1 2-139"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0621L.011",
-            "rec-section-of": "21L.011",
-            "timeAndPlace":   "R2 2-139"
+            "timeAndPlace":   "R4 2-131"
         },
         {
             "type":          "Class",
@@ -252,13 +273,7 @@
                 "HASS-D 3",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Henderson, D."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.016",
-            "lecture-section-of": "21L.016",
-            "timeAndPlace":       "TR3-4.30 W16-RRA"
+            "in-charge":     "Sonenberg, D. Henderson and J."
         },
         {
             "type":          "Class",
@@ -273,8 +288,11 @@
             "description":   "Examines  the production, transmission, preservation and the qualities of folk music in the British Isles and North America from the 18th century to the folk revival of the 1960s and the present. Special emphasis on balladry, fiddle styles, and African-American influences.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#21L.423J",
             "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "semester":      "Spring",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      [
                 "HASS-D 3",
                 "HASS Communication-Intensive"
@@ -307,8 +325,9 @@
                 "HASS Communication-Intensive"
             ],
             "in-charge":     [
-                "Ruckert, G.",
-                "Neff, T."
+                "Marks, M.",
+                "Neff, T.",
+                "Boyles, A."
             ]
         },
         {
@@ -336,6 +355,12 @@
             "timeAndPlace":   "TR12 4-160"
         },
         {
+            "type":           "RecitationSection",
+            "label":          "R0521M.011",
+            "rec-section-of": "21M.011",
+            "timeAndPlace":   "TR1 4-160"
+        },
+        {
             "type":          "Class",
             "label":         "The Supernatural in Music, Literature and Culture",
             "id":            "21M.013",
@@ -348,7 +373,7 @@
             "description":   "Explores the relationship between music and the supernatural, focusing on the social history and context of supernatural beliefs as reflected in key literary and musical works from 1600 to the present.  Provides a better understanding of the place of ambiguity and the role of interpretation in culture, science and art.  Explores great works of art by Shakespeare, Verdi, Goethe (in translation), Gounod, Henry James and Benjamin Britten. Readings will also include selections from the most recent scholarship on magic and the supernatural. Writing assignments will range from web-based projects to analytic essays. No previous experience in music is necessary.  Projected guest lectures, musical performances, field trips.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#21M.013J",
             "joint":         true,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      [
                 "HASS-D 3",
@@ -396,20 +421,26 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "An introduction to diverse musical traditions of the world. Music from a wide range of geographical areas is studied in terms of structure, performance practice, social use, aesthetics, and cross-cultural contact. Includes hands-on music making, live demonstrations by guest artists, and ethnographic research projects.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#21M.030",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
             "offering":      "Currently Offered",
             "category":      [
                 "HASS-D 3",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     [
-                "Tang, P.",
-                "Ruckert, G."
-            ]
+            "in-charge":     "Tang, P."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121M.030",
+            "lecture-section-of": "21M.030",
+            "timeAndPlace":       "TR11-12.30 4-364"
         },
         {
             "type":          "Class",
@@ -420,14 +451,20 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Through a progressive series of composition projects, students investigate the sonic organization of musical works and performances, focusing on fundamental questions of unity and variety. Aesthetic issues are considered in the pragmatic context of the instructions that composers provide to achieve a desired musical result, whether these instructions are notated in prose, as graphic images, or in symbolic notation. No formal training is required. Weekly listening, reading, and composition assignments draw on a broad range of musical styles and intellectual traditions, from various cultures and historical periods.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#21M.065",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "HASS-D 3",
-            "in-charge":     "Makan, K."
+            "in-charge":     "Ziporyn, E."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121M.065",
+            "lecture-section-of": "21M.065",
+            "timeAndPlace":       "MW2-3.30 4-160"
         },
         {
             "type":          "Class",
@@ -442,8 +479,11 @@
             "description":   "Examines  the production, transmission, preservation and the qualities of folk music in the British Isles and North America from the 18th century to the folk revival of the 1960s and the present. Special emphasis on balladry, fiddle styles, and African-American influences.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#21M.223J",
             "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "semester":      "Spring",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      [
                 "HASS-D 3",
                 "HASS Communication-Intensive"
@@ -473,35 +513,36 @@
             "offering":      "Currently Offered",
             "category":      "HASS-D 3",
             "in-charge":     [
-                "Shadle, C.",
                 "Harvey, M.",
-                "Hughes, C.",
-                "Cleveland, S."
+                "Ruehr, E.",
+                "Ruckert, G.",
+                "Cuthbert, M.",
+                "Saraydarian, G."
             ]
         },
         {
             "type":               "LectureSection",
             "label":              "L0121M.301",
             "lecture-section-of": "21M.301",
-            "timeAndPlace":       "MW11-12.30 4-156"
+            "timeAndPlace":       "MW11-12.30 4-364"
         },
         {
             "type":               "LectureSection",
             "label":              "L0221M.301",
             "lecture-section-of": "21M.301",
-            "timeAndPlace":       "MW3.30-5 4-364"
+            "timeAndPlace":       "MW1-2.30 4-364"
         },
         {
             "type":               "LectureSection",
             "label":              "L0321M.301",
             "lecture-section-of": "21M.301",
-            "timeAndPlace":       "TR11-12.30 4-152"
+            "timeAndPlace":       "TR1-2.30 4-152"
         },
         {
             "type":               "LectureSection",
             "label":              "L0421M.301",
             "lecture-section-of": "21M.301",
-            "timeAndPlace":       "TR2.30-4 4-160"
+            "timeAndPlace":       "TR3.30-5 4-152"
         },
         {
             "type":           "LabSection",
@@ -523,13 +564,19 @@
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#21M.611",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "HASS-D 3",
-            "in-charge":     "Scheib, J."
+            "in-charge":     "Brody, A."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121M.611",
+            "lecture-section-of": "21M.611",
+            "timeAndPlace":       "TR11-12.30 W16-RAA"
         },
         {
             "type":          "Class",
-            "label":         "Learning from the Past:  Performance, Drama, Science",
+            "label":         "Learning from the Past: Drama, Science, Performance",
             "id":            "21M.616",
             "listing-index": "hass_hd3-018",
             "course":        "21M",
@@ -549,16 +596,31 @@
             "in-charge":     "Sonenberg, J."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.616",
-            "lecture-section-of": "21M.616",
-            "timeAndPlace":       "TR3-4.30 W16-RRA"
+            "type":          "Class",
+            "label":         "Science and the Theatrical Imagination",
+            "id":            "21M.617",
+            "listing-index": "hass_hd3-019",
+            "course":        "21M",
+            "level":         "Undergrad",
+            "units":         "3-0-9",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Explores how major western dramatic texts reflect the scientific thinking of various periods in history, up to present time.  Discussion focuses on how scientific issues informed the play writers of each period from Aeschylus to Stoppard.  Reading includes playscripts and scientific writing.  Guests include MIT science and engineering faculty.",
+            "url":           "http://student.mit.edu/catalog/hass_hd3.html#21M.617",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      "Not offered this year",
+            "category":      [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "in-charge":     "Brody, A."
         },
         {
             "type":          "Class",
             "label":         "Theater and Cultural Diversity in the US",
             "id":            "21M.621",
-            "listing-index": "hass_hd3-019",
+            "listing-index": "hass_hd3-020",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -574,22 +636,16 @@
             "in-charge":     "DeFrantz, T."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.621",
-            "lecture-section-of": "21M.621",
-            "timeAndPlace":       "WF3-5 50-201"
-        },
-        {
             "type":          "Class",
             "label":         "Traditions in American Concert Dance: Gender and Autobiography",
             "id":            "21M.670",
-            "listing-index": "hass_hd3-020",
+            "listing-index": "hass_hd3-021",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Explores forms, content, and contexts of world traditions in dance that played a crucial role in shaping American concert dance with attention to issues of gender and autobiography. Explores artistic lives of dance artists Katherine Dunham, Alvin Ailey, Isadora Duncan, Martha Graham, and George Balanchine as American dance innovators. Lectures and discussions analyze these artists' works, taking into consideration historical and political contexts. Viewing assignments and attendance of Boston-area dance performances help students identify visual, musical, and kinesthetic underpinnings of choreographic structure.",
+            "description":   "Explores forms, content, and contexts of world traditions in dance that played a crucial role in shaping American concert dance with attention to issues of gender and autobiography. Explores artistic lives of dance artists Katherine Dunham, Alvin Ailey, Isadora Duncan, Martha Graham, and George Balanchine as American dance innovators. Lectures and discussions analyze these artists\\' works, taking into consideration historical and political contexts. Viewing assignments and attendance of Boston-area dance performances help students identify visual, musical, and kinesthetic underpinnings of choreographic structure.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#21M.670J",
             "joint":         true,
             "semester":      "Spring",
@@ -602,22 +658,16 @@
             "in-charge":     "DeFrantz, T."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.670",
-            "lecture-section-of": "21M.670",
-            "timeAndPlace":       "TR3-5 4-153"
-        },
-        {
             "type":          "Class",
             "label":         "Traditions in American Concert Dance: Gender and Autobiography",
             "id":            "SP.591",
-            "listing-index": "hass_hd3-021",
+            "listing-index": "hass_hd3-022",
             "course":        "SP",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Explores forms, content, and contexts of world traditions in dance that played a crucial role in shaping American concert dance with attention to issues of gender and autobiography. Explores artistic lives of dance artists Katherine Dunham, Alvin Ailey, Isadora Duncan, Martha Graham, and George Balanchine as American dance innovators. Lectures and discussions analyze these artists' works, taking into consideration historical and political contexts. Viewing assignments and attendance of Boston-area dance performances help students identify visual, musical, and kinesthetic underpinnings of choreographic structure.",
+            "description":   "Explores forms, content, and contexts of world traditions in dance that played a crucial role in shaping American concert dance with attention to issues of gender and autobiography. Explores artistic lives of dance artists Katherine Dunham, Alvin Ailey, Isadora Duncan, Martha Graham, and George Balanchine as American dance innovators. Lectures and discussions analyze these artists\\' works, taking into consideration historical and political contexts. Viewing assignments and attendance of Boston-area dance performances help students identify visual, musical, and kinesthetic underpinnings of choreographic structure.",
             "url":           "http://student.mit.edu/catalog/hass_hd3.html#SP.591J",
             "joint":         true,
             "semester":      "Spring",
@@ -629,16 +679,10 @@
             "in-charge":     "DeFrantz, T."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01SP.591",
-            "lecture-section-of": "SP.591",
-            "timeAndPlace":       "TR3-5 4-153"
-        },
-        {
             "type":          "Class",
             "label":         "Theater and Cultural Diversity in the US",
             "id":            "SP.595",
-            "listing-index": "hass_hd3-022",
+            "listing-index": "hass_hd3-023",
             "course":        "SP",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -651,12 +695,6 @@
             "offering":      "Currently Offered",
             "category":      "HASS-D 3",
             "in-charge":     "DeFrantz, T."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01SP.595",
-            "lecture-section-of": "SP.595",
-            "timeAndPlace":       "WF3-5 50-201"
         }
     ]
 }

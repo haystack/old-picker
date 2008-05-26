@@ -1,2 +1,4 @@
-rm ../../webapp/data/spring-fall/*
-cp processed-json/*.* ../../webapp/data/spring-fall/
+rm ../../webapp/data/spring-fall/scraped-data/*
+cp processed-json/*.* ../../webapp/data/spring-fall/scraped-data/
+rm ../../webapp/data/spring-fall/open-data/*
+cp open-json/*.* ../../webapp/data/spring-fall/open-data/

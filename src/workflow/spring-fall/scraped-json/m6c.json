@@ -20,6 +20,12 @@
             "subarea":       "Computer Science"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L016.801",
+            "lecture-section-of": "6.801",
+            "timeAndPlace":       "TR2.30-4 4-149"
+        },
+        {
             "type":          "Class",
             "label":         "The Human Intelligence Enterprise",
             "id":            "6.803",
@@ -42,18 +48,6 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.803",
-            "lecture-section-of": "6.803",
-            "timeAndPlace":       "MW9.30-11 38-166"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L026.803",
-            "lecture-section-of": "6.803",
-            "timeAndPlace":       "MW11-12.30 38-166"
-        },
-        {
             "type":          "Class",
             "label":         "Computational Cognitive Science",
             "id":            "6.804",
@@ -67,7 +61,7 @@
             "url":           "http://student.mit.edu/catalog/m6c.html#6.804J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "prereq":        [
                 "9.66J",
                 "9.660",
@@ -77,6 +71,18 @@
             ],
             "in-charge":     "Tenenbaum, J. B.",
             "subarea":       "Computer Science"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L016.804",
+            "lecture-section-of": "6.804",
+            "timeAndPlace":       "TR3.30-5 46-1015"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R026.804",
+            "rec-section-of": "6.804",
+            "timeAndPlace":   "M EVE (7.30 PM) 14-0637"
         },
         {
             "type":          "Class",
@@ -95,50 +101,22 @@
             "offering":      "Currently Offered",
             "in-charge":     [
                 "Abelson, H.",
-                "Fischer, M."
-            ],
-            "subarea":       "Computer Science"
-        },
-        {
-            "type":          "Class",
-            "label":         "Computational Functional Genomics",
-            "id":            "6.807",
-            "listing-index": "m6c-004",
-            "course":        "6",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Study and discussion of computational approaches and algorithms for contemporary problems in functional genomics. Topics include biological complexity, genome structure and function, high-throughput experimental data, data normalization, data representation, gene clustering, statistical network models, continuous dynamic models, statistical metrics for model validation, model elaboration, experiment planning, and the computational complexity of functional genomics problems.  Meets with 6.874J, but assignments differ.",
-            "url":           "http://student.mit.edu/catalog/m6c.html#6.807",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "6.874J",
-                "7.90J",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
-            ],
-            "in-charge":     [
-                "Gifford, D. K.",
-                "Jaakkola, T. S."
+                "Fischer, M.",
+                "Weitzner, D."
             ],
             "subarea":       "Computer Science"
         },
         {
             "type":               "LectureSection",
-            "label":              "L016.807",
-            "lecture-section-of": "6.807",
-            "timeAndPlace":       "TR11-12.30 37-212"
+            "label":              "L016.805",
+            "lecture-section-of": "6.805",
+            "timeAndPlace":       "R2-5 4-231"
         },
         {
             "type":          "Class",
             "label":         "Digital and Computational Photography",
             "id":            "6.815",
-            "listing-index": "m6c-005",
+            "listing-index": "m6c-004",
             "course":        "6",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -161,16 +139,10 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.815",
-            "lecture-section-of": "6.815",
-            "timeAndPlace":       "TR1-2.30 36-155"
-        },
-        {
             "type":          "Class",
             "label":         "Programming Languages",
             "id":            "6.821",
-            "listing-index": "m6c-006",
+            "listing-index": "m6c-005",
             "course":        "6",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -189,7 +161,7 @@
             "type":          "Class",
             "label":         "Computer System Architecture",
             "id":            "6.823",
-            "listing-index": "m6c-007",
+            "listing-index": "m6c-006",
             "course":        "6",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -209,19 +181,31 @@
             "subarea":       "Computer Science"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L016.823",
+            "lecture-section-of": "6.823",
+            "timeAndPlace":       "MW1-2.30 32-124"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R026.823",
+            "rec-section-of": "6.823",
+            "timeAndPlace":   "F1 32-124"
+        },
+        {
             "type":          "Class",
             "label":         "Distributed Computer Systems Engineering",
             "id":            "6.824",
-            "listing-index": "m6c-008",
+            "listing-index": "m6c-007",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Abstractions and implementation techniques for design of distributed systems; server design, network programming, naming, storage systems, security, and fault tolerance. Readings from current literature. 6 Engineering Design Points. Enrollment limited.",
+            "description":   "Abstractions and implementation techniques for engineering distributed  systems: remote procedure call, threads and locking, client/server,  peer-to-peer, consistency, fault tolerance, and security.  Readings  from current literature. Individual laboratory assignments culminate  in the construction of a fault-tolerant and scalable network file  system. Programming experience with C/C++ required. Enrollment limited.  6 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.824",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "6.033",
@@ -235,7 +219,7 @@
             "type":          "Class",
             "label":         "Techniques in Artificial Intelligence",
             "id":            "6.825",
-            "listing-index": "m6c-009",
+            "listing-index": "m6c-008",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -244,8 +228,8 @@
             "description":   "A graduate-level introduction to artificial intelligence. Topics include representation and inference in first-order logic; modern deterministic and decision-theoretic planning techniques; basic supervised learning methods; and Bayesian network inference and learning.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.825",
             "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.041",
@@ -260,17 +244,20 @@
             "type":          "Class",
             "label":         "Principles of Computer Systems",
             "id":            "6.826",
-            "listing-index": "m6c-010",
+            "listing-index": "m6c-009",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "An introduction to the basic principles of computer systems with emphasis on the use of rigorous techniques as an aid to understanding and building modern computing systems. Particular attention paid to concurrent and distributed systems. Topics include: specification and verification, concurrent algorithms, synchronization, naming, Networking, replication techniques (including distributed cache management), and principles and algorithms for achieving reliability. Alternate years.",
+            "description":   "An introduction to the basic principles of computer systems with emphasis on the use of rigorous techniques as an aid to understanding and building modern computing systems. Particular attention paid to concurrent and distributed systems. Topics include: specification and verification, concurrent algorithms, synchronization, naming, Networking, replication techniques (including distributed cache management), and principles and algorithms for achieving reliability.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.826",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Lampson, B. W.",
             "subarea":       "Computer Science"
@@ -279,13 +266,13 @@
             "type":          "Class",
             "label":         "Multithreaded Parallelism: Languages and Compilers",
             "id":            "6.827",
-            "listing-index": "m6c-011",
+            "listing-index": "m6c-010",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Languages and compilers to exploit multithreaded parallelism. Implicit parallel programming using functional languages and their extensions. Higher-order functions, non-strictness, and polymorphism. Explicit parallel programming and nondeterminism. The lambda calculus and its variants. Term rewriting and operational semantics. Compiling multithreaded code for symmetric multiprocessors and clusters. Static analysis and compiler optimizations. Alternate years.  4 Engineering Design Points.",
+            "description":   "Languages and compilers to exploit multithreaded parallelism. Implicit parallel programming using functional languages and their extensions. Higher-order functions, non-strictness, and polymorphism. Explicit parallel programming and nondeterminism. The lambda calculus and its variants. Term rewriting and operational semantics. Compiling multithreaded code for symmetric multiprocessors and clusters. Static analysis and compiler optimizations.  4 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.827",
             "joint":         false,
             "semester":      "Fall",
@@ -302,12 +289,12 @@
             "type":          "Class",
             "label":         "Operating System Engineering",
             "id":            "6.828",
-            "listing-index": "m6c-012",
+            "listing-index": "m6c-011",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-6-3",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Fundamental design and implementation issues in the engineering of operating systems.  Lectures based on the study of a symmetric multiprocessor version of UNIX version 6 and research papers. Topics include virtual memory; file system; threads; context switches; kernels; interrupts; system calls; interprocess communication; coordination, and interaction between software and hardware. Individual laboratory assignments accumulate in the construction of a minimal operating system (for an x86-based personal computer) that implements the basic operating system abstractions and a shell. Knowledge of programming in the C language is a prerequisite.  6 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.828",
             "joint":         false,
@@ -322,10 +309,16 @@
             "subarea":       "Computer Science"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L016.828",
+            "lecture-section-of": "6.828",
+            "timeAndPlace":       "MW12.30-2 32-144"
+        },
+        {
             "type":          "Class",
             "label":         "Computer Networks",
             "id":            "6.829",
-            "listing-index": "m6c-013",
+            "listing-index": "m6c-012",
             "course":        "6",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -342,22 +335,10 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.829",
-            "lecture-section-of": "6.829",
-            "timeAndPlace":       "MW11-12.30 32-144"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R026.829",
-            "rec-section-of": "6.829",
-            "timeAndPlace":   "F11 32-144"
-        },
-        {
             "type":          "Class",
             "label":         "Database Systems",
             "id":            "6.830",
-            "listing-index": "m6c-014",
+            "listing-index": "m6c-013",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -378,36 +359,39 @@
             "subarea":       "Computer Science"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L016.830",
+            "lecture-section-of": "6.830",
+            "timeAndPlace":       "TR12.30-2 32-155"
+        },
+        {
             "type":          "Class",
             "label":         "User Interface Design and Implementation",
             "id":            "6.831",
-            "listing-index": "m6c-015",
+            "listing-index": "m6c-014",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Design, implementation, and evaluation of human-computer interfaces.  Human capabilities, including the human information processing model, perception, Fitts's Law, memory, attention, and color vision; task analysis, user-centered design,  design principles; low-fidelity prototyping; heuristic evaluation, formative evaluation, controlled experiments; model-view-controller, input models, output models, constraints, layout, animation, and automatic user interface generation. Readings from current literature, short assignments, and substantial group programming project.  6 Engineering Design Points.",
+            "description":   "Design, implementation, and evaluation of human-computer interfaces.  Human capabilities, including the human information processing model, perception, Fitts\\'s Law, memory, attention, and color vision; task analysis, user-centered design,  design principles; low-fidelity prototyping; heuristic evaluation, formative evaluation, controlled experiments; model-view-controller, input models, output models, constraints, layout, animation, and automatic user interface generation. Readings from current literature, short assignments, and substantial group programming project. Enrollment limited.  6 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.831",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "6.170",
+            "prereq":        [
+                "6.005",
+                "6.170"
+            ],
             "in-charge":     "Miller, R. C.",
             "subarea":       "Computer Science"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L016.831",
-            "lecture-section-of": "6.831",
-            "timeAndPlace":       "MWF12 32-124"
         },
         {
             "type":          "Class",
             "label":         "Underactuated Robotics",
             "id":            "6.832",
-            "listing-index": "m6c-016",
+            "listing-index": "m6c-015",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -428,16 +412,10 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.832",
-            "lecture-section-of": "6.832",
-            "timeAndPlace":       "TR2.30-4 32-144"
-        },
-        {
             "type":          "Class",
             "label":         "The Human Intelligence Enterprise",
             "id":            "6.833",
-            "listing-index": "m6c-017",
+            "listing-index": "m6c-016",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -457,22 +435,10 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.833",
-            "lecture-section-of": "6.833",
-            "timeAndPlace":       "MW9.30-11 38-166"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L026.833",
-            "lecture-section-of": "6.833",
-            "timeAndPlace":       "MW11-12.30 38-166"
-        },
-        {
             "type":          "Class",
             "label":         "Cognitive Robotics",
             "id":            "6.834",
-            "listing-index": "m6c-018",
+            "listing-index": "m6c-017",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -503,10 +469,28 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.834",
-            "lecture-section-of": "6.834",
-            "timeAndPlace":       "MW10.30-12 33-422"
+            "type":          "Class",
+            "label":         "Intelligent Multimodal User Interfaces",
+            "id":            "6.835",
+            "listing-index": "m6c-018",
+            "course":        "6",
+            "level":         "Grad",
+            "units":         "3-0-9",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Implementation and evaluation of intelligent multi-modal user interfaces, taught from a combination of hands-on exercises and papers from the original literature. Topics include basic technologies for handling speech, vision, pen-based interaction, and other modalities, as well as various techniques for combining modalities. Substantial readings and a term project, where students build an interface to illustrate one or more themes of the course.  8 Engineering Design Points.",
+            "url":           "http://student.mit.edu/catalog/m6c.html#6.835",
+            "joint":         false,
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "6.034",
+                "6.005",
+                "6.170"
+            ],
+            "in-charge":     "Davis, R.",
+            "subarea":       "Computer Science"
         },
         {
             "type":          "Class",
@@ -517,21 +501,24 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduction to computer graphics algorithms, software and hardware.  Topics include ray tracing, the graphics pipeline, transformations,  texture mapping, shadows, sampling, global illumination, splines,  animation and color.  6 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.837",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "18.02",
-                "6.170"
-            ],
+            "prereq":        "6.170",
             "in-charge":     [
-                "Durand, F.",
+                "Durand, F. P.",
                 "Popovic, J."
             ],
             "subarea":       "Computer Science"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L016.837",
+            "lecture-section-of": "6.837",
+            "timeAndPlace":       "TR2.30-4 32-144"
         },
         {
             "type":          "Class",
@@ -568,7 +555,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "A graduate level course investigates computational problems in rendering, animation, and geometric modeling.  The course draws on advanced techniques from computational geometry, applied mathematics, statistics, scientific computing and other.  Substantial programming experience required.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.839",
             "joint":         false,
@@ -587,12 +574,6 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.839",
-            "lecture-section-of": "6.839",
-            "timeAndPlace":       "TR11-12.30 4-145"
-        },
-        {
             "type":          "Class",
             "label":         "Theory of Computation",
             "id":            "6.840",
@@ -601,7 +582,7 @@
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "A more extensive and theoretical treatment of the material in 6.045J/18.400J, emphasizing computability and computational complexity theory. Regular and context-free languages. Decidable and undecidable problems, reducibility, recursive function theory. Time and space measures on computation, completeness, hierarchy theorems, inherently complex problems, oracles, probabilistic computation, and interactive proof systems.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.840J",
             "joint":         true,
@@ -617,6 +598,30 @@
             "subarea":       "Computer Science"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L016.840",
+            "lecture-section-of": "6.840",
+            "timeAndPlace":       "TR11-12.30 2-190"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R026.840",
+            "rec-section-of": "6.840",
+            "timeAndPlace":   "F11 2-147"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R036.840",
+            "rec-section-of": "6.840",
+            "timeAndPlace":   "F1 2-147"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R046.840",
+            "rec-section-of": "6.840",
+            "timeAndPlace":   "F2 2-147"
+        },
+        {
             "type":          "Class",
             "label":         "Advanced Complexity Theory",
             "id":            "6.841",
@@ -626,18 +631,20 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.841J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "18.405J",
                 "6.840J",
                 "18.404J"
             ],
-            "in-charge":     "Cancelled, Subject",
             "subarea":       "Computer Science"
         },
         {
@@ -654,10 +661,7 @@
             "url":           "http://student.mit.edu/catalog/m6c.html#6.842",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.046J",
@@ -665,12 +669,6 @@
             ],
             "in-charge":     "Rubinfeld, R.",
             "subarea":       "Computer Science"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L016.842",
-            "lecture-section-of": "6.842",
-            "timeAndPlace":       "MW2.30-4 34-304"
         },
         {
             "type":          "Class",
@@ -682,11 +680,14 @@
             "units":         "5-0-7",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Theory for programmers. Introduction to programming and computability theory based on a \"substitution\" model of computation by Scheme programs with side effects. Computation as algebraic manipulation: provable and valid inequalities for multivariate polynomials. Scheme evaluation as algebraic manipulation and term rewriting. Paradoxes from self-application and introduction to formal programming semantics. Undecidability of the Halting Problem for Scheme. Properties of recursively enumerable sets, leading to Incompleteness theorems for Scheme equivalences. Introduction to logic for program specification and verification. Hilbert's tenth problem. Alternate years.",
+            "description":   "Theory for programmers. Introduction to programming and computability theory based on a \\\u0022substitution\\\u0022 model of computation by Scheme programs with side effects. Computation as algebraic manipulation: provable and valid inequalities for multivariate polynomials. Scheme evaluation as algebraic manipulation and term rewriting. Paradoxes from self-application and introduction to formal programming semantics. Undecidability of the Halting Problem for Scheme. Properties of recursively enumerable sets, leading to Incompleteness theorems for Scheme equivalences. Introduction to logic for program specification and verification. Hilbert\\'s tenth problem.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.844",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.001",
@@ -697,7 +698,7 @@
         },
         {
             "type":          "Class",
-            "label":         "Parallel Processing: Architecture and Applications",
+            "label":         "Parallel Computing",
             "id":            "6.846",
             "listing-index": "m6c-026",
             "course":        "6",
@@ -705,21 +706,15 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduction to parallel and multicore computer architecture and programming.  Topics include the architecture and design of multicore processors; networking, video, continuum, particle and graph applications for multicores; communication and synchronization algorithms and mechanisms; locality in parallel computations; computational models  including shared memory, streams, message passing and data parallel; multicore mechanisms for synchronization, cache coherence, and multithreading; performance evaluation of multicores; compilation and runtime systems for parallel computing.  Substantial project required.  4 Engineering Design Points.",
+            "description":   "Introduction to parallel and multicore computer architecture and programming.  Topics include the design and implementation of multicore processors; networking, video, continuum, particle and graph applications for multicores; communication and synchronization algorithms and mechanisms; locality in parallel computations; computational models, including shared memory, streams, message passing, and data parallel; multicore mechanisms for synchronization, cache coherence, and multithreading.  Performance evaluation of multicores; compilation and runtime systems for parallel computing.  Substantial project required.  4 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.846",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "6.823",
+            "prereq":        "6.004",
             "in-charge":     "Agarwal, A.",
             "subarea":       "Computer Science"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L016.846",
-            "lecture-section-of": "6.846",
-            "timeAndPlace":       "TR2.30-4 26-210"
         },
         {
             "type":          "Class",
@@ -735,7 +730,10 @@
             "url":           "http://student.mit.edu/catalog/m6c.html#6.850",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "6.046J",
             "in-charge":     "Indyk, P.",
@@ -751,7 +749,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "More advanced and powerful data structures for answering several queries on the same data.  Such structures are crucial in particular for designing efficient algorithms. Dictionaries; hashing; search trees. Self-organizing data structures; linear search; splay trees; dynamic optimality. Predecessor problem; van Emde Boas priority queues; y-fast trees. Word-level parallelism; fusion trees; transdichotomous RAM; RAMBO. Strings; text indexing; suffix arrays; suffix trees; compression. Static data structures; compact arrays; rank and select. Succinct data structures; tree encodings; implicit data structures. External-memory data structures; B-trees; buffer trees; cache-oblivious data structures; tree layout. Ordered-file maintenance; order queries in lists.",
+            "description":   "More advanced and powerful data structures for answering several queries on the same data. Such structures are crucial in particular for designing efficient algorithms. Dictionaries; hashing; search trees. Self-adjusting data structures; linear search; splay trees; dynamic optimality. Integer data structures; word RAM. Predecessor problem; van Emde Boas priority queues; y-fast trees; fusion trees. Lower bounds; cell-probe model; round elimination. Dynamic graphs; link-cut trees; dynamic connectivity. Strings; text indexing; suffix arrays; suffix trees. Static data structures; compact arrays; rank and select. Succinct data structures; tree encodings; implicit data structures. External-memory and cache-oblivious data structures; B-trees; buffer trees; tree layout; ordered-file maintenance. Temporal data structures; persistence; retroactivity.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.851",
             "joint":         false,
             "semester":      "Spring",
@@ -771,14 +769,11 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Design and analysis of concurrent algorithms, emphasizing those suitable for use in distributed networks. Process synchronization, allocation of computational resources, distributed consensus, distributed graph algorithms, election of a leader in a network, distributed termination, deadlock detection, concurrency control, communication, and clock synchronization. Special consideration given to issues of efficiency and fault tolerance. Formal models and proof methods for distributed computation. Alternate years.",
+            "description":   "Design and analysis of concurrent algorithms, emphasizing those suitable for use in distributed networks. Process synchronization, allocation of computational resources, distributed consensus, distributed graph algorithms, election of a leader in a network, distributed termination, deadlock detection, concurrency control, communication, and clock synchronization. Special consideration given to issues of efficiency and fault tolerance. Formal models and proof methods for distributed computation.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.852J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "18.437J",
@@ -786,12 +781,6 @@
             ],
             "in-charge":     "Lynch, N. A.",
             "subarea":       "Computer Science"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L016.852",
-            "lecture-section-of": "6.852",
-            "timeAndPlace":       "TR11-12.30 4-149"
         },
         {
             "type":          "Class",
@@ -813,10 +802,17 @@
                 "18.415J",
                 "6.041",
                 "6.042J",
+                "18.440",
                 "6.046J"
             ],
             "in-charge":     "Karger, D. R.",
             "subarea":       "Computer Science"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L016.854",
+            "lecture-section-of": "6.854",
+            "timeAndPlace":       "MWF2.30-4 32-144"
         },
         {
             "type":          "Class",
@@ -828,11 +824,14 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Network models for industrial logistics systems, transportation systems, communication systems, and other applications. Emphasizes a rigorous treatment of algorithms and their efficiency?algorithms for shortest routes, maximum flows, minimum cost flows, traffic equilibrium, and network design. Implementation issues.",
+            "description":   "Network models for industrial logistics systems, transportation systems, communication systems, and other applications. Emphasizes a rigorous treatment of algorithms and their efficiency. Algorithms for shortest paths, maximum flows, minimum cost flows, traffic equilibrium, and network design. Implementation issues.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.855J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "15.082J",
@@ -853,11 +852,14 @@
             "units":         "5-0-7",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Studies how randomization can be used to make algorithms simpler and more efficient via random sampling, random selection of witnesses, symmetry breaking, and Markov chains. Models of randomized computation. Data structures: hash tables, and skip lists. Graph algorithms: minimum spanning trees, shortest paths, and minimum cuts. Geometric algorithms: convex hulls, linear programming in fixed or arbitrary dimension. Approximate counting; parallel algorithms; online algorithms; derandomization techniques; and tools for probabilistic analysis of algorithms. Alternate years.",
+            "description":   "Studies how randomization can be used to make algorithms simpler and more efficient via random sampling, random selection of witnesses, symmetry breaking, and Markov chains. Models of randomized computation. Data structures: hash tables, and skip lists. Graph algorithms: minimum spanning trees, shortest paths, and minimum cuts. Geometric algorithms: convex hulls, linear programming in fixed or arbitrary dimension. Approximate counting; parallel algorithms; online algorithms; derandomization techniques; and tools for probabilistic analysis of algorithms.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.856J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "18.416J",
@@ -892,12 +894,6 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.857",
-            "lecture-section-of": "6.857",
-            "timeAndPlace":       "MW11-12.30 2-105"
-        },
-        {
             "type":          "Class",
             "label":         "Integer Programming and Combinatorial Optimization",
             "id":            "6.859",
@@ -907,14 +903,11 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "In-depth treatment of the modern theory of integer programming and combinatorial optimization, emphasizing geometry, duality and algorithms. Topics include formulating problems in integer variables, enhancement of formulations, ideal formulations, integer programming duality, linear and semidefinite relaxations, lattices and their applications, the geometry of integer programming, primal methods, cutting plane methods, connections with algebraic geometry, computational complexity, approximation algorithms, heuristic and enumerative algorithms, mixed integer programming and solutions of large scale problems. Alternate years.",
+            "description":   "In-depth treatment of the modern theory of integer programming and combinatorial optimization, emphasizing geometry, duality and algorithms. Topics include formulating problems in integer variables, enhancement of formulations, ideal formulations, integer programming duality, linear and semidefinite relaxations, lattices and their applications, the geometry of integer programming, primal methods, cutting plane methods, connections with algebraic geometry, computational complexity, approximation algorithms, heuristic and enumerative algorithms, mixed integer programming and solutions of large scale problems.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.859J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "15.083J",
@@ -950,12 +943,6 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.863",
-            "lecture-section-of": "6.863",
-            "timeAndPlace":       "MW3-4.30 32-144"
-        },
-        {
             "type":          "Class",
             "label":         "Advanced Natural Language Processing",
             "id":            "6.864",
@@ -964,7 +951,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Graduate introduction to natural language processing, the study of human language from a computational perspective. Syntactic, semantic and discourse processing models. Emphasis on machine learning or corpus-based methods and algorithms. Use of these methods and models in applications including syntactic parsing, information extraction, statistical machine translation, dialogue systems, and summarization.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.864",
             "joint":         false,
@@ -977,6 +964,12 @@
                 "Collins, M. J."
             ],
             "subarea":       "Computer Science"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L016.864",
+            "lecture-section-of": "6.864",
+            "timeAndPlace":       "TR1-2.30 32-144"
         },
         {
             "type":          "Class",
@@ -1006,12 +999,6 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.865",
-            "lecture-section-of": "6.865",
-            "timeAndPlace":       "TR1-2.30 36-155"
-        },
-        {
             "type":          "Class",
             "label":         "Machine Vision",
             "id":            "6.866",
@@ -1030,6 +1017,12 @@
             "prereq":        "6.003",
             "in-charge":     "Horn, B. K. P.",
             "subarea":       "Computer Science"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L016.866",
+            "lecture-section-of": "6.866",
+            "timeAndPlace":       "TR2.30-4 4-149"
         },
         {
             "type":          "Class",
@@ -1061,6 +1054,36 @@
             "subarea":       "Computer Science"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L016.867",
+            "lecture-section-of": "6.867",
+            "timeAndPlace":       "MW1-2.30 54-100"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R026.867",
+            "rec-section-of": "6.867",
+            "timeAndPlace":   "F10 26-210"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R036.867",
+            "rec-section-of": "6.867",
+            "timeAndPlace":   "F11 26-210"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R046.867",
+            "rec-section-of": "6.867",
+            "timeAndPlace":   "F2 26-328"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R056.867",
+            "rec-section-of": "6.867",
+            "timeAndPlace":   "F3 26-328"
+        },
+        {
             "type":          "Class",
             "label":         "The Society of Mind",
             "id":            "6.868",
@@ -1080,12 +1103,6 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.868",
-            "lecture-section-of": "6.868",
-            "timeAndPlace":       "W EVE (7-9 PM) 32-155"
-        },
-        {
             "type":          "Class",
             "label":         "Advances in Computer Vision",
             "id":            "6.869",
@@ -1099,7 +1116,7 @@
             "url":           "http://student.mit.edu/catalog/m6c.html#6.869",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "6.801",
             "in-charge":     [
@@ -1133,39 +1150,10 @@
                 "6.869"
             ],
             "in-charge":     [
-                "Darrell, T. J.",
                 "Freeman, W. T.",
                 "Golland, P.",
-                "Horn, B. K. P."
-            ],
-            "subarea":       "Computer Science"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L016.870",
-            "lecture-section-of": "6.870",
-            "timeAndPlace":       "MW11-12.30 5-134"
-        },
-        {
-            "type":          "Class",
-            "label":         "Knowledge-Based Applications Systems",
-            "id":            "6.871",
-            "listing-index": "m6c-043",
-            "course":        "6",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Development of programs containing a significant amount of knowledge about their application domain. Outline: brief review of relevant AI techniques; case studies from a number of application domains, chosen to illustrate principles of system development; discussion of technical issues encountered in building a system, including selection of knowledge representation and knowledge acquisition, and discussion of current and future research. Experience in building an expert system (term project).  8 Engineering Design Points.",
-            "url":           "http://student.mit.edu/catalog/m6c.html#6.871",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "6.034",
-            "in-charge":     [
-                "Davis, R.",
-                "Shrobe, H. E."
+                "Horn, B. K. P.",
+                "Torralba, A."
             ],
             "subarea":       "Computer Science"
         },
@@ -1173,7 +1161,7 @@
             "type":          "Class",
             "label":         "Biomedical Computing",
             "id":            "6.872",
-            "listing-index": "m6c-044",
+            "listing-index": "m6c-043",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1194,16 +1182,22 @@
             "subarea":       "Computer Science"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L016.872",
+            "lecture-section-of": "6.872",
+            "timeAndPlace":       "TR9.30-11 32-144"
+        },
+        {
             "type":          "Class",
             "label":         "Biomedical Decision Support",
             "id":            "6.873",
-            "listing-index": "m6c-045",
+            "listing-index": "m6c-044",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Presents the main concepts of decision analysis, artificial intelligence, and predictive model construction and evaluation in the specific context of medical applications. Emphasizes the advantages and disadvantages of using these methods in real-world systems. Technical focus on decision analysis, knowledge-based systems (qualitative and quantitative), learning systems (including logistic regression, classification trees, neural networks), and techniques to evaluate the performance of such systems. Students produce a final project using the methods learned in the subject, based on actual clinical data. Required for students in the master's program in medical informatics, but open to other graduate students and advanced undergraduates.",
+            "description":   "Presents the main concepts of decision analysis, artificial intelligence, and predictive model construction and evaluation in the specific context of medical applications. Emphasizes the advantages and disadvantages of using these methods in real-world systems. Technical focus on decision analysis, knowledge-based systems (qualitative and quantitative), learning systems (including logistic regression, classification trees, neural networks), and techniques to evaluate the performance of such systems. Students produce a final project using the methods learned in the subject, based on actual clinical data. Required for students in the master\\'s program in medical informatics, but open to other graduate students and advanced undergraduates.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.873J",
             "joint":         true,
             "semester":      "Fall",
@@ -1218,28 +1212,30 @@
             "subarea":       "Computer Science"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L016.873",
+            "lecture-section-of": "6.873",
+            "timeAndPlace":       "MW9.30-11 32-144"
+        },
+        {
             "type":          "Class",
-            "label":         "Computational Functional Genomics",
+            "label":         "Computational Systems Biology",
             "id":            "6.874",
-            "listing-index": "m6c-046",
+            "listing-index": "m6c-045",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Focuses on casting contemporary problems in systems biology and functional genomics in computational terms and providing appropriate tools and methods to solve them. Topics include genome structure and function, transcriptional regulation, and stem cell biology in particular; measurement technologies such as microarrays (expression, protein-DNA interactions, chromatin structure); statistical data analysis, predictive and causal inference, and experiment design. Emphasis on coupling problem structures (biological questions) with appropriate computational approaches.",
-            "url":           "http://student.mit.edu/catalog/m6c.html#6.874J",
-            "joint":         true,
+            "description":   "Computational approaches and algorithms for contemporary problems in systems biology, with a focus on models of biological systems, including  regulatory network discovery and validation. Topics include (1) genotypes, regulatory factor binding and motif  discovery, whole genome RNA expression; (2) Regulatory networks: discovery, validation, data integration, protein-protein interactions, signaling, whole genome chromatin immunoprecipitation analysis; (3) Experimental design: model validation, interpretation of interventions. Computational methods discussed include directed and undirected graphical models such as Bayesian networks, factor graphs, Dirichlet processes, and topic  models. Multidisciplinary team oriented final research project.",
+            "url":           "http://student.mit.edu/catalog/m6c.html#6.874",
+            "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "7.90J",
-                "6.807",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
+                "18.440",
+                "6.041"
             ],
             "in-charge":     [
                 "Gifford, D. K.",
@@ -1248,16 +1244,10 @@
             "subarea":       "Computer Science"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.874",
-            "lecture-section-of": "6.874",
-            "timeAndPlace":       "TR11-12.30 37-212"
-        },
-        {
             "type":          "Class",
             "label":         "Cryptography and Cryptanalysis",
             "id":            "6.875",
-            "listing-index": "m6c-047",
+            "listing-index": "m6c-046",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1273,32 +1263,30 @@
                 "18.425J",
                 "6.046J"
             ],
-            "in-charge":     "Goldwasser, S.",
+            "in-charge":     [
+                "Goldwasser, S.",
+                "Micali, S."
+            ],
             "subarea":       "Computer Science"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L016.875",
-            "lecture-section-of": "6.875",
-            "timeAndPlace":       "TR2.30-4 32-141"
         },
         {
             "type":          "Class",
             "label":         "Advanced Topics in Cryptography",
             "id":            "6.876",
-            "listing-index": "m6c-048",
+            "listing-index": "m6c-047",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Recent results in cryptography and interactive proofs. Lectures by instructor, invited speakers, and students. Alternate years.",
+            "description":   "Recent results in cryptography and interactive proofs. Lectures by instructor, invited speakers, and students.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.876J",
             "joint":         true,
             "semester":      "Fall",
             "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
@@ -1306,27 +1294,34 @@
                 "6.875J",
                 "18.425J"
             ],
-            "in-charge":     "Goldwasser, S.",
+            "in-charge":     [
+                "Goldwasser, S.",
+                "Micali, S."
+            ],
             "subarea":       "Computer Science"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L016.876",
+            "lecture-section-of": "6.876",
+            "timeAndPlace":       [
+            ]
         },
         {
             "type":          "Class",
             "label":         "Computational Evolutionary Biology",
             "id":            "6.877",
-            "listing-index": "m6c-049",
+            "listing-index": "m6c-048",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Explores and illustrates theory underlying computational approaches to solving problems in evolutionary biology. Begins with components of evolutionary theory and inferential logic of evolution by natural selection. Emphasizes development of analytical skills needed to judge the computational and algorithmic implications and requirements of evolutionary models. Examples drawn from current research in evolutionary biology: whole-genome species comparison, phylogenetic tree construction, molecular evolution, homology and development, optimization and evolvability, heritability, disease evolution,  detecting selection in human populations, and evolution of language. Extensive laboratory exercises in model-building and analyzing evolutionary data. Alternate years.  4 Engineering Design Points.",
+            "description":   "Explores and illustrates theory underlying computational approaches to solving problems in evolutionary biology. Begins with components of evolutionary theory and inferential logic of evolution by natural selection. Emphasizes development of analytical skills needed to judge the computational and algorithmic implications and requirements of evolutionary models. Examples drawn from current research in evolutionary biology: whole-genome species comparison, phylogenetic tree construction, molecular evolution, homology and development, optimization and evolvability, heritability, disease evolution,  detecting selection in human populations, and evolution of language. Extensive laboratory exercises in model-building and analyzing evolutionary data.  4 Engineering Design Points.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.877J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.046J",
@@ -1341,7 +1336,7 @@
             "type":          "Class",
             "label":         "Advanced Computational Biology: Genomes, Networks, Evolution",
             "id":            "6.878",
-            "listing-index": "m6c-050",
+            "listing-index": "m6c-049",
             "course":        "6",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1355,22 +1350,23 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.047",
-                "6.001",
-                "7.012",
-                "18.440",
+                "6.006",
                 "6.041"
             ],
-            "in-charge":     [
-                "Kellis, M.",
-                "Indyk, P."
-            ],
+            "in-charge":     "Kellis, M.",
             "subarea":       "Computer Science"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L016.878",
+            "lecture-section-of": "6.878",
+            "timeAndPlace":       "TR11-12.30 1-190"
         },
         {
             "type":          "Class",
             "label":         "Special Subjects in Computer Science",
             "id":            "6.881-6.885",
-            "listing-index": "m6c-051",
+            "listing-index": "m6c-050",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1388,14 +1384,20 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Verghese, G. C.",
+            "in-charge":     "Verghese, G. V.",
             "subarea":       "Computer Science"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L016.881-6.885",
+            "lecture-section-of": "6.881-6.885",
+            "timeAndPlace":       "TR11-12.30 Unknown"
         },
         {
             "type":          "Class",
             "label":         "Special Subjects in Computer Science",
             "id":            "6.886-6.890",
-            "listing-index": "m6c-052",
+            "listing-index": "m6c-051",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1420,7 +1422,7 @@
             "type":          "Class",
             "label":         "Special Subjects in Computer Science",
             "id":            "6.891-6.899",
-            "listing-index": "m6c-053",
+            "listing-index": "m6c-052",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1442,10 +1444,16 @@
             "subarea":       "Computer Science"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L016.891-6.899",
+            "lecture-section-of": "6.891-6.899",
+            "timeAndPlace":       "TR2.30-4 26-314"
+        },
+        {
             "type":          "Class",
             "label":         "Inventions and Patents",
             "id":            "6.901",
-            "listing-index": "m6c-054",
+            "listing-index": "m6c-053",
             "course":        "6",
             "level":         "Undergrad",
             "units":         "3-0-6",
@@ -1466,9 +1474,40 @@
             "subarea":       "Special Subjects"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L016.901",
+            "lecture-section-of": "6.901",
+            "timeAndPlace":       "M EVE (7-10 PM) 37-212"
+        },
+        {
             "type":          "Class",
             "label":         "Special Studies in Electrical Engineering and Computer Science",
-            "id":            "6.910?6.914",
+            "id":            "6.910",
+            "listing-index": "m6c-054",
+            "course":        "6",
+            "level":         "Undergrad",
+            "units":         "Unknown",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "Opportunity for individual study at the undergraduate level related to electrical engineering and computer science not covered by other subjects offered by the department. Student is responsible for initiation of arrangements and filing of proposal. Consult department undergraduate office.",
+            "url":           "http://student.mit.edu/catalog/m6c.html#6.910",
+            "joint":         false,
+            "semester":      [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":      [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":     "Smith, A. C.",
+            "subarea":       "Special Subjects"
+        },
+        {
+            "type":          "Class",
+            "label":         "Special Studies in Electrical Engineering and Computer Science",
+            "id":            "6.911?6.914",
             "listing-index": "m6c-055",
             "course":        "6",
             "level":         "Undergrad",
@@ -1476,7 +1515,7 @@
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "Advanced subjects not offered in the regular curriculum. Consult department to learn of offerings for a particular term.",
-            "url":           "http://student.mit.edu/catalog/m6c.html#6.910?6.914",
+            "url":           "http://student.mit.edu/catalog/m6c.html#6.911?6.914",
             "joint":         false,
             "semester":      [
                 "Fall",
@@ -1530,7 +1569,7 @@
             "units":         "0-12-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides academic credit for the first assignment of VI-A undergraduate students at companies affiliated with the department's VI-A internship program. Enrollment limited to students participating in the VI-A internship program.",
+            "description":   "Provides academic credit for the first assignment of VI-A undergraduate students at companies affiliated with the department\\'s VI-A internship program. Enrollment limited to students participating in the VI-A internship program.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.921",
             "joint":         false,
             "semester":      "Summer",
@@ -1548,7 +1587,7 @@
             "units":         "0-12-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides academic credit for the second assignment of VI-A undergraduate students at companies affiliated with the department's VI-A internship program. Enrollment limited to students participating in the VI-A internship program.",
+            "description":   "Provides academic credit for the second assignment of VI-A undergraduate students at companies affiliated with the department\\'s VI-A internship program. Enrollment limited to students participating in the VI-A internship program.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.922",
             "joint":         false,
             "semester":      [
@@ -1570,7 +1609,7 @@
             "units":         "0-12-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides academic credit for the third assignment of VI-A undergraduate students at companies affiliated with the department's VI-A internship program. Enrollment limited to students participating in the VI-A internship program.",
+            "description":   "Provides academic credit for the third assignment of VI-A undergraduate students at companies affiliated with the department\\'s VI-A internship program. Enrollment limited to students participating in the VI-A internship program.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.923",
             "joint":         false,
             "semester":      [
@@ -1605,10 +1644,53 @@
                 "16.653J"
             ],
             "in-charge":     [
-                "d'Arbeloff, A. V.",
-                "Chun, J.-H."
+                "d\\'Arbeloff, A. V.",
+                "Chun, J.-H.",
+                "Marcus, H. S."
             ],
             "subarea":       "Special Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L016.930",
+            "lecture-section-of": "6.930",
+            "timeAndPlace":       "MW9.30-11 3-270"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B026.930",
+            "lab-section-of": "6.930",
+            "timeAndPlace":   "M2 5-217"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B036.930",
+            "lab-section-of": "6.930",
+            "timeAndPlace":   "M4 5-134"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B046.930",
+            "lab-section-of": "6.930",
+            "timeAndPlace":   "T1 5-234"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B056.930",
+            "lab-section-of": "6.930",
+            "timeAndPlace":   "W2 5-231"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B066.930",
+            "lab-section-of": "6.930",
+            "timeAndPlace":   "W4 5-134"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B076.930",
+            "lab-section-of": "6.930",
+            "timeAndPlace":   "R1 5-234"
         },
         {
             "type":          "Class",
@@ -1624,19 +1706,10 @@
             "url":           "http://student.mit.edu/catalog/m6c.html#6.931",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Rines, R. H.",
+            "in-charge":     "Staff",
             "subarea":       "Special Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L016.931",
-            "lecture-section-of": "6.931",
-            "timeAndPlace":       "M EVE (7-10 PM) 37-212"
         },
         {
             "type":          "Class",
@@ -1661,23 +1734,10 @@
                 "6.938",
                 "10.816",
                 "16.862",
-                "22.82",
-                "18.02"
+                "22.82"
             ],
             "in-charge":     "Apostolakis, G. E.",
             "subarea":       "Special Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L016.938",
-            "lecture-section-of": "6.938",
-            "timeAndPlace":       "MW9.30-11 1-390"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R026.938",
-            "rec-section-of": "6.938",
-            "timeAndPlace":   "T2 9-338"
         },
         {
             "type":          "Class",
@@ -1689,7 +1749,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications. Means for decoupling goals from strategy. Mechanisms for implementing additive data-directed invocation. Work with partially-specified entities. Manage multiple viewpoints.  Topics include combinators, generic operations, pattern matching, pattern-directed invocation, rule systems, backtracking, dependencies, indeterminacy, memoization, constraint propagation, and incremental refinement.",
+            "description":   "Concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications. Means for decoupling goals from strategy. Mechanisms for implementing additive data-directed invocation. Work with partially-specified entities. Manage multiple viewpoints.  Topics include combinators, generic operations, pattern matching, pattern-directed invocation, rule systems, backtracking, dependencies, indeterminacy, memoization, constraint propagation, and incremental refinement. Comparable programming experience required.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.945",
             "joint":         false,
             "semester":      "Spring",
@@ -1697,19 +1757,11 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.001",
+                "6.01",
                 "6.034"
             ],
-            "in-charge":     [
-                "Sussman, G. J.",
-                "Hanson, C. P."
-            ],
+            "in-charge":     "Sussman, G. J.",
             "subarea":       "Special Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L016.945",
-            "lecture-section-of": "6.945",
-            "timeAndPlace":       "MWF2 36-156"
         },
         {
             "type":          "Class",
@@ -1721,7 +1773,7 @@
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Classical mechanics in a computational framework. Lagrangian formulation. Action, variational principles. Hamilton's principle. Conserved quantities. Hamiltonian formulation. Surfaces of section. Chaos. Liouville's theorem and Poincar? integral invariants. Poincar?-Birkhoff and KAM theorems. Invariant curves. Cantori. Nonlinear resonances. Resonance overlap and transition to chaos. Properties of chaotic motion. Transport, diffusion, mixing. Symplectic integration. Adiabatic invariants. Many-dimensional systems, Arnold diffusion. Extensive use of computation to capture methods, for simulation, and for symbolic analysis.",
+            "description":   "Classical mechanics in a computational framework, Lagrangian formulation, action, variational principles, and Hamilton\\'s principle. Conserved quantities, Hamiltonian formulation, surfaces of section, chaos, and Liouville\\'s theorem. Poincare integral invariants, Poincare-Birkhoff and KAM theorems. Invariant curves and cantori. Nonlinear resonances, resonance overlap and transition to chaos. Symplectic integration. Adiabatic invariants. Applications to simple physical systems and solar system dynamics. Extensive use of computation to capture methods, for simulation, and for symbolic analysis. Students taking the graduate version complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.946J",
             "joint":         true,
             "semester":      "Fall",
@@ -1731,15 +1783,27 @@
                 "8.351J",
                 "12.620J",
                 "12.008",
-                "8.01",
                 "18.03",
-                "6.001"
+                "6.01"
             ],
             "in-charge":     [
                 "Wisdom, J.",
                 "Sussman, G. J."
             ],
             "subarea":       "Special Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L016.946",
+            "lecture-section-of": "6.946",
+            "timeAndPlace":       "MWF11 54-317"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B026.946",
+            "lab-section-of": "6.946",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",
@@ -1751,7 +1815,7 @@
             "units":         "0-12-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides academic credit for a graduate assignment of graduate VI-A students at companies affiliated with the department's VI-A internship program. Enrollment limited to graduate students participating in the VI-A internship program.",
+            "description":   "Provides academic credit for a graduate assignment of graduate VI-A students at companies affiliated with the department\\'s VI-A internship program. Enrollment limited to graduate students participating in the VI-A internship program.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.951",
             "joint":         false,
             "semester":      [
@@ -1778,7 +1842,7 @@
             "units":         "0-12-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides academic credit for graduate students who require an additional term at the company to complete the graduate assignment of the department's VI-A internship program. This academic credit is for registration purposes only and cannot be used toward fulfilling the requirements of any degree program. Enrollment limited to graduate students participating in the VI-A internship program.",
+            "description":   "Provides academic credit for graduate students who require an additional term at the company to complete the graduate assignment of the department\\'s VI-A internship program. This academic credit is for registration purposes only and cannot be used toward fulfilling the requirements of any degree program. Enrollment limited to graduate students participating in the VI-A internship program.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.952",
             "joint":         false,
             "semester":      [
@@ -1793,15 +1857,40 @@
         },
         {
             "type":          "Class",
-            "label":         "Introduction to Research in Electrical Engineering and Computer Science",
-            "id":            "6.961",
+            "label":         "Introductory Research in Electrical Engineering and Computer Science",
+            "id":            "6.960",
             "listing-index": "m6c-067",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Opportunity to become involved in graduate research, under guidance of a staff member, on a problem of mutual interest to student and supervisor. Recommended for all full-time graduate students entering the Department of Electrical Engineering and Computer Science. Individual programs subject to approval of professor in charge. Enrollment restricted to regular graduate students in Electrical Engineering and Computer Science. Normal registration is for 12 units.",
+            "description":   "Enrollment restricted to first-year graduate students in Electrical Engineering and Computer Science who are doing introductory research leading to an SM, EE, ECS, PhD, or ScD thesis. Opportunity to become involved in graduate research, under guidance of a staff member, on a problem of mutual interest to student and supervisor. Individual programs subject to approval of professor in charge.",
+            "url":           "http://student.mit.edu/catalog/m6c.html#6.960",
+            "joint":         false,
+            "semester":      [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":      [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":     "Orlando, T. P.",
+            "subarea":       "Special Subjects"
+        },
+        {
+            "type":          "Class",
+            "label":         "Introduction to Research in Electrical Engineering and Computer Science",
+            "id":            "6.961",
+            "listing-index": "m6c-068",
+            "course":        "6",
+            "level":         "Grad",
+            "units":         "3-0-0 [P/D/F]",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "Seminar on topics related to research leading to an SM, EE, ECS, PhD, or ScD thesis. Limited to first-year regular graduate students in EECS with a fellowship or teaching assistantship.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.961",
             "joint":         false,
             "semester":      [
@@ -1819,15 +1908,15 @@
         {
             "type":          "Class",
             "label":         "Special Studies in Electrical Engineering and Computer Science",
-            "id":            "6.962?6.969",
-            "listing-index": "m6c-068",
+            "id":            "6.962",
+            "listing-index": "m6c-069",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "Opportunity for study of graduate-level topics related to electrical engineering and computer science but not included elsewhere in the curriculum. Registration under this subject normally used for situations involving individual study (under supervision of a faculty member) concerning topics of mutual interest to student and supervisor, but may, when appropriate, be used for small study groups. Normal registration is for 12 units. Registration subject to approval of professor in charge.",
-            "url":           "http://student.mit.edu/catalog/m6c.html#6.962?6.969",
+            "url":           "http://student.mit.edu/catalog/m6c.html#6.962",
             "joint":         false,
             "semester":      [
                 "Fall",
@@ -1838,14 +1927,39 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Smith, A. C.",
+            "in-charge":     "Orlando, T. P.",
+            "subarea":       "Special Subjects"
+        },
+        {
+            "type":          "Class",
+            "label":         "Special Studies in Electrical Engineering and Computer Science",
+            "id":            "6.963?6.969",
+            "listing-index": "m6c-070",
+            "course":        "6",
+            "level":         "Grad",
+            "units":         "Unknown",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "Opportunity for study of graduate-level topics related to electrical engineering and computer science but not included elsewhere in the curriculum. Registration under this subject normally used for situations involving small study groups. Normal registration is for 12 units. Registration subject to approval of professor in charge.",
+            "url":           "http://student.mit.edu/catalog/m6c.html#6.963?6.969",
+            "joint":         false,
+            "semester":      [
+                "Fall",
+                "Spring",
+                "Summer"
+            ],
+            "offering":      [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":     "Orlando, T. P.",
             "subarea":       "Special Subjects"
         },
         {
             "type":          "Class",
             "label":         "Special Subjects in Electrical Engineering and Computer Science",
             "id":            "6.971?6.979",
-            "listing-index": "m6c-069",
+            "listing-index": "m6c-071",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1867,22 +1981,10 @@
             "subarea":       "Special Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L016.971?6.979",
-            "lecture-section-of": "6.971?6.979",
-            "timeAndPlace":       "TR2.30-4 36-155"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L026.971?6.979",
-            "lecture-section-of": "6.971?6.979",
-            "timeAndPlace":       "MW2.30-4 26-322"
-        },
-        {
             "type":          "Class",
             "label":         "Teaching Electrical Engineering and Computer Science",
             "id":            "6.980",
-            "listing-index": "m6c-070",
+            "listing-index": "m6c-072",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1906,7 +2008,7 @@
             "type":          "Class",
             "label":         "Teaching Electrical Engineering and Computer Science",
             "id":            "6.981",
-            "listing-index": "m6c-071",
+            "listing-index": "m6c-073",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1930,7 +2032,7 @@
             "type":          "Class",
             "label":         "Special Subjects in Electrical Engineering",
             "id":            "6.985-6.989",
-            "listing-index": "m6c-072",
+            "listing-index": "m6c-074",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1952,16 +2054,22 @@
             "subarea":       "Special Subjects"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L016.985-6.989",
+            "lecture-section-of": "6.985-6.989",
+            "timeAndPlace":       "MWF11 4-153"
+        },
+        {
             "type":          "Class",
             "label":         "Research in Electrical Engineering and Computer Science",
             "id":            "6.991",
-            "listing-index": "m6c-073",
+            "listing-index": "m6c-075",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "For Research Assistants in Electrical Engineering and Computer Science, in cases where the assigned research is approved for academic credit by the department. Hours arranged with research supervisor.",
+            "description":   "For EECS MEng students who are Research Assistants in Electrical Engineering and Computer Science, in cases where the assigned research is approved for academic credit by the department. Hours arranged with research supervisor.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.991",
             "joint":         false,
             "semester":      [
@@ -1978,9 +2086,30 @@
         },
         {
             "type":          "Class",
+            "label":         "Practical Experience in EECS",
+            "id":            "6.999",
+            "listing-index": "m6c-076",
+            "course":        "6",
+            "level":         "Grad",
+            "units":         "Unknown",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "For Course 6 students in the SM/PhD track who seek practical off-campus research experiences or internships in electrical engineering or computer science. Before enrolling, students must have a firm employment offer from a company or organization and secure a research supervisor within EECS. Employers required to document the work accomplished. Research proposals subject to departmental approval; consult departmental Graduate Office.",
+            "url":           "http://student.mit.edu/catalog/m6c.html#6.999",
+            "joint":         false,
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
+            "offering":      "Currently Offered",
+            "in-charge":     "Orlando, T. P.",
+            "subarea":       "Special Subjects"
+        },
+        {
+            "type":          "Class",
             "label":         "Study at Cambridge University",
             "id":            "6.CME",
-            "listing-index": "m6c-074",
+            "listing-index": "m6c-077",
             "course":        "6",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -2007,13 +2136,13 @@
             "type":          "Class",
             "label":         "UPOP IAP Workshop",
             "id":            "6.EPW",
-            "listing-index": "m6c-075",
+            "listing-index": "m6c-078",
             "course":        "6",
             "level":         "Undergrad",
             "units":         "3-0-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Provides engineering sophomores the opportunity to build the core foundation of skills necessary to succeed in and prepare for a summer practice experience. Introduces concepts in product development, system dynamics, organizational dynamics, and effective communication. Also introduces concepts in ethics and character, and leadership and teamwork to ensure that students acquire an appreciation of the social, environmental, and ethical implications of organizational decision making. Subject is an interactive experience integrating lectures with role-playing, simulations, and group projects, where students apply these concepts in a case study context. Students are provided with a journal to be used during their summer training practice. Limited enrollment.",
+            "description":   "Introduction to professional development skills for engineering practice. Experiential learning modules prepare sophomores for success in summer internship and beyond. Faculty and senior engineering professionals recruited from industry guide teams through learning activities, which include creative simulations, team competitions, oral presentations, and group problem-solving. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.EPW",
             "joint":         false,
             "semester":      "IAP",
@@ -2027,14 +2156,14 @@
                 "16.EPW",
                 "22.EPW"
             ],
-            "in-charge":     "Yue, D. K. P.",
+            "in-charge":     "LuperFoy, S.",
             "subarea":       "Special Subjects"
         },
         {
             "type":          "Class",
             "label":         "Graduate Thesis",
             "id":            "6.ThG",
-            "listing-index": "m6c-076",
+            "listing-index": "m6c-079",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2053,14 +2182,14 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Smith, A. C.",
+            "in-charge":     "Orlando, T. P.",
             "subarea":       "Special Subjects"
         },
         {
             "type":          "Class",
             "label":         "Master of Engineering Program Thesis",
             "id":            "6.ThM",
-            "listing-index": "m6c-077",
+            "listing-index": "m6c-080",
             "course":        "6",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2087,13 +2216,13 @@
             "type":          "Class",
             "label":         "Undergraduate Research in Electrical Engineering and Computer Science",
             "id":            "6.UR",
-            "listing-index": "m6c-078",
+            "listing-index": "m6c-081",
             "course":        "6",
             "level":         "Undergrad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Extended participation in the work of a faculty member or research group, including independent study of the literature, direct involvement in the group's research, and project work under an individual faculty member. Research is arranged by mutual agreement between the student and a member of the faculty of the Department of Electrical Engineering and Computer Science, and may continue over several terms. Forms and instructions for the initial letter of intent and final summary report are available in the department undergraduate office.",
+            "description":   "Extended participation in the work of a faculty member or research group, including independent study of the literature, direct involvement in the group\\'s research, and project work under an individual faculty member. Research is arranged by mutual agreement between the student and a member of the faculty of the Department of Electrical Engineering and Computer Science, and may continue over several terms. Forms and instructions for the initial letter of intent and final summary report are available in the department undergraduate office.",
             "url":           "http://student.mit.edu/catalog/m6c.html#6.UR",
             "joint":         false,
             "semester":      [

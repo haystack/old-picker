@@ -97,10 +97,12 @@ function addCourses(courseIDs, urls) {
             }
         }
     }
+    /* warehouse service is out of date, mit open data loaded below
 	var coursesString = coursesA.join(";");
 	if (coursesString != "" && coursesString != null) {
         urls.push('http://isda-ws2.mit.edu/WarehouseService/?courses=' + coursesString);
 	}
+	*/
 	for (var c = 0; c < courseIDs.length; c++) {
 		var courseID = courseIDs[c];
 		/* we have data for everything, so this doesn't seem necessary
@@ -108,7 +110,8 @@ function addCourses(courseIDs, urls) {
     		alert("Oops! We actually don't have the data for this course.");
     		return; 
     	}*/
-		urls.push("data/spring-fall/" + courseID + ".json");
+		urls.push("data/spring-fall/scraped-data/" + courseID + ".json");
+		urls.push("data/spring-fall/open-data/" + courseID + ".json");
 		if (courseID == "6") {
 			urls.push("data/tqe.json");
 			urls.push("data/hkn.json");

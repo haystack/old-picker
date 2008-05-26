@@ -19,41 +19,50 @@
             ],
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
-            "in-charge":     [
-                "Carroll, J.",
-                "Ariely, D."
-            ],
+            "in-charge":     "Osterman, P.",
             "area":          "Organization Studies"
         },
         {
             "type":               "LectureSection",
             "label":              "L0115.301",
             "lecture-section-of": "15.301",
-            "timeAndPlace":       "TR11 E25-111"
+            "timeAndPlace":       "MW11 E25-111"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R0215.301",
-            "rec-section-of": "15.301",
-            "timeAndPlace":   "F9 E51-395"
+            "type":           "LabSection",
+            "label":          "B0215.301",
+            "lab-section-of": "15.301",
+            "timeAndPlace":   "F11 E51-057"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R0315.301",
-            "rec-section-of": "15.301",
-            "timeAndPlace":   "F10 E25-111"
+            "type":           "LabSection",
+            "label":          "B0315.301",
+            "lab-section-of": "15.301",
+            "timeAndPlace":   "F12 E51-057"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R0415.301",
-            "rec-section-of": "15.301",
-            "timeAndPlace":   "F11 E25-111"
+            "type":           "LabSection",
+            "label":          "B0415.301",
+            "lab-section-of": "15.301",
+            "timeAndPlace":   "F11 E25-117"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R0515.301",
-            "rec-section-of": "15.301",
-            "timeAndPlace":   "F12 E51-395"
+            "type":           "LabSection",
+            "label":          "B0515.301",
+            "lab-section-of": "15.301",
+            "timeAndPlace":   "F12 E25-117"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0615.301",
+            "lab-section-of": "15.301",
+            "timeAndPlace":   "F11 E51-063"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0715.301",
+            "lab-section-of": "15.301",
+            "timeAndPlace":   "F1 E51-061"
         },
         {
             "type":          "Class",
@@ -71,10 +80,22 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     [
-                "Baker, B.",
-                "Ancona, D."
+                "Ancona, D.",
+                "Keller, M."
             ],
             "area":          "Organization Studies"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0115.305",
+            "lecture-section-of": "15.305",
+            "timeAndPlace":       "W7.30-10.30 W59-073"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0215.305",
+            "lecture-section-of": "15.305",
+            "timeAndPlace":       "TR8.30-10 W59-073"
         },
         {
             "type":          "Class",
@@ -122,6 +143,18 @@
             "area":          "Organization Studies"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.310",
+            "lecture-section-of": "15.310",
+            "timeAndPlace":       "MW11 E25-111"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0215.310",
+            "rec-section-of": "15.310",
+            "timeAndPlace":   "F11 E51-061"
+        },
+        {
             "type":          "Class",
             "label":         "Organizational Processes",
             "id":            "15.311",
@@ -131,7 +164,7 @@
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Enhances students' ability to take effective action in complex organizational settings by providing the analytic tools needed to analyze, manage, and lead the organizations of the future. Emphasizes the importance of the organizational context in influencing which individual styles and skills are effective. Employs a wide variety of learning tools, from experiential learning to the more conventional discussion of written cases. Centers on three complementary perspectives on organizations: the strategic design, political, and cultural \"lenses\" on organizations. Restricted to first-year Sloan master's students.",
+            "description":   "Enhances students\\' ability to take effective action in complex organizational settings by providing the analytic tools needed to analyze, manage, and lead the organizations of the future. Emphasizes the importance of the organizational context in influencing which individual styles and skills are effective. Employs a wide variety of learning tools, from experiential learning to the more conventional discussion of written cases. Centers on three complementary perspectives on organizations: the strategic design, political, and cultural \\\u0022lenses\\\u0022 on organizations. Restricted to first-year Sloan master\\'s students.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.311",
             "joint":         false,
             "semester":      "Fall",
@@ -145,6 +178,36 @@
             "area":          "Organization Studies"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.311",
+            "lecture-section-of": "15.311",
+            "timeAndPlace":       "TR1-2.30 E51-149"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0215.311",
+            "lecture-section-of": "15.311",
+            "timeAndPlace":       "TR2.30-4 E51-145"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0315.311",
+            "lecture-section-of": "15.311",
+            "timeAndPlace":       "TR4-5.30 E51-149"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0415.311",
+            "lecture-section-of": "15.311",
+            "timeAndPlace":       "TR1-2.30 E51-145"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0515.311",
+            "lecture-section-of": "15.311",
+            "timeAndPlace":       "TR2.30-4 E51-149"
+        },
+        {
             "type":          "Class",
             "label":         "Planning and Managing Change",
             "id":            "15.315",
@@ -154,14 +217,17 @@
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Basic models and tools used to analyze any change problem in human systems. Application of these models and tools to actual change projects chosen by members of the class, to be completed during the course. Group as well as individual projects, and weekly papers on progress. Models and tools drawn from organization development theory. Primarily for master's students and Sloan Fellows. Enrollment is limited to 35 students.",
+            "description":   "Basic models and tools used to analyze any change problem in human systems. Application of these models and tools to actual change projects chosen by members of the class, to be completed during the course. Group as well as individual projects, and weekly papers on progress. Models and tools drawn from organization development theory. Primarily for master\\'s students and Sloan Fellows. Enrollment is limited to 35 students.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.315",
             "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
             ],
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Maanen, J. Van",
             "area":          "Organization Studies"
@@ -193,7 +259,7 @@
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Affords a structured debriefing of the LFM internship experience with a focus on improving students' leadership and organizational change skills. Examines leadership and its role in the change process. Students learn more about themselves as leaders, the concept of leadership from various theoretical perspectives, and leadership in today's organizations. Includes lectures, discussions, debates, guest speakers, and experiential exercises. Grades are based on multiple short deliverables throughout the term and a leadership paper based on the internship experience.",
+            "description":   "Affords a structured debriefing of the LFM internship experience with a focus on improving students\\' leadership and organizational change skills. Examines leadership and its role in the change process. Students learn more about themselves as leaders, the concept of leadership from various theoretical perspectives, and leadership in today\\'s organizations. Includes lectures, discussions, debates, guest speakers, and experiential exercises. Grades are based on multiple short deliverables throughout the term and a leadership paper based on the internship experience.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.317",
             "joint":         false,
             "semester":      [
@@ -213,12 +279,6 @@
             "area":          "Organization Studies"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.317",
-            "lecture-section-of": "15.317",
-            "timeAndPlace":       "F8.30-11.30 (ENDS MARCH 14) E51-325"
-        },
-        {
             "type":          "Class",
             "label":         "Leadership and Change in Organizations",
             "id":            "15.318",
@@ -228,14 +288,13 @@
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Leadership theory, leadership skills, and self-reflection. Focuses on three questions: What is leadership? What kind of leader am I? How can I develop as a leader? Built around the 3 C's Sloan Leadership Model: catalyzing action, contingent on context, and change signature. Leadership is about making things happen, creating change, with a deep understanding of the context and who you are as an individual. Aims to increase knowledge and skills related to catalyzing action, including how to make sense of context, using power and influence, building momentum for change, creating a visionary speech, and developing leadership capabilities in others. Includes a number of self-assessment exercises examining personal history, emotional intelligence, and catalyzing action skills to help identify personal change signature. Half-term subject.",
+            "description":   "Leadership theory, leadership skills, and self-reflection. Focuses on three questions: What is leadership? What kind of leader am I? How can I develop as a leader? Built around the 3 C\\'s Sloan Leadership Model: catalyzing action, contingent on context, and change signature. Leadership is about making things happen, creating change, with a deep understanding of the context and who you are as an individual. Aims to increase knowledge and skills related to catalyzing action, including how to make sense of context, using power and influence, building momentum for change, creating a visionary speech, and developing leadership capabilities in others. Includes a number of self-assessment exercises examining personal history, emotional intelligence, and catalyzing action skills to help identify personal change signature. Half-term subject.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.318",
             "joint":         false,
             "semester":      "Spring",
             "offering":      [
-                "Not offered next year",
-                "Can be repeated for credit",
-                "Currently Offered"
+                "Not offered this year",
+                "Can be repeated for credit"
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
@@ -243,14 +302,8 @@
                 "15.315",
                 "15.322"
             ],
-            "in-charge":     "Ancona, D. G.",
+            "in-charge":     "Klein, J.",
             "area":          "Organization Studies"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0115.318",
-            "lecture-section-of": "15.318",
-            "timeAndPlace":       "F1-4 (ENDS MARCH 14) E51-325"
         },
         {
             "type":          "Class",
@@ -269,12 +322,6 @@
             "offering":      "Currently Offered",
             "in-charge":     "Malone, T.",
             "area":          "Organization Studies"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0115.320",
-            "lecture-section-of": "15.320",
-            "timeAndPlace":       "MW EVE (4-5.30 PM) E51-395"
         },
         {
             "type":          "Class",
@@ -298,6 +345,42 @@
             "area":          "Organization Studies"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.322",
+            "lecture-section-of": "15.322",
+            "timeAndPlace":       "F8-12 E52-175"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0215.322",
+            "lecture-section-of": "15.322",
+            "timeAndPlace":       "F1-5 E52-175"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0315.322",
+            "lab-section-of": "15.322",
+            "timeAndPlace":   "F8-12 E51-376"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0415.322",
+            "lab-section-of": "15.322",
+            "timeAndPlace":   "F8-12 E51-393"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0515.322",
+            "lab-section-of": "15.322",
+            "timeAndPlace":   "F1-5 E51-385"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0615.322",
+            "lab-section-of": "15.322",
+            "timeAndPlace":   "F1-5 E51-393"
+        },
+        {
             "type":          "Class",
             "label":         "Seminar in Leadership I",
             "id":            "15.325",
@@ -307,12 +390,19 @@
             "units":         "2-0-1 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "No description available.",
+            "description":   "",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.325",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
+            "in-charge":     "PM), MW EVE (5.30-8",
             "area":          "Organization Studies"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0115.325",
+            "lecture-section-of": "15.325",
+            "timeAndPlace":       "MW EVE (5.30-8 PM) E51-325"
         },
         {
             "type":          "Class",
@@ -332,12 +422,6 @@
             "prereq":        "15.325",
             "in-charge":     "Sacca, S.",
             "area":          "Organization Studies"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0115.326",
-            "lecture-section-of": "15.326",
-            "timeAndPlace":       "MW EVE (5.30-7.30 PM) E51-325"
         },
         {
             "type":          "Class",
@@ -392,6 +476,12 @@
             "area":          "Organization Studies"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.341",
+            "lecture-section-of": "15.341",
+            "timeAndPlace":       "F9-12 E52-598"
+        },
+        {
             "type":          "Class",
             "label":         "Organizations and Environments",
             "id":            "15.342",
@@ -401,7 +491,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "This subject has two main goals. The first goal is to provide an introduction to research in \"organizations and environments,\" an interdisciplinary domain of inquiry drawing primarily from sociology, and secondarily from economics, psychology, and political science. Seeks to understand organizational processes and outcomes in the surrounding economic, cultural, and institutional context in which they are situated. The second goal is to provide an introduction to the main groups that together form the Behavioral Policy Sciences (BPS) area of MIT/Sloan. In addition to Economic Sociology, these groups are Organization Studies, Work and Employment, Strategic Management, Global Management, and Technology, Innovation, and Entrepreneurship. Primarily for first-year doctoral students in BPS. Subject consists of four modules that are taught by faculty from each of the four BPS groups, as well as integrative sessions taught by the main instructor.",
+            "description":   "This subject has two main goals. The first goal is to provide an introduction to research in \\\u0022organizations and environments,\\\u0022 an interdisciplinary domain of inquiry drawing primarily from sociology, and secondarily from economics, psychology, and political science. Seeks to understand organizational processes and outcomes in the surrounding economic, cultural, and institutional context in which they are situated. The second goal is to provide an introduction to the main groups that together form the Behavioral Policy Sciences (BPS) area of MIT/Sloan. In addition to Economic Sociology, these groups are Organization Studies, Work and Employment, Strategic Management, Global Management, and Technology, Innovation, and Entrepreneurship. Primarily for first-year doctoral students in BPS. Subject consists of four modules that are taught by faculty from each of the four BPS groups, as well as integrative sessions taught by the main instructor.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.342J",
             "joint":         true,
             "semester":      "Fall",
@@ -412,8 +502,14 @@
             "area":          "Organization Studies"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.342",
+            "lecture-section-of": "15.342",
+            "timeAndPlace":       "R1-4 E52-598"
+        },
+        {
             "type":          "Class",
-            "label":         "Doctoral Seminar in Behavioral and Policy Sciences",
+            "label":         "Doctoral Proseminar in Behavioral and Policy Sciences",
             "id":            "15.345",
             "listing-index": "m15b-016",
             "course":        "15",
@@ -434,6 +530,12 @@
             "area":          "Organization Studies"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.345",
+            "lecture-section-of": "15.345",
+            "timeAndPlace":       "T3.30-5.30 E52-598"
+        },
+        {
             "type":          "Class",
             "label":         "Doctoral Seminar in Research Methods I",
             "id":            "15.347",
@@ -449,8 +551,17 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Silbey, S.",
+            "in-charge":     [
+                "Silbey, S.",
+                "Fernandez, R."
+            ],
             "area":          "Organization Studies"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0115.347",
+            "lecture-section-of": "15.347",
+            "timeAndPlace":       "M2.30-5.30 16-220"
         },
         {
             "type":          "Class",
@@ -473,12 +584,6 @@
             "area":          "Organization Studies"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.348",
-            "lecture-section-of": "15.348",
-            "timeAndPlace":       "W9-12 E52-460"
-        },
-        {
             "type":          "Class",
             "label":         "Qualitative Research Methods",
             "id":            "15.349",
@@ -492,7 +597,7 @@
             "url":           "http://student.mit.edu/catalog/m15b.html#15.349J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "in-charge":     "Silbey, S.",
             "area":          "Organization Studies"
         },
@@ -506,7 +611,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Focuses on the challenges inherent in attempting to take advantage of both incremental innovation and more radical or breakthrough changes in products, processes and services. Highlights the importance of innovation to both new ventures and to large established firms and explores the organizational, economic and strategic problems that must be tackled to ensure innovation is a long term source of competitive advantage. Restricted to MIT Sloan Fellows in Innovation and Global Leadership.",
+            "description":   "Focuses on the challenges inherent in attempting to take advantage of both incremental innovation and more radical or breakthrough changes in products, processes and services. Highlights the importance of innovation to both new ventures and to large established firms and explores the organizational, economic and strategic problems that must be tackled to ensure innovation is a long term source of competitive advantage. Discussions and class presentations cover non- technical as well as technology-based innovation. Restricted to MIT Sloan Fellows in Innovation and Global Leadership.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.350",
             "joint":         false,
             "semester":      "Fall",
@@ -514,7 +619,7 @@
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Cusumano, M. A.",
-                "d'Arbeloff, A.",
+                "d\\'Arbeloff, A.",
                 "Roberts, E. B."
             ],
             "area":          "Technology, Innovation and Entrepreneurship"
@@ -529,28 +634,13 @@
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "The basics every manager needs to organize successful technology-driven innovation in both entrepreneurial and established firms. This is not a subject in innovation strategy. Instead it examines how to build organizations that excel at identifying, building and commercializing technological innovations. Major topics include how the innovation process works; creating an organizational environment that rewards innovation and entrepreneurship; building successful innovative teams; designing appropriate innovation processes (e.g. stage-gate, portfolio management); organizing to take advantage of internal and external sources of innovation; and structuring entrepreneurial and established organizations for effective innovation. Examine how entrepreneurs can shape their firms so that they continuously build and commercialize valuable innovations. Many of the examples also focus on how established firms can become more entrepreneurial in their approach to innovation.",
+            "description":   "The basics every manager needs to organize successful technology-driven innovation in both entrepreneurial and established firms. This course starts by examining innovation-based strategies as a source of competitive advantage and then examines how to build organizations that excel at identifying, building and commercializing technological innovations. Major topics include how the innovation process works; creating an organizational environment that rewards innovation and entrepreneurship; designing appropriate innovation processes (e.g. stage-gate, portfolio management); organizing to take advantage of internal and external sources of innovation; and structuring entrepreneurial and established organizations for effective innovation. Examines how entrepreneurs can shape their firms so that they continuously build and commercialize valuable innovations. Many of the examples also focus on how established firms can become more entrepreneurial in their approach to innovation.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.351",
             "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
+            "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     "Murray, F.",
             "area":          "Technology, Innovation and Entrepreneurship"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0115.351",
-            "lecture-section-of": "15.351",
-            "timeAndPlace":       "MW1-2.30 E51-376"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0215.351",
-            "lecture-section-of": "15.351",
-            "timeAndPlace":       "MW2.30-4 E51-395"
         },
         {
             "type":          "Class",
@@ -571,12 +661,6 @@
             "area":          "Technology, Innovation and Entrepreneurship"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.352",
-            "lecture-section-of": "15.352",
-            "timeAndPlace":       "MW4-5.30 (ENDS MARCH 14) E51-345"
-        },
-        {
             "type":          "Class",
             "label":         "Research Themes in Management of Technology",
             "id":            "15.353",
@@ -590,7 +674,7 @@
             "url":           "http://student.mit.edu/catalog/m15b.html#15.353",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Utterback, J. M.",
             "area":          "Technology, Innovation and Entrepreneurship"
@@ -614,12 +698,6 @@
             "area":          "Technology, Innovation and Entrepreneurship"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.354",
-            "lecture-section-of": "15.354",
-            "timeAndPlace":       "TR10-11.30 E51-325"
-        },
-        {
             "type":          "Class",
             "label":         "How to Develop Breakthrough Products and Services",
             "id":            "15.356",
@@ -629,7 +707,7 @@
             "units":         "3-0-3",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Firms must develop major innovations to prosper but they don't know how. Recent research into the innovation process has made it possible to develop breakthroughs systematically. Explore several practical idea generation development methods. Presentations of real cases by invited experts conveys the art required to implement each. Half-term subject.",
+            "description":   "Firms must develop major innovations to prosper but they don\\'t know how. Recent research into the innovation process has made it possible to develop breakthroughs systematically. Explore several practical idea generation development methods. Presentations of real cases by invited experts conveys the art required to implement each. Half-term subject.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.356",
             "joint":         false,
             "semester":      "Spring",
@@ -638,14 +716,8 @@
             "area":          "Technology, Innovation and Entrepreneurship"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.356",
-            "lecture-section-of": "15.356",
-            "timeAndPlace":       "MW8.30-10 (ENDS MARCH 14) E51-149"
-        },
-        {
             "type":          "Class",
-            "label":         "The Software Business",
+            "label":         "The Business of Software and Digital Platforms",
             "id":            "15.358",
             "listing-index": "m15b-026",
             "course":        "15",
@@ -653,11 +725,11 @@
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Seminar-style subject for people interested in founding or growing an enterprise or consumer software company (products, services or both), or working as a software company manager, product or program manager, or industry analyst. Examine approaches used for organization and product development at successful companies ranging from Microsoft, IBM, Siebel/Oracle, and SAP to Google, Web 2.0, and other new companies. History of software as a business as well as key trends in different software markets. Student-teams help teach weekly sessions and analyze emerging companies and sectors in team projects.",
+            "description":   "Seminar-style course aimed at anyone interested in the business and technology sides of software and digital platforms. Designed for students who want to found their own companies or work as general managers, developers, product managers, or analysts. Considers key strategic concepts for software and other high-tech companies, especially product vs. services distinctions. Students review how software became a business at IBM, Microsoft, and other companies, then analyze ongoing platform battlegrounds in enterprise software, smart phones, Web 2.0, digital media, video game consoles, and internet-based advertising and media. Examines what is special about marketing, sales, product development, and entrepreneurship in the case of software and platform companies. Student teams help teach weekly sessions and analyze emerging companies and sectors in team projects.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.358",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "in-charge":     "Cusumano, M. A.",
             "area":          "Technology, Innovation and Entrepreneurship"
         },
@@ -671,7 +743,7 @@
             "units":         "2-0-1",
             "total-units":   3,
             "has-final":     false,
-            "description":   "Overview of the field of entrepreneurial theory and practice for development and growth of technology-based new enterprises. Introduction to the MIT ecosystem of entrepreneurship. Weekly lectures by academic and practitioner faculty engaged in the MIT Entrepreneurship Program, supplemented by presentations by and discussions with leaders of MIT entrepreneurship-related activities, e.g. Technology Licensing Office, Deshpande Center, Venture Mentoring Service, as well as successful entrepreneurs and venture capitalists. Required entry course for E & I option. Restricted to those in MIT Sloan MBA Entrepreneurship & Innovation option.",
+            "description":   "Overview of the field of entrepreneurial theory and practice for development and growth of technology-based new enterprises. Introduction to the MIT ecosystem of entrepreneurship. Weekly lectures by academic and practitioner faculty engaged in the MIT Entrepreneurship Program, supplemented by presentations by and discussions with leaders of MIT entrepreneurship-related activities, e.g. Technology Licensing Office, Deshpande Center, Venture Mentoring Service, as well as successful entrepreneurs and venture capitalists. Student presentations and discussions of new business ideas. Restricted to those in MIT Sloan MBA Entrepreneurship and Innovation option.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.360",
             "joint":         false,
             "semester":      "Fall",
@@ -679,6 +751,12 @@
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Roberts, E.",
             "area":          "Technology, Innovation and Entrepreneurship"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0115.360",
+            "lecture-section-of": "15.360",
+            "timeAndPlace":       "W EVE (4-7 PM) E51-315"
         },
         {
             "type":          "Class",
@@ -690,7 +768,7 @@
             "units":         "1-0-0 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Intensive group tour of Silicon Valley, focusing upon understanding an entrepreneurial ecosystem. Visits to prominent venture capitalists and large numbers of primarily early-stage high-technology new ventures. Required entry subject for E & I option. Restricted to those in MIT Sloan MBA Entrepreneurship & Innovation option.",
+            "description":   "Intensive one week group tour of Silicon Valley, focusing on understanding an entrepreneurial ecosystem. Visits to prominent venture capitalists and large numbers of primarily early-stage high-technology new ventures. Required entry subject for Entrepreneurship and Innovation option, carried out during the beginning of January. Restricted to those in MIT Sloan MBA Entrepreneurship & Innovation option.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.362",
             "joint":         false,
             "semester":      "IAP",
@@ -698,8 +776,8 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "15.360",
             "in-charge":     [
-                "Roberts, E.",
-                "Morse, K."
+                "Morse, K.",
+                "Roberts, E."
             ],
             "area":          "Technology, Innovation and Entrepreneurship"
         },
@@ -713,19 +791,13 @@
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Key strategic decisions faced by managers, investors and scientists at each stage in the value chain of the life science industry. Aims to develop students' ability to understand and effectively assess these strategic challenges.  Focus on the biotech sector, with additional examples from the pharmaceutical and medical device sectors. Case studies, analytical models and detailed quantitative analysis. Intended for students interested in building a life science company or working in the sector as a manager, consultant, analyst or investor. Provides analytical background to the industry for biological and biomedical scientists, engineers and physicians with an interest in understanding the commercial dynamics of the life sciences or the commercial potential of their research.",
+            "description":   "Key strategic decisions faced by managers, investors and scientists at each stage in the value chain of the life science industry. Aims to develop students\\' ability to understand and effectively assess these strategic challenges.  Focus on the biotech sector, with additional examples from the pharmaceutical and medical device sectors. Case studies, analytical models and detailed quantitative analysis. Intended for students interested in building a life science company or working in the sector as a manager, consultant, analyst or investor. Provides analytical background to the industry for biological and biomedical scientists, engineers and physicians with an interest in understanding the commercial dynamics of the life sciences or the commercial potential of their research.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.363J",
             "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     "Murray, F.",
             "area":          "Technology, Innovation and Entrepreneurship"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0115.363",
-            "lecture-section-of": "15.363",
-            "timeAndPlace":       "T EVE (5.30-8.30 PM) E51-315"
         },
         {
             "type":          "Class",
@@ -746,12 +818,6 @@
             "area":          "Technology, Innovation and Entrepreneurship"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.365",
-            "lecture-section-of": "15.365",
-            "timeAndPlace":       "TR2.30-4 1-390"
-        },
-        {
             "type":          "Class",
             "label":         "Corporate Entrepreneurship: Strategies for Technology-Based New Business Development",
             "id":            "15.369",
@@ -761,7 +827,7 @@
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Strategic and organizational issues in the development of new technologies and new business areas for existing firms. Issues examined from the perspectives of both large corporations and emerging technology-based enterprises. Linkages between internal and external sources of technology in major new business development. Examination of internal entrepreneurial ventures, alliances (especially between large and new companies), joint ventures, acquisitions, corporate venture capital investments, and licensing as alternative business development approaches. Covers aspects of corporate business development other than mergers and acquisition (M&A) activities. Outside speakers supplement faculty lectures. Student teams prepare term reports on a competitive analysis of some aspect of corporate business development. Half-term subject.",
+            "description":   "Strategic and organizational issues in the development of new technologies and new business areas for existing firms. Issues examined from the perspectives of both large corporations and emerging technology-based enterprises. Linkages between internal and external sources of technology in major new business development. Examination of internal entrepreneurial ventures, alliances (especially between large and new companies), joint ventures, acquisitions, corporate venture capital investments, and licensing as alternative business development approaches. Covers aspects of corporate business development other than mergers and acquisition (M & A) activities. Outside speakers supplement faculty lectures. Student teams prepare term reports on a competitive analysis of some aspect of corporate business development. Half-term subject.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.369",
             "joint":         false,
             "semester":      "Fall",
@@ -771,6 +837,12 @@
             "coreq":         "15.350",
             "in-charge":     "Roberts, E. B.",
             "area":          "Technology, Innovation and Entrepreneurship"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0115.369",
+            "lecture-section-of": "15.369",
+            "timeAndPlace":       "T EVE (4-6.30 PM) E51-345"
         },
         {
             "type":          "Class",
@@ -801,7 +873,7 @@
             "type":               "LectureSection",
             "label":              "L0115.371",
             "lecture-section-of": "15.371",
-            "timeAndPlace":       "TR EVE (4-6.30 PM) 32-144"
+            "timeAndPlace":       "TR EVE (4-6.30 PM) 32-124"
         },
         {
             "type":          "Class",
@@ -844,9 +916,9 @@
             ],
             "offering":      "Currently Offered",
             "in-charge":     [
-                "Morse, K.",
+                "Anderson, H.",
                 "Bell, P.",
-                "Anderson, H."
+                "Morse, K."
             ],
             "area":          "Technology, Innovation and Entrepreneurship"
         },
@@ -854,7 +926,7 @@
             "type":               "LectureSection",
             "label":              "L0115.387",
             "lecture-section-of": "15.387",
-            "timeAndPlace":       "TR8.30-10 (BEGINS APRIL 1) E51-335"
+            "timeAndPlace":       "TR8.30-10 (BEGINS OCT 27) E51-376"
         },
         {
             "type":          "Class",
@@ -866,25 +938,13 @@
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Covers the building, running and growing of an organization. Subject has four central themes: how to think analytically about designing organizational systems; how leaders, especially founders, play a critical role in shaping an organization's culture; what really needs to be done to build a successful organization for the long-term; and what can one do to improve the likelihood of personal success. Principles of organizational architecture, group behavior and performance, interpersonal influence, leadership and motivation. Through a series of cases, lectures, readings and exercises, students develop competencies in organizational design, human resources management, leadership and organizational behavior. Restricted to MIT Sloan Fellows in Innovation and Global Leadership.",
+            "description":   "Covers the building, running and growing of an organization. Subject has four central themes: how to think analytically about designing organizational systems; how leaders, especially founders, play a critical role in shaping an organization\\'s culture; what really needs to be done to build a successful organization for the long-term; and what can one do to improve the likelihood of personal success. Principles of organizational architecture, group behavior and performance, interpersonal influence, leadership and motivation. Through a series of cases, lectures, readings and exercises, students develop competencies in organizational design, human resources management, leadership and organizational behavior. Restricted to MIT Sloan Fellows in Innovation and Global Leadership.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.388",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "in-charge":     "Burton, D.",
             "area":          "Technology, Innovation and Entrepreneurship"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0115.388",
-            "lecture-section-of": "15.388",
-            "timeAndPlace":       "MW10-11.30 (BEGINS APRIL 1) E52-175"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0215.388",
-            "lecture-section-of": "15.388",
-            "timeAndPlace":       "MW1-2.30 (BEGINS APRIL 1) E52-175"
         },
         {
             "type":          "Class",
@@ -905,11 +965,26 @@
                 "Spring"
             ],
             "offering":      "Currently Offered",
-            "in-charge":     [
-                "Johnson, S.",
-                "Loessberg, S."
-            ],
+            "in-charge":     "Staff",
             "area":          "Technology, Innovation and Entrepreneurship"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0115.389",
+            "lecture-section-of": "15.389",
+            "timeAndPlace":       "TR2.30-4 E51-335"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0215.389",
+            "lecture-section-of": "15.389",
+            "timeAndPlace":       "TR4-5.30 E51-335"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0315.389",
+            "lecture-section-of": "15.389",
+            "timeAndPlace":       "MW4-5.30 (BEGINS OCT 27) E51-145"
         },
         {
             "type":          "Class",
@@ -940,7 +1015,7 @@
             "type":               "LectureSection",
             "label":              "L0115.390",
             "lecture-section-of": "15.390",
-            "timeAndPlace":       "MW4-5.30 E51-151"
+            "timeAndPlace":       "MW4-5.30 E51-325"
         },
         {
             "type":               "LectureSection",
@@ -958,7 +1033,7 @@
             "units":         "3-0-3",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Focuses on the strategy as well as the tactics involved in negotiating and building effective, long-term relationships with investors, including venture capitalists and angels. Other topics include an introduction to understanding venture capital as a business; the legal framework of the investment process and its related jargon; market practice and standards for term sheet negotiation; and strategies in identifying the optimal form of early stage capital. Coursework is team-centered: in two rounds of simulations, student teams assume the roles of founders of a start-up and first meet with practicing lawyers to gain advice and practical experience working with professional advisers. Teams then negotiate final terms of investment for their company with leading local VCs. Simulations are outside of class, off-campus at lawyers' and VCs' offices.",
+            "description":   "Focuses on the strategy as well as the tactics involved in negotiating and building effective, long-term relationships with investors, including venture capitalists and angels. Other topics include an introduction to understanding venture capital as a business; the legal framework of the investment process and its related jargon; market practice and standards for term sheet negotiation; and strategies in identifying the optimal form of early stage capital. Coursework is team-centered: in two rounds of simulations, student teams assume the roles of founders of a start-up and first meet with practicing lawyers to gain advice and practical experience working with professional advisers. Teams then negotiate final terms of investment for their company with leading local VCs. Simulations are outside of class, off-campus at lawyers\\' and VCs\\' offices.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.391",
             "joint":         false,
             "semester":      "Fall",
@@ -968,33 +1043,16 @@
             "area":          "Technology, Innovation and Entrepreneurship"
         },
         {
-            "type":          "Class",
-            "label":         "Technology and Entrepreneurial Strategy",
-            "id":            "15.393",
-            "listing-index": "m15b-039",
-            "course":        "15",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Explains building a technology strategy in start-up organizations focused on emerging technology. Outlines tools for formulating and evaluating technology strategy in entrepreneurial start-ups when the technology is emerging and leading-edge. Subject includes a number of lectures on key technology themes (which vary each year) and how to assess the commercial opportunities presented by emerging technology. Managerial content includes an introduction to models of technological change, models of new firm strategy development, and models of organizational strategy in high-tech start-ups. Topics include matching new technologies and markets; making money from innovation; competition between technologies; strategies for competing against established incumbents; technology portfolio development; and theories of diffusion and adoption. Taught using a combination of readings and case studies. Covers much of the same conceptual material as 15.912 but with an emphasis on entrepreneurial start-ups and emerging technology. Case study material is mainly from start-ups and fast-growing firms.",
-            "url":           "http://student.mit.edu/catalog/m15b.html#15.393",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "15.901",
-                "15.011"
-            ],
-            "in-charge":     "Murray, F.",
-            "area":          "Technology, Innovation and Entrepreneurship"
+            "type":               "LectureSection",
+            "label":              "L0115.391",
+            "lecture-section-of": "15.391",
+            "timeAndPlace":       "TR1-2.30 (BEGINS OCT 27) E51-335"
         },
         {
             "type":          "Class",
             "label":         "Designing and Leading the Entrepreneurial Organization",
             "id":            "15.394",
-            "listing-index": "m15b-040",
+            "listing-index": "m15b-039",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1010,38 +1068,10 @@
             "area":          "Technology, Innovation and Entrepreneurship"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.394",
-            "lecture-section-of": "15.394",
-            "timeAndPlace":       "MW4-5.30 E51-325"
-        },
-        {
-            "type":          "Class",
-            "label":         "Entrepreneurship Without Borders",
-            "id":            "15.395",
-            "listing-index": "m15b-041",
-            "course":        "15",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Examines the opportunities and problems for entrepreneurs outside the US, particularly in emerging markets. Students gain understanding of the linkage between the business environment, the institutional framework, and new business creation. They also learn the analytics of venture finance. In addition to discussing the range of global entrepreneurial situations, student groups pick one particular market opportunity on which to focus and develop an outline business plan. Classroom interactions based primarily on case studies.",
-            "url":           "http://student.mit.edu/catalog/m15b.html#15.395",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Johnson, S.",
-                "Locke, R. M."
-            ],
-            "area":          "Technology, Innovation and Entrepreneurship"
-        },
-        {
             "type":          "Class",
             "label":         "Special Seminar in Entrepreneurship",
             "id":            "15.396",
-            "listing-index": "m15b-042",
+            "listing-index": "m15b-040",
             "course":        "15",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1060,10 +1090,16 @@
             "area":          "Technology, Innovation and Entrepreneurship"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.396",
+            "lecture-section-of": "15.396",
+            "timeAndPlace":       "R EVE (4-7 PM) 4-149"
+        },
+        {
             "type":          "Class",
             "label":         "Special Seminar in Entrepreneurship",
             "id":            "15.397",
-            "listing-index": "m15b-043",
+            "listing-index": "m15b-041",
             "course":        "15",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1089,13 +1125,13 @@
             "type":          "Class",
             "label":         "Corporations at the Crossroads: The CEO Perspective",
             "id":            "15.398",
-            "listing-index": "m15b-044",
+            "listing-index": "m15b-042",
             "course":        "15",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Focus is on the role of the CEO. Students learn from some of the world's leading CEO's who are invited to speak in the class. Topics include the job of the CEO, corporate strategy, and career learnings and advice. The sessions are highly interactive, with questions from the students. In addition, before each class, a small group of students has dinner with the guest CEO, a truly unique experience for the students.",
+            "description":   "Focus is on the role of the CEO. Students learn from some of the world\\'s leading CEOs who are invited to speak in the class. Topics include the job of the CEO, corporate strategy, and career learnings and advice. Particular emphasis on how the CEO is reacting to the crossroads where he currently finds his company. Sessions are highly interactive, with questions from the students. Before each class, a small group of students has dinner with the guest CEO, a truly unique experience for the students.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.398",
             "joint":         false,
             "semester":      "Spring",
@@ -1107,16 +1143,10 @@
             "area":          "Technology, Innovation and Entrepreneurship"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.398",
-            "lecture-section-of": "15.398",
-            "timeAndPlace":       "W EVE (6-8 PM) E51-345"
-        },
-        {
             "type":          "Class",
             "label":         "Entrepreneurship Lab",
             "id":            "15.399",
-            "listing-index": "m15b-045",
+            "listing-index": "m15b-043",
             "course":        "15",
             "level":         "Grad",
             "units":         "2-9-1",
@@ -1130,25 +1160,25 @@
                 "Spring"
             ],
             "offering":      "Currently Offered",
-            "in-charge":     "TR4-5.30",
+            "in-charge":     "PM), W EVE (6-9",
             "area":          "Technology, Innovation and Entrepreneurship"
         },
         {
             "type":               "LectureSection",
             "label":              "L0115.399",
             "lecture-section-of": "15.399",
-            "timeAndPlace":       "TR4-5.30 E51-149"
+            "timeAndPlace":       "W EVE (6-9 PM) E51-335"
         },
         {
             "type":          "Class",
             "label":         "Finance Theory I",
             "id":            "15.401",
-            "listing-index": "m15b-046",
+            "listing-index": "m15b-044",
             "course":        "15",
             "level":         "Grad",
             "units":         "4-0-5",
             "total-units":   9,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Core theory of modern financial economics and financial management, concentrating on capital markets and investments. Required prerequisite for most finance electives and for the Financial Management and Financial Engineering tracks. Topics: functions of capital markets and financial intermediaries; fixed income investments; diversification and portfolio selection; valuation theory and equilibrium pricing of risky assets; the theory of efficient markets; and an introduction to derivatives.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.401",
             "joint":         false,
@@ -1168,43 +1198,73 @@
             "type":               "LectureSection",
             "label":              "L0115.401",
             "lecture-section-of": "15.401",
-            "timeAndPlace":       "TR8.30-10 E51-145"
+            "timeAndPlace":       "MW1-2.30 E51-325"
         },
         {
             "type":               "LectureSection",
             "label":              "L0215.401",
             "lecture-section-of": "15.401",
-            "timeAndPlace":       "TR2.30-4 E51-315"
+            "timeAndPlace":       "MW2.30-4 E51-325"
         },
         {
             "type":               "LectureSection",
             "label":              "L0315.401",
             "lecture-section-of": "15.401",
-            "timeAndPlace":       "MW1-2.30 E25-111"
+            "timeAndPlace":       "MW10-11.30 E51-335"
         },
         {
             "type":               "LectureSection",
             "label":              "L0415.401",
             "lecture-section-of": "15.401",
-            "timeAndPlace":       "MW10-11.30 E25-111"
+            "timeAndPlace":       "MW1-2.30 E51-335"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0515.401",
+            "lecture-section-of": "15.401",
+            "timeAndPlace":       "TR1-2.30 E51-325"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0615.401",
+            "lecture-section-of": "15.401",
+            "timeAndPlace":       "TR2.30-4 E51-325"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R0515.401",
+            "label":          "R0715.401",
             "rec-section-of": "15.401",
-            "timeAndPlace":   "R EVE (7-8.30 PM) E51-345"
+            "timeAndPlace":   "F12.30-2 E51-345"
         },
         {
             "type":           "RecitationSection",
-            "label":          "R0615.401",
+            "label":          "R0815.401",
             "rec-section-of": "15.401",
-            "timeAndPlace":   "F8.30-10 E51-315"
+            "timeAndPlace":   "F2 E51-335"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0915.401",
+            "rec-section-of": "15.401",
+            "timeAndPlace":   "F3 E51-335"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R1015.401",
+            "rec-section-of": "15.401",
+            "timeAndPlace":   "F2 E51-149"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R1115.401",
+            "rec-section-of": "15.401",
+            "timeAndPlace":   "F3 E51-149"
         },
         {
             "type":          "Class",
             "label":         "Finance Theory II",
             "id":            "15.402",
-            "listing-index": "m15b-047",
+            "listing-index": "m15b-045",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1225,8 +1285,7 @@
             ],
             "in-charge":     [
                 "Asquith, P.",
-                "Bergman, N.",
-                "Jenter, D."
+                "Frydman, C."
             ],
             "area":          "Finance"
         },
@@ -1234,31 +1293,25 @@
             "type":               "LectureSection",
             "label":              "L0115.402",
             "lecture-section-of": "15.402",
-            "timeAndPlace":       "TR1-2.30 E51-325"
+            "timeAndPlace":       "TR10-11.30 E51-345"
         },
         {
             "type":               "LectureSection",
             "label":              "L0215.402",
             "lecture-section-of": "15.402",
-            "timeAndPlace":       "TR8.30-10 E51-395"
+            "timeAndPlace":       "TR1-2.30 E51-315"
         },
         {
             "type":               "LectureSection",
             "label":              "L0315.402",
             "lecture-section-of": "15.402",
-            "timeAndPlace":       "MW10-11.30 E51-325"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0415.402",
-            "lecture-section-of": "15.402",
-            "timeAndPlace":       "MW1-2.30 E51-335"
+            "timeAndPlace":       "TR2.30-4 E51-315"
         },
         {
             "type":          "Class",
             "label":         "Finance Theory",
             "id":            "15.407",
-            "listing-index": "m15b-048",
+            "listing-index": "m15b-046",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1268,7 +1321,7 @@
             "url":           "http://student.mit.edu/catalog/m15b.html#15.407",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Lo, A. W.",
@@ -1280,7 +1333,7 @@
             "type":          "Class",
             "label":         "Quantitative Investment Management",
             "id":            "15.408",
-            "listing-index": "m15b-049",
+            "listing-index": "m15b-047",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1290,7 +1343,10 @@
             "url":           "http://student.mit.edu/catalog/m15b.html#15.408",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "15.407",
             "in-charge":     "Staff",
@@ -1300,7 +1356,7 @@
             "type":          "Class",
             "label":         "Financial Management",
             "id":            "15.414",
-            "listing-index": "m15b-050",
+            "listing-index": "m15b-048",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1320,13 +1376,13 @@
             "type":          "Class",
             "label":         "Introduction to Financial Economics",
             "id":            "15.416",
-            "listing-index": "m15b-051",
+            "listing-index": "m15b-049",
             "course":        "15",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Foundations of modern financial economics; individuals' consumption and portfolio decisions under uncertainty; valuation of financial securities. Topics include expected utility theory; stochastic dominance; mutual fund separation; portfolio frontiers; capital asset pricing model; arbitrage pricing theory; Arrow-Debreu economies; consumption and portfolio decisions; spanning; options; market imperfections; no-trade theorems; rational expectations; financial signaling. Primarily for doctoral students in accounting, economics, and finance.",
+            "description":   "Foundations of modern financial economics; individuals\\' consumption and portfolio decisions under uncertainty; valuation of financial securities. Topics include expected utility theory; stochastic dominance; mutual fund separation; portfolio frontiers; capital asset pricing model; arbitrage pricing theory; Arrow-Debreu economies; consumption and portfolio decisions; spanning; options; market imperfections; no-trade theorems; rational expectations; financial signaling. Primarily for doctoral students in accounting, economics, and finance.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.416J",
             "joint":         true,
             "semester":      "Fall",
@@ -1341,15 +1397,21 @@
             "area":          "Finance"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.416",
+            "lecture-section-of": "15.416",
+            "timeAndPlace":       "MW2.30-4 E51-151"
+        },
+        {
             "type":          "Class",
             "label":         "Real Estate Finance and Investment",
             "id":            "15.426",
-            "listing-index": "m15b-052",
+            "listing-index": "m15b-050",
             "course":        "15",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "analysis, equity valuation, tax analysis, options, risk, and the financial structuring of real property ownership.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.426J",
             "joint":         true,
@@ -1361,10 +1423,22 @@
             "area":          "Finance"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.426",
+            "lecture-section-of": "15.426",
+            "timeAndPlace":       "TR4-5.30 W31-301"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0215.426",
+            "rec-section-of": "15.426",
+            "timeAndPlace":   "R EVE (5.30-7 PM) W31-301"
+        },
+        {
             "type":          "Class",
             "label":         "Real Estate Capital Markets",
             "id":            "15.427",
-            "listing-index": "m15b-053",
+            "listing-index": "m15b-051",
             "course":        "15",
             "level":         "Grad",
             "units":         "2-0-4",
@@ -1387,22 +1461,10 @@
             "area":          "Finance"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.427",
-            "lecture-section-of": "15.427",
-            "timeAndPlace":       "TR2.30-4 (ENDS MARCH 14) W31-301"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0215.427",
-            "rec-section-of": "15.427",
-            "timeAndPlace":   "R EVE (5.30-7 PM) W31-301"
-        },
-        {
             "type":          "Class",
             "label":         "Advanced Topics in Real Estate Finance",
             "id":            "15.428",
-            "listing-index": "m15b-054",
+            "listing-index": "m15b-052",
             "course":        "15",
             "level":         "Grad",
             "units":         "2-0-4",
@@ -1418,22 +1480,10 @@
             "area":          "Finance"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.428",
-            "lecture-section-of": "15.428",
-            "timeAndPlace":       "TR2.30-4 (BEGINS APRIL 1) W31-301"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0215.428",
-            "rec-section-of": "15.428",
-            "timeAndPlace":   "R EVE (5.30-7 PM) W31-301"
-        },
-        {
             "type":          "Class",
             "label":         "Entrepreneurial Finance",
             "id":            "15.431",
-            "listing-index": "m15b-055",
+            "listing-index": "m15b-053",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1450,22 +1500,10 @@
             "area":          "Finance"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.431",
-            "lecture-section-of": "15.431",
-            "timeAndPlace":       "MW1-2.30 E51-145"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0215.431",
-            "lecture-section-of": "15.431",
-            "timeAndPlace":       "MW2.30-4 E51-145"
-        },
-        {
             "type":          "Class",
             "label":         "Investments",
             "id":            "15.433",
-            "listing-index": "m15b-056",
+            "listing-index": "m15b-054",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1491,24 +1529,18 @@
             "type":               "LectureSection",
             "label":              "L0115.433",
             "lecture-section-of": "15.433",
-            "timeAndPlace":       "TR10-11.30 E51-145"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0215.433",
-            "lecture-section-of": "15.433",
-            "timeAndPlace":       "TR1-2.30 E51-151"
+            "timeAndPlace":       "MW10-11.30 E51-057"
         },
         {
             "type":          "Class",
             "label":         "Advanced Corporate Finance",
             "id":            "15.434",
-            "listing-index": "m15b-057",
+            "listing-index": "m15b-055",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Advanced topics in corporate finance including complex valuations, static and dynamic capital structure, risk management, and real options. Considers the asymmetric information and incentive problems, security design, restructuring, bankruptcy, and corporate control and governance issues.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.434",
             "joint":         false,
@@ -1530,25 +1562,25 @@
             "type":               "LectureSection",
             "label":              "L0115.434",
             "lecture-section-of": "15.434",
-            "timeAndPlace":       "TR1-2.30 E51-372"
+            "timeAndPlace":       "MW8.30-10 E51-335"
         },
         {
             "type":               "LectureSection",
             "label":              "L0215.434",
             "lecture-section-of": "15.434",
-            "timeAndPlace":       "TR4-5.30 E51-361"
+            "timeAndPlace":       "MW2.30-4 E51-345"
         },
         {
             "type":          "Class",
             "label":         "Options and Futures Markets",
             "id":            "15.437",
-            "listing-index": "m15b-058",
+            "listing-index": "m15b-056",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
-            "has-final":     false,
-            "description":   ") or",
+            "has-final":     true,
+            "description":   ")",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.437",
             "joint":         false,
             "semester":      [
@@ -1561,31 +1593,25 @@
                 "15.401",
                 "15.407"
             ],
-            "in-charge":     "TR2.30-4",
+            "in-charge":     "+final",
             "area":          "Finance"
         },
         {
             "type":               "LectureSection",
             "label":              "L0115.437",
             "lecture-section-of": "15.437",
-            "timeAndPlace":       "TR1-2.30 E51-145"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0215.437",
-            "lecture-section-of": "15.437",
-            "timeAndPlace":       "TR2.30-4 E51-145"
+            "timeAndPlace":       "TR4-5.30 E51-325"
         },
         {
             "type":          "Class",
             "label":         "Advanced Financial Economics I",
             "id":            "15.440",
-            "listing-index": "m15b-059",
+            "listing-index": "m15b-057",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Covers advanced topics in the theory of financial markets with a focus on continuous time models. Topics include multiperiod securities markets and martingales; pricing of contingent securities such as options; optimal consumption and portfolio problems of an individual; dynamic equilibrium theory and the intertemporal capital asset pricing model; term structure of interest rates; and equilibrium with asymmetric information, transaction costs, and borrowing constraints. Primarily for doctoral students in accounting, economics, and finance.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.440J",
             "joint":         true,
@@ -1600,16 +1626,10 @@
             "area":          "Finance"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.440",
-            "lecture-section-of": "15.440",
-            "timeAndPlace":       "T EVE (4-7 PM) E51-057"
-        },
-        {
             "type":          "Class",
             "label":         "Advanced Financial Economics II",
             "id":            "15.441",
-            "listing-index": "m15b-060",
+            "listing-index": "m15b-058",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1631,22 +1651,16 @@
             "area":          "Finance"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.441",
-            "lecture-section-of": "15.441",
-            "timeAndPlace":       "R EVE (4-7 PM) E51-151"
-        },
-        {
             "type":          "Class",
             "label":         "Advanced Financial Economics III",
             "id":            "15.442",
-            "listing-index": "m15b-061",
+            "listing-index": "m15b-059",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "No description available.",
+            "description":   "Recent empirical methods in finance, including: the estimation and testing of market efficiency; the random walk hypothesis; the CAPM/APT; various term structure models; option pricing theories; and market microstructures; performance evaluation; bond rating and default analysis; event study methodology; continuous-time econometrics; and general time series methods. An empirical term project is required. Some econometric background and rudimentary computer programming skills are assumed. Primarily for doctoral students in finance, accounting, and economics.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.442J",
             "joint":         true,
             "semester":      [
@@ -1660,13 +1674,14 @@
                 "14.382",
                 "15.416J"
             ],
+            "in-charge":     "Pan, J.",
             "area":          "Finance"
         },
         {
             "type":          "Class",
             "label":         "Special Seminar in Finance",
             "id":            "15.448?15.449",
-            "listing-index": "m15b-062",
+            "listing-index": "m15b-060",
             "course":        "15",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1692,13 +1707,13 @@
             "type":          "Class",
             "label":         "Proseminar in Financial Engineering",
             "id":            "15.451",
-            "listing-index": "m15b-063",
+            "listing-index": "m15b-061",
             "course":        "15",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Provides students a unique opportunity to tackle original research problems in financial engineering that have been posed by leading experts from the financial community. Students are assigned to teams and each team is assigned one such problem. The team's solution is then presented at a seminar which is open to the entire MIT community.",
+            "description":   "Provides students a unique opportunity to tackle original research problems in financial engineering that have been posed by leading experts from the financial community. Students are assigned to teams and each team is assigned one such problem. The team\\'s solution is then presented at a seminar which is open to the entire MIT community.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.451",
             "joint":         false,
             "semester":      "Fall",
@@ -1716,10 +1731,16 @@
             "area":          "Finance"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.451",
+            "lecture-section-of": "15.451",
+            "timeAndPlace":       "R EVE (4-6 PM) E52-175"
+        },
+        {
             "type":          "Class",
             "label":         "Proseminar in Financial Management",
             "id":            "15.452",
-            "listing-index": "m15b-064",
+            "listing-index": "m15b-062",
             "course":        "15",
             "level":         "Grad",
             "units":         "2-0-4",
@@ -1739,10 +1760,16 @@
             "area":          "Finance"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.452",
+            "lecture-section-of": "15.452",
+            "timeAndPlace":       "T EVE (6-7.30 PM) E51-315"
+        },
+        {
             "type":          "Class",
             "label":         "Corporate  Financial Accounting",
             "id":            "15.501",
-            "listing-index": "m15b-065",
+            "listing-index": "m15b-063",
             "course":        "15",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -1767,25 +1794,19 @@
             "type":               "LectureSection",
             "label":              "L0115.501",
             "lecture-section-of": "15.501",
-            "timeAndPlace":       "MW1-2.30 E51-345"
+            "timeAndPlace":       "MW1-2.30 1-190"
         },
         {
             "type":               "LectureSection",
             "label":              "L0215.501",
             "lecture-section-of": "15.501",
-            "timeAndPlace":       "MW2.30-4 E51-345"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0315.501",
-            "lecture-section-of": "15.501",
-            "timeAndPlace":       "TR8.30-10 E51-325"
+            "timeAndPlace":       "MW2.30-4 1-190"
         },
         {
             "type":          "Class",
             "label":         "Financial Accounting",
             "id":            "15.511",
-            "listing-index": "m15b-066",
+            "listing-index": "m15b-064",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1803,7 +1824,7 @@
             "type":          "Class",
             "label":         "Financial and Managerial Accounting",
             "id":            "15.514",
-            "listing-index": "m15b-067",
+            "listing-index": "m15b-065",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1821,13 +1842,13 @@
             "type":          "Class",
             "label":         "Financial Accounting",
             "id":            "15.515",
-            "listing-index": "m15b-068",
+            "listing-index": "m15b-066",
             "course":        "15",
             "level":         "Grad",
             "units":         "4-0-5",
             "total-units":   9,
-            "has-final":     false,
-            "description":   "An intensive introduction to the preparation and interpretation of financial information. Adopts a decision-maker perspective of accounting by emphasizing the relation between accounting data and the underlying economic events generating them. Class sessions are a mixture of lecture and case discussion. Assignments include textbook problems, analysis of financial statements, and cases. Restricted to first-year Sloan master's students.",
+            "has-final":     true,
+            "description":   "An intensive introduction to the preparation and interpretation of financial information. Adopts a decision-maker perspective of accounting by emphasizing the relation between accounting data and the underlying economic events generating them. Class sessions are a mixture of lecture and case discussion. Assignments include textbook problems, analysis of financial statements, and cases. Restricted to first-year Sloan master\\'s students.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.515",
             "joint":         false,
             "semester":      "Fall",
@@ -1837,16 +1858,52 @@
             "area":          "Accounting"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.515",
+            "lecture-section-of": "15.515",
+            "timeAndPlace":       "TR8.30-10 E51-315"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0215.515",
+            "lecture-section-of": "15.515",
+            "timeAndPlace":       "TR10.30-12 E51-315"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0315.515",
+            "rec-section-of": "15.515",
+            "timeAndPlace":   "R3 E51-361"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0415.515",
+            "rec-section-of": "15.515",
+            "timeAndPlace":   "R1 E51-085"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0515.515",
+            "rec-section-of": "15.515",
+            "timeAndPlace":   "R3 E51-085"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0615.515",
+            "rec-section-of": "15.515",
+            "timeAndPlace":   "R4 E51-085"
+        },
+        {
             "type":          "Class",
             "label":         "Corporate Financial Accounting",
             "id":            "15.516",
-            "listing-index": "m15b-069",
+            "listing-index": "m15b-067",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   ") or",
+            "description":   "Preparation and analysis of financial statements. Focuses on measuring and reporting of corporate performance for investment decisions, stock valuation, bankers? loan risk assessment, and evaluations of employee performance, for example. Emphasizes the necessarily interdisciplinary understanding of business. Concepts from finance and economics (e.g., cash flow discounting, risk, valuation, and criteria for choosing among alternative investments) place accounting in the context of the business enterprise.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.516",
             "joint":         false,
             "semester":      [
@@ -1856,32 +1913,26 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "15.501",
-            "in-charge":     "TR8.30-10",
+            "in-charge":     "Watts, R.",
             "area":          "Accounting"
         },
         {
             "type":               "LectureSection",
             "label":              "L0115.516",
             "lecture-section-of": "15.516",
-            "timeAndPlace":       "MW1-2.30 E51-345"
+            "timeAndPlace":       "MW1-2.30 1-190"
         },
         {
             "type":               "LectureSection",
             "label":              "L0215.516",
             "lecture-section-of": "15.516",
-            "timeAndPlace":       "MW2.30-4 E51-345"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0315.516",
-            "lecture-section-of": "15.516",
-            "timeAndPlace":       "TR8.30-10 E51-325"
+            "timeAndPlace":       "MW2.30-4 1-190"
         },
         {
             "type":          "Class",
             "label":         "Taxes and Business Strategy",
             "id":            "15.518",
-            "listing-index": "m15b-070",
+            "listing-index": "m15b-068",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1906,10 +1957,16 @@
             "area":          "Accounting"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.518",
+            "lecture-section-of": "15.518",
+            "timeAndPlace":       "MW10-11.30 E51-085"
+        },
+        {
             "type":          "Class",
             "label":         "Management Accounting and Control",
             "id":            "15.521",
-            "listing-index": "m15b-071",
+            "listing-index": "m15b-069",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1931,22 +1988,10 @@
             "area":          "Accounting"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.521",
-            "lecture-section-of": "15.521",
-            "timeAndPlace":       "TR2.30-4 E51-151"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0215.521",
-            "lecture-section-of": "15.521",
-            "timeAndPlace":       "TR4-5.30 E51-395"
-        },
-        {
             "type":          "Class",
             "label":         "Security Design and Corporate Financing",
             "id":            "15.522",
-            "listing-index": "m15b-072",
+            "listing-index": "m15b-070",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1959,7 +2004,8 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "15.515",
+                "15.401",
+                "15.402",
                 "15.433",
                 "15.434"
             ],
@@ -1970,13 +2016,13 @@
             "type":          "Class",
             "label":         "Business Analysis Using Financial Statements",
             "id":            "15.535",
-            "listing-index": "m15b-073",
+            "listing-index": "m15b-071",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Presents a framework for business analysis and provides students with tools for financial statement analysis, including strategic, accounting, financial, and prospective analysis. Concepts are then applied to a number of decision making contexts, such as credit analysis, investor communications, merger analysis, financial policy decisions, and securities analysis.",
+            "description":   "Presents a framework for business analysis and provides students with tools for financial statement analysis, including strategic, accounting, financial, and prospective analysis. Concepts are then applied to a number of decision making contexts, such as credit analysis, company performance assessment, merger analysis, financial policy decisions, and securities analysis.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.535",
             "joint":         false,
             "semester":      [
@@ -1995,26 +2041,29 @@
                 "15.401",
                 "15.407"
             ],
-            "in-charge":     "Wysocki, P.",
+            "in-charge":     [
+                "Wysocki, P.",
+                "Sletten, E."
+            ],
             "area":          "Accounting"
         },
         {
             "type":               "LectureSection",
             "label":              "L0115.535",
             "lecture-section-of": "15.535",
-            "timeAndPlace":       "MW1-2.30 E51-325"
+            "timeAndPlace":       "MW1-2.30 E51-395"
         },
         {
             "type":               "LectureSection",
             "label":              "L0215.535",
             "lecture-section-of": "15.535",
-            "timeAndPlace":       "MW2.30-4 E51-325"
+            "timeAndPlace":       "MW2.30-4 E51-395"
         },
         {
             "type":          "Class",
             "label":         "Doctoral Seminar in Accounting",
             "id":            "15.539",
-            "listing-index": "m15b-074",
+            "listing-index": "m15b-072",
             "course":        "15",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2033,26 +2082,26 @@
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "15.515",
-            "in-charge":     "Kothari, S. P.",
+            "in-charge":     "Weber, J.",
             "area":          "Accounting"
         },
         {
             "type":               "LectureSection",
             "label":              "L0115.539",
             "lecture-section-of": "15.539",
-            "timeAndPlace":       "F9.30-12.30 E51-390"
+            "timeAndPlace":       "T1-5 E51-085"
         },
         {
             "type":          "Class",
             "label":         "Mergers and Acquisitions: The Market for Corporate Control",
             "id":            "15.545",
-            "listing-index": "m15b-075",
+            "listing-index": "m15b-073",
             "course":        "15",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Probably the most dramatic events in a corporation's history involve the decision to acquire another firm or the decision to oppose being acquired. This is also one of the areas of management most thoroughly documented in the financial press and the academic literature. Subject explores three aspects of the merger and acquisition process: the strategic decision to acquire, the valuation decision of how much to pay, and the financing decision on how to fund the acquisition. Class sessions alternate between discussions of academic readings and applied cases.",
+            "description":   "Probably the most dramatic events in a corporation\\'s history involve the decision to acquire another firm or the decision to oppose being acquired. This is also one of the areas of management most thoroughly documented in the financial press and the academic literature. Subject explores three aspects of the merger and acquisition process: the strategic decision to acquire, the valuation decision of how much to pay, and the financing decision on how to fund the acquisition. Class sessions alternate between discussions of academic readings and applied cases.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.545",
             "joint":         false,
             "semester":      [
@@ -2075,28 +2124,16 @@
             "area":          "Accounting"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.545",
-            "lecture-section-of": "15.545",
-            "timeAndPlace":       "TR8.30-10 (ENDS MARCH 14) E51-315"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0215.545",
-            "lecture-section-of": "15.545",
-            "timeAndPlace":       "TR10-11.30 (ENDS MARCH 14) E51-315"
-        },
-        {
             "type":          "Class",
             "label":         "Information Technology Essentials",
             "id":            "15.561",
-            "listing-index": "m15b-076",
+            "listing-index": "m15b-074",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Examines technology concepts and trends underlying current and future uses of information technology (IT) in business. Emphasis on networks and distributed computing, including the web. Other topics include hardware and operating systems, software development tools and processes, relational databases, security and cryptography, enterprise applications, and electronic commerce. Exposure to web, database, and graphical user interface (GUI) tools. Primarily for Sloan master's students with limited IT background.",
+            "description":   "Examines technology concepts and trends underlying current and future uses of information technology (IT) in business. Emphasis on networks and distributed computing, including the web. Other topics include hardware and operating systems, software development tools and processes, relational databases, security and cryptography, enterprise applications, and electronic commerce. Exposure to web, database, and graphical user interface (GUI) tools. Primarily for Sloan master\\'s students with limited IT background.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.561",
             "joint":         false,
             "semester":      "Spring",
@@ -2105,16 +2142,10 @@
             "area":          "Information Technologies"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.561",
-            "lecture-section-of": "15.561",
-            "timeAndPlace":       "MW1-2.30 E51-151"
-        },
-        {
             "type":          "Class",
             "label":         "IT Essentials II: Advanced Technologies for Digital Business in the Knowledge Economy",
             "id":            "15.564",
-            "listing-index": "m15b-077",
+            "listing-index": "m15b-075",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2124,15 +2155,15 @@
             "url":           "http://student.mit.edu/catalog/m15b.html#15.564",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     "Grosof, B.",
+            "offering":      "Not offered this year",
+            "in-charge":     "Madnick, S.",
             "area":          "Information Technologies"
         },
         {
             "type":          "Class",
             "label":         "Integrating Information Systems: Technical, Strategic, and Organizational Factors",
             "id":            "15.565",
-            "listing-index": "m15b-078",
+            "listing-index": "m15b-076",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2152,7 +2183,7 @@
             "type":          "Class",
             "label":         "The Economics of Information: Strategy, Structure and Pricing",
             "id":            "15.567",
-            "listing-index": "m15b-079",
+            "listing-index": "m15b-077",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2168,10 +2199,16 @@
             "area":          "Information Technologies"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.567",
+            "lecture-section-of": "15.567",
+            "timeAndPlace":       "MW2.30-4 E51-145"
+        },
+        {
             "type":          "Class",
             "label":         "Management of Information Systems",
             "id":            "15.568",
-            "listing-index": "m15b-080",
+            "listing-index": "m15b-078",
             "course":        "15",
             "level":         "Undergrad",
             "units":         "3-0-6",
@@ -2181,28 +2218,31 @@
             "url":           "http://student.mit.edu/catalog/m15b.html#15.568",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "prereq":        [
                 "1.00",
                 "6.001"
             ],
-            "in-charge":     "Grosof, B.",
+            "in-charge":     "Madnick, S.",
             "area":          "Information Technologies"
         },
         {
             "type":          "Class",
-            "label":         "Organizations as Enacted Systems: Learning, Knowing, and Change",
+            "label":         "Leadership Lab: Creating Systemic Change across Value Chains",
             "id":            "15.569",
-            "listing-index": "m15b-081",
+            "listing-index": "m15b-079",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Structured around a core of fundamental concepts concerning how people view organizations, and the application of these concepts to basic domains of action crucial for contemporary businesses: sensemaking, learning, knowing, and change. Views organizations as enacted systems, wherein humans are continually shaping the structures that influence their action in turn.  Reflective practicum weaves theory, group exercises, and case studies.",
+            "description":   "One of the key leadership challenges in contemporary organizations is enacting systems of management that are commensurate with the scope and complexity of issues faced by business. Examines deeply taken-for-granted mental models and practices that keep people and organizations stuck in unproductive system dynamics. Explores alternative ways to view and organize systems that pay attention to interdependencies and cross-boundary collaborations, while enabling the alignment of core business concerns with key social and environmental issues. Structured as a reflective practicum that integrates theory, group exercises, guest speakers, and case studies.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.569",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      [
+                "Fall",
+                "IAP"
+            ],
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
@@ -2212,34 +2252,34 @@
             "area":          "Information Technologies"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.569",
+            "lecture-section-of": "15.569",
+            "timeAndPlace":       "T8.30-11.30 E25-117"
+        },
+        {
             "type":          "Class",
             "label":         "Generating Business Value from IT",
             "id":            "15.571",
-            "listing-index": "m15b-082",
+            "listing-index": "m15b-080",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Provides concepts, frameworks, practice and evidence to help managers generate business value from information technology in their enterprises. Takes the strategic perspective of the general manager and studies how leading firms get more value from their IT investments. Focuses on the business value that can be achieved rather than the details of the technology. Topics include business operating models; IT portfolios; IT investment and justification; business strategy and IT alignment; IT infrastructure; IT architecture and IT governance. Draws heavily on research and case studies from MIT Sloan Center for Information Systems Research. Restricted to graduate students.",
+            "description":   "Provides concepts and frameworks for understanding the potential impact of information technology (IT) on business performance. Examines how some firms make IT a strategic asset while other firms struggle to realize value from IT investments. Focuses on the business value of IT rather than the technology itself, and explores the roles of both general managers and IT executives in using IT to achieve operational excellence and business agility. Topics include business operating models; IT investment and prioritization; business strategy and IT alignment; IT?s architecture and governance, and the role of the IT unit. Draws heavily on research and case studies from MIT Sloan Center for Information Systems Research. Restricted to graduate students.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.571",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "in-charge":     "Weill, P.",
+            "in-charge":     "Ross, J. W.",
             "area":          "Information Technologies"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0115.571",
-            "lecture-section-of": "15.571",
-            "timeAndPlace":       "R EVE (4-7 PM) E51-057"
         },
         {
             "type":          "Class",
             "label":         "Research Seminar in Information Technology and Organizations: Economic Perspectives",
             "id":            "15.575",
-            "listing-index": "m15b-083",
+            "listing-index": "m15b-081",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2249,41 +2289,44 @@
             "url":           "http://student.mit.edu/catalog/m15b.html#15.575",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Brynjolfsson, E.",
             "area":          "Information Technologies"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.575",
-            "lecture-section-of": "15.575",
-            "timeAndPlace":       "W2.30-5.30 E51-061"
-        },
-        {
             "type":          "Class",
             "label":         "Research Seminar in Information Technology and Organizations: Social Perspectives",
             "id":            "15.576",
-            "listing-index": "m15b-084",
+            "listing-index": "m15b-082",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Examines the assumptions, concepts, theories, and methodologies that inform research into the social aspects of information technology. Extensive reading and discussion of research literature aimed at exploring micro, group, and macro level social phenomena surrounding the development, implementation, use and implications of information technology in organizations. Primarily for doctoral students. Alternate years.",
+            "description":   "Examines the assumptions, concepts, theories, and methodologies that inform research into the social aspects of information technology. Extensive reading and discussion of research literature aimed at exploring micro, group, and macro level social phenomena surrounding the development, implementation, use and implications of information technology in organizations. Primarily for doctoral students.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.576",
             "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "semester":      "Fall",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Orlikowski, W. J.",
             "area":          "Information Technologies"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.576",
+            "lecture-section-of": "15.576",
+            "timeAndPlace":       "R1-4 E51-385"
+        },
+        {
             "type":          "Class",
             "label":         "Global Information Systems: Strategic, Technical, and Organizational Perspectives",
             "id":            "15.578",
-            "listing-index": "m15b-085",
+            "listing-index": "m15b-083",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2303,7 +2346,7 @@
             "type":          "Class",
             "label":         "Special Seminar in Information Technology",
             "id":            "15.579?15.580",
-            "listing-index": "m15b-086",
+            "listing-index": "m15b-084",
             "course":        "15",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2332,7 +2375,7 @@
             "type":          "Class",
             "label":         "Workshop in Information Technology",
             "id":            "15.599",
-            "listing-index": "m15b-087",
+            "listing-index": "m15b-085",
             "course":        "15",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2359,7 +2402,7 @@
             "type":          "Class",
             "label":         "Basic Business Law for the Entrepreneur and Manager",
             "id":            "15.615",
-            "listing-index": "m15b-088",
+            "listing-index": "m15b-086",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2380,13 +2423,13 @@
             "type":               "LectureSection",
             "label":              "L0115.615",
             "lecture-section-of": "15.615",
-            "timeAndPlace":       "TR8.30-10 E51-345"
+            "timeAndPlace":       "MW8.30-10 E51-325"
         },
         {
             "type":          "Class",
             "label":         "Basic Business Law, Tilted Towards Innovation and Strategy",
             "id":            "15.616",
-            "listing-index": "m15b-089",
+            "listing-index": "m15b-087",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2401,10 +2444,16 @@
             "area":          "Law"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.616",
+            "lecture-section-of": "15.616",
+            "timeAndPlace":       "TR8.30-10 E52-175"
+        },
+        {
             "type":          "Class",
             "label":         "Basic Business Law, Tilted Towards Finance",
             "id":            "15.617",
-            "listing-index": "m15b-090",
+            "listing-index": "m15b-088",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2419,26 +2468,20 @@
             "area":          "Law"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.617",
-            "lecture-section-of": "15.617",
-            "timeAndPlace":       "MW8.30-10 E52-175"
-        },
-        {
             "type":          "Class",
             "label":         "Patents, Copyrights, and the Law of Intellectual Property",
             "id":            "15.628",
-            "listing-index": "m15b-091",
+            "listing-index": "m15b-089",
             "course":        "15",
             "level":         "Grad",
             "units":         "2-0-4 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Introductory examination of the US law of intellectual property, with emphasis on patents and copyrights, and a brief look at trademarks, trade secrets, and license agreements. Comparisons made with regard to what can and cannot be protected, what rights the owner does and does not obtain, and how these rights come into being. Issues relating particularly to new information technologies highlighted. Assignments include case and statutory readings, written preparatory exercises, and student case presentations. Regular attendance required. No listeners.",
+            "description":   "Introductory examination of the US law of intellectual property, with emphasis on patents and copyrights, and a brief look at brief look at trademarks and trade secrets. Comparisons made with regard to what can and cannot be protected, what rights the owner does and does not obtain, and how these rights come into being. Issues relating particularly to new information technologies highlighted. Assignments include case and statutory readings, written preparatory exercises, and student case presentations. Regular attendance required. No listeners.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.628",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Meldman, J. A.",
             "area":          "Law"
@@ -2447,7 +2490,7 @@
             "type":          "Class",
             "label":         "Special Seminar in Law",
             "id":            "15.647?15.649",
-            "listing-index": "m15b-092",
+            "listing-index": "m15b-090",
             "course":        "15",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2469,16 +2512,10 @@
             "area":          "Law"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.647?15.649",
-            "lecture-section-of": "15.647?15.649",
-            "timeAndPlace":       "TR8.30-10 E51-345"
-        },
-        {
             "type":          "Class",
             "label":         "Law, Technology, and Public Policy",
             "id":            "15.655",
-            "listing-index": "m15b-093",
+            "listing-index": "m15b-091",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2497,22 +2534,16 @@
             "area":          "Law"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.655",
-            "lecture-section-of": "15.655",
-            "timeAndPlace":       "TR EVE (4-6 PM) E51-145"
-        },
-        {
             "type":          "Class",
             "label":         "Sustainability, Trade, and the Environment",
             "id":            "15.657",
-            "listing-index": "m15b-094",
+            "listing-index": "m15b-092",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "The Schumpeterian notion of technological innovation as \"the engine of growth\" is being challenged as the globalization of trade is increasingly seen as the driving force of industrial economies. With the establishment of the World Trade Organization implementing the GATT, NAFTA, and other trading regimes, serious questions have been raised concerning the effects of global trade on sustainability, which must be viewed broadly to include not only a healthy economic base, but also a sound environment, stable employment, adequate purchasing power, distributional equity, national self-reliance, and maintenance of cultural integrity. Subject explores the many dimensions of sustainability and the use of national, multinational, and international political and legal mechanisms to further sustainable development.",
+            "description":   "The Schumpeterian notion of technological innovation as \\\u0022the engine of growth\\\u0022 is being challenged as the globalization of trade is increasingly seen as the driving force of industrial economies. With the establishment of the World Trade Organization implementing the GATT, NAFTA, and other trading regimes, serious questions have been raised concerning the effects of global trade on sustainability, which must be viewed broadly to include not only a healthy economic base, but also a sound environment, stable employment, adequate purchasing power, distributional equity, national self-reliance, and maintenance of cultural integrity. Subject explores the many dimensions of sustainability and the use of national, multinational, and international political and legal mechanisms to further sustainable development.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.657J",
             "joint":         true,
             "semester":      "Fall",
@@ -2526,10 +2557,16 @@
             "area":          "Law"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.657",
+            "lecture-section-of": "15.657",
+            "timeAndPlace":       "W3-5.30 E40-298"
+        },
+        {
             "type":          "Class",
             "label":         "Legal Issues in the Development Process",
             "id":            "15.658",
-            "listing-index": "m15b-095",
+            "listing-index": "m15b-093",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-3",
@@ -2546,22 +2583,16 @@
             "area":          "Law"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.658",
-            "lecture-section-of": "15.658",
-            "timeAndPlace":       "MW8.30-10 (BEGINS APRIL 1) W31-301"
-        },
-        {
             "type":          "Class",
             "label":         "Strategic Human Resource Management",
             "id":            "15.660",
-            "listing-index": "m15b-096",
+            "listing-index": "m15b-094",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Design and execution of human resource management strategies. Two central themes: How to think systematically and strategically about aspects of managing the organization's human assets, and what really needs to be done to implement these policies and to achieve competitive advantage. Adopts the perspective of a general manager and addresses human resource topics (including reward systems, performance management, high-performance human resource systems, training and development, recruitment, retention, equal employment opportunity laws, work-force diversity, and union-management relationships) from a strategic perspective.",
+            "description":   "Design and execution of human resource management strategies. Two central themes: How to think systematically and strategically about aspects of managing the organization\\'s human assets, and what really needs to be done to implement these policies and to achieve competitive advantage. Adopts the perspective of a general manager and addresses human resource topics (including reward systems, performance management, high-performance human resource systems, training and development, recruitment, retention, equal employment opportunity laws, work-force diversity, and union-management relationships) from a strategic perspective.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.660",
             "joint":         false,
             "semester":      "Spring",
@@ -2575,32 +2606,20 @@
             "area":          "Industrial Relations and Human Resource Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.660",
-            "lecture-section-of": "15.660",
-            "timeAndPlace":       "TR10-11.30 E51-376"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0215.660",
-            "lecture-section-of": "15.660",
-            "timeAndPlace":       "TR2.30-4 E51-395"
-        },
-        {
             "type":          "Class",
             "label":         "Careers, Leadership, and Negotiations in the New Economy",
             "id":            "15.664",
-            "listing-index": "m15b-097",
+            "listing-index": "m15b-095",
             "course":        "15",
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Discusses how work, careers, and organizations are changing and the leadership skills required of professionals in contemporary organizations and society.  Topics include the changing nature of work and careers, the role of knowledge in organizations and the economy, work-family integration, negotiations and conflict management, teamwork, leadership, and the management of diversity. Classes involve simulations, cases and negotiation exercises. Students develop a personal leadership and career development plan and work in teams to conduct an action-research project on campus related to one of the subject's topics.",
+            "description":   "Discusses how work, careers, and organizations are changing and the leadership skills required of professionals in contemporary organizations and society.  Topics include the changing nature of work and careers, the role of knowledge in organizations and the economy, work-family integration, negotiations and conflict management, teamwork, leadership, and the management of diversity. Classes involve simulations, cases and negotiation exercises. Students develop a personal leadership and career development plan and work in teams to conduct an action-research project on campus related to one of the subject\\'s topics.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.664",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "in-charge":     [
                 "Osterman, P.",
                 "Kochan, T."
@@ -2611,7 +2630,7 @@
             "type":          "Class",
             "label":         "Power and Negotiation",
             "id":            "15.665",
-            "listing-index": "m15b-098",
+            "listing-index": "m15b-096",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2636,19 +2655,31 @@
             "type":               "LectureSection",
             "label":              "L0115.665",
             "lecture-section-of": "15.665",
-            "timeAndPlace":       "F8.30-11.30 E51-345"
+            "timeAndPlace":       "R2.30-5.30 E51-345"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0215.665",
+            "lecture-section-of": "15.665",
+            "timeAndPlace":       "T EVE (5.30-8.30 PM) E51-325"
         },
         {
             "type":           "LabSection",
-            "label":          "B0215.665",
+            "label":          "B0315.665",
             "lab-section-of": "15.665",
-            "timeAndPlace":   "F8.30-11.30 E51-376"
+            "timeAndPlace":   "R2.30-5.30 E51-061"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0415.665",
+            "lab-section-of": "15.665",
+            "timeAndPlace":   "T EVE (5.30-8.30 PM) E51-335"
         },
         {
             "type":          "Class",
             "label":         "Negotiation and Conflict Management",
             "id":            "15.667",
-            "listing-index": "m15b-099",
+            "listing-index": "m15b-097",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2670,36 +2701,41 @@
             "type":          "Class",
             "label":         "People and Organizations",
             "id":            "15.668",
-            "listing-index": "m15b-100",
+            "listing-index": "m15b-098",
             "course":        "15",
             "level":         "Undergrad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Examines the historical evolution and current human and organizational contexts in which scientists, engineers and other professionals work. Outlines today's major challenges facing the management profession. Uses interactive exercises, simulations and problems to develop critical skills in negotiations, teamwork and leadership. Introduces concepts and tools to analyze work and leadership experiences in optional undergraduate fieldwork projects. Priority given to students in the Minor in Management and to other undergraduates not majoring in Management Science.",
+            "description":   "Examines the historical evolution and current human and organizational contexts in which scientists, engineers and other professionals work. Outlines today\\'s major challenges facing the management profession. Uses interactive exercises, simulations and problems to develop critical skills in negotiations, teamwork and leadership. Introduces concepts and tools to analyze work and leadership experiences in optional undergraduate fieldwork projects. Priority given to students in the Minor in Management and to other undergraduates not majoring in Management Science.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.668",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     [
                 "Kochan, T.",
-                "Fernandez, R.",
                 "Carroll, J.",
-                "Westney, E."
+                "Osterman, P."
             ],
             "area":          "Industrial Relations and Human Resource Management"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0115.668",
+            "lecture-section-of": "15.668",
+            "timeAndPlace":       "MW3.30-5 32-082"
         },
         {
             "type":          "Class",
             "label":         "Leadership and Change",
             "id":            "15.670",
-            "listing-index": "m15b-101",
+            "listing-index": "m15b-099",
             "course":        "15",
             "level":         "Undergrad",
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Applies concepts introduced in 15.668. Explores leadership and organizational change learned as a result of fieldwork experience. Alternative styles of leadership analyzed. Development of personal leadership plans. First half term course.",
+            "description":   "Applies concepts introduced in 15.668. Explores leadership and organizational change learned as a result of fieldwork experience. Alternative styles of leadership analyzed. Development of personal leadership plans. Approved fieldwork experience required for admission.",
             "url":           "http://student.mit.edu/catalog/m15b.html#15.670",
             "joint":         false,
             "semester":      "Fall",
@@ -2709,10 +2745,16 @@
             "area":          "Industrial Relations and Human Resource Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.670",
+            "lecture-section-of": "15.670",
+            "timeAndPlace":       "T3-5 (BEGINS OCT 27) 34-301"
+        },
+        {
             "type":          "Class",
             "label":         "Work, Employment, and Industrial Relations Theory",
             "id":            "15.676",
-            "listing-index": "m15b-102",
+            "listing-index": "m15b-100",
             "course":        "15",
             "level":         "Grad",
             "units":         "2-0-7",
@@ -2723,8 +2765,8 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
+                "Not offered this year",
+                "Can be repeated for credit"
             ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
@@ -2736,16 +2778,10 @@
             "area":          "Industrial Relations and Human Resource Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0115.676",
-            "lecture-section-of": "15.676",
-            "timeAndPlace":       "F2.30-5 E52-598"
-        },
-        {
             "type":          "Class",
             "label":         "Urban Labor Markets and Employment Policy",
             "id":            "15.677",
-            "listing-index": "m15b-103",
+            "listing-index": "m15b-101",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2765,7 +2801,7 @@
             "type":          "Class",
             "label":         "Political Economy I: Theories of the State and the Economy",
             "id":            "15.678",
-            "listing-index": "m15b-104",
+            "listing-index": "m15b-102",
             "course":        "15",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2788,10 +2824,16 @@
             "area":          "Industrial Relations and Human Resource Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0115.678",
+            "lecture-section-of": "15.678",
+            "timeAndPlace":       "T3-5 E51-361"
+        },
+        {
             "type":          "Class",
             "label":         "Research Seminar in Work, Employment and Industrial Relations",
             "id":            "15.691",
-            "listing-index": "m15b-105",
+            "listing-index": "m15b-103",
             "course":        "15",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2809,20 +2851,20 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "T12.30-2.30",
+            "in-charge":     "T12.30-2",
             "area":          "Industrial Relations and Human Resource Management"
         },
         {
             "type":               "LectureSection",
             "label":              "L0115.691",
             "lecture-section-of": "15.691",
-            "timeAndPlace":       "T12.30-2.30 E52-598"
+            "timeAndPlace":       "T12.30-2 E52-598"
         },
         {
             "type":          "Class",
             "label":         "Special Seminar in Industrial Relations and Human Resource Management",
             "id":            "15.698",
-            "listing-index": "m15b-106",
+            "listing-index": "m15b-104",
             "course":        "15",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2836,8 +2878,8 @@
                 "Spring"
             ],
             "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
+                "Not offered this year",
+                "Can be repeated for credit"
             ],
             "category":      "H-LEVEL Grad Credit",
             "area":          "Industrial Relations and Human Resource Management"

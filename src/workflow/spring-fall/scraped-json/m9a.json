@@ -9,27 +9,15 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "A survey of the scientific study of human nature, including how the mind works, and how the brain supports the mind.  Topics include the mental and neural bases of perception, emotion, learning, memory, cognition, child development, personality, psychopathology, and social interaction.  Consideration of how such knowledge relates to debates about nature and nurture, free will, consciousness, human differences, self and society. Enrollment limited to 300.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.00",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "HASS Elective",
+            "prereq":        "SP.318",
             "in-charge":     "Gabrieli, J. D."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L019.00",
-            "lecture-section-of": "9.00",
-            "timeAndPlace":       "TR2-3.30 54-100"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R029.00",
-            "rec-section-of": "9.00",
-            "timeAndPlace":   [
-            ]
         },
         {
             "type":          "Class",
@@ -40,7 +28,7 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduction to the mammalian nervous system, with emphasis on the structure and function of the human brain. Topics include the function of nerve cells, sensory systems, control of movement, learning and memory, and diseases of the brain.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.01",
             "joint":         false,
@@ -48,9 +36,39 @@
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
             "in-charge":     [
-                "Bear, M.",
-                "Seung, H. S."
+                "Seung, H. S.",
+                "Bear, M."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.01",
+            "lecture-section-of": "9.01",
+            "timeAndPlace":       "MW2.30-4 46-3002"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R029.01",
+            "rec-section-of": "9.01",
+            "timeAndPlace":   "M EVE (7 PM) 26-168"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R039.01",
+            "rec-section-of": "9.01",
+            "timeAndPlace":   "T EVE (7 PM) 26-168"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R049.01",
+            "rec-section-of": "9.01",
+            "timeAndPlace":   "W EVE (7 PM) 26-168"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R059.01",
+            "rec-section-of": "9.01",
+            "timeAndPlace":   "R EVE (7 PM) 26-168"
         },
         {
             "type":          "Class",
@@ -61,7 +79,7 @@
             "level":         "Grad",
             "units":         "6-0-12",
             "total-units":   18,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Survey of principles underlying the structure and function of the nervous system, with a focus on systems approaches. Topics: development of the nervous system and its connections, sensory systems of the brain, the motor system, higher cortical functions, behavioral and cellular analyses of learning and memory. A survey of brain and behavioral studies for first-year graduate students.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.011",
             "joint":         false,
@@ -70,9 +88,14 @@
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Miller, E. K.",
-                "Wilson, M.",
-                "Staff"
+                "Wilson, M."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.011",
+            "lecture-section-of": "9.011",
+            "timeAndPlace":       "MWF2-4 46-4062"
         },
         {
             "type":          "Class",
@@ -83,7 +106,7 @@
             "level":         "Grad",
             "units":         "6-0-12",
             "total-units":   18,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Intensive survey of cognitive science. Topics include visual perception, language, memory, cognitive architecture, learning, reasoning, decision-making, and cognitive development. Topics covered from behavioral, computational, and neural perspectives.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.012",
             "joint":         false,
@@ -97,12 +120,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L019.012",
-            "lecture-section-of": "9.012",
-            "timeAndPlace":       "TR2-5 46-4062"
-        },
-        {
             "type":          "Class",
             "label":         "Cellular and Molecular Neurobiology",
             "id":            "9.013",
@@ -111,7 +128,7 @@
             "level":         "Grad",
             "units":         "6-0-12",
             "total-units":   18,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Major areas of cellular and molecular neurobiology including excitable cells and membranes, ion channels and receptors, synaptic transmission, cell-type determination, axon guidance, neuronal cell biology, neurotrophin signaling and cell survival, synapse formation and neural plasticity. Includes lectures and exams, and involves presentation and discussion of primary literature. Focuses on major concepts and recent advances in experimental neuroscience.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.013J",
             "joint":         true,
@@ -129,12 +146,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L019.013",
-            "lecture-section-of": "9.013",
-            "timeAndPlace":       "MW1-4 46-4062"
-        },
-        {
             "type":          "Class",
             "label":         "Systems Neuroscience Laboratory",
             "id":            "9.02",
@@ -144,7 +155,7 @@
             "units":         "2-4-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Consists of a series of laboratories designed to give students experience with basic techniques for conducting systems neuroscience research. Includes sessions on anatomical, neurophysiological, and data acquisition and analysis techniques, and ways these techniques are used to study nervous system function. Training in the art of scientific writing  and oral presentation with feedback designed to improve writing and speaking skills. Assignments include two major lab reports, one formal oral presentation, and a series of basic computer programming tutorials (MATLAB). Involves the use of experimental animals. Enrollment limited.",
+            "description":   "Consists of a series of laboratories designed to give students experience with basic techniques for conducting systems neuroscience research. Includes sessions on anatomical, neurophysiological, and data acquisition and analysis techniques, and ways these techniques are used to study nervous system function. Training provided in the art of scientific writing with feedback designed to improve writing skills. Assignments include weekly preparation for lab sessions, three major lab reports and a series of basic computer programming tutorials (MATLAB). Involves the use of experimental animals. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.02",
             "joint":         false,
             "semester":      "Spring",
@@ -161,36 +172,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L019.02",
-            "lecture-section-of": "9.02",
-            "timeAndPlace":       "M4 46-1015"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B029.02",
-            "lab-section-of": "9.02",
-            "timeAndPlace":   "W1-5 46-1024"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B039.02",
-            "lab-section-of": "9.02",
-            "timeAndPlace":   "F12-4 46-1024"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R049.02",
-            "rec-section-of": "9.02",
-            "timeAndPlace":   "T EVE (7 PM) 46-1015"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R059.02",
-            "rec-section-of": "9.02",
-            "timeAndPlace":   "T EVE (8 PM) 46-1015"
-        },
-        {
             "type":          "Class",
             "label":         "Neural Basis of Learning and Memory",
             "id":            "9.03",
@@ -200,14 +181,11 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Highlights the interplay between cellular and molecular storage mechanisms and the cognitive neuroscience of memory. Emphasis on human and animal models of hippocampal mechanisms and function. Lectures and discussion of papers. Alternate years.",
+            "description":   "Highlights the interplay between cellular and molecular storage mechanisms and the cognitive neuroscience of memory. Emphasis on human and animal models of hippocampal mechanisms and function. Lectures and discussion of papers.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.03",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "prereq":        "9.01",
             "in-charge":     [
                 "Wilson, M.",
@@ -228,7 +206,10 @@
             "url":           "http://student.mit.edu/catalog/m9a.html#9.036",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Schiller, P. H."
         },
@@ -246,12 +227,21 @@
             "url":           "http://student.mit.edu/catalog/m9a.html#9.04",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        "9.01",
             "in-charge":     [
                 "Schiller, P. H.",
                 "Brown, M. C."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.04",
+            "lecture-section-of": "9.04",
+            "timeAndPlace":       "MW9.30-11 46-3015"
         },
         {
             "type":          "Class",
@@ -267,10 +257,7 @@
             "url":           "http://student.mit.edu/catalog/m9a.html#9.044J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Brown, M. C.",
@@ -293,7 +280,10 @@
             "url":           "http://student.mit.edu/catalog/m9a.html#9.05",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        "9.01",
             "in-charge":     [
                 "Graybiel, A.",
@@ -311,17 +301,19 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "A survey introduction to statistical reasoning and statistical methods relevant to neuroscience and cognitive science research. Core topics include introductions to probability theory, estimation theory, hypothesis testing, linear models, the generalized linear model, and experimental design. Additional topics chosen from Monte Carlo methods, Bayesian methods, time-series analysis, spectral analysis, and point processes theory. Emphasis on developing a firm conceptual understanding of the statistical paradigm and statistical methods primarily through analyses of actual experimental data.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.07",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "18.01",
-                "18.02"
-            ],
             "in-charge":     "Brown, E. N."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.07",
+            "lecture-section-of": "9.07",
+            "timeAndPlace":       "MW9.30-11 46-3310"
         },
         {
             "type":          "Class",
@@ -333,11 +325,14 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "A survey of statistical methods for neuroscience research. Core topics include introductions to the theory of point processes, the generalized linear model, Monte Carlo methods, Bayesian methods, multivariate methods, time-series analysis, spectral analysis and state-space modeling. Emphasis on developing a firm conceptual understanding of the statistical paradigm and statistical methods primarily through analyses of actual experimental data. Alternate years.",
+            "description":   "A survey of statistical methods for neuroscience research. Core topics include introductions to the theory of point processes, the generalized linear model, Monte Carlo methods, Bayesian methods, multivariate methods, time-series analysis, spectral analysis and state-space modeling. Emphasis on developing a firm conceptual understanding of the statistical paradigm and statistical methods primarily through analyses of actual experimental data.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.073J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        "9.07",
             "in-charge":     "Brown, E. N."
         },
@@ -350,7 +345,7 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Introduction to the structure and function of the nervous system. Emphasizes the cellular properties of neurons and other excitable cells. Includes the structure and biophysical properties of excitable cells, synaptic transmission, neurochemistry, neurodevelopment, integration of information in simple systems, and detection and information coding during sensory transduction.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.09J",
             "joint":         true,
@@ -366,24 +361,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L019.09",
-            "lecture-section-of": "9.09",
-            "timeAndPlace":       "MW1-2.30 46-3310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R029.09",
-            "rec-section-of": "9.09",
-            "timeAndPlace":   "F1 46-3015"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R039.09",
-            "rec-section-of": "9.09",
-            "timeAndPlace":   "F2 46-3015"
-        },
-        {
             "type":          "Class",
             "label":         "Cognitive Neuroscience",
             "id":            "9.10",
@@ -393,13 +370,22 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Explores the cognitive and neural processes that support attention, vision, language, motor control, navigation, and memory. Introduces basic neuroanatomy, functional imaging techniques, and behavioral measures of cognition. Discusses methods by which inferences about the brain bases of cognition are made. Considers evidence from patients with neurological diseases (Alzheimer's disease, Parkinson's disease, Huntington's disease, Balint's syndrome, amnesia, and focal lesions from stroke) and from normal human participants. Students prepare PowerPoint presentations summarizing journal articles. Alternate years.",
+            "description":   "Explores the cognitive and neural processes that support attention, vision, language, motor control, navigation, and memory. Introduces basic neuroanatomy, functional imaging techniques, and behavioral measures of cognition. Discusses methods by which inferences about the brain bases of cognition are made. Considers evidence from patients with neurological diseases (Alzheimer\\'s disease, Parkinson\\'s disease, Huntington\\'s disease, Balint\\'s syndrome, amnesia, and focal lesions from stroke) and from normal human participants. Students prepare PowerPoint presentations summarizing journal articles.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.10",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        "9.01",
             "in-charge":     "Corkin, S."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.10",
+            "lecture-section-of": "9.10",
+            "timeAndPlace":       "MW11-12.30 46-3015"
         },
         {
             "type":          "Class",
@@ -411,13 +397,20 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Lectures and discussions explore the clinical, behavioral, and molecular aspects of brain aging processes in humans. Topics include loss of memory and other cognitive abilitites in normal aging; neurodegenerative conditions such as Parkinson's and Alzheimer's diseases. Based on lectures, readings taken from the primary literature, and discussions. Students are expected to present topics based on their readings. One written midterm test and one final examination. Alternate years.",
+            "description":   "Lectures and discussions explore the clinical, cognitive, and cellular-molecular aspects of brain aging processes. Topics include loss of memory and other cognitive capacities in normal aging and neurodegenerative conditions, with an emphasis on Alzheimer?s disease and associated mouse models. Other topics include neurodegenerative movement disorders, such as Parkinson?s and Huntington?s diseases. Based on lectures, readings from the primary literature, and discussions. Students are expected to present topics based on their readings. One written midterm test and one final examination.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.110J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "7.92J",
+            "prereq":        [
+                "7.92J",
+                "9.011",
+                "9.013"
+            ],
             "in-charge":     [
                 "Corkin, S.",
                 "Tsai, L.-H."
@@ -441,16 +434,24 @@
             "category":      "Institute LAB",
             "prereq":        [
                 "9.01",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015",
                 "9.02"
             ],
             "in-charge":     [
                 "Lois, C.",
                 "Hayashi, Y."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.12",
+            "lecture-section-of": "9.12",
+            "timeAndPlace":       "W1-3 46-1015"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B029.12",
+            "lab-section-of": "9.12",
+            "timeAndPlace":   "LAB: M OR T 1-5 PM Unknown"
         },
         {
             "type":          "Class",
@@ -461,20 +462,14 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Outline of mammalian functional neuroanatomy, aided by studies of comparative neuroanatomy and evolution and of brain development. Topics include early steps to a central nervous system, basic patterns of brain and spinal cord connections, regional development and differentiation, regeneration, motor and sensory pathways and structures, systems underlying motivations, innate action patterns, formation of habits, and various cognitive functions, and lab techniques. Optional brain dissections.",
+            "has-final":     false,
+            "description":   "Outline of mammalian functional neuroanatomy, aided by studies of comparative neuroanatomy and evolution, and of brain development. Topics include early steps to a central nervous system, basic patterns of brain and spinal cord connections, regional development and differentiation, regeneration, motor and sensory pathways and structures, systems underlying motivations, innate action patterns, formation of habits, and various cognitive functions.  Lab techniques reviewed. Optional brain dissections.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.14",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "9.01",
             "in-charge":     "Schneider, G. E."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L019.14",
-            "lecture-section-of": "9.14",
-            "timeAndPlace":       "MWF3 46-3015"
         },
         {
             "type":          "Class",
@@ -486,7 +481,7 @@
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Considers the process of neurotransmission, especially chemicals used in the brain and elsewhere to carry signals from nerve terminals to the structures they innervate. Focuses on monoamine transmitters (acetylcholine; serotonin; dopamine and norepinephrine); also examines amino acid and peptide transmitters and neuromodulators like adenosine. Macromolecules that mediate neurotransmitter synthesis, release, inactivation and receptor-mediated actions are discussed, as well as factors that regulate their activity and the second-messenger systems and ion fluxes that they control. The involvement of particular neurotransmitters in human diseases is considered. Alternate years.",
+            "description":   "Considers the process of neurotransmission, especially chemicals used in the brain and elsewhere to carry signals from nerve terminals to the structures they innervate. Focuses on monoamine transmitters (acetylcholine; serotonin; dopamine and norepinephrine); also examines amino acid and peptide transmitters and neuromodulators like adenosine. Macromolecules that mediate neurotransmitter synthesis, release, inactivation and receptor-mediated actions are discussed, as well as factors that regulate their activity and the second-messenger systems and ion fluxes that they control. The involvement of particular neurotransmitters in human diseases is considered.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.15",
             "joint":         false,
             "semester":      [
@@ -494,9 +489,8 @@
                 "Fall"
             ],
             "offering":      [
-                "Not offered next year",
-                "Not offered next year",
-                "Currently Offered"
+                "Not offered this year",
+                "Not offered this year"
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
@@ -518,7 +512,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Surveys the mechanisms of neuronal communication. Covers ion channels in excitable membrane, single cell computation, synaptic transmission, and synaptic plasticity. Correlates the properties of ion channels and synaptic transmission with their physiological function. Discusses the organizational principles for the formation of functional neural networks at synaptic and cellular levels. Involves discussion of primary literature.  Juniors and seniors require instructor's permission.",
+            "description":   "Surveys the mechanisms of neuronal communication. Covers ion channels in excitable membrane, single cell computation, synaptic transmission, and synaptic plasticity. Correlates the properties of ion channels and synaptic transmission with their physiological function. Discusses the organizational principles for the formation of functional neural networks at synaptic and cellular levels. Involves discussion of primary literature.  Juniors and seniors require instructor\\'s permission.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.161",
             "joint":         false,
             "semester":      "Fall",
@@ -541,10 +535,7 @@
             "url":           "http://student.mit.edu/catalog/m9a.html#9.173J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "20.483J",
@@ -563,7 +554,7 @@
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Considers molecular control of neural specification, formation of neuronal connections, construction of neural systems, and the contributions of experience to shaping brain structure and function. Topics include: neural induction and pattern formation, cell lineage and fate determination, neuronal migration, axon guidance, synapse formation and stabilization, activity-dependent development and critical periods, development of behavior. In addition to final exam, analysis and presentation of  research papers required for final grade. Additional readings required for graduate credit.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.18",
             "joint":         false,
@@ -572,9 +563,8 @@
                 "Spring"
             ],
             "offering":      [
-                "Not offered next year",
-                "Not offered next year",
-                "Currently Offered"
+                "Not offered this year",
+                "Not offered this year"
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
@@ -590,18 +580,6 @@
             "in-charge":     "Nedivi, E."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L019.18",
-            "lecture-section-of": "9.18",
-            "timeAndPlace":       "TR11-1 46-1015"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L029.18",
-            "lecture-section-of": "9.18",
-            "timeAndPlace":       "TR11-1 46-1015"
-        },
-        {
             "type":          "Class",
             "label":         "Animal Behavior",
             "id":            "9.20",
@@ -610,8 +588,8 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Most of the major categories of adaptive behavior can be seen in all animals. Begins with evolution of behavior, the driver of nervous system evolution, reviewed using concepts developed in ethology, sociobiology, other comparative studies, and in studies of brain evolution.  Considers the roles of various types of plasticity as well as foraging and feeding, defensive and aggressive behavior, courtship and reproduction, migration and navigation, social activities and communication, with contributions of inherited patterns and cognitive abilities. Studies in both field and laboratory reviewed; human behavior considered in the context of primate studies.",
+            "has-final":     true,
+            "description":   "Evolution of behavior, the driver of nervous system evolution, is reviewed emphasizing concepts developed in ethology and sociobiology. Examines foraging and feeding, defensive and aggressive behavior, courtship and reproduction, migration and navigation, and various social activities and communication.  Students consider the contributions of inherited patterns and cognitive abilities as well as the roles of various types of plasticity. Both field and laboratory studies are reviewed; human behavior is considered in the context of primate studies.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.20",
             "joint":         false,
             "semester":      "Fall",
@@ -619,6 +597,18 @@
             "category":      "HASS Elective",
             "prereq":        "9.00",
             "in-charge":     "Schneider, G. E."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.20",
+            "lecture-section-of": "9.20",
+            "timeAndPlace":       "MW4 46-3015"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R029.20",
+            "rec-section-of": "9.20",
+            "timeAndPlace":   "F3 46-3310"
         },
         {
             "type":          "Class",
@@ -630,11 +620,14 @@
             "units":         "2-0-7",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Seminar explores the biological basis of animal behavior, focusing on its physiological, anatomical, and genetic mechanisms. Topics include genetic control of cast behavior in honeybees, echolocation in bats, speciation in cichlids, vocal learning in birds,  magnetoreception in birds and mammals, electroreception in fish, pheromone perception in mammals, prey location in owls, and navigation control in insects. Critical reading of the relevant literature and presentations by the students.  Alternate years. Enrollment limited to 10.",
+            "description":   "Seminar explores the biological basis of animal behavior, focusing on its physiological, anatomical, and genetic mechanisms. Topics include genetic control of cast behavior in honeybees, echolocation in bats, speciation in cichlids, vocal learning in birds,  magnetoreception in birds and mammals, electroreception in fish, pheromone perception in mammals, prey location in owls, and navigation control in insects. Critical reading of the relevant literature and presentations by the students. Limited to 10 students.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.205",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        "9.011",
             "in-charge":     "Lois, C."
         },
@@ -651,8 +644,11 @@
             "description":   "Introduction to normal and abnormal human brain functioning, including the cellular basis of activity-dependent development, critical periods, and plasticity of the brain through learning; neurotransmitters and emotional disorders; fMRI studies of vision, language, dyslexia, motor function, pain, placebo effects, and emotional states. Implications for education, prevention of dementia and dyslexia. Enrollment limited to 25.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.22J",
             "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "semester":      "Spring",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "in-charge":     "Byrne, T. N."
         },
         {
@@ -664,23 +660,14 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Topics examined include regional functional anatomy of the CNS through imaging and stroke; degenerative diseases such as Parkinson's and Alzheimer's; immunological disorders such as multiple sclerosis and paraneoplastic syndromes; epilepsy; and gliomas. Emphasis on diseases for which a molecular mechanism is understood. Clinical and pathological findings, differential diagnosis, genetics, pathophysiology, and treatment are discussed for individual diseases. Enrollment limited to 25.",
+            "has-final":     false,
+            "description":   "Topics examined include regional functional anatomy of the CNS through imaging and stroke; degenerative diseases such as Parkinson\\'s and Alzheimer\\'s; immunological disorders such as multiple sclerosis and paraneoplastic syndromes; epilepsy; and gliomas. Emphasis on diseases for which a molecular mechanism is understood. Clinical and pathological findings, differential diagnosis, genetics, pathophysiology, and treatment are discussed for individual diseases. Enrollment limited to 25.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.24J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "prereq":        "9.01",
             "in-charge":     "Byrne, T. N."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L019.24",
-            "lecture-section-of": "9.24",
-            "timeAndPlace":       "TR9.30-11 46-3015"
         },
         {
             "type":          "Class",
@@ -696,10 +683,7 @@
             "url":           "http://student.mit.edu/catalog/m9a.html#9.272J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "in-charge":     "Brown, E. N."
         },
         {
@@ -711,7 +695,7 @@
             "level":         "Grad",
             "units":         "3-1-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Neural structures and mechanisms mediating the detection, localization, and recognition of sounds. Discussion of how acoustic signals are coded by auditory neurons, the impact of these codes on behavorial performance, and the circuitry and cellular mechanisms underlying signal transformations. Topics include temporal coding, neural maps and feature detectors, learning and plasticity, and feedback control. General principles are conveyed by theme discussions of auditory masking, sound localization, musical pitch, cochlear implants, and auditory scene analysis.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.285J",
             "joint":         true,
@@ -726,12 +710,6 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L019.285",
-            "lecture-section-of": "9.285",
-            "timeAndPlace":       "MW9.30-11.30 E51-061"
-        },
-        {
             "type":          "Class",
             "label":         "Introduction to Computational Neuroscience",
             "id":            "9.29",
@@ -740,7 +718,7 @@
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Mathematical introduction to the biophysics and circuits underlying neural computation. Topics include neuronal excitability, dendrites and cable theory, models of synaptic transmission, single-neuron dynamics, oscillators and sequence generation, and computation and dynamics in simple neuronal networks. Concepts applied to simple computing circuits in the behaving animal.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.29J",
             "joint":         true,
@@ -748,10 +726,15 @@
             "offering":      "Currently Offered",
             "prereq":        [
                 "8.261J",
-                "18.03",
-                "8.02"
+                "18.03"
             ],
             "in-charge":     "Fee, M."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.29",
+            "lecture-section-of": "9.29",
+            "timeAndPlace":       "TR11-12.30 46-3015"
         },
         {
             "type":          "Class",
@@ -763,7 +746,7 @@
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Examination of the role of neural plasticity during learning and memory of invertebrates and mammals. Detailed critical analysis of the current literature of molecular, cellular, genetic, electrophysiological, and behavioral studies. Student-directed presentations and discussions of original papers supplemented by introductory lectures. Juniors and seniors require instructor's permission.",
+            "description":   "Examination of the role of neural plasticity during learning and memory of invertebrates and mammals. Detailed critical analysis of the current literature of molecular, cellular, genetic, electrophysiological, and behavioral studies. Student-directed presentations and discussions of original papers supplemented by introductory lectures. Juniors and seniors require instructor\\'s permission.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.301J",
             "joint":         true,
             "semester":      "Spring",
@@ -778,21 +761,15 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L019.301",
-            "lecture-section-of": "9.301",
-            "timeAndPlace":       "R1-4 46-5305"
-        },
-        {
             "type":          "Class",
             "label":         "The Neurophysiology of Memory",
             "id":            "9.31",
             "listing-index": "m9a-030",
             "course":        "9",
             "level":         "Undergrad",
-            "units":         "4-0-8",
+            "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Surveys the basic mechanisms of communication between neurons, with a focus on how this communication is altered by learning in several systems. Examines cellular and behavioral forms of associative memory, including classical conditioning in Aplysia, fear conditioning in rodents, eyeblink conditioning in rabbits, and striatal-based reward learning in rodents. Completion of 9.09 is recommended but not required.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.31",
             "joint":         false,
@@ -800,6 +777,12 @@
             "offering":      "Currently Offered",
             "prereq":        "9.01",
             "in-charge":     "Goosens, K."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.31",
+            "lecture-section-of": "9.31",
+            "timeAndPlace":       "MWF1 46-3015"
         },
         {
             "type":          "Class",
@@ -824,8 +807,14 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L019.322",
+            "lecture-section-of": "9.322",
+            "timeAndPlace":       "TR1-2.30 46-5056"
+        },
+        {
             "type":          "Class",
-            "label":         "Perception, Knowledge, and Cognition",
+            "label":         "Sensory and Social Orders",
             "id":            "9.34",
             "listing-index": "m9a-032",
             "course":        "9",
@@ -833,13 +822,22 @@
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "The acquisition and communication of knowledge demands a coherent cognitive framework within which we can reason about events and states in the world. Subject examines what frameworks are plausible, and how these choices affect our deductive and creative processes. Material includes world regularities and perceptual inference, causal reasoning, representational forms, belief structures, mental models, man-machine control, and discourse.",
+            "description":   "Explores how sensory and social systems engage in a variety of similar decision-making processes. Examines the use of partial orderings of alternative choices (or models) in interpreting available data, and how both use constraints to relate and narrow the choice options. Examples show how maximum likelihood equilibria depend upon context. Coverage includes important aspects of perception and cognition, decision-making in social systems, and elementary game theory.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.34J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        "9.00",
-            "in-charge":     "Richards, W. A."
+            "in-charge":     "Richards, W.A."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.34",
+            "lecture-section-of": "9.34",
+            "timeAndPlace":       "TR2.30-4 46-3015"
         },
         {
             "type":          "Class",
@@ -851,13 +849,19 @@
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Knowledge acquisition, communication, and successful behaviors require adequate models of the world. Actions based on such models depend on values assigned to state variables, which are derived from a creature's beliefs and goals. How beliefs may be acquired, updated, or aggregated in decision-making is formalized using a graphical framework called an Anigraf.  The framework is analogous to a society of agents with different beliefs and goals who strive to reach collective decisions for actions. Exposure to Bayesian, causal, analogical, logical, and game-theoretic frameworks also included.",
+            "description":   "Knowledge acquisition, communication, and successful behaviors require adequate models of the world. Actions based on such models depend on values assigned to state variables, which are derived from a creature\\'s beliefs and goals. How beliefs may be acquired, updated, or aggregated in decision-making is formalized using a graphical framework called an Anigraf.  The framework is analogous to a society of agents with different beliefs and goals who strive to reach collective decisions for actions. Exposure to Bayesian, causal, analogical, logical, and game-theoretic frameworks also included.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.343J",
             "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Richards, W. A."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.343",
+            "lecture-section-of": "9.343",
+            "timeAndPlace":       "TR1-2.30 46-3015"
         },
         {
             "type":          "Class",
@@ -868,29 +872,13 @@
             "level":         "Undergrad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "How senses work and how physical stimuli get transformed into signals in the nervous system. Examines how the brain uses those signals to determine what's out there in the world. All the senses are discussed with emphasis on vision. Topics include  perception of color, motion, form, and depth. Graduate students are expected to complete additional work.",
+            "has-final":     false,
+            "description":   "How senses work and how physical stimuli get transformed into signals in the nervous system. Examines how the brain uses those signals to determine what\\'s out there in the world. All the senses are discussed with emphasis on vision. Topics include  perception of color, motion, form, and depth. Graduate students are expected to complete additional work.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.35",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "8.02",
-                "18.02"
-            ],
             "in-charge":     "Adelson, E. H."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L019.35",
-            "lecture-section-of": "9.35",
-            "timeAndPlace":       "TR2.30-4 46-3189"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R029.35",
-            "rec-section-of": "9.35",
-            "timeAndPlace":   "T EVE (7 PM) 37-212"
         },
         {
             "type":          "Class",
@@ -942,19 +930,16 @@
             "listing-index": "m9a-037",
             "course":        "9",
             "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
+            "units":         "3-0-6",
+            "total-units":   9,
             "has-final":     false,
-            "description":   "Many complex systems can be represented as a society of agents who aggregate information to reach a collective decision. An Anigraf makes explicit how one agent's knowledge is related to another's, and how the form of these relationships affect the social choice. Simulations are used to discover emergent properties of different Anigraf models. Topics include elementary graph theory, network designs, partial orders, voting strategies, coordination games, and dynamics of choice. Applied examples taken from insect societies, neural networks, studies of co-evolution, cognition, and group decision-making.",
+            "description":   "Many complex systems can be represented as a society of agents who aggregate information to reach a collective decision. An Anigraf makes explicit how one agent\\'s knowledge is related to another\\'s, and how the form of these relationships affects the social choice. Simulations are used to discover emergent properties of different Anigraf models. Topics include elementary graph theory, network designs, partial orders, voting strategies, coordination games, and dynamics of choice. Applied examples taken from insect societies, neural networks, studies of co-evolution, cognition, and group decision-making.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.37J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "prereq":        "9.34",
-            "in-charge":     "Richards, W."
+            "in-charge":     "Richards, W. A."
         },
         {
             "type":          "Class",
@@ -966,7 +951,7 @@
             "units":         "2-12-4",
             "total-units":   18,
             "has-final":     false,
-            "description":   "Emphasizes research and scientific communication; instruction and practice in written and oral communication provided. Students use data gathered during their research to develop skills in scientific communication, with emphasis on research papers and proposals. Students make oral presentations on their research, including an individual poster presentation at the end of the course, and read and critique published research papers. The subject is taught over two consecutive terms; one term focuses on laboratory research and the other focuses on communication. Laboratory research must be completed first, but both components are available during Fall and Spring. Research component is also available during IAP.",
+            "description":   "Emphasizes research and scientific communication. Instruction and practice in written and oral communication provided. Assignments include reading and critiquing published research papers. Based on his/her research, each student also creates a poster as part of an oral presentation at the end of the course. Subject taught over two consecutive terms as two modules: laboratory research, which must be completed first, and communication. Both components are offered during Fall and Spring. Research component also available during IAP.",
             "url":           "http://student.mit.edu/catalog/m9a.html#9.41",
             "joint":         false,
             "semester":      [
@@ -976,22 +961,114 @@
             ],
             "offering":      "Currently Offered",
             "in-charge":     [
-                "Sinha, P.",
                 "Jhaveri, S.",
-                "Ogren, M."
+                "Ogren, M.",
+                "Sinha, P."
             ]
         },
         {
             "type":               "LectureSection",
             "label":              "L019.41",
             "lecture-section-of": "9.41",
-            "timeAndPlace":       "M1-3 46-5056"
+            "timeAndPlace":       "W1-3 46-5056"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B029.41",
+            "lab-section-of": "9.41",
+            "timeAndPlace":   [
+            ]
+        },
+        {
+            "type":          "Class",
+            "label":         "Principles of Neuroengineering",
+            "id":            "9.422",
+            "listing-index": "m9a-039",
+            "course":        "9",
+            "level":         "Grad",
+            "units":         "3-0-9",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Covers principles underlying current and future technologies for brain analysis and engineering, for neurology, psychiatry, and neuroscience.  Focuses on using biophysical, biochemical, and anatomical models to understand technology design constraints governing ability to observe and alter brain function.  Topics include functional magnetic resonance imaging, electromagnetic recording/stimulation, neuropharmacology, optical cellular imaging, and gene/stem-cell therapy.  Design projects by student teams. Enrollment limited to 28 students.",
+            "url":           "http://student.mit.edu/catalog/m9a.html#9.422J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "20.452J",
+                "8.03",
+                "6.003",
+                "9.01"
+            ],
+            "in-charge":     [
+                "Boyden, E. S.",
+                "III"
+            ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.422",
+            "lecture-section-of": "9.422",
+            "timeAndPlace":       "TR3.30-5 E15-235"
+        },
+        {
+            "type":          "Class",
+            "label":         "Applications for Neuroengineering",
+            "id":            "9.433",
+            "listing-index": "m9a-040",
+            "course":        "9",
+            "level":         "Grad",
+            "units":         "1-8-3",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Project-focused subject in which students take a top-down approach to developing technologies that address critical clinical and basic-science problems of human brain function. Focus is on application of engineering principles to development of systematically powerful tools. Problem domains include neurological/psychiatric disorders, consciousness, and human cognitive augmentation. Students work in teams to apply cross-disciplinary (molecular, physical, nanotechnological) building blocks to design new tools for the analysis and engineering of the brain. Enrollment limited to 14 students.",
+            "url":           "http://student.mit.edu/catalog/m9a.html#9.433J",
+            "joint":         true,
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "6.003",
+                "8.03",
+                "9.01."
+            ],
+            "in-charge":     [
+                "Boyden, E. S.",
+                "III"
+            ]
+        },
+        {
+            "type":          "Class",
+            "label":         "Neurotechnology Ventures",
+            "id":            "9.455",
+            "listing-index": "m9a-041",
+            "course":        "9",
+            "level":         "Grad",
+            "units":         "2-0-7",
+            "total-units":   9,
+            "has-final":     false,
+            "description":   "Special seminar focusing on the challenges of envisioning, planning, and building startups that are commercializing innovations from neuroscience and the blossoming domain of neuroengineering. Topics include neuroimaging and diagnostics, psychophysiology, rehab feedback, affective computing, neurotherapeutics, surgical tools, neuropharmaceuticals, deep brain stimulation, prosthetics and nuerobionics, artificial senses, nerve regeneration, and more. Each class is devoted to a specific topic area. The first hour covers the topic in survey form. The second hour is dedicated to a live case study of a specific organization. A broad spectrum of issues, from the deeply technical through market opportunity, is explored in each class. This course is taught live between the University of Hong Kong and MIT.",
+            "url":           "http://student.mit.edu/catalog/m9a.html#9.455J",
+            "joint":         true,
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "15.128J",
+                "20.454J"
+            ],
+            "in-charge":     [
+                "E.S.Boyden",
+                "Ellis-Behnke, R.",
+                "Bonsen, J."
+            ]
         },
         {
             "type":          "Class",
             "label":         "Neuroimaging Cells and Circuits",
             "id":            "9.472",
-            "listing-index": "m9a-039",
+            "listing-index": "m9a-042",
             "course":        "9",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1001,12 +1078,21 @@
             "url":           "http://student.mit.edu/catalog/m9a.html#9.472J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "prereq":        "20.472J",
             "in-charge":     [
                 "Jasanoff, A.",
                 "So, P. T."
             ]
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L019.472",
+            "lecture-section-of": "9.472",
+            "timeAndPlace":       "TR2.30-4 46-4062"
         }
     ]
 }

@@ -9,7 +9,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduces plasma phenomena relevant to energy generation by controlled thermonuclear fusion and to astrophysics. Elementary plasma concepts, plasma characterization.  Motion of charged particles in magnetic fields. Coulomb collisions, relaxation times, transport processes. Two-fluid hydrodynamic and MHD descriptions. Plasma confinement by magnetic fields, simple equilibrium and stability analysis. Wave propagation in a magnetic field; application to RF plasma heating. Introduction to kinetic theory; Vlasov, Boltzmann and Fokker-Planck equations; relation of fluid and kinetic descriptions. Electron and ion acoustic plasma waves, Landau damping.",
             "url":           "http://student.mit.edu/catalog/m22c.html#22.611J",
             "joint":         true,
@@ -33,6 +33,12 @@
             "subarea":       "Plasmas and Controlled Fusion"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0122.611",
+            "lecture-section-of": "22.611",
+            "timeAndPlace":       "TR11-12.30 NW16-213"
+        },
+        {
             "type":          "Class",
             "label":         "Introduction to Plasma Physics II",
             "id":            "22.612",
@@ -41,7 +47,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Linear waves and instabilities in magnetized plasma; solutions of Vlasov-Maxwell equations in homogeneous and inhomogeneous plasmas; conservation principles for energy and momentum; quasi-linear theory and nonlinear stabilization; solitons and coherent nonlinear phenomena; collisions and discrete particle effects; fluctuations in a stable plasma; Fokker-Planck equation and transport phenomena. A subject description tailored to fit the background and interests of the attending students distributed shortly before and at the beginning of the subject.",
             "url":           "http://student.mit.edu/catalog/m22c.html#22.612J",
             "joint":         true,
@@ -59,18 +65,6 @@
             "subarea":       "Plasmas and Controlled Fusion"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0122.612",
-            "lecture-section-of": "22.612",
-            "timeAndPlace":       "MW2.30-4 36-155"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0222.612",
-            "rec-section-of": "22.612",
-            "timeAndPlace":   "F2-3.30 26-142"
-        },
-        {
             "type":          "Class",
             "label":         "MHD Theory of Fusion Systems",
             "id":            "22.615",
@@ -84,7 +78,10 @@
             "url":           "http://student.mit.edu/catalog/m22c.html#22.615",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "22.611J",
@@ -108,10 +105,7 @@
             "url":           "http://student.mit.edu/catalog/m22c.html#22.616",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "22.615",
             "in-charge":     "Catto, P.",
@@ -126,8 +120,8 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Basic nuclear physics and plasma physics for controlled fusion. Fusion cross-sections and consequent conditions required for ignition and energy production. Principles of magnetic and inertial confinement. Description of magnetic confinement devices: tokamaks, stellarators and RFPs, their design and operation. Elementary plasma stability considerations and the limits imposed. Plasma heating by neutral beams and RF. Outline design of the ITER \"burning plasma\" experiment and a magnetic confinement reactor.",
+            "has-final":     false,
+            "description":   "Basic nuclear physics and plasma physics for controlled fusion. Fusion cross-sections and consequent conditions required for ignition and energy production. Principles of magnetic and inertial confinement. Description of magnetic confinement devices: tokamaks, stellarators and RFPs, their design and operation. Elementary plasma stability considerations and the limits imposed. Plasma heating by neutral beams and RF. Outline design of the ITER \\\u0022burning plasma\\\u0022 experiment and a magnetic confinement reactor.",
             "url":           "http://student.mit.edu/catalog/m22c.html#22.62",
             "joint":         false,
             "semester":      "Spring",
@@ -136,12 +130,6 @@
             "prereq":        "22.611J",
             "in-charge":     "Whyte, D.",
             "subarea":       "Plasmas and Controlled Fusion"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.62",
-            "lecture-section-of": "22.62",
-            "timeAndPlace":       "TR9.30-11 NW16-213"
         },
         {
             "type":          "Class",
@@ -157,10 +145,7 @@
             "url":           "http://student.mit.edu/catalog/m22c.html#22.63",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Whyte, D.",
             "subarea":       "Plasmas and Controlled Fusion"
@@ -179,10 +164,7 @@
             "url":           "http://student.mit.edu/catalog/m22c.html#22.67",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.651J",
@@ -191,12 +173,6 @@
             ],
             "in-charge":     "Hutchinson, I. H.",
             "subarea":       "Plasmas and Controlled Fusion"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.67",
-            "lecture-section-of": "22.67",
-            "timeAndPlace":       "TR2-3.30 NW16-213"
         },
         {
             "type":          "Class",
@@ -212,19 +188,10 @@
             "url":           "http://student.mit.edu/catalog/m22c.html#22.70",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Yildiz, B.",
             "subarea":       "Nuclear Materials"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.70",
-            "lecture-section-of": "22.70",
-            "timeAndPlace":       "MW9.30-11 24-115"
         },
         {
             "type":          "Class",
@@ -236,21 +203,27 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Examines how the presence of 1-, 2- and 3D defects and second phases control the mechanical, electromagnetic and chemical behavior of metals and alloys. Considers point, line and interfacial defects in the context of structural transformations including annealing, spinodal decomposition, nucleation, growth, and particle coarsening. Concentrates on structure-function relationships, and in particular how grain size, interstitial and substitutional solid solutions, and second-phase particles impact mechanical and other properties  Industrially relevant case studies illustrate lecture concepts.",
+            "description":   "Examines how the presence of 1-, 2- and 3D defects and second phases control the mechanical, electromagnetic and chemical behavior of metals and alloys. Considers point, line and interfacial defects in the context of structural transformations including annealing, spinodal decomposition, nucleation, growth, and particle coarsening. Concentrates on structure-function relationships, and in particular how grain size, interstitial and substitutional solid solutions, and second-phase particles impact mechanical and other properties  Industrially relevant case studies illustrate lecture concepts. Students taking the graduate version explore the subject in greater depth.",
             "url":           "http://student.mit.edu/catalog/m22c.html#22.71J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "3.40J",
-                "3.14"
+                "3.14",
+                "3.012",
+                "3.022",
+                "3.032"
             ],
-            "in-charge":     [
-                "Vliet, K. J. Van",
-                "Schuh, C."
-            ],
+            "in-charge":     "Schuh, C.",
             "subarea":       "Nuclear Materials"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.71",
+            "lecture-section-of": "22.71",
+            "timeAndPlace":       "MWF12 1-246"
         },
         {
             "type":          "Class",
@@ -262,11 +235,14 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Applies thermodynamics and kinetics of electrode reactions to aqueous corrosion of metals and alloys. Application of advanced computational and modeling techniques to evaluation of materials selection and susceptibility of metal/alloy systems to environmental degradation in aqueous systems. Discusses materials degradation problems in marine environments, oil and gas production, and energy conversion and generation systems, including fossil and nuclear. Offered alternate years.",
+            "description":   "Applies thermodynamics and kinetics of electrode reactions to aqueous corrosion of metals and alloys. Application of advanced computational and modeling techniques to evaluation of materials selection and susceptibility of metal/alloy systems to environmental degradation in aqueous systems. Discusses materials degradation problems in marine environments, oil and gas production, and energy conversion and generation systems, including fossil and nuclear.",
             "url":           "http://student.mit.edu/catalog/m22c.html#22.72J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "3.54J",
@@ -289,13 +265,22 @@
             "url":           "http://student.mit.edu/catalog/m22c.html#22.76",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Yildiz, B.",
             "subarea":       "Nuclear Materials"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.76",
+            "lecture-section-of": "22.76",
+            "timeAndPlace":       "TR11-12.30 24-121"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0222.76",
+            "rec-section-of": "22.76",
+            "timeAndPlace":   "F10 24-115"
         },
         {
             "type":          "Class",
@@ -311,13 +296,13 @@
             "url":           "http://student.mit.edu/catalog/m22c.html#22.77",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "22.76",
-            "in-charge":     [
-                "Lester, R. K.",
-                "Staff"
-            ],
+            "in-charge":     "Lester, R. K.",
             "subarea":       "Nuclear Materials"
         },
         {
@@ -333,7 +318,7 @@
             "description":   "Assessment of current and potential energy systems, covering extraction, conversion and end-use, with emphasis on meeting regional and global energy needs in the 21st century in a sustainable manner. Examination of energy technologies in each fuel cycle stage for fossil (oil, gas, synthetic), nuclear (fission and fusion) and renewable (solar, biomass, wind, hydro, and geothermal) energy types, along with storage, transmission, and conservation issues. Focus on evaluation and analysis of energy technology systems in the context of political, social, economic, and environmental goals. Open to upper-class undergraduates.",
             "url":           "http://student.mit.edu/catalog/m22c.html#22.811J",
             "joint":         true,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
@@ -353,7 +338,14 @@
             "type":               "LectureSection",
             "label":              "L0122.811",
             "lecture-section-of": "22.811",
-            "timeAndPlace":       "TR3-5 3-270"
+            "timeAndPlace":       "TR3-5 4-370"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0222.811",
+            "rec-section-of": "22.811",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",
@@ -369,19 +361,10 @@
             "url":           "http://student.mit.edu/catalog/m22c.html#22.812J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Lester, R. K.",
             "subarea":       "Systems, Policy, and Economics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.812",
-            "lecture-section-of": "22.812",
-            "timeAndPlace":       "MW11-12.30 24-115"
         },
         {
             "type":          "Class",
@@ -393,7 +376,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduces advanced undergraduates or graduate students in the Schools of Engineering and Science to the integration of technical, economic, political, and environmental consideration required for the successful implementation of new technology. Case studies are drawn from the energy and environment sectors with some emphasis on analytic techniques that serve as a \"tool box\" for students. Technologies considered include fossil, nuclear, solar, wind, fuel cell and energy conservation. International aspects, such as weapons proliferation and global climate effects, also discussed. Enrollment limited.",
+            "description":   "Introduces advanced undergraduates or graduate students in the Schools of Engineering and Science to the integration of technical, economic, political, and environmental consideration required for the successful implementation of new technology. Case studies are drawn from the energy and environment sectors with some emphasis on analytic techniques that serve as a \\\u0022tool box\\\u0022 for students. Technologies considered include fossil, nuclear, solar, wind, fuel cell and energy conservation. International aspects, such as weapons proliferation and global climate effects, also discussed. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m22c.html#22.813",
             "joint":         false,
             "semester":      "Fall",
@@ -411,6 +394,18 @@
                 "Lester, R."
             ],
             "subarea":       "Systems, Policy, and Economics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.813",
+            "lecture-section-of": "22.813",
+            "timeAndPlace":       "MW8.30-10 4-237"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0222.813",
+            "rec-section-of": "22.813",
+            "timeAndPlace":   "F8.30-10 4-237"
         },
         {
             "type":          "Class",
@@ -435,23 +430,10 @@
                 "6.938",
                 "10.816",
                 "16.862",
-                "22.82",
-                "18.02"
+                "22.82"
             ],
             "in-charge":     "Apostolakis, G. E.",
             "subarea":       "Systems, Policy, and Economics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.82",
-            "lecture-section-of": "22.82",
-            "timeAndPlace":       "MW9.30-11 1-390"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0222.82",
-            "rec-section-of": "22.82",
-            "timeAndPlace":   "T2 9-338"
         },
         {
             "type":          "Class",
@@ -477,18 +459,6 @@
             "subarea":       "General"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0122.90",
-            "lecture-section-of": "22.90",
-            "timeAndPlace":       "M12.30-2.30 NW12-222"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0222.90",
-            "lab-section-of": "22.90",
-            "timeAndPlace":   "WF12-3 NW12-222"
-        },
-        {
             "type":          "Class",
             "label":         "Special Problems in Nuclear Science & Engineering",
             "id":            "22.901?22.904",
@@ -498,7 +468,7 @@
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "For graduate and advanced undergraduate students who wish to conduct a one-term project of a theoretical or experimental nature in the nuclear engineering field, in close cooperation with individual staff members. Arrangement of topic and hours to fit students' requirements.",
+            "description":   "For graduate and advanced undergraduate students who wish to conduct a one-term project of a theoretical or experimental nature in the nuclear engineering field, in close cooperation with individual staff members. Arrangement of topic and hours to fit students\\' requirements.",
             "url":           "http://student.mit.edu/catalog/m22c.html#22.901?22.904",
             "joint":         false,
             "semester":      [
@@ -512,14 +482,8 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Coderre, J. A.",
+            "in-charge":     "Yanch, J. c.",
             "subarea":       "General"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.901?22.904",
-            "lecture-section-of": "22.901?22.904",
-            "timeAndPlace":       "TR12.30-2 24-115"
         },
         {
             "type":          "Class",
@@ -545,7 +509,7 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Coderre, J. A.",
+            "in-charge":     "Yanch, J. C.",
             "subarea":       "General"
         },
         {
@@ -572,16 +536,16 @@
             ],
             "in-charge":     [
                 "Kadak, A.",
-                "Jasanoff, A.",
-                "Hutchinson, I."
+                "Yanch, J.C.",
+                "Whyte, D."
             ],
             "subarea":       "General"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0122.911",
-            "lecture-section-of": "22.911",
-            "timeAndPlace":       "W EVE (5.30 PM) NW16-213"
+            "type":           "RecitationSection",
+            "label":          "R0122.911",
+            "rec-section-of": "22.911",
+            "timeAndPlace":   "F12.30 NW16-213"
         },
         {
             "type":           "RecitationSection",
@@ -589,6 +553,12 @@
             "rec-section-of": "22.911",
             "timeAndPlace":   [
             ]
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0322.911",
+            "rec-section-of": "22.911",
+            "timeAndPlace":   "W4 24-115"
         },
         {
             "type":          "Class",
@@ -605,19 +575,12 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      [
-                "Not offered next year",
-                "Can be repeated for credit",
-                "Currently Offered"
+                "Not offered this year",
+                "Can be repeated for credit"
             ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Cory, D. G.",
             "subarea":       "General"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.915",
-            "lecture-section-of": "22.915",
-            "timeAndPlace":       "R2-4 NW14-1112"
         },
         {
             "type":          "Class",
@@ -635,10 +598,7 @@
             "semester":      "IAP",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "8.22J",
-                "18.02"
-            ],
+            "prereq":        "8.22J",
             "in-charge":     [
                 "Cory, D. G.",
                 "Sewell, S. D."
@@ -673,7 +633,7 @@
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "For qualified graduate students interested in teaching as a career. Classroom, laboratory, or tutorial teaching under the supervision of a faculty member. Students selected by interview. Credits for this subject may not be used toward master's or engineer's degrees. Enrollment limited by the availability of suitable assignments.",
+            "description":   "For qualified graduate students interested in teaching as a career. Classroom, laboratory, or tutorial teaching under the supervision of a faculty member. Students selected by interview. Credits for this subject may not be used toward master\\'s or engineer\\'s degrees. Enrollment limited by the availability of suitable assignments.",
             "url":           "http://student.mit.edu/catalog/m22c.html#22.93",
             "joint":         false,
             "semester":      [

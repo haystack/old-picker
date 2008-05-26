@@ -23,8 +23,9 @@
                 "HASS Communication-Intensive"
             ],
             "in-charge":     [
-                "Ruckert, G.",
-                "Neff, T."
+                "Marks, M.",
+                "Neff, T.",
+                "Boyles, A."
             ],
             "area":          "Introductory Subjects"
         },
@@ -53,6 +54,12 @@
             "timeAndPlace":   "TR12 4-160"
         },
         {
+            "type":           "RecitationSection",
+            "label":          "R0521M.011",
+            "rec-section-of": "21M.011",
+            "timeAndPlace":   "TR1 4-160"
+        },
+        {
             "type":          "Class",
             "label":         "The Supernatural in Music, Literature and Culture",
             "id":            "21M.013",
@@ -65,7 +72,7 @@
             "description":   "Explores the relationship between music and the supernatural, focusing on the social history and context of supernatural beliefs as reflected in key literary and musical works from 1600 to the present.  Provides a better understanding of the place of ambiguity and the role of interpretation in culture, science and art.  Explores great works of art by Shakespeare, Verdi, Goethe (in translation), Gounod, Henry James and Benjamin Britten. Readings will also include selections from the most recent scholarship on magic and the supernatural. Writing assignments will range from web-based projects to analytic essays. No previous experience in music is necessary.  Projected guest lectures, musical performances, field trips.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.013J",
             "joint":         true,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      [
                 "HASS-D 3",
@@ -119,17 +126,23 @@
             "description":   "An introduction to diverse musical traditions of the world. Music from a wide range of geographical areas is studied in terms of structure, performance practice, social use, aesthetics, and cross-cultural contact. Includes hands-on music making, live demonstrations by guest artists, and ethnographic research projects.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.030",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
             "offering":      "Currently Offered",
             "category":      [
                 "HASS-D 3",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     [
-                "Tang, P.",
-                "Ruckert, G."
-            ],
+            "in-charge":     "Tang, P.",
             "area":          "Introductory Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121M.030",
+            "lecture-section-of": "21M.030",
+            "timeAndPlace":       "TR11-12.30 4-364"
         },
         {
             "type":          "Class",
@@ -157,13 +170,20 @@
             "type":               "LectureSection",
             "label":              "L0121M.051",
             "lecture-section-of": "21M.051",
-            "timeAndPlace":       "WF1-2.30 4-156"
+            "timeAndPlace":       "WF11-12.30 4-156"
         },
         {
             "type":               "LectureSection",
             "label":              "L0221M.051",
             "lecture-section-of": "21M.051",
-            "timeAndPlace":       "WF3-4.30 4-156"
+            "timeAndPlace":       "WF2-3.30 4-156"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B0321M.051",
+            "lab-section-of": "21M.051",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",
@@ -181,8 +201,14 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "HASS-D 3",
-            "in-charge":     "Makan, K.",
+            "in-charge":     "Ziporyn, E.",
             "area":          "Introductory Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121M.065",
+            "lecture-section-of": "21M.065",
+            "timeAndPlace":       "MW2-3.30 4-160"
         },
         {
             "type":          "Class",
@@ -194,7 +220,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "A survey of music in the United States from the colonial period to the present in the context of American cultural history, with an emphasis on Boston's musical life whenever feasible.  Listening and writing assignments concern classical, popular, folk, musical theater, and jazz repertories.",
+            "description":   "A survey of music in the United States from the colonial period to the present in the context of American cultural history, with an emphasis on Boston\\'s musical life whenever feasible.  Listening and writing assignments concern classical, popular, folk, musical theater, and jazz repertories.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.215",
             "joint":         false,
             "semester":      "Fall",
@@ -213,7 +239,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Studies key genres and styles of vocal and instrumental music that developed across Europe in churches, courts, and public venues prior to the age of \"common practice\" harmony. After a survey of the medieval background, focuses on works by great Renaissance and early baroque composers, including Dunstable, Dufay, Ockeghem, Josquin, Willaert, Palestrina, Lasso, Victoria, Byrd, Gibbons, Monteverdi, Gabrieli, Praetorius, and Schutz. Student assignments explore selected repertoires in depth, such as chant, madrigals, motets, species counterpoint models, Lutheran chorales, the first operas, or early styles of keyboard, wind, or string music. Minimal score-reading ability needed for papers, oral presentations, and possible performance projects.",
+            "description":   "Studies key genres and styles of vocal and instrumental music that developed across Europe in churches, courts, and public venues prior to the age of \\\u0022common practice\\\u0022 harmony. After a survey of the medieval background, focuses on works by great Renaissance and early baroque composers, including Dunstable, Dufay, Ockeghem, Josquin, Willaert, Palestrina, Lasso, Victoria, Byrd, Gibbons, Monteverdi, Gabrieli, Praetorius, and Schutz. Student assignments explore selected repertoires in depth, such as chant, madrigals, motets, species counterpoint models, Lutheran chorales, the first operas, or early styles of keyboard, wind, or string music. Minimal score-reading ability needed for papers, oral presentations, and possible performance projects.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.220",
             "joint":         false,
             "semester":      "Spring",
@@ -221,12 +247,6 @@
             "category":      "HASS Elective",
             "in-charge":     "Cuthbert, M.",
             "area":          "History/Literature"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.220",
-            "lecture-section-of": "21M.220",
-            "timeAndPlace":       "MW11-12.30 4-160"
         },
         {
             "type":          "Class",
@@ -241,8 +261,11 @@
             "description":   "Examines  the production, transmission, preservation and the qualities of folk music in the British Isles and North America from the 18th century to the folk revival of the 1960s and the present. Special emphasis on balladry, fiddle styles, and African-American influences.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.223J",
             "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "semester":      "Spring",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      [
                 "HASS-D 3",
                 "HASS Communication-Intensive"
@@ -276,6 +299,12 @@
             "area":          "History/Literature"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0121M.230",
+            "lecture-section-of": "21M.230",
+            "timeAndPlace":       "MW11-12.30 4-152"
+        },
+        {
             "type":          "Class",
             "label":         "Haydn, Mozart, and Beethoven",
             "id":            "21M.240",
@@ -298,12 +327,6 @@
             "area":          "History/Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.240",
-            "lecture-section-of": "21M.240",
-            "timeAndPlace":       "MW2-3.30 4-152"
-        },
-        {
             "type":          "Class",
             "label":         "Schubert to Debussy",
             "id":            "21M.250",
@@ -321,6 +344,12 @@
             "category":      "HASS Elective",
             "in-charge":     "Shadle, C.",
             "area":          "History/Literature"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121M.250",
+            "lecture-section-of": "21M.250",
+            "timeAndPlace":       "MW11-12.30 4-160"
         },
         {
             "type":          "Class",
@@ -360,8 +389,14 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "HASS Elective",
-            "in-charge":     "Cuthbert, M.",
+            "in-charge":     "Marks, M.",
             "area":          "History/Literature"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121M.262",
+            "lecture-section-of": "21M.262",
+            "timeAndPlace":       "MW3.30-5 4-152"
         },
         {
             "type":          "Class",
@@ -373,20 +408,14 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Begins with the premise that the 1960s mark a great dividing point in the history of 20th century Western musical culture, and explores the ways in which various social and artistic concerns of composers, performers, and listeners have evolved since that decade. Focuses on works by classical composers from around the world. Topics include the impact of rock, as it developed during the 1960s--70s; the concurrent emergence of post serial, neotonal, minimalist, and new age styles; the globalization of Western musical traditions; the impact of new technologies; and the significance of music video, video games, and other versions of multimedia. Interweaves discussion of these topics with close study of seminal musical works, evenly distributed across the four decades since 1960. Works by MIT composers included.",
+            "description":   "Begins with the premise that the 1960s mark a great dividing point in the history of twentieth century Western musical culture, and explores the ways in which various social and artistic concerns of composers, performers, and listeners have evolved since that decade. Focuses on works by classical composers from around the world. Topics include the impact of rock, as it developed during the 1960s--70s; the concurrent emergence of post serial, neotonal, minimalist, and new age styles; the globalization of Western musical traditions; the impact of new technologies; and the significance of music video, video games, and other versions of multimedia. Interweaves discussion of these topics with close study of seminal musical works, evenly distributed across the four decades since 1960. Works by MIT composers included.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.263",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "HASS Elective",
             "in-charge":     "Cuthbert, M.",
             "area":          "History/Literature"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.263",
-            "lecture-section-of": "21M.263",
-            "timeAndPlace":       "MW3.30-5 4-152"
         },
         {
             "type":          "Class",
@@ -398,7 +427,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Listening assignments include 34 symphonies and 24 concertos, composed from the 1720s to the 1990s. Class discussion and oral presentations focus on the works in 18 miniature scores. Each of the three written papers reviews a concert attended during the term.",
+            "description":   "Listening assignments include 34 symphonies and 24 concertos, composed from the 1720s to the present. Class discussion and oral presentations focus on the works in 18 miniature scores. Each of the three written papers reviews a concert attended during the term.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.271",
             "joint":         false,
             "semester":      "Fall",
@@ -406,6 +435,12 @@
             "category":      "HASS Elective",
             "in-charge":     "Lindgren, L.",
             "area":          "History/Literature"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121M.271",
+            "lecture-section-of": "21M.271",
+            "timeAndPlace":       "MW2-3.30 4-152"
         },
         {
             "type":          "Class",
@@ -430,51 +465,20 @@
             "area":          "History/Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.273",
-            "lecture-section-of": "21M.273",
-            "timeAndPlace":       "MW11-12.30 4-152"
-        },
-        {
             "type":          "Class",
-            "label":         "Shakespeare at the Opera",
-            "id":            "21M.274",
+            "label":         "Musicals of Stage and Screen",
+            "id":            "21M.283",
             "listing-index": "m21Ma-017",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Required reading and listening assignments.",
-            "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.274",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     [
-                "Harris, E.",
-                "Ouellette, M."
-            ],
-            "area":          "History/Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Musicals of Stage and Screen",
-            "id":            "21M.283",
-            "listing-index": "m21Ma-018",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Covers Broadway works and  Hollywood films in depth. Proceeds chronologically, exploring three stage musicals and three films at a time, within four historical categories: breakthrough musicals of the 1920s and '30s;  classic \"book musicals\" of the '40s and '50s; modernist and concept musicals of the '60s and '70s; and post modern and cutting-edge works of the '80s and '90s. Attention given to the role of music in relation to script, characterization, and dramatic structure. Final papers involve comparison of one stage and one film work, selected in consultation with the instructor. Oral presentations required and in-class performances encouraged.",
+            "description":   "Covers Broadway works and  Hollywood films in depth. Proceeds chronologically, exploring three stage musicals and three films at a time, within four historical categories: breakthrough musicals of the 1920s and \\'30s;  classic \\\u0022book musicals\\\u0022 of the \\'40s and \\'50s; modernist and concept musicals of the \\'60s and \\'70s; and post modern and cutting-edge works of the \\'80s and \\'90s. Attention given to the role of music in relation to script, characterization, and dramatic structure. Final papers involve comparison of one stage and one film work, selected in consultation with the instructor. Oral presentations required and in-class performances encouraged.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.283",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "HASS Elective",
             "in-charge":     "Marks, M.",
             "area":          "History/Literature"
@@ -483,7 +487,7 @@
             "type":          "Class",
             "label":         "Film Music",
             "id":            "21M.284",
-            "listing-index": "m21Ma-019",
+            "listing-index": "m21Ma-018",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-3-6",
@@ -499,22 +503,10 @@
             "area":          "History/Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.284",
-            "lecture-section-of": "21M.284",
-            "timeAndPlace":       "MW3.30-5 4-160"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0221M.284",
-            "lab-section-of": "21M.284",
-            "timeAndPlace":   "M EVE (7-10 PM) 2-105"
-        },
-        {
             "type":          "Class",
             "label":         "Music of India",
             "id":            "21M.291",
-            "listing-index": "m21Ma-020",
+            "listing-index": "m21Ma-019",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -530,16 +522,10 @@
             "area":          "History/Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.291",
-            "lecture-section-of": "21M.291",
-            "timeAndPlace":       "TR1-2.30 N52-199"
-        },
-        {
             "type":          "Class",
             "label":         "Music of Indonesia",
             "id":            "21M.292",
-            "listing-index": "m21Ma-021",
+            "listing-index": "m21Ma-020",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "2-2-8",
@@ -551,20 +537,14 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "HASS Elective",
-            "in-charge":     "Tang, P.",
+            "in-charge":     "Ziporyn, E.",
             "area":          "History/Literature"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.292",
-            "lecture-section-of": "21M.292",
-            "timeAndPlace":       "TR2.30-4 N52-199"
         },
         {
             "type":          "Class",
             "label":         "Music of Africa",
             "id":            "21M.293",
-            "listing-index": "m21Ma-022",
+            "listing-index": "m21Ma-021",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -580,10 +560,16 @@
             "area":          "History/Literature"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0121M.293",
+            "lecture-section-of": "21M.293",
+            "timeAndPlace":       "TR1-2.30 N52-199"
+        },
+        {
             "type":          "Class",
             "label":         "Popular Musics of the World",
             "id":            "21M.294",
-            "listing-index": "m21Ma-023",
+            "listing-index": "m21Ma-022",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -599,16 +585,10 @@
             "area":          "History/Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.294",
-            "lecture-section-of": "21M.294",
-            "timeAndPlace":       "TR11-12.30 4-364"
-        },
-        {
             "type":          "Class",
             "label":         "Harmony and Counterpoint I",
             "id":            "21M.301",
-            "listing-index": "m21Ma-024",
+            "listing-index": "m21Ma-023",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-3-6",
@@ -624,10 +604,11 @@
             "offering":      "Currently Offered",
             "category":      "HASS-D 3",
             "in-charge":     [
-                "Shadle, C.",
                 "Harvey, M.",
-                "Hughes, C.",
-                "Cleveland, S."
+                "Ruehr, E.",
+                "Ruckert, G.",
+                "Cuthbert, M.",
+                "Saraydarian, G."
             ],
             "area":          "Theory/Composition"
         },
@@ -635,25 +616,25 @@
             "type":               "LectureSection",
             "label":              "L0121M.301",
             "lecture-section-of": "21M.301",
-            "timeAndPlace":       "MW11-12.30 4-156"
+            "timeAndPlace":       "MW11-12.30 4-364"
         },
         {
             "type":               "LectureSection",
             "label":              "L0221M.301",
             "lecture-section-of": "21M.301",
-            "timeAndPlace":       "MW3.30-5 4-364"
+            "timeAndPlace":       "MW1-2.30 4-364"
         },
         {
             "type":               "LectureSection",
             "label":              "L0321M.301",
             "lecture-section-of": "21M.301",
-            "timeAndPlace":       "TR11-12.30 4-152"
+            "timeAndPlace":       "TR1-2.30 4-152"
         },
         {
             "type":               "LectureSection",
             "label":              "L0421M.301",
             "lecture-section-of": "21M.301",
-            "timeAndPlace":       "TR2.30-4 4-160"
+            "timeAndPlace":       "TR3.30-5 4-152"
         },
         {
             "type":           "LabSection",
@@ -665,7 +646,7 @@
             "type":          "Class",
             "label":         "Harmony and Counterpoint II",
             "id":            "21M.302",
-            "listing-index": "m21Ma-025",
+            "listing-index": "m21Ma-024",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-2-7",
@@ -683,7 +664,7 @@
             "in-charge":     [
                 "Shadle, C.",
                 "Hughes, C.",
-                "Cleveland, S.",
+                "Wood, P.",
                 "Saraydarian, G."
             ],
             "area":          "Theory/Composition"
@@ -692,13 +673,13 @@
             "type":               "LectureSection",
             "label":              "L0121M.302",
             "lecture-section-of": "21M.302",
-            "timeAndPlace":       "MW1-2.30 4-160"
+            "timeAndPlace":       "TR11-12.30 4-152"
         },
         {
             "type":               "LectureSection",
             "label":              "L0221M.302",
             "lecture-section-of": "21M.302",
-            "timeAndPlace":       "TR1-2.30 4-156"
+            "timeAndPlace":       "TR2.30-4 4-160"
         },
         {
             "type":           "LabSection",
@@ -716,7 +697,7 @@
             "type":           "LabSection",
             "label":          "B0521M.302",
             "lab-section-of": "21M.302",
-            "timeAndPlace":   "F4 4-152"
+            "timeAndPlace":   "F4 4-156"
         },
         {
             "type":           "LabSection",
@@ -728,7 +709,7 @@
             "type":          "Class",
             "label":         "Writing in Tonal Forms I",
             "id":            "21M.303",
-            "listing-index": "m21Ma-026",
+            "listing-index": "m21Ma-025",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-1-8",
@@ -745,7 +726,7 @@
             "category":      "HASS Elective",
             "in-charge":     [
                 "Child, P.",
-                "Cleveland, S.",
+                "Wood, P.",
                 "Saraydarian, G."
             ],
             "area":          "Theory/Composition"
@@ -754,7 +735,7 @@
             "type":               "LectureSection",
             "label":              "L0121M.303",
             "lecture-section-of": "21M.303",
-            "timeAndPlace":       "TR1-2.30 4-152"
+            "timeAndPlace":       "MW3.30-5 4-160"
         },
         {
             "type":           "LabSection",
@@ -772,7 +753,7 @@
             "type":           "LabSection",
             "label":          "B0421M.303",
             "lab-section-of": "21M.303",
-            "timeAndPlace":   "F4 4-152"
+            "timeAndPlace":   "F4 4-156"
         },
         {
             "type":           "LabSection",
@@ -784,7 +765,7 @@
             "type":          "Class",
             "label":         "Writing in Tonal Forms II",
             "id":            "21M.304",
-            "listing-index": "m21Ma-027",
+            "listing-index": "m21Ma-026",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-1-8",
@@ -798,40 +779,29 @@
             "category":      "HASS Elective",
             "in-charge":     [
                 "Shadle, C.",
-                "Cleveland, S.",
+                "Wood, P.",
                 "Saraydarian, G."
             ],
             "area":          "Theory/Composition"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.304",
-            "lecture-section-of": "21M.304",
-            "timeAndPlace":       "MW1-2.30 4-364"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0221M.304",
-            "lab-section-of": "21M.304",
-            "timeAndPlace":   "R4 4-156"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0321M.304",
-            "lab-section-of": "21M.304",
-            "timeAndPlace":   "R4 4-160"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0421M.304",
-            "lab-section-of": "21M.304",
-            "timeAndPlace":   "F4 4-152"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0521M.304",
-            "lab-section-of": "21M.304",
-            "timeAndPlace":   "F4 4-160"
+            "type":          "Class",
+            "label":         "Techniques of Twentieth Century Composition",
+            "id":            "21M.310",
+            "listing-index": "m21Ma-027",
+            "course":        "21M",
+            "level":         "Undergrad",
+            "units":         "3-1-8",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Written and analytical exercises based on twentieth century compositional forms and practices. Three areas to be covered include: compositions based upon artificial scales and modes, as in Debussy, Bartok, Stravinsky; compositions based on atonal pitch organizations as with Schoenberg, Webern, Boulez; instructor\\'s choice of compositions based on rhythmic process, timbral exploration, or non-Western influences. Each composition will be written for a different solo instrument (piano for modal composition, wind for set theory composition, non-pitched percussion for rhythmic process composition, and strings for timbre-based composition). Basic instrumentation will be taught, and compositions will be performed in class. Enrollment limited.",
+            "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.310",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      "Not offered this year",
+            "category":      "HASS Elective",
+            "in-charge":     "Makan, K.",
+            "area":          "Theory/Composition"
         },
         {
             "type":          "Class",
@@ -853,12 +823,6 @@
             "area":          "Theory/Composition"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.340",
-            "lecture-section-of": "21M.340",
-            "timeAndPlace":       "TR2.30-4 4-156"
-        },
-        {
             "type":          "Class",
             "label":         "Jazz Composition",
             "id":            "21M.341",
@@ -872,16 +836,44 @@
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.341",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "HASS Elective",
             "in-charge":     "Harvey, M.",
             "area":          "Theory/Composition"
         },
         {
             "type":          "Class",
+            "label":         "Composing for Jazz Orchestra",
+            "id":            "21M.342",
+            "listing-index": "m21Ma-030",
+            "course":        "21M",
+            "level":         "Undergrad",
+            "units":         "3-0-9",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Explores composition and arrangement for the large jazz ensembles from 1920s foundations to current postmodern practice.  Consideration given to a variety of styles and to the interaction of improvisation and composition.  Study of works by Basie, Ellington, Evans, Gillespie, Golson, Mingus, Morris, Nelson, Williams, and others.  Open rehearsals, workshops, and performances of student compositions by the MIT Festival Jazz Ensemble and the Aardvark Jazz Orchestra.",
+            "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.342",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":      "HASS Elective",
+            "in-charge":     "Harvey, M.",
+            "area":          "Theory/Composition"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0121M.342",
+            "lecture-section-of": "21M.342",
+            "timeAndPlace":       "TR2.30-4 4-156"
+        },
+        {
+            "type":          "Class",
             "label":         "Musical Analysis",
             "id":            "21M.350",
-            "listing-index": "m21Ma-030",
+            "listing-index": "m21Ma-031",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -891,22 +883,16 @@
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.350",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "category":      "HASS Elective",
             "in-charge":     "Child, P.",
             "area":          "Theory/Composition"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.350",
-            "lecture-section-of": "21M.350",
-            "timeAndPlace":       "TR3.30-5 4-152"
-        },
-        {
             "type":          "Class",
             "label":         "Music Composition",
             "id":            "21M.351",
-            "listing-index": "m21Ma-031",
+            "listing-index": "m21Ma-032",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -924,26 +910,26 @@
                 "Currently Offered"
             ],
             "category":      "HASS Elective",
-            "in-charge":     "Staff",
+            "in-charge":     "Child, P.",
             "area":          "Theory/Composition"
         },
         {
             "type":               "LectureSection",
             "label":              "L0121M.351",
             "lecture-section-of": "21M.351",
-            "timeAndPlace":       "TR1-2.30 4-160"
+            "timeAndPlace":       "F1-4 4-160"
         },
         {
             "type":          "Class",
-            "label":         "Composing with Computers",
+            "label":         "Electronic Music Composition I",
             "id":            "21M.361",
-            "listing-index": "m21Ma-032",
+            "listing-index": "m21Ma-033",
             "course":        "21M",
             "level":         "Undergrad",
-            "units":         "2-2-8",
+            "units":         "2-1-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "A series of composition projects using various types of recording equipment, editing software, audio hardware, and programming environments. Class culminates in a public concert presenting student work. Instruction in recording, editing, synthesis, sampling, digital sound processing, sequencing, and interactive systems. Close  listening to computer and electronic music from composers and sound  artists including Cage, Eno, Ikeda, Kraftwerk, Lansky, Radiohead, Stockhausen, Varese and Xenakis. Focus on using the computer as a means of musical creativity and intuition. Enrollment limited to 12, with priority given to Music majors, minors, concentrators, and those with previous compositional experience.",
+            "description":   "Explores sound and what can be done with it. Sources are recorded from students\\' surroundings - sampled and electronically generated (both analog and digital). Assignments include composing with the sampled sounds, feedback, and noise, using digital signal processing (DSP), convolution, algorithms, and simple mixing. Focuses on sonic and compositional aspects rather than technology, math, or acoustics, though these are examined in varying detail. Weekly composition and listening assignments; material for the latter is drawn from sound art, experimental electronica, conventional and non-conventional classical electronic works, popular music, and previous students\\' compositions. Enrollment limited to 10; preference to Music majors, minors, and concentrators.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.361",
             "joint":         false,
             "semester":      [
@@ -983,7 +969,7 @@
             "type":          "Class",
             "label":         "MIT Concert Choir",
             "id":            "21M.401",
-            "listing-index": "m21Ma-033",
+            "listing-index": "m21Ma-034",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "0-4-2",
@@ -1007,13 +993,13 @@
             "type":               "LectureSection",
             "label":              "L0121M.401",
             "lecture-section-of": "21M.401",
-            "timeAndPlace":       "MR EVE (6-8.30 PM) 4-270"
+            "timeAndPlace":       "MR EVE (6.30-9 PM) 4-270"
         },
         {
             "type":          "Class",
             "label":         "MIT Chamber Chorus",
             "id":            "21M.405",
-            "listing-index": "m21Ma-034",
+            "listing-index": "m21Ma-035",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-0-3",
@@ -1037,19 +1023,19 @@
             "type":               "LectureSection",
             "label":              "L0121M.405",
             "lecture-section-of": "21M.405",
-            "timeAndPlace":       "TR9.30-11 KILLIAN"
+            "timeAndPlace":       "TR9.30-11 14W-111"
         },
         {
             "type":          "Class",
             "label":         "Vocal Repertoire and Performance",
             "id":            "21M.410",
-            "listing-index": "m21Ma-035",
+            "listing-index": "m21Ma-036",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-0-3",
             "total-units":   6,
             "has-final":     false,
-            "description":   "For the singer and/or pianist interested in collaborative study of solo vocal performance. Historical study of the repertoire includes listening assignments of representative French, German, Italian, and English works as sung by noted vocal artists of the genre. Topics include diction as facilitated by the study of the International Phonetic Alphabet; performance and audition techniques; and study of body awareness and alignment through the Alexander Technique and yoga. Admission by audition. Required for all Emerson Music Vocal Scholars.",
+            "description":   "For the singer and/or pianist interested in collaborative study of solo vocal performance. Historical study of the repertoire includes listening assignments of representative French, German, Italian, and English works as sung by noted vocal artists of the genre. Topics include diction as facilitated by the study of the International Phonetic Alphabet; performance and audition techniques; and study of body awareness and alignment through the Alexander Technique and yoga. Admission by audition. Emerson Vocal Scholars contact department.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.410",
             "joint":         false,
             "semester":      "Spring",
@@ -1061,16 +1047,10 @@
             "area":          "Performance"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.410",
-            "lecture-section-of": "21M.410",
-            "timeAndPlace":       "TR12.30-2 4-364"
-        },
-        {
             "type":          "Class",
             "label":         "MIT Symphony",
             "id":            "21M.421",
-            "listing-index": "m21Ma-036",
+            "listing-index": "m21Ma-037",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "0-4-2",
@@ -1094,13 +1074,13 @@
             "type":               "LectureSection",
             "label":              "L0121M.421",
             "lecture-section-of": "21M.421",
-            "timeAndPlace":       "TR EVE (7.30-10 PM) KRESGE"
+            "timeAndPlace":       "TR EVE (7.30 PM) KRESGE"
         },
         {
             "type":          "Class",
             "label":         "MIT String Chamber Orchestra",
             "id":            "21M.422",
-            "listing-index": "m21Ma-037",
+            "listing-index": "m21Ma-038",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "0-2-1",
@@ -1124,19 +1104,19 @@
             "type":          "Class",
             "label":         "Conducting and Score-Reading",
             "id":            "21M.423",
-            "listing-index": "m21Ma-038",
+            "listing-index": "m21Ma-039",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-4-5",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduces orchestral conducting as a discipline combining advanced ear training, musical analysis, practical musicianship, and score-reading skills. Focuses on mainstream repertoire, with emphasis on music performed by the MIT Symphony and String Chamber Orchestras. Rehearsal attendance required. Opportunities to lead sectional rehearsals depending upon level of ability. Audition required.",
+            "description":   "Introduces orchestral conducting as a discipline, combining advanced ear training, musical analysis, practical musicianship, and score-reading skills. Focuses on mainstream repertoire, with emphasis on music performed by the MIT Symphony and String Chamber Orchestras. Rehearsal attendance required. Opportunities to lead sectional rehearsals depending upon level of ability. Students must possess instrumental/vocal proficiency.  Audition required.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.423",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "HASS Elective",
-            "in-charge":     "A.Boyles",
+            "in-charge":     "Boyles, A.",
             "area":          "Performance"
         },
         {
@@ -1149,7 +1129,7 @@
             "type":          "Class",
             "label":         "MIT Wind Ensemble",
             "id":            "21M.426",
-            "listing-index": "m21Ma-039",
+            "listing-index": "m21Ma-040",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "0-4-2",
@@ -1173,13 +1153,13 @@
             "type":               "LectureSection",
             "label":              "L0121M.426",
             "lecture-section-of": "21M.426",
-            "timeAndPlace":       "MW EVE (7.30-10 PM) KRESGE"
+            "timeAndPlace":       "MW EVE (7.30-9.30 PM) KRESGE"
         },
         {
             "type":          "Class",
             "label":         "MIT Festival Jazz Ensemble",
             "id":            "21M.442",
-            "listing-index": "m21Ma-040",
+            "listing-index": "m21Ma-041",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "0-4-2",
@@ -1203,13 +1183,13 @@
             "type":               "LectureSection",
             "label":              "L0121M.442",
             "lecture-section-of": "21M.442",
-            "timeAndPlace":       "TR EVE (5-7.30 PM) KILLIAN"
+            "timeAndPlace":       "TR EVE (5-7 PM) 14W-111"
         },
         {
             "type":          "Class",
             "label":         "Chamber Music Society",
             "id":            "21M.445",
-            "listing-index": "m21Ma-041",
+            "listing-index": "m21Ma-042",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "0-4-2",
@@ -1245,13 +1225,13 @@
             "type":          "Class",
             "label":         "MIT Balinese Gamelan",
             "id":            "21M.450",
-            "listing-index": "m21Ma-042",
+            "listing-index": "m21Ma-043",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "0-3-3",
             "total-units":   6,
             "has-final":     false,
-            "description":   "A performing ensemble dedicated to the traditional music of Bali and  East Java. Members of the ensemble rehearse and study techniques on  MIT's three distinctive sets of gamelan instruments and perform in  conjunction with Gamelan Galak Tika. No previous experience necessary, but prior enrollment in 21M.030 or 21M.292 is strongly recommended. Enrollment limited to 25 students by audition.",
+            "description":   "A performing ensemble dedicated to the traditional music of Bali and  East Java. Members of the ensemble rehearse and study techniques on  MIT\\'s three distinctive sets of gamelan instruments and perform in  conjunction with Gamelan Galak Tika. No previous experience necessary, but prior enrollment in 21M.030 or 21M.292 is strongly recommended. Enrollment limited to 25 students by audition.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.450",
             "joint":         false,
             "semester":      [
@@ -1275,13 +1255,13 @@
             "type":          "Class",
             "label":         "Studio Accompanying for Pianists",
             "id":            "21M.451",
-            "listing-index": "m21Ma-043",
+            "listing-index": "m21Ma-044",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Open by audition to pianists who wish to explore and develop their talents as accompanists.  Pianists are paired with a music scholarship recipient and attend that student's private lesson each week.  Accompanists prepare independently, rehearse with the student partner, and provide accompaniment at a juried recital or masterclass each term.  Under supervision for music faculty and private lesson instructors, pianists may work with one or two scholarship students each term at 3 units each or one student in 21M.480/21M.512 for 6 units.  Subject satisfies the performance requirement for pianists receiving music scholarships.",
+            "description":   "Open by audition to pianists who wish to explore and develop their talents as accompanists.  Pianists are paired with a music scholarship recipient and attend that student\\'s private lesson each week.  Accompanists prepare independently, rehearse with the student partner, and provide accompaniment at a juried recital or masterclass each term.  Under supervision for music faculty and private lesson instructors, pianists may work with one or two scholarship students each term at 3 units each or one student in 21M.480/21M.512 for 6 units.  Subject satisfies the performance requirement for pianists receiving music scholarships.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.451",
             "joint":         false,
             "semester":      [
@@ -1296,17 +1276,10 @@
             "area":          "Performance"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.451",
-            "lecture-section-of": "21M.451",
-            "timeAndPlace":       [
-            ]
-        },
-        {
             "type":          "Class",
             "label":         "MIT Senegalese Drum Ensemble",
             "id":            "21M.460",
-            "listing-index": "m21Ma-044",
+            "listing-index": "m21Ma-045",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "0-3-3",
@@ -1336,7 +1309,7 @@
             "type":          "Class",
             "label":         "Advanced Music Performance",
             "id":            "21M.480",
-            "listing-index": "m21Ma-045",
+            "listing-index": "m21Ma-046",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "1-2-3",
@@ -1360,10 +1333,16 @@
             "area":          "Performance"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0121M.480",
+            "lecture-section-of": "21M.480",
+            "timeAndPlace":       "M EVE (5-7 PM) 14W-111"
+        },
+        {
             "type":          "Class",
             "label":         "Senior Seminar in Music",
             "id":            "21M.500",
-            "listing-index": "m21Ma-046",
+            "listing-index": "m21Ma-047",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -1379,10 +1358,16 @@
             "area":          "Special Topics/Advanced Subjects"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0121M.500",
+            "lecture-section-of": "21M.500",
+            "timeAndPlace":       "MW3.30-5 4-156"
+        },
+        {
             "type":          "Class",
             "label":         "Advanced Music Composition",
             "id":            "21M.505",
-            "listing-index": "m21Ma-047",
+            "listing-index": "m21Ma-048",
             "course":        "21M",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1406,13 +1391,13 @@
             "type":               "LectureSection",
             "label":              "L0121M.505",
             "lecture-section-of": "21M.505",
-            "timeAndPlace":       "TR1-2.30 4-160"
+            "timeAndPlace":       "F1-4 4-160"
         },
         {
             "type":          "Class",
             "label":         "Advanced Music Performance",
             "id":            "21M.512",
-            "listing-index": "m21Ma-048",
+            "listing-index": "m21Ma-049",
             "course":        "21M",
             "level":         "Grad",
             "units":         "1-2-3",
@@ -1436,16 +1421,22 @@
             "area":          "Special Topics/Advanced Subjects"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0121M.512",
+            "lecture-section-of": "21M.512",
+            "timeAndPlace":       "M EVE (5-7 PM) 14W-111"
+        },
+        {
             "type":          "Class",
             "label":         "Vocal Repertoire and Performance",
             "id":            "21M.515",
-            "listing-index": "m21Ma-049",
+            "listing-index": "m21Ma-050",
             "course":        "21M",
             "level":         "Grad",
             "units":         "3-0-3",
             "total-units":   6,
             "has-final":     false,
-            "description":   "For the singer and/or pianist interested in collaborative study of solo vocal performance. Historical study of the repertoire includes listening assignments of representative French, German, Italian, and English works as sung by noted vocal artists of the genre. Topics include diction as facilitated by the study of the International Phonetic Alphabet; performance and audition techniques; and study of body awareness and alignment through the Alexander Technique and yoga. Admission by audition. Required for all Emerson Music Vocal Scholars.",
+            "description":   "For the singer and/or pianist interested in collaborative study of solo vocal performance. Historical study of the repertoire includes listening assignments of representative French, German, Italian, and English works as sung by noted vocal artists of the genre. Topics include diction as facilitated by the study of the International Phonetic Alphabet; performance and audition techniques; and study of body awareness and alignment through the Alexander Technique and yoga. Admission by audition. Emerson Vocal Scholars contact department.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.515",
             "joint":         false,
             "semester":      "Spring",
@@ -1457,16 +1448,10 @@
             "area":          "Special Topics/Advanced Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.515",
-            "lecture-section-of": "21M.515",
-            "timeAndPlace":       "TR12.30-2 4-364"
-        },
-        {
             "type":          "Class",
             "label":         "Special Topics in Music",
             "id":            "21M.531, 21M.533, 21M.536,  21M.538",
-            "listing-index": "m21Ma-050",
+            "listing-index": "m21Ma-051",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1489,13 +1474,13 @@
             "type":          "Class",
             "label":         "Advanced Topics in Music",
             "id":            "21M.539",
-            "listing-index": "m21Ma-051",
+            "listing-index": "m21Ma-052",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Fall: Consult",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.539",
             "joint":         false,
             "semester":      [
@@ -1507,20 +1492,13 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Byron, D.",
             "area":          "Special Topics/Advanced Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.539",
-            "lecture-section-of": "21M.539",
-            "timeAndPlace":       "M2-4 KILLIAN"
         },
         {
             "type":          "Class",
             "label":         "Selected Topics in Music",
             "id":            "21M.540",
-            "listing-index": "m21Ma-052",
+            "listing-index": "m21Ma-053",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1529,26 +1507,22 @@
             "description":   "Opportunity for study of musical topics not covered in the regular curriculum, particularly experimental subjects offered by permanent and visiting faculty.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.540",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
             "offering":      [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Whincop, P.",
+            "in-charge":     "Staff",
             "area":          "Special Topics/Advanced Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.540",
-            "lecture-section-of": "21M.540",
-            "timeAndPlace":       [
-            ]
         },
         {
             "type":          "Class",
             "label":         "IAP Music Topics",
             "id":            "21M.542",
-            "listing-index": "m21Ma-053",
+            "listing-index": "m21Ma-054",
             "course":        "21M",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1558,14 +1532,17 @@
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.542",
             "joint":         false,
             "semester":      "IAP",
-            "offering":      "Currently Offered",
+            "offering":      [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":          "Special Topics/Advanced Subjects"
         },
         {
             "type":          "Class",
             "label":         "Research in Music",
             "id":            "21M.545, 21M.546",
-            "listing-index": "m21Ma-054",
+            "listing-index": "m21Ma-055",
             "course":        "21M",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1592,7 +1569,7 @@
             "type":          "Class",
             "label":         "Writing for Computer Performance",
             "id":            "21M.565",
-            "listing-index": "m21Ma-055",
+            "listing-index": "m21Ma-056",
             "course":        "21M",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1608,16 +1585,10 @@
             "area":          "Music and Media"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.565",
-            "lecture-section-of": "21M.565",
-            "timeAndPlace":       "T2-4 E15-483"
-        },
-        {
             "type":          "Class",
             "label":         "Audio Processing by People and Machines",
             "id":            "21M.566",
-            "listing-index": "m21Ma-056",
+            "listing-index": "m21Ma-057",
             "course":        "21M",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1633,10 +1604,16 @@
             "area":          "Music and Media"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0121M.566",
+            "lecture-section-of": "21M.566",
+            "timeAndPlace":       "R1-3 E15-235"
+        },
+        {
             "type":          "Class",
             "label":         "Computer Music Composition",
             "id":            "21M.570",
-            "listing-index": "m21Ma-057",
+            "listing-index": "m21Ma-058",
             "course":        "21M",
             "level":         "Grad",
             "units":         "3-6-3",
@@ -1661,7 +1638,7 @@
             "type":          "Class",
             "label":         "Musical Aesthetics and Media Technology",
             "id":            "21M.580",
-            "listing-index": "m21Ma-058",
+            "listing-index": "m21Ma-059",
             "course":        "21M",
             "level":         "Grad",
             "units":         "3-3-3",
@@ -1677,22 +1654,28 @@
             "area":          "Music and Media"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0121M.580",
+            "lecture-section-of": "21M.580",
+            "timeAndPlace":       "W2-4.30 E15-433"
+        },
+        {
             "type":          "Class",
             "label":         "Projects in Media and Music",
             "id":            "21M.581",
-            "listing-index": "m21Ma-059",
+            "listing-index": "m21Ma-060",
             "course":        "21M",
             "level":         "Grad",
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Current computer music concepts and practice. Project-based work on research or production projects using the Media Lab's computer music, interactive, and media resources. Requires significant studio work and a term project. Projects based on class interests and skills, and may be individually or group-based. May be repeated for credit with permission of instructor.",
+            "description":   "Current computer music concepts and practice. Project-based work on research or production projects using the Media Lab\\'s computer music, interactive, and media resources. Requires significant studio work and a term project. Projects based on class interests and skills, and may be individually or group-based. May be repeated for credit with permission of instructor.",
             "url":           "http://student.mit.edu/catalog/m21Ma.html#21M.581J",
             "joint":         true,
             "semester":      "Spring",
             "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
+                "Can be repeated for credit",
+                "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Machover, T.",

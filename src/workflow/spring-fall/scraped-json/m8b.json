@@ -10,21 +10,15 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Basic principles of electromagnetism: experimental basis, electrostatics, magnetic fields of steady currents, motional emf and electromagnetic induction, Maxwell's equations, propagation and radiation of electromagnetic waves, electric and magnetic properties of matter, and conservation laws. Subject uses appropriate mathematics but emphasizes physical phenomena and principles.",
+            "description":   "Basic principles of electromagnetism: experimental basis, electrostatics, magnetic fields of steady currents, motional emf and electromagnetic induction, Maxwell\\'s equations, propagation and radiation of electromagnetic waves, electric and magnetic properties of matter, and conservation laws. Subject uses appropriate mathematics but emphasizes physical phenomena and principles.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.311",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.07",
-            "in-charge":     "Zwiebach, B.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.311",
-            "lecture-section-of": "8.311",
-            "timeAndPlace":       "TR9.30-11 4-149"
         },
         {
             "type":          "Class",
@@ -54,20 +48,26 @@
                 "8.07",
                 "8.321"
             ],
-            "in-charge":     "Jackiw, R.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects"
         },
         {
             "type":               "LectureSection",
             "label":              "L018.321",
             "lecture-section-of": "8.321",
-            "timeAndPlace":       "WF10-11.30 4-149"
+            "timeAndPlace":       "MW10-11.30 4-159"
         },
         {
             "type":           "RecitationSection",
             "label":          "R028.321",
             "rec-section-of": "8.321",
-            "timeAndPlace":   "M10-11.30 4-149"
+            "timeAndPlace":   "T10 26-310"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R038.321",
+            "rec-section-of": "8.321",
+            "timeAndPlace":   "R10 26-310"
         },
         {
             "type":          "Class",
@@ -79,27 +79,15 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "A one-term self-contained subject in quantum field theory. Concepts and basic techniques are developed through applications in elementary particle physics, and condensed matter physics. Topics: classical field theory, symmetries, and Noether's theorem. Quantization of scalar fields, spin ? fields, and Gauge bosons. Feynman graphs, analytic properties of amplitudes and unitarity of the S-matrix. Calculations in quantum electrodynamics (QED).  Introduction to renormalization.",
+            "description":   "A one-term self-contained subject in quantum field theory. Concepts and basic techniques are developed through applications in elementary particle physics, and condensed matter physics. Topics: classical field theory, symmetries, and Noether\\'s theorem. Quantization of scalar fields, spin ? fields, and Gauge bosons. Feynman graphs, analytic properties of amplitudes and unitarity of the S-matrix. Calculations in quantum electrodynamics (QED).  Introduction to renormalization.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.323",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.321",
-            "in-charge":     "Guth, A.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.323",
-            "lecture-section-of": "8.323",
-            "timeAndPlace":       "TR11-12.30 4-153"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R028.323",
-            "rec-section-of": "8.323",
-            "timeAndPlace":   "F4 4-153"
         },
         {
             "type":          "Class",
@@ -121,8 +109,20 @@
                 "8.322",
                 "8.323"
             ],
-            "in-charge":     "Taylor, W.",
+            "in-charge":     "Farhi, E.",
             "area":          "Graduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L018.324",
+            "lecture-section-of": "8.324",
+            "timeAndPlace":       "MW9.30-11 4-145"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R028.324",
+            "rec-section-of": "8.324",
+            "timeAndPlace":   "F9 26-210"
         },
         {
             "type":          "Class",
@@ -141,20 +141,8 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.324",
-            "in-charge":     "Stewart, I.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.325",
-            "lecture-section-of": "8.325",
-            "timeAndPlace":       "TR9.30-11 26-314"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R028.325",
-            "rec-section-of": "8.325",
-            "timeAndPlace":   "F10 26-314"
         },
         {
             "type":          "Class",
@@ -166,7 +154,7 @@
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Classical mechanics in a computational framework. Lagrangian formulation. Action, variational principles. Hamilton's principle. Conserved quantities. Hamiltonian formulation. Surfaces of section. Chaos. Liouville's theorem and Poincar? integral invariants. Poincar?-Birkhoff and KAM theorems. Invariant curves. Cantori. Nonlinear resonances. Resonance overlap and transition to chaos. Properties of chaotic motion. Transport, diffusion, mixing. Symplectic integration. Adiabatic invariants. Many-dimensional systems, Arnold diffusion. Extensive use of computation to capture methods, for simulation, and for symbolic analysis.",
+            "description":   "Classical mechanics in a computational framework, Lagrangian formulation, action, variational principles, and Hamilton\\'s principle. Conserved quantities, Hamiltonian formulation, surfaces of section, chaos, and Liouville\\'s theorem. Poincare integral invariants, Poincare-Birkhoff and KAM theorems. Invariant curves and cantori. Nonlinear resonances, resonance overlap and transition to chaos. Symplectic integration. Adiabatic invariants. Applications to simple physical systems and solar system dynamics. Extensive use of computation to capture methods, for simulation, and for symbolic analysis. Students taking the graduate version complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.351J",
             "joint":         true,
             "semester":      "Fall",
@@ -176,15 +164,27 @@
                 "6.946J",
                 "12.620J",
                 "12.008",
-                "8.01",
                 "18.03",
-                "6.001"
+                "6.01"
             ],
             "in-charge":     [
                 "Wisdom, J.",
                 "Sussman, G. J."
             ],
             "area":          "Graduate Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L018.351",
+            "lecture-section-of": "8.351",
+            "timeAndPlace":       "MWF11 54-317"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B028.351",
+            "lab-section-of": "8.351",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",
@@ -196,11 +196,14 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduces general many-body theory applicable to low temperature, nuclear, and solid-state physics. Reviews occupation number representation and classical Mayer expansion. Perturbation theory: diagrammatic expansions and linked-cluster theorem for zero or finite temperature systems of fermions or bosons. Green's functions: analytic properties, equations of motion, relation to observables, approximations, linear response theory, and random phase approximation. Superconductivity: electron-phonon interaction, instability of normal state, BCS ground state, perturbation theory.",
+            "description":   "Introduces general many-body theory applicable to low temperature, nuclear, and solid-state physics. Reviews occupation number representation and classical Mayer expansion. Perturbation theory: diagrammatic expansions and linked-cluster theorem for zero or finite temperature systems of fermions or bosons. Green\\'s functions: analytic properties, equations of motion, relation to observables, approximations, linear response theory, and random phase approximation. Superconductivity: electron-phonon interaction, instability of normal state, BCS ground state, perturbation theory.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.361",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "8.322",
@@ -234,12 +237,6 @@
             ],
             "in-charge":     "Chuang, I.",
             "area":          "Graduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.371",
-            "lecture-section-of": "8.371",
-            "timeAndPlace":       "TR11-12.30 36-153"
         },
         {
             "type":          "Class",
@@ -369,25 +366,16 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "The first of a two-term subject sequence that provides the foundations for contemporary research in selected areas of atomic and optical phsyics. The interaction of radiation with atoms: resonance; absorption, stimulated and spontaneous emission; methods of resonance, dressed atom formalism, masers and lasers, cavity quantum electrodynamics; structure of simple atoms, behavior in very strong fields; fundamental tests: time reversal, parity violations, Bell's inequalities; and experimental methods.",
+            "description":   "The first of a two-term subject sequence that provides the foundations for contemporary research in selected areas of atomic and optical phsyics. The interaction of radiation with atoms: resonance; absorption, stimulated and spontaneous emission; methods of resonance, dressed atom formalism, masers and lasers, cavity quantum electrodynamics; structure of simple atoms, behavior in very strong fields; fundamental tests: time reversal, parity violations, Bell\\'s inequalities; and experimental methods.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.421",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.05",
-            "in-charge":     "Vuletic, W. Ketterle; V.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects",
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.421",
-            "lecture-section-of": "8.421",
-            "timeAndPlace":       "MW11-12.30 4-159"
         },
         {
             "type":          "Class",
@@ -403,7 +391,10 @@
             "url":           "http://student.mit.edu/catalog/m8b.html#8.422",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.05",
             "in-charge":     "Staff",
@@ -419,7 +410,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Techniques of nonlinear optics with emphasis on fundamentals for optics and photonics research and engineering. Electro optic modulators, harmonic generation, and frequency conversion devices. Nonlinear effects in optical fibers including self phase modulation, nonlinear wave propagation, and solitons. Interaction of light with matter, density matrix techniques, nonlinear spectroscopies and femtosecond optics.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.431J",
             "joint":         true,
@@ -437,12 +428,6 @@
             ],
             "area":          "Graduate Subjects",
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.431",
-            "lecture-section-of": "8.431",
-            "timeAndPlace":       "MW3-4.30 36-372"
         },
         {
             "type":          "Class",
@@ -489,6 +474,12 @@
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L018.511",
+            "lecture-section-of": "8.511",
+            "timeAndPlace":       "MW1-2.30 4-153"
+        },
+        {
             "type":          "Class",
             "label":         "Theory of Solids II",
             "id":            "8.512",
@@ -505,21 +496,9 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.511",
-            "in-charge":     "Lee, P.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects",
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.512",
-            "lecture-section-of": "8.512",
-            "timeAndPlace":       "MW1-2.30 4-153"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R028.512",
-            "rec-section-of": "8.512",
-            "timeAndPlace":   "R EVE (5.30 PM) 12-142"
         },
         {
             "type":          "Class",
@@ -535,7 +514,10 @@
             "url":           "http://student.mit.edu/catalog/m8b.html#8.513",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "8.05",
@@ -543,9 +525,15 @@
                 "8.033",
                 "8.231J"
             ],
-            "in-charge":     "Staff",
+            "in-charge":     "Levitov, L.",
             "area":          "Graduate Subjects",
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L018.513",
+            "lecture-section-of": "8.513",
+            "timeAndPlace":       "TR1-2.30 2-151"
         },
         {
             "type":          "Class",
@@ -561,24 +549,15 @@
             "url":           "http://student.mit.edu/catalog/m8b.html#8.514",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "8.322",
                 "8.333"
             ],
-            "in-charge":     "Todadri, S.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects",
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.514",
-            "lecture-section-of": "8.514",
-            "timeAndPlace":       "TR2.30-4 8-119"
         },
         {
             "type":          "Class",
@@ -594,10 +573,7 @@
             "url":           "http://student.mit.edu/catalog/m8b.html#8.575J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "10.44J",
@@ -611,12 +587,6 @@
             ],
             "area":          "Graduate Subjects",
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.575",
-            "lecture-section-of": "8.575",
-            "timeAndPlace":       "TR10-11.30 66-156"
         },
         {
             "type":          "Class",
@@ -652,14 +622,14 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "development.",
+            "description":   "Topics include molecular, cellular, and developmental systems biology. Molecular systems component covers constructing and modeling of genetic networks, control theory and genetic networks, lambda phage as a genetic switch, synthetic genetic switches, bacterial chemotaxis, genetic oscillators, and circadian rhythms. Cellular systems includes reaction diffusion equations, local activation and global inhibition models, gradient sensing systems, and center-finding networks. Developmental systems covers general pattern formation models, modeling cell-cell communication, quorum sensing, and models for Drosophila development. Students taking the graduate version explore the subject in more depth.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.591J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "prereq":        [
                 "7.81J",
-                "9.531J"
+                "7.32"
             ],
             "in-charge":     "Oudenaarden, A. Van",
             "area":          "Graduate Subjects",
@@ -679,7 +649,10 @@
             "url":           "http://student.mit.edu/catalog/m8b.html#8.592J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.333",
             "in-charge":     [
@@ -703,27 +676,12 @@
             "url":           "http://student.mit.edu/catalog/m8b.html#8.593J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.044",
             "in-charge":     "Benedek, G.",
             "area":          "Graduate Subjects",
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.593",
-            "lecture-section-of": "8.593",
-            "timeAndPlace":       "TR1-2.30 2-105"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R028.593",
-            "rec-section-of": "8.593",
-            "timeAndPlace":   "W1 26-314"
         },
         {
             "type":          "Class",
@@ -735,11 +693,14 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Organization of synaptic connectivity as the basis of neural computation and learning. Single and multilayer perceptrons. Dynamical theories of recurrent networks: amplifiers, integrators, attractors, and hybrid computation. Backpropagation, Hebbian, and reinforcement learning. Models of perception, motor control, memory, and neural development. Alternate years.",
+            "description":   "Organization of synaptic connectivity as the basis of neural computation and learning. Single and multilayer perceptrons. Dynamical theories of recurrent networks: amplifiers, integrators, attractors, and hybrid computation. Backpropagation, Hebbian, and reinforcement learning. Models of perception, motor control, memory, and neural development.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.594J",
             "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "semester":      "Spring",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "9.641J",
@@ -758,7 +719,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduces plasma phenomena relevant to energy generation by controlled thermonuclear fusion and to astrophysics. Elementary plasma concepts, plasma characterization.  Motion of charged particles in magnetic fields. Coulomb collisions, relaxation times, transport processes. Two-fluid hydrodynamic and MHD descriptions. Plasma confinement by magnetic fields, simple equilibrium and stability analysis. Wave propagation in a magnetic field; application to RF plasma heating. Introduction to kinetic theory; Vlasov, Boltzmann and Fokker-Planck equations; relation of fluid and kinetic descriptions. Electron and ion acoustic plasma waves, Landau damping.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.613J",
             "joint":         true,
@@ -783,6 +744,12 @@
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L018.613",
+            "lecture-section-of": "8.613",
+            "timeAndPlace":       "TR11-12.30 NW16-213"
+        },
+        {
             "type":          "Class",
             "label":         "Introduction to Plasma Physics II",
             "id":            "8.614",
@@ -791,7 +758,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Linear waves and instabilities in magnetized plasma; solutions of Vlasov-Maxwell equations in homogeneous and inhomogeneous plasmas; conservation principles for energy and momentum; quasi-linear theory and nonlinear stabilization; solitons and coherent nonlinear phenomena; collisions and discrete particle effects; fluctuations in a stable plasma; Fokker-Planck equation and transport phenomena. A subject description tailored to fit the background and interests of the attending students distributed shortly before and at the beginning of the subject.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.614J",
             "joint":         true,
@@ -810,18 +777,6 @@
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L018.614",
-            "lecture-section-of": "8.614",
-            "timeAndPlace":       "MW2.30-4 36-155"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R028.614",
-            "rec-section-of": "8.614",
-            "timeAndPlace":   "F2-3.30 26-142"
-        },
-        {
             "type":          "Class",
             "label":         "Plasma Waves",
             "id":            "8.624",
@@ -835,12 +790,21 @@
             "url":           "http://student.mit.edu/catalog/m8b.html#8.624",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.613J",
             "in-charge":     "Staff",
             "area":          "Graduate Subjects",
             "subarea":       "Physics of Atoms, Radiation, Solids, Fluids, and Plasmas"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L018.624",
+            "lecture-section-of": "8.624",
+            "timeAndPlace":       "MW11-12.30 NW16-213"
         },
         {
             "type":          "Class",
@@ -877,7 +841,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "The phenomenology and experimental foundations of particle and nuclear physics; the fundamental forces and particles, composites. Interactions of particles with matter, and detectors. SU(2), SU(3), models of mesons and baryons. QED, weak interactions, parity violation, lepton-nucleon scattering, and structure functions. QCD, gluon field and color. W and Z fields, electro-weak unification, the CKM matrix. Nucleon-nucleon interactions, properties of nuclei, single- and collective- particle models. Electron and hadron interactions with nuclei. Relativistic heavy ion collisions, and transition to quark-gluon plasma.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.701",
             "joint":         false,
@@ -886,15 +850,9 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.321",
             "coreq":         "8.322",
-            "in-charge":     "Nahn, S.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear and Particle Physics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.701",
-            "lecture-section-of": "8.701",
-            "timeAndPlace":       "TR1-2.30 4-145"
         },
         {
             "type":          "Class",
@@ -906,7 +864,7 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "A modern, advanced subject in experimental foundations and theoretical understanding of the structure of nucleons and nuclei. Exploring the information obtained with hadron and lepton probes from low to high energies. Hadron structure: form factors, spin structure, and quark content. Nucleon-nucleon scattering: phenomenological and meson exchange potentials, and effective field theory approach. Nuclear properties: saturation, single particle and collective motion, isospin, electromagnetic and weak transitions, core polarization, electron scattering, sum rules, and pair correlations. Nuclear models for structure and reactions: shell and collective models, Hartree-Fock, optical and Fermi gas models, and nuclear resonances. Probing properties of bound, relative to free, nucleons: form factors, and EMC effect. Relativistic heavy ion physics and the quark-gluon plasma.",
+            "description":   "A modern, advanced subject in the experimental foundations and theoretical understanding of the structure of nuclei, beginning with the two- and three-nucleon problems.  Basic nuclear properties, collective and single-particle motion, giant resonances, mean field models, interacting boson model.  Nuclei far from stability, nuclear astrophysics, big-bang and stellar nucleosynthesis.  Electron scattering: nucleon momentum distributions, scaling, olarization observables.  Parity-violating electron scattering.  Neutrino physics.  Current results in relativistic heavy ion physics and hadronic physics. Frontiers and future facilities.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.711",
             "joint":         false,
             "semester":      "Fall",
@@ -921,6 +879,12 @@
             "subarea":       "Nuclear and Particle Physics"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L018.711",
+            "lecture-section-of": "8.711",
+            "timeAndPlace":       "MW1-2.30 26-328"
+        },
+        {
             "type":          "Class",
             "label":         "Advanced Topics in Nuclear Physics",
             "id":            "8.712",
@@ -930,7 +894,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Subject for experimentalists and theorists with rotation of the following topics: (1) Nuclear chromodynamics-- introduction to QCD, structure of nucleons, lattice QCD, phases of hadronic matter; and relativistic heavy ion collisions. (2) Medium-energy physics-- nuclear and nucleon structure and dynamics studied with medium- and high-energy probes (neutrinos, photons, electrons, nucleons, pions, and kaons). Studies of weak and strong interactions.",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.712",
             "joint":         false,
             "semester":      [
@@ -943,7 +907,6 @@
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.711",
-            "in-charge":     "Staff",
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear and Particle Physics"
         },
@@ -980,16 +943,28 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Survey of current research in high energy physics. Topics include electron-positron and proton-antiproton collisions; electroweak phenomena, heavy-flavor physics, and high-precision tests of the standard model. Other topics include searches for new phenomena (compositeness, supersymmetry, and GUTs), discussion of our new experimental results (e.g., the top quark), and expectations from future accelerators (B factory, LHC).",
+            "description":   "Modern review of particles, interactions, and recent experiments. Experimental and analytical methods. QED, electroweak theory, and the Standard Model as tested in recent key experiments at ee and pp colliders. Mass generation, W, Z, and Higgs physics. Weak decays of mesons, including heavy flavors with QCD corrections. Mixing phenomena for K, D, B mesons and neutrinos. CP violation with results from B-factories. Future physics expectations: Higgs, SUSY, sub-structure as addressed by new experiments at the LHC collider.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.811",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.701",
-            "in-charge":     "Chen, M.",
+            "in-charge":     "Becker, U.",
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear and Particle Physics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L018.811",
+            "lecture-section-of": "8.811",
+            "timeAndPlace":       "TR2.30-4 12-142"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R028.811",
+            "rec-section-of": "8.811",
+            "timeAndPlace":   "R4.30 12-142"
         },
         {
             "type":          "Class",
@@ -1016,6 +991,12 @@
             "subarea":       "Nuclear and Particle Physics"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L018.821",
+            "lecture-section-of": "8.821",
+            "timeAndPlace":       "TR11-12.30 56-191"
+        },
+        {
             "type":          "Class",
             "label":         "Supersymmetric Quantum Field Theories",
             "id":            "8.831",
@@ -1025,16 +1006,17 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "No description available.",
+            "description":   "Topics selected from the following: SUSY algebras and their particle representations; Weyl and Majorana spinors; Lagrangians of basic four-dimensional SUSY theories, both rigid SUSY and supergravity; supermultiplets of fields and superspace methods; renormalization properties, and the non-renormalization theorem; sponteneous breakdown of SUSY; and phenomenological SUSY theories. Some prior knowledge of Noether\\'s theorem, derivation and use of Feynman rules, l-loop renormalization, and gauge theories is essential.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.831J",
             "joint":         true,
             "semester":      "Spring",
             "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
+                "Can be repeated for credit",
+                "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "18.396J",
+            "in-charge":     "Freedman, D. Z.",
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear and Particle Physics"
         },
@@ -1052,10 +1034,7 @@
             "url":           "http://student.mit.edu/catalog/m8b.html#8.841",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.324",
             "in-charge":     "Staff",
@@ -1076,10 +1055,7 @@
             "url":           "http://student.mit.edu/catalog/m8b.html#8.851",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.324",
             "in-charge":     "Staff",
@@ -1143,7 +1119,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.881, 8.882",
             "joint":         false,
             "semester":      [
@@ -1156,15 +1132,8 @@
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "8.811",
-            "in-charge":     "MW1-2.30",
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear and Particle Physics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.881, 8.882",
-            "lecture-section-of": "8.881, 8.882",
-            "timeAndPlace":       "MW1-2.30 26-414"
         },
         {
             "type":          "Class",
@@ -1175,22 +1144,16 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Size and time scales. Historical astronomy. Astronomical instrumentation. Stars: spectra and classification. Stellar structure equations and survey of stellar evolution. Stellar oscillations. Degenerate and collapsed stars; radio pulsars. Interacting binary systems; accretion disks, x-ray sources. Gravitational lenses; dark matter. Interstellar medium: HII regions, supernova remnants, molecular clouds, dust; radiative transfer; Jeans' mass; star formation. High-energy astrophysics: Compton scattering, bremsstrahlung, synchrotron radiation, cosmic rays. Galactic stellar distributions and populations; Oort constants; Oort limit; and globular clusters.",
+            "has-final":     false,
+            "description":   "Size and time scales. Historical astronomy. Astronomical instrumentation. Stars: spectra and classification. Stellar structure equations and survey of stellar evolution. Stellar oscillations. Degenerate and collapsed stars; radio pulsars. Interacting binary systems; accretion disks, x-ray sources. Gravitational lenses; dark matter. Interstellar medium: HII regions, supernova remnants, molecular clouds, dust; radiative transfer; Jeans\\' mass; star formation. High-energy astrophysics: Compton scattering, bremsstrahlung, synchrotron radiation, cosmic rays. Galactic stellar distributions and populations; Oort constants; Oort limit; and globular clusters.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.901",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Belcher, J.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects",
             "subarea":       "Space Physics and Astrophysics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.901",
-            "lecture-section-of": "8.901",
-            "timeAndPlace":       "MWF2 8-119"
         },
         {
             "type":          "Class",
@@ -1201,7 +1164,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Galactic dynamics: potential theory, orbits, collisionless Boltzmann equation, etc. Galaxy interactions. Groups and clusters; dark matter. Intergalactic medium; x-ray clusters. Active galactic nuclei: unified models, black hole accretion, radio and optical jets, etc. Homogeneity and isotropy, redshift, galaxy distance ladder. Newtonian cosmology. Roberston-Walker models and cosmography. Early universe, primordial nucleosynthesis, recombination. Cosmic microwave background radiation. Large-scale structure, galaxy formation.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.902",
             "joint":         false,
@@ -1212,6 +1175,12 @@
             "in-charge":     "Simcoe, R.",
             "area":          "Graduate Subjects",
             "subarea":       "Space Physics and Astrophysics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L018.902",
+            "lecture-section-of": "8.902",
+            "timeAndPlace":       "MWF10 36-112"
         },
         {
             "type":          "Class",
@@ -1243,15 +1212,24 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Thermal backgrounds in space. Cosmological principle and its consequences: Newtonian cosmology and types of \"universes\"; survey of relativistic cosmology; horizons. Overview of evolution in cosmology; radiation and element synthesis; physical models of the \"early stages.\" Formation of large-scale structure to variability of physical laws. First and last states. Some knowledge of relativity expected. 8.962 recommended though not required.",
+            "description":   "Thermal backgrounds in space. Cosmological principle and its consequences: Newtonian cosmology and types of \\\u0022universes\\\u0022; survey of relativistic cosmology; horizons. Overview of evolution in cosmology; radiation and element synthesis; physical models of the \\\u0022early stages.\\\u0022 Formation of large-scale structure to variability of physical laws. First and last states. Some knowledge of relativity expected. 8.962 recommended though not required.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.942",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff",
+            "in-charge":     "Hughes, S.",
             "area":          "Graduate Subjects",
             "subarea":       "Space Physics and Astrophysics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L018.942",
+            "lecture-section-of": "8.942",
+            "timeAndPlace":       "TR2-3.30 8-119"
         },
         {
             "type":          "Class",
@@ -1285,7 +1263,7 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "The basic principles of Einstein's general theory of relativity, differential geometry, experimental tests of general relativity, black holes, and cosmology.",
+            "description":   "The basic principles of Einstein\\'s general theory of relativity, differential geometry, experimental tests of general relativity, black holes, and cosmology.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.962",
             "joint":         false,
             "semester":      "Spring",
@@ -1296,21 +1274,9 @@
                 "18.06",
                 "8.07"
             ],
-            "in-charge":     "Hughes, S.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects",
             "subarea":       "Space Physics and Astrophysics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.962",
-            "lecture-section-of": "8.962",
-            "timeAndPlace":       "TR1-2.30 3-343"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R028.962",
-            "rec-section-of": "8.962",
-            "timeAndPlace":   "W1 3-442"
         },
         {
             "type":          "Class",
@@ -1334,7 +1300,7 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "W4-5.30",
+            "in-charge":     "R2.30-4",
             "area":          "Graduate Subjects",
             "subarea":       "Space Physics and Astrophysics"
         },
@@ -1342,7 +1308,7 @@
             "type":               "LectureSection",
             "label":              "L018.971, 8.972",
             "lecture-section-of": "8.971, 8.972",
-            "timeAndPlace":       "W4-5.30 2-151"
+            "timeAndPlace":       "R2.30-4 33-418"
         },
         {
             "type":          "Class",
@@ -1354,7 +1320,7 @@
             "units":         "3-0-9 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/m8b.html#8.981, 8.982",
             "joint":         false,
             "semester":      [
@@ -1366,15 +1332,8 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "TR3",
             "area":          "Graduate Subjects",
             "subarea":       "Space Physics and Astrophysics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L018.981, 8.982",
-            "lecture-section-of": "8.981, 8.982",
-            "timeAndPlace":       "TR3 5-232"
         },
         {
             "type":          "Class",

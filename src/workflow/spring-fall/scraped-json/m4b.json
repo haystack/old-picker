@@ -10,7 +10,7 @@
             "units":         "2-4-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduction to artistic practice and aesthetic analysis through studio work and lectures. Students communicate ideas and experiences through various media such as sculpture, installation, performance, and video. Projects evolve through stages of conceptual and material development to final presentation. Lectures, visiting artist presentations, field trips, and readings supplement studio practice, providing an index to the historical, cultural, and environmental forces that affect both development of artistic vision and reception of works of art. Lab fee.",
+            "description":   "Introduction to artistic practice and aesthetic analysis through studio work and lectures based on current themes. Students communicate ideas and experiences through various media such as sculpture, installation, performance, and video. Projects evolve through stages of conceptual and material development to final presentation. Lectures, visiting artist presentations, field trips, and readings supplement studio practice, providing an index to the historical, cultural, and environmental forces that affect both development of artistic vision and reception of works of art. Lab fee.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.301",
             "joint":         false,
             "semester":      [
@@ -20,23 +20,17 @@
             "offering":      "Currently Offered",
             "category":      "HASS-D 3",
             "prereq":        "4.302",
-            "in-charge":     "Jacob, W."
+            "in-charge":     "Staff, Visual Arts"
         },
         {
-            "type":           "LabSection",
-            "label":          "B014.301",
-            "lab-section-of": "4.301",
-            "timeAndPlace":   "TR2-5 N51-145"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B024.301",
-            "lab-section-of": "4.301",
-            "timeAndPlace":   "MW9.30-12.30 N51-145"
+            "type":               "LectureSection",
+            "label":              "L014.301",
+            "lecture-section-of": "4.301",
+            "timeAndPlace":       "TR2-5 N52-342"
         },
         {
             "type":          "Class",
-            "label":         "BSAD Foundations in the Visual Arts",
+            "label":         "Foundations in the Visual Arts for Majors",
             "id":            "4.302",
             "listing-index": "m4b-001",
             "course":        "4",
@@ -44,10 +38,10 @@
             "units":         "2-4-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Offers a foundation in the visual art practice and its critical analysis for beginning architecture students. Emphasis on long-range artistic development and its analogies to architectural thinking and practice. Learn to communicate ideas and experiences through various two-dimensional, three-dimensional, and time-based media, including sculpture, installation, performance, and video. Lectures, visiting artist presentations, field trips, and readings supplement studio practice. Required of and restricted to Course 4 majors. Lab fee.",
+            "description":   "Offers a foundation in the visual art practice and its critical analysis for beginning architecture students. Emphasis on long-range artistic development and its analogies to architectural thinking and practice. Learn to communicate ideas and experiences through various two-dimensional, three-dimensional, and time-based media, including sculpture, installation, performance, and video. Lectures, visiting artist presentations, field trips, and readings supplement studio practice. Instruction and practice in written and oral communication provided. Restricted to Course 4 majors. Lab fee.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.302",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "4.301",
             "in-charge":     "Jacob, W."
@@ -70,84 +64,46 @@
             "in-charge":     "Bauer, U. M."
         },
         {
-            "type":          "Class",
-            "label":         "Advanced Visual Arts Studio",
-            "id":            "4.305",
-            "listing-index": "m4b-003",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Focuses on the individual student/artist and the development of a unique body of work. Visual materials, readings, and discussion of the students' work. Reviews help students critique their work and the work of classmates. Possible media include sculpture, installation, performance, photography, and video. Concludes with a public exhibition.",
-            "url":           "http://student.mit.edu/catalog/m4b.html#4.305",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "prereq":        "4.306",
-            "in-charge":     "Jacob, W."
-        },
-        {
             "type":               "LectureSection",
-            "label":              "L014.305",
-            "lecture-section-of": "4.305",
-            "timeAndPlace":       "TR9.30-12.30 N51-145"
+            "label":              "L014.303",
+            "lecture-section-of": "4.303",
+            "timeAndPlace":       "M12.30-3.30 N51-315"
         },
         {
-            "type":          "Class",
-            "label":         "Advanced Visual Arts Studio",
-            "id":            "4.306",
-            "listing-index": "m4b-004",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Focuses on the individual student/artist and the development of a unique body of work. Visual materials, readings, and discussion of the students' work. Reviews help students critique their work and the work of classmates. Possible media include sculpture, installation, performance, photography, and video. Concludes with a public exhibition.",
-            "url":           "http://student.mit.edu/catalog/m4b.html#4.306",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "4.305",
-            "in-charge":     "Jacob, W."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.306",
-            "lecture-section-of": "4.306",
-            "timeAndPlace":       "TR9.30-12.30 N51-145"
+            "type":           "RecitationSection",
+            "label":          "R024.303",
+            "rec-section-of": "4.303",
+            "timeAndPlace":   "M EVE (7-9 PM) N51-337"
         },
         {
             "type":          "Class",
             "label":         "Introduction to Sculpture",
             "id":            "4.322",
-            "listing-index": "m4b-005",
+            "listing-index": "m4b-003",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "2-4-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduces fundamental issues in sculpture such as site, context, process, and the object's relation to the body. Explores issues of interpretation and audience interaction. Introduces a variety of materials and techniques including metal,  wood, plaster. Lab fee. Limited enrollment.",
+            "description":   "Introduces fundamental issues in sculpture such as site, context, process, and the object\\'s relation to the body. Explores issues of interpretation and audience interaction. Introduces a variety of materials and techniques including metal,  wood, plaster. Lab fee. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.322",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "HASS Elective",
-            "in-charge":     "Jacob, W."
+            "in-charge":     "Staff, Visual Arts"
         },
         {
             "type":          "Class",
             "label":         "Introduction to Photography and Related Media",
             "id":            "4.341",
-            "listing-index": "m4b-006",
+            "listing-index": "m4b-004",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Combines practical instruction, field trips, group discussions, and individual reviews intended to foster a critical awareness of how images in our diverse culture are constructed, produced and preserved. Student-initiated term projects are at the core of this exploration of the relationship of image to language and issues of interpretation and personal history. Practical instruction in basic black and white techniques, digital imaging, fundamentals of camera operation, lighting, film exposure, development, and printing. 4.343 provides opportunity for continued exploration. Lab fee. Limited enrollment.",
+            "description":   "Combines hands-on experience, lectures, visiting professionals, group discussions, readings, and field trips. Fosters aesthetic appreciation of photography/digital imaging as well as a critical awareness of how images in our culture are produced and constructed. Practical instruction in camera formats, film exposure and development, black and white darkroom printing, digital imaging, and studio lighting. Assignments designed to develop technical skills and provide opportunity for personal exploration. Projects continuously presented and discussed in a critical forum. Lab fee. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.341",
             "joint":         false,
             "semester":      [
@@ -162,19 +118,19 @@
             "type":               "LectureSection",
             "label":              "L014.341",
             "lecture-section-of": "4.341",
-            "timeAndPlace":       "TR2-5 N51-315"
+            "timeAndPlace":       "TR9.30-12.30 N51-315"
         },
         {
             "type":          "Class",
             "label":         "Photography and Related Media",
             "id":            "4.343",
-            "listing-index": "m4b-007",
+            "listing-index": "m4b-005",
             "course":        "4",
             "level":         "Grad",
-            "units":         "3-0-6",
+            "units":         "3-1-5",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Practical instruction, readings, lectures, field trips, visiting artists, group discussions, and individual reviews. Fosters a critical awareness of how images in our diverse culture are constructed, produced and preserved. Student-initiated term project at the core of exploration. Special consideration given to the relationship of space and the photographic image. Practical instruction in basic black and white techniques, digital imaging, fundamentals of camera operation, lighting, film exposure, development, and printing. Open to beginning and advanced students. Lab fee. Enrollment limited, with preference given to current MArch students.",
+            "description":   "Practical instruction, readings, lectures, field trips, visiting artists, group discussions, and individual reviews. Fosters a critical awareness of how images in our culture are  produced and constructed. Student-initiated term project at the core of exploration. Special consideration given to the relationship of the photographic image to context and space. Practical instruction in the fundamentals of different camera formats, film exposure, and development; and basic techniques, including black and white darkroom printing, digital imaging, and studio lighting. Open to beginning and advanced students. Lab fee. Enrollment limited, with preference given to current MArch students.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.343",
             "joint":         false,
             "semester":      [
@@ -191,13 +147,13 @@
             "type":               "LectureSection",
             "label":              "L014.343",
             "lecture-section-of": "4.343",
-            "timeAndPlace":       "W EVE (5.30-8.30 PM) N51-315"
+            "timeAndPlace":       "W2-5 N51-315"
         },
         {
             "type":          "Class",
             "label":         "Introduction to Video",
             "id":            "4.351",
-            "listing-index": "m4b-008",
+            "listing-index": "m4b-006",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "2-4-6",
@@ -218,13 +174,13 @@
             "type":               "LectureSection",
             "label":              "L014.351",
             "lecture-section-of": "4.351",
-            "timeAndPlace":       "MW2-5 N51-315"
+            "timeAndPlace":       "WF2-5 N51-315"
         },
         {
             "type":          "Class",
             "label":         "Advanced Video",
             "id":            "4.352",
-            "listing-index": "m4b-009",
+            "listing-index": "m4b-007",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "2-4-6",
@@ -249,13 +205,13 @@
             "type":               "LectureSection",
             "label":              "L014.352",
             "lecture-section-of": "4.352",
-            "timeAndPlace":       "TR EVE (7-10 PM) N51-315"
+            "timeAndPlace":       "TW EVE (7-10 PM) N51-315"
         },
         {
             "type":          "Class",
             "label":         "Advanced Video",
             "id":            "4.353",
-            "listing-index": "m4b-010",
+            "listing-index": "m4b-008",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -277,13 +233,13 @@
             "type":               "LectureSection",
             "label":              "L014.353",
             "lecture-section-of": "4.353",
-            "timeAndPlace":       "TR EVE (7-10 PM) N51-315"
+            "timeAndPlace":       "TW EVE (7-10 PM) N51-315"
         },
         {
             "type":          "Class",
             "label":         "Performance Workshop",
             "id":            "4.360",
-            "listing-index": "m4b-011",
+            "listing-index": "m4b-009",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-3-6",
@@ -298,13 +254,19 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff, Visual Arts"
+            "in-charge":     "Jonas, J."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.360",
+            "lecture-section-of": "4.360",
+            "timeAndPlace":       "T2-5 N51-337"
         },
         {
             "type":          "Class",
             "label":         "Advanced Projects in Visual Arts",
             "id":            "4.365",
-            "listing-index": "m4b-012",
+            "listing-index": "m4b-010",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -322,19 +284,25 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Jonas, J."
+            "in-charge":     "Staff, Visual Arts"
         },
         {
             "type":               "LectureSection",
             "label":              "L014.365",
             "lecture-section-of": "4.365",
-            "timeAndPlace":       "W2-5 N51-337"
+            "timeAndPlace":       "M12.30-3.30 N52-342"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R024.365",
+            "rec-section-of": "4.365",
+            "timeAndPlace":   "M EVE (7-9 PM) N51-337"
         },
         {
             "type":          "Class",
             "label":         "Advanced Projects in Visual Arts",
             "id":            "4.366",
-            "listing-index": "m4b-013",
+            "listing-index": "m4b-011",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "2-4-6",
@@ -352,31 +320,25 @@
                 "Currently Offered"
             ],
             "category":      "HASS Elective",
-            "in-charge":     "Frid-Jimenez, A."
+            "in-charge":     "Staff, Visual Arts"
         },
         {
             "type":               "LectureSection",
             "label":              "L014.366",
             "lecture-section-of": "4.366",
-            "timeAndPlace":       "W9.30-12.30 N51-348"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B024.366",
-            "lab-section-of": "4.366",
-            "timeAndPlace":   "M EVE (7-10 PM) N51-337"
+            "timeAndPlace":       "M9.30-12.30 N52-342"
         },
         {
             "type":          "Class",
             "label":         "Studio Seminar in Public Art",
             "id":            "4.367",
-            "listing-index": "m4b-014",
+            "listing-index": "m4b-012",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Focuses on the production of visual art for public places outside the gallery/museum context. Readings and discussions that engage aesthetic, social, political, and urban issues relevant to this expanded public context complement studio production. Traditional approaches of enhancement and commemoration are contrasted to more temporal and critical methodologies. Historical models are studied and discussed, including Russian Constructivist experiments, the Situationists, Conceptual Art, and more recent interventionist tactics. Additional work required of graduate students.",
+            "description":   "Focuses on the production of visual art in public places, outside the gallery/museum context. Students are expected to develop a project throughout the term for public placement during finals. Aesthetic, social, and political issues in the urban setting are to be analyzed vis-a-vis enforced public policy. Traditional forms of commemoration examined, in comparison to more temporal and critical forms of public art and action. Historical models include the Russian Constructivists, the Situationists International, Conceptual Art, and more recent interventionist tactics. Readings assigned to help assess the understanding, meaning and intention of each individual\\'s project. Additional work required of students taking the graduate version.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.367",
             "joint":         false,
             "semester":      "Spring",
@@ -386,22 +348,16 @@
             "in-charge":     "Muntadas, A."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.367",
-            "lecture-section-of": "4.367",
-            "timeAndPlace":       "MW2-5 9-255"
-        },
-        {
             "type":          "Class",
             "label":         "Studio Seminar in Public Art",
             "id":            "4.368",
-            "listing-index": "m4b-015",
+            "listing-index": "m4b-013",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Focuses on the production of visual art for public places outside the gallery/museum context. Readings and discussions that engage aesthetic, social, political, and urban issues relevant to this expanded public context complement studio production. Traditional approaches of enhancement and commemoration are contrasted to more temporal and critical methodologies. Historical models are studied and discussed, including Russian Constructivist experiments, the Situationists, Conceptual Art, and more recent interventionist tactics.",
+            "description":   "Focuses on the production of visual art in public places, outside the gallery/museum context. Students are expected to develop a project throughout the term for public placement during finals. Aesthetic, social, and political issues in the urban setting are to be analyzed vis-a-vis enforced public policy. Traditional forms of commemoration examined, in comparison to more temporal and critical forms of public art and action. Historical models include the Russian Constructivists, the Situationists International, Conceptual Art, and more recent interventionist tactics. Readings assigned to help assess the understanding, meaning and intention of each individual\\'s project. Additional work required of students taking the graduate version.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.368",
             "joint":         false,
             "semester":      "Spring",
@@ -411,22 +367,16 @@
             "in-charge":     "Muntadas, A."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.368",
-            "lecture-section-of": "4.368",
-            "timeAndPlace":       "MW2-5 9-255"
-        },
-        {
             "type":          "Class",
             "label":         "Interrogative Design Workshop",
             "id":            "4.370",
-            "listing-index": "m4b-016",
+            "listing-index": "m4b-014",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Can design for needs produced by unacceptable conditions create new critical consciousness to render those needs obsolete? In hope of finding a positive answer, this design workshop responds to needs that should not, but unfortunately do, exist in today's troubled world. Addresses design media and technology as both ethical and aesthetic practice. Development of projects finalized as working tools, instruments, implements, and equipment are supported by relevant theoretical study, presentations and informed discussion. Workshop poses new questions, exposes hidden issues, and creates inspirational and experimental situations for designers and artists as cultural agents.",
+            "description":   "Addresses design media and technology as both ethical and aesthetic practice. Development of projects finalized as working tools, instruments, implements, and equipment is supported by relevant theoretical study, presentations and informed discussion. Workshop poses new questions, exposes hidden issues, and creates inspirational and experimental situations for designers and artists as cultural agents. Additional work required of students taking the graduate version.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.370",
             "joint":         false,
             "semester":      [
@@ -439,38 +389,41 @@
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "4.371",
-            "in-charge":     "Bauer, U.M."
+            "in-charge":     "Wodiczko, K."
         },
         {
             "type":               "LectureSection",
             "label":              "L014.370",
             "lecture-section-of": "4.370",
-            "timeAndPlace":       [
-                "W9.30-12.30 N51-337",
-                "F9-12 N51-337"
-            ]
+            "timeAndPlace":       "M2-5 N52-396"
         },
         {
-            "type":           "LabSection",
-            "label":          "B024.370",
-            "lab-section-of": "4.370",
-            "timeAndPlace":   "M EVE (7-10 PM) N51-337"
+            "type":           "RecitationSection",
+            "label":          "R024.370",
+            "rec-section-of": "4.370",
+            "timeAndPlace":   "W9.30-12.30 N52-396"
         },
         {
             "type":          "Class",
             "label":         "Interrogative Design Workshop",
             "id":            "4.371",
-            "listing-index": "m4b-017",
+            "listing-index": "m4b-015",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "3-3-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Can design for needs produced by unacceptable conditions create new critical consciousness to render those needs obsolete? In hope of finding a positive answer, this design workshop responds to needs that should not, but unfortunately do, exist in today's troubled world. Addresses design media and technology as both ethical and aesthetic practice. Development of projects finalized as working tools, instruments, implements, and equipment are supported by relevant theoretical study, presentations and informed discussion. Workshop poses new questions, exposes hidden issues, and creates inspirational and experimental situations for designers and artists as cultural agents.",
+            "description":   "Addresses design media and technology as both ethical and aesthetic practice. Development of projects finalized as working tools, instruments, implements, and equipment is supported by relevant theoretical study, presentations and informed discussion. Workshop poses new questions, exposes hidden issues, and creates inspirational and experimental situations for designers and artists as cultural agents. Additional work required of students taking the graduate version.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.371",
             "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
+            "offering":      [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "prereq":        "4.370",
             "in-charge":     "Wodiczko, K."
         },
@@ -478,22 +431,19 @@
             "type":               "LectureSection",
             "label":              "L014.371",
             "lecture-section-of": "4.371",
-            "timeAndPlace":       [
-                "W9.30-12.30 N51-337",
-                "F9-12 N51-337"
-            ]
+            "timeAndPlace":       "M2-5 N52-396"
         },
         {
-            "type":           "LabSection",
-            "label":          "B024.371",
-            "lab-section-of": "4.371",
-            "timeAndPlace":   "M EVE (7-10 PM) N51-337"
+            "type":           "RecitationSection",
+            "label":          "R024.371",
+            "rec-section-of": "4.371",
+            "timeAndPlace":   "W9.30-12.30 N52-396"
         },
         {
             "type":          "Class",
             "label":         "Advanced Visual Design",
             "id":            "4.381",
-            "listing-index": "m4b-018",
+            "listing-index": "m4b-016",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -511,83 +461,86 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Frid-Jimenez, A."
+            "in-charge":     "Staff"
         },
         {
             "type":               "LectureSection",
             "label":              "L014.381",
             "lecture-section-of": "4.381",
-            "timeAndPlace":       "W9.30-12.30 N51-348"
+            "timeAndPlace":       "R9.30-12.30 N51-337"
         },
         {
-            "type":           "LabSection",
-            "label":          "B024.381",
-            "lab-section-of": "4.381",
-            "timeAndPlace":   "M EVE (7-10 PM) N51-337"
+            "type":           "RecitationSection",
+            "label":          "R024.381",
+            "rec-section-of": "4.381",
+            "timeAndPlace":   "M EVE (7-9 PM) N51-337"
         },
         {
             "type":          "Class",
             "label":         "Preparation for SMVisS Thesis",
             "id":            "4.388",
-            "listing-index": "m4b-019",
+            "listing-index": "m4b-017",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Selection of thesis topic, definition of method of approach, and preparation of thesis proposal. Weekly group meetings, supplemented by independent study and individual conference with faculty. Required of SMVisS students. Prerequisite for 4.389 and 4.ThG.",
+            "description":   "Selection of thesis topic, definition of method of approach, and preparation of thesis proposal. Weekly group meetings, supplemented by independent study and individual conference with faculty. Prerequisite for 4.389 and 4.ThG.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.388",
             "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "semester":      [
+                "Spring",
+                "Summer"
+            ],
+            "offering":      [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Jonas, J."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.388",
-            "lecture-section-of": "4.388",
-            "timeAndPlace":       "T2-5 N52-314"
+            "in-charge":     "Staff, Visual Arts"
         },
         {
             "type":          "Class",
             "label":         "SMVisS Thesis Tutorial",
             "id":            "4.389",
-            "listing-index": "m4b-020",
+            "listing-index": "m4b-018",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Regularly scheduled presentations and critique by thesis class. Independent thesis research supplemented by individual conference with thesis advisor. Required of SMVisS students. Prerequisite for 4.ThG.",
+            "description":   "Regularly scheduled presentations and critique by thesis class. Independent thesis research supplemented by individual conference with thesis advisor. Prerequisite for 4.ThG.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.389",
             "joint":         false,
             "semester":      [
                 "Fall",
                 "Spring"
             ],
-            "offering":      "Currently Offered",
+            "offering":      [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "4.388",
-            "in-charge":     "Bauer, U.M."
+            "in-charge":     "Staff, Visual Arts"
         },
         {
             "type":               "LectureSection",
             "label":              "L014.389",
             "lecture-section-of": "4.389",
-            "timeAndPlace":       "R9.30-12.30 N52-314"
+            "timeAndPlace":       "W9.30-12.30 N51-337"
         },
         {
             "type":          "Class",
             "label":         "Visual Arts Independent Studio",
             "id":            "4.390",
-            "listing-index": "m4b-021",
+            "listing-index": "m4b-019",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Individual inquiry into art relating independent study project to the general direction of student's work and course of study. Consultations with faculty advisor as well as periodic presentations to entire visual arts faculty and guest critics. Required of and restricted to SMVisS program students.",
+            "description":   "Individual inquiry into art relating independent study project to the general direction of student\\'s work and course of study. Consultations with faculty advisor as well as periodic presentations to entire visual arts faculty and guest critics. Restricted to SMVisS program students.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.390",
             "joint":         false,
             "semester":      [
@@ -599,19 +552,19 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Muntadas, A."
+            "in-charge":     "Staff, Visual Arts"
         },
         {
             "type":               "LectureSection",
             "label":              "L014.390",
             "lecture-section-of": "4.390",
-            "timeAndPlace":       "T9-12.30 N51-348"
+            "timeAndPlace":       "T9-1 N52-396"
         },
         {
             "type":          "Class",
             "label":         "Special Problems in Visual Arts",
             "id":            "4.391-4.393",
-            "listing-index": "m4b-022",
+            "listing-index": "m4b-020",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -647,39 +600,57 @@
             "in-charge":     "Staff, Visual Arts"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.391-4.393",
+            "lecture-section-of": "4.391-4.393",
+            "timeAndPlace":       "R9.30-12.30 N51-337"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R024.391-4.393",
+            "rec-section-of": "4.391-4.393",
+            "timeAndPlace":   "M EVE (7-9 PM) N51-337"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L034.391-4.393",
+            "lecture-section-of": "4.391-4.393",
+            "timeAndPlace":       "R9.30-12.30 N51-337"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R044.391-4.393",
+            "rec-section-of": "4.391-4.393",
+            "timeAndPlace":   "M EVE (7-9 PM) N51-337"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L054.391-4.393",
+            "lecture-section-of": "4.391-4.393",
+            "timeAndPlace":       "M9.30-12.30 N52-342"
+        },
+        {
             "type":          "Class",
             "label":         "Introduction to Building Technology",
             "id":            "4.401",
-            "listing-index": "m4b-023",
+            "listing-index": "m4b-021",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "3-2-7",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduction to the physical process behind the design of a building's envelope, interior, and equipment. Integration of technological constraints in architectural design: Response to climate, construction methods and issues, heat and air flow, thermal comfort and insulation, passive and active heating and cooling, natural and electric lighting, visual comfort, acoustics.",
+            "description":   "Introduction to the physical process behind the design of a building\\'s envelope, interior, and equipment. Integration of technological constraints in architectural design: Response to climate, construction methods and issues, heat and air flow, thermal comfort and insulation, passive and active heating and cooling, natural and electric lighting, visual comfort, acoustics.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.401",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "in-charge":     "Andersen, M."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.401",
-            "lecture-section-of": "4.401",
-            "timeAndPlace":       "MW11-12.30 3-133"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R024.401",
-            "rec-section-of": "4.401",
-            "timeAndPlace":   "F11 5-134"
+            "in-charge":     "Staff, Building Technology"
         },
         {
             "type":          "Class",
             "label":         "Ecologies of Construction",
             "id":            "4.406",
-            "listing-index": "m4b-024",
+            "listing-index": "m4b-022",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -689,7 +660,7 @@
             "url":           "http://student.mit.edu/catalog/m4b.html#4.406",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Fernandez, J."
         },
@@ -697,13 +668,13 @@
             "type":          "Class",
             "label":         "Special Problems in Building Construction",
             "id":            "4.408",
-            "listing-index": "m4b-025",
+            "listing-index": "m4b-023",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "No description available.",
+            "description":   "Supplementary work on individual or group basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.408",
             "joint":         false,
             "semester":      [
@@ -714,13 +685,14 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit"
+            "category":      "H-LEVEL Grad Credit",
+            "in-charge":     "Staff, Building Technology"
         },
         {
             "type":          "Class",
             "label":         "Building Technology Laboratory",
             "id":            "4.411",
-            "listing-index": "m4b-026",
+            "listing-index": "m4b-024",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "2-4-6",
@@ -732,17 +704,31 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
-            "prereq":        [
-                "8.02",
-                "18.02"
-            ],
             "in-charge":     "Norford, L. K."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.411",
+            "lecture-section-of": "4.411",
+            "timeAndPlace":       "M12.30-2 5-217"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R024.411",
+            "rec-section-of": "4.411",
+            "timeAndPlace":   "T2-5 3-402"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R034.411",
+            "rec-section-of": "4.411",
+            "timeAndPlace":   "W2-5 3-402"
         },
         {
             "type":          "Class",
             "label":         "Fundamentals of Energy in Buildings",
             "id":            "4.42",
-            "listing-index": "m4b-027",
+            "listing-index": "m4b-025",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "3-2-7",
@@ -752,21 +738,34 @@
             "url":           "http://student.mit.edu/catalog/m4b.html#4.42J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "Restricted Electives in Science and Technology",
             "prereq":        [
                 "1.044J",
-                "2.66J",
-                "8.01",
-                "18.02"
+                "2.66J"
             ],
             "in-charge":     "Glicksman, L. R."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.42",
+            "lecture-section-of": "4.42",
+            "timeAndPlace":       "MW11-12.30 5-231"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R024.42",
+            "rec-section-of": "4.42",
+            "timeAndPlace":   "F11-12.30 5-231"
         },
         {
             "type":          "Class",
             "label":         "Architectural Thermal and Fluid Dynamics",
             "id":            "4.423",
-            "listing-index": "m4b-028",
+            "listing-index": "m4b-026",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-2-7",
@@ -775,8 +774,11 @@
             "description":   "Application of heat transfer and fluid dynamics to airflows within buildings. Analytic models of coupled flow and heat transfer for wind- and buoyancy-controlled natural ventilation. Stability of multiple equilibrium solutions. Analysis of displacement ventilation, jet flows and diffusers. Multi-node and multi-zone models, and computational fluid dynamics. Use of similitude in laboratory scale models. Measurement techniques within real buildings.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.423J",
             "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "semester":      "Fall",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.661J",
@@ -790,10 +792,16 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.423",
+            "lecture-section-of": "4.423",
+            "timeAndPlace":       "TR11-12.30 1-371"
+        },
+        {
             "type":          "Class",
             "label":         "Analysis and Design of Heating, Ventilating, and Air Conditioning Systems",
             "id":            "4.427",
-            "listing-index": "m4b-029",
+            "listing-index": "m4b-027",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -803,10 +811,7 @@
             "url":           "http://student.mit.edu/catalog/m4b.html#4.427J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.006",
@@ -818,16 +823,10 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.427",
-            "lecture-section-of": "4.427",
-            "timeAndPlace":       "TR11-12.30 1-132"
-        },
-        {
             "type":          "Class",
             "label":         "Special Problems in Energy in Buildings",
             "id":            "4.428, 4.429",
-            "listing-index": "m4b-030",
+            "listing-index": "m4b-028",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -854,7 +853,7 @@
             "type":          "Class",
             "label":         "Daylighting",
             "id":            "4.430",
-            "listing-index": "m4b-031",
+            "listing-index": "m4b-029",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -870,10 +869,16 @@
             "in-charge":     "Andersen, M."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.430",
+            "lecture-section-of": "4.430",
+            "timeAndPlace":       "TR11-12.30 8-205"
+        },
+        {
             "type":          "Class",
             "label":         "Architectural Acoustics",
             "id":            "4.431",
-            "listing-index": "m4b-032",
+            "listing-index": "m4b-030",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -889,16 +894,10 @@
             "in-charge":     "Rosenberg, C. J."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.431",
-            "lecture-section-of": "4.431",
-            "timeAndPlace":       "MW9.30-11 5-232"
-        },
-        {
             "type":          "Class",
             "label":         "Special Problems in Architectural Lighting",
             "id":            "4.438",
-            "listing-index": "m4b-033",
+            "listing-index": "m4b-031",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -922,13 +921,13 @@
             "type":          "Class",
             "label":         "Special Problems in Architectural Lighting",
             "id":            "4.439",
-            "listing-index": "m4b-034",
+            "listing-index": "m4b-032",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Introduction to the physical process behind the design of a building's envelope, interior and equipment. Integration of technological constraints in architectural design: Response to climate, construction methods and issues, heat and air flow, thermal comfort and insulation, passive and active heating and cooling, natural and electric lighting, visual comfort, acoustics.",
+            "description":   "Supplementary work on individual or group basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.439",
             "joint":         false,
             "semester":      [
@@ -946,38 +945,26 @@
             "type":          "Class",
             "label":         "Basic Structural Design",
             "id":            "4.440",
-            "listing-index": "m4b-035",
+            "listing-index": "m4b-033",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "3-3-6",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Introduces the design and behavior of large-scale structures and structural materials. From Gothic cathedrals to modern suspension bridges, subject emphasizes the development of structural form and the principles of structural design. Introduces design methods for timber, masonry, concrete, and steel applied to long-span roof systems, bridges, and high-rise buildings. Includes environmental assessment of structural systems and materials. Laboratory to solve structural problems by building and testing simple models.",
+            "has-final":     false,
+            "description":   "Introduces the design and behavior of large-scale structures and structural materials. Emphasizes the development of structural form and the principles of structural design. Introduces design methods for timber, masonry, concrete, and steel applied to long-span roof systems, bridges, and high-rise buildings. Includes environmental assessment of structural systems and materials. Laboratory to solve structural problems by building and testing simple models. Graduate and undergraduate students have separate lab sections.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.440",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
-            "prereq":        "18.02",
-            "in-charge":     "McCafferty, P."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.440",
-            "lecture-section-of": "4.440",
-            "timeAndPlace":       "TR9.30-11 3-133"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B024.440",
-            "lab-section-of": "4.440",
-            "timeAndPlace":   "M2-5 26-314"
+            "prereq":        "4.462",
+            "in-charge":     "Ochsendorf, J."
         },
         {
             "type":          "Class",
             "label":         "Analysis of Historic Structures",
             "id":            "4.444",
-            "listing-index": "m4b-036",
+            "listing-index": "m4b-034",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -987,7 +974,7 @@
             "url":           "http://student.mit.edu/catalog/m4b.html#4.444",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "prereq":        "4.445",
             "in-charge":     "Ochsendorf, J."
         },
@@ -995,7 +982,7 @@
             "type":          "Class",
             "label":         "Analysis of Historic Structures",
             "id":            "4.445",
-            "listing-index": "m4b-037",
+            "listing-index": "m4b-035",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1005,7 +992,7 @@
             "url":           "http://student.mit.edu/catalog/m4b.html#4.445",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "prereq":        "4.444",
             "in-charge":     "Ochsendorf, J."
         },
@@ -1013,13 +1000,13 @@
             "type":          "Class",
             "label":         "Design for Sustainability",
             "id":            "4.447",
-            "listing-index": "m4b-038",
+            "listing-index": "m4b-036",
             "course":        "4",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Teaches thought processes and quantitative tools, including life cycle assessment (LCA) and the LEED rating system, applicable to integrated/whole building design with the goal of minimizing the waste of materials, energy and water. Readings, lectures, site visits, and homework encourage systematic thinking and interdisciplinary collaboration to make sustainable design a reality. Includes a team project of students? choice, such as a conceptual design of a sustainable new building, a ?green? retrofit, or a comparative LCA.",
+            "description":   "Teaches thought processes and quantitative tools, including life cycle assessment (LCA) and the LEED rating system, applicable to integrated/whole building design with the goal of minimizing the waste of materials, energy and water. Readings, lectures, site visits, and homework encourage systematic thinking and interdisciplinary collaboration to make sustainable design a reality. Includes a team project of students\\' choice, such as a conceptual design of a sustainable new building, a \\\u0022green\\\u0022 retrofit, or a comparative LCA.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.447J",
             "joint":         true,
             "semester":      "Fall",
@@ -1033,10 +1020,16 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.447",
+            "lecture-section-of": "4.447",
+            "timeAndPlace":       "W11-1 56-114"
+        },
+        {
             "type":          "Class",
             "label":         "Special Problems in Structural Design",
             "id":            "4.448, 4.449",
-            "listing-index": "m4b-039",
+            "listing-index": "m4b-037",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1060,13 +1053,13 @@
             "type":          "Class",
             "label":         "Building Technology I: Materials and Construction",
             "id":            "4.461",
-            "listing-index": "m4b-040",
+            "listing-index": "m4b-038",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-1-5",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Materials and methods of construction are essential elements of architectural design. In addition, static equilibrium is the first step in establishing architectural geometries in two- and three-dimensional space. Both topics are treated together and applied to selected contemporary construction systems and structural morphologies. Understanding of the integration of materials as functioning structural form is fostered in lectures, case studies, and field trips. Attention is paid to the importance of working details as part of a technically coordinated whole. Required of M.Arch. students.",
+            "description":   "Materials and methods of construction are essential elements of architectural design. In addition, static equilibrium is the first step in establishing architectural geometries in two- and three-dimensional space. Both topics are treated together and applied to selected contemporary construction systems and structural morphologies. Understanding of the integration of materials as functioning structural form is fostered in lectures, case studies, and field trips. Attention is paid to the importance of working details as part of a technically coordinated whole.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.461",
             "joint":         false,
             "semester":      "Fall",
@@ -1074,67 +1067,85 @@
             "in-charge":     "Fernandez, J."
         },
         {
-            "type":          "Class",
-            "label":         "Building Technologies II: Building Structural Systems I",
-            "id":            "4.462",
-            "listing-index": "m4b-041",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "3-2-4",
-            "total-units":   9,
-            "has-final":     true,
-            "description":   "Introduces the design and behavior of large-scale structures and structural materials. Emphasizes the development of structural form and the principles of structural design. Introduces design methods for timber, masonry, concrete, and steel applied to long-span roof systems, bridges, and high-rise buildings. Includes environmental assessment of structural systems and materials. Laboratory to solve structural problems by building and testing simple models. Required of MArch students.",
-            "url":           "http://student.mit.edu/catalog/m4b.html#4.462",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        "4.461",
-            "in-charge":     "McCafferty, P."
-        },
-        {
             "type":               "LectureSection",
-            "label":              "L014.462",
-            "lecture-section-of": "4.462",
+            "label":              "L014.461",
+            "lecture-section-of": "4.461",
             "timeAndPlace":       "TR9.30-11 3-133"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R024.462",
-            "rec-section-of": "4.462",
-            "timeAndPlace":   "W EVE (5-7 PM) 5-233"
+            "type":           "LabSection",
+            "label":          "B024.461",
+            "lab-section-of": "4.461",
+            "timeAndPlace":   "T11 3-402"
         },
         {
             "type":          "Class",
-            "label":         "Building Technology III: Building Structural Systems II",
-            "id":            "4.463",
-            "listing-index": "m4b-042",
+            "label":         "Building Technologies II: Building Structural Systems I",
+            "id":            "4.462",
+            "listing-index": "m4b-039",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-2-4",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Addresses advanced structures, exterior envelopes, and contemporary production technologies. Continues the exploration of structural elements and systems, expanding to include more complex determinate, indeterminate, long-span, and high-rise systems. Topics include reinforced concrete, steel and engineered-wood design, and an introduction to tensile systems. The contemporary exterior envelope is discussed with an emphasis on the classification of systems, their performance attributes, and advanced manufacturing technologies. Required of MArch students.",
+            "description":   "Introduces the design and behavior of large-scale structures and structural materials. Emphasizes the development of structural form and the principles of structural design. Introduces design methods for timber, masonry, concrete, and steel applied to long-span roof systems, bridges, and high-rise buildings. Includes environmental assessment of structural systems and materials. Laboratory to solve structural problems by building and testing simple models. Graduate and undergraduate students have separate lab sections.",
+            "url":           "http://student.mit.edu/catalog/m4b.html#4.462",
+            "joint":         false,
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
+            "prereq":        [
+                "4.440",
+                "4.461"
+            ],
+            "in-charge":     "Ochsendorf, J."
+        },
+        {
+            "type":          "Class",
+            "label":         "Building Technology III: Building Structural Systems II",
+            "id":            "4.463",
+            "listing-index": "m4b-040",
+            "course":        "4",
+            "level":         "Grad",
+            "units":         "3-2-4",
+            "total-units":   9,
+            "has-final":     false,
+            "description":   "Addresses advanced structures, exterior envelopes, and contemporary production technologies. Continues the exploration of structural elements and systems, expanding to include more complex determinate, indeterminate, long-span, and high-rise systems. Topics include reinforced concrete, steel and engineered-wood design, and an introduction to tensile systems. The contemporary exterior envelope is discussed with an emphasis on the classification of systems, their performance attributes, and advanced manufacturing technologies.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.463",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        "4.462",
+            "prereq":        [
+                "4.440",
+                "4.462"
+            ],
             "in-charge":     [
                 "Fernandez, J.",
                 "Ochsendorf, J."
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.463",
+            "lecture-section-of": "4.463",
+            "timeAndPlace":       "MW11-12.30 4-149"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B024.463",
+            "lab-section-of": "4.463",
+            "timeAndPlace":   "M EVE (5-7 PM) 56-154"
+        },
+        {
             "type":          "Class",
             "label":         "Building Technologies IV: Energy in Building Design",
             "id":            "4.464",
-            "listing-index": "m4b-043",
+            "listing-index": "m4b-041",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-1-5",
             "total-units":   9,
-            "has-final":     true,
-            "description":   "Explores aspects of climate relevant to building design, and applies concepts and methods to energy-efficient and environmentally responsible building design. Topics include  climate and comfort parameters, energy systems, and environmental implications of building. Emphasizes practical applications for environmental design. Required of MArch students.",
+            "has-final":     false,
+            "description":   "Explores aspects of climate relevant to building design, and applies concepts and methods to energy-efficient and environmentally responsible building design. Topics include  climate and comfort parameters, energy systems, and environmental implications of building. Emphasizes practical applications for environmental design.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.464",
             "joint":         false,
             "semester":      "Spring",
@@ -1146,16 +1157,10 @@
             ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.464",
-            "lecture-section-of": "4.464",
-            "timeAndPlace":       "MW11-12.30 5-217"
-        },
-        {
             "type":          "Class",
             "label":         "Building Technology Seminar",
             "id":            "4.481",
-            "listing-index": "m4b-044",
+            "listing-index": "m4b-042",
             "course":        "4",
             "level":         "Grad",
             "units":         "2-0-1",
@@ -1176,10 +1181,16 @@
             ]
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.481",
+            "lecture-section-of": "4.481",
+            "timeAndPlace":       "R3-5 3-402"
+        },
+        {
             "type":          "Class",
             "label":         "Preparation for S.M.B.T. Thesis",
             "id":            "4.488",
-            "listing-index": "m4b-045",
+            "listing-index": "m4b-043",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1205,7 +1216,7 @@
             "type":          "Class",
             "label":         "Preparation for Building Technology Ph.D. Thesis",
             "id":            "4.489",
-            "listing-index": "m4b-046",
+            "listing-index": "m4b-044",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1230,15 +1241,15 @@
         {
             "type":          "Class",
             "label":         "Special Problems in Building Technology",
-            "id":            "4.491?4.493",
-            "listing-index": "m4b-047",
+            "id":            "4.491-4.493",
+            "listing-index": "m4b-045",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
             "description":   "Supplementary work on individual or group basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "url":           "http://student.mit.edu/catalog/m4b.html#4.491?4.493",
+            "url":           "http://student.mit.edu/catalog/m4b.html#4.491-4.493",
             "joint":         false,
             "semester":      [
                 "Fall",
@@ -1273,66 +1284,133 @@
             "type":          "Class",
             "label":         "Introduction to Design Computing",
             "id":            "4.500",
-            "listing-index": "m4b-048",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "2-2-8",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Introduces students to architectural design and computation through the use of computer modeling, rendering, and digital fabrication. Focus on the exploration of space- and place- making through the use of computer rendering and design construction through CAD/CAM fabrication. Students design a small building using computer models leading to a full package of physical and virtual materials, from computer generated drawings to rapid, prototyped models. Enrollment limited to 24 students, with priority given to Course 4 majors and minors.",
-            "url":           "http://student.mit.edu/catalog/m4b.html#4.500",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     "Kotsopoulos, S."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.500",
-            "lecture-section-of": "4.500",
-            "timeAndPlace":       "M9.30-11 5-217"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R024.500",
-            "rec-section-of": "4.500",
-            "timeAndPlace":   "W9.30-11 9-251"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R034.500",
-            "rec-section-of": "4.500",
-            "timeAndPlace":   "R9.30-11 9-251"
-        },
-        {
-            "type":          "Class",
-            "label":         "Architectural Construction and Computation",
-            "id":            "4.501",
-            "listing-index": "m4b-049",
+            "listing-index": "m4b-046",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "2-2-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Investigates the use of computers in architectural design and construction. Begins with a pre-prepared computer model, which is used for testing and process investigation in construction. Explores the process of construction from all sides of practice: detail design, structural design, legal and computational issues. Limited to 10 with priority given to Course 4 majors and minors.",
-            "url":           "http://student.mit.edu/catalog/m4b.html#4.501",
+            "description":   "Introduces students to architectural design and computation through the use of computer modeling, rendering, and digital fabrication. Focus on the exploration of space- and place- making through the use of computer rendering and design construction through CAD/CAM fabrication. Students design a small building using computer models leading to a full package of physical and virtual materials, from computer generated drawings to rapid, prototyped models. Enrollment limited to 24 students, with priority given to Course 4 majors and minors.",
+            "url":           "http://student.mit.edu/catalog/m4b.html#4.500",
             "joint":         false,
             "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "in-charge":     "Sass, L."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.500",
+            "lecture-section-of": "4.500",
+            "timeAndPlace":       "T9.30-11 1-135"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R024.500",
+            "rec-section-of": "4.500",
+            "timeAndPlace":   "R9.30-11 9-251"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R034.500",
+            "rec-section-of": "4.500",
+            "timeAndPlace":   "F9.30-11 9-251"
+        },
+        {
+            "type":          "Class",
+            "label":         "Architectural Computing and Construction",
+            "id":            "4.501",
+            "listing-index": "m4b-047",
+            "course":        "4",
+            "level":         "Undergrad",
+            "units":         "2-2-8",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Investigates the use of computers in architectural design and construction. Uses a pre-prepared computer model to test and process investigation and construction. Explores the process of construction from all sides of practice: detail design, structural design, legal and computational issues. Limited to 10 with priority given to Course 4 majors and minors.",
+            "url":           "http://student.mit.edu/catalog/m4b.html#4.501",
+            "joint":         false,
+            "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "4.500",
             "in-charge":     "Sass, L."
         },
         {
             "type":          "Class",
-            "label":         "Digital Design Fabrication",
-            "id":            "4.510",
-            "listing-index": "m4b-050",
+            "label":         "Design Scripting",
+            "id":            "4.502",
+            "listing-index": "m4b-048",
             "course":        "4",
-            "level":         "Grad",
-            "units":         "2-2-8",
+            "level":         "Undergrad",
+            "units":         "3-2-7",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introductory subject in advanced computing, rapid prototyping, and CAD/CAM fabrication for architects. Focuses on the relationship between design and various forms of computer modeling/CAD CAM tools as output material. Presents the process of design and construction using CAD files introduced by the office of Gehry Partners during the construction of the Guggenheim Museum in Bilbao, Spain. Taught in phases starting with rapid prototyping  and ending with CAD CAM of building components fabricated from CAD files. Limited to 36 students.",
+            "description":   "Introduces fundamental ideas of programming and demonstrates their application to the process of visual and spatial design. Students are taught methods for algorithmically modeling visual and spatial forms, evaluating their conditions, building interface, and processing formal data for prototyping, manufacturing rendering and other design tools. Proceeds through a sequence of scripting exercises in application programming environments. Each exercise requires a student to articulate computational tasks in the context of a design, and to write codes that produce graphic solutions.",
+            "url":           "http://student.mit.edu/catalog/m4b.html#4.502",
+            "joint":         false,
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
+            "prereq":        "4.500",
+            "in-charge":     "Staff, Computation"
+        },
+        {
+            "type":          "Class",
+            "label":         "Advanced Visualization",
+            "id":            "4.503",
+            "listing-index": "m4b-049",
+            "course":        "4",
+            "level":         "Undergrad",
+            "units":         "3-2-7",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Introduction to advanced visualization techniques for designers. Students learn to specify surface textures, colors, and other visual properties over a geometric model, and to define a scene with objects, materiality, and light sources. They learn to choreograph motion within scenes by operating virtual cameras, produce still images and motion sequences through rendering algorithms, and synthesize rendered image frames with live video and sound. Study of various editing styles through observation and analysis of examples in video and film industries. Emphasis throughout is on communication of design ideas in clear and elegant ways.",
+            "url":           "http://student.mit.edu/catalog/m4b.html#4.503",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "prereq":        "4.500",
+            "in-charge":     "Nagakura, T."
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L014.503",
+            "lecture-section-of": "4.503",
+            "timeAndPlace":       "M12.30-3 9-255"
+        },
+        {
+            "type":          "Class",
+            "label":         "Computation Design Workshop",
+            "id":            "4.505",
+            "listing-index": "m4b-050",
+            "course":        "4",
+            "level":         "Undergrad",
+            "units":         "3-3-6",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Project-based subject that provides opportunities to explore and integrate the various skills, theories, and technologies introduced in prerequisite subjects. Strategies and computational tools for rule-based and parametric design are introduced, critically examined, and explored through application to practical design tasks. Students gain experience with techniques of design synthesis, performance analysis and simulation, visualization, fabrication, and assembly, and with strategies for collaboration and coordination. Emphasis on creative response to challenging design problems.",
+            "url":           "http://student.mit.edu/catalog/m4b.html#4.505",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      "Not offered this year",
+            "prereq":        [
+                "4.501",
+                "4.502",
+                "4.503"
+            ],
+            "in-charge":     [
+                "Knight, T.",
+                "Mitchell, W."
+            ]
+        },
+        {
+            "type":          "Class",
+            "label":         "Digital Design Fabrication",
+            "id":            "4.510",
+            "listing-index": "m4b-051",
+            "course":        "4",
+            "level":         "Grad",
+            "units":         "3-3-6",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Introductory subject in advanced computing, rapid prototyping, and CAD/CAM fabrication for architects. Focuses on the relationship between design and various forms of computer modeling/CAD CAM tools as output material. Presents the process of design and construction, using CAD files for construction. Taught in phases, starting with CAD/CAM and ending with rapid prototyping of building components fabricated from CAD files. Limited to 36 students.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.510",
             "joint":         false,
             "semester":      "Fall",
@@ -1345,10 +1423,28 @@
             "in-charge":     "Sass, L."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.510",
+            "lecture-section-of": "4.510",
+            "timeAndPlace":       "M2-5 1-132"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B024.510",
+            "lab-section-of": "4.510",
+            "timeAndPlace":   "W2-5 9-251"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B034.510",
+            "lab-section-of": "4.510",
+            "timeAndPlace":   "R2-5 9-251"
+        },
+        {
             "type":          "Class",
             "label":         "Special Projects in Architectural Digital Fabrication",
             "id":            "4.512",
-            "listing-index": "m4b-051",
+            "listing-index": "m4b-052",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1372,7 +1468,7 @@
             "type":          "Class",
             "label":         "Special Problems in Digital Fabrication",
             "id":            "4.513",
-            "listing-index": "m4b-052",
+            "listing-index": "m4b-053",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1397,7 +1493,7 @@
             "type":          "Class",
             "label":         "Special Problems in Digital Fabrication",
             "id":            "4.514",
-            "listing-index": "m4b-053",
+            "listing-index": "m4b-054",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1422,7 +1518,7 @@
             "type":          "Class",
             "label":         "Computational Design I: Theory and Applications",
             "id":            "4.520",
-            "listing-index": "m4b-054",
+            "listing-index": "m4b-055",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -1437,10 +1533,16 @@
             "in-charge":     "Knight, T."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.520",
+            "lecture-section-of": "4.520",
+            "timeAndPlace":       "F9-12 9-255"
+        },
+        {
             "type":          "Class",
             "label":         "Computational Design I: Theory and Applications",
             "id":            "4.521",
-            "listing-index": "m4b-055",
+            "listing-index": "m4b-056",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1455,16 +1557,22 @@
             "in-charge":     "Knight, T."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.521",
+            "lecture-section-of": "4.521",
+            "timeAndPlace":       "F9-12 9-255"
+        },
+        {
             "type":          "Class",
             "label":         "Computational Design II: Theory and Applications",
             "id":            "4.522",
-            "listing-index": "m4b-056",
+            "listing-index": "m4b-057",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduces advanced topics in shape grammar theory and applications. Discusses generalizations of the shape grammar formalism that permit greater flexibility in computing designs. These include parametric grammars and parametric design, parallel grammars, and color grammars. Introduces color grammars through exercises. Discusses the generative and expressive powers of grammars in relation to other computational design systems.",
+            "description":   "Introduces advanced topics in shape grammar theory and applications. Includes an introductory component on shape grammars for students new to the area. Discusses generalizations of the shape grammar formalism that permit greater flexibility in computing designs. These include parametric grammars and parametric design, parallel grammars, and color grammars. Introduces color grammars through exercises. Discusses the generative and expressive powers of grammars in relation to other computational design systems. Additional work required of graduate students.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.522",
             "joint":         false,
             "semester":      "Spring",
@@ -1476,22 +1584,16 @@
             "in-charge":     "Knight, T."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.522",
-            "lecture-section-of": "4.522",
-            "timeAndPlace":       "F9-12 9-255"
-        },
-        {
             "type":          "Class",
             "label":         "Computational Design II: Theory and Applications",
             "id":            "4.523",
-            "listing-index": "m4b-057",
+            "listing-index": "m4b-058",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Introduces advanced topics in shape grammar theory and applications. Discusses generalizations of the shape grammar formalism that permit greater flexibility in computing designs. These include parametric grammars and parametric design, parallel grammars, and color grammars. Introduces color grammars through exercises. Discusses the generative and expressive powers of grammars in relation to other computational design systems.",
+            "description":   "Introduces advanced topics in shape grammar theory and applications. Includes an introductory component on shape grammars for students new to the area. Discusses generalizations of the shape grammar formalism that permit greater flexibility in computing designs. These include parametric grammars and parametric design, parallel grammars, and color grammars. Introduces color grammars through exercises. Discusses the generative and expressive powers of grammars in relation to other computational design systems. Additional work required of graduate students.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.523",
             "joint":         false,
             "semester":      "Spring",
@@ -1504,16 +1606,10 @@
             "in-charge":     "Knight, T."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.523",
-            "lecture-section-of": "4.523",
-            "timeAndPlace":       "F9-12 9-255"
-        },
-        {
             "type":          "Class",
             "label":         "Introduction to Shape Grammars I",
             "id":            "4.540",
-            "listing-index": "m4b-058",
+            "listing-index": "m4b-059",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1527,10 +1623,16 @@
             "in-charge":     "Stiny, G."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.540",
+            "lecture-section-of": "4.540",
+            "timeAndPlace":       "T9-12 5-231"
+        },
+        {
             "type":          "Class",
             "label":         "Introduction to Shape Grammars II",
             "id":            "4.541",
-            "listing-index": "m4b-059",
+            "listing-index": "m4b-060",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1546,16 +1648,10 @@
             "in-charge":     "Stiny, G."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.541",
-            "lecture-section-of": "4.541",
-            "timeAndPlace":       "M9-12 4-146"
-        },
-        {
             "type":          "Class",
             "label":         "Background to Shape Grammars",
             "id":            "4.542",
-            "listing-index": "m4b-060",
+            "listing-index": "m4b-061",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1574,16 +1670,10 @@
             "in-charge":     "Stiny, G."
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.542",
-            "lecture-section-of": "4.542",
-            "timeAndPlace":       "T9-12 4-146"
-        },
-        {
             "type":          "Class",
             "label":         "Special Problems in Shape Grammars",
             "id":            "4.543",
-            "listing-index": "m4b-061",
+            "listing-index": "m4b-062",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1612,7 +1702,7 @@
             "type":          "Class",
             "label":         "Workshop in Architectural Computation",
             "id":            "4.550 - 4.551",
-            "listing-index": "m4b-062",
+            "listing-index": "m4b-063",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1636,7 +1726,7 @@
             "type":          "Class",
             "label":         "Workshop in Architectural Computation",
             "id":            "4.552 - 4.555",
-            "listing-index": "m4b-063",
+            "listing-index": "m4b-064",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1658,21 +1748,47 @@
             "in-charge":     "Staff, Computation"
         },
         {
+            "type":          "Class",
+            "label":         "Design Without Boundaries",
+            "id":            "4.556",
+            "listing-index": "m4b-065",
+            "course":        "4",
+            "level":         "Grad",
+            "units":         "Unknown",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "Provides opportunities to pursue real-world design projects that cross traditional disciplinary boundaries, apply advanced technologies, and address significant social issues. Among the projects to be explored are the design of smart villages and smart communities, mobile communication project, and the development of new types of urban personal transportation systems. Students work in multidisciplinary teams and are expected to contribute to conceptualization, development, modeling and prototyping.",
+            "url":           "http://student.mit.edu/catalog/m4b.html#4.556J",
+            "joint":         true,
+            "semester":      [
+                "Fall",
+                "Spring"
+            ],
+            "offering":      [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "in-charge":     [
+                "Mitchell, W.",
+                "Casalegno, F."
+            ]
+        },
+        {
             "type":               "LectureSection",
-            "label":              "L014.552 - 4.555",
-            "lecture-section-of": "4.552 - 4.555",
-            "timeAndPlace":       "W2-5 4-144"
+            "label":              "L014.556",
+            "lecture-section-of": "4.556",
+            "timeAndPlace":       "W10-12.30 NE18-4TH"
         },
         {
             "type":          "Class",
             "label":         "Geometric Modeling",
             "id":            "4.560",
-            "listing-index": "m4b-064",
+            "listing-index": "m4b-066",
             "course":        "4",
             "level":         "Grad",
             "units":         "2-2-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduces the fundamentals of three-dimensional geometric modeling and associated computer-aided design as well as visualization applications in architecture, urban design, and computer graphics production. Provides a theoretical foundation to a selection of current hardware and software tools. Extensive opportunities to develop practical skills through lab sessions and regular practical exercises. Background in computational skills is an advantage, but not required. Students acquire the skills necessary to undertake independent CAD projects in design studios or other professional settings.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.560",
             "joint":         false,
@@ -1681,10 +1797,28 @@
             "in-charge":     "Nagakura, T."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.560",
+            "lecture-section-of": "4.560",
+            "timeAndPlace":       "W EVE (5-6.30 PM) 2-143"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R024.560",
+            "rec-section-of": "4.560",
+            "timeAndPlace":   "W EVE (7.30-9 PM) 2-143"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R034.560",
+            "rec-section-of": "4.560",
+            "timeAndPlace":   "F10.30-12 2-143"
+        },
+        {
             "type":          "Class",
             "label":         "Architecture in Motion Graphics",
             "id":            "4.562",
-            "listing-index": "m4b-065",
+            "listing-index": "m4b-067",
             "course":        "4",
             "level":         "Grad",
             "units":         "2-2-8",
@@ -1693,17 +1827,23 @@
             "description":   "Provides an opportunity to undertake advanced projects in architectural visualization with an emphasis on the use of computer graphics animation and video production media. Introduces students to advanced visualization software and teaches them to explore spatial expressions in motion graphics format. Selected literature and video materials on architecture and film reviewed to initiate discussion sessions. Previous experience in 3D modeling software essential. Workshop format.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.562",
             "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "4.560",
             "in-charge":     "Nagakura, T."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.562",
+            "lecture-section-of": "4.562",
+            "timeAndPlace":       "M12.30-3 9-255"
+        },
+        {
             "type":          "Class",
             "label":         "Formal Design Knowledge and Programmed Constructs",
             "id":            "4.564",
-            "listing-index": "m4b-066",
+            "listing-index": "m4b-068",
             "course":        "4",
             "level":         "Grad",
             "units":         "2-2-8",
@@ -1714,8 +1854,8 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
+                "Can be repeated for credit",
+                "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "4.560",
@@ -1725,7 +1865,7 @@
             "type":          "Class",
             "label":         "Advanced Projects in Digital Media",
             "id":            "4.566",
-            "listing-index": "m4b-067",
+            "listing-index": "m4b-069",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1734,7 +1874,7 @@
             "description":   "Develop independent projects in the study of digital media as it relates to architectural design. Students propose a project topic such as digital design tool, modeling and visualization, motion graphics, design knowledge representation and media interface.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.566",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      [
                 "Can be repeated for credit",
                 "Currently Offered"
@@ -1750,13 +1890,13 @@
             "type":          "Class",
             "label":         "Inquiry into Computation and Design",
             "id":            "4.580",
-            "listing-index": "m4b-068",
+            "listing-index": "m4b-070",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Explores the varied nature and practice of computation in design. Different computational approaches for understanding and thinking about design, and for doing design, are introduced through lectures, readings, discussions, and guest visits by Computation group faculty and others. Topics may vary from year to year.  Aims to develop a critical view and awareness of assumptions about computation in design beyond the specifics of techniques and tools, and to open avenues for further research.  Required for first year SMArchS students in Computation.",
+            "description":   "Explores the varied nature and practice of computation in design. Different computational approaches for understanding and thinking about design, and for doing design, are introduced through lectures, readings, discussions, and guest visits by Computation group faculty and others. Topics may vary from year to year.  Aims to develop a critical view and awareness of assumptions about computation in design beyond the specifics of techniques and tools, and to open avenues for further research.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.580",
             "joint":         false,
             "semester":      "Fall",
@@ -1764,16 +1904,22 @@
             "in-charge":     "Knight, T."
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.580",
+            "lecture-section-of": "4.580",
+            "timeAndPlace":       "W9.30-12.30 9-255"
+        },
+        {
             "type":          "Class",
             "label":         "Proseminar in Computation",
             "id":            "4.581",
-            "listing-index": "m4b-069",
+            "listing-index": "m4b-071",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-9 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Introduction to traditions of research in design and computation scholarship. Required subject for PhD students in the area of design and computation.",
+            "description":   "Introduction to traditions of research in design and computation scholarship.",
             "url":           "http://student.mit.edu/catalog/m4b.html#4.581",
             "joint":         false,
             "semester":      [
@@ -1788,13 +1934,13 @@
             "type":               "LectureSection",
             "label":              "L014.581",
             "lecture-section-of": "4.581",
-            "timeAndPlace":       "T9-12 4-146"
+            "timeAndPlace":       "M9-12 4-146"
         },
         {
             "type":          "Class",
             "label":         "Research Seminar in Computation",
             "id":            "4.582",
-            "listing-index": "m4b-070",
+            "listing-index": "m4b-072",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-9 [P/D/F]",
@@ -1816,10 +1962,16 @@
             "in-charge":     "Staff, Computation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L014.582",
+            "lecture-section-of": "4.582",
+            "timeAndPlace":       "M9-12 4-146"
+        },
+        {
             "type":          "Class",
             "label":         "PhD Forum in Computation",
             "id":            "4.583",
-            "listing-index": "m4b-071",
+            "listing-index": "m4b-073",
             "course":        "4",
             "level":         "Grad",
             "units":         "3-0-0 [P/D/F]",
@@ -1837,19 +1989,19 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Knight, T."
+            "in-charge":     "Staff, Computation"
         },
         {
             "type":               "LectureSection",
             "label":              "L014.583",
             "lecture-section-of": "4.583",
-            "timeAndPlace":       "R EVE (5-7 PM) 3-309"
+            "timeAndPlace":       "R EVE (5-7 PM) 9-255"
         },
         {
             "type":          "Class",
             "label":         "Preparation for Design & Computation PhD Thesis",
             "id":            "4.589",
-            "listing-index": "m4b-072",
+            "listing-index": "m4b-074",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1873,7 +2025,7 @@
             "type":          "Class",
             "label":         "Special Problems in Architectural Computation",
             "id":            "4.590",
-            "listing-index": "m4b-073",
+            "listing-index": "m4b-075",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1897,7 +2049,7 @@
             "type":          "Class",
             "label":         "Special Problems in Architectural Computation",
             "id":            "4.591",
-            "listing-index": "m4b-074",
+            "listing-index": "m4b-076",
             "course":        "4",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -1921,7 +2073,7 @@
             "type":          "Class",
             "label":         "Special Problems in Computation",
             "id":            "4.592",
-            "listing-index": "m4b-075",
+            "listing-index": "m4b-077",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1941,19 +2093,13 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Sass, L."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.592",
-            "lecture-section-of": "4.592",
-            "timeAndPlace":       "W9-11 9-255"
+            "in-charge":     "Staff, Computation"
         },
         {
             "type":          "Class",
             "label":         "Special Problems in Computation",
             "id":            "4.593",
-            "listing-index": "m4b-076",
+            "listing-index": "m4b-078",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -1978,7 +2124,7 @@
             "type":          "Class",
             "label":         "Special Problems in Computation",
             "id":            "4.598",
-            "listing-index": "m4b-077",
+            "listing-index": "m4b-079",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2003,7 +2149,7 @@
             "type":          "Class",
             "label":         "Special Problems in Computation",
             "id":            "4.599",
-            "listing-index": "m4b-078",
+            "listing-index": "m4b-080",
             "course":        "4",
             "level":         "Grad",
             "units":         "Unknown",

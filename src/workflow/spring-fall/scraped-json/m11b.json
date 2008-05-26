@@ -7,17 +7,29 @@
             "listing-index": "m11b-000",
             "course":        "11",
             "level":         "Grad",
-            "units":         "3-0-5",
-            "total-units":   8,
+            "units":         "4-1-7",
+            "total-units":   12,
             "has-final":     false,
-            "description":   "Ten-week module designed primarily for first semester MCP students.  Introduces the evolution, politics, and ethics of modern planning.  Emphasizes historical roots of contemporary problems, with cases centered on planning dilemmas in the U.S. and other countries, as well as professional writing skills.",
+            "description":   "Introduces the evolution, politics, and ethics of modern planning in the public interest. Emphasizes historical roots of contemporary problems and opportunities, with cases set in the US and other countries, as well as professional writing and oral communication skills.",
             "url":           "http://student.mit.edu/catalog/m11b.html#11.201",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "in-charge":     "guests, X. Briggs and",
             "area":          "Graduate Subjects",
-            "subarea":       "Master's Core Subjects"
+            "subarea":       "Master\\'s Core Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0111.201",
+            "lecture-section-of": "11.201",
+            "timeAndPlace":       "MW9-11 W31-301"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R0211.201",
+            "rec-section-of": "11.201",
+            "timeAndPlace":   "F2-4 3-401"
         },
         {
             "type":          "Class",
@@ -28,16 +40,22 @@
             "level":         "Grad",
             "units":         "2-0-2",
             "total-units":   4,
-            "has-final":     false,
-            "description":   "Introduces applications of microeconomic theory to planning problems including urban form and structure, government's role in urban settings and problems of housing finance.",
+            "has-final":     true,
+            "description":   "Introduces applications of microeconomic theory to planning problems including urban form and structure, government\\'s role in urban settings and problems of housing finance.",
             "url":           "http://student.mit.edu/catalog/m11b.html#11.202",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "11.203",
-            "in-charge":     "Levy, F.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects",
-            "subarea":       "Master's Core Subjects"
+            "subarea":       "Master\\'s Core Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0111.202",
+            "lecture-section-of": "11.202",
+            "timeAndPlace":       "TR9-10.30 (BEGINS OCTOBER 27) 3-270"
         },
         {
             "type":          "Class",
@@ -48,15 +66,21 @@
             "level":         "Grad",
             "units":         "3-0-5",
             "total-units":   8,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduces basic economic analysis for planning students including the functioning of markets, the allocation of scarce resources among competing uses, profit maximizing behavior in different market structures.  Course illustrates theory with contemporary economic issues.",
             "url":           "http://student.mit.edu/catalog/m11b.html#11.203",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "in-charge":     "Levy, F.",
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects",
-            "subarea":       "Master's Core Subjects"
+            "subarea":       "Master\\'s Core Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0111.203",
+            "lecture-section-of": "11.203",
+            "timeAndPlace":       "TR9-10.30 3-270"
         },
         {
             "type":          "Class",
@@ -73,36 +97,9 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "in-charge":     [
-                "Ryznar, R.",
-                "Zegras, C."
-            ],
+            "in-charge":     "Staff",
             "area":          "Graduate Subjects",
-            "subarea":       "Master's Core Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0111.220",
-            "lecture-section-of": "11.220",
-            "timeAndPlace":       "MW11-12.30 37-212"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0211.220",
-            "rec-section-of": "11.220",
-            "timeAndPlace":   "W EVE (5.30 PM) 1-246"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0311.220",
-            "rec-section-of": "11.220",
-            "timeAndPlace":   "R3 5-231"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0411.220",
-            "rec-section-of": "11.220",
-            "timeAndPlace":   "F10 1-246"
+            "subarea":       "Master\\'s Core Subjects"
         },
         {
             "type":          "Class",
@@ -150,6 +147,12 @@
             "subarea":       "Department-wide Subjects"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0111.225",
+            "lecture-section-of": "11.225",
+            "timeAndPlace":       "F10-12 (BEGINS SEPT 19) 9-554"
+        },
+        {
             "type":          "Class",
             "label":         "Advanced Writing Seminar",
             "id":            "11.229",
@@ -170,12 +173,6 @@
             "in-charge":     "Abbanat, C.",
             "area":          "Graduate Subjects",
             "subarea":       "Department-wide Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0111.229",
-            "lecture-section-of": "11.229",
-            "timeAndPlace":       "F10-12 9-554"
         },
         {
             "type":          "Class",
@@ -215,6 +212,12 @@
             "subarea":       "Department-wide Subjects"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0111.233",
+            "lecture-section-of": "11.233",
+            "timeAndPlace":       "T2-5 5-231"
+        },
+        {
             "type":          "Class",
             "label":         "Making Sense: Qualitative Methods for Designers and Planners",
             "id":            "11.234",
@@ -228,7 +231,7 @@
             "url":           "http://student.mit.edu/catalog/m11b.html#11.234",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "in-charge":     "Vale, L.",
             "area":          "Graduate Subjects",
             "subarea":       "Department-wide Subjects"
@@ -255,38 +258,10 @@
             "subarea":       "Department-wide Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0111.235",
-            "lecture-section-of": "11.235",
-            "timeAndPlace":       "TR EVE (5-6.30 PM) 4-144"
-        },
-        {
-            "type":          "Class",
-            "label":         "Gender and Race, Work, and Public Policy",
-            "id":            "11.237",
-            "listing-index": "m11b-011",
-            "course":        "11",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Provides an analytic framework for understanding the roles that gender and race play in defining the work worlds of women and men in our society, including ways in which gender intersects with race and class. Specific workplace-related policies through a gender/race lens, including welfare policy, comparable worth, affirmative action, parental leave policy, child care policy and working time policies. Investigate ways in which these policies address gender and racial inequities, and think critically about mechanisms for change.",
-            "url":           "http://student.mit.edu/catalog/m11b.html#11.237",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "in-charge":     [
-                "Fried, M.",
-                "McDowell, C."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Department-wide Subjects"
-        },
-        {
             "type":          "Class",
             "label":         "Ethics of Intervention: Anthropological Approaches",
             "id":            "11.238",
-            "listing-index": "m11b-012",
+            "listing-index": "m11b-011",
             "course":        "11",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -296,16 +271,25 @@
             "url":           "http://student.mit.edu/catalog/m11b.html#11.238J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "in-charge":     "James, E. C.",
             "area":          "Graduate Subjects",
             "subarea":       "Department-wide Subjects"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0111.238",
+            "lecture-section-of": "11.238",
+            "timeAndPlace":       "W10-1 16-220"
+        },
+        {
             "type":          "Class",
             "label":         "Applied Regression Analysis in Urban Planning",
             "id":            "11.241",
-            "listing-index": "m11b-013",
+            "listing-index": "m11b-012",
             "course":        "11",
             "level":         "Grad",
             "units":         "3-1-2",
@@ -328,13 +312,13 @@
             "type":          "Class",
             "label":         "Information Technology and the US Labor Market",
             "id":            "11.248",
-            "listing-index": "m11b-014",
+            "listing-index": "m11b-013",
             "course":        "11",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Combines economic theory, econometric studies, workplace case studies, and pieces of cognitive psychology to examine the impact of computerization on US employment and wages. Topics include: recent trends in wages and employment; the role of computers in demands for particular labor force skill; computers' impact on the functioning of markets and the economy's productivity; and the extent to which computers can help teach new skills to children and adults.",
+            "description":   "Combines economic theory, econometric studies, workplace case studies, and pieces of cognitive psychology to examine the impact of computerization on US employment and wages. Topics include: recent trends in wages and employment; the role of computers in demands for particular labor force skill; computers\\' impact on the functioning of markets and the economy\\'s productivity; and the extent to which computers can help teach new skills to children and adults.",
             "url":           "http://student.mit.edu/catalog/m11b.html#11.248",
             "joint":         false,
             "semester":      "Spring",
@@ -352,17 +336,17 @@
             "type":          "Class",
             "label":         "Economics of Education",
             "id":            "11.249",
-            "listing-index": "m11b-015",
+            "listing-index": "m11b-014",
             "course":        "11",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Discusses the economic aspects of current issues in education, using both economic theory and econometric and institutional readings. Topics include discussion of basic human capital theory; the growing impact of education on earnings and earnings inequality; statistical issues in determining the true rate of return to education; the labor market for teachers, implications of the impact of computers on the demand for worker skills; the effectiveness of mid-career training for adult workers; the roles of school choice, charter schools, state standards and educational technology in improving K-12 education, and the issue of college financial aid.",
             "url":           "http://student.mit.edu/catalog/m11b.html#11.249",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Currently Offered",
+            "offering":      "Not offered this year",
             "prereq":        [
                 "11.126J",
                 "14.48J",
@@ -373,29 +357,16 @@
             "subarea":       "Department-wide Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0111.249",
-            "lecture-section-of": "11.249",
-            "timeAndPlace":       "TR9-10.30 1-150"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0211.249",
-            "rec-section-of": "11.249",
-            "timeAndPlace":   [
-            ]
-        },
-        {
             "type":          "Class",
             "label":         "Computer Games and Simulations for Investigation and Education",
             "id":            "11.252",
-            "listing-index": "m11b-016",
+            "listing-index": "m11b-015",
             "course":        "11",
             "level":         "Grad",
             "units":         "3-6-3",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Explores how we learn from computer games and simulations, and delves into the process of building and testing simulations. First, students investigate the design and use of games and simulations in the classroom, as well as the research and development issues associated with desktop computer-based, handheld computer based and non-computer based media. Students then develop their own simulations and games, study what and how others learn from them (including field testing of products), and how games and simulations can be implemented in educational settings. All levels of computer experience welcome. Graduate students are expected to complete additional assignments.",
+            "description":   "Explores how we learn from computer games and simulations, and delves into the process of building and testing interactive educational media.  First, students investigate the design and use of games and simulations in the classroom (including commercial off-the-shelf games), as well as the research and development issues associated with desktop computer-based, mobile, and non-computer based media. Students then develop their own simulations and games, study what and how others learn from them (including field testing of products), and how games and simulations can be implemented in educational settings. All levels of computer experience welcome. Graduate students are expected to complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m11b.html#11.252J",
             "joint":         true,
             "semester":      "Spring",
@@ -406,22 +377,16 @@
             "subarea":       "Department-wide Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0111.252",
-            "lecture-section-of": "11.252",
-            "timeAndPlace":       "TR1-2.30 NE25-372"
-        },
-        {
             "type":          "Class",
             "label":         "Negotiation and Dispute Resolution in the Public Sector",
             "id":            "11.255",
-            "listing-index": "m11b-017",
+            "listing-index": "m11b-016",
             "course":        "11",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Investigates social conflict and distributional disputes in the public sector. While theoretical aspects of conflict are considered, focus is on the practice of dispute resolution. Comparisons between unassisted and assisted negotiation are reviewed along with the techniques of facilitation and mediation.",
+            "description":   "Investigates social conflict and distributional disputes in the public sector. While theoretical aspects of conflict and consensus building are considered, focus is on the practice of negotiation and dispute resolution. Comparisons between unassisted and assisted negotiation are reviewed along with the techniques of facilitation and mediation.",
             "url":           "http://student.mit.edu/catalog/m11b.html#11.255",
             "joint":         false,
             "semester":      "Fall",
@@ -432,19 +397,22 @@
         },
         {
             "type":          "Class",
-            "label":         "Seminar on Theory-Building in Multi-Party Negotiation and Dispute Resolution",
+            "label":         "Multi-Party Negotiation Seminar: Addressing the Land Claims of Indigenous Peoples",
             "id":            "11.257",
-            "listing-index": "m11b-018",
+            "listing-index": "m11b-017",
             "course":        "11",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Advanced seminar on multi-party negotiation open only to qualified graduate students. Focus on cross-disciplinary contributions to the theory of negotiation and dispute resolution. Taught in conjunction with Harvard Law School.",
+            "description":   "Focus is on strategies for addressing the land claims of indigenous peoples around the world as well as their demands for autonomy.  Taught in conjuntion with the MIT Program on Human Rights and Justice.",
             "url":           "http://student.mit.edu/catalog/m11b.html#11.257",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "11.255",
             "in-charge":     "Susskind, L.",
@@ -455,13 +423,13 @@
             "type":          "Class",
             "label":         "Organizations and Environments",
             "id":            "11.262",
-            "listing-index": "m11b-019",
+            "listing-index": "m11b-018",
             "course":        "11",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "This subject has two main goals. The first goal is to provide an introduction to research in \"organizations and environments,\" an interdisciplinary domain of inquiry drawing primarily from sociology, and secondarily from economics, psychology, and political science. Seeks to understand organizational processes and outcomes in the surrounding economic, cultural, and institutional context in which they are situated. The second goal is to provide an introduction to the main groups that together form the Behavioral Policy Sciences (BPS) area of MIT/Sloan. In addition to Economic Sociology, these groups are Organization Studies, Work and Employment, Strategic Management, Global Management, and Technology, Innovation, and Entrepreneurship. Primarily for first-year doctoral students in BPS. Subject consists of four modules that are taught by faculty from each of the four BPS groups, as well as integrative sessions taught by the main instructor.",
+            "description":   "This subject has two main goals. The first goal is to provide an introduction to research in \\\u0022organizations and environments,\\\u0022 an interdisciplinary domain of inquiry drawing primarily from sociology, and secondarily from economics, psychology, and political science. Seeks to understand organizational processes and outcomes in the surrounding economic, cultural, and institutional context in which they are situated. The second goal is to provide an introduction to the main groups that together form the Behavioral Policy Sciences (BPS) area of MIT/Sloan. In addition to Economic Sociology, these groups are Organization Studies, Work and Employment, Strategic Management, Global Management, and Technology, Innovation, and Entrepreneurship. Primarily for first-year doctoral students in BPS. Subject consists of four modules that are taught by faculty from each of the four BPS groups, as well as integrative sessions taught by the main instructor.",
             "url":           "http://student.mit.edu/catalog/m11b.html#11.262J",
             "joint":         true,
             "semester":      "Fall",
@@ -473,19 +441,25 @@
             "subarea":       "Department-wide Subjects"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0111.262",
+            "lecture-section-of": "11.262",
+            "timeAndPlace":       "M2.30-5.30 E52-598"
+        },
+        {
             "type":          "Class",
             "label":         "The Comparative Politics of Urban Policy",
             "id":            "11.265",
-            "listing-index": "m11b-020",
+            "listing-index": "m11b-019",
             "course":        "11",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Familiarizes students with unresolved political conflicts and social questions plaguing urban policy makers. Main point of entry is power: who has it, who doesn't, why, and how it affects the character of cities and urban policies. Special attention paid to local government, political parties, social movements, private sector firms, and labor organizations.  Policies under examination include those related to housing, transportation, land use, employment, environment, and migration; case studies include US, European, and Latin American cities.",
+            "description":   "Familiarizes students with unresolved political conflicts and social questions plaguing urban policy makers. Main point of entry is power: who has it, who doesn\\'t, why, and how it affects the character of cities and urban policies. Special attention paid to local government, political parties, social movements, private sector firms, and labor organizations.  Policies under examination include those related to housing, transportation, land use, employment, environment, and migration; case studies include US, European, and Latin American cities.",
             "url":           "http://student.mit.edu/catalog/m11b.html#11.265",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [

@@ -19,18 +19,18 @@
             ],
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
-            "prereq":        [
-                "1.001",
-                "18.01"
+            "prereq":        "1.001",
+            "in-charge":     [
+                "Kocur, G.",
+                "Harward, V.J."
             ],
-            "in-charge":     "Kocur, G.",
             "area":          "Fundamentals"
         },
         {
             "type":               "LectureSection",
             "label":              "L011.00",
             "lecture-section-of": "1.00",
-            "timeAndPlace":       "MWF3-4.30 26-100"
+            "timeAndPlace":       "MWF3-4.30 10-250"
         },
         {
             "type":           "RecitationSection",
@@ -57,10 +57,7 @@
                 "Spring"
             ],
             "offering":      "Currently Offered",
-            "prereq":        [
-                "1.00",
-                "18.01"
-            ],
+            "prereq":        "1.00",
             "in-charge":     "Kocur, G.",
             "area":          "Fundamentals"
         },
@@ -68,7 +65,7 @@
             "type":               "LectureSection",
             "label":              "L011.001",
             "lecture-section-of": "1.001",
-            "timeAndPlace":       "MWF3-4.30 26-100"
+            "timeAndPlace":       "MWF3-4.30 10-250"
         },
         {
             "type":           "RecitationSection",
@@ -86,15 +83,26 @@
             "level":         "Undergrad",
             "units":         "3-2-7",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to probability and statistics, with emphasis on engineering applications. First segment discusses events and their probability, Bayes' Theorem, discrete and continuous random variables and vectors, univariate and multivariate distributions, Bernoulli trials and Poisson point processes, and full-distribution uncertainty propogation and conditional analysis. Second segment deals with second-moment representation of uncertainty and second-moment uncertainty propogation and conditional analysis. Last segment covers random sampling, point and interval estimation, hypothesis testing, and linear regression. Concepts illustrated with examples from various areas of engineering.",
+            "has-final":     true,
+            "description":   "Introduction to probability and statistics, with emphasis on  engineering applications. Events and their probability, the Total Probability and Bayes\\' Theorems, discrete and  continuous random variables and vectors, univariate and multivariate distributions, the Bernoulli trial sequence and Poisson point process, and full-distribution uncertainty  propagation and conditional analysis. Second-moment representation of uncertainty and second-moment uncertainty propagation and conditional analysis. Random sampling, estimation of distribution parameters (method of moments, maximum likelihood, Bayesian estimation), and simple and multiple linear regression. Concepts illustrated with examples from various areas of engineering and everyday life.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.010",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        "18.02",
             "in-charge":     "Veneziano, D.",
             "area":          "Fundamentals"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L011.010",
+            "lecture-section-of": "1.010",
+            "timeAndPlace":       "TR9.30-11 1-242"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.010",
+            "rec-section-of": "1.010",
+            "timeAndPlace":   "R2-4 5-234"
         },
         {
             "type":          "Class",
@@ -115,40 +123,16 @@
             "area":          "Fundamentals"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.011",
-            "lecture-section-of": "1.011",
-            "timeAndPlace":       "TR9-10.30 1-277"
-        },
-        {
-            "type":          "Class",
-            "label":         "Approaches to Civil and Environmental Engineering Design:  Principles and Practice",
-            "id":            "1.012",
-            "listing-index": "m1a-004",
-            "course":        "1",
-            "level":         "Undergrad",
-            "units":         "1-2-3",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Introduces students to the techniques, tools, and theory of engineering design and creative problem-solving, as well as design issues and practices in civil and environmental engineering.  Includes several design cases.  The design approaches explicitly consider technical issues as well as the existing built environment, natural environment, economic and social factors, and expected life span.  A large design case is introduced which is used in subsequent specialty area design subjects and the capstone design subject (1.013).  Students also start to develop their design portfolio.",
-            "url":           "http://student.mit.edu/catalog/m1a.html#1.012",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "in-charge":     "Einstein, H. H.",
-            "area":          "Fundamentals"
-        },
-        {
             "type":          "Class",
             "label":         "Senior Civil and Environmental Engineering Design",
             "id":            "1.013",
-            "listing-index": "m1a-005",
+            "listing-index": "m1a-004",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "2-4-6",
             "total-units":   12,
             "has-final":     false,
-            "description":   "The project synthesizes prior design education. Students who have specialized in structural, geotechnical, engineering systems and environmental areas form teams to design and plan a major project in a specific location. Students formulate the problem and demonstrate creativity in applying theories and methodologies from their design and analysis subjects to develop the facility, with consideration of its technical, environmental, and social feasibility. Parallel to this major design project are smaller projects involving actual building. Lectures on a variety of civil and environmental engineering projects as well as field trips are also part of the subject. Instruction and practice in oral and written communication provided.",
+            "description":   "The project synthesizes prior design education. Students who have specialized in structural, geotechnical, engineering systems, and environmental areas form teams to design and plan a major project in a specific location. Students formulate the problem and demonstrate creativity in applying theories and methodologies from their design and analysis subjects to develop the project, with consideration of its technical, environmental, and social feasibility. Parallel to this major design project are smaller projects involving actual building. Lectures on a variety of civil and environmental engineering projects, as well as field trips, are also part of the subject. Instruction and practice in oral and written communication are an integral part, culminating in the completion of the design portfolio.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.013",
             "joint":         false,
             "semester":      "Spring",
@@ -156,36 +140,24 @@
             "in-charge":     [
                 "Einstein, H. H.",
                 "Shanahan, P.",
-                "O'Donnell, L."
+                "O\\'Donnell, L."
             ],
             "area":          "Fundamentals"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L011.013",
-            "lecture-section-of": "1.013",
-            "timeAndPlace":       "TR12 1-371"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B021.013",
-            "lab-section-of": "1.013",
-            "timeAndPlace":   "W12-4 1-050"
         },
         {
             "type":          "Class",
             "label":         "Design of Electromechanical Robotic Systems",
             "id":            "1.015",
-            "listing-index": "m1a-006",
+            "listing-index": "m1a-005",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-4-5",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Design, construction and testing of a field robotic system, involving team projects with each student responsible for a specific subsystem. Projects focus on electronics, instrumentation, and machine elements. Design for operation in uncertain conditions is considered, with ocean waves and marine structures as a central theme. Use basic statistics, linear systems, Fourier transforms, random processes, spectra and extreme events with applications in design. Lectures on ethics in engineering practice included. Enrollment may be limited due to laboratory capacity. Subject offered in Spring 2008 to accommodate current majors; after that it will be offered every fall term starting with Fall 2008.",
+            "description":   "Design, construction, and testing of a field robotic system; involving team projects, with each student responsible for a specific subsystem. Projects focus on electronics, instrumentation, and machine elements. Design for operation in uncertain conditions is considered, with ocean waves and marine structures as a central theme. Basic statistics, linear systems, Fourier transforms, random processes, spectra and extreme events with applications in design. Lectures on ethics in engineering practice included. Enrollment may be limited due to laboratory capacity.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.015J",
             "joint":         true,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Institute LAB",
             "prereq":        [
@@ -197,17 +169,14 @@
                 "2.016",
                 "2.671"
             ],
-            "in-charge":     [
-                "Triantafyllou, M. S.",
-                "Hover, F. S."
-            ],
+            "in-charge":     "Hover, F. S.",
             "area":          "Fundamentals"
         },
         {
             "type":               "LectureSection",
             "label":              "L011.015",
             "lecture-section-of": "1.015",
-            "timeAndPlace":       "TR11-12.30 1-136"
+            "timeAndPlace":       "TR11-12.30 1-132"
         },
         {
             "type":           "LabSection",
@@ -216,10 +185,16 @@
             "timeAndPlace":   "M1-5 5-007"
         },
         {
+            "type":           "LabSection",
+            "label":          "B031.015",
+            "lab-section-of": "1.015",
+            "timeAndPlace":   "F1-5 5-007"
+        },
+        {
             "type":          "Class",
             "label":         "Communicating Complex Environmental Issues: Designing and Building Interactive Museum Exhibits",
             "id":            "1.016",
-            "listing-index": "m1a-007",
+            "listing-index": "m1a-006",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-1-5",
@@ -238,28 +213,16 @@
             "area":          "Fundamentals"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.016",
-            "lecture-section-of": "1.016",
-            "timeAndPlace":       "MW3-4.30 16-168"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R021.016",
-            "rec-section-of": "1.016",
-            "timeAndPlace":   "F3 16-168"
-        },
-        {
             "type":          "Class",
             "label":         "Ecology I: The Earth System",
             "id":            "1.018",
-            "listing-index": "m1a-008",
+            "listing-index": "m1a-007",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-1-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Fundamentals of ecology, considering Earth as an integrated dynamic system. Coevolution of the biosphere, geosphere, atmosphere and oceans. Introduction to thermodynamics.  The Earth's energy budget. Photosynthesis and respiration.  The hydrologic, carbon and nitrogen cycles. Flow of energy and materials through ecosystems, regulation of the distribution and abundance of organisms, structure and function of ecosystems. Evolution and natural selection; metabolic diversity; productivity. Trophic dynamics; models of population growth, competition, mutualism and predation. 7.012-7.015 recommended.",
+            "description":   "Fundamentals of ecology, considering Earth as an integrated dynamic system. Coevolution of the biosphere, geosphere, atmosphere and oceans. Introduction to thermodynamics. The Earth\\'s energy budget. Photosynthesis and respiration. The hydrologic, carbon and nitrogen cycles. Flow of energy and materials through ecosystems, regulation of the distribution and abundance of organisms, structure and function of ecosystems. Evolution and natural selection; metabolic diversity; productivity. Trophic dynamics; models of population growth, competition, mutualism and predation. Instruction and practice in oral and written communication provided. 7.012-7.014 recommended.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.018J",
             "joint":         true,
             "semester":      "Fall",
@@ -273,44 +236,46 @@
             "area":          "Fundamentals"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.018",
+            "lecture-section-of": "1.018",
+            "timeAndPlace":       "TR11-12.30 48-316"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.018",
+            "rec-section-of": "1.018",
+            "timeAndPlace":   "M4 48-316"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R031.018",
+            "rec-section-of": "1.018",
+            "timeAndPlace":   "R4 48-316"
+        },
+        {
             "type":          "Class",
             "label":         "Ecology II: Engineering for Sustainability",
             "id":            "1.020",
-            "listing-index": "m1a-009",
+            "listing-index": "m1a-008",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-2-7",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Use of ecological and thermodynamic principles to examine interactions between humans and the natural environment.  Fluxes and states, conservation and constitutive laws, chemical equilibrium and kinetics, life cycle analysis, economic methods for evaluating benefits and costs, externalities. Topics such as renewable energy, sustainable agriculture and green buildings illustrated through case studies. Case studies are team-oriented and may include numerical simulations and design exercises as well as reviews of relevant research. Instruction and practice in oral and written communication provided.",
+            "has-final":     false,
+            "description":   "Review of physical, chemical, ecological, and economic principles used to examine interactions between humans and the natural environment. Applications of mass balance concepts in ecology, chemical kinetics, hydrology, and transportation; energy balance concepts in building design, ecology, and climate change; economic and life cycle concepts in resource evaluation and engineering design. Numerical models used to integrate concepts and to assess environmental impacts of human activities. Problem sets involve development of MATLAB models for particular engineering applications. Some experience with computer   programming is helpful but not essential.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.020",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "in-charge":     [
-                "McLaughlin, D.",
-                "Entekhabi, D.",
-                "Marks, D. H."
-            ],
+            "in-charge":     "McLaughlin, D.",
             "area":          "Fundamentals"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L011.020",
-            "lecture-section-of": "1.020",
-            "timeAndPlace":       "MW9.30-11 48-316"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R021.020",
-            "rec-section-of": "1.020",
-            "timeAndPlace":   "F9-11 48-316"
         },
         {
             "type":          "Class",
             "label":         "Introduction to Modeling and Simulation",
             "id":            "1.021",
-            "listing-index": "m1a-010",
+            "listing-index": "m1a-009",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "4-0-8",
@@ -326,40 +291,29 @@
                 "1.021",
                 "3.021",
                 "10.333",
-                "18.361",
                 "22.00",
-                "18.03"
+                "18.03",
+                "3.016"
             ],
             "in-charge":     [
                 "Buehler, M.",
+                "Marzari, N.",
                 "Radovitzky, R.",
                 "Thonhauser, T."
             ],
             "area":          "Fundamentals"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.021",
-            "lecture-section-of": "1.021",
-            "timeAndPlace":       "TR3-4.30 4-231"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R021.021",
-            "rec-section-of": "1.021",
-            "timeAndPlace":   "M4 4-231"
-        },
-        {
             "type":          "Class",
             "label":         "Geomaterials and Geomechanics",
             "id":            "1.032",
-            "listing-index": "m1a-011",
+            "listing-index": "m1a-010",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Presentation and application of principles of soil mechanics. Considers the topics: the origin and nature of soils; soil classification; the effective stress principle; hydraulic conductivity and seepage; stress-strain-strength behavior of cohesionless and cohesive soils and application to lateral earth stresses, bearing capacity and slope stability; consolidation theory and settlement analyses; laboratory and field methods for evaluation of soil properties in design practice. Same lectures as 1.361.",
+            "has-final":     true,
+            "description":   "Presentation and application of principles of soil mechanics. Considers topics: the origin and nature of soils; soil classification; the effective stress principle; hydraulic conductivity and seepage; stress-strain-strength behavior of cohesionless and cohesive soils and application to lateral earth stresses, bearing capacity and slope stability; consolidation theory and settlement analyses; laboratory and field methods for evaluation of soil properties in design practice. Same lectures as 1.361.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.032",
             "joint":         false,
             "semester":      "Fall",
@@ -369,69 +323,72 @@
                 "1.366",
                 "1.010",
                 "1.011",
-                "1.035"
+                "1.035",
+                "1.036"
             ],
             "in-charge":     "Jen, L. C.",
             "area":          "Fundamentals"
         },
         {
-            "type":          "Class",
-            "label":         "Mechanics of Material Systems: An Energy Approach",
-            "id":            "1.033",
-            "listing-index": "m1a-012",
-            "course":        "1",
-            "level":         "Undergrad",
-            "units":         "3-2-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to continuum mechanics and material modeling of engineering materials based on first energy principles: deformation and strain; momentum balance, stress and stress states; elasticity and elasticity bounds; plasticity and yield design. Overarching theme is a unified mechanistic language using thermodynamics, which allows understanding, modeling and design of a large range of engineering materials. Next offered in 2009-2010.",
-            "url":           "http://student.mit.edu/catalog/m1a.html#1.033",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "1.57",
-                "1.030"
-            ],
-            "in-charge":     "Ulm, F. J.",
-            "area":          "Fundamentals"
+            "type":               "LectureSection",
+            "label":              "L011.032",
+            "lecture-section-of": "1.032",
+            "timeAndPlace":       "TR10.30-12 1-375"
         },
         {
             "type":          "Class",
             "label":         "Mechanics of Structures and Soils",
             "id":            "1.035",
-            "listing-index": "m1a-013",
+            "listing-index": "m1a-011",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "5-3-10",
             "total-units":   18,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Analysis of determinate and indeterminate structures including beams, plates, cables and arches. Introduction to matrix methods of structural analysis. Mechanical properties of construction materials, including steel, concrete and soils. Behavior of steel and concrete structural systems. Sources of stress concentrations and nonlinearities in steel and concrete structures; composite behavior of reinforced concrete elements, prestressing of concrete. Groundwater seepage, effective stress and consolidation of soils, principles of slope stability. Interaction of structures and soils in foundations and earth retaining systems. Integrated laboratory sessions introduce concepts and techniques to measure properties of materials and to understand structural behavior.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.035",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        [
-                "1.060",
-                "1.050"
+                "1.050",
+                "18.03"
             ],
             "in-charge":     [
                 "Kausel, E.",
-                "Whittle, A. J.",
+                "Juanes, R.",
                 "Germaine, J. T."
             ],
             "area":          "Fundamentals"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.035",
+            "lecture-section-of": "1.035",
+            "timeAndPlace":       "MTWRF1 1-273"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B021.035",
+            "lab-section-of": "1.035",
+            "timeAndPlace":   "T2-5 1-050"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B031.035",
+            "lab-section-of": "1.035",
+            "timeAndPlace":   "F2-5 1-050"
+        },
+        {
             "type":          "Class",
             "label":         "Structural and Geotechnical Engineering Design",
             "id":            "1.036",
-            "listing-index": "m1a-014",
+            "listing-index": "m1a-012",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-1-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Basic philosophy of planning and design of structures. Loading conditions, design criteria and factors of safety. Application of principles of structural mechanics and soil mechanics in design. Structural system design concepts.  Design of reinforced concrete structural elements using the ultimate strength design method. Load factor design of structural steel members and connections.  Selection of soil parameters from laboratory and in situ tests.  Stability and ground deformations in geotechnical design.  Design with soil-structure interaction. Emphasis on problem-based learning through team design projects.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.036",
             "joint":         false,
@@ -440,64 +397,40 @@
             "prereq":        "1.035",
             "in-charge":     [
                 "Buyukozturk, O.",
-                "Whittle, A. J."
+                "Jen, L.C."
             ],
             "area":          "Fundamentals"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L011.036",
-            "lecture-section-of": "1.036",
-            "timeAndPlace":       "TR10.30-12 1-242"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R021.036",
-            "rec-section-of": "1.036",
-            "timeAndPlace":   "T3 1-242"
         },
         {
             "type":          "Class",
             "label":         "Project Management",
             "id":            "1.040",
-            "listing-index": "m1a-015",
+            "listing-index": "m1a-013",
             "course":        "1",
             "level":         "Undergrad",
-            "units":         "3-1-8",
-            "total-units":   12,
+            "units":         "3-0-6",
+            "total-units":   9,
             "has-final":     false,
-            "description":   "Introduction to project management for custom designed projects, including analytical techniques and practical applications. Topics include resource management, risk analysis and management, financial evaluation and controls, and construction management for all phases of facility life cycle. Experience with software tools and discussion of more novel techniques including risk management sensitivity analysis, process and system dynamics simulation. Visits to ongoing and completed projects. Meets with 1.401J; students taking the graduate version are expected to complete additional assignments.",
+            "description":   "Introduction to project management with emphasis on finance, evaluation, and organization.  Topics include cost benefit analysis, resource and cost estimation, and project control and delivery.  Case studies used to demonstrate relevant issues.  Students taking graduate version complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.040",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "prereq":        "1.401J",
-            "in-charge":     "Staff",
+            "in-charge":     "Moavenzadeh, F.",
             "area":          "Fundamentals"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L011.040",
-            "lecture-section-of": "1.040",
-            "timeAndPlace":       "MF1-2.30 1-371"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R021.040",
-            "rec-section-of": "1.040",
-            "timeAndPlace":   "F4 1-371"
         },
         {
             "type":          "Class",
             "label":         "Engineering System Design",
             "id":            "1.041",
-            "listing-index": "m1a-016",
+            "listing-index": "m1a-014",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-1-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Deals with the design of complex, large, interconnected,  open  sociotechnical(CLIOS) systems, where \"open\" denotes systems that directly interact with the social/political/economic context. Introduces the CLIOS process, defining the concept and distinguishing between quantitative and qualitative analyses of such systems, including introductions of models and frameworks. Systems are characterized, measures of system performance are developed, and key CLIOS system concepts (including sustainability, equity, mobility, and accessibility) are introduced. Class-wide project, with students working in teams on the design of a CLIOS system, taking a broad systems perspective in that design. Examples include the urban ring, a proposed new transit line for Boston; Tren Urbano in San Juan, Puerto Rico; the Central Artery/Ted Williams Tunnel project in Boston; and the transportation of spent nuclear fuel.",
+            "description":   "Deals with the design of complex, large, interconnected,  open sociotechnical (CLIOS) systems, where \\\u0022open\\\u0022 denotes systems that directly interact with the social/political/economic context. Emphasis on transportation-oriented examples. Introduces the CLIOS process, defining the concept and distinguishing between quantitative and qualitative analyses of such systems. Systems characterized, measures of system performance developed, and key CLIOS system concepts (including sustainability, equity, mobility, and accessibility) introduced. Class-wide project, with students working in teams on the design of a CLIOS system, taking a broad systems perspective in that design. Examples include the urban ring, a proposed new transit line for Boston; Tren Urbano in San Juan, Puerto Rico; the Central Artery/Ted Williams Tunnel project in Boston; and the transportation of spent nuclear fuel.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.041J",
             "joint":         true,
             "semester":      "Spring",
@@ -510,7 +443,7 @@
             "type":          "Class",
             "label":         "Fundamentals of Energy in Buildings",
             "id":            "1.044",
-            "listing-index": "m1a-017",
+            "listing-index": "m1a-015",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-2-7",
@@ -520,60 +453,46 @@
             "url":           "http://student.mit.edu/catalog/m1a.html#1.044J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "Restricted Electives in Science and Technology",
             "prereq":        [
                 "2.66J",
-                "4.42J",
-                "8.01",
-                "18.02"
+                "4.42J"
             ],
             "in-charge":     "Glicksman, L. R.",
             "area":          "Fundamentals"
         },
         {
-            "type":          "Class",
-            "label":         "Systems Design and Optimization",
-            "id":            "1.045",
-            "listing-index": "m1a-018",
-            "course":        "1",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Consideration of societal problems of importance to civil and environmental engineers, including those arising in the context of ecology, manufacturing, energy efficient buildings, transportation and logistics, and water and infrastructure systems. Introduction to modeling of these civil and environmental engineering systems and their optimization using state-of-the-art software. Methods include both deterministic and stochastic optimization approaches, including network flows, linear, nonlinear and integer programming, risk management and decision analysis, and optimal control.",
-            "url":           "http://student.mit.edu/catalog/m1a.html#1.045",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "1.010",
-                "1.00"
-            ],
-            "in-charge":     [
-                "Barnhart, C.",
-                "Jaillet, P."
-            ],
-            "area":          "Fundamentals"
+            "type":               "LectureSection",
+            "label":              "L011.044",
+            "lecture-section-of": "1.044",
+            "timeAndPlace":       "MW11-12.30 5-231"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.044",
+            "rec-section-of": "1.044",
+            "timeAndPlace":   "F11-12.30 5-231"
         },
         {
             "type":          "Class",
             "label":         "Engineering Mechanics I",
             "id":            "1.050",
-            "listing-index": "m1a-019",
+            "listing-index": "m1a-016",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-2-7",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Basic principles of mechanics to describe the behavior of materials, structures and fluids. Dimensional analysis, conservation of momentum, static equilibrium, stress and stress states, hydrostatics, moments and forces. Material and structural strength criteria. Deformation and strain. Conservation of energy in solid mechanics, elasticity and elasticity bounds. Energy dissipation, plasticity and fracture. Open-ended geotechnical and structural engineering studio exercises and experiments with natural and man-made physical systems.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.050",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "Restricted Electives in Science and Technology",
-            "prereq":        "8.01",
-            "coreq":         "18.02",
             "in-charge":     [
                 "Ulm, F. J.",
                 "Buehler, M. J."
@@ -581,10 +500,28 @@
             "area":          "Fundamentals"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.050",
+            "lecture-section-of": "1.050",
+            "timeAndPlace":       "MWF11 2-105"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.050",
+            "rec-section-of": "1.050",
+            "timeAndPlace":   "R2-4 5-233"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R031.050",
+            "rec-section-of": "1.050",
+            "timeAndPlace":   "F2-4 5-233"
+        },
+        {
             "type":          "Class",
             "label":         "Mechanics of Structures",
             "id":            "1.052",
-            "listing-index": "m1a-020",
+            "listing-index": "m1a-017",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "4-1-7",
@@ -602,34 +539,21 @@
             ],
             "in-charge":     [
                 "Wierzbicki, T.",
-                "Patrikalakis, N. M.",
                 "Schmidt, H."
             ],
             "area":          "Fundamentals"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.052",
-            "lecture-section-of": "1.052",
-            "timeAndPlace":       "MW11-12.30 1-134"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B021.052",
-            "lab-section-of": "1.052",
-            "timeAndPlace":   "T2-5 1-307"
-        },
-        {
             "type":          "Class",
             "label":         "Dynamics and Control I",
             "id":            "1.053",
-            "listing-index": "m1a-021",
+            "listing-index": "m1a-018",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "4-1-7",
             "total-units":   12,
             "has-final":     true,
-            "description":   "Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts.  Virtual displacements and virtual work. Lagrange's equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems.  Introduction to numerical methods and MATLAB to solve dynamics and vibrations problems.",
+            "description":   "Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts.  Virtual displacements and virtual work. Lagrange\\'s equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems.  Introduction to numerical methods and MATLAB to solve dynamics and vibrations problems.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.053J",
             "joint":         true,
             "semester":      [
@@ -640,7 +564,6 @@
             "category":      "Restricted Electives in Science and Technology",
             "prereq":        [
                 "2.003J",
-                "8.01",
                 "18.03"
             ],
             "in-charge":     [
@@ -655,7 +578,7 @@
             "type":               "LectureSection",
             "label":              "L011.053",
             "lecture-section-of": "1.053",
-            "timeAndPlace":       "MW9.30-11 3-370"
+            "timeAndPlace":       "MW9.30-11 1-190"
         },
         {
             "type":           "LabSection",
@@ -670,28 +593,58 @@
             "timeAndPlace":   "F2 3-343"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R041.053",
-            "rec-section-of": "1.053",
-            "timeAndPlace":   "R2 1-379"
+            "type":           "LabSection",
+            "label":          "B041.053",
+            "lab-section-of": "1.053",
+            "timeAndPlace":   "F3 3-343"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R051.053",
-            "rec-section-of": "1.053",
-            "timeAndPlace":   "R4 1-242"
+            "type":           "LabSection",
+            "label":          "B051.053",
+            "lab-section-of": "1.053",
+            "timeAndPlace":   "F4 3-343"
         },
         {
             "type":           "RecitationSection",
             "label":          "R061.053",
             "rec-section-of": "1.053",
-            "timeAndPlace":   "F10 1-242"
+            "timeAndPlace":   "R1 1-134"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R071.053",
+            "rec-section-of": "1.053",
+            "timeAndPlace":   "R3 1-371"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R081.053",
+            "rec-section-of": "1.053",
+            "timeAndPlace":   "R4 1-371"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R091.053",
+            "rec-section-of": "1.053",
+            "timeAndPlace":   "F10 1-135"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R101.053",
+            "rec-section-of": "1.053",
+            "timeAndPlace":   "F11 1-135"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R111.053",
+            "rec-section-of": "1.053",
+            "timeAndPlace":   "F12 1-135"
         },
         {
             "type":          "Class",
             "label":         "Mechanics and Design of Concrete Structures",
             "id":            "1.054",
-            "listing-index": "m1a-022",
+            "listing-index": "m1a-019",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -710,43 +663,61 @@
             "area":          "Fundamentals"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.054",
+            "lecture-section-of": "1.054",
+            "timeAndPlace":       "MW1-2.30 1-246"
+        },
+        {
             "type":          "Class",
-            "label":         "Mechanical Vibration",
+            "label":         "Structural Dynamics & Vibrations",
             "id":            "1.058",
-            "listing-index": "m1a-023",
+            "listing-index": "m1a-020",
             "course":        "1",
             "level":         "Undergrad",
-            "units":         "4-0-8",
+            "units":         "3-1-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Concepts of mechanical vibration, including free and forced vibration of single- and multi-degree of freedom systems. Modal analysis and matrix formulation of vibration problems. Approximate solution techniques. Vibration and modal analysis of continuous systems: beams, rods, and strings. Introduction to the response of linear systems to random excitation. Numerous examples and applications of vibration measurement and analysis, including vibration isolation and dynamic absorbers, ships, offshore structures, engines, and rotating machinery.",
-            "url":           "http://student.mit.edu/catalog/m1a.html#1.058J",
-            "joint":         true,
+            "description":   "Single- and multiple-degree-of-freedom vibration problems, using matrix formulation and normal mode superposition methods. Time and frequency domain solution techniques including convolution and Fourier transforms. Applications to vibration isolation, damping treatment, and dynamic absorbers. Analysis of continuous systems by exact and approximate methods. Applications to buildings, ships, aircraft and offshore structures. Vibration measurement and analysis techniques. Students should possess basic knowledge in structural mechanics and in linear algebra. Students taking graduate version complete additional assignments.",
+            "url":           "http://student.mit.edu/catalog/m1a.html#1.058",
+            "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "prereq":        "2.003J",
-            "in-charge":     [
-                "Kausel, E. A.",
-                "Vandiver, J. K."
+            "offering":      "Currently Offered",
+            "prereq":        [
+                "1.581J",
+                "2.060J",
+                "16.221J"
             ],
+            "in-charge":     "Kausel, E.",
             "area":          "Fundamentals"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L011.058",
+            "lecture-section-of": "1.058",
+            "timeAndPlace":       "MWF10 1-390"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.058",
+            "rec-section-of": "1.058",
+            "timeAndPlace":   "W4 1-135"
         },
         {
             "type":          "Class",
             "label":         "Engineering Mechanics II",
             "id":            "1.060",
-            "listing-index": "m1a-024",
+            "listing-index": "m1a-021",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-2-7",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Mechanics principles for incompressible fluids and their interactions with solid materials. Review of hydrostatics. Conservation of mass, momentum and energy in fluid mechanics. Flow nets, velocity distributions in laminar and turbulent flows, groundwater flows. Momentum and energy principles in hydraulics, with emphasis on open channel flow and hydraulic structures. Analysis of pipe systems, pumps and turbines. Gradually varied flow in open channels, significance of the Froude number, backwater curves. Application of principles through open-ended studio exercises and experiments.",
+            "has-final":     false,
+            "description":   "Mechanics principles for incompressible fluids and their interactions with solid materials. Review of hydrostatics. Conservation of mass, momentum and energy in fluid mechanics. Flow nets, velocity distributions in laminar and turbulent flows, groundwater flows. Momentum and energy principles in hydraulics, with emphasis on open channel flow and hydraulic structures. Analysis of pipe systems, pumps and turbines. Gradually varied flow in open channels, significance of the Froude number, backwater curves. Application of principles through open-ended studio exercises. Engineering Mechanics I is not required for this subject.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.060",
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        "1.050",
             "coreq":         "18.03",
             "in-charge":     [
                 "Madsen, O. S.",
@@ -755,33 +726,15 @@
             "area":          "Fundamentals"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.060",
-            "lecture-section-of": "1.060",
-            "timeAndPlace":       "MWF11 48-316"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R021.060",
-            "rec-section-of": "1.060",
-            "timeAndPlace":   "R2-4 48-316"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R031.060",
-            "rec-section-of": "1.060",
-            "timeAndPlace":   "F2-4 48-316"
-        },
-        {
             "type":          "Class",
             "label":         "Transport Processes in the Environment",
             "id":            "1.061",
-            "listing-index": "m1a-025",
+            "listing-index": "m1a-022",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-1-8",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduction to mass transport in environmental flows, with emphasis given to river and lake systems. Derivation and solutions to the differential form of mass conservation equations. Topics include: molecular and turbulent diffusion, boundary layers, dissolution, bed-water exchange, air-water exchange and particle transport.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.061",
             "joint":         false,
@@ -795,15 +748,27 @@
             "area":          "Fundamentals"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.061",
+            "lecture-section-of": "1.061",
+            "timeAndPlace":       "MWF10 48-316"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.061",
+            "rec-section-of": "1.061",
+            "timeAndPlace":   "M11 48-316"
+        },
+        {
             "type":          "Class",
             "label":         "Introduction to Hydrology",
             "id":            "1.070",
-            "listing-index": "m1a-026",
+            "listing-index": "m1a-023",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Introduction to the global water and energy cycles and the earth system including the atmosphere, oceans, land, and biosphere. Fundamentals of hydrologic science and its applications. Covers bases for the characterization of hydrologic processes such as precipitation, evaporation, transpiration by vegetation, infiltration, and storm runoff. Understanding and modeling of groundwater flow, hydraulics of wells, and subsurface transport of pollutants. Probabilistic analysis and risk estimation for hydrologic variables.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.070J",
             "joint":         true,
@@ -821,10 +786,22 @@
             "area":          "Fundamentals"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.070",
+            "lecture-section-of": "1.070",
+            "timeAndPlace":       "TR9.30-11 48-316"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.070",
+            "rec-section-of": "1.070",
+            "timeAndPlace":   "F1 48-316"
+        },
+        {
             "type":          "Class",
             "label":         "Global Change Science",
             "id":            "1.071",
-            "listing-index": "m1a-027",
+            "listing-index": "m1a-024",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -847,7 +824,7 @@
             "type":          "Class",
             "label":         "Physical Principles of Remote Sensing",
             "id":            "1.076",
-            "listing-index": "m1a-028",
+            "listing-index": "m1a-025",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -871,7 +848,7 @@
             "type":          "Class",
             "label":         "Environmental Chemistry and Biology",
             "id":            "1.080",
-            "listing-index": "m1a-029",
+            "listing-index": "m1a-026",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "4-0-8",
@@ -882,45 +859,15 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "5.111",
-                "5.112",
-                "3.091",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
-            ],
             "coreq":         "1.107",
-            "in-charge":     [
-                "Polz, M. F.",
-                "Staff"
-            ],
+            "in-charge":     "Polz, M. F.",
             "area":          "Fundamentals"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L011.080",
-            "lecture-section-of": "1.080",
-            "timeAndPlace":       "M1-2.30 48-316"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B021.080",
-            "lab-section-of": "1.080",
-            "timeAndPlace":   "F1-2.30 48-308"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R031.080",
-            "rec-section-of": "1.080",
-            "timeAndPlace":   "T11 48-308"
         },
         {
             "type":          "Class",
             "label":         "Environmental Risks for Common Disease",
             "id":            "1.081",
-            "listing-index": "m1a-030",
+            "listing-index": "m1a-027",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-0-9",
@@ -931,16 +878,7 @@
             "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "20.104J",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015",
-                "5.111",
-                "5.112",
-                "3.091"
-            ],
+            "prereq":        "20.104J",
             "in-charge":     [
                 "Thilly, W.",
                 "McCunney, R."
@@ -948,91 +886,40 @@
             "area":          "Fundamentals"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.081",
-            "lecture-section-of": "1.081",
-            "timeAndPlace":       "TR1-2.30 56-614"
-        },
-        {
-            "type":          "Class",
-            "label":         "Air Pollution: Processes and Controls",
-            "id":            "1.082",
-            "listing-index": "m1a-031",
-            "course":        "1",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Solving air pollution problems requires a multi-disciplinary approach. Effects of air pollutants on human health and the environment. Origins of atmospheric pollutants and methods to estimate emissions from anthropogenic sources. Atmospheric chemistry and pollutant removal processes. Meteorological phenomena and pollutant dispersion modeling. Laws and regulations to control air pollution. Technologies and methods used to control air pollution. Regional and global issues such as acid rain, ozone depletion, and global climate change.",
-            "url":           "http://student.mit.edu/catalog/m1a.html#1.082",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     "Staff",
-            "area":          "Fundamentals"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L011.082",
-            "lecture-section-of": "1.082",
-            "timeAndPlace":       "MW10.30-12 48-308"
-        },
-        {
             "type":          "Class",
             "label":         "Environmental Health Engineering",
             "id":            "1.083",
-            "listing-index": "m1a-032",
-            "course":        "1",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Consideration of human health issues associated with environmental engineering for air, land, and water systems; fate and transport of environmental contaminants; toxicology, exposure pathways, and risk assessment; treatment technology, and basis for environmental regulation of chemical exposure. Case studies illustrate concepts and issues.",
-            "url":           "http://student.mit.edu/catalog/m1a.html#1.083",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "1.061",
-                "1.080"
-            ],
-            "in-charge":     [
-                "Shanahan, P.",
-                "Staff"
-            ],
-            "area":          "Fundamentals"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L011.083",
-            "lecture-section-of": "1.083",
-            "timeAndPlace":       "TR9.30-11 48-308"
-        },
-        {
-            "type":          "Class",
-            "label":         "Systems Microbiology",
-            "id":            "1.084",
-            "listing-index": "m1a-033",
+            "listing-index": "m1a-028",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introductory microbiology from a systems perspective. Considers microbial diversity, population dynamics, and genomics.  Emphasize the delicate balance between microbes and humans, and changes that result in the emergence of infectious diseases and antimicrobial resistance.  Case study approach covers topics such as vaccines, toxins, biodefense, and infections including Legionnaire?s disease, tuberculosis, Helicobacter pylori, and plague.",
+            "description":   "Consideration of human health issues associated with environmental engineering for air, land, and water systems.  Fate and transport of environmental contaminants; toxicology, exposure pathways, and risk assessment; treatment technology, and basis for environmental regulation of chemical exposure. Case studies illustrate concepts and issues.",
+            "url":           "http://student.mit.edu/catalog/m1a.html#1.083",
+            "joint":         false,
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
+            "prereq":        "1.061",
+            "in-charge":     "Thompson, J.",
+            "area":          "Fundamentals"
+        },
+        {
+            "type":          "Class",
+            "label":         "Systems Microbiology",
+            "id":            "1.084",
+            "listing-index": "m1a-029",
+            "course":        "1",
+            "level":         "Undergrad",
+            "units":         "3-0-9",
+            "total-units":   12,
+            "has-final":     true,
+            "description":   "Introductory microbiology from a systems perspective. Considers microbial diversity, population dynamics, and genomics.  Emphasize the delicate balance between microbes and humans, and changes that result in the emergence of infectious diseases and antimicrobial resistance.  Case study approach covers topics such as vaccines, toxins, biodefense, and infections including Legionnaire\\'s disease, tuberculosis, Helicobacter pylori, and plague.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.084J",
             "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "prereq":        [
-                "20.106J",
-                "5.111",
-                "5.112",
-                "3.091",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015"
-            ],
+            "prereq":        "20.106J",
             "in-charge":     [
                 "Schauer, D. B.",
                 "DeLong, E."
@@ -1040,16 +927,22 @@
             "area":          "Fundamentals"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.084",
+            "lecture-section-of": "1.084",
+            "timeAndPlace":       "MW2.30-4 36-112"
+        },
+        {
             "type":          "Class",
             "label":         "Introduction to Civil and Environmental Engineering Design I",
             "id":            "1.101",
-            "listing-index": "m1a-034",
+            "listing-index": "m1a-030",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "1-3-2",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Project-oriented introduction to the principles and practice of engineering design. Design projects and exercises relating to the built and natural environments. Emphasis on achieving function and sustainability through choice of materials and processes, compatibility with natural cycles, and the use of active or adaptive systems. Development of hands-on skills, teamwork, and communication using both images and texts. Exercises and projects engage students in the building, implemenation, and testing of their designs.",
+            "description":   "Project-oriented introduction to the principles and practice of civil and environmental engineering design. First half of the term, students work in teams to apply the design process to an open-ended design/planning problem involving civil and environmental engineering aspects.  In the second half, teams design and build a working model demonstrating, in detail, an aspect of the planning/design project.  Each team then uses the model to teach the rest of the class the concepts they have chosen to study in depth. Regular written and oral presentations. Students also start on their design portfolio.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.101",
             "joint":         false,
             "semester":      "Fall",
@@ -1059,57 +952,54 @@
                 "1.018",
                 "1.050"
             ],
-            "in-charge":     "Staff",
-            "area":          "Undergraduate Laboratory Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Introduction to Civil and Environmental Engineering Design II",
-            "id":            "1.102",
-            "listing-index": "m1a-035",
-            "course":        "1",
-            "level":         "Undergrad",
-            "units":         "1-3-2",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Continuation of 1.101 with emphasis on construction and deployment of designs. Performance testing used to determine if designs behave as expected. Further development of hands-on, teamwork and communication skills.",
-            "url":           "http://student.mit.edu/catalog/m1a.html#1.102",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "Institute LAB",
-            "prereq":        "1.101",
-            "coreq":         "1.060",
             "in-charge":     [
-                "Hemond, H. F.",
-                "Germaine, J.",
-                "Staff"
+                "Bras",
+                "Einstein",
+                "Epstein",
+                "Rudolph"
             ],
             "area":          "Undergraduate Laboratory Subjects"
         },
         {
             "type":               "LectureSection",
-            "label":              "L011.102",
-            "lecture-section-of": "1.102",
-            "timeAndPlace":       "T1 1-050"
+            "label":              "L011.101",
+            "lecture-section-of": "1.101",
+            "timeAndPlace":       "MW2 5-134"
         },
         {
             "type":           "LabSection",
-            "label":          "B021.102",
-            "lab-section-of": "1.102",
-            "timeAndPlace":   "T2-5 1-050"
+            "label":          "B021.101",
+            "lab-section-of": "1.101",
+            "timeAndPlace":   "MW3 1-050"
         },
         {
-            "type":           "LabSection",
-            "label":          "B031.102",
-            "lab-section-of": "1.102",
-            "timeAndPlace":   "R2-5 1-050"
+            "type":          "Class",
+            "label":         "Introduction to Civil and Environmental Engineering Design II",
+            "id":            "1.102",
+            "listing-index": "m1a-031",
+            "course":        "1",
+            "level":         "Undergrad",
+            "units":         "1-3-2",
+            "total-units":   6,
+            "has-final":     false,
+            "description":   "Project-oriented subject focused on the principles and practice of engineering design. Emphasis on construction and deployment of designs, plus performance testing used to determine if designs behave  as expected. Subject includes a major team project involving use and application of sensors, as well as environmentally-friendly, and energy-effective or energy-producing designs. Further development of hands-on, teamwork and communication skills. Limited enrollment; preference given to Course 1 students.",
+            "url":           "http://student.mit.edu/catalog/m1a.html#1.102",
+            "joint":         false,
+            "semester":      "Spring",
+            "offering":      "Currently Offered",
+            "category":      "Institute LAB",
+            "coreq":         "1.060",
+            "in-charge":     [
+                "Hemond, H. F.",
+                "Germaine, J.T."
+            ],
+            "area":          "Undergraduate Laboratory Subjects"
         },
         {
             "type":          "Class",
             "label":         "Environmental Fluid Transport Processes and Hydrology Laboratory",
             "id":            "1.106",
-            "listing-index": "m1a-036",
+            "listing-index": "m1a-032",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "0-4-2",
@@ -1132,10 +1022,22 @@
             "area":          "Undergraduate Laboratory Subjects"
         },
         {
+            "type":           "LabSection",
+            "label":          "B011.106",
+            "lab-section-of": "1.106",
+            "timeAndPlace":   "T1-5 48-109"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B021.106",
+            "lab-section-of": "1.106",
+            "timeAndPlace":   "W1-5 48-109"
+        },
+        {
             "type":          "Class",
             "label":         "Environmental Chemistry and Biology Laboratory",
             "id":            "1.107",
-            "listing-index": "m1a-037",
+            "listing-index": "m1a-033",
             "course":        "1",
             "level":         "Undergrad",
             "units":         "0-4-2",
@@ -1156,28 +1058,16 @@
             "area":          "Undergraduate Laboratory Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.107",
-            "lecture-section-of": "1.107",
-            "timeAndPlace":       "T1 48-316"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B021.107",
-            "lab-section-of": "1.107",
-            "timeAndPlace":   "T2-5 48-109"
-        },
-        {
             "type":          "Class",
-            "label":         "Foundations of Software Engineering",
+            "label":         "Foundations of Software and Computation for Simulation",
             "id":            "1.124",
-            "listing-index": "m1a-038",
+            "listing-index": "m1a-034",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Modern software development techniques for engineering and information technology. Design and development of component-based software (using C# and .NET); data structures and algorithms for modeling, analysis, and visualization; basic problem-solving techniques; web services; and the management and maintenance of software. Treatment of topics such as sorting and searching algorithms; and numerical simulation techniques. Foundation for in-depth exploration of image processing, computational geometry, finite element methods, network methods and e-business applications.",
+            "description":   "Modern software development techniques and algorithms for engineering computation and information technology. Provides computational and software techniques for simulation of engineering systems, such as sensor networks, traffic networks, and atomistic material simulators. Covers data structures and algorithms for modeling, analysis, and visualization in the setting of multi-core and distributed computing. Treatment of basic topics, such as queuing, sorting and search algorithms, and more advanced numerical techniques based on state machines and distributed agents. Foundation for in-depth exploration of image processing, optimization, finite element and mesh-less methods, computational materials, discrete element methods, and network methods.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.124J",
             "joint":         true,
             "semester":      "Fall",
@@ -1191,58 +1081,70 @@
             "area":          "Engineering Information Systems and Computation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.124",
+            "lecture-section-of": "1.124",
+            "timeAndPlace":       "MW11-12.30 3-370"
+        },
+        {
             "type":          "Class",
-            "label":         "Web System Architecting: Building Web Services",
+            "label":         "Web System Architecting: Building Distributed Systems",
             "id":            "1.125",
-            "listing-index": "m1a-039",
+            "listing-index": "m1a-035",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Software architecting and design of web systems in the context of a start-up company. Targeted at future CTOs who must understand both the business and technical issues involved in architecting enterprise-scale web systems. Student teams confront technically challenging problems. Lectures and readings cover core database, XML, web server components and browser issues in a web service environment. Limited enrollment.",
+            "description":   "Software architecting and design of web systems in the context of a start-up company. Targeted at future CTOs who must understand both the business and technical issues involved in architecting enterprise-scale web systems. Student teams confront technically challenging problems. Lectures and readings cover core database, XML, web server components and browser issues in a distributed web service environment. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.125J",
             "joint":         true,
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "1.124J",
-                "6.001"
+                "1.00",
+                "1.124J"
             ],
-            "in-charge":     "Williams, J. R.",
+            "in-charge":     [
+                "Williams, J. R.",
+                "Sanchez, A."
+            ],
             "area":          "Engineering Information Systems and Computation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L011.125",
-            "lecture-section-of": "1.125",
-            "timeAndPlace":       "MW9.30-11 1-150"
         },
         {
             "type":          "Class",
             "label":         "Pattern Recognition and Analysis",
             "id":            "1.126",
-            "listing-index": "m1a-040",
+            "listing-index": "m1a-036",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Fundamentals of characterizing and recognizing patterns and features of interest in numerical data. Basic tools and theory for signal understanding problems with applications to user modeling, affect recognition, speech recognition and understanding, computer vision, physiological analysis, and more. Decision theory, statistical classification, maximum likelihood and Bayesian estimation, nonparametric methods, unsupervised learning and clustering. Additional topics on machine and human learning from active research. Enrollment limited.",
+            "description":   "Fundamentals of characterizing and recognizing patterns and features of interest in numerical data. Basic tools and theory for signal understanding problems with applications to user modeling, affect recognition, speech recognition and understanding, computer vision, physiological analysis, and more. Decision theory, statistical classification, maximum likelihood and Bayesian estimation, nonparametric methods, unsupervised learning and clustering. Additional topics on machine and human learning from active research. Enrollment limited to 20.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.126J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Picard, R. W.",
             "area":          "Engineering Information Systems and Computation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.126",
+            "lecture-section-of": "1.126",
+            "timeAndPlace":       "MW10.30-12 E15-235"
+        },
+        {
             "type":          "Class",
             "label":         "Computational Geometry",
             "id":            "1.128",
-            "listing-index": "m1a-041",
+            "listing-index": "m1a-037",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1268,13 +1170,13 @@
             "type":          "Class",
             "label":         "MEng Concepts of Engineering Practice",
             "id":            "1.133",
-            "listing-index": "m1a-042",
+            "listing-index": "m1a-038",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Core requirement for the M.Eng. program designed to teach students about the roles of today's professional engineer and expose them to team-building skills through lectures, team workshops, and seminars. Topics include: written and oral communication, job placement skills, trends in the engineering and construction industry, risk analysis and risk management, managing public information, proposal preparation, project evaluation, project management, liability, professional ethics, and negotiation. Draws on relevant large-scale projects to illustrate each component of the subject. Grading is based on both individual and team exercises involving written and oral presentations. Limited to Course 1 MEng students.",
+            "description":   "Core requirement for the M.Eng. program designed to teach students about the roles of today\\'s professional engineer and expose them to team-building skills through lectures, team workshops, and seminars. Topics include: written and oral communication, job placement skills, trends in the engineering and construction industry, risk analysis and risk management, managing public information, proposal preparation, project evaluation, project management, liability, professional ethics, and negotiation. Draws on relevant large-scale projects to illustrate each component of the subject. Grading is based on both individual and team exercises involving written and oral presentations. Limited to Course 1 MEng students.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.133",
             "joint":         false,
             "semester":      "Fall",
@@ -1284,10 +1186,16 @@
             "area":          "Engineering Analysis Methods"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.133",
+            "lecture-section-of": "1.133",
+            "timeAndPlace":       "MW8.30-10 33-419"
+        },
+        {
             "type":          "Class",
             "label":         "Wave Propagation",
             "id":            "1.138",
-            "listing-index": "m1a-043",
+            "listing-index": "m1a-039",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1313,16 +1221,10 @@
             "area":          "Engineering Analysis Methods"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.138",
-            "lecture-section-of": "1.138",
-            "timeAndPlace":       "TR1-2.30 1-277"
-        },
-        {
             "type":          "Class",
             "label":         "Systems Optimization: Models and Computation",
             "id":            "1.142",
-            "listing-index": "m1a-044",
+            "listing-index": "m1a-040",
             "course":        "1",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -1344,22 +1246,10 @@
             "area":          "Engineering Systems, Economics, and Optimization"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L011.142",
-            "lecture-section-of": "1.142",
-            "timeAndPlace":       "TR2.30-4 E51-057"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R021.142",
-            "rec-section-of": "1.142",
-            "timeAndPlace":   "F3 14-0637"
-        },
-        {
             "type":          "Class",
             "label":         "Engineering Economy Module",
             "id":            "1.145",
-            "listing-index": "m1a-045",
+            "listing-index": "m1a-041",
             "course":        "1",
             "level":         "Grad",
             "units":         "1-0-2 [P/D/F]",
@@ -1370,23 +1260,26 @@
             "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
-            "in-charge":     [
-                "Neufville, R. de",
-                "Staff"
-            ],
+            "in-charge":     "Neufville, R. de",
             "area":          "Engineering Systems, Economics, and Optimization"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L011.145",
+            "lecture-section-of": "1.145",
+            "timeAndPlace":       "MTWR EVE (5-7.30 PM) 32-155"
         },
         {
             "type":          "Class",
             "label":         "Engineering Systems Analysis for Design",
             "id":            "1.146",
-            "listing-index": "m1a-046",
+            "listing-index": "m1a-042",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
-            "has-final":     false,
-            "description":   "Engineering systems design must have the flexibility to take advantage of new opportunities while avoiding disasters. Subject develops \"real options\" analysis to create design flexibility and measure its value so that it can be incorporated into system optimization. Subject builds on essential concepts of system models, decision analysis, and financial concepts. Emphasis on calculating value of real options with special attention given to efficient analysis and practical applications.  The material is organized and presented to deal with the contextual reality of technological systems, that substantially distinguishes the analysis of real options in engineering systems from that of financial options.",
+            "has-final":     true,
+            "description":   "Engineering systems design must have the flexibility to take advantage of new opportunities while avoiding disasters. Subject develops \\\u0022real options\\\u0022 analysis to create design flexibility and measure its value so that it can be incorporated into system optimization. Subject builds on essential concepts of system models, decision analysis, and financial concepts. Emphasis on calculating value of real options with special attention given to efficient analysis and practical applications.  The material is organized and presented to deal with the contextual reality of technological systems, that substantially distinguishes the analysis of real options in engineering systems from that of financial options.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.146",
             "joint":         false,
             "semester":      "Fall",
@@ -1402,16 +1295,34 @@
             "area":          "Engineering Systems, Economics, and Optimization"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L011.146",
+            "lecture-section-of": "1.146",
+            "timeAndPlace":       "TR10.30-12 32-155"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.146",
+            "rec-section-of": "1.146",
+            "timeAndPlace":   "T3 32-155"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R031.146",
+            "rec-section-of": "1.146",
+            "timeAndPlace":   "R9 35-155"
+        },
+        {
             "type":          "Class",
             "label":         "Applications of Technology in Energy and the Environment",
             "id":            "1.149",
-            "listing-index": "m1a-047",
+            "listing-index": "m1a-043",
             "course":        "1",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduces advanced undergraduates or graduate students in the Schools of Engineering and Science to the integration of technical, economic, political, and environmental consideration required for the successful implementation of new technology. Case studies are drawn from the energy and environment sectors with some emphasis on analytic techniques that serve as a \"tool box\" for students. Technologies considered include fossil, nuclear, solar, wind, fuel cell and energy conservation. International aspects, such as weapons proliferation and global climate effects, also discussed. Enrollment limited.",
+            "description":   "Introduces advanced undergraduates or graduate students in the Schools of Engineering and Science to the integration of technical, economic, political, and environmental consideration required for the successful implementation of new technology. Case studies are drawn from the energy and environment sectors with some emphasis on analytic techniques that serve as a \\\u0022tool box\\\u0022 for students. Technologies considered include fossil, nuclear, solar, wind, fuel cell and energy conservation. International aspects, such as weapons proliferation and global climate effects, also discussed. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/m1a.html#1.149",
             "joint":         false,
             "semester":      "Fall",
@@ -1429,6 +1340,18 @@
                 "Lester, R."
             ],
             "area":          "Engineering Systems, Economics, and Optimization"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L011.149",
+            "lecture-section-of": "1.149",
+            "timeAndPlace":       "MW8.30-10 4-237"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R021.149",
+            "rec-section-of": "1.149",
+            "timeAndPlace":   "F8.30-10 4-237"
         }
     ]
 }

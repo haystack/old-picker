@@ -17,9 +17,15 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "22.02",
-            "in-charge":     "Yip, S.",
+            "in-charge":     "Molvig, K.",
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear Physics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.101",
+            "lecture-section-of": "22.101",
+            "timeAndPlace":       "MW9.30-11 24-115"
         },
         {
             "type":          "Class",
@@ -30,25 +36,26 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Principles and applications of electromagnetism, starting from Maxwell's equations, with emphasis on phenomena important to nuclear engineering and radiation sciences. Solution methods for electrostatic and magnetostatic fields. Charged particle motion in those fields. Particle acceleration and focussing. Coulomb collisons with charged particles and atoms. Electromagnetic waves, wave emission by accelerated particles, Bremsstrahlung, Compton scattering, synchrotron radiation, Cerenkov radiation.",
+            "has-final":     true,
+            "description":   "Principles and applications of electromagnetism, starting from Maxwell\\'s equations, with emphasis on phenomena important to nuclear engineering and radiation sciences. Solution methods for electrostatic and magnetostatic fields. Charged particle motion in those fields. Particle acceleration and focussing. Coulomb collisons with charged particles and atoms. Electromagnetic waves, wave emission by accelerated particles, Bremsstrahlung, Compton scattering, synchrotron radiation, Cerenkov radiation.",
             "url":           "http://student.mit.edu/catalog/m22b.html#22.105",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "8.02",
                 "8.03",
-                "18.02",
                 "18.03"
             ],
-            "in-charge":     [
-                "Freidberg, J. P.",
-                "Parker, R. R."
-            ],
+            "in-charge":     "Parker, R. R.",
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear Physics"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.105",
+            "lecture-section-of": "22.105",
+            "timeAndPlace":       "TR1-2.30 NW16-213"
         },
         {
             "type":          "Class",
@@ -67,15 +74,12 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "22.101",
-            "in-charge":     "Yip, S.",
+            "in-charge":     [
+                "Forget, B.",
+                "Yip, S."
+            ],
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear Physics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.106",
-            "lecture-section-of": "22.106",
-            "timeAndPlace":       "TR9.30-11 24-115"
         },
         {
             "type":          "Class",
@@ -86,7 +90,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Reviews the physics basis for modern nuclear reactor design.  Topics include the continuous energy transport equation and its adjoint; reduction to diffusion theory and the group diffusion equations; calculation of neutron spectra and determination of few group diffusion constants.  The final segment is devoted to heterogeneous reactor analysis.",
             "url":           "http://student.mit.edu/catalog/m22b.html#22.211",
             "joint":         false,
@@ -97,12 +101,6 @@
             "in-charge":     "Staff",
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear Reactor Physics"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.211",
-            "lecture-section-of": "22.211",
-            "timeAndPlace":       "TR11-12.30 24-121"
         },
         {
             "type":          "Class",
@@ -118,16 +116,10 @@
             "url":           "http://student.mit.edu/catalog/m22b.html#22.251",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "22.05",
-            "in-charge":     [
-                "Kazimi, M. S.",
-                "Staff"
-            ],
+            "in-charge":     "Kazimi, M. S.",
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear Reactor Physics"
         },
@@ -140,7 +132,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Engineering principles of nuclear reactors, emphasizing power reactors. Power plant thermodynamics, reactor heat generation and removal (single-phase as well as two-phase coolant flow and heat transfer), and structural mechanics. Engineering considerations in reactor design.",
             "url":           "http://student.mit.edu/catalog/m22b.html#22.312",
             "joint":         false,
@@ -156,6 +148,12 @@
             "subarea":       "Nuclear Reactor Engineering"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0122.312",
+            "lecture-section-of": "22.312",
+            "timeAndPlace":       "TR9.30-11 24-115"
+        },
+        {
             "type":          "Class",
             "label":         "Thermal Hydraulics in Power Technology",
             "id":            "22.313",
@@ -169,7 +167,10 @@
             "url":           "http://student.mit.edu/catalog/m22b.html#22.313J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "10.536J",
@@ -177,7 +178,10 @@
                 "10.302",
                 "22.312"
             ],
-            "in-charge":     "Buongiorno, J.",
+            "in-charge":     [
+                "Kazimi, M. S.",
+                "Todreas, N. E."
+            ],
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear Reactor Engineering"
         },
@@ -195,7 +199,10 @@
             "url":           "http://student.mit.edu/catalog/m22b.html#22.314J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "1.56J",
@@ -208,6 +215,12 @@
             ],
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear Reactor Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.314",
+            "lecture-section-of": "22.314",
+            "timeAndPlace":       "MW11-12.30 24-121"
         },
         {
             "type":          "Class",
@@ -234,6 +247,12 @@
             "subarea":       "Nuclear Reactor Engineering"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0122.33",
+            "lecture-section-of": "22.33",
+            "timeAndPlace":       "MW11-12.30 24-115"
+        },
+        {
             "type":          "Class",
             "label":         "Probability and Its Applications To Reliability, Quality Control, and Risk Assessment",
             "id":            "22.38",
@@ -246,10 +265,10 @@
             "description":   "Interpretations of the concept of probability. Basic probability rules; random variables and distribution functions; functions of random variables. Applications to quality control and the reliability assessment of mechanical/electrical components, as well as simple structures and redundant systems. Elements of statistics. Bayesian methods in engineering. Methods for reliability and risk assessment of complex systems, (event-tree and fault-tree analysis, common-cause failures, human reliability models). Uncertainty propagation in complex systems (Monte Carlo methods, Latin hypercube sampling). Introduction to Markov models. Examples and applications from nuclear and other industries, waste repositories, and mechanical systems. Open to qualified undergraduates.",
             "url":           "http://student.mit.edu/catalog/m22b.html#22.38",
             "joint":         false,
-            "semester":      "Fall",
+            "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Golay, M.W.",
+            "in-charge":     "Apostolakis, G.",
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear Reactor Engineering"
         },
@@ -274,12 +293,19 @@
                 "22.312"
             ],
             "in-charge":     [
-                "Todreas, N.",
-                "Apostolakis, G.",
-                "Ballinger, R."
+                "Golay, M.W.",
+                "Ballinger, R. G.",
+                "Todreas, N. E.",
+                "Kadak, A. C."
             ],
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear Reactor Engineering"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.39",
+            "lecture-section-of": "22.39",
+            "timeAndPlace":       "MW1-2.30 24-121"
         },
         {
             "type":          "Class",
@@ -291,7 +317,7 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Fundamentals of thermodynamics, chemistry, and transport applied to energy systems. Analysis of energy conversion and storage in thermal, mechanical, chemical, and electrochemical processes in power and transportation systems, with emphasis on efficiency, performance and environmental impact. Applications to fuel reforming, hydrogen, fuel cells and batteries, combustion, catalysis, combined and hybrid power cycles using fossil, nuclear and renewable resources. CO2 separation and capture. Biomass energy.",
+            "description":   "Fundamentals of thermodynamics, chemistry, and transport applied to energy systems. Analysis of energy conversion and storage in thermal, mechanical, chemical, and electrochemical processes in power and transportation systems, with emphasis on efficiency, performance and environmental impact. Applications to fuel reforming and alternative fuels, hydrogen, fuel cells and batteries, combustion, catalysis, combined and hybrid power cycles using fossil, nuclear and renewable resources. CO2 separation and capture. Biomass energy.",
             "url":           "http://student.mit.edu/catalog/m22b.html#22.40J",
             "joint":         true,
             "semester":      "Spring",
@@ -300,23 +326,18 @@
             "prereq":        [
                 "2.62J",
                 "10.392J",
-                "2.60",
-                "2.006"
+                "2.60J",
+                "3.083J",
+                "2.006",
+                "3.044"
             ],
             "in-charge":     [
                 "Ghoniem, A. F.",
                 "Kazimi, M.",
-                "Shao-Horn, Y.",
-                "Tester, J."
+                "Chiang, Y."
             ],
             "area":          "Graduate Subjects",
             "subarea":       "Nuclear Reactor Engineering"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.40",
-            "lecture-section-of": "22.40",
-            "timeAndPlace":       "MW1-3 3-370"
         },
         {
             "type":          "Class",
@@ -343,6 +364,12 @@
             "subarea":       "Radiation Interactions and Applications"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L0122.51",
+            "lecture-section-of": "22.51",
+            "timeAndPlace":       "TR11-12.30 24-115"
+        },
+        {
             "type":          "Class",
             "label":         "Statistical Thermodynamics of Complex Liquids",
             "id":            "22.52",
@@ -356,10 +383,7 @@
             "url":           "http://student.mit.edu/catalog/m22b.html#22.52J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "8.575J",
@@ -375,12 +399,6 @@
             "subarea":       "Radiation Interactions and Applications"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0122.52",
-            "lecture-section-of": "22.52",
-            "timeAndPlace":       "TR10-11.30 66-156"
-        },
-        {
             "type":          "Class",
             "label":         "Statistical Processes and Atomistic Simulations",
             "id":            "22.53",
@@ -394,11 +412,20 @@
             "url":           "http://student.mit.edu/catalog/m22b.html#22.53",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Yip, S.",
             "area":          "Graduate Subjects",
             "subarea":       "Radiation Interactions and Applications"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.53",
+            "lecture-section-of": "22.53",
+            "timeAndPlace":       "MW2-3.30 24-115"
         },
         {
             "type":          "Class",
@@ -410,7 +437,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Discusses energy deposition by various types of radiation, including the creation and behavior of secondary radiations. Explores the effects of radiation on biological systems including DNA damage, in vitro cell survival models and in vivo mammalian systems.  Covers radiation therapy, radiation syndromes in humans and carcinogenesis.  Environmental radiation sources, and aspects of radiation protection are also discussed.  Examples from the current literature used to supplement lecture material.  Requires a term paper and presentation.",
+            "description":   "Provides a background in sources of radiation with an emphasis on terrestrial and space environments and on industrial production. Discusses experimental approaches to evaluating biological effects resulting from irradiation regimes differing in radiation type, dose and dose-rate.  Effects at the molecular, cellular, organism, and population level are examined.  Literature is reviewed identifying gaps in our understanding of the health effects of radiation, and responses of regulatory bodies to these gaps is discussed.",
             "url":           "http://student.mit.edu/catalog/m22b.html#22.55J",
             "joint":         true,
             "semester":      "Spring",
@@ -419,15 +446,9 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Coderre, J. A.",
+            "in-charge":     "Yanch, J. C.",
             "area":          "Graduate Subjects",
             "subarea":       "Radiation Interactions and Applications"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.55",
-            "lecture-section-of": "22.55",
-            "timeAndPlace":       "MW9.30-11 24-121"
         },
         {
             "type":          "Class",
@@ -443,10 +464,7 @@
             "url":           "http://student.mit.edu/catalog/m22b.html#22.56J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "9.173J",
@@ -472,20 +490,11 @@
             "url":           "http://student.mit.edu/catalog/m22b.html#22.561J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Rosen, B. R.",
             "area":          "Graduate Subjects",
             "subarea":       "Radiation Interactions and Applications"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0122.561",
-            "lecture-section-of": "22.561",
-            "timeAndPlace":       "W EVE (7-10 PM) E25-111"
         },
         {
             "type":          "Class",
@@ -510,6 +519,12 @@
             "in-charge":     "Cory, D. G.",
             "area":          "Graduate Subjects",
             "subarea":       "Radiation Interactions and Applications"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L0122.562",
+            "lecture-section-of": "22.562",
+            "timeAndPlace":       "TR2.30-4 NW14-1112"
         }
     ]
 }

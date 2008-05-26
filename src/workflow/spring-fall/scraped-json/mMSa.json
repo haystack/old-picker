@@ -20,6 +20,12 @@
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
         {
+            "type":           "LabSection",
+            "label":          "B01MS.101",
+            "lab-section-of": "MS.101",
+            "timeAndPlace":   "M6 W59-164"
+        },
+        {
             "type":          "Class",
             "label":         "Introduction to Tactical Leadership",
             "id":            "MS.102",
@@ -40,12 +46,6 @@
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R01MS.102",
-            "rec-section-of": "MS.102",
-            "timeAndPlace":   "W7 W59-073"
-        },
-        {
             "type":          "Class",
             "label":         "Innovative Team Leadership",
             "id":            "MS.201",
@@ -55,7 +55,7 @@
             "units":         "1-4-1",
             "total-units":   6,
             "has-final":     false,
-            "description":   "Explores the dimensions of tactical leadership strategies and styles by examining team dynamics and two historical leadership theories that form the basis of the Army leadership framework. Instruction covers aspects of personal motivation and teambuilding in the context of planning, executing, and assessing team exercises and participation in Leadership Labs. Focus is on continued development of leadership values and attributes through an understanding of Army rank, structure, and duties and basic aspects of land navigation and squad tactics. Case studies provide context for learning the Soldier's Creed and Warrior Ethos as they apply in the Contemporary Operating Environment.",
+            "description":   "Explores the dimensions of tactical leadership strategies and styles by examining team dynamics and two historical leadership theories that form the basis of the Army leadership framework. Instruction covers aspects of personal motivation and teambuilding in the context of planning, executing, and assessing team exercises and participation in Leadership Labs. Focus is on continued development of leadership values and attributes through an understanding of Army rank, structure, and duties and basic aspects of land navigation and squad tactics. Case studies provide context for learning the Soldier\\'s Creed and Warrior Ethos as they apply in the Contemporary Operating Environment.",
             "url":           "http://student.mit.edu/catalog/mMSa.html#MS.201",
             "joint":         false,
             "semester":      "Fall",
@@ -64,6 +64,12 @@
             "in-charge":     "Chaney, M.",
             "area":          "Military Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
+        },
+        {
+            "type":           "LabSection",
+            "label":          "B01MS.201",
+            "lab-section-of": "MS.201",
+            "timeAndPlace":   "M6.30 W59-073"
         },
         {
             "type":          "Class",
@@ -84,12 +90,6 @@
             "in-charge":     "Chaney, M.",
             "area":          "Military Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R01MS.202",
-            "rec-section-of": "MS.202",
-            "timeAndPlace":   "W7 W59-164"
         },
         {
             "type":          "Class",
@@ -115,6 +115,12 @@
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
         {
+            "type":           "RecitationSection",
+            "label":          "R01MS.301",
+            "rec-section-of": "MS.301",
+            "timeAndPlace":   "M6.30-8 W59-147"
+        },
+        {
             "type":          "Class",
             "label":         "Leadership in Changing Environments",
             "id":            "MS.302",
@@ -136,12 +142,6 @@
             ],
             "area":          "Military Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R01MS.302",
-            "rec-section-of": "MS.302",
-            "timeAndPlace":   "MW7 W59-147"
         },
         {
             "type":          "Class",
@@ -168,6 +168,12 @@
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
         {
+            "type":           "LabSection",
+            "label":          "B01MS.311",
+            "lab-section-of": "MS.311",
+            "timeAndPlace":   "T3-5 W59-147"
+        },
+        {
             "type":          "Class",
             "label":         "Leadership Laboratory II",
             "id":            "MS.312",
@@ -192,12 +198,6 @@
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
         {
-            "type":           "LabSection",
-            "label":          "B01MS.312",
-            "lab-section-of": "MS.312",
-            "timeAndPlace":   "MW7 W59-147"
-        },
-        {
             "type":          "Class",
             "label":         "Developing Adaptive Leaders",
             "id":            "MS.401",
@@ -218,6 +218,18 @@
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
         {
+            "type":           "RecitationSection",
+            "label":          "R01MS.401",
+            "rec-section-of": "MS.401",
+            "timeAndPlace":   "MW6.30-8 W59-149"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02MS.401",
+            "rec-section-of": "MS.401",
+            "timeAndPlace":   "TR8-9.30 W59-149"
+        },
+        {
             "type":          "Class",
             "label":         "Leadership in a Complex World",
             "id":            "MS.402",
@@ -236,18 +248,6 @@
             "in-charge":     "McGonagle, L.",
             "area":          "Military Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01MS.402",
-            "lecture-section-of": "MS.402",
-            "timeAndPlace":       "W7 W59-159"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L02MS.402",
-            "lecture-section-of": "MS.402",
-            "timeAndPlace":       "T7 W59-159"
         },
         {
             "type":          "Class",
@@ -274,6 +274,12 @@
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
         },
         {
+            "type":           "LabSection",
+            "label":          "B01MS.411",
+            "lab-section-of": "MS.411",
+            "timeAndPlace":   "T3-5 W59-147"
+        },
+        {
             "type":          "Class",
             "label":         "Advanced Leadership Laboratory  II",
             "id":            "MS.412",
@@ -292,12 +298,6 @@
             "in-charge":     "McGonagle, L.",
             "area":          "Military Science",
             "subarea":       "ROTC subjects do not carry academic credit at MIT, but they can be counted toward the PE requirement. (Up to two points per year with a maximum of four points.)"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B01MS.412",
-            "lab-section-of": "MS.412",
-            "timeAndPlace":   "MF7 W59-159"
         }
     ]
 }

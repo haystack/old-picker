@@ -10,7 +10,7 @@
             "units":         "3-1-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Deals with the design of complex, large, interconnected,  open  sociotechnical(CLIOS) systems, where \"open\" denotes systems that directly interact with the social/political/economic context. Introduces the CLIOS process, defining the concept and distinguishing between quantitative and qualitative analyses of such systems, including introductions of models and frameworks. Systems are characterized, measures of system performance are developed, and key CLIOS system concepts (including sustainability, equity, mobility, and accessibility) are introduced. Class-wide project, with students working in teams on the design of a CLIOS system, taking a broad systems perspective in that design. Examples include the urban ring, a proposed new transit line for Boston; Tren Urbano in San Juan, Puerto Rico; the Central Artery/Ted Williams Tunnel project in Boston; and the transportation of spent nuclear fuel.",
+            "description":   "Deals with the design of complex, large, interconnected,  open sociotechnical (CLIOS) systems, where \\\u0022open\\\u0022 denotes systems that directly interact with the social/political/economic context. Emphasis on transportation-oriented examples. Introduces the CLIOS process, defining the concept and distinguishing between quantitative and qualitative analyses of such systems. Systems characterized, measures of system performance developed, and key CLIOS system concepts (including sustainability, equity, mobility, and accessibility) introduced. Class-wide project, with students working in teams on the design of a CLIOS system, taking a broad systems perspective in that design. Examples include the urban ring, a proposed new transit line for Boston; Tren Urbano in San Juan, Puerto Rico; the Central Artery/Ted Williams Tunnel project in Boston; and the transportation of spent nuclear fuel.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.01J",
             "joint":         true,
             "semester":      "Spring",
@@ -29,10 +29,10 @@
             "listing-index": "mESDa-001",
             "course":        "ESD",
             "level":         "Grad",
-            "units":         "3-1-8",
-            "total-units":   12,
+            "units":         "3-0-6",
+            "total-units":   9,
             "has-final":     false,
-            "description":   "Introduction to theories of project management, with practical application through case projects. Topics include resource management, financial controls, and construction management (including scheduling, estimating, progress monitoring, and project control) for all phases of expected life of facility. Meets with undergraduate subject 1.040; students taking the graduate version are expected to complete additional assignments.",
+            "description":   "Introduction to project management with emphasis on finance, evaluation, and organization.  Topics include cost benefit analysis, resource and cost estimation, and project control and delivery.  Case studies used to demonstrate relevant issues.  Students taking graduate version complete additional assignments.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.018J",
             "joint":         true,
             "semester":      "Spring",
@@ -42,20 +42,8 @@
                 "1.401J",
                 "1.040"
             ],
-            "in-charge":     "Staff",
+            "in-charge":     "Moavenzadeh, F.",
             "area":          "Undergraduate"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01ESD.018",
-            "lecture-section-of": "ESD.018",
-            "timeAndPlace":       "MF1-2.30 1-371"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02ESD.018",
-            "rec-section-of": "ESD.018",
-            "timeAndPlace":   "F4 1-371"
         },
         {
             "type":          "Class",
@@ -91,24 +79,6 @@
             "area":          "Undergraduate"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.032",
-            "lecture-section-of": "ESD.032",
-            "timeAndPlace":       "MW1 4-237"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02ESD.032",
-            "rec-section-of": "ESD.032",
-            "timeAndPlace":   "F1 66-160"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R03ESD.032",
-            "rec-section-of": "ESD.032",
-            "timeAndPlace":   "F2 66-160"
-        },
-        {
             "type":          "Class",
             "label":         "Engineering Design and Rapid Prototyping",
             "id":            "ESD.035",
@@ -122,7 +92,7 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.035J",
             "joint":         true,
             "semester":      "IAP",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "prereq":        [
                 "16.810J",
                 "16.01",
@@ -148,7 +118,6 @@
             "joint":         false,
             "semester":      "Spring",
             "offering":      "Currently Offered",
-            "prereq":        "18.02",
             "in-charge":     "Sussman, J.",
             "area":          "Undergraduate"
         },
@@ -169,26 +138,13 @@
             "offering":      "Currently Offered",
             "prereq":        [
                 "1.081J",
-                "20.104J",
-                "7.012",
-                "7.013",
-                "7.014",
-                "7.015",
-                "5.111",
-                "5.112",
-                "3.091"
+                "20.104J"
             ],
             "in-charge":     [
                 "Thilly, W.",
                 "McCunney, R."
             ],
             "area":          "Undergraduate"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01ESD.053",
-            "lecture-section-of": "ESD.053",
-            "timeAndPlace":       "TR1-2.30 56-614"
         },
         {
             "type":          "Class",
@@ -210,6 +166,12 @@
             "area":          "Technology and Policy"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.10",
+            "lecture-section-of": "ESD.10",
+            "timeAndPlace":       "MW2.30-4 E51-315"
+        },
+        {
             "type":          "Class",
             "label":         "Science, Technology, and Public Policy",
             "id":            "ESD.103",
@@ -218,7 +180,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Analysis of issues at the intersection of science, technology, public policy, and business.  Cases drawn from antitrust and intellectual property rights; health and environmental policy; defense procurement and strategy; strategic trade and industrial policy; and R&D funding. Structured around theories of political economy, modified to take account of integration of uncertain technical information into public and private decision-making.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.103J",
             "joint":         true,
@@ -228,6 +190,19 @@
             "prereq":        "17.310J",
             "in-charge":     "Oye, K.",
             "area":          "Technology and Policy"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.103",
+            "lecture-section-of": "ESD.103",
+            "timeAndPlace":       "TR4-5.30 E25-117"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02ESD.103",
+            "rec-section-of": "ESD.103",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",
@@ -258,12 +233,6 @@
             "area":          "Technology and Policy"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.123",
-            "lecture-section-of": "ESD.123",
-            "timeAndPlace":       "TR9-10.30 E51-057"
-        },
-        {
             "type":          "Class",
             "label":         "Energy Systems and Economic Development",
             "id":            "ESD.126",
@@ -277,12 +246,12 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.126",
             "joint":         false,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Tabors, R. D.",
-                "Staff"
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
             ],
+            "category":      "H-LEVEL Grad Credit",
+            "in-charge":     "Tabors, R. D.",
             "area":          "Technology and Policy"
         },
         {
@@ -304,7 +273,6 @@
             "prereq":        [
                 "12.848J",
                 "15.023J",
-                "18.02",
                 "5.60",
                 "2.005",
                 "15.010"
@@ -314,18 +282,6 @@
                 "Prinn, R. G."
             ],
             "area":          "Technology and Policy"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01ESD.128",
-            "lecture-section-of": "ESD.128",
-            "timeAndPlace":       "M3-5 E25-117"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02ESD.128",
-            "rec-section-of": "ESD.128",
-            "timeAndPlace":   "W3 E25-117"
         },
         {
             "type":          "Class",
@@ -374,12 +330,6 @@
             "area":          "Technology and Policy"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.132",
-            "lecture-section-of": "ESD.132",
-            "timeAndPlace":       "TR EVE (4-6 PM) E51-145"
-        },
-        {
             "type":          "Class",
             "label":         "Environmental Law, Policy, and Economics: Pollution Prevention and Control",
             "id":            "ESD.133",
@@ -388,7 +338,7 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
+            "has-final":     true,
             "description":   "Reviews and analyzes federal and state regulation of air and water pollution and hazardous wastes. Analyzes pollution as an economic problem and the failure of markets. Emphasizes use of legal mechanisms and alternative approaches (such as economic incentives and voluntary approaches) to control pollution and to encourage chemical accident and pollution prevention. Focuses on the major federal legislation, the underlying administrative system, and the common law in analyzing environmental policy, economic consequences, and the role of the courts. Discusses classical pollutants and toxic industrial chemicals, community right-to-know, and environmental justice. Also provides an introduction to basic legal skills.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.133J",
             "joint":         true,
@@ -409,6 +359,19 @@
             "area":          "Technology and Policy"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.133",
+            "lecture-section-of": "ESD.133",
+            "timeAndPlace":       "TR EVE (4-6 PM) E51-057"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02ESD.133",
+            "rec-section-of": "ESD.133",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":          "Class",
             "label":         "Regulation of Chemicals, Radiation, and Biotechnology",
             "id":            "ESD.134",
@@ -417,8 +380,8 @@
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
-            "description":   "Focuses on policy design and evaluation in the regulation of hazardous substances and processes. Includes risk assessment, industrial chemicals, pesticides, food contaminants, pharmaceuticals, radiation and radioactive wastes, product safety, workplace hazards, indoor air pollution, biotechnology, victims' compensation, and administrative law. Health and economic consequences of regulation, as well as its potential to spur technological change, are discussed.",
+            "has-final":     false,
+            "description":   "Focuses on policy design and evaluation in the regulation of hazardous substances and processes. Includes risk assessment, industrial chemicals, pesticides, food contaminants, pharmaceuticals, radiation and radioactive wastes, product safety, workplace hazards, indoor air pollution, biotechnology, victims\\' compensation, and administrative law. Health and economic consequences of regulation, as well as its potential to spur technological change, are discussed for each regulator regime.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.134J",
             "joint":         true,
             "semester":      "Spring",
@@ -437,12 +400,6 @@
             "area":          "Technology and Policy"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.134",
-            "lecture-section-of": "ESD.134",
-            "timeAndPlace":       "W EVE (7-10 PM) E51-372"
-        },
-        {
             "type":          "Class",
             "label":         "Technology, Law, and the Working Environment",
             "id":            "ESD.136",
@@ -451,8 +408,8 @@
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
-            "has-final":     true,
-            "description":   "Addresses relationship between technology-related problems and the law applicable to work environment. National Labor Relations Act, Occupational Safety and Health Act. Toxic Substances Control Act, state worker's compensation, and suits by workers in the courts discussed. Problems related to occupational health and safety, collective bargaining as a mechanism for altering technology in the workplace, job alienation, productivity, and the organization of work addressed. Prior courses or experience in the environmental, public health, or law-related areas.",
+            "has-final":     false,
+            "description":   "Addresses relationship between technology-related problems and the law applicable to work environment. National Labor Relations Act, Occupational Safety and Health Act. Toxic Substances Control Act, state worker\\'s compensation, and suits by workers in the courts discussed. Problems related to occupational health and safety, collective bargaining as a mechanism for altering technology in the workplace, job alienation, productivity, and the organization of work addressed. Prior courses or experience in the environmental, public health, or law-related areas.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.136J",
             "joint":         true,
             "semester":      "Spring",
@@ -466,12 +423,6 @@
             "area":          "Technology and Policy"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.136",
-            "lecture-section-of": "ESD.136",
-            "timeAndPlace":       "W EVE (7-10 PM) E51-372"
-        },
-        {
             "type":          "Class",
             "label":         "Sustainability, Trade, and the Environment",
             "id":            "ESD.137",
@@ -481,7 +432,7 @@
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "The Schumpeterian notion of technological innovation as \"the engine of growth\" is being challenged as the globalization of trade is increasingly seen as the driving force of industrial economies. With the establishment of the World Trade Organization implementing the GATT, NAFTA, and other trading regimes, serious questions have been raised concerning the effects of global trade on sustainability, which must be viewed broadly to include not only a healthy economic base, but also a sound environment, stable employment, adequate purchasing power, distributional equity, national self-reliance, and maintenance of cultural integrity. Subject explores the many dimensions of sustainability and the use of national, multinational, and international political and legal mechanisms to further sustainable development.",
+            "description":   "The Schumpeterian notion of technological innovation as \\\u0022the engine of growth\\\u0022 is being challenged as the globalization of trade is increasingly seen as the driving force of industrial economies. With the establishment of the World Trade Organization implementing the GATT, NAFTA, and other trading regimes, serious questions have been raised concerning the effects of global trade on sustainability, which must be viewed broadly to include not only a healthy economic base, but also a sound environment, stable employment, adequate purchasing power, distributional equity, national self-reliance, and maintenance of cultural integrity. Subject explores the many dimensions of sustainability and the use of national, multinational, and international political and legal mechanisms to further sustainable development.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.137J",
             "joint":         true,
             "semester":      "Fall",
@@ -496,48 +447,41 @@
             "area":          "Technology and Policy"
         },
         {
-            "type":          "Class",
-            "label":         "Technology Negotiations and Dispute Resolution Systems",
-            "id":            "ESD.141",
-            "listing-index": "mESDa-017",
-            "course":        "ESD",
-            "level":         "Grad",
-            "units":         "3-0-3",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Focuses on technology, policy and logistics negotiations, as well as the associated dispute resolution systems. Emphasis on key interactive skills and analytic competencies. Field projects examine dispute resolution systems in organizational and institutional settings. Oriented for students in the technology policy program and the MEng in logistics program. Restricted to students in the LFM, SDM, TPP, MLOG, and ESD SM programs, except by permission of instructor. Half-term subject offered second half of term.",
-            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.141",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Cutcher-Gershenfeld, J.",
-            "area":          "Technology and Policy"
+            "type":               "LectureSection",
+            "label":              "L01ESD.137",
+            "lecture-section-of": "ESD.137",
+            "timeAndPlace":       "W3-5.30 E40-298"
         },
         {
             "type":          "Class",
             "label":         "Chemicals in the Environment: Fate and Transport",
             "id":            "ESD.151",
-            "listing-index": "mESDa-018",
+            "listing-index": "mESDa-017",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "For Institute students in all departments interested in the behavior of chemicals in the environment (see ESD listings for other subjects). Emphasis on man-made chemicals, their movement through water, air, soil, and their eventual fate. Physical transport, as well as chemical and biological sources and sinks, are discussed. Linkages to health effects, sources and control, and policy aspects. Core requirement for Environmental MEng program.",
+            "has-final":     true,
+            "description":   "For Institute students in all departments interested in the behavior of chemicals in the environment. Subject covers the movement of chemicals through water, air, and soil, and also addresses their eventual fate. Physical transport, as well as chemical and biological sources and sinks, are discussed. Emphasis on anthropogenic chemicals, though in the context of pre-existing natural chemical cycles. Linkages to health effects, sources and control, and policy aspects. Core requirement for Environmental MEng program.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.151J",
             "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "1.725J",
-            "in-charge":     "Shanahan, P.",
+            "in-charge":     "Hemond, H.",
             "area":          "Technology and Policy"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.151",
+            "lecture-section-of": "ESD.151",
+            "timeAndPlace":       "TR11-12.30 1-350"
         },
         {
             "type":          "Class",
             "label":         "Managing Nuclear Technology",
             "id":            "ESD.163",
-            "listing-index": "mESDa-019",
+            "listing-index": "mESDa-018",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -547,26 +491,17 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.163J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "22.812J",
             "in-charge":     "Lester, R. K.",
             "area":          "Technology and Policy"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.163",
-            "lecture-section-of": "ESD.163",
-            "timeAndPlace":       "MW11-12.30 24-115"
-        },
-        {
             "type":          "Class",
             "label":         "Sustainable Energy",
             "id":            "ESD.166",
-            "listing-index": "mESDa-020",
+            "listing-index": "mESDa-019",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-1-8",
@@ -575,7 +510,7 @@
             "description":   "Assessment of current and potential energy systems, covering extraction, conversion and end-use, with emphasis on meeting regional and global energy needs in the 21st century in a sustainable manner. Examination of energy technologies in each fuel cycle stage for fossil (oil, gas, synthetic), nuclear (fission and fusion) and renewable (solar, biomass, wind, hydro, and geothermal) energy types, along with storage, transmission, and conservation issues. Focus on evaluation and analysis of energy technology systems in the context of political, social, economic, and environmental goals. Open to upper-class undergraduates.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.166J",
             "joint":         true,
-            "semester":      "Spring",
+            "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
@@ -596,19 +531,26 @@
             "type":               "LectureSection",
             "label":              "L01ESD.166",
             "lecture-section-of": "ESD.166",
-            "timeAndPlace":       "TR3-5 3-270"
+            "timeAndPlace":       "TR3-5 4-370"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02ESD.166",
+            "rec-section-of": "ESD.166",
+            "timeAndPlace":   [
+            ]
         },
         {
             "type":          "Class",
             "label":         "Applications of Technology in Energy and the Environment",
             "id":            "ESD.174",
-            "listing-index": "mESDa-021",
+            "listing-index": "mESDa-020",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduces advanced undergraduates or graduate students in the Schools of Engineering and Science to the integration of technical, economic, political, and environmental consideration required for the successful implementation of new technology. Case studies are drawn from the energy and environment sectors with some emphasis on analytic techniques that serve as a \"tool box\" for students. Technologies considered include fossil, nuclear, solar, wind, fuel cell and energy conservation. International aspects, such as weapons proliferation and global climate effects, also discussed. Enrollment limited.",
+            "description":   "Introduces advanced undergraduates or graduate students in the Schools of Engineering and Science to the integration of technical, economic, political, and environmental consideration required for the successful implementation of new technology. Case studies are drawn from the energy and environment sectors with some emphasis on analytic techniques that serve as a \\\u0022tool box\\\u0022 for students. Technologies considered include fossil, nuclear, solar, wind, fuel cell and energy conservation. International aspects, such as weapons proliferation and global climate effects, also discussed. Enrollment limited.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.174",
             "joint":         false,
             "semester":      "Fall",
@@ -628,15 +570,27 @@
             "area":          "Technology and Policy"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.174",
+            "lecture-section-of": "ESD.174",
+            "timeAndPlace":       "MW8.30-10 4-237"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02ESD.174",
+            "rec-section-of": "ESD.174",
+            "timeAndPlace":   "F8.30-10 4-237"
+        },
+        {
             "type":          "Class",
             "label":         "Cities and Regions: Urban Economics and Public Policy",
             "id":            "ESD.191",
-            "listing-index": "mESDa-022",
+            "listing-index": "mESDa-021",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "The theory of urban land and housing markets, and the spatial development of cities. The roles played by transportation systems and local governments in shaping urban location patterns. Interregional competition, economic development, and the migration of labor and capital.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.191J",
             "joint":         true,
@@ -654,16 +608,10 @@
             "area":          "Technology and Policy"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.191",
-            "lecture-section-of": "ESD.191",
-            "timeAndPlace":       "TR2.30-4 E51-063"
-        },
-        {
             "type":          "Class",
             "label":         "Analyzing and Accounting for Regional Economic Change",
             "id":            "ESD.192",
-            "listing-index": "mESDa-023",
+            "listing-index": "mESDa-022",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -685,16 +633,10 @@
             "area":          "Technology and Policy"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.192",
-            "lecture-section-of": "ESD.192",
-            "timeAndPlace":       "TR9-10.30 1-246"
-        },
-        {
             "type":          "Class",
             "label":         "Regional Socioeconomic Impact Analyses and Modeling",
             "id":            "ESD.193",
-            "listing-index": "mESDa-024",
+            "listing-index": "mESDa-023",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "2-1-9",
@@ -715,10 +657,16 @@
             "area":          "Technology and Policy"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.193",
+            "lecture-section-of": "ESD.193",
+            "timeAndPlace":       "W EVE (4-6 PM) 1-273"
+        },
+        {
             "type":          "Class",
-            "label":         "Transportation Systems Analysis",
+            "label":         "Transportation Systems Analysis: Performance and Demand",
             "id":            "ESD.21",
-            "listing-index": "mESDa-025",
+            "listing-index": "mESDa-024",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-1-8",
@@ -742,16 +690,29 @@
             "area":          "Transportation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.21",
+            "lecture-section-of": "ESD.21",
+            "timeAndPlace":       "TR10.30-12 5-134"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02ESD.21",
+            "rec-section-of": "ESD.21",
+            "timeAndPlace":   [
+            ]
+        },
+        {
             "type":          "Class",
-            "label":         "Introduction to Transportation Systems",
+            "label":         "Transportation Systems Analysis: Demand and Economics",
             "id":            "ESD.210",
-            "listing-index": "mESDa-026",
+            "listing-index": "mESDa-025",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-1-8",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces transportation as a complex sociotechnical  system, stressing its social and economic aspects. Key issues shaping urban, intercity, and international passenger and freight transportation in the developed and developing world. Principles governing transportation planning, investment, operations and maintenance. Introduction to quantitative models and qualitative frameworks. System performance and level-of-service metrics and the determinants of transportation demand. Introduction to economic concepts central to transportation. Transportation services and facilities for various modes and intermodal operations.",
+            "has-final":     true,
+            "description":   "Introduces transportation systems analysis, stressing demand and economic aspects. Covers the key principles governing transportation planning, investment, operations and maintenance.  Introduces the microeconomic concepts central to transportation systems. Topics covered include economic theories of the firm, the consumer and the market,  demand models, discrete choice analysis, cost models and production functions, and pricing theory.  Application to transportation systems include congestion pricing, technological change, resource allocation, market structure and regulation, and project evaluation; covering passenger and freight, aviation and intelligent transportation systems.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.210J",
             "joint":         true,
             "semester":      "Fall",
@@ -768,15 +729,27 @@
             "area":          "Transportation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.210",
+            "lecture-section-of": "ESD.210",
+            "timeAndPlace":       "TR2.30-4 1-242"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02ESD.210",
+            "rec-section-of": "ESD.210",
+            "timeAndPlace":   "F11 1-242"
+        },
+        {
             "type":          "Class",
             "label":         "Demand Modeling",
             "id":            "ESD.212",
-            "listing-index": "mESDa-027",
+            "listing-index": "mESDa-026",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-1-8",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Theory and application of modeling and statistical methods for analysis and forecasting of demand for facilities, services, and products. Topics include review of probability and statistics, estimation and testing of linear regression models, theory of individual choice behavior, derivation, estimation, and testing of discrete choice models (including logit, nested logit, GEV, probit, and mixture models), estimation under various sample designs and data collection methods (including revealed and stated preferences), sampling, aggregate forecasting methods, and iterative proportional fitting and related methods. Lectures reinforced with case studies, which require specification, estimation, testing, and analysis of models using data sets from actual applications.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.212J",
             "joint":         true,
@@ -788,35 +761,20 @@
             "area":          "Transportation"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.212",
-            "lecture-section-of": "ESD.212",
-            "timeAndPlace":       "MW4-5.30 1-150"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02ESD.212",
-            "rec-section-of": "ESD.212",
-            "timeAndPlace":   "F11 1-246"
-        },
-        {
             "type":          "Class",
             "label":         "Advanced Demand Modeling",
             "id":            "ESD.213",
-            "listing-index": "mESDa-028",
+            "listing-index": "mESDa-027",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Advanced theories and applications of models for analysis and forecasting of users' behavior and demand for facilities, services, and products. Topics vary each year and typically include linear and nonlinear latent variable models including structural equations and latent class models, estimation techniques with multiple data sources, joint discrete and continuous choice models, dynamic models, analysis of panel data, analysis of complex choices, estimation and forecasting with very large choice sets, multidimensional probabilistic choice models, advanced choice models including probit,logit mixtures, hybrid choice models, simulation methods, survey design, model transferability, and use of stated preference data. Alternate years.",
+            "description":   "Advanced theories and applications of models for analysis and forecasting of users\\' behavior and demand for facilities, services, and products. Topics vary each year and typically include linear and nonlinear latent variable models, including structural equations and latent class models; estimation techniques with multiple data sources; joint discrete and continuous choice models; dynamic models; analysis of panel data; analysis of complex choices; estimation and forecasting with very large choice sets; multidimensional probabilistic choice models; advanced choice models, including probit, logit mixtures, hybrid choice models, hidden Markov models, simulation and Bayesian methods, survey design, sampling, model transferability, and use of stated preference data.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.213J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "1.205J",
@@ -829,7 +787,7 @@
             "type":          "Class",
             "label":         "Airline Schedule Planning",
             "id":            "ESD.215",
-            "listing-index": "mESDa-029",
+            "listing-index": "mESDa-028",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -839,7 +797,10 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.215J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "1.206J",
@@ -852,7 +813,7 @@
             "type":          "Class",
             "label":         "Logistical and Transportation Planning Methods",
             "id":            "ESD.216",
-            "listing-index": "mESDa-030",
+            "listing-index": "mESDa-029",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -874,15 +835,22 @@
             "in-charge":     [
                 "Larson, R. C.",
                 "Odoni, A. R.",
-                "Barnett, A. I."
+                "Barnett, A. I.",
+                "Orlin, J.B."
             ],
             "area":          "Transportation"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.216",
+            "lecture-section-of": "ESD.216",
+            "timeAndPlace":       "MW10.30-12 1-150"
         },
         {
             "type":          "Class",
             "label":         "The Airline Industry",
             "id":            "ESD.217",
-            "listing-index": "mESDa-031",
+            "listing-index": "mESDa-030",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -909,10 +877,16 @@
             "area":          "Transportation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.217",
+            "lecture-section-of": "ESD.217",
+            "timeAndPlace":       "MW1-2.30 33-419"
+        },
+        {
             "type":          "Class",
             "label":         "An Introduction to Intelligent Transportation Systems",
             "id":            "ESD.221",
-            "listing-index": "mESDa-032",
+            "listing-index": "mESDa-031",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -922,10 +896,7 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.221J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "1.212J",
             "in-charge":     "Sussman, J.",
@@ -935,7 +906,7 @@
             "type":          "Class",
             "label":         "Transportation Policy and Environmental Limits",
             "id":            "ESD.222",
-            "listing-index": "mESDa-033",
+            "listing-index": "mESDa-032",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -958,29 +929,20 @@
             "area":          "Transportation"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.222",
-            "lecture-section-of": "ESD.222",
-            "timeAndPlace":       "F2-5 1-277"
-        },
-        {
             "type":          "Class",
             "label":         "Planning and Design of Airport Systems",
             "id":            "ESD.224",
-            "listing-index": "mESDa-034",
+            "listing-index": "mESDa-033",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Equal emphasis on current practice and advanced concepts. Airport location and planning with full consideration of economic, environmental, and other impacts. Demand prediction, determination of the capacity of the airfield, and estimation of levels of congestion. Design of terminals. Role of airports in the aviation and transportation system. Airport access problems. Optimal configuration of air transport networks and implications for airport development. Economics of the airport. Financing and institutional aspects. Special attention to international practice and developments. Alternate years.",
+            "description":   "Equal emphasis on current practice and advanced concepts. Airport location and planning with full consideration of economic, environmental, and other impacts. Demand prediction, determination of the capacity of the airfield, and estimation of levels of congestion. Design of terminals. Role of airports in the aviation and transportation system. Airport access problems. Optimal configuration of air transport networks and implications for airport development. Economics of the airport. Financing and institutional aspects. Special attention to international practice and developments.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.224J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "1.231J",
@@ -993,16 +955,22 @@
             "area":          "Transportation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.224",
+            "lecture-section-of": "ESD.224",
+            "timeAndPlace":       "TR1-2.30 1-371"
+        },
+        {
             "type":          "Class",
             "label":         "Urban Transportation Planning",
             "id":            "ESD.225",
-            "listing-index": "mESDa-035",
+            "listing-index": "mESDa-034",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "History, policy, and politics of urban transportation. The role of the federal government and the \"highway revolt.\" Public transit in the auto era. Analytic tools for transportation planning and policy analysis. The contribution of transportation to air pollution and climate change. Land use and transportation interactions. Bicycles, pedestrians, and traffic calming. Examples from the Boston area.",
+            "description":   "History, policy, and politics of urban transportation. The role of the federal government and the \\\u0022highway revolt.\\\u0022 Public transit in the auto era. Analytic tools for transportation planning and policy analysis. The contribution of transportation to air pollution and climate change. Land use and transportation interactions. Bicycles, pedestrians, and traffic calming. Examples from the Boston area.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.225J",
             "joint":         true,
             "semester":      "Fall",
@@ -1019,15 +987,21 @@
             "area":          "Transportation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.225",
+            "lecture-section-of": "ESD.225",
+            "timeAndPlace":       "F2-5 5-217"
+        },
+        {
             "type":          "Class",
             "label":         "Public Transportation Systems",
             "id":            "ESD.226",
-            "listing-index": "mESDa-036",
+            "listing-index": "mESDa-035",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
-            "has-final":     true,
+            "has-final":     false,
             "description":   "Evolution and role of urban public transportation modes, systems, and services, focussing on bus and rail. Description of technological characteristics and their impacts on capacity, service quality, and cost. Current practice and new methods for data collection and analysis, performance monitoring, route design, frequency determination, and vehicle and crew scheduling. Effect of pricing policy and service quality on ridership. Methods for estimating costs associated with proposed service changes. Organizational models for delivering public transportation service including finance and operations.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.226J",
             "joint":         true,
@@ -1043,16 +1017,10 @@
             "area":          "Transportation"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.226",
-            "lecture-section-of": "ESD.226",
-            "timeAndPlace":       "TR1-2.30 1-246"
-        },
-        {
             "type":          "Class",
             "label":         "Urban Spatial Structure, Transportation, and Telecommunications I",
             "id":            "ESD.229",
-            "listing-index": "mESDa-037",
+            "listing-index": "mESDa-036",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-1-2",
@@ -1069,6 +1037,27 @@
                 "11.204"
             ],
             "in-charge":     "Staff",
+            "area":          "Transportation"
+        },
+        {
+            "type":          "Class",
+            "label":         "Analytical Methods for Supply Chain Management",
+            "id":            "ESD.250",
+            "listing-index": "mESDa-037",
+            "course":        "ESD",
+            "level":         "Grad",
+            "units":         "2-0-1 [P/D/F]",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "Covers the primary methods of analysis required for supply chain management planning. The class solves various real-life problems using simulation, linear programming, integer programming, regression, and other techniques. The work is primarily team based with a final exam. Restricted to Master of Engineering in Logistics students",
+            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.250",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      "Not offered this year",
+            "in-charge":     [
+                "Caplice, C.",
+                "Blanco, E."
+            ],
             "area":          "Transportation"
         },
         {
@@ -1098,6 +1087,12 @@
             "area":          "Transportation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.260",
+            "lecture-section-of": "ESD.260",
+            "timeAndPlace":       "MW8.30-10 E51-315"
+        },
+        {
             "type":          "Class",
             "label":         "Case Studies in Logistics and Supply Chain Management",
             "id":            "ESD.261",
@@ -1119,12 +1114,6 @@
             ],
             "in-charge":     "Byrnes, J.",
             "area":          "Transportation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01ESD.261",
-            "lecture-section-of": "ESD.261",
-            "timeAndPlace":       "MW10-11.30 E51-345"
         },
         {
             "type":          "Class",
@@ -1170,13 +1159,19 @@
             "area":          "Transportation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.263",
+            "lecture-section-of": "ESD.263",
+            "timeAndPlace":       "F8-9.30 E51-057"
+        },
+        {
             "type":          "Class",
             "label":         "Database, Internet, and Systems Integration Technologies",
             "id":            "ESD.264",
             "listing-index": "mESDa-042",
             "course":        "ESD",
             "level":         "Grad",
-            "units":         "4-1-7",
+            "units":         "5-0-7",
             "total-units":   12,
             "has-final":     false,
             "description":   "Information technology fundamentals: software process, data modeling, UML, relational databases and SQL. Internet technologies: http, xhtml, XML, Web services. Introduction to security. Fundamentals of telecommunications. Students complete project that covers requirements/design, data model, database implementation, website, and system architecture. No prior programming experience required.",
@@ -1190,6 +1185,18 @@
             "area":          "Transportation"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.264",
+            "lecture-section-of": "ESD.264",
+            "timeAndPlace":       "MW1-2.30 4-231"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02ESD.264",
+            "rec-section-of": "ESD.264",
+            "timeAndPlace":   "F1-2.30 4-231"
+        },
+        {
             "type":          "Class",
             "label":         "International Supply Chain Management",
             "id":            "ESD.265",
@@ -1199,7 +1206,7 @@
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "An overview of globalization and the international environment: the international marketing, international finance and supply chain interface; global strategy for logistics and supply chain management; global supply chain models; role of government intervention and regulations; the role of ports and airports in international product movements; the economics of international air and ocean carriers; and the forwarding industry. First half term subject.",
+            "description":   "An overview of globalization and the international environment: the international marketing, international finance and supply chain interface; global strategy for logistics and supply chain management; global supply chain models; role of government intervention and regulations; the role of international air and ocean carriers. Emphasis on both strategy formulation and implementation.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.265J",
             "joint":         true,
             "semester":      "Spring",
@@ -1219,12 +1226,6 @@
                 "Weiss, A."
             ],
             "area":          "Transportation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01ESD.265",
-            "lecture-section-of": "ESD.265",
-            "timeAndPlace":       "MW1-2.30 (ENDS MARCH 21) 2-105"
         },
         {
             "type":          "Class",
@@ -1256,18 +1257,6 @@
             "area":          "Transportation"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.267",
-            "lecture-section-of": "ESD.267",
-            "timeAndPlace":       "MW8-9.30 (ENDS MARCH 14) 1-390"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02ESD.267",
-            "rec-section-of": "ESD.267",
-            "timeAndPlace":   "F8-9.30 (ENDS MARCH 14) 1-390"
-        },
-        {
             "type":          "Class",
             "label":         "Manufacturing System and Supply Chain Design",
             "id":            "ESD.268",
@@ -1295,18 +1284,6 @@
                 "Simchi-Levi, D."
             ],
             "area":          "Transportation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01ESD.268",
-            "lecture-section-of": "ESD.268",
-            "timeAndPlace":       "MW8-9.30 (BEGINS MARCH 31) 1-390"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02ESD.268",
-            "rec-section-of": "ESD.268",
-            "timeAndPlace":   "F8-9.30 (BEGINS MARCH 31) 1-390"
         },
         {
             "type":          "Class",
@@ -1396,11 +1373,17 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.273J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "1.270J",
             "in-charge":     "Simchi-Levi, D.",
             "area":          "Transportation"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.273",
+            "lecture-section-of": "ESD.273",
+            "timeAndPlace":       "MW4-5.30 1-150"
         },
         {
             "type":          "Class",
@@ -1439,7 +1422,10 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.30J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "16.895J",
             "in-charge":     [
@@ -1489,14 +1475,11 @@
                 "15.760",
                 "15.761"
             ],
-            "in-charge":     "Seering, W. P.",
+            "in-charge":     [
+                "Eppinger, S.",
+                "Seering, W. P."
+            ],
             "area":          "Systems Design and Management"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01ESD.32",
-            "lecture-section-of": "ESD.32",
-            "timeAndPlace":       "TR1-2.30 E51-335"
         },
         {
             "type":          "Class",
@@ -1538,16 +1521,50 @@
             "area":          "Systems Design and Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.34",
+            "lecture-section-of": "ESD.34",
+            "timeAndPlace":       "F12-2 1-390"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02ESD.34",
+            "rec-section-of": "ESD.34",
+            "timeAndPlace":   "F2 1-390"
+        },
+        {
             "type":          "Class",
-            "label":         "Web System Architecting: Building Web Services",
-            "id":            "ESD.341",
+            "label":         "Theory of System Architecture",
+            "id":            "ESD.340",
             "listing-index": "mESDa-056",
+            "course":        "ESD",
+            "level":         "Grad",
+            "units":         "4-2-6",
+            "total-units":   12,
+            "has-final":     false,
+            "description":   "Covers principles and methods for technical System Architecture. Presents a synthetic view including the resolution of ambiguity to identify system goals and boundaries; the creative process of mapping form to function; the analysis of complexity and methods of decomposition and re-integration. Industrial speakers and faculty present examples from various industries. Heuristic and formal methods are presented.",
+            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.340",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":      "H-LEVEL Grad Credit",
+            "in-charge":     "Weigel, A. L.",
+            "area":          "Systems Design and Management"
+        },
+        {
+            "type":          "Class",
+            "label":         "Web System Architecting: Building Distributed Systems",
+            "id":            "ESD.341",
+            "listing-index": "mESDa-057",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Software architecting and design of web systems in the context of a start-up company. Targeted at future CTOs who must understand both the business and technical issues involved in architecting enterprise-scale web systems. Student teams confront technically challenging problems. Lectures and readings cover core database, XML, web server components and browser issues in a web service environment. Limited enrollment.",
+            "description":   "Software architecting and design of web systems in the context of a start-up company. Targeted at future CTOs who must understand both the business and technical issues involved in architecting enterprise-scale web systems. Student teams confront technically challenging problems. Lectures and readings cover core database, XML, web server components and browser issues in a distributed web service environment. Limited enrollment.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.341J",
             "joint":         true,
             "semester":      "Spring",
@@ -1555,29 +1572,26 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "1.125J",
-                "1.124J",
-                "6.001"
+                "1.00",
+                "1.124J"
             ],
-            "in-charge":     "Williams, J. R.",
+            "in-charge":     [
+                "Williams, J. R.",
+                "Sanchez, A."
+            ],
             "area":          "Systems Design and Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.341",
-            "lecture-section-of": "ESD.341",
-            "timeAndPlace":       "MW9.30-11 1-150"
-        },
-        {
             "type":          "Class",
-            "label":         "Advanced System Architecture",
+            "label":         "Network Representations of Complex Engineering Systems",
             "id":            "ESD.342",
-            "listing-index": "mESDa-057",
+            "listing-index": "mESDa-058",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Focus on deep understanding of engineering systems at a level intended for research on complex engineering systems. Review  and extension of what is known about system architecture and complexity from a theoretical point of view while examining the origins of and recent developments in the field. Studies how and where the theory has been applied, and uses key analytical methods proposed. Examine the level of observational (qualitative and quantitative) understanding necessary for successful use of the theoretical framework for a specific engineering system. Case studies utilized to apply the theory and principles to engineering systems.",
+            "description":   "Focus on understanding engineering systems using network models. Framing of the interplay between theory and experiment, leading to new knowledge about complex system architecture. Review of network literature, network methods in social science, and recent results in large network analysis. Discussion of key system concepts, including modularity, hierarchy, flexibility, and complexity. Examples of engineering systems, organizations, and social systems. Descriptions of real systems, such as software, railways, telephones, and large social systems. Definition of network metrics and Matlab implementations of network analysis methods. Readings and discussion of current network research literature, including identification of needed research. Semester-long project analyzing a real system using these methods.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.342",
             "joint":         false,
             "semester":      "Spring",
@@ -1594,16 +1608,10 @@
             "area":          "Systems Design and Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.342",
-            "lecture-section-of": "ESD.342",
-            "timeAndPlace":       "TR9-10.30 E51-063"
-        },
-        {
             "type":          "Class",
             "label":         "Aircraft Systems Engineering",
             "id":            "ESD.35",
-            "listing-index": "mESDa-058",
+            "listing-index": "mESDa-059",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-1-8",
@@ -1613,10 +1621,7 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.35J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "16.885J",
             "in-charge":     [
@@ -1630,7 +1635,7 @@
             "type":          "Class",
             "label":         "Space Systems Engineering",
             "id":            "ESD.352",
-            "listing-index": "mESDa-059",
+            "listing-index": "mESDa-060",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "4-2-6",
@@ -1650,29 +1655,16 @@
                 "16.892"
             ],
             "in-charge":     [
-                "Hoffman, J. A.",
                 "Crawley, E.F.",
-                "Weck, O. de"
+                "Miller, D.W."
             ],
             "area":          "Systems Design and Management"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01ESD.352",
-            "lecture-section-of": "ESD.352",
-            "timeAndPlace":       "MW1-3 33-218"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B02ESD.352",
-            "lab-section-of": "ESD.352",
-            "timeAndPlace":   "F1-3 33-218"
         },
         {
             "type":          "Class",
             "label":         "Space System Architecture and Design",
             "id":            "ESD.353",
-            "listing-index": "mESDa-060",
+            "listing-index": "mESDa-061",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "2-0-7",
@@ -1692,7 +1684,7 @@
             "type":          "Class",
             "label":         "Concepts in the Engineering of Software",
             "id":            "ESD.355",
-            "listing-index": "mESDa-061",
+            "listing-index": "mESDa-062",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1702,7 +1694,7 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.355J",
             "joint":         true,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "16.355J",
@@ -1713,16 +1705,22 @@
             "area":          "Systems Design and Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.355",
+            "lecture-section-of": "ESD.355",
+            "timeAndPlace":       "F8.30-11.30 9-057"
+        },
+        {
             "type":          "Class",
             "label":         "System Project Management",
             "id":            "ESD.36",
-            "listing-index": "mESDa-062",
+            "listing-index": "mESDa-063",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Subject focuses on management principles, methods, and tools to effectively plan and implement successful system and product development projects. Material is divided into four major sections: project preparation, planning, monitoring, and adaptation. Brief review of classical techniques such as CPM and PERT. Emphasis on new methodologies and tools such as Design Structure Matrix (DSM), probabilistic project simulation, as well as project system dynamics (SD). Topics are covered from strategic, tactical, and operational perspectives. Industrial case studies expose factors that are typical drivers of success and failure in complex projects with both hardware and software content. Term projects analyze and evaluate past and ongoing projects in student's area of interest. Projects used to apply concepts discussed in class.",
+            "description":   "Subject focuses on management principles, methods, and tools to effectively plan and implement successful system and product development projects. Material is divided into four major sections: project preparation, planning, monitoring, and adaptation. Brief review of classical techniques such as CPM and PERT. Emphasis on new methodologies and tools such as Design Structure Matrix (DSM), probabilistic project simulation, as well as project system dynamics (SD). Topics are covered from strategic, tactical, and operational perspectives. Industrial case studies expose factors that are typical drivers of success and failure in complex projects with both hardware and software content. Term projects analyze and evaluate past and ongoing projects in student\\'s area of interest. Projects used to apply concepts discussed in class.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.36",
             "joint":         false,
             "semester":      "Fall",
@@ -1735,10 +1733,42 @@
             "area":          "Systems Design and Management"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.36",
+            "lecture-section-of": "ESD.36",
+            "timeAndPlace":       "TR3-4.30 1-390"
+        },
+        {
+            "type":          "Class",
+            "label":         "Cost Estimation and Measurement Systems",
+            "id":            "ESD.361",
+            "listing-index": "mESDa-064",
+            "course":        "ESD",
+            "level":         "Grad",
+            "units":         "3-0-6",
+            "total-units":   9,
+            "has-final":     false,
+            "description":   "Focuses on principals of cost estimation and measurement systems with specific emphasis on parametric models. Theories from the fields of hardware, software, systems engineering, Systems of Systems, and enterprise science will be applied to a variety of contexts (i.e., aerospace, IT, manufacturing). Material is divided into five major sections: cost estimation fundamentals, parametric model development calibration, economic principles, measurement systems, and government/policy issues.",
+            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.361J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      "Not offered this year",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        "16.866J",
+            "in-charge":     "Valerdi, R.",
+            "area":          "Systems Design and Management"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.361",
+            "lecture-section-of": "ESD.361",
+            "timeAndPlace":       "T9.30-12.30 5-232"
+        },
+        {
             "type":          "Class",
             "label":         "The Human Side of Technology",
             "id":            "ESD.37",
-            "listing-index": "mESDa-063",
+            "listing-index": "mESDa-065",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "2-1-6",
@@ -1756,13 +1786,13 @@
             "type":          "Class",
             "label":         "Systems Engineering Taxonomy and Semantics in Commercial Domains",
             "id":            "ESD.379",
-            "listing-index": "mESDa-064",
+            "listing-index": "mESDa-066",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "1-0-3 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "The application of systems engineering practices is increasing in commercial enterprises, but the semantics and process frameworks for 'commercial systems engineering' often appear to be quite different from the process and taxonomy developed in defense and aerospace, arguably the birthplace of modern systems engineering. Examines how systems engineering practices are employed in commercial industries, including product and service development and delivery. Special project. Enrollment limited to five students.",
+            "description":   "The application of systems engineering practices is increasing in commercial enterprises, but the semantics and process frameworks for \\'commercial systems engineering\\' often appear to be quite different from the process and taxonomy developed in defense and aerospace, arguably the birthplace of modern systems engineering. Examines how systems engineering practices are employed in commercial industries, including product and service development and delivery. Special project. Enrollment limited to five students.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.379",
             "joint":         false,
             "semester":      [
@@ -1777,7 +1807,7 @@
             "type":          "Class",
             "label":         "Enterprise Architecting",
             "id":            "ESD.38",
-            "listing-index": "mESDa-065",
+            "listing-index": "mESDa-067",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1797,16 +1827,10 @@
             "area":          "Systems Design and Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.38",
-            "lecture-section-of": "ESD.38",
-            "timeAndPlace":       "MW2.30-4 33-419"
-        },
-        {
             "type":          "Class",
             "label":         "Product Design and Development",
             "id":            "ESD.40",
-            "listing-index": "mESDa-066",
+            "listing-index": "mESDa-068",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1819,22 +1843,16 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
-                "Whitney, D.",
+                "Yang, M.",
                 "Hale, P."
             ],
             "area":          "Systems Design and Management"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.40",
-            "lecture-section-of": "ESD.40",
-            "timeAndPlace":       "MW3-4.30 9-057"
-        },
-        {
             "type":          "Class",
             "label":         "Infrastructure Systems",
             "id":            "ESD.41",
-            "listing-index": "mESDa-067",
+            "listing-index": "mESDa-069",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "2-0-4",
@@ -1856,15 +1874,15 @@
         },
         {
             "type":          "Class",
-            "label":         "Foundations of Software Engineering",
+            "label":         "Foundations of Software and Computation for Simulation",
             "id":            "ESD.51",
-            "listing-index": "mESDa-068",
+            "listing-index": "mESDa-070",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Modern software development techniques for engineering and information technology. Design and development of component-based software (using C# and .NET); data structures and algorithms for modeling, analysis, and visualization; basic problem-solving techniques; web services; and the management and maintenance of software. Treatment of topics such as sorting and searching algorithms; and numerical simulation techniques. Foundation for in-depth exploration of image processing, computational geometry, finite element methods, network methods and e-business applications.",
+            "description":   "Modern software development techniques and algorithms for engineering computation and information technology. Provides computational and software techniques for simulation of engineering systems, such as sensor networks, traffic networks, and atomistic material simulators. Covers data structures and algorithms for modeling, analysis, and visualization in the setting of multi-core and distributed computing. Treatment of basic topics, such as queuing, sorting and search algorithms, and more advanced numerical techniques based on state machines and distributed agents. Foundation for in-depth exploration of image processing, optimization, finite element and mesh-less methods, computational materials, discrete element methods, and network methods.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.51J",
             "joint":         true,
             "semester":      "Fall",
@@ -1879,10 +1897,16 @@
             "area":          "Technology"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.51",
+            "lecture-section-of": "ESD.51",
+            "timeAndPlace":       "MW11-12.30 3-370"
+        },
+        {
             "type":          "Class",
             "label":         "Introduction to the History of Technology",
             "id":            "ESD.52",
-            "listing-index": "mESDa-069",
+            "listing-index": "mESDa-071",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -1891,17 +1915,52 @@
             "description":   "Introduction to the consideration of technology as the outcome of particular technical, historical, cultural, and political efforts, especially in the United States during the 19th and 20th centuries. Topics include industrialization of production and consumption, development of engineering professions, the emergence of management and its role in shaping technological forms, the technological construction of gender roles, and the relationship between humans and machines.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.52J",
             "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "semester":      "Spring",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Mindell, D.",
+            "in-charge":     "Williams, R. H.",
             "area":          "Technology"
+        },
+        {
+            "type":          "Class",
+            "label":         "The Impact of Globalization on the Built Environment",
+            "id":            "ESD.53",
+            "listing-index": "mESDa-072",
+            "course":        "ESD",
+            "level":         "Grad",
+            "units":         "2-0-4",
+            "total-units":   6,
+            "has-final":     false,
+            "description":   "Addresses the importance and pervasiveness of Globalization in Architecture, Engineering and Construction Companies (AEC Firms). Covers strategies for a presence in the global market and the importance of the global financial market in project financing, with a primary focus on infrastructure. Includes discussion of innovative approaches to marketing, partnering, risk management, finance, specialized delivery systems, and privatization.",
+            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.53J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "1.463J",
+                "11.342J"
+            ],
+            "in-charge":     [
+                "Moavenzadeh, F.",
+                "Wolff, D."
+            ],
+            "area":          "Technology"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.53",
+            "lecture-section-of": "ESD.53",
+            "timeAndPlace":       "M3-5 5-232"
         },
         {
             "type":          "Class",
             "label":         "Management of Infrastructure Systems",
             "id":            "ESD.55",
-            "listing-index": "mESDa-070",
+            "listing-index": "mESDa-073",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1911,7 +1970,7 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.55",
             "joint":         false,
             "semester":      "Fall",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     "Balakrishnan, H.",
             "area":          "Technology"
@@ -1920,7 +1979,7 @@
             "type":          "Class",
             "label":         "Integrating Information Systems: Technical, Strategic, and Organizational Factors",
             "id":            "ESD.565",
-            "listing-index": "mESDa-071",
+            "listing-index": "mESDa-074",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1938,15 +1997,15 @@
         },
         {
             "type":          "Class",
-            "label":         "Technology-based Business Transformation",
+            "label":         "Technology-based Business Innovation",
             "id":            "ESD.57",
-            "listing-index": "mESDa-072",
+            "listing-index": "mESDa-075",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "How to leverage major technology advances to significantly transform a business in the marketplace. Focus on major issues a business must deal with to transform its technical and market strategies successfully, including the organizational and cultural aspects that often cause such business transformations to fail.Draws from concrete experiences of IBM's major transformation in the late 1990s, when it aggressively embraced the Internet and came up with its e-business strategy.",
+            "description":   "How to leverage major technology advances to significantly transform a business in the marketplace. Focus on major issues a business must deal with to transform its technical and market strategies successfully, including the organizational and cultural aspects that often cause such business transformations to fail.Draws from concrete experiences of IBM\\'s major transformation in the late 1990s, when it aggressively embraced the Internet and came up with its e-business strategy.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.57",
             "joint":         false,
             "semester":      "Fall",
@@ -1956,10 +2015,16 @@
             "area":          "Technology"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.57",
+            "lecture-section-of": "ESD.57",
+            "timeAndPlace":       "M11-2 9-057"
+        },
+        {
             "type":          "Class",
             "label":         "Disruptive Technologies: Predator or Prey?",
             "id":            "ESD.58",
-            "listing-index": "mESDa-073",
+            "listing-index": "mESDa-076",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -1975,34 +2040,31 @@
             "area":          "Technology"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.58",
-            "lecture-section-of": "ESD.58",
-            "timeAndPlace":       "TR2.30-4 1-390"
-        },
-        {
             "type":          "Class",
             "label":         "Lean/Six Sigma Processes",
             "id":            "ESD.60",
-            "listing-index": "mESDa-074",
+            "listing-index": "mESDa-077",
             "course":        "ESD",
             "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
+            "units":         "2-0-6",
+            "total-units":   8,
             "has-final":     false,
-            "description":   "Addresses forces driving lean/six sigma, lean thinking, variance reduction, design of experiments, (pre-stability) factors, team-based work systems, in-station process control, total productive maintenance, synchronous material flow, value stream mapping, knowledge and information flow, pull-based systems in contrasting industry settings, and enterprise alignment. Emphasis on bold visions and harsh realities. Restricted to Leaders for Manufacturing students.",
+            "description":   "Addresses forces driving lean/six sigma, lean thinking, variance reduction, design of experiments, (pre-stability) factors, team-based work systems, in-station process control, total productive maintenance, synchronous material flow, value stream mapping, knowledge and information flow, pull-based systems in contrasting industry settings, and enterprise alignment. Emphasis on bold visions and harsh realities.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.60",
             "joint":         false,
             "semester":      "Summer",
             "offering":      "Currently Offered",
-            "in-charge":     "Spear, S.",
+            "in-charge":     [
+                "Spear, S.",
+                "Rebentisch, E."
+            ],
             "area":          "Technology"
         },
         {
             "type":          "Class",
             "label":         "Integrating The Lean Enterprise",
             "id":            "ESD.61",
-            "listing-index": "mESDa-075",
+            "listing-index": "mESDa-078",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2019,10 +2081,22 @@
             "area":          "Technology"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.61",
+            "lecture-section-of": "ESD.61",
+            "timeAndPlace":       "MW2.30-4 1-390"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02ESD.61",
+            "rec-section-of": "ESD.61",
+            "timeAndPlace":   "M4 1-390"
+        },
+        {
             "type":          "Class",
             "label":         "Control of Manufacturing Processes",
             "id":            "ESD.63",
-            "listing-index": "mESDa-076",
+            "listing-index": "mESDa-079",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2050,16 +2124,10 @@
             "area":          "Technology"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.63",
-            "lecture-section-of": "ESD.63",
-            "timeAndPlace":       "TR8-9.30 8-404"
-        },
-        {
             "type":          "Class",
             "label":         "Product Design",
             "id":            "ESD.64",
-            "listing-index": "mESDa-077",
+            "listing-index": "mESDa-080",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-1-8",
@@ -2069,10 +2137,7 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.64J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.744J",
@@ -2082,16 +2147,10 @@
             "area":          "Technology"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.64",
-            "lecture-section-of": "ESD.64",
-            "timeAndPlace":       "TR2.30-4 3-370"
-        },
-        {
             "type":          "Class",
             "label":         "Aerospace Biomedical and Life Support Engineering",
             "id":            "ESD.65",
-            "listing-index": "mESDa-078",
+            "listing-index": "mESDa-081",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-1-8",
@@ -2101,7 +2160,7 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.65J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "16.423J",
@@ -2114,39 +2173,9 @@
         },
         {
             "type":          "Class",
-            "label":         "Receivers, Antennas, and Signals",
-            "id":            "ESD.66",
-            "listing-index": "mESDa-079",
-            "course":        "ESD",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Detection and measurement of radio and optical signals encountered in communications, astronomy, remote sensing, instrumentation, and radar. Statistical analysis of signal processing systems, including radiometers, spectrometers, interferometers, and digital correlation systems. Matched filters and ambiguity functions. Communications channel performance. Measurement of random electromagnetic fields. Angular filtering properties of antennas, interferometers, and aperture synthesis systems. Radiative transfer and parameter estimation. Alternate years.",
-            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.66J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.661J",
-                "6.013",
-                "8.03",
-                "6.003",
-                "16.04",
-                "2.004"
-            ],
-            "in-charge":     "Staelin, D. H.",
-            "area":          "Technology"
-        },
-        {
-            "type":          "Class",
             "label":         "Communications and Information Policy",
             "id":            "ESD.68",
-            "listing-index": "mESDa-080",
+            "listing-index": "mESDa-082",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2166,16 +2195,67 @@
             "area":          "Technology"
         },
         {
+            "type":          "Class",
+            "label":         "Seminar on Health Care Systems Innovation",
+            "id":            "ESD.69",
+            "listing-index": "mESDa-083",
+            "course":        "ESD",
+            "level":         "Grad",
+            "units":         "2-0-7 [P/D/F]",
+            "total-units":   "Unknown",
+            "has-final":     false,
+            "description":   "Seminar examines how \\\u0022systems\\\u0022 approaches can be used to address inefficiencies and introduction of innovation into the delivery of health care. Topics include identification of problems in delivery of chronic, acute, and emergency care and possible organizational and technological solutions. Cases, readings, and discussions draw upon experiences in the United States and globally.",
+            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.69",
+            "joint":         false,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "in-charge":     [
+                "Finkelstein, S.",
+                "Coughlin, J."
+            ],
+            "area":          "Technology"
+        },
+        {
+            "type":          "Class",
+            "label":         "Principles and Practice of Drug Development",
+            "id":            "ESD.691",
+            "listing-index": "mESDa-084",
+            "course":        "ESD",
+            "level":         "Grad",
+            "units":         "3-0-6",
+            "total-units":   9,
+            "has-final":     false,
+            "description":   "Description and critical assessment of the major issues and stages of developing a pharmaceutical or biopharmaceutical. Drug discovery, preclinical development, clinical investigation, manufacturing and regulatory issues considered for small and large molecules. Economic and financial considerations of the drug development process. Multidisciplinary perspective from faculty in clinical; life; and management sciences; as well as industry guests.",
+            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.691J",
+            "joint":         true,
+            "semester":      "Fall",
+            "offering":      "Currently Offered",
+            "category":      "H-LEVEL Grad Credit",
+            "prereq":        [
+                "7.547J",
+                "10.547J",
+                "15.136J"
+            ],
+            "in-charge":     [
+                "Allen, T. J.",
+                "Cooney, C. L.",
+                "Finkelstein, S. N.",
+                "Rubin, R. H.",
+                "Sinskey, A. J."
+            ],
+            "area":          "Technology"
+        },
+        {
             "type":               "LectureSection",
-            "label":              "L01ESD.68",
-            "lecture-section-of": "ESD.68",
-            "timeAndPlace":       "M12-3 E51-061"
+            "label":              "L01ESD.691",
+            "lecture-section-of": "ESD.691",
+            "timeAndPlace":       "R EVE (4-6.30 PM) E25-111"
         },
         {
             "type":          "Class",
             "label":         "Engineering Economy Module",
             "id":            "ESD.70",
-            "listing-index": "mESDa-081",
+            "listing-index": "mESDa-085",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "1-0-2 [P/D/F]",
@@ -2187,23 +2267,26 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "prereq":        "1.145J",
-            "in-charge":     [
-                "Neufville, R. de",
-                "Staff"
-            ],
+            "in-charge":     "Neufville, R. de",
             "area":          "Methods"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.70",
+            "lecture-section-of": "ESD.70",
+            "timeAndPlace":       "MTWR EVE (5-7.30 PM) 32-155"
         },
         {
             "type":          "Class",
             "label":         "Engineering Systems Analysis for Design",
             "id":            "ESD.71",
-            "listing-index": "mESDa-082",
+            "listing-index": "mESDa-086",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-6",
             "total-units":   9,
-            "has-final":     false,
-            "description":   "Engineering systems design must have the flexibility to take advantage of new opportunities while avoiding disasters. Subject develops \"real options\" analysis to create design flexibility and measure its value so that it can be incorporated into system optimization. Subject builds on essential concepts of system models, decision analysis, and financial concepts. Emphasis on calculating value of real options with special attention given to efficient analysis and practical applications.  The material is organized and presented to deal with the contextual reality of technological systems, that substantially distinguishes the analysis of real options in engineering systems from that of financial options.",
+            "has-final":     true,
+            "description":   "Engineering systems design must have the flexibility to take advantage of new opportunities while avoiding disasters. Subject develops \\\u0022real options\\\u0022 analysis to create design flexibility and measure its value so that it can be incorporated into system optimization. Subject builds on essential concepts of system models, decision analysis, and financial concepts. Emphasis on calculating value of real options with special attention given to efficient analysis and practical applications.  The material is organized and presented to deal with the contextual reality of technological systems, that substantially distinguishes the analysis of real options in engineering systems from that of financial options.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.71",
             "joint":         false,
             "semester":      "Fall",
@@ -2219,10 +2302,28 @@
             "area":          "Methods"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.71",
+            "lecture-section-of": "ESD.71",
+            "timeAndPlace":       "TR10.30-12 32-155"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02ESD.71",
+            "rec-section-of": "ESD.71",
+            "timeAndPlace":   "T3 32-155"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R03ESD.71",
+            "rec-section-of": "ESD.71",
+            "timeAndPlace":   "R9 32-155"
+        },
+        {
             "type":          "Class",
             "label":         "Engineering Risk-Benefit Analysis",
             "id":            "ESD.72",
-            "listing-index": "mESDa-083",
+            "listing-index": "mESDa-087",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2241,29 +2342,16 @@
                 "6.938",
                 "10.816",
                 "16.862",
-                "22.82",
-                "18.02"
+                "22.82"
             ],
             "in-charge":     "Apostolakis, G. E.",
             "area":          "Methods"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.72",
-            "lecture-section-of": "ESD.72",
-            "timeAndPlace":       "MW9.30-11 1-390"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02ESD.72",
-            "rec-section-of": "ESD.72",
-            "timeAndPlace":   "T2 9-338"
-        },
-        {
             "type":          "Class",
             "label":         "Engineering Risk-Benefit Analysis (Abridged)",
             "id":            "ESD.721",
-            "listing-index": "mESDa-084",
+            "listing-index": "mESDa-088",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2275,27 +2363,14 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "18.02",
             "in-charge":     "Apostolakis, G. E.",
             "area":          "Methods"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01ESD.721",
-            "lecture-section-of": "ESD.721",
-            "timeAndPlace":       "MW9.30-11 1-390"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02ESD.721",
-            "rec-section-of": "ESD.721",
-            "timeAndPlace":   "T12 9-338"
         },
         {
             "type":          "Class",
             "label":         "Materials Selection, Design, and Economics",
             "id":            "ESD.73",
-            "listing-index": "mESDa-085",
+            "listing-index": "mESDa-089",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2312,10 +2387,16 @@
             "area":          "Methods"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.73",
+            "lecture-section-of": "ESD.73",
+            "timeAndPlace":       "TR8.30-10 32-141"
+        },
+        {
             "type":          "Class",
             "label":         "Materials Selection, Design, and Economics",
             "id":            "ESD.730",
-            "listing-index": "mESDa-086",
+            "listing-index": "mESDa-090",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "2-0-4",
@@ -2335,7 +2416,7 @@
             "type":          "Class",
             "label":         "System Dynamics for Engineers",
             "id":            "ESD.74",
-            "listing-index": "mESDa-087",
+            "listing-index": "mESDa-091",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2347,14 +2428,14 @@
             "semester":      "Summer",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Lyneis, J.",
+            "in-charge":     "Morrison, B.",
             "area":          "Methods"
         },
         {
             "type":          "Class",
             "label":         "System Optimization and Analysis for Manufacturing",
             "id":            "ESD.750",
-            "listing-index": "mESDa-088",
+            "listing-index": "mESDa-092",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "4-0-8",
@@ -2368,8 +2449,7 @@
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "2.851J",
-                "15.066J",
-                "18.02"
+                "15.066J"
             ],
             "in-charge":     [
                 "Graves, S. C.",
@@ -2382,22 +2462,19 @@
             "type":          "Class",
             "label":         "Engineering Probability and Statistics",
             "id":            "ESD.751",
-            "listing-index": "mESDa-089",
+            "listing-index": "mESDa-093",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Modeling and analysis of uncertainty and variation. Probability models and distributions, regression, and basic statistical procedures pertinent to manufacturing. Introduction to experimental design, Taguchi methods, and statistical process control. Use of a data analysis package such as JMP or Minitab. Primarily for Leaders for Manufacturing students.",
+            "description":   "Modeling and analysis of uncertainty and variation. Probability models and distributions, regression, and basic statistical procedures pertinent to manufacturing and operations. Introduction to experimental and robust design, statistical process control, and forecasting. Use of a data analysis package such as JMP or Minitab. Primarily for Leaders for Manufacturing students.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.751J",
             "joint":         true,
             "semester":      "Summer",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "15.064J",
-                "18.02"
-            ],
+            "prereq":        "15.064J",
             "in-charge":     [
                 "Barnett, A. I.",
                 "Welsch, R."
@@ -2408,13 +2485,13 @@
             "type":          "Class",
             "label":         "Statistical Learning and Data Mining",
             "id":            "ESD.753",
-            "listing-index": "mESDa-090",
+            "listing-index": "mESDa-094",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Introduction to theory and application of statistics and data mining, concentrating on techniques used in management science, finance, engineering systems, and bioinformatics. First half builds the statistical foundation for the second half which concentrates on data-mining, supervised learning, and  multivariate analysis. First half topics selected from sampling; theory of estimation; testing; nonparametric statistics; analysis of variance; categorical data analysis; regression analysis; MCMC; EM;  Gibbs sampling; hidden Markov models; and Bayesian methods. Second half topics selected from logistic regression; principal components and dimension reduction; discrimination and classification analysis and trees; partial least squares; nearest neighbor and regularized  methods; support vector machines; boosting and bagging; clustering; independent component analysis; and nonparametric regression. R, S+, Matlab, SAS, or similar statistics package used for data analysis and data mining.",
+            "description":   "Introduction at an advanced level to the theory and application of statistics and data mining, concentrating on techniques used in management science, finance, consulting, engineering systems, and bioinformatics. First half builds the statistical foundation for the second half which concentrates on data-mining, supervised learning, and  multivariate analysis. First half topics selected from sampling; theory of estimation; testing; nonparametric statistics; analysis of variance; categorical data analysis; regression analysis; MCMC; EM; Gibbs sampling; hidden Markov models; and Bayesian methods. Second half topics selected from logistic regression; principal components and dimension reduction; discrimination and classification analysis and trees; partial least squares; nearest neighbor and regularized methods; support vector machines; boosting and bagging; clustering; independent component analysis; and nonparametric regression. R, S+, Matlab, SAS, or similar statistics package used for data analysis and data mining. and data mining.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.753J",
             "joint":         true,
             "semester":      "Spring",
@@ -2432,42 +2509,46 @@
             "area":          "Methods"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.753",
-            "lecture-section-of": "ESD.753",
-            "timeAndPlace":       "MW EVE (7-8.30 PM) 3-370"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02ESD.753",
-            "rec-section-of": "ESD.753",
-            "timeAndPlace":   "T4 E51-085"
-        },
-        {
             "type":          "Class",
             "label":         "Statistical Reasoning and Data Modeling",
             "id":            "ESD.755",
-            "listing-index": "mESDa-091",
+            "listing-index": "mESDa-095",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "4-0-8",
             "total-units":   12,
-            "has-final":     false,
-            "description":   "Designed for students who have an acquaintance with statistics and want exposure to a wider range of topics and examples such as statistical computing and data analysis. Topics include advanced regression modeling: regression diagnostics, variable selection, and robust regression. Design of experiments and analysis of variance. Introduction to data-mining includes stratified sampling, classification, logistic regression, and clustering; time series analysis and forecasting; process control; and Bayesian methods. Use of statistical computing systems including Excel add-ins and stand-alone packages. Case studies involving finance, management science, and engineering systems.",
+            "has-final":     true,
+            "description":   "Designed for students who have some acquaintance with probability and statistics and want exposure to a wider range of topics and examples. The first half reviews statistics and regression by addressing advanced topics like variable selection, regression and data diagnostics, visualization, and robust methods. The second half continues with data-mining including stratified sampling, classification, logistic regression, and clustering; design of experiments and analysis of variance; time series analysis and forecasting; process control; and Bayesian methods. Use of statistical computing systems including Excel add-ins and stand-alone packages. Case studies involving finance, management science, consulting, and engineering systems.  Open to qualified undergraduates.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.755J",
             "joint":         true,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "15.074J",
+            "prereq":        [
+                "15.074J",
+                "6.041",
+                "15.060"
+            ],
             "in-charge":     "Welsch, R. E.",
             "area":          "Methods"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.755",
+            "lecture-section-of": "ESD.755",
+            "timeAndPlace":       "W2.30-5.30 E51-063"
+        },
+        {
+            "type":           "RecitationSection",
+            "label":          "R02ESD.755",
+            "rec-section-of": "ESD.755",
+            "timeAndPlace":   "M4 E51-063"
         },
         {
             "type":          "Class",
             "label":         "Statistical Methods in Experimental Design",
             "id":            "ESD.756",
-            "listing-index": "mESDa-092",
+            "listing-index": "mESDa-096",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2477,7 +2558,10 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.756J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "16.470J",
@@ -2490,7 +2574,7 @@
             "type":          "Class",
             "label":         "Systems Optimization",
             "id":            "ESD.762",
-            "listing-index": "mESDa-093",
+            "listing-index": "mESDa-097",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "2-0-4",
@@ -2506,16 +2590,10 @@
             "area":          "Methods"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.762",
-            "lecture-section-of": "ESD.762",
-            "timeAndPlace":       "TR9.30-11 (BEGINS APRIL 1) 9-057"
-        },
-        {
             "type":          "Class",
             "label":         "Operations and Supply Chain Management",
             "id":            "ESD.763",
-            "listing-index": "mESDa-094",
+            "listing-index": "mESDa-098",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-6",
@@ -2534,7 +2612,7 @@
             "type":          "Class",
             "label":         "Multidisciplinary System Design Optimization",
             "id":            "ESD.77",
-            "listing-index": "mESDa-095",
+            "listing-index": "mESDa-099",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-1-8",
@@ -2557,16 +2635,10 @@
             "area":          "Methods"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.77",
-            "lecture-section-of": "ESD.77",
-            "timeAndPlace":       "TR1-2.30 9-057"
-        },
-        {
             "type":          "Class",
             "label":         "Quantitative Foundations of Engineering Systems",
             "id":            "ESD.772",
-            "listing-index": "mESDa-096",
+            "listing-index": "mESDa-100",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2592,17 +2664,20 @@
             "type":          "Class",
             "label":         "Network Optimization",
             "id":            "ESD.78",
-            "listing-index": "mESDa-097",
+            "listing-index": "mESDa-101",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Network models for industrial logistics systems, transportation systems, communication systems, and other applications. Emphasizes a rigorous treatment of algorithms and their efficiency?algorithms for shortest routes, maximum flows, minimum cost flows, traffic equilibrium, and network design. Implementation issues.",
+            "description":   "Network models for industrial logistics systems, transportation systems, communication systems, and other applications. Emphasizes a rigorous treatment of algorithms and their efficiency. Algorithms for shortest paths, maximum flows, minimum cost flows, traffic equilibrium, and network design. Implementation issues.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.78J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "6.855J",
@@ -2616,36 +2691,9 @@
         },
         {
             "type":          "Class",
-            "label":         "Quantum Computation",
-            "id":            "ESD.79",
-            "listing-index": "mESDa-098",
-            "course":        "ESD",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Provides an introduction to the theory and practice of quantum  computation. Topics covered: physics of information processing; quantum algorithms including the factoring algorithm and Grover's search algorithm; quantum error correction; quantum communication and cryptography. Knowledge of quantum mechanics helpful but not required.",
-            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.79J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.111J",
-                "18.435J"
-            ],
-            "in-charge":     [
-                "Farhi, E.",
-                "Lloyd, S.",
-                "Shor, P."
-            ],
-            "area":          "Methods"
-        },
-        {
-            "type":          "Class",
             "label":         "Seminar in Technology Policy Research",
             "id":            "ESD.80",
-            "listing-index": "mESDa-099",
+            "listing-index": "mESDa-102",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "2-0-1",
@@ -2661,16 +2709,10 @@
             "area":          "Professional Development"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.80",
-            "lecture-section-of": "ESD.80",
-            "timeAndPlace":       "T12.30-2.30 3-370"
-        },
-        {
             "type":          "Class",
             "label":         "Leadership Development",
             "id":            "ESD.801",
-            "listing-index": "mESDa-100",
+            "listing-index": "mESDa-103",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "1-1-1 [P/D/F]",
@@ -2685,10 +2727,16 @@
             "area":          "Professional Development"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.801",
+            "lecture-section-of": "ESD.801",
+            "timeAndPlace":       "F9-12 (SELECTED DATES) 32-144"
+        },
+        {
             "type":          "Class",
             "label":         "SDM Thesis Seminar",
             "id":            "ESD.802",
-            "listing-index": "mESDa-101",
+            "listing-index": "mESDa-104",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "2-0-1 [P/D/F]",
@@ -2704,33 +2752,58 @@
             "area":          "Professional Development"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.802",
-            "lecture-section-of": "ESD.802",
-            "timeAndPlace":       "T EVE (4.30-6 PM) 9-057"
-        },
-        {
             "type":          "Class",
             "label":         "Know Thyself Leadership Workshop",
             "id":            "ESD.803",
-            "listing-index": "mESDa-102",
+            "listing-index": "mESDa-105",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "2-0-4",
             "total-units":   6,
             "has-final":     false,
-            "description":   "No description available.",
+            "description":   "Designed to enhance your ability to manage and lead in challenging times through a series of self assessment instruments, case studies, and workshops. The objectives are to increase awareness of your strengths and weaknesses as a leader, provide a battery of instruments and surveys to help one understand the way one operates in an organizational setting, and offer strategies and tips on how to leverage one\\'s strengths and work on areas in need of development. Morning section restricted to students in the MLOG program.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.803",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
+            "in-charge":     "Saar, S.",
+            "area":          "Professional Development"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.803",
+            "lecture-section-of": "ESD.803",
+            "timeAndPlace":       "F9-12 (SELECTED DATES) E40-364"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L02ESD.803",
+            "lecture-section-of": "ESD.803",
+            "timeAndPlace":       "F1-4 (SELECTED DATES) E40-364"
+        },
+        {
+            "type":          "Class",
+            "label":         "Know Thy Team: Leadership Skill Building Seminar",
+            "id":            "ESD.804",
+            "listing-index": "mESDa-106",
+            "course":        "ESD",
+            "level":         "Grad",
+            "units":         "2-0-1",
+            "total-units":   3,
+            "has-final":     false,
+            "description":   "Provides students with the framework and strategies needed to foster and sustain team effectiveness. Examines research that assesses the effectiveness of teams. Explores team dynamics , with emphasis on understanding the roles of team members and the team leader. Integrates team dynamics into instruction on managing transition, creating a compelling vision, designing a supportive structure, communicating effectively, coaching team members, sustaining performance. Includes role-playing exercises.",
+            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.804",
+            "joint":         false,
+            "semester":      "Spring",
+            "offering":      "Not offered this year",
+            "in-charge":     "Saar, S.",
             "area":          "Professional Development"
         },
         {
             "type":          "Class",
             "label":         "Studies in Transportation and Logistics",
             "id":            "ESD.81",
-            "listing-index": "mESDa-103",
+            "listing-index": "mESDa-107",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2753,13 +2826,13 @@
             "type":          "Class",
             "label":         "Technology Policy Internship Seminar",
             "id":            "ESD.811",
-            "listing-index": "mESDa-104",
+            "listing-index": "mESDa-108",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "1-1-1 [P/D/F]",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "Seminar examines what technology policy is in practice. Considers the question of \"Who achieves what, when, how, and why?\" regarding technology policy. Students who completed summer internships present and dissect their experiences with special reference to specific cases in which they participated.",
+            "description":   "Seminar examines what technology policy is in practice. Considers the question of \\\u0022Who achieves what, when, how, and why?\\\u0022 regarding technology policy. Students who completed summer internships present and dissect their experiences with special reference to specific cases in which they participated.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.811",
             "joint":         false,
             "semester":      "Fall",
@@ -2769,10 +2842,16 @@
             "area":          "Professional Development"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.811",
+            "lecture-section-of": "ESD.811",
+            "timeAndPlace":       "W12-2 E40-380"
+        },
+        {
             "type":          "Class",
             "label":         "Doctoral Seminar in Engineering Systems",
             "id":            "ESD.83",
-            "listing-index": "mESDa-105",
+            "listing-index": "mESDa-109",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "6-0-6",
@@ -2786,15 +2865,23 @@
             "category":      "H-LEVEL Grad Credit",
             "in-charge":     [
                 "Magee, C.",
-                "Sussman, J."
+                "Carroll, J.",
+                "Larson, R.",
+                "Marks, D. H."
             ],
             "area":          "Professional Development"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.83",
+            "lecture-section-of": "ESD.83",
+            "timeAndPlace":       "W9-12 E40-298"
         },
         {
             "type":          "Class",
             "label":         "Mining Data, Modeling Systems, Making Impact",
             "id":            "ESD.832",
-            "listing-index": "mESDa-106",
+            "listing-index": "mESDa-110",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2819,13 +2906,13 @@
             "type":          "Class",
             "label":         "Integrating Doctoral Seminar on Emerging Technologies",
             "id":            "ESD.85",
-            "listing-index": "mESDa-107",
+            "listing-index": "mESDa-111",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "2-0-7",
             "total-units":   9,
             "has-final":     false,
-            "description":   "Team-taught subject for doctoral students working on emerging technologies at the interface of technology, policy and societal issues. Integrates concepts of research strategy and design from a variety of disciplines. Addresses problem identification and formulation of research topics, the role of qualitative and quantitative research methods, and the use of various data collection techniques. Focuses on students' thesis proposals, faculty-student study panels, critical evaluation of research design, and ethical issues in conducting research and gathering data.",
+            "description":   "Team-taught subject for doctoral students working on emerging technologies at the interface of technology, policy and societal issues. Integrates concepts of research strategy and design from a variety of disciplines. Addresses problem identification and formulation of research topics, the role of qualitative and quantitative research methods, and the use of various data collection techniques. Focuses on students\\' thesis proposals, faculty-student study panels, critical evaluation of research design, and ethical issues in conducting research and gathering data.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.85J",
             "joint":         true,
             "semester":      "Spring",
@@ -2836,16 +2923,10 @@
             "area":          "Professional Development"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.85",
-            "lecture-section-of": "ESD.85",
-            "timeAndPlace":       "W3-5 E51-393"
-        },
-        {
             "type":          "Class",
             "label":         "Models, Data and Inference for Socio-Technical Systems",
             "id":            "ESD.86",
-            "listing-index": "mESDa-108",
+            "listing-index": "mESDa-112",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2864,22 +2945,10 @@
             "area":          "Professional Development"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.86",
-            "lecture-section-of": "ESD.86",
-            "timeAndPlace":       "MW10.30-12 66-154"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02ESD.86",
-            "rec-section-of": "ESD.86",
-            "timeAndPlace":   "F10.30-12 66-154"
-        },
-        {
             "type":          "Class",
             "label":         "System Safety",
             "id":            "ESD.863",
-            "listing-index": "mESDa-109",
+            "listing-index": "mESDa-113",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2889,7 +2958,7 @@
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.863J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      "Not offered this year",
+            "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "16.863J",
             "in-charge":     "Leveson, N. G.",
@@ -2899,7 +2968,7 @@
             "type":          "Class",
             "label":         "Mechanical Assemblies: Their Design, Manufacture, and Role in Product Development",
             "id":            "ESD.875",
-            "listing-index": "mESDa-110",
+            "listing-index": "mESDa-114",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "3-0-9",
@@ -2919,10 +2988,16 @@
             "area":          "Professional Development"
         },
         {
+            "type":               "LectureSection",
+            "label":              "L01ESD.875",
+            "lecture-section-of": "ESD.875",
+            "timeAndPlace":       "MW1-2.30 E51-057"
+        },
+        {
             "type":          "Class",
             "label":         "Research in Engineering Systems Division",
             "id":            "ESD.910?ESD.920",
-            "listing-index": "mESDa-111",
+            "listing-index": "mESDa-115",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2947,7 +3022,7 @@
             "type":          "Class",
             "label":         "Teaching in Engineering Systems Division",
             "id":            "ESD.921?ESD.929",
-            "listing-index": "mESDa-112",
+            "listing-index": "mESDa-116",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2972,7 +3047,7 @@
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.930",
-            "listing-index": "mESDa-113",
+            "listing-index": "mESDa-117",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2995,29 +3070,17 @@
             "area":          "Special Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01ESD.930",
-            "lecture-section-of": "ESD.930",
-            "timeAndPlace":       "F9-12 (ENDS FEBRUARY 29) 4-153"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02ESD.930",
-            "rec-section-of": "ESD.930",
-            "timeAndPlace":   "F1-4 (ENDS FEBRUARY 29) 4-153"
-        },
-        {
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
-            "id":            "ESD.931?ESD.933",
-            "listing-index": "mESDa-114",
+            "id":            "ESD.931-ESD.933",
+            "listing-index": "mESDa-118",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.931?ESD.933",
+            "description":   "",
+            "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.931-ESD.933",
             "joint":         false,
             "semester":      [
                 "Fall",
@@ -3029,19 +3092,26 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
+            "in-charge":     "MW2.30-4",
             "area":          "Special Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.931-ESD.933",
+            "lecture-section-of": "ESD.931-ESD.933",
+            "timeAndPlace":       "MW2.30-4 E51-372"
         },
         {
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.934?ESD.938",
-            "listing-index": "mESDa-115",
+            "listing-index": "mESDa-119",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "",
+            "description":   "No description available.",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.934?ESD.938",
             "joint":         false,
             "semester":      [
@@ -3055,20 +3125,13 @@
                 "Currently Offered"
             ],
             "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Cancelled, ESD.936",
             "area":          "Special Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01ESD.934?ESD.938",
-            "lecture-section-of": "ESD.934?ESD.938",
-            "timeAndPlace":       "MW9-10.30 4-153"
         },
         {
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.939",
-            "listing-index": "mESDa-116",
+            "listing-index": "mESDa-120",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3094,13 +3157,13 @@
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.940",
-            "listing-index": "mESDa-117",
+            "listing-index": "mESDa-121",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
             "total-units":   "Unknown",
             "has-final":     false,
-            "description":   "No description available.",
+            "description":   "",
             "url":           "http://student.mit.edu/catalog/mESDa.html#ESD.940",
             "joint":         false,
             "semester":      [
@@ -3113,13 +3176,20 @@
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
+            "in-charge":     "R1.30-3.30",
             "area":          "Special Subjects"
+        },
+        {
+            "type":               "LectureSection",
+            "label":              "L01ESD.940",
+            "lecture-section-of": "ESD.940",
+            "timeAndPlace":       "R1.30-3.30 14E-310"
         },
         {
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.941",
-            "listing-index": "mESDa-118",
+            "listing-index": "mESDa-122",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3144,7 +3214,7 @@
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.942",
-            "listing-index": "mESDa-119",
+            "listing-index": "mESDa-123",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3169,7 +3239,7 @@
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.943",
-            "listing-index": "mESDa-120",
+            "listing-index": "mESDa-124",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3194,7 +3264,7 @@
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.944",
-            "listing-index": "mESDa-121",
+            "listing-index": "mESDa-125",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3220,7 +3290,7 @@
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.945",
-            "listing-index": "mESDa-122",
+            "listing-index": "mESDa-126",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3246,7 +3316,7 @@
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.946",
-            "listing-index": "mESDa-123",
+            "listing-index": "mESDa-127",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3272,7 +3342,7 @@
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.947",
-            "listing-index": "mESDa-124",
+            "listing-index": "mESDa-128",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3298,7 +3368,7 @@
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.948",
-            "listing-index": "mESDa-125",
+            "listing-index": "mESDa-129",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3324,7 +3394,7 @@
             "type":          "Class",
             "label":         "Special Graduate Studies in Engineering Systems Division",
             "id":            "ESD.949",
-            "listing-index": "mESDa-126",
+            "listing-index": "mESDa-130",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3350,7 +3420,7 @@
             "type":          "Class",
             "label":         "Special Undergraduate Studies in Engineering Systems Division",
             "id":            "ESD.950?ESD.951",
-            "listing-index": "mESDa-127",
+            "listing-index": "mESDa-131",
             "course":        "ESD",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -3375,7 +3445,7 @@
             "type":          "Class",
             "label":         "Special Undergraduate Studies in Engineering Systems Division",
             "id":            "ESD.955?ESD.956",
-            "listing-index": "mESDa-128",
+            "listing-index": "mESDa-132",
             "course":        "ESD",
             "level":         "Undergrad",
             "units":         "Unknown",
@@ -3400,7 +3470,7 @@
             "type":          "Class",
             "label":         "ESD Graduate Thesis",
             "id":            "ESD.ThG",
-            "listing-index": "mESDa-129",
+            "listing-index": "mESDa-133",
             "course":        "ESD",
             "level":         "Grad",
             "units":         "Unknown",
