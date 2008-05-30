@@ -20,9 +20,10 @@ input.items = visitArrayElements(input.items, function(item) {
     	return { "type": "Class",
 			"has-final": item["has-final"],
 			"id": item.id,
+			"label": item.label,
 			"url": item.url,
 			"area": item.area,
-			"offering": item.offering,
+			//"offering": item.offering,
 			"category": item.category };
 	} else {
 		return item;

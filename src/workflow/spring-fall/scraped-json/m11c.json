@@ -354,12 +354,6 @@
             "subarea":       "Program Group Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0111.331",
-            "lecture-section-of": "11.331",
-            "timeAndPlace":       "F12-2 5-216"
-        },
-        {
             "type":          "Class",
             "label":         "Urban Design Studio",
             "id":            "11.332",
@@ -408,7 +402,7 @@
             "prereq":        "4.244J",
             "in-charge":     [
                 "Frenchman, D.",
-                "Silberberg, S."
+                "Silberberg-Robinson, S."
             ],
             "subarea":       "Program Group Subjects"
         },
@@ -471,7 +465,7 @@
                 "4.247J",
                 "11.301J"
             ],
-            "in-charge":     "Schuster, J. M.",
+            "in-charge":     "Inam, A.",
             "subarea":       "Program Group Subjects"
         },
         {
@@ -2172,17 +2166,13 @@
             "units":         "3-6-3",
             "total-units":   12,
             "has-final":     false,
-            "description":   "An introduction to geographic information systems (GIS) as applied to urban and regional planning, community development, and local government. Emphasis on learning GIS technology and spatial analysis techniques through extensive hands-on exercises using real-world data sets such as the US census of population and housing. Includes a small project on an urban planning problem involving the selection of appropriate methods, the use of primary and secondary data, computer-based modeling, and spatial analysis. This full-term subject includes all topics in the IAP module 11.208.",
+            "description":   "An introduction to geographic information systems (GIS) as applied to urban and regional planning, community development, and local government. Emphasis on learning GIS technology and spatial analysis techniques through extensive hands-on exercises using real-world data sets such as the US census of population and housing. Includes a small project on an urban planning problem involving the selection of appropriate methods, the use of primary and secondary data, computer-based modeling, and spatial analysis.",
             "url":           "http://student.mit.edu/catalog/m11c.html#11.520",
             "joint":         false,
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "11.204",
-                "11.188",
-                "11.208"
-            ],
+            "prereq":        "11.188",
             "in-charge":     "Ferreira, J.",
             "subarea":       "Program Group Subjects"
         },
@@ -2243,7 +2233,6 @@
             ],
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "11.204",
                 "11.521",
                 "11.520",
                 "11.525"
@@ -2274,7 +2263,6 @@
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
-                "11.204",
                 "11.521",
                 "11.524"
             ],
@@ -2324,7 +2312,6 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "11.204",
             "in-charge":     "Staff",
             "subarea":       "Program Group Subjects"
         },
@@ -2364,7 +2351,6 @@
             "semester":      "Spring",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "11.204",
             "in-charge":     "Staff",
             "subarea":       "Program Group Subjects"
         },
@@ -2819,27 +2805,9 @@
         },
         {
             "type":          "Class",
-            "label":         "Special Topics in Urban Studies and Planning",
-            "id":            "11.914",
-            "listing-index": "m11c-118",
-            "course":        "11",
-            "level":         "Grad",
-            "units":         "2-0-1",
-            "total-units":   3,
-            "has-final":     false,
-            "description":   "Special topics in Urban Studies and Planning. Restricted to first-year MCP students.",
-            "url":           "http://student.mit.edu/catalog/m11c.html#11.914",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     "Briggs, X.",
-            "subarea":       "Tutorials, Research, and Field Work Subjects"
-        },
-        {
-            "type":          "Class",
             "label":         "Special Seminars in Real Estate Development",
             "id":            "11.921, 11.922",
-            "listing-index": "m11c-119",
+            "listing-index": "m11c-118",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2863,7 +2831,7 @@
             "type":          "Class",
             "label":         "Special Studies in Urban Studies and Planning",
             "id":            "11.941-11.955",
-            "listing-index": "m11c-120",
+            "listing-index": "m11c-119",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2925,7 +2893,7 @@
             "type":          "Class",
             "label":         "IAP Special Studies in Urban Studies and Planning",
             "id":            "11.956-11.959",
-            "listing-index": "m11c-121",
+            "listing-index": "m11c-120",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2947,7 +2915,7 @@
             "type":          "Class",
             "label":         "Special Studies in Real Estate",
             "id":            "11.960, 11.961",
-            "listing-index": "m11c-122",
+            "listing-index": "m11c-121",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2971,7 +2939,7 @@
             "type":          "Class",
             "label":         "Urban Fieldwork and Internships",
             "id":            "11.962",
-            "listing-index": "m11c-123",
+            "listing-index": "m11c-122",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -2996,7 +2964,7 @@
             "type":          "Class",
             "label":         "Special Studies in Urban Studies and Planning",
             "id":            "11.963-11.969",
-            "listing-index": "m11c-124",
+            "listing-index": "m11c-123",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3028,7 +2996,7 @@
             "type":          "Class",
             "label":         "Special Studies in Urban Studies and Planning",
             "id":            "11.970",
-            "listing-index": "m11c-125",
+            "listing-index": "m11c-124",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3054,7 +3022,7 @@
             "type":          "Class",
             "label":         "IAP Special Studies in Urban Studies and Planning",
             "id":            "11.971",
-            "listing-index": "m11c-126",
+            "listing-index": "m11c-125",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3065,14 +3033,14 @@
             "joint":         false,
             "semester":      "IAP",
             "offering":      "Currently Offered",
-            "in-charge":     "Glenn, E.",
+            "in-charge":     "Staff",
             "subarea":       "Tutorials, Research, and Field Work Subjects"
         },
         {
             "type":          "Class",
             "label":         "IAP Special Studies in Urban Studies and Planning",
             "id":            "11.972",
-            "listing-index": "m11c-127",
+            "listing-index": "m11c-126",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3083,14 +3051,14 @@
             "joint":         false,
             "semester":      "IAP",
             "offering":      "Currently Offered",
-            "in-charge":     "Glenn, E.",
+            "in-charge":     "Staff",
             "subarea":       "Tutorials, Research, and Field Work Subjects"
         },
         {
             "type":          "Class",
             "label":         "IAP Special Studies in Urban Studies and Planning",
             "id":            "11.973",
-            "listing-index": "m11c-128",
+            "listing-index": "m11c-127",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3101,14 +3069,14 @@
             "joint":         false,
             "semester":      "IAP",
             "offering":      "Currently Offered",
-            "in-charge":     "Glenn, E.",
+            "in-charge":     "Staff",
             "subarea":       "Tutorials, Research, and Field Work Subjects"
         },
         {
             "type":          "Class",
             "label":         "IAP Special Studies in Urban Studies and Planning",
             "id":            "11.974",
-            "listing-index": "m11c-129",
+            "listing-index": "m11c-128",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3119,14 +3087,14 @@
             "joint":         false,
             "semester":      "IAP",
             "offering":      "Currently Offered",
-            "in-charge":     "Glenn, E.",
+            "in-charge":     "Staff",
             "subarea":       "Tutorials, Research, and Field Work Subjects"
         },
         {
             "type":          "Class",
             "label":         "IAP Special Studies in Urban Studies and Planning",
             "id":            "11.975",
-            "listing-index": "m11c-130",
+            "listing-index": "m11c-129",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3137,14 +3105,14 @@
             "joint":         false,
             "semester":      "IAP",
             "offering":      "Currently Offered",
-            "in-charge":     "Glenn, E.",
+            "in-charge":     "Staff",
             "subarea":       "Tutorials, Research, and Field Work Subjects"
         },
         {
             "type":          "Class",
             "label":         "Graduate Tutorial",
             "id":            "11.981",
-            "listing-index": "m11c-131",
+            "listing-index": "m11c-130",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3171,7 +3139,7 @@
             "type":          "Class",
             "label":         "SPURS Seminar",
             "id":            "11.983",
-            "listing-index": "m11c-132",
+            "listing-index": "m11c-131",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3192,7 +3160,7 @@
             "type":          "Class",
             "label":         "Summer Thesis Writing",
             "id":            "11.985",
-            "listing-index": "m11c-133",
+            "listing-index": "m11c-132",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",
@@ -3210,7 +3178,7 @@
             "type":          "Class",
             "label":         "Graduate Thesis",
             "id":            "11.ThG",
-            "listing-index": "m11c-134",
+            "listing-index": "m11c-133",
             "course":        "11",
             "level":         "Grad",
             "units":         "Unknown",

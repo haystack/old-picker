@@ -128,6 +128,9 @@ for line in tsv:
         if data[44] == "Y": semesters.append("Spring")
         if data[45] == "Y": semesters.append("Summer")
         item.append('"semester":'+str(semesters))
+        offering = "Not offered this year"
+        if data[41] == "Y": offering = "Currently Offered"
+        item.append('"offering":"'+offering+'"')
         item.append('"in-charge":"'+data[46]+'"')
         courses[data[2]].append('{'+','.join(item)+'}')
 

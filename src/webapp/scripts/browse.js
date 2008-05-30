@@ -115,7 +115,7 @@ function addCourses(courseIDs, urls) {
 		if (courseID == "6") {
 			urls.push("data/tqe.json");
 			urls.push("data/hkn.json");
-			urls.push("data/wtw-6sp08.json");
+			//urls.push("data/wtw-6sp08.json");
 			hasTQE = true;
 		}
 		markLoaded(courseID);
@@ -199,6 +199,7 @@ function loadURLs(urls, fDone) {
     fNext();
 }
 
+// not used anymore
 function postProcessOfficialData(json) {
     var items = json.items;				
     for (var i = 0; i < items.length; i++) {
@@ -207,6 +208,7 @@ function postProcessOfficialData(json) {
     return json;
 }
 
+// not used anymore
 function postProcessOfficialDataItem(item) {
     if ('offering' in item) {
         item.offering == 'Y'?item.offering = 'Currently Offered':item.offering = 'Not offered this year';
@@ -296,7 +298,8 @@ function loadScrapedData(link, database, cont) {
                 if (url.indexOf("/exceptions/") >= 0) {
                     o = postProcessOfficialData(o);
                 } else {
-                    o = postProcessScrapedData(o);
+                	// this is all data now - open and scraped
+                    o = postProcessStaticData(o);
             	}
                 database.loadData(o, Exhibit.Persistence.getBaseURL(url));
             }
@@ -311,6 +314,7 @@ function loadScrapedData(link, database, cont) {
     SimileAjax.XmlHttp.get(url, fError, fDone);
 };
 
+// not used anymore
 function postProcessScrapedData(o) {
     if ("items" in o) {
         var items = o.items;
@@ -332,6 +336,50 @@ function postProcessScrapedData(o) {
     }
     return o;
 };
+
+// processes open and scraped data
+function postProcessStaticData(o) {
+	if ("items" in o) {
+        var items = o.items;
+        for (var j = 0; j < items.length; j++) {
+            var item = items[j];
+			if ('prereqs' in item) {
+				if (item.prereqs == "") {
+					item.prereqs = "--";
+				}
+				while (item.prereqs.search(/[\]\[]/) >= 0 ) {
+					item.prereqs = item.prereqs.replace(/[\]\[]/, "");
+				}
+				var matches = item.prereqs.match(/([^\s\/]+\.[\d]+\w?)/g);
+				if (matches != null) {
+					var s = item.prereqs;
+					var output = "";
+					var from = 0;
+					for (var m = 0; m < matches.length; m++) {
+						var match = matches[m];
+						var i = s.indexOf(match, from);
+						var replace = 
+							"<a href=\"javascript:{}\" onclick=\"showPrereq(this, '" +
+								match.replace(/J/, "")+"');\">" + match + "</a>";
+						
+						output += s.substring(from, i) + replace;
+						from = i + match.length;
+					}
+					item.prereqs = output + s.substring(from);
+				}
+			}
+			if ('timeAndPlace' in item) {
+				if (typeof item.timeAndPlace != "string") {
+					item.timeAndPlace = item.timeAndPlace.join(", ");
+				} 
+				if (item.timeAndPlace.search(/ARRANGED/) >= 0 || item.timeAndPlace.search(/null/) >= 0) {
+					item.timeAndPlace = 'To be arranged';
+				}
+			} 
+		}
+	}
+	return o;
+}
 
 function showPrereq(elmt, itemID) {
     Exhibit.UI.showItemInPopup(itemID, elmt, exhibit.getUIContext());

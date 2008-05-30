@@ -335,7 +335,8 @@
             ],
             "in-charge":     [
                 "Smith, K. A.",
-                "Dalzell, W. H."
+                "Dalzell, W. H.",
+                "Hatton, T.A."
             ]
         },
         {
@@ -1857,7 +1858,6 @@
             "semester":      "Fall",
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
-            "prereq":        "7.01",
             "in-charge":     "Colton, C. K."
         },
         {
@@ -1959,10 +1959,13 @@
             "units":         "4-0-8",
             "total-units":   12,
             "has-final":     false,
-            "description":   "Fundamentals of chemically reacting systems with emphasis on synthesis of chemical kinetics and transport phenomena. Topics include kinetics of gas, liquid, and surface reactions; quantum chemistry; transition state theory; surface adsorption, diffusion, and desorption processes; mechanism and kinetics of biological processes; mechanism formulation and sensitivity analysis. Reactor topics include nonideal flow reactors, residence time distribution and dispersion models; multiphase reaction systems; nonlinear reactor phenomena. Examples are drawn from different applications, including heterogeneous catalysis, polymerization, combustion, biochemical systems, and materials processing.",
+            "description":   "Fundamentals of chemically reacting systems with emphasis on synthesis of chemical kinetics and transport phenomena. Topics include kinetics of gas, liquid, and surface reactions; quantum chemistry; transition state theory; surface adsorption, diffusion, and desorption processes; mechanism and kinetics of biological processes; mechanism formulation and sensitivity analysis. Reactor topics include nonideal flow reactors, residence time distribution and dispersion models; multiphase reaction systems; nonlinear reactor phenomena. Examples are drawn from different applications, including heterogeneous catalysis, polymerization, combustion, biochemical systems, and materials processing. Summer 2008 class limited to SMA students only.",
             "url":           "http://student.mit.edu/catalog/m10a.html#10.65",
             "joint":         false,
-            "semester":      "Spring",
+            "semester":      [
+                "Spring",
+                "Summer"
+            ],
             "offering":      "Currently Offered",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        "10.37",
@@ -2009,10 +2012,7 @@
             "url":           "http://student.mit.edu/catalog/m10a.html#10.668J",
             "joint":         true,
             "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
+            "offering":      "Not offered this year",
             "category":      "H-LEVEL Grad Credit",
             "prereq":        [
                 "3.941J",
