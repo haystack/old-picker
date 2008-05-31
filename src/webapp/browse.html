@@ -89,7 +89,8 @@
                                 
                                 <div id="tqe-facet"></div>
                                 
-                                <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' ex:height="20em"></div>
+                                <div ex:role="facet" ex:expression=".gir" ex:facetLabel="category &raquo;" id='category-facet' ex:height="20em"></div>
+                                <!--<div ex:role="facet" ex:expression=".ci" ex:facetLabel="ci &raquo;" id='ci-facet' ex:height="20em"></div>-->
                                 <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' ex:height="7em" ex:selection="Fall"></div>
                                 <div ex:role="facet" ex:expression=".offering" ex:facetLabel="offering &raquo;" id='offering-facet' ex:height="8em" ex:selection="Currently Offered"></div>
                                 
@@ -103,7 +104,7 @@
                                 powered by<br/>
                                 <a href="http://simile.mit.edu/exhibit/">Exhibit</a>,
                                 <a href="http://simile.mit.edu/timegrid/">Timegrid</a>, and<br/>
-                                <a href="http://web.mit.edu/ist/warehouse/">MIT IS&amp;T Data Warehouse</a>
+                                <a href="http://opendata.mit.edu/">MIT Open Data</a>
                             </p>
                         </td>
                         <td>
@@ -181,6 +182,7 @@
                 <td>
                     <div ex:content=".topic" class="course-topic"></div>
                     <div ex:content=".description" class="course-description"></div>
+                    <div ex:content=".in-charge" class="course-teacher"></div>
                     <div ex:if-exists=".prereqs" class="course-prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
                     
                     <div ex:if-exists="!lecture-section-of"><b>Lecture Sections:</b>
@@ -249,13 +251,19 @@
                         <div ex:case="Currently Offered"></div>
                         <div ex:content=".offering" class="no-offering"></div>
                     </div>
+                    <div ex:content=".level" class="level"></div>
                     <div>Units: <span ex:content=".units"></span>
-                                <span ex:if="contains(.hasfinal, 'true')">
+                                <span ex:if="contains(.has-final, 'true')">
                                     <span class="hasfinal"> +final</span>
                                     <span></span>
                                 </span>
                     </div>
-                    <div ex:content=".category"></div>
+                    <div ex:content=".grading"></div>
+                    <div ex:content=".repeatable"></div>
+                    <div class="requirements">
+                    	<div ex:content=".gir"></div>
+                    	<div ex:content=".ci"></div>
+                    </div>
                     <div ex:if-exists="!class-rating-of" class="hkn-statistics">
                         <div class="hkn-stats-header">HKN Statistics<br>
                         	<i><span ex:content="!class-rating-of.term"></span></i>

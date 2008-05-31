@@ -151,7 +151,6 @@ span.course-semester {
     float: right;
 }
 span.hasfinal {
-    font-size: 1.2em;
     font-style: italic;
     font-weight: bold;
 }
@@ -224,7 +223,7 @@ div.course-description {
     padding:        0.5em 0 0.5em 0;
 }
 div.course-teacher {
-    padding:        0.5em 0 0.5em 0;
+    padding:        0 0 0.5em 0;
     font-style:     italic;
 }
 div.course-prereqs {
@@ -254,4 +253,14 @@ div.course-recitations-disclaimer {
     color:      red;
     font-style: italic;
     padding:    1em;
+}
+
+div.level {
+	font-weight: bold;
+	padding: 0.5em 0;
+}
+
+div.requirements {
+	font-style: italic;
+	padding: 0.5em 0 0 0;
 }

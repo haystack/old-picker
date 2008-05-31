@@ -379,7 +379,12 @@ function postProcessStaticData(o) {
 				if (item.timeAndPlace.search(/ARRANGED/) >= 0 || item.timeAndPlace.search(/null/) >= 0) {
 					item.timeAndPlace = 'To be arranged';
 				}
-			} 
+			}
+			if ('units' in item) {
+				if (item.units == '0-0-0' || item.units == 'unknown') {
+					item.units = 'Arranged';
+				}
+			}
 		}
 	}
 	return o;
