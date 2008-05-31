@@ -347,6 +347,10 @@ function postProcessStaticData(o) {
 				if (item.prereqs == "") {
 					item.prereqs = "--";
 				}
+				while (item.prereqs.search(/GIR:/) >= 0) {
+					gir = item.prereqs.match(/GIR:.{4}/);
+					item.prereqs = item.prereqs.replace(/GIR:.{4}/, girData[gir].join(" or "));
+				}
 				while (item.prereqs.search(/[\]\[]/) >= 0 ) {
 					item.prereqs = item.prereqs.replace(/[\]\[]/, "");
 				}
