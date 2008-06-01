@@ -383,6 +383,7 @@ function postProcessStaticData(o) {
 			if ('units' in item) {
 				if (item.units == '0-0-0' || item.units == 'unknown') {
 					item.units = 'Arranged';
+					item['total-units'] = 'Arranged';
 				}
 			}
 		}

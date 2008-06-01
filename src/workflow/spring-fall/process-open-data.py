@@ -102,6 +102,7 @@ courses['SP'] = []
 courses['STS'] = []
 courses['SWE'] = []
 courses['SDM'] = []
+courses['hass_d'] = []
 
 for line in tsv:
     item = ['"type":"Class"']
@@ -133,6 +134,8 @@ for line in tsv:
         item.append('"offering":"'+offering+'"')
         item.append('"in-charge":"'+data[46]+'"')
         courses[data[2]].append('{'+','.join(item)+'}')
+        if data[26].rfind('HASS-D') >= 0:
+            courses['hass_d'].append('{'+','.join(item)+'}')
 
 for key in courses.keys():
     json = open('open-json/'+key+'.json', 'w')

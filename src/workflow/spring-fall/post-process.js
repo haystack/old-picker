@@ -22,7 +22,8 @@ input.items = visitArrayElements(input.items, function(item) {
 			"id": item.id,
 			"label": item.label,
 			"url": item.url,
-			"area": item.area
+			"area": item.area,
+			"subarea": item.subarea
 			//"offering": item.offering,
 			//"category": item.category 
 		};
