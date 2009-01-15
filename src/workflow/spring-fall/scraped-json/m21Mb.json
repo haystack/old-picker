@@ -1,1111 +1,361 @@
 {
     "items": [
         {
-            "type":          "Class",
-            "label":         "Introduction to Acting",
-            "id":            "21M.600",
-            "listing-index": "m21Mb-000",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "4-0-5",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Explores the actor\\'s tools: body, voice, mind, imagination, and the essential self. Through studio exercises, students address issues of honesty and creativity in the theatrical moment, and begin to have a sense of their strengths and limitations as communicating theatrical artists. Provides an opportunity for students to discover their relationship to \\\u0022the other\\\u0022 in the acting partner, the group, the environment, and the audience.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.600",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     [
-                "Brody, A.",
-                "Mancuso, K."
-            ],
-            "area":          "Introductory Subjects"
+            "type":      "Class",
+            "label":     "Introduction to Acting",
+            "id":        "21M.600",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.600",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective",
+            "area":      "Introductory Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.600",
-            "lecture-section-of": "21M.600",
-            "timeAndPlace":       "MW1-3 W16-RRB"
+            "type":      "Class",
+            "label":     "Playwriting I",
+            "id":        "21M.604",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.604J",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective",
+            "area":      "Introductory Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0221M.600",
-            "lecture-section-of": "21M.600",
-            "timeAndPlace":       "MW3-5 W16-RRB"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0321M.600",
-            "lecture-section-of": "21M.600",
-            "timeAndPlace":       "TR3-5 W16-RRA"
-        },
-        {
-            "type":          "Class",
-            "label":         "Playwriting I",
-            "id":            "21M.604",
-            "listing-index": "m21Mb-001",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces the craft of writing for the theater. Through weekly assignments, in class writing exercises, and work on a sustained piece, students explore scene structure, action, events, voice, and dialogue. Examine produced playscripts and  discuss student work. Emphasis on process, risk-taking, and finding one\\'s own voice and vision.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.604J",
-            "joint":         true,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Harrington, L.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.604",
-            "lecture-section-of": "21M.604",
-            "timeAndPlace":       "M2-5 4-144"
-        },
-        {
-            "type":          "Class",
-            "label":         "Voice and Speech for the Actor",
-            "id":            "21M.605",
-            "listing-index": "m21Mb-002",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "4-0-5",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Concentrates upon freeing the natural voice, culminating in the actor\\'s ability to work in any style. The progression of Linklater\\'s approach to voice is taught, as time allows. Although the focus is acting, students not primarily interested in theater but interested in developing their voices may find this class useful.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.605",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Voice and Speech for the Actor",
+            "id":        "21M.605",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.605",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Eastley, K.",
-            "area":          "Introductory Subjects"
+            "category":  "HASS Elective",
+            "area":      "Introductory Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.605",
-            "lecture-section-of": "21M.605",
-            "timeAndPlace":       "MW11-1 50-201"
+            "type":      "Class",
+            "label":     "Introduction to Stagecraft",
+            "id":        "21M.606",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.606",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective",
+            "area":      "Introductory Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Introduction to Stagecraft",
-            "id":            "21M.606",
-            "listing-index": "m21Mb-003",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-3-3",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Introduces the essential technical and engineering knowledge necessary to realize the design of a theatrical production and provides experience with the variety and scope of stagecraft. Students develop a working vocabulary; learn basic shop and handwork skills, including drafting, cutting patterns; and the safe use of all shop machines.  Provides a theoretical overview of, and hands-on experience with, the various activities that occur in each shop, including sets, costumes, and lighting. Students complete projects that use all basic skills learned in these three technical and design domains. Students design and build an individual final project of their choosing that employs the stagecraft skills acquired over the semester. Enrollment limited to 16.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.606",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Katz, M.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.606",
-            "lecture-section-of": "21M.606",
-            "timeAndPlace":       "TR3.30-5 E33"
-        },
-        {
-            "type":          "Class",
-            "label":         "Foundations of Theater Practice",
-            "id":            "21M.611",
-            "listing-index": "m21Mb-004",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces the ideas, skills, and aesthetic issues which comprise the creation of the theatrical event. Guest artists and faculty members introduce the work of different disciplines such as directing, stagecraft, design, acting, dramaturgy, and criticism. Readings, in-class exercises, and scheduled work in design and/or performance studios help students understand and experience the basic creative impulse in each area. Each student develops a portfolio of analysis and research.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.611",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS-D 3",
-            "in-charge":     "Brody, A.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.611",
-            "lecture-section-of": "21M.611",
-            "timeAndPlace":       "TR11-12.30 W16-RAA"
-        },
-        {
-            "type":          "Class",
-            "label":         "Learning from the Past: Drama, Science, Performance",
-            "id":            "21M.616",
-            "listing-index": "m21Mb-005",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Explores the creation (and creativity) of the modern scientific and cultural world through study of western Europe in the 17th century, the age of Descartes and Newton, Shakespeare, Rembrandt and Moliere. Compares period thinking to present-day debates about the scientific method, art, religion, and society. This team-taught, interdisciplinary subject draws on a wide range of literary, dramatic, historical, and  scientific texts and images, and involves theatrical experimentation as well as reading, writing, researching and conversing. Meets most of the time with 21L.016, but differs from it by analyzing theatrical texts.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.616",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      [
+            "type":      "Class",
+            "label":     "Learning from the Past: Drama, Science, Performance",
+            "id":        "21M.616",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.616",
+            "offering":  "Currently Offered",
+            "category":  [
                 "HASS-D 3",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Sonenberg, J.",
-            "area":          "Introductory Subjects"
+            "area":      "Introductory Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Science and the Theatrical Imagination",
-            "id":            "21M.617",
-            "listing-index": "m21Mb-006",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Explores how major western dramatic texts reflect the scientific thinking of various periods in history, up to present time.  Discussion focuses on how scientific issues informed the play writers of each period from Aeschylus to Stoppard.  Reading includes playscripts and scientific writing.  Guests include MIT science and engineering faculty.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.617",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      [
+            "type":      "Class",
+            "label":     "Black Matters:  Introduction to Black Studies",
+            "id":        "21M.630",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.630J",
+            "offering":  "Currently Offered",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "area":      "Introductory Subjects"
+        },
+        {
+            "type":      "Class",
+            "label":     "Traditions in American Concert Dance: Gender and Autobiography",
+            "id":        "21M.670",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.670J",
+            "offering":  "Currently Offered",
+            "category":  [
                 "HASS-D 3",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Brody, A.",
-            "area":          "Introductory Subjects"
+            "area":      "Introductory Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Theater and Cultural Diversity in the US",
-            "id":            "21M.621",
-            "listing-index": "m21Mb-007",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Explores contemporary American theatrical expression around issues of gender, ethnic, and cultural identities. Analyzes performances, scripts, video documentation, and invention of original documents of theatrical expression, and construction of gender within particular formations of American culture. Class lectures and discussions analyze samples of Native American, Chicano, African-American, and Asian-American theater, considering the historical and political context for the creation of these works. Performance exercises help identify theatrical forms used by these theaters and consider how these techniques contribute to the overall goals of specific theatrical expressions.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.621J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS-D 3",
-            "prereq":        "SP.595J",
-            "in-charge":     "DeFrantz, T.",
-            "area":          "Introductory Subjects"
+            "type":      "Class",
+            "label":     "Dance Theory and Composition",
+            "id":        "21M.675",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.675",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective",
+            "area":      "Introductory Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Composition for Stage and Performance",
-            "id":            "21M.645",
-            "listing-index": "m21Mb-008",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "4-2-3",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Examines the theatrical event from the perspective of composition in a performance workshop. Studio exercises address the process of developing a theatrical work through an internalized understanding of compositional principles in theater. Examines uses of time, space, and action. Complemented by outside readings, videos, short essays, and in-class discussions, subject provides performer, director, choreographer, designer or writer opportunities to engage with large and small group ensembles in creation of theatrical events. Topics include image, movement, shape, repetition, gesture, and spatial relationship.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.645",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Scheib, J.",
-            "area":          "Introductory Subjects"
+            "type":      "Class",
+            "label":     "Musical Theater Workshop",
+            "id":        "21M.704",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.704",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.645",
-            "lecture-section-of": "21M.645",
-            "timeAndPlace":       "M EVE (7-10 PM) 50-201"
-        },
-        {
-            "type":          "Class",
-            "label":         "Traditions in American Concert Dance: Gender and Autobiography",
-            "id":            "21M.670",
-            "listing-index": "m21Mb-009",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Explores forms, content, and contexts of world traditions in dance that played a crucial role in shaping American concert dance with attention to issues of gender and autobiography. Explores artistic lives of dance artists Katherine Dunham, Alvin Ailey, Isadora Duncan, Martha Graham, and George Balanchine as American dance innovators. Lectures and discussions analyze these artists\\' works, taking into consideration historical and political contexts. Viewing assignments and attendance of Boston-area dance performances help students identify visual, musical, and kinesthetic underpinnings of choreographic structure.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.670J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 3",
-                "HASS Communication-Intensive"
-            ],
-            "prereq":        "SP.591J",
-            "in-charge":     "DeFrantz, T.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Dance Theory and Composition",
-            "id":            "21M.675",
-            "listing-index": "m21Mb-010",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Explores aesthetic and technical underpinnings of contemporary dance composition. Basic compositional techniques discussed and practiced with an emphasis on principles such as weight, space, time, effort, and shape. Principles of musicality considered and developed by each student. Working together, students create short compositions to help them understand the range of possibilities available when working with the medium of the human body. Selected viewing and reading exercises augment classroom work. Class attends at least two professional dance events in the Boston area.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.675",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Collins, S.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.675",
-            "lecture-section-of": "21M.675",
-            "timeAndPlace":       "F2-5 50-201"
-        },
-        {
-            "type":          "Class",
-            "label":         "Media and Methods: Performing",
-            "id":            "21M.703",
-            "listing-index": "m21Mb-011",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Seminar examines an array of performance disciplines from the perspective of the performer. Explores what it means to read the human body as a dynamic medium of expression; how fundamental techniques of the performer shift across cultural borders and in step with changing social contexts and historical traditions; and how the expressive tactics of one media platform adapt to the demands of another. Students engage in close analysis of performance practices, acquiring a theoretical and historical framework for thinking about performance across disciplines. Complemented by outside readings, video viewings, short essays, and studio performances, this course is intended to provide students with an introduction to core concepts in performance studies as they relate more generally to the study of media. Instruction and practice in written and oral communication provided. Enrollment limited to 20.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.703J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "HASS Elective",
-            "in-charge":     "Scheib, J.",
-            "area":          "Intermediate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.703",
-            "lecture-section-of": "21M.703",
-            "timeAndPlace":       "MW2-3.30 1-135"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0221M.703",
-            "lab-section-of": "21M.703",
-            "timeAndPlace":   "T EVE (7-10 PM) 14E-310"
-        },
-        {
-            "type":          "Class",
-            "label":         "Musical Theater Workshop",
-            "id":            "21M.704",
-            "listing-index": "m21Mb-012",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Introduces students to the art and technique of musical theater performance. Movement, singing, and acting are explored during the term, with a focus on the use of the body as an expressive tool. Students develop an understanding of how musicals are composed and the nature of the actor\\'s contribution to this dynamic form.  Previous experience in musical theater preferred.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.704",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "DeFrantz, T.",
-            "area":          "Intermediate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "The Actor and the Text",
-            "id":            "21M.705",
-            "listing-index": "m21Mb-013",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "4-0-5",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Gives students who have begun the process of bringing themselves to a dramatic moment the opportunity to apply their skills to scripted material. Studio work in this class further develops the completeness, spontaneity, and honesty of expression of the actor\\'s body, imagination, and voice; and introduces written material and the problems of synthesizing the self, the moment, and the scripted word. Weekly rehearsals with a scene partner.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.705",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "The Actor and the Text",
+            "id":        "21M.705",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.705",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Ouellette, M.",
-            "area":          "Intermediate Subjects"
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.705",
-            "lecture-section-of": "21M.705",
-            "timeAndPlace":       "TR11-1 W16-RRB"
-        },
-        {
-            "type":          "Class",
-            "label":         "Script Analysis",
-            "id":            "21M.710",
-            "listing-index": "m21Mb-014",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Focuses on reading a script theatrically with a view to mounting a coherent production. Through careful, intensive reading of a variety of plays from different periods and different aesthetics, a pattern emerges for discerning what options exist for interpretating a script. Students discuss the consequences of those options for production. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.710",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      [
+            "type":      "Class",
+            "label":     "Script Analysis",
+            "id":        "21M.710",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.710",
+            "offering":  "Not offered this year",
+            "category":  [
                 "HASS Elective",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Ouellette, M.",
-            "area":          "Intermediate Subjects"
+            "area":      "Intermediate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Production Seminar",
-            "id":            "21M.711",
-            "listing-index": "m21Mb-015",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Pursues detailed study of a particular playtext or theme and is related to some planned production activity during the following IAP. Seminar activities may include guest speakers from various disciplines who approach some aspect of the playtext or theme from the perspective of their fields; various theatrical practitioners; and critical and scholarly presentations by seminar members. Participation in the IAP production is not required.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.711",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Ouellette, M.",
-            "area":          "Intermediate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.711",
-            "lecture-section-of": "21M.711",
-            "timeAndPlace":       "TR2-3.30 4-364"
-        },
-        {
-            "type":          "Class",
-            "label":         "African American Performance",
-            "id":            "21M.712",
-            "listing-index": "m21Mb-016",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Investigates the musicality, movement styles, and structures of oratory central to African American life. Explores storytelling, tall tales and snapping, the blues aesthetic and soul, minstrelsy and social dance through the prism of plays written by African American writers. Examines the participatory, communal essence of black performance and how that performance functions as cultural inspiration, as political weaponry, as art, as religion, and as an entertaining social safety valve. Required readings, written essays, and midterm writing project in addition to creation of short performance pieces.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.712",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "DeFrantz, T.",
-            "area":          "Intermediate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Selected Studies in Theater",
-            "id":            "21M.713",
-            "listing-index": "m21Mb-017",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Discussion-oriented class that focuses on the theater of a particular culture or a specific theatrical form. Students read several plays over the course of the semester that may be supplemented by history, theory, contemporary source documents, etc. At the discretion of the instructor, additional requirements may include attending theatrical productions in Boston and written assignments, such as a reader journal, response papers, or an analytical paper. Possible topics include plays about science, Latino theater, feminist theater, and gay/lesbian theater.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.713",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Selected Studies in Theater",
+            "id":        "21M.713",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.713",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Brody, A.",
-            "area":          "Intermediate Subjects"
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Selected Topics in Theater Arts",
-            "id":            "21M.714",
-            "listing-index": "m21Mb-018",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.714",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Selected Topics in Theater Arts",
+            "id":        "21M.714",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.714",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "area":          "Intermediate Subjects"
+            "area":      "Intermediate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in Technical Theater Design Exploration",
-            "id":            "21M.715",
-            "listing-index": "m21Mb-019",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Provides opportunity for study of theater design or technical topics not covered by the regular subject listings.  Experimental subjects, advanced design exploration, advanced craft techniques such as structural design for the stage, or specialty costume designs like chainmail or hat construction.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.715",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Topics in Technical Theater Design Exploration",
+            "id":        "21M.715",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.715",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Faculty, Theater Arts",
-            "area":          "Intermediate Subjects"
+            "area":      "Intermediate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Costume Design for the Theater",
-            "id":            "21M.732",
-            "listing-index": "m21Mb-020",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Provides an intermediate workshop designed for students who have a basic understanding of the principles of theatrical design and who want a more intensive study of costume design and the psychology of clothing. Students develop designs that emerge through a process of character analysis, based on the script and directorial concept.  Period research, design, and rendering skills are fostered through practical exercises. Instruction in basic costume construction, including drafting and draping, provide tools for students to produce final projects.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.732",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Design for the Theater: Scenery",
+            "id":        "21M.733",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.733",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Cocuzzo-Held, L.",
-            "area":          "Intermediate Subjects"
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121M.732",
-            "lecture-section-of": "21M.732",
-            "timeAndPlace":       "TR11-12.30 E33"
+            "type":      "Class",
+            "label":     "Playwrights\\' Workshop",
+            "id":        "21M.785",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.785J",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Design for the Theater: Scenery",
-            "id":            "21M.733",
-            "listing-index": "m21Mb-021",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines theory of scenic design as currently practiced and alternate traditions in other cultures and eras. Four play scripts and one opera or dance theater piece are designed after being analyzed in depth, exploring their internal workings and relationship to the social, political, artistic, and cultural milieu of their era of creation, and to the current audience. Encourages students to work in a variety of two- and three- dimensional media in developing their ideas.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.733",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Playwrights\\' Workshop",
+            "id":        "21M.789",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.789",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects"
+        },
+        {
+            "type":      "Class",
+            "label":     "The Director\\'s Craft",
+            "id":        "21M.790",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.790",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Staff",
-            "area":          "Intermediate Subjects"
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Lighting Design for the Theater",
-            "id":            "21M.734",
-            "listing-index": "m21Mb-022",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-3-3",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Explores artistry of lighting design.  Students gain overall technical working knowledge of tools and apply it to final design. Stresses artistic, conceptual, and collaborative side of the craft utilizing a \\\u0022hands on\\\u0022 format.  Students take advantage of greater Boston venues with backstage tours of various  theaters to see how architecture affects lighting design choices.  Small projects assigned during term. Final project involves execution of fully realized production, frequently for the Dance Theater Ensemble\\'s winter concert.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.734",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Perlow, K.",
-            "area":          "Intermediate Subjects"
+            "type":      "Class",
+            "label":     "The Director\\'s Craft",
+            "id":        "21M.791",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.791",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      "Intermediate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Technical Design: Scenery, Mechanisms, and Special Effects",
-            "id":            "21M.735",
-            "listing-index": "m21Mb-023",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Looks at special structural and artistic challenges of theatrical scenery, effects, and construction needs. Explores the technical design process and emphasizes safety, budgeting, and problem solving. Work includes actual production assignments and paper design projects. Final project required to explore each student\\'s specific interests.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.735",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Katz, M.",
-            "area":          "Intermediate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Hip-Hop",
-            "id":            "21M.775",
-            "listing-index": "m21Mb-024",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Explores the political and aesthetic foundations of hip-hop. Students trace the musical, corporeal, visual, spoken word, and literary manifestations of hip hop over its 30 year presence in the American cultural imagery. Students also investigate specific black cultural practices that have given rise to its various idioms. Students create material culture related to several thematic sections of the course. Scheduled work in performance studio helps students understand how hip-hop is created and assessed.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.775",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "DeFrantz, T.",
-            "area":          "Intermediate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Playwrights\\' Workshop",
-            "id":            "21M.785",
-            "listing-index": "m21Mb-025",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-2-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Continues work in the development of play scripts for the theater. Writers work on sustained pieces in weekly workshop meetings, individual consultation with the instructor, and in collaboration with student actors, directors, and designers. Fully developed scripts eligible for inclusion in the Playwrights\\' Workshop production.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.785J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Theater Practicum",
+            "id":        "21M.805",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.805",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Brody, A.",
-            "area":          "Intermediate Subjects"
+            "area":      "Special Advanced Topics and Practica"
         },
         {
-            "type":          "Class",
-            "label":         "Playwrights\\' Workshop",
-            "id":            "21M.789",
-            "listing-index": "m21Mb-026",
-            "course":        "21M",
-            "level":         "Grad",
-            "units":         "3-2-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Continues work in the development of play scripts for the theater. Writers work on sustained pieces in weekly workshop meetings, individual consultation with the instructor, and in collaboration with student actors, directors, and designers. Fully developed scripts eligible for inclusion in the Playwrights\\' Workshop production.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.789",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Technical Theater Special Topics",
+            "id":        "21M.820",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.820",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Brody, A.",
-            "area":          "Intermediate Subjects"
+            "area":      "Special Advanced Topics and Practica"
         },
         {
-            "type":          "Class",
-            "label":         "The Director\\'s Craft",
-            "id":            "21M.790",
-            "listing-index": "m21Mb-027",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "4-0-5",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Explores several models of directing, each with its unique structures, philosophy, terminology, and techniques. Exploration is intended to lead to the development of an individual voice for each student and clarity in his/her directorial point of view. Class sessions concentrate on how a point of view is arrived at through analysis of material and the way the results are rendered with the basic tools of theater. All points of view are honored as long as they can be actively supported by the work.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.790",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Sonenberg, J.",
-            "area":          "Intermediate Subjects"
+            "type":      "Class",
+            "label":     "Performance Media",
+            "id":        "21M.840",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.840",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective",
+            "area":      "Special Advanced Topics and Practica"
         },
         {
-            "type":          "Class",
-            "label":         "The Director\\'s Craft",
-            "id":            "21M.791",
-            "listing-index": "m21Mb-028",
-            "course":        "21M",
-            "level":         "Grad",
-            "units":         "4-0-5",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Explores several models of directing, each with its unique structures, philosophy, terminology, and techniques. Exploration is intended to lead to the development of an individual voice for each student and clarity in his/her directorial point of view. Class sessions concentrate on how a point of view is arrived at through analysis of material and the way the results are rendered with the basic tools of theater. All points of view are honored as long as they can be actively supported by the work.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.791",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "in-charge":     "Sonenberg, J.",
-            "area":          "Intermediate Subjects"
+            "type":      "Class",
+            "label":     "Performance Media",
+            "id":        "21M.841",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.841",
+            "offering":  "Currently Offered",
+            "area":      "Special Advanced Topics and Practica"
         },
         {
-            "type":          "Class",
-            "label":         "Theater Practicum",
-            "id":            "21M.805",
-            "listing-index": "m21Mb-029",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Provides directed practice in acting or directing on a sustained theater piece, either one-act or full length, from pre-rehearsal preparation to workshop production. Consult Theater Arts Office.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.805",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Staff",
-            "area":          "Special Advanced Topics and Practica"
-        },
-        {
-            "type":          "Class",
-            "label":         "Technical Theater Special Topics",
-            "id":            "21M.820",
-            "listing-index": "m21Mb-030",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Provides opportunity to study theater design and technical production subjects including technical theater practica or experimental subjects offered by the permanent or visiting faculty.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.820",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Staff",
-            "area":          "Special Advanced Topics and Practica"
-        },
-        {
-            "type":          "Class",
-            "label":         "Acting: Techniques and Style",
-            "id":            "21M.830",
-            "listing-index": "m21Mb-031",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Refines the student actor\\'s use of the language of the stage with work on text and physical presentation. Explores issues of style, including the understanding and honoring, in performance, of the specific requirements of texts from several different historical periods of the Western theatrical tradition. Periods may differ from term to term.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.830",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
-            ],
-            "category":      "HASS Elective",
-            "in-charge":     "Ouellette, M.",
-            "area":          "Special Advanced Topics and Practica"
-        },
-        {
-            "type":          "Class",
-            "label":         "Acting: Techniques and Style",
-            "id":            "21M.835",
-            "listing-index": "m21Mb-032",
-            "course":        "21M",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Refines the student actor\\'s use of the language of the stage with work on text and physical presentation. Explores issues of style, including the understanding and honoring, in performance, of the specific requirements of texts from several different historical periods of the Western theatrical tradition. Periods may differ from term to term.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.835",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
-            ],
-            "in-charge":     "Ouellette, M.",
-            "area":          "Special Advanced Topics and Practica"
-        },
-        {
-            "type":          "Class",
-            "label":         "Performance Media",
-            "id":            "21M.840",
-            "listing-index": "m21Mb-033",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "4-2-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Integrates media and communication technologies in performing arts. Studio exercises provide a forum for experimentation. Contemporary and historical techniques for media integration examined through readings, viewing videos and short written essays. Technologies examined include digital imaging, composite and live feed digital video, and web-based performance. Engages the designer, director, choreographer, performer, visual artist or programmer in the practice of integrating media into live art events. Equipment, where necessary, is provided.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.840",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Scheib, J.",
-            "area":          "Special Advanced Topics and Practica"
-        },
-        {
-            "type":          "Class",
-            "label":         "Performance Media",
-            "id":            "21M.841",
-            "listing-index": "m21Mb-034",
-            "course":        "21M",
-            "level":         "Grad",
-            "units":         "4-2-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Meets with 21M.840 but assignments differ. Graduate students are expected to complete additional assignments. See description under 21M.840.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.841",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     "Scheib, J.",
-            "area":          "Special Advanced Topics and Practica"
-        },
-        {
-            "type":          "Class",
-            "label":         "Topics in Performance Studies",
-            "id":            "21M.846",
-            "listing-index": "m21Mb-035",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "3-2-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Multidisciplinary lecture/workshop engages students in a variety of approaches to the study and practice of performance as an area of aesthetic and social interaction. Special attention paid to the use of diverse media in performance. Interdisciplinary approaches to study encourage students to seek out material histories of performance and  practice. New topics are discussed each year.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.846",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "HASS Elective",
-            "in-charge":     "DeFrantz, T.",
-            "area":          "Special Advanced Topics and Practica"
-        },
-        {
-            "type":          "Class",
-            "label":         "Topics in Performance Studies",
-            "id":            "21M.847",
-            "listing-index": "m21Mb-036",
-            "course":        "21M",
-            "level":         "Grad",
-            "units":         "3-2-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "See description under 21M.846.  Assignments differ.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.847",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "DeFrantz, T.",
-            "area":          "Special Advanced Topics and Practica"
-        },
-        {
-            "type":          "Class",
-            "label":         "Special Topics in Drama",
-            "id":            "21M.851",
-            "listing-index": "m21Mb-037",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.851",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Fall",
-                "IAP",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Special Topics in Drama",
+            "id":        "21M.851",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.851",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "area":          "Special Advanced Topics and Practica"
+            "area":      "Special Advanced Topics and Practica"
         },
         {
-            "type":          "Class",
-            "label":         "Advanced Topics in Theater Arts",
-            "id":            "21M.863",
-            "listing-index": "m21Mb-038",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.863",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Advanced Topics in Theater Arts",
+            "id":        "21M.863",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.863",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "area":          "Special Advanced Topics and Practica"
+            "area":      "Special Advanced Topics and Practica"
         },
         {
-            "type":          "Class",
-            "label":         "Theater Studies",
-            "id":            "21M.864",
-            "listing-index": "m21Mb-039",
-            "course":        "21M",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.864",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Theater Studies",
+            "id":        "21M.864",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.864",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "area":          "Special Advanced Topics and Practica"
+            "area":      "Special Advanced Topics and Practica"
         },
         {
-            "type":          "Class",
-            "label":         "Research in Theater",
-            "id":            "21M.865",
-            "listing-index": "m21Mb-040",
-            "course":        "21M",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.865",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Research in Theater",
+            "id":        "21M.865",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.865",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "area":          "Special Advanced Topics and Practica"
+            "area":      "Special Advanced Topics and Practica"
         },
         {
-            "type":          "Class",
-            "label":         "IAP Theater Arts Topics",
-            "id":            "21M.873",
-            "listing-index": "m21Mb-041",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Provides opportunity for the study of theater arts topics not covered by regular subject listings, including experimental subjects offered by permanent and visiting faculty. Students seeking an individual program of study with a faculty member must also obtain the approval of the director of Theater Arts. Consult Theater Arts office for departmental form.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.873",
-            "joint":         false,
-            "semester":      "IAP",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Music Pre-Thesis Tutorial",
+            "id":        "21M.THT",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.ThT",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Staff",
-            "area":          "Special Advanced Topics and Practica"
+            "area":      "Special Advanced Topics and Practica"
         },
         {
-            "type":          "Class",
-            "label":         "Dance Production",
-            "id":            "21M.880",
-            "listing-index": "m21Mb-042",
-            "course":        "21M",
-            "level":         "Grad",
-            "units":         "0-4-2",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Prepares students in rehearsals for concert performance of original dance works in various idioms, focusing on expressive elegance and the creative process. Open to students by audition.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.880",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Fall",
-                "Spring"
+            "type":      "Class",
+            "label":     "Undergraduate Thesis in Music",
+            "id":        "21M.THU",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.ThU",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
             ],
-            "offering":      [
+            "area":      "Special Advanced Topics and Practica"
+        },
+        {
+            "type":      "Class",
+            "label":     "Research in Music",
+            "id":        "21M.UR",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21Mb.html#21M.UR",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Staff",
-            "area":          "Special Advanced Topics and Practica"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121M.880",
-            "lecture-section-of": "21M.880",
-            "timeAndPlace":       "WR EVE (7-9 PM) 50-201"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0221M.880",
-            "lecture-section-of": "21M.880",
-            "timeAndPlace":       "WR EVE (7-9 PM) 50-201"
-        },
-        {
-            "type":          "Class",
-            "label":         "Music Pre-Thesis Tutorial",
-            "id":            "21M.ThT",
-            "listing-index": "m21Mb-043",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "1-0-5",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Definition of and early-stage work on thesis project leading to 21M.ThU Undergraduate Thesis in Music.  Taken during the first term of the student\\'s two-term commitment to the thesis project.  Student works closely with an individual faculty tutor.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.ThT",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Lindgren, Consult L.",
-            "area":          "Special Advanced Topics and Practica"
-        },
-        {
-            "type":          "Class",
-            "label":         "Undergraduate Thesis in Music",
-            "id":            "21M.ThU",
-            "listing-index": "m21Mb-044",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Completion of work on senior major thesis under supervision of a faculty tutor.  Includes oral presentation of thesis progress early in the term, assembling and revising final text, and meeting at the close with a committee of faculty evaluators to discuss successes and limitations of the project.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.ThU",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Lindgren, Consult L.",
-            "area":          "Special Advanced Topics and Practica"
-        },
-        {
-            "type":          "Class",
-            "label":         "Research in Music",
-            "id":            "21M.UR",
-            "listing-index": "m21Mb-045",
-            "course":        "21M",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Individual participation in an ongoing music research project.  For students in the Undergraduate Research Opportunities Progam.",
-            "url":           "http://student.mit.edu/catalog/m21Mb.html#21M.UR",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Lindgren, Consult L.",
-            "area":          "Special Advanced Topics and Practica"
+            "area":      "Special Advanced Topics and Practica"
         }
     ]
 }

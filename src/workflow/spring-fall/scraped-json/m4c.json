@@ -1,957 +1,240 @@
 {
     "items": [
         {
-            "type":          "Class",
-            "label":         "Introduction to Art History",
-            "id":            "4.601",
-            "listing-index": "m4c-000",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "3-2-7",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "An introduction to the history of western art that explores the wide range of works constituting the canonical core of painting and sculpture from the Renaissance to the present. Engages diverse methodological perspectives on the symbolic meanings and contextual functions of works of art, and considers culture\\'s place in the social world. Subject includes trips to local museums.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.601",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS-D 3",
-            "in-charge":     "Staff, HTC"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.601",
-            "lecture-section-of": "4.601",
-            "timeAndPlace":       "TR2-3.30 3-133"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R024.601",
-            "rec-section-of": "4.601",
-            "timeAndPlace":   "W10 5-216"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R034.601",
-            "rec-section-of": "4.601",
-            "timeAndPlace":   "R12.30 5-216"
-        },
-        {
-            "type":          "Class",
-            "label":         "Modern Art and Mass Culture",
-            "id":            "4.602",
-            "listing-index": "m4c-001",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to modern art and theories of modernism and postmodernism. Focuses on the way artists use the tension between fine art and mass culture to mobilize a critique of both. Examines objects of visual art, including painting, sculpture, architecture, photography, prints, performance and video. These objects are viewed in their interaction with advertising, caricature, comics, graffiti, television, fashion, folk art, and \\\u0022primitive\\\u0022 art.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.602",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      [
+            "type":      "Class",
+            "label":     "Modern Art and Mass Culture",
+            "id":        "4.602",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.602",
+            "offering":  "Currently Offered",
+            "category":  [
                 "HASS-D 3",
                 "HASS Communication-Intensive"
-            ],
-            "in-charge":     "Jones, C."
-        },
-        {
-            "type":          "Class",
-            "label":         "Introduction to the History and Theory of Architecture",
-            "id":            "4.605",
-            "listing-index": "m4c-002",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Provides an outline of the history of architecture and urbanism from Ancient Egypt to the present. Analyzes buildings as the products of culture and in relation to the special problems of architectural design. History of architecture with an urbanist perspective that stresses the cultural and political context from which building arises. Designed to develop critical tools used in the analysis and appreciation of architecture for its role in creating the intellectual environment in which we conduct our lives. Instruction and practice in oral and written communication provided.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.605",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS-D 3",
-            "in-charge":     "Friedman, D. H."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.605",
-            "lecture-section-of": "4.605",
-            "timeAndPlace":       "MW11-12.30 3-133"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R024.605",
-            "rec-section-of": "4.605",
-            "timeAndPlace":   "M1 5-216"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R034.605",
-            "rec-section-of": "4.605",
-            "timeAndPlace":   "T1 5-216"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R044.605",
-            "rec-section-of": "4.605",
-            "timeAndPlace":   "R11.30 5-216"
-        },
-        {
-            "type":          "Class",
-            "label":         "Thinking About Architecture: In History and At Present",
-            "id":            "4.607",
-            "listing-index": "m4c-003",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     true,
-            "description":   "Studies the interrelationship of theory, history, and practice. Looks at theory not as specialized discourse relating only to architecture, but as touching on many issues, whether they be cultural, aesthetic, philosophical, or professional. Topics and examples are chosen from a wide range of materials, from classical antiquity to today.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.607",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Jarzombek, M."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.607",
-            "lecture-section-of": "4.607",
-            "timeAndPlace":       "W2-5 5-217"
-        },
-        {
-            "type":          "Class",
-            "label":         "Seminar in the History of Art and Architecture",
-            "id":            "4.609",
-            "listing-index": "m4c-004",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examination of historical method in art and/or architecture focusing on periods and problems determined by the research interest of the faculty member leading the seminar. Emphasis on critical reading and viewing and direct tutorial guidance. Extensive discussion.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.609",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "in-charge":     "Friedman, D."
-        },
-        {
-            "type":          "Class",
-            "label":         "Civic Architecture in Islamic History",
-            "id":            "4.611",
-            "listing-index": "m4c-005",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Palatial, residential, commercial, and landscape architecture in the Islamic world in chronological order. Examines the formation and developments of architectural traditions, their possible models, their survival, their regional transformations, and the various influences at different historical junctions within the framework of the general Islamic culture.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.611",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "prereq":        "4.613",
-            "in-charge":     "Rabbat, N."
-        },
-        {
-            "type":          "Class",
-            "label":         "Civic Architecture in Islamic History",
-            "id":            "4.613",
-            "listing-index": "m4c-006",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Studies select examples of palatial, residential, commercial, and landscape architecture in the Islamic world in chronological order. Examines the formation and developments of architectural traditions, their possible models, their survival, their regional transformations, and the various influences at different historical junctions, all within the framework of the general Islamic culture.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.613",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "HASS Elective",
-            "prereq":        "4.611",
-            "in-charge":     "Rabbat, N."
-        },
-        {
-            "type":          "Class",
-            "label":         "Religious Architecture and Islamic Cultures",
-            "id":            "4.614",
-            "listing-index": "m4c-007",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Introduces the history of Islamic cultures through their most vibrant material signs: the religious architecture that spans fourteen centuries and three continents  Asia, Africa, and Europe. Studies a number of representative examples from the House of the Prophet to the present in conjunction with their social, political, and intellectual environments. Presents Islamic architecture both as a full-fledged historical tradition and as a dynamic and interactive cultural catalyst that influenced and was influenced by the civilizations with which it came in contact.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.614",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS-D 3",
-            "in-charge":     "Rabbat, N."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.614",
-            "lecture-section-of": "4.614",
-            "timeAndPlace":       "MW2-3.30 3-133"
-        },
-        {
-            "type":          "Class",
-            "label":         "Cultural Signification in Architecture",
-            "id":            "4.616",
-            "listing-index": "m4c-008",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Seminar on the issue of meaning in architecture. Establishes historical and theoretical frameworks for investigations. Analyzes traditions, transformations, and inventions in architecture as a conveyor of messages that transcend the stylistic, formal, and iconographic domains to include an assessment of some of the political, ideological, social, and cultural concerns of the builders and patrons both synchronically and diachronically. Critically reviews the methodologies and theoretical premises of studies on meaning and iconography in Islamic architecture.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.616",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Rabbat, N."
-        },
-        {
-            "type":          "Class",
-            "label":         "Issues in Islamic Urbanism",
-            "id":            "4.617",
-            "listing-index": "m4c-009",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Seminar on selected topics from Islamic urban history. Examines patterns of settlement, urbanization, and architectural production in various places and periods from late antiquity to modern times. Discusses the leading factors in shaping and transforming civic forms, structures, and attitudes. Critically analyzes the body of literature concerned with the ancient, medieval Islamic, colonial, and post colonial city types. Research paper required. Open to qualified undergraduates.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.617",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Rabbat, N."
-        },
-        {
-            "type":          "Class",
-            "label":         "Historiography of Islamic Architecture",
-            "id":            "4.619",
-            "listing-index": "m4c-010",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Critical review of literature on Islamic architecture in the last two centuries and analyzes its historical and theoretical frameworks. Challenges the tacit assumptions and biases of standard studies of Islamic architecture and addresses historiographic and critical questions concerning how knowledge of a field is defined, produced and reproduced.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.619",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Rabbat, N."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.619",
-            "lecture-section-of": "4.619",
-            "timeAndPlace":       "T2-5 5-216"
-        },
-        {
-            "type":          "Class",
-            "label":         "Orientalism and Representation",
-            "id":            "4.621",
-            "listing-index": "m4c-011",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Seminar on the historiography and politics of representation with special focus on Orientalist traditions in architecture, art, literature, and scholarship. Critically analyzes pivotal texts, projects, and images that informed the cross-cultural encounters between Europe and the \\\u0022Orient\\\u0022 from Antiquity to the present. Discusses how political and ideological attitudes and beliefs informed both the construction and reproduction of European knowledge about the Orient as well as the revisionist \\\u0022Oriental\\\u0022 self-representations. Research paper required.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.621",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Rabbat, N."
-        },
-        {
-            "type":          "Class",
-            "label":         "Special Problems in Islamic and NonWestern Architecture",
-            "id":            "4.627",
-            "listing-index": "m4c-012",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Supplementary work on individual or group basis in the history, theory, and criticism of architecture and urban form in the Islamic World. Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.627",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Rabbat, N."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.627",
-            "lecture-section-of": "4.627",
-            "timeAndPlace":       "TR EVE (5-6.30 PM) 5-216"
-        },
-        {
-            "type":          "Class",
-            "label":         "Renaissance Architecture",
-            "id":            "4.634",
-            "listing-index": "m4c-013",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "A history of architectural design, architectural practice, and the role of architecture in the culture and society of Renaissance Italy. Topics include the formation and development of the modern classical style, the new techniques of architectural drawing, the relationship of architecture to the new visual culture, the role of architecture in the transformation of the political structure of Italy. Graduate students are expected to complete additional assignments.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.634",
-            "joint":         false,
-            "semester":      [
-                "Spring",
-                "Spring"
-            ],
-            "offering":      [
-                "Not offered next year",
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "HASS Elective",
-            "prereq":        [
-                "4.635",
-                "4.634",
-                "4.605"
-            ],
-            "in-charge":     "Friedman, D. H."
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Study in Renaissance Architecture",
-            "id":            "4.638",
-            "listing-index": "m4c-014",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Seminar on a selected topic from Renaissance architecture. Requires original research and presentation of a report.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.638",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Friedman, D. H."
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Study in Critical Theory of Architecture",
-            "id":            "4.640",
-            "listing-index": "m4c-015",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Seminar on a selected topic in critical theory. Requires original research and presentation of oral and written report.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.640",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Dutta, A."
-        },
-        {
-            "type":          "Class",
-            "label":         "19th-Century Art",
-            "id":            "4.641",
-            "listing-index": "m4c-016",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Survey of major artists and movements from neoclassicism to post-impressionism with an emphasis on French painting and the emergence of the avant-garde. Topics include art and the revolutionary public; mythologies of the romantic artist; colonialism and its image; the demise of history painting; the salon, the museum and the dealer/critic system; eroticism and visuality; the spectacle of modern life. Strikes a balance between historical contexts, critical debates, and visual analyses of specific works in order to assess art\\'s engagement with social and political experience.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.641",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "prereq":        "4.644",
-            "in-charge":     "Staff, HTC"
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Study in Modern Art",
-            "id":            "4.642",
-            "listing-index": "m4c-017",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Seminar on a selected topic from modern art, stressing theoretical or critical issues of contemporary concern. Requires original research and presentation of oral and written reports.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.642",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff, HTC"
-        },
-        {
-            "type":          "Class",
-            "label":         "19th-Century Art",
-            "id":            "4.644",
-            "listing-index": "m4c-018",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "4-0-5",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Survey of major artists and movements from neoclassicism to post-impressionism with an emphasis on French painting and the emergence of the avant-garde. Topics include: art and the revolutionary public; mythologies of the romantic artist; colonialism and its image; the demise of history painting; the salon, the museum and the dealer/critic system; eroticism and visuality; the spectacle of modern life. Strikes a balance between historical contexts, critical debates, and visual analyses of specific works in order to assess art\\'s engagement with social and political experience.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.644",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        "4.641",
-            "in-charge":     "Staff, HTC"
-        },
-        {
-            "type":          "Class",
-            "label":         "Selected Topics in Architecture 1750 to the Present",
-            "id":            "4.645",
-            "listing-index": "m4c-019",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "General study of modern architecture as a response to important technological, cultural, environmental, aesthetic, and theoretical challenges after the European Enlightenment. Focus on the theoretical, historiographic, and design approaches to architectural problems encountered in the age of industrial and post-industrial expansion across the globe, with specific attention to the dominance of European modernism in setting the agenda for the discourse of a global modernity at large. Explores modern architectural history through thematic exposition rather than as simple chronological succession of ideas.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.645",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        "4.605",
-            "in-charge":     "Dutta, A."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.645",
-            "lecture-section-of": "4.645",
-            "timeAndPlace":       "TR11-12.30 3-133"
-        },
-        {
-            "type":          "Class",
-            "label":         "Art Since 1940",
-            "id":            "4.651",
-            "listing-index": "m4c-020",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Critical examination of major developments in European, Asian, and American art from 1940 to the present. Surveys the effects of art\\'s engagements with modernization, radical politics, utopianism, mass culture, changing conceptions of mind and human nature, new technologies, colonialism and postcolonialism, and other significant aspects of recent history.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.651",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Jones, C."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.651",
-            "lecture-section-of": "4.651",
-            "timeAndPlace":       "MW9.30-11 3-133"
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Study in Modern Architecture",
-            "id":            "4.654-4.656",
-            "listing-index": "m4c-021",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Seminar or lecture on a selected topic in the architecture of the late 18th century to the present in Europe and America. Requires original research and presentation of oral and written reports.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.654-4.656",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Anderson, S."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.654-4.656",
-            "lecture-section-of": "4.654-4.656",
-            "timeAndPlace":       "T10-1 5-216"
-        },
-        {
-            "type":          "Class",
-            "label":         "Theory and Method in the Study of Architecture and Art",
-            "id":            "4.661",
-            "listing-index": "m4c-022",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Studies theoretical and historiographical works pertaining to the fields of art and architectural history. Members of seminar pursue work designed to examine their own presuppositions and methods. Open only to PhD candidates and other advanced students.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.661",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff, HTC"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.661",
-            "lecture-section-of": "4.661",
-            "timeAndPlace":       "F9-12 5-216"
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Study in the History of Urban Form",
-            "id":            "4.662",
-            "listing-index": "m4c-023",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Seminar on a selected topic in the history of urban form. Requires original research and presentation of a report.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.662",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Friedman, D. H."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.662",
-            "lecture-section-of": "4.662",
-            "timeAndPlace":       "R2-5 5-216"
-        },
-        {
-            "type":          "Class",
-            "label":         "History of Urban Form",
-            "id":            "4.663",
-            "listing-index": "m4c-024",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Studies in the history of the physical city from Antiquity to the present, with points of special focus determined by the instructor. Analyzes the typologies of urban buildings, public places, and city plans in their relation to changing contexts of culture, politics, and the structure of public and private institutions.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.663",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Friedman, D. H."
-        },
-        {
-            "type":          "Class",
-            "label":         "Contemporary Architecture and Critical Debate",
-            "id":            "4.665",
-            "listing-index": "m4c-025",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Critical review of works, theories, and polemics in architecture in the aftermath of WWII. Aim is a historical understanding of the period and the development of a meaningful framework to assess contemporary issues in architecture. Special attention paid to historiographic questions of how architects construe the terms of their \\\u0022present.\\\u0022",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.665",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "4.123",
-                "4.125"
-            ],
-            "in-charge":     "Anderson, S."
-        },
-        {
-            "type":          "Class",
-            "label":         "Special Studies in the History, Theory, and Criticism of Architecture and Urban Form",
-            "id":            "4.666-4.669",
-            "listing-index": "m4c-026",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Special topics in the history, theory, and criticism of architecture and urban form, varying at the discretion of the instructor.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.666-4.669",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff, HTC"
-        },
-        {
-            "type":          "Class",
-            "label":         "Nationalism, Internationalism, and Globalism in Modern Art",
-            "id":            "4.670",
-            "listing-index": "m4c-027",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Modern art emerged in an age of unprecedented nationalism and imperial expansion. Students study how international modernism interacted with the concept of \\\u0022nation\\\u0022 and how contemporary discourse concerning globalism changes that dynamic. Seminar attendance, visits to art museums, and a research paper required.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.670",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Fall"
-            ],
-            "offering":      [
-                "Not offered next year",
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "prereq":        [
-                "4.671",
-                "4.670",
-                "4.601"
-            ],
-            "in-charge":     "Jones, C."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L014.670",
-            "lecture-section-of": "4.670",
-            "timeAndPlace":       "M2-5 5-216"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L024.670",
-            "lecture-section-of": "4.670",
-            "timeAndPlace":       "M2-5 5-216"
-        },
-        {
-            "type":          "Class",
-            "label":         "Installation Art",
-            "id":            "4.672",
-            "listing-index": "m4c-028",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Focuses on a specific genre of contemporary art that produces environments rather than portable \\\u0022art objects.\\\u0022 Installation art is viewed from a historical perspective, as a rejection of the modernist aesthetic of purity and the neutral white gallery space. This site-specific art is also seen to develop previous exhibition models such as natural history displays or merchandising conventions.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.672",
-            "joint":         false,
-            "semester":      [
-                "Spring",
-                "Spring"
-            ],
-            "offering":      [
-                "Not offered this year",
-                "Not offered this year"
-            ],
-            "prereq":        [
-                "4.673",
-                "4.672",
-                "4.601"
-            ],
-            "in-charge":     "Jones, C."
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Studies in the History, Theory, and Criticism of Art and Architecture",
-            "id":            "4.680-4.682",
-            "listing-index": "m4c-029",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Advanced research and projects on topics in the history, theory, and criticism of architecture or art.  Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.680-4.682",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff, HTC"
-        },
-        {
-            "type":          "Class",
-            "label":         "Preparation for History, Theory, and Criticism  Ph.D. Thesis",
-            "id":            "4.689",
-            "listing-index": "m4c-030",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Selection of thesis topic, definition of method of approach, and preparation of thesis proposal. Independent study supplemented by individual conference with faculty.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.689",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff, HTC"
-        },
-        {
-            "type":          "Class",
-            "label":         "Special Studies in the History, Theory, and Criticism of Art",
-            "id":            "4.691",
-            "listing-index": "m4c-031",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Individual or group projects on topics in the history, theory, and criticism of art. Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.691",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Jones, C.",
-                "Naginski, E."
             ]
         },
         {
-            "type":          "Class",
-            "label":         "Special Studies in the History, Theory, and Criticism of Art and Architecture",
-            "id":            "4.694",
-            "listing-index": "m4c-032",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Individual and group projects in the history, theory, and criticism of art and/or architecture. Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.694",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Fall",
-                "Spring",
-                "Fall",
-                "Spring",
-                "Fall",
-                "IAP",
-                "Spring"
+            "type":      "Class",
+            "label":     "Issues in Islamic Urbanism",
+            "id":        "4.617",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.617",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
             ],
-            "offering":      [
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Special Problems in Islamic and NonWestern Architecture",
+            "id":        "4.627",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.627",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Renaissance Architecture",
+            "id":        "4.634",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.634",
+            "offering":  [
+                "Not offered next year",
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "category":  "HASS Elective"
+        },
+        {
+            "type":      "Class",
+            "label":     "Advanced Study in Critical Theory of Architecture",
+            "id":        "4.640",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.640",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "19th-Century Art",
+            "id":        "4.641",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.641",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective"
+        },
+        {
+            "type":      "Class",
+            "label":     "Advanced Study in Modern Art",
+            "id":        "4.642",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.642",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "19th-Century Art",
+            "id":        "4.644",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.644",
+            "offering":  "Currently Offered"
+        },
+        {
+            "type":      "Class",
+            "label":     "Advanced Study in Modern Architecture",
+            "id":        "4.654-4.656",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.654-4.656",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Advanced Study in the History of Urban Form",
+            "id":        "4.662",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.662",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Contemporary Architecture and Critical Debate",
+            "id":        "4.665",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.665",
+            "offering":  "Currently Offered"
+        },
+        {
+            "type":      "Class",
+            "label":     "Special Studies in the History, Theory, and Criticism of Architecture and Urban Form",
+            "id":        "4.666-4.669",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.666-4.669",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Advanced Studies in the History, Theory, and Criticism of Art and Architecture",
+            "id":        "4.680-4.682",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.680-4.682",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Preparation for History, Theory, and Criticism  Ph.D. Thesis",
+            "id":        "4.689",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.689",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Special Studies in the History, Theory, and Criticism of Art",
+            "id":        "4.691",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.691",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Special Studies in the History, Theory, and Criticism of Art and Architecture",
+            "id":        "4.694",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.694",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      [
+            "category":  [
                 "H-LEVEL Grad Credit",
                 "H-LEVEL Grad Credit"
-            ],
-            "in-charge":     "Staff, HTC"
+            ]
         },
         {
-            "type":          "Class",
-            "label":         "Graduate Thesis",
-            "id":            "4.ThG",
-            "listing-index": "m4c-033",
-            "course":        "4",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Program of research and writing of thesis; to be arranged by the student with supervising committee.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.ThG",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Graduate Thesis",
+            "id":        "4.THG",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.ThG",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff"
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Thesis Research Design Seminar",
-            "id":            "4.THT",
-            "listing-index": "m4c-034",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Designed for students writing a thesis in Urban Studies and Planning or Architecture. Develop research topics, review relevant research and scholarship, frame research questions and arguments, choose an appropriate methodology for analysis, and draft introductory and methodology sections.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.THTJ",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Thesis Research Design Seminar",
+            "id":        "4.THT",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.THTJ",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
-            ],
-            "prereq":        "11.THTJ",
-            "in-charge":     "Abbanat, C."
+            ]
         },
         {
-            "type":               "LectureSection",
-            "label":              "L014.THT",
-            "lecture-section-of": "4.THT",
-            "timeAndPlace":       "MF9 9-554"
-        },
-        {
-            "type":          "Class",
-            "label":         "Undergraduate Thesis",
-            "id":            "4.ThU",
-            "listing-index": "m4c-035",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Program of thesis research leading to the writing of an SB thesis, to be arranged by the student and an appropriate MIT faculty member. Intended for seniors. 12 units recommended.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.ThU",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Undergraduate Thesis",
+            "id":        "4.THU",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.ThU",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
-            ],
-            "in-charge":     "Staff, Architecture"
+            ]
         },
         {
-            "type":          "Class",
-            "label":         "Undergraduate Research in Architecture",
-            "id":            "4.UR",
-            "listing-index": "m4c-036",
-            "course":        "4",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Research and project activities, which cover the range represented by the various research interests and projects in the department. Students who wish a letter grade option for their work must register for 4.URG.",
-            "url":           "http://student.mit.edu/catalog/m4c.html#4.UR",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Summer",
-                "Fall",
-                "IAP",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Undergraduate Research in Architecture",
+            "id":        "4.UR",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m4c.html#4.UR",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
-            ],
-            "in-charge":     "Fernandez, J."
+            ]
         }
     ]
 }

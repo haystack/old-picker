@@ -254,3 +254,15 @@ var girData = {
 	"GIR:BIOL": ["7.012", "7.013", "7.014"],
 	"GIR:CHEM": ["3.091", "5.111", "5.112"]
 }
+    
+var readCookie = function(name) {
+    var start = document.cookie.indexOf(name + '=');
+    if (start != -1) {
+        start = start + name.length + 1;
+        var end = document.cookie.indexOf(';', start);
+        if (end == -1)
+            end = document.cookie.length;
+        return unescape(document.cookie.substring(start, end));
+    }
+    return '';
+}

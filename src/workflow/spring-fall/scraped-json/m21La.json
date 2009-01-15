@@ -1,1754 +1,448 @@
 {
     "items": [
         {
-            "type":          "Class",
-            "label":         "Writing About Literature",
-            "id":            "21L.000",
-            "listing-index": "m21La-000",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Intensive focus on the reading and writing skills used to analyze literary texts such as poems by Emily Dickinson, Shakespeare or Langston Hughes; short stories by Chekhov, Joyce, or Alice Walker; and a short novel by Melville or Toni Morrison. Designed not only to prepare students for further work in writing and literary and media study, but also to provide increased confidence and pleasure in their reading, writing, and analytical skills. Students write or revise essays weekly. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.000J",
-            "joint":         true,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      [
+            "type":      "Class",
+            "label":     "Writing About Literature",
+            "id":        "21L.000",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.000J",
+            "offering":  "Currently Offered",
+            "category":  [
                 "HASS Elective",
                 "HASS Communication-Intensive Writing"
             ],
-            "in-charge":     "Lipkowitz, I.",
-            "area":          "Introductory Subjects"
+            "area":      "Introductory Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.000",
-            "lecture-section-of": "21L.000",
-            "timeAndPlace":       "MW8.30-10 56-167"
-        },
-        {
-            "type":          "Class",
-            "label":         "Foundations of Western Culture: Homer to Dante",
-            "id":            "21L.001",
-            "listing-index": "m21La-001",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Studies a broad range of texts essential to understanding the two great sources of Western conceptions of the world and humanity\\'s place within it: the ancient world of Greece and Rome and the Judeo-Christian world that challenged and absorbed it. Readings vary but usually include works by Homer, Sophocles, Aristotle, Plato, Virgil, St. Augustine, and Dante. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.001",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      [
+            "type":      "Class",
+            "label":     "Foundations of Western Culture: The Making of the Modern World",
+            "id":        "21L.002",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.002",
+            "offering":  "Currently Offered",
+            "category":  [
                 "HASS-D 2",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Bahr, A.",
-            "area":          "Introductory Subjects"
+            "area":      "Introductory Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.001",
-            "lecture-section-of": "21L.001",
-            "timeAndPlace":       "MW1-2.30 1-134"
+            "type":      "Class",
+            "label":     "Reading Fiction",
+            "id":        "21L.003",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.003",
+            "offering":  "Currently Offered",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "area":      "Introductory Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Foundations of Western Culture: The Making of the Modern World",
-            "id":            "21L.002",
-            "listing-index": "m21La-002",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Complementary to 21L.001. A broad survey of texts, literary, philosophical, and sociological, studied to trace the growth of secular humanism, the loss of a supernatural perspective upon human events, and changing conceptions of individual, social, and communal purpose. Stresses appreciation and analysis of texts that came to represent the common cultural possession of our time. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.002",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      [
+            "type":      "Class",
+            "label":     "Reading Poetry",
+            "id":        "21L.004",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.004",
+            "offering":  "Currently Offered",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "area":      "Introductory Subjects"
+        },
+        {
+            "type":      "Class",
+            "label":     "American Literature",
+            "id":        "21L.006",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.006",
+            "offering":  "Currently Offered",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "area":      "Introductory Subjects"
+        },
+        {
+            "type":      "Class",
+            "label":     "Black Matters:  Introduction to Black Studies",
+            "id":        "21L.008",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.008J",
+            "offering":  "Currently Offered",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
+            "area":      "Introductory Subjects"
+        },
+        {
+            "type":      "Class",
+            "label":     "Shakespeare",
+            "id":        "21L.009",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.009",
+            "offering":  "Currently Offered",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "area":      "Introductory Subjects"
+        },
+        {
+            "type":      "Class",
+            "label":     "The Film Experience",
+            "id":        "21L.011",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.011",
+            "offering":  "Currently Offered",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "area":      "Introductory Subjects"
+        },
+        {
+            "type":      "Class",
+            "label":     "Learning from the Past: Drama, Science, Performance",
+            "id":        "21L.016",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.016",
+            "offering":  "Currently Offered",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
+            "area":      "Introductory Subjects"
+        },
+        {
+            "type":      "Class",
+            "label":     "The Art of the Probable",
+            "id":        "21L.017",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.017",
+            "offering":  "Currently Offered",
+            "category":  [
                 "HASS-D 2",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Eiland, H.",
-            "area":          "Introductory Subjects"
+            "area":      "Introductory Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Reading Fiction",
-            "id":            "21L.003",
-            "listing-index": "m21La-003",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces prose narrative, both short stories and the novel. Examines the construction of narrative and the analysis of literary response. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.003",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 1",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     "Perry, R.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.003",
-            "lecture-section-of": "21L.003",
-            "timeAndPlace":       "TR9.30-11 56-167"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0221L.003",
-            "lecture-section-of": "21L.003",
-            "timeAndPlace":       "TR2.30-4 1-277"
-        },
-        {
-            "type":          "Class",
-            "label":         "Reading Poetry",
-            "id":            "21L.004",
-            "listing-index": "m21La-004",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   ", individual poems by Donne, Keats, Dickinson, Frost, Eliot, Langston Hughes, Lowell, and Plath. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.004",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 1",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     "Fuller, M.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.004",
-            "lecture-section-of": "21L.004",
-            "timeAndPlace":       "MW1-2.30 14N-325"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0221L.004",
-            "lecture-section-of": "21L.004",
-            "timeAndPlace":       "MW3.30-5 56-180"
-        },
-        {
-            "type":          "Class",
-            "label":         "Introduction to Drama",
-            "id":            "21L.005",
-            "listing-index": "m21La-005",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "A study of the history of theater art and practice from its origins to the modern period, including its roles in non-Western cultures. Special attention to the relationship between the literary and performative dimensions of drama, and the relationship between drama and its cultural context. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.005",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 3",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     "Staff",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.005",
-            "lecture-section-of": "21L.005",
-            "timeAndPlace":       "TR3.30-5 2-147"
-        },
-        {
-            "type":          "Class",
-            "label":         "American Literature",
-            "id":            "21L.006",
-            "listing-index": "m21La-006",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Studies the national literature of the United States since the early 19th century. Considers novels, essays, films, and poems, focusing on efforts to define and reform a sense of American identity amidst increasing awareness of cultural diversity. Readings usually include works by Hawthorne, Thoreau, Frederick Douglass, Dickinson, Frost, Faulkner, Maxine Kingston, and Amy Tan. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.006",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 1",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     "Staff",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.006",
-            "lecture-section-of": "21L.006",
-            "timeAndPlace":       "MW9.30-11 1-135"
-        },
-        {
-            "type":          "Class",
-            "label":         "World Literatures",
-            "id":            "21L.007",
-            "listing-index": "m21La-007",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces students to a coherent set of textual and visual materials drawn from different geographical regions, languages, artistic genres, and historical periods.  The focus may vary but usually cuts across national boundaries. Includes non-English works read in translation and examines different kinds of writing, both fiction and nonfiction. Pays special attention to such issues as identity formation, cultural contact, exploration, and exile. Previously taught topics include contemporary writing from Africa and South Asia, the impact of the discovery of the New World, and Caribbean literature.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.007",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 1",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     "Fuller, M.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.007",
-            "lecture-section-of": "21L.007",
-            "timeAndPlace":       "TR9.30-11 1-273"
-        },
-        {
-            "type":          "Class",
-            "label":         "Shakespeare",
-            "id":            "21L.009",
-            "listing-index": "m21La-008",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Close study of the major comedies, histories, and tragedies in the context of Renaissance thought, Elizabethan theatre, and the political and social setting of Shakespeare\\'s age. Lectures and class discussions each week, supplemented by occasional reading of scenes and attendance at live or filmed performances. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.009",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 1",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     "Donaldson, P.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.009",
-            "lecture-section-of": "21L.009",
-            "timeAndPlace":       "MW1-2.30 1-150"
-        },
-        {
-            "type":          "Class",
-            "label":         "The Film Experience",
-            "id":            "21L.011",
-            "listing-index": "m21La-009",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "An introduction to narrative film, emphasizing the unique properties of the movie house and the motion picture camera, the historical evolution of the film medium, and the intrinsic artistic qualities of individual films. Syllabus changes from semester to semester, but usually includes such directors as Griffith, Chaplin, Renoir, Ford, Hitchcock, De Sica, and Fellini.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.011",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 3",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     "Jenkins, H.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.011",
-            "lecture-section-of": "21L.011",
-            "timeAndPlace":       [
-                "T4 3-270",
-                "T EVE (7 PM) 3-270"
-            ]
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0221L.011",
-            "lab-section-of": "21L.011",
-            "timeAndPlace":   "T EVE (8-10 PM) 3-270"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0321L.011",
-            "rec-section-of": "21L.011",
-            "timeAndPlace":   "R3 2-131"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0421L.011",
-            "rec-section-of": "21L.011",
-            "timeAndPlace":   "R4 2-131"
-        },
-        {
-            "type":          "Class",
-            "label":         "Forms of Western Narrative",
-            "id":            "21L.012",
-            "listing-index": "m21La-010",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines forms of storytelling that have developed in Western cultures from Homer to the present. Emphasis on literary and cultural issues; the emergence of different narrative genres and media; story forms as anthropological artifacts. Syllabus varies but usually includes folk tales, and authors such as Homer, Sophocles, Cervantes, Laclos or Tolstoy, Poe, and at least one film.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.012",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 1",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     "Buzard, J.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.012",
-            "lecture-section-of": "21L.012",
-            "timeAndPlace":       "TR3.30-5 14N-112"
-        },
-        {
-            "type":          "Class",
-            "label":         "Learning from the Past: Drama, Science, Performance",
-            "id":            "21L.016",
-            "listing-index": "m21La-011",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Explores the creation (and creativity) of the modern scientific and cultural world through study of western Europe in the 17th century, the age of Descartes and Newton, Shakespeare, Rembrandt and Moliere. Compares period thinking to present-day debates about the scientific method, art, religion, and society. This team-taught, interdisciplinary subject draws on a wide range of literary, dramatic, historical, and scientific texts and images, and involves theatrical experimentation as well as reading, writing, researching and conversing. Meets most of the time with 21M.616, but differs from it in emphasizing cultural and literary analysis.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.016",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 3",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     "Sonenberg, D. Henderson and J.",
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "The Art of the Probable",
-            "id":            "21L.017",
-            "listing-index": "m21La-012",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines literary texts and films in relation to the history of the idea of probability. Traces the growing importance of probability both as a measure of the reliability of ideas or beliefs and also as a basic property of things and the world. Connects the development and use of probabilistic reasoning (e.g., in the lottery, the insurance industry, and the stock market) with literary and cultural concerns regarding the rationality of belief, risk and uncertainty, free will and determinism, chance and fate. Discussion of the work of scientific and philosophical pioneers of probabilistic thought (e.g., Pascal, Leibniz, Bernoulli, Laplace, and Einstein) in conjunction with a variety of literary texts and films, including works of Shakespeare, Jane Austen, H. G. Wells, and classic Hollywood cinema.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.017",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 2",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     [
-                "Jackson, N.",
-                "Kibel, A.",
-                "Raman, S."
-            ],
-            "area":          "Introductory Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Bestsellers",
-            "id":            "21L.310",
-            "listing-index": "m21La-013",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Focuses on works that caught the popular imagination in the past or present. Emphasizes texts that are related by genre, theme or style. Books studied vary from term to term. May be repeated once for credit so long as the content differs. Topic for Fall: Detective Fictions. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.310",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
-            ],
-            "in-charge":     "TBA",
-            "area":          "Samplings"
-        },
-        {
-            "type":          "Class",
-            "label":         "Prizewinners",
-            "id":            "21L.315",
-            "listing-index": "m21La-014",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Examines the work of major prize-winning writers or filmmakers. Texts and authors are chosen that have won such prestigious literary awards as the Nobel Prize, the Booker Prize, or the National Book Award, or films that have been feted at major international film festivals. Authors and works vary from term to term. May be repeated once for credit so long as the specific works studied differ. Topic for Spring: Nobel Laureates ? Derek Walcott and Seamus Heaney. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.315",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
-            ],
-            "in-charge":     "TBA",
-            "area":          "Samplings"
-        },
-        {
-            "type":          "Class",
-            "label":         "Big Books",
-            "id":            "21L.320",
-            "listing-index": "m21La-015",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Intensive study of a single major literary work or a very small set of related literary works. Emphasizes texts that encourage close analysis in a way that cannot easily be integrated into the regular literature curriculum. Content varies from term to term. May be repeated once for credit so long as the works studied differ. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.320",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Bestsellers",
+            "id":        "21L.310",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.310",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Bahr, A.",
-            "area":          "Samplings"
+            "area":      "Samplings"
         },
         {
-            "type":          "Class",
-            "label":         "Small Wonders",
-            "id":            "21L.325",
-            "listing-index": "m21La-016",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Close examination of a coherent set of short texts and/or visual works. The selections may be the shorter works of one or more authors (poems, short stories or novellas), or short films and other visual media. Content varies from term to term. May be repeated once for credit so long as the works studied differ. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.325",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Big Books",
+            "id":        "21L.320",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.320",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Hildebidle, J.",
-            "area":          "Samplings"
+            "area":      "Samplings"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.325",
-            "lecture-section-of": "21L.325",
-            "timeAndPlace":       "MW2.30-4 14N-112"
-        },
-        {
-            "type":          "Class",
-            "label":         "Latin I",
-            "id":            "21L.330",
-            "listing-index": "m21La-017",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-3",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Introduces rudiments of Latin to students with little or no prior knowledge of the subject. Aimed at laying a foundation to begin reading ancient and/or medieval literary and historical texts. Latin I and Latin II may be combined by petition (after completion of both) to count as a single HASS-Elective. Enrollment limited to 20.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.330",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "in-charge":     "Staff",
-            "area":          "Samplings"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.330",
-            "lecture-section-of": "21L.330",
-            "timeAndPlace":       "TR11-12.30 (ENDS OCT 24) 56-169"
-        },
-        {
-            "type":          "Class",
-            "label":         "Latin II",
-            "id":            "21L.335",
-            "listing-index": "m21La-018",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-3",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Introductory Latin subject for students with some prior knowledge of basic grammar and vocabulary. Intended to refresh and enrich ability to read ancient and/or medieval literary and historical texts. May be taken independently of Latin I with permission of instructor. Latin I and Latin II may be combined by petition (after completion of both) to count as a single HASS-Elective. Enrollment limited to 20.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.335",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "in-charge":     "Staff",
-            "area":          "Samplings"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.335",
-            "lecture-section-of": "21L.335",
-            "timeAndPlace":       "TR11-12.30 (BEGINS OCT 27) 56-169"
-        },
-        {
-            "type":          "Class",
-            "label":         "Literary Studies: The Legacy of England",
-            "id":            "21L.420",
-            "listing-index": "m21La-019",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines English literature across genre and historical period. Designed for students who wish to study English literature or writing in some depth, or wish to know more about English literary culture and history. Learn about the relationships between literary themes, forms, and conventions and the times in which they were produced. Students examine Renaissance lyrics, Enlightenment satire, and modernist short stories. Focused on England because of its historical importance and its usefulness as an example for illustrating patterns over the centuries. Students form a framework for understanding how more focused subjects fit into literary studies, and what terms, concerns, and methods provide connections among the diverse subjects grouped under \\\u0022literature.\\\u0022",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.420",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Tapscott, S.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
-        },
-        {
-            "type":          "Class",
-            "label":         "Comedy",
-            "id":            "21L.421",
-            "listing-index": "m21La-020",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Surveys a range of comic texts in different media, the cultures that produced them, and various theories of comedy. Authors and directors studied may include Aristophanes, Shakespeare, Moliere, Austen, Wilde and Chaplin.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.421",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      [
+            "type":      "Class",
+            "label":     "Comedy",
+            "id":        "21L.421",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.421",
+            "offering":  "Currently Offered",
+            "category":  [
                 "HASS-D 1",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     "Eiland, H.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
+            "area":      "Intermediate Subjects",
+            "subarea":   "Genres and Themes"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.421",
-            "lecture-section-of": "21L.421",
-            "timeAndPlace":       "MW2.30-4 1-277"
-        },
-        {
-            "type":          "Class",
-            "label":         "Tragedy",
-            "id":            "21L.422",
-            "listing-index": "m21La-021",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Aspects of the tragic as a mode of literature and a quality of lived experience pursued in readings that extend from the warfare of the ancient world to the experiences of modern life. Authors include Aeschylus, Sophocles, Euripides, Shakespeare, Balzac, Tolstoy, Ibsen, Conrad, Dinesen, Faulkner, and Camus. Includes viewing of at least two films.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.422",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Eiland, H.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
-        },
-        {
-            "type":          "Class",
-            "label":         "Folk Music of the British Isles and North America",
-            "id":            "21L.423",
-            "listing-index": "m21La-022",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines  the production, transmission, preservation and the qualities of folk music in the British Isles and North America from the 18th century to the folk revival of the 1960s and the present. Special emphasis on balladry, fiddle styles, and African-American influences.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.423J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Folk Music of the British Isles and North America",
+            "id":        "21L.423",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.423J",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      [
+            "category":  [
                 "HASS-D 3",
                 "HASS Communication-Intensive"
             ],
-            "in-charge":     [
-                "Ruckert, G.",
-                "Perry, R."
-            ],
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
+            "area":      "Intermediate Subjects",
+            "subarea":   "Genres and Themes"
         },
         {
-            "type":          "Class",
-            "label":         "Popular Narrative",
-            "id":            "21L.430",
-            "listing-index": "m21La-023",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines the relationship between popular and high culture and the problem of evaluating texts that tell stories. Treats a range of narrative and dramatic works as well as films. Previously taught topics include Masterminds and Popular Culture in an Age of Media Convergence. May be repeated for credit with permission of instructor.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.430",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
-            ],
-            "category":      "HASS Elective",
-            "prereq":        "SP.492",
-            "in-charge":     "Braithwaite, A.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
-        },
-        {
-            "type":          "Class",
-            "label":         "Understanding Television",
-            "id":            "21L.432",
-            "listing-index": "m21La-024",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "A cultural approach to television\\'s evolution as a technology and system of representation. Considers television as a system of storytelling and mythmaking, and as a cultural practice studied from anthropological, literary, and cinematic perspectives. Focuses on primetime commercial broadcasting, the medium\\'s technological and economic history, and theoretical perspectives. Considerable television viewing and readings in media theory and cultural interpretation are required. Previously taught topics include American Television: A Cultural History.  Meets with CMS.915, but assignments differ.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.432",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
-            ],
-            "category":      "HASS Elective",
-            "in-charge":     "Thorburn, D.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
-        },
-        {
-            "type":          "Class",
-            "label":         "Film Styles and Genres",
-            "id":            "21L.433",
-            "listing-index": "m21La-025",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Close study of one or more directors, genres, periods, artistic movements, or national cinemas which have been of major significance in the history of film. Previously taught topics include Hollywood and Hong Kong, and Movie Realists: Chaplin, Renoir, Neorealism, Truffaut. May be repeated for credit by permission of instructor.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.433",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Film Styles and Genres",
+            "id":        "21L.433",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.433",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Staff",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects",
+            "subarea":   "Genres and Themes"
         },
         {
-            "type":          "Class",
-            "label":         "Science Fiction and Fantasy",
-            "id":            "21L.434",
-            "listing-index": "m21La-026",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Traces the history of science fiction as a generic tradition in literature, media, and popular culture. Considers formal ideological and cultural approaches to the analysis and interpretation of science fiction and fantasy texts.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.434",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Staff",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
+            "type":      "Class",
+            "label":     "Science Fiction and Fantasy",
+            "id":        "21L.434",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.434",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects",
+            "subarea":   "Genres and Themes"
         },
         {
-            "type":          "Class",
-            "label":         "Literature and Film",
-            "id":            "21L.435",
-            "listing-index": "m21La-027",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Investigates relationships between the two media, including film adaptations as well as works linked by genre, topic, and style. Explores how artworks challenge and cross cultural, political, and aesthetic boundaries. Previously taught topics include Shakespeare, Film and Media.  Meets with CMS.840, but assignments differ.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.435",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Ethics and Literature",
+            "id":        "21L.450",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.450",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects",
+            "subarea":   "Genres and Themes"
+        },
+        {
+            "type":      "Class",
+            "label":     "Classical Literature",
+            "id":        "21L.455",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.455",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Donaldson, P.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects",
+            "subarea":   "Genres and Themes"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.435",
-            "lecture-section-of": "21L.435",
-            "timeAndPlace":       "T EVE (7-10 PM) 16-676"
-        },
-        {
-            "type":          "Class",
-            "label":         "Darwin and Design",
-            "id":            "21L.448",
-            "listing-index": "m21La-028",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   ", Darwin provided a model for understanding the existence of objects and systems manifesting evidence of design without positing a designer, and of purpose and mechanism without intelligent agency. Texts deal with pre-Darwinian and later treatment of this topic within literature and speculative thought since the 18th century, with some attention to the modern study of feedback mechanism in artificial intelligence. Readings in Hume, Voltaire, Malthus, Darwin, Butler, Hardy, H. G. Wells, and Freud.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.448J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      [
-                "HASS-D 2",
-                "HASS Communication-Intensive"
-            ],
-            "in-charge":     [
-                "Kibel, A.",
-                "Paradis, J."
-            ],
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.448",
-            "lecture-section-of": "21L.448",
-            "timeAndPlace":       "MW8.30-10 14E-310"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0221L.448",
-            "lecture-section-of": "21L.448",
-            "timeAndPlace":       "TR9.30-11 66-154"
-        },
-        {
-            "type":          "Class",
-            "label":         "End of Nature",
-            "id":            "21L.449",
-            "listing-index": "m21La-029",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.449",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Kibel, A.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
-        },
-        {
-            "type":          "Class",
-            "label":         "Ethics and Literature",
-            "id":            "21L.450",
-            "listing-index": "m21La-030",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines competing ethical concepts and the ethical implications of certain actions and commitments by close reading of literary works. Topics include origins of morality, ideals of justice, the nature of the virtues, notions of responsibility, ethics and politics, and the ethics of extreme situations. Philosophic texts by Plato, Aristotle, Machiavelli, Hobbes, and Kant. Narrative and dramatic texts by Sophocles, Euripides, Shakespeare, Swift, Ibsen, Shaw, Dostoyevsky, and Conrad, plus some Biblical materials.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.450",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Kibel, A.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
-        },
-        {
-            "type":          "Class",
-            "label":         "Introduction to Literary Theory",
-            "id":            "21L.451",
-            "listing-index": "m21La-031",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines the ways texts can be read and questions that readers ask of texts. Aims to provide students with a sense of the different critical approaches to literature. Topics include: structuralism and semiotics; post-structuralism and post-modernism; historicism and historicist paradigms; psychoanalysis; intertextuality; and cultural criticism.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.451",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Raman, S.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
-        },
-        {
-            "type":          "Class",
-            "label":         "Classical Literature",
-            "id":            "21L.455",
-            "listing-index": "m21La-032",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Explores the classical roots of Western civilizations through a close examination of the social and cultural contexts in which selected literary texts were first produced, the influence of political structures and ideologies, the function of rhetorical forms, the purpose and significance of ancient mythologies, and the relation of literature to shared developments in art, architecture, and religion. Texts taught in translation, but direct readings in the original languages are encouraged. Authors include Livy, Lucretius, Cicero, Julius Caesar, Virgil, Horace, and Ovid. Texts and topics vary from year to year, and subject may be repeated once for credit, as long as specific topic is different. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.455",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Major English Novels",
+            "id":        "21L.471",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.471",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Staff",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects",
+            "subarea":   "Periods of World Literature"
         },
         {
-            "type":          "Class",
-            "label":         "The Bible",
-            "id":            "21L.458",
-            "listing-index": "m21La-033",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "An introduction to major books from both the Hebrew Bible and the New Testament. Particular attention given to literary techniques, issues resulting from translation from the original Hebrew and Greek, and the different historical periods that produced and are reflected in the Bible. Investigation of the Bible as influence in later narrative, philosophic, and artistic traditions.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.458",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Lipkowitz, I.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Genres and Themes"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.458",
-            "lecture-section-of": "21L.458",
-            "timeAndPlace":       "TR11.30-1 14N-325"
-        },
-        {
-            "type":          "Class",
-            "label":         "Medieval Literature",
-            "id":            "21L.460",
-            "listing-index": "m21La-034",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Surveys a range of literary works across different European cultures from the Roman Empire to the beginnings of the Renaissance. Literary movements and cultural developments discussed in their social, political, and historical contexts. Topics covered include the growth of religious communities, the shift from orality to literacy, the culture of chivalry and courtly love, the emergence of scholasticism and universities, changes in devotional practices and popular piety, religious intolerance and the Crusades, and the rise of nationalism and class consciousness. Previously taught topics include Medieval Women Writers, The Crusades, and Dante, Boccaccio and Chaucer. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.460",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
-            ],
-            "category":      "HASS Elective",
-            "prereq":        "SP.514",
-            "in-charge":     "Bahr, A.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.460",
-            "lecture-section-of": "21L.460",
-            "timeAndPlace":       "MW3.30-5 14N-325"
-        },
-        {
-            "type":          "Class",
-            "label":         "Renaissance Literature",
-            "id":            "21L.463",
-            "listing-index": "m21La-035",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Readings are organized around topics (Renaissance self-fashioning, courtship and courtiership, gender and the emerging individual) or literary genres (lyric, epic, drama, prose). Works drawn primarily from the Italian and English Renaissance, and may include such figures as Petrarch, Shakespeare, More, Jonson, Machiavelli, Castiglione, Milton, Spenser, Bacon, Donne, and Sidney. Previously taught topics include Renaissance Poetry and Strivers and Slackers. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.463",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Fuller, M.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.463",
-            "lecture-section-of": "21L.463",
-            "timeAndPlace":       "TR2.30-4 4-251"
-        },
-        {
-            "type":          "Class",
-            "label":         "Eighteenth-Century Literature",
-            "id":            "21L.470",
-            "listing-index": "m21La-036",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "An examination of 18th century English writers in their historical context. Authors James Thomson, Joseph Addison, Laurence Sterne, Mary Robinson, and Mary Wollstonecraft address issues of capitalism and class mobility; romantic love and the changing definition of femininity and masculinity; the mutual emergence of mass culture and of high-cultural aesthetics; and colonialism and international travel. Previously taught topics include Gods and Monsters: Versions of the Self in 18th-century Britain.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.470",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Jackson, N.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.470",
-            "lecture-section-of": "21L.470",
-            "timeAndPlace":       "MW3.30-5 56-167"
-        },
-        {
-            "type":          "Class",
-            "label":         "Major English Novels",
-            "id":            "21L.471",
-            "listing-index": "m21La-037",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Studies important examples of the literary form that, between the beginning of the 18th century and the end of the 19th century, became an indispensable instrument for representing modern life, in the hands of such writers as Defoe, Richardson, Fielding, Sterne, Burney, Austen, Scott, Dickens, the Brontes, Eliot, Hardy, and Conrad. The class alternates between 18th and 19th century topics, and may be repeated for credit with instructor\\'s permission.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.471",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Victorian Literature and Culture",
+            "id":        "21L.481",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.481",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Lipkowitz, I.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects",
+            "subarea":   "Periods of World Literature"
         },
         {
-            "type":          "Class",
-            "label":         "Major European Novels",
-            "id":            "21L.472",
-            "listing-index": "m21La-038",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "A study of changing narrative forms in the 19th century European novel. The changing fortunes of the heroic and romantic ideals. The motif of the outsider as a means for depicting social reality. Readings in Cervantes, Balzac, Stendhal, Flaubert, Dostoevsky, Tolstoy, and Proust. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.472",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Kibel, A.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
+            "type":      "Class",
+            "label":     "Modern Fiction",
+            "id":        "21L.485",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.485",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects",
+            "subarea":   "Periods of World Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.472",
-            "lecture-section-of": "21L.472",
-            "timeAndPlace":       "TR1-2.30 56-191"
+            "type":      "Class",
+            "label":     "Contemporary Literature",
+            "id":        "21L.488",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.488",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects",
+            "subarea":   "Periods of World Literature"
         },
         {
-            "type":          "Class",
-            "label":         "Jane Austen",
-            "id":            "21L.473",
-            "listing-index": "m21La-039",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "An examination of Jane Austen\\'s satire in her seven complete novels, several fragments, and juvenilia. Students read these texts in relation to her letters and other biographical and historical information. Instruction and practice in oral and written communication provided. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.473J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "prereq":        "SP.513J",
-            "in-charge":     "Perry, R.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Romantic Poetry",
-            "id":            "21L.476",
-            "listing-index": "m21La-040",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Close readings of the major British Romantic poets (Blake, Wordsworth, Coleridge, Byron, Scott, Shelley, and Keats) and important fiction writers (Mary Shelley and Walter Scott). Attention given to literary and historical contexts.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.476",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Jackson, N.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Victorian Literature and Culture",
-            "id":            "21L.481",
-            "listing-index": "m21La-041",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "British literature and culture during Queen Victoria\\'s long reign, 1837-1901. Authors studied may include Charles Dickens, the Brontes, Lewis Carroll, George Eliot, Robert Browning, Oscar Wilde, Arthur Conan Doyle, Rudyard Kipling, and Alfred Lord Tennyson. Discussion of many of the era\\'s major developments such as urbanization, steam power, class conflict, Darwin, religious crisis, imperial expansion, information explosion, and bureaucratization. Fiction, nonfiction, and poetry; syllabi vary.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.481",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "HASS Elective",
-            "in-charge":     "Buzard, J.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Modern Fiction",
-            "id":            "21L.485",
-            "listing-index": "m21La-042",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Tradition and innovation in representative fiction of the early modern period. Recurring themes include the role of the artist in the modern period; the representation of psychological and sexual experience; and the virtues (and defects) of the aggressively experimental character. Works by Conrad, Kipling, Babel, Kafka, James, Lawrence, Mann, Ford Madox Ford, Joyce, Woolf, Faulkner, and Nabokov. Students register for 9 or 12 units of credit, depending on the intensity of the writing assignments. Contact the professor to determine appropriate units.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.485",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Thorburn, D.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Modern Drama",
-            "id":            "21L.486",
-            "listing-index": "m21La-043",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Anaylsis of major modern plays featuring works by Shaw, O\\'Neill, Beckett, Brecht, Williams, Soyinka, Churchill, Wilson, Friel, Stoppard, Deveare Smith, and Kushner. Special consideration of performance, sociopolitical and aesthetic contexts, and the role of theater in the world of modern multimedia. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.486",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "HASS Elective",
-            "in-charge":     "Staff",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Modern Poetry",
-            "id":            "21L.487",
-            "listing-index": "m21La-044",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Study of major 20th century English language poets, typically including such figures as William Carlos Williams, Langston Hughes, Eliot, Pound, Frost, and Moore.  Previously taught topics include Time in 20th Century Anglo-American Poetry and Poetic Voices in Early 20th Century America. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.487",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Staff",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Contemporary Literature",
-            "id":            "21L.488",
-            "listing-index": "m21La-045",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Study of key themes and techniques in prose, poetry, and drama since the 1970s. Recent topics include postmodernism, globalization, new British and Irish writing, and literature and development.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.488",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Brouillette, S.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Interactive and Non-Linear Narrative: Theory and Practice",
-            "id":            "21L.489",
-            "listing-index": "m21La-046",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   ". With this base, students use authoring systems to model a variety of narrative techniques and to create their own fictions. Knowledge of programming helpful but not necessary.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.489J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Montfort, N.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0121L.489",
-            "lecture-section-of": "21L.489",
-            "timeAndPlace":       "TR1-2.30 1-379"
-        },
-        {
-            "type":          "Class",
-            "label":         "French Literature in Translation",
-            "id":            "21L.490",
-            "listing-index": "m21La-047",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Reading and analysis of landmark works of French literature, from the neo-classical period through the end of the twentieth century, in English translation. Attention to intellectual and cultural contexts. Writers include Racine, Moliere, Baudelaire, Balzac, Proust, Duras, and Tournier. Taught in English.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.490J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "French Literature in Translation",
+            "id":        "21L.490",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.490J",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Turk, E. B.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "Periods of World Literature"
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects",
+            "subarea":   "Periods of World Literature"
         },
         {
-            "type":          "Class",
-            "label":         "The American Novel",
-            "id":            "21L.501",
-            "listing-index": "m21La-048",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Works by major American novelists, beginning with the late 18th century and concluding with a contemporary novelist. Major emphasis on reading novels as literary texts, but attention paid to historical, intellectual, and political contexts as well. Syllabus varies from term to term, but many of the following writers are represented: Rowson, Hawthorne, Melville, Twain, Wharton, James, and Toni Morrison.  Previously taught topics include \\\u0022The American Revolution\\\u0022 and \\\u0022Makeovers\\\u0022 (i.e. adaptations and reinterpretation of novels  traditionally considered as American \\\u0022Classics\\\u0022). Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.501",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "in-charge":     "Staff",
-            "area":          "Intermediate Subjects",
-            "subarea":       "American Literature"
+            "type":      "Class",
+            "label":     "American Authors",
+            "id":        "21L.512",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.512",
+            "offering":  "Currently Offered",
+            "category":  "HASS Elective",
+            "area":      "Intermediate Subjects",
+            "subarea":   "American Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.501",
-            "lecture-section-of": "21L.501",
-            "timeAndPlace":       "MW1-2.30 14N-112"
-        },
-        {
-            "type":          "Class",
-            "label":         "Race and Identity in American Literature",
-            "id":            "21L.504",
-            "listing-index": "m21La-049",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Questions posed by the literature of the Americas about the relationship of race and gender to authorship, audience, culture, ethnicity, and aesthetics. Social conditions and literary histories that shape the politics of identity in American literature. Specific focus varies each term. Previously taught topics include Cultural Encounters from 1492 to the Civil War, Immigrant Stories, African American Literature, and Asian American Literature.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.504J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "prereq":        "SP.518J",
-            "in-charge":     "Alexandre, S.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "American Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "American Authors",
-            "id":            "21L.512",
-            "listing-index": "m21La-050",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines in detail the works of several American authors selected according to a theme, period, genre, or set of issues. Through close readings of poetry, novels, or plays, subject addresses such issues as literary influence, cultural diversity, and the writer\\'s career. Previously taught topics include American Women Writers, Hemingway, and American Short Fiction.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.512",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "prereq":        "SP.517",
-            "in-charge":     "Hildebidle, J.",
-            "area":          "Intermediate Subjects",
-            "subarea":       "American Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Literary Interpretation",
-            "id":            "21L.701",
-            "listing-index": "m21La-051",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces practice and theory of literary criticism. Seminar focuses on topics such as the history of critical methods and techniques, and the continuity of certain subjects in literary history. Instruction and practice in oral and written communication. Previously taught topics include Virginia Woolf\\'s Shakespeare, Theory and Use of Figurative Language, and Reading Poetry. Enrollment limited to 12.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.701",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Literary Interpretation",
+            "id":        "21L.701",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.701",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "prereq":        "SP.510",
-            "in-charge":     "Brouillette, S.",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
+            "category":  "HASS Elective",
+            "area":      "Seminars",
+            "subarea":   "American Literature"
         },
         {
-            "type":          "Class",
-            "label":         "Studies in Fiction",
-            "id":            "21L.702",
-            "listing-index": "m21La-052",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Intensive study of a range of texts by a single author or by a limited group of authors whose achievements are mutually illuminating. Some attention to narrative theory, and biographical and cultural backgrounds. Instruction and practice in oral and written communication. Previously taught topics include  Stowe, Twain, and the Transformation of 19th century America, and Joyce and the Legacy of Modernism. Enrollment limited to 12.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.702",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Studies in Fiction",
+            "id":        "21L.702",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.702",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Thorburn, D.",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
+            "category":  "HASS Elective",
+            "area":      "Seminars",
+            "subarea":   "American Literature"
         },
         {
-            "type":          "Class",
-            "label":         "Studies in Drama",
-            "id":            "21L.703",
-            "listing-index": "m21La-053",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Intensive study of an important topic or period in drama. Close analysis of major plays, enriched by critical readings and attention to historical and theatrical contexts. Instruction and practice in oral and written communication through student presentations and research essays. Previously taught topics include  Renaissance Drama, Shakespeare with his Contemporaries, and Tom Stoppard, Caryl Churchill. Enrollment limited to 12.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.703",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Major Authors",
+            "id":        "21L.705",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.705",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Staff",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
+            "category":  "HASS Elective",
+            "area":      "Seminars",
+            "subarea":   "American Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.703",
-            "lecture-section-of": "21L.703",
-            "timeAndPlace":       "TR11.30-1 2-147"
-        },
-        {
-            "type":          "Class",
-            "label":         "Studies in Poetry",
-            "id":            "21L.704",
-            "listing-index": "m21La-054",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Extensive reading of works by a few major poets. Emphasis on the evolution of each poet\\'s work and the questions of poetic influence and literary tradition. Instruction and practice in oral and written communication. Previously taught topics include Does Poetry Matter?, Poetry and the Science of Mind, Virgil, Spenser, Milton, and The Image:  Poetry, Photography, and Technologies of Vision. Enrollment limited to 12.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.704",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Studies in Film",
+            "id":        "21L.706",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.706",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Henderson, D.",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
+            "category":  "HASS Elective",
+            "area":      "Seminars",
+            "subarea":   "American Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.704",
-            "lecture-section-of": "21L.704",
-            "timeAndPlace":       "TR3.30-5 56-167"
-        },
-        {
-            "type":          "Class",
-            "label":         "Major Authors",
-            "id":            "21L.705",
-            "listing-index": "m21La-055",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Close study of a limited group of writers. Instruction and practice in oral and written communication. Previously taught topics include John Milton and his Age, Chaucer, Herman Melville, Toni Morrison, and Oscar Wilde and the \\'90s. Enrollment limited to 12.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.705",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Studies in Literary History",
+            "id":        "21L.709",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.709",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "prereq":        "SP.512",
-            "in-charge":     "Fuller, M.",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
+            "category":  "HASS Elective",
+            "area":      "Seminars",
+            "subarea":   "American Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.705",
-            "lecture-section-of": "21L.705",
-            "timeAndPlace":       "TR1.30-3 16-676"
-        },
-        {
-            "type":          "Class",
-            "label":         "Studies in Film",
-            "id":            "21L.706",
-            "listing-index": "m21La-056",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Intensive study of films of a particular period or genre, or films by a single director. Instruction and practice in oral and written communication. Meets with CMS.830, but assignments differ. Previously taught topics include Technologies of Seeing: Pre-Cinema to Early Cinema, Hollywood/Bollywood, Film Analysis and Shakespeare on Film.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.706",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Media in Cultural Context",
+            "id":        "21L.715",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.715",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Donaldson, P.",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
+            "category":  "HASS Elective",
+            "area":      "Seminars",
+            "subarea":   "American Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.706",
-            "lecture-section-of": "21L.706",
-            "timeAndPlace":       "TR3.30-5 1-273"
+            "type":      "Class",
+            "label":     "Special Topics:  Studies in Poetry - Latin",
+            "id":        "21L.993",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.993",
+            "offering":  "Currently Offered",
+            "area":      "Seminars",
+            "subarea":   "American Literature"
         },
         {
-            "type":           "LabSection",
-            "label":          "B0221L.706",
-            "lab-section-of": "21L.706",
-            "timeAndPlace":   "TR EVE (7-9 PM) 1-134"
-        },
-        {
-            "type":          "Class",
-            "label":         "Problems in Cultural Interpretation",
-            "id":            "21L.707",
-            "listing-index": "m21La-057",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Studies the relation between imaginative texts and the culture surrounding them. Emphasizes ways in which imaginative works absorb, reflect, and conflict with reigning attitudes and world views. Instruction and practice in oral and written communication. Previously taught topics include Women Reading/Women Writing, Poetry, Passion, and the Self, Arthurian Literature and the Colonization of the Celts, and Race, Religion and Identity in Early Modern America. Enrollment limited to 12.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.707",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
-            ],
-            "category":      "HASS Elective",
-            "in-charge":     "Raman, S.",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Literature and Technology",
-            "id":            "21L.708",
-            "listing-index": "m21La-058",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines the relationship between literary or artistic artifacts and the particular technologies through which they were produced and disseminated.  In what ways do the actual technical practices of composition affect the nature of what is produced?  How are artistic works influenced by the emergence of new technical possibilities and processes?  Topics studied vary from semester to semester.  Previously taught topics include the emergence of hypertexts and hyper-realities; Shakespeare across media; and the effect of the printing press on the development of Renaissance humanism.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.708",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
-            ],
-            "category":      "HASS Elective",
-            "in-charge":     "Fendt, K.",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Studies in Literary History",
-            "id":            "21L.709",
-            "listing-index": "m21La-059",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Close examination of the literature of a particular historical period. Syllabi vary. Instruction and practice in oral and written communication. Enrollment limited to 12.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.709",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Literature Pre-Thesis Tutorial",
+            "id":        "21L.THT",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.ThT",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "in-charge":     "Jackson, N.",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
+            "area":      "Seminars",
+            "subarea":   "American Literature"
         },
         {
-            "type":          "Class",
-            "label":         "Media in Cultural Context",
-            "id":            "21L.715",
-            "listing-index": "m21La-060",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Seminar designed to provide close case study examinations of specific media or media configurations and the larger social, cultural, economic, political, or technological contexts within which they operate. Subject organized around recurring themes in media history, specific genres or movements, specific media, or specific historical moments. Instruction and practice in written and oral communication provided. Previously taught topics include Gendered Genres: Horror and Maternal Melodramas, Comics, Cartoons, and Graphic Storytelling, and Exploring Children\\'s Culture.  Meets with CMS.871, but assignments differ. Limited to 12.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.715",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Literature Thesis",
+            "id":        "21L.THU",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.ThU",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "HASS Elective",
-            "prereq":        "SP.493",
-            "in-charge":     "Staff",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
+            "area":      "Seminars",
+            "subarea":   "American Literature"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0121L.715",
-            "lecture-section-of": "21L.715",
-            "timeAndPlace":       "M11-2 14E-310"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0221L.715",
-            "lab-section-of": "21L.715",
-            "timeAndPlace":   "W3.30-5 14E-310"
-        },
-        {
-            "type":          "Class",
-            "label":         "IAP Special Topics in Literature",
-            "id":            "21L.994",
-            "listing-index": "m21La-061",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Units vary depending on specific IAP subject content, number of class  meetings, readings and assignments. Maximum credit of 6 units. Consult detailed description of IAP listing for specific topic for any given IAP term. May be repeated for credit if the  topics are different. Note: students wishing to take this subject as P/D/F should register for 21L.995; contact instructor to determine assignment differences.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.994",
-            "joint":         false,
-            "semester":      "IAP",
-            "offering":      "Currently Offered",
-            "in-charge":     "TBD, Instructor",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "IAP Special Topics in Literature",
-            "id":            "21L.995",
-            "listing-index": "m21La-062",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.995",
-            "joint":         false,
-            "semester":      "IAP",
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "area":          "Seminars",
-            "subarea":       "American Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Topics in Film and Media",
-            "id":            "21L.996, 21L.997",
-            "listing-index": "m21La-063",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Open to qualified students who wish to pursue special projects with film and media studies faculty. Individual or small group projects encouraged. Usually limited to 6 credits. May be repeated for credit with additional permission of the instructor.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.996, 21L.997",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Jenkins, H.",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Special Topics in Literature",
-            "id":            "21L.998, 21L.999",
-            "listing-index": "m21La-064",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Open to qualified students who wish to pursue special studies or projects with members of the Literature faculty. Normal maximum is 6 units, though exceptional 9-unit projects are occasionally approved. May be repeated for credit with additional permission of instructor.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.998, 21L.999",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Staff",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Literature Pre-Thesis Tutorial",
-            "id":            "21L.ThT",
-            "listing-index": "m21La-065",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "1-0-5",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Definition of and early-stage work on thesis project leading to 21L.ThU. Taken during the first term of the student\\'s two-term commitment to the thesis project. Student works closely with an individual faculty tutor. Required for students in Course 21L when the thesis is a degree requirement.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.ThT",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Staff",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Literature Thesis",
-            "id":            "21L.ThU",
-            "listing-index": "m21La-066",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Completion of work on the senior major thesis under supervision of a faculty tutor. Includes oral presentation of thesis progress early in the term, assembling and revising the final text, and meeting at the close with a committee of faculty evaluators to discuss the successes and limitations of the project. Required for students in Course 21L when the thesis is a degree requirement.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.ThU",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Staff",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
-        },
-        {
-            "type":          "Class",
-            "label":         "Undergraduate Research",
-            "id":            "21L.UR",
-            "listing-index": "m21La-067",
-            "course":        "21L",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Individual participation in an ongoing research project.  For students in the Undergraduate Research Opportunities Program.",
-            "url":           "http://student.mit.edu/catalog/m21La.html#21L.UR",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Undergraduate Research",
+            "id":        "21L.UR",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m21La.html#21L.UR",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Buzard, Consult J.",
-            "area":          "Seminars",
-            "subarea":       "American Literature"
+            "area":      "Seminars",
+            "subarea":   "American Literature"
         }
     ]
 }

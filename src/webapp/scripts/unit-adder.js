@@ -3,18 +3,11 @@
  */
  
 function enableUnitAdder() {
- 	var collection = window.exhibit.getCollection("picked-sections");
+ 	var collection = window.exhibit.getCollection("picked-classes");
  	collection.addListener({ onItemsChanged: function() { 
-			var sections = collection.getRestrictedItems();
-			var currentSize = sections.size();
+			var classes = collection.getRestrictedItems();
+			var currentSize = classes.size();
 			if (currentSize > 0) {
-				var classes = new Exhibit.Set();
-				sections.visit(function(sectionID) {
-				   var type = database.getObject(sectionID, "type");
-					var classID = database.getObject(sectionID, sectionTypeToData[type].linkage);
-					classes.add(classID);
-				});
-				
 				var units = { lecture: 0, lab: 0, prep: 0, total: 0, string: "" };
 				var reported = { hours: 0, courses: 0 };
 				classes.visit(function(classID) {

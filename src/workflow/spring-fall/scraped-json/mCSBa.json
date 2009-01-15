@@ -1,102 +1,40 @@
 {
     "items": [
         {
-            "type":          "Class",
-            "label":         "Topics in Computational and Systems Biology",
-            "id":            "CSB.100",
-            "listing-index": "mCSBa-000",
-            "course":        "CSB",
-            "level":         "Grad",
-            "units":         "2-0-10",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Seminar based on research literature. Papers covered are selected to illustrate important problems and different approaches in the field of computational and systems biology, and provide students a framework from which to evaluate new developments. Required of, and restricted to, first-year CSB PhD students.",
-            "url":           "http://student.mit.edu/catalog/mCSBa.html#CSB.100J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "7.89J",
-            "in-charge":     "Burge, C."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01CSB.100",
-            "lecture-section-of": "CSB.100",
-            "timeAndPlace":       "F11-1 56-402"
-        },
-        {
-            "type":          "Class",
-            "label":         "Research Rotations in Computational and Systems Biology",
-            "id":            "CSB.110",
-            "listing-index": "mCSBa-001",
-            "course":        "CSB",
-            "level":         "Grad",
-            "units":         "0-12-0 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Students carry out research rotations with MIT faculty members or principal investigators working in the field of computational and systems biology.  Generally three one-month long rotations are pursued that together span theoretical and experimental approaches. Open only to CSB PhD students.",
-            "url":           "http://student.mit.edu/catalog/mCSBa.html#CSB.110",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Research Rotations in Computational and Systems Biology",
+            "id":        "CSB.110",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mCSBa.html#CSB.110",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff"
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Research Problems in Computational and Systems Biology",
-            "id":            "CSB.190",
-            "listing-index": "mCSBa-002",
-            "course":        "CSB",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Directed research in the field of computational and systems biology. Open only to CSB PhD students.",
-            "url":           "http://student.mit.edu/catalog/mCSBa.html#CSB.190",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Research Problems in Computational and Systems Biology",
+            "id":        "CSB.190",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mCSBa.html#CSB.190",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff"
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Graduate Thesis",
-            "id":            "CSB.THG",
-            "listing-index": "mCSBa-003",
-            "course":        "CSB",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/mCSBa.html#CSB.THG",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Graduate Thesis",
+            "id":        "CSB.THG",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mCSBa.html#CSB.THG",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit"
+            "category":  "H-LEVEL Grad Credit"
         }
     ]
 }

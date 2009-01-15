@@ -1,1055 +1,516 @@
 {
     "items": [
         {
-            "id":        "SP.100",
-            "area":      "Interphase: Pre-Freshman Summer Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Interphase",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.100",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SEM.XL1",
-            "area":      "Seminar XL",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Program XL: You Can Be a Success at MIT",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SEM.XL1",
-            "subarea":   undefined
-        },
-        {
             "id":        "SP.211",
-            "area":      "Experimental Study Group",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "ESG (Experimental Study Group)",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.211",
             "subarea":   undefined
         },
         {
             "id":        "SP.221",
-            "area":      "Experimental Study Group",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "ESG (Experimental Study Group)",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.221",
             "subarea":   undefined
         },
         {
             "id":        "SP.231",
-            "area":      "Experimental Study Group",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "ESG Undergraduate Teaching",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.231",
             "subarea":   undefined
         },
         {
             "id":        "SP.233",
-            "area":      "Experimental Study Group",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "ESG Special Topics",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.233",
             "subarea":   undefined
         },
         {
             "id":        "SP.2H1",
-            "area":      "Experimental Study Group",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  "HASS Elective",
             "has-final": false,
-            "type":      "Class",
-            "label":     "ESG-Humanities Elective",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.2H1",
+            "label":     "Philosophy of Love",
             "subarea":   undefined
         },
         {
             "id":        "SP.2H3",
-            "area":      "Experimental Study Group",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  [
+                "HASS-D 2",
+                "HASS Communication-Intensive"
+            ],
             "has-final": false,
-            "type":      "Class",
             "label":     "Ancient Philosophy and Mathematics",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.2H3",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.2UR",
-            "area":      "Experimental Study Group",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Undergraduate Research in ESG",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.2UR",
             "subarea":   undefined
         },
         {
             "id":        "SP.311",
-            "area":      "Concourse Program",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": true,
-            "type":      "Class",
             "label":     "Concourse Program",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.311",
             "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.311",
-            "timeAndPlace":       "MW10-11.30 16-160",
-            "type":               "LectureSection",
-            "label":              "L01SP.311"
-        },
-        {
-            "lecture-section-of": "SP.311",
-            "timeAndPlace":       "MW11.30-1 16-160",
-            "type":               "LectureSection",
-            "label":              "L02SP.311"
-        },
-        {
-            "lecture-section-of": "SP.311",
-            "timeAndPlace":       [
-                "TR1 16-160",
-                "F2 16-160"
-            ],
-            "type":               "LectureSection",
-            "label":              "L03SP.311"
-        },
-        {
-            "rec-section-of": "SP.311",
-            "timeAndPlace":   "MW2 16-160",
-            "type":           "RecitationSection",
-            "label":          "R04SP.311"
-        },
-        {
-            "rec-section-of": "SP.311",
-            "timeAndPlace":   "TR12 16-160",
-            "type":           "RecitationSection",
-            "label":          "R05SP.311"
-        },
-        {
-            "rec-section-of": "SP.311",
-            "timeAndPlace":   "TR2 16-160",
-            "type":           "RecitationSection",
-            "label":          "R06SP.311"
-        },
-        {
-            "rec-section-of": "SP.311",
-            "timeAndPlace":   "F10-11.30 16-160",
-            "type":           "RecitationSection",
-            "label":          "R07SP.311"
-        },
-        {
-            "rec-section-of": "SP.311",
-            "timeAndPlace":   "TR3 16-160",
-            "type":           "RecitationSection",
-            "label":          "R08SP.311"
-        },
-        {
-            "id":        "SP.313",
-            "area":      "Concourse Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Concourse Program for Upperclassmen",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.313",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.314",
-            "area":      "Concourse Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Love and Aggression",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.314",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.315",
-            "area":      "Concourse Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Concourse Program Undergraduate Teaching",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.315",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.317",
-            "area":      "Concourse Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Memory and Literature",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.317",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.318",
-            "area":      "Concourse Program",
-            "has-final": true,
-            "type":      "Class",
-            "label":     "Introduction to Psychology",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.318",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.318",
-            "timeAndPlace":       [
-                "T9-11 16-160",
-                "R10 16-160"
-            ],
-            "type":               "LectureSection",
-            "label":              "L01SP.318"
-        },
-        {
-            "rec-section-of": "SP.318",
-            "timeAndPlace":   "R9 16-160",
-            "type":           "RecitationSection",
-            "label":          "R02SP.318"
         },
         {
             "id":        "SP.321",
-            "area":      "Concourse Program",
-            "has-final": false,
-            "type":      "Class",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
+            "has-final": true,
             "label":     "Madness and Literature",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.321",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.322",
-            "area":      "Concourse Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Prohibition and Permission",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.322",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.330",
-            "area":      "Concourse Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Psychology and Free Will",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.330",
             "subarea":   undefined
         },
         {
             "id":        "SP.343",
-            "area":      "Concourse Program",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Concourse Special Topics",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.343",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.345, SP.346, SP.347",
-            "area":      "Concourse Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Concourse Special Topics for IAP",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.345, SP.346, SP.347",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.3UR",
-            "area":      "Concourse Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Undergraduate Research Opportunities in Concourse",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.3UR",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.35UR",
-            "area":      "Terrascope",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Undergraduate Research in Terrascope",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.35UR",
             "subarea":   undefined
         },
         {
             "id":        "SP.360",
-            "area":      "Terrascope",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
             "has-final": false,
-            "type":      "Class",
             "label":     "Terrascope Radio",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.360",
             "subarea":   undefined
         },
         {
             "id":        "SP.702",
-            "area":      "Edgerton Center",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Introduction to Digital Electronics",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.702J",
             "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.702",
-            "timeAndPlace":       "M EVE (7-10 PM) 4-402",
-            "type":               "LectureSection",
-            "label":              "L01SP.702"
         },
         {
             "id":        "SP.705",
-            "area":      "Edgerton Center",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Electronics Project Laboratory",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.705J",
             "subarea":   undefined
         },
         {
-            "lecture-section-of": "SP.705",
-            "timeAndPlace":       "M EVE (7-10 PM) 4-409",
-            "type":               "LectureSection",
-            "label":              "L01SP.705"
-        },
-        {
-            "id":        "SP.710?SP.715",
-            "area":      "Edgerton Center",
+            "id":        "SP.710-SP.715",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Special Topics at the Edgerton Center",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.710?SP.715",
             "subarea":   undefined
         },
         {
-            "lecture-section-of": "SP.710?SP.715",
-            "timeAndPlace":       "F1-3 (ENDS OCT 24) 4-409",
-            "type":               "LectureSection",
-            "label":              "L01SP.710?SP.715"
-        },
-        {
-            "lecture-section-of": "SP.710?SP.715",
-            "timeAndPlace":       "F1-3 (BEGINS OCT 27) 4-409",
-            "type":               "LectureSection",
-            "label":              "L02SP.710?SP.715"
-        },
-        {
-            "id":        "SP.721",
-            "area":      "Edgerton Center",
+            "id":        "SP.717-SP.719",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
-            "label":     "D-Lab: Development",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.721J",
+            "label":     "Special Topics at the Edgerton Center",
             "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.721",
-            "timeAndPlace":       "MW3.30-5 4-149",
-            "type":               "LectureSection",
-            "label":              "L01SP.721"
-        },
-        {
-            "rec-section-of": "SP.721",
-            "timeAndPlace":   "F3.30-5 4-149",
-            "type":           "RecitationSection",
-            "label":          "R02SP.721"
         },
         {
             "id":        "SP.722",
-            "area":      "Edgerton Center",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "D-Lab: Design",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.722J",
             "subarea":   undefined
         },
         {
             "id":        "SP.723",
-            "area":      "Edgerton Center",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "D-Lab: Disseminating Innovations for the Common Good",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.723",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.724",
-            "area":      "Edgerton Center",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Prototype to Product",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.724",
             "subarea":   undefined
         },
         {
             "id":        "SP.731",
-            "area":      "Edgerton Center",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Edgerton Center Undergraduate Teaching",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.731",
             "subarea":   undefined
         },
         {
             "id":        "SP.732",
-            "area":      "Edgerton Center",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Edgerton Center Graduate Teaching",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.732",
             "subarea":   undefined
         },
         {
             "id":        "SP.747",
-            "area":      "Edgerton Center",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Creative Imaging",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.747",
             "subarea":   undefined
-        },
-        {
-            "id":        "SP.757",
-            "area":      "Edgerton Center",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Digital and Darkroom Imaging",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.757",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.757",
-            "timeAndPlace":       "R3-5 4-402",
-            "type":               "LectureSection",
-            "label":              "L01SP.757"
         },
         {
             "id":        "SP.779",
-            "area":      "Edgerton Center",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Advanced Toy Product Design",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.779",
             "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.779",
-            "timeAndPlace":       "TR1 35-307",
-            "type":               "LectureSection",
-            "label":              "L01SP.779"
-        },
-        {
-            "id":        "SP.782",
-            "area":      "Edgerton Center",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Digital Video Production: Documentary",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.782",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.782",
-            "timeAndPlace":       "F3-5 4-402",
-            "type":               "LectureSection",
-            "label":              "L01SP.782"
         },
         {
             "id":        "SP.784",
-            "area":      "Edgerton Center",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Wheelchair Design in Developing Countries",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.784",
             "subarea":   undefined
         },
         {
             "id":        "SP.785",
-            "area":      "Edgerton Center",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Digital Video Post-Production",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.785",
+            "subarea":   undefined
+        },
+        {
+            "id":        "SP.792",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
+            "has-final": false,
+            "label":     "X PRIZE Workshop: Grand Challenges in Health Care",
             "subarea":   undefined
         },
         {
             "id":        "SP.7UR",
-            "area":      "Edgerton Center",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Undergraduate Research",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.7UR",
             "subarea":   undefined
         },
         {
             "id":        "SP.800",
-            "area":      "Freshman/Alumni Summer Internship Program",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Freshman/Alumni Summer Internship Program",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.800",
             "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.800",
-            "timeAndPlace":       [
-            ],
-            "type":               "LectureSection",
-            "label":              "L01SP.800"
         },
         {
             "id":        "SP.801",
-            "area":      "Freshman/Alumni Summer Internship Program",
+            "offering":  "Currently Offered",
+            "area":      undefined,
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Freshman/Alumni Summer Internship Program II",
-            "url":       "http://student.mit.edu/catalog/mSPa.html#SP.801",
             "subarea":   undefined
         },
         {
-            "lecture-section-of": "SP.801",
-            "timeAndPlace":       [
-            ],
-            "type":               "LectureSection",
-            "label":              "L01SP.801"
-        },
-        {
             "id":        "SP.400",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
             "has-final": false,
-            "type":      "Class",
-            "label":     "Special Topics in Women\\'s Studies Seminar",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.400",
+            "label":     "Special Topics in Women\\'s and Gender Studies Seminar",
             "subarea":   undefined
         },
         {
             "id":        "SP.401",
+            "offering":  "Currently Offered",
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
             "has-final": false,
-            "type":      "Class",
             "label":     "Introduction to Women\\'s and Gender Studies",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.401",
             "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.401",
-            "timeAndPlace":       "TR3-4.30 5-134",
-            "type":               "LectureSection",
-            "label":              "L01SP.401"
-        },
-        {
-            "id":        "SP.404",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Special Topics in Women\\'s Studies",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.404",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.406",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Sexual and Gender Identities",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.406",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.406",
-            "timeAndPlace":       "T EVE (7-10 PM) 2-151",
-            "type":               "LectureSection",
-            "label":              "L01SP.406"
         },
         {
             "id":        "SP.409",
+            "offering":  "Currently Offered",
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS-D 4",
+                "HASS Communication-Intensive"
+            ],
             "has-final": false,
-            "type":      "Class",
             "label":     "Women and Global Activism in Media and Politics",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.409",
             "subarea":   undefined
-        },
-        {
-            "id":        "SP.410",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Masculinity in Popular Culture",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.410J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.414",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Gender and Media Studies",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.414",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.414",
-            "timeAndPlace":       "W2-5 1-132",
-            "type":               "LectureSection",
-            "label":              "L01SP.414"
-        },
-        {
-            "id":        "SP.427",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Women in the Developing World",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.427",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.427",
-            "timeAndPlace":       "T EVE (7-10 PM) 14N-313",
-            "type":               "LectureSection",
-            "label":              "L01SP.427"
         },
         {
             "id":        "SP.448",
+            "offering":  "Currently Offered",
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
             "has-final": false,
-            "type":      "Class",
             "label":     "Gender and Representation of Asian Women",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.448J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.454",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Identity and Difference",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.454J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.455",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Gender, Sexuality, and Society",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.455J",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.455",
-            "timeAndPlace":       "TR1-2.30 16-220",
-            "type":               "LectureSection",
-            "label":              "L01SP.455"
-        },
-        {
-            "id":        "SP.457",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Gender, Power, and International Development",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.457J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.459",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Women in South Asia from 1800 to Present",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.459J",
             "subarea":   undefined
         },
         {
             "id":        "SP.461",
+            "offering":  "Currently Offered",
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS-D 1",
+                "HASS Communication-Intensive"
+            ],
             "has-final": false,
-            "type":      "Class",
             "label":     "International Women\\'s Voices",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.461J",
             "subarea":   undefined
         },
         {
             "id":        "SP.466",
+            "offering":  [
+                "Not offered next year",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
             "has-final": false,
-            "type":      "Class",
             "label":     "Topics in Modern French Literature",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.466",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.466",
-            "timeAndPlace":       "MW3-5 16-628",
-            "type":               "LectureSection",
-            "label":              "L01SP.466"
-        },
-        {
-            "id":        "SP.467",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Reproductive Politics and Technologies",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.467J",
             "subarea":   undefined
         },
         {
             "id":        "SP.484",
+            "offering":  "Currently Offered",
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
             "has-final": false,
-            "type":      "Class",
-            "label":     "The Anthropology of Computing and Cybercultures",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.484J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.492",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Popular Narrative",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.492",
+            "label":     "The Anthropology of Computing: Digital Cultures",
             "subarea":   undefined
         },
         {
             "id":        "SP.493",
+            "offering":  [
+                "Not offered this year",
+                "Can be repeated for credit"
+            ],
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
             "has-final": false,
-            "type":      "Class",
             "label":     "Media in Cultural Context",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.493",
             "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.493",
-            "timeAndPlace":       "M11-2 14E-310",
-            "type":               "LectureSection",
-            "label":              "L01SP.493"
-        },
-        {
-            "timeAndPlace":   "W3.30-5 14E-310",
-            "type":           "LabSection",
-            "label":          "B02SP.493",
-            "lab-section-of": "SP.493"
         },
         {
             "id":        "SP.510",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
             "has-final": false,
-            "type":      "Class",
             "label":     "Literary Interpretation",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.510",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.511",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Studies in Poetry",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.511",
             "subarea":   undefined
         },
         {
             "id":        "SP.512",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
             "has-final": false,
-            "type":      "Class",
             "label":     "Major Authors",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.512",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.512",
-            "timeAndPlace":       "TR1.30-3 16-676",
-            "type":               "LectureSection",
-            "label":              "L01SP.512"
-        },
-        {
-            "id":        "SP.513",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Jane Austen",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.513J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.514",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Medieval Literature",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.514",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.514",
-            "timeAndPlace":       "TR3.30-5 14N-325",
-            "type":               "LectureSection",
-            "label":              "L01SP.514"
-        },
-        {
-            "id":        "SP.515",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Studies in Fiction",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.515",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.516",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Problems in Cultural Interpretation",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.516",
             "subarea":   undefined
         },
         {
             "id":        "SP.517",
+            "offering":  "Not offered this year",
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
             "has-final": false,
-            "type":      "Class",
             "label":     "American Authors",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.517",
             "subarea":   undefined
-        },
-        {
-            "id":        "SP.518",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Race and Identity in American Literature",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.518J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.574",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Contemporary US Women of Color: Writing and Reading Short Stories",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.574J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.575",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Writing About Race",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.575J",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.575",
-            "timeAndPlace":       "MW1-2.30 2-151",
-            "type":               "LectureSection",
-            "label":              "L01SP.575"
         },
         {
             "id":        "SP.576",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
             "has-final": false,
-            "type":      "Class",
             "label":     "Advanced Essay Workshop",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.576",
             "subarea":   undefined
         },
         {
             "id":        "SP.591",
+            "offering":  "Currently Offered",
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS-D 3",
+                "HASS Communication-Intensive"
+            ],
             "has-final": false,
-            "type":      "Class",
             "label":     "Traditions in American Concert Dance: Gender and Autobiography",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.591J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.595",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Theater and Cultural Diversity in the US",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.595J",
             "subarea":   undefined
         },
         {
             "id":        "SP.601",
+            "offering":  "Currently Offered",
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
             "has-final": false,
-            "type":      "Class",
             "label":     "Feminist Political Thought",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.601J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.603",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Race and Gender in Asian America",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.603J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.607",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Gender and the Law in US History",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.607J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.608",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Asian Performance Cultures",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.608J",
             "subarea":   undefined
         },
         {
             "id":        "SP.610",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
             "has-final": false,
-            "type":      "Class",
             "label":     "Gender and Work: From the Middle Ages to the Contemporary World",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.610J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.620",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Medicine, Religion and Politics in Africa and the African Diaspora",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.620J",
             "subarea":   undefined
         },
         {
             "id":        "SP.621",
+            "offering":  "Currently Offered",
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  [
+                "HASS Elective",
+                "HASS Communication-Intensive"
+            ],
             "has-final": false,
-            "type":      "Class",
             "label":     "Violence, Human Rights, and Justice",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.621J",
             "subarea":   undefined
-        },
-        {
-            "id":        "SP.622",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Dilemmas in Biomedical Ethics: Playing God or Doing Good?",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.622J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.640",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "The Science of Race, Sex, and Gender",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.640J",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.640",
-            "timeAndPlace":       "TR2.30-4 2-151",
-            "type":               "LectureSection",
-            "label":              "L01SP.640"
         },
         {
             "id":        "SP.650",
+            "offering":  "Currently Offered",
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "HASS Elective",
             "has-final": true,
-            "type":      "Class",
             "label":     "Psychology of Gender and Race",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.650J",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.650",
-            "timeAndPlace":       "R EVE (7-10 PM) 14E-310",
-            "type":               "LectureSection",
-            "label":              "L01SP.650"
-        },
-        {
-            "id":        "SP.680",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "The Economic History of Work and the Family",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.680",
             "subarea":   undefined
         },
         {
             "id":        "SP.690",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Workshop for Dissertation Writers in Women\\'s and Gender Studies",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.690",
             "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.690",
-            "timeAndPlace":       "T1-4 4-144",
-            "type":               "LectureSection",
-            "label":              "L01SP.690"
         },
         {
             "id":        "SP.691",
+            "offering":  [
+                "Not offered this year",
+                "Can be repeated for credit"
+            ],
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Studies in Women\\'s Life Narratives",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.691",
             "subarea":   undefined
-        },
-        {
-            "id":        "SP.692",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Seminar in Feminist Issues",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.692",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "SP.692",
-            "timeAndPlace":       "W EVE (5.30-9 PM) 32-144",
-            "type":               "LectureSection",
-            "label":              "L01SP.692"
         },
         {
             "id":        "SP.693",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Feminist Inquiry: Strategies for Effective Scholarship",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.693",
             "subarea":   undefined
         },
         {
             "id":        "SP.694",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Women\\'s and Gender Studies Program",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Issues of Representation: Feminist Theory",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.694",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.695",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Interdisciplinary Area Studies in Feminist Theories",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.695",
-            "subarea":   undefined
-        },
-        {
-            "id":        "SP.4UR",
-            "area":      "Women\\'s and Gender Studies Program",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Women\\'s Studies Undergraduate Research",
-            "url":       "http://student.mit.edu/catalog/mSPb.html#SP.4UR",
             "subarea":   undefined
         }
     ]

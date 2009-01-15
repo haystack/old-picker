@@ -1,2800 +1,691 @@
 {
     "items": [
         {
-            "type":          "Class",
-            "label":         "Introductory Biology",
-            "id":            "7.012",
-            "listing-index": "m7a-000",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "All three subjects cover the same core material, which includes the fundamental principles of biochemistry, genetics, molecular biology, and cell biology. In addition, each version of the subject has its own distinctive material, described below. The core material focuses on function at a molecular level: the structure and regulation of genes, and the structure and synthesis of proteins; how these molecules are integrated into cells; how cells are integrated into multicellular systems and organisms; and computational and genomic approaches to biology. 7.012 and 7.013 are similar, as both emphasize current issues in human biology. 7.012 focuses slightly more on genetic approaches, 7.013 on development and neurobiology. Fall Term: 7.012. Exploration into areas of current research in cell biology, immunology, neurobiology, human genetics, developmental biology, and evolution. Spring Term: 7.013. Application of the fundamental principles toward an understanding of human biology. Topics include genetics, cell biology, molecular biology, disease (infectious agents, inherited diseases and cancer), developmental biology, neurobiology and evolution. Spring Term: 7.014. Application of the fundamental principles toward an understanding of microorganisms as geochemical agents responsible for the evolution and renewal of the biosphere and of their role in human health and disease. Topics include biogeochemical cycles; population growth; ecosystem ecology; microbial diversity.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.012",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      [
+            "type":      "Class",
+            "label":     "Introductory Biology",
+            "id":        "7.012",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.012",
+            "offering":  "Currently Offered",
+            "category":  [
                 "Biology",
                 "Biology",
                 "Biology"
             ],
-            "prereq":        [
-                "7.013",
-                "7.014",
-                "7.012",
-                "7.014",
-                "7.012",
-                "7.013"
-            ],
-            "in-charge":     [
-                "Jacks, 7.013: T.",
-                "Walker, H. Sive; 7.014 G.C.",
-                "Chisholm, S.W."
-            ],
-            "area":          "Undergraduate Subjects"
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L017.012",
-            "lecture-section-of": "7.012",
-            "timeAndPlace":       "MWF10 10-250"
+            "type":      "Class",
+            "label":     "Introduction to Experimental Biology and Communication",
+            "id":        "7.02",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.02",
+            "offering":  "Currently Offered",
+            "category":  "Institute LAB",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R027.012",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "MW1 26-204"
+            "type":      "Class",
+            "label":     "Genetics",
+            "id":        "7.03",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.03",
+            "offering":  "Currently Offered",
+            "category":  "Restricted Electives in Science and Technology",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R037.012",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "MW2 26-204"
+            "type":      "Class",
+            "label":     "General Biochemistry",
+            "id":        "7.05",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.05",
+            "offering":  "Currently Offered",
+            "category":  "Restricted Electives in Science and Technology",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R047.012",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "MW3 26-210"
+            "type":      "Class",
+            "label":     "Cell Biology",
+            "id":        "7.06",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.06",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R057.012",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR9 26-210"
+            "type":      "Class",
+            "label":     "Biological Chemistry II",
+            "id":        "7.08",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.08J",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R067.012",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR10 26-210"
+            "type":      "Class",
+            "label":     "Physical Chemistry of Biomolecular Systems",
+            "id":        "7.10",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.10J",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R077.012",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR11 26-204"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R087.012",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR12 26-210"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R097.012",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR1 26-204"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R107.012",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR2 26-210"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R117.012",
-            "rec-section-of": "7.012",
-            "timeAndPlace":   "TR3 26-204"
-        },
-        {
-            "type":          "Class",
-            "label":         "Introduction to Experimental Biology and Communication",
-            "id":            "7.02",
-            "listing-index": "m7a-001",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-8-6",
-            "total-units":   18,
-            "has-final":     true,
-            "description":   "An introduction to the experimental concepts and methods of molecular biology, biochemistry, and genetic analysis. Emphasis on experimental design, critical data analysis, and the development of written communications skills. Twelve units may be applied to the General Institute Laboratory Requirement. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.02",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      "Institute LAB",
-            "prereq":        "10.702",
-            "in-charge":     [
-                "Kim, D.",
-                "Schwartz, T."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.02",
-            "lecture-section-of": "7.02",
-            "timeAndPlace":       "TR11 (1ST MTG 9/4 MANDATORY) 54-100"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B027.02",
-            "lab-section-of": "7.02",
-            "timeAndPlace":   "TR1-5 68-074"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B037.02",
-            "lab-section-of": "7.02",
-            "timeAndPlace":   "WF1-5 68-074"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R047.02",
-            "rec-section-of": "7.02",
-            "timeAndPlace":   "M9-11 E53-220"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R057.02",
-            "rec-section-of": "7.02",
-            "timeAndPlace":   "T9-11 E53-220"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R067.02",
-            "rec-section-of": "7.02",
-            "timeAndPlace":   "W9-11 E53-220"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R077.02",
-            "rec-section-of": "7.02",
-            "timeAndPlace":   "M1-3 14-0637"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R087.02",
-            "rec-section-of": "7.02",
-            "timeAndPlace":   "T1-3 14-0637"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R097.02",
-            "rec-section-of": "7.02",
-            "timeAndPlace":   "W1-3 14-0637"
-        },
-        {
-            "type":          "Class",
-            "label":         "Genetics",
-            "id":            "7.03",
-            "listing-index": "m7a-002",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "The principles of genetics with application to the study of biological function at the level of molecules, cells, and multicellular organisms, including humans. Structure and function of genes, chromosomes, and genomes. Biological variation resulting from recombination, mutation, and selection. Population genetics. Use of genetic methods to analyze protein function, gene regulation, and inherited disease.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.03",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      "Restricted Electives in Science and Technology",
-            "in-charge":     [
-                "Kaiser, C.",
-                "Regev, A."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.03",
-            "lecture-section-of": "7.03",
-            "timeAndPlace":       "MWF11 54-100"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R027.03",
-            "rec-section-of": "7.03",
-            "timeAndPlace":   "M1 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R037.03",
-            "rec-section-of": "7.03",
-            "timeAndPlace":   "M2 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R047.03",
-            "rec-section-of": "7.03",
-            "timeAndPlace":   "M3 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R057.03",
-            "rec-section-of": "7.03",
-            "timeAndPlace":   "M4 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R067.03",
-            "rec-section-of": "7.03",
-            "timeAndPlace":   "T10 3-343"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R077.03",
-            "rec-section-of": "7.03",
-            "timeAndPlace":   "T11 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R087.03",
-            "rec-section-of": "7.03",
-            "timeAndPlace":   "T12 26-322"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R097.03",
-            "rec-section-of": "7.03",
-            "timeAndPlace":   "T1 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R107.03",
-            "rec-section-of": "7.03",
-            "timeAndPlace":   "T2 26-310"
-        },
-        {
-            "type":          "Class",
-            "label":         "General Biochemistry",
-            "id":            "7.05",
-            "listing-index": "m7a-003",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Contributions of biochemistry toward an understanding of the structure and functioning of organisms, tissues, and cells. Chemistry and functions of constituents of cells and tissues and the chemical and physical-chemical basis for the structures of nucleic acids, proteins, and carbohydrates. General metabolism of carbohydrates, fats, and nitrogen-containing materials such as amino acids, proteins, and related compounds.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.05",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "Restricted Electives in Science and Technology",
-            "prereq":        [
-                "5.12",
-                "5.07"
-            ],
-            "in-charge":     [
-                "Yaffe, M.",
-                "Bartel, D.",
-                "Brown, G. M.",
-                "Chang, P."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Cell Biology",
-            "id":            "7.06",
-            "listing-index": "m7a-004",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Biology of cells of higher organisms: structure, function, and biosynthesis of cellular membranes and organelles; cell growth and oncogenic transformation; transport, receptors, and cell signaling; the cytoskeleton, the extracellular matrix, and cell movements; cell division and cell cycle.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.06",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.03",
-                "7.05"
-            ],
-            "in-charge":     [
-                "Cheeseman, I.",
-                "Orr-Weaver, T.",
-                "Ploegh, H."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.06",
-            "lecture-section-of": "7.06",
-            "timeAndPlace":       "MW9.30-11 4-370"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R027.06",
-            "rec-section-of": "7.06",
-            "timeAndPlace":   "F11 26-204"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R037.06",
-            "rec-section-of": "7.06",
-            "timeAndPlace":   "F12 26-204"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R047.06",
-            "rec-section-of": "7.06",
-            "timeAndPlace":   "F1 26-204"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R057.06",
-            "rec-section-of": "7.06",
-            "timeAndPlace":   "F2 26-204"
-        },
-        {
-            "type":          "Class",
-            "label":         "Biological Chemistry II",
-            "id":            "7.08",
-            "listing-index": "m7a-005",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "More advanced treatment of biochemical mechanisms that underlie biological processes.  Topics include macromolecular machines such as the ribosome, the proteosome, fatty acid synthases as a paradigm for polyketide synthases and non-ribosomal polypeptide synthases, and polymerases. Emphasis is on experimental methods used to unravel these processes and how these processes fit into the cellular context and coordinate regulation.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.08J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.08J",
-                "7.80",
-                "5.12",
-                "5.07",
-                "7.05"
-            ],
-            "in-charge":     "Ting, A. Y.",
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Physical Chemistry of Biomolecular Systems",
-            "id":            "7.10",
-            "listing-index": "m7a-006",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Provides a quantitative approach to understanding the physical and chemical laws that govern the behavior of biological macromolecules.  Basic thermodynamics, state of a system, state variables. Work, heat, first, second, and third laws of thermodynamics.  Entropy and its statistical basis, free energy representations, Legendre transforms, Maxwell relations, Gibbs function, Boltzmann distribution and partition functions.  Equilibrium properties of macroscopic and microscopic systems; macromolecular structure and interactions in solution. Driving forces for molecular self-assembly. Binding, cooperativity, solvation, and titration of macromolecules. Applications of introductory quantum mechanics to spectroscopy.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.10J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "20.111J",
-                "20.110"
-            ],
-            "in-charge":     "Yaffe, M.",
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Biology Teaching",
-            "id":            "7.11",
-            "listing-index": "m7a-007",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.11",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Biology Teaching",
+            "id":        "7.11",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.11",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "area":          "Undergraduate Subjects"
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Experimental Microbial Genetics",
-            "id":            "7.13",
-            "listing-index": "m7a-008",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-16-10",
-            "total-units":   30,
-            "has-final":     false,
-            "description":   "physiology including survival in stationary phase, antibiotic resistance, phase variation, toxin production, and secondary metabolite production.  Projects aim to discover the molecular basis for these processes using both classical and cutting-edge techniques.  These include plasmid manipulation, genetic complementation, mutagenesis, PCR, DNA sequencing, enzyme assays, and gene expression studies. Instruction and practice in written and oral communication are also emphasized.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.13",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.02",
-                "7.03",
-                "7.05"
-            ],
-            "in-charge":     [
-                "Laub, M.",
-                "Newman, D."
-            ],
-            "area":          "Undergraduate Subjects"
+            "type":      "Class",
+            "label":     "Experimental Molecular Biology: Biotechnology II",
+            "id":        "7.16",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.16",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L017.13",
-            "lecture-section-of": "7.13",
-            "timeAndPlace":       "MTWRF1 68-121"
+            "type":      "Class",
+            "label":     "Experimental Molecular Biology: Biotechnology III",
+            "id":        "7.17",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.17",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":           "LabSection",
-            "label":          "B027.13",
-            "lab-section-of": "7.13",
-            "timeAndPlace":   "MTWRF2-5 68-089"
+            "type":      "Class",
+            "label":     "Topics in Experimental Biology",
+            "id":        "7.18",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.18",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Experimental Molecular Biology: Biotechnology II",
-            "id":            "7.16",
-            "listing-index": "m7a-009",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-16-10",
-            "total-units":   30,
-            "has-final":     false,
-            "description":   "This course applies emerging high-throughput genetic approaches to study the response of mammalian cells to cytotoxic or infectious stimuli. RNA interference (RNAi) screening, microarray expression analysis, and massively parallel sequencing will be used to examine the genetics of cellular pro-survival and pro-death pathways.  Teams of two or three students will design and carry out experiments to address questions regarding the mechanisms that govern the regulation and execution of cellular responses. Some projects involve the use of DNA damaging agents or other cytotoxic drugs to help understand the pathways that control a cell\\'s response to chemotherapy. Other projects will examine the genes that underlie the cellular response to pathogens. Instruction and practice in written and oral communication provided.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.16",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.02",
-                "7.03",
-                "7.05"
-            ],
-            "in-charge":     [
-                "Hemann, M.",
-                "Saeij, J."
-            ],
-            "area":          "Undergraduate Subjects"
+            "type":      "Class",
+            "label":     "Communication in Experimental Biology",
+            "id":        "7.19",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.19",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Experimental Molecular Biology: Biotechnology III",
-            "id":            "7.17",
-            "listing-index": "m7a-010",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-16-10",
-            "total-units":   30,
-            "has-final":     false,
-            "description":   "Cell and molecular biology lab that uses recombinant DNA methods and optical microscopy to study cellular mechanisms in eukaryotic cells. Projects focus on mechanisms of intracellular protein translocation and cytoskeletal rearrangement. Students explore the recombinant fluorescent proteins using imaging techniques and describe the effects of the expressed protein on cell motility, the cell cycle, or the organization and function of cytoplasmic organelles and the cyoskeleton. Projects involve many techniques, such as DNA sequence analysis, RNAi, RT-PCR, and Western blotting. Instruction and practice in written and oral communication provided.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.17",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.02",
-                "7.03",
-                "7.05"
-            ],
-            "in-charge":     [
-                "Gertler, F.",
-                "Pardue, M. L."
-            ],
-            "area":          "Undergraduate Subjects"
+            "type":      "Class",
+            "label":     "General Immunology",
+            "id":        "7.23",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.23",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in Experimental Biology",
-            "id":            "7.18",
-            "listing-index": "m7a-011",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-16-10",
-            "total-units":   30,
-            "has-final":     false,
-            "description":   "Independent experimental study under the direction of a member of the Biology Department faculty. Allows students with a strong interest in independent research to fulfill the project laboratory requirement for the Biology Department Program in the context of a research laboratory at MIT. The research should be a continuation of a previous project. Written and oral presentation of the research results is required. Journal club discussions are used to help students evaluate and write scientific papers. Instruction and practice in written and oral communication is provided. Permission of the faculty research supervisor and the Biology Education Office must be obtained in advance.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.18",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.19",
-                "7.02",
-                "7.03",
-                "7.05",
-                "7.19"
-            ],
-            "in-charge":     [
-                "Chen, J.",
-                "Lindquist, S."
-            ],
-            "area":          "Undergraduate Subjects"
+            "type":      "Class",
+            "label":     "Biological Regulatory Mechanisms",
+            "id":        "7.25",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.25",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L017.18",
-            "lecture-section-of": "7.18",
-            "timeAndPlace":       "TR2-4 68-374"
+            "type":      "Class",
+            "label":     "Principles of Human Disease",
+            "id":        "7.27",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.27",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Communication in Experimental Biology",
-            "id":            "7.19",
-            "listing-index": "m7a-012",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-4-4",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Students carry out independent literature research. Meets with the seminar and writing tutorial portions of 7.18. Journal club discussions are used to help students evaluate and write scientific papers. Instruction and practice in written and oral communication is provided. Permission of the instructor and the Biology Education Office must be obtained in advance.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.19",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.18",
-                "7.02",
-                "7.03",
-                "7.05",
-                "7.18"
-            ],
-            "in-charge":     [
-                "Chen, J.",
-                "Lindquist, S."
-            ],
-            "area":          "Undergraduate Subjects"
+            "type":      "Class",
+            "label":     "Molecular Biology",
+            "id":        "7.28",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.28",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L017.19",
-            "lecture-section-of": "7.19",
-            "timeAndPlace":       "TR2-4 68-374"
+            "type":      "Class",
+            "label":     "Cellular Neurobiology",
+            "id":        "7.29",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.29J",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Human Physiology",
-            "id":            "7.20",
-            "listing-index": "m7a-013",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Comprehensive subject in human physiology, emphasizing the molecular basis and applied aspects of organ function and regulation in health and disease. Includes a review of cell structure and function, as well as the mechanisms by which the endocrine and nervous systems integrate cellular metabolism. Special emphasis on examining the cardiovascular, pulmonary, gastrointestinal, and renal systems.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.20J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        "7.05",
-            "in-charge":     [
-                "Krieger, M.",
-                "Sabatini, D."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.20",
-            "lecture-section-of": "7.20",
-            "timeAndPlace":       "TR9-11 E25-111"
-        },
-        {
-            "type":          "Class",
-            "label":         "Microbial Physiology",
-            "id":            "7.21",
-            "listing-index": "m7a-014",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Biochemical properties of bacteria and other microorganisms that enable them to grow under a variety of conditions. Interaction between bacteria and bacteriophages. Genetic and metabolic regulation of enzyme action and enzyme formation. Structure and function of components of the bacterial cell envelope. Protein secretion with a special emphasis on its various roles in pathogenesis. Additional topics include bioenergetics, symbiosis, quorum sensing, global responses to DNA damage, and biofilms.  Students taking the graduate version are expected to explore the subject in greater depth.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.21",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.62",
-                "7.03",
-                "7.05"
-            ],
-            "in-charge":     [
-                "Walker, G. C.",
-                "Magasanik, B.",
-                "Newman, D."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.21",
-            "lecture-section-of": "7.21",
-            "timeAndPlace":       "MW1-3 66-168"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R027.21",
-            "rec-section-of": "7.21",
-            "timeAndPlace":   "F1 66-168"
-        },
-        {
-            "type":          "Class",
-            "label":         "Development and Evolution",
-            "id":            "7.22",
-            "listing-index": "m7a-015",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Covers animal development and evolution.  Topics include origins of multicellularity, the germline, formation of early body plans, cell type determination, organogenesis, morphogenesis, stem cells, cloning, evolution of developmental diversity and processes, developmental genetics, and issues in human development.  Experimental approaches to problems of development and evolution, including the study of vertebrate (mouse, chick, frog, fish) and invertebrate (fly, worm) models, will be covered.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.22",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.03",
-                "7.06"
-            ],
-            "in-charge":     [
-                "Constantine-Paton, M.",
-                "Reddien, P."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.22",
-            "lecture-section-of": "7.22",
-            "timeAndPlace":       "TR11.30-1 26-302"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R027.22",
-            "rec-section-of": "7.22",
-            "timeAndPlace":   "R EVE (7 PM) 26-302"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R037.22",
-            "rec-section-of": "7.22",
-            "timeAndPlace":   "F11 26-302"
-        },
-        {
-            "type":          "Class",
-            "label":         "General Immunology",
-            "id":            "7.23",
-            "listing-index": "m7a-016",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "A comprehensive survey of molecular, genetic, and cellular aspects of the immune system. Topics include innate and adaptive immunity; cells and organs of the immune system; immunoglobulin, T cell receptor, and major histocompatibility complex (MHC) genes and structure; development and functions of B and T lymphocytes; immune responses to infections and tumors; hypersensitivity, autoimmunity, and immunodeficiencies. Particular attention is paid to the development and function of the immune system as a whole as studied by modern methods and techniques.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.23",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.63",
-                "7.03",
-                "7.05",
-                "7.06"
-            ],
-            "in-charge":     [
-                "Chen, J.",
-                "Ploegh, H.",
-                "Steiner, L."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "The Protein Folding Problem",
-            "id":            "7.24",
-            "listing-index": "m7a-017",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-2-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.24",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "prereq":        [
-                "7.05",
-                "5.07"
-            ],
-            "in-charge":     "King, J. A.",
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Biological Regulatory Mechanisms",
-            "id":            "7.25",
-            "listing-index": "m7a-018",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Cells utilize a variety of mechanisms to regulate gene expression, growth, development, and behavior in response to both external and internal conditions. Examines basic principles of biological regulation, focusing on several well-studied examples, usually drawn from microbial species. Reading includes primary literature and review articles with emphasis on how we know what we know, and how to think experimentally. Enrollment limited to 40.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.25",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.02",
-                "7.03",
-                "7.05"
-            ],
-            "in-charge":     [
-                "Magasanik, B.",
-                "RajBhandary, U."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Principles of Human Disease",
-            "id":            "7.27",
-            "listing-index": "m7a-019",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Covers current understanding of and modern approaches to human disease, emphasizing the molecular and cellular basis of both genetic disease and cancer. Topics include the genetics of simple and complex traits; karyotypic analysis and positional cloning; genetic diagnosis; the roles of oncogenes and tumor suppressors in tumor initiation, progression, and treatment; the interaction between genetics and environment; animal models of human disease; cancer; and conventional and gene therapy treatment strategies.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.27",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.03",
-                "7.05",
-                "7.06"
-            ],
-            "in-charge":     [
-                "Housman, D.",
-                "Guarente, L."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Molecular Biology",
-            "id":            "7.28",
-            "listing-index": "m7a-020",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Detailed analysis of the biochemical mechanisms that control the maintenance, expression, and evolution of prokaryotic and eukaryotic genomes. Topics covered in lecture and readings of relevant literature include: gene regulation, DNA replication, genetic recombination, and mRNA translation. Logic of experimental design and data analysis emphasized. Presentations include both lectures and group discussions of representative papers from the literature. Students taking the graduate version are expected to explore the subject in greater depth.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.28",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.58",
-                "7.03"
-            ],
-            "coreq":         "7.05",
-            "in-charge":     [
-                "Baker, T.",
-                "Bell, S."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Cellular Neurobiology",
-            "id":            "7.29",
-            "listing-index": "m7a-021",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to the structure and function of the nervous system. Emphasizes the cellular properties of neurons and other excitable cells. Includes the structure and biophysical properties of excitable cells, synaptic transmission, neurochemistry, neurodevelopment, integration of information in simple systems, and detection and information coding during sensory transduction.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.29J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "9.09J",
-                "7.05"
-            ],
-            "in-charge":     [
-                "Quinn, W. G.",
-                "Littleton, J. T."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Ecology I: The Earth System",
-            "id":            "7.30",
-            "listing-index": "m7a-022",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Fundamentals of ecology, considering Earth as an integrated dynamic system. Coevolution of the biosphere, geosphere, atmosphere and oceans. Introduction to thermodynamics. The Earth\\'s energy budget. Photosynthesis and respiration. The hydrologic, carbon and nitrogen cycles. Flow of energy and materials through ecosystems, regulation of the distribution and abundance of organisms, structure and function of ecosystems. Evolution and natural selection; metabolic diversity; productivity. Trophic dynamics; models of population growth, competition, mutualism and predation. Instruction and practice in oral and written communication provided. 7.012-7.014 recommended.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.30J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "Restricted Electives in Science and Technology",
-            "prereq":        "1.018J",
-            "in-charge":     [
-                "Chisholm, S. W.",
-                "Delong, E."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.30",
-            "lecture-section-of": "7.30",
-            "timeAndPlace":       "TR11-12.30 48-316"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R027.30",
-            "rec-section-of": "7.30",
-            "timeAndPlace":   "M4 48-316"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R037.30",
-            "rec-section-of": "7.30",
-            "timeAndPlace":   "R4 48-316"
-        },
-        {
-            "type":          "Class",
-            "label":         "Current Topics in Mammalian Biology: Medical Implications",
-            "id":            "7.31",
-            "listing-index": "m7a-023",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Covers recent advances in mammalian cell and developmental biology with particular emphasis on approaches that utilize mouse genetics. Combines formal lectures on selected topics with readings of original papers which are discussed in class. Major emphasis on the implications of mechanisms of human genetic diseases. Topics include early mammalian development; genomic imprinting; X inactivation; embryonic stem cells; mammalian cloning by nuclear transplantation; cell migration; nervous system development; and central nervous system degenerative diseases such as Alzheimer\\'s and Huntington\\'s disease. Enrollment limited to 20.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.31",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.05",
-                "7.06"
-            ],
-            "in-charge":     [
-                "Gertler, F.",
-                "Jaenisch, R."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.31",
-            "lecture-section-of": "7.31",
-            "timeAndPlace":       [
-                "M3 Unknown",
-                "W3-5 Unknown"
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Systems Biology",
-            "id":            "7.32",
-            "listing-index": "m7a-024",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Topics include molecular, cellular, and developmental systems biology. Molecular systems component covers constructing and modeling of genetic networks, control theory and genetic networks, lambda phage as a genetic switch, synthetic genetic switches, bacterial chemotaxis, genetic oscillators, and circadian rhythms. Cellular systems includes reaction diffusion equations, local activation and global inhibition models, gradient sensing systems, and center-finding networks. Developmental systems covers general pattern formation models, modeling cell-cell communication, quorum sensing, and models for Drosophila development. Students taking the graduate version explore the subject in more depth.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.32",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "prereq":        [
-                "7.81J",
-                "8.591J"
-            ],
-            "in-charge":     "Oudenaarden, A. Van",
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Undergraduate Seminars",
-            "id":            "7.340?7.349",
-            "listing-index": "m7a-025",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "2-0-4 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Seminars covering topics of current interest in biology with a focus on how to understand experimental methods and design and how to critically read the primary research literature. Small class size facilitates discussions and interactions with an active research scientist. Students visit research laboratories to see first-hand how biological research is done. Contact Biology Education Office for topics.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.340?7.349",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Advanced Undergraduate Seminars",
+            "id":        "7.340?7.349",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.340?7.349",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "prereq":        [
-                "7.03",
-                "7.05",
-                "7.06",
-                "7.28"
-            ],
-            "in-charge":     "Horvitz, H. R.",
-            "area":          "Undergraduate Subjects"
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L017.340?7.349",
-            "lecture-section-of": "7.340?7.349",
-            "timeAndPlace":       "W11-1 68-151"
+            "type":      "Class",
+            "label":     "Foundations of Computational and Systems Biology",
+            "id":        "7.36",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.36",
+            "offering":  "Currently Offered",
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L027.340?7.349",
-            "lecture-section-of": "7.340?7.349",
-            "timeAndPlace":       "R1-3 68-151"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L037.340?7.349",
-            "lecture-section-of": "7.340?7.349",
-            "timeAndPlace":       "T3-5 68-151"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L047.340?7.349",
-            "lecture-section-of": "7.340?7.349",
-            "timeAndPlace":       "R11-1 68-151"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L057.340?7.349",
-            "lecture-section-of": "7.340?7.349",
-            "timeAndPlace":       "R3-5 68-151"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L067.340?7.349",
-            "lecture-section-of": "7.340?7.349",
-            "timeAndPlace":       "W3-5 68-151"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L077.340?7.349",
-            "lecture-section-of": "7.340?7.349",
-            "timeAndPlace":       "W11-1 68-151"
-        },
-        {
-            "type":          "Class",
-            "label":         "Topics in Metabolic Biochemistry",
-            "id":            "7.35",
-            "listing-index": "m7a-026",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Topics include major metabolic pathways for the biosynthesis of certain cellular constituents and oxidative metabolism. Emphasizes enzymology and methods used to understand metabolism and enzymatic processes.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.35",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.77J",
-                "7.75J",
-                "7.05",
-                "5.07"
-            ],
-            "in-charge":     "Brown, G. M.",
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.35",
-            "lecture-section-of": "7.35",
-            "timeAndPlace":       "MW8.30-10 56-154"
-        },
-        {
-            "type":          "Class",
-            "label":         "Foundations of Computational and Systems Biology",
-            "id":            "7.36",
-            "listing-index": "m7a-027",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to computational and systems biology emphasizing fundamentals of nucleic acid, protein sequence, and structural analysis, as well as the analysis of complex biological systems. Principles and methods used for sequence alignment, motif finding, expression array analysis, structural modeling, structure design and prediction, and network analysis and modeling. Techniques include dynamic programming, Markov and hidden Markov models, Bayesian networks, clustering methods, dead-end elimination and energy minimization approaches. Exposure to emerging research areas. Designed for graduate students and advanced undergraduates with strong backgrounds in either molecular biology or computer science. Some foundational material covering basic programming skills, probability and statistics is provided for students with less quantitative backgrounds. Enrollment limited to 90.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.36",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "7.91J",
-                "20.390",
-                "20.490J",
-                "7.05",
-                "5.07",
-                "1.00",
-                "1.001",
-                "6.00"
-            ],
-            "in-charge":     [
-                "Burge, C.",
-                "Keating, A."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Molecular and Engineering Aspects of Biotechnology",
-            "id":            "7.37",
-            "listing-index": "m7a-028",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "cultivation; site-specific mutation of proteins; protein pharmacology and delivery.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.37J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Molecular and Engineering Aspects of Biotechnology",
+            "id":        "7.37",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.37J",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "prereq":        [
-                "10.441J",
-                "20.361J",
-                "20.110J",
-                "2.772J",
-                "2.005",
-                "3.012",
-                "5.60",
-                "7.06"
-            ],
-            "in-charge":     [
-                "Lodish, H.",
-                "Griffith, L. G."
-            ],
-            "area":          "Undergraduate Subjects"
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Selected Topics in Biology for Undergraduates",
-            "id":            "7.39",
-            "listing-index": "m7a-029",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Program of study or research to be arranged with a Department faculty member. Written report required. Consult Biology Education Office.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.39",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Selected Topics in Biology for Undergraduates",
+            "id":        "7.39",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.39",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Staff",
-            "area":          "Undergraduate Subjects"
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Special Topics in Biology for Undergraduates",
-            "id":            "7.391",
-            "listing-index": "m7a-030",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Topics of current or special interest.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.391",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Special Topics in Biology for Undergraduates",
+            "id":        "7.391",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.391",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Staff",
-            "area":          "Undergraduate Subjects"
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Biotechnology: Engineering of Macromolecules",
-            "id":            "7.40",
-            "listing-index": "m7a-031",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Fundamentals of genetics and biochemical principles for the synthesis, design, engineering, and application of biopolymers such as polyesters and polysaccharides. Principles underlying structure-function properties of biopolymers. Topics include conformation, image, and nanostructure analysis; behavior of polymers in solution; structure, topography, and functional performance of biopolymers; and biopolymer complexes and assemblies.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.40",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        "7.05",
-            "in-charge":     [
-                "Rha, C. K.",
-                "Sinskey, A. J."
-            ],
-            "area":          "Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "Undergraduate Research",
-            "id":            "7.UR",
-            "listing-index": "m7a-032",
-            "course":        "7",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Undergraduate research opportunities in the Department of Biology. For further information, consult departmental coordinator, Gene Brown. Permission of department required.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.UR",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Undergraduate Research",
+            "id":        "7.UR",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.UR",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Staff",
-            "area":          "Undergraduate Subjects"
+            "area":      "Undergraduate Subjects"
         },
         {
-            "type":          "Class",
-            "label":         "Applied Statistics",
-            "id":            "7.410",
-            "listing-index": "m7a-033",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-9 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Applied statistics covers probability and distributions (normal binomial, poisson, exponential, lognormal, and uniform), estimation and hypothesis testing, parametric and nonparametric one-sample and two-sample tests of means, analysis of variance for crossed and nested designs, linear and multiple regression with residual analysis, correlation and discrete data analysis using chi-squared tests. Discussion of experimental and sampling designs are included. Examples use data from biological studies.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.410",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
+            "type":      "Class",
+            "label":     "Topics in Quantitative Marine Science",
+            "id":        "7.430",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.430",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "(WHOI), V. Starczak",
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
         },
         {
-            "type":          "Class",
-            "label":         "Seminars in Biological Oceanography",
-            "id":            "7.411?7.419",
-            "listing-index": "m7a-034",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.411?7.419",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Topics in Marine Ecology",
+            "id":        "7.431",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.431",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
         },
         {
-            "type":          "Class",
-            "label":         "Special Problems in Biological Oceanography",
-            "id":            "7.421",
-            "listing-index": "m7a-035",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.421",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Topics in Marine Physiology and Biochemistry",
+            "id":        "7.432",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.432",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in Quantitative Marine Science",
-            "id":            "7.430",
-            "listing-index": "m7a-036",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Lectures and discussions on quantitative marine ecology.  Topics vary from year to year.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.430",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Topics in Biological Oceanography",
+            "id":        "7.433",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.433",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Solow, A.",
-                "(WHOI), M. Neubert"
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in Marine Ecology",
-            "id":            "7.431",
-            "listing-index": "m7a-037",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Lectures and discussions on ecological principles and processes in marine populations, communities, and ecosystems. Topics vary from year to year.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.431",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Topics in Zooplankton Biology",
+            "id":        "7.434",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.434",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Caswell, H.",
-                "(WHOI), R. Harbison"
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in Marine Physiology and Biochemistry",
-            "id":            "7.432",
-            "listing-index": "m7a-038",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Lectures and discussions on physiological and biochemical processes in marine organisms. Topics vary from year to year.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.432",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Topics in Benthic Biology",
+            "id":        "7.435",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.435",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Hahn, M.",
-                "McDowell, J.",
-                "(WHOI), J. Stegeman"
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in Biological Oceanography",
-            "id":            "7.433",
-            "listing-index": "m7a-039",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Lectures and discussions on biological oceanography.  Topics vary from year to year.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.433",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Topics in Phytoplankton Biology",
+            "id":        "7.436",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.436",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "(WHOI), R. Gast",
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in Zooplankton Biology",
-            "id":            "7.434",
-            "listing-index": "m7a-040",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Lectures and discussions on the biology of marine zooplankton. Topics vary from year to year.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.434",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Topics in Molecular Biological Oceanography",
+            "id":        "7.437",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.437",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Madin, L.",
-                "(WHOI), R. Harbison"
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in Benthic Biology",
-            "id":            "7.435",
-            "listing-index": "m7a-041",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Lectures and discussions on the biology of marine benthos. Topics vary from year to year.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.435",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Topics in the Behavior of Marine Animals",
+            "id":        "7.438",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.438",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Mullineaux, L.",
-                "Scheltema, R.",
-                "(WHOI), T. Shank"
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in Phytoplankton Biology",
-            "id":            "7.436",
-            "listing-index": "m7a-042",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Lectures and discussion on the biology of marine phytoplankton. Topics vary from year to year.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.436",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Topics in Marine Microbiology",
+            "id":        "7.439",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.439",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Olson, R.",
-                "Sosik, H.",
-                "Anderson, D.",
-                "(WHOI), S. Dyhrman"
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in Molecular Biological Oceanography",
-            "id":            "7.437",
-            "listing-index": "m7a-043",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Lectures and discussion on molecular biological oceanography. Topics vary from year to year.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.437",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "An Introduction to Mathematical Ecology",
+            "id":        "7.440",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.440",
+            "offering":  "Not offered this year",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "type":      "Class",
+            "label":     "Biological Oceanography",
+            "id":        "7.47",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.47",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
+        },
+        {
+            "type":      "Class",
+            "label":     "Research in Biological Oceanography",
+            "id":        "7.491",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.491",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Hahn, M.",
-                "Shank, T.",
-                "Gast, R.",
-                "Anderson, D.",
-                "(WHOI), S. Sievert"
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "MIT-WHOI Joint Program in Oceanography"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in the Behavior of Marine Animals",
-            "id":            "7.438",
-            "listing-index": "m7a-044",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Lectures and discussion on the behavioral biology of marine animals. Topics vary from year to year.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.438",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Research Rotations in Microbiology",
+            "id":        "7.499",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.499",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Tyack, P.",
-                "(WHOI), M. Moore"
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Microbiology (MICRO)"
         },
         {
-            "type":          "Class",
-            "label":         "Topics in Marine Microbiology",
-            "id":            "7.439",
-            "listing-index": "m7a-045",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Lectures and discussion on the biology of marine prokaryotes. Topics vary from year to year.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.439",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Waterbury, J.",
-                "Sievert, S.",
-                "(WHOI), E. Webb"
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "type":      "Class",
+            "label":     "Perspectives in Biological Engineering",
+            "id":        "7.548",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.548J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "An Introduction to Mathematical Ecology",
-            "id":            "7.440",
-            "listing-index": "m7a-046",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Covers the basic models of population growth, demography, population interaction (competition, predation, mutualism), food webs, harvesting, and infectious disease, and the mathematical tools required for their analysis. Because these tools are also basic to the analysis of models in biochemistry, physiology, and behavior, subject also broadly relevant to students whose interests are not limited to ecological problems.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.440",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "1.018J",
-            "in-charge":     [
-                "Neubert, M.",
-                "(WHOI), H. Caswell"
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "type":      "Class",
+            "label":     "Foundations of Cell Biology",
+            "id":        "7.56",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.56",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Biological Oceanography",
-            "id":            "7.47",
-            "listing-index": "m7a-047",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Intensive overview of biological oceanography. Major paradigms discussed, and dependence of biological processes in the ocean on physical and chemical aspects of the environment examined. Surveys the diversity of marine habitats, major groups of taxa inhabiting those habitats, and the general biology of the various taxa: the production and consumption of organic material in the ocean, as well as factors controlling those processes. Species diversity, structure of marine food webs, and the flow of energy within different marine habitats are detailed and contrasted.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.47",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Mullineaux, L.",
-                "Sosik, H.",
-                "Pineda, J.",
-                "Dyhrman, S.",
-                "(WHOI), E. Webb "
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "type":      "Class",
+            "label":     "Quantitative Biology for Graduate Students",
+            "id":        "7.57",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.57",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Research in Biological Oceanography",
-            "id":            "7.491",
-            "listing-index": "m7a-048",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Directed research in biological oceanography not leading to graduate thesis and generally done before the qualifying examination. Possible areas include population dynamics, physiology, and cytology of marine microorganisms; physiology, nutrition, and productivity of phytoplankton; influence of organisms on the composition of seawater; systematics, physiology, and ecology of pelagic larvae, zooplankton, benthos, and mesopelagic fishes; physiology and migration of large fishes; diving physiology; and use of sound by marine mammals.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.491",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff, Woods Hole",
-            "area":          "Graduate Subjects",
-            "subarea":       "MIT-WHOI Joint Program in Oceanography"
+            "type":      "Class",
+            "label":     "Molecular Biology",
+            "id":        "7.58",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.58",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Methods and Problems in Microbiology",
-            "id":            "7.492",
-            "listing-index": "m7a-049",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-9 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Students will read and discuss primary literature covering key areas of microbial research with emphasis on methods and approaches used to understand and manipulate microbes. Limited to students in the microbiology program.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.492J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "1.86J",
-                "20.445J"
-            ],
-            "coreq":         "7.493",
-            "in-charge":     [
-                "Samson, L.",
-                "Polz, M."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Microbiology (MICRO)"
+            "type":      "Class",
+            "label":     "Teaching College-Level Science and Engineering",
+            "id":        "7.59",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.59J",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Microbial Genetics and Evolution",
-            "id":            "7.493",
-            "listing-index": "m7a-050",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Covers aspects of microbial genetic and genomic analyses, central dogma, horizontal gene transfer, and evolution.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.493J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "1.87J",
-                "20.446J",
-                "7.03",
-                "7.05",
-                "7.28"
-            ],
-            "in-charge":     [
-                "Grossman, A.D.",
-                "Alm, E."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Microbiology (MICRO)"
+            "type":      "Class",
+            "label":     "Cell Biology: Structure and Functions of the Nucleus",
+            "id":        "7.60",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.60",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L017.493",
-            "lecture-section-of": "7.493",
-            "timeAndPlace":       "TR1-3 66-160"
+            "type":      "Class",
+            "label":     "Immunology",
+            "id":        "7.63",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.63",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Method and Logic in Molecular Biology",
-            "id":            "7.50",
-            "listing-index": "m7a-051",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Logic and experimental design: an in-depth discussion and assessment of biochemical, physical, genetic, and cell biological methods employed in testing hypotheses. Limited to Course 7 graduate students.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.50",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "coreq":         [
-                "7.51",
-                "7.52"
-            ],
-            "in-charge":     [
-                "Guarente, L.",
-                "Hemann, M.",
-                "Housman, D.",
-                "Hynes, R. O.",
-                "Lees, J.",
-                "Sabatini, D."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
+            "type":      "Class",
+            "label":     "Cellular and Molecular Neurobiology",
+            "id":        "7.68",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.68J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R017.50",
-            "rec-section-of": "7.50",
-            "timeAndPlace":   [
-                "M3-6 68-180",
-                "R2.30-5.30 68-180"
-            ]
+            "type":      "Class",
+            "label":     "Regulation of Gene Expression",
+            "id":        "7.70",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.70",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Principles of Biochemical Analysis",
-            "id":            "7.51",
-            "listing-index": "m7a-052",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "6-0-6",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Fundamental principles of biochemistry. Analysis of the structure and mechanism of catalytic and regulatory macromolecules.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.51",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Baker, T.",
-                "Sauer, R. T.",
-                "Solomon, F."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
+            "type":      "Class",
+            "label":     "Topics in Protein Biochemistry",
+            "id":        "7.76",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.76",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L017.51",
-            "lecture-section-of": "7.51",
-            "timeAndPlace":       "MWF9-10.30 32-155"
+            "type":      "Class",
+            "label":     "Nucleic Acids, Structure, Function, Evolution and Their Interactions with Proteins",
+            "id":        "7.77",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.77",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R027.51",
-            "rec-section-of": "7.51",
-            "timeAndPlace":   "T2.30 56-162"
+            "type":      "Class",
+            "label":     "Biological Chemistry II",
+            "id":        "7.80",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.80",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R037.51",
-            "rec-section-of": "7.51",
-            "timeAndPlace":   "F3 38-166"
+            "type":      "Class",
+            "label":     "Topics of Mammalian Development and Genetics",
+            "id":        "7.82",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.82",
+            "offering":  "Currently Offered",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Genetics for Graduate Students",
-            "id":            "7.52",
-            "listing-index": "m7a-053",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Principles and approaches of genetic analysis, including Mendelian inheritance and prokaryotic genetics, developmental genetics, neurogenetics, human genetics, and epigenetics.  Recitations and problem sets supplement lectures.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.52",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Horvitz, H. R.",
-                "Housman, D.",
-                "Amon, A."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
+            "type":      "Class",
+            "label":     "Protein Folding and Human Disease",
+            "id":        "7.88",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.88J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L017.52",
-            "lecture-section-of": "7.52",
-            "timeAndPlace":       "TR9.30-11.30 56-154"
+            "type":      "Class",
+            "label":     "Foundations of Computational and Systems Biology",
+            "id":        "7.91",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.91J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R027.52",
-            "rec-section-of": "7.52",
-            "timeAndPlace":   "T12 68-121"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R037.52",
-            "rec-section-of": "7.52",
-            "timeAndPlace":   "W3 66-156"
-        },
-        {
-            "type":          "Class",
-            "label":         "Frontiers in Chemical Biology",
-            "id":            "7.540",
-            "listing-index": "m7a-054",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to current research at the interface of chemistry, biology, and bioengineering. Topics include imaging of biological processes, metabolic pathway engineering, protein engineering, mechanisms of DNA damage, RNA structure and function, macromolecular machines, protein misfolding and disease, metabolomics, and methods for analyzing signaling network dynamics. Lectures are interspersed with class discussions and student presentations based on current literature.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.540J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.54J",
-                "5.13",
-                "5.07",
-                "7.05",
-                "7.06"
-            ],
-            "in-charge":     [
-                "Imperiali, B.",
-                "O\\'Connor, S."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.540",
-            "lecture-section-of": "7.540",
-            "timeAndPlace":       "MW10-12 32-124"
-        },
-        {
-            "type":          "Class",
-            "label":         "Principles and Practice of Drug Development",
-            "id":            "7.547",
-            "listing-index": "m7a-055",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Description and critical assessment of the major issues and stages of developing a pharmaceutical or biopharmaceutical. Drug discovery, preclinical development, clinical investigation, manufacturing and regulatory issues considered for small and large molecules. Economic and financial considerations of the drug development process. Multidisciplinary perspective from faculty in clinical; life; and management sciences; as well as industry guests.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.547J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "10.547J",
-                "15.136J"
-            ],
-            "in-charge":     [
-                "Allen, T. J.",
-                "Cooney, C. L.",
-                "Finkelstein, S. N.",
-                "Rubin, R. H.",
-                "Sinskey, A. J."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.547",
-            "lecture-section-of": "7.547",
-            "timeAndPlace":       "R EVE (4-6.30 PM) E25-111"
-        },
-        {
-            "type":          "Class",
-            "label":         "Perspectives in Biological Engineering",
-            "id":            "7.548",
-            "listing-index": "m7a-056",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "An in-depth presentation of how engineering and biological approaches can be combined to solve problems in science and technology, emphasizing integration of biological information and methodologies with engineering analysis, synthesis, and design. Emphasis on molecular mechanisms underlying cellular processes, including signal transduction, gene expression networks, and functional responses. Enrollment restricted to Biological Engineering and Biology graduate students.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.548J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "20.400J",
-            "in-charge":     [
-                "White, F.",
-                "Fraenkel, E."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Case Studies and Strategies in Drug Discovery and Development",
-            "id":            "7.549",
-            "listing-index": "m7a-057",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "The stages in drug discovery and development begin with target identification and end with the submission of preclinical and clinical data to the regulatory authorities. Following identification of a lead compound, there is optimization of structures for pharmaceutical properties, bioavailability, and safety. Subject relies on actual cases presented by the scientist(s) involved in discovery and drug development. A major goal is to analyze the cases and determine how the discovery and development process might be influenced by new and future technologies.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.549J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "15.137J",
-                "20.486J"
-            ],
-            "in-charge":     [
-                "Tannenbaum, S. R.",
-                "Sinskey, A. J.",
-                "Berndt, E."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Foundations of Cell Biology",
-            "id":            "7.56",
-            "listing-index": "m7a-058",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Designed for graduate students interested in understanding biological processes at the cellular level, this course serves biologists working in a wide range of areas and provides the foundation to approach the current literature. The goals are to discuss fundamental topics in cell and molecular biology; demonstrate how the major questions have been approached, technically and intellectually; analyze how one interprets the data produced by those approaches; and identify the questions that remain. Topics include macromolecular synthesis, assembly of cellular complexes and structures, control of cell division, and cell signaling. Familiarity with the basics of biochemistry and genetics is assumed.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.56",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Bell, S.",
-                "Solomon, F."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Quantitative Biology for Graduate Students",
-            "id":            "7.57",
-            "listing-index": "m7a-059",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces the fundamental concepts and tools of quantitative approaches to molecular and cellular biology.  Covers a wide range of mathematical, computational, and statistical methods, although no previous expertise in these areas is required. Focuses on understanding quantitative approaches through the analysis of particular problems and examples drawn from classical genetics, molecular biology, cell biology, genomics, and systems biology.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.57",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Laub, M.",
-                "Regev, A."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Molecular Biology",
-            "id":            "7.58",
-            "listing-index": "m7a-060",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Detailed analysis of the biochemical mechanisms that control the maintenance, expression, and evolution of prokaryotic and eukaryotic genomes. Topics covered in lecture and readings of relevant literature include: gene regulation, DNA replication, genetic recombination, and mRNA translation. Logic of experimental design and data analysis emphasized. Presentations include both lectures and group discussions of representative papers from the literature. Students taking the graduate version are expected to explore the subject in greater depth.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.58",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.28",
-                "7.03",
-                "7.05"
-            ],
-            "in-charge":     [
-                "Baker, T.",
-                "Bell, S."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Teaching College-Level Science",
-            "id":            "7.59",
-            "listing-index": "m7a-061",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-2 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Participatory seminar focuses on the knowledge and skills necessary for teaching science in higher education. Topics include: theories of adult learning; course development; promoting active learning, problem solving, and critical thinking in students; communicating with a diverse student body; using educational technology to further learning; lecturing; creating effective tests and assignments; and assessment and evaluation. Students research and present a relevant topic of particular interest. Subject is appropriate for both novices and those with teaching experience.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.59J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.95J",
-                "8.395J",
-                "18.094J"
-            ],
-            "in-charge":     "Breslow, L.",
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Cell Biology: Structure and Functions of the Nucleus",
-            "id":            "7.60",
-            "listing-index": "m7a-062",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Eukaryotic genome structure, function, and expression, processing of RNA, and regulation of the cell cycle.  Emphasis on the techniques and logic used to address important problems in nuclear cell biology. Lectures on broad topic areas in nuclear cell biology and discussions on representative recent papers.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.60",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "7.06",
-            "in-charge":     [
-                "Sharp, P.",
-                "Young, R."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Eukaryotic Cell Biology: Principles and Practice",
-            "id":            "7.61",
-            "listing-index": "m7a-063",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Emphasizes methods and logic used to analyze eukaryotic cells in diverse systems (e.g., yeast, fly, worm, mouse, human; development, neurons). Subject combines lectures and in-depth roundtable discussions of literature readings with active participation of faculty experts. Focuses on membranes, organelles, the cell surface, cytoskeleton and extracellular matrix. Topics include membrane protein structure, cell surface receptors and transporters; signal transduction pathways; membrane trafficking/sorting/secretion; adhesion and its effects on organization, migration and polarity of cells; regulation of the cell cycle; integration of cells into tissues and organs. Ranges from basic studies to applications to human disease, while emphasizing critical analysis of experimental approaches. Limited enrollment.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.61",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Hynes, R. O.",
-                "Krieger, M."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.61",
-            "lecture-section-of": "7.61",
-            "timeAndPlace":       "MW1-3 E25-117"
-        },
-        {
-            "type":          "Class",
-            "label":         "Microbial Physiology",
-            "id":            "7.62",
-            "listing-index": "m7a-064",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Biochemical properties of bacteria and other microorganisms that enable them to grow under a variety of conditions. Interaction between bacteria and bacteriophages. Genetic and metabolic regulation of enzyme action and enzyme formation. Structure and function of components of the bacterial cell envelope. Protein secretion with a special emphasis on its various roles in pathogenesis. Additional topics include bioenergetics, symbiosis, quorum sensing, global responses to DNA damage, and biofilms. Students taking the graduate version are expected to explore the subject in greater depth.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.62",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.21",
-                "7.03",
-                "7.05"
-            ],
-            "in-charge":     [
-                "Walker, G. C.",
-                "Magasanik, B.",
-                "Newman, D."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.62",
-            "lecture-section-of": "7.62",
-            "timeAndPlace":       "MW1-3 66-168"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R027.62",
-            "rec-section-of": "7.62",
-            "timeAndPlace":   "F1 66-168"
-        },
-        {
-            "type":          "Class",
-            "label":         "Immunology",
-            "id":            "7.63",
-            "listing-index": "m7a-065",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "A comprehensive survey of molecular, genetic, and cellular aspects of the immune system. Topics include innate and adaptive immunity; cells and organs of the immune system; immunoglobulin, T cell receptor, and major histocompatibility complex (MHC) genes and structure; development and functions of B and T lymphocytes; immune responses to infections and tumors; hypersensitivity, autoimmunity, and immunodeficiencies. Particular attention is paid to the development and function of the immune system as a whole as studied by modern methods and techniques.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.63",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "7.23",
-            "in-charge":     [
-                "Chen, J.",
-                "Ploegh, H.",
-                "Steiner, L."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Genetic Neurobiology",
-            "id":            "7.67",
-            "listing-index": "m7a-066",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Specific functions of neurons, the interactions of neurons in development, and the organization of neuronal ensembles to produce behavior, by functional analysis of mutations and molecular analysis of their genes. Concentrates on work with nematodes, fruit flies, mice, and humans.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.67J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "9.322J",
-            "in-charge":     [
-                "Quinn, W. G.",
-                "Littleton, J. T."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.67",
-            "lecture-section-of": "7.67",
-            "timeAndPlace":       "TR1-2.30 46-5056"
-        },
-        {
-            "type":          "Class",
-            "label":         "Cellular and Molecular Neurobiology",
-            "id":            "7.68",
-            "listing-index": "m7a-067",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "6-0-12",
-            "total-units":   18,
-            "has-final":     false,
-            "description":   "Major areas of cellular and molecular neurobiology including excitable cells and membranes, ion channels and receptors, synaptic transmission, cell-type determination, axon guidance, neuronal cell biology, neurotrophin signaling and cell survival, synapse formation and neural plasticity. Includes lectures and exams, and involves presentation and discussion of primary literature. Focuses on major concepts and recent advances in experimental neuroscience.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.68J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "9.013J",
-                "9.011"
-            ],
-            "in-charge":     [
-                "Sheng, M.",
-                "Constantine-Paton, M.",
-                "Quinn, W."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Developmental Neurobiology",
-            "id":            "7.69",
-            "listing-index": "m7a-068",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Considers molecular control of neural specification, formation of neuronal connections, construction of neural systems, and the contributions of experience to shaping brain structure and function. Topics include: neural induction and pattern formation, cell lineage and fate determination, neuronal migration, axon guidance, synapse formation and stabilization, activity-dependent development and critical periods, development of behavior. In addition to final exam, analysis and presentation of  research papers required for final grade. Additional readings required for graduate credit.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.69J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "9.181J",
-                "9.18",
-                "9.011"
-            ],
-            "in-charge":     "Nedivi, E.",
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Regulation of Gene Expression",
-            "id":            "7.70",
-            "listing-index": "m7a-069",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Cells utilize a variety of mechanisms to regulate gene expression, growth, development, and behavior in response to both external and internal conditions. Seminar examines basic principles of biological regulation and focuses on examples that underpin the principles, as well as those that challenge certain long-held views. Enrollment limited to 40.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.70",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Boyer, L.",
-                "Fink, G.",
-                "Young, R."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Biophysical Chemistry Techniques",
-            "id":            "7.71",
-            "listing-index": "m7a-070",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "For students who want to understand the benefits and caveats of biophysical techniques used to ascertain the structure of macromolecules, especially on the 3-D level. The first half of the course focuses on x-ray crystallography, the single most important technique used in determining the 3-D structure of macromolecules. Discussion of crystallographic theory is complemented with exercises such as crystallization, data processing, and model building. In the second half of the course, biophysical techniques are covered that supplement the 3-D characterization of biological macromolecules. Topics include CD spectroscopy, isothermal calorimetry, analytical ultracentrifugation, dynamic light scattering, and surface plasmon resonance (BIAcore). Theoretical principles behind the techniques are covered, applications are discussed, and students are performing practical exercises using instrumentation available at MIT.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.71",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.78",
-                "5.13",
-                "5.60",
-                "5.07",
-                "7.05"
-            ],
-            "in-charge":     [
-                "Drennan, C.",
-                "Schwartz, T."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Development and Evolution",
-            "id":            "7.72",
-            "listing-index": "m7a-071",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Lectures and literature discussion cover animal development and evolution. Focus on molecular mechanisms, experimental approaches, and relevant disorders. Comparison of vertebrate (mouse, chick, frog, fish) and invertebrate (fly, worm) models. Topics include the early body plan, cell type determination and diversity, organogenesis, morphogenesis, stem cells, cloning, and issues in human development.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.72",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "in-charge":     [
-                "Sive, H.",
-                "Orr-Weaver, T."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.72",
-            "lecture-section-of": "7.72",
-            "timeAndPlace":       "MW11-1 Unknown"
-        },
-        {
-            "type":          "Class",
-            "label":         "Topics in Metabolic Biochemistry",
-            "id":            "7.75",
-            "listing-index": "m7a-072",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Topics include major metabolic pathways for the biosynthesis of certain cellular constituents and oxidative metabolism. Emphasis is on enzymology and methods used to understand metabolism and enzymatic processes.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.75J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.77J",
-                "7.35",
-                "7.05",
-                "5.07"
-            ],
-            "in-charge":     "Brown, G. M.",
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.75",
-            "lecture-section-of": "7.75",
-            "timeAndPlace":       "MW8.30-10 56-154"
-        },
-        {
-            "type":          "Class",
-            "label":         "Topics in Protein Biochemistry",
-            "id":            "7.76",
-            "listing-index": "m7a-073",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-7",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "In-depth analysis and discussion of classic and current literature, with an emphasis on protein structure and function. Topics include binding specificity; cooperativity and allostery; protein folding and misfolding; macromolecular assembly; sequence homology and prediction of structure; and protein engineering and design. Undergraduates should have taken 7.71 or 5.64.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.76",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     [
-                "Keating, A.",
-                "Sauer, R. T."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Nucleic Acids, Structure, Function, Evolution and Their Interactions with Proteins",
-            "id":            "7.77",
-            "listing-index": "m7a-074",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Lectures, analysis, and discussion of current literature, student presentations. Biochemical, biophysical, and genetic approaches to understanding nucleic acids. General properties, functions, and structural motifs of DNA and RNA. DNAs and RNAs as catalysts. Interaction of nucleic acids with proteins such as repressors, restriction and modification enzymes, aminoacyl-tRNA synthetases and other proteins of the translational machinery. RNA protein recognition. Selection and engineering approaches for generating nucleic acid molecules with novel catalytic and binding properties.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.77",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.05",
-                "7.51"
-            ],
-            "in-charge":     [
-                "Bartel, D.",
-                "RajBhandary, U."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Biological Chemistry II",
-            "id":            "7.80",
-            "listing-index": "m7a-075",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "More advanced treatment of biochemical mechanisms that underlie biological processes. Topics include macromolecular machines such as the ribosome, the proteosome, fatty acid synthases as a paradigm for polyketide synthases and non-ribosomal polypeptide synthases, and polymerases. Emphasis is on experimental methods used to unravel these processes and how these processes fit into the cellular context and coordinate regulation.  Students taking the graduate version are expected to explore the subject in greater depth.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.80",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.08J",
-                "7.08J",
-                "5.12",
-                "5.07",
-                "7.05"
-            ],
-            "in-charge":     [
-                "Ting, A. Y.",
-                "Stubbe, J."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Systems Biology",
-            "id":            "7.81",
-            "listing-index": "m7a-076",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Topics include molecular, cellular, and developmental systems biology. Molecular systems component covers constructing and modeling of genetic networks, control theory and genetic networks, lambda phage as a genetic switch, synthetic genetic switches, bacterial chemotaxis, genetic oscillators, and circadian rhythms. Cellular systems includes reaction diffusion equations, local activation and global inhibition models, gradient sensing systems, and center-finding networks. Developmental systems covers general pattern formation models, modeling cell-cell communication, quorum sensing, and models for Drosophila development. Students taking the graduate version explore the subject in more depth.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.81J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "prereq":        [
-                "8.591J",
-                "7.32"
-            ],
-            "in-charge":     "Oudenaarden, A. Van",
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Topics of Mammalian Development and Genetics",
-            "id":            "7.82",
-            "listing-index": "m7a-077",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-9 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Seminar covering embryologic, molecular, and genetic approaches to development in mice and humans. Topics include preimplantation development; gastrulation; embryonic stem cells, gene targeting and nuclear cloning; genomic imprinting; X-inactivation; sex determination; germ cells; association and linkage analysis.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.82",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     [
-                "Jaenisch, R.",
-                "Page, D."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Protein Folding and Human Disease",
-            "id":            "7.88",
-            "listing-index": "m7a-078",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "; folding intermediates, aggregation, and competing off-pathway reactions; amyloid fibril structure and polymerization; amyloids that produce biofilms, pigments, and other functional structures; roles of chaperonins, isomerases, and other helper proteins. Examines key model systems, including yeast, nematodes, flies and mice, as well as human pathologies and phenotypes.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.88J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.48J",
-                "10.543J",
-                "7.51"
-            ],
-            "in-charge":     [
-                "Lindquist, S.",
-                "King, J. A."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Topics in Computational and Systems Biology",
-            "id":            "7.89",
-            "listing-index": "m7a-079",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "2-0-10",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Seminar based on research literature. Papers covered are selected to illustrate important problems and different approaches in the field of computational and systems biology, and provide students a framework from which to evaluate new developments. Required of, and restricted to, first-year CSB PhD students.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.89J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Burge, C.",
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L017.89",
-            "lecture-section-of": "7.89",
-            "timeAndPlace":       "F11-1 56-402"
-        },
-        {
-            "type":          "Class",
-            "label":         "Foundations of Computational and Systems Biology",
-            "id":            "7.91",
-            "listing-index": "m7a-080",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to computational and systems biology emphasizing fundamentals of nucleic acid, protein sequence, and structural analysis, as well as the analysis of complex biological systems. Principles and methods used for sequence alignment, motif finding, expression array analysis, structural modeling, structure design and prediction, and network analysis and modeling. Techniques include dynamic programming, Markov and hidden Markov models, Bayesian networks, clustering methods, dead-end elimination and energy minimization approaches. Exposure to emerging research areas. Designed for graduate students and advanced undergraduates with strong backgrounds in either molecular biology or computer science. Some foundational material covering basic programming skills, probability and statistics is provided for students with less quantitative backgrounds. Enrollment limited to 90.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.91J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "20.490J",
-                "7.36",
-                "20.390",
-                "7.05",
-                "5.07",
-                "1.00",
-                "1.001",
-                "6.00"
-            ],
-            "in-charge":     [
-                "Burge, C.",
-                "Keating, A."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
-        },
-        {
-            "type":          "Class",
-            "label":         "Molecular Pathology and Cognitive Sequelae of Age-dependent Neurological Disease",
-            "id":            "7.92",
-            "listing-index": "m7a-081",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Lectures and discussions explore the clinical, cognitive, and cellular-molecular aspects of brain aging processes. Topics include loss of memory and other cognitive capacities in normal aging and neurodegenerative conditions, with an emphasis on Alzheimer?s disease and associated mouse models. Other topics include neurodegenerative movement disorders, such as Parkinson?s and Huntington?s diseases. Based on lectures, readings from the primary literature, and discussions. Students are expected to present topics based on their readings. One written midterm test and one final examination.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.92J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Molecular Pathology and Cognitive Sequelae of Age-dependent Neurological Disease",
+            "id":        "7.92",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.92J",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "9.110J",
-                "9.011",
-                "9.013"
-            ],
-            "in-charge":     [
-                "Corkin, S.",
-                "Tsai, L.-H."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Selected Topics in Biology for Graduate Students",
-            "id":            "7.93",
-            "listing-index": "m7a-082",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Classwork in various fields of biology not covered by the regular subjects of instruction.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.93",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Selected Topics in Biology for Graduate Students",
+            "id":        "7.93",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.93",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff",
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Special Topics in Biology for Graduate Students",
-            "id":            "7.931",
-            "listing-index": "m7a-083",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Topics of current or special interest.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.931",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Special Topics in Biology for Graduate Students",
+            "id":        "7.931",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.931",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      [
+            "category":  [
                 "H-LEVEL Grad Credit",
                 "H-LEVEL Grad Credit"
             ],
-            "in-charge":     "Staff",
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Research Problems",
-            "id":            "7.941",
-            "listing-index": "m7a-084",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.941",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Research Problems",
+            "id":        "7.941",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.941",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      [
+            "category":  [
                 "H-LEVEL Grad Credit",
                 "H-LEVEL Grad Credit"
             ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Cancer Biology",
-            "id":            "7.95",
-            "listing-index": "m7a-085",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Intensive analysis of historical and current developments in cancer biology.  Topics include principles of transformation, viral and cellular oncogenes, tumor suppressor genes, tumor-cell growth, apoptosis, principles of cancer biology, and cancer genetics. Detailed analyses of the current research literature including important research reports published in recent years. Limited enrollment.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.95",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.03",
-                "7.06"
-            ],
-            "in-charge":     [
-                "Lees, J.",
-                "Weinberg, R."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
+            "type":      "Class",
+            "label":     "Cancer Biology",
+            "id":        "7.95",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.95",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Neural Plasticity in Learning and Memory",
-            "id":            "7.98",
-            "listing-index": "m7a-086",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Examination of the role of neural plasticity during learning and memory of invertebrates and mammals. Detailed critical analysis of the current literature of molecular, cellular, genetic, electrophysiological, and behavioral studies. Student-directed presentations and discussions of original papers supplemented by introductory lectures. Juniors and seniors require instructor\\'s permission.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.98J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "9.301J",
-            "in-charge":     [
-                "Tonegawa, S.",
-                "Bear, M.",
-                "Quinn, W.",
-                "Wilson, M."
-            ],
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
+            "type":      "Class",
+            "label":     "Neural Plasticity in Learning and Memory",
+            "id":        "7.98",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.98J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         },
         {
-            "type":          "Class",
-            "label":         "Graduate Biology Thesis",
-            "id":            "7.ThG",
-            "listing-index": "m7a-087",
-            "course":        "7",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Program of research leading to the writing of a Ph.D. thesis; to be arranged by the student and an appropriate MIT faculty member.",
-            "url":           "http://student.mit.edu/catalog/m7a.html#7.ThG",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Graduate Biology Thesis",
+            "id":        "7.THG",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m7a.html#7.ThG",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Staff",
-            "area":          "Graduate Subjects",
-            "subarea":       "Biology"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Graduate Subjects",
+            "subarea":   "Biology"
         }
     ]
 }

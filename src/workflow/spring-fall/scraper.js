@@ -155,6 +155,7 @@ function processClass(element, area, subarea) {
     var type = 'Unknown';
     var offerings = [];
     var categories = [];
+    var offered = false;
 
     var images = utilities.gatherElementsOnXPath(document, element, './IMG', nsResolver);
     for each (var img in images) {
@@ -172,7 +173,7 @@ function processClass(element, area, subarea) {
           type = 'Undergrad';
         } else if (src.indexOf('/grad.gif') > 0) {
           type = 'Grad';
-
+          
         } else if (src.indexOf('/nooffer.gif') > 0) {
           offerings.push('Not offered this year');
         } else if (src.indexOf('/nonext.gif') > 0) {
@@ -250,11 +251,14 @@ function processClass(element, area, subarea) {
     var elmts = utilities.gatherElementsOnXPath(document, element, './A', nsResolver);
     for each (var a in elmts) {
         try {
-		      var t = cleanString(a.innerHTML);
-				if (t.indexOf(".") > 0 && t.indexOf(".") < 3) {
-					prereqs.push(t);
-					var joiner = a.previousSibling.nodeValue != 'Prereq: '?a.previousSibling.nodeValue:'';
-					prereqString = prereqString + joiner + t;
+		    var t = cleanString(a.innerHTML);
+			if (t.indexOf(".") > 0 && t.indexOf(".") < 3) {
+				prereqs.push(t);
+				var joiner = a.previousSibling.nodeValue != 'Prereq: '?a.previousSibling.nodeValue:'';
+				prereqString = prereqString + joiner + t;
+            }
+            if (t.indexOf("Add to schedule") > 0) {
+                offered = true;
             }
         } catch (e) {}
     }
@@ -315,30 +319,33 @@ function processClass(element, area, subarea) {
     var classItem = {
         "type":         "Class",
         "label":        courseName,
-        "id":           classID,
-        "listing-index": listingPrefix + padListingCount(listingCount++),
-        "course":       course,
-        "level":        type,
-        "units":        units,
-        "total-units":  totalUnits,
+        "id":           classID.toUpperCase(),
+        // "listing-index": listingPrefix + padListingCount(listingCount++),
+        // "course":       course,
+        // "level":        type,
+        // "units":        units,
+        // "total-units":  totalUnits,
         "has-final":    hasFinal,
-        "description":  description,
-        "url":          url,
-        "joint":		joint
+        // "description":  description,
+        "url":          url //,
+        // "joint":     joint
     };
-    addOptionalArrayProperty(classItem, "semester", semesters);
+    // addOptionalArrayProperty(classItem, "semester", semesters);
     addOptionalArrayProperty(classItem, "offering", offerings);
     addOptionalArrayProperty(classItem, "category", categories);
-    addOptionalArrayProperty(classItem, "prereq", prereqs);
-    addOptionalArrayProperty(classItem, "coreq", coreqs);
-    addOptionalArrayProperty(classItem, "in-charge", instructors);
+    // addOptionalArrayProperty(classItem, "prereq", prereqs);
+    // addOptionalArrayProperty(classItem, "coreq", coreqs);
+    // addOptionalArrayProperty(classItem, "in-charge", instructors);
     if (area != null) {
         classItem.area = area;
     }
     if (subarea != null) {
         classItem.subarea = subarea;
     }
-    json.items.push(classItem);
+    
+    if (offered) {
+        json.items.push(classItem);
+    }
     
     var makeLecture = function() {
     	var sectionIndexString = sectionIndex < 10 ? "0" + sectionIndex++ : sectionIndex++;
@@ -388,13 +395,13 @@ function processClass(element, area, subarea) {
         }
 
         var field = cleanString(bold.firstChild.nodeValue);
-        if (field == "Lecture:") {
-            searchForTimeAndPlace(bold.nextSibling, makeLecture);
-        } else if (field == "Recitation:") {
-            searchForTimeAndPlace(bold.nextSibling, makeRecitation);
-        } else if (field == "Lab:") {
-            searchForTimeAndPlace(bold.nextSibling, makeLab);
-        }
+        // if (field == "Lecture:") {
+        //     searchForTimeAndPlace(bold.nextSibling, makeLecture);
+        // } else if (field == "Recitation:") {
+        //     searchForTimeAndPlace(bold.nextSibling, makeRecitation);
+        // } else if (field == "Lab:") {
+        //     searchForTimeAndPlace(bold.nextSibling, makeLab);
+        // }
     }
 }
 

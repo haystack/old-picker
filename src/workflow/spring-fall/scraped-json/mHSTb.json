@@ -1,1316 +1,281 @@
 {
     "items": [
         {
-            "type":          "Class",
-            "label":         "Speech Communication",
-            "id":            "HST.710",
-            "listing-index": "mHSTb-000",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Survey of human speech communication with special emphasis on the sound patterns of natural languages. Acoustic theory of speech production; physiologic and acoustic descriptions of phonetic features, prosody, speech perception, speech respiration, and speech motor control. Applications to recognition and generation of speech by machine and to speech disorders. Recommended prerequisite: mathematical background equivalent to 6.003.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.710J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.541J",
-                "24.968J"
-            ],
-            "in-charge":     [
-                "Braida, L. D.",
-                "Hillman, R. E.",
-                "Shattuck-Hufnagel, S."
-            ]
+            "type":      "Class",
+            "label":     "Speech Communication",
+            "id":        "HST.710",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.710J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Laboratory on the Physiology, Acoustics, and Perception of Speech",
-            "id":            "HST.712",
-            "listing-index": "mHSTb-001",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "2-2-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Experimental investigations of speech processes. Topics: measurement of articulatory movements; measurements of pressures and airflows in speech production; computer-aided waveform analysis and spectral analysis of speech; synthesis of speech; perception and discrimination of speechlike sounds; speech prosody; models for speech recognition; speech development; and other topics. Recommended prerequisites: 6.002 or 18.03.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.712J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.542J",
-                "24.966J"
-            ],
-            "in-charge":     [
-                "Braida, L. D.",
-                "Shattuck-Hufnagel, S."
-            ]
+            "type":      "Class",
+            "label":     "Neural Coding and Perception of Sound",
+            "id":        "HST.723",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.723J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Acoustics of Speech and Hearing",
-            "id":            "HST.714",
-            "listing-index": "mHSTb-002",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "4-1-7",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Provides acoustical background necessary to understand the role of sound in speech communication. Analyzes constraints imposed by the properties of sound and human anatomy on speech production (sound production from airflow and filtering by the vocal tract); auditory physiology (transformation of acoustical waves in the air to mechanical vibrations of cochlear structures); and sound perception (spatial hearing, masking, and auditory frequency selectivity).",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.714J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.551J",
-                "8.03",
-                "6.003"
-            ],
-            "in-charge":     [
-                "Braida, L. D.",
-                "Ghosh, S. S.",
-                "Rosowski, J. J.",
-                "Shera, C."
-            ]
+            "type":      "Class",
+            "label":     "Clinical Aspects of Speech and Hearing",
+            "id":        "HST.724",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.724",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.714",
-            "lecture-section-of": "HST.714",
-            "timeAndPlace":       "TR1-2.30 36-156"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B02HST.714",
-            "lab-section-of": "HST.714",
-            "timeAndPlace":   [
-            ]
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R03HST.714",
-            "rec-section-of": "HST.714",
-            "timeAndPlace":   "W12 36-156"
-        },
-        {
-            "type":          "Class",
-            "label":         "Signal Processing by the Auditory System: Perception",
-            "id":            "HST.716",
-            "listing-index": "mHSTb-003",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Studies information processing performance of the human auditory system in relation to current physiological knowledge. Examines mathematical models for the quantification of auditory-based behavior and the relation between behavior and peripheral physiology, reflecting the tono-topic organization and stochastic responses of the auditory system. Mathematical models of psychophysical relations, incorporating quantitative knowledge of physiological transformations by the peripheral auditory system.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.716J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Music Perception and Cognition",
+            "id":        "HST.725",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.725",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.552J",
-                "6.003",
-                "6.041",
-                "6.431"
-            ],
-            "in-charge":     "Braida, L. D."
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.716",
-            "lecture-section-of": "HST.716",
-            "timeAndPlace":       "TR10.30-12 36-156"
+            "type":      "Class",
+            "label":     "Advanced Speech and Audio Processing",
+            "id":        "HST.729",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.729",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Anatomy of Speech and Hearing",
-            "id":            "HST.718",
-            "listing-index": "mHSTb-004",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "2-2-2",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Study of the human body and brain, focusing on structures of the head and neck involved in speech and hearing. General organization of the nervous system and control of the peripheral structures. Involves dissection of a human cadaver and examination of brain specimens. Preference to students with some biology background and order of seniority of class.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.718",
-            "joint":         false,
-            "semester":      "IAP",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Fullerton, B. C."
-        },
-        {
-            "type":          "Class",
-            "label":         "Physiology of the Ear",
-            "id":            "HST.720",
-            "listing-index": "mHSTb-005",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Physical and physiological mechanisms underlying the transduction and analysis of acoustic signals in the auditory periphery. Topics include the acoustics, mechanics, and hydrodynamics of sound transmission; the biophysical basis for cochlear amplification; the production of otoacoustic emissions; the physiology of hair-cell transduction and synaptic transmission; efferent feedback control; the analysis and coding of simple and complex sounds by the inner ear; and the physiological bases for hearing disorders. Based primarily on reading and discussions of original research literature.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.720",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Modeling Issues in Hearing and Speech",
+            "id":        "HST.750",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.750",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Guinan, J. J.",
-                "Rosowski, J. J.",
-                "Shera, C. A."
-            ]
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.720",
-            "lecture-section-of": "HST.720",
-            "timeAndPlace":       "W3 EPL LIB"
-        },
-        {
-            "type":          "Class",
-            "label":         "The Peripheral Auditory System",
-            "id":            "HST.721",
-            "listing-index": "mHSTb-006",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Experimental approaches to the study of hearing and deafness, presented through lectures, laboratory exercises and discussions of the primary literature on the auditory periphery. Topics include inner ear development; functional anatomy of the inner ear; cochlear mechanics and micromechanics; mechano-electric transduction by hair cells; outer hair cells\\' electromotility and the cochlear amplifier; otoacoustic emissions, synaptic transmission; stimulus coding in auditory nerve responses; efferent control of cochlear function; damage and repair of hair-cell organs; and sensorineural hearing loss.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.721",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Liberman, M. C.",
-                "Adams, J. C.",
-                "Eatock, R. A."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.721",
-            "lecture-section-of": "HST.721",
-            "timeAndPlace":       "TR8.30-10.30 EPL LIB"
-        },
-        {
-            "type":          "Class",
-            "label":         "Brain Mechanisms for Hearing and Speech",
-            "id":            "HST.722",
-            "listing-index": "mHSTb-007",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "An advanced subject covering anatomical, physiological, behavioral, and computational studies of the central nervous system relevant to speech and hearing.  Students learn primarily by discussions of scientific papers on topics of current interest. Recent topics include neural circuits in the auditory brainstem, organization and processing in the auditory cortex, auditory reflexes and descending systems, functional imaging of the human auditory system, quantitive methods for relating neural responses to behavior, speech motor control, and cortical representation of language.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.722J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "9.044J",
-            "in-charge":     [
-                "Brown, M. C.",
-                "Delgutte, B.",
-                "Guenther, F.",
-                "Melcher, J."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Neural Coding and Perception of Sound",
-            "id":            "HST.723",
-            "listing-index": "mHSTb-008",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Neural structures and mechanisms mediating the detection, localization, and recognition of sounds. Discussion of how acoustic signals are coded by auditory neurons, the impact of these codes on behavorial performance, and the circuitry and cellular mechanisms underlying signal transformations. Topics include temporal coding, neural maps and feature detectors, learning and plasticity, and feedback control. General principles are conveyed by theme discussions of auditory masking, sound localization, musical pitch, cochlear implants, and auditory scene analysis.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.723J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "9.285J",
-            "in-charge":     [
-                "Delgutte, B.",
-                "Brown, M. C.",
-                "Guinan, J. J.",
-                "Melcher, J."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Clinical Aspects of Speech and Hearing",
-            "id":            "HST.724",
-            "listing-index": "mHSTb-009",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "5-5-2",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Clinical approach to speech and hearing disorders as practiced by physicians, audiologists, speech clinicians,rehabilitation specialists, pathologists, and bioengineers. Includes observation of patient care in the clinic and operating room;laboratory experience in audiology, voice and speech evaluation, evaluation of balance disorders; lectures and discussion groups.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.724",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Nadol, J. B."
-        },
-        {
-            "type":          "Class",
-            "label":         "Music Perception and Cognition",
-            "id":            "HST.725",
-            "listing-index": "mHSTb-010",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Survey of perceptual and cognitive aspects of the psychology of music, with special emphasis on underlying neurocomputational representations and mechanisms. Systematically explores basic dimensions of hearing (pitch, timbre, consonance, loudness) and the time sense (duration, temporal pattern) that form our perception of tonal quality, melody, harmony, meter, and rhythm in music. Examines mechanisms responsible for separation of multiple voices/instruments (polyphony), and for melodic and rhythmic grouping of events (musical phrase structure). Special topics include comparative, evolutionary, and developmental psychology of music; biological vs. cultural influences; Gestaltist, associationist, and schema-based theories; music vs. speech perception; music vs. language cognition; music and cortical function, music therapy, and neural basis of music performance.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.725",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Cariani, P."
-        },
-        {
-            "type":          "Class",
-            "label":         "The Lexicon and Its Features",
-            "id":            "HST.727",
-            "listing-index": "mHSTb-011",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Overview of features that distinguish sound categories in languages of the world. Theories that relate these categories to their acoustic and articulatory correlates, both universally and in particular languages. Models of word recognition by listeners. A variety of perspectives on these issues, drawn from electrical engineering and computer science, linguistics and cognitive science.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.727J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.543J",
-                "9.587J",
-                "24.941J",
-                "24.901"
-            ],
-            "in-charge":     [
-                "Gow, D.",
-                "Steriade, D.",
-                "Shattuck-Hufnagel, S."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Automatic Speech Recognition",
-            "id":            "HST.728",
-            "listing-index": "mHSTb-012",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Graduate-level introduction to automatic speech recognition. Provide fundamental background in acoustic theory of speech production, properties of speech sounds, signal representation, acoustic modeling, pattern classification, search algorithms, stochastic modeling techniques (including hidden Markov modeling), and language modeling.  Advanced topics include finite-state transducer formulation for speech recognition, system robustness and adaptation, audio-visual integration for speech processing, and speech understanding.  Hands-on experience gained through laboratory exercises and a term project.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.728J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.345J",
-                "6.003",
-                "6.041"
-            ],
-            "in-charge":     [
-                "Zue, V. W.",
-                "Glass, J. R."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Speech and Audio Processing",
-            "id":            "HST.729",
-            "listing-index": "mHSTb-013",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to advanced speech and audio processing, including both mathematical models and practical applications thereof. Time-frequency analysis, synthesis, modification, and coding of information-carrying natural sound signals; relevant aspects of acoustics and auditory perception; fundamental contemporary applications and methodologies. Students are required to prepare a substantial term project at a level on par with current research in the field. Subject follows Harvard FAS schedule.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.729",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "6.003",
-            "in-charge":     "Wolfe, P. J."
-        },
-        {
-            "type":          "Class",
-            "label":         "Molecular Biology of the Auditory System",
-            "id":            "HST.730",
-            "listing-index": "mHSTb-014",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Advanced subject in the molecular biology of the auditory system. Focuses on molecular approaches to function and dysfunction of the cochlea, based on readings and discussion of research literature. Lectures are delivered by course directors and local experts in the field.  Laboratory component includes molecular biology techniques with emphasis on auditory gene identification.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.730",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Giersch, A. B. S.",
-                "Edge, A."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.730",
-            "lecture-section-of": "HST.730",
-            "timeAndPlace":       "MW EVE (5-6.30 PM) EPL LIB"
-        },
-        {
-            "type":          "Class",
-            "label":         "Modeling Issues in Hearing and Speech",
-            "id":            "HST.750",
-            "listing-index": "mHSTb-015",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Explores the theory and practice of scientific modeling in the context of auditory and speech biophysics. Based on seminar-style discussions of the research literature, subject draws on examples from hearing and speech (cochlear and vocal-fold mechanics) and explores general, meta-theoretical issues that transcend the particular subject matter. Examples include: What is a model? What is the process of model building? What are the different approaches to modeling? What is the relationship between theory and experiment? How are models tested? What constitutes a good model?",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.750",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "6.551J",
-            "in-charge":     [
-                "Shera, C. A.",
-                "Melcher, J. R."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Research in the Speech and Hearing Sciences",
-            "id":            "HST.771?HST.779",
-            "listing-index": "mHSTb-016",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Research on topics in theoretical, experimental, or clinical aspects of Speech and Hearing Sciences arranged on an individual basis with a research supervisor. At the time of registration, a project proposal endorsed by the supervisor is required. At the end of the term, a concise written progress report along with a brief written evaluation by the supervisor must be submitted.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.771?HST.779",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Research in the Speech and Hearing Sciences",
+            "id":        "HST.771?HST.779",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.771?HST.779",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Braida, L. D."
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Special Subjects in the Speech and Hearing Sciences",
-            "id":            "HST.780?789",
-            "listing-index": "mHSTb-017",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Opportunity for group study of advanced subjects related to the Speech and Hearing Sciences not otherwise included in the curriculum. Offerings initiated by members of the SHBT faculty on an ad hoc basis subject to program approval. Prerequisites may vary by topic; consult faculty at time of offering.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.780?789",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Special Subjects in the Speech and Hearing Sciences",
+            "id":        "HST.780?789",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.780?789",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Braida, L. D."
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Research Approaches to Speech and Hearing",
-            "id":            "HST.790",
-            "listing-index": "mHSTb-018",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "6-0-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Approaches and techniques of speech and hearing research are analyzed through the preparation of a mock thesis proposal. Professional responsibilities of scientists and issues such as standards for conducting research, integrity in science, and criteria for human and animal studies examined in detail. A written mock thesis proposal required.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.790",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.021J",
-                "7.20",
-                "9.00"
-            ],
-            "in-charge":     "Eddington, D. K."
+            "type":      "Class",
+            "label":     "Research Approaches to Speech and Hearing",
+            "id":        "HST.790",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.790",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Speech and Hearing Laboratory Visits",
-            "id":            "HST.791",
-            "listing-index": "mHSTb-019",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "0-1-0 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "A weekly meeting to acquaint first-year students in the Speech and Hearing Bioscience and Technology Program with research opportunities. Meetings at different laboratories are hosted by faculty members of the program. These informal, introductory visits are designed to acquaint students with the kinds of work done in each laboratory.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.791",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Speech and Hearing Laboratory Visits",
+            "id":        "HST.791",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.791",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ]
+        },
+        {
+            "type":      "Class",
+            "label":     "Health Economics Seminar",
+            "id":        "HST.903",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.903J",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Braida, L. D."
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Health Economics",
-            "id":            "HST.901",
-            "listing-index": "mHSTb-020",
-            "course":        "HST",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Applies theoretical and empirical tools of economics to problems of health and medical care delivery. Concentrates on selected problems such as the welfare economics of \\\u0022health\\\u0022 as a commodity, hospitals and the nonprofit sector, human capital and medical manpower, and innovation in medicine.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.901J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "prereq":        [
-                "14.21J",
-                "14.01"
-            ],
-            "in-charge":     "Harris, J. E."
+            "type":      "Class",
+            "label":     "Introduction to Health Care Management",
+            "id":        "HST.905",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.905",
+            "offering":  "Currently Offered"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.901",
-            "lecture-section-of": "HST.901",
-            "timeAndPlace":       "MW10.30-12 E25-117"
+            "type":      "Class",
+            "label":     "Economics of the Health Care Industries",
+            "id":        "HST.918",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.918J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Health Economics Seminar",
-            "id":            "HST.903",
-            "listing-index": "mHSTb-021",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Advanced subject in economics of health care sector. Considers selected topics in depth, such as design and financing of health insurance, behavior of nonprofit hospitals, role of competition in the medical care market, determinants of technological change, and effects of government regulations.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.903J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Information Technology in the Health Care System of the Future",
+            "id":        "HST.922",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.922",
+            "offering":  "Currently Offered"
+        },
+        {
+            "type":      "Class",
+            "label":     "Information Technology in the Health Care System of the Future (Laboratory)",
+            "id":        "HST.924",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.924",
+            "offering":  "Currently Offered"
+        },
+        {
+            "type":      "Class",
+            "label":     "Introduction to Global Medicine:  Bioscience, Technologies, Disparities, Strategies",
+            "id":        "HST.934",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.934J",
+            "offering":  "Currently Offered"
+        },
+        {
+            "type":      "Class",
+            "label":     "X PRIZE Workshop: Grand Challenges in Health Care",
+            "id":        "HST.937",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.937J",
+            "offering":  "Currently Offered"
+        },
+        {
+            "type":      "Class",
+            "label":     "Designing and Sustaining Technology Innovation for Global Health Practice",
+            "id":        "HST.939",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.939J",
+            "offering":  "Currently Offered"
+        },
+        {
+            "type":      "Class",
+            "label":     "Medical Artificial Intelligence",
+            "id":        "HST.947",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.947",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Biomedical Informatics Research Seminar",
+            "id":        "HST.957",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.957",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ]
+        },
+        {
+            "type":      "Class",
+            "label":     "Research Topics in Biomedical Informatics",
+            "id":        "HST.959",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.959",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ]
+        },
+        {
+            "type":      "Class",
+            "label":     "Strategic Decision Making in the Biomedical Business",
+            "id":        "HST.971",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.971J",
+            "offering":  "Currently Offered"
+        },
+        {
+            "type":      "Class",
+            "label":     "Evaluating a Biomedical Business Concept",
+            "id":        "HST.973",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.973J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Critical Reading and Technical Assessment of Biomedical Information",
+            "id":        "HST.977",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.977J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Dynamics of Biomedical Technologies",
+            "id":        "HST.979",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.979J",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ]
+        },
+        {
+            "type":      "Class",
+            "label":     "Special Subjects in Biomedical Enterprise",
+            "id":        "HST.986-HST.989",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.986-HST.989",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "14.286J",
-                "14.04"
-            ],
-            "in-charge":     "Harris, J. E."
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Introduction to Health Care Management",
-            "id":            "HST.905",
-            "listing-index": "mHSTb-022",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Introduction to the academic disciplines of business management with illustration from examples in various medical care settings. Topics include economics of health care; evolving role of physicians and other medical professionals; ethics of business decisions in a clinical context; underlying concepts in financial, marketing, and operations management in health institutions; and the management of risk in health-related enterprise. Presentations by carefully selected multidisciplinary faculty group from the Harvard and MIT communities. Student projects address current issues occasioned by the rapidly changing health care environment. Meets at Harvard Medical School. Enrollment limited to graduate and medical students.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.905",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     [
-                "Finkelstein, S.",
-                "Slavin, P.L."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Role of Physicians and Scientists in the Business World",
-            "id":            "HST.906",
-            "listing-index": "mHSTb-023",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "2-0-0 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "A pragmatic, experience-based subject for MDs and PhDs surveying career opportunities in industry, including case studies of pharmaceutical, medical device and biotech companies.  Covers venture capital processes, company formation and capitalization, innovative technology sources, tech transfer process at universities and medical schools, startup operational issues, role of VCs and board members, execution time frames, liquidity process, IPOs, mergers and acquisitions, and payout prospects for founders and inventors.  A high tech career-planning guide from over twenty years of entrepreneurship VC practice in medical and biotech companies is shared.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.906",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     "Gill, J. M."
-        },
-        {
-            "type":          "Class",
-            "label":         "Case Studies and Strategies in Drug Discovery and Development",
-            "id":            "HST.916",
-            "listing-index": "mHSTb-024",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "The stages in drug discovery and development begin with target identification and end with the submission of preclinical and clinical data to the regulatory authorities. Following identification of a lead compound, there is optimization of structures for pharmaceutical properties, bioavailability, and safety. Subject relies on actual cases presented by the scientist(s) involved in discovery and drug development. A major goal is to analyze the cases and determine how the discovery and development process might be influenced by new and future technologies.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.916J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.549J",
-                "15.137J",
-                "20.486J"
-            ],
-            "in-charge":     [
-                "Tannenbaum, S. R.",
-                "Sinskey, A. J.",
-                "Berndt, E."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Economics of the Health Care Industries",
-            "id":            "HST.918",
-            "listing-index": "mHSTb-025",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Focuses on economic issues in various health care industries, such as the pharmaceutical, biotech and medical device industries.   Differences between health care and other industries, regulatory issues involving establishing efficacy and cost-effectiveness of treatments, strategic issues in global marketing and pricing, use of e-commerce and information technology, and formation and management of various alliances, are addressed.  Visiting speakers come from academia, government and industry.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.918J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "15.141J",
-            "in-charge":     "Berndt, E. R."
-        },
-        {
-            "type":          "Class",
-            "label":         "Principles and Practice of Drug Development",
-            "id":            "HST.920",
-            "listing-index": "mHSTb-026",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Description and critical assessment of the major issues and stages of developing a pharmaceutical or biopharmaceutical. Drug discovery, preclinical development, clinical investigation, manufacturing and regulatory issues considered for small and large molecules. Economic and financial considerations of the drug development process. Multidisciplinary perspective from faculty in clinical; life; and management sciences; as well as industry guests.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.920J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.547J",
-                "10.547J",
-                "15.136J"
-            ],
-            "in-charge":     [
-                "Allen, T. J.",
-                "Cooney, C. L.",
-                "Finkelstein, S. N.",
-                "Rubin, R. H.",
-                "Sinskey, A. J."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.920",
-            "lecture-section-of": "HST.920",
-            "timeAndPlace":       "R EVE (4-6.30 PM) E25-111"
-        },
-        {
-            "type":          "Class",
-            "label":         "Information Technology in the Health Care System of the Future",
-            "id":            "HST.922",
-            "listing-index": "mHSTb-027",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "2-0-7",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Innovative, trans-faculty subject teaches how information technologies are reshaping and redefining the health care marketplace through improved economies of scale, greater technical efficiencies in the delivery of care to patients, advanced tools for patient education and self-care, network integrated decision support tools for clinicians, and the emergence of e-commerce in health care. Students ordinarily also register for HST.923 or HST.924, the lab component of this subject. Undergraduates require permission of instructor. (Only HST students may register under HST.921, graded P/D/F.)",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.922",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     [
-                "Locke, S. E.",
-                "Bergeron, B. P.",
-                "Blander, J.",
-                "Sands, D. Z.",
-                "Carter, J. A."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Information Technology in the Health Care System of the Future (Laboratory)",
-            "id":            "HST.924",
-            "listing-index": "mHSTb-028",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "0-3-0",
-            "total-units":   3,
-            "has-final":     false,
-            "description":   "Student tutorial provides an opportunity for interactive discussion covering emerging information technologies (IT) used in healthcare. Practicum: HMS and MIT graduate students in medicine, business, law, education, engineering, computer science, public health, and government collaborate in interdisciplinary teams to design an innovative IT application. Student projects presented during the final class. Students ordinarily also register for HST.921 or HST.922, the lecture component of the subject. Undergraduates require permission of instructor. (Only HST students may register under HST.923, graded P/D/F.)",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.924",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     [
-                "Locke, S. E.",
-                "Bergeron, B. P.",
-                "Blander, J.",
-                "Sands, D. Z.",
-                "Carter, J.A."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Introduction to Global Medicine:  Bioscience, Technologies, Disparities, Strategies",
-            "id":            "HST.930",
-            "listing-index": "mHSTb-029",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "2-0-1 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Exploration of basic themes in social medicine via a specific examination of issues in global medicine. The course takes as its challenge to understand new paradigms for global health that focus on providing complex medical services to treat complicated health conditions (e.g. multi-drug resistant TB, HIV/AIDS, and mental health problems) in low resource settings. Special attention given to the development of new technologies or adapting existing technologies in ways that enable new solutions to global health problems, as well as overcoming barriers to translation of medical technologies for use in settings of great need. Addresses classic themes of social inequalities and health disparities, and issues such as patenting and the development and delivery of pharmaceuticals or other biotechnologies in international context. Presentations by Harvard faculty involved in global health, basic or clinical research with a global reach, or medical humanitarian activities, in addition to class discussion.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.930J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     [
-                "Good, B.J.",
-                "Good, M.D.",
-                "Fischer, M.M.",
-                "Jones, D."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "The Legal Framework of Biomedical Enterprise",
-            "id":            "HST.932",
-            "listing-index": "mHSTb-030",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "2-0-3",
-            "total-units":   5,
-            "has-final":     false,
-            "description":   "Designed to prepare managers, physicians, and research scientists to exercise good judgment and leadership when confronting key law-sensitive issues arising in the commercialization of new biomedical technologies. After covering some legal fundamentals, students follow a biomedical enterprise through a typical life cycle. Topics include linkages between university-based research centers and proprietary enterprises, establishing a new venture and obtaining early financing, protection of intellectual property, the FDA process, reimbursement and coverage, liability risks, tapping public securities markets, and corporate partnering and private equity. Special attention is given to the legal, ethical and professional standards that bear upon health care.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.932J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "prereq":        "15.126J",
-            "in-charge":     "Akula, J."
-        },
-        {
-            "type":          "Class",
-            "label":         "Narrative Ethics: Literary Texts and Moral Issues in Medicine",
-            "id":            "HST.935",
-            "listing-index": "mHSTb-031",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-3 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "This eight-session subject uses literary narratives and poetry to study ethical issues in medicine. Methodology emphasizes the importance of context and contingency in recognizing, evaluating, and resolving moral problems. Discussions focus on developing the skills of critical and reflective reading that increase effectiveness in clinical medicine. Texts include short fiction and poetry by such authors as Chekhov, Carver, Kafka, Morrison, Hawthorne, Edson, Salzman, and Williams. Instructor provides necessary philosophic and literary context followed by class discussion. Students keep a reading journal that examines the meanings of illness, the moral role of the physician, and the relevance of emotions, culture, faith, values, social realities, and life histories to patient care. Enrollment limited, restricted to medical and graduate students.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.935",
-            "joint":         false,
-            "semester":      "IAP",
-            "offering":      "Currently Offered",
-            "in-charge":     "Montello, M."
-        },
-        {
-            "type":          "Class",
-            "label":         "Designing and Sustaining Technology Innovation for Global Health Practice",
-            "id":            "HST.939",
-            "listing-index": "mHSTb-032",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Course trains students to think and act like global health leaders and entrepreneurs. Looks at the business of running a social venture and how to plan and provide access to life-saving medicines and essential services in international and domestic settings.  Considers specific case studies for influential and leading edge technologies for health services delivery, as well as human resources, and pharmaceutical and diagnostic design in resource-poor settings. Features lectures and skills-based tutorial sessions led by industry, foundation, and academic leaders.  Lectures provide the foundation for a design project that may involve creation of a market or business plan, product design specification, or research study. Maximum enrollment 24",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.939J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        "15.127J",
-            "in-charge":     [
-                "Demirci, U.",
-                "Blander, J."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Bioinformatics: Principles, Methods and Applications",
-            "id":            "HST.940",
-            "listing-index": "mHSTb-033",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to bioinformatics, the collection of principles and computational methods used to upgrade the information content of biological data generated by genome sequencing, proteomics, and cell-wide physiological measurements of gene expression and metabolic fluxes. Fundamentals from systems theory presented to define modeling philosophies and simulation methodologies for the integration of genomic and physiological data in the analysis of complex biological processes. Various computational methods address a broad spectrum of problems in functional genomics and cell physiology. Application of bioinformatics to metabolic engineering, drug design, and biotechnology also discussed.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.940J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.555J",
-            "in-charge":     [
-                "Stephanopoulos, Gr.",
-                "Rigoutsos, I."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Medical Artificial Intelligence",
-            "id":            "HST.947",
-            "listing-index": "mHSTb-034",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "5-3-4",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Introduces representations, techniques, and architectures used to build applied systems and to account for intelligence from a computational point of view. Applications of rule chaining, heuristic search, constraint propagation, constrained search, inheritance, and other problem-solving paradigms. Applications of identification trees, neural nets, genetic algorithms, and other learning paradigms. Speculations on the contributions of human vision and language systems to human intelligence. Meets with HST.947 spring only.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.947",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.034",
-                "6.001"
-            ],
-            "in-charge":     [
-                "Winston, P. H.",
-                "Lozano-Perez, T."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.947",
-            "lecture-section-of": "HST.947",
-            "timeAndPlace":       "MWF11 32-123"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R02HST.947",
-            "rec-section-of": "HST.947",
-            "timeAndPlace":   "R11 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R03HST.947",
-            "rec-section-of": "HST.947",
-            "timeAndPlace":   "R12 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R04HST.947",
-            "rec-section-of": "HST.947",
-            "timeAndPlace":   "R1 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R05HST.947",
-            "rec-section-of": "HST.947",
-            "timeAndPlace":   "F1 26-310"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R06HST.947",
-            "rec-section-of": "HST.947",
-            "timeAndPlace":   "F2 26-310"
-        },
-        {
-            "type":          "Class",
-            "label":         "Computational Evolutionary Biology",
-            "id":            "HST.949",
-            "listing-index": "mHSTb-035",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Explores and illustrates theory underlying computational approaches to solving problems in evolutionary biology. Begins with components of evolutionary theory and inferential logic of evolution by natural selection. Emphasizes development of analytical skills needed to judge the computational and algorithmic implications and requirements of evolutionary models. Examples drawn from current research in evolutionary biology: whole-genome species comparison, phylogenetic tree construction, molecular evolution, homology and development, optimization and evolvability, heritability, disease evolution,  detecting selection in human populations, and evolution of language. Extensive laboratory exercises in model-building and analyzing evolutionary data.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.949J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.877J",
-                "6.046J",
-                "6.047",
-                "7.36",
-                "6.807"
-            ],
-            "in-charge":     "Berwick, R. C."
-        },
-        {
-            "type":          "Class",
-            "label":         "Biomedical Computing",
-            "id":            "HST.950",
-            "listing-index": "mHSTb-036",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Analyzes computational needs of clinical medicine, reviews systems and approaches that have been used to support those needs, and the relationship between clinical data and gene and protein measurements. Topics: the nature of clinical data; architecture and design of healthcare information systems; privacy and security issues; medical expert systems; introduction to bioinformatics. Case studies and guest lectures describe contemporary systems and research projects. Term project using large clinical and genomic data sets integrates classroom topics.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.950J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.872J",
-                "6.034"
-            ],
-            "in-charge":     [
-                "Szolovits, P.",
-                "Kohane, I.",
-                "Ohno-Machado, L."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.950",
-            "lecture-section-of": "HST.950",
-            "timeAndPlace":       "TR9.30-11 32-144"
-        },
-        {
-            "type":          "Class",
-            "label":         "Biomedical Decision Support",
-            "id":            "HST.951",
-            "listing-index": "mHSTb-037",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Presents the main concepts of decision analysis, artificial intelligence, and predictive model construction and evaluation in the specific context of medical applications. Emphasizes the advantages and disadvantages of using these methods in real-world systems. Technical focus on decision analysis, knowledge-based systems (qualitative and quantitative), learning systems (including logistic regression, classification trees, neural networks), and techniques to evaluate the performance of such systems. Students produce a final project using the methods learned in the subject, based on actual clinical data. Required for students in the master\\'s program in medical informatics, but open to other graduate students and advanced undergraduates.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.951J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.873J",
-                "6.034"
-            ],
-            "in-charge":     [
-                "Ohno-Machado, L.",
-                "Szolovits, P.",
-                "Vinterbo, S."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.951",
-            "lecture-section-of": "HST.951",
-            "timeAndPlace":       "MW9.30-11 32-144"
-        },
-        {
-            "type":          "Class",
-            "label":         "Biomedical Informatics Research Seminar",
-            "id":            "HST.957",
-            "listing-index": "mHSTb-038",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "1-0-0 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "This seminar series complements the didactic materials of other courses with a continually changing series of presentations on state of the art research topics in biomedical informatics, followed by in-depth discussions of related issues.  Representative topics are: biosurveillance; personally controlled health records; data anonymization and privacy; informatics and health literacy; computer simulation and the theory of constraints; predictive model construction, calibration, and evaluation;  information technology in chronic disease management; implementing clinical health data exchange and health records in Massachusetts; and personal and family-centered health care. Faculty or invited guests from Boston-area biomedical informatics programs will give the opening presentation, for the first hour.  Students will lead panel discussions, debates, or other means for exploration of related topics and issues in the second hour.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.957",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Graduate Thesis",
+            "id":        "HST.THG",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.ThG",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     [
-                "Ohno-Machado, L.",
-                "McCray, A."
-            ]
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L01HST.957",
-            "lecture-section-of": "HST.957",
-            "timeAndPlace":       [
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Biomedical Information Technology",
-            "id":            "HST.958",
-            "listing-index": "mHSTb-039",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Design of contemporary information systems for biological and medical data. Examples chosen from biology and medicine to illustrate complete life cycle information systems, beginning with data acquisition, following to data storage and finally to retrieval and analysis. Design of appropriate databases, client-server strategies, data interchange protocols, and computational modeling architectures. Students are expected to have some familiarity with scientific application software and a basic understanding of at least one contemporary programming language (e.g. C, C++, Java, Lisp, Perl, Python). A major term project is required of all students. This subject is part of the Singapore-MIT Alliance beginning in 2005-2006. Open to motivated seniors having a strong interest in biomedical engineering and information system design with the ability to carry out a significant independent project.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.958J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.771J",
-                "20.453J"
-            ],
-            "in-charge":     [
-                "Dewey, C. F.",
-                "Jr.",
-                "(NTU, S. Bhowmik",
-                "Singapore)"
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.958",
-            "lecture-section-of": "HST.958",
-            "timeAndPlace":       "TR8-9.30 8-404"
-        },
-        {
-            "type":          "Class",
-            "label":         "Research Topics in Biomedical Informatics",
-            "id":            "HST.959",
-            "listing-index": "mHSTb-040",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Research methods and ideas involved in addressing the information needs of medical education, medical practice, and biomedical research. Topics include clinical information system design, medical knowledge representation, clinical decision making, cost effectiveness analysis, image management, software engineering, and evaluation approaches for information systems. Activities in various research groups are analyzed, and supplemented by readings and discussions. A written proposal and supervised project work are required.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.959",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     [
-                "Ohno-Machado, L.",
-                "Szolovits, P.",
-                "Pauker, S. G.",
-                "Kohane, I."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "At the Limits of Medicine: Philosophy, Religion, Literature",
-            "id":            "HST.960",
-            "listing-index": "mHSTb-041",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "1-0-3 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Critical examination of modern culture?s view of human beings (and God) and what it reveals about its attitude toward death. Students explore two descriptions of modern deaths, two essays contemplating the egocentric nature of man, the radical secularization of the concept of man in the 19th century, and two alternative views that restitute human goodness without religion or sentimentality.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.960",
-            "joint":         false,
-            "semester":      "IAP",
-            "offering":      "Currently Offered",
-            "in-charge":     "Klingenstein, S."
-        },
-        {
-            "type":          "Class",
-            "label":         "Strategic Decision Making in the Biomedical Business",
-            "id":            "HST.971",
-            "listing-index": "mHSTb-042",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Key strategic decisions faced by managers, investors and scientists at each stage in the value chain of the life science industry. Aims to develop students\\' ability to understand and effectively assess these strategic challenges.  Focus on the biotech sector, with additional examples from the pharmaceutical and medical device sectors. Case studies, analytical models and detailed quantitative analysis. Intended for students interested in building a life science company or working in the sector as a manager, consultant, analyst or investor. Provides analytical background to the industry for biological and biomedical scientists, engineers and physicians with an interest in understanding the commercial dynamics of the life sciences or the commercial potential of their research.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.971J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        "15.363J",
-            "in-charge":     "Murray, F."
-        },
-        {
-            "type":          "Class",
-            "label":         "Evaluating a Biomedical Business Concept",
-            "id":            "HST.973",
-            "listing-index": "mHSTb-043",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "1-0-2",
-            "total-units":   3,
-            "has-final":     false,
-            "description":   "Critical analysis of new biomedical business ideas. Principals of early stage companies, or inventors, present their ideas and provide background material including scientific papers and patents. Teams of students evaluate each business idea. Students develop a series of analyses concerning the critical issues that each business idea would face. Issues may include efficacy of a technology, intellectual property protection, market opportunity,  regulatory and reimbursement hurdles, competitive threats and potential return on investment. Students are encouraged to review scientific, clinical, patent and marketing literature as well as interview key individuals including principals, inventors, potential customers and competitors. Analyses focus on the issues most critical for the success of the proposed business concept.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.973J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "15.124J",
-            "in-charge":     [
-                "Cohen, R. J.",
-                "Dagi, T.",
-                "Berke, C.",
-                "Cannon, E."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Clinical Trials in Biomedical Enterprise",
-            "id":            "HST.975",
-            "listing-index": "mHSTb-044",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Clinical trials have become one of the leading barriers to sucess in the introduction of new products and services for the healthcare industry. Subject enables healthcare managers to ask the important questions surrounding a decision to pursue a clinical trial. Deciding to participate in a clinical trial can sometimes result in expensive, long-term corporate commitments, which can have a significant impact on the company\\'s success or failure, particularly in the case of smaller companies. Subject explores issues related to determing whether a clinical trial is needed to significantly further the important goals of the company. Topics include the design, implementation, analysis and presentation of clinical trials. Case scenarios are presented by professionals in the field, and students are asked to develop their own Outline Plan and Clinical Trial Study Plan from the sample cases provided. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.975J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        "15.121J",
-            "in-charge":     "H.Golub"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.975",
-            "lecture-section-of": "HST.975",
-            "timeAndPlace":       "T EVE (6-8 PM) E25-101"
-        },
-        {
-            "type":          "Class",
-            "label":         "Critical Reading and Technical Assessment of Biomedical Information",
-            "id":            "HST.977",
-            "listing-index": "mHSTb-045",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "1-0-2",
-            "total-units":   3,
-            "has-final":     false,
-            "description":   "Gain experience in critical reading of scientific literature with an emphasis on analyzing clinical controversies and emerging technologies in subject areas that have been or could become sources of entrepreneurial activity. Students required to analyze a variety of topics in the scientific literature, including screening for and cost-effectiveness of early detection of cancer, therapeutic opportunities in oncology, evaluation of immunotoxins and antibody therapies, and new prospects for the treatment of autoimmune disorders. To support the discussion of these topics, outside experts may be invited to participate as facilitators. Meets in first half of term.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.977J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "15.122J",
-            "in-charge":     [
-                "Lapidus, S.",
-                "Sengupta, S."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Dynamics of Biomedical Technologies",
-            "id":            "HST.979",
-            "listing-index": "mHSTb-046",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "2-0-1 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Examines interrelationships between life science and technology developments in the context of six dynamic forces affecting the biomedical industrial sector. Considers these interrelationships through close investigation of one science or technology platform each semester. Case studies, upper-level executive presentations, and student group exercises focus disussion and in-depth analysis on industry structure, risk and economics, cost drivers and financing, markets, consumers and patients, the rapid evolution of related science and technology, public policy, accountability and ethics. Enrollment limited to 20.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.979J",
-            "joint":         true,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "prereq":        "15.123J",
-            "in-charge":     [
-                "Sinsky, A. J.",
-                "Dagi, T."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.979",
-            "lecture-section-of": "HST.979",
-            "timeAndPlace":       "M EVE (5-7 PM) E25-101"
-        },
-        {
-            "type":          "Class",
-            "label":         "Special Subjects in Biomedical Enterprise",
-            "id":            "HST.986-HST.989",
-            "listing-index": "mHSTb-047",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Opportunity for group study of advanced subjects relating to Biomedical Enterprise not otherwise included in the curriculum. Offerings are initiated by HST faculty on an ad hoc basis subject to program approval. Prerequisites may vary by topic. Consult faculty at time of offering.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.986-HST.989",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Greenberg, J. E."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L01HST.986-HST.989",
-            "lecture-section-of": "HST.986-HST.989",
-            "timeAndPlace":       [
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Graduate Thesis",
-            "id":            "HST.ThG",
-            "listing-index": "mHSTb-048",
-            "course":        "HST",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Program of research leading to the writing of a PhD or ScD thesis or an HST SM thesis; to be arranged by the student and an appropriate MIT faculty advisor.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.ThG",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Gray, M. L."
-        },
-        {
-            "type":          "Class",
-            "label":         "Undergraduate Research in Health Sciences and Technology",
-            "id":            "HST.UR",
-            "listing-index": "mHSTb-049",
-            "course":        "HST",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Extended participation in the work of a faculty member or research group. Research is arranged by mutual agreement between the student and a member of the faculty of the Harvard-MIT Division of Health Sciences and Technology, and may continue over several terms. Registration requires submission of a written proposal, signed by the faculty supervisor. A summary report must be submitted at the end of each term.",
-            "url":           "http://student.mit.edu/catalog/mHSTb.html#HST.UR",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Summer",
-                "Fall",
-                "IAP",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Undergraduate Research in Health Sciences and Technology",
+            "id":        "HST.UR",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/mHSTb.html#HST.UR",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
-            ],
-            "in-charge":     "Bowman, H. F."
+            ]
         }
     ]
 }

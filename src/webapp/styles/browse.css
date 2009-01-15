@@ -129,6 +129,10 @@ div.timegrid-week-highlight {
     background: none;
 }
 
+#textbook-list {
+    font-size: 80%;
+}
+
 /*
  * Lenses
  */
@@ -242,6 +246,10 @@ div.report-errors a {
     position: absolute;
     bottom: 1em;
     right: 1em;
+}
+a.external {
+    font-size: 80%;
+    text-decoration: none;
 }
 ul.instructor-ratings {
     margin:         0px;

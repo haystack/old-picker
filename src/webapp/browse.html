@@ -8,11 +8,12 @@
             window.$ = SimileAjax.jQuery;
         </script>
         <script src="http://static.simile.mit.edu/timegrid/api-1.0-alpha2/timegrid-api.js?autoCreate=false" type="text/javascript"></script>
-        
+
         <script src="scripts/config.js" type="text/javascript"></script>
         <script src="scripts/browse.js" type="text/javascript"></script>
         <script src="scripts/unit-adder.js" type="text/javascript"></script>
         <script src="scripts/mini-timegrid.js" type="text/javascript"></script>
+        <script src="scripts/class-related.js" type="text/javascript"></script>
         
         <link type="text/css" rel="stylesheet" href="styles/styles.css" />
         <link type="text/css" rel="stylesheet" href="styles/browse.css" />
@@ -20,7 +21,7 @@
     <body onload="onLoad();" ex:bubbleWidth="600">
         <div id="title"><table width="100%" cellpadding="0" cellspacing="0"><tr>
             <td>
-                <h1><a href="index.html">MIT Course Picker (beta)</a> <i>Fall 2008 Edition</i></h1>
+                <h1><a href="index.html">MIT Course Picker (beta)</a> <i>Spring 2009 Edition</i></h1>
                 <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
                     <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
                     <a href="credits.html" target="_blank">Credits</a> &bull;
@@ -87,11 +88,11 @@
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='area-facet'>area &raquo;</div>
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='subarea-facet'>subarea &raquo;</div>
                                 
-                                <div id="tqe-facet"></div>
+                                <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' ex:height="20em"></div>
                                 
-                                <div ex:role="facet" ex:expression=".gir" ex:facetLabel="category &raquo;" id='category-facet' ex:height="20em"></div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id="tqe-facet"></div>
                                 <!--<div ex:role="facet" ex:expression=".ci" ex:facetLabel="ci &raquo;" id='ci-facet' ex:height="20em"></div>-->
-                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' ex:height="7em" ex:selection="Fall"></div>
+                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' ex:height="7em" ex:selection="Spring"></div>
                                 <div ex:role="facet" ex:expression=".offering" ex:facetLabel="offering &raquo;" id='offering-facet' ex:height="8em" ex:selection="Currently Offered"></div>
                                 
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
@@ -148,6 +149,7 @@
                     <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
                     <span ex:content=".lab-section-of.label"></span> (lab)
                 </div>
+
                 <div ex:role="view"
                     ex:orders=".class.courseNumber"
                     ex:showHeader="false"
@@ -157,6 +159,26 @@
                     ex:showToolbox="false">
                 </div>
             </div>
+
+			<div id="pre-register" style="text-align:center"></div>
+
+			<div id="textbook-list"
+				ex:role="view"
+				ex:viewClass="Tabular"
+				ex:showSummary="false"
+				ex:columns="if(exists(!class-textbook-of), value, ''),
+					if(exists(!class-textbook-of), !class-textbook-of.label, ''),
+					foreach(!class-textbook-of, 
+					concat('<a href=\'http://www.allbookstores.com/book/compare/', .isbn, '\'>buy</a>'))"
+				ex:columnLabels=", Book list, "
+				ex:columnFormats="text, list, text"
+				ex:border="0"
+				ex:cellPadding="0"
+				ex:grouped="false"
+				ex:collectionID="picked-classes"
+				ex:showToolbox="false">
+			</div>
+
             <div id="no-picked-classes">No Classes Picked.</div>
             <p style="color: #800; margin: 1em; font-size: 80%;">
                 WARNING: This calendar is not an official schedule. WebSIS will produce your 
@@ -176,7 +198,10 @@
             <div class="course-title">
                 <img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />
                 <span ex:content=".semester" class="course-semester"></span>
-                <span ex:content="concat(value, ' - ', .label)"></span> <a ex:if-exists=".url" ex:href-content=".url" target="_blank">catalogue</a>
+				
+				<!-- .url property may exclusively come from scraped data -->
+				<span ex:content="concat(value, ' - ', .label)"></span> <a ex:href-content="if(exists(.url), .url, concat('http://course.mit.edu/', value))" target="_blank">site</a>
+				
             </div>
             <table class="course-body" cellspacing="10"><tr>
                 <td>
@@ -245,6 +270,13 @@
                             </div>
                         </div>
                     </div>
+
+					<div ex:if-exists="!class-textbook-of"><b>Class Textbooks:</b>
+						<ul ex:content="!class-textbook-of">
+							<li><span ex:content=".label"></span>
+						</ul>
+					</div>
+
                 </td>
                 <td width="30%" class="course-logistics">
                     <div ex:select=".offering">
@@ -267,6 +299,9 @@
                     <div ex:if-exists="!class-rating-of" class="hkn-statistics">
                         <div class="hkn-stats-header">HKN Statistics<br>
                         	<i><span ex:content="!class-rating-of.term"></span></i>
+							<a class="external"
+								ex:href-content="concat('https://sixweb.mit.edu/search/search?subject_num=',
+								value)">more</a>
                         </div>
                         <div>
                             <table cellspacing="5" cellpadding="0">

@@ -17,15 +17,13 @@ for (var i = 1; i < inputs.length; i++) {
 input.items = visitArrayElements(input.items, function(item) {
     var type = item.type;
     if (type == "Class") {
-    	return { "type": "Class",
+    	return { "id": item.id,
+		    "label": item.label,
 			"has-final": item["has-final"],
-			"id": item.id,
-			"label": item.label,
-			"url": item.url,
 			"area": item.area,
-			"subarea": item.subarea
-			//"offering": item.offering,
-			//"category": item.category 
+			"subarea": item.subarea,
+			"offering": item.offering,
+			"category": item.category 
 		};
 	} else {
 		return item;

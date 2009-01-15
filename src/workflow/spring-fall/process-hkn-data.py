@@ -4,7 +4,7 @@ process-hkn-data.py
 number
 instructor_name
 rating
-term_season	term_year
+term
 overall_rating
 diff_rating
 hours 
@@ -24,41 +24,47 @@ hours
 "type" :                "Professor-Rating",
 "professor-rating" :    "6"
 
-"""
-term = "Fall 2007"
 
+Note: Expecting a CSV file representing multiple terms of HKN data,
+    starting with the most recent semester and moving backward.
+Want to keep ONLY the most recent terms' data.
+"""
 csv = open('hkn.csv', 'r')
 json = open('../../webapp/data/hkn.json', 'w')
 
 items = []
 professors = {}
+profCount = 1
 
 csv.readline() # ignore first line
 for line in csv:
     data = line.split(',')
     id = data[0].split('/')[0]
-    if id in professors:
-        professors[id] = professors[id] + 1
-        items.append('{"professor":"'+data[1]+'",\
-"label":"Rating-'+id+'-'+str(professors[id])+'",\
+    id = data[0].split('J')[0]
+    
+    if id in professors: # term
+        if professors[id] == data[3]:
+            profCount += 1
+            items.append('{"professor":"'+data[1]+'",\
+"label":"Rating-'+id+'-'+str(profCount)+'",\
 "professor-rating-of":"'+id+'",\
-"term":"'+term+'",\
+"term":"'+data[3]+'",\
 "type":"Professor-Rating",\
 "professor-rating":"'+data[2]+'"}')
     else:
-        professors[id] = 1 
+        professors[id] = data[3]
         items.append('{"professor":"'+data[1]+'",\
 "label":"Rating-'+id+'-'+str(professors[id])+'",\
 "professor-rating-of":"'+id+'",\
-"term":"'+term+'",\
+"term":"'+data[3]+'",\
 "type":"Professor-Rating",\
 "professor-rating":"'+data[2]+'"}')
-        items.append('{"difficulty":"'+data[6]+'",\
-"hours":"'+data[7].strip()+'",\
+        items.append('{"difficulty":"'+data[5]+'",\
+"hours":"'+data[6].strip()+'",\
 "label":"Rating-'+id+'",\
-"term":"'+term+'",\
+"term":"'+data[3]+'",\
 "type":"Class-Rating",\
-"rating":"'+data[5]+'",\
+"rating":"'+data[4]+'",\
 "class-rating-of":"'+id+'"}')
 
 json.write('{"items":['+','.join(items)+']}')

@@ -1,2011 +1,340 @@
 {
     "items": [
         {
-            "type":          "Class",
-            "label":         "Fundamentals of Engineering Design: Explore Space, Sea and Earth",
-            "id":            "16.00A",
-            "listing-index": "m16a-000",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-3-3",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Student teams formulate and complete space/earth/ocean exploration-based design projects with weekly milestones. Introduces core engineering themes, principles, and modes of thinking. Specialized learning modules enable teams to focus on the knowledge required to complete their projects, such as machine elements, electronics, design process, visualization and communication. Includes exercises in written and oral communication and team building. Examples of projects include surveying a lake for millfoil, from a remote controlled aircraft, and then sending out robotic harvesters to clear the invasive growth; and exploration to search for the evidence of life on a moon of Jupiter, with scientists participating through teleoperation and supervisory control of robots. Limited enrollment. Preference to freshmen.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.00AJ",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        "2.00AJ",
-            "in-charge":     [
-                "Techet, A. H.",
-                "Newman, D.",
-                "Crawley, E. F."
-            ]
+            "type":      "Class",
+            "label":     "Fundamentals of Engineering Design: Explore Space, Sea and Earth",
+            "id":        "16.00A",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.00AJ",
+            "offering":  "Currently Offered"
         },
         {
-            "type":          "Class",
-            "label":         "Introduction to Aerospace and Design",
-            "id":            "16.00",
-            "listing-index": "m16a-001",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-1-5",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "The fundamental concepts and approaches of aerospace engineering are highlighted through lectures on aeronautics, astronautics, and design. Active learning aerospace modules make use of information technology. Student teams are immersed in a hands-on, lighter-than-air (LTA) vehicle design project where they design, build, and fly radio-controlled LTA vehicles. The connections between theory and practice are realized in the design exercises. Required design reviews precede the LTA race competition. The performance, weight, and principle characteristics of the LTA vehicles are estimated and illustrated using physics, mathematics, and chemistry known to freshmen, the emphasis being on the application of this knowledge to aerospace engineering and design rather than on exposure to new science and mathematics. Includes exercises in written and oral communication and team building.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.00",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "in-charge":     "Hoffman, J. A."
+            "type":      "Class",
+            "label":     "Introduction to Aerospace and Design",
+            "id":        "16.00",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.00",
+            "offering":  "Currently Offered"
         },
         {
-            "type":          "Class",
-            "label":         "Unified Engineering I",
-            "id":            "16.001",
-            "listing-index": "m16a-002",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "5-1-6",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "16.001 and 16.002 require simultaneous registration. Presents fundamental principles and methods of aerospace engineering, as well as their interrelationship and applications, through lectures, recitations, design problems, and labs. Materials and structures, including statics, analysis of trusses, the analysis of statically determinate and indeterminate systems, and the stress-strain behavior of materials. Fluid mechanics, including conservation laws for fluid flows, the integral momentum theorem and applications, potential flow, vorticity and circulation, and the characterization of airfoil performance. Thermodynamics, including the thermodynamic state of a system, work, heat and various forms of energy, the first law of thermodynamics, heat engines, reversible and irreversible processes, entropy, and the second law of thermodynamics. Signals and systems, including linear and time invariant systems, convolution, and transform analysis.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.001",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "Restricted Electives in Science and Technology",
-            "coreq":         [
-                "18.03",
-                "18.034"
-            ],
-            "in-charge":     [
-                "Deyst, J. J.",
-                "Lagace, P.A.",
-                "Lozano, P.C.",
-                "Spakovszky, Z.S."
-            ]
+            "type":      "Class",
+            "label":     "Unified Engineering III",
+            "id":        "16.003",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.003",
+            "offering":  "Currently Offered"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0116.001",
-            "lecture-section-of": "16.001",
-            "timeAndPlace":       "MWF10 35-225"
+            "type":      "Class",
+            "label":     "Unified Engineering IV",
+            "id":        "16.004",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.004",
+            "offering":  "Currently Offered"
         },
         {
-            "type":           "LabSection",
-            "label":          "B0216.001",
-            "lab-section-of": "16.001",
-            "timeAndPlace":   "TR10 35-225"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0316.001",
-            "rec-section-of": "16.001",
-            "timeAndPlace":   "TR9 33-419"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0416.001",
-            "rec-section-of": "16.001",
-            "timeAndPlace":   "TR11 33-319"
-        },
-        {
-            "type":          "Class",
-            "label":         "Unified Engineering II",
-            "id":            "16.002",
-            "listing-index": "m16a-003",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "5-1-6",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "16.001 and 16.002 require simultaneous registration. Presents fundamental principles and methods of aerospace engineering, as well as their interrelationship and applications, through lectures, recitations, design problems, and labs. Materials and structures, including statics, analysis of trusses, the analysis of statically determinate and indeterminate systems, and the stress-strain behavior of materials. Fluid mechanics, including conservation laws for fluid flows, the integral momentum theorem and applications, potential flow, vorticity and circulation, and the characterization of airfoil performance. Thermodynamics, including the thermodynamic state of a system, work, heat and various forms of energy, the first law of thermodynamics, heat engines, reversible and irreversible processes, entropy, and the second law of thermodynamics. Signals and systems, including linear and time invariant systems, convolution, and transform analysis.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.002",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "coreq":         [
-                "18.03",
-                "18.034"
-            ],
-            "in-charge":     [
-                "Deyst, J.J.",
-                "Lagace, P.A.",
-                "Lozano, P.C.",
-                "Spakovszky, Z.S."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.002",
-            "lecture-section-of": "16.002",
-            "timeAndPlace":       "MWF9 35-225"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0216.002",
-            "lab-section-of": "16.002",
-            "timeAndPlace":   "R1 35-225"
-        },
-        {
-            "type":          "Class",
-            "label":         "Unified Engineering III",
-            "id":            "16.003",
-            "listing-index": "m16a-004",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "5-1-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "16.003 and 16.004 require simultaneous registration. Presents fundamental principles and methods of aerospace engineering, as well as their interrelationship and applications, through lectures, recitations, design problems, and labs. Materials and structures, including analysis of beam bending, buckling and torsion, material and structural failure, including plasticity, fracture, fatigue, and their physical causes. Fluid mechanics, including thin airfoil theory, three-dimensional wing theory, lifting line theory, induced drag and optimal lift distributions, wing design, aircraft performance, compressible flows, shocks, supersonic airfoils, nozzles. Thermodynamics and propulsion, including applications of the integral momentum theorem to aerospace propulsion systems, ideal and non-ideal cycle analysis, energy exchange in compressors and turbines, and an introduction to heat transfer. Applications of signals and systems to aerospace, including modulation, filtering, sampling, and navigation systems.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.003",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "16.001",
-                "16.01",
-                "16.002",
-                "16.02"
-            ],
-            "in-charge":     [
-                "Deyst, J. J.",
-                "Drela, M.",
-                "Lagace, P. A.",
-                "Spakovszky, Z. S."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Unified Engineering IV",
-            "id":            "16.004",
-            "listing-index": "m16a-005",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "5-1-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "16.003 and 16.004 require simultaneous registration. Presents fundamental principles and methods of aerospace engineering, as well as their interrelationship and applications, through lectures, recitations, design problems, and labs. Materials and Structures, including analysis of beam bending, buckling and torsion, material and structural failure, including plasticity, fracture, fatigue, and their physical causes. Fluid Mechanics, including thin airfoil theory, three-dimensional wing theory, lifting line theory, induced drag and optimal lift distributions, wing design, aircraft performance, compressible flows, shocks, supersonic airfoils, nozzles. Thermodynamics and Propulsion, including applications of the integral momentum theorem to aerospace propulsion systems, ideal and non-ideal cycle analysis, energy exchange in compressors and turbines, and an introduction to heat transfer. Applications of Signals and Systems to aerospace, including modulation, filtering, sampling, and navigation systems.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.004",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "16.01",
-                "16.001",
-                "16.02",
-                "16.002"
-            ],
-            "in-charge":     [
-                "Deyst, J. J.",
-                "Drela, M.",
-                "Lagace, P. A.",
-                "Spakovszky, Z. S."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Principles of Automatic Control",
-            "id":            "16.06",
-            "listing-index": "m16a-006",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-2-7",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Introduction to design of feedback control systems. Properties and advantages of feedback systems. Time-domain and frequency-domain performance measures. Stability and degree of stability. Root locus method, Nyquist criterion, frequency-domain design, and state space methods. Application to a variety of aircraft and spacecraft systems.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.06",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "16.004",
-                "16.04"
-            ],
-            "coreq":         "16.07",
-            "in-charge":     "Hall, S. R.",
-            "area":          "Core Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.06",
-            "lecture-section-of": "16.06",
-            "timeAndPlace":       "MWF2 56-114"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0216.06",
-            "rec-section-of": "16.06",
-            "timeAndPlace":   "T10 33-419"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0316.06",
-            "rec-section-of": "16.06",
-            "timeAndPlace":   "T2 37-212"
-        },
-        {
-            "type":          "Class",
-            "label":         "Dynamics",
-            "id":            "16.07",
-            "listing-index": "m16a-007",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Fundamentals of Newtonian mechanics. Kinematics, particle dynamics, motion relative to accelerated reference frames, work and energy, impulse and momentum, systems of particles and rigid body dynamics. Applications to aerospace engineering including introductory topics in orbital mechanics, flight dynamics, inertial navigation and attitude dynamics.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.07",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "16.004",
-                "16.04"
-            ],
-            "coreq":         "16.06",
-            "in-charge":     "Widnall, S. E.",
-            "area":          "Core Undergraduate Subjects"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.07",
-            "lecture-section-of": "16.07",
-            "timeAndPlace":       "MWF11 37-212"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0216.07",
-            "rec-section-of": "16.07",
-            "timeAndPlace":   "R10 33-419"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0316.07",
-            "rec-section-of": "16.07",
-            "timeAndPlace":   "R11 33-419"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0416.07",
-            "rec-section-of": "16.07",
-            "timeAndPlace":   "R10 33-422"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0516.07",
-            "rec-section-of": "16.07",
-            "timeAndPlace":   "R11 33-422"
-        },
-        {
-            "type":          "Class",
-            "label":         "Aerodynamics",
-            "id":            "16.100",
-            "listing-index": "m16a-008",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-2-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Extends fluid mechanic concepts from Unified Engineering to aerodynamic performance of wings and bodies in sub/supersonic regimes. Subject generally has four components: subsonic potential flows, including source/vortex panel methods; viscous flows, including laminar and turbulent boundary layers; aerodynamics of airfoils and wings, including thin airfoil theory, lifting line theory, and panel method/interacting boundary layer methods; and supersonic and hypersonic airfoil theory. Material may vary somewhat each year depending upon focus of design problem. Elementary MATLAB usage expected.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.100",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "16.004",
-                "16.04"
-            ],
-            "in-charge":     [
-                "Darmofal, D. L.",
-                "Harris, W.L."
-            ],
-            "area":          "Mechanics and Physics of Fluids"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.100",
-            "lecture-section-of": "16.100",
-            "timeAndPlace":       "MWF1 35-225"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0216.100",
-            "lab-section-of": "16.100",
-            "timeAndPlace":   "W3 37-312"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0316.100",
-            "lab-section-of": "16.100",
-            "timeAndPlace":   "W4 37-312"
-        },
-        {
-            "type":          "Class",
-            "label":         "Special Subject in Fluids and Propulsion",
-            "id":            "16.101",
-            "listing-index": "m16a-009",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Provides credit for work on material in fluids or propulsion outside of regularly scheduled subjects. Intended for study abroad under either the department\\'s Year Abroad Program or the Cambridge-MIT Exchange Program. Credit may be used to satisfy specific SB degree requirements. Consult department.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.101",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Special Subject in Fluids and Propulsion",
+            "id":        "16.101",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.101",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "in-charge":     "Crawley, E.F.",
-            "area":          "Mechanics and Physics of Fluids"
+            "area":      "Mechanics and Physics of Fluids"
         },
         {
-            "type":          "Class",
-            "label":         "Flight Vehicle Aerodynamics",
-            "id":            "16.110",
-            "listing-index": "m16a-010",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Aerodynamic analysis of flight vehicles using analytical, numerical, and experimental techniques separately and in combination. Matched asymptotic expansions. Farfield behavior. Finite wing theory. Trefftz-plane analysis. Laminar and turbulent boundary layers. Slender body theory. Calculation and measurement of drag components. Aerodynamic stability derivatives.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.110",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "prereq":        "16.100",
-            "in-charge":     [
-                "Darmofal, D. L.",
-                "Drela, M."
-            ],
-            "area":          "Mechanics and Physics of Fluids"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.110",
-            "lecture-section-of": "16.110",
-            "timeAndPlace":       "MWF1 35-225"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0216.110",
-            "lab-section-of": "16.110",
-            "timeAndPlace":   "W3 37-312"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0316.110",
-            "lab-section-of": "16.110",
-            "timeAndPlace":   "W4 37-312"
-        },
-        {
-            "type":          "Class",
-            "label":         "Compressible Flow",
-            "id":            "16.120",
-            "listing-index": "m16a-011",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Internal and external compressible flows for engineering applications. One-dimensional unsteady gas dynamics; normal shocks and shock structure. Quasi- one-dimensional flow and extensions. Two-dimensional subsonic and supersonic flows. Linearized unsteady compressible flow. Viscous compressible flow. Hypersonic flow. Alternate years.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.120",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Compressible Internal Flow and Aeroacoustics",
+            "id":        "16.120",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.120",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "2.25",
-            "in-charge":     [
-                "Greitzer, E. M.",
-                "Spakovszky, Z.S."
-            ],
-            "area":          "Mechanics and Physics of Fluids"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Mechanics and Physics of Fluids"
         },
         {
-            "type":          "Class",
-            "label":         "Aerodynamics of Viscous Fluids",
-            "id":            "16.13",
-            "listing-index": "m16a-012",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Boundary layers as rational approximations to the solutions of exact equations of fluid motion. Physical parameters influencing laminar and turbulent aerodynamic flows and transition. Effects of compressibility, heat conduction, and frame rotation. Influence of boundary layers on outer potential flow and associated stall and drag mechanisms. Numerical solution techniques and exercises. Alternate years.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.13",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Advanced Special Subject in Mechanics and Physics of Fluids",
+            "id":        "16.198",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.198",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Mechanics and Physics of Fluids"
+        },
+        {
+            "type":      "Class",
+            "label":     "Structural Mechanics",
+            "id":        "16.20",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.20",
+            "offering":  "Currently Offered",
+            "area":      "Materials and Structures"
+        },
+        {
+            "type":      "Class",
+            "label":     "Special Subject in Materials and Structures",
+            "id":        "16.201",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.201",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Materials and Structures"
+        },
+        {
+            "type":      "Class",
+            "label":     "Plates and Shells",
+            "id":        "16.230",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.230J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Materials and Structures"
+        },
+        {
+            "type":      "Class",
+            "label":     "Advanced Special Subject in Materials and Structures",
+            "id":        "16.298",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.298",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Materials and Structures"
+        },
+        {
+            "type":      "Class",
+            "label":     "Special Subject in Control, Dynamics and Automation",
+            "id":        "16.301",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.301",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Information and Control Engineering"
+        },
+        {
+            "type":      "Class",
+            "label":     "Stochastic Estimation and Control",
+            "id":        "16.322",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.322",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Information and Control Engineering"
+        },
+        {
+            "type":      "Class",
+            "label":     "Principles of Optimal Control",
+            "id":        "16.323",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.323",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Information and Control Engineering"
+        },
+        {
+            "type":      "Class",
+            "label":     "Real-Time Systems and Software",
+            "id":        "16.35",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.35",
+            "offering":  "Currently Offered",
+            "area":      "Information and Control Engineering"
+        },
+        {
+            "type":      "Class",
+            "label":     "Communication Systems Engineering",
+            "id":        "16.36",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.36",
+            "offering":  "Currently Offered",
+            "area":      "Information and Control Engineering"
+        },
+        {
+            "type":      "Class",
+            "label":     "Advanced Special Subject in Information and Control",
+            "id":        "16.398",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.398",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Information and Control Engineering"
+        },
+        {
+            "type":      "Class",
+            "label":     "Special Subject in Communication and Software",
+            "id":        "16.401",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.401",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
+            "area":      "Humans and Automation"
+        },
+        {
+            "type":      "Class",
+            "label":     "Robotics: Science and Systems I",
+            "id":        "16.405",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.405J",
+            "offering":  "Currently Offered",
+            "category":  "Institute LAB",
+            "area":      "Humans and Automation"
+        },
+        {
+            "type":      "Class",
+            "label":     "Cognitive Robotics",
+            "id":        "16.412",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.412J",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "16.100",
-                "16.110"
-            ],
-            "in-charge":     "Drela, M.",
-            "area":          "Mechanics and Physics of Fluids"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Humans and Automation"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0116.13",
-            "lecture-section-of": "16.13",
-            "timeAndPlace":       "MWF1 33-422"
+            "type":      "Class",
+            "label":     "Aerospace Biomedical and Life Support Engineering",
+            "id":        "16.423",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.423J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Humans and Automation"
         },
         {
-            "type":          "Class",
-            "label":         "Advanced Special Subject in Mechanics and Physics of Fluids",
-            "id":            "16.198",
-            "listing-index": "m16a-013",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.198",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
+            "type":      "Class",
+            "label":     "Biomedical Signal and Image Processing",
+            "id":        "16.456",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.456J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Humans and Automation"
+        },
+        {
+            "type":      "Class",
+            "label":     "Bioengineering Journal Article Seminar",
+            "id":        "16.459",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.459",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "area":          "Mechanics and Physics of Fluids"
+            "area":      "Humans and Automation"
         },
         {
-            "type":          "Class",
-            "label":         "Structural Mechanics",
-            "id":            "16.20",
-            "listing-index": "m16a-014",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "5-0-7",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Applies solid mechanics to analysis of high-technology structures. Structural design considerations. Review of three-dimensional elasticity theory; stress, strain, anisotropic materials, and heating effects. Two-dimensional plane stress and plane strain problems. Torsion theory for arbitrary sections. Bending of unsymmetrical section and mixed material beams. Bending, shear, and torsion of thin-wall shell beams. Buckling of columns and stability phenomena. Introduction to structural dynamics. Exercises in the design of general and aerospace structures.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.20",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "16.004",
-                "16.04"
-            ],
-            "in-charge":     "Wardle, B.L.",
-            "area":          "Materials and Structures"
-        },
-        {
-            "type":          "Class",
-            "label":         "Special Subject in Materials and Structures",
-            "id":            "16.201",
-            "listing-index": "m16a-015",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Provides credit for work in materials and structures outside of regularly scheduled subjects. Intended for study abroad under either the department\\'s Year Abroad Program or the Cambridge-MIT Exchange Program. Credit may be used to satisfy specific SB degree requirements. Consult department.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.201",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Crawley, E.F.",
-            "area":          "Materials and Structures"
-        },
-        {
-            "type":          "Class",
-            "label":         "Manufacturing with Advanced Composite Materials",
-            "id":            "16.202",
-            "listing-index": "m16a-016",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "1-3-2",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Introduces the methods used to manufacture parts made of advanced composite materials with work in the Technology Laboratory for Advanced Composites. Students gain hands-on experience by fabricating, machining, instrumenting, and testing graphite/epoxy specimens. Students also design, build, and test a composite structure as part of a design contest. Lectures supplement laboratory sessions with background information on the nature of composites, curing, composite machining, secondary bonding, and the testing of composites.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.202",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "in-charge":     "Lagace, P. A.",
-            "area":          "Materials and Structures"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.202",
-            "lecture-section-of": "16.202",
-            "timeAndPlace":       "T3-5 33-319"
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Structural Dynamics",
-            "id":            "16.221",
-            "listing-index": "m16a-017",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Single- and multiple-degree-of-freedom vibration problems, using matrix formulation and normal mode superposition methods. Time and frequency domain solution techniques including convolution and Fourier transforms. Applications to vibration isolation, damping treatment, and dynamic absorbers. Analysis of continuous systems by exact and approximate methods. Applications to buildings, ships, aircraft and offshore structures. Vibration measurement and analysis techniques. Students should possess basic knowledge in structural mechanics and in linear algebra. Students taking graduate version complete additional assignments.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.221J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "1.581J",
-                "2.060J",
-                "1.058"
-            ],
-            "in-charge":     [
-                "Kausel, E.",
-                "Vandiver, J. K."
-            ],
-            "area":          "Materials and Structures"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.221",
-            "lecture-section-of": "16.221",
-            "timeAndPlace":       "MWF10 1-390"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0216.221",
-            "rec-section-of": "16.221",
-            "timeAndPlace":   "W4 1-135"
-        },
-        {
-            "type":          "Class",
-            "label":         "Mechanics of Heterogeneous Materials",
-            "id":            "16.223",
-            "listing-index": "m16a-018",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Mechanical behavior of heterogeneous materials such as thin-film microelectro- mechanical systems (MEMS) materials and advanced filamentary composites, with particular emphasis on laminated structural configurations.  Anisotropic and crystallographic elasticity formulations.  Structure, properties and mechanics of constituents such as films, substrates, active materials, fibers, and matrices including nano- and micro-scale constituents.  Effective properties from constituent properties.  Classical laminated plate theory for modeling structural behavior including extrinsic and intrinsic strains and stresses such as environmental effects.  Introduction to buckling of plates and nonlinear (deformations) plate theory.  Other issues in modeling heterogeneous materials such as fracture/failure of laminated structures.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.223",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "16.20",
-                "16.288J"
-            ],
-            "in-charge":     "Wardle, B. L.",
-            "area":          "Materials and Structures"
-        },
-        {
-            "type":          "Class",
-            "label":         "Computational Mechanics of Materials",
-            "id":            "16.225",
-            "listing-index": "m16a-019",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Formulation of numerical (finite element) methods for the analysis of the nonlinear continuum response of materials. The range of material behavior considered includes finite deformation elasticity and inelasticity. Numerical formulation and algorithms include variational formulation and variational constitutive updates; finite element discretization; constrained problems; time discretization and convergence analysis. Strong emphasis on the (parallel) computer implementation of algorithms in programming assignments. The application to real engineering applications and problems in engineering science are stressed throughout.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.225J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Radovitzky, R.",
-            "area":          "Materials and Structures"
-        },
-        {
-            "type":          "Class",
-            "label":         "Plates and Shells",
-            "id":            "16.230",
-            "listing-index": "m16a-020",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-3",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Derivation of elastic and plastic stress-strain relations for plate and shell elements. Bending and buckling of rectangular plates. Nonlinear geometric effects. Post-buckling and ultimate strength of cold formed sections and typical stiffened panels used in naval architecture. General theory of elastic shells and axisymmetric shells. Buckling, crushing and bending strength of cylindrical shells with application to offshore structures. Application to crashworthiness of vehicles and explosive and impact loading of structures. Taught during first half of term.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.230J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.081J",
-                "2.074",
-                "2.080J",
-                "16.21"
-            ],
-            "in-charge":     "Wierzbicki, T.",
-            "area":          "Materials and Structures"
-        },
-        {
-            "type":          "Class",
-            "label":         "Materials and Processes for Microelectromechanical Devices and Systems",
-            "id":            "16.288",
-            "listing-index": "m16a-021",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Unified treatment of key principles in materials and processing for design and manufacture of microelectromechanical systems (MEMS). Emphasis on materials and processes commonly used for fabrication for MEMS and not microelectronic systems. Discussion of the processing and properties of both thin and thick polycrystalline and amorphous films, wafer and thin film bonding, bulk micromachining techniques, and the relationships between processing and properties of active materials such as piezoelectrics, ferroelectrics and phase-transition materials. Key material properties and parameters and their relationships with microfabrication processes and applications are discussed, including elastic and inelastic deformation, fracture, residual stress, fatigue, creep, adhesion, stiction, and coupled-field constitutive behavior. Materials and process selection and case studies of applications provide a unifying theme.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.288J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.373J",
-                "3.48J",
-                "6.778J",
-                "10.584J",
-                "6.152J",
-                "3.155J"
-            ],
-            "in-charge":     [
-                "Anand, L.",
-                "Jensen, K. F.",
-                "Schmidt, M. A.",
-                "Thompson, C. V.",
-                "Wardle, B. L."
-            ],
-            "area":          "Materials and Structures"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.288",
-            "lecture-section-of": "16.288",
-            "timeAndPlace":       "MW8-9.30 9-057"
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Special Subject in Materials and Structures",
-            "id":            "16.298",
-            "listing-index": "m16a-022",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.298",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "area":          "Materials and Structures"
-        },
-        {
-            "type":          "Class",
-            "label":         "Feedback Control Systems",
-            "id":            "16.30",
-            "listing-index": "m16a-023",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Review of classical control design using root locus and frequency domain methods (Nyquist diagrams and Bode plots). State-space representation of dynamic systems, including model realizations, controllability, and observability. An introduction to the state-space approach to control system analysis and synthesis, including full state feedback using pole placement, state estimation, and the design of dynamic control laws. Performance limitations and robustness. Extensive use of computer-aided control design tools. Applications to various aerospace systems including navigation, guidance, and control of vehicles. Students taking the graduate version complete additional assignments.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.30",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "16.31",
-                "16.06",
-                "16.060",
-                "2.010",
-                "6.302"
-            ],
-            "in-charge":     [
-                "How, J. P.",
-                "Frazzoli, E."
-            ],
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.30",
-            "lecture-section-of": "16.30",
-            "timeAndPlace":       "MWF11 33-419"
-        },
-        {
-            "type":          "Class",
-            "label":         "Special Subject in Control, Dynamics and Automation",
-            "id":            "16.301",
-            "listing-index": "m16a-024",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Provides credit for work on material in control and/or dynamics and/or automation outside of regularly scheduled subjects. Intended for study abroad under either the department\\'s Year Abroad Program or the Cambridge-MIT Exchange Program. Credit may be used to satisfy specific SB degree requirements. Consult department.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.301",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Crawley, E.F.",
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Feedback Control Systems",
-            "id":            "16.31",
-            "listing-index": "m16a-025",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Graduate-level version of 16.30; see description under 16.30. Includes additional homework questions, laboratory experiments, and a term project beyond 16.30 with a particular focus on the material associated with state-space realizations of MIMO transfer function (matrices); MIMO zeros, controllability, and observability; stochastic processes and estimation; limitations on performance; design and analysis of dynamic output feedback controllers; and robustness of multivariable control systems.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.31",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "16.30",
-                "16.06",
-                "16.060"
-            ],
-            "in-charge":     [
-                "How, J. P.",
-                "Frazzoli, E."
-            ],
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.31",
-            "lecture-section-of": "16.31",
-            "timeAndPlace":       "MWF11 33-419"
-        },
-        {
-            "type":          "Class",
-            "label":         "Stochastic Estimation and Control",
-            "id":            "16.322",
-            "listing-index": "m16a-026",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Estimation and control of dynamic systems. Brief review of probability and random variables. Classical and state-space descriptions of random processes and their propagation through linear systems. Frequency domain design of filters and compensators. The Kalman filter to estimate the states of dynamic systems. Conditions for stability of the filter equations.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.322",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "16.06",
-                "16.060",
-                "6.041",
-                "6.431"
-            ],
-            "in-charge":     [
-                "How, J.P.",
-                "Deyst, J.J."
-            ],
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Principles of Optimal Control",
-            "id":            "16.323",
-            "listing-index": "m16a-027",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Studies basic optimization and the principles of optimal control. Considers deterministic and stochastic problems for both discrete and continuous systems. Solution methods include numerical search algorithms, model predictive control, dynamic programming, variational calculus, and approaches based on Pontryagin\\'s maximum principle. Includes many examples and applications of the theory.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.323",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "18.085",
-                "16.31"
-            ],
-            "in-charge":     "Hall, S.R.",
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Estimation for GPS and Inertial Navigation",
-            "id":            "16.324",
-            "listing-index": "m16a-028",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Review of stochastic processes, static estimation, recursive estimation, and dynamic systems with noise. Discrete and continuous Kalman Filters, smoothing, and extended Kalman Filters. GPS, inertial sensors, parity space hypothesis testing, and Markov models.  Various applications of estimation methods to aerospace systems.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.324",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "16.322",
-            "in-charge":     [
-                "How, J. P.",
-                "Deyst, J. J."
-            ],
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Aircraft Stability and Control",
-            "id":            "16.333",
-            "listing-index": "m16a-029",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Brief review of applied aerodynamics and modern approaches in aircraft stability and control. Static stability and trim. Stability derivatives and characteristic longitudinal and lateral-directional motions. Physical effects of wing, fuselage, and tail on aircraft motion. Flight vehicle stabilization by classical and modern control techniques. Time and frequency domain analysis of control system performance. Human pilot models and pilot-in-the-loop control with applications. V/STOL stability, dynamics, and control during transition from hover to forward flight. Parameter sensitivity and handling quality analysis of aircraft through variable flight conditions. Brief discussion of motion at high angles-of-attack, roll coupling, and other nonlinear flight regimes.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.333",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "16.31",
-            "in-charge":     "How, J. P.",
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Spacecraft Dynamics and Control",
-            "id":            "16.335",
-            "listing-index": "m16a-030",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Review of rigid body kinematics and dynamics for small and large rotations. Attitude sensors and actuators and the attitude guidance and control problem. Open-loop stability analyses are developed for a variety of equilibrium conditions. Spinners, dual spinners, gravity gradient, and geomagnetic torques. Momentum exchange and mass expulsion devices. Figure control of mirrors, linear control for pitch and coupled roll/yaw motion, and active nutation damping. Orbit attitude coupling in spacecraft dynamics. Stabilization and distributed control of deformable reflectors. Effects of fuel slosh and structural flexibility briefly covered.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.335",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "16.06",
-                "16.060"
-            ],
-            "in-charge":     "Ramnath, R. V.",
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Dynamics of Nonlinear Systems",
-            "id":            "16.337",
-            "listing-index": "m16a-031",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to nonlinear deterministic dynamical systems. Nonlinear ordinary differential equations. Planar autonomous systems. Fundamental theory: Picard iteration, contraction mapping theorem, and Bellman-Gronwall lemma. Stability of equilibria by Lyapunov\\'s first and second methods. Feedback linearization. Application to nonlinear circuits and control systems.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.337J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.243J",
-                "6.241"
-            ],
-            "coreq":         "18.100",
-            "in-charge":     [
-                "Wyatt, J. L.",
-                "Jr.",
-                "Megretski, A.",
-                "Dahleh, M.",
-                "Ramnath, R."
-            ],
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Spacecraft and Aircraft Sensors and Instrumentation",
-            "id":            "16.343",
-            "listing-index": "m16a-032",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Covers fundamental sensor and instrumentation principles in the context of systems designed for space or atmospheric flight. Systems discussed include basic measurement system for force, temperature, pressure; navigation systems (Global Positioning System, Inertial Reference Systems, radio navigation), air data systems, communication systems; spacecraft attitude determination by stellar, solar, and horizon sensing; remote sensing by incoherent and Doppler radar, radiometry, spectrometry, and interferometry. Also included is a review of basic electromagnetic theory and antenna design and discussion of design considerations for flight. Alternate years.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.343",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Statistical Methods in Experimental Design",
+            "id":        "16.470",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.470J",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Hansman, R. J.",
-                "Miller, D. W."
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Humans and Automation"
+        },
+        {
+            "type":      "Class",
+            "label":     "Advanced Special Subject in Humans and Automation",
+            "id":        "16.498",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.498",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
             ],
-            "area":          "Information and Control Engineering"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Humans and Automation"
         },
         {
-            "type":          "Class",
-            "label":         "Astrodynamics",
-            "id":            "16.346",
-            "listing-index": "m16a-033",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Fundamentals of astrodynamics; the two-body orbital initial-value and boundary-value problems with applications to space vehicle navigation and guidance for lunar and planetary missions with applications to space vehicle navigation and guidance for lunar and planetary missions including both powered flight and midcourse maneuvers. Topics include celestial mechanics, Kepler\\'s problem, Lambert\\'s problem, orbit determination, multi-body methods, mission planning, and recursive algorithms for space navigation. Selected applications from the Apollo, Space Shuttle, and Mars exploration programs.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.346",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "18.03",
-            "in-charge":     "Battin, R. H.",
-            "area":          "Information and Control Engineering"
+            "type":      "Class",
+            "label":     "Space Propulsion",
+            "id":        "16.522",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.522",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Propulsion and Energy Conversion"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0116.346",
-            "lecture-section-of": "16.346",
-            "timeAndPlace":       "MWF11 33-319"
-        },
-        {
-            "type":          "Class",
-            "label":         "Real-Time Systems and Software",
-            "id":            "16.35",
-            "listing-index": "m16a-034",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Concepts, principles, and methods for specifying and designing real-time computer systems. Topics include concurrency, real-time execution implementation, scheduling, testing, verification, real-time analysis, and software engineering concepts. Additional topics include operating system architecture, process management, and networking.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.35",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "1.00",
-                "6.01",
-                "6.005"
-            ],
-            "in-charge":     "Roy, N.",
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Concepts in the Engineering of Software",
-            "id":            "16.355",
-            "listing-index": "m16a-035",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "A reading and discussion subject on issues in the engineering of software systems and software development project design. Includes the present state of software engineering, what has been tried in the past, what worked,  what did not, and why. Topics may differ in each offering, but are chosen from the software process and lifecycle; requirements and  specifications; design principles; testing, formal analysis, and reviews; quality management and assessment; product and process metrics; COTS and      reuse; evolution and maintenance; team organization and people management; and software engineering aspects of programming languages.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.355J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "16.35",
-                "16.880J"
-            ],
-            "in-charge":     "Leveson, N. G.",
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Communication Systems Engineering",
-            "id":            "16.36",
-            "listing-index": "m16a-036",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces the fundamentals of digital communications and networking. Topics include elements of information theory, sampling and quantization, coding, modulation, signal detection and system performance in the presence of noise. Study of data networking includes multiple access, reliable packet transmission, routing and protocols of the internet. Concepts discussed in the context of aerospace communication systems: aircraft communications, satellite communications, and deep space communications.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.36",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "16.004",
-                "16.04",
-                "6.003",
-                "6.041"
-            ],
-            "in-charge":     "Modiano, E. H.",
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Data-Communication Networks",
-            "id":            "16.37",
-            "listing-index": "m16a-037",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Modeling of the control processes in conventional and high-speed data communication networks. Develops and utilizes elementary concepts from queueing theory, algorithms, linear and nonlinear programming to study the problems of line and network protocols, distributed algorithms, quasi-static and dynamic routing, congestion control, deadlock prevention. Treats local and wide-area networks, and high-speed electronic and optical networks.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.37J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Ionized Gases",
+            "id":        "16.55",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.55",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.263J",
-                "6.041",
-                "18.313"
-            ],
-            "in-charge":     [
-                "Bertsekas, D. P.",
-                "Modiano, E."
-            ],
-            "area":          "Information and Control Engineering"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Propulsion and Energy Conversion"
         },
         {
-            "type":          "Class",
-            "label":         "Statistics for Engineers and Scientists",
-            "id":            "16.391",
-            "listing-index": "m16a-038",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Provides a rigorous introduction to fundamentals of statistics motivated by engineering applications and emphasizing the informed use of modern statistical software.  Topics include sufficient statistics, exponential families, estimation, hypothesis testing, measures of performance, and notion of optimality.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.391J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.434J",
-                "18.06",
-                "6.431"
-            ],
-            "in-charge":     [
-                "Win, M.",
-                "Tsitsiklis, J. N."
-            ],
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Principles of Wide Bandwidth Communication",
-            "id":            "16.395",
-            "listing-index": "m16a-039",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to the principles of wide bandwidth wireless communication, with a focus on ultra-wide bandwidth (UWB) systems. Topics include the basics of spread-spectrum systems, impulse radio, Rake reception, transmitted reference signaling, spectral analysis, coexistence issues, signal acquisition, channel measurement and modeling, regulatory issues, and ranging, localization and GPS. Consists of lectures and technical presentations by students.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.395",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.011",
-                "16.36"
-            ],
-            "in-charge":     "Win, M.Z.",
-            "area":          "Information and Control Engineering"
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Special Subject in Information and Control",
-            "id":            "16.398",
-            "listing-index": "m16a-040",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.398",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Advanced Special Subject in Propulsion and Energy Conversion",
+            "id":        "16.598",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.598",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "area":          "Information and Control Engineering"
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "Propulsion and Energy Conversion"
         },
         {
-            "type":          "Class",
-            "label":         "Human Factors Engineering",
-            "id":            "16.400",
-            "listing-index": "m16a-041",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-3-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Accidents associated with human error often reflect the failure to recognize human factors in the design stage. Interaction of humans with aircraft and other complex machines. Manual control and human-computer interaction in semi-automated vehicles. Reviews sensory, motor, and cognitive performance characteristics and derives human engineering design criteria. Principles of displays, controls and ergonomics applied in various class design exercises. Meets with 16.453J, but assignments differ.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.400",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        "16.453",
-            "coreq":         "16.06",
-            "in-charge":     [
-                "Young, L. R.",
-                "Cummings, M. L.",
-                ""
-            ],
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.400",
-            "lecture-section-of": "16.400",
-            "timeAndPlace":       "TR11-12.30 37-212"
-        },
-        {
-            "type":          "Class",
-            "label":         "Special Subject in Communication and Software",
-            "id":            "16.401",
-            "listing-index": "m16a-042",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Provides credit for  student work on undergraduate-level material in communications and/or software outside of regularly scheduled subjects. Intended for study abroad under either the department\\'s Year Abroad Program or the Cambridge-MIT Exchange Program. Credit may be used to satisfy specific SB degree requirements. Consult department.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.401",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Crawley, E.F.",
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":          "Class",
-            "label":         "Robotics: Science and Systems I",
-            "id":            "16.405",
-            "listing-index": "m16a-043",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "2-6-4",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Presents concepts, principles, and algorithms for computation and action in the physical world. Topics covered are: motion planning; geometric reasoning; kinematics and dynamics; state estimation; tracking; map building; manipulation; human-robot interaction; fault diagnosis; and embedded system development. Students specify and design a small-scale yet complex robot capable of real-time interaction with the natural world. Students may continue content in 6.142. Prior knowledge of one or more of the following areas would be useful: control (2.004, 6.302, or 16.30); software (1.00, 6.005, or 16.35); electronics (6.002, 6.070, 6.111, or 6.115); mechanical engineering (2.007); or independent experience such as MasLAB, 6.270, or a relevant UROP. Enrollment limited. 12 Engineering Design Points.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.405J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "Institute LAB",
-            "prereq":        "6.141J",
-            "in-charge":     [
-                "Leonard, J.",
-                "Roy, N.",
-                "Rus, D.",
-                "Teller, S."
-            ],
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":          "Class",
-            "label":         "Robotics: Science and Systems II",
-            "id":            "16.406",
-            "listing-index": "m16a-044",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "2-6-4",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Implementation and operation of the embedded system designed in 6.141. Addresses open research issues such as sustained autonomy, situational awareness, and human interaction. Students carry out experiments to assess their design and deliver a final written report. Prior knowledge of one or more of the following areas would be useful: control (2.004, 6.302, or 16.30), software (1.00, 6.005, or 16.35), electronics (6.002, 6.070, 6.111, or 6.115), mechanical engineering (2.007), independent experience (MasLAB, 6.270, or a UROP). 12 Engineering Design Points.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.406J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "6.142J",
-                "6.141"
-            ],
-            "in-charge":     [
-                "Leonard, J.",
-                "Roy, N.",
-                "Rus, D.",
-                "Teller, S."
-            ],
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.406",
-            "lecture-section-of": "16.406",
-            "timeAndPlace":       "F10-12 32-124"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0216.406",
-            "lab-section-of": "16.406",
-            "timeAndPlace":   "MW2-4 33-004"
-        },
-        {
-            "type":          "Class",
-            "label":         "Principles of Autonomy and Decision Making",
-            "id":            "16.410",
-            "listing-index": "m16a-045",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Survey of reasoning, optimization and decision making methodologies for creating highly autonomous systems and decision support aids.  Focus on principles, algorithms, and their application, taken from the disciplines of artificial intelligence and operations research.  Reasoning paradigms include logic and deduction, heuristic and constraint-based search, model-based reasoning, planning and execution, and machine learning.  Optimization paradigms include linear programming, integer programming, and dynamic programming. Decision-making paradigms include decision theoretic planning, and Markov decision processes.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.410",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "16.413",
-                "1.00",
-                "6.01"
-            ],
-            "in-charge":     [
-                "Williams, B. C.",
-                "Frazzoli, E."
-            ],
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.410",
-            "lecture-section-of": "16.410",
-            "timeAndPlace":       "MW10.30-12 33-418"
-        },
-        {
-            "type":          "Class",
-            "label":         "Cognitive Robotics",
-            "id":            "16.412",
-            "listing-index": "m16a-046",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Algorithms and paradigms for creating a wide range of robotic systems that act intelligently and robustly, by reasoning extensively from models of themselves and their world.  Examples range from autonomous Mars explorers and cooperative air vehicles, to everyday embedded devices.  Topics include deduction and search in real-time; temporal, decision-theoretic and contingency planning; dynamic execution and re-planning; reasoning about hidden state and failures; reasoning under uncertainty, path planning, mapping and localization, and cooperative and distributed robotics.  8 Engineering Design Points.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.412J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.834J",
-                "6.041",
-                "6.042",
-                "16.410",
-                "16.413",
-                "6.034",
-                "6.825"
-            ],
-            "in-charge":     [
-                "Williams, B. C.",
-                "Davis, R."
-            ],
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":          "Class",
-            "label":         "Principles of Autonomy and Decision Making",
-            "id":            "16.413",
-            "listing-index": "m16a-047",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Graduate-level version of 16.410; see description under 16.410.  Additional material on reasoning under uncertainty and machine learning, including hidden Markov models, graphical models and Bayesian networks, computational learning theory, reinforcement learning, decision tree learning and support vector machines.  Assignments include the application of autonomy algorithms to practical aerospace systems, as well as more advanced programming assignments.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.413",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "16.410",
-                "1.00",
-                "6.01"
-            ],
-            "in-charge":     [
-                "Williams, B. C.",
-                "Frazzoli, E."
-            ],
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.413",
-            "lecture-section-of": "16.413",
-            "timeAndPlace":       "MW10.30-12 33-418"
-        },
-        {
-            "type":          "Class",
-            "label":         "Planning Under Uncertainty",
-            "id":            "16.420",
-            "listing-index": "m16a-048",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Concepts, principles, and methods for planning with imperfect knowledge. Topics include state estimation, planning in information space, partially observable Markov decision processes, reinforcement learning and planning with uncertain models. Students will develop an understanding of how different planning algorithms and solutions techniques are useful in different problem domains. Previous coursework in artificial intelligence and state estimation strongly recommended.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.420",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "16.413",
-            "in-charge":     "Roy, N.",
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.420",
-            "lecture-section-of": "16.420",
-            "timeAndPlace":       "TR2.30-4 33-422"
-        },
-        {
-            "type":          "Class",
-            "label":         "Human Supervisory Control of Automated Systems",
-            "id":            "16.422",
-            "listing-index": "m16a-049",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Principles of supervisory control and telerobotics. Different levels of automation are discussed, as well as the allocation of roles and authority between humans and machines. Human-vehicle interface design in highly automated systems. Decision aiding. Trade-offs between human control and human monitoring. Automated alerting systems and human intervention in automatic operation. Enhanced human interface technologies such as virtual presence. Performance, optimization, and social implications of the human-automation system. Examples from aerospace, ground, and undersea vehicles, robotics, and industrial systems.  Alternate years.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.422",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Cummings, M. L.",
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":          "Class",
-            "label":         "Aerospace Biomedical and Life Support Engineering",
-            "id":            "16.423",
-            "listing-index": "m16a-050",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Fundamentals of human performance, physiology, and life support impacting engineering design and aerospace systems. Topics include effects of gravity on the muscle, skeletal, cardiovascular, and neurovestibular systems; human/pilot modeling and human/machine design; flight experiment design; and life support engineering for extravehicular activity (EVA). Case studies of current research are presented. Assignments include a design project, quantitative homework sets, and quizzes emphasizing engineering and systems aspects.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.423J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "16.400",
-                "16.06",
-                "16.060"
-            ],
-            "in-charge":     "Newman, D. J.",
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":          "Class",
-            "label":         "Sensory-Neural Systems: Spatial Orientation from End Organs to Behavior and Adaptation",
-            "id":            "16.430",
-            "listing-index": "m16a-051",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces sensory systems,and multi-sensory fusion using the vestibular and spatial orientation systems as a model. Topics range from end organ dynamics to neural responses, to sensory integration, to behavior, and adaptation, with particular application to balance, posture and locomotion under normal gravity and space conditions. Depending upon the background and interests of the students, advanced term project topics might include motion sickness, astronaut adaptation, artificial gravity, lunar surface locomotion, vestibulo-cardiovascular responses, vestibular neural prostheses, or other topics of interest.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.430J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Young, L.",
-                "Oman, C.",
-                "Merfeld, D.",
-                "Wall, C."
-            ],
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":          "Class",
-            "label":         "Flight Simulation and Virtual Environments",
-            "id":            "16.431",
-            "listing-index": "m16a-052",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-6-3",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Simulation of aircraft for research and pilot training. Coordinate transformations, flight dynamics, and conversion of equations of motion into a digital computer model. Cockpit motion requirements, motion washout, artificial control, and feel and high-g cueing devices. Principles of vision and implementation of display systems, including head-mounted displays. Computer graphics, rendering, texture, lighting, and visual effects. Term lab project developing a vehicle simulation. Alternate years.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.431",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "18.03",
-                "16.06",
-                "16.060"
-            ],
-            "in-charge":     "Staff",
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":          "Class",
-            "label":         "Human Factors Engineering",
-            "id":            "16.453",
-            "listing-index": "m16a-053",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Accidents associated with human error often reflect the failure to recognize human factors in the design stage. Interaction of humans with aircraft and other complex machines. Manual control and human-computer interaction in semi-automated vehicles. Reviews sensory, motor, and cognitive performance characteristics and derives human engineering design criteria. Principles of displays, controls and ergonomics applied in various class design exercises. Meets with 16.453J, but assignments differ.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.453",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "16.400",
-            "coreq":         [
-                "16.06",
-                "2.010"
-            ],
-            "in-charge":     [
-                "Young, L. R.",
-                "Cummings, M. L.",
-                ""
-            ],
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.453",
-            "lecture-section-of": "16.453",
-            "timeAndPlace":       "TR11-12.30 37-212"
-        },
-        {
-            "type":          "Class",
-            "label":         "Biomedical Signal and Image Processing",
-            "id":            "16.456",
-            "listing-index": "m16a-054",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-6-3",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Fundamentals of digital signal processing with particular emphasis on problems in biomedical research and clinical medicine. Basic principles and algorithms for data acquisition, imaging, filtering, and feature extraction. Laboratory projects provide practical experience in processing physiological data, with examples from cardiology, speech processing, and medical imaging. 6 Engineering Design Points.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.456J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "6.555J",
-                "6.003",
-                "2.004",
-                "16.004",
-                "18.085"
-            ],
-            "in-charge":     [
-                "Greenberg, J.",
-                "Wells, W.",
-                "Fisher, J. W.",
-                "Braida, L. D.",
-                "Clifford, G."
-            ],
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":          "Class",
-            "label":         "Bioengineering Journal Article Seminar",
-            "id":            "16.459",
-            "listing-index": "m16a-055",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "0-2-0",
-            "total-units":   2,
-            "has-final":     false,
-            "description":   "Each term, the class selects a new set of professional journal articles on bioengineering topics of current research interest. Some papers are chosen because of particular content, others are selected because they illustrate important points of methodology. Each week, one student leads the discussion, evaluating the strengths, weaknesses, and importance of each paper. Subject may be repeated for credit a maximum of four terms. Letter grade given in the last term applies to all accumulated units of 16.459.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.459",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     [
-                "Oman, C. M.",
-                "Young, L. R."
-            ],
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":          "Class",
-            "label":         "Statistical Methods in Experimental Design",
-            "id":            "16.470",
-            "listing-index": "m16a-056",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Statistically based experimental design inclusive of forming hypotheses, planning and conducting experiments, analyzing data, and interpreting and communicating results. Topics include descriptive statistics, statistical inference, hypothesis testing, parametric and nonparametric statistical analyses, factorial ANOVA, randomized block designs, MANOVA, linear regression, repeated measures models, and application of statistical software packages.  Alternate years.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.470J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "6.041",
-            "in-charge":     "Cummings, M. L.",
-            "area":          "Humans and Automation"
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Special Subject in Humans and Automation",
-            "id":            "16.498",
-            "listing-index": "m16a-057",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.498",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "type":      "Class",
+            "label":     "Undergraduate Research",
+            "id":        "16.UR",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.UR",
+            "offering":  [
                 "Can be repeated for credit",
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "TBA",
-            "area":          "Humans and Automation"
+            "area":      "Other Undergraduate Subjects"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0116.498",
-            "lecture-section-of": "16.498",
-            "timeAndPlace":       [
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Introduction to Propulsion Systems",
-            "id":            "16.50",
-            "listing-index": "m16a-058",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Presents aerospace propulsive devices as systems, with functional requirements and engineering and environmental limitations. Requirements and limitations that constrain design choices. Both air-breathing and rocket engines covered, at a level which enables rational integration of the propulsive system into an overall vehicle design. Mission analysis, fundamental performance relations, and exemplary design solutions presented.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.50",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "16.004",
-                "2.005"
-            ],
-            "in-charge":     "Martinez-Sanchez, M.",
-            "area":          "Propulsion and Energy Conversion"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.50",
-            "lecture-section-of": "16.50",
-            "timeAndPlace":       "MWF10 33-419"
-        },
-        {
-            "type":          "Class",
-            "label":         "Aircraft Engines and Gas Turbines",
-            "id":            "16.511",
-            "listing-index": "m16a-059",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Performance and characteristics of aircraft engines and industrial gas turbines, as determined by thermodynamic and fluid mechanic behavior of components: inlets, compressors, combustors, turbines, and nozzles. Discusses various engine types, including turbojet, turbofan, and turboprop. Limitations imposed by material properties and stresses. Emphasizes future design trends, including reduction noise, pollutant formation, fuel consumption, and weight.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.511",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "16.50",
-            "in-charge":     "Tan, C.",
-            "area":          "Propulsion and Energy Conversion"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0116.511",
-            "lecture-section-of": "16.511",
-            "timeAndPlace":       "MWF11-12.30 33-422"
-        },
-        {
-            "type":          "Class",
-            "label":         "Rocket Propulsion",
-            "id":            "16.512",
-            "listing-index": "m16a-060",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Chemical rocket propulsion systems for launch, orbital, and interplanetary flight. Modeling of solid, liquid-bipropellant, and hybrid rocket engines. Thermochemistry, prediction of specific impulse. Nozzle flows including real gas and kinetic effects. Structural constraints. Propellant feed systems, turbopumps. Combustion processes in solid, liquid, and hybrid rockets. Cooling; heat sink, ablative, and regenerative.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.512",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "16.50",
-            "in-charge":     "Lozano, P. C.",
-            "area":          "Propulsion and Energy Conversion"
-        },
-        {
-            "type":          "Class",
-            "label":         "Space Propulsion",
-            "id":            "16.522",
-            "listing-index": "m16a-061",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Reviews rocket propulsion fundamentals. Discusses advanced concepts in rocket propulsion ranging from chemical engines to electrical engines. Topics include advanced mission analysis, physics and engineering of microthrusters, solid propellant rockets, electrothermal, electrostatic, and electro-magnetic schemes for accelerating propellant. Some coverage is given of satellite power systems and their relation to propulsion systems.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.522",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "16.512",
-                "8.03"
-            ],
-            "in-charge":     "Lozano, P.C.",
-            "area":          "Propulsion and Energy Conversion"
-        },
-        {
-            "type":          "Class",
-            "label":         "Internal Flows in Turbomachines",
-            "id":            "16.540",
-            "listing-index": "m16a-062",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Internal fluid motions in turbomachines, propulsion systems, ducts and channels, and other fluid machinery.  Useful basic ideas, fundamentals of rotational flows, loss sources and loss accounting in fluid devices, unsteady internal flow and flow instability, flow in rotating passages, swirling flow, generation of streamwise vorticity and three-dimensional flow, non-uniform flow in fluid components.  Alternate years.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.540",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "2.25",
-            "in-charge":     [
-                "Greitzer, E. M.",
-                "Spakovszky, Z. S."
-            ],
-            "area":          "Propulsion and Energy Conversion"
-        },
-        {
-            "type":          "Class",
-            "label":         "An Introduction to Acoustics of Fluid Flow",
-            "id":            "16.543",
-            "listing-index": "m16a-063",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Fundamentals of acoustics and aerodynamic sound with application to external and internal flows, Lighthill\\'s acoustic analogy, effect of solid surfaces on acoustic behavior, effect of uniform and non-uniform mean flow, physics of jet noise, trailing edge noise theory, solutions to entropy, vorticity and acoustic field equations, characterization and estimation of noise sources encountered in turbomachinery and aircraft applications, innovative approaches to aircraft noise reduction.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.543",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Spakovszky, Z.S.",
-            "area":          "Propulsion and Energy Conversion"
-        },
-        {
-            "type":          "Class",
-            "label":         "Ionized Gases",
-            "id":            "16.55",
-            "listing-index": "m16a-064",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Properties and behavior of low-temperature plasmas for energy conversion, plasma propulsion, and gas lasers. Equilibrium of ionized gases: energy states, statistical mechanics, and relationship to thermodynamics. Kinetic theory: motion of charged particles, distribution function, collisions, characteristic lengths and times, cross-sections, and transport properties. Gas surface interactions: thermionic emission, sheaths, and probe theory. Radiation in plasmas and diagnostics. Alternate years.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.55",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "8.03",
-            "in-charge":     "Martinez-Sanchez, M.",
-            "area":          "Propulsion and Energy Conversion"
-        },
-        {
-            "type":          "Class",
-            "label":         "Aircraft Gas Turbine Structures",
-            "id":            "16.58",
-            "listing-index": "m16a-065",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Examines the structural design of aircraft gas turbine engines as set by the (multidisciplinary) coupling between aerodynamic, thermal, and structural requirements for high-performance propulsion systems. Topics include structures under static loads, rotor dynamics and vibration (design of rotating blades and disks, critical speed of rotating shafts, flutter and forced response of compressor and turbine blades), low-cycle fatigue, and design considerations for hot-section components used in gas turbine engines. Alternate years.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.58",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "16.511",
-            "in-charge":     [
-                "Epstein, A. H.",
-                "Ehrich, F.",
-                "Hsia, J. I."
-            ],
-            "area":          "Propulsion and Energy Conversion"
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Special Subject in Propulsion and Energy Conversion",
-            "id":            "16.598",
-            "listing-index": "m16a-066",
-            "course":        "16",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "No description available.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.598",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
+            "type":      "Class",
+            "label":     "UPOP Summer Practice Experience",
+            "id":        "16.EPE",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m16a.html#16.EPE",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "area":          "Propulsion and Energy Conversion"
-        },
-        {
-            "type":          "Class",
-            "label":         "Undergraduate Research",
-            "id":            "16.UR",
-            "listing-index": "m16a-067",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Undergraduate research opportunities in aeronautics and astronautics. For further information, contact Manuel Martinez-Sanchez, departmental coordinator.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.UR",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring",
-                "Fall",
-                "IAP",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "in-charge":     "Spakovszky, Z.S.",
-            "area":          "Other Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "UPOP Summer Practice Experience",
-            "id":            "16.EPE",
-            "listing-index": "m16a-068",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "0-1-0 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Immerses engineering sophomores in the world of professional engineering experience by providing guided instruction in all aspects of the job acquisition process. Students complete a 10-12 week internship assignment during the summer, which includes maintaining a structured journal of observations and experiences, meeting with UPOP staff members, writing essays, and completing a self-evaluation. May be repeated twice for credit; spring term can be taken only in conjunction with fall term.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.EPE",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
-                "Can be repeated for credit",
-                "Currently Offered"
-            ],
-            "prereq":        [
-                "1.EPE",
-                "2.EPE",
-                "3.EPE",
-                "10.EPE",
-                "16.EPE",
-                "22.EPE",
-                "2.EPW"
-            ],
-            "in-charge":     "LuperFoy, S.",
-            "area":          "Other Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "UPOP Reflective Learning Experience",
-            "id":            "16.EPR",
-            "listing-index": "m16a-069",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "0-0-3 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Reflective learning experiences for engineering juniors that serve as the culmination of their sophomore year in the UPOP program. Students review their internship experiences through written and oral presentations and receive small-group and individualized coaching to reinforce the cognitive link between all aspects of the UPOP experience and their disciplinary field of study.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.EPR",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "1.EPR",
-                "2.EPR",
-                "3.EPR",
-                "10.EPR",
-                "16.EPR",
-                "22.EPR",
-                "2.EPE"
-            ],
-            "in-charge":     "LuperFoy, S.",
-            "area":          "Other Undergraduate Subjects"
-        },
-        {
-            "type":          "Class",
-            "label":         "UPOP IAP Workshop",
-            "id":            "16.EPW",
-            "listing-index": "m16a-070",
-            "course":        "16",
-            "level":         "Undergrad",
-            "units":         "3-0-0 [P/D/F]",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Introduction to professional development skills for engineering practice. Experiential learning modules prepare sophomores for success in summer internship and beyond. Faculty and senior engineering professionals recruited from industry guide teams through learning activities, which include creative simulations, team competitions, oral presentations, and group problem-solving. Limited enrollment.",
-            "url":           "http://student.mit.edu/catalog/m16a.html#16.EPW",
-            "joint":         false,
-            "semester":      "IAP",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "1.EPW",
-                "2.EPW",
-                "3.EPW",
-                "6.EPW",
-                "10.EPW",
-                "16.EPW",
-                "22.EPW"
-            ],
-            "in-charge":     "LuperFoy, S.",
-            "area":          "Other Undergraduate Subjects"
+            "area":      "Other Undergraduate Subjects"
         }
     ]
 }

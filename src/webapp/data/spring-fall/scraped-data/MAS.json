@@ -1,594 +1,263 @@
 {
     "items": [
         {
-            "id":        "MAS.110",
-            "area":      "Undergraduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Fundamentals of Computational Media Design",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.110",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.110",
-            "timeAndPlace":       "TR3 56-114",
-            "type":               "LectureSection",
-            "label":              "L01MAS.110"
-        },
-        {
             "id":        "MAS.111",
+            "offering":  "Currently Offered",
             "area":      "Undergraduate Subjects",
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Introduction to Doing Research in Media Arts & Sciences",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.111",
             "subarea":   undefined
         },
         {
-            "id":        "MAS.160",
+            "id":        "MAS.402",
+            "offering":  "Currently Offered",
             "area":      "Undergraduate Subjects",
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
-            "label":     "Signals, Systems, and Information for Media Technology",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.160",
+            "label":     "Biological Engineering II: Instrumentation and Measurement",
             "subarea":   undefined
-        },
-        {
-            "id":        "MAS.234",
-            "area":      "Undergraduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Sensory and Social Orders",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.234J",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.234",
-            "timeAndPlace":       "TR1-2.30 46-3015",
-            "type":               "LectureSection",
-            "label":              "L01MAS.234"
-        },
-        {
-            "id":        "MAS.235",
-            "area":      "Undergraduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Anigrafs",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.235J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.241",
-            "area":      "Undergraduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Audio Processing by People and Machines",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.241",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.241",
-            "timeAndPlace":       "R1-3 E15-235",
-            "type":               "LectureSection",
-            "label":              "L01MAS.241"
         },
         {
             "id":        "MAS.490",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Undergraduate Subjects",
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Special Projects in Media Arts and Sciences",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.490",
             "subarea":   undefined
         },
         {
             "id":        "MAS.UR",
+            "offering":  [
+                "Can be repeated for credit",
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Undergraduate Subjects",
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Undergraduate Research in Media Arts and Sciences",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.UR",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.510",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Signals, Systems, and Information for Media Technology",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.510",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.511",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Systems and Signal Processing for Media Technology",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.511",
             "subarea":   undefined
         },
         {
             "id":        "MAS.551",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Design Without Boundaries",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.551J",
             "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.551",
-            "timeAndPlace":       "W10-12.30 NE18-4TH",
-            "type":               "LectureSection",
-            "label":              "L01MAS.551"
-        },
-        {
-            "id":        "MAS.622",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Pattern Recognition and Analysis",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.622J",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.622",
-            "timeAndPlace":       "MW10.30-12 E15-235",
-            "type":               "LectureSection",
-            "label":              "L01MAS.622"
-        },
-        {
-            "id":        "MAS.630",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Affective Computing",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.630",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.632",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Speech Interfaces and Mobile Devices",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.632",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.632",
-            "timeAndPlace":       "R10.30-12 E15-235",
-            "type":               "LectureSection",
-            "label":              "L01MAS.632"
-        },
-        {
-            "id":        "MAS.641",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Audio Processing by People and Machines",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.641J",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.641",
-            "timeAndPlace":       "R1-3 E15-235",
-            "type":               "LectureSection",
-            "label":              "L01MAS.641"
         },
         {
             "id":        "MAS.642",
+            "offering":  "Currently Offered",
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Writing for Computer Performance",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.642J",
             "subarea":   undefined
-        },
-        {
-            "id":        "MAS.654",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Cognitive Architectures",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.654J",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.654",
-            "timeAndPlace":       "TR1-2.30 46-3015",
-            "type":               "LectureSection",
-            "label":              "L01MAS.654"
-        },
-        {
-            "id":        "MAS.664",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Digital Innovations",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.664",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.664",
-            "timeAndPlace":       "T EVE (4-6 PM) E15-383",
-            "type":               "LectureSection",
-            "label":              "L01MAS.664"
-        },
-        {
-            "id":        "MAS.665",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Developmental Entrepreneurship",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.665",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.665",
-            "timeAndPlace":       "R4 E15-384",
-            "type":               "LectureSection",
-            "label":              "L01MAS.665"
         },
         {
             "id":        "MAS.672",
+            "offering":  "Currently Offered",
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "New Paradigms for Human-Computer Interaction",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.672",
             "subarea":   undefined
         },
         {
             "id":        "MAS.690",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Special Projects in Media Arts and Sciences",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.690",
             "subarea":   undefined
-        },
-        {
-            "id":        "MAS.712",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Special Topics in Creative Learning Technologies",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.712",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.714",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Technologies for Creative Learning",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.714J",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.714",
-            "timeAndPlace":       "R3-5 E15-283A",
-            "type":               "LectureSection",
-            "label":              "L01MAS.714"
         },
         {
             "id":        "MAS.731",
+            "offering":  "Currently Offered",
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "The Society of Mind",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.731J",
             "subarea":   undefined
-        },
-        {
-            "id":        "MAS.750",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Human-Robot Interaction",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.750",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.750",
-            "timeAndPlace":       "T10-12 E15-235",
-            "type":               "LectureSection",
-            "label":              "L01MAS.750"
-        },
-        {
-            "id":        "MAS.751",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Relational Machines",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.751J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.761",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Common Sense Reasoning for Interactive Applications",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.761",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.761",
-            "timeAndPlace":       "T10.30-12 E15-387",
-            "type":               "LectureSection",
-            "label":              "L01MAS.761"
         },
         {
             "id":        "MAS.771",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Autism Theory and Technology",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.771",
             "subarea":   undefined
         },
         {
             "id":        "MAS.790",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Special Projects in Media Arts and Sciences",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.790",
             "subarea":   undefined
-        },
-        {
-            "id":        "MAS.825",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Musical Aesthetics and Media Technology",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.825J",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.825",
-            "timeAndPlace":       "W2-4.30 E15-443",
-            "type":               "LectureSection",
-            "label":              "L01MAS.825"
         },
         {
             "id":        "MAS.826",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Projects in Media and Music",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.826J",
             "subarea":   undefined
-        },
-        {
-            "id":        "MAS.834",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Tangible Interfaces",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.834",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.834",
-            "timeAndPlace":       "W1-4 E15-283A",
-            "type":               "LectureSection",
-            "label":              "L01MAS.834"
-        },
-        {
-            "id":        "MAS.836",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Sensor Technologies for Interactive Environments",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.836",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.837",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Principles of Electronic Music Interfaces",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.837",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.837",
-            "timeAndPlace":       "T12.30-3.30 E15-235",
-            "type":               "LectureSection",
-            "label":              "L01MAS.837"
-        },
-        {
-            "id":        "MAS.857",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Optical Engineering",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.857J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.862",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "The Physics of Information Technology",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.862",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.863",
-            "area":      "Graduate Subjects",
-            "has-final": true,
-            "type":      "Class",
-            "label":     "How to Make (Almost) Anything",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.863",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.863",
-            "timeAndPlace":       "M1-4 E15-135",
-            "type":               "LectureSection",
-            "label":              "L01MAS.863"
-        },
-        {
-            "id":        "MAS.864",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "The Nature of Mathematical Modeling",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.864",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.865",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Quantum Information Science",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.865J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.881",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Principles of Neuroengineering",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.881J",
-            "subarea":   undefined
-        },
-        {
-            "lecture-section-of": "MAS.881",
-            "timeAndPlace":       "TR3.30-5 E15-235",
-            "type":               "LectureSection",
-            "label":              "L01MAS.881"
         },
         {
             "id":        "MAS.882",
+            "offering":  "Currently Offered",
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Applications for Neuroengineering",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.882J",
-            "subarea":   undefined
-        },
-        {
-            "id":        "MAS.883",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Neurotechnology Ventures",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.883J",
             "subarea":   undefined
         },
         {
             "id":        "MAS.890",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Special Projects in Media Arts and Sciences",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.890",
             "subarea":   undefined
         },
         {
             "id":        "MAS.910",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Research in Media Technology",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.910",
             "subarea":   "General"
         },
         {
             "id":        "MAS.912",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  undefined,
             "has-final": false,
-            "type":      "Class",
             "label":     "Teaching in Media Arts and Sciences",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.912",
             "subarea":   "General"
-        },
-        {
-            "id":        "MAS.921",
-            "area":      "Graduate Subjects",
-            "has-final": false,
-            "type":      "Class",
-            "label":     "Proseminar in Media Arts and Sciences",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.921",
-            "subarea":   "General"
-        },
-        {
-            "lecture-section-of": "MAS.921",
-            "timeAndPlace":       "R10-12 E15-443",
-            "type":               "LectureSection",
-            "label":              "L01MAS.921"
         },
         {
             "id":        "MAS.940",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Preparation for S.M. Thesis",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.940",
             "subarea":   "General"
         },
         {
             "id":        "MAS.945",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Preparation for General Exams",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.945",
             "subarea":   "General"
         },
         {
             "id":        "MAS.950",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Preparation for Ph.D. Thesis",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.950",
             "subarea":   "General"
         },
         {
             "id":        "MAS.960",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Special Topics in Media Technology",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.960",
             "subarea":   "General"
         },
         {
-            "id":        "MAS.961?MAS.968",
+            "id":        "MAS.961\u0013MAS.968",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Special Topics in Media Technology",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.961?MAS.968",
             "subarea":   "General"
         },
         {
             "id":        "MAS.969",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Special Topics in Media Technology",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.969",
             "subarea":   "General"
         },
         {
-            "id":        "MAS.ThG",
+            "id":        "MAS.THG",
+            "offering":  [
+                "Can be repeated for credit",
+                "Currently Offered"
+            ],
             "area":      "Graduate Subjects",
+            "category":  "H-LEVEL Grad Credit",
             "has-final": false,
-            "type":      "Class",
             "label":     "Graduate Thesis",
-            "url":       "http://student.mit.edu/catalog/mMASa.html#MAS.ThG",
             "subarea":   "General"
         }
     ]

@@ -1,2329 +1,274 @@
 {
     "items": [
         {
-            "type":          "Class",
-            "label":         "A Philosophical History of Energy",
-            "id":            "10.04",
-            "listing-index": "m10a-000",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Philosophic and historical approach to conceptions of energy through the 19th century. Relation of long standing scientific and philosophic problems in the field of energy to 21st century debates. Topics include the development of thermodynamics and kinetic theories, the foundation of the scientific project, the classical view of energy, and the harnessing of nature. Authors include Bacon, van Boltzmann, Carnot, Compte, Descartes, Gibbs, Plato, Aristotle, Leibniz, Kant, Hegel, Mill, Peirce, Whitehead, and Maxwell. Key texts and controversies form topics of weekly writing assignments and term papers.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.04J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "HASS Elective",
-            "prereq":        "24.114J",
-            "in-charge":     [
-                "Trout, B. L.",
-                "Perlman, L. D."
-            ]
+            "type":      "Class",
+            "label":     "Introduction to Chemical Engineering",
+            "id":        "10.10",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.10",
+            "offering":  "Currently Offered"
         },
         {
-            "type":          "Class",
-            "label":         "Introduction to Chemical Engineering",
-            "id":            "10.10",
-            "listing-index": "m10a-001",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "The diverse applications of chemical engineering are explored through example problems. Solutions require application of fundamental concepts of mass and energy conservation to batch and continuous systems, involving chemical and biological processes. Computer skills and the elements of engineering design are taught in the context of these example problems. The objective is to acquaint the student with the field of chemical engineering and to enable use of computer methods to solve chemical and biological engineering problems.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.10",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "in-charge":     [
-                "Sawin, H. H.",
-                "Green, W. H.",
-                "Stephanopoulos, Geo.",
-                "Prather, K. J.",
-                "Strano, M. S."
-            ]
+            "type":      "Class",
+            "label":     "Chemical and Biological Engineering Thermodynamics",
+            "id":        "10.213",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.213",
+            "offering":  "Currently Offered"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0110.10",
-            "lecture-section-of": "10.10",
-            "timeAndPlace":       "MWF1 4-270"
+            "type":      "Class",
+            "label":     "Chemical Engineering Projects Laboratory",
+            "id":        "10.26",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.26",
+            "offering":  "Currently Offered"
         },
         {
-            "type":           "RecitationSection",
-            "label":          "R0210.10",
-            "rec-section-of": "10.10",
-            "timeAndPlace":   "T10 34-101"
+            "type":      "Class",
+            "label":     "Biological Engineering Projects Laboratory",
+            "id":        "10.29",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.29",
+            "offering":  "Currently Offered"
         },
         {
-            "type":          "Class",
-            "label":         "Chemical and Biological Engineering Thermodynamics",
-            "id":            "10.213",
-            "listing-index": "m10a-002",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Thermodynamics of multicomponent, multiphase chemical and biological systems. Applications of first, second, and third laws of thermodynamics to open and closed systems. Properties of mixtures, including colligative properties, chemical reaction equilibrium, and phase equilibrium; non-ideal solutions; power cycles; refrigeration; separation systems.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.213",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.60",
-                "10.10"
-            ],
-            "in-charge":     [
-                "Gleason, K. K.",
-                "Maheshri, N.",
-                "Love, J. C."
-            ]
+            "type":      "Class",
+            "label":     "Fluid Mechanics",
+            "id":        "10.301",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.301",
+            "offering":  "Currently Offered",
+            "category":  "Restricted Electives in Science and Technology"
         },
         {
-            "type":          "Class",
-            "label":         "Molecular Engineering",
-            "id":            "10.22",
-            "listing-index": "m10a-003",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces molecular concepts in relation to engineering thermodynamics. Includes topics in statistical mechanics, molecular description of gases and liquids, property estimation, description of equilibrium and dynamic properties of fluids from molecular principles, and kinetics of activated processes. Also covers some basic aspects of molecular simulation and applications in systems of engineering interest.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.22",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "prereq":        [
-                "5.60",
-                "10.213"
-            ],
-            "in-charge":     [
-                "Rutledge, G. C.",
-                "Doyle, P. S."
-            ]
+            "type":      "Class",
+            "label":     "Separation Processes",
+            "id":        "10.32",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.32",
+            "offering":  "Currently Offered"
         },
         {
-            "type":          "Class",
-            "label":         "Industrial Chemistry and Chemical Process Pathways",
-            "id":            "10.25",
-            "listing-index": "m10a-004",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Chemical and engineering principles involved in creation and operation of viable industrial processes. Topics: analysis of process chemistry by p-pathways (i.e., radical, ionic, and pericyclic reactions of organic syntheses) and d-pathways (i.e., catalysis by transition-metal complexes). Use of reaction mechanisms for inference of co-product formation, kinetics, and equilibria: process synthesis logic related to reaction selectivity, recycle, separations. Illustrations drawn from current and contemplated commercial practice.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.25",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "10.213",
-                "10.37"
-            ],
-            "in-charge":     "Virk, P. S."
+            "type":      "Class",
+            "label":     "Introduction to Modeling and Simulation",
+            "id":        "10.333",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.333",
+            "offering":  "Currently Offered",
+            "category":  "Restricted Electives in Science and Technology"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0110.25",
-            "lecture-section-of": "10.25",
-            "timeAndPlace":       "MWF10 66-156"
+            "type":      "Class",
+            "label":     "Chemical Kinetics and Reactor Design",
+            "id":        "10.37",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.37",
+            "offering":  "Currently Offered"
         },
         {
-            "type":          "Class",
-            "label":         "Chemical Engineering Projects Laboratory",
-            "id":            "10.26",
-            "listing-index": "m10a-005",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-8-4",
-            "total-units":   15,
-            "has-final":     false,
-            "description":   "Projects in applied chemical engineering research. Students work in teams on one project for the term. Projects often suggested by local industry. Includes training in research planning and project management, execution of experimental work, data analysis, oral presentation skills and individual report writing, and team-building.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.26",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.310",
-                "7.02",
-                "10.702",
-                "10.302"
-            ],
-            "in-charge":     [
-                "Colton, C. K.",
-                "Virk, P. S.",
-                "Dalzell, W. H.",
-                "Johnston, B. S.",
-                "Smith, K. A."
-            ]
+            "type":      "Class",
+            "label":     "Fundamentals of Advanced Energy Conversion",
+            "id":        "10.392",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.392J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Chemical Engineering Processes Laboratory",
-            "id":            "10.27",
-            "listing-index": "m10a-006",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "2-8-5",
-            "total-units":   15,
-            "has-final":     false,
-            "description":   "Introduces practical chemical and biological engineering unit operations through experience with pilot-scale equipment and processes and theory of selected unit operations. Team building; experimentation and data analysis; and individual report writing and oral presentations.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.27",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.310",
-                "10.32",
-                "10.37"
-            ],
-            "in-charge":     "Staff"
-        },
-        {
-            "type":          "Class",
-            "label":         "Chemical-Biological Engineering Laboratory",
-            "id":            "10.28",
-            "listing-index": "m10a-007",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "2-8-5",
-            "total-units":   15,
-            "has-final":     false,
-            "description":   "Introduces the complete design of the bioprocess: from vector selection to production, separation, and characterization of recombinant products. Utilize concepts from many fields, such as, chemical and electrical engineering, and biology. Student teams work through parallel modules spanning microbial fermentation and animal cell culture. With the bioreactor at the core of the experiments, students study cell metabolism and biological pathways, kinetics of cell growth and product formation, oxygen mass transport, scale-up and techniques for the design of process control loops. Introduces novel bioreactors and powerful analytical instrumentation. Downstream processing and recombinant product purification also included. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.28",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.310",
-                "7.02",
-                "10.702",
-                "7.05",
-                "5.07",
-                "10.28L"
-            ],
-            "in-charge":     "Prather, J.-F. Hamel and K. J."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.28",
-            "lecture-section-of": "10.28",
-            "timeAndPlace":       "M3-5 4-237"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0210.28",
-            "lab-section-of": "10.28",
-            "timeAndPlace":   "TR1-5 66-0042"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0310.28",
-            "lab-section-of": "10.28",
-            "timeAndPlace":   "WF1-5 66-0042"
-        },
-        {
-            "type":          "Class",
-            "label":         "Chemical-Biological Engineering Laboratory",
-            "id":            "10.28L",
-            "listing-index": "m10a-008",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "2-8-5",
-            "total-units":   15,
-            "has-final":     false,
-            "description":   "Same as 10.28, but with the lab portion of the class held during IAP. Content, depth, and difficulty are otherwise identical to that of 10.28. The class is designated as 10.28 on students\\' transcripts. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.28L",
-            "joint":         false,
-            "semester":      [
-                "IAP",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.310",
-                "7.02",
-                "10.702",
-                "7.05",
-                "5.07",
-                "10.28"
-            ],
-            "in-charge":     "Staff, J.-F. Hamel and"
-        },
-        {
-            "type":          "Class",
-            "label":         "Biological Engineering Projects Laboratory",
-            "id":            "10.29",
-            "listing-index": "m10a-009",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-8-4",
-            "total-units":   15,
-            "has-final":     false,
-            "description":   "Projects in applied biological engineering research. Students work in teams on one project for the term. Projects often suggested by local industry. Includes training in research planning and project management, execution of experimental work, data analysis, oral presentation skills and report writing, and team-building.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.29",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.310",
-                "7.02",
-                "10.702",
-                "10.302"
-            ],
-            "in-charge":     [
-                "Colton, C. K.",
-                "Hamel, J. F.",
-                "Cooney, C. L.",
-                "Langer, R.S."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Fluid Mechanics",
-            "id":            "10.301",
-            "listing-index": "m10a-010",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces the mechanical principles governing fluid flow. Stress in a fluid. Conservation of mass and momentum, using differential and integral balances. Elementary constitutive equations. Hydrostatics. Exact solutions of the Navier-Stokes equations. Approximate solutions using control volume analysis. Mechanical energy balances and Bernoulli\\'s equation. Dimensional analysis and dynamic similarity. Introduces boundary-layer theory and turbulence.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.301",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "Restricted Electives in Science and Technology",
-            "prereq":        [
-                "18.03",
-                "10.10"
-            ],
-            "in-charge":     [
-                "Virk, P. S.",
-                "Deen, W. M.",
-                "Armstrong, R. C."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Transport Processes",
-            "id":            "10.302",
-            "listing-index": "m10a-011",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Principles of heat and mass transfer. Steady and transient conduction and diffusion. Radiative heat transfer. Convective transport of heat and mass in both laminar and turbulent flows.  Emphasis on the development of a physical understanding of the underlying phenomena and upon the ability to solve real heat and mass transfer problems of engineering significance.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.302",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.60",
-                "10.301",
-                "10.213"
-            ],
-            "in-charge":     [
-                "Smith, K. A.",
-                "Dalzell, W. H.",
-                "Hatton, T.A."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.302",
-            "lecture-section-of": "10.302",
-            "timeAndPlace":       "MWF12 66-110"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0210.302",
-            "rec-section-of": "10.302",
-            "timeAndPlace":   "T11 66-110"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0310.302",
-            "rec-section-of": "10.302",
-            "timeAndPlace":   "T12 66-110"
-        },
-        {
-            "type":          "Class",
-            "label":         "Separation Processes",
-            "id":            "10.32",
-            "listing-index": "m10a-012",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "General principles of separation by equilibrium and rate processes. Staged cascades. Applications to distillation, absorption, adsorption, and membrane processes. Phase equilibria and role of diffusion.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.32",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "10.213",
-                "10.302"
-            ],
-            "in-charge":     "Dalzell, W. H."
-        },
-        {
-            "type":          "Class",
-            "label":         "Introduction to Modeling and Simulation",
-            "id":            "10.333",
-            "listing-index": "m10a-013",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Basic concepts of computer modeling and simulation in science and engineering. Uses techniques and software for simulation, data analysis and visualization. Continuum, mesoscale, atomistic and quantum methods used to study fundamental and applied problems in physics, chemistry, materials science, mechanics, engineering, and biology. Examples drawn from the disciplines above are used to understand or characterize complex structures and materials, and complement experimental observations.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.333",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "Restricted Electives in Science and Technology",
-            "prereq":        [
-                "1.021",
-                "3.021",
-                "10.333",
-                "22.00",
-                "18.03",
-                "3.016"
-            ],
-            "in-charge":     [
-                "Buehler, M.",
-                "Marzari, N.",
-                "Radovitzky, R.",
-                "Thonhauser, T."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Numerical Methods Applied to Chemical Engineering",
-            "id":            "10.34",
-            "listing-index": "m10a-014",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     true,
-            "description":   "Numerical methods for solving problems arising in heat and mass transfer, fluid mechanics, chemical reaction engineering, and molecular simulation. Topics: numerical linear algebra, solution of nonlinear algebraic equations and ordinary differential equations, solution of partial differential equations (e.g. Navier-Stokes), numerical methods in molecular simulation (dynamics, geometry optimization). All methods are presented within the context of chemical engineering problems. Familiarity with structured programming is assumed.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.34",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Green, W. H."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.34",
-            "lecture-section-of": "10.34",
-            "timeAndPlace":       "MWF9 66-110"
-        },
-        {
-            "type":          "Class",
-            "label":         "Chemical Kinetics and Reactor Design",
-            "id":            "10.37",
-            "listing-index": "m10a-015",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Applies the concepts of reaction rate, stoichiometry and equilibrium to the analysis of chemical and biological reacting systems. Derivation of rate expressions from reaction mechanisms and equilibrium or steady state assumptions. Design of chemical and biochemical reactors via synthesis of chemical kinetics, transport phenomena, and mass and energy balances. Topics: chemical/biochemical pathways; enzymatic, pathway and cell growth kinetics; batch, plug flow and well-stirred reactors for chemical reactions and cultivations of microorganisms and mammalian cells; heterogeneous and enzymatic catalysis; heat and mass transport in reactors, including diffusion to and within catalyst particles and cells or immoblized enzymes.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.37",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "5.60",
-                "10.301"
-            ],
-            "in-charge":     [
-                "Stephanopoulos, Gr.",
-                "Wittrup, K. D.",
-                "Green, W.H."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Process Design",
-            "id":            "10.390",
-            "listing-index": "m10a-016",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Presentation and discussion of process design case studies, selected from a variety of areas in which chemical engineers work. Emphasis on the applications of engineering science to the solution of real problems, including conceptual design and analysis leading to optimal solutions. Discussion of the trade-offs inherent in design, including economics, environmental impact, and contextual issues. Review of required engineering science and presentation of the basics of process economics.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.390",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "10.213",
-                "10.301"
-            ],
-            "in-charge":     "Staff"
-        },
-        {
-            "type":          "Class",
-            "label":         "Sustainable Energy",
-            "id":            "10.391",
-            "listing-index": "m10a-017",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Assessment of current and potential energy systems, covering extraction, conversion and end-use, with emphasis on meeting regional and global energy needs in the 21st century in a sustainable manner. Examination of energy technologies in each fuel cycle stage for fossil (oil, gas, synthetic), nuclear (fission and fusion) and renewable (solar, biomass, wind, hydro, and geothermal) energy types, along with storage, transmission, and conservation issues. Focus on evaluation and analysis of energy technology systems in the context of political, social, economic, and environmental goals. Open to upper-class undergraduates.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.391J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "1.818J",
-                "2.65J",
-                "11.371J",
-                "22.811J"
-            ],
-            "in-charge":     [
-                "Golay, M. W.",
-                "Tester, J. W.",
-                "Freidberg, J. P."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.391",
-            "lecture-section-of": "10.391",
-            "timeAndPlace":       "TR3-5 4-370"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0210.391",
-            "rec-section-of": "10.391",
-            "timeAndPlace":   [
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Fundamentals of Advanced Energy Conversion",
-            "id":            "10.392",
-            "listing-index": "m10a-018",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Fundamentals of thermodynamics, chemistry, and transport applied to energy systems. Analysis of energy conversion and storage in thermal, mechanical, chemical, and electrochemical processes in power and transportation systems, with emphasis on efficiency, performance and environmental impact. Applications to fuel reforming and alternative fuels, hydrogen, fuel cells and batteries, combustion, catalysis, combined and hybrid power cycles using fossil, nuclear and renewable resources. CO2 separation and capture. Biomass energy.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.392J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.62J",
-                "22.40J",
-                "2.60J",
-                "3.083J",
-                "2.006",
-                "3.044"
-            ],
-            "in-charge":     [
-                "Ghoniem, A. F.",
-                "Kazimi, M.",
-                "Chiang, Y."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Multiscale Analysis of Advanced Energy Processes",
-            "id":            "10.393",
-            "listing-index": "m10a-019",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Motivation, approach and overall methodology, and specific options for achieving a more sustainable energy supply with lower environmental impacts. Case studies designed to explore multiscale aspects of new energy technology development. Four, 2-week subject modules explore diverse aspects of new energy technology development. Modules include nuclear power for electricity and hydrogen production, conventional and synthetic fossil fuels and carbon sequestration, conversion of biomass into transportation fuels and energy, and geothermal energy recovery and conversion to electricity.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.393",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Tester, J. W.",
-                "Golay, M.",
-                "Drake, E."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Chemical Engineering Thermodynamics",
-            "id":            "10.40",
-            "listing-index": "m10a-020",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Basic postulates of classical thermodynamics. Application to transient open and closed systems. Criteria of stability and equilibria. Constitutive property models of pure materials and mixtures emphasizing molecular-level effects using the formalism of statistical mechanics. Phase and chemical equilibria of multicomponent systems. Applications emphasized through extensive problem work relating to practical cases.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.40",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.60",
-                "10.213"
-            ],
-            "in-charge":     [
-                "Tester, J. W.",
-                "Trout, B. L.",
-                "Blankschtein, D.",
-                "Gleason, K.K."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.40",
-            "lecture-section-of": "10.40",
-            "timeAndPlace":       "TR9-11 66-110"
-        },
-        {
-            "type":          "Class",
-            "label":         "Special Topics in Advanced Thermodynamics",
-            "id":            "10.42",
-            "listing-index": "m10a-021",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Critical point phenomena, supercritical fluids, and solution models for mixtures of electrolytes and non-electrolytes using a statistical mechanics framework with molecular simulations employed. Applications to hydrothermal chemical processes and electrochemical processes in batteries and fuel cells. Polymer thermodynamics, and surface and potential field effects on thermodynamic properties comprise other topics.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.42",
-            "joint":         false,
-            "semester":      "IAP",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.40",
-            "in-charge":     "Tester, J. W."
-        },
-        {
-            "type":          "Class",
-            "label":         "Molecular Aspects of Chemical Engineering",
-            "id":            "10.420",
-            "listing-index": "m10a-022",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Molecular-level engineering and analysis of chemical processes. Use of chemical bonding, reactivity, and other key concepts in the design and tailoring of organic systems. Application and development of structure-property relationships. Descriptions of the chemical forces and structural factors that govern supramolecular and interfacial phenomena for molecular and polymeric systems.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.420",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "prereq":        [
-                "10.520",
-                "5.13",
-                "10.213"
-            ],
-            "in-charge":     "Hammond, P. T."
-        },
-        {
-            "type":          "Class",
-            "label":         "Introduction to Interfacial Phenomena",
-            "id":            "10.43",
-            "listing-index": "m10a-023",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Introduces fundamental and applied aspects of interfacial phenomena. Theory of capillarity. Experimental determination of interfacial tension. Thermodynamics of interfaces. The Gibbs adsorption equation. Surface tension of pure liquids and solutions. Surface films. Wetting and contact angles. Effect of curvature on the equilibrium state of pure systems and mixtures. Fundamentals of adsorption, micellization, solubilization, and emulsification.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.43",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Introduction to Interfacial Phenomena",
+            "id":        "10.43",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.43",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.213",
-            "in-charge":     "Blankschtein, D."
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Statistical Thermodynamics of Complex Liquids",
-            "id":            "10.44",
-            "listing-index": "m10a-024",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Theory of self-assembly in surfactant-water (micellar) and surfactant-water-oil (micro-emulsion) systems. Introduction to the theory of polymer solutions. Introduction to scattering techniques, light, x-ray, and neutron scattering applied to studies of the structure and dynamics of complex liquids. Modern theory of the liquid state relevant to structured (supramolecular) liquids.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.44J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "8.575J",
-                "22.52J",
-                "8.08",
-                "10.213"
-            ],
-            "in-charge":     [
-                "Blankschtein, D.",
-                "Chen, S. H."
+            "type":      "Class",
+            "label":     "Molecular and Engineering Aspects of Biotechnology",
+            "id":        "10.441",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.441J",
+            "offering":  [
+                "Not offered next year",
+                "Currently Offered"
             ]
         },
         {
-            "type":          "Class",
-            "label":         "Molecular and Engineering Aspects of Biotechnology",
-            "id":            "10.441",
-            "listing-index": "m10a-025",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "cultivation; site-specific mutation of proteins; protein pharmacology and delivery.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.441J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Integrated Chemical Engineering I",
+            "id":        "10.490",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.490",
+            "offering":  "Currently Offered"
+        },
+        {
+            "type":      "Class",
+            "label":     "Integrated Chemical Engineering Topics I",
+            "id":        "10.492",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.492",
+            "offering":  "Currently Offered"
+        },
+        {
+            "type":      "Class",
+            "label":     "Thermal Hydraulics in Power Technology",
+            "id":        "10.536",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.536J",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "prereq":        [
-                "7.37J",
-                "20.361J",
-                "20.110J",
-                "2.772J",
-                "2.005",
-                "3.012",
-                "5.60",
-                "7.06"
-            ],
-            "in-charge":     [
-                "Lodish, H.",
-                "Griffith, L. G."
-            ]
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Biochemical Engineering",
-            "id":            "10.442",
-            "listing-index": "m10a-026",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Interaction of chemical engineering, biochemistry, and microbiology. Mathematical representations of microbial systems. Kinetics of growth, death, and metabolism. Continuous fermentation, agitation, mass transfer, and scale-up in fermentation systems, enzyme technology.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.442",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Molecular, Cellular, and Tissue Biomechanics",
+            "id":        "10.537",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.537J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Protein Folding and Human Disease",
+            "id":        "10.543",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.543J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Systems Engineering",
+            "id":        "10.551",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.551",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Synthesis of Polymers",
+            "id":        "10.569",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.569",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Atmospheric Physics and Chemistry",
+            "id":        "10.571",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.571J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Molecular Design and Bioprocess Development of Immunotherapies",
+            "id":        "10.595",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.595",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "prereq":        "10.542",
-            "in-charge":     "Prather, K. J."
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":          "Class",
-            "label":         "Separation Processes for Biochemical Products",
-            "id":            "10.445",
-            "listing-index": "m10a-027",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Introduction to fundamental principles of separation operations for the recovery of products from biological processes, membrane filtration, chromatography, centrifugation, cell disruption, extraction, and process design.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.445",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
+            "type":      "Class",
+            "label":     "Chemical Reactor Engineering",
+            "id":        "10.65",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.65",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Introduction to Experimental Biology and Communication",
+            "id":        "10.702",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.702",
+            "offering":  "Currently Offered",
+            "category":  "Institute LAB"
+        },
+        {
+            "type":      "Class",
+            "label":     "Radiative Transfer",
+            "id":        "10.74",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.74J",
+            "offering":  [
                 "Not offered next year",
                 "Currently Offered"
             ],
-            "prereq":        "10.545",
-            "in-charge":     "Cooney, C. L."
-        },
-        {
-            "type":          "Class",
-            "label":         "Process Dynamics, Operations, and Control",
-            "id":            "10.450",
-            "listing-index": "m10a-028",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Introduction to dynamic processes and the engineering tasks of process operations and control. Subject covers modeling the static and dynamic behavior of processes; control strategies; design of feedback, feedforward, and other control structures; model-based control; applications to process equipment.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.450",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "10.302",
-                "18.03"
-            ],
-            "in-charge":     "Johnston, B. S."
-        },
-        {
-            "type":          "Class",
-            "label":         "Polymer Science Laboratory",
-            "id":            "10.467",
-            "listing-index": "m10a-029",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "2-7-6",
-            "total-units":   15,
-            "has-final":     false,
-            "description":   "Experiments broadly aimed at acquainting students with the range of properties of polymers, methods of synthesis, and physical chemistry. Examples: solution polymerization of acrylamide, bead polymerization of divinylbenzene, interfacial polymerization of nylon 6,10. Evaluation of networks by tensile and swelling experiments. Rheology of polymer solutions and suspensions. Physical properties of natural and silicone rubber. Priority of enrollment given to Course 10 seniors and juniors.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.467",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "Institute LAB",
-            "prereq":        [
-                "5.12",
-                "5.310"
-            ],
-            "in-charge":     [
-                "Hammond, P. T.",
-                "Rutledge, G. C.",
-                "Love, J. C."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.467",
-            "lecture-section-of": "10.467",
-            "timeAndPlace":       "MT1 66-154"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0210.467",
-            "lab-section-of": "10.467",
-            "timeAndPlace":   [
-                "T2-5 31-068",
-                "R1-5 31-068"
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Integrated Chemical Engineering I",
-            "id":            "10.490",
-            "listing-index": "m10a-030",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-0-5",
-            "total-units":   8,
-            "has-final":     false,
-            "description":   "Presents and solves chemical engineering problems in an industrial context, with applications varying by semester. Emphasis on the integration of fundamental concepts with approaches of process design.  Emphasis on problems that demand synthesis, economic analysis, and process design.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.490",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "10.37",
-                "10.490"
-            ],
-            "in-charge":     [
-                "Barton, P. I.",
-                "McRae, G. J.",
-                "Johnston, B. S."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.490",
-            "lecture-section-of": "10.490",
-            "timeAndPlace":       "MTRF10 (ENDS NOV 4) 66-144"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0210.490",
-            "lecture-section-of": "10.490",
-            "timeAndPlace":       "MTRF11 (ENDS NOV 4) 66-144"
-        },
-        {
-            "type":          "Class",
-            "label":         "Integrated Chemical Engineering Topics I",
-            "id":            "10.492",
-            "listing-index": "m10a-031",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "2-0-2",
-            "total-units":   4,
-            "has-final":     false,
-            "description":   "Chemical engineering problems presented and analyzed in an industrial context. Emphasis on the integration of fundamentals with material property estimation, process control, product development, and computer simulation. Integration of societal issues, such as engineering ethics, environmental and safety considerations, and impact of technology on society are addressed in the context of case studies.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.492",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "IAP",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "10.490",
-                "10.491",
-                "10.490",
-                "10.491",
-                "10.490",
-                "10.491"
-            ],
-            "in-charge":     [
-                "Jensen, K. F.",
-                "Wang, D. I. C.",
-                "H.Sawin, H.",
-                "Cohen, R. E.",
-                "Maheshri, N.",
-                "Barton, P. I."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.492",
-            "lecture-section-of": "10.492",
-            "timeAndPlace":       "MTRF10 (BEGINS NOV 6) 66-144"
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0210.492",
-            "lecture-section-of": "10.492",
-            "timeAndPlace":       "MTRF11 (BEGINS NOV 6) 66-144"
-        },
-        {
-            "type":          "Class",
-            "label":         "Tissue Engineering for Analysis, Prevention, and Treatment of Human Disease",
-            "id":            "10.499",
-            "listing-index": "m10a-032",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Analysis of fundamental processes in tissue engineering with an emphasis on use of comparative animal models and in vitro tissue engineered models to understand human disease and develop therapies for human disease and for regenerating human tissues and organs.  using representative examples of metabolic tissue (e.g., liver) and connective tissue (e.g., bone). Design principles and engineering approaches (e.g., use of synthetic materials) for controlling receptor-mediated processes such as cell migration, growth, and differentiation. Mass transfer limitations in design of devices for cell encapsulation and in scaffold-guided regeneration. Guided organization of multicellular structures. Current clinical prospects.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.499J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "20.360J",
-                "5.07",
-                "7.05",
-                "7.03",
-                "18.03",
-                "20.110",
-                "5.60"
-            ],
-            "in-charge":     "Staff"
-        },
-        {
-            "type":          "Class",
-            "label":         "Analysis of Transport Phenomena",
-            "id":            "10.50",
-            "listing-index": "m10a-033",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Unified treatment of heat transfer, mass transfer, and fluid mechanics, emphasizing scaling concepts in formulating models and analytical methods for obtaining solutions. Topics include conduction and diffusion, laminar flow regimes, convective heat and mass transfer, and simultaneous heat and mass transfer with chemical reaction or phase change.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.50",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "10.301",
-                "10.302"
-            ],
-            "in-charge":     [
-                "Deen, W. M.",
-                "Doyle, P. S."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.50",
-            "lecture-section-of": "10.50",
-            "timeAndPlace":       "MWF1-2.30 66-110"
-        },
-        {
-            "type":          "Class",
-            "label":         "Mechanics of Fluids",
-            "id":            "10.52",
-            "listing-index": "m10a-034",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Advanced subject in fluid and continuum mechanics. Content includes kinematics, macroscopic balances for linear and angular momentum, the stress tensor, creeping flows and the lubrication approximation, the boundary layer approximation, linear stability theory, and some simple turbulent flows.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.52",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.50",
-            "in-charge":     "Smith, K. A."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.52",
-            "lecture-section-of": "10.52",
-            "timeAndPlace":       "MWF11 56-169"
-        },
-        {
-            "type":          "Class",
-            "label":         "Molecular Aspects of Chemical Engineering",
-            "id":            "10.520",
-            "listing-index": "m10a-035",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Molecular-level engineering and analysis of chemical processes. Use of chemical bonding, reactivity, and other key concepts in the design and tailoring of organic systems. Application and development of structure-property relationships. Descriptions of the chemical forces and structural factors that govern supramolecular and interfacial phenomena for molecular and polymeric systems.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.520",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "10.420",
-                "5.13",
-                "10.213"
-            ],
-            "in-charge":     "Hammond, P. T."
-        },
-        {
-            "type":          "Class",
-            "label":         "Heterogeneous Catalysis and Catalytic Processes",
-            "id":            "10.521",
-            "listing-index": "m10a-036",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "An introduction to applied catalysis, focusing on principles of importance in the development and improvement of catalysts and their practical use in industry. Topics include adsorption phenomena, catalyst preparation, and surface characterization techniques. Application of catalyst functionality concepts for control of reaction selectivity and kinetic models. Commonality of mechanisms for significant groups of catalyzed reactions such as hydrogenation, partial oxidation, and hydrocarbon reactions catalyzed by solid acids and zeolites. Control of pollutant emissions by catalysis. Meets with undergraduate subject 10.421, but assignments differ.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.521",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.13",
-                "10.37"
-            ],
-            "in-charge":     "Staff"
-        },
-        {
-            "type":          "Class",
-            "label":         "Macromolecular Hydrodynamics",
-            "id":            "10.531",
-            "listing-index": "m10a-037",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Physical phenomena in polymeric liquids undergoing deformation and flow. Kinematics and material functions for complex fluids; techniques of viscometry, rheometry; and linear viscoelastic measurements for polymeric fluids. Generalized Newtonian fluids. Continuum mechnanics, frame invariance, and convected derivatives for finite strain viscoelasticity. Differential and integral constitutive equations for viscoelastic fluids. Analytical solutions to isothermal and non-isothermal flow problems; the roles of non-Newtonian viscosity, linear viscoelasticity, normal stresses, elastic recoil, stress relaxation in processing flows. Introduction to molecular theories for dynamics of polymeric fluids. (Extensive class project and presentation required instead of a final exam).",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.531J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.341J",
-                "2.25",
-                "10.301"
-            ],
-            "in-charge":     [
-                "Armstrong, R. C.",
-                "McKinley, G. H."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Macrotransport Processes",
-            "id":            "10.534",
-            "listing-index": "m10a-038",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Generalized Taylor dispersion theory applied to chromatographic separation processes, flow and transport in porous media, transport properties of macromolecular solutions, and generic analyses of heterogeneous systems, including adsorption phenomena, thermal transport processes, and chemically reactive continua.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.534",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.50",
-            "in-charge":     "Staff"
-        },
-        {
-            "type":          "Class",
-            "label":         "Interfacial Transport Processes and Rheology",
-            "id":            "10.535",
-            "listing-index": "m10a-039",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Introduction to the theory and applications of liquid-liquid interfacial transport phenomena. General tensor analysis; interfacial statics; kinematics, and transport across and within curved, deforming interfaces; two-dimensional momentum transport processes, Newtonian and non-Newtonian interfacial stress constitutive relations, applications to surface rheology; surfactant transport and adsorption at interfaces, surface diffusion, Marangoni phenomena, interphase mass transfer; asymptotic theory of diffuse interfaces; line tension phenomena.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.535",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.50",
-            "in-charge":     "Staff"
-        },
-        {
-            "type":          "Class",
-            "label":         "Thermal Hydraulics in Power Technology",
-            "id":            "10.536",
-            "listing-index": "m10a-040",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Emphasis on thermo-fluid dynamic phenomena and analysis methods for conventional and nuclear power stations. Kinematics and dynamics of two-phase flows.  Steam separation.  Boiling, instabilities, and critical conditions. Single-channel transient analysis.  Multiple channels connected at plena.  Loop analysis including single and two-phase natural circulation.  Subchannel analysis.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.536J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "22.313J",
-                "2.006",
-                "10.302",
-                "22.312"
-            ],
-            "in-charge":     [
-                "Kazimi, M. S.",
-                "Todreas, N. E."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Molecular, Cellular, and Tissue Biomechanics",
-            "id":            "10.537",
-            "listing-index": "m10a-041",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Develops and applies scaling laws and the methods of continuum mechanics to biomechanical phenomena over a range of length scales. Topics include structure of tissues and the molecular basis for macroscopic properties; chemical and electrical effects on mechanical behavior; cell mechanics, motility and adhesion; biomembranes; biomolecular mechanics and molecular motors. Experimental methods for probing structures at the tissue, cellular, and molecular levels.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.537J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.798J",
-                "3.971J",
-                "6.524J",
-                "20.410J",
-                "2.002",
-                "2.006",
-                "6.013",
-                "10.301",
-                "10.302"
-            ],
-            "in-charge":     [
-                "Grodzinsky, A. J.",
-                "Doyle, P."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Biomolecular Kinetics and Cellular Dynamics",
-            "id":            "10.538",
-            "listing-index": "m10a-042",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Fundamental analysis of biological rate processes in terms of approaches based in biomolecular reaction kinetics and systems engineering algorithms. Topics include binding and hybridization interactions, enzyme reactions, metabolic cycles, gene regulation, receptor/ligand systems, intra- and inter-cellular signalling, and cell population dynamics.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.538J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "20.420J",
-                "7.05",
-                "7.06",
-                "18.03"
-            ],
-            "in-charge":     [
-                "Tidor, B.",
-                "Wittrup, K. D."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.538",
-            "lecture-section-of": "10.538",
-            "timeAndPlace":       "TR10-11.30 56-614"
-        },
-        {
-            "type":          "Class",
-            "label":         "Fields, Forces, and Flows in Biological Systems",
-            "id":            "10.539",
-            "listing-index": "m10a-043",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     true,
-            "description":   "Molecular diffusion, diffusion-reaction, conduction, convection in biological systems; fields in heterogeneous media; electrical double layers; Maxwell stress tensor, electrical forces in physiological systems. Fluid and solid continua: equations of motion useful for porous, hydrated biological tissues. Case studies of membrane transport, electrode interfaces, electrical, mechanical, and chemical transduction in tissues, convective-diffusion/reaction, electrophoretic, electroosmotic flows in tissues/MEMs, and ECG. Electromechanical and physicochemical interactions in cells and biomaterials; musculoskeletal, cardiovascular, and other biological and clinical examples.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.539J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.795J",
-                "6.561J",
-                "20.430J",
-                "6.013",
-                "2.005",
-                "10.302"
-            ],
-            "in-charge":     [
-                "Grodzinsky, A. J.",
-                "Lauffenburger, D."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.539",
-            "lecture-section-of": "10.539",
-            "timeAndPlace":       "MW1-2.30 32-141"
-        },
-        {
-            "type":          "Class",
-            "label":         "Intracellular Dynamics",
-            "id":            "10.540",
-            "listing-index": "m10a-044",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "This course covers current models and descriptions of the internal cell dynamics of macromolecules due to reaction and transport.  Two major areas will be explored:  the process of gene expression, including protein-DNA interactions, chromatin dynamics, and the stochastic nature of gene expression; and cell signaling systems, especially those that lead to or rely on intracellular protein gradients.  This class is intended for graduate students or advanced undergraduates with some background in cell biology, transport, and kinetics. An introductory class in probability is recommended.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.540",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "18.03",
-                "7.06",
-                "10.302"
-            ],
-            "in-charge":     "Maheshri, N."
-        },
-        {
-            "type":          "Class",
-            "label":         "Kinetics of Biological and Chemical Systems",
-            "id":            "10.541",
-            "listing-index": "m10a-045",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "6-0-6",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Comprehensive treatment of the kinetics of basic chemical reactions and biological processes. Subject begins with a foundamental analysis of reaction order in homogeneous reactions and proceeds with the kinetics of heterogeneous systems and catalytic reactions. Methods of measuring and calculating reaction rate constants included. After a basic stoichiometric analysis of biological reaction networks, the subject discusses kinetics of enzymatic reactions and extensions to kinetic characteristics of reaction pathways and bioreaction networks. Similarities and differences between chemical and biological kinetics discussed along with concepts of rate-limiting steps and distribution of control among several reactions in a pathway. Subject concludes with applications to the kinetic analysis of chemical and biological reaction systems in the chemical and bioprocess industries.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.541",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.37",
-            "in-charge":     [
-                "Trout, B. L.",
-                "Stephanopoulos, Gr."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Biochemical Engineering",
-            "id":            "10.542",
-            "listing-index": "m10a-046",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Interaction of chemical engineering, biochemistry, and microbiology. Mathematical representations of microbial systems. Kinetics of growth, death, and metabolism. Continuous fermentation, agitation, mass transfer, and scale-up in fermentation systems, enzyme technology.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.542",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.442",
-            "in-charge":     "Prather, K. J."
-        },
-        {
-            "type":          "Class",
-            "label":         "Protein Folding and Human Disease",
-            "id":            "10.543",
-            "listing-index": "m10a-047",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "; folding intermediates, aggregation, and competing off-pathway reactions; amyloid fibril structure and polymerization; amyloids that produce biofilms, pigments, and other functional structures; roles of chaperonins, isomerases, and other helper proteins. Examines key model systems, including yeast, nematodes, flies and mice, as well as human pathologies and phenotypes.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.543J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.48J",
-                "7.88J",
-                "7.51"
-            ],
-            "in-charge":     [
-                "Lindquist, S.",
-                "King, J. A."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Metabolic and Cell Engineering",
-            "id":            "10.544",
-            "listing-index": "m10a-048",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Presentation of a framework for quantitative understanding of cell functions as integrated molecular systems. Analysis of cell-level processes in terms of underlying molecular mechanisms based on thermodynamics, kinetics, mechanics, and transport principles, emphasizing an engineering, problem-oriented perspective. Objective is to rationalize target selection for genetic engineering and evaluate the physiology of recombinant cells. Topics include cell metabolism and energy production, transport across cell compartment barriers, protein synthesis and secretion, regulation of gene expression, transduction of signals from extracellular environment, cell proliferation, cell adhesion and migration.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.544",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.60",
-                "7.05",
-                "10.302",
-                "18.03"
-            ],
-            "in-charge":     "Stephanopoulos, Gr."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.544",
-            "lecture-section-of": "10.544",
-            "timeAndPlace":       "TR9-10.30 66-156"
-        },
-        {
-            "type":          "Class",
-            "label":         "Separation Processes for Biochemical Products",
-            "id":            "10.545",
-            "listing-index": "m10a-049",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Introduction to fundamental principles of separation operations for the recovery of products from biological processes, membrane filtration, chromatography, centrifugation, cell disruption, extraction, and process design.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.545",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.445",
-            "in-charge":     "Cooney, C. L."
-        },
-        {
-            "type":          "Class",
-            "label":         "Statistical Thermodynamics with Applications to Biological Systems",
-            "id":            "10.546",
-            "listing-index": "m10a-050",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Develops classical equilibrium and time dependent statistical mechanical concepts and supporting computer simulation methods for application to chemical and biological problems. Examples of applications include lattice models of binding, ionic and non-ionic solutions, polymer and protein conformations, the hydrophobic effect, and molecular motors; particular attention given to understanding the complex biochemical and biophysical processes underlying cell signaling (especially in cells of the immune system), cell migration, and the structure and dynamics of cell membranes.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.546J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.70J",
-                "20.465J",
-                "5.60"
-            ],
-            "in-charge":     [
-                "Chakraborty, A.",
-                "Deutch, J. M."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.546",
-            "lecture-section-of": "10.546",
-            "timeAndPlace":       [
-                "MWF11 4-270",
-                "R8 4-270"
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Principles and Practice of Drug Development",
-            "id":            "10.547",
-            "listing-index": "m10a-051",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Description and critical assessment of the major issues and stages of developing a pharmaceutical or biopharmaceutical. Drug discovery, preclinical development, clinical investigation, manufacturing and regulatory issues considered for small and large molecules. Economic and financial considerations of the drug development process. Multidisciplinary perspective from faculty in clinical; life; and management sciences; as well as industry guests.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.547J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "7.547J",
-                "15.136J"
-            ],
-            "in-charge":     [
-                "Allen, T. J.",
-                "Cooney, C. L.",
-                "Finkelstein, S. N.",
-                "Rubin, R. H.",
-                "Sinskey, A. J."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.547",
-            "lecture-section-of": "10.547",
-            "timeAndPlace":       "R EVE (4-6.30 PM) E25-111"
-        },
-        {
-            "type":          "Class",
-            "label":         "Tumor Pathophysiology and Transport Phenomena: A Systems Biology Approach",
-            "id":            "10.548",
-            "listing-index": "m10a-052",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "2-0-4",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Tumor pathophysiology plays a central role in the growth, invasion, metastasis and treatment of solid tumors. Principles of transport phenomena are applied to develop a systems level, quantitative understanding of angiogenesis, blood flow and microcirculation, metabolism and microenvironment, transport and binding of small and large molecules, movement of cancer and immune cells, metastatic process, and treatment response.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.548J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "18.03",
-                "10.301"
-            ],
-            "in-charge":     "Jain, R. K."
-        },
-        {
-            "type":          "Class",
-            "label":         "Colloid and Surfactant Science",
-            "id":            "10.55",
-            "listing-index": "m10a-053",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Introduction to theory and applications of colloidal dispersions and surfactant science. Monolayer adsorption at interfaces, electrical double layers, dispersion forces, electrokinetic phenomena, and stabilization of dispersions. Chemistry, structure, and classification of surfactants, critical micelle concentrations, micellar solubilization, and catalysis. Detergency and wetting phenomena. Emulsion technology and applications.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.55",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Blankschtein, D."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.55",
-            "lecture-section-of": "10.55",
-            "timeAndPlace":       "MW10-11.30 66-110"
-        },
-        {
-            "type":          "Class",
-            "label":         "Systems Engineering",
-            "id":            "10.551",
-            "listing-index": "m10a-054",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Introduction to the elements of systems engineering. Special attention devoted to those tools that help students structure and solve complex problems. Illustrative examples drawn from a broad variety of chemical engineering topics, including product development and design, process development and design, experimental and theoretical analysis of physico-chemical process, analysis of process operations.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.551",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "10.213",
-                "10.302",
-                "10.37"
-            ],
-            "in-charge":     [
-                "Stephanopoulos, Geo.",
-                "Barton, P.I."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Bioinformatics: Principles, Methods and Applications",
-            "id":            "10.555",
-            "listing-index": "m10a-055",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to bioinformatics, the collection of principles and computational methods used to upgrade the information content of biological data generated by genome sequencing, proteomics, and cell-wide physiological measurements of gene expression and metabolic fluxes. Fundamentals from systems theory presented to define modeling philosophies and simulation methodologies for the integration of genomic and physiological data in the analysis of complex biological processes. Various computational methods address a broad spectrum of problems in functional genomics and cell physiology. Application of bioinformatics to metabolic engineering, drug design, and biotechnology also discussed.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.555J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Stephanopoulos, Gr.",
-                "Rigoutsos, I."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Mixed-integer and Nonconvex Optimization",
-            "id":            "10.557",
-            "listing-index": "m10a-056",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Presents the theory and practice of deterministic algorithms for locating the global solution of NP-hard optimization problems. Recurring themes and methods are convex relaxations, branch-and-bound, cutting planes, outer approximation and primal-relaxed dual approaches. Emphasis is placed on the connections between methods. These methods will be applied and illustrated in the development of algorithms for mixed-integer linear programs, mixed-integer convex programs, nonconvex programs, mixed-integer nonconvex programs, and programs with ordinary differential equations embedded. The broad range of engineering applications for these optimization formulations will also be emphasized. Students will be assessed on homework and a term project for which examples from own research are encouraged.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.557",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "10.34",
-                "15.053"
-            ],
-            "in-charge":     "Barton, P. I."
-        },
-        {
-            "type":          "Class",
-            "label":         "Structure and Properties of Polymers",
-            "id":            "10.560",
-            "listing-index": "m10a-057",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Review of polymer molecular structure and bulk morphology; survey of molecular and morphological influence on bulk physical properties including non-Newtonian flow, macromolecular diffusion, gas transport in polymers, electrical and optical properties, solid-state deformation, and toughness. Case studies for product design.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.560",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.213",
-            "in-charge":     "Cohen, R. E."
-        },
-        {
-            "type":          "Class",
-            "label":         "Physical Chemistry of Polymers",
-            "id":            "10.568",
-            "listing-index": "m10a-058",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Chain macromolecules as random coils (unperturbed, expanded) and as other shapes. Statistical thermodynamics of interpenetrating random coiling polymers in solution with application to phase separations, swelling of networks, depression of melting point. The isolated chain molecule in dilute solutions analyzed for mass or size by static methods (osmometry, light scattering, neutron scattering) and by dynamic methods (intrinsic viscosity, size exclusion chromatography, sedimentation). Introduction to chain dynamics and to rubber elasticity.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.568",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.60",
-                "10.213",
-                "10.40"
-            ],
-            "in-charge":     "Cohen, R. E."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.568",
-            "lecture-section-of": "10.568",
-            "timeAndPlace":       "TR11-12.30 66-154"
-        },
-        {
-            "type":          "Class",
-            "label":         "Synthesis of Polymers",
-            "id":            "10.569",
-            "listing-index": "m10a-059",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Studies synthesis of polymeric materials, emphasizing interrelationships of chemical pathways, process conditions, and microarchitecture of molecules produced. Chemical pathways include traditional approaches such as anionic, radical condensation, and ring-opening polymerizations. New techniques, including stable free radicals and atom transfer free radicals, new catalytic approaches to well-defined architectures, and polymer functionalization in bulk and at surfaces. Process conditions include bulk, solution, emulsion, suspension, gas phase, and batch vs continuous fluidized bed. Microarchitecture includes tacticity, molecular-weight distribution, sequence distributions in copolymers, errors in chains such as branches, head-to-head addition, and peroxide incorporation.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.569",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "5.12",
-            "in-charge":     "Hammond, P. T."
-        },
-        {
-            "type":          "Class",
-            "label":         "Atmospheric Physics and Chemistry",
-            "id":            "10.571",
-            "listing-index": "m10a-060",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction to the physics and chemistry of the atmosphere including experience with computer codes. Aerosols and theories of their formation, evolution, and removal. Gas and aerosol transport from urban to continental scales. Coupled models of radiation, transport, and chemistry. Solution of inverse problems to deduce emissions and removal rates. Emissions control technology and costs. Applications to air pollution and climate.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.571J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "12.806J",
-                "12.306",
-                "5.61",
-                "18.075"
-            ],
-            "in-charge":     [
-                "Prinn, R. G.",
-                "McRae, G. J."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Applications of Technology in Energy and the Environment",
-            "id":            "10.579",
-            "listing-index": "m10a-061",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduces advanced undergraduates or graduate students in the Schools of Engineering and Science to the integration of technical, economic, political, and environmental consideration required for the successful implementation of new technology. Case studies are drawn from the energy and environment sectors with some emphasis on analytic techniques that serve as a \\\u0022tool box\\\u0022 for students. Technologies considered include fossil, nuclear, solar, wind, fuel cell and energy conservation. International aspects, such as weapons proliferation and global climate effects, also discussed. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.579",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "1.149",
-                "2.63",
-                "5.00",
-                "10.579",
-                "22.813"
-            ],
-            "in-charge":     [
-                "Deutch, J.",
-                "Lester, R."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.579",
-            "lecture-section-of": "10.579",
-            "timeAndPlace":       "MW8.30-10 4-237"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0210.579",
-            "rec-section-of": "10.579",
-            "timeAndPlace":   "F8.30-10 4-237"
-        },
-        {
-            "type":          "Class",
-            "label":         "Solid-State Surface Science",
-            "id":            "10.580",
-            "listing-index": "m10a-062",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Structural, chemical, and electronic properties of solids and solid surfaces. Analytical tools used to characterize surfaces including Auger and photoelectron spectroscopies and electron diffraction techniques. Surface thermodynamics and kinetics including adsorption-desorption, catalytic properties, and sputtering processes. Applications to microelectronics, optical materials, and catalysis.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.580",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.213",
-            "in-charge":     "Gleason, K. K."
-        },
-        {
-            "type":          "Class",
-            "label":         "Advanced Materials Processing",
-            "id":            "10.581",
-            "listing-index": "m10a-063",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Fundamentals of materials processing. Building engineering structures from the atomic- and nano-scales to macroscopic levels. Case studies illustrating application of processing science to creation of modern metallic, ceramic, polymeric and biomaterials devices and components.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.581J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "3.52J",
-                "3.048",
-                "3.022",
-                "3.044"
-            ],
-            "in-charge":     [
-                "Schuh, C.",
-                "Flemings, M. C."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Particles and Particulate Processing",
-            "id":            "10.583",
-            "listing-index": "m10a-064",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Synthesis, characterization and applications of particles. Thermodynamic and kinetic stability of particle suspensions. Physical and chemical mechanisms determining behavior of particulate processing operations: flow, mixing, agglomeration, and extreusion of particle suspensions. Taught jointly with Cambridge University, UK.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.583",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered this year",
-                "Can be repeated for credit"
-            ],
-            "in-charge":     [
-                "Hatton, T. A.",
-                "Bridgewater, J."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Materials and Processes for Microelectromechanical Devices and Systems",
-            "id":            "10.584",
-            "listing-index": "m10a-065",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Unified treatment of key principles in materials and processing for design and manufacture of microelectromechanical systems (MEMS). Emphasis on materials and processes commonly used for fabrication for MEMS and not microelectronic systems. Discussion of the processing and properties of both thin and thick polycrystalline and amorphous films, wafer and thin film bonding, bulk micromachining techniques, and the relationships between processing and properties of active materials such as piezoelectrics, ferroelectrics and phase-transition materials. Key material properties and parameters and their relationships with microfabrication processes and applications are discussed, including elastic and inelastic deformation, fracture, residual stress, fatigue, creep, adhesion, stiction, and coupled-field constitutive behavior. Materials and process selection and case studies of applications provide a unifying theme.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.584J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.373J",
-                "3.48J",
-                "6.778J",
-                "16.288J",
-                "6.152J",
-                "3.155J"
-            ],
-            "in-charge":     [
-                "Anand, L.",
-                "Jensen, K. F.",
-                "Schmidt, M. A.",
-                "Thompson, C. V.",
-                "Wardle, B. L."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.584",
-            "lecture-section-of": "10.584",
-            "timeAndPlace":       "MW8-9.30 9-057"
-        },
-        {
-            "type":          "Class",
-            "label":         "Engineering Nanotechnology",
-            "id":            "10.585",
-            "listing-index": "m10a-066",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Review of fundamental concepts of energy, mass and electron transport in materials confined or geometrically patterned at the nanoscale, where departures from classical laws are dominant.  Specific applications to contemporary engineering challenges are discussed including problems in energy, biology, medicine, electronics, and material design.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.585",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "10.302",
-                "10.213"
-            ],
-            "in-charge":     "Strano, M."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.585",
-            "lecture-section-of": "10.585",
-            "timeAndPlace":       "TR1-2.30 56-169"
-        },
-        {
-            "type":          "Class",
-            "label":         "Case Studies in Bioengineering",
-            "id":            "10.591",
-            "listing-index": "m10a-067",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Analysis and discussion of recent research in areas of bioengineering, including drug delivery, protein and tissue engineering, physiological transport, stem cell technology, and quantitative immunology by senior investigators in the Boston area.  Students will read and critique papers, then have discussions with authors about their work.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.591",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Colton, C. K."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.591",
-            "lecture-section-of": "10.591",
-            "timeAndPlace":       "TR EVE (4-6 PM) 66-154"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0210.591",
-            "rec-section-of": "10.591",
-            "timeAndPlace":   "W EVE (5 PM) 66-154"
-        },
-        {
-            "type":          "Class",
-            "label":         "Molecular Design and Bioprocess Development of Immunotherapies",
-            "id":            "10.595",
-            "listing-index": "m10a-068",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Examines the challenges and opportunities for applying principles from chemical engineering to address the growing global burden of infectious disease, including drug-resistant strains and neglected pathogens. Topics include a historical overview of vaccines and immunotherapies, the molecular design considerations for new immunotherapies and adjuvants, the generation and selection of clones for protein expression, the economic challenges for process development and manufacturing of immunotherapies, and new diagnostic technologies for assessing the host response to protein-based drugs and vaccines, the degree of protection conferred, and the safety of an experimental therapy. Some topics for specific diseases will be covered by case study. Intended for graduate students and advanced undergraduates. An introductory course in cell or molecular biology is recommended, but the necessary principles in immunology will be covered.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.595",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     "Love, J. C."
-        },
-        {
-            "type":          "Class",
-            "label":         "Electrochemical Energy Conversion and Storage: Fundamentals, Materials and Applications",
-            "id":            "10.625",
-            "listing-index": "m10a-069",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Fundamental concepts, tools, and applications in electrochemical science and engineering. Introduces thermodynamics, kinetics and transport of electrochemical reactions. Describes how materials structure and properties affect electrochemical behavior of particular applications, for instance in lithium rechargeable batteries, electrochemical capacitors, fuel cells, photo electrochemical cells, and electrolytic cells. Discusses state-of-the-art electrochemical energy technologies for portable electronic devices, hybrid and plug-in vehicles, electrical vehicles. Theoretical and experimental exploration of electrochemical measurement techniques in cell testing, and in bulk and interfacial transport measurements (electronic and ionic resistivity and charge transfer cross the electrode-electrolyte interface).",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.625J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.625J",
-                "3.53",
-                "2.005",
-                "3.046",
-                "10.40"
-            ],
-            "in-charge":     "Shao-Horn, Y."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.625",
-            "lecture-section-of": "10.625",
-            "timeAndPlace":       "TR2.30-4 1-132"
-        },
-        {
-            "type":           "RecitationSection",
-            "label":          "R0210.625",
-            "rec-section-of": "10.625",
-            "timeAndPlace":   "W4 5-233"
-        },
-        {
-            "type":          "Class",
-            "label":         "Structural Theories of Polymer Fluid Mechanics",
-            "id":            "10.631",
-            "listing-index": "m10a-070",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Structural and molecular models for polymeric liquids. Nonequilibrium properties are emphasized. Elementary kinetic theory of polymer solutions. General phase space kinetic for polymer melts and solutions. Network theories. Interrelations between structure and rheological properties.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.631",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.301",
-            "in-charge":     "Armstrong, R. C."
-        },
-        {
-            "type":          "Class",
-            "label":         "Chemical Reactor Engineering",
-            "id":            "10.65",
-            "listing-index": "m10a-071",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "4-0-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Fundamentals of chemically reacting systems with emphasis on synthesis of chemical kinetics and transport phenomena. Topics include kinetics of gas, liquid, and surface reactions; quantum chemistry; transition state theory; surface adsorption, diffusion, and desorption processes; mechanism and kinetics of biological processes; mechanism formulation and sensitivity analysis. Reactor topics include nonideal flow reactors, residence time distribution and dispersion models; multiphase reaction systems; nonlinear reactor phenomena. Examples are drawn from different applications, including heterogeneous catalysis, polymerization, combustion, biochemical systems, and materials processing. Summer 2008 class limited to SMA students only.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.65",
-            "joint":         false,
-            "semester":      [
-                "Spring",
-                "Summer"
-            ],
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.37",
-            "in-charge":     [
-                "Chakraborty, A.",
-                "Strano, M."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Kinetics of Chemical Reactions",
-            "id":            "10.652",
-            "listing-index": "m10a-072",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Experimental and theoretical aspects of chemical reaction kinetics, including transition-state theories, molecular beam scattering, classical techniques, quantum and statistical mechanical estimation of rate constants, pressure-dependence and chemical activation, modeling complex reacting mixtures, and uncertainty/ sensitivity analyses. Reactions in the gas phase, liquid phase, and on surfaces are discussed with examples drawn from atmospheric, combustion, industrial, catalytic, and biological chemistry.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.652J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "5.68J",
-                "5.62",
-                "10.37",
-                "10.65"
-            ],
-            "in-charge":     "Green, W. H."
-        },
-        {
-            "type":          "Class",
-            "label":         "Statistical Mechanics of Polymers",
-            "id":            "10.668",
-            "listing-index": "m10a-073",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Concepts of statistical mechanics and thermodynamics applied to macromolecules: polymer conformations in melts, solutions, and gels; Rotational Isomeric State theory, Markov processes and molecular simulation methods applied to polymers; incompatibility and segregation in incompressible and compressible systems; molecular theory of viscoelasticity; relation to scattering and experimental measurements.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.668J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Not offered this year",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "3.941J",
-                "10.568"
-            ],
-            "in-charge":     [
-                "Rutledge, G. C.",
-                "Mayes, A."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Computational Quantum Mechanics of Molecular and Extended Systems",
-            "id":            "10.675",
-            "listing-index": "m10a-074",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "The theoretical frameworks of Hartree-Fock theory and density functional theory are presented as approximate methods to solve the many-electron problem. A variety of ways to incorporate electron correlation are discussed. The application of these techniques to calculate the reactivity and spectroscopic properties of chemical systems, in addition to the thermodynamics and kinetics of chemical processes, is emphasized. Focus on cutting edge methods to sample complex hypersurfaces, for reactions in liquids, catalysts and biological systems. Students run computations both on Athena and on multi-processor supercomputers.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.675J",
-            "joint":         true,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "5.675J",
-            "in-charge":     "Trout, B. L."
-        },
-        {
-            "type":          "Class",
-            "label":         "Introduction to Experimental Biology and Communication",
-            "id":            "10.702",
-            "listing-index": "m10a-075",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "4-8-6",
-            "total-units":   18,
-            "has-final":     false,
-            "description":   "An introduction to the experimental concepts and methods of molecular biology, biochemistry, and genetic analysis. Emphasis on experimental design, critical data analysis, and the development of written communications skills. Twelve units may be applied to the General Institute Laboratory Requirement. Enrollment limited.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.702",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "category":      "Institute LAB",
-            "prereq":        "7.02",
-            "in-charge":     [
-                "Kim, D.",
-                "Schwartz, T."
-            ]
-        },
-        {
-            "type":          "Class",
-            "label":         "Radiative Transfer",
-            "id":            "10.74",
-            "listing-index": "m10a-076",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Principles of thermal radiation and their application to engineering heat and photon transfer problems. Quantum and classical models of radiative properties of materials, electromagnetic wave theory for thermal radiation, radiative transfer in absorbing, emitting, and scattering media, and coherent laser radiation. Applications cover laser-material interactions, imaging, infrared instrumentation, global warming, semiconductor manufacturing, combustion, furnaces, and high temperature processing.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.74J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      [
-                "Not offered next year",
-                "Currently Offered"
-            ],
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "2.58J",
-                "2.51",
-                "10.302"
-            ],
-            "in-charge":     "Chen, G."
-        },
-        {
-            "type":          "Class",
-            "label":         "Proseminar in Manufacturing",
-            "id":            "10.792",
-            "listing-index": "m10a-077",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "Unknown",
-            "total-units":   "Unknown",
-            "has-final":     false,
-            "description":   "Provides an integrative forum for operations and manufacturing students and is the focus for projects in leadership, service, and improvement. Covers a set of integrative manufacturing topics or issues such as leadership, implementation of lean operations or other improvements, and presents examples of both operations excellence and challenges. Includes presentations by guest speakers such as senior level managers of manufacturing companies. Subject is largely managed by students. Primarily for LFM Fellows and Masters students interested in focusing in operations and manufacturing.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.792J",
-            "joint":         true,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      [
+            "category":  "H-LEVEL Grad Credit"
+        },
+        {
+            "type":      "Class",
+            "label":     "Proseminar in Manufacturing",
+            "id":        "10.792",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.792J",
+            "offering":  [
                 "Can be repeated for credit",
                 "Currently Offered"
-            ],
-            "prereq":        [
-                "2.890J",
-                "3.80J",
-                "15.792J",
-                "16.985J"
-            ],
-            "in-charge":     "Rosenfield, D. B."
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.792",
-            "lecture-section-of": "10.792",
-            "timeAndPlace":       "M EVE (4-6 PM) E51-315"
-        },
-        {
-            "type":          "Class",
-            "label":         "Technology, Law, and the Working Environment",
-            "id":            "10.805",
-            "listing-index": "m10a-078",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-6",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Addresses relationship between technology-related problems and the law applicable to work environment. National Labor Relations Act, Occupational Safety and Health Act. Toxic Substances Control Act, state worker\\'s compensation, and suits by workers in the courts discussed. Problems related to occupational health and safety, collective bargaining as a mechanism for altering technology in the workplace, job alienation, productivity, and the organization of work addressed. Prior courses or experience in the environmental, public health, or law-related areas.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.805J",
-            "joint":         true,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "in-charge":     [
-                "Ashford, N. A.",
-                "Caldart, C. C."
             ]
         },
         {
-            "type":          "Class",
-            "label":         "Management in Engineering",
-            "id":            "10.806",
-            "listing-index": "m10a-079",
-            "course":        "10",
-            "level":         "Undergrad",
-            "units":         "3-1-8",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Introduction and overview of engineering management. Financial principles, management of innovation, technical strategy and best management practices. Case study method of instruction emphasizes participation in class discussion. Focus is on the development of individual skills and management tools. Registrants should be juniors or seniors. Students taking graduate subject 2.961 are expected to demonstrate higher level of proficiency in term projects.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.806",
-            "joint":         false,
-            "semester":      "Fall",
-            "offering":      "Currently Offered",
-            "prereq":        [
-                "2.96",
-                "10.806",
-                "2.961",
-                "6.930J",
-                "16.653J"
-            ],
-            "in-charge":     [
-                "d\\'Arbeloff, A. V.",
-                "Chun, J.-H.",
-                "Marcus, H. S."
-            ]
+            "type":      "Class",
+            "label":     "Technology, Law, and the Working Environment",
+            "id":        "10.805",
+            "has-final": true,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.805J",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":               "LectureSection",
-            "label":              "L0110.806",
-            "lecture-section-of": "10.806",
-            "timeAndPlace":       "MW9.30-11 3-270"
+            "type":      "Class",
+            "label":     "Innovation Teams",
+            "id":        "10.807",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.807J",
+            "offering":  "Currently Offered"
         },
         {
-            "type":           "LabSection",
-            "label":          "B0210.806",
-            "lab-section-of": "10.806",
-            "timeAndPlace":   "M2 5-217"
+            "type":      "Class",
+            "label":     "Engineering Risk-Benefit Analysis",
+            "id":        "10.816",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.816",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit"
         },
         {
-            "type":           "LabSection",
-            "label":          "B0310.806",
-            "lab-section-of": "10.806",
-            "timeAndPlace":   "M4 5-134"
+            "type":      "Class",
+            "label":     "School of Chemical Engineering Practice -- Technical Accomplishment",
+            "id":        "10.80 (10.82, 10.84, 10.86)",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.80 (10.82, 10.84, 10.86)",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "School of Chemical Engineering Practice"
         },
         {
-            "type":           "LabSection",
-            "label":          "B0410.806",
-            "lab-section-of": "10.806",
-            "timeAndPlace":   "T1 5-234"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0510.806",
-            "lab-section-of": "10.806",
-            "timeAndPlace":   "W2 5-231"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0610.806",
-            "lab-section-of": "10.806",
-            "timeAndPlace":   "W4 5-134"
-        },
-        {
-            "type":           "LabSection",
-            "label":          "B0710.806",
-            "lab-section-of": "10.806",
-            "timeAndPlace":   "R1 5-234"
-        },
-        {
-            "type":          "Class",
-            "label":         "Innovation Teams",
-            "id":            "10.807",
-            "listing-index": "m10a-080",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-2-4",
-            "total-units":   9,
-            "has-final":     false,
-            "description":   "Innovation teams of science, engineering, and management students evaluate the commercial feasibility of research generated by grants to School of Engineering faculty by the Deshpande Center for Technological Innovation. Projects cover critical aspects of commercialization such as developing an intellectual property strategy, performing competitive analysis, selecting the target application and market for the technology, identifying the appropriate business model for commercialization, designing a go-to-market plan, and choosing the sales approach to garner initial customers. Lectures address key issues of technology transfer, new venture creation, and commercialization. Students develop strong skills in communication and working in teams. Resume and application including a brief statement of objectives are required in advance of registration to enable the best match of students with projects.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.807J",
-            "joint":         true,
-            "semester":      [
-                "Fall",
-                "Spring"
-            ],
-            "offering":      "Currently Offered",
-            "prereq":        "15.371J",
-            "in-charge":     [
-                "Cooney, C.",
-                "Roberts, E.",
-                "Zolot, K."
-            ]
-        },
-        {
-            "type":               "LectureSection",
-            "label":              "L0110.807",
-            "lecture-section-of": "10.807",
-            "timeAndPlace":       "TR EVE (4-6.30 PM) 32-124"
-        },
-        {
-            "type":          "Class",
-            "label":         "Engineering Risk-Benefit Analysis",
-            "id":            "10.816",
-            "listing-index": "m10a-081",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "3-0-9",
-            "total-units":   12,
-            "has-final":     false,
-            "description":   "Emphasis on three methodologies pertaining to decision making in the presence of uncertainty: reliability and probabilistic risk assessment (RPRA), decision analysis (DA), and cost-benefit analysis (CBA). Risks of particular interest are those associated with large engineering projects such as the development of new products; the building, maintenance and operation of nuclear reactors and space systems. Presents and interprets some of the frameworks helpful for balancing risks and benefits in the situations that typically involve human safety, potential environmental effects, and large financial and technological uncertainties. Review of elementary probability theory and statistics included.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.816",
-            "joint":         false,
-            "semester":      "Spring",
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        [
-                "1.155",
-                "2.963",
-                "3.577",
-                "6.938",
-                "10.816",
-                "16.862",
-                "22.82"
-            ],
-            "in-charge":     "Apostolakis, G. E."
-        },
-        {
-            "type":          "Class",
-            "label":         "School of Chemical Engineering Practice -- Technical Accomplishment",
-            "id":            "10.80 (10.82, 10.84, 10.86)",
-            "listing-index": "m10a-082",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "0-6-0",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Conducted at industrial field stations of the School of Chemical Engineering Practice. Group problem assignments include process development design, simulation and control, technical service, and new-product development. Grading based on technical accomplishment. Credit granted in lieu of master\\'s thesis. See departmental descripton on School of Chemical Engineering Practice for details. Enrollment limited and subject to plant availability.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.80 (10.82, 10.84, 10.86)",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.81",
-            "in-charge":     "Hatton, T. A.",
-            "area":          "School of Chemical Engineering Practice"
-        },
-        {
-            "type":          "Class",
-            "label":         "School of Chemical Engineering Practice -- Communication Skills and Human Relations",
-            "id":            "10.81 (10.83, 10.85, 10.87)",
-            "listing-index": "m10a-083",
-            "course":        "10",
-            "level":         "Grad",
-            "units":         "0-6-0",
-            "total-units":   6,
-            "has-final":     false,
-            "description":   "Conducted at industrial field stations of the School of Chemical Engineering Practice. Group problem assignments include process development, design, simulation and control, technical service, and new-product development. Grading based on communication skills and human relations in group assignments. Credit granted in lieu of master\\'s thesis; see departmental description on School of Chemical Engineering Practice for details. Enrollment limited and subject to plant availability.",
-            "url":           "http://student.mit.edu/catalog/m10a.html#10.81 (10.83, 10.85, 10.87)",
-            "joint":         false,
-            "semester":      [
-                "Fall",
-                "Spring",
-                "Summer"
-            ],
-            "offering":      "Currently Offered",
-            "category":      "H-LEVEL Grad Credit",
-            "prereq":        "10.80",
-            "in-charge":     "Hatton, T. A.",
-            "area":          "School of Chemical Engineering Practice"
+            "type":      "Class",
+            "label":     "School of Chemical Engineering Practice -- Communication Skills and Human Relations",
+            "id":        "10.81 (10.83, 10.85, 10.87)",
+            "has-final": false,
+            "url":       "http://student.mit.edu/catalog/m10a.html#10.81 (10.83, 10.85, 10.87)",
+            "offering":  "Currently Offered",
+            "category":  "H-LEVEL Grad Credit",
+            "area":      "School of Chemical Engineering Practice"
         }
     ]
 }

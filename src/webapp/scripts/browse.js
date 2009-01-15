@@ -26,6 +26,7 @@ function onLoad() {
 	SimileAjax.Debug.silent = true;
     
     var urls = [ ];
+    var courseIDs = [ ];
     var query = document.location.search;
     if (query.length > 1) {
         var params = query.substr(1).split("&");
@@ -34,7 +35,7 @@ function onLoad() {
             var name = a[0];
             var value = a.length > 1 ? decodeURIComponent(a[1]) : "";
             if (name == "courses") {
-            	var courseIDs = value.split(";");
+            	courseIDs = value.split(";");
 				addCourses(courseIDs, urls);
             } else if (name == "debug") {
                 debug = true;
@@ -42,6 +43,15 @@ function onLoad() {
         }
     }
     urls.push("data/schema.js");
+    
+    // pull necessary URLs from cookie
+    var stringArr = readCookie('picked-classes');
+    var elts = stringArr.split(',');
+    for (var i = 0; i < elts.length; i++) {
+        var course = elts[i].split('.')[0];
+        if (course.length > 0)
+            addCourses([course], urls);
+    }
 
     window.database = Exhibit.Database.create();
     
@@ -50,11 +60,17 @@ function onLoad() {
         document.getElementById("browsing-interface").style.display = "block";
         
         var pickedSections = new Exhibit.Collection("picked-sections", window.database);
+        var pickedClasses = new Exhibit.Collection("picked-classes", window.database);
         pickedSections._update = function() {
             this._items = this._database.getSubjects("true", "picked");
             this._onRootItemsChanged();
         };
+		pickedClasses._update = function() {
+		    this._items = this._database.getSubjects("true", "sectionPicked");
+		    this._onRootItemsChanged();
+		};
         pickedSections._update();
+        pickedClasses._update();
         
         if (hasTQE) {
             var tqeDiv = document.getElementById("tqe-facet");
@@ -66,6 +82,7 @@ function onLoad() {
         
         window.exhibit = Exhibit.create();
         window.exhibit.setCollection("picked-sections", pickedSections);
+        window.exhibit.setCollection("picked-classes", pickedClasses);
         window.exhibit.configureFromDOM();
         
         setupExistingFacet(document.getElementById("category-facet"));
@@ -77,16 +94,16 @@ function onLoad() {
         
         enableMiniTimegrid();
         enableUnitAdder();
+        enableClassList();
         fillAddMoreSelect();
+        checkForCookies();
     };
     loadURLs(urls, fDone);
 }
 
 function addCourses(courseIDs, urls) { 
     var coursesA = [];
-    var exceptions = {
-        "9": true
-    };
+    var exceptions = { };
     
     for (var i = 0; i < courseIDs.length; i++) {
         if (courseIDs[i] != "hass_d") {
@@ -97,12 +114,13 @@ function addCourses(courseIDs, urls) {
             }
         }
     }
-    /* warehouse service is out of date, mit open data loaded below
+    
+    // warehouse service is up and working as of December 2008
 	var coursesString = coursesA.join(";");
 	if (coursesString != "" && coursesString != null) {
-        urls.push('http://isda-ws2.mit.edu/WarehouseService/?courses=' + coursesString);
+        urls.push('http://mapws.mit.edu/WarehouseService/?term=2009SP&courses=' + coursesString);
 	}
-	*/
+	
 	for (var c = 0; c < courseIDs.length; c++) {
 		var courseID = courseIDs[c];
 		/* we have data for everything, so this doesn't seem necessary
@@ -110,24 +128,38 @@ function addCourses(courseIDs, urls) {
     		alert("Oops! We actually don't have the data for this course.");
     		return; 
     	}*/
-		urls.push("data/spring-fall/scraped-data/" + courseID + ".json");
-		urls.push("data/spring-fall/open-data/" + courseID + ".json");
-		if (courseID == "6") {
-			urls.push("data/tqe.json");
-			urls.push("data/hkn.json");
-			//urls.push("data/wtw-6sp08.json");
-			hasTQE = true;
-		}
-		markLoaded(courseID);
+    	
+    	if (!isLoaded(courseID)) {
+    	    if (courseID != "hass_d") {
+    		    urls.push("data/spring-fall/textbook-data/" + courseID + ".json");
+		    }
+    		
+    		// a light file representing some scraped information unavailable from data warehouse
+    	    urls.push("data/spring-fall/scraped-data/" + courseID + ".json");
+    	    
+    		/* scraped data is not needed with working warehouse service
+    		urls.push("data/spring-fall/open-data/" + courseID + ".json"); */
+    		if (courseID == "6") {
+    			urls.push("data/tqe.json");
+    			urls.push("data/hkn.json");
+    			//urls.push("data/wtw-6sp08.json");
+    			hasTQE = true;
+    		}
+    		markLoaded(courseID);
+    	}
 	}
 }
 
 function loadMoreClass(button) {
     var classID = button.getAttribute("classID");
     var course = classID.split(".")[0];
+    loadSingleCourse(course);
+}
+
+function loadSingleCourse(course) {
     var urls = [];
     addCourses([course], urls);
-    
+
     SimileAjax.WindowManager.cancelPopups();
     loadURLs(urls, function(){});
 }
@@ -139,6 +171,14 @@ function markLoaded(courseID) {
             course.loaded = true;
             return;
         }
+    }
+}
+
+function isLoaded(courseID) {
+    for (var i = 0; i < courses.length; i++) {
+        var course = courses[i];
+        if (courseID == course.number)
+            return course.loaded ? true : false;
     }
 }
 
@@ -217,7 +257,7 @@ function postProcessOfficialDataItem(item) {
         item.type = 'LectureSection';
         item["lecture-section-of"] = item["section-of"];
         delete item["section-of"];
-    } 
+    }
     if (item.type == 'RecitationSession') {
         item.type = 'RecitationSection';
         item["rec-section-of"] = item["section-of"];
@@ -421,7 +461,7 @@ function showScheduleDetails() {
     
     document.getElementById("schedule-details-layer").style.visibility = "visible";
     
-    document.body.scrollTop = 0;
+    scroll(0, 0);
 }
 
 function showSchedulePreview() {
@@ -430,7 +470,7 @@ function showSchedulePreview() {
     document.getElementById("classes-layer").style.visibility = "visible";
     document.getElementById("schedule-preview-pane").style.visibility = "visible";
     
-    document.body.scrollTop = 0;
+    scroll(0, 0);
 }
 
 function setupExistingFacet(div) {
