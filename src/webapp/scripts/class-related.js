@@ -26,8 +26,8 @@ function enableClassList() {
         
         updateCookies();
         
-        // blurb to update pre-registration div
-                
+        // blurb to update pre-registration div - only active at certain times
+/*
         if (classes.size() > 0) {
             var div = document.getElementById('pre-register');
             var text = ['<form method=post action="http://student.mit.edu/catalog/prereg_message.cgi">'];
@@ -42,6 +42,7 @@ function enableClassList() {
         
             div.innerHTML = text.join('');
             }
+*/
         }
     });
 }

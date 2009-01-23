@@ -52,10 +52,22 @@ function onLoad() {
         if (course.length > 0)
             addCourses([course], urls);
     }
+    
+    // load data from MySQL
+    urls.push('data/user.php');
 
     window.database = Exhibit.Database.create();
     
     var fDone = function() {
+		var athena = window.database.getObject("user", "athena");
+		
+		if (document.location.protocol == 'https:' && athena != null)
+			$('#httpsStatus').html(' &bull; logged in as ' + athena);
+		else {
+			href = document.location.href.replace('http:', 'https:');
+			$('#httpsStatus').html(' &bull; <a href="' + href + '">login</a>');
+		}
+	
         document.getElementById("schedule-preview-pane").style.display = "block";
         document.getElementById("browsing-interface").style.display = "block";
         
