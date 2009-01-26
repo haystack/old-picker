@@ -20,7 +20,7 @@ if (isset($_POST['userid'])) {
 		$userid = mysql_real_escape_string($_POST['userid']);
 		$sec = mysql_real_escape_string($_POST['doUnpick']);
 	
-		mysql_query("DELETE FROM sections WHERE u_id=$userid AND s_id=$sec;");
+		mysql_query("DELETE FROM sections WHERE s_userid=$userid AND s_sectionid=$sec;");
 	}
 }
 else { // OTHERWISE - do everything else. main JS body starts here ---- ?>
@@ -33,7 +33,7 @@ else { // OTHERWISE - do everything else. main JS body starts here ---- ?>
 	as a Javascript file */
 
 function getUser($athena, $email) {
-	$result = mysql_query("SELECT u_id FROM users WHERE u_athena='$athena';");
+	$result = mysql_query("SELECT u_userid FROM users WHERE u_athena='$athena';");
 	if (mysql_num_rows($result) > 0) {
 		$row = mysql_fetch_row($result);
 		return $row[0];
@@ -64,27 +64,40 @@ if (isset($userid)) {
 	
 	
 	// populate picked-sections
- 	$result = mysql_query("SELECT s_sectionid FROM sections WHERE s_userid=" . $userid);
+ 	$result = mysql_query("SELECT s_sectionid FROM sections WHERE s_userid=$userid;");
  	
- 	$picks = array();
+ 	$arr = array();
  	while ($row = mysql_fetch_row($result)) {
- 		$picks[] = '"' . $row[0] . '"';
+ 		$arr[] = '"' . $row[0] . '"';
  	}
 	$items[] = '{"type":"UserData","label":"picked-sections",
-		"list":[' . implode(",",$picks) . ']}';
+		"list":[' . implode(",", $arr) . ']}';
 	
 	
 	// populate schedule-list (official picked-classes done by listener)
-	$result = mysql_query("SELECT c_classid FROM classes WHERE c_userid=" . $userid);
-	$picks = array();
+	$result = mysql_query("SELECT c_classid FROM classes WHERE c_userid=$userid;");
+	$arr = array();
 	while ($row = mysql_fetch_row($result)) {
-		$picks[] = '"' . $row[0] . '"';
+		$arr[] = '"' . $row[0] . '"';
 	}
 	$items[] = '{"type":"UserData","label":"all-classes",
-		"list":[' . implode(",",$picks) . ']}';
+		"list":[' . implode(",", $arr) . ']}';
+
+
+	// pull user's ratings
+	$result = mysql_query("SELECT r_classid, r_rating FROM ratings
+		WHERE r_userid=$userid AND r_type=1;");
+	$arr = array();
+	while ($row = mysql_fetch_row($result)) {
+		$items[] = '{"type":"UserData","label":"UserRating-' . $row[0] . '",
+			"class-user-rating-of":"' . $row[0] . '","rating":"' . $row[1] . '"}';
+	}
+
+	// pull average ratings
+
 }
 
-mysql_clo
+mysql_close();
 
 echo "\n\n";	
 echo '{"items": [' . implode(",", $items) . '] }';

@@ -58,20 +58,28 @@ function updateCookies() {
     document.cookie = 'picked-classes='+classes.toArray()+'; expires='+exDate+'; path-/';
 }
 
-function checkForCookies(courseIDs) {
+function checkForCookies() {
     var elts = [ ];
-    
-    stringArr = readCookie('picked-sections');
-    elts = stringArr.split(',');
-    for (var i=0; i<elts.length; i++) {
-        var sectionID = elts[i];
-        if (sectionID.length > 0) {
-            window.database.addStatement(sectionID, "picked", "true");
-            window.database.addStatement(sectionID, "color", getNewColor());
-        }
-    }
-    window.console.log("pre update " + document.cookie);
-    window.exhibit.getCollection("picked-sections")._update();
-    
-    window.console.log(window.exhibit.getCollection('picked-sections'));
+
+	// if Exhibit loaded MySQL data re: picked sections
+	if (window.database.getObjects('picked-sections', 'list').size() > 0) {
+		window.database.getObjects('picked-sections', 'list').visit(
+			function(sectionID) {
+				window.database.addStatement(sectionID, "picked", "true");
+				window.database.addStatement(sectionID, "color", getNewColor());
+			});
+		window.exhibit.getCollection("picked-sections")._update();
+	}
+    else { // no prior user data exists
+		stringArr = readCookie('picked-sections');
+		elts = stringArr.split(',');
+		for (var i=0; i<elts.length; i++) {
+			var sectionID = elts[i];
+			if (sectionID.length > 0) {
+				window.database.addStatement(sectionID, "picked", "true");
+				window.database.addStatement(sectionID, "color", getNewColor());
+			}
+		}
+		window.exhibit.getCollection("picked-sections")._update();
+	}
 }

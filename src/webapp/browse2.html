@@ -14,19 +14,7 @@
         <script src="scripts/unit-adder.js" type="text/javascript"></script>
         <script src="scripts/mini-timegrid.js" type="text/javascript"></script>
         <script src="scripts/class-related.js" type="text/javascript"></script>
-        <script>
-			function rate(input) {
-				var classID = input.getAttribute("classID");
-				$.post("scripts/post.php",
-					{ userid: window.database.getObject('user', 'userid'),
-					  rating: input.value,
-					  class: classID
-					  },
-					function(data){
-						alert('RAWR');
-					});
-        	}
-        </script>
+        <script src="scripts/user-data.js" type="text/javascript"></script>
         
         <link type="text/css" rel="stylesheet" href="styles/styles.css" />
         <link type="text/css" rel="stylesheet" href="styles/browse.css" />
@@ -314,38 +302,29 @@
                     	<div ex:content=".gir"></div>
                     	<div ex:content=".ci"></div>
                     </div>
+
+
                     
-                    
-                    
-                    
-                    <div class="user-rating"
-                    	ex:display-style-subcontent="{{if(
-                    	exists(!class-userrating-of), 'block', 'none')}}">
-                    	
-                    	
-                    	
-						something!!
-                    </div>
-                    <div class="user-rating"
-                    	ex:display-style-subcontent="{{if(not(
-                    	exists(!class-userrating-of)), 'block', 'none')}}">
-                    	
-                    	<input type="checkbox" name="arf"
-                    	ex:checked-subcontent="{{if (exists(!class-user-rating-of), 'false', 'true')}}"></input>
-                    	<br/>
-                    	
-						<select class="user-rating" ex:classID-content="value"
-								onchange="rate(this);">
-							<option>--</option>
+					<div ex:id-subcontent="{{ concat('rating-', value, '-exists') }}" class="rating"
+						ex:display-style-subcontent="{{if(exists(!class-user-rating-of), 'block', 'none')}}">
+						Your Rating: <span ex:content="!class-user-rating-of.rating"></span><br/>
+						<a ex:classid-content="value"
+							ex:href-subcontent="javascript:void(0)" onclick="doRate(this)">change rating</a>
+					</div>
+					<!-- ex:checked-subcontent="{{if (.rating==4, 'true', 'false')}}"> -->
+					
+					<div ex:id-subcontent="{{ concat('rating-', value) }}" class="rating"
+						ex:display-style-subcontent="{{if(not(exists(!class-user-rating-of)), 'block', 'none')}}">
+						<select ex:classid-content="value" onchange="rate(this);">
+							<option value="">--</option>
 							<option value="1">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
 							<option value="4">4</option>
 						</select>
 
+					</div>
 
-
-                    </div>
                     
                     
                     
