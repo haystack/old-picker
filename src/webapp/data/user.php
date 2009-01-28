@@ -80,14 +80,13 @@ if (isset($userid)) {
 	while ($row = mysql_fetch_row($result)) {
 		$arr[] = '"' . $row[0] . '"';
 	}
-	$items[] = '{"type":"UserData","label":"all-classes",
+	$items[] = '{"type":"UserData","label":"picked-classes",
 		"list":[' . implode(",", $arr) . ']}';
 
 
 	// pull user's ratings
 	$result = mysql_query("SELECT r_classid, r_rating FROM ratings
 		WHERE r_userid=$userid AND r_type=1;");
-	$arr = array();
 	while ($row = mysql_fetch_row($result)) {
 		$items[] = '{"type":"UserData","label":"UserRating-' . $row[0] . '",
 			"class-user-rating-of":"' . $row[0] . '","rating":"' . $row[1] . '"}';
@@ -95,12 +94,31 @@ if (isset($userid)) {
 
 	// pull average ratings
 
+
+
+
+
+	// pull comments. we assume scrubbing occurs on comment ingestion
+	$result = mysql_query("SELECT u_athena, o_classid, o_timestamp, o_comment FROM comments
+		INNER JOIN users ON u_userid = o_userid
+		WHERE o_flagged = 0;");
+	while ($row = mysql_fetch_row($result)) {
+		$string = '{"type":"UserData","label":"Comment-' . $row[1] .'-'. $row[0] . '",
+			"class-comment-of":"' . $row[1] . '","author":"' . $row[0] . '",
+			"timestamp":"' . $row[2] . '","comment":"' . $row[3] . '"';
+		if ($row[0] == $athena)
+			$string .= ',"is-current-user":"true"';	
+		$string .= '}';
+		
+		$items[] = $string;
+	}
 }
 
 mysql_close();
 
-echo "\n\n";	
-echo '{"items": [' . implode(",", $items) . '] }';
+echo '{"properties": {"timestamp":{"valueType":"date"}},';
+
+echo '"items": [' . implode(",", $items) . '] }';
 
 } // end of main body block
 ?>

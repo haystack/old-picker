@@ -254,8 +254,12 @@ var girData = {
 	"GIR:BIOL": ["7.012", "7.013", "7.014"],
 	"GIR:CHEM": ["3.091", "5.111", "5.112"]
 }
-    
-var readCookie = function(name) {
+
+/* PersistentData object: stores functionality to deal with persistent
+ * data in a cleaner way.
+ */
+var PersistentData = {};
+PersistentData.readCookie = function(name) {
     var start = document.cookie.indexOf(name + '=');
     if (start != -1) {
         start = start + name.length + 1;
@@ -265,4 +269,35 @@ var readCookie = function(name) {
         return unescape(document.cookie.substring(start, end));
     }
     return '';
+}
+
+/**
+ * Returns an Exhibit.Set of the requested stored data
+ */
+PersistentData.stored = function(name) {
+    var sections;
+    
+	// if Exhibit loaded MySQL data re: picked sections
+	if (window.database &&
+		window.database.getObjects(name, 'list').size() > 0) {
+		sections = window.database.getObjects(name, 'list');
+	}
+	else { // no prior user data exists, check cookie
+		stringArr = this.readCookie(name);
+		elts = stringArr.split(',');
+		sections = new Exhibit.Set(elts);
+	}
+
+	return sections;
+}
+
+PersistentData.courses = function() {
+	var sections = this.stored('picked-classes');
+	var courses = new Exhibit.Set();
+	sections.visit( function(sectionID) {
+		course = sectionID.split('.')[0];
+		if (course.length > 0)
+			courses.add(course);
+	});
+	return courses;
 }

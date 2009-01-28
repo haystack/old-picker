@@ -43,19 +43,17 @@ function onLoad() {
         }
     }
     urls.push("data/schema.js");
-    
-    // pull necessary URLs from cookie
-    var stringArr = readCookie('picked-classes');
-    var elts = stringArr.split(',');
-    for (var i = 0; i < elts.length; i++) {
-        var course = elts[i].split('.')[0];
-        if (course.length > 0)
-            addCourses([course], urls);
-    }
-    
+   
+    // pull necessary URLs from cookie, since window.database doesn't exist yet
+	var elts = PersistentData.stored('picked-classes').toArray();
+	for (var i = 0; i < elts.length; i++) {
+		var course = elts[i].split('.')[0];
+		if (course.length > 0)
+			addCourses([course], urls);
+	}
+
     // load data from MySQL
     urls.push('data/user.php');
-
     window.database = Exhibit.Database.create();
     
     var fDone = function() {
@@ -106,8 +104,8 @@ function onLoad() {
         
         enableMiniTimegrid();
         enableUnitAdder();
-        enableClassList();
         fillAddMoreSelect();
+        enableClassList();
         checkForCookies();
     };
     loadURLs(urls, fDone);

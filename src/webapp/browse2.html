@@ -40,6 +40,7 @@
                     alt="MIT" width="62" height="36" border="0"></a>
             <td>
         </tr></table></div>
+
         
         <!-- ==================== Browsing Interface ==================== -->
         <div id="browsing-interface">
@@ -214,6 +215,38 @@
                     <div ex:content=".in-charge" class="course-teacher"></div>
                     <div ex:if-exists=".prereqs" class="course-prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
                     
+                    
+                    
+                    <div class="comments">
+                    	<a href="javascript:void(0);" onclick="toggleComments(this);">
+                    		<div class="comments-toggle">toggle comments</div>
+                    	</a>
+                    	
+                    	<div class="comment-body" style="display:none">
+							<div ex:content="!class-comment-of">
+								<div class="each-comment">
+									<div ex:content=".comment"></div>
+									-- <span ex:content=".author"></span>,
+									<span ex:content=".timestamp"
+										ex:formats="date { mode: medium }"></span>
+									<a ex:if-exists=".is-current-user" href="#">edit</a>
+								</div>
+							</div>
+                    	</div>
+						
+						<div class="message" style="display:none"></div>
+						
+						<div class="input" style="display:none">
+							<textarea></textarea><br/>
+							<button ex:classid-content="value"
+								ex:content="concat('Leave comment for ', value)"
+								onclick="comment(this);"></button>
+<!-- ex:content="if(exists(!class-comment-of.is-current-user), 'edit', 'write')" -->
+						</div>                 	
+                    </div>
+                    
+                    
+                    
                     <div ex:if-exists="!lecture-section-of"><b>Lecture Sections:</b>
                         <div ex:content="!lecture-section-of">
                             <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
@@ -241,6 +274,9 @@
                                 on what you be assigned through the scheduling process.
                             </div>
                         </div>
+					
+					
+
                         <div ex:content="!rec-section-of">
                             <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
                                 ex:id-subcontent="divid-{{value}}"
@@ -302,30 +338,6 @@
                     	<div ex:content=".gir"></div>
                     	<div ex:content=".ci"></div>
                     </div>
-
-
-                    
-					<div ex:id-subcontent="{{ concat('rating-', value, '-exists') }}" class="rating"
-						ex:display-style-subcontent="{{if(exists(!class-user-rating-of), 'block', 'none')}}">
-						Your Rating: <span ex:content="!class-user-rating-of.rating"></span><br/>
-						<a ex:classid-content="value"
-							ex:href-subcontent="javascript:void(0)" onclick="doRate(this)">change rating</a>
-					</div>
-					<!-- ex:checked-subcontent="{{if (.rating==4, 'true', 'false')}}"> -->
-					
-					<div ex:id-subcontent="{{ concat('rating-', value) }}" class="rating"
-						ex:display-style-subcontent="{{if(not(exists(!class-user-rating-of)), 'block', 'none')}}">
-						<select ex:classid-content="value" onchange="rate(this);">
-							<option value="">--</option>
-							<option value="1">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-						</select>
-
-					</div>
-
-                    
                     
                     
                     
@@ -353,6 +365,49 @@
                             </table>
                         </div>
                     </div>
+                    
+                    
+                    
+					<div ex:id-subcontent="rating-{{value}}" class="rating">
+						<div class="info" ex:if-exists="!class-user-rating-of">
+							Your Rating: <span ex:content="!class-user-rating-of.rating"></span>
+							<br/>
+							<a ex:classid-content="value"
+								ex:href-subcontent="javascript:void(0)" onclick="doRate(this)">change rating</a>
+						</div>
+						
+						<div class="message"></div>
+						
+						<div class="select"
+							ex:display-style-content="if(not(exists(!class-user-rating-of)), 'block', 'none')">
+							<select ex:classid-content="value" onchange="rate(this);">
+								<option value="">--</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+							</select>
+						</div>
+<!--
+						<div ex:id-subcontent="rate-{{value}}" class="select">
+						<div class="cancel"><a href="#0" title="Cancel Rating">Cancel Rating</a></div>
+						<div class="star"><a href="javascript:void(0);'">'+1+'</a></div>
+						<div class="star"><a href="javascript:void(0);'">'+2+'</a></div>
+						<div class="star"><a href="javascript:void(0);'">'+3+'</a></div>
+						<div class="star"><a href="javascript:void(0);'">'+4+'</a></div>
+						<div class="star"><a href="javascript:void(0);'">'+5+'</a></div>
+						<div class="star"><a href="javascript:void(0);'">'+6+'</a></div>
+						<div class="star"><a href="javascript:void(0);'">'+7+'</a></div>
+						</div>
+-->
+
+					</div>
+					
+					       
+                    
                     <div class="report-errors">
                         <a ex:href-subcontent="mailto:course-picker@lists.csail.mit.edu?subject=Data Error in course {{value}}">Report Error</a>
                 </td>
