@@ -107,6 +107,7 @@ function onLoad() {
         fillAddMoreSelect();
         enableClassList();
         checkForCookies();
+        attachRatings();
     };
     loadURLs(urls, fDone);
 }

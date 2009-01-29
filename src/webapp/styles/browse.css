@@ -277,13 +277,15 @@ div.requirements {
 /*
  * Ratings and Comment styles
  */
-.select {
-	cursor: pointer;
+.rating {
 	margin-top: 1em;
+}
+.rate {
+	cursor: pointer;
 	clear: both;
 	display: block;
 }
-.select:after {
+.rate:after {
 	content: '.';
 	display: block;
 	height: 0;
@@ -301,10 +303,10 @@ div.requirements {
 	cursor: pointer;
 }
 .cancel,
-.cancel a {background: url('/images/rating-delete.gif') no-repeat 0 -16px;}
+.cancel a {background: url('../images/rating-delete.gif') no-repeat 0 -16px;}
 
 .star,
-.star a {background: url('/images/rating-star.gif') no-repeat 0 0px;}
+.star a {background: url('../images/rating-star.gif') no-repeat 0 0px;}
 	
 .cancel a,
 .star a {
@@ -314,11 +316,11 @@ div.requirements {
 	background-position: 0 0px;
 }
 
-div.select div.on a {
+div.rate span.on a {
 	background-position: 0 -16px;
 }
-div.select div.hover a,
-div.select div a:hover {
+div.rate span.hover a,
+div.rate span a:hover {
 	background-position: 0 -32px;
 }
 

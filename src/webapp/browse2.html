@@ -369,41 +369,15 @@
                     
                     
 					<div ex:id-subcontent="rating-{{value}}" class="rating">
-						<div class="info" ex:if-exists="!class-user-rating-of">
-							Your Rating: <span ex:content="!class-user-rating-of.rating"></span>
-							<br/>
-							<a ex:classid-content="value"
-								ex:href-subcontent="javascript:void(0)" onclick="doRate(this)">change rating</a>
+						<div class="info">
+							Your Rating:
+							<div class="rate"
+								 ex:classid-content="value"
+								 ex:curvalue-content="if(exists(!class-user-rating-of.rating),
+								 	!class-user-rating-of.rating, 0)">&nbsp;</div>
 						</div>
 						
 						<div class="message"></div>
-						
-						<div class="select"
-							ex:display-style-content="if(not(exists(!class-user-rating-of)), 'block', 'none')">
-							<select ex:classid-content="value" onchange="rate(this);">
-								<option value="">--</option>
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5</option>
-								<option>6</option>
-								<option>7</option>
-							</select>
-						</div>
-<!--
-						<div ex:id-subcontent="rate-{{value}}" class="select">
-						<div class="cancel"><a href="#0" title="Cancel Rating">Cancel Rating</a></div>
-						<div class="star"><a href="javascript:void(0);'">'+1+'</a></div>
-						<div class="star"><a href="javascript:void(0);'">'+2+'</a></div>
-						<div class="star"><a href="javascript:void(0);'">'+3+'</a></div>
-						<div class="star"><a href="javascript:void(0);'">'+4+'</a></div>
-						<div class="star"><a href="javascript:void(0);'">'+5+'</a></div>
-						<div class="star"><a href="javascript:void(0);'">'+6+'</a></div>
-						<div class="star"><a href="javascript:void(0);'">'+7+'</a></div>
-						</div>
--->
-
 					</div>
 					
 					       

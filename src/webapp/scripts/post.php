@@ -10,13 +10,16 @@ if(isset($_POST['userid']) && !empty($_POST['userid'])
 	$userid = mysql_real_escape_string($_POST['userid']);
 	$class = mysql_real_escape_string($_POST['class']);
 
-	if(isset($_POST['rating']) && !empty($_POST['rating'])) {
-		$rating = mysql_real_escape_string($_POST['rating']);
+	if(isset($_POST['rating'])) {
+		$rating = (int)$_POST['rating'];
 		
-		mysql_query("INSERT INTO ratings (r_userid, r_classid, r_rating, r_type) VALUES
-			($userid,'$class',$rating,1) ON DUPLICATE KEY UPDATE r_rating=$rating;")
-			or die (mysql_error());
-	
+		if ($rating == 0)
+			mysql_query("DELETE FROM ratings WHERE r_userid=$userid AND r_classid='$class';")
+				or die (mysql_error());
+		else
+			mysql_query("INSERT INTO ratings (r_userid, r_classid, r_rating, r_type) VALUES
+				($userid,'$class',$rating,1) ON DUPLICATE KEY UPDATE r_rating=$rating;")
+				or die (mysql_error());	
 		echo $rating;
 	}
 	else if (isset($_POST['comment']) && !empty($_POST['comment'])) {
