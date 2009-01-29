@@ -91,34 +91,37 @@ if (isset($userid)) {
 		$items[] = '{"type":"UserData","label":"UserRating-' . $row[0] . '",
 			"class-user-rating-of":"' . $row[0] . '","rating":"' . $row[1] . '"}';
 	}
+}
 
-	// pull average ratings
+/* ==== THINGS THAT SHOULD BE PULLED REGARDLESS OF AUTHENTICATION ==== */
+// pull average ratings
+$result = mysql_query("SELECT r_classid, AVG(r_rating),
+	COUNT(r_rating) FROM ratings
+	WHERE r_type=1 GROUP BY r_classid;;");
+while ($row = mysql_fetch_row($result)) {
+	$items[] = '{"type":"UserData","label":"AvgRating-' . $row[0] . '",
+		"class-avg-rating-of":"' . $row[0] . '",
+		"rating":"' . round($row[1],1) . '","total":"' . $row[2] . '"}';
+}
 
-
-
-
-
-	// pull comments. we assume scrubbing occurs on comment ingestion
-	$result = mysql_query("SELECT u_athena, o_classid, o_timestamp, o_comment FROM comments
-		INNER JOIN users ON u_userid = o_userid
-		WHERE o_flagged = 0;");
-	while ($row = mysql_fetch_row($result)) {
-		$string = '{"type":"UserData","label":"Comment-' . $row[1] .'-'. $row[0] . '",
-			"class-comment-of":"' . $row[1] . '","author":"' . $row[0] . '",
-			"timestamp":"' . $row[2] . '","comment":"' . $row[3] . '"';
-		if ($row[0] == $athena)
-			$string .= ',"is-current-user":"true"';	
-		$string .= '}';
-		
-		$items[] = $string;
-	}
+// pull comments. we assume scrubbing occurs on comment ingestion
+$result = mysql_query("SELECT u_athena, o_classid, o_timestamp, o_comment
+	FROM comments INNER JOIN users ON u_userid = o_userid
+	WHERE o_flagged = 0;");
+while ($row = mysql_fetch_row($result)) {
+	$string = '{"type":"UserData","label":"Comment-' . $row[1] .'-'. $row[0] . '",
+		"class-comment-of":"' . $row[1] . '","author":"' . $row[0] . '",
+		"timestamp":"' . $row[2] . '","comment":"' . $row[3] . '"';
+	if (isset($athena) && $row[0] == $athena)
+		$string .= ',"is-current-user":"true"';	
+	$string .= '}';
+	
+	$items[] = $string;
 }
 
 mysql_close();
 
-echo '{"properties": {"timestamp":{"valueType":"date"}},';
-
-echo '"items": [' . implode(",", $items) . '] }';
+echo '{"items": [' . implode(",", $items) . '] }';
 
 } // end of main body block
 ?>

@@ -218,7 +218,8 @@
                     
                     
                     <div class="comments">
-                    	<a href="javascript:void(0);" onclick="toggleComments(this);">
+                    	<a href="javascript:void(0);"
+                    		onclick="userFunc.toggleComments(this);">
                     		<div class="comments-toggle">toggle comments</div>
                     	</a>
                     	
@@ -229,7 +230,7 @@
 									-- <span ex:content=".author"></span>,
 									<span ex:content=".timestamp"
 										ex:formats="date { mode: medium }"></span>
-									<a ex:if-exists=".is-current-user" href="#">edit</a>
+									<a ex:if-exists=".is-current-user" href="#">delete</a>
 								</div>
 							</div>
                     	</div>
@@ -239,10 +240,11 @@
 						<div class="input" style="display:none">
 							<textarea></textarea><br/>
 							<button ex:classid-content="value"
-								ex:content="concat('Leave comment for ', value)"
-								onclick="comment(this);"></button>
-<!-- ex:content="if(exists(!class-comment-of.is-current-user), 'edit', 'write')" -->
-						</div>                 	
+								ex:content="if(exists(
+									!class-comment-of.is-current-user),
+									'Replace comment', 'Leave comment')"
+								onclick="userFunc.comment(this);"></button>
+						</div>
                     </div>
                     
                     
@@ -373,9 +375,22 @@
 							Your Rating:
 							<div class="rate"
 								 ex:classid-content="value"
-								 ex:curvalue-content="if(exists(!class-user-rating-of.rating),
-								 	!class-user-rating-of.rating, 0)">&nbsp;</div>
+								 ex:curvalue-content="if(exists(
+								 	!class-user-rating-of.rating),
+								 	!class-user-rating-of.rating, 0)">&nbsp;
+							</div>
+							<div ex:if="exists(!class-avg-rating-of)">
+								<div ex:content="!class-avg-rating-of">
+									Average Rating:<br/>
+									<span ex:content=".rating"></span>
+									based on <span ex:content=".total"></span>
+									reviews
+								</div>
+								<div>No other reviews yet</div>
+							</div>
+								
 						</div>
+						
 						
 						<div class="message"></div>
 					</div>

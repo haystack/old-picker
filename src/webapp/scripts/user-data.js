@@ -1,5 +1,3 @@
-// TODO: clean up. write utilities to check userID / return errors if false
-
 /*
  * scripts/user-data.js
  *
@@ -9,48 +7,55 @@
  * Includes a star rating plugin script
  */
 
-function getUserID(element) {
-	var userID = window.database.getObject('user', 'userid');
-	if (userID == null) {
-		var href = element.baseURI.replace('http:', 'https:');
-		leaveMessage(element, 'Must be logged in to rate class. <a href="'
-			+ href + '">Login</a>');
+// holds various dependent functions
+userFunc = {
+
+	// not used outside of this file
+	getUserID: function(element) {
+		var userID = window.database.getObject('user', 'userid');
+		if (userID == null) {
+			var href = element.baseURI.replace('http:', 'https:');
+			this.setMsg(element, 'Must be logged in to rate class. <a href="'
+				+ href + '">Login</a>');
+		}
+		return userID;
+	},
+
+	// not used outside of this file
+	setMsg: function(element, msg) {
+		$(element).parent().parent().find('.message').html(msg);
+	},
+
+	/*
+	 * @param anchor - the anchored div acting as toggle bar
+	 * 				its next element is necessarily the div with comments.
+	 */
+	toggleComments: function(anchor) {
+	/* 	$(anchor).next().slideToggle('fast'); */
+		$(anchor).siblings().toggle();
+	},
+	
+	comment: function(button) {
+		var classID = button.getAttribute("classid");
+		
+		var $textarea = $(button).parent().find('textarea');
+		
+		// hide input
+		$(button).parent().hide();
+		
+		var userID = this.getUserID(button);
+		if (userID != null) {
+			$.post("scripts/post.php",
+				{ userid: userID,
+				  comment: $textarea.attr('value'),
+				  class: classID
+				  },
+				function(data){
+					userFunc.setMsg(button, 'Successfully commented: ' + data);
+				});
+		}
 	}
-	return userID;
-}
 
-function setMsg(element, msg) {
-	$(element).parent().parent().find('.message').html(msg);
-}
-
-/*
- * @param anchor - the anchored div acting as toggle bar
- * 				its next element is necessarily the div with comments.
- */
-function toggleComments(anchor) {
-/* 	$(anchor).next().slideToggle('fast'); */
-	$(anchor).siblings().toggle();
-}
-
-function comment(button) {
-	var classID = button.getAttribute("classid");
-	
-	var $textarea = $(button).parent().find('textarea');
-	
-	// hide input
-	$(button).parent().hide();
-	
-	var userID = getUserID(button);
-	if (userID != null) {
-		$.post("scripts/post.php",
-			{ userid: userID,
-			  comment: $textarea.attr('value'),
-			  class: classID
-			  },
-			function(data){
-				setMsg(button, 'Successfully commented: ' + data);
-			});
-	}
 }
 
 
@@ -132,17 +137,17 @@ options
 			});
 	
 		stars.click(function(){
-			if(settings.cancel == true){
+			var userID = userFunc.getUserID($(this).parent()[0]);
+			
+			if (userID != null) {
 				settings.curvalue = stars.index(this) + 1;
 				$.post(container.url, {
-					'userid': window.database.getObject('user', 'userid'),
+					'userid': userID,
 					'class' : $(this).parent().attr('classid'),
 					'rating': $(this).children('a').html()
 				});
 				return false;
 			}
-			return true;
-				
 		});
 	
 			// cancel button events
@@ -169,12 +174,17 @@ options
 			cancel.click(function(){
 				event.drain();
 				settings.curvalue = 0;
-				jQuery.post(container.url, {
-					'userid': window.database.getObject('user', 'userid'),
-					'class' : $(this).parent().attr('classid'),
-					'rating': '0'
-				});
-				return false;
+
+				var userID = userFunc.getUserID($(this).parent()[0]);
+				
+				if (userID != null) {
+					$.post(container.url, {
+						'userid': userID,
+						'class' : $(this).parent().attr('classid'),
+						'rating': '0'
+					});
+					return false;
+				}
 			});
 		}
 			
@@ -206,7 +216,7 @@ options
 /*# AVOID COLLISIONS #*/
 
 function attachRatings() {
-$('div.rate').each(function(i) {
-	$(this).rating( {curvalue: $(this).attr('curvalue')} );
-	});
+	$('div.rate').each(function(i) {
+		$(this).rating( {curvalue: $(this).attr('curvalue')} );
+		});
 }
