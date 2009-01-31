@@ -107,9 +107,11 @@ while ($row = mysql_fetch_row($result)) {
 // pull comments. we assume scrubbing occurs on comment ingestion
 $result = mysql_query("SELECT u_athena, o_classid, o_timestamp, o_comment
 	FROM comments INNER JOIN users ON u_userid = o_userid
-	WHERE o_flagged = 0;");
+	WHERE o_flagged = 0 ORDER BY o_timestamp DESC;");
+$count = 0;
 while ($row = mysql_fetch_row($result)) {
-	$string = '{"type":"UserData","label":"Comment-' . $row[1] .'-'. $row[0] . '",
+	$count++;
+	$string = '{"type":"UserData","label":"Comment-' . $row[1] .'-'. $count . '",
 		"class-comment-of":"' . $row[1] . '","author":"' . $row[0] . '",
 		"timestamp":"' . $row[2] . '","comment":"' . $row[3] . '"';
 	if (isset($athena) && $row[0] == $athena)

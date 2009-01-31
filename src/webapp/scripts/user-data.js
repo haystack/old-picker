@@ -8,7 +8,7 @@
  */
 
 // holds various dependent functions
-userFunc = {
+userData = {
 
 	// not used outside of this file
 	getUserID: function(element) {
@@ -25,11 +25,7 @@ userFunc = {
 	setMsg: function(element, msg) {
 		$(element).parent().parent().find('.message').html(msg);
 	},
-
-	/*
-	 * @param anchor - the anchored div acting as toggle bar
-	 * 				its next element is necessarily the div with comments.
-	 */
+	
 	toggleComments: function(anchor) {
 	/* 	$(anchor).next().slideToggle('fast'); */
 		$(anchor).siblings().toggle();
@@ -51,7 +47,26 @@ userFunc = {
 				  class: classID
 				  },
 				function(data){
-					userFunc.setMsg(button, 'Successfully commented: ' + data);
+					userData.setMsg(button, 'Successfully commented: ' + data);
+				});
+		}
+	},
+	
+	deleteComment: function(anchor) {
+		var classID = anchor.getAttribute("classid");
+		
+		var userID = this.getUserID($(anchor).parent());
+		if (userID != null) {
+			
+			$.post("scripts/post.php",
+				{ userid: userID,
+				  comment: true,
+				  deleteComment: true,
+				  class: classID
+				  },
+				function(data){
+					// hide comment div
+					$(anchor).parent().hide();
 				});
 		}
 	}
@@ -137,7 +152,7 @@ options
 			});
 	
 		stars.click(function(){
-			var userID = userFunc.getUserID($(this).parent()[0]);
+			var userID = userData.getUserID($(this).parent()[0]);
 			
 			if (userID != null) {
 				settings.curvalue = stars.index(this) + 1;
@@ -175,7 +190,7 @@ options
 				event.drain();
 				settings.curvalue = 0;
 
-				var userID = userFunc.getUserID($(this).parent()[0]);
+				var userID = userData.getUserID($(this).parent()[0]);
 				
 				if (userID != null) {
 					$.post(container.url, {

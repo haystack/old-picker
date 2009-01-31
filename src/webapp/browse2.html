@@ -219,21 +219,24 @@
                     
                     <div class="comments">
                     	<a href="javascript:void(0);"
-                    		onclick="userFunc.toggleComments(this);">
+                    		onclick="userData.toggleComments(this);">
                     		<div class="comments-toggle">toggle comments</div>
                     	</a>
                     	
-                    	<div class="comment-body" style="display:none">
-							<div ex:content="!class-comment-of">
-								<div class="each-comment">
-									<div ex:content=".comment"></div>
-									-- <span ex:content=".author"></span>,
-									<span ex:content=".timestamp"
-										ex:formats="date { mode: medium }"></span>
-									<a ex:if-exists=".is-current-user" href="#">delete</a>
-								</div>
+						<div ex:content="!class-comment-of"
+							class="comment-body" style="display:none">
+							<div class="each-comment">
+								<div ex:content=".comment"></div>
+								-- <span ex:content=".author"></span>,
+								<span ex:content=".timestamp"
+									ex:formats="date { mode: medium }"></span>
+								<a ex:if-exists=".is-current-user"
+									ex:classid-content=".class-comment-of"
+									href="javascript:void(0)"
+									onclick="userData.deleteComment(this)">
+									delete</a>
 							</div>
-                    	</div>
+						</div>
 						
 						<div class="message" style="display:none"></div>
 						
@@ -243,7 +246,7 @@
 								ex:content="if(exists(
 									!class-comment-of.is-current-user),
 									'Replace comment', 'Leave comment')"
-								onclick="userFunc.comment(this);"></button>
+								onclick="userData.comment(this);"></button>
 						</div>
                     </div>
                     
