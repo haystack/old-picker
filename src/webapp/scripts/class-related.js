@@ -58,7 +58,7 @@ function updateCookies() {
     document.cookie = 'picked-classes='+classes.toArray()+'; expires='+exDate+'; path-/';
 }
 
-function checkForCookies(addCoursesCallback) {
+function checkForCookies() {
 	var sections = PersistentData.stored('picked-sections');
 
 	sections.visit(

@@ -44,6 +44,8 @@ function onLoad() {
     }
     urls.push("data/schema.js");
    
+
+
     // pull necessary URLs from cookie, since window.database doesn't exist yet
 	var elts = PersistentData.stored('picked-classes').toArray();
 	for (var i = 0; i < elts.length; i++) {
@@ -51,6 +53,8 @@ function onLoad() {
 		if (course.length > 0)
 			addCourses([course], urls);
 	}
+
+
 
     // load data from MySQL
     urls.push('data/user.php');

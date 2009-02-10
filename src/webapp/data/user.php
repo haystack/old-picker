@@ -1,9 +1,11 @@
 <?php
 ini_set('display_errors', 'On');
+ini_set('allow_url_fopen', 'true');
 
 mysql_connect('sql.mit.edu', 'picker', 'haymaster')
 	or die('MySQL connect failed');
 mysql_select_db('picker+userdata');
+
 
 // POST handling
 if (isset($_POST['userid'])) {
@@ -63,10 +65,9 @@ if (isset($userid)) {
 	$items = array($arr);
 	
 	
-	// populate picked-sections
+	// populate picked-sections - use $picked to store section data
  	$result = mysql_query("SELECT s_sectionid FROM sections WHERE s_userid=$userid;");
- 	
- 	$arr = array();
+	$arr = array();
  	while ($row = mysql_fetch_row($result)) {
  		$arr[] = '"' . $row[0] . '"';
  	}
@@ -77,11 +78,38 @@ if (isset($userid)) {
 	// populate schedule-list (official picked-classes done by listener)
 	$result = mysql_query("SELECT c_classid FROM classes WHERE c_userid=$userid;");
 	$arr = array();
+	$picked = array();
 	while ($row = mysql_fetch_row($result)) {
+		$picked[] = '(' . $row[0] . ')';
 		$arr[] = '"' . $row[0] . '"';
 	}
 	$items[] = '{"type":"UserData","label":"picked-classes",
 		"list":[' . implode(",", $arr) . ']}';
+		
+		
+	// pull information from mapws based on picked-sections and picked-classes
+	$content = file_get_contents('http://mapws.mit.edu/WarehouseService/?term=2009SP&courses=6');
+	if ($content != false) {
+		$content = preg_replace('/{"items": \[/', '', $content);
+		$content = split(",\n" , $content);
+
+		$picked = preg_replace('/\./', '\\\.', $picked);
+		
+		// $arr uses $picked to fill the grep pattern to sele
+		$arr = preg_grep('/' . implode('|', $picked) . '/', $content);
+		
+		// duplicates functionality of postProcessOfficialData
+		$arr = preg_replace('/LectureSession",\s+"label":"L(\d+\.\d+)",\s+"section/',
+			'LectureSection", "label":"L$1", "lecture-section', $arr);
+		$arr = preg_replace('/RecitationSession",\s+"label":"R(\d+\.\d+)",\s+"section/',
+			'RecitationSection", "label":"R$1", "rec-section', $arr);
+		$arr = preg_replace('/LabSession",\s+"label":"B(\d+\.\d+)",\s+"section/',
+			'LabSection", "label":"B$1", "lab-section', $arr);
+		
+		$items = array_merge($items, $arr);
+	} else {
+		echo '/* read of mapws file failed */';
+	}
 
 
 	// pull user's ratings
@@ -122,6 +150,7 @@ while ($row = mysql_fetch_row($result)) {
 }
 
 mysql_close();
+
 
 echo '{"items": [' . implode(",", $items) . '] }';
 

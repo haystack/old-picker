@@ -266,7 +266,10 @@ PersistentData.readCookie = function(name) {
         var end = document.cookie.indexOf(';', start);
         if (end == -1)
             end = document.cookie.length;
-        return unescape(document.cookie.substring(start, end));
+        var content = unescape(document.cookie.substring(start, end));
+        if (content != 'null')
+        	return content;
+        return '';
     }
     return '';
 }
@@ -289,15 +292,4 @@ PersistentData.stored = function(name) {
 	}
 
 	return sections;
-}
-
-PersistentData.courses = function() {
-	var sections = this.stored('picked-classes');
-	var courses = new Exhibit.Set();
-	sections.visit( function(sectionID) {
-		course = sectionID.split('.')[0];
-		if (course.length > 0)
-			courses.add(course);
-	});
-	return courses;
 }
