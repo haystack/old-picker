@@ -47,6 +47,7 @@ function enableClassList() {
     });
 }
 
+// updates cookies AND pushes updates to database.
 function updateCookies() {
     var exDate = new Date();
     exDate.setDate(exDate.getDate() + 7); // default expiration in a week
@@ -56,6 +57,14 @@ function updateCookies() {
     
     document.cookie = 'picked-sections='+sections.toArray()+'; expires='+exDate+'; path=/';
     document.cookie = 'picked-classes='+classes.toArray()+'; expires='+exDate+'; path-/';
+    
+    if (window.database.getObject('user', 'userid') != null) {
+		$.post("./scripts/post.php",
+			{ userid: window.database.getObject('user', 'userid'),
+			  pickedsections: sections.toArray().join(','),
+			  pickedclasses: classes.toArray().join(',')
+			  });
+    }
 }
 
 function checkForCookies() {

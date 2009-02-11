@@ -86,29 +86,32 @@ if (isset($userid)) {
 	$items[] = '{"type":"UserData","label":"picked-classes",
 		"list":[' . implode(",", $arr) . ']}';
 		
-		
-	// pull information from mapws based on picked-sections and picked-classes
-	$content = file_get_contents('http://mapws.mit.edu/WarehouseService/?term=2009SP&courses=6');
-	if ($content != false) {
-		$content = preg_replace('/{"items": \[/', '', $content);
-		$content = split(",\n" , $content);
-
-		$picked = preg_replace('/\./', '\\\.', $picked);
-		
-		// $arr uses $picked to fill the grep pattern to sele
-		$arr = preg_grep('/' . implode('|', $picked) . '/', $content);
-		
-		// duplicates functionality of postProcessOfficialData
-		$arr = preg_replace('/LectureSession",\s+"label":"L(\d+\.\d+)",\s+"section/',
-			'LectureSection", "label":"L$1", "lecture-section', $arr);
-		$arr = preg_replace('/RecitationSession",\s+"label":"R(\d+\.\d+)",\s+"section/',
-			'RecitationSection", "label":"R$1", "rec-section', $arr);
-		$arr = preg_replace('/LabSession",\s+"label":"B(\d+\.\d+)",\s+"section/',
-			'LabSection", "label":"B$1", "lab-section', $arr);
-		
-		$items = array_merge($items, $arr);
-	} else {
-		echo '/* read of mapws file failed */';
+	
+	if(count($picked) > 0) {
+		// pull information from mapws based on picked-sections and picked-classes
+		$content = file_get_contents('http://mapws.mit.edu/WarehouseService/?term=2009SP&courses=6');
+		if ($content != false) {
+			$content = preg_replace('/{"items": \[/', '', $content);
+			$content = split(",\n" , $content);
+	
+			$picked = preg_replace('/\./', '\\\.', $picked);
+			
+			// $arr uses $picked to fill the grep pattern to sele
+			$arr = preg_grep('/' . implode('|', $picked) . '/', $content);
+			
+			// duplicates functionality of postProcessOfficialData
+			$arr = preg_replace('/LectureSession",\s+"label":"L(\d+\.\d+)",\s+"section/',
+				'LectureSection", "label":"L$1", "lecture-section', $arr);
+			$arr = preg_replace('/RecitationSession",\s+"label":"R(\d+\.\d+)",\s+"section/',
+				'RecitationSection", "label":"R$1", "rec-section', $arr);
+			$arr = preg_replace('/LabSession",\s+"label":"B(\d+\.\d+)",\s+"section/',
+				'LabSection", "label":"B$1", "lab-section', $arr);
+			$arr = preg_replace('/"offering":"Y"/', '"offering":"Currently Offered"', $arr);
+			
+			$items = array_merge($items, $arr);
+		} else {
+			echo '/* read of mapws file failed */';
+		}
 	}
 
 
