@@ -27,8 +27,7 @@ if(isset($_POST['userid']) && !empty($_POST['userid'])) {
 		}
 		else if (isset($_POST['comment']) && !empty($_POST['comment'])) {
 			if (!isset($_POST['deleteComment'])) {
-				$comment = mysql_real_escape_string(
-					mysql_real_escape_string($_POST['comment']));
+				$comment = mysql_real_escape_string($_POST['comment']);
 				
 				mysql_query("INSERT INTO comments (o_userid, o_classid, o_comment)
 					VALUES ($userid,'$class','$comment') ON DUPLICATE KEY
