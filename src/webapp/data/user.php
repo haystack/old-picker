@@ -119,8 +119,20 @@ if (isset($userid)) {
 	$result = mysql_query("SELECT r_classid, r_rating FROM ratings
 		WHERE r_userid=$userid AND r_type=1;");
 	while ($row = mysql_fetch_row($result)) {
-		$items[] = '{"type":"UserData","label":"UserRating-' . $row[0] . '",
-			"class-user-rating-of":"' . $row[0] . '","rating":"' . $row[1] . '"}';
+		
+		$rating_elts = array();
+		for ($i = 1; $i <= 7; $i++) {
+			if ($i <= $row[1])
+				$rating_elts[] = '"r' . $i . '":"true"';
+		}
+		
+		$str = '{"type":"UserData","label":"UserRating-' . $row[0] . '",
+			"class-urating-of":"' . $row[0] . '"';
+		if (count($rating_elts) > 0)
+			$str .= ', ' . implode(', ', $rating_elts);
+		$str .= '}';
+		
+		$items[] = $str;
 	}
 }
 

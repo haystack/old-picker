@@ -62,11 +62,15 @@ function onLoad() {
     
     var fDone = function() {
 		var athena = window.database.getObject("user", "athena");
+		var href = document.location.href;
 		
-		if (document.location.protocol == 'https:' && athena != null)
-			$('#httpsStatus').html(' &bull; logged in as ' + athena);
+		if (document.location.protocol == 'https:' && athena != null) {
+			href = href.replace('https:', 'http:');
+			$('#httpsStatus').html(' &bull; logged in as ' + athena +
+				'&bull; <a href="' + href + '">logout</a>');
+		}
 		else {
-			href = document.location.href.replace('http:', 'https:');
+			href = href.replace('http:', 'https:');
 			$('#httpsStatus').html(' &bull; <a href="' + href + '">login</a>');
 		}
 	
@@ -111,7 +115,6 @@ function onLoad() {
         fillAddMoreSelect();
         enableClassList();
         checkForCookies();
-        attachRatings();
     };
     loadURLs(urls, fDone);
 }
