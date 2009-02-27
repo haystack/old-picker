@@ -127,7 +127,7 @@ if (isset($userid)) {
 		}
 		
 		$str = '{"type":"UserData","label":"UserRating-' . $row[0] . '",
-			"class-urating-of":"' . $row[0] . '"';
+			"class-urating-of":"' . $row[0] . '", "rating":"' . $row[1] . '"';
 		if (count($rating_elts) > 0)
 			$str .= ', ' . implode(', ', $rating_elts);
 		$str .= '}';

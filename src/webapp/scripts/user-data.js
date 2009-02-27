@@ -117,6 +117,7 @@ userData = {
 		this.drain(star);
 		
 		var curValue = $(star).parent().attr('curvalue');
+		window.console.log(curValue);
 		this.reset(curValue, star);
 	},
 	
