@@ -342,6 +342,10 @@ div.comments a div {
 div.each-comment {
 	border-bottom: 1px solid #AAAAAA;
 }
-div.input {
+div.comments div.message {
+	display: none;
+}
+div.comments div.input {
+	display: none;
 	padding: 4px;
 }

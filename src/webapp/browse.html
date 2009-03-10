@@ -29,6 +29,9 @@
                     <a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a> &bull;
                     <a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog" target="_blank">Official Catalog</a> &bull;
                     <a href="http://ocw.mit.edu/" title="MIT's OpenCourseWare" target="_blank">OCW</a>
+					<span id="httpsStatus"></span>
+					
+						
                 </div>
             </td>
             <td align="right" style="padding-right: 20em">
@@ -37,6 +40,7 @@
                     alt="MIT" width="62" height="36" border="0"></a>
             <td>
         </tr></table></div>
+
         
         <!-- ==================== Browsing Interface ==================== -->
         <div id="browsing-interface">
@@ -144,13 +148,13 @@
                 <div ex:role="lens" ex:itemTypes="RecitationSection" 
                     class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
                     <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
-                    <span ex:content=".rec-section-of.label"></span> -
+                    <span ex:content=".rec-section-of"></span> -
                     <span ex:content=".rec-section-of.label"></span> (rec)
                 </div>
                 <div ex:role="lens" ex:itemTypes="LabSection" 
                     class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
                     <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
-                    <span ex:content=".lab-section-of.label"></span> -
+                    <span ex:content=".lab-section-of"></span> -
                     <span ex:content=".lab-section-of.label"></span> (lab)
                 </div>
 
@@ -214,6 +218,44 @@
                     <div ex:content=".in-charge" class="course-teacher"></div>
                     <div ex:if-exists=".prereqs" class="course-prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
                     
+                    
+                    
+                    <div class="comments">
+                    	<a href="javascript:void(0);"
+                    		ex:classid-content="value"
+                    		onclick="userData.toggleComments(this);">
+                    		<div class="comments-toggle">toggle comments</div>
+                    	</a>
+                    	
+						<div ex:content="!class-comment-of"
+							class="comment-body" style="display:none">
+							<div class="each-comment">
+								<div ex:content=".comment"></div>
+								-- <span ex:content=".author"></span>,
+								<span ex:content=".timestamp"
+									ex:formats="date { mode: medium }"></span>
+								<a ex:if-exists=".is-current-user"
+									ex:classid-content=".class-comment-of"
+									href="javascript:void(0)"
+									onclick="userData.deleteComment(this)">
+									delete</a>
+							</div>
+						</div>
+						
+						<div class="message"></div>
+						
+						<div class="input">
+							<textarea></textarea><br/>
+							<button ex:classid-content="value"
+								ex:content="if(exists(
+									!class-comment-of.is-current-user),
+									'Replace comment', 'Leave comment')"
+								onclick="userData.comment(this);"></button>
+						</div>
+                    </div>
+                    
+                    
+                    
                     <div ex:if-exists="!lecture-section-of"><b>Lecture Sections:</b>
                         <div ex:content="!lecture-section-of">
                             <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
@@ -231,6 +273,8 @@
                                 <span class="section-instructor" ex:content=".lecture-section-of.instructor"></span>
                             </div>
                         </div>
+                        
+                        
                     </div>
                     <div ex:if-exists="!rec-section-of"><b>Recitation Sections:</b>
                         <div ex:if="count(!rec-section-of) > 2">
@@ -239,6 +283,9 @@
                                 on what you be assigned through the scheduling process.
                             </div>
                         </div>
+					
+					
+
                         <div ex:content="!rec-section-of">
                             <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
                                 ex:id-subcontent="divid-{{value}}"
@@ -300,6 +347,9 @@
                     	<div ex:content=".gir"></div>
                     	<div ex:content=".ci"></div>
                     </div>
+                    
+                    
+                    
                     <div ex:if-exists="!class-rating-of" class="hkn-statistics">
                         <div class="hkn-stats-header">HKN Statistics<br>
                         	<i><span ex:content="!class-rating-of.term"></span></i>
@@ -324,6 +374,66 @@
                             </table>
                         </div>
                     </div>
+                    
+                    
+                    
+					<div ex:id-subcontent="rating-{{value}}" class="rating">
+						<div class="info">
+							Your Rating:
+							<div class="rate"
+								 ex:classid-content="value"
+								 ex:curvalue-subcontent="{{ !class-urating-of.rating }}">
+								 <span class="cancel"
+								 	onmouseover="userData.cancelOn(this);"
+								 	onclick="userData.cancelClick(this);" onmouseout="userData.cancelOff(this);">
+								 	<a href="javascript:void(0);">Cancel Rating</a></span>
+								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r1), 'star on', 'star') }}"
+								 	onmouseover="userData.starOn(this);"
+								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
+								 	<a href="javascript:void(0);">1</a></span>
+								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r2), 'star on', 'star') }}"
+								 	onmouseover="userData.starOn(this);"
+								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
+								 	<a href="javascript:void(0);">2</a></span>
+								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r3), 'star on', 'star') }}"
+								 	onmouseover="userData.starOn(this);"
+								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
+								 	<a href="javascript:void(0);">3</a></span>
+								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r4), 'star on', 'star') }}"
+								 	onmouseover="userData.starOn(this);"
+								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
+								 	<a href="javascript:void(0);">4</a></span>
+								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r5), 'star on', 'star') }}"
+								 	onmouseover="userData.starOn(this);"
+								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
+								 	<a href="javascript:void(0);">5</a></span>
+								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r6), 'star on', 'star') }}"
+								 	onmouseover="userData.starOn(this);"
+								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
+								 	<a href="javascript:void(0);">6</a></span>
+								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r7), 'star on', 'star') }}"
+								 	onmouseover="userData.starOn(this);"
+								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
+								 	<a href="javascript:void(0);">7</a></span>
+							</div>
+							<div ex:if="exists(!class-avg-rating-of)">
+								<div ex:content="!class-avg-rating-of">
+									Average Rating:<br/>
+									<span ex:content=".rating"></span>
+									based on <span ex:content=".total"></span>
+									reviews
+								</div>
+								<div>No other reviews yet</div>
+							</div>
+								
+						</div>
+						
+						
+						<div class="message"></div>
+					</div>
+					
+					       
+                    
                     <div class="report-errors">
                         <a ex:href-subcontent="mailto:course-picker@lists.csail.mit.edu?subject=Data Error in course {{value}}">Report Error</a>
                 </td>
