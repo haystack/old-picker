@@ -133,10 +133,11 @@ function addCourses(courseIDs, urls) {
         }
     }
     
-    // warehouse service is up and working as of December 2008
+    // warehouse service is up and working as of December 2008.
+    // NOTE, 2010FA is Fall of 2009-2010 school year. 2009FA is NOT correct.
 	var coursesString = coursesA.join(";");
 	if (coursesString != "" && coursesString != null) {
-        urls.push('http://mapws.mit.edu/WarehouseService/?term=2009SP&courses=' + coursesString);
+        urls.push('http://mapws.mit.edu/WarehouseService/?term=2010FA&courses=' + coursesString);
 	}
 	
 	for (var c = 0; c < courseIDs.length; c++) {

@@ -22,7 +22,7 @@
     <body onload="onLoad();" ex:bubbleWidth="600">
         <div id="title"><table width="100%" cellpadding="0" cellspacing="0"><tr>
             <td>
-                <h1><a href="index.html">MIT Course Picker (beta)</a> <i>Spring 2009 Edition</i></h1>
+                <h1><a href="index.html">MIT Course Picker (beta)</a> <i>Fall 2009 Edition</i></h1>
                 <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
                     <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
                     <a href="credits.html" target="_blank">Credits</a> &bull;
@@ -97,7 +97,7 @@
                                 
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id="tqe-facet"></div>
                                 <!--<div ex:role="facet" ex:expression=".ci" ex:facetLabel="ci &raquo;" id='ci-facet' ex:height="20em"></div>-->
-                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' ex:height="7em" ex:selection="Spring"></div>
+                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' ex:height="7em" ex:selection="Fall"></div>
                                 <div ex:role="facet" ex:expression=".offering" ex:facetLabel="offering &raquo;" id='offering-facet' ex:height="8em" ex:selection="Currently Offered"></div>
                                 
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
@@ -168,7 +168,7 @@
                 </div>
             </div>
 
-			<span id="pre-register" style="text-align:center"></span>
+			<div id="pre-register" style="text-align:center"></div>
 
 			<div id="textbook-list"
 				ex:role="view"
@@ -221,9 +221,9 @@
                     
                     
                     <div class="comments">
-                    	<a href="javascript:void(0);"
+                    	<a href="#"
                     		ex:classid-content="value"
-                    		onclick="userData.toggleComments(this);">
+                    		onclick="userData.toggleComments(this);return false;">
                     		<div class="comments-toggle">toggle comments</div>
                     	</a>
                     	
@@ -236,8 +236,8 @@
 									ex:formats="date { mode: medium }"></span>
 								<a ex:if-exists=".is-current-user"
 									ex:classid-content=".class-comment-of"
-									href="javascript:void(0)"
-									onclick="userData.deleteComment(this)">
+									href="#"
+									onclick="userData.deleteComment(this);return false;">
 									delete</a>
 							</div>
 						</div>
@@ -384,37 +384,45 @@
 								 ex:classid-content="value"
 								 ex:curvalue-subcontent="{{ !class-urating-of.rating }}">
 								 <span class="cancel"
-								 	onmouseover="userData.cancelOn(this);"
-								 	onclick="userData.cancelClick(this);" onmouseout="userData.cancelOff(this);">
-								 	<a href="javascript:void(0);">Cancel Rating</a></span>
+								 	onmouseover="userData.cancelOn(this);return false;"
+								 	onclick="userData.cancelClick(this);return false;"
+								 	onmouseout="userData.cancelOff(this);return false">
+								 	<a href="#">Cancel Rating</a></span>
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r1), 'star on', 'star') }}"
-								 	onmouseover="userData.starOn(this);"
-								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
-								 	<a href="javascript:void(0);">1</a></span>
+								 	onmouseover="userData.starOn(this);return false;"
+								 	onclick="userData.starClick(this);return false;"
+								 	onmouseout="userData.starOff(this);return false;">
+								 	<a href="#">1</a></span>
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r2), 'star on', 'star') }}"
-								 	onmouseover="userData.starOn(this);"
-								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
-								 	<a href="javascript:void(0);">2</a></span>
+								 	onmouseover="userData.starOn(this);return false;"
+								 	onclick="userData.starClick(this);return false;"
+								 	onmouseout="userData.starOff(this);return false;">
+								 	<a href="#">2</a></span>
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r3), 'star on', 'star') }}"
-								 	onmouseover="userData.starOn(this);"
-								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
-								 	<a href="javascript:void(0);">3</a></span>
+								 	onmouseover="userData.starOn(this);return false;"
+								 	onclick="userData.starClick(this);return false;"
+								 	onmouseout="userData.starOff(this);return false;">
+								 	<a href="#">3</a></span>
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r4), 'star on', 'star') }}"
-								 	onmouseover="userData.starOn(this);"
-								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
-								 	<a href="javascript:void(0);">4</a></span>
+								 	onmouseover="userData.starOn(this);return false;"
+								 	onclick="userData.starClick(this);return false;"
+								 	onmouseout="userData.starOff(this);return false;">
+								 	<a href="#">4</a></span>
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r5), 'star on', 'star') }}"
-								 	onmouseover="userData.starOn(this);"
-								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
-								 	<a href="javascript:void(0);">5</a></span>
+								 	onmouseover="userData.starOn(this);return false;"
+								 	onclick="userData.starClick(this);return false;"
+								 	onmouseout="userData.starOff(this);return false;">
+								 	<a href="#">5</a></span>
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r6), 'star on', 'star') }}"
-								 	onmouseover="userData.starOn(this);"
-								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
-								 	<a href="javascript:void(0);">6</a></span>
+								 	onmouseover="userData.starOn(this);return false;"
+								 	onclick="userData.starClick(this);return false;"
+								 	onmouseout="userData.starOff(this);return false;">
+								 	<a href="#">6</a></span>
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r7), 'star on', 'star') }}"
-								 	onmouseover="userData.starOn(this);"
-								 	onclick="userData.starClick(this);" onmouseout="userData.starOff(this);">
-								 	<a href="javascript:void(0);">7</a></span>
+								 	onmouseover="userData.starOn(this);return false;"
+								 	onclick="userData.starClick(this);return false;"
+								 	onmouseout="userData.starOff(this);return false;">
+								 	<a href="#">7</a></span>
 							</div>
 							<div ex:if="exists(!class-avg-rating-of)">
 								<div ex:content="!class-avg-rating-of">

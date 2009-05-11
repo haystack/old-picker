@@ -38,7 +38,7 @@ userData = {
 	comment: function(button) {
 		var classID = button.getAttribute("classid");
 		
-		var $textarea = $(button).parent().find('textarea');
+		var textarea = $(button).parent().find('textarea');
 		
 		// hide input
 		$(button).parent().hide();
@@ -46,9 +46,9 @@ userData = {
 		var userID = this.getUserID(button);
 		if (userID != null) {
 			$.post("scripts/post.php",
-				{ userid: userID,
-				  comment: $textarea.attr('value'),
-				  class: classID
+				{ "userid": userID,
+				  "comment": $(textarea).getAttribute('value'),
+				  "class": classID
 				  },
 				function(data){
 					userData.setMsg(button, 'Successfully commented: ' + data);
@@ -63,10 +63,10 @@ userData = {
 		if (userID != null) {
 			
 			$.post("scripts/post.php",
-				{ userid: userID,
-				  comment: true,
-				  deleteComment: true,
-				  class: classID
+				{ "userid": userID,
+				  "comment": true,
+				  "deleteComment": true,
+				  "class": classID
 				  },
 				function(data){
 					// hide comment div
