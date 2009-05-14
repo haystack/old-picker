@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>MIT Course Picker (beta)</title>
-        <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js?autoCreate=false" type="text/javascript"></script>
+        <script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js?autoCreate=false" type="text/javascript"></script>
         <script>
             window.jQuery = SimileAjax.jQuery;
             window.$ = SimileAjax.jQuery;
@@ -215,7 +215,7 @@
                 <td>
                     <div ex:content=".topic" class="course-topic"></div>
                     <div ex:content=".description" class="course-description"></div>
-                    <div ex:content=".in-charge" class="course-teacher"></div>
+                    <div ex:content="if(exists(.Instructor), .Instructor, .in-charge)" class="course-teacher"></div>
                     <div ex:if-exists=".prereqs" class="course-prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
                     
                     

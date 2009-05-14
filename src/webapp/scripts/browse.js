@@ -161,7 +161,7 @@ function addCourses(courseIDs, urls) {
     		if (courseID == "6") {
     			urls.push("data/tqe.json");
     			urls.push("data/hkn.json");
-    			//urls.push("data/wtw-6sp08.json");
+    			urls.push("data/6-wtw.json");
     			hasTQE = true;
     		}
     		markLoaded(courseID);
@@ -389,7 +389,7 @@ function postProcessScrapedData(o) {
                 if ('semester' in item) {delete item.semester;} 
                 if ('offering' in item) {delete item.offering;} 
                 if ('prereq' in item) {delete item.prereq;} 
-                if ('in-charge' in item) {delete item["in-charge"];} 
+                if ('Instructor' in item) {delete item["in-charge"];} 
             }
         }
     }
