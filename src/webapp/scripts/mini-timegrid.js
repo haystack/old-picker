@@ -50,7 +50,7 @@ function updateMiniTimegrid(preview, previewSectionID) {
         	if (tap.search(/arranged/) < 0) {
 				var a = tap.split(" ");
 				// deals with EVE classes but ignores location changes
-				if (a.length > 4 && a[2] != 'MEETS' && a[2] != 'IN') {
+				if (a.length > 4 && a[2] != 'MEETS' && a[2] != 'IN' && a[1] != '(ENDS') {
 					if (tap.search(/\(BEGIN/) < 0 && tap.search(/\(END/) < 0) {
 						var days = a[0];
 						var time = a[2].replace('(', '');

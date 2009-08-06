@@ -32,7 +32,6 @@ function enableClassList() {
             var text = ['<input type="button" onclick="document.location=\'http://student.mit.edu/ent/cgi-bin/sfprwtrm.sh?'];
             text.push(classes.toArray().join(","));
             text.push('\'" value="Pre-register these classes"/>');
-/*
             var text = ['<form method=post action="http://student.mit.edu/catalog/prereg_message.cgi">'];
             classes.visit(function(classID) {
                 text.push('<input type="hidden" name="STATUS" value="Add">'
@@ -42,12 +41,26 @@ function enableClassList() {
                             + '<input type="hidden" name="LP" value="">');
             });
             text.push('<INPUT TYPE="submit" VALUE="Pre-register these classes"></FORM>');
-*/
         
             div.innerHTML = text.join('');
             }
         }
     });
+}
+
+function submitBooksQuery() {
+    var classes = window.exhibit.getCollection("picked-classes").getRestrictedItems();
+    var isbns = [];
+
+	alert(classes);
+    
+/*
+    classes.visit(function(classID) {
+    	
+    })
+*/
+
+/* 	$.post('http://scripts.mit.edu/~Jonasg/bookspicker/trunk/bookspicker/bookSearch.php?condition=ALL&ISBN=' + sdofiysdofiysdf) */
 }
 
 // updates cookies AND pushes updates to database.
