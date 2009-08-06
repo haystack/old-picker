@@ -52,15 +52,14 @@ function submitBooksQuery() {
     var classes = window.exhibit.getCollection("picked-classes").getRestrictedItems();
     var isbns = [];
 
-	alert(classes);
-    
-/*
     classes.visit(function(classID) {
-    	
-    })
-*/
-
-/* 	$.post('http://scripts.mit.edu/~Jonasg/bookspicker/trunk/bookspicker/bookSearch.php?condition=ALL&ISBN=' + sdofiysdofiysdf) */
+    	database.getSubjects(classID, "class-textbook-of").visit(function(textbookID) {
+    		var bk_isbn = database.getObject(textbookID, 'isbn');
+    		isbns.push(bk_isbn.replace(/\s*\(.*\)/, ''));
+    	})
+    });
+    
+	$('#textbook-purchase-form').children('#isbn_input')[0].value = isbns.join(',');
 }
 
 // updates cookies AND pushes updates to database.
