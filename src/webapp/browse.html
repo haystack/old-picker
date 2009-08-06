@@ -171,9 +171,10 @@
 			<div id="pre-register" style="text-align:center"></div>
 			
 			<div id="textbook-purchase" style="text-align:center">
-			<form id="textbook-purchase-form" method="get" action="http://scripts.mit.edu/~Jonasg/bookspicker/trunk/bookspicker/bookSearch.php?conditions=ALL">
-<input id="isbn_input" type="hidden" name="ISBN" value="" />
-<input type="submit" value="Purchase all books" onclick="submitBooksQuery();"/>
+			<form id="textbook-purchase-form" method="get" action="http://scripts.mit.edu/~Jonasg/bookspicker/trunk/bookspicker/bookSearch.php">
+			<input id="isbn_input" type="hidden" name="condition" value="ALL" />
+			<input id="isbn_input" type="hidden" name="ISBN" value="" />
+			<input type="submit" value="Purchase all books" onclick="submitBooksQuery();"/>
 			</div>
 
 			<div id="textbook-list"
@@ -183,7 +184,7 @@
 				ex:columns="if(exists(!class-textbook-of), value, ''),
 					if(exists(!class-textbook-of), !class-textbook-of.label, ''),
 					foreach(!class-textbook-of, 
-					concat('<a href=\'http://www.allbookstores.com/book/compare/', .isbn, '\'>buy</a>'))"
+					concat('<a href=\'http://scripts.mit.edu/~Jonasg/bookspicker/trunk/bookspicker/bookSearch.php?condition=ALL&ISBN=', .isbn, '\'>buy</a>'))"
 				ex:columnLabels=", Book list, "
 				ex:columnFormats="text, list, text"
 				ex:border="0"
