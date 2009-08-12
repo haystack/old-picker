@@ -171,10 +171,10 @@
 			<div id="pre-register" style="text-align:center"></div>
 			
 			<div id="textbook-purchase" style="text-align:center">
-			<form id="textbook-purchase-form" method="get" action="http://scripts.mit.edu/~Jonasg/bookspicker/trunk/bookspicker/bookSearch.php">
+			<form id="textbook-purchase-form" method="post" action="http://bookspicker.mit.edu/bookSearch.php">
 			<input id="isbn_input" type="hidden" name="condition" value="ALL" />
 			<input id="isbn_input" type="hidden" name="ISBN" value="" />
-			<input type="submit" value="Purchase all books" onclick="submitBooksQuery();"/>
+			<input type="submit" value="Search for the best prices for all books" onclick="submitBooksQuery();"/>
 			</div>
 
 			<div id="textbook-list"
@@ -182,13 +182,11 @@
 				ex:viewClass="Tabular"
 				ex:showSummary="false"
 				ex:columns="if(exists(!class-textbook-of), value, ''),
-					if(exists(!class-textbook-of), !class-textbook-of.label, ''),
-					foreach(!class-textbook-of, 
-					concat('<a href=\'http://scripts.mit.edu/~Jonasg/bookspicker/trunk/bookspicker/bookSearch.php?condition=ALL&ISBN=', .isbn, '\'>buy</a>'))"
-				ex:columnLabels=", Book list, "
-				ex:columnFormats="text, list, text"
-				ex:border="0"
-				ex:cellPadding="0"
+					if(exists(!class-textbook-of), !class-textbook-of.label, '')"
+				ex:columnLabels=", Book list"
+				ex:columnFormats="text, list"
+				ex:border="1"
+				ex:cellPadding="1"
 				ex:grouped="false"
 				ex:collectionID="picked-classes"
 				ex:showToolbox="false">
