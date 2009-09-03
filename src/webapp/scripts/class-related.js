@@ -53,9 +53,7 @@ function submitBooksQuery() {
     var classIDs = [];
 
     classes.visit(function(classID) {
-    	alert(classID);
     	classIDs.push(classID);
-    	alert(classIDs);
     	//database.getSubjects(classID, "class-textbook-of").visit(function(textbookID) {
     		//var bk_isbn = database.getObject(textbookID, 'isbn');
     		//isbns.push(bk_isbn.replace(/\s*(\(.*\)|:+)/, ''));
