@@ -50,16 +50,19 @@ function enableClassList() {
 
 function submitBooksQuery() {
     var classes = window.exhibit.getCollection("picked-classes").getRestrictedItems();
-    var isbns = [];
+    var classIDs = [];
 
     classes.visit(function(classID) {
-    	database.getSubjects(classID, "class-textbook-of").visit(function(textbookID) {
-    		var bk_isbn = database.getObject(textbookID, 'isbn');
-    		isbns.push(bk_isbn.replace(/\s*(\(.*\)|:+)/, ''));
-    	})
-    });
+    	alert(classID);
+    	classIDs.push(classID);
+    	alert(classIDs);
+    	//database.getSubjects(classID, "class-textbook-of").visit(function(textbookID) {
+    		//var bk_isbn = database.getObject(textbookID, 'isbn');
+    		//isbns.push(bk_isbn.replace(/\s*(\(.*\)|:+)/, ''));
+    	});
     
-	$('#textbook-purchase-form').children('#isbn_input')[1].value = isbns.join(',');
+    
+	$('#textbook-purchase-form').children('#class_input')[1].value = classIDs.join(',');
 }
 
 // updates cookies AND pushes updates to database.
