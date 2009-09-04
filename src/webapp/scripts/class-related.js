@@ -49,19 +49,31 @@ function enableClassList() {
 }
 
 function submitBooksQuery() {
-	document.getElementById('textbook-purchase-form').submit();
     var classes = window.exhibit.getCollection("picked-classes").getRestrictedItems();
     var classIDs = [];
-
     classes.visit(function(classID) {
     	classIDs.push(classID);
-    	//database.getSubjects(classID, "class-textbook-of").visit(function(textbookID) {
-    		//var bk_isbn = database.getObject(textbookID, 'isbn');
-    		//isbns.push(bk_isbn.replace(/\s*(\(.*\)|:+)/, ''));
     	});
+    var classIdsText = classIDs.join(",");
     
-    
-	$('#textbook-purchase-form').children('#class_input')[1].value = classIDs.join(',');
+	var tmpForm = document.createElement("form");
+	tmpForm.method = "get";
+	tmpForm.action = "http://bookspicker.mit.edu/bookSearch.php";
+
+	var classInput = document.createElement("input");
+	classInput.setAttribute("name", "class");
+	classInput.setAttribute("value", classIdsText);
+
+	var conditionInput = document.createElement("input");
+	conditionInput.setAttribute("name", "condition");
+	conditionInput.setAttribute("value", "All");
+
+	tmpForm.appendChild(classInput);
+	tmpForm.appendChild(conditionInput);
+
+	document.body.appendChild(tmpForm);
+	tmpForm.submit();
+	document.body.removeChild(tmpForm);
 }
 
 // updates cookies AND pushes updates to database.
