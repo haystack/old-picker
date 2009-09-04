@@ -49,6 +49,7 @@ function enableClassList() {
 }
 
 function submitBooksQuery() {
+	document.getElementById('textbook-purchase-form').submit();
     var classes = window.exhibit.getCollection("picked-classes").getRestrictedItems();
     var classIDs = [];
 
