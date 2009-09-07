@@ -58,7 +58,7 @@ function submitBooksQuery() {
     
 	var tmpForm = document.createElement("form");
 	tmpForm.method = "get";
-	tmpForm.action = "http://bookspicker.mit.edu/bookSearch.php";
+	tmpForm.action = "http://bookspicker.mit.edu/LoadingPage.php";
 
 	var classInput = document.createElement("input");
 	classInput.setAttribute("name", "class");
