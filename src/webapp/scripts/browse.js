@@ -155,13 +155,14 @@ function addCourses(courseIDs, urls) {
     		
     		// a light file representing some scraped information unavailable from data warehouse
     	    urls.push("data/spring-fall/scraped-data/" + courseID + ".json");
+    	    // and missing wtw data
+    	    urls.push("data/spring-fall/wtw-data/" + courseID + ".json");
     	    
     		/* scraped data is not needed with working warehouse service
     		urls.push("data/spring-fall/open-data/" + courseID + ".json"); */
     		if (courseID == "6") {
     			urls.push("data/tqe.json");
     			urls.push("data/hkn.json");
-    			urls.push("data/6-wtw.json");
     			hasTQE = true;
     		}
     		markLoaded(courseID);
