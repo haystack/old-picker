@@ -210,6 +210,33 @@ var colorTable = [
     },
     {   color:      "#7A652F",
         used:       false
+    },
+    {   color:      "#CCFF33",
+        used:       false
+    },
+    {   color:      "#66FF00",
+        used:       false
+    },
+    {   color:      "#3333FF",
+        used:       false
+    },
+    {   color:      "#9900CC",
+        used:       false
+    },
+    {   color:      "#CCCCCC",
+        used:       false
+    },
+    {   color:      "#FF0099",
+        used:       false
+    },
+    {   color:      "#CCFFFF",
+        used:       false
+    },
+    {   color:      "#666699",
+        used:       false
+    },
+    {   color:      "#FF6600",
+        used:       false
     }
 ];
 function getNewColor() {
