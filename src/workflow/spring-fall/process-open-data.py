@@ -107,7 +107,7 @@ courses['hass_d'] = []
 for line in tsv:
     item = ['"type":"Class"']
     data = line.replace('"','&quot;').split('\t')
-    if data[0] == '2009':
+    if data[0] == '2010':
         item.append('"id":"'+data[1]+'"')
         item.append('"course":"'+data[2]+'"')
         item.append('"label":"'+data[11]+'"')

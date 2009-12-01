@@ -9,7 +9,12 @@
 #add-more-select {
     width: 100%;
 }
-
+/*
+ * added the code below
+ */
+.exhibit-collectionView-body div.info-body {
+    display: none;
+}
 #schedule-preview-pane {
     z-index:    1;
     position:   fixed;
