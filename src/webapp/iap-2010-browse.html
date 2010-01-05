@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
     <head>
-        <title>MIT Course Catalogue Pickr (beta)</title>
-        <script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js?autoCreate=false" type="text/javascript"></script>
-        <script src="scripts/iap-config.js" type="text/javascript"></script>
-        <script src="scripts/iap-browse.js" type="text/javascript"></script>
-        <script src="scripts/iap-timegrid.js" type="text/javascript"></script>
+        <title>MIT Course Catalogue Picker (beta)</title>
+        <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js?autoCreate=false" type="text/javascript"></script>
+        <script src="scripts/iap-config-2010.js" type="text/javascript"></script>
+        <script src="scripts/iap-browse-2010.js" type="text/javascript"></script>
+        <script src="scripts/iap-timegrid-2010.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		function toggleClassBody(a) {
 			var div=$(a.parentNode).siblings("div")[0];
@@ -115,30 +115,50 @@
         </div>
         
         <!-- ==================== Class Lens ==================== -->
-        <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class">
+        <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class" ex:formats="date { template: 'MMM dd, hh:mm'; }">
             <div class="course-title">
                 <img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />
 		<span ex:content=".semester" class="course-semester"></span>
 
                 <a id="link-show" href="#show-info" onclick="toggleClassBody(this)"><span ex:content="concat(value, ' - ', .label)"></span></a> <a ex:if-exists=".url" ex:href-content=".url" target="_blank">catalogue</a>
             </div>
+	    
+	    <div id="show-info" class="course-body" style="display: none;">
+	    <table>
+		<tr>
+             		<td colspan="2" style="padding-bottom: 0.5em">
+				<div ex:content=".topic" class="course-topic"></div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<div ex:content=".description"></div>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 0.8 em">
+			<div ex:if-exists=".prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
+                             <div ex:content=".lottery"></div>
+                             <div ex:content=".listeners"></div>
+                             <div ex:content=".limit"></div>
+                         </td>
+                         <td width ="30%" style="padding: 0.8em">
+                             <div ex:if-exists=".level">Level: <span ex:content=".level"></span></div>
+                             <div ex:if-exists=".total-units">Total Units: <span ex:content=".total-units"></span></div>
+                             <div ex:if-exists=".grading">Grading: <span ex:content=".grading"></span></div>
+                             <div ex:if-exists=".fee">Fee: $<span ex:content=".fee"></span></div>
+			      <div ex:if-exists=".remarks">Remarks: <span ex:content=".remarks"></span></div>
 
-	    <div id="show-info" class="info-body" style="display: none;">
-	    <table class="course-body" cellspacing="10"><tr>
-            <td>
-            	<div ex:content=".description"></div>
-                <div ex:if-exists=".prereqs">Prereqs: <span ex:content=".prereqs"></span></div>
-                <div ex:if-exists=".lottery">Lottery: <span ex:content=".lottery"></span></div>
-                <div ex:if-exists=".listeners">Listeners: <span ex:content=".listeners"></span></div>
-                <div ex:if-exists=".limit">Limit: <span ex:content=".limit"></span></div>
-                <div ex:if-exists=".level">Level: <span ex:content=".level"></span></div>
-                <div ex:if-exists=".total-units">Total Units: <span ex:content=".total-units"></span></div>
-		<div ex:if-exists=".in-charge"><span ex:content=".in-charge"></span></div>
-                <div ex:if-exists=".grading">Grading: <span ex:content=".grading"></span></div>
-                <div ex:if-exists=".fee">Fee: $<span ex:content=".fee"></span></div>
-                <div ex:if-exists=".contact">For more information, contact <span ex:content=".contact"></span></div>
-               </table>
-                
+                         </td>
+                     </tr>
+                     <tr>
+                         <td colspan="2">
+                             <div ex:if-exists=".contact">For more information, contact <span ex:content=".contact"></span></div>
+                         </td>
+                     </tr>
+                 </table>
+
+                                       
                 <div ex:content="!class">
                     <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
                         ex:id-subcontent="divid-{{value}}"
@@ -150,7 +170,7 @@
                             ex:content="if(exists(.picked), 'Remove', 'Add')"
                             onclick="onPickUnpick(this);"></button>
                         
-                        <span class="section-instructor" ex:content=".instructor"></span> &mdash;
+                        <span class="section-instructor" ex:content=".in-charge"></span> &mdash;
                         <span class="section-schedule" ex:content=".timeAndPlace"></span>
                     </div>
                 </div>
