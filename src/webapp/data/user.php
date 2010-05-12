@@ -88,8 +88,8 @@ if (isset($userid)) {
 		
 	
 	if(count($picked) > 0) {
-		// pull information from mapws based on picked-sections and picked-classes
-		$content = file_get_contents('http://mapws.mit.edu/WarehouseService/?term=2009SP&courses=6');
+		// pull information from coursews (previously: mapws) based on picked-sections and picked-classes
+		$content = file_get_contents('http://coursews.mit.edu/coursews/?term=2009SP&courses=6');
 		if ($content != false) {
 			$content = preg_replace('/{"items": \[/', '', $content);
 			$content = split(",\n" , $content);
