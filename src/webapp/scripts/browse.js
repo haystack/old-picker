@@ -135,9 +135,10 @@ function addCourses(courseIDs, urls) {
     
     // warehouse service is up and working as of December 2008.
     // NOTE, 2010FA is Fall of 2009-2010 school year. 2009FA is NOT correct. update: loaded as of 2010 spring
+// update: 2011FA is fall of 2010-2011 school year
 	var coursesString = coursesA.join(";");
 	if (coursesString != "" && coursesString != null) {
-        urls.push('https://coursews.mit.edu/coursews/?term=2010SP&courses=' + coursesString);
+        urls.push('https://coursews.mit.edu/coursews/?term=2011FA&courses=' + coursesString);
 	}
 	
 	for (var c = 0; c < courseIDs.length; c++) {
