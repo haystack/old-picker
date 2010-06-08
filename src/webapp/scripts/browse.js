@@ -138,7 +138,7 @@ function addCourses(courseIDs, urls) {
 // update: 2011FA is fall of 2010-2011 school year
 	var coursesString = coursesA.join(";");
 	if (coursesString != "" && coursesString != null) {
-        urls.push('https://coursews.mit.edu/coursews/?term=2011FA&courses=' + coursesString);
+        urls.push('http://coursews.mit.edu/coursews/?term=2011FA&courses=' + coursesString);
 	}
 	
 	for (var c = 0; c < courseIDs.length; c++) {
