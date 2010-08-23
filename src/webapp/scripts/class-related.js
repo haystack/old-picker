@@ -56,24 +56,10 @@ function submitBooksQuery() {
     	});
     var classIdsText = classIDs.join(",");
     
-	var tmpForm = document.createElement("form");
-	tmpForm.method = "get";
-	tmpForm.action = "http://bookspicker.mit.edu/buildBundle.php";
-
-	var classInput = document.createElement("input");
-	classInput.setAttribute("name", "class");
-	classInput.setAttribute("value", classIdsText);
-
-	var conditionInput = document.createElement("input");
-	conditionInput.setAttribute("name", "condition");
-	conditionInput.setAttribute("value", "All");
-
-	tmpForm.appendChild(classInput);
-	tmpForm.appendChild(conditionInput);
-
-	document.body.appendChild(tmpForm);
-	tmpForm.submit();
-	document.body.removeChild(tmpForm);
+    var testing = "http://www.bookspicker.com/#search?q=".concat(classIdsText);
+    window.alert(testing);
+    
+   window.location = "http://www.bookspicker.com/#search?q=".concat(classIdsText);
 }
 
 // updates cookies AND pushes updates to database.
