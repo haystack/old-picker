@@ -55,11 +55,7 @@ function submitBooksQuery() {
     	classIDs.push(classID);
     	});
     var classIdsText = classIDs.join(",");
-    
-    var testing = "http://www.bookspicker.com/#search?q=".concat(classIdsText);
-    window.alert(testing);
-    
-   window.location = "http://www.bookspicker.com/#search?q=".concat(classIdsText);
+    window.location = "http://www.bookspicker.com/#search?q=".concat(classIdsText);
 }
 
 // updates cookies AND pushes updates to database.
