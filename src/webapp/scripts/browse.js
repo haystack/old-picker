@@ -4,6 +4,25 @@
  */
 var debug = false;
 
+/*
+ * New logging code to study facet interaction
+ * Hooks into the  proper logging facilities in the SimileAjax
+ * package if present (at time of writing this, not yet baked 
+ * into the "official" trunk)
+ */
+function possiblyLog(obj) {
+    if (
+        (typeof SimileAjax == "object") &&
+        (typeof SimileAjax.RemoteLog == "object") && 
+        (typeof SimileAjax.RemoteLog.possiblyLog == 'function')
+    ) {
+        SimileAjax.RemoteLog.possiblyLog(obj);
+    }
+    else {
+        SimileAjax.RemoteLog.possiblyLog(obj);
+    }
+}
+
 Exhibit.Functions["building"] = {
     f: function(args) {
         var building = "";
@@ -35,6 +54,9 @@ function onLoad() {
             var name = a[0];
             var value = a.length > 1 ? decodeURIComponent(a[1]) : "";
             if (name == "courses") {
+                possiblyLog({
+                    "picker-initial-course":value
+                });
             	courseIDs = value.split(";");
 				addCourses(courseIDs, urls);
             } else if (name == "debug") {
@@ -229,7 +251,11 @@ function fillAddMoreSelect() {
 function onAddMoreSelectChange() {
     var select = document.getElementById("add-more-select");
     var course = select.value;
+    
     if (course.length > 0) {
+        possiblyLog({
+            "picker-add-course":course
+        });
         var urls = [];
         addCourses([course], urls);
         
@@ -547,11 +573,17 @@ function toggleFavorite(img) {
 function doFavorite(classID, img) {
     window.database.addStatement(classID, "favorite", "true");
     img.src = "images/yellow-star.png";
+    possiblyLog({
+        "picker-mark-favorite":classID
+    });
 }
 
 function undoFavorite(classID, img) {
     window.database.removeStatement(classID, "favorite", "true");
     img.src = "images/gray-star.png";
+    possiblyLog({
+        "picker-remove-favorite":classID
+    });
 }
 
 function processShowOnlyFavoriteClass(checkbox) {
@@ -574,12 +606,18 @@ function showFavoritesOnly() {
     var collection = window.exhibit.getDefaultCollection();
     collection._items = window.database.getSubjects("true", "favorite");
     collection._onRootItemsChanged();
+    possiblyLog({
+        "picker-toggle-favorite-filter":"show-favorites-only"
+    });
 }
 
 function showAllClasses() {
     var collection = window.exhibit.getDefaultCollection();
     collection._items = window.database.getSubjects("Class", "type");
     collection._onRootItemsChanged();
+    possiblyLog({
+        "picker-toggle-favorite-filter":"show-all"
+    });
 }
 
 /*==================================================
