@@ -125,6 +125,10 @@ var courses = [
         name:    "Science, Technology, and Society",
         hasData: true
     },
+    {   number:  "SP",
+	name:	 "Special Programs",
+	hasData:  true
+    },
     {   number:  "hass_d",
         name:    "HASS D",
         hasData: true

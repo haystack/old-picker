@@ -76,6 +76,9 @@
     #schedule-details-layer-inner {
         margin-right: 1em;
     }
+    #schedule-details-layer-inner {
+	display: none
+    }
 }
 
 #schedule-details-layer div.title {
@@ -182,6 +185,9 @@ table.course-body {
 div.hkn-statistics {
     border:     1px solid #aaa;
     margin-top: 1em;
+}
+div.course-instructor {
+    font-style:    italic;
 }
 div.hkn-stats-header {
     border-bottom:  1px #aaa solid;

@@ -35,8 +35,8 @@ function updateMiniTimegrid(preview, previewSectionID) {
         eProtos.push(eProto);
     };
     var parseTime = function(s) {
-        return s ? Date.parseString(s, "h:mm") ||
-                   Date.parseString(s, 'h:mm:ss') : null;
+        return s ? Date.parseString(s, "H:mm") ||
+                   Date.parseString(s, 'H:mm:ss') : null;
     };
     var addSection = function(sectionID) {
         var db = window.exhibit.getDatabase();
