@@ -144,7 +144,6 @@ function onLoad() {
 function addCourses(courseIDs, urls) { 
     var coursesA = [];
     var exceptions = { };
-    
     for (var i = 0; i < courseIDs.length; i++) {
         if (courseIDs[i] != "hass_d") {
             if (!debug && courseIDs[i] in exceptions) {
@@ -486,6 +485,8 @@ function showPrereq(elmt, itemID) {
  * Panel switching and facet toggling
  *==================================================
  */
+
+
 function onShowScheduleDetails() {
     SimileAjax.History.addLengthyAction(
         showScheduleDetails,

@@ -126,8 +126,8 @@ var courses = [
         hasData: true
     },
     {   number:  "SP",
-	name:	 "Special Programs",
-	hasData:  true
+	    name:	 "Special Programs",
+	    hasData:  true
     },
     {   number:  "hass_d",
         name:    "HASS D",
