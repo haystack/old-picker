@@ -92,7 +92,7 @@ if (isset($userid)) {
 		$content = file_get_contents('http://coursews.mit.edu/coursews/?term=2009SP&courses=6');
 		if ($content != false) {
 			$content = preg_replace('/{"items": \[/', '', $content);
-			$content = preg_split("/,\n/" , $content);
+			$content = split(",\n" , $content);
 	
 			$picked = preg_replace('/\./', '\\\.', $picked);
 			
