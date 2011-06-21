@@ -99,26 +99,27 @@
                             <hr/>
                             <div id="facets">
                                 <div ex:role="facet" ex:expression=".course" ex:facetLabel="Course &raquo;" id='course-facet' ex:collapsible="true"></div>
-                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="Semester &raquo;" id='semester-facet' ex:height="7em" ex:selection="Fall" ex:collapsible="true"></div>
-                                <div ex:role="facet" ex:expression=".level" ex:facetLabel="Level &raquo;" id='level-facet' ex:collapsible="true" ex:height="5em"></div>
-                                <div ex:role="facet" ex:expression=".category" ex:facetLabel="Category &raquo;" id='category-facet' ex:collapsible="true" ex:height="8em" ex:showMissing="false"></div>
-                                <div ex:role="facet" ex:expression=".area" ex:facetLabel="Area &raquo;" id="area-facet" ex:collapsible="true" ex:height="8em" ex:collapsed="true" ex:showMissing="false"></div>
+                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="Semester &raquo;" id='semester-facet' ex:selection="Fall" ex:collapsible="true"></div>
+                                <div ex:role="facet" ex:expression=".level" ex:facetLabel="Level &raquo;" id='level-facet' ex:collapsible="true"></div>
+                                <div ex:role="facet" ex:expression=".category" ex:facetLabel="Category &raquo;" id='category-facet' ex:collapsible="true" ex:showMissing="false"></div>
+                                <div ex:role="facet" ex:expression=".area" ex:facetLabel="Area &raquo;" id="area-facet" ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div>
                                 <div ex:role="facet" ex:expression=".subarea" ex:facetLabel="Subarea &raquo;" id="subarea-facet" ex:collapsible="true" ex:height="16em" ex:collapsed="true" ex:showMissing="false"></div>
-                                <!--
-                                <div class="collapsed-facet" onclick="makeFacet(this)" id="tqe-facet"></div>
-                                <div ex:role="facet" ex:expression=".ci" ex:facetLabel="ci &raquo;" id='ci-facet' ex:height="20em"></div>-->
-                                
-                                <div ex:role="facet" ex:expression=".offering" ex:facetLabel="Offering &raquo;" id='offering-facet' ex:height="8em" ex:selection="Currently Offered" ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div>
                                 <div ex:role="facet" ex:expression=".units" ex:facetLabel="Units &raquo;" id='units-facet' ex:collapsible="true" ex:collapsed="true"></div>
                                 <div ex:role="facet" ex:expression=".total-units" ex:facetLabel="Total units &raquo;" id='total-units-facet' ex:collapsible="true" ex:collapsed="true"></div>
-                                <!--<div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
-                                <div ex:role="facet" ex:expression=".hasfinal" ex:facetLabel="Has final? &raquo;" id='hasfinal-facet' ex:collapsible="true" ex:collapsed="true"></div>-->
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id="tqe-facet"></div>
+                                <!--
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id="tqe-facet"></div>
+                                <div ex:role="facet" ex:expression=".ci" ex:facetLabel="ci &raquo;" id='ci-facet' ex:height="20em"></div>
+<div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
+                                <div ex:role="facet" ex:expression=".hasfinal" ex:facetLabel="Has final? &raquo;" id='hasfinal-facet' ex:collapsible="true" ex:collapsed="true"></div>
+                                Data on "offering" is out of date.
+                                <div ex:role="facet" ex:expression=".offering" ex:facetLabel="Offering &raquo;" id='offering-facet' ex:height="8em" ex:selection="Currently Offered" ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div>-->
                             </div>
                             
                             <p style="margin-top: 3em; text-align: center;">
-                                powered by<br/>
+                                powered by
                                 <a href="http://simile.mit.edu/exhibit/">Exhibit</a>,
-                                <a href="http://simile.mit.edu/timegrid/">Timegrid</a>, and<br/>
+                                <a href="http://simile.mit.edu/timegrid/">Timegrid</a>, and
                                 <a href="http://opendata.mit.edu/">MIT Open Data</a>
                             </p>
                         </td>
@@ -138,8 +139,10 @@
         
         <!-- ==================== Schedule Preview Pane ==================== -->
         <div id="schedule-preview-pane">
-            <div class="title"><button onclick="onShowScheduleDetails();">&laquo; full view</button>
-                <span>Weekly Schedule</span><button onclick="output();"> iCalendar view </button>
+            <div class="title">
+                <span>Weekly Schedule</span><br>
+                <button onclick="onShowScheduleDetails();">&laquo; full view</button>
+                <button onclick="output();"> iCalendar view </button>
             </div>
             
             <div id="mini-timegrid" tg:role="grid" 
@@ -411,6 +414,7 @@
 								 	onmouseout="userData.starOff(this);return false;">
 								 	<a href="#">2</a></span>
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r3), 'star on', 'star') }}"
+
 								 	onmouseover="userData.starOn(this);return false;"
 								 	onclick="userData.starClick(this);return false;"
 								 	onmouseout="userData.starOff(this);return false;">

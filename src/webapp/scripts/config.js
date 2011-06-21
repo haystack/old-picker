@@ -141,15 +141,17 @@ var facetData = {
         facetLabel: 'course &raquo;',
         height:     '10em'
     },
+/*
     'hasfinal-facet' : {
         expression: '.has-final',
         facetLabel: 'has final &raquo;',
         height:     '4em'
     },
+*/
     'level-facet': {
         expression: '.level',
         facetLabel: 'level &raquo;',
-        height:     '4em'
+        height:     '5em'
     },
     'units-facet': {
         expression: '.units',
@@ -160,40 +162,45 @@ var facetData = {
         facetLabel: 'total units &raquo;',
         height:     '8em'
     },
+/*
     'day-facet': {
         expression: '!class!section.day',
         facetLabel: 'day of week &raquo;',
         fixedOrder: 'M; T; W; R; F'
     },
+*/
     'area-facet': {
         expression: '.area',
         facetLabel: 'area &raquo;',
-        height:     '20em'
+        height:     '8em'
     },
     'subarea-facet': {
         expression: '.subarea',
         facetLabel: 'subarea &raquo;',
-        height:     '20em'
+        height:     '16em'
     },
     'category-facet': {
         expression: '.category',
         facetLabel: 'category &raquo;',
-        height:     '20em'
+        height:     '8em'
     },
     'semester-facet': {
         expression: '.semester',
         facetLabel: 'semester &raquo;',
         height:     '7em'
     },
+/*
     'offering-facet': {
         expression: '.offering',
         facetLabel: 'offering &raquo;',
         height:     '8em'
     },
+*/
     'tqe-facet': {
         expression: '.TQE',
         facetLabel: 'TQE &raquo;'
     }
+
 };
 
 var colorTable = [
