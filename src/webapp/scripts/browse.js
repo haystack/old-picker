@@ -628,8 +628,7 @@ function showAllClasses() {
 
 function onPickUnpick(button) {
     var sectionID = button.getAttribute("sectionID");
-    var picked = window.database.getObject(sectionID, "picked");
-    //var picked = window.database.getObject(sectionID, "picked") == "true";
+    var picked = window.database.getObject(sectionID, "picked") == "true";
     if (picked) {
         SimileAjax.History.addLengthyAction(
             function() { doUnpick(sectionID) },
@@ -700,3 +699,5 @@ function showHidePickDiv(sectionID, picked) {
         button.innerHTML = picked ? "Remove" : "Add";
     }
 }
+
+

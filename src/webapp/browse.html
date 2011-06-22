@@ -15,6 +15,7 @@
         <script src="scripts/mini-timegrid.js" type="text/javascript"></script>
         <script src="scripts/class-related.js" type="text/javascript"></script>
         <script src="scripts/user-data.js" type="text/javascript"></script>
+
         <script type="text/javascript">
 		function toggleClassBody(a) {
 			var div=$(a.parentNode).siblings("div")[0];
@@ -33,11 +34,13 @@
         <div id="title"><table width="100%" cellpadding="0" cellspacing="0"><tr>
             <td>
                 <h1><a href="index.html">MIT Course Picker (beta)</a> <i>Fall 2011 Edition</i></h1>
+
                 <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
                     <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
                     <a href="credits.html" target="_blank">Credits</a> &bull;
                     <a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a> &bull;
                     <a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog" target="_blank">Official Catalog</a> &bull;
+
                     <a href="http://ocw.mit.edu/" title="MIT's OpenCourseWare" target="_blank">OCW</a>
 					<span id="httpsStatus"></span>
 					
@@ -49,6 +52,7 @@
                 <a href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-blackred-footer3.gif"
                     alt="MIT" width="62" height="36" border="0"></a>
             <td>
+
         </tr></table></div>
 
         
@@ -58,12 +62,14 @@
             <div id="schedule-details-layer">
                 <div class="title"><button style="float: right;" onclick="onShowSchedulePreview();">back to all classes &raquo;</button>
                     <span>Weekly Schedule</span>
+
                 </div>
                 <div id="schedule-details-layer-inner">
                     <p><b>To print, in Firefox 2.0:</b>
                         <ol>
                             <li>Select the browser's menu File &rarr; Print Preview.</li>
                             <li>Select "Portrait" in the print preview dialog's toolbar, and set "Scale" to about 70%.</li>
+
                             <li>Click "Page Setup" and check "Print Background (colors &amp; images)".</li>
                             <li>Click OK.</li>
                             <li>Then click "Print...".</li>
@@ -71,6 +77,7 @@
                     </p>
                     
                     <p style="color: #800; font-size: 100%; font-weight: bold; padding: 1em; margin: 2em 0; width: 30em; border: 1px solid #800;">
+
                         WARNING: This calendar is not an official schedule. WebSIS will produce 
                         your schedule of the classes in which you are registered. All changes 
                         will then need to be processed through Drop/Add forms after Registration Day.
@@ -86,6 +93,7 @@
             <div id="classes-layer">
                 <div ex:role="collection" ex:itemTypes="Class"></div>
                 <table cellpadding="10" border="0" cellspacing="0">
+
                     <tr valign="top">
                         <td width="23%" style="background: #BFBDAC">
                             <p><select id="add-more-select" onchange="onAddMoreSelectChange();">add more courses</select>
@@ -95,31 +103,36 @@
                             </p>
                             
                             <b>Search</b>
+
                             <div ex:role="facet" ex:facetClass="TextSearch"></div>
                             <hr/>
                             <div id="facets">
-                                <div ex:role="facet" ex:expression=".course" ex:facetLabel="Course &raquo;" id='course-facet' ex:collapsible="true"></div>
-                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="Semester &raquo;" id='semester-facet' ex:selection="Fall" ex:collapsible="true"></div>
-                                <div ex:role="facet" ex:expression=".level" ex:facetLabel="Level &raquo;" id='level-facet' ex:collapsible="true"></div>
-                                <div ex:role="facet" ex:expression=".category" ex:facetLabel="Category &raquo;" id='category-facet' ex:collapsible="true" ex:showMissing="false"></div>
-                                <div ex:role="facet" ex:expression=".area" ex:facetLabel="Area &raquo;" id="area-facet" ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div>
-                                <div ex:role="facet" ex:expression=".subarea" ex:facetLabel="Subarea &raquo;" id="subarea-facet" ex:collapsible="true" ex:height="16em" ex:collapsed="true" ex:showMissing="false"></div>
-                                <div ex:role="facet" ex:expression=".units" ex:facetLabel="Units &raquo;" id='units-facet' ex:collapsible="true" ex:collapsed="true"></div>
-                                <div ex:role="facet" ex:expression=".total-units" ex:facetLabel="Total units &raquo;" id='total-units-facet' ex:collapsible="true" ex:collapsed="true"></div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='course-facet'>course &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='level-facet'>level &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='area-facet'>area &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='subarea-facet'>subarea &raquo;</div>
+
+                                
+                                <div ex:role="facet" ex:expression=".category" ex:facetLabel="category &raquo;" id='category-facet' ex:height="20em"></div>
+                                
                                 <div class="collapsed-facet" onclick="makeFacet(this)" id="tqe-facet"></div>
-                                <!--
-                                <div ex:role="facet" ex:expression=".ci" ex:facetLabel="ci &raquo;" id='ci-facet' ex:height="20em"></div>
-<div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>
-                                <div ex:role="facet" ex:expression=".hasfinal" ex:facetLabel="Has final? &raquo;" id='hasfinal-facet' ex:collapsible="true" ex:collapsed="true"></div>
-                                Data on "offering" is out of date.
-                                <div ex:role="facet" ex:expression=".offering" ex:facetLabel="Offering &raquo;" id='offering-facet' ex:height="8em" ex:selection="Currently Offered" ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div>-->
+                                <!--<div ex:role="facet" ex:expression=".ci" ex:facetLabel="ci &raquo;" id='ci-facet' ex:height="20em"></div>-->
+                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="semester &raquo;" id='semester-facet' ex:height="7em" ex:selection="Fall"></div>
+                                <div ex:role="facet" ex:expression=".offering" ex:facetLabel="offering &raquo;" id='offering-facet' ex:height="8em" ex:selection="Currently Offered"></div>
+                                
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='units-facet'>units &raquo;</div>
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='total-units-facet'>total units &raquo;</div>
+                                <!--<div class="collapsed-facet" onclick="makeFacet(this)" id='day-facet'>day of week &raquo;</div>-->
+
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='hasfinal-facet'>has final? &raquo;</div>
                             </div>
                             
                             <p style="margin-top: 3em; text-align: center;">
-                                powered by
+                                powered by<br/>
                                 <a href="http://simile.mit.edu/exhibit/">Exhibit</a>,
-                                <a href="http://simile.mit.edu/timegrid/">Timegrid</a>, and
+                                <a href="http://simile.mit.edu/timegrid/">Timegrid</a>, and<br/>
                                 <a href="http://opendata.mit.edu/">MIT Open Data</a>
+
                             </p>
                         </td>
                         <td>
@@ -133,16 +146,16 @@
                     </tr>
                 </table>
             </div>
+
             
         </div>
         
         <!-- ==================== Schedule Preview Pane ==================== -->
         <div id="schedule-preview-pane">
-            <div class="title">
-                <span>Weekly Schedule</span><br>
-                <button onclick="onShowScheduleDetails();">&laquo; full view</button>
-                <button onclick="output();"> iCalendar view </button>
+            <div class="title"><button onclick="onShowScheduleDetails();">&laquo; full view</button>
+                <span>Weekly Schedule</span><button onclick="output();"> iCalendar view </button>
             </div>
+
             
             <div id="mini-timegrid" tg:role="grid" 
                 tg:views="week" tg:eventSource="miniEventSource"
@@ -156,6 +169,7 @@
                     <span ex:content=".lecture-section-of"></span> -
                     <span ex:content=".lecture-section-of.label"></span> (lectures)
                 </div>
+
                 <div ex:role="lens" ex:itemTypes="RecitationSection" 
                     class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
                     <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
@@ -209,6 +223,7 @@
         </div>
         
         <!-- ==================== Generic Lens ==================== -->
+
         <div ex:role="exhibit-lens" class="generic-lens" style="display: none;">
             The data for this class hasn't been loaded. We can load the data of the course containing this class.<br/>
             <button ex:classID-content="value" onclick="loadMoreClass(this);">Load Data Now</button>
@@ -218,6 +233,7 @@
         <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class">
             <div class="course-title">
                 <img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />
+
                 <span ex:content=".semester" class="course-semester"></span>
 				
 				<!-- .url property may exclusively come from scraped data -->
@@ -228,6 +244,7 @@
             <table class="course-body" cellspacing="10"><tr>
                 <td>
                     <div ex:content=".topic" class="course-topic"></div>
+
                     <div ex:content=".description" class="course-description"></div>
                     <div ex:class-content="if(exists(.Instructor), 'course-instructor', 'course-administrator')" ex:content="if(exists(.Instructor), .Instructor, .in-charge)"></div>
                     <div ex:if-exists=".prereqs" class="course-prereqs" style="display: block;">Prereqs: <span ex:content=".prereqs"></span></div>
@@ -243,6 +260,7 @@
                     	
 						<div ex:content="!class-comment-of"
 							class="comment-body" style="display:none">
+
 							<div class="each-comment">
 								<div ex:content=".comment"></div>
 								-- <span ex:content=".author"></span>,
@@ -255,6 +273,7 @@
 									delete</a>
 							</div>
 						</div>
+
 						
 						<div class="message" style="display:none"></div>
 						
@@ -272,6 +291,7 @@
                     
                     <div ex:if-exists="!lecture-section-of"><b>Lecture Sections:</b>
                         <div ex:content="!lecture-section-of">
+
                             <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
                                 ex:id-subcontent="divid-{{value}}"
                                 ex:sectionID-content="value"
@@ -290,6 +310,7 @@
                         
                         
                     </div>
+
                     <div ex:if-exists="!rec-section-of"><b>Recitation Sections:</b>
                         <div ex:if="count(!rec-section-of) > 2">
                             <div class="course-recitations-disclaimer">Note: You may pick a 
@@ -312,6 +333,7 @@
                                     onclick="onPickUnpick(this);"></button>
                             
                                 <span class="section-schedule" ex:content=".timeAndPlace"></span>
+
                                 <span ex:if-exists=".instructor"> &bull; </span>
                                 <span class="section-instructor" ex:content=".instructor"></span>
                             </div>
@@ -319,6 +341,7 @@
                     </div>
                     <div ex:if-exists="!lab-section-of"><b>Lab Sections:</b>
                         <div ex:content="!lab-section-of">
+
                             <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
                                 ex:id-subcontent="divid-{{value}}"
                                 ex:sectionID-content="value"
@@ -344,6 +367,7 @@
 
                 </td>
                 <td width="30%" class="course-logistics">
+
                     <div ex:select=".offering">
                         <div ex:case="Currently Offered"></div>
                         <div ex:content=".offering" class="no-offering"></div>
@@ -352,6 +376,7 @@
                     <div>Units: <span ex:content=".units"></span>
                                 <span ex:if="contains(.has-final, 'true')">
                                     <span class="hasfinal"> +final</span>
+
                                     <span></span>
                                 </span>
                     </div>
@@ -361,6 +386,7 @@
                     	<div ex:content=".gir"></div>
                     	<div ex:content=".ci"></div>
                     </div>
+
                     
                     
                     
@@ -374,6 +400,7 @@
                         <div>
                             <table cellspacing="5" cellpadding="0">
                                 <tr><td>Overall:</td>
+
                                     <td><span ex:content="!class-rating-of.rating"></span>/7.0</td></tr>
                                 <tr><td>Difficulty:</td>
                                     <td><span ex:content="!class-rating-of.difficulty"></span>/7.0</td></tr>
@@ -381,6 +408,7 @@
                                     <td><span ex:content="!class-rating-of.hours"></span></td></tr>
                                 <tr><td colspan="2">Instructor(s):
                                         <ul ex:content="!professor-rating-of" class="instructor-ratings">
+
                                             <li><i><span ex:content=".professor"></span></i> <span ex:content=".professor-rating"></span>/7.0</li>
                                         </ul>
                                     </td>
@@ -392,6 +420,7 @@
                     
                     
 					<div ex:id-subcontent="rating-{{value}}" class="rating">
+
 						<div class="info">
 							Your Rating:
 							<div class="rate"
@@ -411,9 +440,9 @@
 								 	onmouseover="userData.starOn(this);return false;"
 								 	onclick="userData.starClick(this);return false;"
 								 	onmouseout="userData.starOff(this);return false;">
+
 								 	<a href="#">2</a></span>
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r3), 'star on', 'star') }}"
-
 								 	onmouseover="userData.starOn(this);return false;"
 								 	onclick="userData.starClick(this);return false;"
 								 	onmouseout="userData.starOff(this);return false;">
@@ -428,6 +457,7 @@
 								 	onclick="userData.starClick(this);return false;"
 								 	onmouseout="userData.starOff(this);return false;">
 								 	<a href="#">5</a></span>
+
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r6), 'star on', 'star') }}"
 								 	onmouseover="userData.starOn(this);return false;"
 								 	onclick="userData.starClick(this);return false;"
@@ -442,6 +472,7 @@
 							<div ex:if="exists(!class-avg-rating-of)">
 								<div ex:content="!class-avg-rating-of">
 									Average Rating:<br/>
+
 									<span ex:content=".rating"></span>
 									based on <span ex:content=".total"></span>
 									reviews
@@ -453,6 +484,7 @@
 						
 						
 						<div class="message"></div>
+
 					</div>
 					
 					       
@@ -467,6 +499,7 @@
         
         <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
         </script>
+
         <script type="text/javascript">
             //_uacct = "UA-355145-1";  Old account
             _uacct = "UA-2506456-4"; // this one is for picker.mit.edu
@@ -474,3 +507,4 @@
         </script>
     </body>
 </html>
+

@@ -141,17 +141,15 @@ var facetData = {
         facetLabel: 'course &raquo;',
         height:     '10em'
     },
-/*
     'hasfinal-facet' : {
         expression: '.has-final',
         facetLabel: 'has final &raquo;',
         height:     '4em'
     },
-*/
     'level-facet': {
         expression: '.level',
         facetLabel: 'level &raquo;',
-        height:     '5em'
+        height:     '4em'
     },
     'units-facet': {
         expression: '.units',
@@ -162,45 +160,40 @@ var facetData = {
         facetLabel: 'total units &raquo;',
         height:     '8em'
     },
-/*
     'day-facet': {
         expression: '!class!section.day',
         facetLabel: 'day of week &raquo;',
         fixedOrder: 'M; T; W; R; F'
     },
-*/
     'area-facet': {
         expression: '.area',
         facetLabel: 'area &raquo;',
-        height:     '8em'
+        height:     '20em'
     },
     'subarea-facet': {
         expression: '.subarea',
         facetLabel: 'subarea &raquo;',
-        height:     '16em'
+        height:     '20em'
     },
     'category-facet': {
         expression: '.category',
         facetLabel: 'category &raquo;',
-        height:     '8em'
+        height:     '20em'
     },
     'semester-facet': {
         expression: '.semester',
         facetLabel: 'semester &raquo;',
         height:     '7em'
     },
-/*
     'offering-facet': {
         expression: '.offering',
         facetLabel: 'offering &raquo;',
         height:     '8em'
     },
-*/
     'tqe-facet': {
         expression: '.TQE',
         facetLabel: 'TQE &raquo;'
     }
-
 };
 
 var colorTable = [
@@ -331,3 +324,5 @@ PersistentData.stored = function(name) {
 
 	return sections;
 }
+
+
