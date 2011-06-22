@@ -134,12 +134,15 @@ var courses = [
         hasData: true
     }
 ];
-    
+
+//No longer used
+
+/*  
 var facetData = {
     'course-facet': {
         expression: '.course',
         facetLabel: 'course &raquo;',
-        height:     '10em'
+        height:     '8em'
     },
     'hasfinal-facet' : {
         expression: '.has-final',
@@ -195,6 +198,7 @@ var facetData = {
         facetLabel: 'TQE &raquo;'
     }
 };
+*/
 
 var colorTable = [
     {   color:      "#F01E4F",
