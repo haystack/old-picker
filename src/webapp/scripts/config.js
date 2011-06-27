@@ -137,7 +137,7 @@ var courses = [
 
 //No longer used
 
-/*  
+/*
 var facetData = {
     'course-facet': {
         expression: '.course',

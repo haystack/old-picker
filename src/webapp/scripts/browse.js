@@ -525,7 +525,6 @@ function setupExistingFacet(div) {
     div.firstChild.onclick = function() { unmakeFacet(div); }
 }
 
-/*
 function makeFacet(div) {
     div.className = "";
     
@@ -535,7 +534,6 @@ function makeFacet(div) {
     div.firstChild.onclick = function() { unmakeFacet(div); }
     div.onclick = null;
 };
-*/
 
 function unmakeFacet(div) {
     var facet = window.exhibit.getComponent(div.id);
