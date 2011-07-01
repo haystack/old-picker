@@ -76,8 +76,6 @@ function onLoad() {
 			addCourses([course], urls);
 	}
 
-
-
     // load data from MySQL
     urls.push('data/user.php');
     window.database = Exhibit.Database.create();
@@ -112,6 +110,7 @@ function onLoad() {
         pickedSections._update();
         pickedClasses._update();
         
+        /**
         if (hasTQE) {
             var tqeDiv = document.getElementById("tqe-facet");
             tqeDiv.onclick = function() { makeFacet(this); };
@@ -119,18 +118,21 @@ function onLoad() {
             tqeDiv.setAttribute("ex:expression", ".TQE");
             tqeDiv.setAttribute("ex:facetLabel", "TQE &raquo;");
         }
+        */
         
         window.exhibit = Exhibit.create();
         window.exhibit.setCollection("picked-sections", pickedSections);
         window.exhibit.setCollection("picked-classes", pickedClasses);
         window.exhibit.configureFromDOM();
         
+        /*
         setupExistingFacet(document.getElementById("category-facet"));
         setupExistingFacet(document.getElementById("semester-facet"));
         setupExistingFacet(document.getElementById("offering-facet"));
         if (hasTQE) {
             setupExistingFacet(document.getElementById("tqe-facet"));
         }
+        */
         
         enableMiniTimegrid();
         enableUnitAdder();
@@ -154,9 +156,9 @@ function addCourses(courseIDs, urls) {
         }
     }
     
-    // warehouse service is up and working as of December 2008.
-    // NOTE, 2010FA is Fall of 2009-2010 school year. 2009FA is NOT correct. update: loaded as of 2010 spring
-// update: 2011FA is fall of 2010-2011 school year
+    // warehouse service is up and working as of June 2011
+    // NOTE, 2010FA is Fall of 2009-2010 school year. 2009FA is NOT correct. update: loaded as of 2011 fall
+// update: 2012FA is fall of 2011-2012 school year
 	var coursesString = coursesA.join(";");
 	if (coursesString != "" && coursesString != null) {
         urls.push('http://coursews.mit.edu/coursews/?term=2012FA&courses=' + coursesString);

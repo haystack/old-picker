@@ -2,8 +2,6 @@
 <html>
     <head>
         <title>MIT Course Picker (beta)</title>
-        <!-- eventually move Exhibit to a local copy
-        <script src="exhibit/src/webapp/api/exhibit-api.js?autoCreate=false&log=true" type="text/javascript"></script>-->
 		<script src="http://needle.csail.mit.edu/pickzibit/src/webapp/api/exhibit-api.js?autoCreate=false&log=true" type="text/javascript"></script>
         <script>
             window.jQuery = SimileAjax.jQuery;
@@ -114,13 +112,13 @@
                                 <div ex:role="facet" ex:expression=".level" ex:facetLabel="Level &raquo;" id='level-facet' ex:collapsible="true" ex:height="5em"></div>
                                 <div ex:role="facet" ex:expression=".category" ex:facetLabel="Category &raquo;" id='category-facet' ex:collapsible="true" ex:showMissing="false"></div>
                                 <div ex:role="facet" ex:expression=".area" ex:facetLabel="Area &raquo;" id='area-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div>            
-                                <div ex:role="facet" ex:expression=".subarea" ex:facetLabel="Subarea &raquo;" id='subarea-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div><!--
-                                <div class="collapsed-facet" onclick="makeFacet(this)" id='tqe-facet'></div>-->
-                                <div ex:role="facet" ex:expression=".TQE" ex:facetLabel="TQE &raquo;" id='tqe-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"</div>
+                                <div ex:role="facet" ex:expression=".subarea" ex:facetLabel="Subarea &raquo;" id='subarea-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div>
+                                <div ex:role="facet" ex:expression=".TQE" ex:facetLabel="TQE &raquo;" id='tqe-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div>
                                 <div ex:role="facet" ex:expression=".units" ex:facetLabel="Units &raquo;" id='units-facet' ex:collapsible="true" ex:collapsed="true"></div>
                                 <div ex:role="facet" ex:expression=".total-units" ex:facetLabel="Total Units &raquo;" id='total-units-facet' ex:collapsible="true" ex:collapsed="true"></div>
                                 <div ex:role="facet" ex:expression=".offering" ex:facetLabel="Offering &raquo;" id='offering-facet' ex:selection="Currently Offered" ex:collapsible="true" ex:collapsed="true" ex:height="5em"></div>
                                 <!--
+                                <div class="collapsed-facet" onclick="makeFacet(this)" id='tqe-facet'></div>
                                 <div ex:role="facet" ex:expression=".hasfinal" ex:facetLabel="Has Final? &raquo;" id='hasfinal-facet' ex:collapsible="true"></div>
                                 
                                 <div ex:role="facet" ex:expression=".ci" ex:facetLabel="ci &raquo;" id='ci-facet' ex:height="20em"></div>
@@ -130,8 +128,8 @@
                             <p style="margin-top: 3em; text-align: center;">
                                 powered by<br>
                                 <a href="http://simile.mit.edu/exhibit/">Exhibit</a>,
-                                <a href="http://simile.mit.edu/timegrid/">Timegrid</a>, and
-                                <a href="http://opendata.mit.edu/">MIT Open Data</a>
+                                <a href="http://simile.mit.edu/timegrid/">Timegrid</a>, and the
+                                <a href="http://web.mit.edu/warehouse/metadata/tables/all_tables.html">MIT Data Warehouse</a>
 
                             </p>
                         </td>
@@ -249,8 +247,7 @@
 
                     <div ex:content=".description" class="course-description"></div>
                     <div ex:class-content="if(exists(.Instructor), 'course-instructor', 'course-administrator')" ex:content="if(exists(.Instructor), .Instructor, .in-charge)"></div>
-                    <div ex:if-exists=".prereqs" class="course-prereqs" style="display: block;">Prereqs: <span ex:content=".prereqs"></span></div>
-                    
+                    <div ex:if-exists=".prereqs" class="course-prereqs" style="display: block;">Prereqs: <span ex:content=".prereqs"></span></div>  
                     
                     
         <div class="comments">
