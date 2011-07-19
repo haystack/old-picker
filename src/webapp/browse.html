@@ -112,8 +112,8 @@
                                 <div ex:role="facet" ex:expression=".level" ex:facetLabel="Level &raquo;" id='level-facet' ex:collapsible="true" ex:height="5em"></div>
                                 <div ex:role="facet" ex:expression=".category" ex:facetLabel="Category &raquo;" id='category-facet' ex:collapsible="true" ex:showMissing="false"></div>
                                 <div ex:role="facet" ex:expression=".area" ex:facetLabel="Area &raquo;" id='area-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div>            
-                                <div ex:role="facet" ex:expression=".subarea" ex:facetLabel="Subarea &raquo;" id='subarea-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div>
-                                <div ex:role="facet" ex:expression=".TQE" ex:facetLabel="TQE &raquo;" id='tqe-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div>
+                                <div ex:role="facet" ex:expression=".subarea" ex:facetLabel="Subarea &raquo;" id='subarea-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false"></div> 
+                                <div ex:role="facet" ex:expression=".TQE" ex:facetLabel="TQE &raquo;" id='tqe-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false" ex:height="5em"></div>
                                 <div ex:role="facet" ex:expression=".units" ex:facetLabel="Units &raquo;" id='units-facet' ex:collapsible="true" ex:collapsed="true"></div>
                                 <div ex:role="facet" ex:expression=".total-units" ex:facetLabel="Total Units &raquo;" id='total-units-facet' ex:collapsible="true" ex:collapsed="true"></div>
                                 <div ex:role="facet" ex:expression=".offering" ex:facetLabel="Offering &raquo;" id='offering-facet' ex:selection="Currently Offered" ex:collapsible="true" ex:collapsed="true" ex:height="5em"></div>
@@ -302,8 +302,8 @@
                                     onclick="onPickUnpick(this);"></button>
                             
                                 <span class="section-schedule" ex:content=".timeAndPlace"></span>
-                                <span ex:if-exists=".lecture-section-of.instructor"> &bull; </span>
-                                <span class="section-instructor" ex:content=".lecture-section-of.instructor"></span>
+                                <span ex:if-exists=".Instructor"> &bull; </span>
+                                <span class="section-instructor" ex:content=".Instructor"></span>
                             </div>
                         </div>
                         
@@ -441,6 +441,7 @@
 								 	onmouseout="userData.starOff(this);return false;">
 
 								 	<a href="#">2</a></span>
+
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r3), 'star on', 'star') }}"
 								 	onmouseover="userData.starOn(this);return false;"
 								 	onclick="userData.starClick(this);return false;"

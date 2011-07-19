@@ -38,8 +38,9 @@ Exhibit.Functions["building"] = {
  * Initialization
  *==================================================
  */
-
+/*
 var hasTQE = false; 
+*/
 
 function onLoad() {
 	SimileAjax.Debug.silent = true;
@@ -65,7 +66,7 @@ function onLoad() {
         }
     }
     urls.push("data/schema.js");
-   
+    urls.push("data/courses.json");
 
 
     // pull necessary URLs from cookie, since window.database doesn't exist yet

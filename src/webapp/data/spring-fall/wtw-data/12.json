@@ -1,420 +1,234 @@
 {
-	"items" :      [
+	"items" : [
 		{
-			"id" :         "12.510",
-			"label" : 12.510,
-			"Course+Name" :   "Intro. to Seismology",
-			"type" :          "Item",
-			"Room" :          "54-1615",
-			"Time" :          40431,
-			"Instructor" :    "van der HIlst",
-			"Day" :           "MWF"
+			"id" :      "12.804",
+			"type" :       "LectureSession",
+			"Instructor" : ["Illari", "Flierl"]
 		},
 		{
-			"id" :         "12.005",
-			"label" : 12.005,
-			"Course+Name" :   "Applications of Continuum Mechanics to EAPS",
-			"type" :          "Item",
-			"Room" :          "54-317",
-			"Time" :          "10-11:30",
-			"Instructor" :    "Malcolm",
-			"Day" :           "WF"
+			"id" :      "12.803",
+			"type" :       "LectureSession",
+			"Instructor" : "Emanuel"
 		},
 		{
-			"id" :         "12.400",
-			"label" : 12.400,
-			"Course+Name" :   "The Solar System",
-			"type" :          "Item",
-			"Room" :          -639448,
-			"Time" :          "3-4:30",
-			"Instructor" :    "Binzel",
-			"Day" :           "TR"
+			"id" :      "12.086",
+			"type" :       "LectureSession",
+			"Instructor" : "Rothman"
 		},
 		{
-			"id" :         "12.470",
-			"label" : 12.470,
-			"Course+Name" :   "Essentials of Geology",
-			"type" :          "Item",
-			"Room" :          "54-813",
-			"Time" :          "2-3:30",
-			"Instructor" :    "Elkins-Tanton",
-			"Day" :           "TR"
+			"id" :      "12.808",
+			"type" :       "LectureSession",
+			"Instructor" : ["Price", "Straneo"]
 		},
 		{
-			"id" :         "12.222",
-			"label" : 12.222,
-			"Course+Name" :   "Field Geophysics Analysis",
-			"type" :          "Item"
+			"id" :      "12.TIP",
+			"type" :       "LectureSession",
+			"Instructor" : "Connor"
 		},
 		{
-			"id" :         "12.864",
-			"label" : 12.864,
-			"Course+Name" :   "Inference from Data and Models-Time Series Methods",
-			"type" :          "Item",
-			"Instructor" :    "Wunsch",
-			"Day" :           "not \noffered"
+			"id" :      "12.831",
+			"type" :       "LectureSession",
+			"Instructor" : "Plumb"
 		},
 		{
-			"id" :         "12.801",
-			"label" : 12.801,
-			"Course+Name" :   "General Circulation of the Ocean",
-			"type" :          "Item",
-			"Room" :          "54-1615",
-			"Time" :          "10:30-12",
-			"Instructor" :    "Marshall",
-			"Day" :           "MW"
+			"id" :      "12.830",
+			"type" :       "LectureSession",
+			"Instructor" : "Lindzen"
 		},
 		{
-			"id" :         "12.650",
-			"label" : 12.650,
-			"Course+Name" :   "Current Topics in Planetary Science",
-			"type" :          "Item",
-			"Room" :          "54-1510",
-			"Time" :          "9:30-11",
-			"Instructor" :    "Wisdom",
-			"Day" :           "TR"
+			"id" :      "12.301",
+			"type" :       "LectureSession",
+			"Instructor" : ["Wunsch", "Boyle", "Emanuel"]
 		},
 		{
-			"id" :         "12.333",
-			"label" : 12.333,
-			"Course+Name" :   "Atmospheric and Ocean Circulations",
-			"type" :          "Item",
-			"Room" :          "54-1510",
-			"Time" :          "11-12:30",
-			"Instructor" :    "Plumb",
-			"Day" :           "TR"
+			"id" :      "12.520",
+			"type" :       "LectureSession",
+			"Instructor" : "Hager"
 		},
 		{
-			"id" :         "12.420",
-			"label" : 12.420,
-			"Course+Name" :   "Physics and Chemistry of the Solar System",
-			"type" :          "Item",
-			"Room" :          "54-317",
-			"Time" :          "11-12:30",
-			"Instructor" :    "Weiss",
-			"Day" :           "TR"
+			"id" :      "12.501",
+			"type" :       "LectureSession",
+			"Instructor" : ["van der Hilst", "Weiss"]
 		},
 		{
-			"id" :         "12.108",
-			"label" : 12.108,
-			"Course+Name" :   "Structure of Earth Materials",
-			"type" :          "Item",
-			"Room" :          "54-317",
-			"Time" :          "10-11:30 \n\n2-4:30",
-			"Instructor" :    "Shim",
-			"Day" :           "TR \n\nTR"
+			"id" :      "12.201",
+			"type" :       "LectureSession",
+			"Instructor" : ["van der Hilst", "Weiss"]
 		},
 		{
-			"id" :         "12.490",
-			"label" : 12.490,
-			"Course+Name" :   "Stable Isotope Geochemistry and Biogeochemical Cycles",
-			"type" :          "Item",
-			"Room" :          "54-1510",
-			"Time" :          "10-11:30",
-			"Instructor" :    "Ono",
-			"Day" :           "WF"
+			"id" :      "12.021",
+			"type" :       "LectureSession",
+			"Instructor" : ["Hager", "EAPS staff"]
 		},
 		{
-			"id" :         "12.409",
-			"label" : 12.409,
-			"Course+Name" :   "Hands on Astronomy",
-			"type" :          "Item",
-			"Room" :          "37-212 \n37-294",
-			"Time" :          40369,
-			"Instructor" :    "Bosh",
-			"Day" :           [
-				"First Mtg\n2/4",
-				"7pm ---- \nlab is one full evening a week, TBD at the mandatory first meeting in 37-212"
-			]
+			"id" :      "12.620",
+			"type" :       "LectureSession",
+			"Instructor" : ["Wisdom", "Sussman"]
 		},
 		{
-			"id" :         "12.806",
-			"label" : "12.806J",
-			"Course+Name" :   "Atmospheric Physics & Chemistry",
-			"type" :          "Item",
-			"Room" :          "56-191",
-			"Time" :          "2:30-4",
-			"Instructor" :    "Prinn",
-			"Day" :           "TR"
+			"id" :      "12.486",
+			"type" :       "LectureSession",
+			"Instructor" : "Grove"
 		},
 		{
-			"id" :         "12.007",
-			"label" : 12.007,
-			"Course+Name" :   "Geobiology: The history of life on Earth",
-			"type" :          "Item",
-			"Room" :          "54-1510",
-			"Time" :          "10:30-12",
-			"Instructor" :    "Summons\nBosak",
-			"Day" :           "WF"
+			"id" :      "12.463",
+			"type" :       "LectureSession",
+			"Instructor" : "Perron"
 		},
 		{
-			"id" :         "12.115",
-			"label" : 12.115,
-			"Course+Name" :   "Field Geology II",
-			"type" :          "Item",
-			"Room" :          "54-1029",
-			"Time" :          "11:30-1",
-			"Instructor" :    "Burchfiel\nJagoutz",
-			"Day" :           "MW"
+			"id" :      "12.158",
+			"type" :       "LectureSession",
+			"Instructor" : "Summons"
 		},
 		{
-			"id" :         "12.740",
-			"label" : 12.740,
-			"Course+Name" :   "Paleoceanography",
-			"type" :          "Item",
-			"Room" :          "54-1615",
-			"Time" :          "1-2:30",
-			"Instructor" :    "Boyle",
-			"Day" :           "MW"
+			"id" :      "12.835",
+			"type" :       "LectureSession",
+			"Instructor" : "Prinn"
 		},
 		{
-			"id" :         "12.110",
-			"label" : 12.110,
-			"Course+Name" :   "Sedimentolgy",
-			"type" :          "Item",
-			"Instructor" :    "Myrow"
+			"id" :      "12.652",
+			"type" :       "LectureSession",
+			"Instructor" : "Binzel"
 		},
 		{
-			"id" :         "12.080",
-			"label" : 12.080,
-			"Course+Name" :   "EAPS Undergraduate Seminar",
-			"type" :          "Item",
-			"Room" :          "54-915",
-			"Time" :          40513,
-			"Instructor" :    "Frey\nRondenay",
-			"Day" :           "F"
+			"id" :      "12.010",
+			"type" :       "LectureSession",
+			"Instructor" : "Herring"
 		},
 		{
-			"id" :         "12.810",
-			"label" : 12.810,
-			"Course+Name" :   "Dynamics of the Atmosphere",
-			"type" :          "Item",
-			"Room" :          "54-1510",
-			"Time" :          "11-12:30",
-			"Instructor" :    "Plumb",
-			"Day" :           "TR"
+			"id" :      "12.113",
+			"type" :       "LectureSession",
+			"Instructor" : ["Burchfiel", "Jagoutz"]
 		},
 		{
-			"id" :         "12.001",
-			"label" : 12.001,
-			"Course+Name" :   "Introduction to Geology",
-			"type" :          "Item",
-			"Room" :          "54-317 \n54-317",
-			"Time" :          "12-1 \n1-2",
-			"Instructor" :    "Jagoutz\nPerron",
-			"Day" :           "MWF \nMWF"
+			"id" :      "12.481",
+			"type" :       "LectureSession",
+			"Instructor" : ["Burchfiel", "Jagoutz"]
 		},
 		{
-			"id" :         "12.802",
-			"label" : 12.802,
-			"Course+Name" :   "Wave Motions in Oceans & Atmospheres",
-			"type" :          "Item",
-			"Room" :          "54-1615",
-			"Time" :          "3:30-5\n3-4:30",
-			"Instructor" :    "Flierl\nO\'Gorman",
-			"Day" :           "M\nW"
+			"id" :      "12.114",
+			"type" :       "LectureSession",
+			"Instructor" : ["Burchfiel", "Jagoutz"]
 		},
 		{
-			"id" :         "12.103",
-			"label" : 12.103,
-			"Course+Name" :   "Science and Policy of Natural Hazards",
-			"type" :          "Item",
-			"Room" :          "54-1510",
-			"Time" :          40212,
-			"Instructor" :    "Emanuel\nRondenay",
-			"Day" :           "MWF"
+			"id" :      "12.800",
+			"type" :       "LectureSession",
+			"Instructor" : ["Pratt", "Cenedese"]
 		},
 		{
-			"id" :         "12.848",
-			"label" : 12.848,
-			"Course+Name" :   "Global Climate change: Economics, Science and Policy",
-			"type" :          "Item",
-			"Room" :          "E25-117",
-			"Time" :          "3-5 \n3-4",
-			"Instructor" :    "Prinn\nJacoby",
-			"Day" :           "M \nW"
+			"id" :      "12.586",
+			"type" :       "LectureSession",
+			"Instructor" : "Rothman"
 		},
 		{
-			"id" :         "12.540",
-			"label" : 12.540,
-			"Course+Name" :   "Principles of Global Positioning System",
-			"type" :          "Item",
-			"Room" :          "54-322",
-			"Time" :          "11-12:30",
-			"Instructor" :    "Herring",
-			"Day" :           "MW"
+			"id" :      "12.842",
+			"type" :       "LectureSession",
+			"Instructor" : ["Wunsch", "Boyle", "Emmanuel"]
 		},
 		{
-			"id" :         "12.214",
-			"label" : 12.214,
-			"Course+Name" :   "Environmental Geophysics",
-			"type" :          "Item"
+			"id" :      "12.812",
+			"type" :       "LectureSession",
+			"Instructor" : "O\'Gorman"
 		},
 		{
-			"id" :         "12.951",
-			"label" : 12.951,
-			"Course+Name" :   "Tides and Milankovitch Forcing in the Climate System\nsee description",
-			"type" :          "Item",
-			"Room" :          "@ Harvard",
-			"Time" :          "10-11:30",
-			"Instructor" :    "Wunsch",
-			"Day" :           "TR"
+			"id" :      "12.815",
+			"type" :       "LectureSession",
+			"Instructor" : "Seager"
 		},
 		{
-			"id" :         "12.348",
-			"label" : 12.348,
-			"Course+Name" :   "Global Climate change: Economics, Science and Policy",
-			"type" :          "Item",
-			"Room" :          "E25-117",
-			"Time" :          "3-5 \n3-4",
-			"Instructor" :    "Prinn\nJacoby",
-			"Day" :           "M \nW"
+			"id" :      "12.410",
+			"type" :       "LectureSession",
+			"Instructor" : ["Binzel", "Bosh"]
 		},
 		{
-			"id" :         "12.830",
-			"label" : 12.830,
-			"Course+Name" :   "Topics in Waves and Instabilities",
-			"type" :          "Item",
-			"Room" :          "54-1720",
-			"Time" :          2,
-			"Instructor" :    "Lindzen",
-			"Day" :           "Feb. ?\nOrganization Mtg."
+			"id" :      "12.109",
+			"type" :       "LectureSession",
+			"Instructor" : "Grove"
 		},
 		{
-			"id" :         "12.340",
-			"label" : 12.340,
-			"Course+Name" :   "Global Warming Science \nNEW - see description",
-			"type" :          "Item",
-			"Room" :          "54-1615",
-			"Time" :          "9:30-11",
-			"Instructor" :    "Emanuel\nSeager",
-			"Day" :           "TR"
+			"id" :      "12.816",
+			"type" :       "LectureSession",
+			"Instructor" : "Seager"
 		},
 		{
-			"id" :         "12.085",
-			"label" : 12.085,
-			"Course+Name" :   "Seminar in Environmental Science",
-			"type" :          "Item",
-			"Room" :          "54-1510",
-			"Time" :          40463,
-			"Instructor" :    "Rothman",
-			"Day" :           "M"
+			"id" :      "12.335",
+			"type" :       "LectureSession",
+			"Instructor" : "Prinn"
 		},
 		{
-			"id" :         "12.119",
-			"label" : 12.119,
-			"Course+Name" :   "Analytical Techniques for Studying Environmental & Geologic Samples",
-			"type" :          "Item",
-			"Instructor" :    "Bowring, Boyle\nFrey, Grove"
+			"id" :      "12.818",
+			"type" :       "LectureSession",
+			"Instructor" : "Illari"
 		},
 		{
-			"id" :         "12.207",
-			"label" : "12.207J",
-			"Course+Name" :   "Nonlinear Dynamics II: Continuum Systems",
-			"type" :          "Item",
-			"Room" :          -644621,
-			"Time" :          "3-4:30",
-			"Instructor" :    "Math staff",
-			"Day" :           "MW"
+			"id" :      "12.006",
+			"type" :       "LectureSession",
+			"Instructor" : "Peacock"
 		},
 		{
-			"id" :         "12.330",
-			"label" : "12.330J",
-			"Course+Name" :   "Fluid Physics",
-			"type" :          "Item",
-			"Room" :          "26-168",
-			"Time" :          "2:30-4",
-			"Instructor" :    "Joss",
-			"Day" :           "MW"
+			"id" :      "12.002",
+			"type" :       "LectureSession",
+			"Instructor" : ["Weiss", "Royden"]
 		},
 		{
-			"id" :         "12.820",
-			"label" : 12.820,
-			"Course+Name" :   "Turbulence in Geophysical Systems",
-			"type" :          "Item",
-			"Room" :          "54-322",
-			"Time" :          "10:30-12",
-			"Instructor" :    "Ferrari",
-			"Day" :           "TR"
+			"id" :      "12.003",
+			"type" :       "LectureSession",
+			"Instructor" : "Ferrari"
 		},
 		{
-			"id" :         "12.601",
-			"label" : 12.601,
-			"Course+Name" :   "Essentials of Planetary Sciences",
-			"type" :          "Item",
-			"Room" :          "54-1615",
-			"Time" :          "11-12:30",
-			"Instructor" :    "Weiss",
-			"Day" :           "TR"
+			"id" :      "12.163",
+			"type" :       "LectureSession",
+			"Instructor" : "Perron"
 		},
 		{
-			"id" :         "12.307",
-			"label" : 12.307,
-			"Course+Name" :   "Weather & Climate Laboratory",
-			"type" :          "Item",
-			"Room" :          "54-1615",
-			"Time" :          "2:30-4:30",
-			"Instructor" :    "Marshall\nIllari",
-			"Day" :           "TR"
+			"id" :      "12.515",
+			"type" :       "LectureSession",
+			"Instructor" : "Morgan"
 		},
 		{
-			"id" :         "12.402",
-			"label" : "12.402J",
-			"Course+Name" :   "Introduction to Astronomy",
-			"type" :          "Item",
-			"Room" :          -558453,
-			"Time" :          "11-12:20",
-			"Instructor" :    "Physics staff",
-			"Day" :           "TR"
+			"id" :      "12.008",
+			"type" :       "LectureSession",
+			"Instructor" : ["Wisdom", "Sussman"]
 		},
 		{
-			"id" :         "12.474",
-			"label" : 12.474,
-			"Course+Name" :   "Origin & Evolution of the Earth\'s Crust",
-			"type" :          "Item",
-			"Room" :          "54-322",
-			"Time" :          "8-9:30",
-			"Instructor" :    "Bowring\nRondenay",
-			"Day" :           "MW"
+			"id" :      "12.552",
+			"type" :       "LectureSession",
+			"Instructor" : ["Rondenay", "Malcolm"]
 		},
 		{
-			"id" :         "12.823",
-			"label" : 12.823,
-			"Course+Name" :   "Modeling the Biology & Phsics of the Ocean",
-			"type" :          "Item",
-			"Instructor" :    "Flierl"
+			"id" :      "12.824",
+			"type" :       "LectureSession",
+			"Instructor" : "Flierl"
 		},
 		{
-			"id" :         "12.306",
-			"label" : 12.306,
-			"Course+Name" :   "Atmospheric Physics & Chemistry",
-			"type" :          "Item",
-			"Room" :          "56-191",
-			"Time" :          "2:30-4",
-			"Instructor" :    "Prinn",
-			"Day" :           "TR"
+			"id" :      "12.845",
+			"type" :       "LectureSession",
+			"Instructor" : "Selin"
 		},
 		{
-			"id" :         "12.011",
-			"label" : "12.011J",
-			"Course+Name" :   "Archaeological Science",
-			"type" :          "Item",
-			"Room" :          -558728,
-			"Time" :          40369,
-			"Instructor" :    "Frey",
-			"Day" :           "M"
+			"id" :      "12.458",
+			"type" :       "LectureSession",
+			"Instructor" : "Summons"
 		},
 		{
-			"id" :         "12.465",
-			"label" : 12.465,
-			"Course+Name" :   "Sedimentolgy",
-			"type" :          "Item",
-			"Instructor" :    "Myrow"
+			"id" :      "12.571",
+			"type" :       "LectureSession",
+			"Instructor" : "Herring"
+		},
+		{
+			"id" :      "12.456",
+			"type" :       "LectureSession",
+			"Instructor" : "Evans"
+		},
+		{
+			"id" :      "12.102",
+			"type" :       "LectureSession",
+			"Instructor" : "Bowring"
+		},
+		{
+			"id" :      "12.000",
+			"type" :       "LectureSession",
+			"Instructor" : "Bowring"
 		}
-	],
-	"properties" : {
-		"label" : {
-			"valueType" : "number"
-		}
-	}
+	]
 }
