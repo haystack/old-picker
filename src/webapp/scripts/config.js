@@ -281,14 +281,16 @@ var sectionTypeToData = {
     }
 }
 
+/*
 var girData = {
 	"GIR:PHY1": ["8.01", "8.011", "8.012", "8.01L"],
-	"GIR:PHY2": ["8.02", "8.022"],
+	"GIR:PHY2": ["8.02", "8.022", "8.021"],
 	"GIR:CAL1": ["18.01", "18.014", "18.01A"],
 	"GIR:CAL2": ["18.02", "18.022", "18.023", "18.024", "18.02A"],
 	"GIR:BIOL": ["7.012", "7.013", "7.014"],
 	"GIR:CHEM": ["3.091", "5.111", "5.112"]
 }
+*/
 
 /* PersistentData object: stores functionality to deal with persistent
  * data in a cleaner way.

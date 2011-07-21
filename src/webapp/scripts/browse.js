@@ -9,6 +9,7 @@ var debug = false;
  * Hooks into the  proper logging facilities in the SimileAjax
  * package if present (at time of writing this, not yet baked 
  * into the "official" trunk)
+* 8/27/10
  */
 function possiblyLog(obj) {
     if (
@@ -69,7 +70,6 @@ function onLoad() {
     /** Include if using image facet
     urls.push("data/courses.json");
     **/
-
 
     // pull necessary URLs from cookie, since window.database doesn't exist yet
 	var elts = PersistentData.stored('picked-classes').toArray();
@@ -148,12 +148,6 @@ function addCourses(courseIDs, urls) {
 	
 	for (var c = 0; c < courseIDs.length; c++) {
 		var courseID = courseIDs[c];
-		/* we have data for everything, so this doesn't seem necessary
-		if (!courses[courseID].hasData) {
-    		alert("Oops! We actually don't have the data for this course.");
-    		return; 
-    	}*/
-    	
     	if (!isLoaded(courseID)) {
     	    if (courseID != "hass_d") {
     		    urls.push("data/spring-fall/textbook-data/" + courseID + ".json");
@@ -161,7 +155,7 @@ function addCourses(courseIDs, urls) {
     		
     		// a light file representing some scraped information unavailable from data warehouse
     	    urls.push("data/spring-fall/scraped-data/" + courseID + ".json");
-    	    // and missing wtw data
+    	    // and supplementary wtw data
     	    urls.push("data/spring-fall/wtw-data/" + courseID + ".json");
     	    
     		/* scraped data is not needed with working warehouse service
@@ -269,7 +263,6 @@ function loadURLs(urls, fDone) {
     fNext();
 }
 
-// not used anymore
 function postProcessOfficialData(json) {
     var items = json.items;				
     for (var i = 0; i < items.length; i++) {
@@ -278,7 +271,6 @@ function postProcessOfficialData(json) {
     return json;
 }
 
-// not used anymore
 function postProcessOfficialDataItem(item) {
     if ('offering' in item) {
         item.offering == 'Y'?item.offering = 'Currently Offered':item.offering = 'Not offered this year';
@@ -384,7 +376,7 @@ function loadScrapedData(link, database, cont) {
     SimileAjax.XmlHttp.get(url, fError, fDone);
 };
 
-// not used anymore
+/*
 function postProcessScrapedData(o) {
     if ("items" in o) {
         var items = o.items;
@@ -406,8 +398,10 @@ function postProcessScrapedData(o) {
     }
     return o;
 };
+*/
 
 // processes open and scraped data
+
 function postProcessStaticData(o) {
 	if ("items" in o) {
         var items = o.items;
@@ -464,157 +458,3 @@ function postProcessStaticData(o) {
 function showPrereq(elmt, itemID) {
     Exhibit.UI.showItemInPopup(itemID, elmt, exhibit.getUIContext());
 }
-
-/*==================================================
- * Panel switching and facet toggling
- *==================================================
- */
-
-
-function onShowScheduleDetails() {
-    SimileAjax.History.addLengthyAction(
-        showScheduleDetails,
-        showSchedulePreview,
-        "Show Schedule Details"
-    );
-}
-
-function onShowSchedulePreview() {
-    SimileAjax.History.addLengthyAction(
-        showSchedulePreview,
-        showScheduleDetails,
-        "Show Classes"
-    );
-}
-
-function showScheduleDetails() {
-    document.getElementById("classes-layer").style.visibility = "hidden";
-    document.getElementById("schedule-preview-pane").style.visibility = "hidden";
-    
-    document.getElementById("schedule-details-layer").style.visibility = "visible";
-    
-    scroll(0, 0);
-}
-
-function showSchedulePreview() {
-    document.getElementById("schedule-details-layer").style.visibility = "hidden";
-    
-    document.getElementById("classes-layer").style.visibility = "visible";
-    document.getElementById("schedule-preview-pane").style.visibility = "visible";
-    
-    scroll(0, 0);
-}
-
-function setupExistingFacet(div) {
-    div.firstChild.onclick = function() { unmakeFacet(div); }
-}
-
-function makeFacet(div) {
-    div.className = "";
-    
-    var facet = Exhibit.UI.createFacet(facetData[div.id], div, window.exhibit.getUIContext());    
-    window.exhibit.setComponent(div.id, facet);
-    
-    div.firstChild.onclick = function() { unmakeFacet(div); }
-    div.onclick = null;
-};
-
-function unmakeFacet(div) {
-    var facet = window.exhibit.getComponent(div.id);
-    if (facet.hasRestrictions() && !window.confirm("You have something selected in this facet. OK to clear your selection?")) {
-        return;
-    }
-    
-    window.exhibit.disposeComponent(div.id);
-    
-    div.innerHTML = facetData[div.id].facetLabel;
-    div.className = "collapsed-facet";
-    div.onclick = function() { makeFacet(div); };
-}
-
-/*==================================================
- * Favorites
- *==================================================
- */
-
-
-/*==================================================
- * Section picking
- *==================================================
- */
-
-function onPickUnpick(button) {
-    var sectionID = button.getAttribute("sectionID");
-    var picked = window.database.getObject(sectionID, "picked") == "true";
-    if (picked) {
-        SimileAjax.History.addLengthyAction(
-            function() { doUnpick(sectionID) },
-            function() { doPick(sectionID) },
-            "Unpicked " + sectionID
-        );
-    } else {
-        SimileAjax.History.addLengthyAction(
-            function() { doPick(sectionID) },
-            function() { doUnpick(sectionID) },
-            "Picked " + sectionID
-        );
-    }
-};
-
-function onUnpick(button) {
-    var sectionID = button.getAttribute("sectionID");
-    SimileAjax.History.addLengthyAction(
-        function() { doUnpick(sectionID) },
-        function() { doPick(sectionID) },
-        "Unpicked " + sectionID
-    );
-};
-
-function doPick(sectionID) {
-    window.database.addStatement(sectionID, "picked", "true");
-    window.database.addStatement(sectionID, "color", getNewColor());
-    window.database.removeStatement(sectionID, "temppick", "true");
-    
-    window.exhibit.getCollection("picked-sections")._update();
-
-    showHidePickDiv(sectionID, true);
-}
-function doUnpick(sectionID) {
-    var color = window.database.getObject(sectionID, "color");
-    releaseColor(color);
-    
-    window.database.removeStatement(sectionID, "picked", "true");
-    window.database.removeStatement(sectionID, "color", color);
-    
-    window.exhibit.getCollection("picked-sections")._update();
-    
-    showHidePickDiv(sectionID, false);
-}
-
-function onMouseOverSection(div) {
-    //if (!SimileAjax.Platform.browser.isIE) {
-        var sectionID = div.getAttribute("sectionID");
-        if (window.database.getObject(sectionID, "picked") == null) {
-            updateMiniTimegrid(true, sectionID);
-        }
-    //}
-}
-function onMouseOutSection(div) {
-    //if (!SimileAjax.Platform.browser.isIE) {
-        var sectionID = div.getAttribute("sectionID");
-        if (window.database.getObject(sectionID, "picked") == null) {
-            updateMiniTimegrid(true, null);
-        }
-    //}
-}
-function showHidePickDiv(sectionID, picked) {
-    var thediv = document.getElementById("divid-" + sectionID);
-    if (thediv != null) {
-        thediv.className = picked ? "each-section-picked" : "each-section-unpicked";
-        
-        var button = thediv.getElementsByTagName("button")[0];
-        button.innerHTML = picked ? "Remove" : "Add";
-    }
-}
-
-

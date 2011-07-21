@@ -16,6 +16,8 @@
         <script src="scripts/class-related.js" type="text/javascript"></script>
         <script src="scripts/user-data.js" type="text/javascript"></script>
         <script src="scripts/favorites.js" type="text/javascript"></script>
+        <script src="scripts/section-picking.js" type="text/javascript"></script>
+        <script src="scripts/panel-switching.js" type="text/javascript"></script>
 
         <script type="text/javascript">
 		function toggleClassBody(a) {
@@ -441,6 +443,7 @@
 								 	onmouseout="userData.starOff(this);return false;">
 
 								 	<a href="#">2</a></span>
+
 
 								 <span ex:class-subcontent="{{ if(exists(!class-urating-of.r3), 'star on', 'star') }}"
 								 	onmouseover="userData.starOn(this);return false;"
