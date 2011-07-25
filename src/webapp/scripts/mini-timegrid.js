@@ -35,6 +35,10 @@ function updateMiniTimegrid(preview, previewSectionID) {
         eProtos.push(eProto);
     };
     var parseTime = function(s) {
+        /* Date.parseString(val, format) defined in Timegrid code; scripts/util/date.js, line 34
+        Returns a Date if string can be parsed to specified format
+        Returns null if not
+        */
         return s ? Date.parseString(s, "H:mm") ||
                    Date.parseString(s, 'H:mm:ss') : null;
     };
@@ -46,18 +50,23 @@ function updateMiniTimegrid(preview, previewSectionID) {
         var classLabel = db.getObject(classID, "label");
         var color = db.getObject(sectionID, "color");
         
+        /* Definition of visit(function) given in Exhibit documentation
+        "Exhibit.Set.prototype.visit=function(A){for(var B in this._hash){if(A(B)==true){break;}"
+        api/exhibit-bundle.js line 8235 */
+        
         db.getObjects(sectionID, "timeAndPlace").visit(function(tap) {
         	if (tap.search(/arranged/) < 0) {
 				var a = tap.split(" ");
 				// deals with EVE classes but ignores location changes
-				if (a.length > 4 && a[2] != 'MEETS' && a[2] != 'IN' && a[1] != '(ENDS') {
+                /* EVE format: "W EVE (5-8.30 PM) 56-202" */
+				if (a.length > 4 && a[1] == 'EVE') {
 					if (tap.search(/\(BEGIN/) < 0 && tap.search(/\(END/) < 0) {
 						var days = a[0];
 						var time = a[2].replace('(', '');
 						var b = time.split("-");
 						for (var x = 0; x < b.length; x++) {
 							if (b[x].search(/\./) > 0) { 
-								var c = b[x].split('.'); 
+								var c = b[x].split('.');
 								c[0] = parseInt(c[0]) + 12;
 								b[x] = c[0] + ':' + c[1];
 							} else {
