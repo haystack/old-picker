@@ -135,71 +135,6 @@ var courses = [
     }
 ];
 
-//No longer used
-
-/*
-var facetData = {
-    'course-facet': {
-        expression: '.course',
-        facetLabel: 'course &raquo;',
-        height:     '8em'
-    },
-    'hasfinal-facet' : {
-        expression: '.has-final',
-        facetLabel: 'has final &raquo;',
-        height:     '4em'
-    },
-    'level-facet': {
-        expression: '.level',
-        facetLabel: 'level &raquo;',
-        height:     '4em'
-    },
-    'units-facet': {
-        expression: '.units',
-        facetLabel: 'units &raquo;'
-    },
-    'total-units-facet': {
-        expression: '.total-units',
-        facetLabel: 'total units &raquo;',
-        height:     '8em'
-    },
-    'day-facet': {
-        expression: '!class!section.day',
-        facetLabel: 'day of week &raquo;',
-        fixedOrder: 'M; T; W; R; F'
-    },
-    'area-facet': {
-        expression: '.area',
-        facetLabel: 'area &raquo;',
-        height:     '20em'
-    },
-    'subarea-facet': {
-        expression: '.subarea',
-        facetLabel: 'subarea &raquo;',
-        height:     '20em'
-    },
-    'category-facet': {
-        expression: '.category',
-        facetLabel: 'category &raquo;',
-        height:     '20em'
-    },
-    'semester-facet': {
-        expression: '.semester',
-        facetLabel: 'semester &raquo;',
-        height:     '7em'
-    },
-    'offering-facet': {
-        expression: '.offering',
-        facetLabel: 'offering &raquo;',
-        height:     '8em'
-    },
-    'tqe-facet': {
-        expression: '.TQE',
-        facetLabel: 'TQE &raquo;'
-    }
-};
-*/
-
 var colorTable = [
     {   color:      "#F01E4F",
         used:       false
@@ -281,7 +216,6 @@ var sectionTypeToData = {
     }
 }
 
-/*
 var girData = {
 	"GIR:PHY1": ["8.01", "8.011", "8.012", "8.01L"],
 	"GIR:PHY2": ["8.02", "8.022", "8.021"],
@@ -290,7 +224,6 @@ var girData = {
 	"GIR:BIOL": ["7.012", "7.013", "7.014"],
 	"GIR:CHEM": ["3.091", "5.111", "5.112"]
 }
-*/
 
 /* PersistentData object: stores functionality to deal with persistent
  * data in a cleaner way.
