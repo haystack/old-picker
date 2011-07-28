@@ -44,44 +44,35 @@ var hasTQE = false;
 */
 
 function onLoad() {
+    // If false, can output messages in Firebug
+    // see simile-widgets.org/wiki/SimileAjax/Debug
 	SimileAjax.Debug.silent = true;
     
     var urls = [ ];
     var courseIDs = [ ];
-    var query = document.location.search;
-    if (query.length > 1) {
-        var params = query.substr(1).split("&");
-        for (var i = 0; i < params.length; i++) {
-            var a = params[i].split("=");
-            var name = a[0];
-            var value = a.length > 1 ? decodeURIComponent(a[1]) : "";
-            if (name == "courses") {
-                possiblyLog({
-                    "picker-initial-course":value
-                });
-            	courseIDs = value.split(";");
-				addCourses(courseIDs, urls);
-            } else if (name == "debug") {
-                debug = true;
-            }
-        }
+
+    var URI_course_string = document.location.search;
+    if (URI_course_string.length > 1) {
+        var encoded_courses = URI_course_string.split("=")[1];
+        var decoded_courses = decodeURIComponent(encoded_courses);
+        courseIDs = decoded_courses.split(";");
+        addCourses(courseIDs, urls);
     }
+
     urls.push("data/schema.js");
-    /** Include if using image facet
-    urls.push("data/courses.json");
-    **/
+    // load data from MySQL
+    urls.push('data/user.php');
+
+    // documentaton: simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Database
+    window.database = Exhibit.Database.create();
 
     // pull necessary URLs from cookie, since window.database doesn't exist yet
-	var elts = PersistentData.stored('picked-classes').toArray();
-	for (var i = 0; i < elts.length; i++) {
-		var course = elts[i].split('.')[0];
+	var picked_classes = PersistentData.stored('picked-classes').toArray();
+	for (var i = 0; i < picked_classes.length; i++) {
+		var course = picked_classes[i].split('.')[0];
 		if (course.length > 0)
 			addCourses([course], urls);
 	}
-
-    // load data from MySQL
-    urls.push('data/user.php');
-    window.database = Exhibit.Database.create();
     
     var fDone = function() {
 		var athena = window.database.getObject("user", "athena");

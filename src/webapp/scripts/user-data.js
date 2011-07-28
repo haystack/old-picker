@@ -47,6 +47,7 @@ userData = {
 		if (userID != null) {
 			$.post("scripts/post.php",
 				{ "userid": userID,
+                  // $(textarea).getAttribute doesn't seem to work
 				  "comment": $(textarea).getAttribute('value'),
 				  "class": classID
 				  },

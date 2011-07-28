@@ -1,5 +1,5 @@
 /*
- * @description Maintenance of picked-classes
+ * @description Maintenance of picked-classes -- stores data
  * class-related.js
  */
  

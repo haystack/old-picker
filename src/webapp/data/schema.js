@@ -11,6 +11,7 @@
         "courseNumber" : {
             label: "course number"
         },
+/*
         "courseSeries" : {
             label: "course series"
         },
@@ -20,6 +21,7 @@
         "startHour" : {
             label: "start hour"
         },
+*/
         "timestamp" : {
         	valueType: "date"
         },

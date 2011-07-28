@@ -283,6 +283,9 @@
 							<button ex:classid-content="value"
 								ex:content="if(exists(
 									!class-comment-of.is-current-user),
+
+
+
 									'Replace comment', 'Leave comment')"
 								onclick="userData.comment(this);"></button>
 						</div>
@@ -293,6 +296,7 @@
                     <div ex:if-exists="!lecture-section-of"><b>Lecture Sections:</b>
                         <div ex:content="!lecture-section-of">
 
+                            <!-- onMouseOverSection, onMouseOutSection, onPickUnpick : In section-picking.js as of rev. 9565 -->
                             <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
                                 ex:id-subcontent="divid-{{value}}"
                                 ex:sectionID-content="value"
@@ -388,9 +392,6 @@
                     	<div ex:content=".ci"></div>
                     </div>
 
-                    
-                    
-                    
                     <div ex:if-exists="!class-rating-of" class="hkn-statistics">
                         <div class="hkn-stats-header">HKN Statistics<br>
                         	<i><span ex:content="!class-rating-of.term"></span></i>
@@ -482,16 +483,9 @@
 								</div>
 								<div>No other reviews yet</div>
 							</div>
-								
 						</div>
-						
-						
 						<div class="message"></div>
-
 					</div>
-					
-					       
-                    
                     <div class="report-errors">
                         <a ex:href-subcontent="mailto:course-picker@lists.csail.mit.edu?subject=Data Error in course {{value}}">Report Error</a>
                 </td>

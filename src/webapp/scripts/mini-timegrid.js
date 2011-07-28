@@ -44,8 +44,10 @@ function updateMiniTimegrid(preview, previewSectionID) {
     };
     var addSection = function(sectionID) {
         var db = window.exhibit.getDatabase();
+        // example: type = "LectureSession"
         var type = db.getObject(sectionID, "type");
         var sectionData = sectionTypeToData[type];
+        // example: 7.012 = db.getObject(L017.012, "lecture-session-of");
         var classID = db.getObject(sectionID, sectionData.linkage);
         var classLabel = db.getObject(classID, "label");
         var color = db.getObject(sectionID, "color");
@@ -53,7 +55,6 @@ function updateMiniTimegrid(preview, previewSectionID) {
         /* Definition of visit(function) given in Exhibit documentation
         "Exhibit.Set.prototype.visit=function(A){for(var B in this._hash){if(A(B)==true){break;}"
         api/exhibit-bundle.js line 8235 */
-        
         db.getObjects(sectionID, "timeAndPlace").visit(function(tap) {
         	if (tap.search(/arranged/) < 0) {
 				var a = tap.split(" ");
@@ -75,6 +76,7 @@ function updateMiniTimegrid(preview, previewSectionID) {
 							}
 						}
 					} else {
+                        // non-EVE format: "MWF9-10.30 56-114"
 						var days = a[0].substring(0, a[0].search(/\d/));
 						var time = a[0].substr(a[0].search(/\d/));
 						var b = time.split("-");

@@ -42,16 +42,16 @@ function onLoad() {
                 td1.style.color = "#888";
                 td2.style.color = "#888";
             }
-            
+            /*
             if (debug && course.number == "6") {
                 td1.firstChild.checked = true;
-            }
+            }*/
         }
     }
-    
+    /*
     if (debug) {
         browseCourses(); // Ditto here.
-    }
+    }*/
 }
 
 function browseCourses() {

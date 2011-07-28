@@ -1,4 +1,8 @@
 <?php
+
+// This file stores user data using MySQL
+// Generates course ratings
+
 ini_set('display_errors', 'On');
 ini_set('allow_url_fopen', 'true');
 

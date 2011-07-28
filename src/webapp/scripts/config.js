@@ -1,4 +1,4 @@
-var debug = (document.location.search == "?debug");
+//var debug = (document.location.search == "?debug");
 
 var courses = [
     {   number: "1",

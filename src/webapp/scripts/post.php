@@ -1,4 +1,8 @@
 <?
+
+// Saves previously stored data for each user
+// Including which classes have been picked
+
 ini_set('display_errors', 'On');
 
 mysql_connect('sql.mit.edu', 'picker', 'haymaster')
