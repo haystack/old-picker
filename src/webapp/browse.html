@@ -283,19 +283,13 @@
 							<button ex:classid-content="value"
 								ex:content="if(exists(
 									!class-comment-of.is-current-user),
-
-
-
 									'Replace comment', 'Leave comment')"
 								onclick="userData.comment(this);"></button>
 						</div>
                     </div>
                     
-                    
-                    
                     <div ex:if-exists="!lecture-section-of"><b>Lecture Sections:</b>
                         <div ex:content="!lecture-section-of">
-
                             <!-- onMouseOverSection, onMouseOutSection, onPickUnpick : In section-picking.js as of rev. 9565 -->
                             <div ex:class-subcontent="each-section-{{if(exists(.picked), 'picked', 'unpicked')}}" 
                                 ex:id-subcontent="divid-{{value}}"
