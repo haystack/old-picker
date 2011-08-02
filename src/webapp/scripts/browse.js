@@ -59,11 +59,6 @@ function onLoad() {
     }
 
     urls.push("data/schema.js");
-    // load data from MySQL
-    urls.push('data/user.php');
-
-    // documentaton: simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Database
-    window.database = Exhibit.Database.create();
 
     // pulls URLs from cookie
 	var picked_classes = PersistentData.stored('picked-classes').toArray();
@@ -72,6 +67,12 @@ function onLoad() {
 		if (course.length > 0)
 			addCourses([course], urls);
 	}
+
+    // load data from MySQL
+    urls.push('data/user.php');
+
+    // documentaton: simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Database
+    window.database = Exhibit.Database.create();
     
     var fDone = function() {
 		var athena = window.database.getObject("user", "athena");
@@ -118,9 +119,7 @@ function onLoad() {
 function addCourses(courseIDs, urls) { 
     
     var coursesString = courseIDs.join(";");
-	//var coursesString = coursesA.join(";");
 	if (coursesString != "" && coursesString != null) {
-        // warehouse service is up and working as of June 2011
         // NOTE, 2010FA is Fall of 2009-2010 school year. 2009FA is NOT correct.
         urls.push('http://coursews.mit.edu/coursews/?term=2012FA&courses=' + coursesString);
 	}

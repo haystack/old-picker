@@ -90,10 +90,10 @@ if (isset($userid)) {
 	$items[] = '{"type":"UserData","label":"picked-classes",
 		"list":[' . implode(",", $arr) . ']}';
 		
-	
 	if(count($picked) > 0) {
 		// pull information from coursews (previously: mapws) based on picked-sections and picked-classes
-		$content = file_get_contents('http://coursews.mit.edu/coursews/?term=2009SP&courses=6');
+        // need to update url to include full course string
+		$content = file_get_contents('http://coursews.mit.edu/coursews/?term=2012FA&courses=6');
 		if ($content != false) {
 			$content = preg_replace('/{"items": \[/', '', $content);
 			$content = explode(",\n" , $content);
@@ -103,7 +103,7 @@ if (isset($userid)) {
 			// $arr uses $picked to fill the grep pattern to sele
 			$arr = preg_grep('/' . implode('|', $picked) . '/', $content);
 			
-			// duplicates functionality of postProcessOfficialData
+			// duplicates functionality of processPrereqs
 			$arr = preg_replace('/LectureSession",\s+"label":"L(\d+\.\d+)",\s+"section/',
 				'LectureSection", "label":"L$1", "lecture-section', $arr);
 			$arr = preg_replace('/RecitationSession",\s+"label":"R(\d+\.\d+)",\s+"section/',
@@ -114,7 +114,7 @@ if (isset($userid)) {
 			
 			$items = array_merge($items, $arr);
 		} else {
-			echo '/* read of mapws file failed */';
+			echo 'read of coursews file failed';
 		}
 	}
 

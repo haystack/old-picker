@@ -108,8 +108,7 @@ userData = {
 				'class' : $(star).parent().attr('classid'),
 				'rating': $(star).children('a').html()
 			});
-			
-			
+				
 			return false;
 		}
 	},

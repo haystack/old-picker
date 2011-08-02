@@ -1,8 +1,9 @@
 <?
 
-// Saves previously stored data for each user
+// Saves previously stored data for each user, if user is logged in
 // Including which classes have been picked
 
+// Sets configuration options
 ini_set('display_errors', 'On');
 
 mysql_connect('sql.mit.edu', 'picker', 'haymaster')
