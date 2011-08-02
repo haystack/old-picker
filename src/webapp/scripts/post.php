@@ -56,7 +56,7 @@ if(isset($_POST['userid']) && !empty($_POST['userid'])) {
 		mysql_query("DELETE FROM sections WHERE s_userid=$userid;");
 		
 		foreach ($classes as $c) {
-			mysql_query("INSERT INTO classes VALUES ($userid, '$c', 'Spring 2009');") or die('died1');
+			mysql_query("INSERT INTO classes VALUES ($userid, '$c', 'Fall 2011');") or die('died1');
 		}
 		foreach ($sections as $s) {
 			mysql_query("INSERT INTO sections VALUES ($userid, '$s');") or die('died2');
