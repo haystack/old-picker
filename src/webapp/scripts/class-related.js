@@ -78,16 +78,38 @@ function updateCookies() {
     }
 }
 
+// Updates Exhibit collection of picked sections using cookies 
+// and, if logged in MySQL data
 function checkForCookies() {
 	var sections = PersistentData.stored('picked-sections');
+    var mysqlSections = new Exhibit.Set(getStoredSections());
+    sections.addSet(mysqlSections);
 
 	sections.visit(
 		function(sectionID) {
-			if (sectionID.length == 0)
+			if (sectionID.length == 0 || window.database.containsItem(sectionID) == false)
 				return;
 			window.database.addStatement(sectionID, "picked", "true");
 			window.database.addStatement(sectionID, "color", getNewColor());
 		});
 
 	window.exhibit.getCollection("picked-sections")._update();
+    updateCookies();
+}
+
+function getStoredSections() {
+    var mysqlSections;
+    var userID = window.database.getObject('user', 'userid');
+    if (userID != null) {
+        $.ajaxSetup({async:false});
+        $.post("data/user.php",
+            { "userid" : userID,
+              "getPickedSections" : true
+              },
+            function(sectionsJSON) {
+                mysqlSections = JSON.parse(sectionsJSON);
+            });
+        $.ajaxSetup({async:true});
+        return mysqlSections;
+    }
 }
