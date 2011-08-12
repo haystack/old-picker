@@ -18,9 +18,6 @@ function possiblyLog(obj) {
     ) {
         SimileAjax.RemoteLog.possiblyLog(obj);
     }
-    else {
-        SimileAjax.RemoteLog.possiblyLog(obj);
-    }
 }
 
 Exhibit.Functions["building"] = {
@@ -39,58 +36,45 @@ Exhibit.Functions["building"] = {
  *==================================================
  */
 
-/* Code for handling exceptions (courses whose data doesn't come from the warehouse removed), rev. 9567, 7/11.
-    See earlier revisions if reinstating this code. */
+/* Code for handling exceptions (courses whose data doesn't come from the warehouse) removed 
+ * rev. 9567, 7/11.
+ * See earlier revisions if reinstating this code. 
+ */
 
-function onLoad() {
-    // If false, can output messages in Firebug
-    // see simile-widgets.org/wiki/SimileAjax/Debug
-	SimileAjax.Debug.silent = true;
-    
-    var urls = [ ];
-    var courseIDs = [ ];
+/**
+ * "logging in" on picker uses MIT certificates and saves data long-term in MySQL db.
+ * In order to be able to test "logged in" features on your machine,
+ * Set up a LAMP server, test on a url that includes "localhost"
+**/
 
-    var URI_course_string = document.location.search;
-    if (URI_course_string.length > 1) {
-        var encoded_courses = URI_course_string.split("=")[1];
-        var decoded_courses = decodeURIComponent(encoded_courses);
-        courseIDs = decoded_courses.split(";");
-        addCourses(courseIDs, urls);
-    }
-
-    urls.push("data/schema.js");
-
-    // pulls URLs from cookie
-	var picked_classes = PersistentData.stored('picked-classes').toArray();
-	for (var i = 0; i < picked_classes.length; i++) {
-		var course = picked_classes[i].split('.')[0];
-		if (course.length > 0)
-			addCourses([course], urls);
-	}
-
-    // load data from MySQL
-    urls.push('data/user.php');
-
+function onLoad() { 
+    // simile-widgets.org/wiki/SimileAjax/Debug
+	SimileAjax.Debug.silent = false;
     // documentaton: simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Database
     window.database = Exhibit.Database.create();
-    
+    // Loads file, then calls onLoadHelper
+    loadStaticData("data/user.php", window.database, onLoadHelper);
+}
+
+function onLoadHelper() {
+
+    var urls = ["data/schema.js"];
+    var courseIDs = coursesFromURI();
+    // pulls picked classes from cookie and MySQL
+	var picked_classes = savedPickedClasses();
+    picked_classes = prune(picked_classes);
+    // maps ["14.03", "22.01"] to ["14", "22"]
+    var pickedCourses = picked_classes.map(function(elt) { return elt.split('.')[0]; });
+    courseIDs = courseIDs.concat(courseIDs, pickedCourses);
+    addCourses(courseIDs, urls);
+
     var fDone = function() {
-		var athena = window.database.getObject("user", "athena");
-		var url = document.location.href;
-		
-		if (document.location.protocol == 'https:' && athena != null) {
-			url = url.replace('https:', 'http:');
-			$('#httpsStatus').html(' &bull; logged in as ' + athena +
-				'&bull; <a href="' + url + '">logout</a>');
-		}
-		else {
-			url = url.replace('http:', 'https:');
-			$('#httpsStatus').html(' &bull; <a href="' + url + '">login</a>');
-		}
-	
+        setupLogin();
+
         document.getElementById("schedule-preview-pane").style.display = "block";
         document.getElementById("browsing-interface").style.display = "block";
         
+        // simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Collection
         var pickedSections = new Exhibit.Collection("picked-sections", window.database);
         var pickedClasses = new Exhibit.Collection("picked-classes", window.database);
         pickedSections._update = function() {
@@ -101,23 +85,29 @@ function onLoad() {
 		    this._items = this._database.getSubjects("true", "sectionPicked");
 		    this._onRootItemsChanged();
 		};
+
         pickedSections._update();
         pickedClasses._update();
+
         window.exhibit = Exhibit.create();
         window.exhibit.setCollection("picked-sections", pickedSections);
         window.exhibit.setCollection("picked-classes", pickedClasses);
+        //check for cookies needs to be here so that picked classes are loaded before the GUI is loaded
+        //if picked classes (and sections) are not loaded before GUI loading, then the add/remove buttons
+        //will not display correctly 
+        checkForCookies();
         window.exhibit.configureFromDOM();
         enableMiniTimegrid();
         enableUnitAdder();
         fillAddMoreSelect();
         enableClassList();
-        checkForCookies();
     };
     loadURLs(urls, fDone);
 }
 
+// Adds each data file that needs to be loaded to urls
+// Marks each course loaded
 function addCourses(courseIDs, urls) { 
-    
     var coursesString = courseIDs.join(";");
 	if (coursesString != "" && coursesString != null) {
         // NOTE, 2010FA is Fall of 2009-2010 school year. 2009FA is NOT correct.
@@ -126,14 +116,13 @@ function addCourses(courseIDs, urls) {
 	
 	for (var c = 0; c < courseIDs.length; c++) {
 		var courseID = courseIDs[c];
-    	if (!isLoaded(courseID)) {
+    	if (!isLoaded(courseID) && courseID != '') {
     	    if (courseID != "hass_d") {
     		    urls.push("data/spring-fall/textbook-data/" + courseID + ".json");
 		    }
     		
-    		// a light file representing some scraped information unavailable from data warehouse
+    		// files representing data unavailable from data warehouse
     	    urls.push("data/spring-fall/scraped-data/" + courseID + ".json");
-    	    // and supplementary wtw data
     	    urls.push("data/spring-fall/wtw-data/" + courseID + ".json");
     	    
     		if (courseID == "6") {
@@ -144,151 +133,6 @@ function addCourses(courseIDs, urls) {
     	}
 	}
 }
-
-function loadURLs(urls, fDone) {
-    var fNext = function() {
-        if (urls.length > 0) {
-            var url = urls.shift();
-            if (url.search(/http/) == 0) {
-                // For coursews data
-            	Exhibit.importers["application/jsonp"].load(
-                    url, window.database, fNext, processOfficialData);
-            } else {
-            	loadStaticData(url, window.database, fNext);
-            }
-        } else {
-            fDone();
-        }
-    };
-    fNext();
-}
-
-function processOfficialData(json) {
-    var items = json.items;				
-    for (var i = 0; i < items.length; i++) {
-        processOfficialDataItem(items[i]);
-    }					
-    return json;
-}
-
-function processOfficialDataItem(item) {
-
-    if ('prereqs' in item) {
-        item.prereqs = processPrereqs(item.prereqs);
-	}
-
-	if ('timeAndPlace' in item) {
-		if (typeof item.timeAndPlace != "string") {
-			item.timeAndPlace = item.timeAndPlace.join(", ");
-		} 
-		if (item.timeAndPlace.search(/ARRANGED/) >= 0 || item.timeAndPlace.search(/null/) >= 0) {
-			item.timeAndPlace = 'To be arranged';
-		}
-	}
-
-	if ('units' in item) {
-		if (item.units == '0-0-0' || item.units == 'unknown') {
-			item.units = 'Arranged';
-			item['total-units'] = 'Arranged';
-		}
-	}
-
-    if ('offering' in item) {
-        item.offering == 'Y'?item.offering = 'Currently Offered':item.offering = 'Not offered this year';
-    }
-
-    if (item.type == 'LectureSession') {
-        item.type = 'LectureSection';
-        item["lecture-section-of"] = item["section-of"];
-        delete item["section-of"];
-    }
-    if (item.type == 'RecitationSession') {
-        item.type = 'RecitationSection';
-        item["rec-section-of"] = item["section-of"];
-        delete item["section-of"];
-    } 
-    if (item.type == 'LabSession') {
-        item.type = 'LabSection';
-        item["lab-section-of"] = item["section-of"];
-        delete item["section-of"];
-    } 
-}
-
-// Puts a string of prereqs into correct format
-function processPrereqs(prereqs) {
-    if (prereqs == "") {
-		prereqs = "--";
-	}
-	while (prereqs.search(/GIR:/) >= 0) {
-		gir = prereqs.match(/GIR:.{4}/);
-		prereqs = prereqs.replace(/GIR:.{4}/, girData[gir].join(" or "));
-	}
-	while (prereqs.search(/[\]\[]/) >= 0 ) {
-		prereqs = prereqs.replace(/[\]\[]/, "");
-	}
-
-    // Makes prereqs appear as links
-	var matches = prereqs.match(/([^\s\/]+\.[\d]+\w?)/g);
-	if (matches != null) {
-		var s = prereqs;
-		var output = "";
-		var from = 0;
-		for (var m = 0; m < matches.length; m++) {
-			var match = matches[m];
-			var i = s.indexOf(match, from);
-			var replace = 
-				"<a href=\"javascript:{}\" onclick=\"showPrereq(this, '" +
-					match.replace(/J/, "")+"');\">" + match + "</a>";
-			
-			output += s.substring(from, i) + replace;
-			from = i + match.length;
-		}
-		prereqs = output + s.substring(from);
-    }
-    
-    return prereqs;
-}
-
-function loadStaticData(link, database, cont) {
-    var url = typeof link == "string" ? link : link.href;
-    // Documentation: simile-widgets.org/wiki/Exhibit/API/2.2.0/Persistence
-    // Given a relative or absolute URL, returns the absolute URL
-    url = Exhibit.Persistence.resolveURL(url);
-
-    var fError = function(statusText, status, xmlhttp) {
-        Exhibit.UI.hideBusyIndicator();
-        Exhibit.UI.showHelp(Exhibit.l10n.failedToLoadDataFileMessage(url));
-        if (cont) cont();
-    };
-    
-    var fDone = function(xmlhttp) {
-        Exhibit.UI.hideBusyIndicator();
-        try {
-            var JSONobject = null;
-            try {
-                // xmlhttp.responseText is a JSON data file
-                JSONobject = eval("(" + xmlhttp.responseText + ")");
-            } catch (e) {
-                Exhibit.UI.showJsonFileValidation(Exhibit.l10n.badJsonMessage(url, e), url);
-            }
-            
-            if (JSONobject != null) {
-                database.loadData(JSONobject, Exhibit.Persistence.getBaseURL(url));
-            }
-        } catch (error) {
-            SimileAjax.Debug.exception(error, "Error loading Exhibit JSON data from " + url);
-        } finally {
-            if (cont) cont();
-        }
-    };
-
-    Exhibit.UI.showBusyIndicator();
-    // can be replaced by jQuery
-    // performs an asynchronous HTTP get
-    // Calls fDone(url) if url in right form, otherwise calls fError
-    SimileAjax.XmlHttp.get(url, fError, fDone);
-};
-
 
 function markLoaded(courseID) {
     for (var i = 0; i < courses.length; i++) {
@@ -308,6 +152,73 @@ function isLoaded(courseID) {
     }
 }
 
+/*
+ * Helper functions for onLoad()
+ */
+
+// Loads picked classes from cookies and from MySQL db
+function savedPickedClasses() {
+    var pickedClasses = PersistentData.stored('picked-classes').toArray();
+    var mysqlPickedClasses;
+    var userID = window.database.getObject('user', 'userid');
+    if (userID != null) {
+        $.ajaxSetup({async:false});
+        $.post("data/user.php",
+            { "userid" : userID,
+              "getPickedClasses" : true
+              },
+            function(classesJSON) {
+                mysqlPickedClasses = JSON.parse(classesJSON);
+            });
+        $.ajaxSetup({async:true});
+        pickedClasses = pickedClasses.concat(mysqlPickedClasses);
+    }
+    return pickedClasses;
+}
+
+function coursesFromURI() {
+    var urlQueryPortion = document.location.search;
+    if (urlQueryPortion.length > 1) {
+        var encodedCourses = urlQueryPortion.split("=")[1];
+        var decodedCourses = decodeURIComponent(encodedCourses);
+        courseIDs = decodedCourses.split(";");
+    }
+    return courseIDs;
+}
+
+/** When protocol is https on an MIT server, certificates are automatically authenticated.
+    On clicking "login", protocol changes to https, certificates are processed,
+    and window.database.getObject("user", "athena") becomes a kerberos ID.
+**/
+function setupLogin() {
+	var athena = window.database.getObject("user", "athena");
+	var url = document.location.href;
+
+    if (window.location.host.search(/localhost/) >= 0 ) {
+        if (athena != null) {
+            $('#localhostLogin').html(' &bull; logged in as '+athena+'&bull; <a href="'+url+'" onClick="toggleLogin(false);">log out on localhost</a>');
+        }
+        else {
+            $('#localhostLogin').html(' &bull; <a href="'+url+'" onClick="toggleLogin(true);">log in on localhost</a>');
+        }
+    }
+
+	else if (document.location.protocol == 'https:' && athena != null) {
+		url = url.replace('https:', 'http:');
+		$('#httpsStatus').html(' &bull; logged in as ' + athena +
+			'&bull; <a href="' + url + '">logout</a>');
+	}
+	else {
+		url = url.replace('http:', 'https:');
+		$('#httpsStatus').html(' &bull; <a href="' + url + '">login</a>');
+	}
+}
+
+function toggleLogin(login) {
+    var exDate = new Date();
+    exDate.setDate(exDate.getDate() + 7);
+    document.cookie = 'loggedIn='+login+'; expires='+exDate+'; path=/';
+}
 
 /*==================================================
  * Post-initialization class-loading functionality
@@ -331,13 +242,12 @@ function loadSingleCourse(course) {
 function fillAddMoreSelect() {
     var select = document.getElementById("add-more-select");
     select.innerHTML = "";
-    
+    // creates dropdown list
     var option = document.createElement("option");
     option.value = "";
     option.label = "add more courses";
     option.text = "add more courses";
     select.appendChild(option);
-    
     for (var i = 0; i < courses.length; i++) {
         var course = courses[i];
         if (course.hasData && !(course.loaded)) {
@@ -354,7 +264,6 @@ function fillAddMoreSelect() {
 function onAddMoreSelectChange() {
     var select = document.getElementById("add-more-select");
     var course = select.value;
-    
     if (course.length > 0) {
         possiblyLog({
             "picker-add-course":course
