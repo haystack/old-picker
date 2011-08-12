@@ -62,7 +62,6 @@ function onLoadHelper() {
     var courseIDs = coursesFromURI();
     // pulls picked classes from cookie and MySQL
 	var picked_classes = savedPickedClasses();
-    picked_classes = prune(picked_classes);
     // maps ["14.03", "22.01"] to ["14", "22"]
     var pickedCourses = picked_classes.map(function(elt) { return elt.split('.')[0]; });
     courseIDs = courseIDs.concat(courseIDs, pickedCourses);
