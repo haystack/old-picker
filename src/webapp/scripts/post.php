@@ -1,7 +1,7 @@
 <?
 
-// Saves previously stored data for each user, if user is logged in
-// Including which classes have been picked
+// Sends specific requested data to js files
+// Accessed using jQuery in user-data.js
 
 // Sets configuration options
 ini_set('display_errors', 'On');
@@ -16,6 +16,7 @@ if(isset($_POST['userid']) && !empty($_POST['userid'])) {
 	if(isset($_POST['class']) && !empty($_POST['class'])) {
 		$class = mysql_real_escape_string($_POST['class']);
 	
+        // userid, class, rating set
 		if(isset($_POST['rating'])) {
 			$rating = (int)$_POST['rating'];
 			
@@ -31,6 +32,7 @@ if(isset($_POST['userid']) && !empty($_POST['userid'])) {
 			echo $rating;
 		}
 		else if (isset($_POST['comment']) && !empty($_POST['comment'])) {
+            // userid, class, comment set; rating and deleteComment not set
 			if (!isset($_POST['deleteComment'])) {
 				$comment = mysql_real_escape_string($_POST['comment']);
 				
@@ -41,6 +43,7 @@ if(isset($_POST['userid']) && !empty($_POST['userid'])) {
 			
 				echo $comment;
 			}
+            // userid, class, comment, deleteComment set; rating not set
 			else {
 				mysql_query("DELETE FROM comments WHERE o_userid=$userid AND
 					o_classid='$class';")
@@ -48,6 +51,8 @@ if(isset($_POST['userid']) && !empty($_POST['userid'])) {
 			}
 		}
 	}
+    // userid, pickedclasses, pickedsections set; class not set
+    // used in updateCookies()
 	else if (isset($_POST['pickedclasses']) && !empty($_POST['pickedclasses'])
 			&& isset($_POST['pickedsections']) && !empty($_POST['pickedsections'])) {
 		$classes = explode(',', mysql_real_escape_string($_POST['pickedclasses']));
@@ -63,7 +68,6 @@ if(isset($_POST['userid']) && !empty($_POST['userid'])) {
 			mysql_query("INSERT INTO sections VALUES ($userid, '$s');") or die('died2');
 		}
 	}
-
 }
 else {
 	echo 'this page should not be accessed on its own.';

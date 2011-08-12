@@ -13,6 +13,8 @@ mysql_select_db('picker+userdata');
 
 // POST handling
 if (isset($_POST['userid'])) {
+	$userid = mysql_real_escape_string($_POST['userid']);
+
 	// user has picked a new section
 	if (isset($_POST['doPick'])) {
 	
@@ -28,7 +30,27 @@ if (isset($_POST['userid'])) {
 	
 		mysql_query("DELETE FROM sections WHERE s_userid=$userid AND s_sectionid=$sec;");
 	}
+    // Returns picked classes as a JSON
+    else if (isset($_POST['getPickedClasses'])) {
+        $result = mysql_query("SELECT c_classid FROM classes WHERE c_userid=$userid;");
+	    $arr = array();
+     	while ($row = mysql_fetch_row($result)) {
+     		$arr[] = '"' . $row[0] . '"';
+     	}
+	    $jsonPickedClasses = '[' . implode(",", $arr) . ']';
+        echo $jsonPickedClasses;
+    }
+    else if (isset($_POST['getPickedSections'])) {
+        $result = mysql_query("SELECT s_sectionid FROM sections WHERE s_userid=$userid;");
+	    $arr = array();
+ 	    while ($row = mysql_fetch_row($result)) {
+ 		    $arr[] = '"' . $row[0] . '"';
+ 	    }
+	    $jsonPickedSections = '[' . implode(",", $arr) . ']';
+        echo $jsonPickedSections;
+    }
 }
+
 else { // OTHERWISE - do everything else. main JS body starts here ---- ?>
 
 
@@ -51,15 +73,20 @@ function getUser($athena, $email) {
 	}
 }
 
-// determine user identity, store in $userid
+// determine user identity via certificates, store in $userid
+// accessible via: database.getObject("currentUser", "athena");
 if (isset($_SERVER['SSL_CLIENT_S_DN_CN'])) {
 	$athena = explode("@", $_SERVER['SSL_CLIENT_S_DN_Email']);
 	$athena = $athena[0];
 	$userid = getUser($athena, $_SERVER['SSL_CLIENT_S_DN_Email']);
 }
 
-
-//accessible via: database.getObject("currentUser", "athena");
+else if (isset($_COOKIE['loggedIn'])) {
+    if ($_COOKIE['loggedIn'] == "true") {
+        $athena = 'lizs';
+        $userid = getUser($athena, 'lizs@mit.edu');
+    }
+}
 
 $items = array();
 
@@ -67,8 +94,7 @@ if (isset($userid)) {
 	$arr = '{"type":"UserData","label":"user",
 			"athena":"' . $athena . '","userid":"' . $userid . '"}';
 	$items = array($arr);
-	
-	
+	/* Replace with POST handling
 	// populate picked-sections - use $picked to store section data
  	$result = mysql_query("SELECT s_sectionid FROM sections WHERE s_userid=$userid;");
 	$arr = array();
@@ -89,10 +115,10 @@ if (isset($userid)) {
 	}
 	$items[] = '{"type":"UserData","label":"picked-classes",
 		"list":[' . implode(",", $arr) . ']}';
-		
+    */
+		/*
 	if(count($picked) > 0) {
 		// pull information from coursews (previously: mapws) based on picked-sections and picked-classes
-        // need to update url to include full course string
 		$content = file_get_contents('http://coursews.mit.edu/coursews/?term=2012FA&courses=6');
 		if ($content != false) {
 			$content = preg_replace('/{"items": \[/', '', $content);
@@ -116,7 +142,7 @@ if (isset($userid)) {
 		} else {
 			echo 'read of coursews file failed';
 		}
-	}
+	}*/
 
 
 	// pull user's ratings

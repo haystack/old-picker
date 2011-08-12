@@ -11,17 +11,9 @@
         "courseNumber" : {
             label: "course number"
         },
-/*
-        "courseSeries" : {
-            label: "course series"
-        },
         "totalUnits" : {
             label: "total units"
         },
-        "startHour" : {
-            label: "start hour"
-        },
-*/
         "timestamp" : {
         	valueType: "date"
         },
