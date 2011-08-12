@@ -4,7 +4,10 @@ function onPickUnpick(button) {
     var sectionID = button.getAttribute("sectionID");
     var picked = window.database.getObject(sectionID, "picked") == "true";
     if (picked) {
+        // simile-widgets.org/wiki/SimileAjax/History
+        // http://api.simile-widgets.org/ajax/2.2.1/scripts/history.js
         SimileAjax.History.addLengthyAction(
+            // Does doUnpick; does doPick if back button hit
             function() { doUnpick(sectionID) },
             function() { doPick(sectionID) },
             "Unpicked " + sectionID
@@ -16,6 +19,7 @@ function onPickUnpick(button) {
             "Picked " + sectionID
         );
     }
+    updateCookies();
 };
 
 function onUnpick(button) {
@@ -31,7 +35,6 @@ function doPick(sectionID) {
     window.database.addStatement(sectionID, "picked", "true");
     window.database.addStatement(sectionID, "color", getNewColor());
     window.database.removeStatement(sectionID, "temppick", "true");
-    
     window.exhibit.getCollection("picked-sections")._update();
 
     showHidePickDiv(sectionID, true);
