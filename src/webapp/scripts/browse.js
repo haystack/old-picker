@@ -127,7 +127,7 @@ function addCourses(courseIDs, urls) {
         urls.push('http://coursews.mit.edu/coursews/?term=2011FA&hassd_only=y');
         for (var j=0; j < courses.length; j++) {
             var course = courses[j];
-            if (!isLoaded(course.number) && course.hass_d) {
+            if (!isLoaded(course.number)) {
                 addStaticURLs(course.number, urls);
             }
         }
