@@ -5,7 +5,6 @@ function onPickUnpick(button) {
     var picked = window.database.getObject(sectionID, "picked") == "true";
     if (picked) {
         // simile-widgets.org/wiki/SimileAjax/History
-        // http://api.simile-widgets.org/ajax/2.2.1/scripts/history.js
         SimileAjax.History.addLengthyAction(
             // Does doUnpick; does doPick if back button hit
             function() { doUnpick(sectionID) },
@@ -19,7 +18,7 @@ function onPickUnpick(button) {
             "Picked " + sectionID
         );
     }
-    updateCookies();
+    updateStoredDataFromExhibit();
 };
 
 function onUnpick(button) {
