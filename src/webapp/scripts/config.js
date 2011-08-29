@@ -1,100 +1,124 @@
-//var debug = (document.location.search == "?debug");
+var term = "fall";
 
 var courses = [
     {   number: "1",
         name:   "Civil and Environmental Engineering",
-        hasData: true
+        hasData: true,
+        //hassd: true,
     },
     {   number:  "2",
         name:    "Mechanical Engineering",
+       // hassd: false,
         hasData: true
     },
     {   number:  "3",
         name:    "Materials Science and Engineering",
+      //  hassd: true,
         hasData: true
     },
     {   number: "4",
         name:   "Architecture",
+    //    hassd: true,
         hasData: true
     },
     {   number: "5",
         name:   "Chemistry",
+   //     hassd: false,
         hasData: true
     },
     {   number: "6",
         name:   "Electrical Engineering and Computer Science",
+     //   hassd: false,
         hasData: true
     },
     {   number: "7",
         name:   "Biology",
+       // hassd: false,
         hasData: true
     },
     {   number:  "8",
         name:    "Physics",
+ //       hassd: false,
         hasData: true
     },
     {   number: "9",
         name:   "Brain and Cognitive Sciences",
+   //     hassd: true,
         hasData: true
     },
     {   number: "10",
         name:   "Chemical Engineering",
+     //   hassd: false,
         hasData: true
     },
     {   number:  "11",
         name:    "Urban Studies and Planning",
+       // hassd: true,
         hasData: true
     },
     {   number: "12",
         name:   "Earth, Atmospheric, and Planetary Sciences",
+  //      hassd: false,
         hasData: true
     },
     {   number: "14",
         name:   "Economics",
+    //    hassd: true,
         hasData: true
     },
     {   number: "15",
         name:   "Business (see Sloan School of Management)",
+      //  hassd: false,
         hasData: true
     },
     {   number: "16",
         name:   "Aeronautics and Astronautics",
+        //hassd: false,
         hasData: true
     },
     {    number:    "17",
         name:    "Political Science",
+   //     hassd: true,
         hasData: true
     },
     {    number:    "18",
         name:    "Mathematics",
+     //   hassd: false,
         hasData: true
     },
     {   number: "20",
         name:   "Biological Engineering",
+       // hassd: false,
         hasData: true
     },
     {   number: "21A",
         name:   "Anthropology",
+  //      hassd: true,
         hasData: true
     },
     {   number: "21F",
         name:   "Foreign Languages and Literatures",
+    //    hassd: true,
         hasData: true
     },
     {   number: "21H",
         name:   "History",
+      //  hassd: true,
         hasData: true
     },
     {    number:    "21L",
         name:    "Literature",
+        //hassd: true,
         hasData: true
     },
     {    number:    "21M",
         name:    "Music and Theater Arts",
+   //     hassd: true,
         hasData: true
     },
     {    number:    "21W",
         name:    "Writing and Humanistic Studies",
+     //   hassd: true,
         hasData: true
     },
     {    number:    "22",
@@ -103,36 +127,45 @@ var courses = [
     },
     {   number: "24",
         name:   "Linguistics and Philosophy",
+       // hassd: true,
         hasData: true
     },
     {   number: "CMS",
         name:   "Comparative Media Studies",
+ //       hassd: true,
         hasData: true
     },
     {   number: "ESD",
         name:   "Engineering Systems Division",
+   //     hassd: false,
         hasData: true
     },
     {   number: "HST",
         name:   "Health Sciences and Technology",
+     //   hassd: false,
         hasData: true
     },
     {   number:  "MAS",
         name:    "Media Arts and Sciences (Media Lab)",
+       // hassd: true,
         hasData: true
     },
     {   number:  "STS",
         name:    "Science, Technology, and Society",
+  //      hassd: true,
         hasData: true
     },
     {   number:  "SP",
 	    name:	 "Special Programs",
+    //    hassd: true,
 	    hasData:  true
     },
+/*
     {   number:  "hass_d",
         name:    "HASS D",
         hasData: true
     }
+*/
 ];
 
 var colorTable = [
@@ -228,7 +261,9 @@ var girData = {
 /* PersistentData object: stores functionality to deal with persistent
  * data in a cleaner way.
  */
+/*
 var PersistentData = {};
+
 PersistentData.readCookie = function(name) {
     var start = document.cookie.indexOf(name + '=');
     if (start != -1) {
@@ -243,10 +278,11 @@ PersistentData.readCookie = function(name) {
     }
     return '';
 }
-
+*/
 /**
  * Returns an Exhibit.Set of the requested stored data
  */
+/*
 PersistentData.stored = function(name) {
     var sections;
     
@@ -263,5 +299,4 @@ PersistentData.stored = function(name) {
 
 	return sections;
 }
-
-
+*/
