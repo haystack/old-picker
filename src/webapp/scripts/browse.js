@@ -78,59 +78,83 @@ function onLoadHelper() {
         var pickedClasses = new Exhibit.Collection("picked-classes", window.database);
         pickedSections._update = function() {
             this._items = this._database.getSubjects("true", "picked");
+            // defined in enableUnitAdder()
             this._onRootItemsChanged();
         };
 		pickedClasses._update = function() {
 		    this._items = this._database.getSubjects("true", "sectionPicked");
 		    this._onRootItemsChanged();
 		};
-
         pickedSections._update();
         pickedClasses._update();
 
         window.exhibit = Exhibit.create();
+
         window.exhibit.setCollection("picked-sections", pickedSections);
         window.exhibit.setCollection("picked-classes", pickedClasses);
-        //check for cookies needs to be here so that picked classes are loaded before the GUI is loaded
-        //if picked classes (and sections) are not loaded before GUI loading, then the add/remove buttons
-        //will not display correctly 
-        checkForCookies();
+
+        // loads picked classes
+        //checkForCookies();
+        updateExhibitSections();
         window.exhibit.configureFromDOM();
         enableMiniTimegrid();
-        enableUnitAdder();
+        enableUnitAdderListener();
         fillAddMoreSelect();
         enableClassList();
+        pickedSections._update();
     };
     loadURLs(urls, fDone);
 }
 
 // Adds each data file that needs to be loaded to urls
 // Marks each course loaded
-function addCourses(courseIDs, urls) { 
-    var coursesString = courseIDs.join(";");
-	if (coursesString != "" && coursesString != null) {
-        // NOTE, 2010FA is Fall of 2009-2010 school year. 2009FA is NOT correct.
-        urls.push('http://coursews.mit.edu/coursews/?term=2012FA&courses=' + coursesString);
+function addCourses(courseIDs, urls) {
+    var hass_d = hass_dSetup(courseIDs);
+
+    if (courseIDs.length > 0 ) {
+        urls.push('http://coursews.mit.edu/coursews/?term=2011FA&courses=' + courseIDs.join(';'));
+        
+        for (var i = 0; i < courseIDs.length; i++) {
+            var courseID = courseIDs[i];
+            if (!isLoaded(courseID)) {
+                addStaticURLs(courseID, urls);
+                markLoaded(courseID);
+            }
+        }
+    }
+    // Load data for HASS courses
+    if (hass_d) {
+        urls.push('http://coursews.mit.edu/coursews/?term=2011FA&hassd_only=y');
+        for (var j=0; j < courses.length; j++) {
+            var course = courses[j];
+            if (!isLoaded(course.number) && course.hass_d) {
+                addStaticURLs(course.number, urls);
+            }
+        }
+    }
+}
+
+function addStaticURLs(courseID, urls) {
+    if (courseID != '' && courseID != "hass_d") {
+	    urls.push("data/spring-fall/textbook-data/" + courseID + ".json");
+		
+		// files representing data unavailable from data warehouse
+	    // urls.push("data/spring-fall/scraped-data/" + courseID + ".json");
+	    
+		if (courseID == "6") {
+			urls.push("data/tqe.json");
+			urls.push("data/hkn.json");
+		}
 	}
-	
-	for (var c = 0; c < courseIDs.length; c++) {
-		var courseID = courseIDs[c];
-    	if (!isLoaded(courseID) && courseID != '') {
-    	    if (courseID != "hass_d") {
-    		    urls.push("data/spring-fall/textbook-data/" + courseID + ".json");
-		    }
-    		
-    		// files representing data unavailable from data warehouse
-    	    urls.push("data/spring-fall/scraped-data/" + courseID + ".json");
-    	    urls.push("data/spring-fall/wtw-data/" + courseID + ".json");
-    	    
-    		if (courseID == "6") {
-    			urls.push("data/tqe.json");
-    			urls.push("data/hkn.json");
-    		}
-    		markLoaded(courseID);
-    	}
-	}
+}
+
+function hass_dSetup(courseIDs) {
+    var hass_d = false;
+    while (courseIDs.indexOf('hass_d') != -1) {
+        hass_d = true;
+        courseIDs.splice(courseIDs.indexOf('hass_d'), 1);
+    }
+    return hass_d;
 }
 
 function markLoaded(courseID) {
@@ -156,21 +180,20 @@ function isLoaded(courseID) {
  */
 
 // Loads picked classes from cookies and from MySQL db
+// Doesn't work when there are no classes in cookie
 function savedPickedClasses() {
-    var pickedClasses = PersistentData.stored('picked-classes').toArray();
-    var mysqlPickedClasses;
+    var pickedClasses = getExhibitSet('picked-classes').toArray();
     var userID = window.database.getObject('user', 'userid');
     if (userID != null) {
-        $.ajaxSetup({async:false});
-        $.post("data/user.php",
-            { "userid" : userID,
-              "getPickedClasses" : true
-              },
-            function(classesJSON) {
-                mysqlPickedClasses = JSON.parse(classesJSON);
-            });
-        $.ajaxSetup({async:true});
-        pickedClasses = pickedClasses.concat(mysqlPickedClasses);
+        $.ajax({ type: 'POST',
+                url: 'data/user.php',
+                data: { 'userid' : userID, 'getPickedClasses' : true},
+                async: false,
+                dataType: 'json',
+                success: function(mysqlClasses) {
+                    pickedClasses = pickedClasses.concat(mysqlClasses);
+                }
+        });
     }
     return pickedClasses;
 }
@@ -214,9 +237,7 @@ function setupLogin() {
 }
 
 function toggleLogin(login) {
-    var exDate = new Date();
-    exDate.setDate(exDate.getDate() + 7);
-    document.cookie = 'loggedIn='+login+'; expires='+exDate+'; path=/';
+    writeCookie('loggedIn', login);
 }
 
 /*==================================================
