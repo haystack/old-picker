@@ -112,7 +112,7 @@ function addCourses(courseIDs, urls) {
     var hass_d = hass_dSetup(courseIDs);
 
     if (courseIDs.length > 0 ) {
-        urls.push('http://coursews.mit.edu/coursews/?term=2011FA&courses=' + courseIDs.join(';'));
+        urls.push('http://coursews.mit.edu/coursews/?term=2012FA&courses=' + courseIDs.join(';'));
         
         for (var i = 0; i < courseIDs.length; i++) {
             var courseID = courseIDs[i];
