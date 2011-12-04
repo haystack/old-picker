@@ -112,12 +112,7 @@ function addCourses(courseIDs, urls) {
     var hass_d = hass_dSetup(courseIDs);
 
     if (courseIDs.length > 0 ) {
-        if (term == "spring") {
-            urls.push('http://coursews.mit.edu/coursews/?term=2012SP&courses=' + courseIDs.join(';'));
-        }
-        else {
-            urls.push('http://coursews.mit.edu/coursews/?term=2012FA&courses=' + courseIDs.join(';'));
-        }
+        urls.push('http://coursews.mit.edu/coursews/?term=2012'+term+'&courses=' + courseIDs.join(';'));
         for (var i = 0; i < courseIDs.length; i++) {
             var courseID = courseIDs[i];
             if (!isLoaded(courseID)) {
@@ -128,7 +123,7 @@ function addCourses(courseIDs, urls) {
     }
     // Load data for HASS courses
     if (hass_d) {
-        urls.push('http://coursews.mit.edu/coursews/?term=2011FA&hassd_only=y');
+        urls.push('http://coursews.mit.edu/coursews/?term=2012'+term+'&hassd_only=y');
         for (var j=0; j < courses.length; j++) {
             var course = courses[j];
             if (!isLoaded(course.number)) {
