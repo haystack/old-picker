@@ -112,8 +112,12 @@ function addCourses(courseIDs, urls) {
     var hass_d = hass_dSetup(courseIDs);
 
     if (courseIDs.length > 0 ) {
-        urls.push('http://coursews.mit.edu/coursews/?term=2012FA&courses=' + courseIDs.join(';'));
-        
+        if (term == "spring") {
+            urls.push('http://coursews.mit.edu/coursews/?term=2012SP&courses=' + courseIDs.join(';'));
+        }
+        else {
+            urls.push('http://coursews.mit.edu/coursews/?term=2012FA&courses=' + courseIDs.join(';'));
+        }
         for (var i = 0; i < courseIDs.length; i++) {
             var courseID = courseIDs[i];
             if (!isLoaded(courseID)) {

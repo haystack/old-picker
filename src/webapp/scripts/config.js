@@ -1,4 +1,4 @@
-var term = "fall";
+var term = "spring";
 
 var courses = [
     {   number: "1",
@@ -61,6 +61,10 @@ var courses = [
   //      hassd: false,
         hasData: true
     },
+    {   number: "13",
+        name: "Ocean Engineering",
+        hasData: true
+    },
     {   number: "14",
         name:   "Economics",
     //    hassd: true,
@@ -121,6 +125,10 @@ var courses = [
      //   hassd: true,
         hasData: true
     },
+    {   number: "WGS",
+        name: "Women's and Gender Studies",
+        hasData: true
+    },
     {    number:    "22",
         name:    "Nuclear Science and Engineering",
         hasData: true
@@ -130,9 +138,25 @@ var courses = [
        // hassd: true,
         hasData: true
     },
+    {    number:    "CC",
+        name:    "Concourse",
+        hasData: true
+    },
     {   number: "CMS",
         name:   "Comparative Media Studies",
  //       hassd: true,
+        hasData: true
+    },
+    {    number:    "CSB",
+        name:    "Computational and Systems Biology",
+        hasData: true
+    },
+    {    number:    "EC",
+        name:    "Edgerton Center",
+        hasData: true
+    },
+    {    number:    "ES",
+        name:    "Experimental Study Group",
         hasData: true
     },
     {   number: "ESD",
@@ -150,9 +174,25 @@ var courses = [
        // hassd: true,
         hasData: true
     },
+    {    number:    "AS",
+        name:    "ROTC - Aerospace Studies",
+        hasData: true
+    },
+    {    number:    "MS",
+        name:    "ROTC - Military Science",
+        hasData: true
+    },
+    {    number:    "NS",
+        name:    "ROTC - Naval Science",
+        hasData: true
+    },
     {   number:  "STS",
         name:    "Science, Technology, and Society",
   //      hassd: true,
+        hasData: true
+    },
+    {    number:    "SWE",
+        name:    "Engineering School-Wide Electives",
         hasData: true
     },
     {   number:  "SP",
