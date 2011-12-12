@@ -26,12 +26,13 @@ function enableClassList() {
             updateStoredDataFromExhibit();
             
             // blurb to update pre-registration div - only active at certain times
-            /*
+            
             if (classes.size() > 0) {
                 var div = document.getElementById('pre-register');
-                var text = ['<input type="button" onclick="document.location=\'http://student.mit.edu/ent/cgi-bin/sfprwtrm.sh?'];
+                var text = ['<input type="button" onclick="document.location=\'https://student.mit.edu/cgi-bin/sfprwtrm.sh?'];
                 text.push(classes.toArray().join(","));
                 text.push('\'" value="Pre-register these classes"/>');
+/** Not sure why this was all here
                 var text = ['<form method=post action="http://student.mit.edu/catalog/prereg_message.cgi">'];
                 classes.visit(function(classID) {
                     text.push('<input type="hidden" name="STATUS" value="Add">'
@@ -41,10 +42,9 @@ function enableClassList() {
                                 + '<input type="hidden" name="LP" value="">');
                 });
                 text.push('<INPUT TYPE="submit" VALUE="Pre-register these classes"></FORM>');
-            
+            **/
                 div.innerHTML = text.join('');
             }
-*/
         }
     });
     
