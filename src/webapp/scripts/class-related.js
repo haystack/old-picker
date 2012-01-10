@@ -32,17 +32,6 @@ function enableClassList() {
                 var text = ['<input type="button" onclick="document.location=\'https://student.mit.edu/cgi-bin/sfprwtrm.sh?'];
                 text.push(classes.toArray().join(","));
                 text.push('\'" value="Pre-register these classes"/>');
-/** Not sure why this was all here
-                var text = ['<form method=post action="http://student.mit.edu/catalog/prereg_message.cgi">'];
-                classes.visit(function(classID) {
-                    text.push('<input type="hidden" name="STATUS" value="Add">'
-                                + '<input type="hidden" name="SUBJECT" value="' + classID + '">'
-                                + '<input type="hidden" name="UNIT" value="">'
-                                + '<input type="hidden" name="TITLE" value="">'
-                                + '<input type="hidden" name="LP" value="">');
-                });
-                text.push('<INPUT TYPE="submit" VALUE="Pre-register these classes"></FORM>');
-            **/
                 div.innerHTML = text.join('');
             }
         }
@@ -53,7 +42,7 @@ function enableClassList() {
 function submitBooksQuery() {
     window.location = getBooksURL();
 }
-
+/**
 function getBooksURL() {
     var classes = window.exhibit.getCollection("picked-classes").getRestrictedItems();
     var classIDs = [];
@@ -63,49 +52,24 @@ function getBooksURL() {
     var classIDsText = classIDs.join(",");
     return 'http://www.bookspicker.com/#search?q=' + classIDsText + '&bundle=' + classIDsText;
 }
+**/
 
-// updates cookies AND pushes updates to database.
-/*
-function updateCookies() {
-    var exDate = new Date();
-    exDate.setDate(exDate.getDate() + 7); // default expiration in a week
-    
-    var sections = window.exhibit.getCollection("picked-sections").getRestrictedItems();
+function getBooksURL() {
     var classes = window.exhibit.getCollection("picked-classes").getRestrictedItems();
-    
-    document.cookie = 'picked-sections='+sections.toArray()+'; expires='+exDate+'; path=/';
-    document.cookie = 'picked-classes='+classes.toArray()+'; expires='+exDate+'; path-/';
-    
-    if (window.database.getObject('user', 'userid') != null) {
-		$.post("./scripts/post.php",
-			{ userid: window.database.getObject('user', 'userid'),
-			  pickedsections: sections.toArray().join(','),
-			  pickedclasses: classes.toArray().join(',')
-			  });
-    }
+    var db = window.exhibit.getDatabase();
+    var isbns = [];
+    classes.visit(function(classID) {
+        var books = db.getSubjects(classID, "class-textbook-of");
+        books.visit(function(bookID) {
+            isbn = db.getObject(bookID, "isbn");
+            // "0393925161 (pbk.)" to "0393925161"
+            isbn = isbn.split(' ')[0];
+            isbns.push(isbn);
+            });
+        });
+    var isbnText = isbns.join(',');
+    return 'http://bookspicker.com/#search?bundle='+isbnText+',&q='+isbnText+',';
 }
-*/
-
-// Updates Exhibit collection of picked sections using cookies 
-// and, if logged in MySQL data
-/*
-function checkForCookies() {
-	var sections = PersistentData.stored('picked-sections');
-    var mysqlSections = new Exhibit.Set(getStoredSections());
-    sections.addSet(mysqlSections);
-
-	sections.visit(
-		function(sectionID) {
-			if (sectionID.length == 0 || window.database.containsItem(sectionID) == false)
-				return;
-			window.database.addStatement(sectionID, "picked", "true");
-			window.database.addStatement(sectionID, "color", getNewColor());
-		});
-
-	window.exhibit.getCollection("picked-sections")._update();
-    updateCookies();
-}
-*/
 
 function getStoredSections() {
     var mysqlSections;
