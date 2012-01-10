@@ -39,7 +39,7 @@
     <body onload="onLoad();" ex:bubbleWidth="600">
         <div id="title"><table width="100%" cellpadding="0" cellspacing="0"><tr>
             <td>
-                <h1><a href="index.html">MIT Course Picker (beta)</a> <i>Fall 2011 Edition</i></h1>
+                <h1><a href="index.html">MIT Course Picker (beta)</a> <i>Spring 2012 Edition</i></h1>
 
                 <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
                     <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
@@ -192,8 +192,6 @@
             </div>
 
 			<div id="pre-register" style="text-align:center"></div>
-		    <div id="bookspicker-button">Find your textbooks using <a href="javascript{}" onClick="submitBooksQuery();"/>Bookspicker</a></div> 
-
 
 			<div id="textbook-list"
 				ex:role="view"
@@ -203,12 +201,16 @@
 					if(exists(!class-textbook-of), !class-textbook-of.label, '')"
 				ex:columnLabels=", Book list"
 				ex:columnFormats="text, list"
-				ex:border="1"
+				ex:border="0"
 				ex:cellPadding="1"
 				ex:grouped="false"
 				ex:collectionID="picked-classes"
 				ex:showToolbox="false">
 			</div>
+
+		    <div id="bookspicker-button">
+            <a href="javascript:void(0)"><img src="images/bookspicker_button.jpg" onClick="submitBooksQuery();"></a>
+            </div> 
 
             <div id="no-picked-classes">No Classes Picked.</div>
             <p style="color: #800; margin: 1em; font-size: 80%;">
