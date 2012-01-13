@@ -103,7 +103,7 @@ function onLoadHelper() {
         enableClassList();
         pickedSections._update();
     };
-    loadURLs(urls, fDone);
+    loadURLs(urls, fDone, null);
 }
 
 // Adds each data file that needs to be loaded to urls
@@ -133,13 +133,16 @@ function addCourses(courseIDs, urls) {
     }
 }
 
+function addClass(aClass, urls) {
+    var course = aClass.split('.')[0];
+    urls.push('http://coursews.mit.edu/coursews/?term=2012'+term+'&courses=' + course);
+    addStaticURLs(course, urls);
+}
+
 function addStaticURLs(courseID, urls) {
     if (courseID != '' && courseID != "hass_d") {
 	    urls.push("data/spring-fall/textbook-data/" + courseID + ".json");
-		
-		// files representing data unavailable from data warehouse
-	    // urls.push("data/spring-fall/scraped-data/" + courseID + ".json");
-	    
+
 		if (courseID == "6") {
 			urls.push("data/tqe.json");
 			urls.push("data/hkn.json");
@@ -250,12 +253,20 @@ function loadMoreClass(button) {
     loadSingleCourse(course);
 }
 
+// To add a single class; used for cross-listed classes
+// Ex. if user loads course 18 classes, also load 6.046, 6.042, etc.
+function loadSingleClass(aClass) {
+    var urls = [];
+    addClass(aClass, urls);
+    SimileAjax.WindowManager.cancelPopups();
+    loadURLs(urls, function(){}, aClass);
+}
+
 function loadSingleCourse(course) {
     var urls = [];
     addCourses([course], urls);
-
     SimileAjax.WindowManager.cancelPopups();
-    loadURLs(urls, function(){});
+    loadURLs(urls, function(){}, null);
 }
 
 function fillAddMoreSelect() {
@@ -293,10 +304,12 @@ function onAddMoreSelectChange() {
         SimileAjax.WindowManager.cancelPopups();
         
         Exhibit.UI.showBusyIndicator();
+
         loadURLs(urls, function(){ 
-            Exhibit.UI.hideBusyIndicator();
-            fillAddMoreSelect(); 
-        });
+                Exhibit.UI.hideBusyIndicator();
+                fillAddMoreSelect(); 
+            },
+            null);
     }
 }
 
