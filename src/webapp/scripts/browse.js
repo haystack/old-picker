@@ -16,9 +16,13 @@ function possiblyLog(obj) {
         (typeof SimileAjax.RemoteLog == "object") && 
         (typeof SimileAjax.RemoteLog.possiblyLog == 'function')
     ) {
+        SimileAjax.Debug.log(obj);
         SimileAjax.RemoteLog.possiblyLog(obj);
     }
 }
+
+/**
+I don't think this is used anywhere
 
 Exhibit.Functions["building"] = {
     f: function(args) {
@@ -30,6 +34,8 @@ Exhibit.Functions["building"] = {
         return new Exhibit.Expression._Collection([ building ],  "text");
     }
 };
+
+**/
 
 /*==================================================
  * Initialization
@@ -59,12 +65,12 @@ function onLoad() {
 function onLoadHelper() {
 
     var urls = ["data/schema.js"];
-    var courseIDs = coursesFromURI();
+    var selected = coursesFromURI();
     // pulls picked classes from cookie and MySQL
 	var picked_classes = savedPickedClasses();
-    // maps ["14.03", "22.01"] to ["14", "22"]
-    var pickedCourses = picked_classes.map(function(elt) { return elt.split('.')[0]; });
-    courseIDs = courseIDs.concat(courseIDs, pickedCourses);
+    // changes classes to courses and removes duplicates
+    // ["6.01", "14.02", "6", "8"] -> ["6", "14", "8"]
+    var courseIDs = classesToCourses(picked_classes.concat(selected));
     addCourses(courseIDs, urls);
 
     var fDone = function() {
@@ -94,7 +100,6 @@ function onLoadHelper() {
         window.exhibit.setCollection("picked-classes", pickedClasses);
 
         // loads picked classes
-        //checkForCookies();
         updateExhibitSections();
         window.exhibit.configureFromDOM();
         enableMiniTimegrid();
@@ -109,16 +114,25 @@ function onLoadHelper() {
 // Adds each data file that needs to be loaded to urls
 // Marks each course loaded
 function addCourses(courseIDs, urls) {
+    // returns true or false, removes "hass_d" from list of courses
     var hass_d = hass_dSetup(courseIDs);
-
+    var regularCourses = [];
     if (courseIDs.length > 0 ) {
-        urls.push('http://coursews.mit.edu/coursews/?term=2012'+term+'&courses=' + courseIDs.join(';'));
-        for (var i = 0; i < courseIDs.length; i++) {
-            var courseID = courseIDs[i];
-            if (!isLoaded(courseID)) {
-                addStaticURLs(courseID, urls);
-                markLoaded(courseID);
+        for (var i =0; i< courses.length; i++) {
+            var course = courses[i];
+            if (!course.loaded && courseIDs.indexOf(course.number) != -1) {
+                if (course.interdepartmental) {
+                    urls.push('data/spring-fall/interdepartmental-courses/'+course.number+'.json');
+                }
+                else {
+                    addStaticURLs(course.number, urls);
+                    regularCourses.push(course.number);
+                }
+                course.loaded = true;
             }
+        }
+        if (regularCourses.length >0) {
+            urls.push('http://coursews.mit.edu/coursews/?term=2012'+term+'&courses=' + regularCourses.join(';'));
         }
     }
     // Load data for HASS courses
@@ -133,16 +147,17 @@ function addCourses(courseIDs, urls) {
     }
 }
 
-function addClass(aClass, urls) {
-    var course = aClass.split('.')[0];
-    urls.push('http://coursews.mit.edu/coursews/?term=2012'+term+'&courses=' + course);
-    addStaticURLs(course, urls);
+// Like addCourses but for only adding individual classes
+function addClass(courseIDs, urls) {
+    urls.push('http://coursews.mit.edu/coursews/?term=2012'+term+'&courses=' + courseIDs.join(';'));
+    for (var i=0; i < courseIDs.length; i++) {
+        addStaticURLs(courseIDs[i], urls);
+    }
 }
 
 function addStaticURLs(courseID, urls) {
     if (courseID != '' && courseID != "hass_d") {
 	    urls.push("data/spring-fall/textbook-data/" + courseID + ".json");
-
 		if (courseID == "6") {
 			urls.push("data/tqe.json");
 			urls.push("data/hkn.json");
@@ -176,7 +191,6 @@ function isLoaded(courseID) {
             return course.loaded ? true : false;
     }
 }
-
 /*
  * Helper functions for onLoad()
  */
@@ -208,6 +222,17 @@ function coursesFromURI() {
         courseIDs = decodedCourses.split(";");
     }
     return courseIDs;
+}
+
+function classesToCourses(classList) {
+    var courses = [];
+    for (var i=0; i<classList.length; i++) {
+        var course = classList[i].split('.')[0];
+        if (courses.indexOf(course) == -1) {
+            courses.push(course);
+        }
+    }
+    return courses;
 }
 
 /** When protocol is https on an MIT server, certificates are automatically authenticated.
@@ -253,13 +278,14 @@ function loadMoreClass(button) {
     loadSingleCourse(course);
 }
 
-// To add a single class; used for cross-listed classes
-// Ex. if user loads course 18 classes, also load 6.046, 6.042, etc.
-function loadSingleClass(aClass) {
+// To add several individual classes, used for cross-listed classes
+// Ex. if user loads Course 18, also load 6.046, 2.062, 6.042, etc.
+function loadIndividualClasses(classList) {
     var urls = [];
-    addClass(aClass, urls);
+    var courses = classesToCourses(classList);
+    addClass(courses, urls);
     SimileAjax.WindowManager.cancelPopups();
-    loadURLs(urls, function(){}, aClass);
+    loadURLs(urls, function(){}, classList);
 }
 
 function loadSingleCourse(course) {
@@ -280,7 +306,7 @@ function fillAddMoreSelect() {
     select.appendChild(option);
     for (var i = 0; i < courses.length; i++) {
         var course = courses[i];
-        if (course.hasData && !(course.loaded)) {
+        if (!(course.loaded)) {
             var label = course.number + " " + course.name;
             option = document.createElement("option");
             option.value = course.number;
