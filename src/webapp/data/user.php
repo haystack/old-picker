@@ -94,56 +94,6 @@ if (isset($userid)) {
 	$arr = '{"type":"UserData","label":"user",
 			"athena":"' . $athena . '","userid":"' . $userid . '"}';
 	$items = array($arr);
-	/* Replace with POST handling
-	// populate picked-sections - use $picked to store section data
- 	$result = mysql_query("SELECT s_sectionid FROM sections WHERE s_userid=$userid;");
-	$arr = array();
- 	while ($row = mysql_fetch_row($result)) {
- 		$arr[] = '"' . $row[0] . '"';
- 	}
-	$items[] = '{"type":"UserData","label":"picked-sections",
-		"list":[' . implode(",", $arr) . ']}';
-	
-	
-	// populate schedule-list (official picked-classes done by listener)
-	$result = mysql_query("SELECT c_classid FROM classes WHERE c_userid=$userid;");
-	$arr = array();
-	$picked = array();
-	while ($row = mysql_fetch_row($result)) {
-		$picked[] = '(' . $row[0] . ')';
-		$arr[] = '"' . $row[0] . '"';
-	}
-	$items[] = '{"type":"UserData","label":"picked-classes",
-		"list":[' . implode(",", $arr) . ']}';
-    */
-		/*
-	if(count($picked) > 0) {
-		// pull information from coursews (previously: mapws) based on picked-sections and picked-classes
-		$content = file_get_contents('http://coursews.mit.edu/coursews/?term=2012FA&courses=6');
-		if ($content != false) {
-			$content = preg_replace('/{"items": \[/', '', $content);
-			$content = explode(",\n" , $content);
-	
-			$picked = preg_replace('/\./', '\\\.', $picked);
-			
-			// $arr uses $picked to fill the grep pattern to sele
-			$arr = preg_grep('/' . implode('|', $picked) . '/', $content);
-			
-			// duplicates functionality of processPrereqs
-			$arr = preg_replace('/LectureSession",\s+"label":"L(\d+\.\d+)",\s+"section/',
-				'LectureSection", "label":"L$1", "lecture-section', $arr);
-			$arr = preg_replace('/RecitationSession",\s+"label":"R(\d+\.\d+)",\s+"section/',
-				'RecitationSection", "label":"R$1", "rec-section', $arr);
-			$arr = preg_replace('/LabSession",\s+"label":"B(\d+\.\d+)",\s+"section/',
-				'LabSection", "label":"B$1", "lab-section', $arr);
-			$arr = preg_replace('/"offering":"Y"/', '"offering":"Currently Offered"', $arr);
-			
-			$items = array_merge($items, $arr);
-		} else {
-			echo 'read of coursews file failed';
-		}
-	}*/
-
 
 	// pull user's ratings
 	$result = mysql_query("SELECT r_classid, r_rating FROM ratings
