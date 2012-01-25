@@ -25,8 +25,7 @@ function enableClassList() {
             
             updateStoredDataFromExhibit();
             
-            // blurb to update pre-registration div - only active at certain times
-            
+            // blurb to update pre-registration div - only active at certain times            
             if (classes.size() > 0) {
                 var div = document.getElementById('pre-register');
                 var text = ['<input type="button" onclick="document.location=\'https://student.mit.edu/cgi-bin/sfprwtrm.sh?'];
@@ -35,26 +34,10 @@ function enableClassList() {
                 div.innerHTML = text.join('');
             }
         }
-    });
-    
+    });   
 }
 
 function submitBooksQuery() {
-    window.location = getBooksURL();
-}
-/**
-function getBooksURL() {
-    var classes = window.exhibit.getCollection("picked-classes").getRestrictedItems();
-    var classIDs = [];
-    classes.visit(function(classID) {
-            classIDs.push(classID);
-        });
-    var classIDsText = classIDs.join(",");
-    return 'http://www.bookspicker.com/#search?q=' + classIDsText + '&bundle=' + classIDsText;
-}
-**/
-
-function getBooksURL() {
     var classes = window.exhibit.getCollection("picked-classes").getRestrictedItems();
     var db = window.exhibit.getDatabase();
     var isbns = [];
@@ -68,7 +51,8 @@ function getBooksURL() {
             });
         });
     var isbnText = isbns.join(',');
-    return 'http://bookspicker.com/#search?bundle='+isbnText+',&q='+isbnText+',';
+    window.location = 'http://bookspicker.com/#search?bundle='+isbnText+',&q='+isbnText+',';
+    return;
 }
 
 function getStoredSections() {
