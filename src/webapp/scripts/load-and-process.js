@@ -1,12 +1,10 @@
 // Formerly part of browse.js
 // Look there for svn history
 
-function loadURLs(urls, fDone, singleClass) {
-//function loadURLs(urls, fDone) {
+function loadURLs(urls, fDone, individualClasses) {
     var fNext = function() {
         if (urls.length > 0) {
             var url = urls.shift();
-
             if (url.search(/http/) == 0) {
                 // For coursews data
             	Exhibit.importers["application/jsonp"].load(
@@ -14,7 +12,7 @@ function loadURLs(urls, fDone, singleClass) {
                         window.database, 
                         fNext, 
                         function(json) {
-                            return processOfficialData(json, singleClass);
+                            return processOfficialData(json, individualClasses);
                         });
             } else {
             	loadStaticData(url, window.database, fNext);
@@ -26,16 +24,15 @@ function loadURLs(urls, fDone, singleClass) {
     fNext();
 }
 
-function processOfficialData(json, singleClass) {
+function processOfficialData(json, individualClasses) {
     var items = json.items;
-
-    // If singleClass exists, we are here loading only the one class
+    // If individualClasses exists, we are here loading only the one class
     // that is the "master class" of a cross-listed class
-    if (singleClass) {
+    if (individualClasses) {
         var classes = [];
         for (var i=0; i < items.length; i++) {
             var item = items[i];
-            if (singleClass == item.id || singleClass == item['section-of']) {
+            if (individualClasses.indexOf(item.id) != -1 || individualClasses.indexOf(item['section-of']) != -1) {
                 classes.push(item);
             }
         }
@@ -48,6 +45,7 @@ function processOfficialData(json, singleClass) {
     
     // Otherwise, we are loading all the classes in a course
     else {
+        var crossListedClasses = [];
         for (var i = 0; i < items.length; i++) {
             var item = items[i];
             // If true this is a cross-listed class, and this is not the "master" class
@@ -55,7 +53,7 @@ function processOfficialData(json, singleClass) {
             if ('master_subject_id' in item && item.id != item.master_subject_id) {
                 var course = item.master_subject_id.split('.')[0];
                 if (!isLoaded(course)) {
-                    loadSingleClass(item.master_subject_id);
+                    crossListedClasses.push(item.master_subject_id);
                 }
                 // Once both 18.062 and 6.042 are loaded, they will be merged as one class with two courses ["6", "18"]
                 items[i] = {"id":item.master_subject_id, "course":item.course, "label":item.label, "type":item.type};
@@ -64,6 +62,9 @@ function processOfficialData(json, singleClass) {
             else {
                 processOfficialDataItem(item);
             }
+        }
+        if (crossListedClasses.length >0) {
+            loadIndividualClasses(crossListedClasses);
         }
     }
     return json;
@@ -82,9 +83,7 @@ function processOfficialDataItem(item) {
             delete item[attribute];
         }
     }
-
-    if (term == 'iap') { }
-    else if (term == 'FA') {
+    if (term == 'FA') {
         item.Instructor = item.fall_instructors;
     } 
     else {
@@ -188,6 +187,9 @@ function loadStaticData(link, database, cont) {
         Exhibit.UI.hideBusyIndicator();
         try {
             if (jsonObject != null) {
+                if (jsonObject.items && jsonObject.items[0] && jsonObject.items[0].type == "Class") {
+                    jsonObject = processOfficialData(jsonObject, null);
+                }
                 database.loadData(jsonObject, Exhibit.Persistence.getBaseURL(url));
             }
         } catch (error) {
