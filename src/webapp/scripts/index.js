@@ -27,21 +27,22 @@ function onLoad() {
             td0.align = "right";
             
             var td1 = tr.insertCell(c * 3 + 1);
-            td1.innerHTML = "<input type='checkbox' " + (course.hasData ? "" : "disabled") + " name='course' id='c" + course.number + "'value='" + course.number + "' />";
+            td1.innerHTML = "<input type='checkbox' " + "" + " name='course' id='c" + course.number + "'value='" + course.number + "' />";
             
             var td2 = tr.insertCell(c * 3 + 2);
             td2.innerHTML = course.name;
             
-            if (course.hasData) {
-                installHandlers(td0, course.number);
-                installHandlers(td2, course.number);
-            };
-            
+            //if (course.hasData) {
+            installHandlers(td0, course.number);
+            installHandlers(td2, course.number);
+            //};
+            /*
             if (!course.hasData) {
-                td0.style.color = "#888";
-                td1.style.color = "#888";
-                td2.style.color = "#888";
+            td0.style.color = "#888";
+            td1.style.color = "#888";
+            td2.style.color = "#888";
             }
+*/
         }
     }
 }
