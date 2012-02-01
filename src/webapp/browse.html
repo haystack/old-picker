@@ -117,13 +117,14 @@
                             <hr/>
                             <div id="facets">
                                 <div ex:role="facet" ex:expression=".course" ex:facetLabel="Course &raquo;" id='course-facet' ex:collapsible="true" ex:height="8em" ex:sortmode="count"></div>
-                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="Semester &raquo;" id='semester-facet' ex:selection="Spring" ex:collapsible="true" ex:height="7em"></div>
                                 <div ex:role="facet" ex:expression=".level" ex:facetLabel="Level &raquo;" id='level-facet' ex:collapsible="true" ex:height="5em"></div>
-                                <div ex:role="facet" ex:expression=".hass_attribute" ex:facetLabel="HASS Category &raquo;" ex:collapsible="true" ex:showMissing='false'></div>
+                                <div ex:role="facet" ex:expression=".hass_attribute" ex:facetLabel="HASS Category &raquo;" ex:collapsible="true" ex:showMissing='false' ex:height="7em"></div>
+                                <div ex:role="facet" ex:expression=".semester" ex:facetLabel="Also Offered In &raquo;" id='semester-facet' ex:selection="Spring" ex:collapsible="true" ex:height="7em" ex:showMissing='false'></div>
                                 <div ex:role="facet" ex:expression=".TQE" ex:facetLabel="TQE &raquo;" id='tqe-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false" ex:height="5em"></div>
                                 <div ex:role="facet" ex:expression=".units" ex:facetLabel="Units &raquo;" id='units-facet' ex:collapsible="true" ex:collapsed="true"></div>
                                 <div ex:role="facet" ex:expression=".total-units" ex:facetLabel="Total Units &raquo;" id='total-units-facet' ex:collapsible="true" ex:collapsed="true"></div>
                                 <div ex:role="facet" ex:expression=".offering" ex:facetLabel="Offering &raquo;" id='offering-facet' ex:selection="Currently Offered" ex:collapsible="true" ex:collapsed="true" ex:height="5em"></div>
+
                             </div>
                             
                             <p style="margin-top: 3em; text-align: center;">
@@ -161,20 +162,20 @@
                 style="height:250px"></div>
             <div id="total-units"></div>
             <div ex:role="viewPanel">
-                <div ex:role="lens" ex:itemTypes="LectureSection" 
+                <div ex:role="lens" ex:itemTypes="LectureSession" 
                     class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
                     <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
                     <span ex:content=".lecture-section-of"></span> -
                     <span ex:content=".lecture-section-of.label"></span> (lectures)
                 </div>
 
-                <div ex:role="lens" ex:itemTypes="RecitationSection" 
+                <div ex:role="lens" ex:itemTypes="RecitationSession" 
                     class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
                     <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
                     <span ex:content=".rec-section-of"></span> -
                     <span ex:content=".rec-section-of.label"></span> (rec)
                 </div>
-                <div ex:role="lens" ex:itemTypes="LabSection" 
+                <div ex:role="lens" ex:itemTypes="LabSession" 
                     class="preview-class-lens" ex:background-style-content=".color" style="display: none;">
                     <button ex:sectionID-content="value" onclick="onUnpick(this);" class="remove-preview">X</button>
                     <span ex:content=".lab-section-of"></span> -
