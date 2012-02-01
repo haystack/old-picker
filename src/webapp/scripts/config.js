@@ -26,6 +26,11 @@ var courses = [
     {   number: "7",
         name:   "Biology"
     },
+    {
+        number: "PRE",
+        name: "Recommended premed classes",
+        interdepartmental: true
+    },
     {   number:  "8",
         name:    "Physics"
     },
@@ -114,10 +119,12 @@ var courses = [
     {   number:  "MAS",
         name:    "Media Arts and Sciences (Media Lab)"
     },
+/*
     {   number: "OR",
         name: "Operations Research",
         interdepartmental: true
     },
+*/
     {    number:    "AS",
         name:    "ROTC - Aerospace Studies"
     },
@@ -208,15 +215,15 @@ function releaseColor(c) {
 }
 
 var sectionTypeToData = {
-    "LectureSection": {
+    "LectureSession": {
         linkage:    "lecture-section-of",
         postfix:    "(lecture)"
     },
-    "RecitationSection": {
+    "RecitationSession": {
         linkage:    "rec-section-of",
         postfix:    "(rec)"
     },
-    "LabSection": {
+    "LabSession": {
         linkage:    "lab-section-of",
         postfix:    "(lab)"
     }
