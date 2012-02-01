@@ -14,12 +14,8 @@ function loadURLs(urls, fDone, individualClasses) {
                         function(json) {
                             return processOfficialData(json, individualClasses);
                         });
-            } else {
-            	loadStaticData(url, window.database, fNext);
-            }
-        } else {
-            fDone();
-        }
+            } else { loadStaticData(url, window.database, fNext); }
+        } else { fDone(); }
     };
     fNext();
 }
@@ -73,22 +69,15 @@ function processOfficialData(json, individualClasses) {
 
 
 function processOfficialDataItem(item) {
-
-    if ('prereqs' in item) {
-        item.prereqs = processPrereqs(item.prereqs);
-	}
+    if ('prereqs' in item) { item.prereqs = processPrereqs(item.prereqs); }
 
     for (attribute in item) {
-        if (item[attribute] == '') {
-            delete item[attribute];
-        }
+        if (item[attribute] == '') { delete item[attribute]; }
     }
-    if (term == 'FA') {
-        item.Instructor = item.fall_instructors;
-    } 
-    else {
-        item.Instructor = item.spring_instructors;
-    }
+
+    if (term == 'FA') { item.Instructor = item.fall_instructors; } 
+    else { item.Instructor = item.spring_instructors; }
+
     if ('equivalent_subjects' in item) {
         item.equivalent_subjects = courseArrayToLinks(item.equivalent_subjects);
     }
@@ -104,21 +93,18 @@ function processOfficialDataItem(item) {
 	}
 
     if ('offering' in item) {
-        item.offering == 'Y'?item.offering = 'Currently Offered':item.offering = 'Not offered this year';
+        item.offering = ((item.offering == 'Y') ? "Currently Offered" : "Not Offered This Term");
     }
 
     if (item.type == 'LectureSession') {
-        item.type = 'LectureSection';
         item["lecture-section-of"] = item["section-of"];
         delete item["section-of"];
     }
-    if (item.type == 'RecitationSession') {
-        item.type = 'RecitationSection';
+    else if (item.type == 'RecitationSession') {
         item["rec-section-of"] = item["section-of"];
         delete item["section-of"];
     } 
-    if (item.type == 'LabSession') {
-        item.type = 'LabSection';
+    else if (item.type == 'LabSession') {
         item["lab-section-of"] = item["section-of"];
         delete item["section-of"];
     }
