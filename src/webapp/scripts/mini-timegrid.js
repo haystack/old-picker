@@ -49,6 +49,7 @@ function updateMiniTimegrid(preview, previewSectionID) {
         db.getObjects(sectionID, "timeAndPlace").visit(function(timeAndPlace) {
         	if (timeAndPlace.search(/arranged/) < 0) {
 			    var timePlaceArray = timeAndPlace.split(" ");
+                var sessions = [];
 			    // deals with EVE classes but ignores location changes
                 // EVE format: "W EVE (5-8.30 PM) 56-202" 
 			    if (timePlaceArray.length > 4 && timePlaceArray[1] == 'EVE') {
@@ -56,6 +57,7 @@ function updateMiniTimegrid(preview, previewSectionID) {
 				    var time = timePlaceArray[2].replace('(', '');
                     var startEnd = processTime(time, true);
 				    var room = timePlaceArray.length > 4 ? (" @ " + timePlaceArray[timePlaceArray.length - 1]) : "";
+                    sessions = [{'days':days, 'time':time, 'startEnd':startEnd, 'room':room}];
 			    } 
                 else {
                     // non-EVE format: "MWF9-10.30 56-114"
@@ -66,13 +68,16 @@ function updateMiniTimegrid(preview, previewSectionID) {
 					    var time = timeAndDay[t].substr(timeAndDay[t].search(/\d/));
                         var startEnd = processTime(time, false);
 					    var room = timePlaceArray.length > 1 ? (" @ " + timePlaceArray[timePlaceArray.length - 1]) : "";
+                        sessions.push({'days':days, 'time':time, 'startEnd':startEnd, 'room':room});
 				    }
-			    }               
-			    var start = Date.parseString(startEnd[0], 'H:mm');
-			    var end = startEnd.length > 1 ? Date.parseString(startEnd[1], 'H:mm') : start.clone().add('h', 1);
-			    for (var d = 0; d < days.length ; d++) {
-				    addEvent(classLabel + room + " " + sectionData.postfix, days.substr(d,1), start, end, color);
 			    }
+                for (var j=0; j<sessions.length; j++) {                               
+			        var start = Date.parseString(sessions[j].startEnd[0], 'H:mm');
+			        var end = sessions[j].startEnd.length > 1 ? Date.parseString(sessions[j].startEnd[1], 'H:mm') : start.clone().add('h', 1);
+			        for (var d = 0; d < sessions[j].days.length ; d++) {
+				        addEvent(classLabel + room + " " + sectionData.postfix, sessions[j].days.substr(d,1), start, end, color);
+			        }
+                }
 		    }
         });
     };
