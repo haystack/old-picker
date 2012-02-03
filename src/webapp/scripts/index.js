@@ -7,20 +7,16 @@ function onLoad() {
     };
     
     var table = document.getElementById("course-list");
-    var rowCount = Math.ceil(courses.length / 3);
+    var rowCount = Math.ceil((courses.length - 1) / 3);
     for (var r = 0; r < rowCount; r++) {
         var tr = table.insertRow(r);
         
         for (var c = 0; c < 3; c++) {
             var i = c * rowCount + r;
-            if (i >= courses.length) {
-                break;
-            }
+            if (i >= courses.length) { break; }
             
             var course = courses[i];
-            if (course.number == "hass_d") {
-                continue;
-            }
+            if (course.number == "hass_d") { continue; }
             
             var td0 = tr.insertCell(c * 3);
             td0.innerHTML = course.number;
@@ -32,17 +28,8 @@ function onLoad() {
             var td2 = tr.insertCell(c * 3 + 2);
             td2.innerHTML = course.name;
             
-            //if (course.hasData) {
             installHandlers(td0, course.number);
             installHandlers(td2, course.number);
-            //};
-            /*
-            if (!course.hasData) {
-            td0.style.color = "#888";
-            td1.style.color = "#888";
-            td2.style.color = "#888";
-            }
-*/
         }
     }
 }
