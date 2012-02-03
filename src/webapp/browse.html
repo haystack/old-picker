@@ -3,12 +3,14 @@
     <head>
         <title>MIT Course Picker (beta)</title>
         <script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js?autoCreate=false&log=true" type="text/javascript"></script> 
-	<!--	<script src="http://needle.csail.mit.edu/pickzibit/src/webapp/api/exhibit-api.js?autoCreate=false&log=true" type="text/javascript"></script> -->
         <script>
             window.jQuery = SimileAjax.jQuery;
             window.$ = SimileAjax.jQuery;
         </script>
+<!--
         <script src="http://static.simile.mit.edu/timegrid/api-1.0-alpha2/timegrid-api.js?autoCreate=false" type="text/javascript"></script>
+-->
+        <script src="timegrid/timegrid-api.js" type="text/javascript"></script>
 
         <script src="scripts/config.js" type="text/javascript"></script>
         <script src="scripts/browse.js" type="text/javascript"></script>
@@ -16,7 +18,7 @@
         <script src="scripts/mini-timegrid.js" type="text/javascript"></script>
         <script src="scripts/class-related.js" type="text/javascript"></script>
         <script src="scripts/user-data.js" type="text/javascript"></script>
-        <script src="scripts/favorites.js" type="text/javascript"></script>
+        <!--<script src="scripts/favorites.js" type="text/javascript"></script>-->
         <script src="scripts/section-picking.js" type="text/javascript"></script>
         <script src="scripts/panel-switching.js" type="text/javascript"></script>
         <script src="scripts/load-and-process.js" type="text/javascript"></script>
@@ -107,10 +109,10 @@
                         <td width="23%" style="background: #BFBDAC">
                             <p><select id="add-more-select" onchange="onAddMoreSelectChange();">add more courses</select>
                             </p>
-                            
+                            <!--
                             <p><input id="favorite-box" type="checkbox" onclick="processShowOnlyFavoriteClass(this);" /> show only favorites <img style="vertical-align: middle" src="images/yellow-star.png" />
                             </p>
-                            
+       -->                     
                             <b>Search</b>
 
                             <div ex:role="facet" ex:facetClass="TextSearch"></div>
@@ -231,7 +233,7 @@
         <!-- ==================== Class Lens ==================== -->
         <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class">
             <div class="course-title">
-                <img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />
+                <!--<img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />-->
 
                 <span ex:content=".semester" class="course-semester"></span>
 				
@@ -248,8 +250,8 @@
                     <div ex:content=".description" class="course-description"></div>
                     <div ex:class-content="if(exists(.Instructor), 'course-instructor', 'course-administrator')" ex:content="if(exists(.Instructor), .Instructor, .in-charge)"></div>
                     <div ex:if-exists=".prereqs" class="course-prereqs" style="display: block;">Prereqs: <span ex:content=".prereqs"></span></div>  
-                    
-        <div class="comments">
+                    <!--
+                    <div class="comments">
                     	<a href="#"
                     		ex:classid-content="value"
                     		onclick="userData.toggleComments(this);return false;">
@@ -285,6 +287,7 @@
 
 						</div>
                     </div>
+                    -->
                     
                     <div ex:if-exists="!lecture-section-of"><b>Lecture Sections:</b>
                         <div ex:content="!lecture-section-of">
