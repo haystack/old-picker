@@ -146,6 +146,10 @@ var courses = [
     {   number: "WGS",
         name: "Women's and Gender Studies"
     },
+    {   number: "hass_d",
+        name: "Hass Distribution"
+    }
+
 ];
 
 var colorTable = [
