@@ -140,9 +140,8 @@ function addCourses(courseIDs, urls) {
         urls.push('http://coursews.mit.edu/coursews/?term=2012'+term+'&hassd_only=y');
         for (var j=0; j < courses.length; j++) {
             var course = courses[j];
-            if (!isLoaded(course.number)) {
-                addStaticURLs(course.number, urls);
-            }
+            // loads static data for *all* courses
+            if (!course.loaded && !course.interdepartmental) { addStaticURLs(course.number, urls); }
         }
     }
 }
