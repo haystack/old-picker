@@ -53,7 +53,8 @@ Timegrid.getConfigFromDOM = function(elmt) {
 
 Timegrid.loadXML = function(url, f) {
     var fError = function(statusText, status, xmlhttp) {
-        alert(Timegrid.l10n.xmlErrorMessage + " " + url + "\n" + statusText);
+        //alert(Timegrid.l10n.xmlErrorMessage + " " + url + "\n" + statusText);
+        SimileAjax.Debug.log(Timegrid.l10n.xmlErrorMessage + " " + url + "\n" + statusText);
     };
     var fDone = function(xmlhttp) {
         var xml = xmlhttp.responseXML;
@@ -67,7 +68,8 @@ Timegrid.loadXML = function(url, f) {
 
 Timegrid.loadJSON = function(url, f) {
     var fError = function(statusText, status, xmlhttp) {
-        alert(Timegrid.l10n.jsonErrorMessage + " " + url + "\n" + statusText);
+        //alert(Timegrid.l10n.jsonErrorMessage + " " + url + "\n" + statusText);
+        SimileAjax.Debug.log(Timegrid.l10n.jsonErrorMessage + " " + url + "\n" + statusText);
     };
     var fDone = function(xmlhttp) {
         f(eval('(' + xmlhttp.responseText + ')'), url);
@@ -97,7 +99,8 @@ Timegrid._Impl.prototype.loadXML = function(url, f) {
     var tg = this;
 
     var fError = function(statusText, status, xmlhttp) {
-        alert(Timegrid.l10n.xmlErrorMessage + " " + url + "\n" + statusText);
+        //alert(Timegrid.l10n.xmlErrorMessage + " " + url + "\n" + statusText);
+        SimileAjax.Debug.log(Timegrid.l10n.xmlErrorMessage + " " + url + "\n" + statusText);
         tg.hideLoadingMessage();
     };
     var fDone = function(xmlhttp) {
@@ -120,7 +123,8 @@ Timegrid._Impl.prototype.loadXML = function(url, f) {
 Timegrid._Impl.prototype.loadJSON = function(url, f) {
     var tg = this;
     var fError = function(statusText, status, xmlhttp) {
-        alert(Timegrid.l10n.jsonErrorMessage + " " + url + "\n" + statusText);
+        //alert(Timegrid.l10n.jsonErrorMessage + " " + url + "\n" + statusText);
+        SimileAjax.Debug.log(Timegrid.l10n.xmlErrorMessage + " " + url + "\n" + statusText);
         tg.hideLoadingMessage();
     };
     var fDone = function(xmlhttp) {
