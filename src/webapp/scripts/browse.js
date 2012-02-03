@@ -66,6 +66,9 @@ function onLoadHelper() {
 
     var urls = ["data/schema.js"];
     var selected = coursesFromURI();
+    for (var i=0; i< selected.length; i++ {
+         possiblyLog({"picker-initial-course":value});
+    }
     // pulls picked classes from cookie and MySQL
 	var picked_classes = savedPickedClasses();
     // changes classes to courses and removes duplicates
@@ -338,7 +341,11 @@ function onAddMoreSelectChange() {
     }
 }
 
-
 function showPrereq(elmt, itemID) {
     Exhibit.UI.showItemInPopup(itemID, elmt, exhibit.getUIContext());
+}
+
+function logFacet(facetName) {
+    //log that facet has been uncollapsed
+    // possiblyLog
 }
