@@ -66,8 +66,8 @@ function onLoadHelper() {
 
     var urls = ["data/schema.js"];
     var selected = coursesFromURI();
-    for (var i=0; i< selected.length; i++ {
-         possiblyLog({"picker-initial-course":value});
+    for (var i=0; i< selected.length; i++) {
+         possiblyLog({"picker-initial-course":i});
     }
     // pulls picked classes from cookie and MySQL
 	var picked_classes = savedPickedClasses();
