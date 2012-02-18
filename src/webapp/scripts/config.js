@@ -119,12 +119,10 @@ var courses = [
     {   number:  "MAS",
         name:    "Media Arts and Sciences (Media Lab)"
     },
-/*
     {   number: "OR",
         name: "Operations Research",
         interdepartmental: true
     },
-*/
     {    number:    "AS",
         name:    "ROTC - Aerospace Studies"
     },
