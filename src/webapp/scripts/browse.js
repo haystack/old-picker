@@ -21,21 +21,6 @@ function possiblyLog(obj) {
     }
 }
 
-/**
-I don't think this is used anywhere
-
-Exhibit.Functions["building"] = {
-    f: function(args) {
-        var building = "";
-        args[0].forEachValue(function(v) {
-            building = v.split("-")[0];
-            return true;
-        });
-        return new Exhibit.Expression._Collection([ building ],  "text");
-    }
-};
-
-**/
 
 /*==================================================
  * Initialization
@@ -85,6 +70,7 @@ function onLoadHelper() {
         // simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Collection
         var pickedSections = new Exhibit.Collection("picked-sections", window.database);
         var pickedClasses = new Exhibit.Collection("picked-classes", window.database);
+
         pickedSections._update = function() {
             this._items = this._database.getSubjects("true", "picked");
             // defined in enableUnitAdder()
@@ -92,6 +78,10 @@ function onLoadHelper() {
         };
 		pickedClasses._update = function() {
 		    this._items = this._database.getSubjects("true", "sectionPicked");
+            this._items.visit(function(classID) {
+                window.database.getItem(classID).picked = true;
+                
+                });
 		    this._onRootItemsChanged();
 		};
         pickedSections._update();

@@ -53,10 +53,16 @@ function updateExhibitSections() {
             if (window.database.containsItem(sectionID) && sectionID.length != 0) {
                 window.database.addStatement(sectionID, 'picked', 'true');
                 window.database.addStatement(sectionID, 'color', getNewColor());
+
+                var classID = window.database.getItem(sectionIDtoClass(sectionID))["id"];
+                var data = {items: [ {"label":classID, "selected":"yes"}]};
+                window.database.loadData(data);
             }
         });
 
     window.exhibit.getCollection('picked-sections')._update();
+
+
     updateStoredDataFromExhibit();  
 }
 

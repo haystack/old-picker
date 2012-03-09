@@ -116,15 +116,16 @@
 
                             <div ex:role="facet" ex:facetClass="TextSearch"></div>
                             <hr/>
-                            <div id="facets" onclick="logFacet('offering')">
+                            <div id="facets">
                                 <div ex:role="facet" ex:expression=".course" ex:facetLabel="Course &raquo;" id='course-facet' ex:collapsible="true" ex:height="8em" ex:sortmode="count"></div>
+                                <div ex:role="facet" ex:expression=".selected" ex:facetLabel="Show Only Selected Classes &raquo;" ex:height="2em" ex:showMissing="false"></div>
                                 <div ex:role="facet" ex:expression=".level" ex:facetLabel="Level &raquo;" id='level-facet' ex:collapsible="true" ex:height="5em"></div>
                                 <div ex:role="facet" ex:expression=".hass_attribute" ex:facetLabel="HASS Category &raquo;" ex:collapsible="true" ex:showMissing='false' ex:height="7em"></div>
                                 <div ex:role="facet" ex:expression=".semester" ex:facetLabel="Also Offered In &raquo;" id='semester-facet' ex:selection="Spring" ex:collapsible="true" ex:height="7em" ex:showMissing='false'></div>
                                 <div ex:role="facet" ex:expression=".TQE" ex:facetLabel="TQE &raquo;" id='tqe-facet' ex:collapsible="true" ex:collapsed="true" ex:showMissing="false" ex:height="5em" onclick="logFacet('TQE')">></div>
                                 <div ex:role="facet" ex:expression=".units" ex:facetLabel="Units &raquo;" id='units-facet' ex:collapsible="true" ex:collapsed="true" onclick="logFacet('units')">></div>
                                 <div ex:role="facet" ex:expression=".total-units" ex:facetLabel="Total Units &raquo;" id='total-units-facet' ex:collapsible="true" ex:collapsed="true" onclick="logFacet('total-units')">></div>
-                                <div ex:role="facet" ex:expression=".offering" ex:facetLabel="Offering &raquo;" id='offering-facet' ex:selection="Currently Offered" ex:collapsible="true" ex:collapsed="true" ex:height="5em"></div>
+                                <div ex:role="facet" ex:expression=".offering" ex:facetLabel="Offering &raquo;" id='offering-facet' ex:selection="Currently Offered" ex:collapsible="true" ex:collapsed="true" ex:height="5em"  onclick="logFacet('offering')"></div>
 
                             </div>
                             
