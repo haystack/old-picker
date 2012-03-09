@@ -30,15 +30,28 @@ function onUnpick(button) {
     );
 };
 
+function sectionIDtoClass(sectionID) {
+    var db = window.exhibit.getDatabase();
+    var type = db.getObject(sectionID, "type");
+    var classID = db.getObject(sectionID, sectionTypeToData[type].linkage);
+    return classID;
+}
+
 function doPick(sectionID) {
+
     window.database.addStatement(sectionID, "picked", "true");
     window.database.addStatement(sectionID, "color", getNewColor());
     window.database.removeStatement(sectionID, "temppick", "true");
     window.exhibit.getCollection("picked-sections")._update();
 
     showHidePickDiv(sectionID, true);
+
+    var classID = window.database.getItem(sectionIDtoClass(sectionID))["id"];
+    var data = {items: [ {"label":classID, "selected":"yes"}]};
+    window.database.loadData(data);
 }
 function doUnpick(sectionID) {
+
     var color = window.database.getObject(sectionID, "color");
     releaseColor(color);
     
@@ -48,6 +61,9 @@ function doUnpick(sectionID) {
     window.exhibit.getCollection("picked-sections")._update();
     
     showHidePickDiv(sectionID, false);
+
+    var classID = window.database.getItem(sectionIDtoClass(sectionID))["id"];
+    window.database.removeStatement(classID, "selected", "yes");
 }
 
 function onMouseOverSection(div) {
