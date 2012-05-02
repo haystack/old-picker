@@ -125,12 +125,12 @@ function addCourses(courseIDs, urls) {
             }
         }
         if (regularCourses.length >0) {
-            urls.push('http://coursews.mit.edu/coursews/?term=2012'+term+'&courses=' + regularCourses.join(';'));
+            urls.push('http://coursews.mit.edu/coursews/?term=2013'+term+'&courses=' + regularCourses.join(';'));
         }
     }
     // Load data for HASS courses
     if (hass_d) {
-        urls.push('http://coursews.mit.edu/coursews/?term=2012'+term+'&hassd_only=y');
+        urls.push('http://coursews.mit.edu/coursews/?term=2013'+term+'&hassd_only=y');
         for (var j=0; j < courses.length; j++) {
             var course = courses[j];
             // loads static data for *all* courses
@@ -141,7 +141,7 @@ function addCourses(courseIDs, urls) {
 
 // Like addCourses but for only adding individual classes
 function addClass(courseIDs, urls) {
-    urls.push('http://coursews.mit.edu/coursews/?term=2012'+term+'&courses=' + courseIDs.join(';'));
+    urls.push('http://coursews.mit.edu/coursews/?term=2013'+term+'&courses=' + courseIDs.join(';'));
     for (var i=0; i < courseIDs.length; i++) {
         addStaticURLs(courseIDs[i], urls);
     }
