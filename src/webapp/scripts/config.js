@@ -1,4 +1,4 @@
-var term = "FA";
+var term = "SP";
 
 var courses = [
     {   number: "1",
