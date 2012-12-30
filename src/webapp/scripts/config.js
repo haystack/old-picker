@@ -135,9 +135,12 @@ var courses = [
     {   number:  "STS",
         name:    "Science, Technology, and Society"
     },
+// no data here
+/*
     {    number:    "SWE",
         name:    "Engineering School-Wide Electives"
     },
+*/
     {   number:  "SP",
 	    name:	 "Special Programs"
     },
