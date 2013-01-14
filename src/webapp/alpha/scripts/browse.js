@@ -44,12 +44,12 @@ function onLoad() {
     // documentaton: simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Database
     window.database = Exhibit.Database.create();
     // Loads file, then calls onLoadHelper
-    loadStaticData("../../data/user.php", window.database, onLoadHelper);
+    loadStaticData("data/user.php", window.database, onLoadHelper);
 }
 
 function onLoadHelper() {
 
-    var urls = ["../../data/schema.js"];
+    var urls = ["data/schema.js"];
     var selected = coursesFromURI();
     for (var i=0; i< selected.length; i++) {
          possiblyLog({"picker-initial-course":i});
@@ -149,10 +149,10 @@ function addClass(courseIDs, urls) {
 
 function addStaticURLs(courseID, urls) {
     if (courseID != '' && courseID != "hass_d") {
-	    urls.push("../../data/spring-fall/textbook-data/" + courseID + ".json");
+	    urls.push("data/spring-fall/textbook-data/" + courseID + ".json");
 		if (courseID == "6") {
-			urls.push("../../data/tqe.json");
-			urls.push("../../data/hkn.json");
+			urls.push("data/tqe.json");
+			urls.push("data/hkn.json");
 		}
 	}
 }
@@ -194,7 +194,7 @@ function savedPickedClasses() {
     var userID = window.database.getObject('user', 'userid');
     if (userID != null) {
         $.ajax({ type: 'POST',
-                url: '../../data/user.php',
+                url: 'data/user.php',
                 data: { 'userid' : userID, 'getPickedClasses' : true},
                 async: false,
                 dataType: 'json',
