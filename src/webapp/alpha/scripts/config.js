@@ -1,6 +1,4 @@
-var term = "SP";
-
-var current_year = "2013";
+var term = readCookie('termChosen');
 
 var courses = [
     {   number: "1",

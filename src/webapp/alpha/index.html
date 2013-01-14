@@ -2,30 +2,11 @@
 
 <html>
     <head>
-        <title>MIT Course Picker (beta)</title>
+        <title>MIT Course Picker (alpha)</title>
+	<script src="scripts/stored-data.js" type="text/javascript"></script>
         <script src="scripts/config.js" type="text/javascript"></script>
         <script src="scripts/index.js" type="text/javascript"></script>
         <link type="text/css" rel="stylesheet" href="styles/styles.css" />
-        <style>
-            #starting-interface {
-                padding: 2em;
-            }
-            #course-table {
-                padding-bottom: 1em;
-                margin-bottom: 1em;
-                border-bottom: 1px dotted #888;
-            }
-            #blurb {
-                font-style:     italic;
-                font-size:      120%;
-                width:          40em;
-                margin-bottom:  2.5em;
-            }
-            #browse-button {
-                font-size:      120%;
-                padding:        0.5em;
-            }
-        </style>
     </head>
     <body onload="onLoad();">
         <div id="title">
@@ -33,11 +14,11 @@
                 target="_blank"
                 href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-blackred-footer3.gif"
                     alt="MIT" width="62" height="36" border="0"></a>
-            <img src="images/picker-logo.gif" style="float:right;" />
+            <img src="../images/picker-logo.gif" style="float:right;" />
                 
-            <h1>MIT Course Picker</h1>
+            <h1>MIT Course Picker (alpha)</h1>
             <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
-                <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
+                <a href="../help.html" target="_blank"><img src="../images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
                     <a href="credits.html" target="_blank">Credits</a> &bull;
                     <a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a> &bull;
                 <a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog">Official Catalog</a> &bull;
@@ -47,6 +28,11 @@
         
         <div id="starting-interface">
             <div id="blurb">
+		<p class="choose-term-browse">Choose a term to browse: <input type="radio" value="FA" name="button-terms"> Fall</input> <input type="radio" name="button-terms" value="SP" checked> Spring</input> <input type="radio" name="button-terms" value="IAP"> IAP</input></p>
+		<!-- <button id="button-fall" onclick="browseTerm('FA')">Fall</button>
+		<button id="button-spring" onclick="browseTerm('SP')">Spring</button>
+		<p id="term-input">Welcome to Spring Term.</p> -->
+		<p>This is an Alpha testing version of the latest features on Course Picker, please go <a href="http://picker.mit.edu/">here</a> for the regular version.</p>
                 <p>Course Picker is a scheduling tool to help MIT students plan their schedules using a semantic data source and a clean user interface. 
                     Making subject selections with Picker might actually save some brain cells 
                     for your coursework!</p>
@@ -54,7 +40,7 @@
                     part of WebSIS and the Institute's scheduling system. Using this system
                     does not register classes on your behalf!</p>
                 
-                <p>For those who want to experiment and help us test the newest Course Picker features, please visit <a href="alpha/index.html" target="_blank">Course Picker(alpha)</a>. We ask for your help in improving this tool, please 
+                <p>As an Alpha release, we ask for your help in improving this tool, please 
                     <a href="mailto:course-picker@lists.csail.mit.edu">email us</a> with any 
                     suggestions or comments.
                     (<a href="credits.html" target="_blank">Credits</a>)
@@ -70,7 +56,10 @@
                     <p>
                         <span style="color: #a00; font-weight: bold;"><input type='checkbox' name='course' id='hass_d' value='hass_d'></input> Include HASS Distribution classes from all courses</span>
                     </p>
-                    <p><button id="browse-button" onclick="browseCourses();">Browse Courses</button></p>
+                    <p>
+			<button class="browse-button" onclick="browseCourses()">Browse Courses</button> OR
+			<button class="browse-button" onclick="browseAllCourses()">Browse All Courses</button> (may be slow)
+		    </p>
                 </td>
                 <td align="right">
                     <a href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-redgrey-footer1.gif"

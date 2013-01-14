@@ -44,12 +44,12 @@ function onLoad() {
     // documentaton: simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Database
     window.database = Exhibit.Database.create();
     // Loads file, then calls onLoadHelper
-    loadStaticData("data/user.php", window.database, onLoadHelper);
+    loadStaticData("../../data/user.php", window.database, onLoadHelper);
 }
 
 function onLoadHelper() {
 
-    var urls = ["data/schema.js"];
+    var urls = ["../../data/schema.js"];
     var selected = coursesFromURI();
     for (var i=0; i< selected.length; i++) {
          possiblyLog({"picker-initial-course":i});
@@ -125,12 +125,12 @@ function addCourses(courseIDs, urls) {
             }
         }
         if (regularCourses.length >0) {
-            urls.push('http://coursews.mit.edu/coursews/?term='+current_year+term+'&courses=' + regularCourses.join(';'));
+            urls.push('http://coursews.mit.edu/coursews/?term=2013'+term+'&courses=' + regularCourses.join(';'));
         }
     }
     // Load data for HASS courses
     if (hass_d) {
-        urls.push('http://coursews.mit.edu/coursews/?term='+current_year+term+'&hassd_only=y');
+        urls.push('http://coursews.mit.edu/coursews/?term=2013'+term+'&hassd_only=y');
         for (var j=0; j < courses.length; j++) {
             var course = courses[j];
             // loads static data for *all* courses
@@ -141,7 +141,7 @@ function addCourses(courseIDs, urls) {
 
 // Like addCourses but for only adding individual classes
 function addClass(courseIDs, urls) {
-    urls.push('http://coursews.mit.edu/coursews/?term='+current_year+term+'&courses=' + courseIDs.join(';'));
+    urls.push('http://coursews.mit.edu/coursews/?term=2013'+term+'&courses=' + courseIDs.join(';'));
     for (var i=0; i < courseIDs.length; i++) {
         addStaticURLs(courseIDs[i], urls);
     }
@@ -149,10 +149,10 @@ function addClass(courseIDs, urls) {
 
 function addStaticURLs(courseID, urls) {
     if (courseID != '' && courseID != "hass_d") {
-	    urls.push("data/spring-fall/textbook-data/" + courseID + ".json");
+	    urls.push("../../data/spring-fall/textbook-data/" + courseID + ".json");
 		if (courseID == "6") {
-			urls.push("data/tqe.json");
-			urls.push("data/hkn.json");
+			urls.push("../../data/tqe.json");
+			urls.push("../../data/hkn.json");
 		}
 	}
 }
@@ -194,7 +194,7 @@ function savedPickedClasses() {
     var userID = window.database.getObject('user', 'userid');
     if (userID != null) {
         $.ajax({ type: 'POST',
-                url: 'data/user.php',
+                url: '../../data/user.php',
                 data: { 'userid' : userID, 'getPickedClasses' : true},
                 async: false,
                 dataType: 'json',
@@ -338,4 +338,14 @@ function showPrereq(elmt, itemID) {
 function logFacet(facetName) {
     //log that facet has been uncollapsed
     // possiblyLog
+}
+
+function toggleClassBody(a) {
+    var div=$(a.parentNode).siblings("div")[0];
+    if (div.style.display == "none") {
+	div.style.display = "block";
+    } else {
+	div.style.display = "none";
+    }
+    howManyCollapsed();
 }

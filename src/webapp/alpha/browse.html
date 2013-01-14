@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
     <head>
-        <title>MIT Course Picker</title>
+        <title>MIT Course Picker (alpha)</title>
         <script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js?autoCreate=false&log=true" type="text/javascript"></script> 
         <script>
             window.jQuery = SimileAjax.jQuery;
@@ -9,8 +9,9 @@
         </script>
 
         <!--<script src="http://static.simile.mit.edu/timegrid/api-1.0-alpha2/timegrid-api.js?autoCreate=false" type="text/javascript"></script>-->
-        <script src="timegrid/timegrid-api.js" type="text/javascript"></script>
-
+        <script src="../timegrid/timegrid-api.js" type="text/javascript"></script>
+	
+        <script src="scripts/stored-data.js" type="text/javascript"></script>
         <script src="scripts/config.js" type="text/javascript"></script>
         <script src="scripts/browse.js" type="text/javascript"></script>
         <script src="scripts/unit-adder.js" type="text/javascript"></script>
@@ -21,18 +22,6 @@
         <script src="scripts/section-picking.js" type="text/javascript"></script>
         <script src="scripts/panel-switching.js" type="text/javascript"></script>
         <script src="scripts/load-and-process.js" type="text/javascript"></script>
-        <script src="scripts/stored-data.js" type="text/javascript"></script>
-
-        <script type="text/javascript">
-		function toggleClassBody(a) {
-			var div=$(a.parentNode).siblings("div")[0];
-			if (div.style.display == "none") {
-				div.style.display = "block";
-			} else {
-				div.style.display = "none";
-			}
-		}
-	</script>
 
         <link type="text/css" rel="stylesheet" href="styles/styles.css" />
         <link type="text/css" rel="stylesheet" href="styles/browse.css" />
@@ -40,10 +29,10 @@
     <body onload="onLoad();" ex:bubbleWidth="600">
         <div id="title"><table width="100%" cellpadding="0" cellspacing="0"><tr>
             <td>
-                <h1><a href="index.html">MIT Course Picker</a> <i>Spring 2013 Edition</i></h1>
+                <h1><a href="index.html">MIT Course Picker (alpha)</a> <i>Spring 2013 Edition</i></h1>
 
                 <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
-                    <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
+                    <a href="help.html" target="_blank"><img src="../images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
                     <a href="credits.html" target="_blank">Credits</a> &bull;
                     <a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a> &bull;
                     <a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog" target="_blank">Official Catalog</a> &bull;
@@ -58,7 +47,7 @@
                 </div>
             </td>
             <td align="right" style="padding-right: 20em">
-                <a href="index.html"><img src="images/picker-logo.gif" /></a>
+                <a href="index.html"><img src="../images/picker-logo.gif" /></a>
                 <a href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-blackred-footer3.gif"
                     alt="MIT" width="62" height="36" border="0"></a>
             <td>
@@ -101,9 +90,9 @@
         
             <!-- ==================== Classes Layer ==================== -->
             <div id="classes-layer">
-                <div ex:role="collection" ex:itemTypes="Class"></div>
+                <div ex:role="collection" id="class" ex:itemTypes="Class"></div>
+		<div ex:role="collection" id="lectures" ex:itemTypes="LectureSession"></div>
                 <table cellpadding="10" border="0" cellspacing="0">
-
                     <tr valign="top">
                         <td width="23%" style="background: #BFBDAC">
                             <p><select id="add-more-select" onchange="onAddMoreSelectChange();">add more courses</select>
@@ -126,7 +115,7 @@
                                 <div ex:role="facet" ex:expression=".units" ex:facetLabel="Units &raquo;" id='units-facet' ex:collapsible="true" ex:collapsed="true" onclick="logFacet('units')">></div>
                                 <div ex:role="facet" ex:expression=".total-units" ex:facetLabel="Total Units &raquo;" id='total-units-facet' ex:collapsible="true" ex:collapsed="true" onclick="logFacet('total-units')">></div>
                                 <div ex:role="facet" ex:expression=".offering" ex:facetLabel="Offering &raquo;" id='offering-facet' ex:selection="Currently Offered" ex:collapsible="true" ex:collapsed="true" ex:height="5em"  onclick="logFacet('offering')"></div>
-
+				<!--<div ex:role="facet" ex:expression=".timeAndPlace.split("-");[0]" ex:facetLabel="Time &raquo"; id='time-facet' ex:collapsible="true" collapsed="true" ex:height="5em" onclick="logFacet('timeAndPlace')" ex:collectionID="lectures"></div>-->
                             </div>
                             
                             <p style="margin-top: 3em; text-align: center;">
@@ -138,6 +127,9 @@
                             </p>
                         </td>
                         <td>
+			    <button type="button" onclick="collapseShowAll(this);"
+				ex:content="if(exists(.collapse), 'Collapse', 'Show')"
+				class="collapse-classes">Collapse</button>
                             <div ex:role="view"
                                 ex:orders=".listing-index"
                                 ex:possibleOrders=".label, .listing-index, .semester, .offering, .level, .category, .units, .total-units"
@@ -212,7 +204,7 @@
 			</div>
 
 		    <div id="bookspicker-button">
-            <a href="javascript:void(0)"><img src="images/bookspicker_button.jpg" onClick="submitBooksQuery();"></a>
+            <a href="javascript:void(0)"><img src="../images/bookspicker_button.jpg" onClick="submitBooksQuery();"></a>
             </div> 
 
             <div id="no-picked-classes">No Classes Picked.</div>
@@ -234,11 +226,10 @@
         <div ex:role="exhibit-lens" class="course-lens" style="display: none;" ex:itemTypes="Class">
             <div class="course-title">
                 <!--<img ex:src-subcontent="images/{{if(exists(.favorite),'yellow','gray')}}-star.png" class="favorite-icon" ex:classID-content="value" onclick="toggleFavorite(this);" />-->
-
                 <span ex:content=".semester" class="course-semester"></span>
 				
 				<!-- .url property may exclusively come from scraped data -->
-				<a id="link-show" href="#show-info" onclick="toggleClassBody(this)"><span ex:content="concat(value, ' - ', .label)" class="course-name"></span></a> <a ex:href-content="if(exists(.url), .url, concat('http://course.mit.edu/', value))" target="_blank">site</a>
+				<a class="link-show" href="#show-info" onclick="toggleClassBody(this)"><span ex:content="concat(value, ' - ', .label)" class="course-name"></span></a> <a ex:href-content="if(exists(.url), .url, concat('http://course.mit.edu/', value))" target="_blank">site</a>
 				
             </div>
 	    <div id="show-info" class="info-body" style="display:block;"> 
@@ -494,4 +485,3 @@
         </script>
     </body>
 </html>
-
