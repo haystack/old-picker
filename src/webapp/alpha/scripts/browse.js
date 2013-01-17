@@ -115,7 +115,7 @@ function addCourses(courseIDs, urls) {
             var course = courses[i];
             if (!course.loaded && courseIDs.indexOf(course.number) != -1) {
                 if (course.interdepartmental) {
-                    urls.push('data/spring-fall/interdepartmental-courses/'+course.number+'.json');
+                    urls.push('data/spring-fall/interdepartmental-courses/'+course.number+'.js');
                 }
                 else {
                     addStaticURLs(course.number, urls);
@@ -149,7 +149,7 @@ function addClass(courseIDs, urls) {
 
 function addStaticURLs(courseID, urls) {
     if (courseID != '' && courseID != "hass_d") {
-	    urls.push("data/spring-fall/textbook-data/" + courseID + ".json");
+	    urls.push("data/spring-fall/textbook-data/" + courseID + ".js");
 		if (courseID == "6") {
 			urls.push("data/tqe.json");
 			urls.push("data/hkn.json");
