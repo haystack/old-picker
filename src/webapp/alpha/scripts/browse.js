@@ -151,8 +151,8 @@ function addStaticURLs(courseID, urls) {
     if (courseID != '' && courseID != "hass_d") {
 	    urls.push("data/spring-fall/textbook-data/" + courseID + ".js");
 		if (courseID == "6") {
-			urls.push("data/tqe.json");
-			urls.push("data/hkn.json");
+			urls.push("data/tqe.js");
+			urls.push("data/hkn.js");
 		}
 	}
 }
