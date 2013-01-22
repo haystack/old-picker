@@ -116,6 +116,11 @@ var courses = [
     {   number: "HST",
         name:   "Health Sciences and Technology"
     },
+    {
+	number: "GEL",
+	name:   "Engineering Leadership",
+	interdepartmental: true
+    },
     {   number:  "MAS",
         name:    "Media Arts and Sciences (Media Lab)"
     },
