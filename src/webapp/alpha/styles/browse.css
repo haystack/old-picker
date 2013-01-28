@@ -384,12 +384,26 @@ div.comments div.input {
 
 
 #bookspicker-button a:hover {
-	background:url(http://bookspicker.mit.edu/images/booksPickerButton_over.png) 0 0 no-repeat;;
+	background:url(http://bookspicker.mit.edu/images/booksPickerButton_over.png) 0 0 no-repeat;
 }
 
 #bookspicker-button a:active {
-	background:url(http://bookspicker.mit.edu/images/booksPickerButton_down.png) 0 0 no-repeat;;
+	background:url(http://bookspicker.mit.edu/images/booksPickerButton_down.png) 0 0 no-repeat;
 }
+
+#export-google-cal-button img {
+    display:block;
+    width: 200px;
+    height: 80px;
+    text-decoration: none;
+    margin: 0 auto;
+    -moz-box-shadow: 3px 3px 4px #999; /* Firefox */
+    -webkit-box-shadow: 3px 3px 4px #999; /* Safari/Chrome */
+    box-shadow: 3px 3px 4px #999; /* Opera and other CSS3 supporting browsers */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";/* IE 8 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');/* IE 5.5 - 7 */ 
+}
+
 
 #classes-layer  button.collapse-classes{
     width:          7em;
