@@ -95,10 +95,11 @@ var exportCalendarToGoogle = function() {
                                   }
                              });
                           })(number + " "+ type);
+                }
              }
         }
+        alert("Picked courses has been loaded into calendar.");
       }
-    }
 
   var day2ToInt = function(day2) {
       return {'WE' : 0, 'TH' : 1, 'FR' : 2, 'SA' : 3, 'SU' : 4, 'MO' : 5, 'TU' : 6}[day2]
