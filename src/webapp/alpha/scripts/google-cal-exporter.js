@@ -13,9 +13,13 @@ var exportCalendarToGoogle = function() {
     var apiKey = 'AIzaSyA4eSND4AU5UDdWpByNj868ABowMKM0Ge8';
 
     var withGApi = function() {
-        gapi.client.setApiKey(apiKey);
-        gapi.auth.init(checkAuth);
-      }
+      console.log("gapi loaded");
+      setTimeout(function() {
+          gapi.client.setApiKey(apiKey);
+          gapi.auth.init(checkAuth);
+        }, 100);
+    }
+    
     var checkAuth = function() {
         gapi.auth.authorize({client_id: clientId, scope: scope, immediate: false}, handleAuthResult);
     }
@@ -208,4 +212,3 @@ var exportCalendarToGoogle = function() {
 
   head.appendChild(jqScript);
 }
-
