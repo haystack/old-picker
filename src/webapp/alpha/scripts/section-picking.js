@@ -133,4 +133,5 @@ function toggleBody(a, collapse) {
     } else {
 	div.style.display = "none";
     }
+    howManyCollapsed();
 }
