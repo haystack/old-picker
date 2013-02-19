@@ -38,7 +38,8 @@ function possiblyLog(obj) {
  * Set up a LAMP server, test on a url that includes "localhost"
 **/
 
-function onLoad() { 
+function onLoad() {
+    alertLoadData();
     // simile-widgets.org/wiki/SimileAjax/Debug
     SimileAjax.Debug.silent = false;
     // documentaton: simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Database
@@ -348,4 +349,18 @@ function toggleClassBody(a) {
 	div.style.display = "none";
     }
     howManyCollapsed();
+}
+
+//Checks if the browser is Chrome, if so, prompts user to load data
+function alertLoadData() {
+    var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+    var secure = isSecure();
+    if (is_chrome && secure && !sessionStorage.clickedShield) {
+	var r=confirm('If you are using Chrome, please click on the faded SHIELD to the right of the address bar (next to the "Favorites" star) to load and save your selections.');
+	if (r==true) {
+	    if(typeof(Storage)!=="undefined") {
+		    sessionStorage.clickedShield=true;
+	    }
+	}
+    }
 }
