@@ -351,6 +351,12 @@ function toggleClassBody(a) {
     howManyCollapsed();
 }
 
+//Checks to see if location is secure (ie uses https)
+function isSecure()
+{
+   return location.protocol == 'https:';
+}
+
 //Checks if the browser is Chrome, if so, prompts user to load data
 function alertLoadData() {
     var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
