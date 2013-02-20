@@ -81,12 +81,13 @@ if (isset($_SERVER['SSL_CLIENT_S_DN_CN'])) {
 	$userid = getUser($athena, $_SERVER['SSL_CLIENT_S_DN_Email']);
 }
 
-else if (isset($_COOKIE['loggedIn'])) {
+// Not doing anything in live website.
+/**else if (isset($_COOKIE['loggedIn'])) {
     if ($_COOKIE['loggedIn'] == "true") {
         $athena = 'lizs';
         $userid = getUser($athena, 'lizs@mit.edu');
     }
-}
+}**/
 
 $items = array();
 
