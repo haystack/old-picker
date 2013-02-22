@@ -475,6 +475,21 @@
 						</div>
 						<div class="message"></div>
 					</div>
+					<br>
+					<div ex:id-subcontent="enrollment-{{value}}" class="attendance">
+					    <div class="info">
+						Picker Enrollment Number:
+						<br/>
+						<div ex:if="exists(!class-enrollment)">
+						    <div class="class-enrollment-number"><span ex:content="!class-enrollment.number" class="course-enrollment"></span>
+						    enrolled </div>
+						    <div>None enrolled</div>
+						</div>
+						<br/>
+						<button type="button" onclick="enrollUnenroll(this);"
+							ex:content="if(exists(.enrolled), 'Enroll', 'Disenroll')">Enroll</button>
+					    </div>
+					</div>
                     <div class="report-errors">
                         <a ex:href-subcontent="mailto:course-picker@lists.csail.mit.edu?subject=Data Error in course {{value}}">Report Error</a>
                 </td>

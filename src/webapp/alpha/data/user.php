@@ -121,7 +121,7 @@ if (isset($userid)) {
 // pull average ratings
 $result = mysql_query("SELECT r_classid, AVG(r_rating),
 	COUNT(r_rating) FROM ratings
-	WHERE r_type=1 GROUP BY r_classid;;");
+	WHERE r_type=1 GROUP BY r_classid;");
 while ($row = mysql_fetch_row($result)) {
 	$items[] = '{"type":"UserData","label":"AvgRating-' . $row[0] . '",
 		"class-avg-rating-of":"' . $row[0] . '",
@@ -143,6 +143,16 @@ while ($row = mysql_fetch_row($result)) {
 	$string .= '}';
 	
 	$items[] = $string;
+}
+
+// pull enrollment numbers
+$result = mysql_query("SELECT r_classid, COUNT(r_userid)
+		      FROM attendance WHERE semester='S2013' GROUP BY r_classid;");
+
+while($row = mysql_fetch_row($result)) {
+	$items[] = '{"type":"UserData", "label":"Enrollment-' . $row[0] . '",
+	"class-enrollment":"' .$row[0] .'",
+	"number":"' . $row[1] . '"}';
 }
 
 mysql_close();
