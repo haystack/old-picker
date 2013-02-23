@@ -5,6 +5,7 @@
  * and persistent data, e.g. ratings and feedback.
  *
  * Includes a star rating plugin script
+ * Includes user enrollment plugin script
  */
 
 // holds various dependent functions
@@ -148,6 +149,29 @@ userData = {
 		this.reset(curValue, cancel);
 		
 		$(cancel).removeClass('on');
+	},
+	
+	enrollUnenroll: function(enrollment) {
+		var userID = userData.getUserID($(enrollment).parent()[0]);
+		
+		if (userID != null) {
+			if ($(enrollment).text() == "Enroll") {
+				$(enrollment).text("Disenroll");
+				$.post('./scripts/post.php', {
+					'userid': userID,
+					'class' : $(enrollment).parent().attr('classid'),
+					'enroll': '1'
+				});
+			}
+			
+			else {
+				$(enrollment).text("Enroll");
+				$.post('./scripts/post.php', {
+					'userid': userID,
+					'class' : $(enrollment).parent().attr('classid'),
+					'enroll': '0'
+				});
+			}
+		}
 	}
-
 }

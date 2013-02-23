@@ -31,6 +31,22 @@ if(isset($_POST['userid']) && !empty($_POST['userid'])) {
 					or die (mysql_error());	
 			echo $rating;
 		}
+		//userid, class, enrollment details
+		if(isset($_POST['enroll'])) {
+			$enroll = (int)$_POST['enroll'];
+			
+			if($enroll == 1) {
+				mysql_query("INSERT INTO attendance (r_userid,r_classid,semester)
+					VALUES ($userid,'$class','S2013') ON DUPLICATE KEY
+					UPDATE r_userid=$userid")
+					or die (mysql_error());
+			}
+			else {
+				mysql_query("DELETE FROM attendance WHERE r_userid=$userid
+				AND r_classid='$class';")
+				or die (mysql_error());
+			}
+		}
 		else if (isset($_POST['comment']) && !empty($_POST['comment'])) {
             // userid, class, comment set; rating and deleteComment not set
 			if (!isset($_POST['deleteComment'])) {

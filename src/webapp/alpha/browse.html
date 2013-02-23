@@ -477,7 +477,8 @@
 					</div>
 					<br>
 					<div ex:id-subcontent="enrollment-{{value}}" class="attendance">
-					    <div class="info">
+					    <div class="info"
+						ex:classid-content="value">
 						Picker Enrollment Number:
 						<br/>
 						<div ex:if="exists(!class-enrollment)">
@@ -486,8 +487,8 @@
 						    <div>None enrolled</div>
 						</div>
 						<br/>
-						<button type="button" onclick="enrollUnenroll(this);"
-							ex:content="if(exists(.enrolled), 'Enroll', 'Disenroll')">Enroll</button>
+						<button type="button" onclick="userData.enrollUnenroll(this);"
+						    ex:content="if(exists(!class-uenrolled-in), 'Disenroll', 'Enroll')"></button>
 					    </div>
 					</div>
                     <div class="report-errors">

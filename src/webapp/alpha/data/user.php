@@ -2,6 +2,7 @@
 
 // This file stores user data using MySQL
 // Generates course ratings
+// Checks whether user is enrolled in a class
 
 ini_set('display_errors', 'On');
 ini_set('allow_url_fopen', 'true');
@@ -112,6 +113,17 @@ if (isset($userid)) {
 		if (count($rating_elts) > 0)
 			$str .= ', ' . implode(', ', $rating_elts);
 		$str .= '}';
+		
+		$items[] = $str;
+	}
+	
+	// pull user's enrollment details
+	$result = mysql_query("SELECT r_classid FROM attendance
+		WHERE r_userid=$userid;");
+	while ($row = mysql_fetch_row($result)) {
+		
+		$str = '{"type":"UserData","label":"UserEnrollment-' . $row[0] . '",
+			"class-uenrolled-in":"' . $row[0] . '"}';
 		
 		$items[] = $str;
 	}
