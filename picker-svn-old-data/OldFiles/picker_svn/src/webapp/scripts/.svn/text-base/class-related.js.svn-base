@@ -1,0 +1,76 @@
+/*
+ * @description Maintenance of picked-classes
+ * class-related.js
+ */
+ 
+// no elegant way to do this, since multiple sections might correspond to a given class.
+// other than this, we'd have to figure out each time whether to actually mark a class as
+// added or deleted based on the classes each section in picked-sections corresponds to.
+function enableClassList() {
+	var collection = window.exhibit.getCollection("picked-sections");
+    collection.addListener({ onItemsChanged: function() { 
+        var sections = collection.getRestrictedItems();
+        var classes = new Exhibit.Set();
+        if (sections.size() > 0) {
+            sections.visit(function(sectionID) {
+                var type = window.database.getObject(sectionID, "type");
+                var classID = window.database.getObject(sectionID, sectionTypeToData[type].linkage);
+
+                classes.add(classID);
+            })
+        }
+     
+        var pickedClasses = window.exhibit.getCollection("picked-classes");
+        pickedClasses._items = classes;
+        pickedClasses._onRootItemsChanged();
+        
+        updateCookies();
+        
+        // blurb to update pre-registration div
+                
+        if (classes.size() > 0) {
+            var div = document.getElementById('pre-register');
+            var text = ['<form method=post action="http://student.mit.edu/catalog/prereg_message.cgi">'];
+            classes.visit(function(classID) {
+                text.push('<input type="hidden" name="STATUS" value="Add">'
+                            + '<input type="hidden" name="SUBJECT" value="' + classID + '">'
+                            + '<input type="hidden" name="UNIT" value="">'
+                            + '<input type="hidden" name="TITLE" value="">'
+                            + '<input type="hidden" name="LP" value="">');
+            });
+            text.push('<INPUT TYPE="submit" VALUE="Pre-register these classes"></FORM>');
+        
+            div.innerHTML = text.join('');
+            }
+        }
+    });
+}
+
+function updateCookies() {
+    var exDate = new Date();
+    exDate.setDate(exDate.getDate() + 7); // default expiration in a week
+    
+    var sections = window.exhibit.getCollection("picked-sections").getRestrictedItems();
+    var classes = window.exhibit.getCollection("picked-classes").getRestrictedItems();
+    
+    document.cookie = 'picked-sections='+sections.toArray()+'; expires='+exDate+'; path=/';
+    document.cookie = 'picked-classes='+classes.toArray()+'; expires='+exDate+'; path-/';
+}
+
+function checkForCookies(courseIDs) {
+    var elts = [ ];
+    
+    stringArr = readCookie('picked-sections');
+    elts = stringArr.split(',');
+    for (var i=0; i<elts.length; i++) {
+        var sectionID = elts[i];
+        if (sectionID.length > 0) {
+            window.database.addStatement(sectionID, "picked", "true");
+            window.database.addStatement(sectionID, "color", getNewColor());
+        }
+    }
+    window.console.log("pre update " + document.cookie);
+    window.exhibit.getCollection("picked-sections")._update();
+    
+    window.console.log(window.exhibit.getCollection('picked-sections'));
+}

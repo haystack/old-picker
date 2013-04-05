@@ -1,0 +1,7 @@
+./scrape-one-page hass_hd1
+./scrape-one-page hass_hd2
+./scrape-one-page hass_hd3
+./scrape-one-page hass_hd4
+./scrape-one-page hass_hd5
+echo "Postprocessing HASS-D courses"
+java -jar ../../../tools/juggler.jar -code ./post-process.js -out-file ./processed-json/hass_d.json -file ./scraped-json/hass_hd1.json -file ./scraped-json/hass_hd2.json -file ./scraped-json/hass_hd3.json -file ./scraped-json/hass_hd4.json -file ./scraped-json/hass_hd5.json

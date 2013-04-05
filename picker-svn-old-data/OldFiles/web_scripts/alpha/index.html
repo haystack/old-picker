@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+    <head>
+        <title>MIT Course Picker (alpha)</title>
+	<script src="scripts/stored-data.js" type="text/javascript"></script>
+        <script src="scripts/config.js" type="text/javascript"></script>
+        <script src="scripts/index.js" type="text/javascript"></script>
+        <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+    </head>
+    <body onload="onLoad();">
+        <div id="title">
+            <a style="float:right;"
+                target="_blank"
+                href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-blackred-footer3.gif"
+                    alt="MIT" width="62" height="36" border="0"></a>
+            <img src="../images/picker-logo.gif" style="float:right;" />
+                
+            <h1>MIT Course Picker (alpha)</h1>
+            <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
+                <a href="../help.html" target="_blank"><img src="../images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
+                    <a href="credits.html" target="_blank">Credits</a> &bull;
+                    <a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a> &bull;
+                <a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog">Official Catalog</a> &bull;
+		<a href="http://ocw.mit.edu/" title="MIT's OpenCourseWare">OCW</a>
+            </div>
+        </div>
+        
+        <div id="starting-interface">
+            <div id="blurb">
+		<p class="choose-term-browse">Choose a term to browse: <input type="radio" value="FA" name="button-terms"> Fall</input> <input type="radio" name="button-terms" value="SP" checked> Spring</input> <input type="radio" name="button-terms" value="IAP"> IAP</input></p>
+		<!-- <button id="button-fall" onclick="browseTerm('FA')">Fall</button>
+		<button id="button-spring" onclick="browseTerm('SP')">Spring</button>
+		<p id="term-input">Welcome to Spring Term.</p> -->
+		<p>This is an Alpha testing version of the latest features on Course Picker, please go <a href="http://picker.mit.edu/">here</a> for the regular version.</p>
+		<p>This Alpha testing version contains the following new features (with more features to come in the near future!):</p>
+		<ul>
+		    <li>Export your Picker selections to Google Calendar</li>
+		    <li>Choose from Fall, Spring, and IAP terms.</li>
+		    <li>How many Course Picker users are enrolled in a class.</li>
+		    <li>Browse all classes at once.</li>
+		    <li>Collapse/uncollapse course descriptions for easier viewing.</li>
+		</ul>
+                <p>Course Picker is a scheduling tool to help MIT students plan their schedules using a semantic data source and a clean user interface. 
+                    Making subject selections with Picker might actually save some brain cells 
+                    for your coursework!</p>
+                <p style="color: #800; font-weight: bold;">However, please note that this system is <u>not</u>
+                    part of WebSIS and the Institute's scheduling system. Using this system
+                    does not register classes on your behalf!</p>
+                
+                <p>As an Alpha release, we ask for your help in improving this tool, please 
+                    <a href="mailto:course-picker@lists.csail.mit.edu">email us</a> with any 
+                    suggestions or comments.
+                    (<a href="credits.html" target="_blank">Credits</a>)
+                    </p>
+            </div>
+            
+            <p>Pick courses in which you want to take classes:</p>
+            <div id="course-table">
+                <table id="course-list" cellpadding="2"></table>
+            </div>            
+            <table width="100%" cellspacing="0" cellpadding="0"><tr valign="top">
+                <td>
+                    <p>
+                        <span style="color: #a00; font-weight: bold;"><input type='checkbox' name='course' id='hass_d' value='hass_d'></input> Include HASS Distribution classes from all courses</span>
+                    </p>
+                    <p>
+			<button class="browse-button" onclick="browseCourses()">Browse Courses</button> OR
+			<button class="browse-button" onclick="browseAllCourses()">Browse All Courses</button> (may be slow)
+		    </p>
+                </td>
+                <td align="right">
+                    <a href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-redgrey-footer1.gif"
+                        alt="MIT" width="334" height="36" border="0"></a><br/>
+                </td>
+            </tr></table>
+            
+        </div>
+        <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+        </script>
+        <script type="text/javascript">
+            //_uacct = "UA-355145-1";  Old account.
+            _uacct = "UA-2506456-4"; // this one is for picker.mit.edu
+            urchinTracker();
+        </script>
+    </body>
+</html>

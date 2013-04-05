@@ -1,0 +1,5 @@
+SetHandler None
+
+AuthType SSLCert
+SSLVerifyClient optional
+ErrorDocument 401 /__scripts/needcerts
