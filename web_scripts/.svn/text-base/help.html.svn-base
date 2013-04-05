@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>MIT Course Picker (beta) - Help</title>
+        <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+    </head>
+    <body>
+        <div id="title">
+            <a style="float:right;"
+                target="_blank"
+                href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-blackred-footer3.gif"
+                    alt="MIT" width="62" height="36" border="0"></a>
+            <a style="float:right;"
+                href="index.html"><img src="images/picker-logo.gif" /></a>
+                
+            <h1><a href="index.html">MIT Course Picker (beta)</a></h1>
+            <div>
+                <a href="credits.html" target="_blank">Credits</a> &bull;
+                <a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a> &bull;
+                <a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog">Official Catalog</a> &bull;
+                <a href="http://ocw.mit.edu/" title="MIT's OpenCourseWare">OCW</a>
+            </div>
+        </div>
+        <div style="padding: 5em">
+            <h1>How to Use This Course Picker</h1>
+            <ol>
+                <li><b>Can I make several schedules?</b>
+                    <p>Yes, just open this course picker in several browser windows or tabs. They
+                        operate independently from one another.
+                    </p>
+                </li>
+                <li><b>Why can I not select some courses?</b>
+                    <p>We couldn't scrape all the data for all courses. You can help us scrape
+                        the data out of the official course catalogue and we'll incorporate that
+                        data into this application. Yes, you can help ease the pain of thousands
+                        of students. <a href="mailto:course-picker@lists.csail.mit.edu">Let us know</a>
+                        if you want to help and we'll tell you how.
+                    </p>
+                </li>
+                <li><b>How do I print my schedule properly?</b>
+                    <p><b>In Firefox 2.0:</b>
+                        <ol>
+                            <li>Click on the "full view" button near the top right corner of the web page.</li>
+                            <li>Select the browser's menu File &rarr; Print Preview.</li>
+                            <li>Select "Portrait" in the print preview dialog's toolbar, and set "Scale" to about 70%.</li>
+                            <li>Click "Page Setup" and check "Print Background (colors &amp; images)".</li>
+                            <li>Click OK.</li>
+                            <li>Then click "Print...".</li>
+                        </ol>
+                        <br/>
+                    </p>
+                </li>
+                <li><b>Which browsers are supported?</b>
+                    <p>We have tested on Firefox 2.0 on Windows and MacOS X, and Safari 3 on MacOS X.
+                    </p>
+                </li>
+            </ol>
+            
+            <h1>General Information</h1>
+            <ol>
+                <li><b>Where is the official course catalogue?</b> <a href="http://student.mit.edu/catalog/index.cgi">Here it is.</a>
+                </li>
+                <li><b>What do the "units" numbers mean?</b> The numbers mean, in order:
+                    <ul>
+                        <li>recitation and lecture</li>
+                        <li>lab, design, or fieldwork</li>
+                        <li>preparation</li>
+                    </ul>
+                    <br/>
+                </li>
+                <li><b>Where can I find more about HASS requirements?</b> See <a href="http://shass.mit.edu/undergraduate/hass">this official page</a>.
+                </li>
+                <li><b>What's HASS-D and where can I find more information?</b> HASS-D = HASS Distribution. 
+                    See <a href="http://shass.mit.edu/undergraduate/hass/hass-d">this official page</a>. Note that students entering in fall 2010 and later don't have to take subjects designated "HASS-D" but have different requirements.
+                    Here are <a href="http://shass.mit.edu/undergraduate/hass/hass-d/courses">the 5 categories</a>
+                    of HASS-D, with links leading you to those classes on the official course catalogue. 
+                </li>
+                <li><b>Where do the HKN statistics come from?</b> They come from the <a href="http://sixweb.mit.edu/">course 6 underground guide evaluations</a>
+                    gathered by Eta Kappa Nu (HKN).
+                </li>
+                <li><b>Who made this course picker?</b> See the <a href="credits.html">Credits page</a>.
+            </ol>
+        <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+        </script>
+        <script type="text/javascript">
+            _uacct = "UA-355145-1";
+            urchinTracker();
+        </script>
+    </body>
+</html>

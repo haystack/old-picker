@@ -1,0 +1,3 @@
+CWD="`pwd`"
+echo Scraping $1
+curl -s "http://127.0.0.1:10000/?url=http://student.mit.edu/catalog/$1.html&delay=3000&mode=scrape&scraper=file://$CWD/scraper.js" > scraped-json/$1.json

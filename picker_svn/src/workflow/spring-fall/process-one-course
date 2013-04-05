@@ -1,0 +1,27 @@
+COURSE=$1
+COUNT=$2
+
+PARAMS="-code ./post-process.js -out-file ./processed-json/$COURSE"".json"
+
+if [ "$COUNT" = "1" ] ; then
+  ./scrape-one-page "m$COURSE""a"
+  
+  PARAMS="$PARAMS -file ./scraped-json/m$COURSE""a.json"
+elif [ "$COUNT" = "2" ] ; then
+  ./scrape-one-page "m$COURSE""a"
+  ./scrape-one-page "m$COURSE""b"
+  
+  PARAMS="$PARAMS -file ./scraped-json/m$COURSE""a.json"
+  PARAMS="$PARAMS -file ./scraped-json/m$COURSE""b.json"
+else
+  ./scrape-one-page "m$COURSE""a"
+  ./scrape-one-page "m$COURSE""b"
+  ./scrape-one-page "m$COURSE""c"
+  
+  PARAMS="$PARAMS -file ./scraped-json/m$COURSE""a.json"
+  PARAMS="$PARAMS -file ./scraped-json/m$COURSE""b.json"
+  PARAMS="$PARAMS -file ./scraped-json/m$COURSE""c.json"
+fi
+
+echo "Postprocessing course $COURSE"
+java -jar ../../../tools/juggler.jar $PARAMS

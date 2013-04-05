@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>MIT Course Picker (beta) - Credits</title>
+        <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+    </head>
+    <body>
+        <div id="title">
+            <a style="float:right;"
+                target="_blank"
+                href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-blackred-footer3.gif"
+                    alt="MIT" width="62" height="36" border="0"></a>
+            <a style="float:right;"
+                href="index.html"><img src="images/picker-logo.gif" /></a>
+            
+            <h1><a href="index.html">MIT Course Picker (beta)</a></h1>
+            <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
+                <a href="help.html" target="_blank"><img src="images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
+                <a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a> &bull;
+                <a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog">Official Catalog</a> &bull;
+                <a href="http://ocw.mit.edu/" title="MIT's OpenCourseWare">OCW</a>
+            </div>
+        </div>
+        <div style="padding: 5em; width: 50em;">
+            <h1>Credits</h1>
+            <p>Course Picker first came together in January of 2007 as a Graduate Project using 
+                semantic web data and the <a href="http://simile-widgets.org/exhibit/">Exhibit framework</a>
+                developed by the <a href="http://simile.mit.edu/">SIMILE project</a> in 
+                <a href="http://csail.mit.edu/">CSAIL</a>. It is vitally important that knowledge 
+                at MIT be applicable to the real world. Knowledge for knowledge sake doesn't solve 
+                real world problems, so when the Exhibit framework became available it really 
+                needed a great application to showcase what can really be accomplished with very 
+                minimal code, no database, and a thin and light user interface. What grew is the 
+                mashup application called Course Picker. It takes multiple sources of data and 
+                presents them to the user in a simple and efficient user interface.
+            </p>
+            <p>The Course Picker application has evolved due to the contributions of many members 
+                in the MIT community. The following members were part of the original development 
+                team in CSAIL and the IS&amp;T sponsored project to provide a restful web service 
+                for course listings.
+            </p>
+            
+            <table cellspacing="20">
+                <tr><td colspan="4"><h3>Undergrad Students (UROP at CSAIL):</h3></td></tr>
+                <tr valign="top">
+                    <td><img src="images/photos/margaret.png" /></td>
+                    <td><img src="images/photos/losvedir.png" /></td>
+                    <td><img src="images/photos/masont.png" /></td>
+                    <td><img src="images/photos/nguo.png" /></td>
+                </tr>
+                <tr valign="top">
+                    <td>Margaret Leibovic</td>
+                    <td>Gabriel Durazo</td>
+                    <td>Mason Tang</td>
+                    <td>Nina Guo</td>
+                </tr>
+            </table>
+            
+            <table cellspacing="20"><tr valign="top">
+                <td>
+                    <h3>CSAIL Community Members</h3>
+                    <ul>
+                        <li><a href="http://people.csail.mit.edu/dfhuynh/">David Huynh</a></li>
+                        <li><a href="http://people.csail.mit.edu/karger/">David Karger</a></li>
+                        <li>Hal Abelson</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>IS&amp;T Community Members</h3>
+                    <ul>
+                        <li>Jerry Grochow</li>
+                        <li>Christine Meholic</li>
+                        <li>Wilson D'Souza</li>
+                        <li>Jim Repa</li>
+                        <li>Michael Berger</li>
+                        <li>Ian Bennett</li>
+                        <li>Steve Landry</li>
+                        <li>Huey S. Chan</li>
+                        <li>Dave Cohen</li>
+                        <li>Roberta Crumrine</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Registrar Community Members</h3>
+                    <ul>
+                        <li>Mary Callahan</li>
+                        <li>Jo Flessner-Filzen</li>
+                        <li>Wayne Johnson</li>
+                    </ul>
+                </td>
+            </tr></table>
+            
+            <p>If you would like to know anything specific about Course Picker or have a question 
+                please contact us using the following email 
+                <a href="mailto:course-picker@lists.csail.mit.edu">course-picker@lists.csail.mit.edu</a>.
+                And also please feel free to develop your own tools with the SIMILE developed stack 
+                of applications located at <a href="http://simile.mit.edu/">http://simile.mit.edu/</a>.
+            </p>
+        </div>
+        
+        <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+        </script>
+        <script type="text/javascript">
+            _uacct = "UA-355145-1";
+            urchinTracker();
+        </script>
+    </body>
+</html>
