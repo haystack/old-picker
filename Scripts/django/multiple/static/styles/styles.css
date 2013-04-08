@@ -1,0 +1,92 @@
+title {
+    font-family: Trebuchet MS, Tahoma, Helvetica, Arial, sans serif;
+    font-size:   100pt;
+    padding:     0;
+    margin:      0;
+}
+
+body {
+    font-family: Trebuchet MS, Tahoma, Helvetica, Arial, sans serif;
+    font-size:   10pt;
+    padding:     0;
+    margin:      0;
+}
+
+table {
+    font-size: 100%;
+    width:100%;
+}
+tr {
+    vertical-align: top;
+}
+
+div#title {
+    padding:        0.75em;
+    background:     #9996C5;
+    color:          #15243B;
+    z-index:        100;
+}
+#title h1 {
+    margin:         0px;
+    padding:        0px;
+    font-size:      150%;
+}
+#title a {
+    color:          white;
+}
+
+#title a img {
+    border: none;
+}
+
+#starting-interface {
+    padding: 2em;
+}
+
+div.course-title {
+    padding-top: 0.25em;
+    padding-left: 1em;
+    font-weight: bold;
+}
+
+div.block_header {
+    padding-top: 1.5em;
+    padding-left: 1em;
+    padding-bottom: .5em;
+    font-weight: bold;
+    background: #9996c5;
+    color: #FFFCE6;
+}
+
+#schedule-preview-pane {
+    z-index: 1;
+    position: fixed;
+    top: 1em;
+    right: 3px;
+    width: 20em;
+    background: #FFFCE6;
+    border: 1px solid #fcd1ac;
+    overflow: auto;
+    bottom: 0px;
+}
+
+#schedule-preview-pane div.title {
+    margin: 0;
+    padding: 0.25em 0.5em;
+    background: #fcd1ac;
+    color: #15243B;
+    text-align: center;
+}
+
+#class-layer div.title {
+    text-align: center;
+}
+
+#class-layer form {
+    text-align: center;
+}
+
+#schedule-preview-pane div#most-recent-comments {
+    width:300px;
+}
+

@@ -1,0 +1,14 @@
+{% load i18n comments_xtd %}
+{% load url from future %}
+<dl id="comments">
+  {% for comment in comment_list %}
+  <div style="margin-left:{{ comment.level }}0px; border-left:7px solid #9996c5; padding-right:300px">
+    <dt id="c{{ comment.id }}" style="background-color: #9996c5; padding-top:3px; padding-bottom:3px; width: 100%; color:white">
+      {{ comment.submit_date }}&nbsp;-&nbsp;{{ comment.name }}{% if comment.allow_thread %}&nbsp;-&nbsp;<a href="{{ comment.get_reply_url }}">{% trans "Reply" %}</a>{% endif %}
+    </dt>
+    <dd style="text-align: center"> 
+      <p>{{ comment.comment|render_markup_comment }}</p>
+    </dd>
+  </div>
+  {% endfor %}
+</dl>
