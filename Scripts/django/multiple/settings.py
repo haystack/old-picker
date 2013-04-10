@@ -16,12 +16,11 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'quanquan+multiple',                      
-        'USER': 'quanquan',                      
-        'PASSWORD': 'hof9924ne@!',  
+        'NAME': 'picker+classcomment',                      
+        'USER': 'picker',                      
+        'PASSWORD': 'haystackpicker',  
         'HOST': 'sql.mit.edu',                      
         'PORT': '',                      
-        'TEST_NAME': 'quanquan+tests+django-trial',
     }
 }
 
@@ -38,7 +37,7 @@ MEDIA_ROOT = os.path.join(PRJ_PATH, "media")
 MEDIA_URL = '/media/'
 
 STATIC_ROOT = os.path.join(PRJ_PATH, "static")
-STATIC_URL = '/static/styles/'
+STATIC_URL = '/classcomment/static/styles/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
