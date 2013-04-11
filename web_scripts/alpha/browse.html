@@ -491,6 +491,28 @@
 						    ex:content="if(exists(!class-uenrolled-in), 'Disenroll', 'Enroll')"></button>
 					    </div>
 					</div>
+					<div ex:id-subcontent="comment-{{value}}" class="classcomment">
+					    <script>
+						function processSlug(val) {
+						    return val.split(".").join("");
+						}
+					    </script>
+					    <div class="info"
+						ex:classid-content="value"
+						ex:title-content=".label"
+						ex:description-content=".description">
+						Picker Comments:
+						<br/>
+						<div ex:if="exists(!class-enrollment)">
+						    <div class="class-enrollment-number"><span ex:content="!class-enrollment.number" class="course-enrollment"></span>
+						    enrolled </div>
+						    <div>None enrolled</div>
+						</div>
+						<br/>
+						<button type="button" onclick="userData.getcomment(this, processSlug(value));"
+						    ex:content="if(exists(!class-uenrolled-in), 'Disenroll', 'Enroll')"></button>
+					    </div>
+					</div>
                     <div class="report-errors">
                         <a ex:href-subcontent="mailto:course-picker@lists.csail.mit.edu?subject=Data Error in course {{value}}">Report Error</a>
                 </td>
