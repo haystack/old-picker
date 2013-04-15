@@ -183,12 +183,12 @@ userData = {
 				'slug': slug,
 				'number': $(classcomment).parent().attr('classid'),
 				'title': $(classcomment).parent().attr('title'),
-				'description': $(classcomment).parent.attr('description')
-				/**'instructors': $(classcomment).parent.attr('instructors'),
-				'prereqs': $(classcomment).parent.attr('prereqs'),
-				'classtype': $(classcomment).parent.attr('classtype'),
-				'units': $(classcomment).parent.attr('units'),
-				'semester': $(classcomment).parent.attr('semester')**/
+				'description': $(classcomment).parent().attr('description')
+				/**'instructors': $(classcomment).parent().attr('instructors'),
+				'prereqs': $(classcomment).parent().attr('prereqs'),
+				'classtype': $(classcomment).parent().attr('classtype'),
+				'units': $(classcomment).parent().attr('units'),
+				'semester': $(classcomment).parent().attr('semester')**/
 			});
 		}
 	},
