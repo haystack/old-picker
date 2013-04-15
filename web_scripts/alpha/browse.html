@@ -509,7 +509,7 @@
 						    <div>None enrolled</div>
 						</div>
 						<br/>
-						<button type="button" onclick="userData.getcomment(this, processSlug(value));"
+						<button type="button" onclick="userData.getcomment(this, processSlug($(this).parent().attr('classid')));"
 						    ex:content="if(exists(!class-uenrolled-in), 'Disenroll', 'Enroll')"></button>
 					    </div>
 					</div>
