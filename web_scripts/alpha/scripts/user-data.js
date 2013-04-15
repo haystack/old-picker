@@ -173,10 +173,10 @@ userData = {
 				});
 			}
 		}
-	}
+	},
 	
 	getcomment: function(classcomment, slug) {
-		var userID = userData.getUserID($(enrollment).parent()[0]);
+		var userID = userData.getUserID($(classcomment).parent()[0]);
 		
 		if(userID != null) {
 			$.post('./scripts/getcomments.php', {
@@ -191,5 +191,5 @@ userData = {
 				'semester': $(classcomment).parent.attr('semester')**/
 			});
 		}
-	}
+	},
 }
