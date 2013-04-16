@@ -41,20 +41,8 @@ if(isset($_POST['slug'])) {
             $classid = mysql_insert_id();  
         }
     }
-    return getLatestComment($classid);
- }
+}
  
-function getLatestComment($classid) {
-    $result = mysql_query("SELECT slug FROM django_comments WHERE content_type_id = 10 AND object_pk = '$classid' ORDER BY submit_date;");
-    if(mysql_num_rows($result) > 0) {
-        $row = mysql_fetch_array($result);
-        return $row[0];
-    }
-    else {
-        return "No comments yet for this class.";
-    }
- }
+mysql_close();
  
- mysql_close();
- 
- ?>
+?>

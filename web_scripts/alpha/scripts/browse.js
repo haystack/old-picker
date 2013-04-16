@@ -46,6 +46,7 @@ function onLoad() {
     window.database = Exhibit.Database.create();
     // Loads file, then calls onLoadHelper
     loadStaticData("data/user.php", window.database, onLoadHelper);
+    //loadStaticData("data/getcomments.php", window.database, onLoadHelper);
 }
 
 function onLoadHelper() {

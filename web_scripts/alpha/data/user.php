@@ -169,6 +169,22 @@ while($row = mysql_fetch_row($result)) {
 
 mysql_close();
 
+mysql_connect('sql.mit.edu', 'picker', 'haystackpicker')
+	or die('MySQL connect failed');
+mysql_select_db('picker+classcomment');
+
+$result = mysql_query("SELECT number_name, title, id FROM mitclass;");
+while($row = mysql_fetch_row($result)) {
+	$classid = $row[2];
+	$commentresult = mysql_query("SELECT user_name, id FROM django_comments WHERE object_pk = '$classid' ORDER BY submit_date;");
+	if($rowone = mysql_fetch_row($commentresult)) {
+		$items[] = '{"type":"UserData", "label":"Comment-' . $row[0] . '",
+		"class-comment":"' .$row[0] .'",
+		"recent":" Last comment made by: ' . $rowone[0] . '"}';
+	}
+}
+
+mysql_close();
 
 echo '{"items": [' . implode(",", $items) . '] }';
 

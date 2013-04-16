@@ -191,5 +191,9 @@ userData = {
 				'semester': $(classcomment).parent().attr('semester')**/
 			});
 		}
+		
+		$.post('./data/user.php', {
+			'slug': slug
+		});
 	},
 }
