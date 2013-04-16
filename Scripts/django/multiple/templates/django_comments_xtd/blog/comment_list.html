@@ -6,20 +6,18 @@
 {% block header %}{{ block.super }}{% trans "MIT Course Picker Comment List" %}{% endblock %}
 
 {% block content %}
-<div style="width:100%; margin: 20px auto">
+<div style="width:100%; margin: 20px auto; font-size:15px;">
 
-  <p>{% trans "List of comments for <code>viewcomments.mitclass</code> with pagination." %}</p>
+  <p style="padding:10px 50px 20px 50px; text-align: center;">{% trans "List of all comments for MIT classes." %}</p>
 
   {% for comment in object_list %}
   <div id="comment-{{ comment.id }}" style="width:600px; margin:0 auto; padding:5px 0; border-top: 1px solid #ddd; font-size:0.9em">
 
-    {% if comment.user.is_staff %}
     <div style="display:inline-block; width:180px; padding: 0 5px; background:#eee; vertical-align:top">
       <a href="{% get_comment_permalink comment %}">permalink</a><br/>
       <span>{{ comment.submit_date|date:"DATETIME_FORMAT" }}</span><br/>
       <em>{{ comment.name }}</em>
     </div>
-    {% endif %}
 
     <div style="display:inline-block; width:400px; vertical-align:top">
       <div style="font-size:0.9em">
@@ -35,15 +33,7 @@
       {% endautoescape %}
       {% endif %}
     </div>
-
-    {% if not comment.user.is_staff %}
-    <div style="display:inline-block; width:180px; padding: 0 5px; background:#eee; vertical-align:top">
-      <a href="{% get_comment_permalink comment %}">permalink</a><br/>
-      <span>{{ comment.submit_date|date:"DATETIME_FORMAT" }}</span><br/>
-      <em>{{ comment.name }}</em>
-    </div>
-    {% endif %}
-
+    
   </div>
   {% endfor %}
 

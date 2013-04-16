@@ -16,7 +16,7 @@ urlpatterns = patterns('',
     # list all comments using pagination, newer first
     url(r'^comments$', 
         ListView.as_view(
-            queryset=XtdComment.objects.for_app_models("blog.quote"), 
+            queryset=XtdComment.objects.for_app_models("viewcomments.mitclass"), 
             template_name="django_comments_xtd/blog/comment_list.html",
             paginate_by=5),
         name='class-comments'),

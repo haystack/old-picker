@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 {% load i18n comments_xtd %}
 
-{% block header %}{{ block.super }}Class - Last 5 Comments{% endblock %}
+{% block header %}{{ block.super }}Class - Last 10 Comments{% endblock %}
 
 {% block content %}
 <p>{% trans "Last 5 comments for <code>viewcomments.mitclass</code>." %}</p>
 <p>{% trans "The template file make use of the <code>comments_xtd</code> templatetag module and the following tag:" %}</p>
 <pre style="padding: 5px; background:#eee">
-  {{ "{%"|escape }} render_last_xtdcomments 5 for blog.mitclass {{ "%}"|escape }}
+  {{ "{%"|escape }} render_last_xtdcomments 5 for viewcomments.mitclass {{ "%}"|escape }}
 </pre>
 <p>{% trans "It does not have pagination support." %}</p>
 <div style="width:100%; margin:20px 0">
