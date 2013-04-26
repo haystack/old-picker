@@ -1,7 +1,6 @@
 function onLoad() {
-    if (readCookie('termChosen') == null) {
-        writeCookie('termChosen', "SP");
-    }
+    writeCookie('termChosen', "FA");
+
     var installHandlers = function(td, num) {
         td.style.cursor = "pointer";
         td.onclick = function() {

@@ -1,4 +1,4 @@
-var term = "SP";
+var term = "FA";
 
 var current_year = "2013";
 
