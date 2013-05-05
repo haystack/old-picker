@@ -1,6 +1,6 @@
 var term = "FA";
 
-var current_year = "2013";
+var current_year = "2014";
 
 var courses = [
     {   number: "1",

@@ -127,7 +127,7 @@ function addCourses(courseIDs, urls) {
             }
         }
         if (regularCourses.length >0) {
-            urls.push('http://coursews.mit.edu/coursews/?term=2013'+term+'&courses=' + regularCourses.join(';'));
+            urls.push('http://coursews.mit.edu/coursews/?term='+current_year+term+'&courses=' + regularCourses.join(';'));
         }
     }
     // Load data for HASS courses

@@ -1,5 +1,7 @@
 var term = readCookie('termChosen');
 
+var current_year = "2014";
+
 var courses = [
     {   number: "1",
         name:   "Civil and Environmental Engineering"
