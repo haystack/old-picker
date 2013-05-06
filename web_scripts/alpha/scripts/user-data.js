@@ -176,21 +176,18 @@ userData = {
 	},
 	
 	getcomment: function(classcomment, slug) {
-		var userID = userData.getUserID($(classcomment).parent()[0]);
 		
-		if(userID != null) {
-			$.post('./scripts/getcomments.php', {
-				'slug': slug,
-				'number': $(classcomment).parent().attr('classid'),
-				'title': $(classcomment).parent().attr('title'),
-				'description': $(classcomment).parent().attr('description'),
-				'semester': $(classcomment).parent().attr('semester')
-				/**'instructors': $(classcomment).parent().attr('instructors'),
-				'prereqs': $(classcomment).parent().attr('prereqs'),
-				'classtype': $(classcomment).parent().attr('classtype'),
-				'units': $(classcomment).parent().attr('units'),
-				'semester': $(classcomment).parent().attr('semester')**/
-			});
-		}
+		$.post('./scripts/getcomments.php', {
+			'slug': slug,
+			'number': $(classcomment).parent().attr('classid'),
+			'title': $(classcomment).parent().attr('title'),
+			'description': $(classcomment).parent().attr('description'),
+			'semester': $(classcomment).parent().attr('semester')
+			/**'instructors': $(classcomment).parent().attr('instructors'),
+			'prereqs': $(classcomment).parent().attr('prereqs'),
+			'classtype': $(classcomment).parent().attr('classtype'),
+			'units': $(classcomment).parent().attr('units'),
+			'semester': $(classcomment).parent().attr('semester')**/
+		});
 	},
 }
