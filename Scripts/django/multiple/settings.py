@@ -4,12 +4,12 @@ import os
 
 PRJ_PATH = os.path.abspath(os.path.curdir)
 
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
     ('Quanquan Liu', 'quanquan@mit.edu'),
-    ('David Karger', 'karger@mit.edu'),
+    #('David Karger', 'karger@mit.edu'),
 )
 
 MANAGERS = ADMINS
@@ -39,6 +39,13 @@ MEDIA_URL = '/media/'
 
 STATIC_ROOT = os.path.join(PRJ_PATH, "static")
 STATIC_URL = '/classcomment/static/styles/'
+
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
+    },
+}
 
 # Additional locations of static files
 STATICFILES_DIRS = (
@@ -88,6 +95,7 @@ INSTALLED_APPS = (
     'django_comments_xtd',
     'django_markup',
     'south',
+    'haystack',
 )
 
 EMAIL_HOST          = "smtp.gmail.com" 
