@@ -4,12 +4,12 @@ import os
 
 PRJ_PATH = os.path.abspath(os.path.curdir)
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
     ('Quanquan Liu', 'quanquan@mit.edu'),
-    #('David Karger', 'karger@mit.edu'),
+    ('David Karger', 'karger@mit.edu'),
 )
 
 MANAGERS = ADMINS
