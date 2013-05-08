@@ -3,19 +3,19 @@
 <head>
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}styles.css">
     <title>{% block title %}MIT Course Picker Alpha{% endblock %}</title>
+    <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>    
     <script type = "text/javascript">
-        window.onload = function() { 
-            var a1 = document.getElementById("redirect1");
-            a1.onclick = function() {
-                window.top.location.href = "http://picker.scripts.mit.edu/classcomment/viewcomments/" + document.getElementById("redirect1").getAttribute('class');
-            return false;
-            }
-         }
+	$(window).load(function() { 
+        $(".redirect").click(function() {
+                 var loc = "http://picker.scripts.mit.edu/classcomment/viewcomments/" + $(this).attr('id');
+                 $(window.top.location).attr("href",  loc);
+             }); 
+ 	 });
     </script>
   </head>
-</body>
+<body style="text-align:center">
     <h2 style="text-align:center">Search Comments</h2>
-    <br>
+    <br><p>Click on the results to go to the class comment page.</p>
     <form style="text-align:center" method="get" action=".">
         <table>
             {{ form.as_table }}
@@ -32,10 +32,8 @@
 
             {% for result in page.object_list %}
                 <p>
-                    <a id="redirect1" class = {{ result.object.slug}} href = "{{ result.object.slug }}"> {{ result.object.title }} </a>
+                    <p id= {{ result.object.slug}} class="redirect" style="color:blue"> {{ result.object.title }} </p>
 		    {{ result.object.comment }} <a href = "{{ result.object.user_url }}">{{result.object.submit_date}}</a>
-
-
                 </p>
             {% empty %}
                 <p>No results found.</p>
