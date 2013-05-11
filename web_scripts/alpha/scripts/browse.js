@@ -47,6 +47,7 @@ function onLoad() {
     // Loads file, then calls onLoadHelper
     loadStaticData("data/user.php", window.database, onLoadHelper);
     //loadStaticData("data/getcomments.php", window.database, onLoadHelper);
+    document.getElementById("term_filter").setAttribute("ex:selection", current_term_facet);
 }
 
 function onLoadHelper() {

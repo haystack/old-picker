@@ -2,6 +2,8 @@ var term = "FA";
 
 var current_year = "2014";
 
+var current_term_facet = "Fall";
+
 var courses = [
     {   number: "1",
         name:   "Civil and Environmental Engineering"
