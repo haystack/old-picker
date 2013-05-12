@@ -1,0 +1,36 @@
+{% load comments i18n %}
+<script type="text/javascript">
+    function getCurrentURL() {
+        document.getElementById("redirect").setAttribute("value", window.location.href);
+    }
+</script>
+<body onload="getCurrentURL();">
+<form action="{% comment_form_target %}" method="post">{% csrf_token %}
+  {% if next %}<div><input type="hidden" name="next" value="{{ next }}" /></div>{% endif %}
+  {% for field in form %}
+    {% if field.is_hidden %}
+      <div>{{ field }}</div>
+    {% else %}
+      {% if field.errors %}{{ field.errors }}{% endif %}
+      <p
+        {% if field.errors %} class="error"{% endif %}
+        {% ifequal field.name "honeypot" %} style="display:none;"{% endifequal %}>
+        {% if field.name != "url" and field.name != "email" and field.name != "name" %}
+        {{ field.label_tag }} {{ field }}
+        {% elif field.name = "email" %}
+        <b>Enter your MIT email address. Only used for authentication purposes. Not displayed.</b><br><br>
+        {{ field.label_tag }} {{ field }} 
+        {% elif field.name = "name" %}
+        Enter comments below. After you submit your comment, you will receive a confirmation email. Please click the link in the email to post your comments.<br><br><br>
+        {{ field.label_tag }} {{ field }} 
+        {% endif %}
+      </p>
+    {% endif %}
+  {% endfor %}
+  <p class="submit">
+    <input type="submit" name="post" class="submit-post" value="{% trans "Post" %}" />
+    <input id = "redirect" type="hidden" name="next" value="" />
+  </p>
+</form>
+</body>
+
