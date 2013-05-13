@@ -4,7 +4,7 @@ import os
 
 PRJ_PATH = os.path.abspath(os.path.curdir)
 
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -90,7 +90,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.comments',
     'django.contrib.staticfiles',
-
+    
     'viewcomments',
     'django_comments_xtd',
     'django_markup',
@@ -108,11 +108,10 @@ SERVER_EMAIL        = DEFAULT_FROM_EMAIL
 EMAIL_SUBJECT_PREFIX = "[Picker] "
 
 # Fill in actual EMAIL settings above, and comment out the 
-# following line to let this django demo send emails
+# following line to let Course Picker send out confirmation emails
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 COMMENTS_APP = "django_comments_xtd"
 COMMENTS_XTD_CONFIRM_EMAIL = True
 COMMENTS_XTD_SALT = "es-war-einmal-una-bella-princesa-in-a-beautiful-castle"
 COMMENTS_XTD_MAX_THREAD_LEVEL = 10
-COMMENTS_XTD_MAX_THREAD_LEVEL_BY_APP_MODEL = {'projects.release': 1}
