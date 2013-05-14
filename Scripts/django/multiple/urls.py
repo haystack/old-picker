@@ -7,17 +7,16 @@ from django.views.generic import ListView, DateDetailView, DetailView
 from django_comments_xtd.models import XtdComment
 
 from viewcomments.models import MITClass
-from viewcomments.views import ClassDetailView
+
 from viewcomments import views
-
-
-admin.autodiscover()
+from viewcomments.views import ClassDetailView
 
 urlpatterns = patterns('views',
     url(r'^admin/',           include(admin.site.urls)),
     url(r'^viewcomments/',    include('haystack.urls')),
     url(r'^comments/',        include('django_comments_xtd.urls')),
     url(r'^feeds/comments/$', LatestCommentFeed(), name='comments-feed'),
+    url(r'^flag/(\d+)/', views.flag, name='comments-flag'),
 
     url(r'^viewcomments/(?P<slug>[-\w]+)/$',
         ClassDetailView.as_view(),

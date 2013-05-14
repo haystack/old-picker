@@ -1,10 +1,25 @@
 {% load i18n comments_xtd %}
 {% load url from future %}
+<head>
+    <script type="text/javascript">
+        function show_flag_confirm(id) {
+            var e = document.getElementById(id);
+            e.style.display = 'block';
+        }
+        
+        function hide_flag_confirm(id) {
+            var e = document.getElementById(id);
+            e.style.display = "none";
+        }    
+    </script>
+</head>
 <dl id="comments">
   {% for comment in comment_list %}
   <div style="margin-left:{{ comment.level }}0px; border-left:7px solid #9996c5; padding-right:300px">
     <dt id="c{{ comment.id }}" style="background-color: #9996c5; padding-top:3px; padding-bottom:3px; width: 100%; color:white">
       {{ comment.submit_date }}&nbsp;-&nbsp;{{ comment.name }}{% if comment.allow_thread %}&nbsp;-&nbsp;<a href="{{ comment.get_reply_url }}">{% trans "Reply" %}</a>{% endif %}
+      <a href="#" onclick="show_flag_confirm('flag_confirm');">Flag</a>
+      <div id = "flag_confirm" style = "display: none">&nbsp;&nbsp;&nbsp; Are you sure?  <a href="/classcomment/flag/{{ comment.id }}/?next=http://picker.scripts.mit.edu/{{ comment.get_absolute_url }}"> Yes </a> | <a href="" onclick="hide_flag_confirm(this);"> No </a> </div>
     </dt>
     <dd style="text-align: center"> 
       <p>{{ comment.comment|render_markup_comment }}</p>
