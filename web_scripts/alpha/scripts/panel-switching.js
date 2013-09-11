@@ -17,7 +17,7 @@ function onShowSchedulePreview() {
 }
 
 function showScheduleDetails() {
-    document.getElementById("classes-layer").style.visibility = "hidden";
+    document.getElementById("browsing-interface").style.visibility = "hidden";
     document.getElementById("schedule-preview-pane").style.visibility = "hidden";
     
     document.getElementById("schedule-details-layer").style.visibility = "visible";
@@ -28,7 +28,7 @@ function showScheduleDetails() {
 function showSchedulePreview() {
     document.getElementById("schedule-details-layer").style.visibility = "hidden";
     
-    document.getElementById("classes-layer").style.visibility = "visible";
+    document.getElementById("browsing-interface").style.visibility = "visible";
     document.getElementById("schedule-preview-pane").style.visibility = "visible";
     
     scroll(0, 0);

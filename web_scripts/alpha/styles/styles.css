@@ -16,42 +16,139 @@ tr {
  */
 #title {
     padding:        0.75em;
-    background:     #9996C5;
+    background:     #f7f7f7;
     color:          #15243B;
     z-index:        100;
+    width:          100%;
+    height:         60px;
 }
 #title h1 {
     margin:         0px;
     padding:        0px;
     font-size:      150%;
 }
-#title a {
-    color:          white;
-}
 
 #title a img {
     border: none;
 }
 
-#starting-interface {
-    padding: 2em;
+.container {
+    max-width:      1280px;
+    width:          100%;
+    margin:         0px auto;
+    position:       relative;
 }
+
+#title .container .grid-1 {
+    width:          50%;
+    float:          left;
+    margin-top:     20px;
+}
+
+#title .container .grid-1 img {
+    float:          left;
+}
+
+#title .container .grid-1 header {
+    position:       relative;
+}
+
+#title .container .grid-2 {
+    width: 50%;
+    float: right;
+    margin-top: 30px;
+}
+
+#title .container ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#title .container ul li {
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+
+#title .container ul li a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
 
 /* Migrated from inline styles index.html */
 
 #course-table {
     padding-bottom: 1em;
-    margin-bottom: 1em;
-    border-bottom: 1px dotted #888;
 }
-#blurb {
-    font-style:     italic;
+
+/* Newly added Alpha styles */
+
+.blurb {
+    color:          #DCDCDC;
     font-size:      120%;
-    width:          40em;
-    margin-bottom:  2.5em;
+    width:          100%;
+    background:     #9A3334;
 }
+
+.blurb .introduction {
+    padding: 2em 2em;
+    text-align: center;
+}
+
+.blurb .introduction button {
+    background: transparent;
+    margin-top: 20px;
+    color: #DCDCDC;
+    border-color: #DCDCDC;
+    font-size: 20px;
+    font-family: "brandon-grotesque",sans-serif;
+}
+
+.blurb .introduction button:hover {
+    background: #81A594;
+    border-color: black;
+    color: black;
+    cursor: pointer;
+}
+
+#starting-interface .class_wrapper {
+    background: #eee;
+}
+
+.class_wrapper .picking_classes {
+    padding-top: 20px;
+    color: black;
+}
+
+.browse-button {
+    background: transparent;
+}
+
+.browse-button:hover {
+    background: #9A3334;
+    cursor: pointer;
+}
+
 .browse-button {
     font-size:      120%;
     padding:        0.5em;
+    border:         solid;
+}
+
+.footer {
+    background: #81A594;
+}
+
+.footer .footer-elems {
+    padding: 20px;
+}
+
+.wrapper {
+    background:     #404040;
+    color:          #f7f7f7;
+    text-shadow:    none;
 }
 

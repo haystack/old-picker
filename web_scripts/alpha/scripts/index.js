@@ -98,3 +98,20 @@ function browseAllCourses() {
         document.location = "browse.html?courses=" + encodeURIComponent(courses.join(";"));
     }
 }
+
+function toggle_description() {
+    var description = document.getElementById("description_appear");
+    var welcome = document.getElementById("welcome_appear");
+    
+    var readMoreBtn = document.getElementById("read_more");
+    
+    readMoreBtn.onclick = function() {
+        if(description.style.display == "none") {
+            description.style.display = "block";
+            readMoreBtn.innerHTML = "Read Less";
+        } else {
+            description.style.display = "none";
+            readMoreBtn.innerHTML = "Read More";
+        }
+    }
+}

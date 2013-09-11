@@ -67,7 +67,6 @@ function onLoadHelper() {
     var fDone = function() {
         setupLogin();
 
-        document.getElementById("schedule-preview-pane").style.display = "block";
         document.getElementById("browsing-interface").style.display = "block";
         
         // simile-widgets.org/wiki/Exhibit/API/2.2.0/Data/Collection
@@ -370,5 +369,39 @@ function alertLoadData() {
 		    sessionStorage.clickedShield=true;
 	    }
 	}
+    }
+}
+
+function toggle_filters() {
+    var filters = document.getElementById("facets");
+    
+    var moreFiltersBtn = document.getElementById("more_filters");
+    
+    moreFiltersBtn.onclick = function() {
+        if(filters.style.display == "none") {
+            filters.style.display = "block";
+            moreFiltersBtn.innerHTML = "See Less Filters";
+        } else {
+            filters.style.display = "none";
+            moreFiltersBtn.innerHTML = "See More Filters";
+        }
+    }
+}
+
+function toggle_schedule_preview_pane() {
+    var shown_pane = document.getElementById("schedule-preview-pane");
+    var hide_pane = document.getElementById("schedule-preview-pane-collapsed");
+    
+    var hidePanelBtn = document.getElementById("show-panel-title");
+    var showPanelBtn = document.getElementById("hide-panel-title");
+    
+    hidePanelBtn.onclick = function() {
+        shown_pane.style.visibility = "hidden";
+        hide_pane.style.visibility = "visible";
+    }
+    
+    showPanelBtn.onclick = function() {
+        hide_pane.style.visibility = "hidden";
+        shown_pane.style.visibility = "visible";
     }
 }

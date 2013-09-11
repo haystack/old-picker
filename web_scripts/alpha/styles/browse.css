@@ -7,7 +7,15 @@
 }
 
 #add-more-select {
-    width: 100%;
+    width: 50%;
+    border: solid;
+    background: transparent;
+    color: #DCDCDC;
+}
+
+#add-more-select:hover {
+    background: #81A594;
+    color: black;
 }
 
 /*
@@ -18,14 +26,14 @@
 }
 #schedule-preview-pane {
     z-index:    1;
-    position:   fixed;
-    top:        1em;
+    top:        8em;
     right:      3px;
     width:      20em;
     background: #FFFCE6;
-    border:     1px solid #fcd1ac;
-	overflow:auto;
-	bottom:0px;
+	overflow:   auto;
+	bottom:     0px;
+    position:   fixed;
+    visibility: hidden;
 }
 
 #schedule-preview-pane > div {
@@ -34,13 +42,32 @@
 #schedule-preview-pane #mini-timegrid {
     padding:    0px;
 }
-#schedule-preview-pane div.title {
+#schedule-preview-pane #show-panel-title {
     margin:         0;
     padding:        0.25em 0.5em;
-    background:     #fcd1ac;
+    background:     #81A594;
     color:          #15243B;
     text-align:     center;
+    cursor:         pointer;
 }
+
+#schedule-preview-pane #show-panel-title:hover {
+    background: #FFFCE6;
+}
+
+#hide-panel-title {
+    margin:         0;
+    padding:        0.25em 0.5em;
+    background:     #81A594;
+    color:          #15243B;
+    text-align:     center;
+    cursor:         pointer;
+}
+
+#schedule-preview-pane div.title:hover {
+    cursor:         point;
+}
+
 #schedule-preview-pane div.title span {
     font-size:      120%;
     font-weight:    bold;
@@ -49,8 +76,30 @@
     font-size:      80%;
 }
 
+#schedule-preview-pane-collapsed {
+    width:      20em;
+    overflow:   auto;
+	bottom:     0px;
+    position:   fixed;
+    z-index:    1;
+    top:        95%;
+    right:      3px;
+}
+
+#schedule-preview-pane-collapsed #hide-panel-title:hover {
+    background: #FFFCE6;
+}
+
+#schedule-preview-pane-collapsed div.title {
+    margin:         0;
+    padding:        0.25em 0.5em;
+    background:     #81A594;
+    color:          #15243B;
+    text-align:     center;
+}
+
 #classes-layer {
-    margin-right:   20em;
+    margin: 10px 80px;
 }
 
 #schedule-details-layer {
@@ -81,12 +130,13 @@
     #schedule-details-layer-inner {
 	display: none
     }
+    
 }
 
 #schedule-details-layer div.title {
     margin:         0;
     padding:        0.25em 0.5em;
-    background:     #fcd1ac;
+    background:     #9A3334
     color:          #15243B;
 }
 #schedule-details-layer div.title span {
@@ -122,7 +172,6 @@ div.collapsed-facet {
 
 div.exhibit-facet-header {
     border:     none;
-    background: #FCD1AC;
     padding:    1px 2px;
     cursor:     pointer;
 }
@@ -393,8 +442,8 @@ div.comments div.input {
 
 #export-google-cal-button img {
     display:block;
-    width: 200px;
-    height: 80px;
+    width: 150px;
+    height: 60px;
     text-decoration: none;
     margin: 0 auto;
     -moz-box-shadow: 3px 3px 4px #999; /* Firefox */
@@ -404,10 +453,14 @@ div.comments div.input {
     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');/* IE 5.5 - 7 */ 
 }
 
-
-#classes-layer  button.collapse-classes{
+#classes-layer button.collapse-classes{
     width:          7em;
-    float:	    right;
-    margin-right:   2em;
-    margin-top:    3.5em;
+    float:          right;
+    margin-right:   1em;
+    margin-top:     1em;
+}
+
+.text_search {
+    width: 50%;
+    margin-left: 25%
 }

@@ -5,23 +5,33 @@
         <link type="text/css" rel="stylesheet" href="styles/styles.css" />
     </head>
     <body>
-        <div id="title">
-            <a style="float:right;"
-                target="_blank"
-                href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-blackred-footer3.gif"
-                    alt="MIT" width="62" height="36" border="0"></a>
-            <a style="float:right;"
-                href="index.html"><img src="../images/picker-logo.gif" /></a>
-            
-            <h1><a href="index.html">MIT Course Picker (alpha)</a></h1>
-            <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
-                <a href="../help.html" target="_blank"><img src="../images/question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
-                <a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a> &bull;
-                <a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog">Official Catalog</a> &bull;
-                <a href="http://ocw.mit.edu/" title="MIT's OpenCourseWare">OCW</a>
-            </div>
-        </div>
-        <div style="padding: 5em; width: 50em;">
+        <div class="wrapper">
+	    <div id="title">
+		<div class="container">
+		    <div class="grid-1">
+			<a target="_blank" href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-blackred-footer3.gif"
+			alt="MIT" width="62" height="36" border="0" /></a><h1><a href="index.html">Course Picker (alpha)</a><i> Fall 2013 Edition</i></h1>
+			<span id="httpsStatus"></span>
+				    <!-- logging in normally with httpsStatus uses certificates
+				    localhostLogin provides login capabilites when testing on a developer's localhost
+				    not for public use -->
+				    <span id="localhostLogin"></span>
+		    </div>
+		    <div class="grid-2">
+			<nav class = "navigation-menu">
+			    <ul>
+				<li><a href="help.html" target="_blank"> HELP!</a></li>
+				<li><a href="credits.html" target="_blank">Credits</a></li>
+				<li><a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a></li>
+				<li><a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog">Official Catalog</a></li>
+				<li><a href="http://ocw.mit.edu/" title="MIT's OpenCourseWare">OCW</a></li>
+			    </ul>
+			</nav>			
+		    </div>
+		</div>
+	    </div>
+	</div>
+        <div align="center" style="padding-left: 30%; width: 50em;">
             <h1>Credits</h1>
             <p>Course Picker first came together in January of 2007 as a Graduate Project using 
                 semantic web data and the <a href="http://simile-widgets.org/exhibit/">Exhibit framework</a>
@@ -86,6 +96,41 @@
                         <li>Mary Callahan</li>
                         <li>Jo Flessner-Filzen</li>
                         <li>Wayne Johnson</li>
+                    </ul>
+                </td>
+            </tr></table>
+            The development of <a href="http://picker.mit.edu/alpha/index.html">Course Picker (Alpha)</a> was intended as an update in terms of functionality and design to the original Course Picker. The following members were responsible for/contributed to its development.
+            <table cellspacing="20"><tr valign="top">
+                <td>
+                    <h3>Undergraduate Students (UROPS at CSAIL)</h3>
+                    <ul>
+                        <li>Quanquan Liu</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>CSAIL Community Members</h3>
+                    <ul>
+                        <li><a href="http://people.csail.mit.edu/karger/">David Karger</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>IS&amp;T Community Members</h3>
+                    <ul>
+                        <li>Huey S. Chan</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Registrar Community Members</h3>
+                    <ul>
+                        <li>Mary Callahan</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>MIT Community Members</h3>
+                    <ul>
+                        <li>Elizabeth Santorella</li>
+                        <li>Danny Ben-David</li>
+                        <li>Justin Holmgren</li>
                     </ul>
                 </td>
             </tr></table>

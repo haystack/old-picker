@@ -4,35 +4,27 @@
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}styles.css">
     <title>{% block title %}MIT Course Picker Alpha{% endblock %}</title>
   </head>
-  <body>
-    <div id="title"><table width="100%" cellpadding="0" cellspacing="0"><tr>
-            <td>
-                <h1><a href="http://picker.mit.edu/alpha/">MIT Course Picker (alpha)</a> <i>Spring 2013 Edition</i></h1>
-                <div style="position: relative; overflow: visible; z-index: 110; padding-left: 30px;">
-                    <a href="http://picker.mit.edu/help.html" target="_blank"><img src="{{ STATIC_URL }}question.png" style="border: 0; position: absolute; left: 0px; top: 0px;" /> HELP!</a> &bull;
-                    <a href="http://picker.mit.edu/credits.html" target="_blank">Credits</a> &bull;
-                    <a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a> &bull;
-                    <a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog" target="_blank">Official Catalog</a> &bull;
-
-                    <a href="http://ocw.mit.edu/" title="MIT's OpenCourseWare" target="_blank">OCW</a>
-					<span id="httpsStatus"></span>
-                    <!-- logging in normally with httpsStatus uses certificates
-                        localhostLogin provides login capabilites when testing on a developer's localhost
-                        not for public use -->
-					<span id="localhostLogin"></span>
-						
-                </div>
-            </td>
-            <td align="right" style="padding-right: 20em">
-                <a href="http://picker.mit.edu/alpha/"><img src="{{ STATIC_URL }}picker-logo.gif" /></a>
-                <a href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-blackred-footer3.gif"
-                    alt="MIT" width="62" height="36" border="0"></a>
-            <td>
-
-    </tr></table></div>
-    <div class="block_header">{% block header %}{% endblock %}</div>
-
-    {% block content %}
-    {% endblock %}
-  </body>
+    <div class="wrapper">
+      <div id="title">
+	<div class="container">
+	  <div class="grid-1">
+	    <a target="_blank" href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-blackred-footer3.gif"
+	    alt="MIT" width="62" height="36" border="0" /></a><a href="http://picker.mit.edu/alpha/index.html"><h1>Course Picker (alpha)</h1></a>
+	  </div>
+	  <div class="grid-2">
+	    <nav class = "navigation-menu">
+	      <ul>
+		<li><a href="http://picker.mit.edu/help.html" target="_blank"> HELP!</a></li>
+		<li><a href="http://picker.mit.edu/credits.html" target="_blank">Credits</a></li>
+		<li><a href="mailto:course-picker@lists.csail.mit.edu">Feedback</a></li>
+		<li><a href="http://student.mit.edu/catalog/index.cgi" title="MIT's Official Course Catalog" target="_blank">Official Catalog</a></li>
+		<li><a href="http://ocw.mit.edu/" title="MIT's OpenCourseWare" target="_blank">OCW</a></li>
+	      </ul>
+	    </nav>
+	  </div>
+	</div>
+      </div>
+      {% block content %}
+      {% endblock %}
+    </div>
 </html>

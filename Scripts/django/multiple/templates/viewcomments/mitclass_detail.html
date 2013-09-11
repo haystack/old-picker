@@ -1,67 +1,92 @@
 {% extends "base.html" %}
 {% load i18n comments comments_xtd %}
-
-{% block header %}{{ block.super }}{% trans "MIT Course Picker Comments" %}{% endblock %}
-
-{% block content %}
-<div id = "class-layer">
-  <table cellpadding="10" border="0" cellspacing="0">
-    <tr valign="top">
-      <td width="16%" style="background: #BFBDAC">
-	<div class="title">
-	<iframe src = "http://picker.scripts.mit.edu/classcomment/viewcomments/" width=300px; height=1000px; frameborder="0"; seamless></iframe>
+    <div class="blurb">
+      <div class="container">
+	<div class="introduction">
+	  {% block content %}
+	  <div class="title">
+	    <iframe width="100%" height="350px" src = "http://picker.scripts.mit.edu/classcomment/viewcomments/" frameborder="0"; seamless></iframe>
+	  </div>
 	</div>
-      </td>
-      <td>
-  <div class="course-title" style="font-size:20px"><H3>{{ object.number_name }}</H3></div>
-<div style="padding-left:20px; padding-top: 0px; font-size:20px; font-style:italic">{{ object.title}}</div></br>
-<div style="margin:10px 0; padding:0 150px 0 20px">
-  <blockquote style="font-size:15px; margin-right:380px">
-    {{ object.description|linebreaks }}
-  </blockquote>
-  <p style="padding: 0 10em;text-align:right">
-    <b>{{ object.semester }}</b>
-  </p>
-</div>
-
-<div id="comments" style="width:100%;margin:0 auto; padding-left:20px">
-  {% get_comment_count for object as comment_count %}
-  {% if comment_count %}
-  <H4 class="center">{{ comment_count }} comment{{ comment_count|pluralize }}</H4>
-  {% endif %}
-  <div id="comment-list">
-    {% render_comment_list for object %}
-
-</div>
-  <div style=" border-top: solid 1px; font-size:20px; margin-top:50px; margin-right:300px"
-    <H4>{% trans "Your Comment" %}</H4>
-  </div>
-  <div id="comment-form" style="width:400px; text-align:left">
-    {% render_comment_form for object %}
-  </div>
-</div>
-  </td>
-    </tr>
-  </table>
-</div>
-<div id="schedule-preview-pane">
-    <div class="title">
-	<span><b>Most Recent Comments</b></span>
-    </div>
-      <H3 style="padding:0 5px 0; text-align: center">Last 10 comments</H3>
-      <div class="most-recent-comments" style="width:280px">
-	{% get_xtdcomment_count as comment_count for viewcomments.mitclass %}
-	{% if comment_count %}
-	{% render_last_xtdcomments 10 for viewcomments.mitclass %}
-	{% else %}
       </div>
-      <div style="padding:10px 15px; background:#eee">No comments yet.</div>
-      {% endif %}
-      <p style="padding-left:10px">
-	<a href="{% url class-comments %}">
-	  {% trans "all comments" %}
-	</a>
-      </p>
     </div>
-</div>
-{% endblock %}
+    <div id = "class-layer">
+      <script>
+      	function toggle_comments() {
+	    var button = document.getElementById("recent_comment");
+	    var recent_comment = document.getElementById("schedule-preview-pane");
+	    
+	    button.onclick = function () {
+		if (recent_comment.style.visibility == "hidden") {
+		    recent_comment.style.visibility = "visible";
+		    button.innerHTML = "Hide Class Comments"; 
+		} else {
+		    recent_comment.style.visibility = "hidden";
+		    button.innerHTML = "Show Recent Comments";
+		}
+	    }
+	}
+    </script>
+      <button id="recent_comment" type=submit style="border: solid; margin-left: 45%" onclick="toggle_comments();" >Show Recent Comments</button></br></br>
+    <div class="course-title" style="font-size:20px"><H3>{{ object.number_name }}</H3></div>
+      <div style="padding-top: 0px; font-size:20px; font-style:italic">{{ object.title}}</div></br>
+      <div style="margin:10px 0; padding:0 150px 0 20px">
+	<blockquote style="font-size:15px; margin-right:380px">
+	  {{ object.description|linebreaks }}
+	</blockquote>
+	<p style="padding: 0 10em;text-align:right">
+	  <b>{{ object.semester }}</b>
+	</p>
+      </div>
+      <div id="comments" style="width:100%;margin:0 auto">
+	{% get_comment_count for object as comment_count %}
+	{% if comment_count %}
+	<H4 class="center">{{ comment_count }} comment{{ comment_count|pluralize }}</H4>
+	{% endif %}
+	<div id="comment-list">
+	  {% render_comment_list for object %}
+	</div>
+	<div style=" border-top: solid 1px; font-size:20px; margin-top:50px; margin-right:300px"
+	  <H4>{% trans "Your Comment" %}</H4>
+	</div>
+	<div id="comment-form" style="width:400px; margin-left:28%; text-align:center">
+	  {% render_comment_form for object %}
+	</div>
+    </div>
+    <div id="schedule-preview-pane" style="visibility: hidden">
+      <div class="title">
+	  <span><b>Most Recent Comments</b></span>
+      </div>
+	<H3 style="padding:0 5px 0; text-align: center">Last 10 comments</H3>
+	<div class="most-recent-comments" style="width:280px">
+	  {% get_xtdcomment_count as comment_count for viewcomments.mitclass %}
+	  {% if comment_count %}
+	  {% render_last_xtdcomments 10 for viewcomments.mitclass %}
+	  {% else %}
+	</div>
+	<div style="padding:10px 15px; background:#eee">No comments yet.</div>
+	{% endif %}
+	<p style="padding-left:10px">
+	  <a href="{% url class-comments %}">
+	    {% trans "all comments" %}
+	  </a>
+	</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+	  <div class="container">
+	      <div class="footer-elems">
+		  <div align="center">
+		      <a href="http://web.mit.edu/"><img src="http://web.mit.edu/graphicidentity/interface/mit-redgrey-footer1.gif"
+			  alt="MIT" width="334" height="36" border="0" /></a></br>
+		      <a href="http://picker.mit.edu/credits.html">Credits</a>
+		  </div>
+	      </div>
+	  </div>
+  </div>
+  {% endblock %}
+</body>
+</html>
+
+

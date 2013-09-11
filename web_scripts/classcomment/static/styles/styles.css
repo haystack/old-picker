@@ -1,8 +1,8 @@
 title {
     font-family: Trebuchet MS, Tahoma, Helvetica, Arial, sans serif;
     font-size:   100pt;
-    padding:     0;
     margin:      0;
+    padding:     0;
 }
 
 body {
@@ -14,25 +14,30 @@ body {
 
 table {
     font-size: 100%;
-    width:100%;
+    width:      60%;
+    color:      #DCDCDC;
+    padding-left: 38%;
 }
+
 tr {
     vertical-align: top;
 }
 
+td {
+    width: 30%;
+}
+
 div#title {
-    padding:        0.75em;
-    background:     #9996C5;
+    background:     #f7f7f7;
     color:          #15243B;
     z-index:        100;
+    width:          100%;
+    height:         60px;
 }
 #title h1 {
     margin:         0px;
     padding:        0px;
     font-size:      150%;
-}
-#title a {
-    color:          white;
 }
 
 #title a img {
@@ -90,3 +95,94 @@ div.block_header {
     width:300px;
 }
 
+.container {
+    width:          100%;
+    margin:         0px auto;
+    position:       relative;
+}
+
+#title .container .grid-1 {
+    width:          50%;
+    float:          left;
+    margin-top:     20px;
+}
+
+#title .container .grid-1 img {
+    float:          left;
+}
+
+#title .container .grid-1 header {
+    position:       relative;
+}
+
+#title .container .grid-2 {
+    width: 50%;
+    float: right;
+    margin-top: 30px;
+}
+
+#title .container ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#title .container ul li {
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+
+#title .container ul li a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#starting-interface {
+    padding: 2em;
+}
+
+.blurb {
+    color:          #DCDCDC;
+    font-size:      120%;
+    width:          100%;
+    background:     #9A3334;
+    padding: 2em 0;
+}
+
+#starting-interface .class_wrapper {
+    background: #eee;
+}
+
+.blurb .introduction {
+    padding: 3em 3em;
+    text-align: center;
+}
+
+#class-layer {
+    text-align: center;
+    width: 80%;
+    margin-left: 15%;
+}
+
+.footer {
+    background: #81A594;
+    padding: 20px 0;
+}
+
+#recent_comment {
+    background: transparent;
+    margin-top: 20px;
+    color: #DCDCDC;
+    border-color: #DCDCDC;
+    font-size: 20px;
+    font-family: "brandon-grotesque",sans-serif;
+}
+
+#recent_comment:hover {
+    background: #81A594;
+    border-color: black;
+    color: black;
+    cursor: pointer;
+}

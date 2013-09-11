@@ -4,7 +4,7 @@ import os
 
 PRJ_PATH = os.path.abspath(os.path.curdir)
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (

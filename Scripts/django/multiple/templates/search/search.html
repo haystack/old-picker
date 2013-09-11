@@ -1,6 +1,5 @@
 {% block content %}
 
-<head>
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}styles.css">
     <title>{% block title %}MIT Course Picker Alpha{% endblock %}</title>
     <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>    
@@ -11,45 +10,47 @@
                  $(window.top.location).attr("href",  loc);
              }); 
  	 });
+        function redirect_to_comment(a) {
+             $(window.top.location).attr("href", a);
+        }
     </script>
-  </head>
-<body style="text-align:center">
-    <h2 style="text-align:center">Search Comments</h2>
-    <br><p>Click on the results to go to the class comment page.</p>
-    <form style="text-align:center" method="get" action=".">
-        <table>
-            {{ form.as_table }}
-            <tr>
-                <td>&nbsp;</td>
-                <td>
-                    <input type="submit" value="Search">
-                </td>
-            </tr>
-        </table>
-
-        {% if query %}
-            <h3>Results</h3>
-
-            {% for result in page.object_list %}
-                <p>
-                    <p id= {{ result.object.slug}} class="redirect" style="color:blue"> {{ result.object.title }} </p>
-		    {{ result.object.comment }} <a href = "{{ result.object.user_url }}">{{result.object.submit_date}}</a>
-                </p>
-            {% empty %}
-                <p>No results found.</p>
-            {% endfor %}
-
-            {% if page.has_previous or page.has_next %}
-                <div>
-                    {% if page.has_previous %}<a href="?q={{ query }}&amp;page={{ page.previous_page_number }}">{% endif %}&laquo; Previous{% if page.has_previous %}</a>{% endif %}
-                    |
-                    {% if page.has_next %}<a href="?q={{ query }}&amp;page={{ page.next_page_number }}">{% endif %}Next &raquo;{% if page.has_next %}</a>{% endif %}
-                </div>
-            {% endif %}
-        {% else %}
-            {# Show some example queries to run, maybe query syntax, something else? #}
-        {% endif %}
-    </form>
-</body>
+    <div class="blurb">
+	<h2 style="text-align:center">Search Comments</h2>
+	<br><p align="center">Click on the results to go to the class comment page.</p>
+	<form style="text-align:center" method="get" action=".">
+	    <table>
+		{{ form.as_table }}
+		<tr>
+		    <td>&nbsp;</td>
+		    <td>
+			<input type="submit" value="Search">
+		    </td>
+		</tr>
+	    </table>
+    
+	    {% if query %}
+		<h3>Results</h3>
+    
+		{% for result in page.object_list %}
+		    <p>
+			<p id= {{ result.object.slug}} class="redirect" style="color:blue"> {{ result.object.title }} </p>
+			{{ result.object.comment }} <p onclick = "redirect_to_comment('http://picker.mit.edu/{{ result.object.get_absolute_url }}')" style="color:blue; text-decoration:underline">{{result.object.submit_date}}</a>
+		    </p>
+		{% empty %}
+		    <p>No results found.</p>
+		{% endfor %}
+    
+		{% if page.has_previous or page.has_next %}
+		    <div>
+			{% if page.has_previous %}<a href="?q={{ query }}&amp;page={{ page.previous_page_number }}">{% endif %}&laquo; Previous{% if page.has_previous %}</a>{% endif %}
+			|
+			{% if page.has_next %}<a href="?q={{ query }}&amp;page={{ page.next_page_number }}">{% endif %}Next &raquo;{% if page.has_next %}</a>{% endif %}
+		    </div>
+		{% endif %}
+	    {% else %}
+		{# Show some example queries to run, maybe query syntax, something else? #}
+	    {% endif %}
+	</form>
+    </div>
 {% endblock %}
 
